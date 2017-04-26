@@ -41,8 +41,3 @@
 * [Miach's PCAP Repository](http://aka-steve.com/AC/AC-Files/AC1%20PCAPS/All%20PCAPS/)
 * [Mag-nus Logs Repository](http://aka-steve.com/AC/AC-Files/AC1%20PCAPS/All%20Mag-nus%20Logs/)
 
-
-
-# ACEmulator World Data
-
-This repo will house the world data of the ACEmulator.  Please refer to the ACE repo for issue tracking.
