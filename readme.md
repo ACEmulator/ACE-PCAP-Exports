@@ -13,9 +13,9 @@
 
 ## Getting Started
 
-**This guide assumes you've followed the first four bullet-points found [on ACEEmulator Github](https://github.com/ACEmulator/ACE)**
+**This guide assumes you've followed the first four bullet-points found [on ACEmulator Github](https://github.com/ACEmulator/ACE)**
 
-* Download the latest release of the database and extract the zip.
+* Download the latest release of the database and extract the zip file.
 * Import the extracted SQL file into your SQL server.
 * Return to ACEmulator Github for additional instructions.
 
@@ -36,9 +36,6 @@
 
 ## FAQ
 
-#### 1. StyleCop.MSBuild.targets not found
-* _Problem_: When opening the solution, you get a "The imported project "{project path}\ACE\Source\packages\StyleCop.MSBuild.5.0.0-beta01\build\StyleCop.MSBuild.targets" was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk" error.
-* _Solution_: Right click "Solution 'ACE'" in the Solution Explorer and select "Restore Nuget Packages".  After it restores, right click "ACE (load failed)" and select "Reload Project."
 
 ## Other Resources
 * [Miach's PCAP Repository](http://aka-steve.com/AC/AC-Files/AC1%20PCAPS/All%20PCAPS/)
