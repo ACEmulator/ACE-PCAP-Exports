@@ -3,7 +3,7 @@
 **ACE-World is the World Database for ACEmulator, an emulator of the Asheron's Call game server**
  * MySQL and MariaDB are used as the database engine.
  * Currently intended for developers that wish to contribute to the ACEmulator project.
- * Initially the database will filled with data that was pulled directly from data submitted by players before the game closed.
+ * Initially the database will be filled with data that was pulled directly from data submitted by players before the game closed.
 
 ***
 ## Recommended Tools
