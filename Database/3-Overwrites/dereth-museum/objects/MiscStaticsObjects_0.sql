@@ -1,0 +1,6 @@
+REPLACE INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2109092273, 'Mosswart Place Cottages', 128, 0, 0, 0, 20, 9000, 0, 0, 0, 0, 0, 2097176, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557463, 0, 32769, 0, 0, 0, 1048, 0, '0');
+
+REPLACE INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2109092273, 12628, 56163, 21, 67.129, 97.2659, 30.6252, 0.675779, 0, 0, 0.737104);
+

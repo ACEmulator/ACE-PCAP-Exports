@@ -42459,15 +42459,6 @@ INSERT INTO `weenie_palette_changes` (`weenieClassId`, `subPaletteId`, `offset`,
 VALUES (32122, 67113355, 0, 0);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (34898, 'Saradin''s Vacant Golem', 16, 67116739, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437206, 0, 100667940, 0, 0, 0, 255, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33559702, 0.5, 104579, 872415332, 150995344, 536870933, 2098196, 0, 'AAA9AAAAAAA=');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (34898, 34898);
-
-INSERT INTO `weenie_palette_changes` (`weenieClassId`, `subPaletteId`, `offset`, `length`)
-VALUES (34898, 67116739, 0, 0);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (7404, 'Repair Golem', 16, 0, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437206, 0, 100667940, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33556427, 0.95, 104579, 872415325, 150995073, 536870933, 2098200, 0, 'AAA9AAAAAAA=');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
