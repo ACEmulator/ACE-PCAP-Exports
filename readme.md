@@ -15,7 +15,8 @@
 
 **This guide assumes you've followed the first four bullet-points found [on ACEmulator Github](https://github.com/ACEmulator/ACE)**
 
-* Download the latest release of the database and extract the zip file.
+* Click [here](https://github.com/ACEmulator/ACE-World/releases/latest) to download the [latest release](https://github.com/ACEmulator/ACE-World/releases/latest) of the database.
+* Extract the zip file.
 * Import the extracted SQL file into your SQL server.
 * Return to ACEmulator Github for additional instructions.
 
