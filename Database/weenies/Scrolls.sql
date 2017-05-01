@@ -1,1462 +1,4 @@
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (27234, 'Scroll of Eradicate Creature Magic Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676647, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3185, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (27234, 27234);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (45241, 'Scroll of Dirty Fighting Ineptitude Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100692255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5768, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (45241, 45241);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (45296, 'Scroll of Recklessness Mastery Other V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676449, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5823, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (45296, 45296);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (28009, 'Scroll of Spirit Loather', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676675, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3260, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (28009, 28009);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (21101, 'Scroll of Martyr''s Hecatomb VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676938, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2766, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (21101, 21101);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20238, 'Scroll of Anemia', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676933, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2062, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20238, 20238);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (28015, 'Scroll of Spirit Pacification', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676675, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3266, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (28015, 28015);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (31383, 'Scroll of Raven Fury', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307856, 0, 100676718, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3818, 0, 0, 0, 8, 0, 0, 0, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (31383, 31383);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20420, 'Scroll of Astyrrian''s Bane', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676653, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2110, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20420, 20420);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20242, 'Scroll of Brittle Bones', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676456, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2068, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20242, 20242);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20526, 'Scroll of Sashi Mu''s Kiss', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676446, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2230, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20526, 20526);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20548, 'Scroll of Gears Unwound', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676470, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2258, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20548, 20548);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (45330, 'Scroll of Shield Mastery Self VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692252, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5857, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (45330, 45330);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20253, 'Scroll of Might of the 5 Mules', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2086, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20253, 20253);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20545, 'Scroll of Feat of Radaz', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676461, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2254, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20545, 20545);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20461, 'Scroll of Cameron''s Curse', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677008, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2145, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20461, 20461);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2706, 'Scroll of Imperil Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100676928, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1327, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2706, 2706);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (51921, 'Sealed Scroll for Commander Presk', 8192, 0, 0, 0, 274, 25, 0, 0, 0, 0, 0, 2113552, 0, 100667503, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 101, 0, 0, 0, 0, 0, 33554776, 0, 137217, 872415275, 0, 536870932, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (51921, 51921);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20480, 'Scroll of Storm''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676948, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2158, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20480, 20480);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (28008, 'Aura of Infected Spirit Caress Scroll', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676674, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3259, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (28008, 28008);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (43316, 'Scroll of Nether Streak VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691569, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5347, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (43316, 43316);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20431, 'Scroll of Corrosive Flash', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677026, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2121, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20431, 20431);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20465, 'Scroll of Caustic Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676951, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2148, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20465, 20465);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20417, 'Scroll of Cabalastic Ostracism', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676671, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2107, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20417, 20417);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20500, 'Scroll of Aliester''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676447, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2195, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20500, 20500);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (9659, 'Scroll of Stamina to Mana Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1681, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (9659, 9659);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3292, 'Scroll of Impregnability Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676468, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 261, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3292, 3292);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3482, 'Scroll of Light Weapon Mastery Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 297, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3482, 3482);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (5991, 'Scroll of Alchemy Mastery Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676480, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1762, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (5991, 5991);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3392, 'Scroll of Lockpick Mastery Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676463, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 927, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3392, 3392);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3522, 'Scroll of Heavy Weapon Mastery Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 417, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3522, 3522);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2992, 'Scroll of Blade Protection Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676954, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1120, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2992, 2992);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3022, 'Scroll of Cold Protection Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676950, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1041, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3022, 3022);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2678, 'Scroll of Focus Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676458, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1432, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2678, 2678);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3017, 'Scroll of Bludgeoning Vulnerability Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676952, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1053, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3017, 3017);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3107, 'Scroll of Mana Renewal Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676939, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 217, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3107, 3107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2977, 'Scroll of Acid Protection Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676951, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 514, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2977, 2977);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3730, 'Scroll of Drain Stamina Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676933, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1254, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3730, 3730);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2982, 'Scroll of Acid Protection Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676951, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 520, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2982, 2982);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (4221, 'Scroll of Drain Health Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676934, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1242, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (4221, 4221);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3322, 'Scroll of Item Tinkering Expertise Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 737, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3322, 3322);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2741, 'Scroll of Strength Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1337, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2741, 2741);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (7520, 'Scroll of Foon-Ki''s Glacial Floe', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677014, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1843, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (7520, 7520);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3427, 'Scroll of Magic Yield Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676465, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 285, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3427, 3427);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (41278, 'Scroll of Yoshi''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2250, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (41278, 41278);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (27237, 'Scroll of Eradicate Life Magic Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676935, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3194, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (27237, 27237);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3202, 'Scroll of Creature Enchantment Mastery Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676453, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 562, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3202, 3202);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3532, 'Scroll of Missile Weapon Ineptitude Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676450, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 478, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3532, 3532);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20231, 'Scroll of Executor''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676928, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2053, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20231, 20231);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20419, 'Scroll of Lugian''s Speed', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676662, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2109, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20419, 20419);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20509, 'Scroll of Missile Weapon Mastery Self VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676450, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2207, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20509, 20509);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20446, 'Scroll of Outlander''s Insolence', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677019, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2133, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20446, 20446);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20240, 'Scroll of Calming Gaze', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676458, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2066, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20240, 20240);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (43280, 'Scroll of Corrosion III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100691573, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5389, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (43280, 43280);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3018, 'Scroll of Cold Protection Other II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676950, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1037, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3018, 3018);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (43339, 'Scroll of Weakening Curse II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691574, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5380, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (43339, 43339);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3313, 'Scroll of Item Enchantment Mastery Self II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676460, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 582, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3313, 3313);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (5543, 'Scroll of Monster Attunement Self II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 799, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (5543, 5543);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (21289, 'Scroll of Acid Arc II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677026, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2712, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (21289, 21289);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2893, 'Scroll of Turn Blade II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676677, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1594, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2893, 2893);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (49457, 'Scroll of Summoning Ineptitude Other II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100693008, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6130, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (49457, 49457);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (21310, 'Scroll of Force Arc II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677019, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2719, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (21310, 21310);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (45325, 'Scroll of Shield Mastery Self II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692252, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5852, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (45325, 45325);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1774, 'Scroll of Feeblemind Other', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676471, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1463, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (1774, 1774);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2837, 'Scroll of Hermetic Void II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676671, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1470, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2837, 2837);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1573, 'Scroll of Frost Bolt', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677016, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (1573, 1573);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (5992, 'Scroll of Alchemy Mastery Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676480, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1763, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (5992, 5992);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20557, 'Scroll of Oswald''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676463, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2271, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20557, 20557);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20540, 'Scroll of Celcynd''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676460, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2248, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20540, 20540);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20418, 'Scroll of Brogard''s Defiance', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676661, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2108, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20418, 20418);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20598, 'Scroll of Koga''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2325, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20598, 20598);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20572, 'Scroll of Kaluhc''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2293, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20572, 20572);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20512, 'Scroll of Morimoto''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676451, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2211, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20512, 20512);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20514, 'Scroll of Adja''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676453, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2214, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20514, 20514);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20505, 'Scroll of Light Weapon Mastery Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2202, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20505, 20505);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20606, 'Scroll of Self Sacrifice', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676947, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2334, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20606, 20606);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20254, 'Scroll of Might of the Lugians', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2087, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20254, 20254);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20549, 'Scroll of Kwipetian Vision', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676446, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2260, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20549, 20549);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20608, 'Scroll of Gift of Essence', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676929, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2336, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20608, 20608);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20562, 'Scroll of Celdiseth''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2277, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20562, 20562);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20507, 'Scroll of Missile Weapon Ineptitude Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676450, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2204, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20507, 20507);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20537, 'Scroll of Web of Defense', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676467, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2244, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20537, 20537);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20492, 'Scroll of Robustify', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676941, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2185, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20492, 20492);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20475, 'Scroll of Icy Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676950, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2155, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20475, 20475);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (21108, 'Scroll of Martyr''s Blight VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676937, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2780, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (21108, 21108);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20502, 'Scroll of Jibril''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2197, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20502, 20502);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (43284, 'Scroll of Corrosion VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691573, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5393, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (43284, 43284);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20482, 'Scroll of Astyrrian''s Gift', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676948, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2172, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20482, 20482);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20424, 'Scroll of Archer Bait', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676669, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2114, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20424, 20424);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20542, 'Scroll of Yoshi''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2250, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20542, 20542);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20455, 'Scroll of Alset''s Coil', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677013, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2140, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20455, 20455);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20574, 'Scroll of Web of Resistance', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676465, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2280, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20574, 20574);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20429, 'Scroll of Vagabond''s Gift', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676678, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2119, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20429, 20429);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20525, 'Scroll of Broadside of a Barn', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676468, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2228, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20525, 20525);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20522, 'Scroll of Hearts on Sleeves', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2224, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20522, 20522);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20593, 'Scroll of Gravity Well', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676467, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2318, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20593, 20593);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20617, 'Scroll of Meditative Trance', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2345, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20617, 20617);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20472, 'Scroll of Blessing of the Mace Turner', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676952, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2153, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20472, 20472);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20573, 'Scroll of Introversion', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2294, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20573, 20573);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20564, 'Scroll of Futility', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676465, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2282, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20564, 20564);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20597, 'Scroll of Koga''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2324, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20597, 20597);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20469, 'Scroll of Blessing of the Blade Turner', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676954, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2151, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20469, 20469);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (43335, 'Scroll of Festering Curse VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691571, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5377, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (43335, 43335);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20600, 'Scroll of Vitality Siphon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676934, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2328, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20600, 20600);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20395, 'Scroll of Nullify Life Magic Other', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676935, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1987, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20395, 20395);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20401, 'Scroll of Nullify Life Magic Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676935, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1990, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20401, 20401);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20463, 'Scroll of Evisceration', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677028, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2146, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20463, 20463);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20247, 'Scroll of Void''s Call', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676932, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2078, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20247, 20247);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20519, 'Scroll of Finesse Weapon Ineptitude Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692250, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2220, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20519, 20519);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20566, 'Scroll of Nuhmudira''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676466, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2287, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20566, 20566);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20456, 'Scroll of Lhen''s Flare', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677013, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2141, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20456, 20456);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20234, 'Scroll of Boon of Refinement', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676452, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2058, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20234, 20234);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20470, 'Scroll of Swordsman''s Gift', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676954, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2164, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20470, 20470);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20440, 'Scroll of Ilservian''s Flame', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677022, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2128, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20440, 20440);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20474, 'Scroll of Icy Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676950, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2154, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20474, 20474);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20250, 'Scroll of Replenish', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676930, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2082, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20250, 20250);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20595, 'Scroll of Hieromancer''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676479, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2322, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20595, 20595);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (45321, 'Scroll of Shield Mastery Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692252, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5848, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (45321, 45321);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3467, 'Scroll of Resist Magic Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676465, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 273, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3467, 3467);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (21308, 'Scroll of Flame Arc VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677022, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2745, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (21308, 21308);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20607, 'Scroll of Gift of Vitality', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676931, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2335, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20607, 20607);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20556, 'Scroll of Oswald''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676463, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2270, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20556, 20556);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20252, 'Scroll of Belly of Lead', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676469, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2084, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20252, 20252);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20515, 'Scroll of Adja''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676453, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2215, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20515, 20515);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2866, 'Scroll of Lure Blade VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676670, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1611, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2866, 2866);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (49468, 'Scroll of Summoning Mastery Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100693008, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6113, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (49468, 49468);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20251, 'Scroll of Robustification', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676930, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2083, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20251, 20251);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20609, 'Scroll of Gift of Vigor', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676930, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2337, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20609, 20609);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (43342, 'Scroll of Weakening Curse V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691574, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5383, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (43342, 43342);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3590, 'Scroll of Weapon Tinkering Ignorance IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 795, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3590, 3590);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20468, 'Scroll of Boon of the Blade Turner', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676954, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2150, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20468, 20468);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (21292, 'Scroll of Acid Arc V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677026, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2715, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (21292, 21292);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2931, 'Scroll of Force Bolt III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677019, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 88, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2931, 2931);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20543, 'Scroll of Yoshi''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2251, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20543, 20543);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20235, 'Scroll of Honed Control', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676452, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2059, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20235, 20235);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (21295, 'Scroll of Blade Arc I', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677028, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2753, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (21295, 21295);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (45269, 'Scroll of Dual Wield Mastery Other II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692251, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5796, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (45269, 45269);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3727, 'Scroll of Drain Stamina Other III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676933, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1251, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3727, 3727);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3058, 'Scroll of Lightning Vulnerability Other II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676948, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1085, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3058, 3058);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3318, 'Scroll of Item Tinkering Expertise Other II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 733, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3318, 3318);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3064, 'Scroll of Piercing Protection Other III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676953, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1141, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3064, 3064);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1712, 'Scroll of Leaden Feet', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676470, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1000, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (1712, 1712);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (5969, 'Scroll of Fletching Mastery Other II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676457, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1734, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (5969, 5969);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3169, 'Scroll of Light Weapon Mastery Self III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 300, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3169, 3169);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2718, 'Scroll of Quickness Self III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676469, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1399, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2718, 2718);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (45270, 'Scroll of Dual Wield Mastery Other III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692251, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5797, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (45270, 45270);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3264, 'Scroll of Fealty Self III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676446, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 948, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3264, 3264);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (21304, 'Scroll of Flame Arc III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677022, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2741, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (21304, 21304);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1670, 'Scroll of Light Weapon Mastery Other', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (1670, 1670);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (45293, 'Scroll of Recklessness Mastery Other II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676449, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5820, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (45293, 45293);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3459, 'Scroll of Person Unfamiliarity III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 845, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3459, 3459);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3059, 'Scroll of Lightning Vulnerability Other III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676948, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1086, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3059, 3059);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1874, 'Scroll of Stamina to Mana Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1676, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (1874, 1874);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (38246, 'Scroll of Prophecy', 8192, 0, 0, 0, 272, 25, 0, 0, 0, 0, 0, 2113584, 0, 100668176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1.5, 0, 0, 0, 101, 0, 0, 0, 0, 0, 33554776, 0, 137217, 872415275, 0, 536870932, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (38246, 38246);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3591, 'Scroll of Weapon Tinkering Ignorance V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 796, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3591, 3591);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2813, 'Scroll of Flame Bane III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676651, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1549, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2813, 2813);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (28941, 'Scroll of Arcanum Enlightenment II', 8192, 0, 0, 0, 18, 10, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3507, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (28941, 28941);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1709, 'Scroll of Jumping Ineptitude', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676461, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1012, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (1709, 1709);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (45282, 'Scroll of Dual Wield Mastery Self VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692251, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5809, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (45282, 45282);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20611, 'Scroll of Energize Vitality', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676942, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2339, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20611, 20611);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20256, 'Scroll of Bolstered Will', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676471, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2090, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20256, 20256);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (43375, 'Scroll of Void Magic Mastery Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691548, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5409, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (43375, 43375);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2904, 'Scroll of Summon Primary Portal I', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676673, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 157, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2904, 2904);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20487, 'Scroll of Decrepitude''s Grasp', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676941, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2178, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20487, 20487);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20408, 'Scroll of Tusker''s Bane', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676650, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2098, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20408, 20408);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3497, 'Scroll of Sprint Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676470, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 987, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3497, 3497);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20485, 'Scroll of Archer''s Gift', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676953, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2174, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20485, 20485);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (41294, 'Scroll of Greased Palms', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100690644, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5081, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (41294, 41294);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (8949, 'Scroll of Shock Wave Streak III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677008, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1822, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (8949, 8949);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (21312, 'Scroll of Force Arc IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677019, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2721, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (21312, 21312);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (49462, 'Scroll of Summoning Ineptitude Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100693008, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6135, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (49462, 49462);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20506, 'Scroll of Light Weapon Mastery Self VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2203, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20506, 20506);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (28939, 'Scroll of Arcanum Salvaging VII', 8192, 0, 0, 0, 18, 10, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3505, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (28939, 28939);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20414, 'Scroll of Gelidite''s Bane', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676652, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2104, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20414, 20414);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (43326, 'Scroll of Destructive Curse VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691570, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5337, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (43326, 43326);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20565, 'Scroll of Nuhmudira''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676466, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2286, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20565, 20565);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (41264, 'Scroll of Two Handed Weapon Mastery Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100690644, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5099, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (41264, 41264);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (9010, 'Unreadable Scroll', 8192, 0, 0, 0, 274, 50, 0, 0, 0, 0, 0, 2113560, 0, 100669876, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 10, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (9010, 9010);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20359, 'Scroll of Nullify Item Magic', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676659, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1951, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20359, 20359);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20527, 'Scroll of Odif''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676446, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2232, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20527, 20527);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2670, 'Scroll of Feeblemind Other III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676471, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1465, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2670, 2670);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2665, 'Scroll of Enfeeble Other III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676933, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1197, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2665, 2665);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1838, 'Scroll of Acid Protection Other', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676951, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 509, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (1838, 1838);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3170, 'Scroll of Light Weapon Mastery Self IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 301, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3170, 3170);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1898, 'Scroll of Weaken Lock', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676678, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1581, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (1898, 1898);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (4387, 'Scroll of Armor Other IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676928, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1315, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (4387, 4387);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1659, 'Scroll of Mana Renewal Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676939, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 212, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (1659, 1659);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1855, 'Scroll of Piercing Vulnerability Other', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676953, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1151, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (1855, 1855);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3140, 'Scroll of Arcane Enlightenment Self IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676447, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 681, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3140, 3140);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (45253, 'Scroll of Dirty Fighting Mastery Self II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5780, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (45253, 45253);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3280, 'Scroll of Healing Mastery Self IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676459, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 877, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3280, 3280);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (43362, 'Scroll of Void Magic Mastery Other V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691548, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5407, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (43362, 43362);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1689, 'Scroll of Creature Enchantment Mastery Other', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676453, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 563, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (1689, 1689);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2789, 'Scroll of Blood Loather IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676656, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1619, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2789, 2789);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3450, 'Scroll of Person Attunement Other IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 833, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3450, 3450);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2907, 'Scroll of Acid Stream II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677026, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 59, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2907, 2907);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3738, 'Scroll of Infuse Mana IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100676929, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1257, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3738, 3738);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3120, 'Scroll of Rejuvenate Other IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100676940, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 186, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3120, 3120);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20405, 'Scroll of Swordsman Bait', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676664, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2095, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20405, 20405);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20481, 'Scroll of Storm''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676948, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2159, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20481, 20481);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3047, 'Scroll of Fire Vulnerability Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676949, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1108, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3047, 3047);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20536, 'Scroll of Aura of Deflection', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676468, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2243, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20536, 20536);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20585, 'Scroll of Heavy Weapon Mastery Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2308, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20585, 20585);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20486, 'Scroll of Enervation', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676940, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2176, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20486, 20486);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3471, 'Scroll of Resist Magic Self V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676465, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 278, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3471, 3471);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20533, 'Scroll of Avalenne''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676459, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2240, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20533, 20533);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3069, 'Scroll of Piercing Protection Self III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676953, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1135, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3069, 3069);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3152, 'Scroll of Armor Tinkering Expertise Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 707, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (3152, 3152);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (43283, 'Scroll of Corrosion VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691573, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5392, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (43283, 43283);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20521, 'Scroll of Finesse Weapon Mastery Self VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692250, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2223, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20521, 20521);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20555, 'Scroll of Fat Fingers', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676463, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2268, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20555, 20555);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20524, 'Scroll of Ketnan''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2227, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20524, 20524);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (21322, 'Scroll of Frost Arc VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677016, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2731, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (21322, 21322);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20613, 'Scroll of Energize Vigor', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676945, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2341, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20613, 20613);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20544, 'Scroll of Unfortunate Appraisal', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2252, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20544, 20544);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2826, 'Scroll of Frost Bane VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676652, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1528, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2826, 2826);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20410, 'Scroll of Tattercoat', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2100, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20410, 20410);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20245, 'Scroll of Adja''s Intervention', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676931, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2073, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20245, 20245);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20464, 'Scroll of Rending Wind', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677028, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2147, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20464, 20464);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20494, 'Scroll of Unflinching Persistence', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676940, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2187, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20494, 20494);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (43373, 'Scroll of Void Magic Ineptitude Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691548, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5425, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (43373, 43373);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (49476, 'Scroll of Summoning Mastery Self VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100693008, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6122, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (49476, 49476);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (7519, 'Scroll of Spike Strafe', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677017, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1842, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (7519, 7519);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (7521, 'Scroll of Os'' Wall', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677011, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1844, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (7521, 7521);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (7509, 'Scroll of Searing Disc', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677027, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1783, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (7509, 7509);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (36542, 'Scroll of Tusker Fists', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 1080049688, 0, 100671419, 100689646, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2934, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (36542, 36542);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (7515, 'Scroll of Tectonic Rifts', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677010, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1789, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (7515, 7515);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (7514, 'Scroll of Eye of the Storm', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677012, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1788, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (7514, 7514);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (7518, 'Scroll of Slithering Flames', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677020, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1841, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (7518, 7518);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (7511, 'Scroll of Cassius'' Ring of Fire', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677021, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1785, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (7511, 7511);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (43319, 'Scroll of Clouded Soul', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691572, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5361, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (43319, 43319);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (7522, 'Scroll of Hammering Crawler', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677009, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1845, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (7522, 7522);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (7512, 'Scroll of Nuhmudira''s Spines', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677018, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1786, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (7512, 7512);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (7517, 'Scroll of Bed of Blades', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677023, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1840, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (7517, 7517);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (7513, 'Scroll of Halo of Frost', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677015, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1787, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (7513, 7513);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (7516, 'Scroll of Blistering Creeper', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677025, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1839, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (7516, 7516);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (7510, 'Scroll of Horizon''s Blades', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677024, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1784, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (7510, 7510);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (32935, 'Scroll of Ring around the Rabbit', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100688872, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3902, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (32935, 32935);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20471, 'Scroll of Boon of the Mace Turner', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676952, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2152, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20471, 20471);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20244, 'Scroll of Adja''s Gift', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676931, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2072, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20244, 20244);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2905, 'Scroll of Summon Primary Portal II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676673, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 158, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (2905, 2905);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (20622, 'Scroll of Summon Secondary Portal I', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676673, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2648, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (20622, 20622);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (35594, 'Scroll of Flame Chain', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677022, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4096, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
-
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (35594, 35594);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (5959, 'Scroll of Cooking Mastery Self IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676451, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1718, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -1481,6 +23,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (2945, 2945);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20235, 'Scroll of Honed Control', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676452, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2059, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20235, 20235);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20233, 'Scroll of Ataxia', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676452, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2056, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -1491,6 +39,12 @@ VALUES (3451, 'Scroll of Person Attunement Other V', 8192, 0, 0, 0, 18, 30, 0, 0
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3451, 3451);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20254, 'Scroll of Might of the Lugians', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2087, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20254, 20254);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20591, 'Scroll of Light Weapon Mastery Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2202, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -1541,16 +95,34 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20538, 20538);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20455, 'Scroll of Alset''s Coil', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677013, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2140, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20455, 20455);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2731, 'Scroll of Revitalize Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676930, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1182, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (2731, 2731);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20465, 'Scroll of Caustic Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676951, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2148, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20465, 20465);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20403, 'Scroll of Olthoi Bait', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100676663, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2093, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20403, 20403);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20533, 'Scroll of Avalenne''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676459, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2240, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20533, 20533);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (9634, 'Scroll of Health to Mana Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676943, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1704, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -1607,6 +179,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3587, 3587);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3202, 'Scroll of Creature Enchantment Mastery Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676453, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 562, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3202, 3202);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (8925, 'Scroll of Flame Streak VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677022, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1801, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -1649,10 +227,28 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (43363, 43363);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (9659, 'Scroll of Stamina to Mana Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1681, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (9659, 9659);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (21329, 'Scroll of Lightning Arc VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677013, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2738, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (21329, 21329);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20481, 'Scroll of Storm''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676948, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2159, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20481, 20481);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20456, 'Scroll of Lhen''s Flare', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677013, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2141, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20456, 20456);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (43336, 'Scroll of Weakening Curse VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691574, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5385, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -1691,6 +287,24 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3114, 3114);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20238, 'Scroll of Anemia', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676933, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2062, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20238, 20238);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20574, 'Scroll of Web of Resistance', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676465, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2280, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20574, 20574);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20544, 'Scroll of Unfortunate Appraisal', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2252, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20544, 20544);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (28946, 'Scroll of Arcanum Enlightenment VII', 8192, 0, 0, 0, 18, 10, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3512, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -1703,16 +317,40 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20546, 20546);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20405, 'Scroll of Swordsman Bait', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676664, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2095, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20405, 20405);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20450, 'Scroll of Icy Torment', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677016, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2136, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20450, 20450);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (31383, 'Scroll of Raven Fury', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291472, 0, 100676718, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3818, 0, 0, 0, 8, 0, 0, 0, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (31383, 31383);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3292, 'Scroll of Impregnability Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676468, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 261, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3292, 3292);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3435, 'Scroll of Mana Mastery Self IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676466, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 656, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3435, 3435);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2741, 'Scroll of Strength Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1337, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2741, 2741);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (21315, 'Scroll of Force Arc VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677019, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2724, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -1749,6 +387,12 @@ VALUES (20230, 'Scroll of Executor''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20230, 20230);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (49457, 'Scroll of Summoning Ineptitude Other II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100693008, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6130, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (49457, 49457);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3447, 'Scroll of Monster Unfamiliarity VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 822, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -1859,6 +503,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (4220, 4220);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20526, 'Scroll of Sashi Mu''s Kiss', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100676446, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2230, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20526, 20526);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2726, 'Scroll of Revitalize Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676930, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1188, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -1869,6 +519,12 @@ VALUES (45290, 'Scroll of Recklessness Ineptitude Other VII', 8192, 0, 0, 0, 18,
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (45290, 45290);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20566, 'Scroll of Nuhmudira''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676466, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2287, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20566, 20566);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3414, 'Scroll of Magic Item Tinkering Expertise Self III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 752, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -1883,6 +539,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3272, 3272);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20611, 'Scroll of Energize Vitality', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676942, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2339, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20611, 20611);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3517, 'Scroll of Heavy Weapon Ineptitude Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 429, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -1895,10 +557,22 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3182, 3182);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3047, 'Scroll of Fire Vulnerability Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676949, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1108, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3047, 3047);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (21321, 'Scroll of Frost Arc VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677016, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2730, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (21321, 21321);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20471, 'Scroll of Boon of the Mace Turner', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676952, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2152, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20471, 20471);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3367, 'Scroll of Life Magic Ineptitude VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676462, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 628, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -1911,6 +585,12 @@ VALUES (20327, 'Scroll of Devour Creature Magic Self', 8192, 0, 0, 0, 18, 30, 0,
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20327, 20327);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (43283, 'Scroll of Corrosion VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691573, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5392, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (43283, 43283);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3737, 'Scroll of Infuse Mana III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676929, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1256, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -1949,6 +629,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20451, 20451);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20617, 'Scroll of Meditative Trance', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2345, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20617, 20617);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20551, 'Scroll of Ar-Pei''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676446, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2263, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -1965,6 +651,12 @@ VALUES (20466, 'Scroll of Caustic Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20466, 20466);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20424, 'Scroll of Archer Bait', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676669, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2114, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20424, 20424);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2801, 'Scroll of Bludgeon Lure VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676665, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1510, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -1991,10 +683,22 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3283, 3283);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20515, 'Scroll of Adja''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100676453, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2215, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20515, 20515);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20534, 'Scroll of Avalenne''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100676459, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2241, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20534, 20534);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (43326, 'Scroll of Destructive Curse VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691570, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5337, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (43326, 43326);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20503, 'Scroll of Jibril''s Vitae', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2198, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2007,6 +711,12 @@ VALUES (20421, 'Scroll of Astyrrian Bait', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0,
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20421, 20421);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (28015, 'Scroll of Spirit Pacification', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676675, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3266, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (28015, 28015);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3331, 'Scroll of Item Tinkering Ignorance V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 748, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2033,6 +743,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (1569, 1569);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (28941, 'Scroll of Arcanum Enlightenment II', 8192, 0, 0, 0, 18, 10, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3507, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (28941, 28941);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (8932, 'Scroll of Force Streak IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677019, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1805, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -2043,6 +759,18 @@ VALUES (21290, 'Scroll of Acid Arc III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (21290, 21290);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (43316, 'Scroll of Nether Streak VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691569, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5347, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (43316, 43316);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (8949, 'Scroll of Shock Wave Streak III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677008, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1822, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (8949, 8949);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20504, 'Scroll of Light Weapon Ineptitude Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2200, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2069,6 +797,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3172, 3172);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20509, 'Scroll of Missile Weapon Mastery Self VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676450, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2207, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20509, 20509);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (49469, 'Scroll of Summoning Mastery Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100693008, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6114, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -2079,6 +813,24 @@ VALUES (20404, 'Scroll of Swordsman''s Bane', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0,
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20404, 20404);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20600, 'Scroll of Vitality Siphon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676934, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2328, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20600, 20600);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20613, 'Scroll of Energize Vigor', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676945, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2341, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20613, 20613);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20475, 'Scroll of Icy Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676950, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2155, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20475, 20475);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20243, 'Scroll of Heart Rend', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676934, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2070, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2097,6 +849,12 @@ VALUES (20510, 'Scroll of Challenger''s Legacy', 8192, 0, 0, 0, 18, 30, 0, 0, 0,
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20510, 20510);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20252, 'Scroll of Belly of Lead', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676469, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2084, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20252, 20252);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (27233, 'Scroll of Eradicate Creature Magic Other', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676647, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3184, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2123,10 +881,22 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20571, 20571);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20524, 'Scroll of Ketnan''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2227, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20524, 20524);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (45306, 'Scroll of Recklessness Mastery Self VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676449, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5833, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (45306, 45306);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (21308, 'Scroll of Flame Arc VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677022, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2745, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (21308, 21308);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20586, 'Scroll of Heavy Weapon Mastery Self VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2309, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2183,16 +953,40 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20484, 20484);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20502, 'Scroll of Jibril''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2197, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20502, 20502);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (49468, 'Scroll of Summoning Mastery Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100693008, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6113, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (49468, 49468);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20495, 'Scroll of Bottle Breaker', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676480, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2188, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20495, 20495);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20464, 'Scroll of Rending Wind', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677028, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2147, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20464, 20464);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3032, 'Scroll of Cold Vulnerability Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676950, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1065, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3032, 3032);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20542, 'Scroll of Yoshi''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2250, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20542, 20542);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20596, 'Scroll of Hieromancer''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676479, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2323, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2231,6 +1025,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (5985, 5985);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20543, 'Scroll of Yoshi''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2251, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20543, 20543);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20580, 'Scroll of Saladur''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676470, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2301, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -2243,10 +1043,34 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3297, 3297);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3152, 'Scroll of Armor Tinkering Expertise Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 707, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3152, 3152);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (5991, 'Scroll of Alchemy Mastery Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676480, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1762, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (5991, 5991);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2706, 'Scroll of Imperil Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676928, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1327, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2706, 2706);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3025, 'Scroll of Cold Protection Self IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676950, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1033, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3025, 3025);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20545, 'Scroll of Feat of Radaz', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676461, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2254, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20545, 20545);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (5547, 'Scroll of Monster Attunement Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 803, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2315,6 +1139,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (28938, 28938);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20593, 'Scroll of Gravity Well', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676467, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2318, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20593, 20593);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (28014, 'Scroll of Spirit Loather VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676675, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3265, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -2333,6 +1163,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20248, 20248);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20420, 'Scroll of Astyrrian''s Bane', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676653, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2110, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20420, 20420);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (43292, 'Scroll of Corruption VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691573, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5401, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -2343,6 +1179,12 @@ VALUES (20460, 'Scroll of Crushing Shame', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0,
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20460, 20460);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20468, 'Scroll of Boon of the Blade Turner', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676954, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2150, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20468, 20468);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20561, 'Scroll of Celdiseth''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2276, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2393,10 +1235,28 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (1721, 1721);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20573, 'Scroll of Introversion', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2294, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20573, 20573);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (45322, 'Scroll of Shield Mastery Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692252, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5849, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (45322, 45322);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20474, 'Scroll of Icy Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676950, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2154, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20474, 20474);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (32935, 'Scroll of Ring around the Rabbit', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100688872, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3902, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (32935, 32935);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (21302, 'Scroll of Flame Arc I', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677022, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2739, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2441,6 +1301,24 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20432, 20432);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20492, 'Scroll of Robustify', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676941, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2185, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20492, 20492);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20556, 'Scroll of Oswald''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676463, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2270, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20556, 20556);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2826, 'Scroll of Frost Bane VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676652, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1528, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2826, 2826);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3572, 'Scroll of War Magic Mastery Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676479, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 640, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -2451,6 +1329,12 @@ VALUES (20239, 'Scroll of Self Loathing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20239, 20239);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20598, 'Scroll of Koga''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2325, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20598, 20598);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3350, 'Scroll of Leadership Ineptitude IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676446, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 919, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2483,6 +1367,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (43315, 43315);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20505, 'Scroll of Light Weapon Mastery Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2202, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20505, 20505);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (5973, 'Scroll of Fletching Mastery Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676457, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1738, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -2507,6 +1397,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (2980, 2980);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (21108, 'Scroll of Martyr''s Blight VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676937, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2780, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (21108, 21108);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3384, 'Scroll of Lockpick Mastery Other III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676463, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 930, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -2523,6 +1419,12 @@ VALUES (45342, 'Scroll of Sneak Attack Mastery Other III', 8192, 0, 0, 0, 18, 30
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (45342, 45342);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1712, 'Scroll of Leaden Feet', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676470, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1000, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (1712, 1712);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (1556, 'Scroll of Heal Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676931, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2567,6 +1469,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3356, 3356);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2670, 'Scroll of Feeblemind Other III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676471, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1465, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2670, 2670);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (8937, 'Scroll of Frost Streak III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677016, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1810, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -2601,6 +1509,12 @@ VALUES (3516, 'Scroll of Heavy Weapon Ineptitude Other V', 8192, 0, 0, 0, 18, 30
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3516, 3516);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (45241, 'Scroll of Dirty Fighting Ineptitude Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5768, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (45241, 45241);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3416, 'Scroll of Magic Item Tinkering Expertise Self V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 754, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2643,6 +1557,24 @@ VALUES (20563, 'Scroll of Eyes Clouded', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20563, 20563);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20431, 'Scroll of Corrosive Flash', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677026, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2121, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20431, 20431);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20506, 'Scroll of Light Weapon Mastery Self VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2203, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20506, 20506);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20250, 'Scroll of Replenish', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676930, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2082, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20250, 20250);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20529, 'Scroll of Twisted Digits', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676457, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2234, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2693,10 +1625,22 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20413, 20413);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20480, 'Scroll of Storm''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676948, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2158, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20480, 20480);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (41302, 'Scroll of Boon of T''ing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100690644, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5097, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (41302, 41302);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (45282, 'Scroll of Dual Wield Mastery Self VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100692251, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5809, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (45282, 45282);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2902, 'Scroll of Weaken Lock VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676678, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1586, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2717,6 +1661,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (45274, 45274);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20240, 'Scroll of Calming Gaze', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676458, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2066, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20240, 20240);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (27235, 'Scroll of Eradicate Item Magic', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676659, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3190, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -2729,10 +1679,28 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20467, 20467);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20256, 'Scroll of Bolstered Will', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676471, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2090, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20256, 20256);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20241, 'Scroll of Inner Calm', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676458, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2067, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20241, 20241);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20414, 'Scroll of Gelidite''s Bane', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676652, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2104, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20414, 20414);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20562, 'Scroll of Celdiseth''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2277, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20562, 20562);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2959, 'Scroll of Lightning Bolt VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677013, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 80, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2789,6 +1757,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (45242, 45242);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20401, 'Scroll of Nullify Life Magic Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676935, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1990, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20401, 20401);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2721, 'Scroll of Quickness Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676469, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1402, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -2799,6 +1773,18 @@ VALUES (2653, 'Scroll of Coordination Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (2653, 2653);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20549, 'Scroll of Kwipetian Vision', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676446, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2260, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20549, 20549);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20595, 'Scroll of Hieromancer''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676479, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2322, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20595, 20595);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (49461, 'Scroll of Summoning Ineptitude Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100693008, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6134, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2817,6 +1803,12 @@ VALUES (3442, 'Scroll of Monster Attunement Other VI', 8192, 0, 0, 0, 18, 30, 0,
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3442, 3442);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20522, 'Scroll of Hearts on Sleeves', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2224, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20522, 20522);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (45313, 'Scroll of Shield Ineptitude Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692252, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5840, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2885,6 +1877,18 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3281, 3281);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20525, 'Scroll of Broadside of a Barn', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676468, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2228, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20525, 20525);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20512, 'Scroll of Morimoto''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676451, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2211, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20512, 20512);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20489, 'Scroll of Battlemage''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676939, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2182, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -2897,10 +1901,34 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20409, 20409);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20231, 'Scroll of Executor''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676928, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2053, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20231, 20231);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (9010, 'Unreadable Scroll', 8192, 0, 0, 0, 274, 50, 0, 0, 0, 0, 0, 2113560, 0, 100669876, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 10, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (9010, 9010);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (45353, 'Scroll of Sneak Attack Mastery Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692253, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5880, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (45353, 45353);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20585, 'Scroll of Heavy Weapon Mastery Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2308, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20585, 20585);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (43373, 'Scroll of Void Magic Ineptitude Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691548, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5425, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (43373, 43373);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20523, 'Scroll of Ketnan''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2226, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2909,10 +1937,22 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20523, 20523);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20244, 'Scroll of Adja''s Gift', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676931, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2072, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20244, 20244);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (8919, 'Scroll of Acid Streak VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100677026, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1795, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (8919, 8919);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20536, 'Scroll of Aura of Deflection', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100676468, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2243, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20536, 20536);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20415, 'Scroll of Geledite Bait', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100676667, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2105, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
@@ -2931,6 +1971,18 @@ VALUES (20528, 'Scroll of Odif''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20528, 20528);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20463, 'Scroll of Evisceration', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100677028, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2146, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20463, 20463);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20607, 'Scroll of Gift of Vitality', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100676931, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2335, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20607, 20607);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3132, 'Scroll of Arcane Benightedness VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676447, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 701, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2957,10 +2009,22 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20567, 20567);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (49476, 'Scroll of Summoning Mastery Self VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100693008, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6122, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (49476, 49476);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20425, 'Scroll of Fortified Lock', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676678, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2115, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20425, 20425);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3107, 'Scroll of Mana Renewal Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676939, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 217, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3107, 3107);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20568, 'Scroll of Topheron''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2288, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -2993,6 +2057,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20441, 20441);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (27234, 'Scroll of Eradicate Creature Magic Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676647, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3185, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (27234, 27234);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2797, 'Scroll of Bludgeon Lure II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676665, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1506, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -3009,6 +2079,18 @@ VALUES (1840, 'Scroll of Acid Vulnerability Other', 8192, 0, 0, 0, 18, 30, 0, 0,
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (1840, 1840);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20527, 'Scroll of Odif''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676446, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2232, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20527, 20527);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (21322, 'Scroll of Frost Arc VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677016, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2731, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (21322, 21322);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (45258, 'Scroll of Dirty Fighting Mastery Self VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5785, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -3071,6 +2153,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (45281, 45281);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (45330, 'Scroll of Shield Mastery Self VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692252, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5857, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (45330, 45330);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2711, 'Scroll of Mana Drain Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676932, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1224, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -3105,6 +2193,24 @@ VALUES (3112, 'Scroll of Regenerate Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3112, 3112);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20251, 'Scroll of Robustification', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676930, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2083, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20251, 20251);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20487, 'Scroll of Decrepitude''s Grasp', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676941, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2178, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20487, 20487);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20410, 'Scroll of Tattercoat', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2100, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20410, 20410);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20477, 'Scroll of Fiery Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676949, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2156, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -3165,6 +2271,12 @@ VALUES (2874, 'Scroll of Piercing Lure IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (2874, 2874);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20395, 'Scroll of Nullify Life Magic Other', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676935, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1987, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20395, 20395);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3452, 'Scroll of Person Attunement Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 835, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -3233,6 +2345,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3127, 3127);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (45296, 'Scroll of Recklessness Mastery Other V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676449, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5823, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (45296, 45296);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (43334, 'Scroll of Festering Curse VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691571, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5376, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -3287,10 +2405,22 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (9665, 9665);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20609, 'Scroll of Gift of Vigor', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676930, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2337, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20609, 20609);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20579, 'Scroll of Saladur''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676470, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2300, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20579, 20579);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20537, 'Scroll of Web of Defense', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676467, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2244, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20537, 20537);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (5979, 'Scroll of Fletching Mastery Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676457, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1744, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -3329,6 +2459,24 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20407, 20407);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20417, 'Scroll of Cabalastic Ostracism', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676671, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2107, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20417, 20417);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20247, 'Scroll of Void''s Call', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676932, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2078, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20247, 20247);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3120, 'Scroll of Rejuvenate Other IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676940, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 186, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3120, 3120);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (45319, 'Scroll of Shield Mastery Other IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692252, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5846, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -3359,10 +2507,40 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3250, 3250);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20597, 'Scroll of Koga''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2324, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20597, 20597);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20486, 'Scroll of Enervation', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676940, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2176, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20486, 20486);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20440, 'Scroll of Ilservian''s Flame', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677022, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2128, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20440, 20440);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (45266, 'Scroll of Dual Wield Ineptitude Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692251, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5793, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (45266, 45266);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20500, 'Scroll of Aliester''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676447, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2195, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20500, 20500);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20234, 'Scroll of Boon of Refinement', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676452, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2058, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20234, 20234);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20599, 'Scroll of Eye of the Grunt', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2326, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -3407,6 +2585,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (45351, 45351);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (49462, 'Scroll of Summoning Ineptitude Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100693008, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6135, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (49462, 49462);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3432, 'Scroll of Mana Mastery Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676466, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 664, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -3425,10 +2609,28 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3302, 3302);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (27237, 'Scroll of Eradicate Life Magic Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676935, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3194, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (27237, 27237);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3038, 'Scroll of Fire Protection Self II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676949, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1090, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3038, 3038);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2992, 'Scroll of Blade Protection Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676954, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1120, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2992, 2992);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (28939, 'Scroll of Arcanum Salvaging VII', 8192, 0, 0, 0, 18, 10, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3505, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (28939, 28939);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20511, 'Scroll of Morimoto''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676451, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2210, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -3455,6 +2657,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3357, 3357);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20419, 'Scroll of Lugian''s Speed', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676662, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2109, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20419, 20419);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2643, 'Scroll of Clumsiness Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676452, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1396, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -3471,6 +2679,12 @@ VALUES (41293, 'Scroll of Two Handed Weapons Ineptitude VI', 8192, 0, 0, 0, 18, 
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (41293, 41293);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3169, 'Scroll of Light Weapon Mastery Self III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 300, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3169, 3169);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (9633, 'Scroll of Health to Mana Self V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676943, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1703, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -3491,6 +2705,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (2666, 2666);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3427, 'Scroll of Magic Yield Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676465, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 285, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3427, 3427);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3562, 'Scroll of Vulnerability VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676467, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 234, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -3501,6 +2721,18 @@ VALUES (3428, 'Scroll of Mana Mastery Other II', 8192, 0, 0, 0, 18, 30, 0, 0, 0,
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (3428, 3428);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (43284, 'Scroll of Corrosion VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691573, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5393, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (43284, 43284);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20514, 'Scroll of Adja''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676453, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2214, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20514, 20514);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2865, 'Scroll of Lure Blade V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676670, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1610, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -3527,6 +2759,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20535, 20535);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2982, 'Scroll of Acid Protection Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676951, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 520, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2982, 2982);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3431, 'Scroll of Mana Mastery Other V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676466, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 663, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -3539,10 +2777,22 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (5981, 5981);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20446, 'Scroll of Outlander''s Insolence', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677019, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2133, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20446, 20446);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20539, 'Scroll of Wrath of Celcynd', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676460, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2246, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20539, 20539);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20408, 'Scroll of Tusker''s Bane', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676650, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2098, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20408, 20408);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (5960, 'Scroll of Cooking Mastery Self V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676451, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1719, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -3575,6 +2825,12 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (43364, 43364);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20608, 'Scroll of Gift of Essence', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676929, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2336, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20608, 20608);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3592, 'Scroll of Weapon Tinkering Ignorance VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 797, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
@@ -3591,6 +2847,12 @@ VALUES (45250, 'Scroll of Dirty Fighting Mastery Other VII', 8192, 0, 0, 0, 18, 
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (45250, 45250);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20507, 'Scroll of Missile Weapon Ineptitude Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676450, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2204, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20507, 20507);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2793, 'Scroll of Bludgeon Bane III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676650, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1513, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -3615,6 +2877,12 @@ VALUES (2900, 'Scroll of Weaken Lock IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (2900, 2900);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3017, 'Scroll of Bludgeoning Vulnerability Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676952, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1053, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3017, 3017);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3259, 'Scroll of Fealty Other III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676446, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 954, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -3651,6 +2919,12 @@ VALUES (2638, 'Scroll of Bafflement Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (2638, 2638);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20359, 'Scroll of Nullify Item Magic', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676659, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1951, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20359, 20359);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3230, 'Scroll of Finesse Weapon Mastery Self IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100692250, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 325, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
@@ -3713,16 +2987,58 @@ INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20428, 20428);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20540, 'Scroll of Celcynd''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676460, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2248, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20540, 20540);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20520, 'Scroll of Finesse Weapon Mastery Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692250, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2222, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20520, 20520);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20548, 'Scroll of Gears Unwound', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676470, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2258, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20548, 20548);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (20246, 'Scroll of Gossamer Flesh', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676928, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2074, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20246, 20246);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20472, 'Scroll of Blessing of the Mace Turner', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676952, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2153, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20472, 20472);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20429, 'Scroll of Vagabond''s Gift', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676678, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2119, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20429, 20429);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20470, 'Scroll of Swordsman''s Gift', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676954, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2164, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20470, 20470);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20555, 'Scroll of Fat Fingers', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676463, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2268, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20555, 20555);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20606, 'Scroll of Self Sacrifice', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676947, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2334, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20606, 20606);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (3040, 'Scroll of Fire Protection Self IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676949, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1092, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -3771,6 +3087,12 @@ VALUES (2689, 'Scroll of Harm Other IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (2689, 2689);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3280, 'Scroll of Healing Mastery Self IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676459, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 877, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3280, 3280);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (8924, 'Scroll of Flame Streak V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677022, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1800, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
@@ -3831,6 +3153,684 @@ VALUES (20570, 'Scroll of Ignorance''s Bliss', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (20570, 20570);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (28009, 'Scroll of Spirit Loather', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676675, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3260, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (28009, 28009);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (21101, 'Scroll of Martyr''s Hecatomb VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676938, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2766, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (21101, 21101);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20242, 'Scroll of Brittle Bones', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676456, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2068, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20242, 20242);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20253, 'Scroll of Might of the 5 Mules', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2086, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20253, 20253);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20461, 'Scroll of Cameron''s Curse', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677008, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2145, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20461, 20461);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (51921, 'Sealed Scroll for Commander Presk', 8192, 0, 0, 0, 274, 25, 0, 0, 0, 0, 0, 2113552, 0, 100667503, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 101, 0, 0, 0, 0, 0, 33554776, 0, 137217, 872415275, 0, 536870932, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (51921, 51921);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (28008, 'Aura of Infected Spirit Caress Scroll', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676674, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3259, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (28008, 28008);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3482, 'Scroll of Light Weapon Mastery Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 297, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3482, 3482);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3392, 'Scroll of Lockpick Mastery Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676463, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 927, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3392, 3392);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3522, 'Scroll of Heavy Weapon Mastery Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 417, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3522, 3522);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3022, 'Scroll of Cold Protection Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676950, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1041, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3022, 3022);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2678, 'Scroll of Focus Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676458, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1432, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2678, 2678);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2977, 'Scroll of Acid Protection Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676951, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 514, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2977, 2977);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3730, 'Scroll of Drain Stamina Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676933, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1254, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3730, 3730);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (4221, 'Scroll of Drain Health Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676934, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1242, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (4221, 4221);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3322, 'Scroll of Item Tinkering Expertise Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 737, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3322, 3322);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (7520, 'Scroll of Foon-Ki''s Glacial Floe', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677014, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1843, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (7520, 7520);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (41278, 'Scroll of Yoshi''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2250, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (41278, 41278);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3532, 'Scroll of Missile Weapon Ineptitude Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676450, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 478, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3532, 3532);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (43280, 'Scroll of Corrosion III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100691573, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5389, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (43280, 43280);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3018, 'Scroll of Cold Protection Other II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676950, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1037, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3018, 3018);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (43339, 'Scroll of Weakening Curse II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691574, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5380, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (43339, 43339);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3313, 'Scroll of Item Enchantment Mastery Self II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676460, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 582, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3313, 3313);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (5543, 'Scroll of Monster Attunement Self II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 799, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (5543, 5543);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (21289, 'Scroll of Acid Arc II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677026, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2712, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (21289, 21289);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2893, 'Scroll of Turn Blade II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676677, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1594, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2893, 2893);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (21310, 'Scroll of Force Arc II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677019, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2719, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (21310, 21310);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (45325, 'Scroll of Shield Mastery Self II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692252, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5852, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (45325, 45325);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1774, 'Scroll of Feeblemind Other', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676471, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1463, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (1774, 1774);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2837, 'Scroll of Hermetic Void II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676671, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1470, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2837, 2837);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1573, 'Scroll of Frost Bolt', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677016, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (1573, 1573);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (5992, 'Scroll of Alchemy Mastery Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676480, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1763, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (5992, 5992);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20557, 'Scroll of Oswald''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676463, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2271, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20557, 20557);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20418, 'Scroll of Brogard''s Defiance', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676661, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2108, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20418, 20418);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20572, 'Scroll of Kaluhc''s Blessing', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2293, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20572, 20572);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20482, 'Scroll of Astyrrian''s Gift', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676948, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2172, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20482, 20482);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20564, 'Scroll of Futility', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676465, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2282, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20564, 20564);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20469, 'Scroll of Blessing of the Blade Turner', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676954, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2151, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20469, 20469);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (43335, 'Scroll of Festering Curse VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691571, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5377, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (43335, 43335);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20519, 'Scroll of Finesse Weapon Ineptitude Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692250, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2220, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20519, 20519);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (45321, 'Scroll of Shield Mastery Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692252, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5848, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (45321, 45321);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3467, 'Scroll of Resist Magic Other VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676465, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 273, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3467, 3467);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2866, 'Scroll of Lure Blade VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676670, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1611, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2866, 2866);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (43342, 'Scroll of Weakening Curse V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691574, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5383, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (43342, 43342);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3590, 'Scroll of Weapon Tinkering Ignorance IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 795, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3590, 3590);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (21292, 'Scroll of Acid Arc V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677026, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2715, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (21292, 21292);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2931, 'Scroll of Force Bolt III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677019, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 88, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2931, 2931);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (21295, 'Scroll of Blade Arc I', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677028, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2753, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (21295, 21295);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (45269, 'Scroll of Dual Wield Mastery Other II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692251, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5796, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (45269, 45269);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3727, 'Scroll of Drain Stamina Other III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676933, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1251, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3727, 3727);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3058, 'Scroll of Lightning Vulnerability Other II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676948, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1085, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3058, 3058);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3318, 'Scroll of Item Tinkering Expertise Other II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 733, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3318, 3318);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3064, 'Scroll of Piercing Protection Other III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676953, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1141, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3064, 3064);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (5969, 'Scroll of Fletching Mastery Other II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676457, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1734, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (5969, 5969);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2718, 'Scroll of Quickness Self III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676469, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1399, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2718, 2718);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (45270, 'Scroll of Dual Wield Mastery Other III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692251, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5797, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (45270, 45270);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3264, 'Scroll of Fealty Self III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676446, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 948, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3264, 3264);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (21304, 'Scroll of Flame Arc III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677022, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2741, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (21304, 21304);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1670, 'Scroll of Light Weapon Mastery Other', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (1670, 1670);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (45293, 'Scroll of Recklessness Mastery Other II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676449, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5820, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (45293, 45293);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3459, 'Scroll of Person Unfamiliarity III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 845, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3459, 3459);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3059, 'Scroll of Lightning Vulnerability Other III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676948, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1086, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3059, 3059);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1874, 'Scroll of Stamina to Mana Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1676, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (1874, 1874);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (38246, 'Scroll of Prophecy', 8192, 0, 0, 0, 272, 25, 0, 0, 0, 0, 0, 2113584, 0, 100668176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1.5, 0, 0, 0, 101, 0, 0, 0, 0, 0, 33554776, 0, 137217, 872415275, 0, 536870932, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (38246, 38246);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3591, 'Scroll of Weapon Tinkering Ignorance V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 796, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3591, 3591);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2813, 'Scroll of Flame Bane III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676651, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1549, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2813, 2813);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1709, 'Scroll of Jumping Ineptitude', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676461, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1012, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (1709, 1709);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (43375, 'Scroll of Void Magic Mastery Other VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691548, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5409, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (43375, 43375);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2904, 'Scroll of Summon Primary Portal I', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676673, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 157, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2904, 2904);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3497, 'Scroll of Sprint Self VI', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676470, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 987, 0, 0, 0, 8, 0, 0, 1000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3497, 3497);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20485, 'Scroll of Archer''s Gift', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676953, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2174, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20485, 20485);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (41294, 'Scroll of Greased Palms', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100690644, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5081, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (41294, 41294);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (21312, 'Scroll of Force Arc IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677019, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2721, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (21312, 21312);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20565, 'Scroll of Nuhmudira''s Boon', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676466, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2286, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20565, 20565);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (41264, 'Scroll of Two Handed Weapon Mastery Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100690644, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5099, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (41264, 41264);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2665, 'Scroll of Enfeeble Other III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676933, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1197, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2665, 2665);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1838, 'Scroll of Acid Protection Other', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676951, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 509, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (1838, 1838);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3170, 'Scroll of Light Weapon Mastery Self IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692249, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 301, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3170, 3170);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1898, 'Scroll of Weaken Lock', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676678, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1581, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (1898, 1898);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (4387, 'Scroll of Armor Other IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676928, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1315, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (4387, 4387);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1659, 'Scroll of Mana Renewal Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676939, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 212, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (1659, 1659);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1855, 'Scroll of Piercing Vulnerability Other', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676953, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1151, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (1855, 1855);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3140, 'Scroll of Arcane Enlightenment Self IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676447, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 681, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3140, 3140);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (45253, 'Scroll of Dirty Fighting Mastery Self II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5780, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (45253, 45253);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (43362, 'Scroll of Void Magic Mastery Other V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691548, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5407, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (43362, 43362);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1689, 'Scroll of Creature Enchantment Mastery Other', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676453, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 563, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (1689, 1689);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2789, 'Scroll of Blood Loather IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676656, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1619, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2789, 2789);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3450, 'Scroll of Person Attunement Other IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 833, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3450, 3450);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2907, 'Scroll of Acid Stream II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677026, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 59, 0, 0, 0, 8, 0, 0, 5, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2907, 2907);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3738, 'Scroll of Infuse Mana IV', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6291480, 0, 100676929, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1257, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 168065, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3738, 3738);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3471, 'Scroll of Resist Magic Self V', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676465, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 278, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3471, 3471);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (3069, 'Scroll of Piercing Protection Self III', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676953, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1135, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (3069, 3069);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20521, 'Scroll of Finesse Weapon Mastery Self VII', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100692250, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2223, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20521, 20521);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20245, 'Scroll of Adja''s Intervention', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676931, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2073, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20245, 20245);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20494, 'Scroll of Unflinching Persistence', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676940, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2187, 0, 0, 0, 8, 0, 0, 2000, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20494, 20494);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (7519, 'Scroll of Spike Strafe', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677017, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1842, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (7519, 7519);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (7521, 'Scroll of Os'' Wall', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677011, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1844, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (7521, 7521);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (7509, 'Scroll of Searing Disc', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677027, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1783, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (7509, 7509);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (36542, 'Scroll of Tusker Fists', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 1080049688, 0, 100671419, 100689646, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2934, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (36542, 36542);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (7515, 'Scroll of Tectonic Rifts', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677010, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1789, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (7515, 7515);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (7514, 'Scroll of Eye of the Storm', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677012, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1788, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (7514, 7514);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (7518, 'Scroll of Slithering Flames', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677020, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1841, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (7518, 7518);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (7511, 'Scroll of Cassius'' Ring of Fire', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677021, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1785, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (7511, 7511);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (43319, 'Scroll of Clouded Soul', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100691572, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5361, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (43319, 43319);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (7522, 'Scroll of Hammering Crawler', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677009, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1845, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (7522, 7522);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (7512, 'Scroll of Nuhmudira''s Spines', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677018, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1786, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (7512, 7512);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (7517, 'Scroll of Bed of Blades', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677023, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1840, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (7517, 7517);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (7513, 'Scroll of Halo of Frost', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677015, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1787, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (7513, 7513);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (7516, 'Scroll of Blistering Creeper', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677025, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1839, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (7516, 7516);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (7510, 'Scroll of Horizon''s Blades', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677024, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1784, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (7510, 7510);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2905, 'Scroll of Summon Primary Portal II', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676673, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 158, 0, 0, 0, 8, 0, 0, 200, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (2905, 2905);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (20622, 'Scroll of Summon Secondary Portal I', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676673, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2648, 0, 0, 0, 8, 0, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (20622, 20622);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (35594, 'Scroll of Flame Chain', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100677022, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4096, 0, 0, 0, 8, 0, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');
+
+INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
+VALUES (35594, 35594);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (1785, 'Scroll of Revitalize Self', 8192, 0, 0, 0, 18, 30, 0, 0, 0, 0, 0, 6307864, 0, 100676930, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1177, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554826, 1.5, 135297, 872415275, 0, 0, 1044, 0, '0');

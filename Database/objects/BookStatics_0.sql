@@ -1,120 +1,4 @@
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2074734597, 'The Underground City', 8192, 0, 0, 0, 276, 25, 0, 0, 0, 0, 0, 2097208, 0, 100668236, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 0, 10, 0, 0, 0, 0, 0, 0, 0, 33556013, 0, 38913, 872415275, 0, 536870932, 1040, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2074734597, 5691, 47775, 256, 38.5726, 177.726, 56, 1, 0, 0, 0);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2074734595, 'The Full Code of Pwyll', 8192, 0, 0, 0, 276, 25, 0, 0, 0, 0, 0, 2097208, 0, 100668236, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 0, 10, 0, 0, 0, 0, 0, 0, 0, 33556013, 0, 38913, 872415275, 0, 536870932, 1040, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2074734595, 5690, 47775, 256, 32.2226, 181.959, 56, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2074734596, 'The Days of the Olthoi', 8192, 0, 0, 0, 276, 25, 0, 0, 0, 0, 0, 2097208, 0, 100668236, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 0, 10, 0, 0, 0, 0, 0, 0, 0, 33556013, 0, 38913, 872415275, 0, 536870932, 1040, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2074734596, 5692, 47775, 268, 35, 183, 59, -4.37114E-08, 0, 0, -1);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2073690115, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557413, 0, 32769, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2073690115, 12774, 47520, 18, 60.2866, 36.0487, 54, -0.384825, 0, 0, -0.92299);
-
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2073690115, 67112797, 0, 0);
-
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
-VALUES (2073690115, 0, 83892345, 83893836)
-     , (2073690115, 0, 83892344, 83893836)
-     , (2073690115, 1, 83892352, 83893842)
-     , (2073690115, 2, 83892351, 83893841)
-     , (2073690115, 3, 83889344, 83887054)
-     , (2073690115, 4, 83887068, 83887054)
-     , (2073690115, 5, 83892352, 83893842)
-     , (2073690115, 6, 83892351, 83893841)
-     , (2073690115, 7, 83889344, 83887054)
-     , (2073690115, 8, 83887068, 83887054)
-     , (2073690115, 9, 83891974, 83893840)
-     , (2073690115, 9, 83891968, 83893839)
-     , (2073690115, 10, 83892347, 83893838)
-     , (2073690115, 11, 83892346, 83893837)
-     , (2073690115, 13, 83892347, 83893838)
-     , (2073690115, 14, 83892346, 83893837)
-     , (2073690115, 16, 83889860, 83892274)
-     , (2073690115, 16, 83889859, 83891965)
-     , (2073690115, 16, 83886684, 83890354)
-     , (2073690115, 16, 83886837, 83890310)
-     , (2073690115, 16, 83886668, 83890281);
-
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
-VALUES (2073690115, 0, 16783897)
-     , (2073690115, 1, 16783912)
-     , (2073690115, 2, 16783918)
-     , (2073690115, 3, 16777292)
-     , (2073690115, 4, 16777291)
-     , (2073690115, 5, 16783916)
-     , (2073690115, 6, 16783920)
-     , (2073690115, 7, 16777296)
-     , (2073690115, 8, 16777298)
-     , (2073690115, 9, 16783714)
-     , (2073690115, 10, 16783863)
-     , (2073690115, 11, 16783855)
-     , (2073690115, 13, 16783871)
-     , (2073690115, 14, 16783855)
-     , (2073690115, 16, 16783677);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2035421185, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557413, 0, 32769, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2035421185, 12774, 38177, 48, 132.788, 179.53, 122, -0.368664, 0, 0, -0.929563);
-
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2035421185, 67112797, 0, 0);
-
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
-VALUES (2035421185, 0, 83892345, 83893836)
-     , (2035421185, 0, 83892344, 83893836)
-     , (2035421185, 1, 83892352, 83893842)
-     , (2035421185, 2, 83892351, 83893841)
-     , (2035421185, 3, 83889344, 83887054)
-     , (2035421185, 4, 83887068, 83887054)
-     , (2035421185, 5, 83892352, 83893842)
-     , (2035421185, 6, 83892351, 83893841)
-     , (2035421185, 7, 83889344, 83887054)
-     , (2035421185, 8, 83887068, 83887054)
-     , (2035421185, 9, 83891974, 83893840)
-     , (2035421185, 9, 83891968, 83893839)
-     , (2035421185, 10, 83892347, 83893838)
-     , (2035421185, 11, 83892346, 83893837)
-     , (2035421185, 13, 83892347, 83893838)
-     , (2035421185, 14, 83892346, 83893837)
-     , (2035421185, 16, 83889860, 83892274)
-     , (2035421185, 16, 83889859, 83891965)
-     , (2035421185, 16, 83886684, 83890354)
-     , (2035421185, 16, 83886837, 83890310)
-     , (2035421185, 16, 83886668, 83890281);
-
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
-VALUES (2035421185, 0, 16783897)
-     , (2035421185, 1, 16783912)
-     , (2035421185, 2, 16783918)
-     , (2035421185, 3, 16777292)
-     , (2035421185, 4, 16777291)
-     , (2035421185, 5, 16783916)
-     , (2035421185, 6, 16783920)
-     , (2035421185, 7, 16777296)
-     , (2035421185, 8, 16777298)
-     , (2035421185, 9, 16783714)
-     , (2035421185, 10, 16783863)
-     , (2035421185, 11, 16783855)
-     , (2035421185, 13, 16783871)
-     , (2035421185, 14, 16783855)
-     , (2035421185, 16, 16783677);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2136313874, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557413, 0, 32769, 0, 0, 0, 1048, 0, '0');
 
 INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -164,220 +48,22 @@ VALUES (2136313874, 0, 16783897)
      , (2136313874, 16, 16783677);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2026905648, 'VIEW CONTROLS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+VALUES (2118373392, 'Fishing Sign', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33555088, 0, 163841, 0, 0, 0, 1040, 0, '0');
 
 INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2026905648, 5141, 36098, 433, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414);
+VALUES (2118373392, 23340, 58429, 31, 75.0042, 153.852, 120, 0.913668, 0, 0, -0.406461);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2026905678, 'WIELDING ITEMS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+VALUES (2118373393, 'Fishing Sign', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33555088, 0, 163841, 0, 0, 0, 1040, 0, '0');
 
 INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2026905678, 5101, 36098, 568, 60.172, -14.16, 0, 0.707107, 0, 0, -0.707107);
+VALUES (2118373393, 23340, 58429, 33, 100.664, 1.40064, 69.9, -0.303656, 0, 0, -0.952782);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2026905685, 'COMBAT BAR ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+VALUES (2068250677, 'Shrine to Xao Wu', 8192, 0, 0, 0, 276, 8000, 0, 0, 0, 0, 0, 2097200, 0, 100674324, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 22.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33558344, 0, 100355, 0, 150995196, 536870932, 66576, 0, 'AAA9AAAAAAA=');
 
 INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2026905685, 5102, 36098, 620, 65.8391, -5.90952, 0, 1, 0, 0, 0);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2026905690, 'STATUS BARS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2026905690, 5103, 36098, 641, 75.631, -4.07894, 7.450581E-09, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2026905681, 'BASICS OF MAGIC ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2026905681, 5105, 36098, 573, 60.168, -25.879, 0, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2026905687, 'SPELLCASTING ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2026905687, 5106, 36098, 622, 65.799, -33.88, 0, 0, 0, 0, -1);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2026905708, 'MAGIC TIPS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2026905708, 5107, 36098, 650, 75.752, -35.8377, 7.450581E-09, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2012229680, 'VIEW CONTROLS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2012229680, 5141, 32515, 433, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2012229710, 'WIELDING ITEMS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2012229710, 5101, 32515, 568, 60.172, -14.16, 0, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2012229717, 'COMBAT BAR ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2012229717, 5102, 32515, 620, 65.8391, -5.90952, 0, 1, 0, 0, 0);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2012229722, 'STATUS BARS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2012229722, 5103, 32515, 641, 75.631, -4.07894, 7.450581E-09, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2012229713, 'BASICS OF MAGIC ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2012229713, 5105, 32515, 573, 60.168, -25.879, 0, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2012229719, 'SPELLCASTING ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2012229719, 5106, 32515, 622, 65.799, -33.88, 0, 0, 0, 0, -1);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2012229740, 'MAGIC TIPS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2012229740, 5107, 32515, 650, 75.752, -35.8377, 7.450581E-09, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1999642672, 'VIEW CONTROLS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1999642672, 5141, 29442, 433, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1999642702, 'WIELDING ITEMS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1999642702, 5101, 29442, 568, 60.172, -14.16, 0, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1999642709, 'COMBAT BAR ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1999642709, 5102, 29442, 620, 65.8391, -5.90952, 0, 1, 0, 0, 0);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1999642714, 'STATUS BARS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1999642714, 5103, 29442, 641, 75.631, -4.07894, 7.450581E-09, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1999642705, 'BASICS OF MAGIC ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1999642705, 5105, 29442, 573, 60.168, -25.879, 0, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1999642711, 'SPELLCASTING ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1999642711, 5106, 29442, 622, 65.799, -33.88, 0, 0, 0, 0, -1);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1999642732, 'MAGIC TIPS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1999642732, 5107, 29442, 650, 75.752, -35.8377, 7.450581E-09, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2020614192, 'VIEW CONTROLS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2020614192, 5141, 34562, 433, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2020614222, 'WIELDING ITEMS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2020614222, 5101, 34562, 568, 60.172, -14.16, 0, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2020614229, 'COMBAT BAR ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2020614229, 5102, 34562, 620, 65.8391, -5.90952, 0, 1, 0, 0, 0);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2020614234, 'STATUS BARS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2020614234, 5103, 34562, 641, 75.631, -4.07894, 7.450581E-09, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2020614225, 'BASICS OF MAGIC ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2020614225, 5105, 34562, 573, 60.168, -25.879, 0, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2020614231, 'SPELLCASTING ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2020614231, 5106, 34562, 622, 65.799, -33.88, 0, 0, 0, 0, -1);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2020614252, 'MAGIC TIPS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2020614252, 5107, 34562, 650, 75.752, -35.8377, 7.450581E-09, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2013278256, 'VIEW CONTROLS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2013278256, 5141, 32771, 433, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2013278293, 'COMBAT BAR ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2013278293, 5102, 32771, 620, 65.8391, -5.90952, 0, 1, 0, 0, 0);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2013278286, 'WIELDING ITEMS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2013278286, 5101, 32771, 568, 60.172, -14.16, 0, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2013278298, 'STATUS BARS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2013278298, 5103, 32771, 641, 75.631, -4.07894, 7.450581E-09, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2013278289, 'BASICS OF MAGIC ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2013278289, 5105, 32771, 573, 60.168, -25.879, 0, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2013278295, 'SPELLCASTING ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2013278295, 5106, 32771, 622, 65.799, -33.88, 0, 0, 0, 0, -1);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2013278316, 'MAGIC TIPS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2013278316, 5107, 32771, 650, 75.752, -35.8377, 7.450581E-09, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2112163850, 'LIFESTONES SIGN', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2112163850, 5108, 56913, 13, 29.6267, 103.483, 16.90753, -0.429638, 0, 0, -0.903001);
+VALUES (2068250677, 32564, 46192, 42, 124.5, 32, 42, 0.707107, 0, 0, -0.707107);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2119491599, 'Jojii Zhen Gai Comments on the Teachings of Jojii', 8192, 0, 0, 0, 276, 25, 0, 0, 0, 0, 0, 2097208, 0, 100668236, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 0, 10, 0, 0, 0, 0, 0, 0, 0, 33556013, 0, 38913, 872415275, 0, 536870932, 1040, 0, '0');
@@ -410,16 +96,16 @@ INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell
 VALUES (2119491600, 5703, 58702, 276, 78.0157, 86.9833, 12, -4.37114E-08, 0, 0, -1);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2070556701, 'Fishing Sign', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33555088, 0, 163841, 0, 0, 0, 1040, 0, '0');
+VALUES (2092158977, 'Warning Letter', 8192, 0, 0, 0, 276, 25, 0, 0, 0, 0, 0, 2097208, 0, 100668176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 0, 10, 0, 101, 0, 0, 0, 0, 0, 33554773, 0, 169985, 872415275, 0, 536870932, 1044, 0, '0');
 
 INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2070556701, 23340, 46755, 23, 56.9312, 148.395, 2, 0.898349, 0, 0, 0.439282);
+VALUES (2092158977, 4200, 52029, 42, 134.88, 26.916, 177.0965, -0.7660441, 0, 0, -0.6427881);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2069512194, 'Fishing Sign', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33555088, 0, 163841, 0, 0, 0, 1040, 0, '0');
+VALUES (1999667210, 'Ulgrim''s Island', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556189, 0.3, 163969, 0, 0, 0, 1048, 0, '0');
 
 INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2069512194, 23340, 46500, 57, 191.183, 0.875853, 27.9, 0.380801, 0, 0, -0.924657);
+VALUES (1999667210, 23883, 29448, 23, 70.8269, 164.452, 12, 0.0461788, 0, 0, -0.998933);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (1986879492, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557413, 0, 32769, 0, 0, 0, 1048, 0, '0');
@@ -469,304 +155,6 @@ VALUES (1986879492, 0, 16783897)
      , (1986879492, 13, 16783871)
      , (1986879492, 14, 16783855)
      , (1986879492, 16, 16783677);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2092158977, 'Warning Letter', 8192, 0, 0, 0, 276, 25, 0, 0, 0, 0, 0, 2097208, 0, 100668176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 0, 10, 0, 101, 0, 0, 0, 0, 0, 33554773, 0, 169985, 872415275, 0, 536870932, 1044, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2092158977, 4200, 52029, 42, 134.88, 26.916, 177.0965, -0.7660441, 0, 0, -0.6427881);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2078810116, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557413, 0, 32769, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2078810116, 12774, 48770, 26, 84.7988, 36.3057, 37.95891, -0.929616, 0, 0, -0.368529);
-
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2078810116, 67112797, 0, 0);
-
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
-VALUES (2078810116, 0, 83892345, 83893836)
-     , (2078810116, 0, 83892344, 83893836)
-     , (2078810116, 1, 83892352, 83893842)
-     , (2078810116, 2, 83892351, 83893841)
-     , (2078810116, 3, 83889344, 83887054)
-     , (2078810116, 4, 83887068, 83887054)
-     , (2078810116, 5, 83892352, 83893842)
-     , (2078810116, 6, 83892351, 83893841)
-     , (2078810116, 7, 83889344, 83887054)
-     , (2078810116, 8, 83887068, 83887054)
-     , (2078810116, 9, 83891974, 83893840)
-     , (2078810116, 9, 83891968, 83893839)
-     , (2078810116, 10, 83892347, 83893838)
-     , (2078810116, 11, 83892346, 83893837)
-     , (2078810116, 13, 83892347, 83893838)
-     , (2078810116, 14, 83892346, 83893837)
-     , (2078810116, 16, 83889860, 83892274)
-     , (2078810116, 16, 83889859, 83891965)
-     , (2078810116, 16, 83886684, 83890354)
-     , (2078810116, 16, 83886837, 83890310)
-     , (2078810116, 16, 83886668, 83890281);
-
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
-VALUES (2078810116, 0, 16783897)
-     , (2078810116, 1, 16783912)
-     , (2078810116, 2, 16783918)
-     , (2078810116, 3, 16777292)
-     , (2078810116, 4, 16777291)
-     , (2078810116, 5, 16783916)
-     , (2078810116, 6, 16783920)
-     , (2078810116, 7, 16777296)
-     , (2078810116, 8, 16777298)
-     , (2078810116, 9, 16783714)
-     , (2078810116, 10, 16783863)
-     , (2078810116, 11, 16783855)
-     , (2078810116, 13, 16783871)
-     , (2078810116, 14, 16783855)
-     , (2078810116, 16, 16783677);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1943826866, 'Strange Book', 8192, 0, 0, 0, 276, 25, 0, 0, 0, 0, 0, 2097176, 0, 100668176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554773, 0, 169985, 872415275, 0, 536870932, 1044, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1943826866, 14892, 15815, 45, 132.035, 106.186, 0.079, -0.9780971, 0, 0, -0.208149);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1998594096, 'VIEW CONTROLS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1998594096, 5141, 29186, 433, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1998594124, 'WIELDING ITEMS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1998594124, 5101, 29186, 568, 60.172, -14.16, 0, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1998594130, 'COMBAT BAR ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1998594130, 5102, 29186, 620, 65.8391, -5.90952, 0, 1, 0, 0, 0);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1998594136, 'STATUS BARS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1998594136, 5103, 29186, 641, 75.631, -4.07894, 7.450581E-09, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1998594127, 'BASICS OF MAGIC ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1998594127, 5105, 29186, 573, 60.168, -25.879, 0, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1998594132, 'SPELLCASTING ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1998594132, 5106, 29186, 622, 65.799, -33.88, 0, 0, 0, 0, -1);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1998594161, 'MAGIC TIPS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1998594161, 5107, 29186, 650, 75.752, -35.8377, 7.450581E-09, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2051678214, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557413, 0, 32769, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2051678214, 12774, 42146, 19, 59.8146, 59.6399, 140.0145, -0.704917, 0, 0, 0.70929);
-
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2051678214, 67112797, 0, 0);
-
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
-VALUES (2051678214, 0, 83892345, 83893836)
-     , (2051678214, 0, 83892344, 83893836)
-     , (2051678214, 1, 83892352, 83893842)
-     , (2051678214, 2, 83892351, 83893841)
-     , (2051678214, 3, 83889344, 83887054)
-     , (2051678214, 4, 83887068, 83887054)
-     , (2051678214, 5, 83892352, 83893842)
-     , (2051678214, 6, 83892351, 83893841)
-     , (2051678214, 7, 83889344, 83887054)
-     , (2051678214, 8, 83887068, 83887054)
-     , (2051678214, 9, 83891974, 83893840)
-     , (2051678214, 9, 83891968, 83893839)
-     , (2051678214, 10, 83892347, 83893838)
-     , (2051678214, 11, 83892346, 83893837)
-     , (2051678214, 13, 83892347, 83893838)
-     , (2051678214, 14, 83892346, 83893837)
-     , (2051678214, 16, 83889860, 83892274)
-     , (2051678214, 16, 83889859, 83891965)
-     , (2051678214, 16, 83886684, 83890354)
-     , (2051678214, 16, 83886837, 83890310)
-     , (2051678214, 16, 83886668, 83890281);
-
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
-VALUES (2051678214, 0, 16783897)
-     , (2051678214, 1, 16783912)
-     , (2051678214, 2, 16783918)
-     , (2051678214, 3, 16777292)
-     , (2051678214, 4, 16777291)
-     , (2051678214, 5, 16783916)
-     , (2051678214, 6, 16783920)
-     , (2051678214, 7, 16777296)
-     , (2051678214, 8, 16777298)
-     , (2051678214, 9, 16783714)
-     , (2051678214, 10, 16783863)
-     , (2051678214, 11, 16783855)
-     , (2051678214, 13, 16783871)
-     , (2051678214, 14, 16783855)
-     , (2051678214, 16, 16783677);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2068250677, 'Shrine to Xao Wu', 8192, 0, 0, 0, 276, 8000, 0, 0, 0, 0, 0, 2097200, 0, 100674324, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 22.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33558344, 0, 100355, 0, 150995196, 536870932, 66576, 0, 'AAA9AAAAAAA=');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2068250677, 32564, 46192, 42, 124.5, 32, 42, 0.707107, 0, 0, -0.707107);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2072453126, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557413, 0, 32769, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2072453126, 12774, 47218, 37, 105, 106.818, 18, 0.746043, 0, 0, 0.665898);
-
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2072453126, 67112797, 0, 0);
-
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
-VALUES (2072453126, 0, 83892345, 83893836)
-     , (2072453126, 0, 83892344, 83893836)
-     , (2072453126, 1, 83892352, 83893842)
-     , (2072453126, 2, 83892351, 83893841)
-     , (2072453126, 3, 83889344, 83887054)
-     , (2072453126, 4, 83887068, 83887054)
-     , (2072453126, 5, 83892352, 83893842)
-     , (2072453126, 6, 83892351, 83893841)
-     , (2072453126, 7, 83889344, 83887054)
-     , (2072453126, 8, 83887068, 83887054)
-     , (2072453126, 9, 83891974, 83893840)
-     , (2072453126, 9, 83891968, 83893839)
-     , (2072453126, 10, 83892347, 83893838)
-     , (2072453126, 11, 83892346, 83893837)
-     , (2072453126, 13, 83892347, 83893838)
-     , (2072453126, 14, 83892346, 83893837)
-     , (2072453126, 16, 83889860, 83892274)
-     , (2072453126, 16, 83889859, 83891965)
-     , (2072453126, 16, 83886684, 83890354)
-     , (2072453126, 16, 83886837, 83890310)
-     , (2072453126, 16, 83886668, 83890281);
-
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
-VALUES (2072453126, 0, 16783897)
-     , (2072453126, 1, 16783912)
-     , (2072453126, 2, 16783918)
-     , (2072453126, 3, 16777292)
-     , (2072453126, 4, 16777291)
-     , (2072453126, 5, 16783916)
-     , (2072453126, 6, 16783920)
-     , (2072453126, 7, 16777296)
-     , (2072453126, 8, 16777298)
-     , (2072453126, 9, 16783714)
-     , (2072453126, 10, 16783863)
-     , (2072453126, 11, 16783855)
-     , (2072453126, 13, 16783871)
-     , (2072453126, 14, 16783855)
-     , (2072453126, 16, 16783677);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2090385447, 'Fishing Sign', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33555088, 0, 163841, 0, 0, 0, 1040, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2090385447, 23340, 51596, 16, 47.3334, 178.989, 3.9, 0.747973, 0, 0, -0.663729);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2089336927, 'Fishing Sign', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33555088, 0, 163841, 0, 0, 0, 1040, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2089336927, 23340, 51340, 55, 166.345, 161.433, 22, 0.72134, 0, 0, -0.692581);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2012807173, 'To Be A Shadow', 8192, 0, 0, 0, 276, 25, 0, 0, 0, 0, 0, 2097208, 0, 100668236, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 0, 10, 0, 0, 0, 0, 0, 0, 0, 33556013, 0, 38913, 872415275, 0, 536870932, 1040, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2012807173, 5697, 32656, 286, 107.48, 160.446, 147.2, 1, 0, 0, 0);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2013278218, 'LIFESTONES SIGN', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2013278218, 5108, 32771, 320, 126.543, -161.635, -6, -0.218685, 0, 0, -0.975796);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1969553420, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557660, 0, 32769, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1969553420, 16908, 22096, 319, 40, -60, 0, 1, 0, 0, 0);
-
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (1969553420, 67112797, 0, 0);
-
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
-VALUES (1969553420, 0, 83892345, 83893836)
-     , (1969553420, 0, 83892344, 83893836)
-     , (1969553420, 1, 83892352, 83893842)
-     , (1969553420, 2, 83892351, 83893841)
-     , (1969553420, 3, 83889344, 83887054)
-     , (1969553420, 4, 83887068, 83887054)
-     , (1969553420, 5, 83892352, 83893842)
-     , (1969553420, 6, 83892351, 83893841)
-     , (1969553420, 7, 83889344, 83887054)
-     , (1969553420, 8, 83887068, 83887054)
-     , (1969553420, 9, 83891974, 83893840)
-     , (1969553420, 9, 83891968, 83893839)
-     , (1969553420, 10, 83892347, 83893838)
-     , (1969553420, 11, 83892346, 83893837)
-     , (1969553420, 13, 83892347, 83893838)
-     , (1969553420, 14, 83892346, 83893837)
-     , (1969553420, 16, 83889860, 83892274)
-     , (1969553420, 16, 83889859, 83891965)
-     , (1969553420, 16, 83886684, 83890354)
-     , (1969553420, 16, 83886837, 83890310)
-     , (1969553420, 16, 83886668, 83890281);
-
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
-VALUES (1969553420, 0, 16783897)
-     , (1969553420, 1, 16783912)
-     , (1969553420, 2, 16783918)
-     , (1969553420, 3, 16777292)
-     , (1969553420, 4, 16777291)
-     , (1969553420, 5, 16783916)
-     , (1969553420, 6, 16783920)
-     , (1969553420, 7, 16777296)
-     , (1969553420, 8, 16777298)
-     , (1969553420, 9, 16783714)
-     , (1969553420, 10, 16783863)
-     , (1969553420, 11, 16783855)
-     , (1969553420, 13, 16783871)
-     , (1969553420, 14, 16783855)
-     , (1969553420, 16, 16783677);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2118373392, 'Fishing Sign', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33555088, 0, 163841, 0, 0, 0, 1040, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2118373392, 23340, 58429, 31, 75.0042, 153.852, 120, 0.913668, 0, 0, -0.406461);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2118373393, 'Fishing Sign', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33555088, 0, 163841, 0, 0, 0, 1040, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2118373393, 23340, 58429, 33, 100.664, 1.40064, 69.9, -0.303656, 0, 0, -0.952782);
-
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1999667210, 'Ulgrim''s Island', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556189, 0.3, 163969, 0, 0, 0, 1048, 0, '0');
-
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1999667210, 23883, 29448, 23, 70.8269, 164.452, 12, 0.0461788, 0, 0, -0.998933);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2117283843, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557413, 0, 32769, 0, 0, 0, 1048, 0, '0');
@@ -928,6 +316,36 @@ INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell
 VALUES (2056978447, 5108, 43440, 15, 25.4637, 145.768, 58, 0.748069, 0, 0, 0.663621);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2074734597, 'The Underground City', 8192, 0, 0, 0, 276, 25, 0, 0, 0, 0, 0, 2097208, 0, 100668236, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 0, 10, 0, 0, 0, 0, 0, 0, 0, 33556013, 0, 38913, 872415275, 0, 536870932, 1040, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2074734597, 5691, 47775, 256, 38.5726, 177.726, 56, 1, 0, 0, 0);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2074734595, 'The Full Code of Pwyll', 8192, 0, 0, 0, 276, 25, 0, 0, 0, 0, 0, 2097208, 0, 100668236, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 0, 10, 0, 0, 0, 0, 0, 0, 0, 33556013, 0, 38913, 872415275, 0, 536870932, 1040, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2074734595, 5690, 47775, 256, 32.2226, 181.959, 56, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2074734596, 'The Days of the Olthoi', 8192, 0, 0, 0, 276, 25, 0, 0, 0, 0, 0, 2097208, 0, 100668236, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 0, 10, 0, 0, 0, 0, 0, 0, 0, 33556013, 0, 38913, 872415275, 0, 536870932, 1040, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2074734596, 5692, 47775, 268, 35, 183, 59, -4.37114E-08, 0, 0, -1);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2090385447, 'Fishing Sign', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33555088, 0, 163841, 0, 0, 0, 1040, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2090385447, 23340, 51596, 16, 47.3334, 178.989, 3.9, 0.747973, 0, 0, -0.663729);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2089336927, 'Fishing Sign', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33555088, 0, 163841, 0, 0, 0, 1040, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2089336927, 23340, 51340, 55, 166.345, 161.433, 22, 0.72134, 0, 0, -0.692581);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2089320454, 'LIFESTONES SIGN', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
 
 INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -1042,6 +460,12 @@ VALUES (2018009091, 0, 16783897)
      , (2018009091, 13, 16783871)
      , (2018009091, 14, 16783855)
      , (2018009091, 16, 16783677);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2012807173, 'To Be A Shadow', 8192, 0, 0, 0, 276, 25, 0, 0, 0, 0, 0, 2097208, 0, 100668236, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 0, 10, 0, 0, 0, 0, 0, 0, 0, 33556013, 0, 38913, 872415275, 0, 536870932, 1040, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2012807173, 5697, 32656, 286, 107.48, 160.446, 147.2, 1, 0, 0, 0);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2010705936, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557413, 0, 32769, 0, 0, 0, 1048, 0, '0');
@@ -1249,6 +673,48 @@ VALUES (2031951877, 0, 16783897)
      , (2031951877, 13, 16783871)
      , (2031951877, 14, 16783855)
      , (2031951877, 16, 16783677);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2020614192, 'VIEW CONTROLS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2020614192, 5141, 34562, 433, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2020614229, 'COMBAT BAR ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2020614229, 5102, 34562, 620, 65.8391, -5.90952, 0, 1, 0, 0, 0);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2020614222, 'WIELDING ITEMS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2020614222, 5101, 34562, 568, 60.172, -14.16, 0, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2020614234, 'STATUS BARS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2020614234, 5103, 34562, 641, 75.631, -4.07894, 7.450581E-09, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2020614225, 'BASICS OF MAGIC ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2020614225, 5105, 34562, 573, 60.168, -25.879, 0, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2020614231, 'SPELLCASTING ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2020614231, 5106, 34562, 622, 65.799, -33.88, 0, 0, 0, 0, -1);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2020614252, 'MAGIC TIPS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2020614252, 5107, 34562, 650, 75.752, -35.8377, 7.450581E-09, 0.707107, 0, 0, -0.707107);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (1880940637, 'Letter from Alatar', 8192, 0, 0, 0, 276, 25, 0, 0, 0, 0, 0, 2097208, 0, 100668176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 1, 0, 100, 0, 101, 0, 0, 0, 0, 0, 33554773, 0, 169985, 872415275, 0, 536870932, 1044, 0, '0');
@@ -1494,6 +960,12 @@ INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell
 VALUES (2119442450, 5108, 58690, 26, 89.0943, 28.025, 58, 0.507255, 0, 0, 0.861796);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2112163850, 'LIFESTONES SIGN', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2112163850, 5108, 56913, 13, 29.6267, 103.483, 16.90753, -0.429638, 0, 0, -0.903001);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2092474372, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557413, 0, 32769, 0, 0, 0, 1048, 0, '0');
 
 INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -1559,6 +1031,104 @@ VALUES (2075656209, 'LIFESTONES SIGN', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 
 
 INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (2075656209, 5108, 48000, 63, 169.165, 147.295, 44, 0.964393, 0, 0, -0.264473);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2073690115, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557413, 0, 32769, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2073690115, 12774, 47520, 18, 60.2866, 36.0487, 54, -0.384825, 0, 0, -0.92299);
+
+INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (2073690115, 67112797, 0, 0);
+
+INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+VALUES (2073690115, 0, 83892345, 83893836)
+     , (2073690115, 0, 83892344, 83893836)
+     , (2073690115, 1, 83892352, 83893842)
+     , (2073690115, 2, 83892351, 83893841)
+     , (2073690115, 3, 83889344, 83887054)
+     , (2073690115, 4, 83887068, 83887054)
+     , (2073690115, 5, 83892352, 83893842)
+     , (2073690115, 6, 83892351, 83893841)
+     , (2073690115, 7, 83889344, 83887054)
+     , (2073690115, 8, 83887068, 83887054)
+     , (2073690115, 9, 83891974, 83893840)
+     , (2073690115, 9, 83891968, 83893839)
+     , (2073690115, 10, 83892347, 83893838)
+     , (2073690115, 11, 83892346, 83893837)
+     , (2073690115, 13, 83892347, 83893838)
+     , (2073690115, 14, 83892346, 83893837)
+     , (2073690115, 16, 83889860, 83892274)
+     , (2073690115, 16, 83889859, 83891965)
+     , (2073690115, 16, 83886684, 83890354)
+     , (2073690115, 16, 83886837, 83890310)
+     , (2073690115, 16, 83886668, 83890281);
+
+INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+VALUES (2073690115, 0, 16783897)
+     , (2073690115, 1, 16783912)
+     , (2073690115, 2, 16783918)
+     , (2073690115, 3, 16777292)
+     , (2073690115, 4, 16777291)
+     , (2073690115, 5, 16783916)
+     , (2073690115, 6, 16783920)
+     , (2073690115, 7, 16777296)
+     , (2073690115, 8, 16777298)
+     , (2073690115, 9, 16783714)
+     , (2073690115, 10, 16783863)
+     , (2073690115, 11, 16783855)
+     , (2073690115, 13, 16783871)
+     , (2073690115, 14, 16783855)
+     , (2073690115, 16, 16783677);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2051678214, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557413, 0, 32769, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2051678214, 12774, 42146, 19, 59.8146, 59.6399, 140.0145, -0.704917, 0, 0, 0.70929);
+
+INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (2051678214, 67112797, 0, 0);
+
+INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+VALUES (2051678214, 0, 83892345, 83893836)
+     , (2051678214, 0, 83892344, 83893836)
+     , (2051678214, 1, 83892352, 83893842)
+     , (2051678214, 2, 83892351, 83893841)
+     , (2051678214, 3, 83889344, 83887054)
+     , (2051678214, 4, 83887068, 83887054)
+     , (2051678214, 5, 83892352, 83893842)
+     , (2051678214, 6, 83892351, 83893841)
+     , (2051678214, 7, 83889344, 83887054)
+     , (2051678214, 8, 83887068, 83887054)
+     , (2051678214, 9, 83891974, 83893840)
+     , (2051678214, 9, 83891968, 83893839)
+     , (2051678214, 10, 83892347, 83893838)
+     , (2051678214, 11, 83892346, 83893837)
+     , (2051678214, 13, 83892347, 83893838)
+     , (2051678214, 14, 83892346, 83893837)
+     , (2051678214, 16, 83889860, 83892274)
+     , (2051678214, 16, 83889859, 83891965)
+     , (2051678214, 16, 83886684, 83890354)
+     , (2051678214, 16, 83886837, 83890310)
+     , (2051678214, 16, 83886668, 83890281);
+
+INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+VALUES (2051678214, 0, 16783897)
+     , (2051678214, 1, 16783912)
+     , (2051678214, 2, 16783918)
+     , (2051678214, 3, 16777292)
+     , (2051678214, 4, 16777291)
+     , (2051678214, 5, 16783916)
+     , (2051678214, 6, 16783920)
+     , (2051678214, 7, 16777296)
+     , (2051678214, 8, 16777298)
+     , (2051678214, 9, 16783714)
+     , (2051678214, 10, 16783863)
+     , (2051678214, 11, 16783855)
+     , (2051678214, 13, 16783871)
+     , (2051678214, 14, 16783855)
+     , (2051678214, 16, 16783677);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (2080186369, 'Hasty Note', 8192, 0, 0, 0, 276, 25, 0, 0, 0, 0, 0, 2097208, 0, 100668176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 0, 20, 0, 101, 0, 0, 0, 0, 0, 33554773, 0, 169985, 872415275, 0, 536870932, 1044, 0, '0');
@@ -1631,6 +1201,436 @@ VALUES (2090389520, 'Fishing Sign', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 209
 
 INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (2090389520, 23340, 51597, 4, 5.85229, 74.8397, 3.9, 0.82117, 0, 0, -0.570683);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2070556701, 'Fishing Sign', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33555088, 0, 163841, 0, 0, 0, 1040, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2070556701, 23340, 46755, 23, 56.9312, 148.395, 2, 0.898349, 0, 0, 0.439282);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2069512194, 'Fishing Sign', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33555088, 0, 163841, 0, 0, 0, 1040, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2069512194, 23340, 46500, 57, 191.183, 0.875853, 27.9, 0.380801, 0, 0, -0.924657);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2035421185, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557413, 0, 32769, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2035421185, 12774, 38177, 48, 132.788, 179.53, 122, -0.368664, 0, 0, -0.929563);
+
+INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (2035421185, 67112797, 0, 0);
+
+INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+VALUES (2035421185, 0, 83892345, 83893836)
+     , (2035421185, 0, 83892344, 83893836)
+     , (2035421185, 1, 83892352, 83893842)
+     , (2035421185, 2, 83892351, 83893841)
+     , (2035421185, 3, 83889344, 83887054)
+     , (2035421185, 4, 83887068, 83887054)
+     , (2035421185, 5, 83892352, 83893842)
+     , (2035421185, 6, 83892351, 83893841)
+     , (2035421185, 7, 83889344, 83887054)
+     , (2035421185, 8, 83887068, 83887054)
+     , (2035421185, 9, 83891974, 83893840)
+     , (2035421185, 9, 83891968, 83893839)
+     , (2035421185, 10, 83892347, 83893838)
+     , (2035421185, 11, 83892346, 83893837)
+     , (2035421185, 13, 83892347, 83893838)
+     , (2035421185, 14, 83892346, 83893837)
+     , (2035421185, 16, 83889860, 83892274)
+     , (2035421185, 16, 83889859, 83891965)
+     , (2035421185, 16, 83886684, 83890354)
+     , (2035421185, 16, 83886837, 83890310)
+     , (2035421185, 16, 83886668, 83890281);
+
+INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+VALUES (2035421185, 0, 16783897)
+     , (2035421185, 1, 16783912)
+     , (2035421185, 2, 16783918)
+     , (2035421185, 3, 16777292)
+     , (2035421185, 4, 16777291)
+     , (2035421185, 5, 16783916)
+     , (2035421185, 6, 16783920)
+     , (2035421185, 7, 16777296)
+     , (2035421185, 8, 16777298)
+     , (2035421185, 9, 16783714)
+     , (2035421185, 10, 16783863)
+     , (2035421185, 11, 16783855)
+     , (2035421185, 13, 16783871)
+     , (2035421185, 14, 16783855)
+     , (2035421185, 16, 16783677);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2026905648, 'VIEW CONTROLS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2026905648, 5141, 36098, 433, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2026905678, 'WIELDING ITEMS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2026905678, 5101, 36098, 568, 60.172, -14.16, 0, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2026905685, 'COMBAT BAR ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2026905685, 5102, 36098, 620, 65.8391, -5.90952, 0, 1, 0, 0, 0);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2026905690, 'STATUS BARS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2026905690, 5103, 36098, 641, 75.631, -4.07894, 7.450581E-09, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2026905681, 'BASICS OF MAGIC ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2026905681, 5105, 36098, 573, 60.168, -25.879, 0, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2026905687, 'SPELLCASTING ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2026905687, 5106, 36098, 622, 65.799, -33.88, 0, 0, 0, 0, -1);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2026905708, 'MAGIC TIPS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2026905708, 5107, 36098, 650, 75.752, -35.8377, 7.450581E-09, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2012229680, 'VIEW CONTROLS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2012229680, 5141, 32515, 433, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2012229710, 'WIELDING ITEMS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2012229710, 5101, 32515, 568, 60.172, -14.16, 0, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2012229717, 'COMBAT BAR ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2012229717, 5102, 32515, 620, 65.8391, -5.90952, 0, 1, 0, 0, 0);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2012229722, 'STATUS BARS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2012229722, 5103, 32515, 641, 75.631, -4.07894, 7.450581E-09, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2012229713, 'BASICS OF MAGIC ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2012229713, 5105, 32515, 573, 60.168, -25.879, 0, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2012229719, 'SPELLCASTING ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2012229719, 5106, 32515, 622, 65.799, -33.88, 0, 0, 0, 0, -1);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2012229740, 'MAGIC TIPS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2012229740, 5107, 32515, 650, 75.752, -35.8377, 7.450581E-09, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1999642672, 'VIEW CONTROLS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1999642672, 5141, 29442, 433, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1999642702, 'WIELDING ITEMS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1999642702, 5101, 29442, 568, 60.172, -14.16, 0, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1999642709, 'COMBAT BAR ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1999642709, 5102, 29442, 620, 65.8391, -5.90952, 0, 1, 0, 0, 0);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1999642714, 'STATUS BARS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1999642714, 5103, 29442, 641, 75.631, -4.07894, 7.450581E-09, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1999642705, 'BASICS OF MAGIC ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1999642705, 5105, 29442, 573, 60.168, -25.879, 0, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1999642711, 'SPELLCASTING ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1999642711, 5106, 29442, 622, 65.799, -33.88, 0, 0, 0, 0, -1);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1999642732, 'MAGIC TIPS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1999642732, 5107, 29442, 650, 75.752, -35.8377, 7.450581E-09, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2013278256, 'VIEW CONTROLS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2013278256, 5141, 32771, 433, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2013278293, 'COMBAT BAR ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2013278293, 5102, 32771, 620, 65.8391, -5.90952, 0, 1, 0, 0, 0);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2013278286, 'WIELDING ITEMS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2013278286, 5101, 32771, 568, 60.172, -14.16, 0, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2013278298, 'STATUS BARS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2013278298, 5103, 32771, 641, 75.631, -4.07894, 7.450581E-09, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2013278289, 'BASICS OF MAGIC ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2013278289, 5105, 32771, 573, 60.168, -25.879, 0, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2013278295, 'SPELLCASTING ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2013278295, 5106, 32771, 622, 65.799, -33.88, 0, 0, 0, 0, -1);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2013278316, 'MAGIC TIPS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2013278316, 5107, 32771, 650, 75.752, -35.8377, 7.450581E-09, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2078810116, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557413, 0, 32769, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2078810116, 12774, 48770, 26, 84.7988, 36.3057, 37.95891, -0.929616, 0, 0, -0.368529);
+
+INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (2078810116, 67112797, 0, 0);
+
+INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+VALUES (2078810116, 0, 83892345, 83893836)
+     , (2078810116, 0, 83892344, 83893836)
+     , (2078810116, 1, 83892352, 83893842)
+     , (2078810116, 2, 83892351, 83893841)
+     , (2078810116, 3, 83889344, 83887054)
+     , (2078810116, 4, 83887068, 83887054)
+     , (2078810116, 5, 83892352, 83893842)
+     , (2078810116, 6, 83892351, 83893841)
+     , (2078810116, 7, 83889344, 83887054)
+     , (2078810116, 8, 83887068, 83887054)
+     , (2078810116, 9, 83891974, 83893840)
+     , (2078810116, 9, 83891968, 83893839)
+     , (2078810116, 10, 83892347, 83893838)
+     , (2078810116, 11, 83892346, 83893837)
+     , (2078810116, 13, 83892347, 83893838)
+     , (2078810116, 14, 83892346, 83893837)
+     , (2078810116, 16, 83889860, 83892274)
+     , (2078810116, 16, 83889859, 83891965)
+     , (2078810116, 16, 83886684, 83890354)
+     , (2078810116, 16, 83886837, 83890310)
+     , (2078810116, 16, 83886668, 83890281);
+
+INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+VALUES (2078810116, 0, 16783897)
+     , (2078810116, 1, 16783912)
+     , (2078810116, 2, 16783918)
+     , (2078810116, 3, 16777292)
+     , (2078810116, 4, 16777291)
+     , (2078810116, 5, 16783916)
+     , (2078810116, 6, 16783920)
+     , (2078810116, 7, 16777296)
+     , (2078810116, 8, 16777298)
+     , (2078810116, 9, 16783714)
+     , (2078810116, 10, 16783863)
+     , (2078810116, 11, 16783855)
+     , (2078810116, 13, 16783871)
+     , (2078810116, 14, 16783855)
+     , (2078810116, 16, 16783677);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1943826866, 'Strange Book', 8192, 0, 0, 0, 276, 25, 0, 0, 0, 0, 0, 2097176, 0, 100668176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 1, 0, 101, 0, 0, 0, 0, 0, 33554773, 0, 169985, 872415275, 0, 536870932, 1044, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1943826866, 14892, 15815, 45, 132.035, 106.186, 0.079, -0.9780971, 0, 0, -0.208149);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1998594096, 'VIEW CONTROLS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1998594096, 5141, 29186, 433, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1998594124, 'WIELDING ITEMS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1998594124, 5101, 29186, 568, 60.172, -14.16, 0, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1998594130, 'COMBAT BAR ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1998594130, 5102, 29186, 620, 65.8391, -5.90952, 0, 1, 0, 0, 0);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1998594136, 'STATUS BARS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1998594136, 5103, 29186, 641, 75.631, -4.07894, 7.450581E-09, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1998594127, 'BASICS OF MAGIC ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1998594127, 5105, 29186, 573, 60.168, -25.879, 0, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1998594132, 'SPELLCASTING ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1998594132, 5106, 29186, 622, 65.799, -33.88, 0, 0, 0, 0, -1);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1998594161, 'MAGIC TIPS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1998594161, 5107, 29186, 650, 75.752, -35.8377, 7.450581E-09, 0.707107, 0, 0, -0.707107);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2072453126, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557413, 0, 32769, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2072453126, 12774, 47218, 37, 105, 106.818, 18, 0.746043, 0, 0, 0.665898);
+
+INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (2072453126, 67112797, 0, 0);
+
+INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+VALUES (2072453126, 0, 83892345, 83893836)
+     , (2072453126, 0, 83892344, 83893836)
+     , (2072453126, 1, 83892352, 83893842)
+     , (2072453126, 2, 83892351, 83893841)
+     , (2072453126, 3, 83889344, 83887054)
+     , (2072453126, 4, 83887068, 83887054)
+     , (2072453126, 5, 83892352, 83893842)
+     , (2072453126, 6, 83892351, 83893841)
+     , (2072453126, 7, 83889344, 83887054)
+     , (2072453126, 8, 83887068, 83887054)
+     , (2072453126, 9, 83891974, 83893840)
+     , (2072453126, 9, 83891968, 83893839)
+     , (2072453126, 10, 83892347, 83893838)
+     , (2072453126, 11, 83892346, 83893837)
+     , (2072453126, 13, 83892347, 83893838)
+     , (2072453126, 14, 83892346, 83893837)
+     , (2072453126, 16, 83889860, 83892274)
+     , (2072453126, 16, 83889859, 83891965)
+     , (2072453126, 16, 83886684, 83890354)
+     , (2072453126, 16, 83886837, 83890310)
+     , (2072453126, 16, 83886668, 83890281);
+
+INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+VALUES (2072453126, 0, 16783897)
+     , (2072453126, 1, 16783912)
+     , (2072453126, 2, 16783918)
+     , (2072453126, 3, 16777292)
+     , (2072453126, 4, 16777291)
+     , (2072453126, 5, 16783916)
+     , (2072453126, 6, 16783920)
+     , (2072453126, 7, 16777296)
+     , (2072453126, 8, 16777298)
+     , (2072453126, 9, 16783714)
+     , (2072453126, 10, 16783863)
+     , (2072453126, 11, 16783855)
+     , (2072453126, 13, 16783871)
+     , (2072453126, 14, 16783855)
+     , (2072453126, 16, 16783677);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (2013278218, 'LIFESTONES SIGN', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2013278218, 5108, 32771, 320, 126.543, -161.635, -6, -0.218685, 0, 0, -0.975796);
+
+INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
+VALUES (1969553420, 'Settlement Portals', 8192, 67108990, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 0, 0, 0, 0, 0, 0, 33557660, 0, 32769, 0, 0, 0, 1048, 0, '0');
+
+INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1969553420, 16908, 22096, 319, 40, -60, 0, 1, 0, 0, 0);
+
+INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (1969553420, 67112797, 0, 0);
+
+INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+VALUES (1969553420, 0, 83892345, 83893836)
+     , (1969553420, 0, 83892344, 83893836)
+     , (1969553420, 1, 83892352, 83893842)
+     , (1969553420, 2, 83892351, 83893841)
+     , (1969553420, 3, 83889344, 83887054)
+     , (1969553420, 4, 83887068, 83887054)
+     , (1969553420, 5, 83892352, 83893842)
+     , (1969553420, 6, 83892351, 83893841)
+     , (1969553420, 7, 83889344, 83887054)
+     , (1969553420, 8, 83887068, 83887054)
+     , (1969553420, 9, 83891974, 83893840)
+     , (1969553420, 9, 83891968, 83893839)
+     , (1969553420, 10, 83892347, 83893838)
+     , (1969553420, 11, 83892346, 83893837)
+     , (1969553420, 13, 83892347, 83893838)
+     , (1969553420, 14, 83892346, 83893837)
+     , (1969553420, 16, 83889860, 83892274)
+     , (1969553420, 16, 83889859, 83891965)
+     , (1969553420, 16, 83886684, 83890354)
+     , (1969553420, 16, 83886837, 83890310)
+     , (1969553420, 16, 83886668, 83890281);
+
+INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+VALUES (1969553420, 0, 16783897)
+     , (1969553420, 1, 16783912)
+     , (1969553420, 2, 16783918)
+     , (1969553420, 3, 16777292)
+     , (1969553420, 4, 16777291)
+     , (1969553420, 5, 16783916)
+     , (1969553420, 6, 16783920)
+     , (1969553420, 7, 16777296)
+     , (1969553420, 8, 16777298)
+     , (1969553420, 9, 16783714)
+     , (1969553420, 10, 16783863)
+     , (1969553420, 11, 16783855)
+     , (1969553420, 13, 16783871)
+     , (1969553420, 14, 16783855)
+     , (1969553420, 16, 16783677);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
 VALUES (1999646768, 'VIEW CONTROLS ', 8192, 0, 0, 0, 276, 9000, 0, 0, 0, 0, 0, 2097208, 0, 100668115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 5, 0, 125, 0, 101, 0, 0, 0, 0, 0, 33556014, 0, 163841, 0, 0, 0, 1048, 0, '0');
