@@ -5,13 +5,13 @@ INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell
 VALUES (2080186368, 5864, 49106, 41, 124.508, 20.2073, 304.6297, 0.670344, 0, 0, -0.742051);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2033012736, 'Standing Stone', 512, 0, 0, 0, 21, 9000, 0, 0, 0, 0, 10, 2097214, 0, 100670227, 0, 0, 0, 120, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 1, 0, 2500, 0, 0, 0, 0, 0, 0, 0, 33555229, 0, 38917, 872415275, 0, 536870932, 66584, 0, '0');
+VALUES (2033012736, 'Standing Stone', 512, 0, 0, 0, 21, 9025, 0, 0, 0, 0, 10, 2097214, 0, 100670227, 0, 0, 0, 120, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 1, 0, 2500, 0, 0, 0, 0, 0, 0, 0, 33555229, 0, 38917, 872415275, 0, 536870932, 66584, 0, '0');
 
 INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (2033012736, 5865, 37589, 40, 102.337, 185.552, 300.581, -0.921586, 0, 0, -0.388174);
 
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1983746048, 'Standing Stone', 512, 0, 0, 0, 21, 9000, 0, 0, 0, 0, 10, 2097214, 0, 100670227, 0, 0, 0, 120, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 1, 0, 2500, 0, 0, 0, 0, 0, 0, 0, 33555229, 0, 38913, 872415275, 0, 536870932, 66584, 0, '0');
+VALUES (1983746048, 'Standing Stone', 512, 0, 0, 0, 21, 9025, 0, 0, 0, 0, 10, 2097214, 0, 100670227, 0, 0, 0, 120, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 1, 0, 2500, 0, 0, 0, 0, 0, 0, 0, 33555229, 0, 38913, 872415275, 0, 536870932, 66584, 0, '0');
 
 INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (1983746048, 5866, 25561, 60, 170.431, 78.133, 269.2863, -4.37114E-08, 0, 0, -1);

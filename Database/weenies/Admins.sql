@@ -1,5 +1,5 @@
 INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (4, '+Moosier', 16, 67108990, 0, 0, 5242892, 0, 0, 0, 0, 0, 7, 8388630, 0, 100667446, 0, 0, 0, 102, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 104451, 872415236, 150994945, 536870913, 4195336, 0, 'AAA9AAIAAADrAAAA');
+VALUES (4, '+Moosier', 16, 67108990, 0, 0, 5242892, 0, 0, 0, 0, 0, 7, 8388630, 0, 100667446, 0, 0, 0, 102, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 104451, 872415236, 150994945, 536870913, 4195336, 0, 'AAA9AGYAAAAHAA0ABEEAQAAAwD8=');
 
 INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
 VALUES (4, 4);
