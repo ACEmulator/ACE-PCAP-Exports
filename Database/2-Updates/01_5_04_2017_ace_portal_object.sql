@@ -1,12 +1,3 @@
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
 --
 -- Database: `ace_world`
 --
@@ -62,10 +53,10 @@ ALTER TABLE `ace_portal_object`
 --
 -- View structure for view `vw_ace_portal_object`
 --
-/*!50001 DROP TABLE IF EXISTS `vw_ace_portal_object` */;
-/*!50001 DROP VIEW IF EXISTS `vw_ace_portal_object` */;
+DROP TABLE IF EXISTS `vw_ace_portal_object` */;
+DROP VIEW IF EXISTS `vw_ace_portal_object` */;
 
-/*!50001 CREATE VIEW `vw_ace_portal_object`
+CREATE VIEW `vw_ace_portal_object`
  AS (select `ao`.`baseAceObjectId` AS `baseAceObjectId`,
             `ao`.`name` AS `name`,
 			`ao`.`typeId` AS `typeId`,
@@ -141,7 +132,3 @@ ALTER TABLE `ace_portal_object`
 			`apo`.`isRecallable` AS `isRecallable`,
 			`apo`.`isSummonable` AS `isSummonable`
  from (`vw_ace_object` `ao` left outer join `ace_portal_object` `apo` on((`ao`.`weenieClassId` = `apo`.`weenieClassId`))) where typeId = 65536) */;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
