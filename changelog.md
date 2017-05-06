@@ -4,6 +4,9 @@
 [Ripley]
 * Restructured scripts.
 
+[MiachofTD]
+* Added settlement portal drops for Yaraq Zaikhal and Al-Arqas
+
 ### 2017-04-26
 [Ripley]
 * Added initial SQL insert scripts for world population.
