@@ -53,8 +53,8 @@ ALTER TABLE `ace_portal_object`
 --
 -- View structure for view `vw_ace_portal_object`
 --
-DROP TABLE IF EXISTS `vw_ace_portal_object` */;
-DROP VIEW IF EXISTS `vw_ace_portal_object` */;
+DROP TABLE IF EXISTS `vw_ace_portal_object`;
+DROP VIEW IF EXISTS `vw_ace_portal_object`;
 
 CREATE VIEW `vw_ace_portal_object`
  AS (select `ao`.`baseAceObjectId` AS `baseAceObjectId`,
@@ -131,4 +131,4 @@ CREATE VIEW `vw_ace_portal_object`
 			`apo`.`isTieable` AS `isTieable`,
 			`apo`.`isRecallable` AS `isRecallable`,
 			`apo`.`isSummonable` AS `isSummonable`
- from (`vw_ace_object` `ao` left outer join `ace_portal_object` `apo` on((`ao`.`weenieClassId` = `apo`.`weenieClassId`))) where typeId = 65536) */;
+ from (`vw_ace_object` `ao` left outer join `ace_portal_object` `apo` on((`ao`.`weenieClassId` = `apo`.`weenieClassId`))) where typeId = 65536);
