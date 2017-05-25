@@ -8,37 +8,21 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1920909319, 1, 'Statue of Eleonora du Bellenesse');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1920909319, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1920909319, 95, 8);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1920909319, 5, 4000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1920909319, 133, 4);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1920909319, 16, 48);
+VALUES (1920909319, 1, 8192)
+     , (1920909319, 95, 8)
+     , (1920909319, 5, 4000)
+     , (1920909319, 133, 4)
+     , (1920909319, 16, 48)
+     , (1920909319, 93, 66584);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1920909319, 54, 4);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1920909319, 39, 3);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1920909319, 93, 66584);
+VALUES (1920909319, 54, 4)
+     , (1920909319, 39, 3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1920909319, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1920909319, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1920909319, 14, True);
+VALUES (1920909319, 12, True)
+     , (1920909319, 11, True)
+     , (1920909319, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1889558529, 11534384, 6401, 404, 100670208, NULL, NULL, 33556419, NULL, NULL, NULL, NULL, NULL, 32897, NULL, NULL, NULL);
@@ -50,37 +34,21 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1889558529, 1, 'Statue');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1889558529, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1889558529, 95, 8);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1889558529, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1889558529, 133, 4);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1889558529, 16, 48);
+VALUES (1889558529, 1, 8192)
+     , (1889558529, 95, 8)
+     , (1889558529, 5, 9000)
+     , (1889558529, 133, 4)
+     , (1889558529, 16, 48)
+     , (1889558529, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1889558529, 54, 4);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1889558529, 39, 5);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1889558529, 93, 1048);
+VALUES (1889558529, 54, 4)
+     , (1889558529, 39, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1889558529, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1889558529, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1889558529, 14, True);
+VALUES (1889558529, 12, True)
+     , (1889558529, 11, True)
+     , (1889558529, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1889558528, 11534384, 6401, 404, 100670208, NULL, NULL, 33556419, NULL, NULL, NULL, NULL, NULL, 32897, NULL, NULL, NULL);
@@ -92,37 +60,21 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1889558528, 1, 'Statue');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1889558528, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1889558528, 95, 8);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1889558528, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1889558528, 133, 4);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1889558528, 16, 48);
+VALUES (1889558528, 1, 8192)
+     , (1889558528, 95, 8)
+     , (1889558528, 5, 9000)
+     , (1889558528, 133, 4)
+     , (1889558528, 16, 48)
+     , (1889558528, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1889558528, 54, 4);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1889558528, 39, 5);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1889558528, 93, 1048);
+VALUES (1889558528, 54, 4)
+     , (1889558528, 39, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1889558528, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1889558528, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1889558528, 14, True);
+VALUES (1889558528, 12, True)
+     , (1889558528, 11, True)
+     , (1889558528, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1892712449, 11534384, 6401, 404, 100670208, NULL, NULL, 33556419, NULL, NULL, NULL, NULL, NULL, 32897, NULL, NULL, NULL);
@@ -134,37 +86,21 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1892712449, 1, 'Statue');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1892712449, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1892712449, 95, 8);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1892712449, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1892712449, 133, 4);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1892712449, 16, 48);
+VALUES (1892712449, 1, 8192)
+     , (1892712449, 95, 8)
+     , (1892712449, 5, 9000)
+     , (1892712449, 133, 4)
+     , (1892712449, 16, 48)
+     , (1892712449, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1892712449, 54, 4);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1892712449, 39, 5);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1892712449, 93, 1048);
+VALUES (1892712449, 54, 4)
+     , (1892712449, 39, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1892712449, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1892712449, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1892712449, 14, True);
+VALUES (1892712449, 12, True)
+     , (1892712449, 11, True)
+     , (1892712449, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1892712448, 11534384, 6388, 404, 100670208, NULL, NULL, 33556419, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -176,34 +112,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1892712448, 1, 'Town Statue');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1892712448, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1892712448, 95, 8);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1892712448, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1892712448, 133, 4);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1892712448, 16, 48);
+VALUES (1892712448, 1, 8192)
+     , (1892712448, 95, 8)
+     , (1892712448, 5, 9000)
+     , (1892712448, 133, 4)
+     , (1892712448, 16, 48)
+     , (1892712448, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1892712448, 54, 4);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1892712448, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1892712448, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1892712448, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1892712448, 14, True);
+VALUES (1892712448, 12, True)
+     , (1892712448, 11, True)
+     , (1892712448, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1933414402, 2097200, 30043, 276, 100686580, NULL, NULL, 33559094, 536871026, NULL, NULL, NULL, NULL, 34945, NULL, NULL, NULL);
@@ -215,28 +137,18 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1933414402, 1, 'Statue of King Varicci II');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1933414402, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1933414402, 5, 4000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1933414402, 16, 32);
+VALUES (1933414402, 1, 8192)
+     , (1933414402, 5, 4000)
+     , (1933414402, 16, 32)
+     , (1933414402, 93, 66576);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1933414402, 54, 25);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1933414402, 39, 5);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1933414402, 93, 66576);
+VALUES (1933414402, 54, 25)
+     , (1933414402, 39, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1933414402, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1933414402, 14, True);
+VALUES (1933414402, 11, True)
+     , (1933414402, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2076823553, 2097200, 9519, 276, 100671531, NULL, NULL, 33557020, 536871026, 150995125, 'AAA9AAAAAAA=', NULL, NULL, 100483, NULL, NULL, NULL);
@@ -248,31 +160,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2076823553, 1, 'Sentinel Statue');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2076823553, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2076823553, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2076823553, 5, 4000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2076823553, 16, 32);
+VALUES (2076823553, 1, 8192)
+     , (2076823553, 3, 67108990)
+     , (2076823553, 5, 4000)
+     , (2076823553, 16, 32)
+     , (2076823553, 93, 1040);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2076823553, 54, 25);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2076823553, 39, 5);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2076823553, 93, 1040);
+VALUES (2076823553, 54, 25)
+     , (2076823553, 39, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2076823553, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2076823553, 14, True);
+VALUES (2076823553, 11, True)
+     , (2076823553, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2076823553, 67112797, 0, 0);
@@ -331,31 +231,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2076823552, 1, 'Advocate Statue');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2076823552, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2076823552, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2076823552, 5, 4000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2076823552, 16, 32);
+VALUES (2076823552, 1, 8192)
+     , (2076823552, 3, 67108990)
+     , (2076823552, 5, 4000)
+     , (2076823552, 16, 32)
+     , (2076823552, 93, 1040);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2076823552, 54, 22.5);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2076823552, 39, 5);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2076823552, 93, 1040);
+VALUES (2076823552, 54, 22.5)
+     , (2076823552, 39, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2076823552, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2076823552, 14, True);
+VALUES (2076823552, 11, True)
+     , (2076823552, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2076823552, 67112797, 0, 0);
@@ -408,31 +296,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2014908417, 1, 'Sentinel Statue');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014908417, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014908417, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014908417, 5, 4000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014908417, 16, 32);
+VALUES (2014908417, 1, 8192)
+     , (2014908417, 3, 67108990)
+     , (2014908417, 5, 4000)
+     , (2014908417, 16, 32)
+     , (2014908417, 93, 1040);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2014908417, 54, 25);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2014908417, 39, 5);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014908417, 93, 1040);
+VALUES (2014908417, 54, 25)
+     , (2014908417, 39, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2014908417, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2014908417, 14, True);
+VALUES (2014908417, 11, True)
+     , (2014908417, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2014908417, 67112797, 0, 0);
@@ -491,31 +367,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2014908416, 1, 'Advocate Statue');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014908416, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014908416, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014908416, 5, 4000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014908416, 16, 32);
+VALUES (2014908416, 1, 8192)
+     , (2014908416, 3, 67108990)
+     , (2014908416, 5, 4000)
+     , (2014908416, 16, 32)
+     , (2014908416, 93, 1040);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2014908416, 54, 22.5);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2014908416, 39, 5);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014908416, 93, 1040);
+VALUES (2014908416, 54, 22.5)
+     , (2014908416, 39, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2014908416, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2014908416, 14, True);
+VALUES (2014908416, 11, True)
+     , (2014908416, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2014908416, 67112797, 0, 0);
@@ -568,31 +432,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2123681792, 1, 'Advocate Statue');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2123681792, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2123681792, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2123681792, 5, 4000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2123681792, 16, 32);
+VALUES (2123681792, 1, 8192)
+     , (2123681792, 3, 67108990)
+     , (2123681792, 5, 4000)
+     , (2123681792, 16, 32)
+     , (2123681792, 93, 1040);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2123681792, 54, 22.5);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2123681792, 39, 5);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2123681792, 93, 1040);
+VALUES (2123681792, 54, 22.5)
+     , (2123681792, 39, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2123681792, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2123681792, 14, True);
+VALUES (2123681792, 11, True)
+     , (2123681792, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2123681792, 67112797, 0, 0);
@@ -645,31 +497,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2123681793, 1, 'Sentinel Statue');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2123681793, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2123681793, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2123681793, 5, 4000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2123681793, 16, 32);
+VALUES (2123681793, 1, 8192)
+     , (2123681793, 3, 67108990)
+     , (2123681793, 5, 4000)
+     , (2123681793, 16, 32)
+     , (2123681793, 93, 1040);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2123681793, 54, 25);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2123681793, 39, 5);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2123681793, 93, 1040);
+VALUES (2123681793, 54, 25)
+     , (2123681793, 39, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2123681793, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2123681793, 14, True);
+VALUES (2123681793, 11, True)
+     , (2123681793, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2123681793, 67112797, 0, 0);
@@ -728,37 +568,21 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1884348434, 1, 'Statue');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1884348434, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1884348434, 95, 8);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1884348434, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1884348434, 133, 4);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1884348434, 16, 48);
+VALUES (1884348434, 1, 8192)
+     , (1884348434, 95, 8)
+     , (1884348434, 5, 9000)
+     , (1884348434, 133, 4)
+     , (1884348434, 16, 48)
+     , (1884348434, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1884348434, 54, 4);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1884348434, 39, 5);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1884348434, 93, 1048);
+VALUES (1884348434, 54, 4)
+     , (1884348434, 39, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1884348434, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1884348434, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1884348434, 14, True);
+VALUES (1884348434, 12, True)
+     , (1884348434, 11, True)
+     , (1884348434, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1881890829, 11534384, 6388, 404, 100670208, NULL, NULL, 33556419, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -770,34 +594,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1881890829, 1, 'Town Statue');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1881890829, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1881890829, 95, 8);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1881890829, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1881890829, 133, 4);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1881890829, 16, 48);
+VALUES (1881890829, 1, 8192)
+     , (1881890829, 95, 8)
+     , (1881890829, 5, 9000)
+     , (1881890829, 133, 4)
+     , (1881890829, 16, 48)
+     , (1881890829, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1881890829, 54, 4);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1881890829, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1881890829, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1881890829, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1881890829, 14, True);
+VALUES (1881890829, 12, True)
+     , (1881890829, 11, True)
+     , (1881890829, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1882046542, 11534384, 6388, 404, 100670208, NULL, NULL, 33556419, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -809,32 +619,18 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1882046542, 1, 'Town Statue');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1882046542, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1882046542, 95, 8);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1882046542, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1882046542, 133, 4);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1882046542, 16, 48);
+VALUES (1882046542, 1, 8192)
+     , (1882046542, 95, 8)
+     , (1882046542, 5, 9000)
+     , (1882046542, 133, 4)
+     , (1882046542, 16, 48)
+     , (1882046542, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1882046542, 54, 4);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1882046542, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1882046542, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1882046542, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1882046542, 14, True);
+VALUES (1882046542, 12, True)
+     , (1882046542, 11, True)
+     , (1882046542, 14, True);
 

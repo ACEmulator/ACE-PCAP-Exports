@@ -8,34 +8,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2136313874, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2136313874, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2136313874, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2136313874, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2136313874, 16, 48);
+VALUES (2136313874, 1, 8192)
+     , (2136313874, 3, 67108990)
+     , (2136313874, 5, 9000)
+     , (2136313874, 16, 48)
+     , (2136313874, 19, 125)
+     , (2136313874, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2136313874, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2136313874, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2136313874, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2136313874, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2136313874, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2136313874, 14, True);
+VALUES (2136313874, 12, True)
+     , (2136313874, 11, True)
+     , (2136313874, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2136313874, 67112797, 0, 0);
@@ -90,34 +76,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1986879492, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1986879492, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1986879492, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1986879492, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1986879492, 16, 48);
+VALUES (1986879492, 1, 8192)
+     , (1986879492, 3, 67108990)
+     , (1986879492, 5, 9000)
+     , (1986879492, 16, 48)
+     , (1986879492, 19, 125)
+     , (1986879492, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1986879492, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1986879492, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1986879492, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1986879492, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1986879492, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1986879492, 14, True);
+VALUES (1986879492, 12, True)
+     , (1986879492, 11, True)
+     , (1986879492, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1986879492, 67112797, 0, 0);
@@ -172,34 +144,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2117283843, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2117283843, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2117283843, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2117283843, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2117283843, 16, 48);
+VALUES (2117283843, 1, 8192)
+     , (2117283843, 3, 67108990)
+     , (2117283843, 5, 9000)
+     , (2117283843, 16, 48)
+     , (2117283843, 19, 125)
+     , (2117283843, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2117283843, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2117283843, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2117283843, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2117283843, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2117283843, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2117283843, 14, True);
+VALUES (2117283843, 12, True)
+     , (2117283843, 11, True)
+     , (2117283843, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2117283843, 67112797, 0, 0);
@@ -254,34 +212,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2093568004, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2093568004, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2093568004, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2093568004, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2093568004, 16, 48);
+VALUES (2093568004, 1, 8192)
+     , (2093568004, 3, 67108990)
+     , (2093568004, 5, 9000)
+     , (2093568004, 16, 48)
+     , (2093568004, 19, 125)
+     , (2093568004, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2093568004, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2093568004, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2093568004, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2093568004, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2093568004, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2093568004, 14, True);
+VALUES (2093568004, 12, True)
+     , (2093568004, 11, True)
+     , (2093568004, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2093568004, 67112797, 0, 0);
@@ -336,34 +280,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2107998211, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2107998211, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2107998211, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2107998211, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2107998211, 16, 48);
+VALUES (2107998211, 1, 8192)
+     , (2107998211, 3, 67108990)
+     , (2107998211, 5, 9000)
+     , (2107998211, 16, 48)
+     , (2107998211, 19, 125)
+     , (2107998211, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2107998211, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2107998211, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2107998211, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2107998211, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2107998211, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2107998211, 14, True);
+VALUES (2107998211, 12, True)
+     , (2107998211, 11, True)
+     , (2107998211, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107998211, 67112797, 0, 0);
@@ -418,34 +348,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1969610764, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969610764, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969610764, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969610764, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969610764, 16, 48);
+VALUES (1969610764, 1, 8192)
+     , (1969610764, 3, 67108990)
+     , (1969610764, 5, 9000)
+     , (1969610764, 16, 48)
+     , (1969610764, 19, 125)
+     , (1969610764, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1969610764, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969610764, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969610764, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1969610764, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1969610764, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1969610764, 14, True);
+VALUES (1969610764, 12, True)
+     , (1969610764, 11, True)
+     , (1969610764, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1969610764, 67112797, 0, 0);
@@ -500,34 +416,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2018009091, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018009091, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018009091, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018009091, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018009091, 16, 48);
+VALUES (2018009091, 1, 8192)
+     , (2018009091, 3, 67108990)
+     , (2018009091, 5, 9000)
+     , (2018009091, 16, 48)
+     , (2018009091, 19, 125)
+     , (2018009091, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2018009091, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018009091, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018009091, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2018009091, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2018009091, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2018009091, 14, True);
+VALUES (2018009091, 12, True)
+     , (2018009091, 11, True)
+     , (2018009091, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2018009091, 67112797, 0, 0);
@@ -582,34 +484,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2010705936, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010705936, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010705936, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010705936, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010705936, 16, 48);
+VALUES (2010705936, 1, 8192)
+     , (2010705936, 3, 67108990)
+     , (2010705936, 5, 9000)
+     , (2010705936, 16, 48)
+     , (2010705936, 19, 125)
+     , (2010705936, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2010705936, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010705936, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010705936, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2010705936, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2010705936, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2010705936, 14, True);
+VALUES (2010705936, 12, True)
+     , (2010705936, 11, True)
+     , (2010705936, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010705936, 67112797, 0, 0);
@@ -664,34 +552,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2095317004, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095317004, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095317004, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095317004, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095317004, 16, 48);
+VALUES (2095317004, 1, 8192)
+     , (2095317004, 3, 67108990)
+     , (2095317004, 5, 9000)
+     , (2095317004, 16, 48)
+     , (2095317004, 19, 125)
+     , (2095317004, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2095317004, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095317004, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095317004, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095317004, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095317004, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095317004, 14, True);
+VALUES (2095317004, 12, True)
+     , (2095317004, 11, True)
+     , (2095317004, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095317004, 67112797, 0, 0);
@@ -746,34 +620,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2031951877, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031951877, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031951877, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031951877, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031951877, 16, 48);
+VALUES (2031951877, 1, 8192)
+     , (2031951877, 3, 67108990)
+     , (2031951877, 5, 9000)
+     , (2031951877, 16, 48)
+     , (2031951877, 19, 125)
+     , (2031951877, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2031951877, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031951877, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031951877, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2031951877, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2031951877, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2031951877, 14, True);
+VALUES (2031951877, 12, True)
+     , (2031951877, 11, True)
+     , (2031951877, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2031951877, 67112797, 0, 0);
@@ -828,34 +688,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2090500100, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090500100, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090500100, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090500100, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090500100, 16, 48);
+VALUES (2090500100, 1, 8192)
+     , (2090500100, 3, 67108990)
+     , (2090500100, 5, 9000)
+     , (2090500100, 16, 48)
+     , (2090500100, 19, 125)
+     , (2090500100, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2090500100, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090500100, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090500100, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2090500100, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2090500100, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2090500100, 14, True);
+VALUES (2090500100, 12, True)
+     , (2090500100, 11, True)
+     , (2090500100, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090500100, 67112797, 0, 0);
@@ -910,34 +756,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2012622852, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2012622852, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2012622852, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2012622852, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2012622852, 16, 48);
+VALUES (2012622852, 1, 8192)
+     , (2012622852, 3, 67108990)
+     , (2012622852, 5, 9000)
+     , (2012622852, 16, 48)
+     , (2012622852, 19, 125)
+     , (2012622852, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2012622852, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2012622852, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2012622852, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2012622852, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2012622852, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2012622852, 14, True);
+VALUES (2012622852, 12, True)
+     , (2012622852, 11, True)
+     , (2012622852, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2012622852, 67112797, 0, 0);
@@ -992,34 +824,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2051407872, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051407872, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051407872, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051407872, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051407872, 16, 48);
+VALUES (2051407872, 1, 8192)
+     , (2051407872, 3, 67108990)
+     , (2051407872, 5, 9000)
+     , (2051407872, 16, 48)
+     , (2051407872, 19, 125)
+     , (2051407872, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2051407872, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051407872, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051407872, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051407872, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051407872, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051407872, 14, True);
+VALUES (2051407872, 12, True)
+     , (2051407872, 11, True)
+     , (2051407872, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2051407872, 67112797, 0, 0);
@@ -1074,34 +892,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2092474372, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092474372, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092474372, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092474372, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092474372, 16, 48);
+VALUES (2092474372, 1, 8192)
+     , (2092474372, 3, 67108990)
+     , (2092474372, 5, 9000)
+     , (2092474372, 16, 48)
+     , (2092474372, 19, 125)
+     , (2092474372, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2092474372, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092474372, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092474372, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092474372, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092474372, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092474372, 14, True);
+VALUES (2092474372, 12, True)
+     , (2092474372, 11, True)
+     , (2092474372, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2092474372, 67112797, 0, 0);
@@ -1156,34 +960,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2073690115, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073690115, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073690115, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073690115, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073690115, 16, 48);
+VALUES (2073690115, 1, 8192)
+     , (2073690115, 3, 67108990)
+     , (2073690115, 5, 9000)
+     , (2073690115, 16, 48)
+     , (2073690115, 19, 125)
+     , (2073690115, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2073690115, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073690115, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073690115, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2073690115, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2073690115, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2073690115, 14, True);
+VALUES (2073690115, 12, True)
+     , (2073690115, 11, True)
+     , (2073690115, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2073690115, 67112797, 0, 0);
@@ -1238,34 +1028,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2051678214, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051678214, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051678214, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051678214, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051678214, 16, 48);
+VALUES (2051678214, 1, 8192)
+     , (2051678214, 3, 67108990)
+     , (2051678214, 5, 9000)
+     , (2051678214, 16, 48)
+     , (2051678214, 19, 125)
+     , (2051678214, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2051678214, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051678214, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051678214, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051678214, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051678214, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051678214, 14, True);
+VALUES (2051678214, 12, True)
+     , (2051678214, 11, True)
+     , (2051678214, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2051678214, 67112797, 0, 0);
@@ -1320,34 +1096,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2035421185, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035421185, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035421185, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035421185, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035421185, 16, 48);
+VALUES (2035421185, 1, 8192)
+     , (2035421185, 3, 67108990)
+     , (2035421185, 5, 9000)
+     , (2035421185, 16, 48)
+     , (2035421185, 19, 125)
+     , (2035421185, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2035421185, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035421185, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035421185, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2035421185, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2035421185, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2035421185, 14, True);
+VALUES (2035421185, 12, True)
+     , (2035421185, 11, True)
+     , (2035421185, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2035421185, 67112797, 0, 0);
@@ -1402,34 +1164,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2078810116, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2078810116, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2078810116, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2078810116, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2078810116, 16, 48);
+VALUES (2078810116, 1, 8192)
+     , (2078810116, 3, 67108990)
+     , (2078810116, 5, 9000)
+     , (2078810116, 16, 48)
+     , (2078810116, 19, 125)
+     , (2078810116, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2078810116, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2078810116, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2078810116, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2078810116, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2078810116, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2078810116, 14, True);
+VALUES (2078810116, 12, True)
+     , (2078810116, 11, True)
+     , (2078810116, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2078810116, 67112797, 0, 0);
@@ -1484,34 +1232,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2072453126, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2072453126, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2072453126, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2072453126, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2072453126, 16, 48);
+VALUES (2072453126, 1, 8192)
+     , (2072453126, 3, 67108990)
+     , (2072453126, 5, 9000)
+     , (2072453126, 16, 48)
+     , (2072453126, 19, 125)
+     , (2072453126, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2072453126, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2072453126, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2072453126, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2072453126, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2072453126, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2072453126, 14, True);
+VALUES (2072453126, 12, True)
+     , (2072453126, 11, True)
+     , (2072453126, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2072453126, 67112797, 0, 0);
@@ -1566,34 +1300,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1969553420, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969553420, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969553420, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969553420, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969553420, 16, 48);
+VALUES (1969553420, 1, 8192)
+     , (1969553420, 3, 67108990)
+     , (1969553420, 5, 9000)
+     , (1969553420, 16, 48)
+     , (1969553420, 19, 125)
+     , (1969553420, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1969553420, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969553420, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969553420, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1969553420, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1969553420, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1969553420, 14, True);
+VALUES (1969553420, 12, True)
+     , (1969553420, 11, True)
+     , (1969553420, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1969553420, 67112797, 0, 0);
@@ -1648,34 +1368,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2059079686, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059079686, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059079686, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059079686, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059079686, 16, 48);
+VALUES (2059079686, 1, 8192)
+     , (2059079686, 3, 67108990)
+     , (2059079686, 5, 9000)
+     , (2059079686, 16, 48)
+     , (2059079686, 19, 125)
+     , (2059079686, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2059079686, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059079686, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059079686, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2059079686, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2059079686, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2059079686, 14, True);
+VALUES (2059079686, 12, True)
+     , (2059079686, 11, True)
+     , (2059079686, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2059079686, 67112797, 0, 0);
@@ -1730,34 +1436,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2120527876, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2120527876, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2120527876, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2120527876, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2120527876, 16, 48);
+VALUES (2120527876, 1, 8192)
+     , (2120527876, 3, 67108990)
+     , (2120527876, 5, 9000)
+     , (2120527876, 16, 48)
+     , (2120527876, 19, 125)
+     , (2120527876, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2120527876, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2120527876, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2120527876, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2120527876, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2120527876, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2120527876, 14, True);
+VALUES (2120527876, 12, True)
+     , (2120527876, 11, True)
+     , (2120527876, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120527876, 67112797, 0, 0);
@@ -1812,34 +1504,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2091241478, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091241478, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091241478, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091241478, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091241478, 16, 48);
+VALUES (2091241478, 1, 8192)
+     , (2091241478, 3, 67108990)
+     , (2091241478, 5, 9000)
+     , (2091241478, 16, 48)
+     , (2091241478, 19, 125)
+     , (2091241478, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2091241478, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091241478, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091241478, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2091241478, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2091241478, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2091241478, 14, True);
+VALUES (2091241478, 12, True)
+     , (2091241478, 11, True)
+     , (2091241478, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2091241478, 67112797, 0, 0);
@@ -1894,34 +1572,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2046038021, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2046038021, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2046038021, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2046038021, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2046038021, 16, 48);
+VALUES (2046038021, 1, 8192)
+     , (2046038021, 3, 67108990)
+     , (2046038021, 5, 9000)
+     , (2046038021, 16, 48)
+     , (2046038021, 19, 125)
+     , (2046038021, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2046038021, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2046038021, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2046038021, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2046038021, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2046038021, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2046038021, 14, True);
+VALUES (2046038021, 12, True)
+     , (2046038021, 11, True)
+     , (2046038021, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2046038021, 67112797, 0, 0);
@@ -1976,34 +1640,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2075226117, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075226117, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075226117, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075226117, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075226117, 16, 48);
+VALUES (2075226117, 1, 8192)
+     , (2075226117, 3, 67108990)
+     , (2075226117, 5, 9000)
+     , (2075226117, 16, 48)
+     , (2075226117, 19, 125)
+     , (2075226117, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2075226117, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075226117, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075226117, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2075226117, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2075226117, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2075226117, 14, True);
+VALUES (2075226117, 12, True)
+     , (2075226117, 11, True)
+     , (2075226117, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2075226117, 67112797, 0, 0);
@@ -2058,34 +1708,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1957396483, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1957396483, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1957396483, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1957396483, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1957396483, 16, 48);
+VALUES (1957396483, 1, 8192)
+     , (1957396483, 3, 67108990)
+     , (1957396483, 5, 9000)
+     , (1957396483, 16, 48)
+     , (1957396483, 19, 125)
+     , (1957396483, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1957396483, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1957396483, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1957396483, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1957396483, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1957396483, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1957396483, 14, True);
+VALUES (1957396483, 12, True)
+     , (1957396483, 11, True)
+     , (1957396483, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1957396483, 67112797, 0, 0);
@@ -2140,34 +1776,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2037899268, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2037899268, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2037899268, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2037899268, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2037899268, 16, 48);
+VALUES (2037899268, 1, 8192)
+     , (2037899268, 3, 67108990)
+     , (2037899268, 5, 9000)
+     , (2037899268, 16, 48)
+     , (2037899268, 19, 125)
+     , (2037899268, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2037899268, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2037899268, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2037899268, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2037899268, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2037899268, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2037899268, 14, True);
+VALUES (2037899268, 12, True)
+     , (2037899268, 11, True)
+     , (2037899268, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037899268, 67112797, 0, 0);
@@ -2222,34 +1844,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2029342724, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029342724, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029342724, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029342724, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029342724, 16, 48);
+VALUES (2029342724, 1, 8192)
+     , (2029342724, 3, 67108990)
+     , (2029342724, 5, 9000)
+     , (2029342724, 16, 48)
+     , (2029342724, 19, 125)
+     , (2029342724, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2029342724, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029342724, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029342724, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2029342724, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2029342724, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2029342724, 14, True);
+VALUES (2029342724, 12, True)
+     , (2029342724, 11, True)
+     , (2029342724, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2029342724, 67112797, 0, 0);
@@ -2304,34 +1912,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1967542297, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1967542297, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1967542297, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1967542297, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1967542297, 16, 48);
+VALUES (1967542297, 1, 8192)
+     , (1967542297, 3, 67108990)
+     , (1967542297, 5, 9000)
+     , (1967542297, 16, 48)
+     , (1967542297, 19, 125)
+     , (1967542297, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1967542297, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1967542297, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1967542297, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1967542297, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1967542297, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1967542297, 14, True);
+VALUES (1967542297, 12, True)
+     , (1967542297, 11, True)
+     , (1967542297, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1967542297, 67112797, 0, 0);
@@ -2386,34 +1980,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1969577996, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969577996, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969577996, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969577996, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969577996, 16, 48);
+VALUES (1969577996, 1, 8192)
+     , (1969577996, 3, 67108990)
+     , (1969577996, 5, 9000)
+     , (1969577996, 16, 48)
+     , (1969577996, 19, 125)
+     , (1969577996, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1969577996, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969577996, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969577996, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1969577996, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1969577996, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1969577996, 14, True);
+VALUES (1969577996, 12, True)
+     , (1969577996, 11, True)
+     , (1969577996, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1969577996, 67112797, 0, 0);
@@ -2468,34 +2048,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1969623052, 1, 'Settlement Portals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969623052, 1, 8192);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969623052, 3, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969623052, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969623052, 16, 48);
+VALUES (1969623052, 1, 8192)
+     , (1969623052, 3, 67108990)
+     , (1969623052, 5, 9000)
+     , (1969623052, 16, 48)
+     , (1969623052, 19, 125)
+     , (1969623052, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1969623052, 54, 5);
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969623052, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1969623052, 93, 1048);
-
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1969623052, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1969623052, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1969623052, 14, True);
+VALUES (1969623052, 12, True)
+     , (1969623052, 11, True)
+     , (1969623052, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1969623052, 67112797, 0, 0);

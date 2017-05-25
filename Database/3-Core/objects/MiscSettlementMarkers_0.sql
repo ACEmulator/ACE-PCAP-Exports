@@ -8,28 +8,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2034516401, 1, 'Al-Mar Oasis');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2034516401, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2034516401, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2034516401, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2034516401, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2034516401, 93, 1048);
+VALUES (2034516401, 1, 128)
+     , (2034516401, 5, 9000)
+     , (2034516401, 16, 1)
+     , (2034516401, 19, 125)
+     , (2034516401, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2034516401, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2034516401, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2034516401, 14, True);
+VALUES (2034516401, 12, True)
+     , (2034516401, 11, True)
+     , (2034516401, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2032533937, 2097176, 12580, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -41,28 +29,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2032533937, 1, 'Arqasanti');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032533937, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032533937, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032533937, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032533937, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032533937, 93, 1048);
+VALUES (2032533937, 1, 128)
+     , (2032533937, 5, 9000)
+     , (2032533937, 16, 1)
+     , (2032533937, 19, 125)
+     , (2032533937, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2032533937, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2032533937, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2032533937, 14, True);
+VALUES (2032533937, 12, True)
+     , (2032533937, 11, True)
+     , (2032533937, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2032550321, 2097176, 14703, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -74,28 +50,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2032550321, 1, 'Hamud Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032550321, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032550321, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032550321, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032550321, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032550321, 93, 1048);
+VALUES (2032550321, 1, 128)
+     , (2032550321, 5, 9000)
+     , (2032550321, 16, 1)
+     , (2032550321, 19, 125)
+     , (2032550321, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2032550321, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2032550321, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2032550321, 14, True);
+VALUES (2032550321, 12, True)
+     , (2032550321, 11, True)
+     , (2032550321, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2026607025, 2097176, 14702, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -107,28 +71,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2026607025, 1, 'Firedew');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026607025, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026607025, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026607025, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026607025, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026607025, 93, 1048);
+VALUES (2026607025, 1, 128)
+     , (2026607025, 5, 9000)
+     , (2026607025, 16, 1)
+     , (2026607025, 19, 125)
+     , (2026607025, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2026607025, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2026607025, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2026607025, 14, True);
+VALUES (2026607025, 12, True)
+     , (2026607025, 11, True)
+     , (2026607025, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2021523835, 2097176, 13159, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -140,28 +92,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2021523835, 1, 'Frosty Dale Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2021523835, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2021523835, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2021523835, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2021523835, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2021523835, 93, 1048);
+VALUES (2021523835, 1, 128)
+     , (2021523835, 5, 9000)
+     , (2021523835, 16, 1)
+     , (2021523835, 19, 125)
+     , (2021523835, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2021523835, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2021523835, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2021523835, 14, True);
+VALUES (2021523835, 12, True)
+     , (2021523835, 11, True)
+     , (2021523835, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2088321457, 2097176, 12615, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -173,28 +113,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2088321457, 1, 'Lake Blessed Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088321457, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088321457, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088321457, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088321457, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088321457, 93, 1048);
+VALUES (2088321457, 1, 128)
+     , (2088321457, 5, 9000)
+     , (2088321457, 16, 1)
+     , (2088321457, 19, 125)
+     , (2088321457, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2088321457, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2088321457, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2088321457, 14, True);
+VALUES (2088321457, 12, True)
+     , (2088321457, 11, True)
+     , (2088321457, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1975132593, 2097176, 15263, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -206,28 +134,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1975132593, 1, 'Tia-Leh Homestead');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1975132593, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1975132593, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1975132593, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1975132593, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1975132593, 93, 1048);
+VALUES (1975132593, 1, 128)
+     , (1975132593, 5, 9000)
+     , (1975132593, 16, 1)
+     , (1975132593, 19, 125)
+     , (1975132593, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1975132593, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1975132593, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1975132593, 14, True);
+VALUES (1975132593, 12, True)
+     , (1975132593, 11, True)
+     , (1975132593, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1979326939, 2097176, 14743, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -239,28 +155,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1979326939, 1, 'Tarn Vinara Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1979326939, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1979326939, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1979326939, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1979326939, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1979326939, 93, 1048);
+VALUES (1979326939, 1, 128)
+     , (1979326939, 5, 9000)
+     , (1979326939, 16, 1)
+     , (1979326939, 19, 125)
+     , (1979326939, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1979326939, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1979326939, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1979326939, 14, True);
+VALUES (1979326939, 12, True)
+     , (1979326939, 11, True)
+     , (1979326939, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1988759985, 2097176, 14695, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -272,28 +176,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1988759985, 1, 'Embara');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1988759985, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1988759985, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1988759985, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1988759985, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1988759985, 93, 1048);
+VALUES (1988759985, 1, 128)
+     , (1988759985, 5, 9000)
+     , (1988759985, 16, 1)
+     , (1988759985, 19, 125)
+     , (1988759985, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1988759985, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1988759985, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1988759985, 14, True);
+VALUES (1988759985, 12, True)
+     , (1988759985, 11, True)
+     , (1988759985, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1979343281, 2097176, 15242, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -305,28 +197,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1979343281, 1, 'Nalib Cavana Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1979343281, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1979343281, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1979343281, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1979343281, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1979343281, 93, 1048);
+VALUES (1979343281, 1, 128)
+     , (1979343281, 5, 9000)
+     , (1979343281, 16, 1)
+     , (1979343281, 19, 125)
+     , (1979343281, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1979343281, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1979343281, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1979343281, 14, True);
+VALUES (1979343281, 12, True)
+     , (1979343281, 11, True)
+     , (1979343281, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1985892785, 2097176, 15262, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -338,28 +218,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1985892785, 1, 'Thyrinn Cant Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1985892785, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1985892785, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1985892785, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1985892785, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1985892785, 93, 1048);
+VALUES (1985892785, 1, 128)
+     , (1985892785, 5, 9000)
+     , (1985892785, 16, 1)
+     , (1985892785, 19, 125)
+     , (1985892785, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1985892785, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1985892785, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1985892785, 14, True);
+VALUES (1985892785, 12, True)
+     , (1985892785, 11, True)
+     , (1985892785, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1952301489, 2097176, 15233, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -371,28 +239,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1952301489, 1, 'Lady Maila Estates');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1952301489, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1952301489, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1952301489, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1952301489, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1952301489, 93, 1048);
+VALUES (1952301489, 1, 128)
+     , (1952301489, 5, 9000)
+     , (1952301489, 16, 1)
+     , (1952301489, 19, 125)
+     , (1952301489, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1952301489, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1952301489, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1952301489, 14, True);
+VALUES (1952301489, 12, True)
+     , (1952301489, 11, True)
+     , (1952301489, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2109092273, 2097176, 12628, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -404,28 +260,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2109092273, 1, 'Mosswart Place Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2109092273, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2109092273, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2109092273, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2109092273, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2109092273, 93, 1048);
+VALUES (2109092273, 1, 128)
+     , (2109092273, 5, 9000)
+     , (2109092273, 16, 1)
+     , (2109092273, 19, 125)
+     , (2109092273, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2109092273, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2109092273, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2109092273, 14, True);
+VALUES (2109092273, 12, True)
+     , (2109092273, 11, True)
+     , (2109092273, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2091528356, 2097176, 12655, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -437,28 +281,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2091528356, 1, 'Southeast Arwic Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091528356, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091528356, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091528356, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091528356, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091528356, 93, 1048);
+VALUES (2091528356, 1, 128)
+     , (2091528356, 5, 9000)
+     , (2091528356, 16, 1)
+     , (2091528356, 19, 125)
+     , (2091528356, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2091528356, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2091528356, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2091528356, 14, True);
+VALUES (2091528356, 12, True)
+     , (2091528356, 11, True)
+     , (2091528356, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2088337841, 2097176, 12663, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -470,28 +302,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2088337841, 1, 'Strathelar''s Watch Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088337841, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088337841, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088337841, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088337841, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088337841, 93, 1048);
+VALUES (2088337841, 1, 128)
+     , (2088337841, 5, 9000)
+     , (2088337841, 16, 1)
+     , (2088337841, 19, 125)
+     , (2088337841, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2088337841, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2088337841, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2088337841, 14, True);
+VALUES (2088337841, 12, True)
+     , (2088337841, 11, True)
+     , (2088337841, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2070102255, 2097176, 14332, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -503,28 +323,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2070102255, 1, 'Tattered Ridge');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070102255, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070102255, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070102255, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070102255, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070102255, 93, 1048);
+VALUES (2070102255, 1, 128)
+     , (2070102255, 5, 9000)
+     , (2070102255, 16, 1)
+     , (2070102255, 19, 125)
+     , (2070102255, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2070102255, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2070102255, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2070102255, 14, True);
+VALUES (2070102255, 12, True)
+     , (2070102255, 11, True)
+     , (2070102255, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2011070735, 2097176, 13194, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -536,28 +344,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2011070735, 1, 'Wisp Lake Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2011070735, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2011070735, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2011070735, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2011070735, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2011070735, 93, 1048);
+VALUES (2011070735, 1, 128)
+     , (2011070735, 5, 9000)
+     , (2011070735, 16, 1)
+     , (2011070735, 19, 125)
+     , (2011070735, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2011070735, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2011070735, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2011070735, 14, True);
+VALUES (2011070735, 12, True)
+     , (2011070735, 11, True)
+     , (2011070735, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2048774577, 2097176, 15705, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -569,28 +365,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2048774577, 1, 'Patron''s Honor Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2048774577, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2048774577, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2048774577, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2048774577, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2048774577, 93, 1048);
+VALUES (2048774577, 1, 128)
+     , (2048774577, 5, 9000)
+     , (2048774577, 16, 1)
+     , (2048774577, 19, 125)
+     , (2048774577, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2048774577, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2048774577, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2048774577, 14, True);
+VALUES (2048774577, 12, True)
+     , (2048774577, 11, True)
+     , (2048774577, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2049806769, 2097176, 12595, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -602,28 +386,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2049806769, 1, 'East Esper Valley ');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049806769, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049806769, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049806769, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049806769, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049806769, 93, 1048);
+VALUES (2049806769, 1, 128)
+     , (2049806769, 5, 9000)
+     , (2049806769, 16, 1)
+     , (2049806769, 19, 125)
+     , (2049806769, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2049806769, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2049806769, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2049806769, 14, True);
+VALUES (2049806769, 12, True)
+     , (2049806769, 11, True)
+     , (2049806769, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2021257386, 2097176, 12623, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -635,28 +407,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2021257386, 1, 'Maitland ');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2021257386, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2021257386, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2021257386, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2021257386, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2021257386, 93, 1048);
+VALUES (2021257386, 1, 128)
+     , (2021257386, 5, 9000)
+     , (2021257386, 16, 1)
+     , (2021257386, 19, 125)
+     , (2021257386, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2021257386, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2021257386, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2021257386, 14, True);
+VALUES (2021257386, 12, True)
+     , (2021257386, 11, True)
+     , (2021257386, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2018074794, 2097176, 12634, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -668,28 +428,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2018074794, 1, 'New Suntik');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018074794, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018074794, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018074794, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018074794, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018074794, 93, 1048);
+VALUES (2018074794, 1, 128)
+     , (2018074794, 5, 9000)
+     , (2018074794, 16, 1)
+     , (2018074794, 19, 125)
+     , (2018074794, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2018074794, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2018074794, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2018074794, 14, True);
+VALUES (2018074794, 12, True)
+     , (2018074794, 11, True)
+     , (2018074794, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2104222021, 2097176, 19175, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -701,28 +449,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2104222021, 1, 'Hand-on-Sword Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2104222021, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2104222021, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2104222021, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2104222021, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2104222021, 93, 1048);
+VALUES (2104222021, 1, 128)
+     , (2104222021, 5, 9000)
+     , (2104222021, 16, 1)
+     , (2104222021, 19, 125)
+     , (2104222021, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2104222021, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2104222021, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2104222021, 14, True);
+VALUES (2104222021, 12, True)
+     , (2104222021, 11, True)
+     , (2104222021, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2090610872, 2097176, 13157, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -734,28 +470,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2090610872, 1, 'Far Claw Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090610872, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090610872, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090610872, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090610872, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090610872, 93, 1048);
+VALUES (2090610872, 1, 128)
+     , (2090610872, 5, 9000)
+     , (2090610872, 16, 1)
+     , (2090610872, 19, 125)
+     , (2090610872, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2090610872, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2090610872, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2090610872, 14, True);
+VALUES (2090610872, 12, True)
+     , (2090610872, 11, True)
+     , (2090610872, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2026238385, 2097176, 12671, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -767,28 +491,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2026238385, 1, 'Wi Badlands Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026238385, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026238385, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026238385, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026238385, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026238385, 93, 1048);
+VALUES (2026238385, 1, 128)
+     , (2026238385, 5, 9000)
+     , (2026238385, 16, 1)
+     , (2026238385, 19, 125)
+     , (2026238385, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2026238385, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2026238385, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2026238385, 14, True);
+VALUES (2026238385, 12, True)
+     , (2026238385, 11, True)
+     , (2026238385, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2014187899, 2097176, 13188, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -800,28 +512,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2014187899, 1, 'Stone Triad Dell');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014187899, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014187899, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014187899, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014187899, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014187899, 93, 1048);
+VALUES (2014187899, 1, 128)
+     , (2014187899, 5, 9000)
+     , (2014187899, 16, 1)
+     , (2014187899, 19, 125)
+     , (2014187899, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2014187899, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2014187899, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2014187899, 14, True);
+VALUES (2014187899, 12, True)
+     , (2014187899, 11, True)
+     , (2014187899, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2010636613, 2097176, 14317, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -833,28 +533,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2010636613, 1, 'Midsong Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010636613, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010636613, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010636613, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010636613, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010636613, 93, 1048);
+VALUES (2010636613, 1, 128)
+     , (2010636613, 5, 9000)
+     , (2010636613, 16, 1)
+     , (2010636613, 19, 125)
+     , (2010636613, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2010636613, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2010636613, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2010636613, 14, True);
+VALUES (2010636613, 12, True)
+     , (2010636613, 11, True)
+     , (2010636613, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1941553369, 2097176, 13151, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -866,28 +554,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1941553369, 1, 'Dire''s Edge');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1941553369, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1941553369, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1941553369, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1941553369, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1941553369, 93, 1048);
+VALUES (1941553369, 1, 128)
+     , (1941553369, 5, 9000)
+     , (1941553369, 16, 1)
+     , (1941553369, 19, 125)
+     , (1941553369, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1941553369, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1941553369, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1941553369, 14, True);
+VALUES (1941553369, 12, True)
+     , (1941553369, 11, True)
+     , (1941553369, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2001641635, 2097176, 13183, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -899,28 +575,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2001641635, 1, 'Snowy Valley');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2001641635, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2001641635, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2001641635, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2001641635, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2001641635, 93, 1048);
+VALUES (2001641635, 1, 128)
+     , (2001641635, 5, 9000)
+     , (2001641635, 16, 1)
+     , (2001641635, 19, 125)
+     , (2001641635, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2001641635, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2001641635, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2001641635, 14, True);
+VALUES (2001641635, 12, True)
+     , (2001641635, 11, True)
+     , (2001641635, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2042462641, 2097176, 12635, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -932,28 +596,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2042462641, 1, 'Neydisa Village');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042462641, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042462641, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042462641, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042462641, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042462641, 93, 1048);
+VALUES (2042462641, 1, 128)
+     , (2042462641, 5, 9000)
+     , (2042462641, 16, 1)
+     , (2042462641, 19, 125)
+     , (2042462641, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2042462641, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2042462641, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2042462641, 14, True);
+VALUES (2042462641, 12, True)
+     , (2042462641, 11, True)
+     , (2042462641, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2070773944, 2097176, 13144, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -965,28 +617,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2070773944, 1, 'Bandit Road Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070773944, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070773944, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070773944, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070773944, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070773944, 93, 1048);
+VALUES (2070773944, 1, 128)
+     , (2070773944, 5, 9000)
+     , (2070773944, 16, 1)
+     , (2070773944, 19, 125)
+     , (2070773944, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2070773944, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2070773944, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2070773944, 14, True);
+VALUES (2070773944, 12, True)
+     , (2070773944, 11, True)
+     , (2070773944, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2037022890, 2097176, 12600, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -998,28 +638,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2037022890, 1, 'Eaves of Tiofor Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2037022890, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2037022890, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2037022890, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2037022890, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2037022890, 93, 1048);
+VALUES (2037022890, 1, 128)
+     , (2037022890, 5, 9000)
+     , (2037022890, 16, 1)
+     , (2037022890, 19, 125)
+     , (2037022890, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2037022890, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2037022890, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2037022890, 14, True);
+VALUES (2037022890, 12, True)
+     , (2037022890, 11, True)
+     , (2037022890, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2024431746, 2097176, 12624, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1031,28 +659,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2024431746, 1, 'Majestic Hill Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2024431746, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2024431746, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2024431746, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2024431746, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2024431746, 93, 1048);
+VALUES (2024431746, 1, 128)
+     , (2024431746, 5, 9000)
+     , (2024431746, 16, 1)
+     , (2024431746, 19, 125)
+     , (2024431746, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2024431746, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2024431746, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2024431746, 14, True);
+VALUES (2024431746, 12, True)
+     , (2024431746, 11, True)
+     , (2024431746, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2020139441, 2097176, 12605, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1064,28 +680,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2020139441, 1, 'Four Towers Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2020139441, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2020139441, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2020139441, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2020139441, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2020139441, 93, 1048);
+VALUES (2020139441, 1, 128)
+     , (2020139441, 5, 9000)
+     , (2020139441, 16, 1)
+     , (2020139441, 19, 125)
+     , (2020139441, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2020139441, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2020139441, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2020139441, 14, True);
+VALUES (2020139441, 12, True)
+     , (2020139441, 11, True)
+     , (2020139441, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2029535665, 2097176, 12631, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1097,28 +701,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2029535665, 1, 'Musansayn');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029535665, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029535665, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029535665, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029535665, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029535665, 93, 1048);
+VALUES (2029535665, 1, 128)
+     , (2029535665, 5, 9000)
+     , (2029535665, 16, 1)
+     , (2029535665, 19, 125)
+     , (2029535665, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2029535665, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2029535665, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2029535665, 14, True);
+VALUES (2029535665, 12, True)
+     , (2029535665, 11, True)
+     , (2029535665, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2027368926, 2097176, 13166, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1130,28 +722,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2027368926, 1, 'Naqut Dreams Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2027368926, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2027368926, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2027368926, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2027368926, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2027368926, 93, 1048);
+VALUES (2027368926, 1, 128)
+     , (2027368926, 5, 9000)
+     , (2027368926, 16, 1)
+     , (2027368926, 19, 125)
+     , (2027368926, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2027368926, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2027368926, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2027368926, 14, True);
+VALUES (2027368926, 12, True)
+     , (2027368926, 11, True)
+     , (2027368926, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2042060946, 2097176, 12613, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1163,28 +743,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2042060946, 1, 'Janaa Ridge Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042060946, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042060946, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042060946, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042060946, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042060946, 93, 1048);
+VALUES (2042060946, 1, 128)
+     , (2042060946, 5, 9000)
+     , (2042060946, 16, 1)
+     , (2042060946, 19, 125)
+     , (2042060946, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2042060946, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2042060946, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2042060946, 14, True);
+VALUES (2042060946, 12, True)
+     , (2042060946, 11, True)
+     , (2042060946, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2043084971, 2097176, 12676, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1196,28 +764,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2043084971, 1, 'Yushad Ridge Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2043084971, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2043084971, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2043084971, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2043084971, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2043084971, 93, 1048);
+VALUES (2043084971, 1, 128)
+     , (2043084971, 5, 9000)
+     , (2043084971, 16, 1)
+     , (2043084971, 19, 125)
+     , (2043084971, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2043084971, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2043084971, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2043084971, 14, True);
+VALUES (2043084971, 12, True)
+     , (2043084971, 11, True)
+     , (2043084971, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2041966971, 2097176, 12669, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1229,28 +785,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2041966971, 1, 'West Uziz Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2041966971, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2041966971, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2041966971, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2041966971, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2041966971, 93, 1048);
+VALUES (2041966971, 1, 128)
+     , (2041966971, 5, 9000)
+     , (2041966971, 16, 1)
+     , (2041966971, 19, 125)
+     , (2041966971, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2041966971, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2041966971, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2041966971, 14, True);
+VALUES (2041966971, 12, True)
+     , (2041966971, 11, True)
+     , (2041966971, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2051359195, 2097176, 14738, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1262,28 +806,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2051359195, 1, 'South Uzis Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051359195, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051359195, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051359195, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051359195, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051359195, 93, 1048);
+VALUES (2051359195, 1, 128)
+     , (2051359195, 5, 9000)
+     , (2051359195, 16, 1)
+     , (2051359195, 19, 125)
+     , (2051359195, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051359195, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051359195, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051359195, 14, True);
+VALUES (2051359195, 12, True)
+     , (2051359195, 11, True)
+     , (2051359195, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2047128029, 2097176, 13146, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1295,28 +827,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2047128029, 1, 'Bhah Dhah Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047128029, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047128029, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047128029, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047128029, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047128029, 93, 1048);
+VALUES (2047128029, 1, 128)
+     , (2047128029, 5, 9000)
+     , (2047128029, 16, 1)
+     , (2047128029, 19, 125)
+     , (2047128029, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2047128029, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2047128029, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2047128029, 14, True);
+VALUES (2047128029, 12, True)
+     , (2047128029, 11, True)
+     , (2047128029, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2049167793, 2097176, 12657, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1328,28 +848,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2049167793, 1, 'South Khayyaban Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049167793, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049167793, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049167793, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049167793, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049167793, 93, 1048);
+VALUES (2049167793, 1, 128)
+     , (2049167793, 5, 9000)
+     , (2049167793, 16, 1)
+     , (2049167793, 19, 125)
+     , (2049167793, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2049167793, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2049167793, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2049167793, 14, True);
+VALUES (2049167793, 12, True)
+     , (2049167793, 11, True)
+     , (2049167793, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2044932421, 2097176, 13147, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1361,28 +869,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2044932421, 1, 'Brigand Sands Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2044932421, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2044932421, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2044932421, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2044932421, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2044932421, 93, 1048);
+VALUES (2044932421, 1, 128)
+     , (2044932421, 5, 9000)
+     , (2044932421, 16, 1)
+     , (2044932421, 19, 125)
+     , (2044932421, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2044932421, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2044932421, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2044932421, 14, True);
+VALUES (2044932421, 12, True)
+     , (2044932421, 11, True)
+     , (2044932421, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2031264222, 2097176, 13173, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1394,28 +890,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2031264222, 1, 'Qalaba''r Seaside Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031264222, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031264222, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031264222, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031264222, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031264222, 93, 1048);
+VALUES (2031264222, 1, 128)
+     , (2031264222, 5, 9000)
+     , (2031264222, 16, 1)
+     , (2031264222, 19, 125)
+     , (2031264222, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2031264222, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2031264222, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2031264222, 14, True);
+VALUES (2031264222, 12, True)
+     , (2031264222, 11, True)
+     , (2031264222, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2034340080, 2097176, 13181, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1427,28 +911,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2034340080, 1, 'Simda''r Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2034340080, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2034340080, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2034340080, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2034340080, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2034340080, 93, 1048);
+VALUES (2034340080, 1, 128)
+     , (2034340080, 5, 9000)
+     , (2034340080, 16, 1)
+     , (2034340080, 19, 125)
+     , (2034340080, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2034340080, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2034340080, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2034340080, 14, True);
+VALUES (2034340080, 12, True)
+     , (2034340080, 11, True)
+     , (2034340080, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2016485693, 2097176, 14712, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1460,28 +932,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2016485693, 1, 'Land Bridge Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2016485693, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2016485693, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2016485693, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2016485693, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2016485693, 93, 1048);
+VALUES (2016485693, 1, 128)
+     , (2016485693, 5, 9000)
+     , (2016485693, 16, 1)
+     , (2016485693, 19, 125)
+     , (2016485693, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2016485693, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2016485693, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2016485693, 14, True);
+VALUES (2016485693, 12, True)
+     , (2016485693, 11, True)
+     , (2016485693, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2133127493, 2097176, 12667, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1493,28 +953,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2133127493, 1, 'Tou-Tou Penninsula Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2133127493, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2133127493, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2133127493, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2133127493, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2133127493, 93, 1048);
+VALUES (2133127493, 1, 128)
+     , (2133127493, 5, 9000)
+     , (2133127493, 16, 1)
+     , (2133127493, 19, 125)
+     , (2133127493, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2133127493, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2133127493, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2133127493, 14, True);
+VALUES (2133127493, 12, True)
+     , (2133127493, 11, True)
+     , (2133127493, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2132058510, 2097176, 13190, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1526,28 +974,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2132058510, 1, 'Tou-Tou Road Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2132058510, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2132058510, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2132058510, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2132058510, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2132058510, 93, 1048);
+VALUES (2132058510, 1, 128)
+     , (2132058510, 5, 9000)
+     , (2132058510, 16, 1)
+     , (2132058510, 19, 125)
+     , (2132058510, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2132058510, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2132058510, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2132058510, 14, True);
+VALUES (2132058510, 12, True)
+     , (2132058510, 11, True)
+     , (2132058510, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2126811515, 2097176, 12660, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1559,28 +995,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2126811515, 1, 'Southwest Hebian-To Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2126811515, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2126811515, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2126811515, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2126811515, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2126811515, 93, 1048);
+VALUES (2126811515, 1, 128)
+     , (2126811515, 5, 9000)
+     , (2126811515, 16, 1)
+     , (2126811515, 19, 125)
+     , (2126811515, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2126811515, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2126811515, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2126811515, 14, True);
+VALUES (2126811515, 12, True)
+     , (2126811515, 11, True)
+     , (2126811515, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2117370289, 2097176, 12656, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1592,28 +1016,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2117370289, 1, 'South Hebian-To Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2117370289, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2117370289, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2117370289, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2117370289, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2117370289, 93, 1048);
+VALUES (2117370289, 1, 128)
+     , (2117370289, 5, 9000)
+     , (2117370289, 16, 1)
+     , (2117370289, 19, 125)
+     , (2117370289, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2117370289, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2117370289, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2117370289, 14, True);
+VALUES (2117370289, 12, True)
+     , (2117370289, 11, True)
+     , (2117370289, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2102727054, 2097176, 13180, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1625,28 +1037,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2102727054, 1, 'Shou-Zin');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2102727054, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2102727054, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2102727054, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2102727054, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2102727054, 93, 1048);
+VALUES (2102727054, 1, 128)
+     , (2102727054, 5, 9000)
+     , (2102727054, 16, 1)
+     , (2102727054, 19, 125)
+     , (2102727054, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2102727054, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2102727054, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2102727054, 14, True);
+VALUES (2102727054, 12, True)
+     , (2102727054, 11, True)
+     , (2102727054, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2103812529, 2097176, 12590, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1658,28 +1058,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2103812529, 1, 'Chi Zou Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2103812529, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2103812529, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2103812529, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2103812529, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2103812529, 93, 1048);
+VALUES (2103812529, 1, 128)
+     , (2103812529, 5, 9000)
+     , (2103812529, 16, 1)
+     , (2103812529, 19, 125)
+     , (2103812529, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2103812529, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2103812529, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2103812529, 14, True);
+VALUES (2103812529, 12, True)
+     , (2103812529, 11, True)
+     , (2103812529, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2082832817, 2097176, 12597, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1691,28 +1079,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2082832817, 1, 'West Sawato Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082832817, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082832817, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082832817, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082832817, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082832817, 93, 1048);
+VALUES (2082832817, 1, 128)
+     , (2082832817, 5, 9000)
+     , (2082832817, 16, 1)
+     , (2082832817, 19, 125)
+     , (2082832817, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2082832817, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2082832817, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2082832817, 14, True);
+VALUES (2082832817, 12, True)
+     , (2082832817, 11, True)
+     , (2082832817, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2073412017, 2097176, 12583, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1724,28 +1100,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2073412017, 1, 'Blackmire Edge Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073412017, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073412017, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073412017, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073412017, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073412017, 93, 1048);
+VALUES (2073412017, 1, 128)
+     , (2073412017, 5, 9000)
+     , (2073412017, 16, 1)
+     , (2073412017, 19, 125)
+     , (2073412017, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2073412017, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2073412017, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2073412017, 14, True);
+VALUES (2073412017, 12, True)
+     , (2073412017, 11, True)
+     , (2073412017, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2070286769, 2097176, 12664, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1757,28 +1121,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2070286769, 1, 'Swamp Temple Place');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070286769, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070286769, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070286769, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070286769, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070286769, 93, 1048);
+VALUES (2070286769, 1, 128)
+     , (2070286769, 5, 9000)
+     , (2070286769, 16, 1)
+     , (2070286769, 19, 125)
+     , (2070286769, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2070286769, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2070286769, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2070286769, 14, True);
+VALUES (2070286769, 12, True)
+     , (2070286769, 11, True)
+     , (2070286769, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2070311182, 2097176, 12674, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1790,28 +1142,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2070311182, 1, 'Yanshi Namoon North');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070311182, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070311182, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070311182, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070311182, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2070311182, 93, 1048);
+VALUES (2070311182, 1, 128)
+     , (2070311182, 5, 9000)
+     , (2070311182, 16, 1)
+     , (2070311182, 19, 125)
+     , (2070311182, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2070311182, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2070311182, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2070311182, 14, True);
+VALUES (2070311182, 12, True)
+     , (2070311182, 11, True)
+     , (2070311182, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2066137467, 2097176, 12602, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1823,28 +1163,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2066137467, 1, 'Faranar Foothills');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066137467, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066137467, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066137467, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066137467, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066137467, 93, 1048);
+VALUES (2066137467, 1, 128)
+     , (2066137467, 5, 9000)
+     , (2066137467, 16, 1)
+     , (2066137467, 19, 125)
+     , (2066137467, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066137467, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066137467, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066137467, 14, True);
+VALUES (2066137467, 12, True)
+     , (2066137467, 11, True)
+     , (2066137467, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2060886449, 2097176, 12587, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1856,28 +1184,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2060886449, 1, 'Broken Sword Bethel Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060886449, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060886449, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060886449, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060886449, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060886449, 93, 1048);
+VALUES (2060886449, 1, 128)
+     , (2060886449, 5, 9000)
+     , (2060886449, 16, 1)
+     , (2060886449, 19, 125)
+     , (2060886449, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2060886449, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2060886449, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2060886449, 14, True);
+VALUES (2060886449, 12, True)
+     , (2060886449, 11, True)
+     , (2060886449, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2055631281, 2097176, 12632, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1889,28 +1205,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2055631281, 1, 'Narziz Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2055631281, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2055631281, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2055631281, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2055631281, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2055631281, 93, 1048);
+VALUES (2055631281, 1, 128)
+     , (2055631281, 5, 9000)
+     , (2055631281, 16, 1)
+     , (2055631281, 19, 125)
+     , (2055631281, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2055631281, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2055631281, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2055631281, 14, True);
+VALUES (2055631281, 12, True)
+     , (2055631281, 11, True)
+     , (2055631281, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2051424690, 2097176, 12640, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1922,28 +1226,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2051424690, 1, 'North Uziz Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051424690, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051424690, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051424690, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051424690, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051424690, 93, 1048);
+VALUES (2051424690, 1, 128)
+     , (2051424690, 5, 9000)
+     , (2051424690, 16, 1)
+     , (2051424690, 19, 125)
+     , (2051424690, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051424690, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051424690, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051424690, 14, True);
+VALUES (2051424690, 12, True)
+     , (2051424690, 11, True)
+     , (2051424690, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2101862834, 2097176, 12652, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1955,28 +1247,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2101862834, 1, 'Siege Road Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2101862834, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2101862834, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2101862834, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2101862834, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2101862834, 93, 1048);
+VALUES (2101862834, 1, 128)
+     , (2101862834, 5, 9000)
+     , (2101862834, 16, 1)
+     , (2101862834, 19, 125)
+     , (2101862834, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2101862834, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2101862834, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2101862834, 14, True);
+VALUES (2101862834, 12, True)
+     , (2101862834, 11, True)
+     , (2101862834, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2098737392, 2097176, 14327, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -1988,28 +1268,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2098737392, 1, 'Siege Road Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098737392, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098737392, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098737392, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098737392, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098737392, 93, 1048);
+VALUES (2098737392, 1, 128)
+     , (2098737392, 5, 9000)
+     , (2098737392, 16, 1)
+     , (2098737392, 19, 125)
+     , (2098737392, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2098737392, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2098737392, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2098737392, 14, True);
+VALUES (2098737392, 12, True)
+     , (2098737392, 11, True)
+     , (2098737392, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2095608241, 2097176, 12606, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2021,28 +1289,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2095608241, 1, 'Gaerwel Edge Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095608241, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095608241, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095608241, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095608241, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095608241, 93, 1048);
+VALUES (2095608241, 1, 128)
+     , (2095608241, 5, 9000)
+     , (2095608241, 16, 1)
+     , (2095608241, 19, 125)
+     , (2095608241, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095608241, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095608241, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095608241, 14, True);
+VALUES (2095608241, 12, True)
+     , (2095608241, 11, True)
+     , (2095608241, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2084073851, 2097176, 12626, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2054,28 +1310,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2084073851, 1, 'Meridian Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2084073851, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2084073851, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2084073851, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2084073851, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2084073851, 93, 1048);
+VALUES (2084073851, 1, 128)
+     , (2084073851, 5, 9000)
+     , (2084073851, 16, 1)
+     , (2084073851, 19, 125)
+     , (2084073851, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2084073851, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2084073851, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2084073851, 14, True);
+VALUES (2084073851, 12, True)
+     , (2084073851, 11, True)
+     , (2084073851, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2082009521, 2097176, 12617, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2087,28 +1331,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2082009521, 1, 'Leafdawning Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082009521, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082009521, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082009521, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082009521, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082009521, 93, 1048);
+VALUES (2082009521, 1, 128)
+     , (2082009521, 5, 9000)
+     , (2082009521, 16, 1)
+     , (2082009521, 19, 125)
+     , (2082009521, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2082009521, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2082009521, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2082009521, 14, True);
+VALUES (2082009521, 12, True)
+     , (2082009521, 11, True)
+     , (2082009521, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2076791163, 2097176, 12659, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2120,28 +1352,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2076791163, 1, 'South Victory Harbor');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2076791163, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2076791163, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2076791163, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2076791163, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2076791163, 93, 1048);
+VALUES (2076791163, 1, 128)
+     , (2076791163, 5, 9000)
+     , (2076791163, 16, 1)
+     , (2076791163, 19, 125)
+     , (2076791163, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2076791163, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2076791163, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2076791163, 14, True);
+VALUES (2076791163, 12, True)
+     , (2076791163, 11, True)
+     , (2076791163, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2069463473, 2097176, 12591, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2153,28 +1373,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2069463473, 1, 'Cragstone Farms');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2069463473, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2069463473, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2069463473, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2069463473, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2069463473, 93, 1048);
+VALUES (2069463473, 1, 128)
+     , (2069463473, 5, 9000)
+     , (2069463473, 16, 1)
+     , (2069463473, 19, 125)
+     , (2069463473, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2069463473, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2069463473, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2069463473, 14, True);
+VALUES (2069463473, 12, True)
+     , (2069463473, 11, True)
+     , (2069463473, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2051666397, 2097176, 13162, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2186,28 +1394,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2051666397, 1, 'Iceea Hills Estates');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051666397, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051666397, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051666397, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051666397, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051666397, 93, 1048);
+VALUES (2051666397, 1, 128)
+     , (2051666397, 5, 9000)
+     , (2051666397, 16, 1)
+     , (2051666397, 19, 125)
+     , (2051666397, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051666397, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051666397, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051666397, 14, True);
+VALUES (2051666397, 12, True)
+     , (2051666397, 11, True)
+     , (2051666397, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2095645051, 2097176, 12603, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2219,28 +1415,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2095645051, 1, 'Filos'' Font Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095645051, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095645051, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095645051, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095645051, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095645051, 93, 1048);
+VALUES (2095645051, 1, 128)
+     , (2095645051, 5, 9000)
+     , (2095645051, 16, 1)
+     , (2095645051, 19, 125)
+     , (2095645051, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095645051, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095645051, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095645051, 14, True);
+VALUES (2095645051, 12, True)
+     , (2095645051, 11, True)
+     , (2095645051, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2075820197, 2097176, 12599, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2252,28 +1436,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2075820197, 1, 'East Span Way Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075820197, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075820197, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075820197, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075820197, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075820197, 93, 1048);
+VALUES (2075820197, 1, 128)
+     , (2075820197, 5, 9000)
+     , (2075820197, 16, 1)
+     , (2075820197, 19, 125)
+     , (2075820197, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2075820197, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2075820197, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2075820197, 14, True);
+VALUES (2075820197, 12, True)
+     , (2075820197, 11, True)
+     , (2075820197, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2035081338, 2097176, 13161, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2285,28 +1457,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2035081338, 1, 'Highland Manors');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035081338, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035081338, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035081338, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035081338, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035081338, 93, 1048);
+VALUES (2035081338, 1, 128)
+     , (2035081338, 5, 9000)
+     , (2035081338, 16, 1)
+     , (2035081338, 19, 125)
+     , (2035081338, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2035081338, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2035081338, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2035081338, 14, True);
+VALUES (2035081338, 12, True)
+     , (2035081338, 11, True)
+     , (2035081338, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2004427185, 2097176, 13179, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2318,28 +1478,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2004427185, 1, 'Sharvale');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2004427185, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2004427185, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2004427185, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2004427185, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2004427185, 93, 1048);
+VALUES (2004427185, 1, 128)
+     , (2004427185, 5, 9000)
+     , (2004427185, 16, 1)
+     , (2004427185, 19, 125)
+     , (2004427185, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2004427185, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2004427185, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2004427185, 14, True);
+VALUES (2004427185, 12, True)
+     , (2004427185, 11, True)
+     , (2004427185, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1956536699, 2097176, 12592, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2351,28 +1499,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1956536699, 1, 'Desolation Beach ');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1956536699, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1956536699, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1956536699, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1956536699, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1956536699, 93, 1048);
+VALUES (1956536699, 1, 128)
+     , (1956536699, 5, 9000)
+     , (1956536699, 16, 1)
+     , (1956536699, 19, 125)
+     , (1956536699, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1956536699, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1956536699, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1956536699, 14, True);
+VALUES (1956536699, 12, True)
+     , (1956536699, 11, True)
+     , (1956536699, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2010067376, 2097176, 15699, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2384,28 +1520,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2010067376, 1, 'Far Horizon Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010067376, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010067376, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010067376, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010067376, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2010067376, 93, 1048);
+VALUES (2010067376, 1, 128)
+     , (2010067376, 5, 9000)
+     , (2010067376, 16, 1)
+     , (2010067376, 19, 125)
+     , (2010067376, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2010067376, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2010067376, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2010067376, 14, True);
+VALUES (2010067376, 12, True)
+     , (2010067376, 11, True)
+     , (2010067376, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1965822169, 2097176, 12620, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2417,28 +1541,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1965822169, 1, 'Lithaenean Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1965822169, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1965822169, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1965822169, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1965822169, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1965822169, 93, 1048);
+VALUES (1965822169, 1, 128)
+     , (1965822169, 5, 9000)
+     , (1965822169, 16, 1)
+     , (1965822169, 19, 125)
+     , (1965822169, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1965822169, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1965822169, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1965822169, 14, True);
+VALUES (1965822169, 12, True)
+     , (1965822169, 11, True)
+     , (1965822169, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2065162673, 2097176, 15208, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2450,28 +1562,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2065162673, 1, 'Asbel Domain');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2065162673, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2065162673, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2065162673, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2065162673, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2065162673, 93, 1048);
+VALUES (2065162673, 1, 128)
+     , (2065162673, 5, 9000)
+     , (2065162673, 16, 1)
+     , (2065162673, 19, 125)
+     , (2065162673, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2065162673, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2065162673, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2065162673, 14, True);
+VALUES (2065162673, 12, True)
+     , (2065162673, 11, True)
+     , (2065162673, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2092802373, 2097176, 14308, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2483,28 +1583,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2092802373, 1, 'Haliana');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092802373, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092802373, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092802373, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092802373, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092802373, 93, 1048);
+VALUES (2092802373, 1, 128)
+     , (2092802373, 5, 9000)
+     , (2092802373, 16, 1)
+     , (2092802373, 19, 125)
+     , (2092802373, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092802373, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092802373, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092802373, 14, True);
+VALUES (2092802373, 12, True)
+     , (2092802373, 11, True)
+     , (2092802373, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2081280452, 2097176, 12636, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2516,28 +1604,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2081280452, 1, 'Norstead');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2081280452, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2081280452, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2081280452, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2081280452, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2081280452, 93, 1048);
+VALUES (2081280452, 1, 128)
+     , (2081280452, 5, 9000)
+     , (2081280452, 16, 1)
+     , (2081280452, 19, 125)
+     , (2081280452, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2081280452, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2081280452, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2081280452, 14, True);
+VALUES (2081280452, 12, True)
+     , (2081280452, 11, True)
+     , (2081280452, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2065551577, 2097176, 14335, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2549,28 +1625,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2065551577, 1, 'West Norstead');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2065551577, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2065551577, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2065551577, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2065551577, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2065551577, 93, 1048);
+VALUES (2065551577, 1, 128)
+     , (2065551577, 5, 9000)
+     , (2065551577, 16, 1)
+     , (2065551577, 19, 125)
+     , (2065551577, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2065551577, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2065551577, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2065551577, 14, True);
+VALUES (2065551577, 12, True)
+     , (2065551577, 11, True)
+     , (2065551577, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2059301243, 2097176, 14723, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2582,28 +1646,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2059301243, 1, 'Northreach');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059301243, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059301243, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059301243, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059301243, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059301243, 93, 1048);
+VALUES (2059301243, 1, 128)
+     , (2059301243, 5, 9000)
+     , (2059301243, 16, 1)
+     , (2059301243, 19, 125)
+     , (2059301243, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2059301243, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2059301243, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2059301243, 14, True);
+VALUES (2059301243, 12, True)
+     , (2059301243, 11, True)
+     , (2059301243, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2051977649, 2097176, 12589, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2615,28 +1667,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2051977649, 1, 'Celdiseth''s Beach Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051977649, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051977649, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051977649, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051977649, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051977649, 93, 1048);
+VALUES (2051977649, 1, 128)
+     , (2051977649, 5, 9000)
+     , (2051977649, 16, 1)
+     , (2051977649, 19, 125)
+     , (2051977649, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051977649, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051977649, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051977649, 14, True);
+VALUES (2051977649, 12, True)
+     , (2051977649, 11, True)
+     , (2051977649, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2025791867, 2097176, 14686, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2648,28 +1688,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2025791867, 1, 'Celcynd Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2025791867, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2025791867, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2025791867, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2025791867, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2025791867, 93, 1048);
+VALUES (2025791867, 1, 128)
+     , (2025791867, 5, 9000)
+     , (2025791867, 16, 1)
+     , (2025791867, 19, 125)
+     , (2025791867, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2025791867, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2025791867, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2025791867, 14, True);
+VALUES (2025791867, 12, True)
+     , (2025791867, 11, True)
+     , (2025791867, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2022666673, 2097176, 14728, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2681,28 +1709,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2022666673, 1, 'Point Tremblant');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2022666673, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2022666673, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2022666673, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2022666673, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2022666673, 93, 1048);
+VALUES (2022666673, 1, 128)
+     , (2022666673, 5, 9000)
+     , (2022666673, 16, 1)
+     , (2022666673, 19, 125)
+     , (2022666673, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2022666673, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2022666673, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2022666673, 14, True);
+VALUES (2022666673, 12, True)
+     , (2022666673, 11, True)
+     , (2022666673, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2005877061, 2097176, 13170, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2714,28 +1730,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2005877061, 1, 'Northwater Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2005877061, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2005877061, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2005877061, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2005877061, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2005877061, 93, 1048);
+VALUES (2005877061, 1, 128)
+     , (2005877061, 5, 9000)
+     , (2005877061, 16, 1)
+     , (2005877061, 19, 125)
+     , (2005877061, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2005877061, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2005877061, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2005877061, 14, True);
+VALUES (2005877061, 12, True)
+     , (2005877061, 11, True)
+     , (2005877061, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1960735195, 2097176, 14697, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2747,28 +1751,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1960735195, 1, 'Empyrean Shore Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1960735195, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1960735195, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1960735195, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1960735195, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1960735195, 93, 1048);
+VALUES (1960735195, 1, 128)
+     , (1960735195, 5, 9000)
+     , (1960735195, 16, 1)
+     , (1960735195, 19, 125)
+     , (1960735195, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1960735195, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1960735195, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1960735195, 14, True);
+VALUES (1960735195, 12, True)
+     , (1960735195, 11, True)
+     , (1960735195, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1943826865, 2097176, 12572, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2780,28 +1772,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1943826865, 1, 'Adams'' Beach');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1943826865, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1943826865, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1943826865, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1943826865, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1943826865, 93, 1048);
+VALUES (1943826865, 1, 128)
+     , (1943826865, 5, 9000)
+     , (1943826865, 16, 1)
+     , (1943826865, 19, 125)
+     , (1943826865, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1943826865, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1943826865, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1943826865, 14, True);
+VALUES (1943826865, 12, True)
+     , (1943826865, 11, True)
+     , (1943826865, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1946939576, 2097176, 13176, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2813,28 +1793,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1946939576, 1, 'Rivermouth Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1946939576, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1946939576, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1946939576, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1946939576, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1946939576, 93, 1048);
+VALUES (1946939576, 1, 128)
+     , (1946939576, 5, 9000)
+     , (1946939576, 16, 1)
+     , (1946939576, 19, 125)
+     , (1946939576, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1946939576, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1946939576, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1946939576, 14, True);
+VALUES (1946939576, 12, True)
+     , (1946939576, 11, True)
+     , (1946939576, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2053173519, 2097176, 12585, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2846,28 +1814,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2053173519, 1, 'Brigands Bay Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053173519, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053173519, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053173519, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053173519, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053173519, 93, 1048);
+VALUES (2053173519, 1, 128)
+     , (2053173519, 5, 9000)
+     , (2053173519, 16, 1)
+     , (2053173519, 19, 125)
+     , (2053173519, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2053173519, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2053173519, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2053173519, 14, True);
+VALUES (2053173519, 12, True)
+     , (2053173519, 11, True)
+     , (2053173519, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2116415966, 2097176, 13187, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2879,28 +1835,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2116415966, 1, 'Stoneport Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2116415966, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2116415966, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2116415966, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2116415966, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2116415966, 93, 1048);
+VALUES (2116415966, 1, 128)
+     , (2116415966, 5, 9000)
+     , (2116415966, 16, 1)
+     , (2116415966, 19, 125)
+     , (2116415966, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2116415966, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2116415966, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2116415966, 14, True);
+VALUES (2116415966, 12, True)
+     , (2116415966, 11, True)
+     , (2116415966, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2115395963, 2097176, 12584, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2912,28 +1856,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2115395963, 1, 'Bluewater Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2115395963, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2115395963, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2115395963, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2115395963, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2115395963, 93, 1048);
+VALUES (2115395963, 1, 128)
+     , (2115395963, 5, 9000)
+     , (2115395963, 16, 1)
+     , (2115395963, 19, 125)
+     , (2115395963, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2115395963, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2115395963, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2115395963, 14, True);
+VALUES (2115395963, 12, True)
+     , (2115395963, 11, True)
+     , (2115395963, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2060083578, 2097176, 14331, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2945,28 +1877,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2060083578, 1, 'Taralla');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060083578, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060083578, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060083578, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060083578, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060083578, 93, 1048);
+VALUES (2060083578, 1, 128)
+     , (2060083578, 5, 9000)
+     , (2060083578, 16, 1)
+     , (2060083578, 19, 125)
+     , (2060083578, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2060083578, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2060083578, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2060083578, 14, True);
+VALUES (2060083578, 12, True)
+     , (2060083578, 11, True)
+     , (2060083578, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2055524702, 2097176, 15689, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -2978,28 +1898,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2055524702, 1, 'Ardent Realm');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2055524702, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2055524702, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2055524702, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2055524702, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2055524702, 93, 1048);
+VALUES (2055524702, 1, 128)
+     , (2055524702, 5, 9000)
+     , (2055524702, 16, 1)
+     , (2055524702, 19, 125)
+     , (2055524702, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2055524702, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2055524702, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2055524702, 14, True);
+VALUES (2055524702, 12, True)
+     , (2055524702, 11, True)
+     , (2055524702, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2069164465, 2097176, 14696, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3011,28 +1919,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2069164465, 1, 'Empyrean Fields Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2069164465, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2069164465, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2069164465, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2069164465, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2069164465, 93, 1048);
+VALUES (2069164465, 1, 128)
+     , (2069164465, 5, 9000)
+     , (2069164465, 16, 1)
+     , (2069164465, 19, 125)
+     , (2069164465, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2069164465, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2069164465, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2069164465, 14, True);
+VALUES (2069164465, 12, True)
+     , (2069164465, 11, True)
+     , (2069164465, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2099823070, 2097176, 13155, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3044,28 +1940,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2099823070, 1, 'East Rithwic Estates');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2099823070, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2099823070, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2099823070, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2099823070, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2099823070, 93, 1048);
+VALUES (2099823070, 1, 128)
+     , (2099823070, 5, 9000)
+     , (2099823070, 16, 1)
+     , (2099823070, 19, 125)
+     , (2099823070, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2099823070, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2099823070, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2099823070, 14, True);
+VALUES (2099823070, 12, True)
+     , (2099823070, 11, True)
+     , (2099823070, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2066244017, 2097176, 15246, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3077,28 +1961,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2066244017, 1, 'Osric Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066244017, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066244017, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066244017, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066244017, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066244017, 93, 1048);
+VALUES (2066244017, 1, 128)
+     , (2066244017, 5, 9000)
+     , (2066244017, 16, 1)
+     , (2066244017, 19, 125)
+     , (2066244017, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066244017, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066244017, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066244017, 14, True);
+VALUES (2066244017, 12, True)
+     , (2066244017, 11, True)
+     , (2066244017, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2059133098, 2097176, 12629, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3110,28 +1982,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2059133098, 1, 'Mountain Keep Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059133098, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059133098, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059133098, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059133098, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059133098, 93, 1048);
+VALUES (2059133098, 1, 128)
+     , (2059133098, 5, 9000)
+     , (2059133098, 16, 1)
+     , (2059133098, 19, 125)
+     , (2059133098, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2059133098, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2059133098, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2059133098, 14, True);
+VALUES (2059133098, 12, True)
+     , (2059133098, 11, True)
+     , (2059133098, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2050912689, 2097176, 15214, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3143,28 +2003,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2050912689, 1, 'Dagger Vale');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2050912689, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2050912689, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2050912689, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2050912689, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2050912689, 93, 1048);
+VALUES (2050912689, 1, 128)
+     , (2050912689, 5, 9000)
+     , (2050912689, 16, 1)
+     , (2050912689, 19, 125)
+     , (2050912689, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2050912689, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2050912689, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2050912689, 14, True);
+VALUES (2050912689, 12, True)
+     , (2050912689, 11, True)
+     , (2050912689, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2092638480, 2097176, 14698, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3176,28 +2024,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2092638480, 1, 'Eotensfang Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092638480, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092638480, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092638480, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092638480, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092638480, 93, 1048);
+VALUES (2092638480, 1, 128)
+     , (2092638480, 5, 9000)
+     , (2092638480, 16, 1)
+     , (2092638480, 19, 125)
+     , (2092638480, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092638480, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092638480, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092638480, 14, True);
+VALUES (2092638480, 12, True)
+     , (2092638480, 11, True)
+     , (2092638480, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2095780272, 2097176, 14720, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3209,28 +2045,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2095780272, 1, 'Lost Wish Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095780272, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095780272, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095780272, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095780272, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095780272, 93, 1048);
+VALUES (2095780272, 1, 128)
+     , (2095780272, 5, 9000)
+     , (2095780272, 16, 1)
+     , (2095780272, 19, 125)
+     , (2095780272, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095780272, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095780272, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095780272, 14, True);
+VALUES (2095780272, 12, True)
+     , (2095780272, 11, True)
+     , (2095780272, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2000240990, 2097176, 14747, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3242,28 +2066,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2000240990, 1, 'West Zaikhal Freehold');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2000240990, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2000240990, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2000240990, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2000240990, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2000240990, 93, 1048);
+VALUES (2000240990, 1, 128)
+     , (2000240990, 5, 9000)
+     , (2000240990, 16, 1)
+     , (2000240990, 19, 125)
+     , (2000240990, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2000240990, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2000240990, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2000240990, 14, True);
+VALUES (2000240990, 12, True)
+     , (2000240990, 11, True)
+     , (2000240990, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1996050907, 2097176, 15700, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3275,28 +2087,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1996050907, 1, 'Gharu''n Victory Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1996050907, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1996050907, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1996050907, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1996050907, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1996050907, 93, 1048);
+VALUES (1996050907, 1, 128)
+     , (1996050907, 5, 9000)
+     , (1996050907, 16, 1)
+     , (1996050907, 19, 125)
+     , (1996050907, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1996050907, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1996050907, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1996050907, 14, True);
+VALUES (1996050907, 12, True)
+     , (1996050907, 11, True)
+     , (1996050907, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1988718757, 2097176, 12647, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3308,28 +2108,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1988718757, 1, 'Sanai');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1988718757, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1988718757, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1988718757, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1988718757, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1988718757, 93, 1048);
+VALUES (1988718757, 1, 128)
+     , (1988718757, 5, 9000)
+     , (1988718757, 16, 1)
+     , (1988718757, 19, 125)
+     , (1988718757, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1988718757, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1988718757, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1988718757, 14, True);
+VALUES (1988718757, 12, True)
+     , (1988718757, 11, True)
+     , (1988718757, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2029080955, 2097176, 15691, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3341,28 +2129,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2029080955, 1, 'Artifice Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029080955, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029080955, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029080955, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029080955, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2029080955, 93, 1048);
+VALUES (2029080955, 1, 128)
+     , (2029080955, 5, 9000)
+     , (2029080955, 16, 1)
+     , (2029080955, 19, 125)
+     , (2029080955, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2029080955, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2029080955, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2029080955, 14, True);
+VALUES (2029080955, 12, True)
+     , (2029080955, 11, True)
+     , (2029080955, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2102800817, 2097176, 14732, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3374,28 +2150,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2102800817, 1, 'San-Chin');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2102800817, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2102800817, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2102800817, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2102800817, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2102800817, 93, 1048);
+VALUES (2102800817, 1, 128)
+     , (2102800817, 5, 9000)
+     , (2102800817, 16, 1)
+     , (2102800817, 19, 125)
+     , (2102800817, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2102800817, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2102800817, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2102800817, 14, True);
+VALUES (2102800817, 12, True)
+     , (2102800817, 11, True)
+     , (2102800817, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2053210545, 2097176, 14714, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3407,28 +2171,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2053210545, 1, 'Linvak Tukal Foothills Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053210545, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053210545, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053210545, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053210545, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053210545, 93, 1048);
+VALUES (2053210545, 1, 128)
+     , (2053210545, 5, 9000)
+     , (2053210545, 16, 1)
+     , (2053210545, 19, 125)
+     , (2053210545, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2053210545, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2053210545, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2053210545, 14, True);
+VALUES (2053210545, 12, True)
+     , (2053210545, 11, True)
+     , (2053210545, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2092318960, 2097176, 14318, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3440,28 +2192,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2092318960, 1, 'Mire Hill');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092318960, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092318960, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092318960, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092318960, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092318960, 93, 1048);
+VALUES (2092318960, 1, 128)
+     , (2092318960, 5, 9000)
+     , (2092318960, 16, 1)
+     , (2092318960, 19, 125)
+     , (2092318960, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092318960, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092318960, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092318960, 14, True);
+VALUES (2092318960, 12, True)
+     , (2092318960, 11, True)
+     , (2092318960, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2036543726, 2097176, 14334, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3473,28 +2213,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2036543726, 1, 'Villalabar');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2036543726, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2036543726, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2036543726, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2036543726, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2036543726, 93, 1048);
+VALUES (2036543726, 1, 128)
+     , (2036543726, 5, 9000)
+     , (2036543726, 16, 1)
+     , (2036543726, 19, 125)
+     , (2036543726, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2036543726, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2036543726, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2036543726, 14, True);
+VALUES (2036543726, 12, True)
+     , (2036543726, 11, True)
+     , (2036543726, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2059264433, 2097176, 14339, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3506,28 +2234,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2059264433, 1, 'Zatara');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059264433, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059264433, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059264433, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059264433, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059264433, 93, 1048);
+VALUES (2059264433, 1, 128)
+     , (2059264433, 5, 9000)
+     , (2059264433, 16, 1)
+     , (2059264433, 19, 125)
+     , (2059264433, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2059264433, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2059264433, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2059264433, 14, True);
+VALUES (2059264433, 12, True)
+     , (2059264433, 11, True)
+     , (2059264433, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2067026459, 2097176, 15231, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3539,28 +2255,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2067026459, 1, 'Kelnen Village');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2067026459, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2067026459, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2067026459, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2067026459, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2067026459, 93, 1048);
+VALUES (2067026459, 1, 128)
+     , (2067026459, 5, 9000)
+     , (2067026459, 16, 1)
+     , (2067026459, 19, 125)
+     , (2067026459, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2067026459, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2067026459, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2067026459, 14, True);
+VALUES (2067026459, 12, True)
+     , (2067026459, 11, True)
+     , (2067026459, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2013057241, 2097176, 12616, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3572,28 +2276,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2013057241, 1, 'Lake Nemuel Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2013057241, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2013057241, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2013057241, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2013057241, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2013057241, 93, 1048);
+VALUES (2013057241, 1, 128)
+     , (2013057241, 5, 9000)
+     , (2013057241, 16, 1)
+     , (2013057241, 19, 125)
+     , (2013057241, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2013057241, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2013057241, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2013057241, 14, True);
+VALUES (2013057241, 12, True)
+     , (2013057241, 11, True)
+     , (2013057241, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2041057676, 2097176, 14740, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3605,28 +2297,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2041057676, 1, 'Stone Face Oasis Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2041057676, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2041057676, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2041057676, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2041057676, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2041057676, 93, 1048);
+VALUES (2041057676, 1, 128)
+     , (2041057676, 5, 9000)
+     , (2041057676, 16, 1)
+     , (2041057676, 19, 125)
+     , (2041057676, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2041057676, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2041057676, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2041057676, 14, True);
+VALUES (2041057676, 12, True)
+     , (2041057676, 11, True)
+     , (2041057676, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2096890026, 2097176, 12649, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3638,28 +2318,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2096890026, 1, 'Sennon Valley Retreat');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2096890026, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2096890026, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2096890026, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2096890026, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2096890026, 93, 1048);
+VALUES (2096890026, 1, 128)
+     , (2096890026, 5, 9000)
+     , (2096890026, 16, 1)
+     , (2096890026, 19, 125)
+     , (2096890026, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2096890026, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2096890026, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2096890026, 14, True);
+VALUES (2096890026, 12, True)
+     , (2096890026, 11, True)
+     , (2096890026, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2051862961, 2097176, 15224, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3671,28 +2339,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2051862961, 1, 'Glystaene Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051862961, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051862961, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051862961, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051862961, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2051862961, 93, 1048);
+VALUES (2051862961, 1, 128)
+     , (2051862961, 5, 9000)
+     , (2051862961, 16, 1)
+     , (2051862961, 19, 125)
+     , (2051862961, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051862961, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051862961, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2051862961, 14, True);
+VALUES (2051862961, 12, True)
+     , (2051862961, 11, True)
+     , (2051862961, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2098901144, 2097176, 13143, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3704,28 +2360,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2098901144, 1, 'South Beach Pass Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098901144, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098901144, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098901144, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098901144, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098901144, 93, 1048);
+VALUES (2098901144, 1, 128)
+     , (2098901144, 5, 9000)
+     , (2098901144, 16, 1)
+     , (2098901144, 19, 125)
+     , (2098901144, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2098901144, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2098901144, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2098901144, 14, True);
+VALUES (2098901144, 12, True)
+     , (2098901144, 11, True)
+     , (2098901144, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2006454705, 2097176, 12582, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3737,28 +2381,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2006454705, 1, 'Bay of Sands');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2006454705, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2006454705, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2006454705, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2006454705, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2006454705, 93, 1048);
+VALUES (2006454705, 1, 128)
+     , (2006454705, 5, 9000)
+     , (2006454705, 16, 1)
+     , (2006454705, 19, 125)
+     , (2006454705, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2006454705, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2006454705, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2006454705, 14, True);
+VALUES (2006454705, 12, True)
+     , (2006454705, 11, True)
+     , (2006454705, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2082603441, 2097176, 12637, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3770,28 +2402,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2082603441, 1, 'North Adjamaer Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082603441, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082603441, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082603441, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082603441, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082603441, 93, 1048);
+VALUES (2082603441, 1, 128)
+     , (2082603441, 5, 9000)
+     , (2082603441, 16, 1)
+     , (2082603441, 19, 125)
+     , (2082603441, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2082603441, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2082603441, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2082603441, 14, True);
+VALUES (2082603441, 12, True)
+     , (2082603441, 11, True)
+     , (2082603441, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2015269297, 2097176, 15240, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3803,28 +2423,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2015269297, 1, 'Midhill Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2015269297, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2015269297, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2015269297, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2015269297, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2015269297, 93, 1048);
+VALUES (2015269297, 1, 128)
+     , (2015269297, 5, 9000)
+     , (2015269297, 16, 1)
+     , (2015269297, 19, 125)
+     , (2015269297, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2015269297, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2015269297, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2015269297, 14, True);
+VALUES (2015269297, 12, True)
+     , (2015269297, 11, True)
+     , (2015269297, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2018861489, 2097176, 12610, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3836,28 +2444,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2018861489, 1, 'Ijaniya ');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018861489, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018861489, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018861489, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018861489, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2018861489, 93, 1048);
+VALUES (2018861489, 1, 128)
+     , (2018861489, 5, 9000)
+     , (2018861489, 16, 1)
+     , (2018861489, 19, 125)
+     , (2018861489, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2018861489, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2018861489, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2018861489, 14, True);
+VALUES (2018861489, 12, True)
+     , (2018861489, 11, True)
+     , (2018861489, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2040967602, 2097176, 14690, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3869,28 +2465,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2040967602, 1, 'Djebel al-Nar Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2040967602, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2040967602, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2040967602, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2040967602, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2040967602, 93, 1048);
+VALUES (2040967602, 1, 128)
+     , (2040967602, 5, 9000)
+     , (2040967602, 16, 1)
+     , (2040967602, 19, 125)
+     , (2040967602, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2040967602, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2040967602, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2040967602, 14, True);
+VALUES (2040967602, 12, True)
+     , (2040967602, 11, True)
+     , (2040967602, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1987875249, 2097176, 14705, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3902,28 +2486,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1987875249, 1, 'Hidden Valley');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1987875249, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1987875249, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1987875249, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1987875249, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1987875249, 93, 1048);
+VALUES (1987875249, 1, 128)
+     , (1987875249, 5, 9000)
+     , (1987875249, 16, 1)
+     , (1987875249, 19, 125)
+     , (1987875249, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1987875249, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1987875249, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1987875249, 14, True);
+VALUES (1987875249, 12, True)
+     , (1987875249, 11, True)
+     , (1987875249, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1978352170, 2097176, 19168, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3935,28 +2507,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1978352170, 1, 'Dame Tolani Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1978352170, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1978352170, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1978352170, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1978352170, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1978352170, 93, 1048);
+VALUES (1978352170, 1, 128)
+     , (1978352170, 5, 9000)
+     , (1978352170, 16, 1)
+     , (1978352170, 19, 125)
+     , (1978352170, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1978352170, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1978352170, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1978352170, 14, True);
+VALUES (1978352170, 12, True)
+     , (1978352170, 11, True)
+     , (1978352170, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1948967387, 2097176, 15712, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -3968,28 +2528,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1948967387, 1, 'Wilomine Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1948967387, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1948967387, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1948967387, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1948967387, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1948967387, 93, 1048);
+VALUES (1948967387, 1, 128)
+     , (1948967387, 5, 9000)
+     , (1948967387, 16, 1)
+     , (1948967387, 19, 125)
+     , (1948967387, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1948967387, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1948967387, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1948967387, 14, True);
+VALUES (1948967387, 12, True)
+     , (1948967387, 11, True)
+     , (1948967387, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2061021659, 2097176, 14709, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4001,28 +2549,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2061021659, 1, 'King Pwyll Square');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061021659, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061021659, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061021659, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061021659, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061021659, 93, 1048);
+VALUES (2061021659, 1, 128)
+     , (2061021659, 5, 9000)
+     , (2061021659, 16, 1)
+     , (2061021659, 19, 125)
+     , (2061021659, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2061021659, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2061021659, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2061021659, 14, True);
+VALUES (2061021659, 12, True)
+     , (2061021659, 11, True)
+     , (2061021659, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2049708249, 2097176, 14311, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4034,28 +2570,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2049708249, 1, 'Ispan Hill');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049708249, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049708249, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049708249, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049708249, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049708249, 93, 1048);
+VALUES (2049708249, 1, 128)
+     , (2049708249, 5, 9000)
+     , (2049708249, 16, 1)
+     , (2049708249, 19, 125)
+     , (2049708249, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2049708249, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2049708249, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2049708249, 14, True);
+VALUES (2049708249, 12, True)
+     , (2049708249, 11, True)
+     , (2049708249, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1989747163, 2097176, 15704, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4067,28 +2591,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1989747163, 1, 'Nidal-Taraq Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1989747163, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1989747163, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1989747163, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1989747163, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1989747163, 93, 1048);
+VALUES (1989747163, 1, 128)
+     , (1989747163, 5, 9000)
+     , (1989747163, 16, 1)
+     , (1989747163, 19, 125)
+     , (1989747163, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1989747163, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1989747163, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1989747163, 14, True);
+VALUES (1989747163, 12, True)
+     , (1989747163, 11, True)
+     , (1989747163, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2052231601, 2097176, 15237, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4100,28 +2612,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2052231601, 1, 'Mattekar Slopes Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2052231601, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2052231601, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2052231601, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2052231601, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2052231601, 93, 1048);
+VALUES (2052231601, 1, 128)
+     , (2052231601, 5, 9000)
+     , (2052231601, 16, 1)
+     , (2052231601, 19, 125)
+     , (2052231601, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2052231601, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2052231601, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2052231601, 14, True);
+VALUES (2052231601, 12, True)
+     , (2052231601, 11, True)
+     , (2052231601, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2047271388, 2097176, 14745, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4133,28 +2633,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2047271388, 1, 'Vulture''s Eye Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047271388, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047271388, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047271388, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047271388, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047271388, 93, 1048);
+VALUES (2047271388, 1, 128)
+     , (2047271388, 5, 9000)
+     , (2047271388, 16, 1)
+     , (2047271388, 19, 125)
+     , (2047271388, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2047271388, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2047271388, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2047271388, 14, True);
+VALUES (2047271388, 12, True)
+     , (2047271388, 11, True)
+     , (2047271388, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2092786097, 2097176, 15248, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4166,28 +2654,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2092786097, 1, 'P''rnelle Acres');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092786097, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092786097, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092786097, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092786097, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092786097, 93, 1048);
+VALUES (2092786097, 1, 128)
+     , (2092786097, 5, 9000)
+     , (2092786097, 16, 1)
+     , (2092786097, 19, 125)
+     , (2092786097, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092786097, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092786097, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092786097, 14, True);
+VALUES (2092786097, 12, True)
+     , (2092786097, 11, True)
+     , (2092786097, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2085458353, 2097176, 15695, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4199,28 +2675,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2085458353, 1, 'Broken Haft Vale');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2085458353, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2085458353, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2085458353, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2085458353, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2085458353, 93, 1048);
+VALUES (2085458353, 1, 128)
+     , (2085458353, 5, 9000)
+     , (2085458353, 16, 1)
+     , (2085458353, 19, 125)
+     , (2085458353, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2085458353, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2085458353, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2085458353, 14, True);
+VALUES (2085458353, 12, True)
+     , (2085458353, 11, True)
+     , (2085458353, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2081264049, 2097176, 14724, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4232,28 +2696,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2081264049, 1, 'Norvale');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2081264049, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2081264049, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2081264049, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2081264049, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2081264049, 93, 1048);
+VALUES (2081264049, 1, 128)
+     , (2081264049, 5, 9000)
+     , (2081264049, 16, 1)
+     , (2081264049, 19, 125)
+     , (2081264049, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2081264049, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2081264049, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2081264049, 14, True);
+VALUES (2081264049, 12, True)
+     , (2081264049, 11, True)
+     , (2081264049, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2054726065, 2097176, 15698, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4265,28 +2717,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2054726065, 1, 'Demonsbane Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2054726065, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2054726065, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2054726065, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2054726065, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2054726065, 93, 1048);
+VALUES (2054726065, 1, 128)
+     , (2054726065, 5, 9000)
+     , (2054726065, 16, 1)
+     , (2054726065, 19, 125)
+     , (2054726065, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2054726065, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2054726065, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2054726065, 14, True);
+VALUES (2054726065, 12, True)
+     , (2054726065, 11, True)
+     , (2054726065, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2027303345, 2097176, 14691, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4298,28 +2738,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2027303345, 1, 'Djinaya Wind Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2027303345, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2027303345, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2027303345, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2027303345, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2027303345, 93, 1048);
+VALUES (2027303345, 1, 128)
+     , (2027303345, 5, 9000)
+     , (2027303345, 16, 1)
+     , (2027303345, 19, 125)
+     , (2027303345, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2027303345, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2027303345, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2027303345, 14, True);
+VALUES (2027303345, 12, True)
+     , (2027303345, 11, True)
+     , (2027303345, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2045280635, 2097176, 14307, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4331,28 +2759,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2045280635, 1, 'Greenswath');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2045280635, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2045280635, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2045280635, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2045280635, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2045280635, 93, 1048);
+VALUES (2045280635, 1, 128)
+     , (2045280635, 5, 9000)
+     , (2045280635, 16, 1)
+     , (2045280635, 19, 125)
+     , (2045280635, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2045280635, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2045280635, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2045280635, 14, True);
+VALUES (2045280635, 12, True)
+     , (2045280635, 11, True)
+     , (2045280635, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2066104753, 2097176, 14336, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4364,28 +2780,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2066104753, 1, 'West Yanshi Namoon');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066104753, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066104753, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066104753, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066104753, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066104753, 93, 1048);
+VALUES (2066104753, 1, 128)
+     , (2066104753, 5, 9000)
+     , (2066104753, 16, 1)
+     , (2066104753, 19, 125)
+     , (2066104753, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066104753, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066104753, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066104753, 14, True);
+VALUES (2066104753, 12, True)
+     , (2066104753, 11, True)
+     , (2066104753, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2058551694, 2097176, 14324, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4397,28 +2801,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2058551694, 1, 'Ro-Nan');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2058551694, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2058551694, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2058551694, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2058551694, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2058551694, 93, 1048);
+VALUES (2058551694, 1, 128)
+     , (2058551694, 5, 9000)
+     , (2058551694, 16, 1)
+     , (2058551694, 19, 125)
+     , (2058551694, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2058551694, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2058551694, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2058551694, 14, True);
+VALUES (2058551694, 12, True)
+     , (2058551694, 11, True)
+     , (2058551694, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2054373851, 2097176, 19174, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4430,28 +2822,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2054373851, 1, 'Gredaline Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2054373851, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2054373851, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2054373851, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2054373851, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2054373851, 93, 1048);
+VALUES (2054373851, 1, 128)
+     , (2054373851, 5, 9000)
+     , (2054373851, 16, 1)
+     , (2054373851, 19, 125)
+     , (2054373851, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2054373851, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2054373851, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2054373851, 14, True);
+VALUES (2054373851, 12, True)
+     , (2054373851, 11, True)
+     , (2054373851, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2017947919, 2097176, 15251, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4463,28 +2843,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2017947919, 1, 'Return of Mumiyah Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2017947919, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2017947919, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2017947919, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2017947919, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2017947919, 93, 1048);
+VALUES (2017947919, 1, 128)
+     , (2017947919, 5, 9000)
+     , (2017947919, 16, 1)
+     , (2017947919, 19, 125)
+     , (2017947919, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2017947919, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2017947919, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2017947919, 14, True);
+VALUES (2017947919, 12, True)
+     , (2017947919, 11, True)
+     , (2017947919, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1961599247, 2097176, 14731, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4496,28 +2864,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1961599247, 1, 'Rhynntal Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1961599247, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1961599247, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1961599247, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1961599247, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1961599247, 93, 1048);
+VALUES (1961599247, 1, 128)
+     , (1961599247, 5, 9000)
+     , (1961599247, 16, 1)
+     , (1961599247, 19, 125)
+     , (1961599247, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1961599247, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1961599247, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1961599247, 14, True);
+VALUES (1961599247, 12, True)
+     , (1961599247, 11, True)
+     , (1961599247, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2042941873, 2097176, 14734, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4529,28 +2885,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2042941873, 1, 'Sands-of-the-Skull Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042941873, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042941873, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042941873, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042941873, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042941873, 93, 1048);
+VALUES (2042941873, 1, 128)
+     , (2042941873, 5, 9000)
+     , (2042941873, 16, 1)
+     , (2042941873, 19, 125)
+     , (2042941873, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2042941873, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2042941873, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2042941873, 14, True);
+VALUES (2042941873, 12, True)
+     , (2042941873, 11, True)
+     , (2042941873, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2098876581, 2097176, 12588, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4562,28 +2906,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2098876581, 1, 'Cape Feirgard Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098876581, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098876581, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098876581, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098876581, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098876581, 93, 1048);
+VALUES (2098876581, 1, 128)
+     , (2098876581, 5, 9000)
+     , (2098876581, 16, 1)
+     , (2098876581, 19, 125)
+     , (2098876581, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2098876581, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2098876581, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2098876581, 14, True);
+VALUES (2098876581, 12, True)
+     , (2098876581, 11, True)
+     , (2098876581, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2061001137, 2097176, 13156, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4595,28 +2927,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2061001137, 1, 'Enchanter''s Meadow');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061001137, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061001137, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061001137, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061001137, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061001137, 93, 1048);
+VALUES (2061001137, 1, 128)
+     , (2061001137, 5, 9000)
+     , (2061001137, 16, 1)
+     , (2061001137, 19, 125)
+     , (2061001137, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2061001137, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2061001137, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2061001137, 14, True);
+VALUES (2061001137, 12, True)
+     , (2061001137, 11, True)
+     , (2061001137, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2126795185, 2097176, 14725, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4628,28 +2948,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2126795185, 1, 'Ong-Hau Village');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2126795185, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2126795185, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2126795185, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2126795185, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2126795185, 93, 1048);
+VALUES (2126795185, 1, 128)
+     , (2126795185, 5, 9000)
+     , (2126795185, 16, 1)
+     , (2126795185, 19, 125)
+     , (2126795185, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2126795185, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2126795185, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2126795185, 14, True);
+VALUES (2126795185, 12, True)
+     , (2126795185, 11, True)
+     , (2126795185, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2108092891, 2097176, 15258, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4661,28 +2969,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2108092891, 1, 'South Siege Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2108092891, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2108092891, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2108092891, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2108092891, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2108092891, 93, 1048);
+VALUES (2108092891, 1, 128)
+     , (2108092891, 5, 9000)
+     , (2108092891, 16, 1)
+     , (2108092891, 19, 125)
+     , (2108092891, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2108092891, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2108092891, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2108092891, 14, True);
+VALUES (2108092891, 12, True)
+     , (2108092891, 11, True)
+     , (2108092891, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2033516923, 2097176, 12627, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4694,28 +2990,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2033516923, 1, 'Monument Sands Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2033516923, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2033516923, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2033516923, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2033516923, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2033516923, 93, 1048);
+VALUES (2033516923, 1, 128)
+     , (2033516923, 5, 9000)
+     , (2033516923, 16, 1)
+     , (2033516923, 19, 125)
+     , (2033516923, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2033516923, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2033516923, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2033516923, 14, True);
+VALUES (2033516923, 12, True)
+     , (2033516923, 11, True)
+     , (2033516923, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2020544945, 2097176, 15260, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4727,28 +3011,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2020544945, 1, 'Tharesun');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2020544945, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2020544945, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2020544945, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2020544945, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2020544945, 93, 1048);
+VALUES (2020544945, 1, 128)
+     , (2020544945, 5, 9000)
+     , (2020544945, 16, 1)
+     , (2020544945, 19, 125)
+     , (2020544945, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2020544945, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2020544945, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2020544945, 14, True);
+VALUES (2020544945, 12, True)
+     , (2020544945, 11, True)
+     , (2020544945, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2060014043, 2097176, 15264, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4760,28 +3032,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2060014043, 1, 'Tinkelo Hold Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060014043, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060014043, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060014043, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060014043, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060014043, 93, 1048);
+VALUES (2060014043, 1, 128)
+     , (2060014043, 5, 9000)
+     , (2060014043, 16, 1)
+     , (2060014043, 19, 125)
+     , (2060014043, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2060014043, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2060014043, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2060014043, 14, True);
+VALUES (2060014043, 12, True)
+     , (2060014043, 11, True)
+     , (2060014043, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2091499953, 2097176, 12639, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4793,28 +3053,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2091499953, 1, 'North Eastham Meadow');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091499953, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091499953, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091499953, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091499953, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2091499953, 93, 1048);
+VALUES (2091499953, 1, 128)
+     , (2091499953, 5, 9000)
+     , (2091499953, 16, 1)
+     , (2091499953, 19, 125)
+     , (2091499953, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2091499953, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2091499953, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2091499953, 14, True);
+VALUES (2091499953, 12, True)
+     , (2091499953, 11, True)
+     , (2091499953, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2092347825, 2097176, 12611, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4826,28 +3074,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2092347825, 1, 'Imuth Maer Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092347825, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092347825, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092347825, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092347825, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092347825, 93, 1048);
+VALUES (2092347825, 1, 128)
+     , (2092347825, 5, 9000)
+     , (2092347825, 16, 1)
+     , (2092347825, 19, 125)
+     , (2092347825, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092347825, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092347825, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092347825, 14, True);
+VALUES (2092347825, 12, True)
+     , (2092347825, 11, True)
+     , (2092347825, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2064888241, 2097176, 12662, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4859,28 +3095,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2064888241, 1, 'Spire Hills Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2064888241, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2064888241, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2064888241, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2064888241, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2064888241, 93, 1048);
+VALUES (2064888241, 1, 128)
+     , (2064888241, 5, 9000)
+     , (2064888241, 16, 1)
+     , (2064888241, 19, 125)
+     , (2064888241, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2064888241, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2064888241, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2064888241, 14, True);
+VALUES (2064888241, 12, True)
+     , (2064888241, 11, True)
+     , (2064888241, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2040709553, 2097176, 13172, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4892,28 +3116,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2040709553, 1, 'Qalabar Oasis Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2040709553, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2040709553, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2040709553, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2040709553, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2040709553, 93, 1048);
+VALUES (2040709553, 1, 128)
+     , (2040709553, 5, 9000)
+     , (2040709553, 16, 1)
+     , (2040709553, 19, 125)
+     , (2040709553, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2040709553, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2040709553, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2040709553, 14, True);
+VALUES (2040709553, 12, True)
+     , (2040709553, 11, True)
+     , (2040709553, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2099052923, 2097176, 19177, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4925,28 +3137,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2099052923, 1, 'Isparian Flame Estates');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2099052923, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2099052923, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2099052923, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2099052923, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2099052923, 93, 1048);
+VALUES (2099052923, 1, 128)
+     , (2099052923, 5, 9000)
+     , (2099052923, 16, 1)
+     , (2099052923, 19, 125)
+     , (2099052923, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2099052923, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2099052923, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2099052923, 14, True);
+VALUES (2099052923, 12, True)
+     , (2099052923, 11, True)
+     , (2099052923, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1976463793, 2097176, 15245, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4958,28 +3158,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1976463793, 1, 'Northfire Estates');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1976463793, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1976463793, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1976463793, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1976463793, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1976463793, 93, 1048);
+VALUES (1976463793, 1, 128)
+     , (1976463793, 5, 9000)
+     , (1976463793, 16, 1)
+     , (1976463793, 19, 125)
+     , (1976463793, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1976463793, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1976463793, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1976463793, 14, True);
+VALUES (1976463793, 12, True)
+     , (1976463793, 11, True)
+     , (1976463793, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2047520933, 2097176, 12608, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -4991,28 +3179,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2047520933, 1, 'Glenden Hills North Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047520933, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047520933, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047520933, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047520933, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047520933, 93, 1048);
+VALUES (2047520933, 1, 128)
+     , (2047520933, 5, 9000)
+     , (2047520933, 16, 1)
+     , (2047520933, 19, 125)
+     , (2047520933, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2047520933, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2047520933, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2047520933, 14, True);
+VALUES (2047520933, 12, True)
+     , (2047520933, 11, True)
+     , (2047520933, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2024272305, 2097176, 14312, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5024,28 +3200,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2024272305, 1, 'Jackcat Canyon');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2024272305, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2024272305, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2024272305, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2024272305, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2024272305, 93, 1048);
+VALUES (2024272305, 1, 128)
+     , (2024272305, 5, 9000)
+     , (2024272305, 16, 1)
+     , (2024272305, 19, 125)
+     , (2024272305, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2024272305, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2024272305, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2024272305, 14, True);
+VALUES (2024272305, 12, True)
+     , (2024272305, 11, True)
+     , (2024272305, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2084889009, 2097176, 12581, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5057,28 +3221,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2084889009, 1, 'Ayn Tayan');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2084889009, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2084889009, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2084889009, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2084889009, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2084889009, 93, 1048);
+VALUES (2084889009, 1, 128)
+     , (2084889009, 5, 9000)
+     , (2084889009, 16, 1)
+     , (2084889009, 19, 125)
+     , (2084889009, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2084889009, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2084889009, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2084889009, 14, True);
+VALUES (2084889009, 12, True)
+     , (2084889009, 11, True)
+     , (2084889009, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2036744625, 2097176, 15203, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5090,28 +3242,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2036744625, 1, 'Ahr-Zona');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2036744625, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2036744625, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2036744625, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2036744625, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2036744625, 93, 1048);
+VALUES (2036744625, 1, 128)
+     , (2036744625, 5, 9000)
+     , (2036744625, 16, 1)
+     , (2036744625, 19, 125)
+     , (2036744625, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2036744625, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2036744625, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2036744625, 14, True);
+VALUES (2036744625, 12, True)
+     , (2036744625, 11, True)
+     , (2036744625, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2053943466, 2097176, 12633, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5123,28 +3263,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2053943466, 1, 'New Colier');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053943466, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053943466, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053943466, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053943466, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053943466, 93, 1048);
+VALUES (2053943466, 1, 128)
+     , (2053943466, 5, 9000)
+     , (2053943466, 16, 1)
+     , (2053943466, 19, 125)
+     , (2053943466, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2053943466, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2053943466, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2053943466, 14, True);
+VALUES (2053943466, 12, True)
+     , (2053943466, 11, True)
+     , (2053943466, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2074235313, 2097176, 12675, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5156,28 +3284,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2074235313, 1, 'Yukikaze ');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2074235313, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2074235313, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2074235313, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2074235313, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2074235313, 93, 1048);
+VALUES (2074235313, 1, 128)
+     , (2074235313, 5, 9000)
+     , (2074235313, 16, 1)
+     , (2074235313, 19, 125)
+     , (2074235313, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2074235313, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2074235313, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2074235313, 14, True);
+VALUES (2074235313, 12, True)
+     , (2074235313, 11, True)
+     , (2074235313, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2067943857, 2097176, 14711, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5189,28 +3305,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2067943857, 1, 'Lake Thrasyl Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2067943857, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2067943857, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2067943857, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2067943857, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2067943857, 93, 1048);
+VALUES (2067943857, 1, 128)
+     , (2067943857, 5, 9000)
+     , (2067943857, 16, 1)
+     , (2067943857, 19, 125)
+     , (2067943857, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2067943857, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2067943857, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2067943857, 14, True);
+VALUES (2067943857, 12, True)
+     , (2067943857, 11, True)
+     , (2067943857, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2113335729, 2097176, 12593, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5222,28 +3326,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2113335729, 1, 'Dryreach Beach Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2113335729, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2113335729, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2113335729, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2113335729, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2113335729, 93, 1048);
+VALUES (2113335729, 1, 128)
+     , (2113335729, 5, 9000)
+     , (2113335729, 16, 1)
+     , (2113335729, 19, 125)
+     , (2113335729, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2113335729, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2113335729, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2113335729, 14, True);
+VALUES (2113335729, 12, True)
+     , (2113335729, 11, True)
+     , (2113335729, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2111160753, 2097176, 12574, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5255,28 +3347,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2111160753, 1, 'Aimaru Plains Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2111160753, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2111160753, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2111160753, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2111160753, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2111160753, 93, 1048);
+VALUES (2111160753, 1, 128)
+     , (2111160753, 5, 9000)
+     , (2111160753, 16, 1)
+     , (2111160753, 19, 125)
+     , (2111160753, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2111160753, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2111160753, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2111160753, 14, True);
+VALUES (2111160753, 12, True)
+     , (2111160753, 11, True)
+     , (2111160753, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2039710129, 2097176, 15209, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5288,28 +3368,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2039710129, 1, 'Avatania Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2039710129, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2039710129, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2039710129, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2039710129, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2039710129, 93, 1048);
+VALUES (2039710129, 1, 128)
+     , (2039710129, 5, 9000)
+     , (2039710129, 16, 1)
+     , (2039710129, 19, 125)
+     , (2039710129, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2039710129, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2039710129, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2039710129, 14, True);
+VALUES (2039710129, 12, True)
+     , (2039710129, 11, True)
+     , (2039710129, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1972273585, 2097176, 15210, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5321,28 +3389,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1972273585, 1, 'Azaroth Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1972273585, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1972273585, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1972273585, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1972273585, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1972273585, 93, 1048);
+VALUES (1972273585, 1, 128)
+     , (1972273585, 5, 9000)
+     , (1972273585, 16, 1)
+     , (1972273585, 19, 125)
+     , (1972273585, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1972273585, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1972273585, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1972273585, 14, True);
+VALUES (1972273585, 12, True)
+     , (1972273585, 11, True)
+     , (1972273585, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1953235377, 2097176, 14299, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5354,28 +3410,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1953235377, 1, 'Auralla Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1953235377, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1953235377, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1953235377, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1953235377, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1953235377, 93, 1048);
+VALUES (1953235377, 1, 128)
+     , (1953235377, 5, 9000)
+     , (1953235377, 16, 1)
+     , (1953235377, 19, 125)
+     , (1953235377, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1953235377, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1953235377, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1953235377, 14, True);
+VALUES (1953235377, 12, True)
+     , (1953235377, 11, True)
+     , (1953235377, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1974141361, 2097176, 19183, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5387,28 +3431,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1974141361, 1, 'Rending Talon Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1974141361, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1974141361, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1974141361, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1974141361, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1974141361, 93, 1048);
+VALUES (1974141361, 1, 128)
+     , (1974141361, 5, 9000)
+     , (1974141361, 16, 1)
+     , (1974141361, 19, 125)
+     , (1974141361, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1974141361, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1974141361, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1974141361, 14, True);
+VALUES (1974141361, 12, True)
+     , (1974141361, 11, True)
+     , (1974141361, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2042212522, 2097176, 12677, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5420,28 +3452,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2042212522, 1, 'Zabool Overlook Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042212522, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042212522, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042212522, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042212522, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2042212522, 93, 1048);
+VALUES (2042212522, 1, 128)
+     , (2042212522, 5, 9000)
+     , (2042212522, 16, 1)
+     , (2042212522, 19, 125)
+     , (2042212522, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2042212522, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2042212522, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2042212522, 14, True);
+VALUES (2042212522, 12, True)
+     , (2042212522, 11, True)
+     , (2042212522, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2079601073, 2097176, 13174, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5453,28 +3473,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2079601073, 1, 'Ring of Crystals Estates');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2079601073, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2079601073, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2079601073, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2079601073, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2079601073, 93, 1048);
+VALUES (2079601073, 1, 128)
+     , (2079601073, 5, 9000)
+     , (2079601073, 16, 1)
+     , (2079601073, 19, 125)
+     , (2079601073, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2079601073, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2079601073, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2079601073, 14, True);
+VALUES (2079601073, 12, True)
+     , (2079601073, 11, True)
+     , (2079601073, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2033779163, 2097176, 19193, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5486,28 +3494,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2033779163, 1, 'Unified Heart Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2033779163, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2033779163, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2033779163, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2033779163, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2033779163, 93, 1048);
+VALUES (2033779163, 1, 128)
+     , (2033779163, 5, 9000)
+     , (2033779163, 16, 1)
+     , (2033779163, 19, 125)
+     , (2033779163, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2033779163, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2033779163, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2033779163, 14, True);
+VALUES (2033779163, 12, True)
+     , (2033779163, 11, True)
+     , (2033779163, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2026471803, 2097176, 14296, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5519,28 +3515,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2026471803, 1, 'Alfreth Ridge Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026471803, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026471803, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026471803, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026471803, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026471803, 93, 1048);
+VALUES (2026471803, 1, 128)
+     , (2026471803, 5, 9000)
+     , (2026471803, 16, 1)
+     , (2026471803, 19, 125)
+     , (2026471803, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2026471803, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2026471803, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2026471803, 14, True);
+VALUES (2026471803, 12, True)
+     , (2026471803, 11, True)
+     , (2026471803, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2086932805, 2097176, 14306, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5552,28 +3536,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2086932805, 1, 'West Baishi Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2086932805, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2086932805, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2086932805, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2086932805, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2086932805, 93, 1048);
+VALUES (2086932805, 1, 128)
+     , (2086932805, 5, 9000)
+     , (2086932805, 16, 1)
+     , (2086932805, 19, 125)
+     , (2086932805, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2086932805, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2086932805, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2086932805, 14, True);
+VALUES (2086932805, 12, True)
+     , (2086932805, 11, True)
+     , (2086932805, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2098340273, 2097176, 12621, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5585,28 +3557,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2098340273, 1, 'Lugian Meadows Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098340273, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098340273, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098340273, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098340273, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2098340273, 93, 1048);
+VALUES (2098340273, 1, 128)
+     , (2098340273, 5, 9000)
+     , (2098340273, 16, 1)
+     , (2098340273, 19, 125)
+     , (2098340273, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2098340273, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2098340273, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2098340273, 14, True);
+VALUES (2098340273, 12, True)
+     , (2098340273, 11, True)
+     , (2098340273, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1986802097, 2097176, 15249, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5618,28 +3578,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1986802097, 1, 'Regina Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1986802097, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1986802097, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1986802097, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1986802097, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1986802097, 93, 1048);
+VALUES (1986802097, 1, 128)
+     , (1986802097, 5, 9000)
+     , (1986802097, 16, 1)
+     , (1986802097, 19, 125)
+     , (1986802097, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1986802097, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1986802097, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1986802097, 14, True);
+VALUES (1986802097, 12, True)
+     , (1986802097, 11, True)
+     , (1986802097, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2034319739, 2097176, 14742, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5651,28 +3599,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2034319739, 1, 'Stormbrow');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2034319739, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2034319739, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2034319739, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2034319739, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2034319739, 93, 1048);
+VALUES (2034319739, 1, 128)
+     , (2034319739, 5, 9000)
+     , (2034319739, 16, 1)
+     , (2034319739, 19, 125)
+     , (2034319739, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2034319739, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2034319739, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2034319739, 14, True);
+VALUES (2034319739, 12, True)
+     , (2034319739, 11, True)
+     , (2034319739, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2040025521, 2097176, 14320, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5684,28 +3620,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2040025521, 1, 'Nal Wadi Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2040025521, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2040025521, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2040025521, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2040025521, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2040025521, 93, 1048);
+VALUES (2040025521, 1, 128)
+     , (2040025521, 5, 9000)
+     , (2040025521, 16, 1)
+     , (2040025521, 19, 125)
+     , (2040025521, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2040025521, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2040025521, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2040025521, 14, True);
+VALUES (2040025521, 12, True)
+     , (2040025521, 11, True)
+     , (2040025521, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2061901824, 2097176, 12646, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5717,28 +3641,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2061901824, 1, 'Arida Butte');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061901824, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061901824, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061901824, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061901824, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061901824, 93, 1048);
+VALUES (2061901824, 1, 128)
+     , (2061901824, 5, 9000)
+     , (2061901824, 16, 1)
+     , (2061901824, 19, 125)
+     , (2061901824, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2061901824, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2061901824, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2061901824, 14, True);
+VALUES (2061901824, 12, True)
+     , (2061901824, 11, True)
+     , (2061901824, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2066563471, 2097176, 14297, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5750,28 +3662,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2066563471, 1, 'Alvador');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066563471, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066563471, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066563471, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066563471, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066563471, 93, 1048);
+VALUES (2066563471, 1, 128)
+     , (2066563471, 5, 9000)
+     , (2066563471, 16, 1)
+     , (2066563471, 19, 125)
+     , (2066563471, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066563471, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066563471, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066563471, 14, True);
+VALUES (2066563471, 12, True)
+     , (2066563471, 11, True)
+     , (2066563471, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2061320625, 2097176, 14685, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5783,28 +3683,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2061320625, 1, 'Bretslef Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061320625, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061320625, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061320625, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061320625, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2061320625, 93, 1048);
+VALUES (2061320625, 1, 128)
+     , (2061320625, 5, 9000)
+     , (2061320625, 16, 1)
+     , (2061320625, 19, 125)
+     , (2061320625, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2061320625, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2061320625, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2061320625, 14, True);
+VALUES (2061320625, 12, True)
+     , (2061320625, 11, True)
+     , (2061320625, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2020344079, 2097176, 14706, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5816,28 +3704,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2020344079, 1, 'Ianna');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2020344079, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2020344079, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2020344079, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2020344079, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2020344079, 93, 1048);
+VALUES (2020344079, 1, 128)
+     , (2020344079, 5, 9000)
+     , (2020344079, 16, 1)
+     , (2020344079, 19, 125)
+     , (2020344079, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2020344079, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2020344079, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2020344079, 14, True);
+VALUES (2020344079, 12, True)
+     , (2020344079, 11, True)
+     , (2020344079, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2011988293, 2097176, 15703, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5849,28 +3725,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2011988293, 1, 'Mountain Retreat Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2011988293, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2011988293, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2011988293, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2011988293, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2011988293, 93, 1048);
+VALUES (2011988293, 1, 128)
+     , (2011988293, 5, 9000)
+     , (2011988293, 16, 1)
+     , (2011988293, 19, 125)
+     , (2011988293, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2011988293, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2011988293, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2011988293, 14, True);
+VALUES (2011988293, 12, True)
+     , (2011988293, 11, True)
+     , (2011988293, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2016178609, 2097176, 19170, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5882,28 +3746,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2016178609, 1, 'Defiant Prey Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2016178609, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2016178609, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2016178609, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2016178609, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2016178609, 93, 1048);
+VALUES (2016178609, 1, 128)
+     , (2016178609, 5, 9000)
+     , (2016178609, 16, 1)
+     , (2016178609, 19, 125)
+     , (2016178609, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2016178609, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2016178609, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2016178609, 14, True);
+VALUES (2016178609, 12, True)
+     , (2016178609, 11, True)
+     , (2016178609, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2074812586, 2097176, 12609, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5915,28 +3767,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2074812586, 1, 'Holtburg Wilderness Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2074812586, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2074812586, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2074812586, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2074812586, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2074812586, 93, 1048);
+VALUES (2074812586, 1, 128)
+     , (2074812586, 5, 9000)
+     , (2074812586, 16, 1)
+     , (2074812586, 19, 125)
+     , (2074812586, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2074812586, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2074812586, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2074812586, 14, True);
+VALUES (2074812586, 12, True)
+     , (2074812586, 11, True)
+     , (2074812586, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1991119011, 2097176, 13150, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5948,28 +3788,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1991119011, 1, 'Dires'' Door Estates');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1991119011, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1991119011, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1991119011, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1991119011, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1991119011, 93, 1048);
+VALUES (1991119011, 1, 128)
+     , (1991119011, 5, 9000)
+     , (1991119011, 16, 1)
+     , (1991119011, 19, 125)
+     , (1991119011, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1991119011, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1991119011, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1991119011, 14, True);
+VALUES (1991119011, 12, True)
+     , (1991119011, 11, True)
+     , (1991119011, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2026492379, 2097176, 15218, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -5981,28 +3809,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2026492379, 1, 'Dovetail Valley Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026492379, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026492379, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026492379, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026492379, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2026492379, 93, 1048);
+VALUES (2026492379, 1, 128)
+     , (2026492379, 5, 9000)
+     , (2026492379, 16, 1)
+     , (2026492379, 19, 125)
+     , (2026492379, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2026492379, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2026492379, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2026492379, 14, True);
+VALUES (2026492379, 12, True)
+     , (2026492379, 11, True)
+     , (2026492379, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2053796010, 2097176, 12607, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6014,28 +3830,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2053796010, 1, 'Glenden Hills East Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053796010, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053796010, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053796010, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053796010, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2053796010, 93, 1048);
+VALUES (2053796010, 1, 128)
+     , (2053796010, 5, 9000)
+     , (2053796010, 16, 1)
+     , (2053796010, 19, 125)
+     , (2053796010, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2053796010, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2053796010, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2053796010, 14, True);
+VALUES (2053796010, 12, True)
+     , (2053796010, 11, True)
+     , (2053796010, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2056729009, 2097176, 14338, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6047,28 +3851,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2056729009, 1, 'Yinar');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2056729009, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2056729009, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2056729009, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2056729009, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2056729009, 93, 1048);
+VALUES (2056729009, 1, 128)
+     , (2056729009, 5, 9000)
+     , (2056729009, 16, 1)
+     , (2056729009, 19, 125)
+     , (2056729009, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2056729009, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2056729009, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2056729009, 14, True);
+VALUES (2056729009, 12, True)
+     , (2056729009, 11, True)
+     , (2056729009, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1959416133, 2097176, 15692, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6080,28 +3872,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1959416133, 1, 'Axefall Glen');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1959416133, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1959416133, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1959416133, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1959416133, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1959416133, 93, 1048);
+VALUES (1959416133, 1, 128)
+     , (1959416133, 5, 9000)
+     , (1959416133, 16, 1)
+     , (1959416133, 19, 125)
+     , (1959416133, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1959416133, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1959416133, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1959416133, 14, True);
+VALUES (1959416133, 12, True)
+     , (1959416133, 11, True)
+     , (1959416133, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2031550897, 2097176, 14681, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6113,28 +3893,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2031550897, 1, 'Al-Nosaj');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031550897, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031550897, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031550897, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031550897, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031550897, 93, 1048);
+VALUES (2031550897, 1, 128)
+     , (2031550897, 5, 9000)
+     , (2031550897, 16, 1)
+     , (2031550897, 19, 125)
+     , (2031550897, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2031550897, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2031550897, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2031550897, 14, True);
+VALUES (2031550897, 12, True)
+     , (2031550897, 11, True)
+     , (2031550897, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2013720847, 2097176, 15252, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6146,28 +3914,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2013720847, 1, 'Sand Shallow Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2013720847, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2013720847, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2013720847, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2013720847, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2013720847, 93, 1048);
+VALUES (2013720847, 1, 128)
+     , (2013720847, 5, 9000)
+     , (2013720847, 16, 1)
+     , (2013720847, 19, 125)
+     , (2013720847, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2013720847, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2013720847, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2013720847, 14, True);
+VALUES (2013720847, 12, True)
+     , (2013720847, 11, True)
+     , (2013720847, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1955463601, 2097176, 12673, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6179,28 +3935,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1955463601, 1, 'Woodshore Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1955463601, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1955463601, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1955463601, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1955463601, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1955463601, 93, 1048);
+VALUES (1955463601, 1, 128)
+     , (1955463601, 5, 9000)
+     , (1955463601, 16, 1)
+     , (1955463601, 19, 125)
+     , (1955463601, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1955463601, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1955463601, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1955463601, 14, True);
+VALUES (1955463601, 12, True)
+     , (1955463601, 11, True)
+     , (1955463601, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2066518449, 2097176, 15696, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6212,28 +3956,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2066518449, 1, 'Colier View Hill');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066518449, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066518449, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066518449, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066518449, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066518449, 93, 1048);
+VALUES (2066518449, 1, 128)
+     , (2066518449, 5, 9000)
+     , (2066518449, 16, 1)
+     , (2066518449, 19, 125)
+     , (2066518449, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066518449, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066518449, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066518449, 14, True);
+VALUES (2066518449, 12, True)
+     , (2066518449, 11, True)
+     , (2066518449, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2001383899, 2097176, 19169, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6245,28 +3977,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2001383899, 1, 'Darasa Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2001383899, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2001383899, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2001383899, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2001383899, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2001383899, 93, 1048);
+VALUES (2001383899, 1, 128)
+     , (2001383899, 5, 9000)
+     , (2001383899, 16, 1)
+     , (2001383899, 19, 125)
+     , (2001383899, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2001383899, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2001383899, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2001383899, 14, True);
+VALUES (2001383899, 12, True)
+     , (2001383899, 11, True)
+     , (2001383899, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2000351707, 2097176, 19166, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6278,28 +3998,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2000351707, 1, 'Amarand Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2000351707, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2000351707, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2000351707, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2000351707, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2000351707, 93, 1048);
+VALUES (2000351707, 1, 128)
+     , (2000351707, 5, 9000)
+     , (2000351707, 16, 1)
+     , (2000351707, 19, 125)
+     , (2000351707, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2000351707, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2000351707, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2000351707, 14, True);
+VALUES (2000351707, 12, True)
+     , (2000351707, 11, True)
+     , (2000351707, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2025247153, 2097176, 14683, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6311,28 +4019,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2025247153, 1, 'Bleached Skull Wastes Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2025247153, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2025247153, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2025247153, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2025247153, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2025247153, 93, 1048);
+VALUES (2025247153, 1, 128)
+     , (2025247153, 5, 9000)
+     , (2025247153, 16, 1)
+     , (2025247153, 19, 125)
+     , (2025247153, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2025247153, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2025247153, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2025247153, 14, True);
+VALUES (2025247153, 12, True)
+     , (2025247153, 11, True)
+     , (2025247153, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2045198769, 2097176, 14300, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6344,28 +4040,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2045198769, 1, 'Cactus Acres');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2045198769, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2045198769, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2045198769, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2045198769, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2045198769, 93, 1048);
+VALUES (2045198769, 1, 128)
+     , (2045198769, 5, 9000)
+     , (2045198769, 16, 1)
+     , (2045198769, 19, 125)
+     , (2045198769, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2045198769, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2045198769, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2045198769, 14, True);
+VALUES (2045198769, 12, True)
+     , (2045198769, 11, True)
+     , (2045198769, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2009555377, 2097176, 12577, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6377,28 +4061,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2009555377, 1, 'Aqalah');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2009555377, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2009555377, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2009555377, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2009555377, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2009555377, 93, 1048);
+VALUES (2009555377, 1, 128)
+     , (2009555377, 5, 9000)
+     , (2009555377, 16, 1)
+     , (2009555377, 19, 125)
+     , (2009555377, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2009555377, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2009555377, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2009555377, 14, True);
+VALUES (2009555377, 12, True)
+     , (2009555377, 11, True)
+     , (2009555377, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2100584926, 2097176, 13189, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6410,28 +4082,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2100584926, 1, 'Tanshi');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2100584926, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2100584926, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2100584926, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2100584926, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2100584926, 93, 1048);
+VALUES (2100584926, 1, 128)
+     , (2100584926, 5, 9000)
+     , (2100584926, 16, 1)
+     , (2100584926, 19, 125)
+     , (2100584926, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2100584926, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2100584926, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2100584926, 14, True);
+VALUES (2100584926, 12, True)
+     , (2100584926, 11, True)
+     , (2100584926, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2019246513, 2097176, 15220, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6443,28 +4103,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2019246513, 1, 'Durglen');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2019246513, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2019246513, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2019246513, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2019246513, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2019246513, 93, 1048);
+VALUES (2019246513, 1, 128)
+     , (2019246513, 5, 9000)
+     , (2019246513, 16, 1)
+     , (2019246513, 19, 125)
+     , (2019246513, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2019246513, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2019246513, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2019246513, 14, True);
+VALUES (2019246513, 12, True)
+     , (2019246513, 11, True)
+     , (2019246513, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2088235441, 2097176, 12596, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6476,28 +4124,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2088235441, 1, 'East Lytelthorpe Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088235441, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088235441, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088235441, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088235441, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088235441, 93, 1048);
+VALUES (2088235441, 1, 128)
+     , (2088235441, 5, 9000)
+     , (2088235441, 16, 1)
+     , (2088235441, 19, 125)
+     , (2088235441, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2088235441, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2088235441, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2088235441, 14, True);
+VALUES (2088235441, 12, True)
+     , (2088235441, 11, True)
+     , (2088235441, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2007851441, 2097176, 15206, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6509,28 +4145,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2007851441, 1, 'Anadil');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2007851441, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2007851441, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2007851441, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2007851441, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2007851441, 93, 1048);
+VALUES (2007851441, 1, 128)
+     , (2007851441, 5, 9000)
+     , (2007851441, 16, 1)
+     , (2007851441, 19, 125)
+     , (2007851441, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2007851441, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2007851441, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2007851441, 14, True);
+VALUES (2007851441, 12, True)
+     , (2007851441, 11, True)
+     , (2007851441, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2073391537, 2097176, 14715, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6542,28 +4166,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2073391537, 1, 'Li-Po Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073391537, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073391537, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073391537, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073391537, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2073391537, 93, 1048);
+VALUES (2073391537, 1, 128)
+     , (2073391537, 5, 9000)
+     , (2073391537, 16, 1)
+     , (2073391537, 19, 125)
+     , (2073391537, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2073391537, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2073391537, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2073391537, 14, True);
+VALUES (2073391537, 12, True)
+     , (2073391537, 11, True)
+     , (2073391537, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2023526833, 2097176, 19188, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6575,28 +4187,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2023526833, 1, 'Stonerune Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2023526833, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2023526833, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2023526833, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2023526833, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2023526833, 93, 1048);
+VALUES (2023526833, 1, 128)
+     , (2023526833, 5, 9000)
+     , (2023526833, 16, 1)
+     , (2023526833, 19, 125)
+     , (2023526833, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2023526833, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2023526833, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2023526833, 14, True);
+VALUES (2023526833, 12, True)
+     , (2023526833, 11, True)
+     , (2023526833, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2028208561, 2097176, 12650, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6608,28 +4208,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2028208561, 1, 'Serpent Hills Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2028208561, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2028208561, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2028208561, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2028208561, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2028208561, 93, 1048);
+VALUES (2028208561, 1, 128)
+     , (2028208561, 5, 9000)
+     , (2028208561, 16, 1)
+     , (2028208561, 19, 125)
+     , (2028208561, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2028208561, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2028208561, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2028208561, 14, True);
+VALUES (2028208561, 12, True)
+     , (2028208561, 11, True)
+     , (2028208561, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2030739586, 2097176, 12670, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6641,28 +4229,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2030739586, 1, 'Whispering Pines Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2030739586, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2030739586, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2030739586, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2030739586, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2030739586, 93, 1048);
+VALUES (2030739586, 1, 128)
+     , (2030739586, 5, 9000)
+     , (2030739586, 16, 1)
+     , (2030739586, 19, 125)
+     , (2030739586, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2030739586, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2030739586, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2030739586, 14, True);
+VALUES (2030739586, 12, True)
+     , (2030739586, 11, True)
+     , (2030739586, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2097656241, 2097176, 13175, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6674,28 +4250,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2097656241, 1, 'Riverbend Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2097656241, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2097656241, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2097656241, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2097656241, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2097656241, 93, 1048);
+VALUES (2097656241, 1, 128)
+     , (2097656241, 5, 9000)
+     , (2097656241, 16, 1)
+     , (2097656241, 19, 125)
+     , (2097656241, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2097656241, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2097656241, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2097656241, 14, True);
+VALUES (2097656241, 12, True)
+     , (2097656241, 11, True)
+     , (2097656241, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2031845755, 2097176, 14727, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6707,28 +4271,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2031845755, 1, 'Pine Hillock Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031845755, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031845755, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031845755, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031845755, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031845755, 93, 1048);
+VALUES (2031845755, 1, 128)
+     , (2031845755, 5, 9000)
+     , (2031845755, 16, 1)
+     , (2031845755, 19, 125)
+     , (2031845755, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2031845755, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2031845755, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2031845755, 14, True);
+VALUES (2031845755, 12, True)
+     , (2031845755, 11, True)
+     , (2031845755, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2031296987, 2097176, 19171, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6740,28 +4292,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2031296987, 1, 'Ebbing Tide Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031296987, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031296987, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031296987, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031296987, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2031296987, 93, 1048);
+VALUES (2031296987, 1, 128)
+     , (2031296987, 5, 9000)
+     , (2031296987, 16, 1)
+     , (2031296987, 19, 125)
+     , (2031296987, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2031296987, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2031296987, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2031296987, 14, True);
+VALUES (2031296987, 12, True)
+     , (2031296987, 11, True)
+     , (2031296987, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2060583291, 2097176, 14737, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6773,28 +4313,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2060583291, 1, 'Southern Park');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060583291, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060583291, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060583291, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060583291, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2060583291, 93, 1048);
+VALUES (2060583291, 1, 128)
+     , (2060583291, 5, 9000)
+     , (2060583291, 16, 1)
+     , (2060583291, 19, 125)
+     , (2060583291, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2060583291, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2060583291, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2060583291, 14, True);
+VALUES (2060583291, 12, True)
+     , (2060583291, 11, True)
+     , (2060583291, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2035737009, 2097176, 14733, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6806,28 +4334,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2035737009, 1, 'Sand Kings Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035737009, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035737009, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035737009, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035737009, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035737009, 93, 1048);
+VALUES (2035737009, 1, 128)
+     , (2035737009, 5, 9000)
+     , (2035737009, 16, 1)
+     , (2035737009, 19, 125)
+     , (2035737009, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2035737009, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2035737009, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2035737009, 14, True);
+VALUES (2035737009, 12, True)
+     , (2035737009, 11, True)
+     , (2035737009, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2032627843, 2097176, 12579, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6839,28 +4355,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2032627843, 1, 'Samsur Butte Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032627843, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032627843, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032627843, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032627843, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032627843, 93, 1048);
+VALUES (2032627843, 1, 128)
+     , (2032627843, 5, 9000)
+     , (2032627843, 16, 1)
+     , (2032627843, 19, 125)
+     , (2032627843, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2032627843, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2032627843, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2032627843, 14, True);
+VALUES (2032627843, 12, True)
+     , (2032627843, 11, True)
+     , (2032627843, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2066452664, 2097176, 13191, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6872,28 +4376,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2066452664, 1, 'West Holtburg Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066452664, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066452664, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066452664, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066452664, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066452664, 93, 1048);
+VALUES (2066452664, 1, 128)
+     , (2066452664, 5, 9000)
+     , (2066452664, 16, 1)
+     , (2066452664, 19, 125)
+     , (2066452664, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066452664, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066452664, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066452664, 14, True);
+VALUES (2066452664, 12, True)
+     , (2066452664, 11, True)
+     , (2066452664, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2066428075, 2097176, 12601, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6905,28 +4397,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2066428075, 1, 'Evensong Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066428075, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066428075, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066428075, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066428075, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2066428075, 93, 1048);
+VALUES (2066428075, 1, 128)
+     , (2066428075, 5, 9000)
+     , (2066428075, 16, 1)
+     , (2066428075, 19, 125)
+     , (2066428075, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066428075, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066428075, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2066428075, 14, True);
+VALUES (2066428075, 12, True)
+     , (2066428075, 11, True)
+     , (2066428075, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2082980273, 2097176, 12658, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6938,28 +4418,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2082980273, 1, 'South Lytelthorpe ');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082980273, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082980273, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082980273, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082980273, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2082980273, 93, 1048);
+VALUES (2082980273, 1, 128)
+     , (2082980273, 5, 9000)
+     , (2082980273, 16, 1)
+     , (2082980273, 19, 125)
+     , (2082980273, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2082980273, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2082980273, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2082980273, 14, True);
+VALUES (2082980273, 12, True)
+     , (2082980273, 11, True)
+     , (2082980273, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2088575409, 2097176, 15243, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -6971,28 +4439,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2088575409, 1, 'New Cannthalo');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088575409, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088575409, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088575409, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088575409, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2088575409, 93, 1048);
+VALUES (2088575409, 1, 128)
+     , (2088575409, 5, 9000)
+     , (2088575409, 16, 1)
+     , (2088575409, 19, 125)
+     , (2088575409, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2088575409, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2088575409, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2088575409, 14, True);
+VALUES (2088575409, 12, True)
+     , (2088575409, 11, True)
+     , (2088575409, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2075714014, 2097176, 13193, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7004,28 +4460,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2075714014, 1, 'West Rithwic Estates');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075714014, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075714014, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075714014, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075714014, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2075714014, 93, 1048);
+VALUES (2075714014, 1, 128)
+     , (2075714014, 5, 9000)
+     , (2075714014, 16, 1)
+     , (2075714014, 19, 125)
+     , (2075714014, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2075714014, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2075714014, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2075714014, 14, True);
+VALUES (2075714014, 12, True)
+     , (2075714014, 11, True)
+     , (2075714014, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2062352817, 2097176, 15693, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7037,28 +4481,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2062352817, 1, 'Baron''s Domain');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2062352817, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2062352817, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2062352817, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2062352817, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2062352817, 93, 1048);
+VALUES (2062352817, 1, 128)
+     , (2062352817, 5, 9000)
+     , (2062352817, 16, 1)
+     , (2062352817, 19, 125)
+     , (2062352817, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2062352817, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2062352817, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2062352817, 14, True);
+VALUES (2062352817, 12, True)
+     , (2062352817, 11, True)
+     , (2062352817, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2096480689, 2097176, 12598, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7070,28 +4502,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2096480689, 1, 'East Sawato Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2096480689, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2096480689, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2096480689, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2096480689, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2096480689, 93, 1048);
+VALUES (2096480689, 1, 128)
+     , (2096480689, 5, 9000)
+     , (2096480689, 16, 1)
+     , (2096480689, 19, 125)
+     , (2096480689, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2096480689, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2096480689, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2096480689, 14, True);
+VALUES (2096480689, 12, True)
+     , (2096480689, 11, True)
+     , (2096480689, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1955316145, 2097176, 14700, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7103,28 +4523,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1955316145, 1, 'Fadsahil Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1955316145, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1955316145, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1955316145, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1955316145, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1955316145, 93, 1048);
+VALUES (1955316145, 1, 128)
+     , (1955316145, 5, 9000)
+     , (1955316145, 16, 1)
+     , (1955316145, 19, 125)
+     , (1955316145, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1955316145, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1955316145, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1955316145, 14, True);
+VALUES (1955316145, 12, True)
+     , (1955316145, 11, True)
+     , (1955316145, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1958511025, 2097176, 14726, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7136,28 +4544,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1958511025, 1, 'Pine Deep');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1958511025, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1958511025, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1958511025, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1958511025, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1958511025, 93, 1048);
+VALUES (1958511025, 1, 128)
+     , (1958511025, 5, 9000)
+     , (1958511025, 16, 1)
+     , (1958511025, 19, 125)
+     , (1958511025, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1958511025, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1958511025, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1958511025, 14, True);
+VALUES (1958511025, 12, True)
+     , (1958511025, 11, True)
+     , (1958511025, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1995362521, 2097176, 13178, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7169,28 +4565,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1995362521, 1, 'Seaview Ridge Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1995362521, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1995362521, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1995362521, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1995362521, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1995362521, 93, 1048);
+VALUES (1995362521, 1, 128)
+     , (1995362521, 5, 9000)
+     , (1995362521, 16, 1)
+     , (1995362521, 19, 125)
+     , (1995362521, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1995362521, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1995362521, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1995362521, 14, True);
+VALUES (1995362521, 12, True)
+     , (1995362521, 11, True)
+     , (1995362521, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2050732210, 2097176, 12619, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7202,28 +4586,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2050732210, 1, 'Lilyglen Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2050732210, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2050732210, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2050732210, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2050732210, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2050732210, 93, 1048);
+VALUES (2050732210, 1, 128)
+     , (2050732210, 5, 9000)
+     , (2050732210, 16, 1)
+     , (2050732210, 19, 125)
+     , (2050732210, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2050732210, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2050732210, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2050732210, 14, True);
+VALUES (2050732210, 12, True)
+     , (2050732210, 11, True)
+     , (2050732210, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2039243023, 2097176, 12645, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7235,28 +4607,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2039243023, 1, 'Prosper River Headwaters');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2039243023, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2039243023, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2039243023, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2039243023, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2039243023, 93, 1048);
+VALUES (2039243023, 1, 128)
+     , (2039243023, 5, 9000)
+     , (2039243023, 16, 1)
+     , (2039243023, 19, 125)
+     , (2039243023, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2039243023, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2039243023, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2039243023, 14, True);
+VALUES (2039243023, 12, True)
+     , (2039243023, 11, True)
+     , (2039243023, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1952039388, 2097176, 15234, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7268,28 +4628,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1952039388, 1, 'Last-Stop-Before-Dires Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1952039388, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1952039388, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1952039388, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1952039388, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1952039388, 93, 1048);
+VALUES (1952039388, 1, 128)
+     , (1952039388, 5, 9000)
+     , (1952039388, 16, 1)
+     , (1952039388, 19, 125)
+     , (1952039388, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1952039388, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1952039388, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1952039388, 14, True);
+VALUES (1952039388, 12, True)
+     , (1952039388, 11, True)
+     , (1952039388, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1948950961, 2097176, 15255, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7301,28 +4649,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1948950961, 1, 'Sliver-of-BlueCottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1948950961, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1948950961, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1948950961, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1948950961, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1948950961, 93, 1048);
+VALUES (1948950961, 1, 128)
+     , (1948950961, 5, 9000)
+     , (1948950961, 16, 1)
+     , (1948950961, 19, 125)
+     , (1948950961, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1948950961, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1948950961, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1948950961, 14, True);
+VALUES (1948950961, 12, True)
+     , (1948950961, 11, True)
+     , (1948950961, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1965785521, 2097176, 15707, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7334,28 +4670,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1965785521, 1, 'Rytheran Dale');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1965785521, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1965785521, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1965785521, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1965785521, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1965785521, 93, 1048);
+VALUES (1965785521, 1, 128)
+     , (1965785521, 5, 9000)
+     , (1965785521, 16, 1)
+     , (1965785521, 19, 125)
+     , (1965785521, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1965785521, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1965785521, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1965785521, 14, True);
+VALUES (1965785521, 12, True)
+     , (1965785521, 11, True)
+     , (1965785521, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2092392798, 2097176, 15230, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7367,28 +4691,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2092392798, 1, 'Jin-Lai Stronghold');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092392798, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092392798, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092392798, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092392798, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2092392798, 93, 1048);
+VALUES (2092392798, 1, 128)
+     , (2092392798, 5, 9000)
+     , (2092392798, 16, 1)
+     , (2092392798, 19, 125)
+     , (2092392798, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092392798, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092392798, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2092392798, 14, True);
+VALUES (2092392798, 12, True)
+     , (2092392798, 11, True)
+     , (2092392798, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2032873632, 2097176, 13148, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7400,28 +4712,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2032873632, 1, 'Bucolic Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032873632, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032873632, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032873632, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032873632, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2032873632, 93, 1048);
+VALUES (2032873632, 1, 128)
+     , (2032873632, 5, 9000)
+     , (2032873632, 16, 1)
+     , (2032873632, 19, 125)
+     , (2032873632, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2032873632, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2032873632, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2032873632, 14, True);
+VALUES (2032873632, 12, True)
+     , (2032873632, 11, True)
+     , (2032873632, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2035847643, 2097176, 15221, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7433,28 +4733,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2035847643, 1, 'East Al-Jalima Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035847643, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035847643, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035847643, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035847643, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2035847643, 93, 1048);
+VALUES (2035847643, 1, 128)
+     , (2035847643, 5, 9000)
+     , (2035847643, 16, 1)
+     , (2035847643, 19, 125)
+     , (2035847643, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2035847643, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2035847643, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2035847643, 14, True);
+VALUES (2035847643, 12, True)
+     , (2035847643, 11, True)
+     , (2035847643, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2059719131, 2097176, 15708, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7466,28 +4754,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2059719131, 1, 'Shield of Ispar Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059719131, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059719131, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059719131, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059719131, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2059719131, 93, 1048);
+VALUES (2059719131, 1, 128)
+     , (2059719131, 5, 9000)
+     , (2059719131, 16, 1)
+     , (2059719131, 19, 125)
+     , (2059719131, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2059719131, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2059719131, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2059719131, 14, True);
+VALUES (2059719131, 12, True)
+     , (2059719131, 11, True)
+     , (2059719131, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2064912817, 2097176, 12642, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7499,28 +4775,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2064912817, 1, 'Oboro');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2064912817, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2064912817, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2064912817, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2064912817, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2064912817, 93, 1048);
+VALUES (2064912817, 1, 128)
+     , (2064912817, 5, 9000)
+     , (2064912817, 16, 1)
+     , (2064912817, 19, 125)
+     , (2064912817, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2064912817, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2064912817, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2064912817, 14, True);
+VALUES (2064912817, 12, True)
+     , (2064912817, 11, True)
+     , (2064912817, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1991061584, 2097176, 14710, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7532,28 +4796,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1991061584, 1, 'Laiti''s Villa');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1991061584, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1991061584, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1991061584, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1991061584, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1991061584, 93, 1048);
+VALUES (1991061584, 1, 128)
+     , (1991061584, 5, 9000)
+     , (1991061584, 16, 1)
+     , (1991061584, 19, 125)
+     , (1991061584, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1991061584, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1991061584, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1991061584, 14, True);
+VALUES (1991061584, 12, True)
+     , (1991061584, 11, True)
+     , (1991061584, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2011820465, 2097176, 15212, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7565,28 +4817,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2011820465, 1, 'Bright Blade Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2011820465, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2011820465, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2011820465, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2011820465, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2011820465, 93, 1048);
+VALUES (2011820465, 1, 128)
+     , (2011820465, 5, 9000)
+     , (2011820465, 16, 1)
+     , (2011820465, 19, 125)
+     , (2011820465, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2011820465, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2011820465, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2011820465, 14, True);
+VALUES (2011820465, 12, True)
+     , (2011820465, 11, True)
+     , (2011820465, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2007622107, 2097176, 15241, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7598,28 +4838,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2007622107, 1, 'Mimiana Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2007622107, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2007622107, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2007622107, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2007622107, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2007622107, 93, 1048);
+VALUES (2007622107, 1, 128)
+     , (2007622107, 5, 9000)
+     , (2007622107, 16, 1)
+     , (2007622107, 19, 125)
+     , (2007622107, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2007622107, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2007622107, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2007622107, 14, True);
+VALUES (2007622107, 12, True)
+     , (2007622107, 11, True)
+     , (2007622107, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1996009947, 2097176, 14718, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7631,28 +4859,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1996009947, 1, 'Loredane Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1996009947, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1996009947, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1996009947, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1996009947, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1996009947, 93, 1048);
+VALUES (1996009947, 1, 128)
+     , (1996009947, 5, 9000)
+     , (1996009947, 16, 1)
+     , (1996009947, 19, 125)
+     , (1996009947, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1996009947, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1996009947, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1996009947, 14, True);
+VALUES (1996009947, 12, True)
+     , (1996009947, 11, True)
+     , (1996009947, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2056880561, 2097176, 14736, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7664,28 +4880,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2056880561, 1, 'Solstice Hill');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2056880561, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2056880561, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2056880561, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2056880561, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2056880561, 93, 1048);
+VALUES (2056880561, 1, 128)
+     , (2056880561, 5, 9000)
+     , (2056880561, 16, 1)
+     , (2056880561, 19, 125)
+     , (2056880561, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2056880561, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2056880561, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2056880561, 14, True);
+VALUES (2056880561, 12, True)
+     , (2056880561, 11, True)
+     , (2056880561, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2087149966, 2097176, 13167, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7697,28 +4901,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2087149966, 1, 'Neu Gerz Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2087149966, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2087149966, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2087149966, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2087149966, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2087149966, 93, 1048);
+VALUES (2087149966, 1, 128)
+     , (2087149966, 5, 9000)
+     , (2087149966, 16, 1)
+     , (2087149966, 19, 125)
+     , (2087149966, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2087149966, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2087149966, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2087149966, 14, True);
+VALUES (2087149966, 12, True)
+     , (2087149966, 11, True)
+     , (2087149966, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2107441477, 2097176, 15690, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7730,28 +4922,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2107441477, 1, 'Arrowdale Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2107441477, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2107441477, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2107441477, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2107441477, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2107441477, 93, 1048);
+VALUES (2107441477, 1, 128)
+     , (2107441477, 5, 9000)
+     , (2107441477, 16, 1)
+     , (2107441477, 19, 125)
+     , (2107441477, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2107441477, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2107441477, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2107441477, 14, True);
+VALUES (2107441477, 12, True)
+     , (2107441477, 11, True)
+     , (2107441477, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2099036635, 2097176, 19172, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7763,28 +4943,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2099036635, 1, 'Explorer''s Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2099036635, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2099036635, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2099036635, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2099036635, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2099036635, 93, 1048);
+VALUES (2099036635, 1, 128)
+     , (2099036635, 5, 9000)
+     , (2099036635, 16, 1)
+     , (2099036635, 19, 125)
+     , (2099036635, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2099036635, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2099036635, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2099036635, 14, True);
+VALUES (2099036635, 12, True)
+     , (2099036635, 11, True)
+     , (2099036635, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2108895551, 2097176, 13192, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7796,28 +4964,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2108895551, 1, 'West Mayoi Mountain Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2108895551, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2108895551, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2108895551, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2108895551, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2108895551, 93, 1048);
+VALUES (2108895551, 1, 128)
+     , (2108895551, 5, 9000)
+     , (2108895551, 16, 1)
+     , (2108895551, 19, 125)
+     , (2108895551, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2108895551, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2108895551, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2108895551, 14, True);
+VALUES (2108895551, 12, True)
+     , (2108895551, 11, True)
+     , (2108895551, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1960575372, 2097176, 14729, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7829,28 +4985,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1960575372, 1, 'Rahvard Square');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1960575372, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1960575372, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1960575372, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1960575372, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1960575372, 93, 1048);
+VALUES (1960575372, 1, 128)
+     , (1960575372, 5, 9000)
+     , (1960575372, 16, 1)
+     , (1960575372, 19, 125)
+     , (1960575372, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1960575372, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1960575372, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1960575372, 14, True);
+VALUES (1960575372, 12, True)
+     , (1960575372, 11, True)
+     , (1960575372, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2047398363, 2097176, 15247, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7862,28 +5006,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2047398363, 1, 'Palm-of-Stone Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047398363, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047398363, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047398363, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047398363, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2047398363, 93, 1048);
+VALUES (2047398363, 1, 128)
+     , (2047398363, 5, 9000)
+     , (2047398363, 16, 1)
+     , (2047398363, 19, 125)
+     , (2047398363, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2047398363, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2047398363, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2047398363, 14, True);
+VALUES (2047398363, 12, True)
+     , (2047398363, 11, True)
+     , (2047398363, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1953124827, 2097176, 15702, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7895,28 +5027,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1953124827, 1, 'Hero''s Vale');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1953124827, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1953124827, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1953124827, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1953124827, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1953124827, 93, 1048);
+VALUES (1953124827, 1, 128)
+     , (1953124827, 5, 9000)
+     , (1953124827, 16, 1)
+     , (1953124827, 19, 125)
+     , (1953124827, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1953124827, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1953124827, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1953124827, 14, True);
+VALUES (1953124827, 12, True)
+     , (1953124827, 11, True)
+     , (1953124827, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1983578437, 2097176, 19180, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7928,28 +5048,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1983578437, 1, 'Majestic Saddle Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1983578437, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1983578437, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1983578437, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1983578437, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1983578437, 93, 1048);
+VALUES (1983578437, 1, 128)
+     , (1983578437, 5, 9000)
+     , (1983578437, 16, 1)
+     , (1983578437, 19, 125)
+     , (1983578437, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1983578437, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1983578437, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1983578437, 14, True);
+VALUES (1983578437, 12, True)
+     , (1983578437, 11, True)
+     , (1983578437, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2090979707, 2097176, 14337, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7961,28 +5069,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2090979707, 1, 'Xinh');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090979707, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090979707, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090979707, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090979707, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090979707, 93, 1048);
+VALUES (2090979707, 1, 128)
+     , (2090979707, 5, 9000)
+     , (2090979707, 16, 1)
+     , (2090979707, 19, 125)
+     , (2090979707, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2090979707, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2090979707, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2090979707, 14, True);
+VALUES (2090979707, 12, True)
+     , (2090979707, 11, True)
+     , (2090979707, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2081673566, 2097176, 14316, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -7994,28 +5090,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2081673566, 1, 'Mage''s Pass');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2081673566, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2081673566, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2081673566, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2081673566, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2081673566, 93, 1048);
+VALUES (2081673566, 1, 128)
+     , (2081673566, 5, 9000)
+     , (2081673566, 16, 1)
+     , (2081673566, 19, 125)
+     , (2081673566, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2081673566, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2081673566, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2081673566, 14, True);
+VALUES (2081673566, 12, True)
+     , (2081673566, 11, True)
+     , (2081673566, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2095411633, 2097176, 12648, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8027,28 +5111,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2095411633, 1, 'Sawato Foothills Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095411633, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095411633, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095411633, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095411633, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095411633, 93, 1048);
+VALUES (2095411633, 1, 128)
+     , (2095411633, 5, 9000)
+     , (2095411633, 16, 1)
+     , (2095411633, 19, 125)
+     , (2095411633, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095411633, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095411633, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095411633, 14, True);
+VALUES (2095411633, 12, True)
+     , (2095411633, 11, True)
+     , (2095411633, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2102595963, 2097176, 13158, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8060,28 +5132,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2102595963, 1, 'Font Alpa');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2102595963, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2102595963, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2102595963, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2102595963, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2102595963, 93, 1048);
+VALUES (2102595963, 1, 128)
+     , (2102595963, 5, 9000)
+     , (2102595963, 16, 1)
+     , (2102595963, 19, 125)
+     , (2102595963, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2102595963, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2102595963, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2102595963, 14, True);
+VALUES (2102595963, 12, True)
+     , (2102595963, 11, True)
+     , (2102595963, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2095481265, 2097176, 15265, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8093,28 +5153,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2095481265, 1, 'Village Quan');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095481265, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095481265, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095481265, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095481265, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095481265, 93, 1048);
+VALUES (2095481265, 1, 128)
+     , (2095481265, 5, 9000)
+     , (2095481265, 16, 1)
+     , (2095481265, 19, 125)
+     , (2095481265, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095481265, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095481265, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095481265, 14, True);
+VALUES (2095481265, 12, True)
+     , (2095481265, 11, True)
+     , (2095481265, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2095514033, 2097176, 12586, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8126,28 +5174,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2095514033, 1, 'Broadacre Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095514033, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095514033, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095514033, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095514033, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2095514033, 93, 1048);
+VALUES (2095514033, 1, 128)
+     , (2095514033, 5, 9000)
+     , (2095514033, 16, 1)
+     , (2095514033, 19, 125)
+     , (2095514033, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095514033, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095514033, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2095514033, 14, True);
+VALUES (2095514033, 12, True)
+     , (2095514033, 11, True)
+     , (2095514033, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2049393126, 2097176, 15219, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8159,28 +5195,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2049393126, 1, 'Drytree Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049393126, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049393126, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049393126, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049393126, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2049393126, 93, 1048);
+VALUES (2049393126, 1, 128)
+     , (2049393126, 5, 9000)
+     , (2049393126, 16, 1)
+     , (2049393126, 19, 125)
+     , (2049393126, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2049393126, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2049393126, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2049393126, 14, True);
+VALUES (2049393126, 12, True)
+     , (2049393126, 11, True)
+     , (2049393126, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2090098905, 2097176, 14313, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8192,28 +5216,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2090098905, 1, 'Jai-Tan Dale');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090098905, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090098905, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090098905, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090098905, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2090098905, 93, 1048);
+VALUES (2090098905, 1, 128)
+     , (2090098905, 5, 9000)
+     , (2090098905, 16, 1)
+     , (2090098905, 19, 125)
+     , (2090098905, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2090098905, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2090098905, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2090098905, 14, True);
+VALUES (2090098905, 12, True)
+     , (2090098905, 11, True)
+     , (2090098905, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2112331931, 2097176, 13153, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8225,28 +5237,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2112331931, 1, 'Dryreach Beach Manors');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2112331931, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2112331931, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2112331931, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2112331931, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2112331931, 93, 1048);
+VALUES (2112331931, 1, 128)
+     , (2112331931, 5, 9000)
+     , (2112331931, 16, 1)
+     , (2112331931, 19, 125)
+     , (2112331931, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2112331931, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2112331931, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2112331931, 14, True);
+VALUES (2112331931, 12, True)
+     , (2112331931, 11, True)
+     , (2112331931, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2128879935, 2097176, 13165, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8258,28 +5258,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2128879935, 1, 'Nan-Zari');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2128879935, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2128879935, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2128879935, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2128879935, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2128879935, 93, 1048);
+VALUES (2128879935, 1, 128)
+     , (2128879935, 5, 9000)
+     , (2128879935, 16, 1)
+     , (2128879935, 19, 125)
+     , (2128879935, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2128879935, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2128879935, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2128879935, 14, True);
+VALUES (2128879935, 12, True)
+     , (2128879935, 11, True)
+     , (2128879935, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1948008881, 2097176, 15213, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8291,28 +5279,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1948008881, 1, 'Caerlin Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1948008881, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1948008881, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1948008881, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1948008881, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1948008881, 93, 1048);
+VALUES (1948008881, 1, 128)
+     , (1948008881, 5, 9000)
+     , (1948008881, 16, 1)
+     , (1948008881, 19, 125)
+     , (1948008881, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1948008881, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1948008881, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1948008881, 14, True);
+VALUES (1948008881, 12, True)
+     , (1948008881, 11, True)
+     , (1948008881, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1944895921, 2097176, 14746, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8324,28 +5300,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1944895921, 1, 'Westshore Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1944895921, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1944895921, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1944895921, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1944895921, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1944895921, 93, 1048);
+VALUES (1944895921, 1, 128)
+     , (1944895921, 5, 9000)
+     , (1944895921, 16, 1)
+     , (1944895921, 19, 125)
+     , (1944895921, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1944895921, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1944895921, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1944895921, 14, True);
+VALUES (1944895921, 12, True)
+     , (1944895921, 11, True)
+     , (1944895921, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (1991827889, 2097176, 15254, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8357,28 +5321,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (1991827889, 1, 'Shore Vista Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1991827889, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1991827889, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1991827889, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1991827889, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1991827889, 93, 1048);
+VALUES (1991827889, 1, 128)
+     , (1991827889, 5, 9000)
+     , (1991827889, 16, 1)
+     , (1991827889, 19, 125)
+     , (1991827889, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1991827889, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1991827889, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1991827889, 14, True);
+VALUES (1991827889, 12, True)
+     , (1991827889, 11, True)
+     , (1991827889, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2001240389, 2097176, 14687, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8390,28 +5342,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2001240389, 1, 'Desert Boundary Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2001240389, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2001240389, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2001240389, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2001240389, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2001240389, 93, 1048);
+VALUES (2001240389, 1, 128)
+     , (2001240389, 5, 9000)
+     , (2001240389, 16, 1)
+     , (2001240389, 19, 125)
+     , (2001240389, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2001240389, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2001240389, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2001240389, 14, True);
+VALUES (2001240389, 12, True)
+     , (2001240389, 11, True)
+     , (2001240389, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2009530801, 2097176, 14680, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8423,28 +5363,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2009530801, 1, 'Al-Arqis Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2009530801, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2009530801, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2009530801, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2009530801, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2009530801, 93, 1048);
+VALUES (2009530801, 1, 128)
+     , (2009530801, 5, 9000)
+     , (2009530801, 16, 1)
+     , (2009530801, 19, 125)
+     , (2009530801, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2009530801, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2009530801, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2009530801, 14, True);
+VALUES (2009530801, 12, True)
+     , (2009530801, 11, True)
+     , (2009530801, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2009514303, 2097176, 13171, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8456,28 +5384,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2009514303, 1, 'North Yaraq Villas');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2009514303, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2009514303, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2009514303, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2009514303, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2009514303, 93, 1048);
+VALUES (2009514303, 1, 128)
+     , (2009514303, 5, 9000)
+     , (2009514303, 16, 1)
+     , (2009514303, 19, 125)
+     , (2009514303, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2009514303, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2009514303, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2009514303, 14, True);
+VALUES (2009514303, 12, True)
+     , (2009514303, 11, True)
+     , (2009514303, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2014699953, 2097176, 12661, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8489,28 +5405,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2014699953, 1, 'South Yaraq Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014699953, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014699953, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014699953, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014699953, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2014699953, 93, 1048);
+VALUES (2014699953, 1, 128)
+     , (2014699953, 5, 9000)
+     , (2014699953, 16, 1)
+     , (2014699953, 19, 125)
+     , (2014699953, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2014699953, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2014699953, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2014699953, 14, True);
+VALUES (2014699953, 12, True)
+     , (2014699953, 11, True)
+     , (2014699953, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2024047025, 2097176, 14322, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8522,28 +5426,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2024047025, 1, 'Pillars-on-the-Sea Cottages');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2024047025, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2024047025, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2024047025, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2024047025, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2024047025, 93, 1048);
+VALUES (2024047025, 1, 128)
+     , (2024047025, 5, 9000)
+     , (2024047025, 16, 1)
+     , (2024047025, 19, 125)
+     , (2024047025, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2024047025, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2024047025, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2024047025, 14, True);
+VALUES (2024047025, 12, True)
+     , (2024047025, 11, True)
+     , (2024047025, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2027827633, 2097176, 13160, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8555,28 +5447,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2027827633, 1, 'Greenvale Settlement');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2027827633, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2027827633, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2027827633, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2027827633, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2027827633, 93, 1048);
+VALUES (2027827633, 1, 128)
+     , (2027827633, 5, 9000)
+     , (2027827633, 16, 1)
+     , (2027827633, 19, 125)
+     , (2027827633, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2027827633, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2027827633, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2027827633, 14, True);
+VALUES (2027827633, 12, True)
+     , (2027827633, 11, True)
+     , (2027827633, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2067538353, 2097176, 14684, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8588,28 +5468,16 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2067538353, 1, 'Bleak Valley');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2067538353, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2067538353, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2067538353, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2067538353, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2067538353, 93, 1048);
+VALUES (2067538353, 1, 128)
+     , (2067538353, 5, 9000)
+     , (2067538353, 16, 1)
+     , (2067538353, 19, 125)
+     , (2067538353, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2067538353, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2067538353, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2067538353, 14, True);
+VALUES (2067538353, 12, True)
+     , (2067538353, 11, True)
+     , (2067538353, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (2105287089, 2097176, 19178, 20, 100668115, NULL, NULL, 33557463, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
@@ -8621,26 +5489,14 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (2105287089, 1, 'Jeweled Thorn Estates');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2105287089, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2105287089, 5, 9000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2105287089, 16, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2105287089, 19, 125);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2105287089, 93, 1048);
+VALUES (2105287089, 1, 128)
+     , (2105287089, 5, 9000)
+     , (2105287089, 16, 1)
+     , (2105287089, 19, 125)
+     , (2105287089, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2105287089, 12, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2105287089, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2105287089, 14, True);
+VALUES (2105287089, 12, True)
+     , (2105287089, 11, True)
+     , (2105287089, 14, True);
 

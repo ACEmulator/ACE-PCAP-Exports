@@ -8,37 +8,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (22449, 1, 'Plentiful Healing Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22449, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22449, 5, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22449, 91, 100);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22449, 92, 26);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22449, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22449, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22449, 19, 780);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22449, 93, 1044);
+VALUES (22449, 1, 128)
+     , (22449, 5, 50)
+     , (22449, 91, 100)
+     , (22449, 92, 26)
+     , (22449, 94, 16)
+     , (22449, 16, 2228232)
+     , (22449, 19, 780)
+     , (22449, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (22449, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (22449, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (22449, 14, True);
+VALUES (22449, 13, True)
+     , (22449, 11, True)
+     , (22449, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (22449, 0, 83889681, 83894377)
@@ -57,37 +39,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (629, 1, 'Adept Healing Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (629, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (629, 5, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (629, 91, 25);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (629, 92, 25);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (629, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (629, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (629, 19, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (629, 93, 1044);
+VALUES (629, 1, 128)
+     , (629, 5, 50)
+     , (629, 91, 25)
+     , (629, 92, 25)
+     , (629, 94, 16)
+     , (629, 16, 2228232)
+     , (629, 19, 50)
+     , (629, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (629, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (629, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (629, 14, True);
+VALUES (629, 13, True)
+     , (629, 11, True)
+     , (629, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (631, 'healingkitexcellent');
@@ -99,37 +63,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (631, 1, 'Excellent Healing Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (631, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (631, 5, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (631, 91, 35);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (631, 92, 35);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (631, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (631, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (631, 19, 500);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (631, 93, 1044);
+VALUES (631, 1, 128)
+     , (631, 5, 50)
+     , (631, 91, 35)
+     , (631, 92, 35)
+     , (631, 94, 16)
+     , (631, 16, 2228232)
+     , (631, 19, 500)
+     , (631, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (631, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (631, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (631, 14, True);
+VALUES (631, 13, True)
+     , (631, 11, True)
+     , (631, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (632, 'healingkitpeerless');
@@ -141,37 +87,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (632, 1, 'Peerless Healing Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (632, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (632, 5, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (632, 91, 40);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (632, 92, 40);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (632, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (632, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (632, 19, 1000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (632, 93, 1044);
+VALUES (632, 1, 128)
+     , (632, 5, 50)
+     , (632, 91, 40)
+     , (632, 92, 40)
+     , (632, 94, 16)
+     , (632, 16, 2228232)
+     , (632, 19, 1000)
+     , (632, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (632, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (632, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (632, 14, True);
+VALUES (632, 13, True)
+     , (632, 11, True)
+     , (632, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (630, 'healingkitgood');
@@ -183,37 +111,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (630, 1, 'Gifted Healing Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (630, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (630, 5, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (630, 91, 30);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (630, 92, 30);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (630, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (630, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (630, 19, 120);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (630, 93, 1044);
+VALUES (630, 1, 128)
+     , (630, 5, 50)
+     , (630, 91, 30)
+     , (630, 92, 30)
+     , (630, 94, 16)
+     , (630, 16, 2228232)
+     , (630, 19, 120)
+     , (630, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (630, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (630, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (630, 14, True);
+VALUES (630, 13, True)
+     , (630, 11, True)
+     , (630, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13233, 'healingkitacademy');
@@ -225,37 +135,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (13233, 1, 'Plain Healing Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13233, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13233, 5, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13233, 91, 20);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13233, 92, 20);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13233, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13233, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13233, 19, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13233, 93, 1044);
+VALUES (13233, 1, 128)
+     , (13233, 5, 50)
+     , (13233, 91, 20)
+     , (13233, 92, 20)
+     , (13233, 94, 16)
+     , (13233, 16, 2228232)
+     , (13233, 19, 50)
+     , (13233, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (13233, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (13233, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (13233, 14, True);
+VALUES (13233, 13, True)
+     , (13233, 11, True)
+     , (13233, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (628, 'healingkitcrude');
@@ -267,37 +159,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (628, 1, 'Handy Healing Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (628, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (628, 5, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (628, 91, 20);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (628, 92, 20);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (628, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (628, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (628, 19, 10);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (628, 93, 1044);
+VALUES (628, 1, 128)
+     , (628, 5, 50)
+     , (628, 91, 20)
+     , (628, 92, 20)
+     , (628, 94, 16)
+     , (628, 16, 2228232)
+     , (628, 19, 10)
+     , (628, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (628, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (628, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (628, 14, True);
+VALUES (628, 13, True)
+     , (628, 11, True)
+     , (628, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9229, 'healingkittreated');
@@ -309,37 +183,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (9229, 1, 'Treated Healing Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9229, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9229, 5, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9229, 91, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9229, 92, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9229, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9229, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9229, 19, 2000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9229, 93, 1044);
+VALUES (9229, 1, 128)
+     , (9229, 5, 50)
+     , (9229, 91, 50)
+     , (9229, 92, 50)
+     , (9229, 94, 16)
+     , (9229, 16, 2228232)
+     , (9229, 19, 2000)
+     , (9229, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (9229, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (9229, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (9229, 14, True);
+VALUES (9229, 13, True)
+     , (9229, 11, True)
+     , (9229, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44712, 'ace44712-greatermanakit');
@@ -351,37 +207,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (44712, 1, 'Greater Mana Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44712, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44712, 5, 200);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44712, 91, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44712, 92, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44712, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44712, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44712, 19, 3000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44712, 93, 1044);
+VALUES (44712, 1, 128)
+     , (44712, 5, 200)
+     , (44712, 91, 50)
+     , (44712, 92, 50)
+     , (44712, 94, 16)
+     , (44712, 16, 2228232)
+     , (44712, 19, 3000)
+     , (44712, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44712, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44712, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44712, 14, True);
+VALUES (44712, 13, True)
+     , (44712, 11, True)
+     , (44712, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (44712, 0, 83889681, 83894377)
@@ -400,37 +238,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (44714, 1, 'Greater Stamina Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44714, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44714, 5, 200);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44714, 91, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44714, 92, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44714, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44714, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44714, 19, 3000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44714, 93, 1044);
+VALUES (44714, 1, 128)
+     , (44714, 5, 200)
+     , (44714, 91, 50)
+     , (44714, 92, 50)
+     , (44714, 94, 16)
+     , (44714, 16, 2228232)
+     , (44714, 19, 3000)
+     , (44714, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44714, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44714, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44714, 14, True);
+VALUES (44714, 13, True)
+     , (44714, 11, True)
+     , (44714, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (44714, 0, 83889681, 83894377)
@@ -449,37 +269,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (27671, 1, 'Renegade Herbal Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27671, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27671, 5, 65);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27671, 91, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27671, 92, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27671, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27671, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27671, 19, 1000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27671, 93, 1044);
+VALUES (27671, 1, 128)
+     , (27671, 5, 65)
+     , (27671, 91, 50)
+     , (27671, 92, 50)
+     , (27671, 94, 16)
+     , (27671, 16, 2228232)
+     , (27671, 19, 1000)
+     , (27671, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27671, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27671, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27671, 14, True);
+VALUES (27671, 13, True)
+     , (27671, 11, True)
+     , (27671, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30251, 'healingkitrarevolatilemana');
@@ -491,37 +293,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (30251, 1, 'Medicated Mana Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30251, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30251, 5, 5);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30251, 151, 2);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30251, 91, 25);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30251, 92, 22);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30251, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30251, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30251, 93, 1044);
+VALUES (30251, 1, 128)
+     , (30251, 5, 5)
+     , (30251, 151, 2)
+     , (30251, 91, 25)
+     , (30251, 92, 22)
+     , (30251, 94, 16)
+     , (30251, 16, 2228232)
+     , (30251, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30251, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30251, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30251, 14, True);
+VALUES (30251, 13, True)
+     , (30251, 11, True)
+     , (30251, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30251, 0, 83889681, 83894377)
@@ -540,37 +324,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (43701, 1, 'Olthoi Fibrous Healing Tissue');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43701, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43701, 5, 5);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43701, 151, 2);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43701, 91, 100);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43701, 92, 99);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43701, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43701, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43701, 93, 1044);
+VALUES (43701, 1, 128)
+     , (43701, 5, 5)
+     , (43701, 151, 2)
+     , (43701, 91, 100)
+     , (43701, 92, 99)
+     , (43701, 94, 16)
+     , (43701, 16, 2228232)
+     , (43701, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (43701, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (43701, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (43701, 14, True);
+VALUES (43701, 13, True)
+     , (43701, 11, True)
+     , (43701, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43701, 0, 83889681, 83894377)
@@ -589,37 +355,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (44711, 1, 'Lesser Stamina Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44711, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44711, 5, 150);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44711, 91, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44711, 92, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44711, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44711, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44711, 19, 1000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44711, 93, 1044);
+VALUES (44711, 1, 128)
+     , (44711, 5, 150)
+     , (44711, 91, 50)
+     , (44711, 92, 50)
+     , (44711, 94, 16)
+     , (44711, 16, 2228232)
+     , (44711, 19, 1000)
+     , (44711, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44711, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44711, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44711, 14, True);
+VALUES (44711, 13, True)
+     , (44711, 11, True)
+     , (44711, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30252, 'healingkitrarevolatilestamina');
@@ -631,37 +379,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (30252, 1, 'Medicated Stamina Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30252, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30252, 5, 5);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30252, 151, 2);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30252, 91, 25);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30252, 92, 25);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30252, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30252, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30252, 93, 1044);
+VALUES (30252, 1, 128)
+     , (30252, 5, 5)
+     , (30252, 151, 2)
+     , (30252, 91, 25)
+     , (30252, 92, 25)
+     , (30252, 94, 16)
+     , (30252, 16, 2228232)
+     , (30252, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30252, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30252, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30252, 14, True);
+VALUES (30252, 13, True)
+     , (30252, 11, True)
+     , (30252, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30252, 0, 83889681, 83894377)
@@ -680,37 +410,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (44713, 1, 'Lesser Mana Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44713, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44713, 5, 150);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44713, 91, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44713, 92, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44713, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44713, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44713, 19, 1000);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44713, 93, 1044);
+VALUES (44713, 1, 128)
+     , (44713, 5, 150)
+     , (44713, 91, 50)
+     , (44713, 92, 50)
+     , (44713, 94, 16)
+     , (44713, 16, 2228232)
+     , (44713, 19, 1000)
+     , (44713, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44713, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44713, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44713, 14, True);
+VALUES (44713, 13, True)
+     , (44713, 11, True)
+     , (44713, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30250, 'healingkitrarevolatilehealth');
@@ -722,37 +434,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (30250, 1, 'Medicated Health Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30250, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30250, 5, 5);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30250, 151, 2);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30250, 91, 25);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30250, 92, 25);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30250, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30250, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30250, 93, 1044);
+VALUES (30250, 1, 128)
+     , (30250, 5, 5)
+     , (30250, 151, 2)
+     , (30250, 91, 25)
+     , (30250, 92, 25)
+     , (30250, 94, 16)
+     , (30250, 16, 2228232)
+     , (30250, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30250, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30250, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30250, 14, True);
+VALUES (30250, 13, True)
+     , (30250, 11, True)
+     , (30250, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30250, 0, 83889681, 83894377)
@@ -771,37 +465,19 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (43479, 1, 'Light Infused Healing Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43479, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43479, 5, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43479, 18, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43479, 91, 30);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43479, 92, 30);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43479, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43479, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43479, 93, 1044);
+VALUES (43479, 1, 128)
+     , (43479, 5, 50)
+     , (43479, 18, 1)
+     , (43479, 91, 30)
+     , (43479, 92, 30)
+     , (43479, 94, 16)
+     , (43479, 16, 2228232)
+     , (43479, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (43479, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (43479, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (43479, 14, True);
+VALUES (43479, 13, True)
+     , (43479, 11, True)
+     , (43479, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52737, 'ace52737-gauntlethealthkit');
@@ -813,40 +489,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (52737, 1, 'Gauntlet Health Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52737, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52737, 5, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52737, 18, 4);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52737, 91, 100);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52737, 92, 48);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52737, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52737, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52737, 19, 1);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52737, 93, 1044);
+VALUES (52737, 1, 128)
+     , (52737, 5, 50)
+     , (52737, 18, 4)
+     , (52737, 91, 100)
+     , (52737, 92, 48)
+     , (52737, 94, 16)
+     , (52737, 16, 2228232)
+     , (52737, 19, 1)
+     , (52737, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (52737, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (52737, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (52737, 14, True);
+VALUES (52737, 13, True)
+     , (52737, 11, True)
+     , (52737, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (52737, 0, 83889681, 83894377)
@@ -865,40 +521,20 @@ INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pro
 VALUES (52739, 1, 'Gauntlet Stamina Kit');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52739, 1, 128);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52739, 5, 50);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52739, 18, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52739, 91, 100);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52739, 92, 100);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52739, 94, 16);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52739, 16, 2228232);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52739, 19, 3);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52739, 93, 1044);
+VALUES (52739, 1, 128)
+     , (52739, 5, 50)
+     , (52739, 18, 16)
+     , (52739, 91, 100)
+     , (52739, 92, 100)
+     , (52739, 94, 16)
+     , (52739, 16, 2228232)
+     , (52739, 19, 3)
+     , (52739, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (52739, 13, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (52739, 11, True);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (52739, 14, True);
+VALUES (52739, 13, True)
+     , (52739, 11, True)
+     , (52739, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (52739, 0, 83889681, 83894377)
