@@ -40,6 +40,18 @@ VALUES (14913, 19, 1000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14913, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14913, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14913, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14913, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14913, 15, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31000, 'gemactdpurchaserewardarmor');
 
@@ -79,6 +91,15 @@ VALUES (31000, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31000, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31000, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31000, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31000, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9173, 'dollrewardursuin');
 
@@ -114,6 +135,15 @@ VALUES (9173, 39, 0.3);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9173, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9173, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9173, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9173, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9173, 67112945, 0, 0);
@@ -338,6 +368,18 @@ VALUES (22729, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22729, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22729, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22729, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22729, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22729, 15, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (22729, 76, 0.5);
 
@@ -351,7 +393,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (22729, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (49563, 'ace49563facilityhubportalgem');
+VALUES (49563, 'ace49563-facilityhubportalgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (49563, 6844560, 49563, 67108882, 100676422, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 399361, 5175, NULL, NULL);
@@ -392,6 +434,15 @@ VALUES (49563, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49563, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49563, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49563, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49563, 14, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (49563, 76, 0.5);
 
@@ -405,7 +456,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (49563, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42710, 'ace42710alignedmanastone');
+VALUES (42710, 'ace42710-alignedmanastone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42710, 553104, 42710, 67108882, 100676308, NULL, NULL, 33555641, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -440,8 +491,17 @@ VALUES (42710, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42710, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42710, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42710, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42710, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42645, 'ace42645aetheriamanastone');
+VALUES (42645, 'ace42645-aetheriamanastone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42645, 2650256, 42645, 18, 100690958, NULL, NULL, 33556407, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -473,6 +533,15 @@ VALUES (42645, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42645, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42645, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42645, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42645, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (42645, 0, 83889688, 83890391);
 
@@ -502,6 +571,15 @@ VALUES (22889, 19, 75);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22889, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22889, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22889, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22889, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7604, 'virindijewelyellow');
@@ -536,6 +614,15 @@ VALUES (7604, 19, 250);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7604, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7604, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7604, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7604, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (7604, 67111921, 0, 0);
 
@@ -546,7 +633,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (7604, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41470, 'ace41470purplejewel');
+VALUES (41470, 'ace41470-purplejewel');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41470, 2125848, 41470, 18, 100690747, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -577,6 +664,15 @@ VALUES (41470, 19, 250);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41470, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41470, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41470, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41470, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41470, 67112924, 0, 0);
@@ -635,6 +731,18 @@ VALUES (8982, 19, 1000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8982, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8982, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8982, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8982, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8982, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8982, 67111922, 0, 0);
 
@@ -645,7 +753,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (8982, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43020, 'ace43020townnetworkportalgem');
+VALUES (43020, 'ace43020-townnetworkportalgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43020, 275280024, 43020, 67108880, 100674858, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -692,6 +800,18 @@ VALUES (43020, 19, 5500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43020, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43020, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43020, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43020, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43020, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43020, 67111922, 0, 0);
 
@@ -702,7 +822,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43020, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36509, 'ace36509greatergemofknowledge');
+VALUES (36509, 'ace36509-greatergemofknowledge');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36509, 2125977, 36509, 16, 100689653, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -736,6 +856,15 @@ VALUES (36509, 20, 'Greater Gems of Knowledge');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36509, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36509, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36509, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36509, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6058, 'shardshadowshard');
@@ -773,6 +902,15 @@ VALUES (6058, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6058, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6058, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6058, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6058, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6058, 67111927, 0, 0);
 
@@ -783,7 +921,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (6058, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42636, 'ace42636aetheria');
+VALUES (42636, 'ace42636-aetheria');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42636, 1076080792, 42636, 18, 100690949, 100690999, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -824,6 +962,15 @@ VALUES (42636, 19, 10000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42636, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42636, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42636, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42636, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42636, 67111924, 0, 0);
 
@@ -834,7 +981,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (42636, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34276, 'ace34276ancientempyreantrinket');
+VALUES (34276, 'ace34276-ancientempyreantrinket');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34276, 2125848, 34276, 16, 100689281, NULL, NULL, 33554669, 536870932, NULL, NULL, 101, 872415275, 137345, NULL, NULL, NULL);
@@ -868,6 +1015,15 @@ VALUES (34276, 39, 0.4);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34276, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34276, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34276, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34276, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34276, 67111919, 0, 0);
@@ -917,6 +1073,15 @@ VALUES (30194, 20, 'Elysa''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30194, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30194, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30194, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30194, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30194, 0, 83890391, 83890391);
 
@@ -962,6 +1127,15 @@ VALUES (30245, 20, 'Hieromancer''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30245, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30245, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30245, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30245, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30245, 0, 83890391, 83890391);
 
@@ -969,7 +1143,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30245, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42635, 'ace42635aetheria');
+VALUES (42635, 'ace42635-aetheria');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42635, 1076080792, 42635, 18, 100690943, 100690999, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -1010,6 +1184,15 @@ VALUES (42635, 19, 10000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42635, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42635, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42635, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42635, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42635, 67111919, 0, 0);
 
@@ -1020,7 +1203,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (42635, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42637, 'ace42637aetheria');
+VALUES (42637, 'ace42637-aetheria');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42637, 1076080792, 42637, 18, 100690951, 100690997, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -1060,6 +1243,15 @@ VALUES (42637, 19, 10000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42637, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42637, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42637, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42637, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42637, 67111921, 0, 0);
@@ -1111,6 +1303,15 @@ VALUES (30225, 20, 'Imbuer''s Crystals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30225, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30225, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30225, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30225, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30225, 67111919, 0, 0);
@@ -1169,6 +1370,18 @@ VALUES (8978, 19, 500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8978, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8978, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8978, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8978, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8978, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8978, 67111922, 0, 0);
 
@@ -1210,6 +1423,15 @@ VALUES (2418, 19, 17);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2418, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2418, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2418, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2418, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2418, 0, 83890391, 83890391);
@@ -1255,6 +1477,15 @@ VALUES (2413, 19, 191);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2413, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2413, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2413, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2413, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2413, 67111920, 0, 0);
@@ -1304,6 +1535,15 @@ VALUES (2396, 19, 1370);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2396, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2396, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2396, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2396, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2396, 67111927, 0, 0);
 
@@ -1345,6 +1585,15 @@ VALUES (2425, 19, 786);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2425, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2425, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2425, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2425, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2425, 0, 83890391, 83890391);
@@ -1388,6 +1637,15 @@ VALUES (2405, 19, 1607);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2405, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2405, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2405, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2405, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2405, 67111922, 0, 0);
 
@@ -1398,7 +1656,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (2405, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43457, 'ace43457haebreantokenoftheauraofinvulnerability');
+VALUES (43457, 'ace43457-haebreantokenoftheauraofinvulnerability');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43457, 2097168, 43457, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -1418,6 +1676,15 @@ VALUES (43457, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43457, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43457, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43457, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43457, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43457, 0, 83893723, 83898330)
      , (43457, 0, 83890929, 83898331);
@@ -1426,7 +1693,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43457, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43455, 'ace43455haebreantokenoftheauraofhardening');
+VALUES (43455, 'ace43455-haebreantokenoftheauraofhardening');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43455, 2097168, 43455, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -1445,6 +1712,15 @@ VALUES (43455, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43455, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43455, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43455, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43455, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43455, 0, 83893723, 83898330)
@@ -1491,6 +1767,15 @@ VALUES (2420, 19, 930);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2420, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2420, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2420, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2420, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2420, 67111920, 0, 0);
@@ -1540,6 +1825,15 @@ VALUES (2433, 19, 1069);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2433, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2433, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2433, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2433, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2433, 67111922, 0, 0);
 
@@ -1584,6 +1878,15 @@ VALUES (2398, 19, 162);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2398, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2398, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2398, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2398, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2398, 67111923, 0, 0);
@@ -1630,6 +1933,15 @@ VALUES (2406, 19, 1622);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2406, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2406, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2406, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2406, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2406, 67111924, 0, 0);
 
@@ -1674,6 +1986,15 @@ VALUES (2407, 19, 1237);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2407, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2407, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2407, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2407, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2407, 67111924, 0, 0);
@@ -1720,6 +2041,15 @@ VALUES (2431, 19, 66);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2431, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2431, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2431, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2431, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2431, 67111920, 0, 0);
 
@@ -1765,6 +2095,15 @@ VALUES (2421, 19, 348);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2421, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2421, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2421, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2421, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2421, 67111918, 0, 0);
 
@@ -1775,7 +2114,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (2421, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33802, 'ace33802packgrael');
+VALUES (33802, 'ace33802-packgrael');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33802, 271056912, 33802, 18, 100689082, NULL, NULL, 33560062, NULL, 150995369, 'AAA9AAAAAAA=', NULL, 872415419, 102531, NULL, NULL, NULL);
@@ -1803,6 +2142,15 @@ VALUES (33802, 39, 0.6);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33802, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33802, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33802, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33802, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2399, 'gemwhitejade');
@@ -1842,6 +2190,15 @@ VALUES (2399, 19, 1237);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2399, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2399, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2399, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2399, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2399, 67111920, 0, 0);
@@ -1891,6 +2248,15 @@ VALUES (2395, 19, 1343);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2395, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2395, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2395, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2395, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2395, 67111923, 0, 0);
 
@@ -1938,6 +2304,15 @@ VALUES (2412, 19, 1715);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2412, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2412, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2412, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2412, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2412, 67111919, 0, 0);
@@ -1987,6 +2362,15 @@ VALUES (6059, 39, 1.2);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6059, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6059, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6059, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6059, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6059, 67111925, 0, 0);
 
@@ -2028,6 +2412,15 @@ VALUES (5084, 39, 0.5);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5084, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5084, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5084, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5084, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (5084, 67111926, 0, 0);
@@ -2077,6 +2470,15 @@ VALUES (2415, 19, 732);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2415, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2415, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2415, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2415, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2415, 67111919, 0, 0);
 
@@ -2122,6 +2524,15 @@ VALUES (2400, 19, 1366);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2400, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2400, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2400, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2400, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2400, 0, 83890391, 83890391);
 
@@ -2160,6 +2571,15 @@ VALUES (2428, 19, 58);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2428, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2428, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2428, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2428, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2428, 0, 83890391, 83890391);
@@ -2206,6 +2626,15 @@ VALUES (2417, 19, 613);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2417, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2417, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2417, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2417, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2417, 67111920, 0, 0);
 
@@ -2250,6 +2679,15 @@ VALUES (2402, 19, 500);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2402, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2402, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2402, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2402, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2402, 67111927, 0, 0);
@@ -2296,6 +2734,15 @@ VALUES (2408, 19, 500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2408, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2408, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2408, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2408, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2408, 67111920, 0, 0);
 
@@ -2340,6 +2787,15 @@ VALUES (2409, 19, 1000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2409, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2409, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2409, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2409, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2409, 67111920, 0, 0);
@@ -2389,6 +2845,15 @@ VALUES (2410, 19, 4955);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2410, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2410, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2410, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2410, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2410, 67111923, 0, 0);
 
@@ -2434,6 +2899,15 @@ VALUES (9511, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9511, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9511, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9511, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9511, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9511, 67116521, 0, 0);
 
@@ -2472,6 +2946,15 @@ VALUES (2411, 19, 3737);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2411, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2411, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2411, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2411, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2411, 67111924, 0, 0);
@@ -2517,6 +3000,15 @@ VALUES (2430, 19, 148);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2430, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2430, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2430, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2430, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2430, 67111927, 0, 0);
@@ -2566,6 +3058,15 @@ VALUES (2429, 19, 1224);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2429, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2429, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2429, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2429, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2429, 67111924, 0, 0);
 
@@ -2614,6 +3115,15 @@ VALUES (2393, 19, 1412);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2393, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2393, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2393, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2393, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2393, 67111922, 0, 0);
 
@@ -2655,6 +3165,15 @@ VALUES (2404, 19, 1380);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2404, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2404, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2404, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2404, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2404, 0, 83890391, 83890391);
@@ -2701,6 +3220,15 @@ VALUES (2424, 19, 1645);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2424, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2424, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2424, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2424, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2424, 67111923, 0, 0);
 
@@ -2745,6 +3273,15 @@ VALUES (2432, 19, 185);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2432, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2432, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2432, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2432, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2432, 67111927, 0, 0);
@@ -2794,6 +3331,15 @@ VALUES (2422, 19, 1669);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2422, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2422, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2422, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2422, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2422, 67111923, 0, 0);
 
@@ -2804,7 +3350,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (2422, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (52024, 'ace52024tokenofraredamagereductionv');
+VALUES (52024, 'ace52024-tokenofraredamagereductionv');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (52024, 2097168, 52024, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -2824,6 +3370,15 @@ VALUES (52024, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52024, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52024, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52024, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52024, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (52024, 0, 83893723, 83898330)
      , (52024, 0, 83890929, 83898331);
@@ -2832,7 +3387,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (52024, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (52022, 'ace52022tokenofrarearmordamageboostv');
+VALUES (52022, 'ace52022-tokenofrarearmordamageboostv');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (52022, 2097168, 52022, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -2852,6 +3407,15 @@ VALUES (52022, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52022, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52022, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52022, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52022, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (52022, 0, 83893723, 83898330)
      , (52022, 0, 83890929, 83898331);
@@ -2860,7 +3424,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (52022, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (49521, 'ace49521tokenoftheauraoftheworld');
+VALUES (49521, 'ace49521-tokenoftheauraoftheworld');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (49521, 2097168, 49521, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -2880,6 +3444,15 @@ VALUES (49521, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49521, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49521, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49521, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49521, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (49521, 0, 83893723, 83898330)
      , (49521, 0, 83890929, 83898331);
@@ -2888,7 +3461,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (49521, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44105, 'ace44105tokenoftheaugmentationgem');
+VALUES (44105, 'ace44105-tokenoftheaugmentationgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44105, 2097168, 44105, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -2908,6 +3481,15 @@ VALUES (44105, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44105, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44105, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44105, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44105, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (44105, 0, 83893723, 83898330)
      , (44105, 0, 83890929, 83898331);
@@ -2916,7 +3498,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (44105, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43471, 'ace43471tokenofthedraughtofrevitalization');
+VALUES (43471, 'ace43471-tokenofthedraughtofrevitalization');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43471, 2097168, 43471, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -2936,6 +3518,15 @@ VALUES (43471, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43471, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43471, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43471, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43471, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43471, 0, 83893723, 83898330)
      , (43471, 0, 83890929, 83898331);
@@ -2944,7 +3535,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43471, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43470, 'ace43470tokenofthelightinfusedhealingkit');
+VALUES (43470, 'ace43470-tokenofthelightinfusedhealingkit');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43470, 2097168, 43470, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -2964,6 +3555,15 @@ VALUES (43470, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43470, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43470, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43470, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43470, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43470, 0, 83893723, 83898330)
      , (43470, 0, 83890929, 83898331);
@@ -2972,7 +3572,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43470, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43469, 'ace43469tokenoftheluminouscrystalofvitality');
+VALUES (43469, 'ace43469-tokenoftheluminouscrystalofvitality');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43469, 2097168, 43469, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -2992,6 +3592,15 @@ VALUES (43469, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43469, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43469, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43469, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43469, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43469, 0, 83893723, 83898330)
      , (43469, 0, 83890929, 83898331);
@@ -3000,7 +3609,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43469, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43468, 'ace43468tokenoftheluminouspearlofspiritdrinker');
+VALUES (43468, 'ace43468-tokenoftheluminouspearlofspiritdrinker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43468, 2097168, 43468, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3020,6 +3629,15 @@ VALUES (43468, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43468, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43468, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43468, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43468, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43468, 0, 83893723, 83898330)
      , (43468, 0, 83890929, 83898331);
@@ -3028,7 +3646,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43468, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43466, 'ace43466tokenoftheluminouspearlofdefending');
+VALUES (43466, 'ace43466-tokenoftheluminouspearlofdefending');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43466, 2097168, 43466, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3048,6 +3666,15 @@ VALUES (43466, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43466, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43466, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43466, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43466, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43466, 0, 83893723, 83898330)
      , (43466, 0, 83890929, 83898331);
@@ -3056,7 +3683,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43466, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43467, 'ace43467tokenoftheluminouspearlofheartseeking');
+VALUES (43467, 'ace43467-tokenoftheluminouspearlofheartseeking');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43467, 2097168, 43467, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3076,6 +3703,15 @@ VALUES (43467, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43467, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43467, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43467, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43467, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43467, 0, 83893723, 83898330)
      , (43467, 0, 83890929, 83898331);
@@ -3084,7 +3720,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43467, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43463, 'ace43463tokenoftheluminouspearlofblooddrinking');
+VALUES (43463, 'ace43463-tokenoftheluminouspearlofblooddrinking');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43463, 2097168, 43463, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3104,6 +3740,15 @@ VALUES (43463, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43463, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43463, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43463, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43463, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43463, 0, 83893723, 83898330)
      , (43463, 0, 83890929, 83898331);
@@ -3112,7 +3757,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43463, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43465, 'ace43465tokenoftheluminouscrystaloftoweringdefense');
+VALUES (43465, 'ace43465-tokenoftheluminouscrystaloftoweringdefense');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43465, 2097168, 43465, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3132,6 +3777,15 @@ VALUES (43465, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43465, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43465, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43465, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43465, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43465, 0, 83893723, 83898330)
      , (43465, 0, 83890929, 83898331);
@@ -3140,7 +3794,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43465, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43464, 'ace43464tokenoftheluminouscrystalofsurgingstrength');
+VALUES (43464, 'ace43464-tokenoftheluminouscrystalofsurgingstrength');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43464, 2097168, 43464, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3160,6 +3814,15 @@ VALUES (43464, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43464, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43464, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43464, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43464, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43464, 0, 83893723, 83898330)
      , (43464, 0, 83890929, 83898331);
@@ -3168,7 +3831,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43464, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43462, 'ace43462tokenofskill');
+VALUES (43462, 'ace43462-tokenofskill');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43462, 2097168, 43462, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3188,6 +3851,15 @@ VALUES (43462, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43462, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43462, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43462, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43462, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43462, 0, 83893723, 83898330)
      , (43462, 0, 83890929, 83898331);
@@ -3196,7 +3868,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43462, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43509, 'ace43509tokenoftheauraofthecraftsman');
+VALUES (43509, 'ace43509-tokenoftheauraofthecraftsman');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43509, 2097168, 43509, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3216,6 +3888,15 @@ VALUES (43509, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43509, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43509, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43509, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43509, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43509, 0, 83893723, 83898330)
      , (43509, 0, 83890929, 83898331);
@@ -3224,7 +3905,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43509, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43502, 'ace43502tokenoftheauraofmanainfusion');
+VALUES (43502, 'ace43502-tokenoftheauraofmanainfusion');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43502, 2097168, 43502, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3244,6 +3925,15 @@ VALUES (43502, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43502, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43502, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43502, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43502, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43502, 0, 83893723, 83898330)
      , (43502, 0, 83890929, 83898331);
@@ -3252,7 +3942,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43502, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43507, 'ace43507tokenoftheauraofpurity');
+VALUES (43507, 'ace43507-tokenoftheauraofpurity');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43507, 2097168, 43507, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3272,6 +3962,15 @@ VALUES (43507, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43507, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43507, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43507, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43507, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43507, 0, 83893723, 83898330)
      , (43507, 0, 83890929, 83898331);
@@ -3280,7 +3979,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43507, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43500, 'ace43500tokenoftheauraofvalor');
+VALUES (43500, 'ace43500-tokenoftheauraofvalor');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43500, 2097168, 43500, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3300,6 +3999,15 @@ VALUES (43500, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43500, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43500, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43500, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43500, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43500, 0, 83893723, 83898330)
      , (43500, 0, 83890929, 83898331);
@@ -3308,7 +4016,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43500, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43501, 'ace43501tokenoftheauraofprotection');
+VALUES (43501, 'ace43501-tokenoftheauraofprotection');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43501, 2097168, 43501, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3328,6 +4036,15 @@ VALUES (43501, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43501, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43501, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43501, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43501, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43501, 0, 83893723, 83898330)
      , (43501, 0, 83890929, 83898331);
@@ -3336,7 +4053,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43501, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43503, 'ace43503tokenoftheauraofmanaflow');
+VALUES (43503, 'ace43503-tokenoftheauraofmanaflow');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43503, 2097168, 43503, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3356,6 +4073,15 @@ VALUES (43503, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43503, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43503, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43503, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43503, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43503, 0, 83893723, 83898330)
      , (43503, 0, 83890929, 83898331);
@@ -3364,7 +4090,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43503, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43499, 'ace43499tokenoftheauraoftemperance');
+VALUES (43499, 'ace43499-tokenoftheauraoftemperance');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43499, 2097168, 43499, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3384,6 +4110,15 @@ VALUES (43499, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43499, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43499, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43499, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43499, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43499, 0, 83893723, 83898330)
      , (43499, 0, 83890929, 83898331);
@@ -3392,7 +4127,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43499, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43498, 'ace43498tokenoftheauraofglory');
+VALUES (43498, 'ace43498-tokenoftheauraofglory');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43498, 2097168, 43498, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3412,6 +4147,15 @@ VALUES (43498, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43498, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43498, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43498, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43498, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43498, 0, 83893723, 83898330)
      , (43498, 0, 83890929, 83898331);
@@ -3420,7 +4164,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43498, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43496, 'ace43496tokenoftheauraofaethericvision');
+VALUES (43496, 'ace43496-tokenoftheauraofaethericvision');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43496, 2097168, 43496, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3439,6 +4183,15 @@ VALUES (43496, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43496, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43496, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43496, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43496, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43496, 0, 83893723, 83898330)
@@ -3486,6 +4239,15 @@ VALUES (2403, 19, 2095);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2403, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2403, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2403, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2403, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2403, 67111924, 0, 0);
 
@@ -3531,6 +4293,15 @@ VALUES (2426, 19, 611);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2426, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2426, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2426, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2426, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2426, 0, 83890391, 83890391);
 
@@ -3573,6 +4344,15 @@ VALUES (2414, 19, 10);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2414, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2414, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2414, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2414, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2414, 67111926, 0, 0);
 
@@ -3583,7 +4363,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (2414, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43447, 'ace43447lightfalatacottokenoftheauraofinvulnerability');
+VALUES (43447, 'ace43447-lightfalatacottokenoftheauraofinvulnerability');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43447, 2097168, 43447, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3603,6 +4383,15 @@ VALUES (43447, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43447, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43447, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43447, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43447, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43447, 0, 83893723, 83898330)
      , (43447, 0, 83890929, 83898331);
@@ -3611,7 +4400,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43447, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43523, 'ace43523lightfalatacottokenoftheauraofspecializationmastery');
+VALUES (43523, 'ace43523-lightfalatacottokenoftheauraofspecializationmastery');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43523, 2097168, 43523, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -3630,6 +4419,15 @@ VALUES (43523, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43523, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43523, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43523, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43523, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43523, 0, 83893723, 83898330)
@@ -3664,6 +4462,15 @@ VALUES (12709, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (12709, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12709, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12709, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12709, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (12709, 0, 83893723, 83893850)
@@ -3707,6 +4514,15 @@ VALUES (2394, 19, 319);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2394, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2394, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2394, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2394, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2394, 67111927, 0, 0);
@@ -3753,6 +4569,15 @@ VALUES (2427, 19, 96);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2427, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2427, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2427, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2427, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2427, 67111923, 0, 0);
 
@@ -3763,7 +4588,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (2427, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33959, 'ace33959crystaloffieryelementalessence');
+VALUES (33959, 'ace33959-crystaloffieryelementalessence');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33959, 2637840, 33959, 18, 100670496, NULL, NULL, 33556407, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -3789,6 +4614,15 @@ VALUES (33959, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33959, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33959, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33959, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33959, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33959, 67111924, 0, 0);
 
@@ -3799,7 +4633,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (33959, 0, 16783974);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34277, 'ace34277ancientfalatacottrinket');
+VALUES (34277, 'ace34277-ancientfalatacottrinket');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34277, 2125848, 34277, 16, 100689282, NULL, NULL, 33554669, 536870932, NULL, NULL, 101, 872415275, 137345, NULL, NULL, NULL);
@@ -3833,6 +4667,15 @@ VALUES (34277, 39, 0.4);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34277, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34277, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34277, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34277, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34277, 67111923, 0, 0);
@@ -3879,6 +4722,15 @@ VALUES (2416, 19, 25);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2416, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2416, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2416, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2416, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2416, 67111923, 0, 0);
 
@@ -3889,7 +4741,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (2416, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44146, 'ace44146contractforfrozenfury');
+VALUES (44146, 'ace44146-contractforfrozenfury');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44146, 553112, 44146, 67108882, 100691929, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -3926,6 +4778,15 @@ VALUES (44146, 19, 100);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44146, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44146, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44146, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44146, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2419, 'gemturquoise');
@@ -3965,6 +4826,15 @@ VALUES (2419, 19, 1004);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2419, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2419, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2419, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2419, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2419, 67111918, 0, 0);
@@ -4007,6 +4877,15 @@ VALUES (3698, 19, 250);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3698, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3698, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3698, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3698, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3698, 67111920, 0, 0);
@@ -4056,6 +4935,15 @@ VALUES (2397, 19, 1292);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2397, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2397, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2397, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2397, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2397, 67111924, 0, 0);
 
@@ -4088,6 +4976,15 @@ VALUES (24128, 19, 75);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24128, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24128, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24128, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24128, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9171, 'dollrewardmosswart');
@@ -4124,6 +5021,15 @@ VALUES (9171, 39, 0.3);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9171, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9171, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9171, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9171, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9171, 67111360, 0, 0);
@@ -4304,6 +5210,15 @@ VALUES (9176, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9176, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9176, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9176, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9176, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9176, 67112938, 0, 0);
 
@@ -4455,6 +5370,15 @@ VALUES (9172, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9172, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9172, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9172, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9172, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9172, 67112815, 0, 0);
 
@@ -4537,6 +5461,15 @@ VALUES (9177, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9177, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9177, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9177, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9177, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9177, 67112976, 0, 0);
 
@@ -4609,6 +5542,15 @@ VALUES (9179, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9179, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9179, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9179, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9179, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9175, 'dollrewardcow');
 
@@ -4644,6 +5586,15 @@ VALUES (9175, 39, 0.3);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9175, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9175, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9175, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9175, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9175, 67111590, 0, 0);
@@ -4742,6 +5693,15 @@ VALUES (9170, 39, 0.3);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9170, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9170, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9170, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9170, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9170, 67111334, 0, 0);
@@ -4961,6 +5921,15 @@ VALUES (9174, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9174, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9174, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9174, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9174, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9174, 67111328, 0, 0);
 
@@ -5125,6 +6094,15 @@ VALUES (9178, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9178, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9178, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9178, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9178, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9178, 67111816, 0, 0);
 
@@ -5258,6 +6236,18 @@ VALUES (9180, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9180, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9180, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9180, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9180, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9180, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9180, 67113069, 0, 0);
 
@@ -5329,7 +6319,7 @@ VALUES (9180, 0, 16785366)
      , (9180, 6, 16777708);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32939, 'ace32939darkmonolithcaverns');
+VALUES (32939, 'ace32939-darkmonolithcaverns');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32939, 1349021720, 32939, 67108882, 100668364, 100676404, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -5372,6 +6362,18 @@ VALUES (32939, 19, 500);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32939, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32939, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32939, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32939, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32939, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32939, 67111924, 0, 0);
@@ -5421,6 +6423,15 @@ VALUES (30199, 20, 'Oswald''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30199, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30199, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30199, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30199, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30199, 0, 83890391, 83890391);
 
@@ -5462,6 +6473,15 @@ VALUES (9169, 39, 0.3);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9169, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9169, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9169, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9169, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9169, 67113012, 0, 0);
@@ -5517,7 +6537,7 @@ VALUES (9169, 0, 16785059)
      , (9169, 24, 16785103);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32206, 'ace32206packpumpkinlord');
+VALUES (32206, 'ace32206-packpumpkinlord');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32206, 271073304, 32206, 18, 100688456, NULL, NULL, 33559753, NULL, 150995144, 'AAA9AAAAAAA=', NULL, 872415326, 69763, NULL, NULL, NULL);
@@ -5549,8 +6569,17 @@ VALUES (32206, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32206, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32206, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32206, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32206, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (37515, 'ace37515packaerbax');
+VALUES (37515, 'ace37515-packaerbax');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (37515, 271073296, 37515, 18, 100689881, NULL, NULL, 33560565, NULL, 150995435, 'AAA9AAAAAAA=', NULL, 872415273, 69763, NULL, NULL, NULL);
@@ -5578,6 +6607,15 @@ VALUES (37515, 39, 0.3);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37515, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37515, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37515, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37515, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30268, 'gemportalsanamar');
@@ -5626,6 +6664,18 @@ VALUES (30268, 19, 500);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30268, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30268, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30268, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30268, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30268, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30268, 67111922, 0, 0);
@@ -5684,6 +6734,18 @@ VALUES (8979, 19, 1500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8979, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8979, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8979, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8979, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8979, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8979, 67111922, 0, 0);
 
@@ -5735,6 +6797,15 @@ VALUES (30183, 20, 'Alchemist''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30183, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30183, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30183, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30183, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30183, 67111919, 0, 0);
 
@@ -5782,6 +6853,15 @@ VALUES (2423, 19, 2130);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2423, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2423, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2423, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2423, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2423, 67111918, 0, 0);
@@ -5831,6 +6911,15 @@ VALUES (6060, 39, 0.8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6060, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6060, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6060, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6060, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6060, 67111925, 0, 0);
 
@@ -5876,6 +6965,15 @@ VALUES (2401, 19, 858);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2401, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2401, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2401, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2401, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2401, 0, 83890391, 83890391);
 
@@ -5883,7 +6981,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (2401, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (35890, 'ace35890paradoxtouchedolthoiweapontoken');
+VALUES (35890, 'ace35890-paradoxtouchedolthoiweapontoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (35890, 2125840, 35890, 18, 100674709, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -5908,6 +7006,15 @@ VALUES (35890, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35890, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35890, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35890, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35890, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (35890, 0, 83893723, 83893850)
@@ -5952,6 +7059,15 @@ VALUES (8778, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8778, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8778, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8778, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8778, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8778, 67111927, 0, 0);
 
@@ -5991,6 +7107,15 @@ VALUES (10804, 39, 0.2);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (10804, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10804, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10804, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10804, 14, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (10804, 76, 0.25);
 
@@ -6029,6 +7154,15 @@ VALUES (8779, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8779, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8779, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8779, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8779, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8779, 67112925, 0, 0);
@@ -6075,6 +7209,15 @@ VALUES (8780, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8780, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8780, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8780, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8780, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8780, 67112925, 0, 0);
 
@@ -6116,6 +7259,15 @@ VALUES (8781, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8781, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8781, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8781, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8781, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8781, 67111927, 0, 0);
@@ -6168,6 +7320,18 @@ VALUES (8782, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8782, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8782, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8782, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8782, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8782, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8782, 67111922, 0, 0);
 
@@ -6178,7 +7342,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (8782, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36188, 'ace36188gemofharbingerslightningbarrier');
+VALUES (36188, 'ace36188-gemofharbingerslightningbarrier');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36188, 6844569, 36188, 16, 100673905, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 4192, NULL, NULL);
@@ -6218,6 +7382,15 @@ VALUES (36188, 20, 'Gems of Harbinger''s Lightning Barrier');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36188, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36188, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36188, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36188, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36188, 67112926, 0, 0);
@@ -6270,6 +7443,18 @@ VALUES (14915, 19, 10000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14915, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14915, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14915, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14915, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14915, 15, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14914, 'gemportalwedding2');
 
@@ -6312,6 +7497,18 @@ VALUES (14914, 19, 5000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14914, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14914, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14914, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14914, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14914, 15, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21391, 'gemportalcitadel');
 
@@ -6348,6 +7545,18 @@ VALUES (21391, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (21391, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21391, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21391, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21391, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21391, 15, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (21391, 76, 0.5);
 
@@ -6361,7 +7570,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (21391, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42707, 'ace42707sliceofroyalweddingcake');
+VALUES (42707, 'ace42707-sliceofroyalweddingcake');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42707, 6844441, 42707, 16, 100672705, NULL, NULL, 33555193, 536870932, NULL, NULL, 101, 872415275, 137217, 3204, NULL, NULL);
@@ -6396,6 +7605,15 @@ VALUES (42707, 20, 'Slices of Royal Wedding Cake');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42707, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42707, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42707, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42707, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (42707, 0, 83888869, 83888869)
      , (42707, 0, 83888868, 83893926);
@@ -6404,7 +7622,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (42707, 0, 16778864);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51370, 'ace51370frozenfortresstestinggroundsattunementshardlevel180');
+VALUES (51370, 'ace51370-frozenfortresstestinggroundsattunementshardlevel180');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51370, 536592, 51370, 67108882, 100691499, NULL, NULL, 33561167, 536870932, NULL, NULL, NULL, 872415275, 38913, NULL, NULL, NULL);
@@ -6436,8 +7654,17 @@ VALUES (51370, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51370, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51370, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51370, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51370, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51341, 'ace51341frozenfortresslaboratoryattunementshardlevel180');
+VALUES (51341, 'ace51341-frozenfortresslaboratoryattunementshardlevel180');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51341, 536592, 51341, 67108882, 100691499, NULL, NULL, 33561167, 536870932, NULL, NULL, NULL, 872415275, 38913, NULL, NULL, NULL);
@@ -6469,8 +7696,17 @@ VALUES (51341, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51341, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51341, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51341, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51341, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36510, 'ace36510gemofknowledge');
+VALUES (36510, 'ace36510-gemofknowledge');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36510, 2125849, 36510, 16, 100689653, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -6502,8 +7738,17 @@ VALUES (36510, 20, 'Gems of Knowledge');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36510, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36510, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36510, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36510, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39369, 'ace39369packtthuun');
+VALUES (39369, 'ace39369-packtthuun');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (39369, 271056912, 39369, 18, 100671186, NULL, NULL, 33560662, 536871015, 150995444, 'AAA9AAAAAAA=', NULL, 872415332, 104579, NULL, NULL, NULL);
@@ -6531,6 +7776,15 @@ VALUES (39369, 39, 0.25);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (39369, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39369, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39369, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39369, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25534, 'monougatremendouspackdoll');
@@ -6565,11 +7819,20 @@ VALUES (25534, 19, 5000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (25534, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25534, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25534, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25534, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25534, 67111953, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34407, 'ace34407abominablepacksnowman');
+VALUES (34407, 'ace34407-abominablepacksnowman');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34407, 271056920, 34407, 18, 100689297, NULL, NULL, 33559810, NULL, 150995354, 'AAA9AAAAAAA=', NULL, 872415346, 102531, NULL, NULL, NULL);
@@ -6600,6 +7863,15 @@ VALUES (34407, 39, 0.4);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34407, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34407, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34407, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34407, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8980, 'gemportalsamsur');
@@ -6648,6 +7920,18 @@ VALUES (8980, 19, 1000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8980, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8980, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8980, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8980, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8980, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8980, 67111922, 0, 0);
@@ -6706,6 +7990,18 @@ VALUES (26639, 19, 1000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (26639, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (26639, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (26639, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (26639, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (26639, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (26639, 67111918, 0, 0);
 
@@ -6750,6 +8046,15 @@ VALUES (7469, 19, 5000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7469, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7469, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7469, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7469, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (7469, 67111927, 0, 0);
@@ -6808,6 +8113,18 @@ VALUES (8974, 19, 1000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8974, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8974, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8974, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8974, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8974, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8974, 67111922, 0, 0);
 
@@ -6852,6 +8169,15 @@ VALUES (6623, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6623, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6623, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6623, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6623, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6623, 67111921, 0, 0);
@@ -6901,6 +8227,15 @@ VALUES (6056, 39, 1.2);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6056, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6056, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6056, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6056, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6056, 67111921, 0, 0);
 
@@ -6945,6 +8280,15 @@ VALUES (6624, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6624, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6624, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6624, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6624, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6624, 67111927, 0, 0);
@@ -6997,6 +8341,15 @@ VALUES (30184, 20, 'Scholar''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30184, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30184, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30184, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30184, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30184, 67111919, 0, 0);
 
@@ -7007,7 +8360,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30184, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43407, 'ace43407corruptorscrystal');
+VALUES (43407, 'ace43407-corruptorscrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43407, 1349005457, 43407, 335544336, 100686697, 100691567, 100686604, 33554809, 536870932, NULL, NULL, 101, 872415275, 169985, 5436, NULL, NULL);
@@ -7045,6 +8398,15 @@ VALUES (43407, 20, 'Corruptor''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43407, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43407, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43407, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43407, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43407, 0, 83890391, 83890391);
 
@@ -7052,7 +8414,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43407, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41540, 'ace41540aetheriumore');
+VALUES (41540, 'ace41540-aetheriumore');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41540, 2109456, 41540, 16, 100690568, NULL, NULL, 33560863, 536870932, NULL, NULL, NULL, 872415275, 38913, NULL, NULL, NULL);
@@ -7078,8 +8440,17 @@ VALUES (41540, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41540, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41540, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41540, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41540, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43207, 'ace43207sparklingapostateshard');
+VALUES (43207, 'ace43207-sparklingapostateshard');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43207, 553104, 43207, 67108882, 100691482, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -7114,6 +8485,15 @@ VALUES (43207, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43207, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43207, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43207, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43207, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43207, 67111922, 0, 0);
 
@@ -7124,7 +8504,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43207, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43208, 'ace43208scintillatingapostateshard');
+VALUES (43208, 'ace43208-scintillatingapostateshard');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43208, 553104, 43208, 67108882, 100691482, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -7159,6 +8539,15 @@ VALUES (43208, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43208, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43208, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43208, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43208, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43208, 67111922, 0, 0);
 
@@ -7169,7 +8558,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43208, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43209, 'ace43209shimmeringapostateshard');
+VALUES (43209, 'ace43209-shimmeringapostateshard');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43209, 553104, 43209, 67108882, 100691482, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -7203,6 +8592,15 @@ VALUES (43209, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43209, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43209, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43209, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43209, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43209, 67111922, 0, 0);
@@ -7246,6 +8644,15 @@ VALUES (3696, 19, 200);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3696, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3696, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3696, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3696, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3696, 67111926, 0, 0);
 
@@ -7256,7 +8663,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (3696, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34406, 'ace34406packscold');
+VALUES (34406, 'ace34406-packscold');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34406, 271056920, 34406, 18, 100689296, NULL, NULL, 33560157, NULL, 150995144, 'AAA9AAAAAAA=', NULL, 872415326, 102531, NULL, NULL, NULL);
@@ -7288,8 +8695,17 @@ VALUES (34406, 39, 0.4);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34406, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34406, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34406, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34406, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32126, 'ace32126vissidalislandportalgem');
+VALUES (32126, 'ace32126-vissidalislandportalgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32126, 275280024, 32126, 67108880, 100674857, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -7335,6 +8751,18 @@ VALUES (32126, 19, 5000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32126, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32126, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32126, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32126, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32126, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32126, 67111922, 0, 0);
@@ -7384,6 +8812,15 @@ VALUES (30189, 20, 'Thorsten''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30189, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30189, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30189, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30189, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30189, 0, 83890391, 83890391);
 
@@ -7429,6 +8866,15 @@ VALUES (30221, 20, 'Thief''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30221, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30221, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30221, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30221, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30221, 0, 83890391, 83890391);
 
@@ -7436,7 +8882,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30221, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51462, 'ace51462clubofsurprisingcunning');
+VALUES (51462, 'ace51462-clubofsurprisingcunning');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51462, 1344827416, 51462, 18, 100689868, 100667895, NULL, 33560551, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -7470,6 +8916,15 @@ VALUES (51462, 19, 653);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51462, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51462, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51462, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51462, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30240, 'gemrarevolatilestrength');
@@ -7512,6 +8967,15 @@ VALUES (30240, 20, 'Lugian''s Pearls');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30240, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30240, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30240, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30240, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30240, 67111924, 0, 0);
@@ -7560,6 +9024,18 @@ VALUES (22824, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22824, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22824, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22824, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22824, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22824, 15, True);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (22824, 76, 0.5);
@@ -7615,6 +9091,15 @@ VALUES (30211, 20, 'Pearls of Heart Seeking');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30211, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30211, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30211, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30211, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30211, 67111924, 0, 0);
 
@@ -7665,6 +9150,15 @@ VALUES (30188, 20, 'Observer''s Crystals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30188, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30188, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30188, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30188, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30188, 67111923, 0, 0);
@@ -7717,6 +9211,15 @@ VALUES (30187, 20, 'Hunter''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30187, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30187, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30187, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30187, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30187, 67111923, 0, 0);
 
@@ -7767,6 +9270,15 @@ VALUES (9192, 20, 'Gems of Purity');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9192, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9192, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9192, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9192, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9192, 67111919, 0, 0);
@@ -7822,6 +9334,15 @@ VALUES (9191, 39, 0.8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9191, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9191, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9191, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9191, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9191, 67111919, 0, 0);
 
@@ -7832,7 +9353,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (9191, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34291, 'ace34291gemofbalance');
+VALUES (34291, 'ace34291-gemofbalance');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34291, 275280017, 34291, 16, 100688622, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 2659, NULL, NULL);
@@ -7873,6 +9394,15 @@ VALUES (34291, 20, 'Gems of Balance');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34291, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34291, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34291, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34291, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34291, 67111924, 0, 0);
 
@@ -7883,7 +9413,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (34291, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51517, 'ace51517blightedsword');
+VALUES (51517, 'ace51517-blightedsword');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51517, 1344827416, 51517, 18, 100690284, 100667895, NULL, 33560676, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -7918,8 +9448,17 @@ VALUES (51517, 19, 653);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51517, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51517, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51517, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51517, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51526, 'ace51526blightedspear');
+VALUES (51526, 'ace51526-blightedspear');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51526, 1344827416, 51526, 18, 100690282, 100667895, NULL, 33560674, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -7953,6 +9492,15 @@ VALUES (51526, 19, 653);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51526, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51526, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51526, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51526, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27773, 'manastoneadjanite');
@@ -7989,6 +9537,15 @@ VALUES (27773, 19, 50000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27773, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27773, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27773, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27773, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30214, 'gemrarevolatileitemenchantment');
@@ -8031,6 +9588,15 @@ VALUES (30214, 20, 'Artificer''s Crystals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30214, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30214, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30214, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30214, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30214, 67111919, 0, 0);
@@ -8089,6 +9655,18 @@ VALUES (10974, 19, 10000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (10974, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10974, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10974, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10974, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10974, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (10974, 67111922, 0, 0);
 
@@ -8099,7 +9677,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (10974, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51510, 'ace51510reinforcedfalconbannerwithsymbol');
+VALUES (51510, 'ace51510-reinforcedfalconbannerwithsymbol');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51510, 1076391960, 51510, 18, 100671936, 100667895, NULL, 33557258, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8130,6 +9708,15 @@ VALUES (51510, 19, 653);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51510, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51510, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51510, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51510, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (51510, 0, 83893725, 83893724)
@@ -8173,6 +9760,15 @@ VALUES (7534, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7534, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7534, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7534, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7534, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (7534, 67111925, 0, 0);
@@ -8228,6 +9824,15 @@ VALUES (9193, 39, 1.2);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9193, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9193, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9193, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9193, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9193, 67111919, 0, 0);
 
@@ -8276,8 +9881,20 @@ VALUES (30812, 19, 400);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30812, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30812, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30812, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30812, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30812, 15, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51518, 'ace51518blightedtwohandedspear');
+VALUES (51518, 'ace51518-blightedtwohandedspear');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51518, 1344827416, 51518, 18, 100690751, 100667895, NULL, 33560674, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8312,8 +9929,17 @@ VALUES (51518, 19, 653);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51518, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51518, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51518, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51518, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (40443, 'ace40443armorupgradekit');
+VALUES (40443, 'ace40443-armorupgradekit');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (40443, 2650136, 40443, 18, 100688857, NULL, NULL, 33555677, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8345,8 +9971,17 @@ VALUES (40443, 19, 15);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (40443, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40443, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40443, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40443, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (37060, 'ace37060northgateharmoniccrystal');
+VALUES (37060, 'ace37060-northgateharmoniccrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (37060, 2125976, 37060, 18, 100670079, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8381,6 +10016,15 @@ VALUES (37060, 19, 10);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37060, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37060, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37060, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37060, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37060, 67111926, 0, 0);
 
@@ -8391,7 +10035,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (37060, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44720, 'ace44720gemofgreaterluminance');
+VALUES (44720, 'ace44720-gemofgreaterluminance');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44720, 2125849, 44720, 16, 100692117, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8423,8 +10067,17 @@ VALUES (44720, 20, 'Gems of Greater Luminance');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44720, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44720, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44720, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44720, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53068, 'ace53068empoweredambergauntletsoflife');
+VALUES (53068, 'ace53068-empoweredambergauntletsoflife');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53068, 2650265, 53068, 16, 100693327, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8465,6 +10118,15 @@ VALUES (53068, 20, 'Empowered Ambers: Gauntlets of Life');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53068, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53068, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53068, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53068, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53068, 67111921, 0, 0);
 
@@ -8475,7 +10137,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53068, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53071, 'ace53071empoweredamberhelmoflife');
+VALUES (53071, 'ace53071-empoweredamberhelmoflife');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53071, 2650265, 53071, 16, 100693327, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8516,6 +10178,15 @@ VALUES (53071, 20, 'Empowered Ambers: Helm of Life');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53071, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53071, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53071, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53071, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53071, 67111921, 0, 0);
 
@@ -8526,7 +10197,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53071, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53074, 'ace53074empoweredambertassetsoflife');
+VALUES (53074, 'ace53074-empoweredambertassetsoflife');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53074, 2650265, 53074, 16, 100693327, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8567,6 +10238,15 @@ VALUES (53074, 20, 'Empowered Ambers: Tassets of Life');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53074, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53074, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53074, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53074, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53074, 67111921, 0, 0);
 
@@ -8577,7 +10257,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53074, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53069, 'ace53069empoweredambergirthoflife');
+VALUES (53069, 'ace53069-empoweredambergirthoflife');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53069, 2650265, 53069, 16, 100693327, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8618,6 +10298,15 @@ VALUES (53069, 20, 'Empowered Ambers: Girth of Life');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53069, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53069, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53069, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53069, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53069, 67111921, 0, 0);
 
@@ -8628,7 +10317,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53069, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53072, 'ace53072empoweredamberpauldronsoflife');
+VALUES (53072, 'ace53072-empoweredamberpauldronsoflife');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53072, 2650265, 53072, 16, 100693327, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8669,6 +10358,15 @@ VALUES (53072, 20, 'Empowered Ambers: Pauldrons of Life');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53072, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53072, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53072, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53072, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53072, 67111921, 0, 0);
 
@@ -8679,7 +10377,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53072, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53073, 'ace53073empoweredambersolleretsoflife');
+VALUES (53073, 'ace53073-empoweredambersolleretsoflife');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53073, 2650265, 53073, 16, 100693327, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8720,6 +10418,15 @@ VALUES (53073, 20, 'Empowered Ambers: Sollerets of Life');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53073, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53073, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53073, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53073, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53073, 67111921, 0, 0);
 
@@ -8730,7 +10437,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53073, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53070, 'ace53070empoweredambergreavesoflife');
+VALUES (53070, 'ace53070-empoweredambergreavesoflife');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53070, 2650265, 53070, 16, 100693327, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8771,6 +10478,15 @@ VALUES (53070, 20, 'Empowered Ambers: Greaves of Life');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53070, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53070, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53070, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53070, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53070, 67111921, 0, 0);
 
@@ -8781,7 +10497,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53070, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53067, 'ace53067empoweredamberbreastplateoflife');
+VALUES (53067, 'ace53067-empoweredamberbreastplateoflife');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53067, 2650265, 53067, 16, 100693327, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8822,6 +10538,15 @@ VALUES (53067, 20, 'Empowered Ambers: Breastplate of Life');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53067, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53067, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53067, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53067, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53067, 67111921, 0, 0);
 
@@ -8832,7 +10557,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53067, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53066, 'ace53066empoweredamberbracersoflife');
+VALUES (53066, 'ace53066-empoweredamberbracersoflife');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53066, 2650265, 53066, 16, 100693327, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8873,6 +10598,15 @@ VALUES (53066, 20, 'Empowered Ambers: Bracers of Life');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53066, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53066, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53066, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53066, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53066, 67111921, 0, 0);
 
@@ -8883,7 +10617,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53066, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53298, 'ace53298luminousambergirthofthebulwark');
+VALUES (53298, 'ace53298-luminousambergirthofthebulwark');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53298, 2650265, 53298, 67108880, 100693328, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8924,6 +10658,15 @@ VALUES (53298, 20, 'Luminous Ambers: Girth of the Bulwark');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53298, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53298, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53298, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53298, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53298, 67111921, 0, 0);
 
@@ -8934,7 +10677,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53298, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53024, 'ace53024corruptedambertassetsofthecorruptedsoul');
+VALUES (53024, 'ace53024-corruptedambertassetsofthecorruptedsoul');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53024, 2650265, 53024, 16, 100693326, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -8975,6 +10718,15 @@ VALUES (53024, 20, 'Corrupted Ambers: Tassets of the Corrupted Soul.');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53024, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53024, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53024, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53024, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53024, 67111921, 0, 0);
 
@@ -8985,7 +10737,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53024, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53295, 'ace53295luminousambergreavesofthetower');
+VALUES (53295, 'ace53295-luminousambergreavesofthetower');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53295, 2650265, 53295, 67108880, 100693328, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9026,6 +10778,15 @@ VALUES (53295, 20, 'Luminous Ambers: Greaves of the Tower');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53295, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53295, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53295, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53295, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53295, 67111921, 0, 0);
 
@@ -9036,7 +10797,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53295, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53300, 'ace53300luminousambersolleretsofthestorm');
+VALUES (53300, 'ace53300-luminousambersolleretsofthestorm');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53300, 2650265, 53300, 67108880, 100693328, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9077,6 +10838,15 @@ VALUES (53300, 20, 'Luminous Ambers: Sollerets of the Storm');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53300, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53300, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53300, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53300, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53300, 67111921, 0, 0);
 
@@ -9087,7 +10857,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53300, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53297, 'ace53297luminousamberbreastplateofthebulwark');
+VALUES (53297, 'ace53297-luminousamberbreastplateofthebulwark');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53297, 2650265, 53297, 67108880, 100693328, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9128,6 +10898,15 @@ VALUES (53297, 20, 'Luminous Ambers: Breastplate of the Bulwark');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53297, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53297, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53297, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53297, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53297, 67111921, 0, 0);
 
@@ -9138,7 +10917,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53297, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53016, 'ace53016corruptedamberbracersofthecorruptedheart');
+VALUES (53016, 'ace53016-corruptedamberbracersofthecorruptedheart');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53016, 2650265, 53016, 16, 100693326, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9179,6 +10958,15 @@ VALUES (53016, 20, 'Corrupted Ambers: Bracers of the Corrupted Heart.');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53016, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53016, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53016, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53016, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53016, 67111921, 0, 0);
 
@@ -9189,7 +10977,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53016, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53296, 'ace53296luminousambertassetsofthetower');
+VALUES (53296, 'ace53296-luminousambertassetsofthetower');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53296, 2650265, 53296, 67108880, 100693328, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9230,6 +11018,15 @@ VALUES (53296, 20, 'Luminous Ambers: Tassets of the Tower');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53296, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53296, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53296, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53296, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53296, 67111921, 0, 0);
 
@@ -9240,7 +11037,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53296, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53017, 'ace53017corruptedambergauntletsofthecorruptedheart');
+VALUES (53017, 'ace53017-corruptedambergauntletsofthecorruptedheart');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53017, 2650265, 53017, 16, 100693326, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9281,6 +11078,15 @@ VALUES (53017, 20, 'Corrupted Ambers: Gauntlets of the Corrupted Heart.');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53017, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53017, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53017, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53017, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53017, 67111921, 0, 0);
 
@@ -9291,7 +11097,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53017, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53023, 'ace53023corruptedambergreavesofthecorruptedsoul');
+VALUES (53023, 'ace53023-corruptedambergreavesofthecorruptedsoul');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53023, 2650265, 53023, 16, 100693326, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9332,6 +11138,15 @@ VALUES (53023, 20, 'Corrupted Ambers: Greaves of the Corrupted Soul.');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53023, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53023, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53023, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53023, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53023, 67111921, 0, 0);
 
@@ -9342,7 +11157,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53023, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53021, 'ace53021corruptedamberbreastplateofthecorruptedsoul');
+VALUES (53021, 'ace53021-corruptedamberbreastplateofthecorruptedsoul');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53021, 2650265, 53021, 16, 100693326, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9383,6 +11198,15 @@ VALUES (53021, 20, 'Corrupted Ambers: Breastplate of the Corrupted Soul.');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53021, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53021, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53021, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53021, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53021, 67111921, 0, 0);
 
@@ -9393,7 +11217,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53021, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53301, 'ace53301luminousamberhelmofhealing');
+VALUES (53301, 'ace53301-luminousamberhelmofhealing');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53301, 2650265, 53301, 67108880, 100693328, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9434,6 +11258,15 @@ VALUES (53301, 20, 'Luminous Ambers: Helm of Healing');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53301, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53301, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53301, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53301, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53301, 67111921, 0, 0);
 
@@ -9444,7 +11277,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53301, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53293, 'ace53293luminousamberbracersofthunderousblows');
+VALUES (53293, 'ace53293-luminousamberbracersofthunderousblows');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53293, 2650265, 53293, 67108880, 100693328, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9485,6 +11318,15 @@ VALUES (53293, 20, 'Luminous Ambers: Bracers of Thunderous Blows');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53293, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53293, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53293, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53293, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53293, 67111921, 0, 0);
 
@@ -9495,7 +11337,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53293, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53022, 'ace53022corruptedambergirthofthecorruptedsoul');
+VALUES (53022, 'ace53022-corruptedambergirthofthecorruptedsoul');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53022, 2650265, 53022, 16, 100693326, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9536,6 +11378,15 @@ VALUES (53022, 20, 'Corrupted Ambers: Girth of the Corrupted Soul.');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53022, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53022, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53022, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53022, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53022, 67111921, 0, 0);
 
@@ -9546,7 +11397,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53022, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53299, 'ace53299luminousambergauntletsofthestorm');
+VALUES (53299, 'ace53299-luminousambergauntletsofthestorm');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53299, 2650265, 53299, 67108880, 100693328, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9587,6 +11438,15 @@ VALUES (53299, 20, 'Luminous Ambers: Gauntlets of the Storm');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53299, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53299, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53299, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53299, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53299, 67111921, 0, 0);
 
@@ -9597,7 +11457,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53299, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53019, 'ace53019corruptedamberpauldronsofthecorruptedheart');
+VALUES (53019, 'ace53019-corruptedamberpauldronsofthecorruptedheart');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53019, 2650265, 53019, 16, 100693326, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9638,6 +11498,15 @@ VALUES (53019, 20, 'Corrupted Ambers: Pauldrons of the Corrupted Heart.');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53019, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53019, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53019, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53019, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53019, 67111921, 0, 0);
 
@@ -9648,7 +11517,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53019, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53453, 'ace53453corruptedamberweaponofthecorruptedsoul');
+VALUES (53453, 'ace53453-corruptedamberweaponofthecorruptedsoul');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53453, 2650265, 53453, 16, 100693326, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9689,6 +11558,15 @@ VALUES (53453, 20, 'Corrupted Ambers: Weapon of the Corrupted Soul.');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53453, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53453, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53453, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53453, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53453, 67111921, 0, 0);
 
@@ -9699,7 +11577,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53453, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53146, 'ace53146luminousamberofthe2ndtierparagon');
+VALUES (53146, 'ace53146-luminousamberofthe2ndtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53146, 2650265, 53146, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9740,6 +11618,15 @@ VALUES (53146, 20, 'Luminous Ambers of the 2nd Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53146, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53146, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53146, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53146, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53146, 67111921, 0, 0);
 
@@ -9750,7 +11637,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53146, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53020, 'ace53020corruptedambersolleretsofthecorruptedheart');
+VALUES (53020, 'ace53020-corruptedambersolleretsofthecorruptedheart');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53020, 2650265, 53020, 16, 100693326, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9791,6 +11678,15 @@ VALUES (53020, 20, 'Corrupted Ambers: Sollerets of the Corrupted Heart.');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53020, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53020, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53020, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53020, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53020, 67111921, 0, 0);
 
@@ -9801,7 +11697,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53020, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53452, 'ace53452corruptedamberweaponofthecorruptedheart');
+VALUES (53452, 'ace53452-corruptedamberweaponofthecorruptedheart');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53452, 2650265, 53452, 16, 100693326, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9842,6 +11738,15 @@ VALUES (53452, 20, 'Corrupted Ambers: Weapon of the Corrupted Heart.');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53452, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53452, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53452, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53452, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53452, 67111921, 0, 0);
 
@@ -9852,7 +11757,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53452, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53018, 'ace53018corruptedamberhelmofthecorruptedheart');
+VALUES (53018, 'ace53018-corruptedamberhelmofthecorruptedheart');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53018, 2650265, 53018, 16, 100693326, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9893,6 +11798,15 @@ VALUES (53018, 20, 'Corrupted Ambers: Helm of the Corrupted Heart.');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53018, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53018, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53018, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53018, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53018, 67111921, 0, 0);
 
@@ -9903,7 +11817,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53018, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53156, 'ace53156luminousamberofthe11thtierparagon');
+VALUES (53156, 'ace53156-luminousamberofthe11thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53156, 2650265, 53156, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9944,6 +11858,15 @@ VALUES (53156, 20, 'Luminous Ambers of the 11th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53156, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53156, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53156, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53156, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53156, 67111921, 0, 0);
 
@@ -9954,7 +11877,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53156, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53294, 'ace53294luminousamberpauldronsofthunderousblows');
+VALUES (53294, 'ace53294-luminousamberpauldronsofthunderousblows');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53294, 2650265, 53294, 67108880, 100693328, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -9995,6 +11918,15 @@ VALUES (53294, 20, 'Luminous Ambers: Pauldrons of Thunderous Blows');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53294, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53294, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53294, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53294, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53294, 67111921, 0, 0);
 
@@ -10005,7 +11937,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53294, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53161, 'ace53161luminousamberofthe16thtierparagon');
+VALUES (53161, 'ace53161-luminousamberofthe16thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53161, 2650265, 53161, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10046,6 +11978,15 @@ VALUES (53161, 20, 'Luminous Ambers of the 16th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53161, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53161, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53161, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53161, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53161, 67111921, 0, 0);
 
@@ -10056,7 +11997,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53161, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53171, 'ace53171luminousamberofthe26thtierparagon');
+VALUES (53171, 'ace53171-luminousamberofthe26thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53171, 2650265, 53171, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10097,6 +12038,15 @@ VALUES (53171, 20, 'Luminous Ambers of the 26th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53171, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53171, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53171, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53171, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53171, 67111921, 0, 0);
 
@@ -10107,7 +12057,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53171, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53153, 'ace53153luminousamberofthe8thtierparagon');
+VALUES (53153, 'ace53153-luminousamberofthe8thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53153, 2650265, 53153, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10148,6 +12098,15 @@ VALUES (53153, 20, 'Luminous Ambers of the 8th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53153, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53153, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53153, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53153, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53153, 67111921, 0, 0);
 
@@ -10158,7 +12117,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53153, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53166, 'ace53166luminousamberofthe21sttierparagon');
+VALUES (53166, 'ace53166-luminousamberofthe21sttierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53166, 2650265, 53166, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10199,6 +12158,15 @@ VALUES (53166, 20, 'Luminous Ambers of the 21st Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53166, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53166, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53166, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53166, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53166, 67111921, 0, 0);
 
@@ -10209,7 +12177,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53166, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53158, 'ace53158luminousamberofthe13thtierparagon');
+VALUES (53158, 'ace53158-luminousamberofthe13thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53158, 2650265, 53158, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10250,6 +12218,15 @@ VALUES (53158, 20, 'Luminous Ambers of the 13th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53158, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53158, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53158, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53158, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53158, 67111921, 0, 0);
 
@@ -10260,7 +12237,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53158, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53163, 'ace53163luminousamberofthe18thtierparagon');
+VALUES (53163, 'ace53163-luminousamberofthe18thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53163, 2650265, 53163, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10301,6 +12278,15 @@ VALUES (53163, 20, 'Luminous Ambers of the 18th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53163, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53163, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53163, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53163, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53163, 67111921, 0, 0);
 
@@ -10311,7 +12297,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53163, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53159, 'ace53159luminousamberofthe14thtierparagon');
+VALUES (53159, 'ace53159-luminousamberofthe14thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53159, 2650265, 53159, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10352,6 +12338,15 @@ VALUES (53159, 20, 'Luminous Ambers of the 14th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53159, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53159, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53159, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53159, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53159, 67111921, 0, 0);
 
@@ -10362,7 +12357,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53159, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53150, 'ace53150luminousamberofthe5thtierparagon');
+VALUES (53150, 'ace53150-luminousamberofthe5thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53150, 2650265, 53150, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10403,6 +12398,15 @@ VALUES (53150, 20, 'Luminous Ambers of the 5th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53150, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53150, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53150, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53150, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53150, 67111921, 0, 0);
 
@@ -10413,7 +12417,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53150, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53169, 'ace53169luminousamberofthe24thtierparagon');
+VALUES (53169, 'ace53169-luminousamberofthe24thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53169, 2650265, 53169, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10454,6 +12458,15 @@ VALUES (53169, 20, 'Luminous Ambers of the 24th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53169, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53169, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53169, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53169, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53169, 67111921, 0, 0);
 
@@ -10464,7 +12477,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53169, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53164, 'ace53164luminousamberofthe19thtierparagon');
+VALUES (53164, 'ace53164-luminousamberofthe19thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53164, 2650265, 53164, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10505,6 +12518,15 @@ VALUES (53164, 20, 'Luminous Ambers of the 19th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53164, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53164, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53164, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53164, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53164, 67111921, 0, 0);
 
@@ -10515,7 +12537,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53164, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53155, 'ace53155luminousamberofthe10thtierparagon');
+VALUES (53155, 'ace53155-luminousamberofthe10thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53155, 2650265, 53155, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10556,6 +12578,15 @@ VALUES (53155, 20, 'Luminous Ambers of the 10th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53155, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53155, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53155, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53155, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53155, 67111921, 0, 0);
 
@@ -10566,7 +12597,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53155, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53145, 'ace53145luminousamberofthe1sttierparagon');
+VALUES (53145, 'ace53145-luminousamberofthe1sttierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53145, 2650265, 53145, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10607,6 +12638,15 @@ VALUES (53145, 20, 'Luminous Ambers of the 1st Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53145, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53145, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53145, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53145, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53145, 67111921, 0, 0);
 
@@ -10617,7 +12657,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53145, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53160, 'ace53160luminousamberofthe15thtierparagon');
+VALUES (53160, 'ace53160-luminousamberofthe15thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53160, 2650265, 53160, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10658,6 +12698,15 @@ VALUES (53160, 20, 'Luminous Ambers of the 15th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53160, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53160, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53160, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53160, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53160, 67111921, 0, 0);
 
@@ -10668,7 +12717,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53160, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53151, 'ace53151luminousamberofthe6thtierparagon');
+VALUES (53151, 'ace53151-luminousamberofthe6thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53151, 2650265, 53151, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10709,6 +12758,15 @@ VALUES (53151, 20, 'Luminous Ambers of the 6th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53151, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53151, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53151, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53151, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53151, 67111921, 0, 0);
 
@@ -10719,7 +12777,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53151, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53168, 'ace53168luminousamberofthe23rdtierparagon');
+VALUES (53168, 'ace53168-luminousamberofthe23rdtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53168, 2650265, 53168, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10760,6 +12818,15 @@ VALUES (53168, 20, 'Luminous Ambers of the 23rd Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53168, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53168, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53168, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53168, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53168, 67111921, 0, 0);
 
@@ -10770,7 +12837,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53168, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53172, 'ace53172luminousamberofthe27thtierparagon');
+VALUES (53172, 'ace53172-luminousamberofthe27thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53172, 2650265, 53172, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10811,6 +12878,15 @@ VALUES (53172, 20, 'Luminous Ambers of the 27th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53172, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53172, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53172, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53172, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53172, 67111921, 0, 0);
 
@@ -10821,7 +12897,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53172, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53152, 'ace53152luminousamberofthe7thtierparagon');
+VALUES (53152, 'ace53152-luminousamberofthe7thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53152, 2650265, 53152, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10862,6 +12938,15 @@ VALUES (53152, 20, 'Luminous Ambers of the 7th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53152, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53152, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53152, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53152, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53152, 67111921, 0, 0);
 
@@ -10872,7 +12957,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53152, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53167, 'ace53167luminousamberofthe22ndtierparagon');
+VALUES (53167, 'ace53167-luminousamberofthe22ndtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53167, 2650265, 53167, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10913,6 +12998,15 @@ VALUES (53167, 20, 'Luminous Ambers of the 22nd Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53167, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53167, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53167, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53167, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53167, 67111921, 0, 0);
 
@@ -10923,7 +13017,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53167, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53157, 'ace53157luminousamberofthe12thtierparagon');
+VALUES (53157, 'ace53157-luminousamberofthe12thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53157, 2650265, 53157, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -10964,6 +13058,15 @@ VALUES (53157, 20, 'Luminous Ambers of the 12th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53157, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53157, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53157, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53157, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53157, 67111921, 0, 0);
 
@@ -10974,7 +13077,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53157, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53148, 'ace53148luminousamberofthe3rdtierparagon');
+VALUES (53148, 'ace53148-luminousamberofthe3rdtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53148, 2650265, 53148, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11015,6 +13118,15 @@ VALUES (53148, 20, 'Luminous Ambers of the 3rd Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53148, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53148, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53148, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53148, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53148, 67111921, 0, 0);
 
@@ -11025,7 +13137,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53148, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53162, 'ace53162luminousamberofthe17thtierparagon');
+VALUES (53162, 'ace53162-luminousamberofthe17thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53162, 2650265, 53162, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11066,6 +13178,15 @@ VALUES (53162, 20, 'Luminous Ambers of the 17th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53162, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53162, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53162, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53162, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53162, 67111921, 0, 0);
 
@@ -11076,7 +13197,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53162, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53149, 'ace53149luminousamberofthe4thtierparagon');
+VALUES (53149, 'ace53149-luminousamberofthe4thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53149, 2650265, 53149, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11117,6 +13238,15 @@ VALUES (53149, 20, 'Luminous Ambers of the 4th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53149, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53149, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53149, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53149, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53149, 67111921, 0, 0);
 
@@ -11127,7 +13257,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53149, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53170, 'ace53170luminousamberofthe25thtierparagon');
+VALUES (53170, 'ace53170-luminousamberofthe25thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53170, 2650265, 53170, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11168,6 +13298,15 @@ VALUES (53170, 20, 'Luminous Ambers of the 25th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53170, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53170, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53170, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53170, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53170, 67111921, 0, 0);
 
@@ -11178,7 +13317,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53170, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53154, 'ace53154luminousamberofthe9thtierparagon');
+VALUES (53154, 'ace53154-luminousamberofthe9thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53154, 2650265, 53154, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11219,6 +13358,15 @@ VALUES (53154, 20, 'Luminous Ambers of the 9th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53154, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53154, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53154, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53154, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53154, 67111921, 0, 0);
 
@@ -11229,7 +13377,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53154, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53165, 'ace53165luminousamberofthe20thtierparagon');
+VALUES (53165, 'ace53165-luminousamberofthe20thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53165, 2650265, 53165, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11270,6 +13418,15 @@ VALUES (53165, 20, 'Luminous Ambers of the 20th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53165, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53165, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53165, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53165, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53165, 67111921, 0, 0);
 
@@ -11280,7 +13437,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53165, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53176, 'ace53176luminousamberofthe31sttierparagon');
+VALUES (53176, 'ace53176-luminousamberofthe31sttierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53176, 2650265, 53176, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11321,6 +13478,15 @@ VALUES (53176, 20, 'Luminous Ambers of the 31st Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53176, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53176, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53176, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53176, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53176, 67111921, 0, 0);
 
@@ -11331,7 +13497,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53176, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53190, 'ace53190luminousamberofthe45thtierparagon');
+VALUES (53190, 'ace53190-luminousamberofthe45thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53190, 2650265, 53190, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11372,6 +13538,15 @@ VALUES (53190, 20, 'Luminous Ambers of the 45th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53190, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53190, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53190, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53190, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53190, 67111921, 0, 0);
 
@@ -11382,7 +13557,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53190, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53181, 'ace53181luminousamberofthe36thtierparagon');
+VALUES (53181, 'ace53181-luminousamberofthe36thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53181, 2650265, 53181, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11423,6 +13598,15 @@ VALUES (53181, 20, 'Luminous Ambers of the 36th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53181, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53181, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53181, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53181, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53181, 67111921, 0, 0);
 
@@ -11433,7 +13617,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53181, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53192, 'ace53192luminousamberofthe47thtierparagon');
+VALUES (53192, 'ace53192-luminousamberofthe47thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53192, 2650265, 53192, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11474,6 +13658,15 @@ VALUES (53192, 20, 'Luminous Ambers of the 47th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53192, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53192, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53192, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53192, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53192, 67111921, 0, 0);
 
@@ -11484,7 +13677,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53192, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53186, 'ace53186luminousamberofthe41sttierparagon');
+VALUES (53186, 'ace53186-luminousamberofthe41sttierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53186, 2650265, 53186, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11525,6 +13718,15 @@ VALUES (53186, 20, 'Luminous Ambers of the 41st Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53186, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53186, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53186, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53186, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53186, 67111921, 0, 0);
 
@@ -11535,7 +13737,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53186, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53173, 'ace53173luminousamberofthe28thtierparagon');
+VALUES (53173, 'ace53173-luminousamberofthe28thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53173, 2650265, 53173, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11576,6 +13778,15 @@ VALUES (53173, 20, 'Luminous Ambers of the 28th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53173, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53173, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53173, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53173, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53173, 67111921, 0, 0);
 
@@ -11586,7 +13797,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53173, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53178, 'ace53178luminousamberofthe33rdtierparagon');
+VALUES (53178, 'ace53178-luminousamberofthe33rdtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53178, 2650265, 53178, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11627,6 +13838,15 @@ VALUES (53178, 20, 'Luminous Ambers of the 33rd Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53178, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53178, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53178, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53178, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53178, 67111921, 0, 0);
 
@@ -11637,7 +13857,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53178, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53195, 'ace53195luminousamberofthe50thtierparagon');
+VALUES (53195, 'ace53195-luminousamberofthe50thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53195, 2650265, 53195, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11678,6 +13898,15 @@ VALUES (53195, 20, 'Luminous Ambers of the 50th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53195, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53195, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53195, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53195, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53195, 67111921, 0, 0);
 
@@ -11688,7 +13917,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53195, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53183, 'ace53183luminousamberofthe38thtierparagon');
+VALUES (53183, 'ace53183-luminousamberofthe38thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53183, 2650265, 53183, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11729,6 +13958,15 @@ VALUES (53183, 20, 'Luminous Ambers of the 38th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53183, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53183, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53183, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53183, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53183, 67111921, 0, 0);
 
@@ -11739,7 +13977,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53183, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53174, 'ace53174luminousamberofthe29thtierparagon');
+VALUES (53174, 'ace53174-luminousamberofthe29thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53174, 2650265, 53174, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11780,6 +14018,15 @@ VALUES (53174, 20, 'Luminous Ambers of the 29th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53174, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53174, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53174, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53174, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53174, 67111921, 0, 0);
 
@@ -11790,7 +14037,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53174, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53188, 'ace53188luminousamberofthe43rdtierparagon');
+VALUES (53188, 'ace53188-luminousamberofthe43rdtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53188, 2650265, 53188, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11831,6 +14078,15 @@ VALUES (53188, 20, 'Luminous Ambers of the 43rd Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53188, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53188, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53188, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53188, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53188, 67111921, 0, 0);
 
@@ -11841,7 +14097,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53188, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53179, 'ace53179luminousamberofthe34thtierparagon');
+VALUES (53179, 'ace53179-luminousamberofthe34thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53179, 2650265, 53179, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11882,6 +14138,15 @@ VALUES (53179, 20, 'Luminous Ambers of the 34th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53179, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53179, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53179, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53179, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53179, 67111921, 0, 0);
 
@@ -11892,7 +14157,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53179, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53194, 'ace53194luminousamberofthe49thtierparagon');
+VALUES (53194, 'ace53194-luminousamberofthe49thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53194, 2650265, 53194, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11933,6 +14198,15 @@ VALUES (53194, 20, 'Luminous Ambers of the 49th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53194, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53194, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53194, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53194, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53194, 67111921, 0, 0);
 
@@ -11943,7 +14217,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53194, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53184, 'ace53184luminousamberofthe39thtierparagon');
+VALUES (53184, 'ace53184-luminousamberofthe39thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53184, 2650265, 53184, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -11984,6 +14258,15 @@ VALUES (53184, 20, 'Luminous Ambers of the 39th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53184, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53184, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53184, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53184, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53184, 67111921, 0, 0);
 
@@ -11994,7 +14277,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53184, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53175, 'ace53175luminousamberofthe30thtierparagon');
+VALUES (53175, 'ace53175-luminousamberofthe30thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53175, 2650265, 53175, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -12035,6 +14318,15 @@ VALUES (53175, 20, 'Luminous Ambers of the 30th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53175, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53175, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53175, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53175, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53175, 67111921, 0, 0);
 
@@ -12045,7 +14337,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53175, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53189, 'ace53189luminousamberofthe44thtierparagon');
+VALUES (53189, 'ace53189-luminousamberofthe44thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53189, 2650265, 53189, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -12086,6 +14378,15 @@ VALUES (53189, 20, 'Luminous Ambers of the 44th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53189, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53189, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53189, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53189, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53189, 67111921, 0, 0);
 
@@ -12096,7 +14397,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53189, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53180, 'ace53180luminousamberofthe35thtierparagon');
+VALUES (53180, 'ace53180-luminousamberofthe35thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53180, 2650265, 53180, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -12137,6 +14438,15 @@ VALUES (53180, 20, 'Luminous Ambers of the 35th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53180, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53180, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53180, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53180, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53180, 67111921, 0, 0);
 
@@ -12147,7 +14457,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53180, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53193, 'ace53193luminousamberofthe48thtierparagon');
+VALUES (53193, 'ace53193-luminousamberofthe48thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53193, 2650265, 53193, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -12188,6 +14498,15 @@ VALUES (53193, 20, 'Luminous Ambers of the 48th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53193, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53193, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53193, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53193, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53193, 67111921, 0, 0);
 
@@ -12198,7 +14517,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53193, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53185, 'ace53185luminousamberofthe40thtierparagon');
+VALUES (53185, 'ace53185-luminousamberofthe40thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53185, 2650265, 53185, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -12239,6 +14558,15 @@ VALUES (53185, 20, 'Luminous Ambers of the 40th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53185, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53185, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53185, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53185, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53185, 67111921, 0, 0);
 
@@ -12249,7 +14577,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53185, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53177, 'ace53177luminousamberofthe32ndtierparagon');
+VALUES (53177, 'ace53177-luminousamberofthe32ndtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53177, 2650265, 53177, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -12290,6 +14618,15 @@ VALUES (53177, 20, 'Luminous Ambers of the 32nd Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53177, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53177, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53177, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53177, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53177, 67111921, 0, 0);
 
@@ -12300,7 +14637,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53177, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53191, 'ace53191luminousamberofthe46thtierparagon');
+VALUES (53191, 'ace53191-luminousamberofthe46thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53191, 2650265, 53191, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -12341,6 +14678,15 @@ VALUES (53191, 20, 'Luminous Ambers of the 46th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53191, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53191, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53191, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53191, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53191, 67111921, 0, 0);
 
@@ -12351,7 +14697,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53191, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53182, 'ace53182luminousamberofthe37thtierparagon');
+VALUES (53182, 'ace53182-luminousamberofthe37thtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53182, 2650265, 53182, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -12392,6 +14738,15 @@ VALUES (53182, 20, 'Luminous Ambers of the 37th Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53182, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53182, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53182, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53182, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53182, 67111921, 0, 0);
 
@@ -12402,7 +14757,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53182, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53187, 'ace53187luminousamberofthe42ndtierparagon');
+VALUES (53187, 'ace53187-luminousamberofthe42ndtierparagon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53187, 2650265, 53187, 67108882, 100693327, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -12443,6 +14798,15 @@ VALUES (53187, 20, 'Luminous Ambers of the 42nd Tier Paragon');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53187, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53187, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53187, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53187, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53187, 67111921, 0, 0);
 
@@ -12453,7 +14817,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53187, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43424, 'ace43424dericosttokenoftheauraofretribution');
+VALUES (43424, 'ace43424-dericosttokenoftheauraofretribution');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43424, 2097168, 43424, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -12473,6 +14837,15 @@ VALUES (43424, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43424, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43424, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43424, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43424, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43424, 0, 83893723, 83898330)
      , (43424, 0, 83890929, 83898331);
@@ -12481,7 +14854,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43424, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43426, 'ace43426dericosttokenoftheauraofdestruction');
+VALUES (43426, 'ace43426-dericosttokenoftheauraofdestruction');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43426, 2097168, 43426, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -12500,6 +14873,15 @@ VALUES (43426, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43426, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43426, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43426, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43426, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43426, 0, 83893723, 83898330)
@@ -12549,6 +14931,15 @@ VALUES (30205, 20, 'Fletcher''s Crystals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30205, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30205, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30205, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30205, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30205, 67111919, 0, 0);
@@ -12601,6 +14992,15 @@ VALUES (30200, 20, 'Deceiver''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30200, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30200, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30200, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30200, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30200, 67111927, 0, 0);
 
@@ -12642,6 +15042,15 @@ VALUES (3697, 19, 200);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3697, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3697, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3697, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3697, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3697, 67111924, 0, 0);
@@ -12694,6 +15103,15 @@ VALUES (30197, 20, 'Enchanter''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30197, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30197, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30197, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30197, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30197, 67111919, 0, 0);
 
@@ -12704,7 +15122,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30197, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51914, 'ace51914damagedshadowblade');
+VALUES (51914, 'ace51914-damagedshadowblade');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51914, 1076391960, 51914, 18, 100688904, 100667895, NULL, 33559902, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -12739,6 +15157,15 @@ VALUES (51914, 19, 50);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51914, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51914, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51914, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51914, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (51914, 67116820, 0, 0);
 
@@ -12749,7 +15176,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (51914, 0, 16793032);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32940, 'ace32940darkmonolithcaverns');
+VALUES (32940, 'ace32940-darkmonolithcaverns');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32940, 1349021720, 32940, 67108882, 100668364, 100676404, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -12793,6 +15220,18 @@ VALUES (32940, 19, 500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32940, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32940, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32940, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32940, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32940, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32940, 67111924, 0, 0);
 
@@ -12803,7 +15242,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (32940, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (49484, 'ace49484summoninggemofenlightenment');
+VALUES (49484, 'ace49484-summoninggemofenlightenment');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (49484, 1075855376, 49484, 18, 100673788, 100693010, NULL, 33558088, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -12826,11 +15265,20 @@ VALUES (49484, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49484, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49484, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49484, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49484, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (49484, 67111923, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45682, 'ace45682nalicanastestlevel200');
+VALUES (45682, 'ace45682-nalicanastestlevel200');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45682, 553104, 45682, 67108882, 100691928, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -12865,8 +15313,17 @@ VALUES (45682, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45682, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45682, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45682, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45682, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36946, 'ace36946empyreanspherule');
+VALUES (36946, 'ace36946-empyreanspherule');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36946, 270532632, 36946, 18, 100689762, NULL, NULL, 33560433, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -12891,6 +15348,15 @@ VALUES (36946, 19, 10000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36946, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36946, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36946, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36946, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6055, 'shardcrystalcracked');
@@ -12927,6 +15393,15 @@ VALUES (6055, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6055, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6055, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6055, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6055, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6055, 67111921, 0, 0);
@@ -12979,6 +15454,15 @@ VALUES (30229, 20, 'Dodger''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30229, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30229, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30229, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30229, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30229, 67111919, 0, 0);
 
@@ -13021,6 +15505,15 @@ VALUES (20908, 39, 0.8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20908, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20908, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20908, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20908, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (20908, 0, 83889688, 83892492);
 
@@ -13059,6 +15552,15 @@ VALUES (24179, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24179, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24179, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24179, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24179, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24179, 67111927, 0, 0);
@@ -13105,6 +15607,15 @@ VALUES (6124, 19, 5000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6124, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6124, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6124, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6124, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6124, 67111924, 0, 0);
 
@@ -13149,6 +15660,15 @@ VALUES (6126, 19, 5000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6126, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6126, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6126, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6126, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6126, 67111923, 0, 0);
@@ -13204,6 +15724,18 @@ VALUES (30806, 19, 5000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30806, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30806, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30806, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30806, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30806, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30806, 67111924, 0, 0);
 
@@ -13248,6 +15780,18 @@ VALUES (20019, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20019, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20019, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20019, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20019, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20019, 15, True);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (20019, 76, 0.5);
@@ -13300,8 +15844,17 @@ VALUES (31001, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31001, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31001, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31001, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31001, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34042, 'ace34042blackskullofxikma');
+VALUES (34042, 'ace34042-blackskullofxikma');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34042, 2650264, 34042, 16, 100689142, NULL, NULL, 33556926, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -13338,6 +15891,15 @@ VALUES (34042, 19, 500);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34042, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34042, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34042, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34042, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34042, 67111924, 0, 0);
@@ -13390,6 +15952,15 @@ VALUES (30186, 20, 'Smithy''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30186, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30186, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30186, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30186, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30186, 67111919, 0, 0);
 
@@ -13434,6 +16005,15 @@ VALUES (9044, 39, 0.5);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9044, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9044, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9044, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9044, 14, True);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (9044, 76, 0.5);
@@ -13483,6 +16063,15 @@ VALUES (9043, 39, 1.5);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9043, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9043, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9043, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9043, 14, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (9043, 76, 0.5);
 
@@ -13496,7 +16085,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (9043, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33965, 'ace33965tippedpackcow');
+VALUES (33965, 'ace33965-tippedpackcow');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33965, 271056920, 33965, 18, 100667444, NULL, NULL, 33554438, NULL, 150995375, 'AAA9AAAAAAA=', NULL, 872415256, 102531, NULL, NULL, NULL);
@@ -13530,6 +16119,15 @@ VALUES (33965, 39, 0.3);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33965, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33965, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33965, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33965, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33965, 67116474, 0, 0);
@@ -13638,6 +16236,18 @@ VALUES (8973, 19, 11000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8973, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8973, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8973, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8973, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8973, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8973, 67111922, 0, 0);
 
@@ -13694,6 +16304,18 @@ VALUES (8976, 19, 11000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8976, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8976, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8976, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8976, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8976, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8976, 67111922, 0, 0);
@@ -13752,6 +16374,18 @@ VALUES (8977, 19, 11500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8977, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8977, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8977, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8977, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8977, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8977, 67111922, 0, 0);
 
@@ -13808,6 +16442,18 @@ VALUES (8981, 19, 10500);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8981, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8981, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8981, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8981, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8981, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8981, 67111922, 0, 0);
@@ -13866,6 +16512,18 @@ VALUES (8983, 19, 12000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8983, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8983, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8983, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8983, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8983, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8983, 67111922, 0, 0);
 
@@ -13923,6 +16581,18 @@ VALUES (8984, 19, 6500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8984, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8984, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8984, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8984, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8984, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8984, 67111922, 0, 0);
 
@@ -13933,7 +16603,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (8984, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (38724, 'ace38724eldrytchwebstrongholdportalgem');
+VALUES (38724, 'ace38724-eldrytchwebstrongholdportalgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (38724, 6844568, 38724, 67108880, 100672464, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -13977,6 +16647,18 @@ VALUES (38724, 19, 75000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (38724, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38724, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38724, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38724, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38724, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (38724, 67111922, 0, 0);
 
@@ -13987,7 +16669,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (38724, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (40575, 'ace40575assassinsrecallgem');
+VALUES (40575, 'ace40575-assassinsrecallgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (40575, 6844568, 40575, 18, 100668365, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 4992, NULL, NULL);
@@ -14025,6 +16707,18 @@ VALUES (40575, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (40575, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40575, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40575, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40575, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40575, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40575, 67111920, 0, 0);
 
@@ -14035,7 +16729,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (40575, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (37262, 'ace37262deckofeyes');
+VALUES (37262, 'ace37262-deckofeyes');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (37262, 275280024, 37262, 67108882, 100689859, NULL, NULL, 33560546, 536870932, NULL, NULL, 101, 872415275, 137217, 4281, NULL, NULL);
@@ -14079,8 +16773,17 @@ VALUES (37262, 19, 130);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37262, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37262, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37262, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37262, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (37261, 'ace37261deckofhands');
+VALUES (37261, 'ace37261-deckofhands');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (37261, 275280024, 37261, 67108882, 100689861, NULL, NULL, 33560546, 536870932, NULL, NULL, 101, 872415275, 137217, 4280, NULL, NULL);
@@ -14124,8 +16827,17 @@ VALUES (37261, 19, 130);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37261, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37261, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37261, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37261, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36708, 'ace36708spectralcrystalofthelifegiver');
+VALUES (36708, 'ace36708-spectralcrystalofthelifegiver');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36708, 1349021849, 36708, 67108880, 100686697, 100686664, 100686604, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 4221, NULL, NULL);
@@ -14166,6 +16878,15 @@ VALUES (36708, 20, 'Spectral Crystals of the Life Giver');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36708, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36708, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36708, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36708, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (36708, 0, 83890391, 83890391);
 
@@ -14173,7 +16894,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36708, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43408, 'ace43408spectralcrystalofthecorruptor');
+VALUES (43408, 'ace43408-spectralcrystalofthecorruptor');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43408, 1349021849, 43408, 67108880, 100686697, 100691567, 100686604, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5435, NULL, NULL);
@@ -14214,6 +16935,15 @@ VALUES (43408, 20, 'Spectral Crystals of the Corruptor');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43408, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43408, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43408, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43408, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43408, 0, 83890391, 83890391);
 
@@ -14221,7 +16951,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43408, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (47055, 'ace47055spiritofizexigem');
+VALUES (47055, 'ace47055-spiritofizexigem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (47055, 275280024, 47055, 16, 100692971, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 6035, NULL, NULL);
@@ -14262,6 +16992,15 @@ VALUES (47055, 19, 9);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (47055, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (47055, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (47055, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (47055, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (47055, 67111919, 0, 0);
 
@@ -14272,7 +17011,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (47055, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41456, 'ace41456virindiinquisitoressence');
+VALUES (41456, 'ace41456-virindiinquisitoressence');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41456, 275280016, 41456, 67108882, 100690696, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5155, NULL, NULL);
@@ -14316,6 +17055,15 @@ VALUES (41456, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41456, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41456, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41456, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41456, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41456, 67111924, 0, 0);
 
@@ -14326,7 +17074,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (41456, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41457, 'ace41457virindiconsulessence');
+VALUES (41457, 'ace41457-virindiconsulessence');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41457, 275280016, 41457, 67108882, 100690745, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5156, NULL, NULL);
@@ -14370,6 +17118,15 @@ VALUES (41457, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41457, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41457, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41457, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41457, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41457, 67112924, 0, 0);
 
@@ -14380,7 +17137,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (41457, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (40344, 'ace40344crystalofspectralblood');
+VALUES (40344, 'ace40344-crystalofspectralblood');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (40344, 553104, 40344, 67108882, 100690374, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -14415,8 +17172,17 @@ VALUES (40344, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (40344, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40344, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40344, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40344, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (38727, 'ace38727societygemofdispelling');
+VALUES (38727, 'ace38727-societygemofdispelling');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (38727, 6844569, 38727, 16, 100671405, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137345, 4331, NULL, NULL);
@@ -14459,6 +17225,15 @@ VALUES (38727, 39, 1.2);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (38727, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38727, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38727, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38727, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (38727, 67111919, 0, 0);
@@ -14505,6 +17280,15 @@ VALUES (29569, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29569, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29569, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29569, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29569, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29569, 67111918, 0, 0);
 
@@ -14515,7 +17299,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (29569, 0, 16777882);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (40340, 'ace40340skullofonethousandtorments');
+VALUES (40340, 'ace40340-skullofonethousandtorments');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (40340, 553104, 40340, 67108882, 100677491, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -14549,6 +17333,15 @@ VALUES (40340, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (40340, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40340, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40340, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40340, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29564, 'hidekiree');
@@ -14586,6 +17379,15 @@ VALUES (29564, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29564, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29564, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29564, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29564, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29564, 67111918, 0, 0);
 
@@ -14596,7 +17398,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (29564, 0, 16777882);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41956, 'ace41956armortailoringkit');
+VALUES (41956, 'ace41956-armortailoringkit');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41956, 2650136, 41956, 16, 100690891, NULL, NULL, 33555677, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -14628,8 +17430,17 @@ VALUES (41956, 19, 10);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41956, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41956, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41956, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41956, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51445, 'ace51445weapontailoringkit');
+VALUES (51445, 'ace51445-weapontailoringkit');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51445, 2650136, 51445, 16, 100693217, NULL, NULL, 33555677, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -14661,8 +17472,17 @@ VALUES (51445, 19, 5);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51445, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51445, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51445, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51445, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51456, 'ace51456olthoisword');
+VALUES (51456, 'ace51456-olthoisword');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51456, 1344827416, 51456, 18, 100670666, 100667895, NULL, 33556589, 536870932, NULL, NULL, 101, 872415275, 137345, NULL, NULL, NULL);
@@ -14702,6 +17522,15 @@ VALUES (51456, 39, 1.1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51456, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51456, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51456, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51456, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (51456, 67111335, 0, 0);
@@ -14749,6 +17578,15 @@ VALUES (6123, 19, 5000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6123, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6123, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6123, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6123, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6123, 67111919, 0, 0);
 
@@ -14793,6 +17631,15 @@ VALUES (6125, 19, 5000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6125, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6125, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6125, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6125, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6125, 67111922, 0, 0);
@@ -14839,6 +17686,15 @@ VALUES (6321, 19, 5000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6321, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6321, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6321, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6321, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6321, 67111919, 0, 0);
 
@@ -14849,7 +17705,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (6321, 0, 16783974);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45379, 'ace45379sneakattackgemofforgetfulness');
+VALUES (45379, 'ace45379-sneakattackgemofforgetfulness');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45379, 1075855376, 45379, 18, 100673789, 100692241, NULL, 33558087, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -14872,11 +17728,20 @@ VALUES (45379, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45379, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45379, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45379, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45379, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45379, 67111924, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45383, 'ace45383shieldgemofenlightenment');
+VALUES (45383, 'ace45383-shieldgemofenlightenment');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45383, 1075855376, 45383, 18, 100673788, 100692240, NULL, 33558088, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -14898,6 +17763,15 @@ VALUES (45383, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45383, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45383, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45383, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45383, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45383, 67111923, 0, 0);
@@ -14926,6 +17800,15 @@ VALUES (22374, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22374, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22374, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22374, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22374, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22374, 67111923, 0, 0);
 
@@ -14952,6 +17835,15 @@ VALUES (22371, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22371, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22371, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22371, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22371, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22371, 67111923, 0, 0);
@@ -14980,11 +17872,20 @@ VALUES (22359, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22359, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22359, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22359, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22359, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22359, 67111923, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45381, 'ace45381dualwieldgemofenlightenment');
+VALUES (45381, 'ace45381-dualwieldgemofenlightenment');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45381, 1075855376, 45381, 18, 100673788, 100692236, NULL, 33558088, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -15006,6 +17907,15 @@ VALUES (45381, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45381, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45381, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45381, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45381, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45381, 67111923, 0, 0);
@@ -15034,6 +17944,15 @@ VALUES (22362, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22362, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22362, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22362, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22362, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22362, 67111923, 0, 0);
 
@@ -15060,6 +17979,15 @@ VALUES (22351, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22351, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22351, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22351, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22351, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22351, 67111923, 0, 0);
@@ -15088,6 +18016,15 @@ VALUES (22356, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22356, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22356, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22356, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22356, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22356, 67111923, 0, 0);
 
@@ -15114,6 +18051,15 @@ VALUES (22360, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22360, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22360, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22360, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22360, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22360, 67111923, 0, 0);
@@ -15160,6 +18106,18 @@ VALUES (30857, 19, 500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30857, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30857, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30857, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30857, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30857, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30857, 67111921, 0, 0);
 
@@ -15170,7 +18128,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30857, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45367, 'ace45367warriorscrystal');
+VALUES (45367, 'ace45367-warriorscrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45367, 1349005457, 45367, 335544336, 100686697, 100692245, 100686604, 33554809, 536870932, NULL, NULL, 101, 872415275, 169985, 5903, NULL, NULL);
@@ -15210,6 +18168,15 @@ VALUES (45367, 20, 'Warrior''s Crystals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45367, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45367, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45367, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45367, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45367, 67111919, 0, 0);
@@ -15259,6 +18226,15 @@ VALUES (30195, 20, 'Chef''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30195, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30195, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30195, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30195, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30195, 0, 83890391, 83890391);
 
@@ -15307,6 +18283,15 @@ VALUES (30209, 20, 'Physician''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30209, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30209, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30209, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30209, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30209, 67111924, 0, 0);
 
@@ -15317,7 +18302,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30209, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45366, 'ace45366brawlerscrystal');
+VALUES (45366, 'ace45366-brawlerscrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45366, 1349005457, 45366, 335544336, 100686697, 100692244, 100686604, 33554809, 536870932, NULL, NULL, 101, 872415275, 169985, 5911, NULL, NULL);
@@ -15357,6 +18342,15 @@ VALUES (45366, 20, 'Brawler''s Crystals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45366, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45366, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45366, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45366, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45366, 67111919, 0, 0);
@@ -15402,6 +18396,15 @@ VALUES (19241, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19241, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19241, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19241, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19241, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19241, 67113845, 0, 0);
@@ -15453,7 +18456,7 @@ VALUES (19241, 9, 16781837)
      , (19241, 16, 16778313);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41528, 'ace41528aetheriumpowercore');
+VALUES (41528, 'ace41528-aetheriumpowercore');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41528, 2125840, 41528, 16, 100690567, NULL, NULL, 33560864, 536870932, NULL, NULL, NULL, 872415275, 6145, NULL, NULL, NULL);
@@ -15478,6 +18481,15 @@ VALUES (41528, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41528, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41528, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41528, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41528, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10975, 'gemportalhabitat-xp');
@@ -15524,6 +18536,18 @@ VALUES (10975, 19, 20000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (10975, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10975, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10975, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10975, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10975, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (10975, 67111922, 0, 0);
 
@@ -15569,6 +18593,18 @@ VALUES (8213, 19, 1000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8213, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8213, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8213, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8213, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8213, 15, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (8213, 76, 0.5);
 
@@ -15608,8 +18644,17 @@ VALUES (8738, 39, 3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8738, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8738, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8738, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8738, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41442, 'ace41442platinumhornofleadership');
+VALUES (41442, 'ace41442-platinumhornofleadership');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41442, 275280016, 41442, 67108882, 100690583, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5122, NULL, NULL);
@@ -15650,8 +18695,17 @@ VALUES (41442, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41442, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41442, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41442, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41442, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (38723, 'ace38723celestialhandstrongholdportalgem');
+VALUES (38723, 'ace38723-celestialhandstrongholdportalgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (38723, 6844568, 38723, 67108880, 100672464, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -15695,6 +18749,18 @@ VALUES (38723, 19, 65000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (38723, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38723, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38723, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38723, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38723, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (38723, 67111922, 0, 0);
 
@@ -15737,8 +18803,17 @@ VALUES (23852, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23852, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23852, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23852, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23852, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42490, 'ace42490enchantedmanastone');
+VALUES (42490, 'ace42490-enchantedmanastone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42490, 553104, 42490, 67108882, 100676308, NULL, NULL, 33555641, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -15773,8 +18848,17 @@ VALUES (42490, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42490, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42490, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42490, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42490, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41945, 'ace41945strangejewel');
+VALUES (41945, 'ace41945-strangejewel');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41945, 553104, 41945, 67108882, 100674286, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -15809,6 +18893,15 @@ VALUES (41945, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41945, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41945, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41945, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41945, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22331, 'skillgemdownleadership');
 
@@ -15832,6 +18925,15 @@ VALUES (22331, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22331, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22331, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22331, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22331, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22331, 67111924, 0, 0);
@@ -15884,6 +18986,18 @@ VALUES (30046, 19, 8500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30046, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30046, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30046, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30046, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30046, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30046, 67111922, 0, 0);
 
@@ -15929,6 +19043,18 @@ VALUES (23991, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23991, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23991, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23991, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23991, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23991, 15, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (23991, 76, 0.5);
 
@@ -15942,7 +19068,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (23991, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (38726, 'ace38726blackmarketgemofdispelling');
+VALUES (38726, 'ace38726-blackmarketgemofdispelling');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (38726, 6844569, 38726, 16, 100671405, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137345, 4331, NULL, NULL);
@@ -15986,6 +19112,15 @@ VALUES (38726, 39, 1.2);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (38726, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38726, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38726, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38726, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (38726, 67111919, 0, 0);
 
@@ -16024,6 +19159,15 @@ VALUES (23928, 39, 0.4);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23928, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23928, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23928, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23928, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (23928, 0, 83886148, 83893269)
@@ -16287,6 +19431,18 @@ VALUES (8975, 19, 3000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8975, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8975, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8975, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8975, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8975, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8975, 67111922, 0, 0);
 
@@ -16297,7 +19453,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (8975, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43185, 'ace43185gemofknowledge');
+VALUES (43185, 'ace43185-gemofknowledge');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43185, 2125849, 43185, 16, 100689653, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -16328,6 +19484,15 @@ VALUES (43185, 20, 'Gems of Knowledge');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43185, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43185, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43185, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43185, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27390, 'gemquestfightdrudge');
@@ -16373,6 +19538,18 @@ VALUES (27390, 19, 500);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27390, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27390, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27390, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27390, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27390, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27390, 67111923, 0, 0);
@@ -16425,6 +19602,15 @@ VALUES (30228, 20, 'Evader''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30228, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30228, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30228, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30228, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30228, 67111919, 0, 0);
 
@@ -16473,6 +19659,15 @@ VALUES (30216, 20, 'Vaulter''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30216, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30216, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30216, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30216, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30216, 0, 83890391, 83890391);
 
@@ -16480,7 +19675,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30216, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41257, 'ace41257tingscrystal');
+VALUES (41257, 'ace41257-tingscrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41257, 1349021840, 41257, 335544336, 100686697, 100690691, 100686604, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5026, NULL, NULL);
@@ -16514,6 +19709,15 @@ VALUES (41257, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41257, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41257, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41257, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41257, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (41257, 0, 83890391, 83890391);
@@ -16563,6 +19767,15 @@ VALUES (30181, 20, 'Pearls of Acid Baning');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30181, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30181, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30181, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30181, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30181, 67111923, 0, 0);
 
@@ -16610,6 +19823,15 @@ VALUES (30236, 20, 'Thorsten''s Crystals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30236, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30236, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30236, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30236, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30236, 0, 83890391, 83890391);
@@ -16659,6 +19881,15 @@ VALUES (30207, 20, 'Pearls of Frost Baning');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30207, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30207, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30207, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30207, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30207, 67111919, 0, 0);
 
@@ -16669,7 +19900,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30207, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45368, 'ace45368berzerkerscrystal');
+VALUES (45368, 'ace45368-berzerkerscrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45368, 1349021841, 45368, 335544336, 100686697, 100686633, 100686604, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5905, NULL, NULL);
@@ -16709,6 +19940,15 @@ VALUES (45368, 20, 'Berzerker''s Crystals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45368, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45368, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45368, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45368, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45368, 67111919, 0, 0);
@@ -16758,6 +19998,15 @@ VALUES (30222, 20, 'Adherent''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30222, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30222, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30222, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30222, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30222, 0, 83890391, 83890391);
 
@@ -16799,6 +20048,15 @@ VALUES (29558, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29558, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29558, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29558, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29558, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29558, 67111921, 0, 0);
@@ -16851,6 +20109,15 @@ VALUES (30224, 20, 'Resister''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30224, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30224, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30224, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30224, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30224, 67111919, 0, 0);
 
@@ -16895,6 +20162,15 @@ VALUES (6319, 19, 5000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6319, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6319, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6319, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6319, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6319, 67111923, 0, 0);
@@ -16941,6 +20217,15 @@ VALUES (6320, 19, 5000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6320, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6320, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6320, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6320, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6320, 67111924, 0, 0);
 
@@ -16983,6 +20268,15 @@ VALUES (23854, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23854, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23854, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23854, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23854, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23851, 'shardblade');
 
@@ -17015,6 +20309,15 @@ VALUES (23851, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23851, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23851, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23851, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23851, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23855, 'shardlightning');
@@ -17049,6 +20352,15 @@ VALUES (23855, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23855, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23855, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23855, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23855, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6815, 'keyspirepiececragstone');
 
@@ -17081,6 +20393,15 @@ VALUES (6815, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6815, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6815, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6815, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6815, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30243, 'gemrarevolatilethrownweapons');
@@ -17120,6 +20441,15 @@ VALUES (30243, 20, 'Elysa''s Crystals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30243, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30243, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30243, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30243, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30243, 0, 83890391, 83890391);
@@ -17163,6 +20493,15 @@ VALUES (8740, 39, 3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8740, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8740, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8740, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8740, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28984, 'burunhide');
 
@@ -17189,6 +20528,15 @@ VALUES (28984, 39, 0.5);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28984, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28984, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28984, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28984, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28984, 67111918, 0, 0);
@@ -17241,6 +20589,15 @@ VALUES (30219, 20, 'Pearls of Lightning Baning');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30219, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30219, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30219, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30219, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30219, 67112924, 0, 0);
 
@@ -17289,6 +20646,15 @@ VALUES (30223, 20, 'Thorsten''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30223, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30223, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30223, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30223, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30223, 0, 83890391, 83890391);
 
@@ -17296,7 +20662,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30223, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (37088, 'ace37088invitationtothebattleburrows');
+VALUES (37088, 'ace37088-invitationtothebattleburrows');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (37088, 6844560, 37088, 16, 100667503, NULL, NULL, 33554776, 536870932, NULL, NULL, 101, 872415275, 137217, 4247, NULL, NULL);
@@ -17328,6 +20694,18 @@ VALUES (37088, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37088, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37088, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37088, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37088, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37088, 15, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22361, 'skillgemupfletching');
 
@@ -17351,6 +20729,15 @@ VALUES (22361, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22361, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22361, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22361, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22361, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22361, 67111923, 0, 0);
@@ -17393,6 +20780,15 @@ VALUES (24822, 20, 'Gems of Greater Fire Protection');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24822, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24822, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24822, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24822, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24822, 67111924, 0, 0);
@@ -17442,6 +20838,15 @@ VALUES (24823, 20, 'Gems of Greater Lightning Protection');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24823, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24823, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24823, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24823, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24823, 67111924, 0, 0);
 
@@ -17489,6 +20894,15 @@ VALUES (24819, 20, 'Gems of Greater Blade Protection');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24819, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24819, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24819, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24819, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24819, 67111924, 0, 0);
@@ -17538,6 +20952,15 @@ VALUES (24825, 20, 'Gems of Greater Piercing Protection');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24825, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24825, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24825, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24825, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24825, 67111924, 0, 0);
 
@@ -17585,6 +21008,15 @@ VALUES (24818, 20, 'Gems of Greater Protection');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24818, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24818, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24818, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24818, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24818, 67111924, 0, 0);
@@ -17634,6 +21066,15 @@ VALUES (24827, 20, 'Gems of Greater Rejuvenation');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24827, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24827, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24827, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24827, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24827, 67111924, 0, 0);
 
@@ -17681,6 +21122,15 @@ VALUES (24817, 20, 'Gems of Greater Acid Protection');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24817, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24817, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24817, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24817, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24817, 67111924, 0, 0);
@@ -17730,6 +21180,15 @@ VALUES (24826, 20, 'Gems of Greater Regeneration');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24826, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24826, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24826, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24826, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24826, 67111924, 0, 0);
 
@@ -17777,6 +21236,15 @@ VALUES (24820, 20, 'Gems of Greater Bludgeon Protection');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24820, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24820, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24820, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24820, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24820, 67111924, 0, 0);
@@ -17826,6 +21294,15 @@ VALUES (24821, 20, 'Gems of Greater Cold Protection');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24821, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24821, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24821, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24821, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24821, 67111924, 0, 0);
 
@@ -17836,7 +21313,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (24821, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44074, 'ace44074invitationtomasterfletchers');
+VALUES (44074, 'ace44074-invitationtomasterfletchers');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44074, 275280024, 44074, 67108880, 100667503, NULL, NULL, 33554818, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -17880,6 +21357,15 @@ VALUES (44074, 19, 1000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44074, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44074, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44074, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44074, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23856, 'shardpiercing');
 
@@ -17912,6 +21398,15 @@ VALUES (23856, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23856, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23856, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23856, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23856, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23853, 'shardflame');
@@ -17946,6 +21441,15 @@ VALUES (23853, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23853, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23853, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23853, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23853, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23849, 'shardacid');
 
@@ -17978,6 +21482,15 @@ VALUES (23849, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23849, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23849, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23849, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23849, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23850, 'shardarmor');
@@ -18012,6 +21525,15 @@ VALUES (23850, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23850, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23850, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23850, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23850, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8668, 'wispheartlow');
 
@@ -18044,6 +21566,18 @@ VALUES (8668, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8668, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8668, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8668, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8668, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8668, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8668, 67111919, 0, 0);
@@ -18090,6 +21624,15 @@ VALUES (8425, 19, 200);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8425, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8425, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8425, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8425, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8425, 67111921, 0, 0);
 
@@ -18131,6 +21674,18 @@ VALUES (8667, 39, 0.9);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8667, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8667, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8667, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8667, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8667, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8667, 67111919, 0, 0);
@@ -18177,6 +21732,15 @@ VALUES (24269, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24269, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24269, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24269, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24269, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6622, 'gemsparkling');
 
@@ -18215,6 +21779,15 @@ VALUES (6622, 39, 1.3);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6622, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6622, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6622, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6622, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6622, 67111921, 0, 0);
@@ -18260,6 +21833,15 @@ VALUES (6621, 39, 1.6);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6621, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6621, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6621, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6621, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6621, 67111921, 0, 0);
@@ -18309,6 +21891,15 @@ VALUES (6057, 39, 0.8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6057, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6057, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6057, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6057, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6057, 67111921, 0, 0);
 
@@ -18319,7 +21910,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (6057, 0, 16784015);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32793, 'ace32793rareredpackidol');
+VALUES (32793, 'ace32793-rareredpackidol');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32793, 271073296, 32793, 67108882, 100688661, NULL, 100686604, 33556892, NULL, 150995119, 'AAA9AAAAAAA=', NULL, 872415369, 69763, NULL, NULL, NULL);
@@ -18348,6 +21939,18 @@ VALUES (32793, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32793, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32793, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32793, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32793, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32793, 15, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (32793, 0, 83892904, 83897437)
      , (32793, 0, 83892905, 83897436)
@@ -18367,7 +21970,7 @@ VALUES (32793, 0, 16785366)
      , (32793, 6, 16777708);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32794, 'ace32794rarepinkpackidol');
+VALUES (32794, 'ace32794-rarepinkpackidol');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32794, 271073296, 32794, 67108882, 100688660, NULL, 100686604, 33556892, NULL, 150995119, 'AAA9AAAAAAA=', NULL, 872415369, 69763, NULL, NULL, NULL);
@@ -18395,6 +21998,18 @@ VALUES (32794, 39, 0.3);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32794, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32794, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32794, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32794, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32794, 15, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (32794, 0, 83892904, 83897443)
@@ -18456,6 +22071,15 @@ VALUES (30206, 20, 'Magus''s Pearls');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30206, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30206, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30206, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30206, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30206, 67111919, 0, 0);
 
@@ -18500,6 +22124,15 @@ VALUES (29552, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29552, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29552, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29552, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29552, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29552, 67111921, 0, 0);
@@ -18546,6 +22179,15 @@ VALUES (29559, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29559, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29559, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29559, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29559, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29559, 67111921, 0, 0);
 
@@ -18556,7 +22198,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (29559, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51874, 'ace51874contractforkillrynthidsorcerers');
+VALUES (51874, 'ace51874-contractforkillrynthidsorcerers');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51874, 553112, 51874, 67108882, 100691928, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -18594,8 +22236,17 @@ VALUES (51874, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51874, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51874, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51874, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51874, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51871, 'ace51871contractforkillrynthidrareboss');
+VALUES (51871, 'ace51871-contractforkillrynthidrareboss');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51871, 553112, 51871, 67108882, 100691928, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -18633,8 +22284,17 @@ VALUES (51871, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51871, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51871, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51871, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51871, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51873, 'ace51873contractforkillrynthidragers');
+VALUES (51873, 'ace51873-contractforkillrynthidragers');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51873, 553112, 51873, 67108882, 100691928, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -18672,8 +22332,17 @@ VALUES (51873, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51873, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51873, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51873, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51873, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51872, 'ace51872contractforkillrynthidslayers');
+VALUES (51872, 'ace51872-contractforkillrynthidslayers');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51872, 553112, 51872, 67108882, 100691928, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -18711,8 +22380,17 @@ VALUES (51872, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51872, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51872, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51872, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51872, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42979, 'ace42979coreplatingintegrator');
+VALUES (42979, 'ace42979-coreplatingintegrator');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42979, 1076654104, 42979, 18, 100690663, 100691312, NULL, 33555677, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -18747,8 +22425,17 @@ VALUES (42979, 4, 32768);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42979, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42979, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42979, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42979, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43022, 'ace43022coreplatingdeintegrator');
+VALUES (43022, 'ace43022-coreplatingdeintegrator');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43022, 1076654104, 43022, 18, 100690665, 100691318, NULL, 33555677, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -18783,6 +22470,15 @@ VALUES (43022, 4, 32768);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43022, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43022, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43022, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43022, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27456, 'ringinsigniabrokena');
 
@@ -18816,8 +22512,17 @@ VALUES (27456, 39, 1.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27456, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27456, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27456, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27456, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32933, 'ace32933sonofpookysden');
+VALUES (32933, 'ace32933-sonofpookysden');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32933, 1349021720, 32933, 67108882, 100668364, 100676404, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -18861,6 +22566,18 @@ VALUES (32933, 19, 500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32933, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32933, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32933, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32933, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32933, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32933, 67111924, 0, 0);
 
@@ -18871,7 +22588,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (32933, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44905, 'ace44905contractforthebeacon');
+VALUES (44905, 'ace44905-contractforthebeacon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44905, 553112, 44905, 67108882, 100691929, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -18909,8 +22626,17 @@ VALUES (44905, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44905, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44905, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44905, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44905, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44906, 'ace44906contractforthemissingnecklace');
+VALUES (44906, 'ace44906-contractforthemissingnecklace');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44906, 553112, 44906, 67108882, 100691929, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -18948,8 +22674,17 @@ VALUES (44906, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44906, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44906, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44906, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44906, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44907, 'ace44907contractforfaciltyhub');
+VALUES (44907, 'ace44907-contractforfaciltyhub');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44907, 553112, 44907, 67108882, 100691929, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -18987,8 +22722,17 @@ VALUES (44907, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44907, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44907, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44907, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44907, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44902, 'ace44902contractforholtburgredoubt');
+VALUES (44902, 'ace44902-contractforholtburgredoubt');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44902, 553112, 44902, 67108882, 100691929, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -19026,8 +22770,17 @@ VALUES (44902, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44902, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44902, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44902, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44902, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44900, 'ace44900contractfordrudgehideout');
+VALUES (44900, 'ace44900-contractfordrudgehideout');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44900, 553112, 44900, 67108882, 100691929, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -19065,8 +22818,17 @@ VALUES (44900, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44900, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44900, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44900, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44900, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42114, 'ace42114aetheriuminfusedgear');
+VALUES (42114, 'ace42114-aetheriuminfusedgear');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42114, 2125968, 42114, 16, 100672956, NULL, NULL, 33557681, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -19095,8 +22857,17 @@ VALUES (42114, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42114, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42114, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42114, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42114, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (46035, 'ace46035enhancedblackfireatlanstone');
+VALUES (46035, 'ace46035-enhancedblackfireatlanstone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (46035, 2650136, 46035, 18, 100670494, NULL, NULL, 33556407, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -19131,6 +22902,15 @@ VALUES (46035, 19, 5000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46035, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46035, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46035, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46035, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (46035, 67111927, 0, 0);
 
@@ -19141,7 +22921,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (46035, 0, 16783974);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32672, 'ace32672blackpageofsaltandash');
+VALUES (32672, 'ace32672-blackpageofsaltandash');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32672, 275280017, 32672, 16, 100688622, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 3869, NULL, NULL);
@@ -19181,6 +22961,15 @@ VALUES (32672, 20, 'Black Pages of Salt and Ash');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32672, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32672, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32672, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32672, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32672, 67111924, 0, 0);
@@ -19226,6 +23015,15 @@ VALUES (19219, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19219, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19219, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19219, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19219, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19219, 67113845, 0, 0);
@@ -19371,6 +23169,15 @@ VALUES (19233, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19233, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19233, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19233, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19233, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19233, 67113845, 0, 0);
@@ -19584,6 +23391,15 @@ VALUES (19247, 39, 0.7);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19247, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19247, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19247, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19247, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19247, 67113845, 0, 0);
 
@@ -19628,7 +23444,7 @@ VALUES (19247, 0, 16783894)
      , (19247, 16, 16787671);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (35296, 'ace35296packtowerguardian');
+VALUES (35296, 'ace35296-packtowerguardian');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (35296, 271073304, 35296, 18, 100674350, NULL, NULL, 33560282, 536870933, 150995206, 'AAA9AAAAAAA=', NULL, 872415269, 71811, NULL, NULL, NULL);
@@ -19659,6 +23475,15 @@ VALUES (35296, 39, 0.4);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35296, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35296, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35296, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35296, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (35296, 0, 83894477, 83892492)
@@ -19734,6 +23559,15 @@ VALUES (14531, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14531, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14531, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14531, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14531, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (14531, 0, 83892433, 83892492)
      , (14531, 0, 83892432, 83892492)
@@ -19748,7 +23582,7 @@ VALUES (14531, 0, 16784246)
      , (14531, 2, 16784180);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36186, 'ace36186gemofharbingersfrostbarrier');
+VALUES (36186, 'ace36186-gemofharbingersfrostbarrier');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36186, 6844569, 36186, 16, 100673901, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 4190, NULL, NULL);
@@ -19788,6 +23622,15 @@ VALUES (36186, 20, 'Gems of Harbinger''s Frost Barrier');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36186, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36186, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36186, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36186, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36186, 67111919, 0, 0);
@@ -19836,6 +23679,15 @@ VALUES (30246, 20, 'Artist''s Crystals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30246, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30246, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30246, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30246, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30246, 0, 83890391, 83890391);
@@ -19888,6 +23740,18 @@ VALUES (30807, 19, 5000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30807, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30807, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30807, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30807, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30807, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30807, 67111924, 0, 0);
 
@@ -19936,6 +23800,18 @@ VALUES (8116, 19, 1500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8116, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8116, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8116, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8116, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8116, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8116, 67111922, 0, 0);
 
@@ -19980,6 +23856,15 @@ VALUES (19244, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19244, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19244, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19244, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19244, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19244, 67113844, 0, 0);
@@ -20210,6 +24095,15 @@ VALUES (19240, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19240, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19240, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19240, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19240, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19240, 67113844, 0, 0);
@@ -20492,6 +24386,15 @@ VALUES (19242, 39, 0.7);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19242, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19242, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19242, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19242, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19242, 67113844, 0, 0);
 
@@ -20583,6 +24486,15 @@ VALUES (30218, 20, 'Life Giver''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30218, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30218, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30218, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30218, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30218, 67111919, 0, 0);
 
@@ -20631,6 +24543,15 @@ VALUES (30231, 20, 'Archer''s Jewels');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30231, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30231, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30231, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30231, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30231, 0, 83890391, 83890391);
 
@@ -20638,7 +24559,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30231, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34257, 'ace34257asheronslesserbenediction');
+VALUES (34257, 'ace34257-asheronslesserbenediction');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34257, 273182864, 34257, 67108882, 100683150, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 4024, NULL, NULL);
@@ -20676,8 +24597,17 @@ VALUES (34257, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34257, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34257, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34257, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34257, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44898, 'ace44898contractforundercovecrypt');
+VALUES (44898, 'ace44898-contractforundercovecrypt');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44898, 553112, 44898, 67108882, 100691929, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -20715,8 +24645,17 @@ VALUES (44898, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44898, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44898, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44898, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44898, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45566, 'ace45566contractforwardleyandthewights');
+VALUES (45566, 'ace45566-contractforwardleyandthewights');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45566, 553112, 45566, 67108882, 100691930, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -20754,6 +24693,15 @@ VALUES (45566, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45566, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45566, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45566, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45566, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8666, 'wispheart');
 
@@ -20786,6 +24734,18 @@ VALUES (8666, 39, 0.8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8666, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8666, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8666, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8666, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8666, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8666, 67111919, 0, 0);
@@ -20838,6 +24798,15 @@ VALUES (30215, 20, 'Tinker''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30215, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30215, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30215, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30215, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30215, 67111919, 0, 0);
 
@@ -20848,7 +24817,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30215, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33509, 'ace33509silveranwandtoken');
+VALUES (33509, 'ace33509-silveranwandtoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33509, 2097168, 33509, 18, 100688973, NULL, NULL, 33559991, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -20868,8 +24837,17 @@ VALUES (33509, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33509, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33509, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33509, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33509, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33508, 'ace33508silveranswordtoken');
+VALUES (33508, 'ace33508-silveranswordtoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33508, 2097168, 33508, 18, 100688972, NULL, NULL, 33559991, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -20889,8 +24867,17 @@ VALUES (33508, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33508, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33508, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33508, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33508, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33507, 'ace33507silveranstafftoken');
+VALUES (33507, 'ace33507-silveranstafftoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33507, 2097168, 33507, 18, 100688971, NULL, NULL, 33559991, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -20910,8 +24897,17 @@ VALUES (33507, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33507, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33507, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33507, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33507, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33506, 'ace33506silveranspeartoken');
+VALUES (33506, 'ace33506-silveranspeartoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33506, 2097168, 33506, 18, 100688970, NULL, NULL, 33559991, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -20931,8 +24927,17 @@ VALUES (33506, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33506, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33506, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33506, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33506, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33505, 'ace33505silveranmacetoken');
+VALUES (33505, 'ace33505-silveranmacetoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33505, 2097168, 33505, 18, 100688969, NULL, NULL, 33559991, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -20952,8 +24957,17 @@ VALUES (33505, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33505, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33505, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33505, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33505, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33504, 'ace33504silverandaggertoken');
+VALUES (33504, 'ace33504-silverandaggertoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33504, 2097168, 33504, 18, 100688968, NULL, NULL, 33559991, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -20973,8 +24987,17 @@ VALUES (33504, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33504, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33504, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33504, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33504, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33503, 'ace33503silverancrossbowtoken');
+VALUES (33503, 'ace33503-silverancrossbowtoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33503, 2097168, 33503, 18, 100688967, NULL, NULL, 33559991, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -20994,8 +25017,17 @@ VALUES (33503, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33503, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33503, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33503, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33503, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33502, 'ace33502silveranclawtoken');
+VALUES (33502, 'ace33502-silveranclawtoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33502, 2097168, 33502, 18, 100688966, NULL, NULL, 33559991, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -21015,8 +25047,17 @@ VALUES (33502, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33502, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33502, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33502, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33502, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33512, 'ace33512silveranbowtoken');
+VALUES (33512, 'ace33512-silveranbowtoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33512, 2097168, 33512, 18, 100688965, NULL, NULL, 33559991, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -21036,8 +25077,17 @@ VALUES (33512, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33512, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33512, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33512, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33512, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33511, 'ace33511silveranaxetoken');
+VALUES (33511, 'ace33511-silveranaxetoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33511, 2097168, 33511, 18, 100688964, NULL, NULL, 33559991, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -21057,8 +25107,17 @@ VALUES (33511, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33511, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33511, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33511, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33511, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33510, 'ace33510silveranatlatltoken');
+VALUES (33510, 'ace33510-silveranatlatltoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33510, 2097168, 33510, 18, 100688974, NULL, NULL, 33559991, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -21077,6 +25136,15 @@ VALUES (33510, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33510, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33510, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33510, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33510, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30208, 'gemrarevolatilefrostprotection');
@@ -21119,6 +25187,15 @@ VALUES (30208, 20, 'Gelid''s Jewels');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30208, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30208, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30208, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30208, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30208, 67111919, 0, 0);
@@ -21171,6 +25248,15 @@ VALUES (30204, 20, 'Pearls of Flame Baning');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30204, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30204, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30204, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30204, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30204, 67111924, 0, 0);
 
@@ -21219,6 +25305,15 @@ VALUES (30235, 20, 'Duelist''s Jewels');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30235, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30235, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30235, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30235, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30235, 0, 83890391, 83890391);
 
@@ -21226,7 +25321,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30235, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (31377, 'ace31377twilightfragment');
+VALUES (31377, 'ace31377-twilightfragment');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (31377, 2650128, 31377, 18, 100687953, NULL, NULL, 33556743, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -21255,8 +25350,17 @@ VALUES (31377, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31377, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31377, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31377, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31377, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (31378, 'ace31378ravenfragment');
+VALUES (31378, 'ace31378-ravenfragment');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (31378, 2179088, 31378, 18, 100687952, NULL, NULL, 33556743, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -21279,8 +25383,17 @@ VALUES (31378, 9, 16777216);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31378, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31378, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31378, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31378, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (38725, 'ace38725radiantbloodstrongholdportalgem');
+VALUES (38725, 'ace38725-radiantbloodstrongholdportalgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (38725, 6844568, 38725, 67108880, 100672464, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -21324,6 +25437,18 @@ VALUES (38725, 19, 125000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (38725, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38725, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38725, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38725, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38725, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (38725, 67111922, 0, 0);
 
@@ -21334,7 +25459,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (38725, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32254, 'ace32254gemofardentloyalty');
+VALUES (32254, 'ace32254-gemofardentloyalty');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32254, 271085584, 32254, 18, 100688417, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -21368,6 +25493,15 @@ VALUES (32254, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32254, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32254, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32254, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32254, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32254, 67111921, 0, 0);
@@ -21414,6 +25548,18 @@ VALUES (25705, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (25705, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25705, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25705, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25705, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25705, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25705, 67111920, 0, 0);
 
@@ -21456,6 +25602,15 @@ VALUES (28928, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28928, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28928, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28928, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28928, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28928, 67111921, 0, 0);
 
@@ -21466,7 +25621,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (28928, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33688, 'ace33688greatermukkirslayerstone');
+VALUES (33688, 'ace33688-greatermukkirslayerstone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33688, 2650264, 33688, 18, 100689081, NULL, NULL, 33556926, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -21504,6 +25659,15 @@ VALUES (33688, 19, 500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33688, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33688, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33688, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33688, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33688, 67111924, 0, 0);
 
@@ -21514,7 +25678,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (33688, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42403, 'ace42403leathervest');
+VALUES (42403, 'ace42403-leathervest');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42403, 1076654104, 42403, 18, 100675103, 100667895, NULL, 33554642, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -21552,6 +25716,15 @@ VALUES (42403, 4, 32768);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42403, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42403, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42403, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42403, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42403, 67114604, 174, 66);
 
@@ -21563,7 +25736,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (42403, 0, 16778382);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (52700, 'ace52700honeyedlifemead');
+VALUES (52700, 'ace52700-honeyedlifemead');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (52700, 275280025, 52700, 67108880, 100676320, NULL, 100689805, 33554603, 536870932, NULL, NULL, 101, 872415275, 137217, 6170, NULL, NULL);
@@ -21606,6 +25779,15 @@ VALUES (52700, 20, 'Bottles of Honeyed Life Mead');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52700, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52700, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52700, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52700, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (52700, 67111920, 0, 0);
@@ -21659,6 +25841,15 @@ VALUES (30201, 20, 'Pearls of Defending');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30201, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30201, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30201, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30201, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30201, 67111919, 0, 0);
 
@@ -21710,6 +25901,15 @@ VALUES (30193, 20, 'Tusker''s Jewels');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30193, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30193, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30193, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30193, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30193, 67111927, 0, 0);
 
@@ -21720,7 +25920,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30193, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53450, 'ace53450viridianrisederuportalsendinggem');
+VALUES (53450, 'ace53450-viridianrisederuportalsendinggem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53450, 275280016, 53450, 16, 100693361, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 399361, 6322, NULL, NULL);
@@ -21758,6 +25958,18 @@ VALUES (53450, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53450, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53450, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53450, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53450, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53450, 15, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (53450, 76, 0.5);
 
@@ -21771,7 +25983,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53450, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39370, 'ace39370rarepacktthuun');
+VALUES (39370, 'ace39370-rarepacktthuun');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (39370, 271056912, 39370, 18, 100671186, NULL, NULL, 33560662, 536871015, 150995444, 'AAA9AAAAAAA=', NULL, 872415332, 104579, NULL, NULL, NULL);
@@ -21800,8 +26012,17 @@ VALUES (39370, 39, 0.5);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (39370, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39370, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39370, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39370, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34573, 'ace34573smallshadowstatueofthehopeslayer');
+VALUES (34573, 'ace34573-smallshadowstatueofthehopeslayer');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34573, 270532632, 34573, 18, 100689315, NULL, NULL, 33560170, 536871017, NULL, NULL, NULL, 872415369, 39041, NULL, NULL, NULL);
@@ -21829,6 +26050,15 @@ VALUES (34573, 39, 0.2);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34573, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34573, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34573, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34573, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30810, 'gemportalburningtower');
@@ -21869,8 +26099,20 @@ VALUES (30810, 19, 400);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30810, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30810, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30810, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30810, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30810, 15, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36503, 'ace36503lairofthehomunculus');
+VALUES (36503, 'ace36503-lairofthehomunculus');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36503, 1349021720, 36503, 67108882, 100676445, 100676404, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -21914,6 +26156,18 @@ VALUES (36503, 19, 4);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36503, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36503, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36503, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36503, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36503, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36503, 67111921, 0, 0);
 
@@ -21924,7 +26178,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36503, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36500, 'ace36500darktowers');
+VALUES (36500, 'ace36500-darktowers');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36500, 1349021720, 36500, 67108882, 100668364, 100676404, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -21968,6 +26222,18 @@ VALUES (36500, 19, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36500, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36500, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36500, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36500, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36500, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36500, 67111924, 0, 0);
 
@@ -21978,7 +26244,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36500, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36502, 'ace36502oubliette');
+VALUES (36502, 'ace36502-oubliette');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36502, 1349021720, 36502, 67108882, 100668364, 100676404, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -22022,6 +26288,18 @@ VALUES (36502, 19, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36502, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36502, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36502, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36502, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36502, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36502, 67111924, 0, 0);
 
@@ -22032,7 +26310,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36502, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36504, 'ace36504niffisfightingpits');
+VALUES (36504, 'ace36504-niffisfightingpits');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36504, 1349021720, 36504, 67108882, 100668364, 100676404, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -22076,6 +26354,18 @@ VALUES (36504, 19, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36504, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36504, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36504, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36504, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36504, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36504, 67111921, 0, 0);
 
@@ -22086,7 +26376,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36504, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36507, 'ace36507sonofpookysden');
+VALUES (36507, 'ace36507-sonofpookysden');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36507, 1349021720, 36507, 67108882, 100668364, 100676404, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -22130,6 +26420,18 @@ VALUES (36507, 19, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36507, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36507, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36507, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36507, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36507, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36507, 67111924, 0, 0);
 
@@ -22140,7 +26442,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36507, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36505, 'ace36505mukkirnestportalgem');
+VALUES (36505, 'ace36505-mukkirnestportalgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36505, 1349021720, 36505, 67108882, 100668364, 100676404, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -22184,6 +26486,18 @@ VALUES (36505, 19, 4);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36505, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36505, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36505, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36505, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36505, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36505, 67111924, 0, 0);
 
@@ -22194,7 +26508,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36505, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36506, 'ace36506restingplace');
+VALUES (36506, 'ace36506-restingplace');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36506, 1349021720, 36506, 67108882, 100676445, 100676404, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -22238,6 +26552,18 @@ VALUES (36506, 19, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36506, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36506, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36506, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36506, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36506, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36506, 67111921, 0, 0);
 
@@ -22248,7 +26574,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36506, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36501, 'ace36501drudgefight');
+VALUES (36501, 'ace36501-drudgefight');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36501, 1349021720, 36501, 67108882, 100668362, 100676404, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -22292,6 +26618,18 @@ VALUES (36501, 19, 4);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36501, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36501, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36501, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36501, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36501, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36501, 67111923, 0, 0);
 
@@ -22302,7 +26640,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36501, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36498, 'ace36498goldhillruins');
+VALUES (36498, 'ace36498-goldhillruins');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36498, 1349021720, 36498, 67108882, 100668366, 100676404, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -22346,6 +26684,18 @@ VALUES (36498, 19, 4);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36498, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36498, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36498, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36498, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36498, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36498, 67111921, 0, 0);
 
@@ -22356,7 +26706,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36498, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36499, 'ace36499darkmonolithcaverns');
+VALUES (36499, 'ace36499-darkmonolithcaverns');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36499, 1349021720, 36499, 67108882, 100668364, 100676404, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -22399,6 +26749,18 @@ VALUES (36499, 19, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36499, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36499, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36499, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36499, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36499, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36499, 67111924, 0, 0);
@@ -22448,6 +26810,18 @@ VALUES (30809, 19, 400);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30809, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30809, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30809, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30809, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30809, 15, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30802, 'gemportalpanopticon');
 
@@ -22486,6 +26860,18 @@ VALUES (30802, 19, 400);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30802, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30802, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30802, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30802, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30802, 15, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30811, 'gemportalcaulcano');
@@ -22528,6 +26914,18 @@ VALUES (30811, 19, 400);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30811, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30811, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30811, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30811, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30811, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30811, 67110021, 240, 10)
@@ -22580,6 +26978,18 @@ VALUES (30801, 19, 400);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30801, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30801, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30801, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30801, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30801, 15, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27772, 'gemportalsunkenmerenewbie');
 
@@ -22624,6 +27034,18 @@ VALUES (27772, 19, 5000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27772, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27772, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27772, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27772, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27772, 15, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27770, 'gemportalsunkenmerelow');
@@ -22670,6 +27092,18 @@ VALUES (27770, 19, 10000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27770, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27770, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27770, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27770, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27770, 15, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27771, 'gemportalsunkenmeremid');
 
@@ -22714,6 +27148,18 @@ VALUES (27771, 19, 15000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27771, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27771, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27771, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27771, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27771, 15, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27769, 'gemportalsunkenmerehigh');
@@ -22760,6 +27206,18 @@ VALUES (27769, 19, 20000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27769, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27769, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27769, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27769, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27769, 15, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27768, 'gemportalsunkenmereextreme');
 
@@ -22805,6 +27263,18 @@ VALUES (27768, 19, 30000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27768, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27768, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27768, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27768, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27768, 15, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9042, 'gemlyceumrecall');
 
@@ -22844,6 +27314,18 @@ VALUES (9042, 19, 10);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9042, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9042, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9042, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9042, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9042, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9042, 67111922, 0, 0);
 
@@ -22854,7 +27336,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (9042, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51474, 'ace51474orbofthebunnybooty');
+VALUES (51474, 'ace51474-orbofthebunnybooty');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51474, 1344827416, 51474, 18, 100669116, 100667895, NULL, 33556870, 536870932, NULL, NULL, NULL, 872415275, 6273, NULL, NULL, NULL);
@@ -22895,6 +27377,15 @@ VALUES (51474, 39, 1.6);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51474, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51474, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51474, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51474, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (51474, 67111338, 0, 0);
 
@@ -22932,7 +27423,7 @@ VALUES (51474, 0, 16782183)
      , (51474, 12, 16777708);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43189, 'ace43189gemofknowledge');
+VALUES (43189, 'ace43189-gemofknowledge');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43189, 2125849, 43189, 16, 100689653, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -22964,8 +27455,17 @@ VALUES (43189, 20, 'Gems of Knowledge');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43189, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43189, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43189, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43189, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51372, 'ace51372frozenvalleyportalgem');
+VALUES (51372, 'ace51372-frozenvalleyportalgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51372, 6844560, 51372, 16, 100693112, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 399361, 6147, NULL, NULL);
@@ -22999,6 +27499,18 @@ VALUES (51372, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51372, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51372, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51372, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51372, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51372, 15, True);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (51372, 76, 0.5);
@@ -23051,6 +27563,15 @@ VALUES (30813, 19, 5000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30813, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30813, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30813, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30813, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30813, 67114793, 0, 0);
 
@@ -23083,6 +27604,15 @@ VALUES (27435, 39, 1.6);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27435, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27435, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27435, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27435, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8117, 'gemportalshendolain');
@@ -23123,6 +27653,18 @@ VALUES (8117, 19, 1500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8117, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8117, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8117, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8117, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8117, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8117, 67111922, 0, 0);
 
@@ -23133,7 +27675,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (8117, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (52701, 'ace52701honeyedmanamead');
+VALUES (52701, 'ace52701-honeyedmanamead');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (52701, 275280025, 52701, 67108880, 100676320, NULL, 100689823, 33554603, 536870932, NULL, NULL, 101, 872415275, 137217, 6171, NULL, NULL);
@@ -23177,6 +27719,15 @@ VALUES (52701, 20, 'Bottles of Honeyed Mana Mead');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52701, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52701, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52701, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52701, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (52701, 67111920, 0, 0);
 
@@ -23188,7 +27739,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (52701, 0, 16778735);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (52703, 'ace52703honeyedvigormead');
+VALUES (52703, 'ace52703-honeyedvigormead');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (52703, 275280025, 52703, 67108880, 100676320, NULL, 100689826, 33554603, 536870932, NULL, NULL, 101, 872415275, 137217, 6172, NULL, NULL);
@@ -23232,6 +27783,15 @@ VALUES (52703, 20, 'Bottles of Honeyed Vigor Mead');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52703, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52703, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52703, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52703, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (52703, 67111920, 0, 0);
 
@@ -23243,7 +27803,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (52703, 0, 16778735);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (31425, 'ace31425rageofgraelgem');
+VALUES (31425, 'ace31425-rageofgraelgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (31425, 275280016, 31425, 16, 100687889, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 3828, NULL, NULL);
@@ -23281,6 +27841,15 @@ VALUES (31425, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31425, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31425, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31425, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31425, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31425, 67111924, 0, 0);
 
@@ -23291,7 +27860,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (31425, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43261, 'ace43261darkapostateshard');
+VALUES (43261, 'ace43261-darkapostateshard');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43261, 552976, 43261, 18, 100691482, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -23320,6 +27889,15 @@ VALUES (43261, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43261, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43261, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43261, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43261, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43261, 67111922, 0, 0);
 
@@ -23330,7 +27908,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43261, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43259, 'ace43259glowingapostateshard');
+VALUES (43259, 'ace43259-glowingapostateshard');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43259, 553104, 43259, 67108882, 100691482, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -23365,6 +27943,15 @@ VALUES (43259, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43259, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43259, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43259, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43259, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43259, 67111922, 0, 0);
 
@@ -23375,7 +27962,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43259, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43273, 'ace43273engorgedbloodstoneshard');
+VALUES (43273, 'ace43273-engorgedbloodstoneshard');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43273, 2113552, 43273, 18, 100691499, NULL, NULL, 33561126, 536870932, NULL, NULL, NULL, 872415275, 6145, NULL, NULL, NULL);
@@ -23395,8 +27982,17 @@ VALUES (43273, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43273, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43273, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43273, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43273, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39914, 'ace39914empyreancrystal');
+VALUES (39914, 'ace39914-empyreancrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (39914, 2650136, 39914, 18, 100672516, NULL, NULL, 33556407, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -23428,6 +28024,15 @@ VALUES (39914, 19, 25);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (39914, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39914, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39914, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39914, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (39914, 0, 83889688, 83890391);
 
@@ -23435,7 +28040,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39914, 0, 16783974);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41455, 'ace41455virindicouncilloressence');
+VALUES (41455, 'ace41455-virindicouncilloressence');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41455, 275280016, 41455, 67108882, 100690744, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5159, NULL, NULL);
@@ -23479,6 +28084,15 @@ VALUES (41455, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41455, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41455, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41455, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41455, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41455, 67111926, 0, 0);
 
@@ -23489,7 +28103,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (41455, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41454, 'ace41454virindimasteressence');
+VALUES (41454, 'ace41454-virindimasteressence');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41454, 275280016, 41454, 67108882, 100690743, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5158, NULL, NULL);
@@ -23533,6 +28147,15 @@ VALUES (41454, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41454, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41454, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41454, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41454, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41454, 67111920, 0, 0);
 
@@ -23543,7 +28166,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (41454, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41453, 'ace41453virindiservantessence');
+VALUES (41453, 'ace41453-virindiservantessence');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41453, 275280016, 41453, 67108882, 100690742, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5157, NULL, NULL);
@@ -23583,6 +28206,15 @@ VALUES (41453, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41453, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41453, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41453, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41453, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (41453, 0, 83890391, 83890391);
@@ -23629,6 +28261,15 @@ VALUES (30217, 20, 'Monarch''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30217, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30217, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30217, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30217, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30217, 0, 83890391, 83890391);
 
@@ -23636,7 +28277,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30217, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44444, 'ace44444celestialhandrobe');
+VALUES (44444, 'ace44444-celestialhandrobe');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44444, 1076654104, 44444, 18, 100692003, 100667895, NULL, 33554854, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -23671,11 +28312,20 @@ VALUES (44444, 4, 1024);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44444, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44444, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44444, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44444, 14, True);
+
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44444, 0, 16795582);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (46454, 'ace46454societygemoflesserluminance');
+VALUES (46454, 'ace46454-societygemoflesserluminance');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (46454, 2125849, 46454, 16, 100692118, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -23707,8 +28357,17 @@ VALUES (46454, 20, 'Society Gems of Lesser Luminance');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46454, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46454, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46454, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46454, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45360, 'ace45360roguescrystal');
+VALUES (45360, 'ace45360-roguescrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45360, 1349021841, 45360, 335544336, 100686697, 100692247, 100686604, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5909, NULL, NULL);
@@ -23748,6 +28407,15 @@ VALUES (45360, 20, 'Rogue''s Crystals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45360, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45360, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45360, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45360, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45360, 67111919, 0, 0);
@@ -23800,6 +28468,15 @@ VALUES (30227, 20, 'Mage''s Jewels');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30227, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30227, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30227, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30227, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30227, 67111919, 0, 0);
 
@@ -23810,7 +28487,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30227, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (35491, 'ace35491maelstromofsoulsgem');
+VALUES (35491, 'ace35491-maelstromofsoulsgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (35491, 2650264, 35491, 18, 100689503, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -23848,6 +28525,15 @@ VALUES (35491, 19, 25);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35491, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35491, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35491, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35491, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35491, 67111924, 0, 0);
 
@@ -23858,7 +28544,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (35491, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36618, 'ace36618gladiatorsdefensearmoraugmentation');
+VALUES (36618, 'ace36618-gladiatorsdefensearmoraugmentation');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36618, 1076392088, 36618, 18, 100686475, 100686637, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -23895,6 +28581,15 @@ VALUES (36618, 19, 15);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36618, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36618, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36618, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36618, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36618, 67111920, 0, 0);
@@ -23940,6 +28635,15 @@ VALUES (22620, 39, 0.3);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22620, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22620, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22620, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22620, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22620, 67113012, 0, 0);
@@ -24036,6 +28740,18 @@ VALUES (27512, 19, 2000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27512, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27512, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27512, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27512, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27512, 15, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (27512, 76, 0.5);
 
@@ -24049,7 +28765,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (27512, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32310, 'ace32310glendenwoodmilitiatitletoken');
+VALUES (32310, 'ace32310-glendenwoodmilitiatitletoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32310, 2113560, 32310, 18, 100667518, NULL, NULL, 33558119, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -24072,8 +28788,17 @@ VALUES (32310, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32310, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32310, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32310, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32310, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32588, 'ace32588repairedshadowstone');
+VALUES (32588, 'ace32588-repairedshadowstone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32588, 270549016, 32588, 18, 100670494, NULL, NULL, 33559809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -24098,6 +28823,12 @@ VALUES (32588, 19, 10000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32588, 93, 1040);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32588, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32588, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30233, 'gemrarevolatilerun');
@@ -24137,6 +28868,15 @@ VALUES (30233, 20, 'Zefir''s Crystals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30233, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30233, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30233, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30233, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30233, 0, 83890391, 83890391);
@@ -24186,6 +28926,15 @@ VALUES (30226, 20, 'Converter''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30226, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30226, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30226, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30226, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30226, 67111919, 0, 0);
 
@@ -24234,6 +28983,15 @@ VALUES (30242, 20, 'Ben Ten''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30242, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30242, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30242, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30242, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30242, 0, 83890391, 83890391);
 
@@ -24278,6 +29036,15 @@ VALUES (30238, 20, 'Thorsten''s Crystals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30238, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30238, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30238, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30238, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30238, 0, 83890391, 83890391);
@@ -24324,6 +29091,15 @@ VALUES (30244, 20, 'Thorsten''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30244, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30244, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30244, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30244, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30244, 0, 83890391, 83890391);
 
@@ -24368,6 +29144,15 @@ VALUES (3713, 19, 750);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3713, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3713, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3713, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3713, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3713, 67111927, 0, 0);
@@ -24417,6 +29202,15 @@ VALUES (7316, 19, 1500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7316, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7316, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7316, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7316, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (7316, 67111922, 0, 0);
 
@@ -24427,7 +29221,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (7316, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44155, 'ace44155contractforbanderlinghaunt');
+VALUES (44155, 'ace44155-contractforbanderlinghaunt');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44155, 553112, 44155, 67108882, 100691926, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -24465,6 +29259,15 @@ VALUES (44155, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44155, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44155, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44155, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44155, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29555, 'gemnobleendurance');
 
@@ -24500,6 +29303,15 @@ VALUES (29555, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29555, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29555, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29555, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29555, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29555, 67111921, 0, 0);
@@ -24545,6 +29357,15 @@ VALUES (20185, 39, 1.2);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20185, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20185, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20185, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20185, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (20185, 67112926, 0, 0);
@@ -24592,6 +29413,15 @@ VALUES (6662, 19, 3200);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6662, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6662, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6662, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6662, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6662, 67111924, 0, 0);
 
@@ -24636,6 +29466,15 @@ VALUES (6660, 19, 2800);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6660, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6660, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6660, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6660, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6660, 67111924, 0, 0);
@@ -24682,6 +29521,15 @@ VALUES (11815, 39, 0.8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11815, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11815, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11815, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11815, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11862, 'reedsharksymbol');
 
@@ -24714,6 +29562,15 @@ VALUES (11862, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11862, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11862, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11862, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11862, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6318, 'stonesparkingminor');
@@ -24750,6 +29607,15 @@ VALUES (6318, 19, 5000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6318, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6318, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6318, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6318, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6318, 67111922, 0, 0);
@@ -24799,6 +29665,15 @@ VALUES (11824, 19, 1500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11824, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11824, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11824, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11824, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11824, 67111924, 0, 0);
 
@@ -24847,6 +29722,15 @@ VALUES (11823, 19, 1500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11823, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11823, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11823, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11823, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11823, 67111924, 0, 0);
 
@@ -24886,6 +29770,15 @@ VALUES (10805, 39, 0.2);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (10805, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10805, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10805, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10805, 14, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (10805, 76, 0.25);
 
@@ -24921,6 +29814,15 @@ VALUES (11861, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11861, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11861, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11861, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11861, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25466, 'gemportalhiddenwarehouserot2');
@@ -24961,6 +29863,18 @@ VALUES (25466, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (25466, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25466, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25466, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25466, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25466, 15, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (25466, 76, 0.5);
 
@@ -24997,6 +29911,15 @@ VALUES (22375, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22375, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22375, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22375, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22375, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22375, 67111923, 0, 0);
 
@@ -25029,6 +29952,15 @@ VALUES (8113, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8113, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8113, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8113, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8113, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8113, 67112924, 0, 0);
@@ -25069,6 +30001,15 @@ VALUES (8118, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8118, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8118, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8118, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8118, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8118, 67112926, 0, 0);
 
@@ -25102,8 +30043,17 @@ VALUES (22826, 19, 75);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22826, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22826, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22826, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22826, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41447, 'ace41447platinummedalofintellect');
+VALUES (41447, 'ace41447-platinummedalofintellect');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41447, 275280016, 41447, 67108882, 100690741, NULL, NULL, 33554802, 536870932, NULL, NULL, 101, 872415275, 137217, 5127, NULL, NULL);
@@ -25144,8 +30094,17 @@ VALUES (41447, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41447, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41447, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41447, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41447, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41452, 'ace41452platinummedalofvigor');
+VALUES (41452, 'ace41452-platinummedalofvigor');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41452, 275280016, 41452, 67108882, 100690741, NULL, NULL, 33554802, 536870932, NULL, NULL, 101, 872415275, 137217, 5132, NULL, NULL);
@@ -25186,8 +30145,17 @@ VALUES (41452, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41452, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41452, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41452, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41452, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (52025, 'ace52025luminouscrystalofraredamagereductionv');
+VALUES (52025, 'ace52025-luminouscrystalofraredamagereductionv');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (52025, 1349021849, 52025, 67108880, 100690568, 100686629, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5192, NULL, NULL);
@@ -25231,6 +30199,15 @@ VALUES (52025, 20, 'Luminous Crystals of Rare Damage Reduction V');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52025, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52025, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52025, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52025, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (52025, 67111924, 0, 0);
 
@@ -25241,7 +30218,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (52025, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44296, 'ace44296ancienttabletofthecrystalidollevel180');
+VALUES (44296, 'ace44296-ancienttabletofthecrystalidollevel180');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44296, 553104, 44296, 67108882, 100691960, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -25276,8 +30253,17 @@ VALUES (44296, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44296, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44296, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44296, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44296, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42346, 'ace42346wellcraftedbow');
+VALUES (42346, 'ace42346-wellcraftedbow');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42346, 2621456, 42346, 18, 100667582, NULL, NULL, 33557755, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -25300,8 +30286,17 @@ VALUES (42346, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42346, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42346, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42346, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42346, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42345, 'ace42345wellcraftedwand');
+VALUES (42345, 'ace42345-wellcraftedwand');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42345, 2621456, 42345, 18, 100677434, NULL, NULL, 33558929, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -25324,8 +30319,17 @@ VALUES (42345, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42345, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42345, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42345, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42345, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42344, 'ace42344wellcraftedsword');
+VALUES (42344, 'ace42344-wellcraftedsword');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42344, 2621456, 42344, 18, 100686773, NULL, NULL, 33560691, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -25348,8 +30352,17 @@ VALUES (42344, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42344, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42344, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42344, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42344, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33960, 'ace33960uninscriptionstone');
+VALUES (33960, 'ace33960-uninscriptionstone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33960, 2633880, 33960, 16, 100673296, NULL, NULL, 33556976, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -25387,6 +30400,15 @@ VALUES (33960, 19, 2500000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33960, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33960, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33960, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33960, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33960, 67111921, 0, 0);
 
@@ -25397,7 +30419,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (33960, 0, 16778862);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (31667, 'ace31667cryptofadhorixportalgem');
+VALUES (31667, 'ace31667-cryptofadhorixportalgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (31667, 1080586256, 31667, 67108882, 100668362, 100676404, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -25434,6 +30456,18 @@ VALUES (31667, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31667, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31667, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31667, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31667, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31667, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31667, 67111923, 0, 0);
@@ -25486,6 +30520,15 @@ VALUES (30241, 20, 'Pearls of Swift Killing');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30241, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30241, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30241, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30241, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30241, 67111919, 0, 0);
 
@@ -25537,6 +30580,15 @@ VALUES (30234, 20, 'Lich''s Pearls');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30234, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30234, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30234, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30234, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30234, 67111919, 0, 0);
 
@@ -25547,7 +30599,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30234, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44126, 'ace44126scryingrod');
+VALUES (44126, 'ace44126-scryingrod');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44126, 553104, 44126, 67108882, 100691953, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -25582,8 +30634,17 @@ VALUES (44126, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44126, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44126, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44126, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44126, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36633, 'ace36633missiledefenseweaponaugmentation');
+VALUES (36633, 'ace36633-missiledefenseweaponaugmentation');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36633, 1076392088, 36633, 18, 100686475, 100686676, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -25620,6 +30681,15 @@ VALUES (36633, 19, 2);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36633, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36633, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36633, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36633, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36633, 67111920, 0, 0);
@@ -25672,6 +30742,15 @@ VALUES (30191, 20, 'Pearls of Blood Drinking');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30191, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30191, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30191, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30191, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30191, 67111924, 0, 0);
 
@@ -25720,6 +30799,15 @@ VALUES (30202, 20, 'Ursuin''s Pearls');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30202, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30202, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30202, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30202, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30202, 0, 83890391, 83890391);
 
@@ -25764,6 +30852,15 @@ VALUES (30196, 20, 'Wayfarer''s Pearls');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30196, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30196, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30196, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30196, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30196, 0, 83890391, 83890391);
@@ -25813,6 +30910,15 @@ VALUES (30232, 20, 'Sprinter''s Pearls');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30232, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30232, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30232, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30232, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30232, 67111919, 0, 0);
 
@@ -25823,7 +30929,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30232, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (35492, 'ace35492gemofspectralforce');
+VALUES (35492, 'ace35492-gemofspectralforce');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (35492, 2650264, 35492, 18, 100689504, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -25861,6 +30967,15 @@ VALUES (35492, 19, 25);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35492, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35492, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35492, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35492, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35492, 67111920, 0, 0);
 
@@ -25871,7 +30986,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (35492, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33958, 'ace33958crystaloffrozenelementalessence');
+VALUES (33958, 'ace33958-crystaloffrozenelementalessence');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33958, 2637840, 33958, 18, 100670489, NULL, NULL, 33556407, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -25896,6 +31011,15 @@ VALUES (33958, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33958, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33958, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33958, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33958, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33958, 67111919, 0, 0);
@@ -25948,6 +31072,15 @@ VALUES (30213, 20, 'Pearls of Impenetrability');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30213, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30213, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30213, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30213, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30213, 67111927, 0, 0);
 
@@ -25998,6 +31131,15 @@ VALUES (30212, 20, 'Pearls of Hermetic Linking');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30212, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30212, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30212, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30212, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30212, 67111919, 0, 0);
@@ -26050,6 +31192,15 @@ VALUES (30237, 20, 'Pearls of Spirit Drinking');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30237, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30237, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30237, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30237, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30237, 67111919, 0, 0);
 
@@ -26060,7 +31211,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30237, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32081, 'ace32081redspireportalgem');
+VALUES (32081, 'ace32081-redspireportalgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32081, 6844568, 32081, 67108880, 100674856, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -26103,6 +31254,18 @@ VALUES (32081, 19, 3000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32081, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32081, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32081, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32081, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32081, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32081, 67111922, 0, 0);
@@ -26157,6 +31320,18 @@ VALUES (29446, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29446, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29446, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29446, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29446, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29446, 15, True);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (29446, 76, 0.5);
@@ -26215,6 +31390,18 @@ VALUES (30400, 19, 500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30400, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30400, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30400, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30400, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30400, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30400, 67111921, 0, 0);
 
@@ -26225,7 +31412,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30400, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43084, 'ace43084brightlyglowingdatacrystal');
+VALUES (43084, 'ace43084-brightlyglowingdatacrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43084, 2113680, 43084, 18, 100674736, NULL, NULL, 33554809, 536871017, NULL, NULL, 101, 872415369, 137217, NULL, NULL, NULL);
@@ -26251,6 +31438,15 @@ VALUES (43084, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43084, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43084, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43084, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43084, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43084, 67111919, 0, 0);
 
@@ -26261,7 +31457,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43084, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42038, 'ace42038spectralskull');
+VALUES (42038, 'ace42038-spectralskull');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42038, 1076392088, 42038, 67108880, 100671219, 100690863, 100689404, 33556926, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -26299,6 +31495,15 @@ VALUES (42038, 19, 50);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42038, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42038, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42038, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42038, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42038, 67112926, 0, 0);
 
@@ -26309,7 +31514,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (42038, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43472, 'ace43472luminouspearlofblooddrinking');
+VALUES (43472, 'ace43472-luminouspearlofblooddrinking');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43472, 1349021841, 43472, 67108880, 100686695, 100686635, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 4395, NULL, NULL);
@@ -26350,6 +31555,15 @@ VALUES (43472, 20, 'Luminous Pearls of Blood Drinking');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43472, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43472, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43472, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43472, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43472, 67111924, 0, 0);
 
@@ -26360,7 +31574,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43472, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41459, 'ace41459silverhornofleadership');
+VALUES (41459, 'ace41459-silverhornofleadership');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41459, 275280016, 41459, 67108882, 100690573, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5134, NULL, NULL);
@@ -26401,8 +31615,17 @@ VALUES (41459, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41459, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41459, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41459, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41459, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33957, 'ace33957crystalofelectricelementalessence');
+VALUES (33957, 'ace33957-crystalofelectricelementalessence');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33957, 2637840, 33957, 18, 100670492, NULL, NULL, 33556407, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -26428,6 +31651,15 @@ VALUES (33957, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33957, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33957, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33957, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33957, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33957, 67111922, 0, 0);
 
@@ -26438,7 +31670,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (33957, 0, 16783974);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (37059, 'ace37059eastgateharmoniccrystal');
+VALUES (37059, 'ace37059-eastgateharmoniccrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (37059, 2125976, 37059, 18, 100670756, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -26473,6 +31705,15 @@ VALUES (37059, 19, 10);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37059, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37059, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37059, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37059, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37059, 67111921, 0, 0);
 
@@ -26483,7 +31724,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (37059, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42726, 'ace42726armorlayeringtoolbottom');
+VALUES (42726, 'ace42726-armorlayeringtoolbottom');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42726, 2650136, 42726, 16, 100691005, NULL, NULL, 33555677, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -26515,8 +31756,17 @@ VALUES (42726, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42726, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42726, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42726, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42726, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42724, 'ace42724armorlayeringtooltop');
+VALUES (42724, 'ace42724-armorlayeringtooltop');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42724, 2650136, 42724, 16, 100691006, NULL, NULL, 33555677, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -26548,8 +31798,17 @@ VALUES (42724, 19, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42724, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42724, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42724, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42724, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51497, 'ace51497compositebowwithexquisitehandle');
+VALUES (51497, 'ace51497-compositebowwithexquisitehandle');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51497, 1344827416, 51497, 18, 100670670, 100667895, NULL, 33556600, 536870932, NULL, NULL, 101, 872415275, 137345, NULL, NULL, NULL);
@@ -26590,6 +31849,15 @@ VALUES (51497, 39, 1.1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51497, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51497, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51497, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51497, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (51497, 67112871, 0, 0);
 
@@ -26604,7 +31872,7 @@ VALUES (51497, 0, 16784558)
      , (51497, 2, 16784557);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51511, 'ace51511weepingcrossbow');
+VALUES (51511, 'ace51511-weepingcrossbow');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51511, 1344827416, 51511, 18, 100674266, 100667895, NULL, 33558299, 536870932, NULL, NULL, 101, 872415275, 137345, NULL, NULL, NULL);
@@ -26642,8 +31910,17 @@ VALUES (51511, 39, 1.25);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51511, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51511, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51511, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51511, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51509, 'ace51509weepingbow');
+VALUES (51509, 'ace51509-weepingbow');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51509, 1344827416, 51509, 18, 100674272, 100667895, NULL, 33558292, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -26678,8 +31955,17 @@ VALUES (51509, 19, 653);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51509, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51509, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51509, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51509, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42421, 'ace42421celdonsleeves');
+VALUES (42421, 'ace42421-celdonsleeves');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42421, 1076654104, 42421, 18, 100670424, 100667895, NULL, 33554655, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -26717,6 +32003,15 @@ VALUES (42421, 4, 8192);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42421, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42421, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42421, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42421, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42421, 67113248, 96, 12)
      , (42421, 67113248, 116, 12)
@@ -26731,7 +32026,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (42421, 0, 16778363);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53440, 'ace53440empoweredambershieldreinforcement');
+VALUES (53440, 'ace53440-empoweredambershieldreinforcement');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53440, 2650265, 53440, 16, 100693327, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -26772,6 +32067,15 @@ VALUES (53440, 20, 'Empowered Ambers: Shield Reinforcement');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53440, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53440, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53440, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53440, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53440, 67111921, 0, 0);
 
@@ -26782,7 +32086,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53440, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53441, 'ace53441luminousambershieldfortification');
+VALUES (53441, 'ace53441-luminousambershieldfortification');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53441, 2650265, 53441, 67108880, 100693328, NULL, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -26822,6 +32126,15 @@ VALUES (53441, 20, 'Luminous Ambers: Shield Fortification');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53441, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53441, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53441, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53441, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53441, 67111921, 0, 0);
@@ -26868,6 +32181,15 @@ VALUES (8364, 19, 10);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8364, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8364, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8364, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8364, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8364, 67111924, 0, 0);
 
@@ -26913,6 +32235,15 @@ VALUES (8365, 19, 10);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8365, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8365, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8365, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8365, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8365, 67111921, 0, 0);
 
@@ -26948,6 +32279,15 @@ VALUES (8366, 19, 10);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8366, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8366, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8366, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8366, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8366, 67111921, 0, 0);
@@ -26995,6 +32335,15 @@ VALUES (22135, 19, 1000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22135, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22135, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22135, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22135, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22135, 67111923, 0, 0);
 
@@ -27039,6 +32388,15 @@ VALUES (19236, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19236, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19236, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19236, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19236, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19236, 67113844, 0, 0);
@@ -27230,6 +32588,15 @@ VALUES (9225, 39, 0.2);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9225, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9225, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9225, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9225, 14, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (9225, 76, 0.25);
 
@@ -27271,6 +32638,15 @@ VALUES (22879, 19, 200);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22879, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22879, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22879, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22879, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22879, 67111924, 0, 0);
@@ -27320,6 +32696,15 @@ VALUES (22882, 19, 200);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22882, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22882, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22882, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22882, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22882, 67111924, 0, 0);
 
@@ -27368,6 +32753,15 @@ VALUES (22880, 19, 200);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22880, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22880, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22880, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22880, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22880, 67111924, 0, 0);
 
@@ -27401,6 +32795,15 @@ VALUES (23036, 19, 75);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23036, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23036, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23036, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23036, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23038, 'valaracrystal');
 
@@ -27425,6 +32828,15 @@ VALUES (23038, 19, 75);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23038, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23038, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23038, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23038, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23037, 'soulshattercrystal');
 
@@ -27448,6 +32860,15 @@ VALUES (23037, 19, 75);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23037, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23037, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23037, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23037, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8613, 'spearheadjaderumuba');
@@ -27484,6 +32905,15 @@ VALUES (8613, 19, 500);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8613, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8613, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8613, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8613, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8613, 67111923, 0, 0);
@@ -27527,6 +32957,15 @@ VALUES (14882, 39, 0.8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14882, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14882, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14882, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14882, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (14882, 67113796, 0, 0);
 
@@ -27569,8 +33008,17 @@ VALUES (8741, 39, 3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8741, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8741, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8741, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8741, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45369, 'ace45369knightscrystal');
+VALUES (45369, 'ace45369-knightscrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45369, 1349021841, 45369, 335544336, 100686697, 100692246, 100686604, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5907, NULL, NULL);
@@ -27610,6 +33058,15 @@ VALUES (45369, 20, 'Knight''s Crystals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45369, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45369, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45369, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45369, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45369, 67111919, 0, 0);
@@ -27656,6 +33113,15 @@ VALUES (14919, 39, 0.5);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14919, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14919, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14919, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14919, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (14919, 67112926, 0, 0);
 
@@ -27700,6 +33166,15 @@ VALUES (19221, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19221, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19221, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19221, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19221, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19221, 67113845, 0, 0);
@@ -27777,6 +33252,15 @@ VALUES (11832, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11832, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11832, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11832, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11832, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11833, 'gromniesymbol');
 
@@ -27809,6 +33293,15 @@ VALUES (11833, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11833, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11833, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11833, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11833, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30239, 'gemrarevolatilestaminaregeneration');
@@ -27848,6 +33341,15 @@ VALUES (30239, 20, 'Melee''s Jewels');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30239, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30239, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30239, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30239, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30239, 0, 83890391, 83890391);
@@ -27896,6 +33398,15 @@ VALUES (30182, 20, 'Olthoi''s Jewels');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30182, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30182, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30182, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30182, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30182, 67111923, 0, 0);
@@ -27948,6 +33459,15 @@ VALUES (30192, 20, 'Pearls of Bludgeon Baning');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30192, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30192, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30192, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30192, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30192, 67111927, 0, 0);
 
@@ -27996,6 +33516,15 @@ VALUES (30230, 20, 'Pearls of Pierce Baning');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30230, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30230, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30230, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30230, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30230, 0, 83890391, 83890391);
 
@@ -28041,6 +33570,15 @@ VALUES (30198, 20, 'Elysa''s Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30198, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30198, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30198, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30198, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30198, 0, 83890391, 83890391);
 
@@ -28048,7 +33586,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30198, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32924, 'ace32924mukkirnestportalgem');
+VALUES (32924, 'ace32924-mukkirnestportalgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32924, 1349021720, 32924, 67108882, 100668364, 100676404, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -28091,6 +33629,18 @@ VALUES (32924, 19, 1000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32924, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32924, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32924, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32924, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32924, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32924, 67111924, 0, 0);
@@ -28146,6 +33696,18 @@ VALUES (27392, 19, 500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27392, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27392, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27392, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27392, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27392, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27392, 67111924, 0, 0);
 
@@ -28199,6 +33761,18 @@ VALUES (30831, 19, 500);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30831, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30831, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30831, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30831, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30831, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30831, 67111921, 0, 0);
@@ -28254,6 +33828,15 @@ VALUES (22822, 39, 1.2);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22822, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22822, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22822, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22822, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22822, 67111919, 0, 0);
 
@@ -28264,7 +33847,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (22822, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43400, 'ace43400voidmagicgemofenlightenment');
+VALUES (43400, 'ace43400-voidmagicgemofenlightenment');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43400, 1075855376, 43400, 18, 100673788, 100691568, NULL, 33558088, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -28286,6 +33869,15 @@ VALUES (43400, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43400, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43400, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43400, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43400, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43400, 67111923, 0, 0);
@@ -28328,6 +33920,15 @@ VALUES (22877, 19, 200);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22877, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22877, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22877, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22877, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22877, 67111924, 0, 0);
@@ -28377,6 +33978,15 @@ VALUES (22881, 19, 200);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22881, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22881, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22881, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22881, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22881, 67111924, 0, 0);
 
@@ -28424,6 +34034,15 @@ VALUES (22875, 19, 200);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22875, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22875, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22875, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22875, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22875, 67111924, 0, 0);
@@ -28473,6 +34092,15 @@ VALUES (22878, 19, 200);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22878, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22878, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22878, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22878, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22878, 67111924, 0, 0);
 
@@ -28521,6 +34149,15 @@ VALUES (22876, 19, 200);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22876, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22876, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22876, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22876, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22876, 67111924, 0, 0);
 
@@ -28566,6 +34203,15 @@ VALUES (14529, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14529, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14529, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14529, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14529, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (14529, 67113786, 0, 0);
 
@@ -28607,6 +34253,15 @@ VALUES (3933, 19, 750);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3933, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3933, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3933, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3933, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3933, 67111927, 0, 0);
@@ -28653,6 +34308,15 @@ VALUES (6620, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6620, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6620, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6620, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6620, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6620, 67111921, 0, 0);
 
@@ -28694,6 +34358,15 @@ VALUES (14532, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14532, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14532, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14532, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14532, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (14532, 0, 83892433, 83892492)
@@ -28747,6 +34420,15 @@ VALUES (11831, 19, 400);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11831, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11831, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11831, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11831, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11831, 67111924, 0, 0);
 
@@ -28792,6 +34474,15 @@ VALUES (29560, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29560, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29560, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29560, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29560, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29560, 67111921, 0, 0);
 
@@ -28828,6 +34519,15 @@ VALUES (29608, 19, 10000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29608, 93, 66580);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29608, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29608, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29608, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29612, 'mansionportalset5');
 
@@ -28854,6 +34554,15 @@ VALUES (29612, 19, 10000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29612, 93, 66580);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29612, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29612, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29612, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29610, 'mansionportalset3');
@@ -28882,6 +34591,15 @@ VALUES (29610, 19, 10000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29610, 93, 66580);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29610, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29610, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29610, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29609, 'mansionportalset2');
 
@@ -28909,6 +34627,15 @@ VALUES (29609, 19, 10000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29609, 93, 66580);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29609, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29609, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29609, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27933, 'stoneitemhizkri');
 
@@ -28935,6 +34662,15 @@ VALUES (27933, 19, 100000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27933, 93, 66580);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27933, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27933, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27933, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (27933, 0, 83893769, 83895470)
@@ -28975,7 +34711,7 @@ VALUES (27933, 0, 16787248)
      , (27933, 16, 16787256);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33687, 'ace33687mukkirslayerstone');
+VALUES (33687, 'ace33687-mukkirslayerstone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33687, 2650264, 33687, 18, 100688998, NULL, NULL, 33556926, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -29012,6 +34748,15 @@ VALUES (33687, 19, 500);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33687, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33687, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33687, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33687, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33687, 67111924, 0, 0);
@@ -29058,6 +34803,15 @@ VALUES (11816, 39, 0.8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11816, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11816, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11816, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11816, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11812, 'crestfalcon');
 
@@ -29094,6 +34848,15 @@ VALUES (11812, 39, 0.8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11812, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11812, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11812, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11812, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11821, 'falconspear');
 
@@ -29126,6 +34889,15 @@ VALUES (11821, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11821, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11821, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11821, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11821, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11864, 'serpentsymbol');
@@ -29160,6 +34932,15 @@ VALUES (11864, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11864, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11864, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11864, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11864, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11822, 'falconsymbol');
 
@@ -29193,6 +34974,15 @@ VALUES (11822, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11822, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11822, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11822, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11822, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11863, 'serpentspear');
 
@@ -29225,6 +35015,15 @@ VALUES (11863, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11863, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11863, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11863, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11863, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19222, 'housestatuebentengreen');
@@ -29261,6 +35060,15 @@ VALUES (19222, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19222, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19222, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19222, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19222, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19222, 67113844, 0, 0);
@@ -29347,6 +35155,15 @@ VALUES (30210, 20, 'Warrior''s Jewels');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30210, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30210, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30210, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30210, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30210, 67111924, 0, 0);
 
@@ -29391,6 +35208,15 @@ VALUES (29557, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29557, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29557, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29557, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29557, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29557, 67111921, 0, 0);
@@ -29442,6 +35268,15 @@ VALUES (30220, 20, 'Astyrrian''s Jewels');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30220, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30220, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30220, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30220, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30220, 67112925, 0, 0);
@@ -29497,6 +35332,18 @@ VALUES (30804, 19, 5000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30804, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30804, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30804, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30804, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30804, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30804, 67111924, 0, 0);
 
@@ -29541,6 +35388,18 @@ VALUES (23992, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23992, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23992, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23992, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23992, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23992, 15, True);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (23992, 76, 0.5);
@@ -29593,6 +35452,15 @@ VALUES (30190, 20, 'Pearls of Blade Baning');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30190, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30190, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30190, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30190, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30190, 0, 83890391, 83890391);
 
@@ -29641,6 +35509,15 @@ VALUES (30203, 20, 'Inferno''s Jewels');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30203, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30203, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30203, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30203, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30203, 67111924, 0, 0);
 
@@ -29686,6 +35563,15 @@ VALUES (19230, 39, 0.5);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19230, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19230, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19230, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19230, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19230, 67113812, 0, 0);
 
@@ -29715,6 +35601,15 @@ VALUES (30261, 19, 100000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30261, 93, 66580);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30261, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30261, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30261, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30805, 'gemquestlivingtome');
@@ -29761,6 +35656,18 @@ VALUES (30805, 19, 5000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30805, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30805, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30805, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30805, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30805, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30805, 67111924, 0, 0);
 
@@ -29805,6 +35712,15 @@ VALUES (19226, 39, 0.5);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19226, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19226, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19226, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19226, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19226, 67113844, 0, 0);
@@ -29877,6 +35793,15 @@ VALUES (22367, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22367, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22367, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22367, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22367, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22367, 67111923, 0, 0);
 
@@ -29904,11 +35829,20 @@ VALUES (22364, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22364, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22364, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22364, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22364, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22364, 67111923, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34030, 'ace34030vialofmargulblood');
+VALUES (34030, 'ace34030-vialofmargulblood');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34030, 2650128, 34030, 16, 100671326, NULL, NULL, 33554603, 536870932, NULL, NULL, 101, 872415275, 137345, NULL, NULL, NULL);
@@ -29942,6 +35876,15 @@ VALUES (34030, 39, 0.6);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34030, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34030, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34030, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34030, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34030, 67111922, 0, 0);
@@ -29988,6 +35931,15 @@ VALUES (19224, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19224, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19224, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19224, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19224, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19224, 67113844, 0, 0);
@@ -30059,11 +36011,20 @@ VALUES (22383, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22383, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22383, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22383, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22383, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22383, 67111923, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (31861, 'ace31861forttethanaportalgem');
+VALUES (31861, 'ace31861-forttethanaportalgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (31861, 275280024, 31861, 67108880, 100674858, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 157, NULL, NULL);
@@ -30109,6 +36070,18 @@ VALUES (31861, 19, 3000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31861, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31861, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31861, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31861, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31861, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31861, 67111922, 0, 0);
@@ -30164,6 +36137,18 @@ VALUES (27394, 19, 500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27394, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27394, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27394, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27394, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27394, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27394, 67111921, 0, 0);
 
@@ -30197,11 +36182,20 @@ VALUES (22380, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22380, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22380, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22380, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22380, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22380, 67111923, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34169, 'ace34169adeptsgemofprotection');
+VALUES (34169, 'ace34169-adeptsgemofprotection');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34169, 6844561, 34169, 16, 100674444, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 2052, NULL, NULL);
@@ -30239,6 +36233,15 @@ VALUES (34169, 20, 'Adept''s Gems of Protection');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34169, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34169, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34169, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34169, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34169, 67111924, 0, 0);
 
@@ -30249,7 +36252,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (34169, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34031, 'ace34031minoressenceofthehopeslayer');
+VALUES (34031, 'ace34031-minoressenceofthehopeslayer');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34031, 2113680, 34031, 18, 100671740, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -30275,6 +36278,15 @@ VALUES (34031, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34031, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34031, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34031, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34031, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34031, 67111927, 0, 0);
 
@@ -30285,7 +36297,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (34031, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34176, 'ace34176adeptsgemofpiercingprotection');
+VALUES (34176, 'ace34176-adeptsgemofpiercingprotection');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34176, 6844561, 34176, 16, 100674441, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 2160, NULL, NULL);
@@ -30323,6 +36335,15 @@ VALUES (34176, 20, 'Adept''s Gems of Piercing Protection');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34176, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34176, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34176, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34176, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34176, 67111924, 0, 0);
 
@@ -30333,7 +36354,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (34176, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34171, 'ace34171adeptsgemofbludgeonprotection');
+VALUES (34171, 'ace34171-adeptsgemofbludgeonprotection');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34171, 6844561, 34171, 16, 100674442, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 2152, NULL, NULL);
@@ -30370,6 +36391,15 @@ VALUES (34171, 20, 'Adept''s Gems of Bludgeon Protection');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34171, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34171, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34171, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34171, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34171, 67111924, 0, 0);
@@ -30415,6 +36445,15 @@ VALUES (19227, 39, 0.5);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19227, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19227, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19227, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19227, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19227, 67113845, 0, 0);
@@ -30566,6 +36605,15 @@ VALUES (19234, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19234, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19234, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19234, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19234, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19234, 67113844, 0, 0);
@@ -30779,6 +36827,15 @@ VALUES (19220, 39, 0.7);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19220, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19220, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19220, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19220, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19220, 67113844, 0, 0);
 
@@ -30924,6 +36981,15 @@ VALUES (19248, 39, 0.7);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19248, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19248, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19248, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19248, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19248, 67113844, 0, 0);
 
@@ -30994,6 +37060,15 @@ VALUES (29611, 19, 10000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29611, 93, 66580);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29611, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29611, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29611, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19232, 'housestatuemosswartgreen');
 
@@ -31029,6 +37104,15 @@ VALUES (19232, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19232, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19232, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19232, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19232, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19232, 67113844, 0, 0);
@@ -31072,7 +37156,7 @@ VALUES (19232, 0, 16787248)
      , (19232, 16, 16787256);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44719, 'ace44719gemoflesserluminance');
+VALUES (44719, 'ace44719-gemoflesserluminance');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44719, 2125849, 44719, 16, 100692118, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -31103,6 +37187,15 @@ VALUES (44719, 20, 'Gems of Lesser Luminance');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44719, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44719, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44719, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44719, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10712, 'fragmentquidditynorth');
@@ -31139,6 +37232,15 @@ VALUES (10712, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (10712, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10712, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10712, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10712, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (10712, 67112925, 0, 0);
@@ -31184,6 +37286,15 @@ VALUES (10713, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (10713, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10713, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10713, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10713, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (10713, 67112925, 0, 0);
@@ -31233,6 +37344,18 @@ VALUES (8115, 19, 1500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8115, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8115, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8115, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8115, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8115, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8115, 67111922, 0, 0);
 
@@ -31268,6 +37391,15 @@ VALUES (3720, 19, 500);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3720, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3720, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3720, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3720, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3720, 67111925, 0, 0);
@@ -31311,6 +37443,15 @@ VALUES (3717, 19, 250);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3717, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3717, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3717, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3717, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3717, 67111927, 0, 0);
 
@@ -31352,6 +37493,15 @@ VALUES (14533, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14533, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14533, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14533, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14533, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (14533, 0, 83892433, 83892492)
@@ -31399,6 +37549,15 @@ VALUES (14528, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14528, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14528, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14528, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14528, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (14528, 0, 83889688, 83890391);
 
@@ -31438,8 +37597,17 @@ VALUES (28510, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28510, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28510, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28510, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28510, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41256, 'ace41256tinkerscrystal');
+VALUES (41256, 'ace41256-tinkerscrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41256, 1349021841, 41256, 335544336, 100686697, 100686661, 100686604, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 3714, NULL, NULL);
@@ -31476,6 +37644,15 @@ VALUES (41256, 20, 'Tinker''s Crystals');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41256, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41256, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41256, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41256, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (41256, 0, 83890391, 83890391);
@@ -31521,6 +37698,15 @@ VALUES (3710, 19, 1500);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3710, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3710, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3710, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3710, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3710, 67111927, 0, 0);
@@ -31573,6 +37759,15 @@ VALUES (30185, 20, 'Executor''s Jewels');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30185, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30185, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30185, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30185, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30185, 67111927, 0, 0);
 
@@ -31583,7 +37778,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (30185, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42622, 'ace42622armormainreductiontool');
+VALUES (42622, 'ace42622-armormainreductiontool');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42622, 2650136, 42622, 18, 100692208, NULL, NULL, 33555677, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -31615,8 +37810,17 @@ VALUES (42622, 19, 50);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42622, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42622, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42622, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42622, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42407, 'ace42407platemailgauntlets');
+VALUES (42407, 'ace42407-platemailgauntlets');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42407, 1076654104, 42407, 18, 100667341, 100667895, NULL, 33554648, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -31654,6 +37858,15 @@ VALUES (42407, 4, 32768);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42407, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42407, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42407, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42407, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42407, 67110015, 168, 6);
 
@@ -31664,7 +37877,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (42407, 0, 16778374);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44293, 'ace44293ancienttabletofthecrystalstafflevel180');
+VALUES (44293, 'ace44293-ancienttabletofthecrystalstafflevel180');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44293, 536720, 44293, 67108882, 100691957, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -31699,8 +37912,17 @@ VALUES (44293, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44293, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44293, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44293, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44293, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43475, 'ace43475luminouspearlofdefending');
+VALUES (43475, 'ace43475-luminouspearlofdefending');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43475, 1349021841, 43475, 67108880, 100686695, 100686646, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 4400, NULL, NULL);
@@ -31741,6 +37963,15 @@ VALUES (43475, 20, 'Luminous Pearls of Defending');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43475, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43475, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43475, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43475, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43475, 67111919, 0, 0);
 
@@ -31773,6 +38004,15 @@ VALUES (22372, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22372, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22372, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22372, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22372, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22372, 67111923, 0, 0);
@@ -31813,6 +38053,15 @@ VALUES (29561, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29561, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29561, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29561, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29561, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29561, 67111918, 0, 0);
 
@@ -31823,7 +38072,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (29561, 0, 16777882);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44880, 'ace44880armormiddlereductiontool');
+VALUES (44880, 'ace44880-armormiddlereductiontool');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44880, 2650136, 44880, 18, 100692210, NULL, NULL, 33555677, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -31855,8 +38104,17 @@ VALUES (44880, 19, 50);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44880, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44880, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44880, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44880, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43817, 'ace43817shadownetherstone');
+VALUES (43817, 'ace43817-shadownetherstone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43817, 2650264, 43817, 18, 100691696, NULL, NULL, 33559809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -31891,6 +38149,15 @@ VALUES (43817, 19, 5000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43817, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43817, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43817, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43817, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22336, 'skillgemdownmagicdefense');
 
@@ -31914,6 +38181,15 @@ VALUES (22336, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22336, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22336, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22336, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22336, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22336, 67111924, 0, 0);
@@ -31950,6 +38226,15 @@ VALUES (12271, 39, 1.4);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (12271, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12271, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12271, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12271, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (12271, 0, 83893820, 83893819);
@@ -31999,6 +38284,18 @@ VALUES (28455, 19, 50);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28455, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28455, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28455, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28455, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28455, 15, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (28455, 76, 0.5);
 
@@ -32043,6 +38340,15 @@ VALUES (5655, 19, 1500);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5655, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5655, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5655, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5655, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (5655, 67111927, 0, 0);
@@ -32098,6 +38404,18 @@ VALUES (27388, 19, 500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27388, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27388, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27388, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27388, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27388, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27388, 67111924, 0, 0);
 
@@ -32143,6 +38461,15 @@ VALUES (8716, 39, 3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8716, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8716, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8716, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8716, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8736, 'stamplytelthorpenewbiequest');
 
@@ -32178,6 +38505,15 @@ VALUES (8736, 39, 3);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8736, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8736, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8736, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8736, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8737, 'stampnantonewbiequest');
@@ -32215,6 +38551,15 @@ VALUES (8737, 39, 3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8737, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8737, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8737, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8737, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8739, 'stampsamsurnewbiequest');
 
@@ -32250,6 +38595,15 @@ VALUES (8739, 39, 3);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8739, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8739, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8739, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8739, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27386, 'gemquestcoinattachment');
@@ -32296,6 +38650,18 @@ VALUES (27386, 19, 500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27386, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27386, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27386, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27386, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27386, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27386, 67111921, 0, 0);
 
@@ -32306,7 +38672,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (27386, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36550, 'ace36550ornatebrassbanding');
+VALUES (36550, 'ace36550-ornatebrassbanding');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36550, 2650136, 36550, 67108882, 100689655, NULL, 100667860, 33554817, 536870932, NULL, NULL, 101, 872415275, 137345, NULL, NULL, NULL);
@@ -32344,6 +38710,15 @@ VALUES (36550, 39, 0.4);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36550, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36550, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36550, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36550, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36550, 67111924, 0, 0);
 
@@ -32354,7 +38729,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36550, 0, 16777882);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36547, 'ace36547hardenedbluecrystal');
+VALUES (36547, 'ace36547-hardenedbluecrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36547, 2650136, 36547, 67108882, 100689657, NULL, 100667860, 33554817, 536870932, NULL, NULL, 101, 872415275, 137345, NULL, NULL, NULL);
@@ -32392,6 +38767,15 @@ VALUES (36547, 39, 0.4);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36547, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36547, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36547, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36547, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36547, 67111924, 0, 0);
 
@@ -32402,7 +38786,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36547, 0, 16777882);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44879, 'ace44879armorlowerreductiontool');
+VALUES (44879, 'ace44879-armorlowerreductiontool');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44879, 2650136, 44879, 18, 100692209, NULL, NULL, 33555677, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -32434,8 +38818,17 @@ VALUES (44879, 19, 50);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44879, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44879, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44879, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44879, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (31382, 'ace31382vestibulelock');
+VALUES (31382, 'ace31382-vestibulelock');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (31382, 2179216, 31382, 18, 100687954, NULL, NULL, 33556743, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -32461,8 +38854,17 @@ VALUES (31382, 9, 16777216);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31382, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31382, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31382, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31382, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36187, 'ace36187gemofharbingersflamebarrier');
+VALUES (36187, 'ace36187-gemofharbingersflamebarrier');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36187, 6844569, 36187, 16, 100673902, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 4191, NULL, NULL);
@@ -32503,6 +38905,15 @@ VALUES (36187, 20, 'Gems of Harbinger''s Flame Barrier');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36187, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36187, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36187, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36187, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36187, 67111924, 0, 0);
 
@@ -32513,7 +38924,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36187, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33186, 'ace33186packharbinger');
+VALUES (33186, 'ace33186-packharbinger');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33186, 271073304, 33186, 18, 100688939, NULL, NULL, 33559924, NULL, 150995359, 'AAA9AAAAAAA=', NULL, 872415331, 69763, NULL, NULL, NULL);
@@ -32544,6 +38955,15 @@ VALUES (33186, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33186, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33186, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33186, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33186, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19223, 'housestatuedrudge');
@@ -32580,6 +39000,15 @@ VALUES (19223, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19223, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19223, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19223, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19223, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19223, 67113845, 0, 0);
@@ -32663,6 +39092,15 @@ VALUES (19237, 39, 0.7);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19237, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19237, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19237, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19237, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19237, 67113845, 0, 0);
 
@@ -32701,6 +39139,15 @@ VALUES (19239, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19239, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19239, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19239, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19239, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19239, 67113845, 0, 0);
@@ -32980,6 +39427,15 @@ VALUES (28500, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28500, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28500, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28500, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28500, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9045, 'gemthauleggings');
 
@@ -33013,6 +39469,15 @@ VALUES (9045, 19, 25);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9045, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9045, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9045, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9045, 14, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (9045, 76, 0.5);
 
@@ -33026,7 +39491,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (9045, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32024, 'ace32024offeringtoxikminru');
+VALUES (32024, 'ace32024-offeringtoxikminru');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32024, 2113552, 32024, 18, 100674094, NULL, NULL, 33554769, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -33045,6 +39510,15 @@ VALUES (32024, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32024, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32024, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32024, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32024, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9046, 'geodesunstone');
@@ -33079,6 +39553,18 @@ VALUES (9046, 19, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9046, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9046, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9046, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9046, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9046, 15, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (9046, 76, 0.5);
 
@@ -33092,7 +39578,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (9046, 0, 16778862);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34850, 'ace34850tiriunmushroom');
+VALUES (34850, 'ace34850-tiriunmushroom');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34850, 2125849, 34850, 16, 100689324, NULL, NULL, 33558400, 536870932, NULL, NULL, 101, 872415275, 137345, NULL, NULL, NULL);
@@ -33126,6 +39612,15 @@ VALUES (34850, 39, 1.2);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34850, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34850, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34850, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34850, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29554, 'gemnobledamagemod');
@@ -33162,6 +39657,15 @@ VALUES (29554, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29554, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29554, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29554, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29554, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29554, 67111921, 0, 0);
@@ -33217,8 +39721,20 @@ VALUES (30808, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30808, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30808, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30808, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30808, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30808, 15, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42113, 'ace42113scratchedgear');
+VALUES (42113, 'ace42113-scratchedgear');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42113, 2125840, 42113, 16, 100672956, NULL, NULL, 33557681, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -33244,8 +39760,17 @@ VALUES (42113, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42113, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42113, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42113, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42113, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43187, 'ace43187gemofknowledge');
+VALUES (43187, 'ace43187-gemofknowledge');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43187, 2125849, 43187, 16, 100689653, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -33277,8 +39802,17 @@ VALUES (43187, 20, 'Gems of Knowledge');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43187, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43187, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43187, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43187, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43186, 'ace43186gemofknowledge');
+VALUES (43186, 'ace43186-gemofknowledge');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43186, 2125849, 43186, 16, 100689653, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -33309,6 +39843,15 @@ VALUES (43186, 20, 'Gems of Knowledge');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43186, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43186, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43186, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43186, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29445, 'gemportalcorcimacastlewardgold');
@@ -33355,6 +39898,18 @@ VALUES (29445, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29445, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29445, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29445, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29445, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29445, 15, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (29445, 76, 0.5);
 
@@ -33391,11 +39946,20 @@ VALUES (22363, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22363, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22363, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22363, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22363, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22363, 67111923, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51484, 'ace51484rynthidtentaclebow');
+VALUES (51484, 'ace51484-rynthidtentaclebow');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51484, 1344827416, 51484, 18, 100693229, 100667895, NULL, 33561601, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -33433,6 +39997,15 @@ VALUES (51484, 19, 653);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51484, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51484, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51484, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51484, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (51484, 67111921, 0, 0);
 
@@ -33444,7 +40017,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (51484, 0, 16797052);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41448, 'ace41448coppermedalofvigor');
+VALUES (41448, 'ace41448-coppermedalofvigor');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41448, 275280016, 41448, 67108882, 100690739, NULL, NULL, 33554802, 536870932, NULL, NULL, 101, 872415275, 137217, 5128, NULL, NULL);
@@ -33484,6 +40057,15 @@ VALUES (41448, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41448, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41448, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41448, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41448, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29447, 'gemportalcorcimacastlewardsilver');
@@ -33530,6 +40112,18 @@ VALUES (29447, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29447, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29447, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29447, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29447, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29447, 15, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (29447, 76, 0.5);
 
@@ -33543,7 +40137,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (29447, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43188, 'ace43188gemofknowledge');
+VALUES (43188, 'ace43188-gemofknowledge');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43188, 2125849, 43188, 16, 100689653, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -33575,8 +40169,17 @@ VALUES (43188, 20, 'Gems of Knowledge');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43188, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43188, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43188, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43188, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45376, 'ace45376dualwieldgemofforgetfulness');
+VALUES (45376, 'ace45376-dualwieldgemofforgetfulness');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45376, 1075855376, 45376, 18, 100673789, 100692236, NULL, 33558087, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -33599,11 +40202,20 @@ VALUES (45376, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45376, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45376, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45376, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45376, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45376, 67111924, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45377, 'ace45377recklessnessgemofforgetfulness');
+VALUES (45377, 'ace45377-recklessnessgemofforgetfulness');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45377, 1075855376, 45377, 18, 100673789, 100673758, NULL, 33558087, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -33626,11 +40238,20 @@ VALUES (45377, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45377, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45377, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45377, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45377, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45377, 67111924, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36613, 'ace36613virindimessageshard');
+VALUES (36613, 'ace36613-virindimessageshard');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36613, 2125840, 36613, 18, 100671395, NULL, NULL, 33555391, 536870932, NULL, NULL, NULL, 872415275, 268417, NULL, NULL, NULL);
@@ -33659,11 +40280,20 @@ VALUES (36613, 39, 0.2);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36613, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36613, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36613, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36613, 14, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (36613, 76, 0.25);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36614, 'ace36614paradoxinfusedpotion');
+VALUES (36614, 'ace36614-paradoxinfusedpotion');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36614, 2125968, 36614, 18, 100670735, NULL, NULL, 33555209, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -33695,6 +40325,15 @@ VALUES (36614, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36614, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36614, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36614, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36614, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36614, 67111925, 0, 0);
 
@@ -33705,7 +40344,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36614, 0, 16780684);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44356, 'ace44356anekshaybracercollectinglevel200');
+VALUES (44356, 'ace44356-anekshaybracercollectinglevel200');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44356, 553104, 44356, 67108882, 100691928, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -33740,8 +40379,17 @@ VALUES (44356, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44356, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44356, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44356, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44356, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44358, 'ace44358stonetabletcollectinglevel200');
+VALUES (44358, 'ace44358-stonetabletcollectinglevel200');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44358, 553104, 44358, 67108882, 100691928, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -33776,8 +40424,17 @@ VALUES (44358, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44358, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44358, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44358, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44358, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44353, 'ace44353golemhuntinglostcityofneftetlevel200');
+VALUES (44353, 'ace44353-golemhuntinglostcityofneftetlevel200');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44353, 553104, 44353, 67108882, 100691928, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -33812,8 +40469,17 @@ VALUES (44353, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44353, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44353, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44353, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44353, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44357, 'ace44357pricklypearcollectinglevel200');
+VALUES (44357, 'ace44357-pricklypearcollectinglevel200');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44357, 553104, 44357, 67108882, 100691928, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -33848,8 +40514,17 @@ VALUES (44357, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44357, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44357, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44357, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44357, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36786, 'ace36786elysashope');
+VALUES (36786, 'ace36786-elysashope');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36786, 2633872, 36786, 18, 100689641, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -33881,8 +40556,17 @@ VALUES (36786, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36786, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36786, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36786, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36786, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36788, 'ace36788elysaspartialreflection');
+VALUES (36788, 'ace36788-elysaspartialreflection');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36788, 2650256, 36788, 18, 100689641, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -33914,8 +40598,17 @@ VALUES (36788, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36788, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36788, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36788, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36788, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36782, 'ace36782elysasincompletereflection');
+VALUES (36782, 'ace36782-elysasincompletereflection');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36782, 2650256, 36782, 18, 100689641, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -33947,8 +40640,17 @@ VALUES (36782, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36782, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36782, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36782, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36782, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36757, 'ace36757empyreanspherule');
+VALUES (36757, 'ace36757-empyreanspherule');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36757, 2113560, 36757, 18, 100689762, NULL, NULL, 33560433, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -33971,8 +40673,17 @@ VALUES (36757, 19, 10000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36757, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36757, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36757, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36757, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51875, 'ace51875contractforkillrynthidrifts');
+VALUES (51875, 'ace51875-contractforkillrynthidrifts');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51875, 553112, 51875, 67108882, 100691928, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -34010,8 +40721,17 @@ VALUES (51875, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51875, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51875, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51875, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51875, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51869, 'ace51869contractforkillrynthidminions');
+VALUES (51869, 'ace51869-contractforkillrynthidminions');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51869, 553112, 51869, 67108882, 100691928, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -34049,8 +40769,17 @@ VALUES (51869, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51869, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51869, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51869, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51869, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51870, 'ace51870contractforkillempoweredwisps');
+VALUES (51870, 'ace51870-contractforkillempoweredwisps');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51870, 553112, 51870, 67108882, 100691928, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -34088,8 +40817,17 @@ VALUES (51870, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51870, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51870, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51870, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51870, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44295, 'ace44295ancienttabletofthecrystalamuletlevel180');
+VALUES (44295, 'ace44295-ancienttabletofthecrystalamuletlevel180');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44295, 553104, 44295, 67108882, 100691959, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -34124,8 +40862,17 @@ VALUES (44295, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44295, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44295, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44295, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44295, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44294, 'ace44294ancienttabletofthecrystalswordlevel180');
+VALUES (44294, 'ace44294-ancienttabletofthecrystalswordlevel180');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44294, 553104, 44294, 67108882, 100691958, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -34160,8 +40907,17 @@ VALUES (44294, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44294, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44294, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44294, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44294, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32746, 'ace32746crystallizedessenceofenchantment');
+VALUES (32746, 'ace32746-crystallizedessenceofenchantment');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32746, 2109456, 32746, 18, 100688600, NULL, NULL, 33559838, 536870932, NULL, NULL, NULL, 872415275, 39041, NULL, NULL, NULL);
@@ -34190,8 +40946,17 @@ VALUES (32746, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32746, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32746, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32746, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32746, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36185, 'ace36185gemofharbingersacidbarrier');
+VALUES (36185, 'ace36185-gemofharbingersacidbarrier');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36185, 6844569, 36185, 16, 100673897, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 4189, NULL, NULL);
@@ -34232,6 +40997,15 @@ VALUES (36185, 20, 'Gems of Harbinger''s Acid Barrier');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36185, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36185, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36185, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36185, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36185, 67111923, 0, 0);
 
@@ -34242,7 +41016,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36185, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41566, 'ace41566depletedaetheriumore');
+VALUES (41566, 'ace41566-depletedaetheriumore');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41566, 2109456, 41566, 16, 100690568, NULL, NULL, 33560863, 536870932, NULL, NULL, NULL, 872415275, 38913, NULL, NULL, NULL);
@@ -34268,8 +41042,17 @@ VALUES (41566, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41566, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41566, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41566, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41566, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32255, 'ace32255gemofarcanecorruption');
+VALUES (32255, 'ace32255-gemofarcanecorruption');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32255, 271085584, 32255, 18, 100688416, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -34304,6 +41087,15 @@ VALUES (32255, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32255, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32255, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32255, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32255, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32255, 67111921, 0, 0);
 
@@ -34314,7 +41106,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (32255, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (38042, 'ace38042falatacotbloodprophetesstrinket');
+VALUES (38042, 'ace38042-falatacotbloodprophetesstrinket');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (38042, 2113552, 38042, 18, 100689282, NULL, NULL, 33554669, 536870932, NULL, NULL, 101, 872415275, 137345, NULL, NULL, NULL);
@@ -34340,6 +41132,15 @@ VALUES (38042, 39, 0.4);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (38042, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38042, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38042, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38042, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (38042, 67111923, 0, 0);
 
@@ -34350,7 +41151,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (38042, 0, 16778862);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (35178, 'ace35178glowingstatueshard');
+VALUES (35178, 'ace35178-glowingstatueshard');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (35178, 2633872, 35178, 18, 100689363, NULL, NULL, 33556406, 536870932, NULL, NULL, 101, 872415275, 170113, NULL, NULL, NULL);
@@ -34388,6 +41189,15 @@ VALUES (35178, 39, 1.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35178, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35178, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35178, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35178, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35178, 67111919, 0, 0);
 
@@ -34398,7 +41208,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (35178, 0, 16784015);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (31380, 'ace31380iniquitousfragment');
+VALUES (31380, 'ace31380-iniquitousfragment');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (31380, 2179088, 31380, 18, 100687955, NULL, NULL, 33556743, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -34421,8 +41231,17 @@ VALUES (31380, 9, 16777216);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31380, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31380, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31380, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31380, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (31379, 'ace31379combinedartifactfragment');
+VALUES (31379, 'ace31379-combinedartifactfragment');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (31379, 2650128, 31379, 18, 100687951, NULL, NULL, 33556743, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -34451,8 +41270,17 @@ VALUES (31379, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31379, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31379, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31379, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31379, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (31381, 'ace31381vestibulelock');
+VALUES (31381, 'ace31381-vestibulelock');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (31381, 2179088, 31381, 18, 100687954, NULL, NULL, 33556743, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -34474,6 +41302,15 @@ VALUES (31381, 9, 16777216);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31381, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31381, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31381, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31381, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25959, 'tasselmelee');
@@ -34511,6 +41348,15 @@ VALUES (25959, 39, 0.75);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (25959, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25959, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25959, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25959, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25958, 'tasselmagic');
 
@@ -34547,6 +41393,15 @@ VALUES (25958, 39, 0.75);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (25958, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25958, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25958, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25958, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25960, 'tasselmissile');
 
@@ -34582,6 +41437,15 @@ VALUES (25960, 39, 0.75);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (25960, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25960, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25960, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25960, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9427, 'gemlugianbludgeon3');
@@ -34621,6 +41485,15 @@ VALUES (9427, 19, 200);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9427, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9427, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9427, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9427, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9427, 67111918, 0, 0);
@@ -34670,6 +41543,15 @@ VALUES (9426, 19, 200);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9426, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9426, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9426, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9426, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9426, 67111920, 0, 0);
 
@@ -34718,6 +41600,15 @@ VALUES (9431, 19, 200);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9431, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9431, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9431, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9431, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9431, 67111924, 0, 0);
 
@@ -34760,8 +41651,17 @@ VALUES (27457, 39, 1.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27457, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27457, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27457, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27457, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44636, 'ace44636anekshayslayerstone');
+VALUES (44636, 'ace44636-anekshayslayerstone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44636, 1076392088, 44636, 18, 100692069, 100692071, NULL, 33556926, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -34799,6 +41699,15 @@ VALUES (44636, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44636, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44636, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44636, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44636, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44636, 67111924, 0, 0);
 
@@ -34809,7 +41718,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (44636, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51487, 'ace51487tomeofflame');
+VALUES (51487, 'ace51487-tomeofflame');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51487, 1344811032, 51487, 18, 100690368, 100667895, NULL, 33560706, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -34847,6 +41756,15 @@ VALUES (51487, 19, 653);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51487, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51487, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51487, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51487, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (51487, 67115357, 0, 56)
      , (51487, 67115361, 56, 200);
@@ -34861,7 +41779,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (51487, 0, 16794234);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36015, 'ace36015spectralmissileweaponmasterycrystal');
+VALUES (36015, 'ace36015-spectralmissileweaponmasterycrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36015, 1349021849, 36015, 67108880, 100686697, 100686638, 100686604, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 4133, NULL, NULL);
@@ -34902,6 +41820,15 @@ VALUES (36015, 20, 'Spectral Missile Weapon Mastery Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36015, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36015, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36015, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36015, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (36015, 0, 83890391, 83890391);
 
@@ -34909,7 +41836,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36015, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32749, 'ace32749crystallizedessenceofstrife');
+VALUES (32749, 'ace32749-crystallizedessenceofstrife');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32749, 2125840, 32749, 18, 100688603, NULL, NULL, 33559841, 536870932, NULL, NULL, NULL, 872415275, 6273, NULL, NULL, NULL);
@@ -34938,8 +41865,17 @@ VALUES (32749, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32749, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32749, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32749, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32749, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32747, 'ace32747crystallizedessenceofartifice');
+VALUES (32747, 'ace32747-crystallizedessenceofartifice');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32747, 2125840, 32747, 18, 100688601, NULL, NULL, 33559839, 536870932, NULL, NULL, NULL, 872415275, 6273, NULL, NULL, NULL);
@@ -34968,8 +41904,17 @@ VALUES (32747, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32747, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32747, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32747, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32747, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32748, 'ace32748crystallizedessenceofverdancy');
+VALUES (32748, 'ace32748-crystallizedessenceofverdancy');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32748, 2125840, 32748, 18, 100688602, NULL, NULL, 33559840, 536870932, NULL, NULL, NULL, 872415275, 6273, NULL, NULL, NULL);
@@ -34998,8 +41943,17 @@ VALUES (32748, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32748, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32748, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32748, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32748, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42729, 'ace42729attunedessencegem');
+VALUES (42729, 'ace42729-attunedessencegem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42729, 553104, 42729, 67108882, 100674715, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -35037,6 +41991,15 @@ VALUES (42729, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42729, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42729, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42729, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42729, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42729, 67111919, 0, 0);
 
@@ -35047,7 +42010,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (42729, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44355, 'ace44355reedsharkhuntinglostcityofneftetlevel200');
+VALUES (44355, 'ace44355-reedsharkhuntinglostcityofneftetlevel200');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44355, 553104, 44355, 67108882, 100691928, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -35082,8 +42045,17 @@ VALUES (44355, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44355, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44355, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44355, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44355, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44354, 'ace44354mumiyahhuntinglostcityofneftetlevel200');
+VALUES (44354, 'ace44354-mumiyahhuntinglostcityofneftetlevel200');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44354, 553104, 44354, 67108882, 100691928, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -35117,6 +42089,15 @@ VALUES (44354, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44354, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44354, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44354, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44354, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27391, 'gemquesthomunculus');
@@ -35163,6 +42144,18 @@ VALUES (27391, 19, 500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27391, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27391, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27391, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27391, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27391, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27391, 67111921, 0, 0);
 
@@ -35173,7 +42166,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (27391, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34190, 'ace34190packdarkremoran');
+VALUES (34190, 'ace34190-packdarkremoran');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34190, 271073304, 34190, 18, 100689166, NULL, NULL, 33559700, NULL, 150995351, 'AAA9AAAAAAA=', NULL, 872415414, 69763, NULL, NULL, NULL);
@@ -35207,6 +42200,15 @@ VALUES (34190, 39, 0.3);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34190, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34190, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34190, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34190, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34190, 67116733, 0, 0);
@@ -35246,6 +42248,15 @@ VALUES (29563, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29563, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29563, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29563, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29563, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29563, 67111918, 0, 0);
@@ -35289,8 +42300,17 @@ VALUES (28506, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28506, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28506, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28506, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28506, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (47156, 'ace47156anekshaygemofknowledge');
+VALUES (47156, 'ace47156-anekshaygemofknowledge');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (47156, 2125849, 47156, 16, 100692974, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -35321,6 +42341,15 @@ VALUES (47156, 20, 'A''nekshay Gems of Knowledge');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (47156, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (47156, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (47156, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (47156, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19238, 'housestatueshadowgreen');
@@ -35358,6 +42387,15 @@ VALUES (19238, 39, 0.7);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19238, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19238, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19238, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19238, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19238, 67113844, 0, 0);
 
@@ -35394,6 +42432,15 @@ VALUES (28501, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28501, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28501, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28501, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28501, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28503, 'crategolemcatalogue4');
 
@@ -35427,6 +42474,15 @@ VALUES (28503, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28503, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28503, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28503, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28503, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28504, 'crategolemcatalogue5');
 
@@ -35459,6 +42515,15 @@ VALUES (28504, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28504, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28504, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28504, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28504, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19231, 'housestatuemosswart');
@@ -35495,6 +42560,15 @@ VALUES (19231, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19231, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19231, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19231, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19231, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19231, 67113845, 0, 0);
@@ -35567,6 +42641,15 @@ VALUES (8111, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8111, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8111, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8111, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8111, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8111, 67112925, 0, 0);
 
@@ -35577,7 +42660,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (8111, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45384, 'ace45384sneakattackgemofenlightenment');
+VALUES (45384, 'ace45384-sneakattackgemofenlightenment');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45384, 1075855376, 45384, 18, 100673788, 100692241, NULL, 33558088, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -35599,6 +42682,15 @@ VALUES (45384, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45384, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45384, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45384, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45384, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45384, 67111923, 0, 0);
@@ -35638,6 +42730,15 @@ VALUES (19235, 39, 0.7);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19235, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19235, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19235, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19235, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19235, 67113845, 0, 0);
@@ -35835,6 +42936,15 @@ VALUES (29562, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29562, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29562, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29562, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29562, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29562, 67111918, 0, 0);
 
@@ -35870,6 +42980,15 @@ VALUES (12688, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (12688, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12688, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12688, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12688, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (12688, 0, 83893723, 83892225)
@@ -35917,6 +43036,18 @@ VALUES (30803, 19, 400);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30803, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30803, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30803, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30803, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30803, 15, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30800, 'gemportalobsidianplains');
 
@@ -35956,6 +43087,18 @@ VALUES (30800, 19, 400);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30800, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30800, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30800, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30800, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30800, 15, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20020, 'gemrewardskai');
 
@@ -35985,6 +43128,15 @@ VALUES (20020, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20020, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20020, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20020, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20020, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (20020, 67111927, 0, 0);
@@ -36031,6 +43183,15 @@ VALUES (3712, 19, 1500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3712, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3712, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3712, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3712, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3712, 67111924, 0, 0);
 
@@ -36064,8 +43225,17 @@ VALUES (280, 19, 75);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (280, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (280, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (280, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (280, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41254, 'ace41254explorersbackpacktoken');
+VALUES (41254, 'ace41254-explorersbackpacktoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41254, 1075855376, 41254, 18, 100670388, 100690552, NULL, 33554769, 536870932, NULL, NULL, 101, 872415275, 137345, NULL, NULL, NULL);
@@ -36091,6 +43261,15 @@ VALUES (41254, 39, 0.4);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41254, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41254, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41254, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41254, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41254, 67111927, 0, 0);
 
@@ -36103,7 +43282,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (41254, 0, 16778611);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44878, 'ace44878dappersuit');
+VALUES (44878, 'ace44878-dappersuit');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44878, 1076654104, 44878, 18, 100675491, 100667895, NULL, 33554854, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -36141,6 +43320,15 @@ VALUES (44878, 4, 32768);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44878, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44878, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44878, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44878, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44878, 67114678, 174, 66);
 
@@ -36154,7 +43342,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (44878, 0, 16778367);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (37061, 'ace37061westgateharmoniccrystal');
+VALUES (37061, 'ace37061-westgateharmoniccrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (37061, 2125976, 37061, 18, 100670080, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -36189,6 +43377,15 @@ VALUES (37061, 19, 10);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37061, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37061, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37061, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37061, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37061, 67111924, 0, 0);
 
@@ -36199,7 +43396,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (37061, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51492, 'ace51492flamingweepingsword');
+VALUES (51492, 'ace51492-flamingweepingsword');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51492, 1344827416, 51492, 18, 100674906, 100667895, NULL, 33558464, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -36237,6 +43434,15 @@ VALUES (51492, 19, 653);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51492, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51492, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51492, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51492, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (51492, 67114520, 0, 0);
 
@@ -36249,7 +43455,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (51492, 0, 16789569);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51479, 'ace51479electricweepingsword');
+VALUES (51479, 'ace51479-electricweepingsword');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51479, 1344827416, 51479, 18, 100674910, 100667895, NULL, 33558472, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -36286,6 +43492,15 @@ VALUES (51479, 19, 653);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51479, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51479, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51479, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51479, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (51479, 67114521, 0, 0);
@@ -36334,6 +43549,15 @@ VALUES (29556, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29556, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29556, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29556, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29556, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29556, 67111921, 0, 0);
 
@@ -36344,7 +43568,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (29556, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (35561, 'ace35561virindimessageshard');
+VALUES (35561, 'ace35561-virindimessageshard');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (35561, 2125840, 35561, 18, 100671395, NULL, NULL, 33555391, 536870932, NULL, NULL, NULL, 872415275, 268417, NULL, NULL, NULL);
@@ -36373,11 +43597,20 @@ VALUES (35561, 39, 0.2);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35561, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35561, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35561, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35561, 14, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (35561, 76, 0.25);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41713, 'ace41713whisperingbladetoken');
+VALUES (41713, 'ace41713-whisperingbladetoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41713, 2113552, 41713, 18, 100686367, NULL, NULL, 33559991, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -36397,8 +43630,17 @@ VALUES (41713, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41713, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41713, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41713, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41713, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41831, 'ace41831radiantbloodsupplies');
+VALUES (41831, 'ace41831-radiantbloodsupplies');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41831, 1076363280, 41831, 18, 100668152, 100690173, NULL, 33554718, 536870932, NULL, NULL, NULL, 872415275, 39041, NULL, NULL, NULL);
@@ -36424,8 +43666,17 @@ VALUES (41831, 39, 0.33);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41831, 93, 66580);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41831, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41831, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41831, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41833, 'ace41833eldrytchwebsupplies');
+VALUES (41833, 'ace41833-eldrytchwebsupplies');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41833, 1076363280, 41833, 18, 100668152, 100690172, NULL, 33554718, 536870932, NULL, NULL, NULL, 872415275, 39041, NULL, NULL, NULL);
@@ -36450,6 +43701,15 @@ VALUES (41833, 39, 0.33);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41833, 93, 66580);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41833, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41833, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41833, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11865, 'shrethspear');
@@ -36484,6 +43744,15 @@ VALUES (11865, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11865, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11865, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11865, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11865, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11841, 'maskspear');
 
@@ -36516,6 +43785,15 @@ VALUES (11841, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11841, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11841, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11841, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11841, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27091, 'gemportallinvaktukal');
@@ -36565,6 +43843,18 @@ VALUES (27091, 19, 500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27091, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27091, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27091, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27091, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27091, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27091, 67111922, 0, 0);
 
@@ -36575,7 +43865,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (27091, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51216, 'ace51216hivegemofdispelling');
+VALUES (51216, 'ace51216-hivegemofdispelling');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51216, 6844569, 51216, 16, 100671405, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137345, 4331, NULL, NULL);
@@ -36619,6 +43909,15 @@ VALUES (51216, 39, 1.2);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51216, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51216, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51216, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51216, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (51216, 67111919, 0, 0);
 
@@ -36629,7 +43928,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (51216, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32651, 'ace32651shadowfirestone');
+VALUES (32651, 'ace32651-shadowfirestone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32651, 2650264, 32651, 18, 100688585, NULL, NULL, 33559809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -36664,8 +43963,17 @@ VALUES (32651, 19, 5000);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32651, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32651, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32651, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32651, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53356, 'ace53356farmersbasementportalgem');
+VALUES (53356, 'ace53356-farmersbasementportalgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53356, 6844568, 53356, 67108880, 100668365, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, 1637, NULL, NULL);
@@ -36709,6 +44017,18 @@ VALUES (53356, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53356, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53356, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53356, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53356, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53356, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53356, 67111920, 0, 0);
 
@@ -36745,6 +44065,15 @@ VALUES (25536, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (25536, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25536, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25536, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25536, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (25536, 0, 83893723, 83893850)
      , (25536, 0, 83890929, 83890926);
@@ -36753,7 +44082,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (25536, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (37492, 'ace37492spectralingot');
+VALUES (37492, 'ace37492-spectralingot');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (37492, 2113560, 37492, 67108882, 100689897, NULL, 100689404, 33555677, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -36775,6 +44104,15 @@ VALUES (37492, 19, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37492, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37492, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37492, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37492, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14530, 'prismfragmentacidcraftable');
@@ -36808,6 +44146,15 @@ VALUES (14530, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14530, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14530, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14530, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14530, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (14530, 0, 83892433, 83892492)
@@ -36855,6 +44202,15 @@ VALUES (14527, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14527, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14527, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14527, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14527, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (14527, 0, 83889688, 83890391);
 
@@ -36887,6 +44243,15 @@ VALUES (14523, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14523, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14523, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14523, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14523, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (14523, 0, 83892433, 83892492)
@@ -36928,6 +44293,15 @@ VALUES (14524, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14524, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14524, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14524, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14524, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (14524, 0, 83892433, 83892492)
      , (14524, 0, 83892432, 83892492)
@@ -36967,6 +44341,15 @@ VALUES (14525, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14525, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14525, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14525, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14525, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (14525, 0, 83892433, 83892492)
@@ -37008,6 +44391,15 @@ VALUES (14526, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14526, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14526, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14526, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14526, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (14526, 0, 83892433, 83892492)
      , (14526, 0, 83892432, 83892492)
@@ -37022,7 +44414,7 @@ VALUES (14526, 0, 16784246)
      , (14526, 2, 16784180);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44178, 'ace44178contractforhamudsdemise');
+VALUES (44178, 'ace44178-contractforhamudsdemise');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44178, 553112, 44178, 67108882, 100691932, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -37060,6 +44452,15 @@ VALUES (44178, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44178, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44178, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44178, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44178, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11813, 'crestgromnie');
 
@@ -37096,6 +44497,15 @@ VALUES (11813, 39, 0.8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11813, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11813, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11813, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11813, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19228, 'housestatuegrievvergreen');
 
@@ -37131,6 +44541,15 @@ VALUES (19228, 39, 0.5);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19228, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19228, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19228, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19228, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19228, 67113844, 0, 0);
@@ -37248,7 +44667,7 @@ VALUES (19228, 0, 16784647)
      , (19228, 17, 16784650);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42417, 'ace42417olthoiamulileggings');
+VALUES (42417, 'ace42417-olthoiamulileggings');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42417, 1076654104, 42417, 18, 100690096, 100667895, NULL, 33554856, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -37286,6 +44705,15 @@ VALUES (42417, 4, 2816);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42417, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42417, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42417, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42417, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42417, 67116585, 72, 12)
      , (42417, 67116585, 136, 12)
@@ -37302,7 +44730,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (42417, 0, 16778829);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32589, 'ace32589damagedshadowstone');
+VALUES (32589, 'ace32589-damagedshadowstone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32589, 2125840, 32589, 18, 100688543, NULL, NULL, 33559809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -37327,6 +44755,12 @@ VALUES (32589, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32589, 93, 1040);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32589, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32589, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3711, 'gembluevirindi');
@@ -37364,6 +44798,15 @@ VALUES (3711, 19, 1500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3711, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3711, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3711, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3711, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3711, 67111926, 0, 0);
 
@@ -37374,7 +44817,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (3711, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32025, 'ace32025shadowstalkertitletoken');
+VALUES (32025, 'ace32025-shadowstalkertitletoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32025, 2113552, 32025, 18, 100667518, NULL, NULL, 33554769, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -37394,8 +44837,17 @@ VALUES (32025, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32025, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32025, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32025, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32025, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41832, 'ace41832celestialhandsupplies');
+VALUES (41832, 'ace41832-celestialhandsupplies');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41832, 1076363280, 41832, 18, 100668152, 100690171, NULL, 33554718, 536870932, NULL, NULL, NULL, 872415275, 39041, NULL, NULL, NULL);
@@ -37421,8 +44873,17 @@ VALUES (41832, 39, 0.33);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41832, 93, 66580);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41832, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41832, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41832, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42414, 'ace42414heaume');
+VALUES (42414, 'ace42414-heaume');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42414, 1076654104, 42414, 18, 100669411, 100667895, NULL, 33555248, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -37459,6 +44920,15 @@ VALUES (42414, 4, 32768);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42414, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42414, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42414, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42414, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42414, 67109980, 240, 10);
@@ -37499,6 +44969,15 @@ VALUES (5186, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5186, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5186, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5186, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5186, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (5186, 67111926, 0, 0);
 
@@ -37509,7 +44988,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (5186, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43474, 'ace43474luminouscrystaloftoweringdefense');
+VALUES (43474, 'ace43474-luminouscrystaloftoweringdefense');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43474, 1349021841, 43474, 67108880, 100690568, 100686629, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5450, NULL, NULL);
@@ -37556,6 +45035,15 @@ VALUES (43474, 20, 'Luminous Crystals of Towering Defense');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43474, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43474, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43474, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43474, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43474, 67111924, 0, 0);
 
@@ -37566,7 +45054,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43474, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43473, 'ace43473luminouscrystalofsurgingstrength');
+VALUES (43473, 'ace43473-luminouscrystalofsurgingstrength');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43473, 1349021841, 43473, 67108880, 100690568, 100686635, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5449, NULL, NULL);
@@ -37612,6 +45100,15 @@ VALUES (43473, 20, 'Luminous Crystals of Surging Strength');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43473, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43473, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43473, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43473, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43473, 67111924, 0, 0);
@@ -37667,6 +45164,18 @@ VALUES (29444, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29444, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29444, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29444, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29444, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29444, 15, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (29444, 76, 0.5);
 
@@ -37680,7 +45189,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (29444, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43478, 'ace43478luminouscrystalofvitality');
+VALUES (43478, 'ace43478-luminouscrystalofvitality');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43478, 1349021841, 43478, 67108880, 100690568, 100686655, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5451, NULL, NULL);
@@ -37721,6 +45230,15 @@ VALUES (43478, 20, 'Luminous Crystals of Vitality');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43478, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43478, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43478, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43478, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43478, 67111924, 0, 0);
 
@@ -37731,7 +45249,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43478, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36631, 'ace36631magicdefenseweaponaugmentation');
+VALUES (36631, 'ace36631-magicdefenseweaponaugmentation');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36631, 1076392088, 36631, 18, 100686475, 100686671, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -37769,6 +45287,15 @@ VALUES (36631, 19, 5);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36631, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36631, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36631, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36631, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36631, 67111920, 0, 0);
 
@@ -37779,7 +45306,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36631, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43477, 'ace43477luminouspearlofspiritdrinking');
+VALUES (43477, 'ace43477-luminouspearlofspiritdrinking');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43477, 1349021841, 43477, 67108880, 100686695, 100686685, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 4414, NULL, NULL);
@@ -37820,6 +45347,15 @@ VALUES (43477, 20, 'Luminous Pearls of Spirit Drinking');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43477, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43477, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43477, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43477, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43477, 67111924, 0, 0);
 
@@ -37830,7 +45366,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43477, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36024, 'ace36024spectralcrystalofthehieromancer');
+VALUES (36024, 'ace36024-spectralcrystalofthehieromancer');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36024, 1349021849, 36024, 67108880, 100686697, 100686693, 100686604, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 4142, NULL, NULL);
@@ -37871,6 +45407,15 @@ VALUES (36024, 20, 'Spectral Crystals of the Hieromancer');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36024, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36024, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36024, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36024, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (36024, 0, 83890391, 83890391);
 
@@ -37901,11 +45446,20 @@ VALUES (22334, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22334, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22334, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22334, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22334, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22334, 67111924, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42418, 'ace42418yoroipauldrons');
+VALUES (42418, 'ace42418-yoroipauldrons');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42418, 1076654104, 42418, 18, 100668175, 100667895, NULL, 33554641, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -37943,6 +45497,15 @@ VALUES (42418, 4, 32768);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42418, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42418, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42418, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42418, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42418, 67110015, 116, 12);
 
@@ -37953,7 +45516,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (42418, 0, 16778411);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42409, 'ace42409yoroigirth');
+VALUES (42409, 'ace42409-yoroigirth');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42409, 1076654104, 42409, 18, 100668146, 100667895, NULL, 33554647, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -37991,6 +45554,15 @@ VALUES (42409, 4, 32768);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42409, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42409, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42409, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42409, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42409, 67110015, 80, 12)
      , (42409, 67110348, 92, 4);
@@ -38003,7 +45575,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (42409, 0, 16778376);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42411, 'ace42411yoroigreaves');
+VALUES (42411, 'ace42411-yoroigreaves');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42411, 1076654104, 42411, 18, 100668168, 100667895, NULL, 33554641, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -38041,6 +45613,15 @@ VALUES (42411, 4, 32768);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42411, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42411, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42411, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42411, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42411, 67110015, 136, 16);
 
@@ -38051,7 +45632,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (42411, 0, 16778411);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42422, 'ace42422leatherboots');
+VALUES (42422, 'ace42422-leatherboots');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42422, 1076654104, 42422, 18, 100675060, 100667895, NULL, 33556683, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -38089,6 +45670,15 @@ VALUES (42422, 4, 32768);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42422, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42422, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42422, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42422, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42422, 67114638, 160, 8);
 
@@ -38111,7 +45701,7 @@ VALUES (42422, 0, 16789640)
      , (42422, 5, 16781839);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44887, 'ace44887celestialhandcloak');
+VALUES (44887, 'ace44887-celestialhandcloak');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44887, 1076654104, 44887, 18, 100692133, 100667895, NULL, 33561386, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -38145,6 +45735,15 @@ VALUES (44887, 4, 131072);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44887, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44887, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44887, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44887, 14, True);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44887, 0, 16795851);
@@ -38185,6 +45784,15 @@ VALUES (6663, 19, 2800);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6663, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6663, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6663, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6663, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6663, 67111924, 0, 0);
 
@@ -38218,11 +45826,20 @@ VALUES (22368, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22368, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22368, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22368, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22368, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22368, 67111923, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45380, 'ace45380dirtyfightinggemofenlightenment');
+VALUES (45380, 'ace45380-dirtyfightinggemofenlightenment');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45380, 1075855376, 45380, 18, 100673788, 100692235, NULL, 33558088, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -38244,6 +45861,15 @@ VALUES (45380, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45380, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45380, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45380, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45380, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45380, 67111923, 0, 0);
@@ -38271,6 +45897,15 @@ VALUES (22384, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22384, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22384, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22384, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22384, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22384, 67111923, 0, 0);
@@ -38302,8 +45937,17 @@ VALUES (27931, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27931, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27931, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27931, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27931, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (31879, 'ace31879radiantshard');
+VALUES (31879, 'ace31879-radiantshard');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (31879, 2650256, 31879, 16, 100670634, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -38337,6 +45981,18 @@ VALUES (31879, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31879, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31879, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31879, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31879, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31879, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31879, 67111922, 0, 0);
@@ -38383,6 +46039,15 @@ VALUES (14883, 39, 0.8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14883, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14883, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14883, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14883, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (14883, 67113796, 0, 0);
 
@@ -38390,7 +46055,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14883, 9, 16785620);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33956, 'ace33956crystalofacidicelementalessence');
+VALUES (33956, 'ace33956-crystalofacidicelementalessence');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33956, 2637840, 33956, 18, 100670495, NULL, NULL, 33556407, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -38415,6 +46080,15 @@ VALUES (33956, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33956, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33956, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33956, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33956, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33956, 67111923, 0, 0);
@@ -38449,6 +46123,15 @@ VALUES (22354, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22354, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22354, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22354, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22354, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22354, 67111923, 0, 0);
 
@@ -38475,6 +46158,15 @@ VALUES (22888, 19, 75);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22888, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22888, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22888, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22888, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27929, 'platehizkrilogic4');
@@ -38503,6 +46195,15 @@ VALUES (27929, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27929, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27929, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27929, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27929, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27928, 'platehizkrilogic3');
 
@@ -38529,6 +46230,15 @@ VALUES (27928, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27928, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27928, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27928, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27928, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27927, 'platehizkrilogic2');
@@ -38557,6 +46267,15 @@ VALUES (27927, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27927, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27927, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27927, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27927, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27926, 'platehizkrilogic1');
 
@@ -38584,8 +46303,17 @@ VALUES (27926, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27926, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27926, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27926, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27926, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (52023, 'ace52023luminouscrystalofrarearmordamageboostv');
+VALUES (52023, 'ace52023-luminouscrystalofrarearmordamageboostv');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (52023, 1349021849, 52023, 67108880, 100690568, 100686635, 100691593, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5978, NULL, NULL);
@@ -38628,6 +46356,15 @@ VALUES (52023, 20, 'Luminous Crystals of Rare Armor Damage Boost V');
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52023, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52023, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52023, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52023, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (52023, 67111924, 0, 0);
@@ -38677,6 +46414,15 @@ VALUES (9425, 19, 200);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9425, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9425, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9425, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9425, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9425, 67111923, 0, 0);
 
@@ -38724,6 +46470,15 @@ VALUES (9428, 19, 200);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9428, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9428, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9428, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9428, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9428, 67111920, 0, 0);
@@ -38773,6 +46528,15 @@ VALUES (9429, 19, 200);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9429, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9429, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9429, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9429, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9429, 67111924, 0, 0);
 
@@ -38820,6 +46584,15 @@ VALUES (9430, 19, 200);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9430, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9430, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9430, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9430, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9430, 67111919, 0, 0);
@@ -38869,6 +46642,15 @@ VALUES (9432, 19, 200);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9432, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9432, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9432, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9432, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9432, 67111921, 0, 0);
 
@@ -38901,6 +46683,15 @@ VALUES (22325, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22325, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22325, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22325, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22325, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22325, 67111924, 0, 0);
@@ -38940,6 +46731,15 @@ VALUES (6664, 19, 3000);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6664, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6664, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6664, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6664, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6664, 67111924, 0, 0);
@@ -38986,6 +46786,15 @@ VALUES (6661, 19, 3400);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6661, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6661, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6661, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6661, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6661, 67111924, 0, 0);
 
@@ -38996,7 +46805,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (6661, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (49481, 'ace49481summoninggemofforgetfulness');
+VALUES (49481, 'ace49481-summoninggemofforgetfulness');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (49481, 1075855376, 49481, 18, 100673789, 100693010, NULL, 33558087, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -39019,11 +46828,20 @@ VALUES (49481, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49481, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49481, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49481, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49481, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (49481, 67111924, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42416, 'ace42416yoroileggings');
+VALUES (42416, 'ace42416-yoroileggings');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42416, 1076637720, 42416, 18, 100667356, 100667895, NULL, 33554856, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -39061,6 +46879,15 @@ VALUES (42416, 4, 512);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42416, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42416, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42416, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42416, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42416, 67110017, 136, 16);
 
@@ -39072,7 +46899,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (42416, 0, 16778829);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43522, 'ace43522darkfalatacottokenoftheauraofspecializationmastery');
+VALUES (43522, 'ace43522-darkfalatacottokenoftheauraofspecializationmastery');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43522, 2097168, 43522, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -39092,6 +46919,15 @@ VALUES (43522, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43522, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43522, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43522, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43522, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43522, 0, 83893723, 83898330)
      , (43522, 0, 83890929, 83898331);
@@ -39100,7 +46936,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43522, 0, 16787203);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43436, 'ace43436darkfalatacottokenoftheauraofdestruction');
+VALUES (43436, 'ace43436-darkfalatacottokenoftheauraofdestruction');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (43436, 2097168, 43436, 18, 100691592, NULL, NULL, 33557280, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -39119,6 +46955,15 @@ VALUES (43436, 16, 1);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43436, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43436, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43436, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43436, 14, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43436, 0, 83893723, 83898330)
@@ -39160,6 +47005,15 @@ VALUES (12157, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (12157, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12157, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12157, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12157, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (12157, 67112924, 0, 0);
 
@@ -39195,6 +47049,15 @@ VALUES (28348, 39, 1.2);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28348, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28348, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28348, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28348, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28348, 67111921, 0, 0);
@@ -39233,6 +47096,15 @@ VALUES (28358, 39, 1.2);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28358, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28358, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28358, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28358, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28358, 67111921, 0, 0);
 
@@ -39244,7 +47116,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (28358, 0, 16779994);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44904, 'ace44904contractforseatemplecatacombs');
+VALUES (44904, 'ace44904-contractforseatemplecatacombs');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44904, 553112, 44904, 67108882, 100691929, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -39282,6 +47154,15 @@ VALUES (44904, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44904, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44904, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44904, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44904, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22329, 'skillgemdownitemenchantment');
 
@@ -39305,6 +47186,15 @@ VALUES (22329, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22329, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22329, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22329, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22329, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22329, 67111924, 0, 0);
@@ -39333,11 +47223,20 @@ VALUES (22322, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22322, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22322, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22322, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22322, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22322, 67111924, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (53305, 'ace53305gemofverdantforce');
+VALUES (53305, 'ace53305-gemofverdantforce');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (53305, 1076392089, 53305, 16, 100693327, 100693329, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -39378,6 +47277,15 @@ VALUES (53305, 20, 'Gems of Verdant Force');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53305, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53305, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53305, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53305, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53305, 67111921, 0, 0);
 
@@ -39388,7 +47296,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (53305, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36021, 'ace36021spectralheavyweaponmasterycrystal');
+VALUES (36021, 'ace36021-spectralheavyweaponmasterycrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (36021, 1349021849, 36021, 67108880, 100686697, 100692248, 100686604, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 4139, NULL, NULL);
@@ -39429,6 +47337,15 @@ VALUES (36021, 20, 'Spectral Heavy Weapon Mastery Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36021, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36021, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36021, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36021, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (36021, 0, 83890391, 83890391);
 
@@ -39458,6 +47375,15 @@ VALUES (22340, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22340, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22340, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22340, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22340, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22340, 67111924, 0, 0);
@@ -39498,6 +47424,15 @@ VALUES (19246, 39, 0.7);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19246, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19246, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19246, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19246, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19246, 67113828, 0, 0);
 
@@ -39531,11 +47466,20 @@ VALUES (22366, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22366, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22366, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22366, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22366, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22366, 67111923, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (31880, 'ace31880dazzlingshard');
+VALUES (31880, 'ace31880-dazzlingshard');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (31880, 2633872, 31880, 16, 100670634, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -39570,6 +47514,18 @@ VALUES (31880, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31880, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31880, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31880, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31880, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31880, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31880, 67111922, 0, 0);
 
@@ -39580,7 +47536,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (31880, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (31881, 'ace31881brilliantshard');
+VALUES (31881, 'ace31881-brilliantshard');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (31881, 2633872, 31881, 16, 100670634, NULL, NULL, 33556769, 536870932, NULL, NULL, 101, 872415275, 169985, NULL, NULL, NULL);
@@ -39615,6 +47571,18 @@ VALUES (31881, 16, 1);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31881, 93, 3092);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31881, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31881, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31881, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31881, 15, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31881, 67111922, 0, 0);
 
@@ -39625,7 +47593,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (31881, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34168, 'ace34168adeptsgemofacidprotection');
+VALUES (34168, 'ace34168-adeptsgemofacidprotection');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34168, 6844561, 34168, 16, 100674460, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 2148, NULL, NULL);
@@ -39663,6 +47631,15 @@ VALUES (34168, 20, 'Adept''s Gems of Acid Protection');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34168, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34168, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34168, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34168, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34168, 67111924, 0, 0);
 
@@ -39673,7 +47650,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (34168, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34174, 'ace34174adeptsgemoflightningprotection');
+VALUES (34174, 'ace34174-adeptsgemoflightningprotection');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34174, 6844561, 34174, 16, 100674459, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 2158, NULL, NULL);
@@ -39711,6 +47688,15 @@ VALUES (34174, 20, 'Adept''s Gems of Lightning Protection');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34174, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34174, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34174, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34174, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34174, 67111924, 0, 0);
 
@@ -39721,7 +47707,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (34174, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34177, 'ace34177adeptsgemofregeneration');
+VALUES (34177, 'ace34177-adeptsgemofregeneration');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34177, 6844561, 34177, 16, 100674428, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 2184, NULL, NULL);
@@ -39759,6 +47745,15 @@ VALUES (34177, 20, 'Adept''s Gems of Regeneration');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34177, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34177, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34177, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34177, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34177, 67111924, 0, 0);
 
@@ -39769,7 +47764,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (34177, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34178, 'ace34178adeptsgemofrejuvenation');
+VALUES (34178, 'ace34178-adeptsgemofrejuvenation');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34178, 6844561, 34178, 16, 100674427, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 2186, NULL, NULL);
@@ -39807,6 +47802,15 @@ VALUES (34178, 20, 'Adept''s Gems of Rejuvenation');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34178, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34178, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34178, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34178, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34178, 67111924, 0, 0);
 
@@ -39817,7 +47821,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (34178, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34170, 'ace34170adeptsgemofbladeprotection');
+VALUES (34170, 'ace34170-adeptsgemofbladeprotection');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (34170, 6844561, 34170, 16, 100674443, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 2150, NULL, NULL);
@@ -39855,6 +47859,15 @@ VALUES (34170, 20, 'Adept''s Gems of Blade Protection');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34170, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34170, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34170, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34170, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34170, 67111924, 0, 0);
 
@@ -39865,7 +47878,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (34170, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44125, 'ace44125scryingrod');
+VALUES (44125, 'ace44125-scryingrod');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44125, 553104, 44125, 67108882, 100691953, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -39900,8 +47913,17 @@ VALUES (44125, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44125, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44125, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44125, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44125, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41451, 'ace41451pyrealmedalofvigor');
+VALUES (41451, 'ace41451-pyrealmedalofvigor');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41451, 275280016, 41451, 67108882, 100690734, NULL, NULL, 33554802, 536870932, NULL, NULL, 101, 872415275, 137217, 5131, NULL, NULL);
@@ -39942,8 +47964,17 @@ VALUES (41451, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41451, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41451, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41451, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41451, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41446, 'ace41446pyrealmedalofintellect');
+VALUES (41446, 'ace41446-pyrealmedalofintellect');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41446, 275280016, 41446, 67108882, 100690734, NULL, NULL, 33554802, 536870932, NULL, NULL, 101, 872415275, 137217, 5126, NULL, NULL);
@@ -39984,6 +48015,15 @@ VALUES (41446, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41446, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41446, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41446, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41446, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8735, 'stampholtburgnewbiequest');
 
@@ -40020,8 +48060,17 @@ VALUES (8735, 39, 3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8735, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8735, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8735, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8735, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44819, 'ace44819contractforaerbaxsprodigalmonouga');
+VALUES (44819, 'ace44819-contractforaerbaxsprodigalmonouga');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44819, 553112, 44819, 67108882, 100691932, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40059,6 +48108,15 @@ VALUES (44819, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44819, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44819, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44819, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44819, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11814, 'crestmask');
 
@@ -40095,6 +48153,15 @@ VALUES (11814, 39, 0.8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11814, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11814, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11814, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11814, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19225, 'housestatuegolem');
 
@@ -40130,6 +48197,15 @@ VALUES (19225, 39, 0.5);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (19225, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19225, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19225, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19225, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19225, 67113845, 0, 0);
@@ -40179,7 +48255,7 @@ VALUES (19225, 0, 16784123)
      , (19225, 12, 16784114);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44386, 'ace44386contractforbrokercontracts');
+VALUES (44386, 'ace44386-contractforbrokercontracts');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44386, 553112, 44386, 67108882, 100691926, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40217,8 +48293,17 @@ VALUES (44386, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44386, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44386, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44386, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44386, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44173, 'ace44173facesofthemukkirlow');
+VALUES (44173, 'ace44173-facesofthemukkirlow');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44173, 553112, 44173, 67108882, 100691926, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40256,8 +48341,17 @@ VALUES (44173, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44173, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44173, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44173, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44173, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44147, 'ace44147contractfordefenseofzaikhalcopper');
+VALUES (44147, 'ace44147-contractfordefenseofzaikhalcopper');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44147, 553112, 44147, 67108882, 100691926, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40295,8 +48389,17 @@ VALUES (44147, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44147, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44147, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44147, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44147, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44154, 'ace44154contractforthedecrepittower');
+VALUES (44154, 'ace44154-contractforthedecrepittower');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44154, 553112, 44154, 67108882, 100691926, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40334,8 +48437,17 @@ VALUES (44154, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44154, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44154, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44154, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44154, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44142, 'ace44142contractforreignofterror');
+VALUES (44142, 'ace44142-contractforreignofterror');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44142, 553112, 44142, 67108882, 100691926, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40373,8 +48485,17 @@ VALUES (44142, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44142, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44142, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44142, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44142, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44148, 'ace44148contractfordefenseofzaikhalsilver');
+VALUES (44148, 'ace44148-contractfordefenseofzaikhalsilver');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44148, 553112, 44148, 67108882, 100691926, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40412,8 +48533,17 @@ VALUES (44148, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44148, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44148, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44148, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44148, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44174, 'ace44174facesofthemukkirmid');
+VALUES (44174, 'ace44174-facesofthemukkirmid');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44174, 553112, 44174, 67108882, 100691926, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40451,8 +48581,17 @@ VALUES (44174, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44174, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44174, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44174, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44174, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44175, 'ace44175contractforfirstcontact');
+VALUES (44175, 'ace44175-contractforfirstcontact');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44175, 553112, 44175, 67108882, 100691926, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40490,8 +48629,17 @@ VALUES (44175, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44175, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44175, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44175, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44175, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44149, 'ace44149contractfordefenseofzaikhalgold');
+VALUES (44149, 'ace44149-contractfordefenseofzaikhalgold');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44149, 553112, 44149, 67108882, 100691926, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40529,8 +48677,17 @@ VALUES (44149, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44149, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44149, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44149, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44149, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44172, 'ace44172facesofthemukkirhigh');
+VALUES (44172, 'ace44172-facesofthemukkirhigh');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44172, 553112, 44172, 67108882, 100691926, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40568,8 +48725,17 @@ VALUES (44172, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44172, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44172, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44172, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44172, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44181, 'ace44181contractforhismastersvoice');
+VALUES (44181, 'ace44181-contractforhismastersvoice');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44181, 553112, 44181, 67108882, 100691926, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40607,8 +48773,17 @@ VALUES (44181, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44181, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44181, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44181, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44181, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44171, 'ace44171facesofthemukkirexpert');
+VALUES (44171, 'ace44171-facesofthemukkirexpert');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44171, 553112, 44171, 67108882, 100691932, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40646,8 +48821,17 @@ VALUES (44171, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44171, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44171, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44171, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44171, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44150, 'ace44150contractfordefenseofzaikhalplatinum');
+VALUES (44150, 'ace44150-contractfordefenseofzaikhalplatinum');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44150, 553112, 44150, 67108882, 100691932, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40685,8 +48869,17 @@ VALUES (44150, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44150, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44150, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44150, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44150, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51521, 'ace51521enhancedassaultaxe');
+VALUES (51521, 'ace51521-enhancedassaultaxe');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51521, 1344827416, 51521, 18, 100671742, 100667895, NULL, 33557200, 536870932, NULL, NULL, 101, 872415275, 137345, NULL, NULL, NULL);
@@ -40727,6 +48920,15 @@ VALUES (51521, 39, 1.2);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51521, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51521, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51521, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51521, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (51521, 67111924, 0, 0);
 
@@ -40738,7 +48940,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (51521, 0, 16786132);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41915, 'ace41915weaponupgradekit');
+VALUES (41915, 'ace41915-weaponupgradekit');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41915, 2650136, 41915, 18, 100688857, NULL, NULL, 33555677, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40770,8 +48972,17 @@ VALUES (41915, 19, 5);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41915, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41915, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41915, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41915, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41449, 'ace41449silvermedalofvigor');
+VALUES (41449, 'ace41449-silvermedalofvigor');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41449, 275280016, 41449, 67108882, 100690735, NULL, NULL, 33554802, 536870932, NULL, NULL, 101, 872415275, 137217, 5129, NULL, NULL);
@@ -40812,8 +49023,17 @@ VALUES (41449, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41449, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41449, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41449, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41449, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41444, 'ace41444silvermedalofintellect');
+VALUES (41444, 'ace41444-silvermedalofintellect');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41444, 275280016, 41444, 67108882, 100690735, NULL, NULL, 33554802, 536870932, NULL, NULL, 101, 872415275, 137217, 5124, NULL, NULL);
@@ -40854,8 +49074,17 @@ VALUES (41444, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41444, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41444, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41444, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41444, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41445, 'ace41445goldmedalofintellect');
+VALUES (41445, 'ace41445-goldmedalofintellect');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41445, 275280016, 41445, 67108882, 100690740, NULL, NULL, 33554802, 536870932, NULL, NULL, 101, 872415275, 137217, 5125, NULL, NULL);
@@ -40896,6 +49125,15 @@ VALUES (41445, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41445, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41445, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41445, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41445, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22357, 'skillgemupcreatureenchantment');
 
@@ -40920,11 +49158,20 @@ VALUES (22357, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22357, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22357, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22357, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22357, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22357, 67111923, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (52756, 'ace52756natureswrathamplification');
+VALUES (52756, 'ace52756-natureswrathamplification');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (52756, 1076392088, 52756, 18, 100673218, 100673274, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -40962,6 +49209,15 @@ VALUES (52756, 19, 30);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52756, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52756, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52756, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52756, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (52756, 67111924, 0, 0);
 
@@ -40972,7 +49228,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (52756, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (42405, 'ace42405duskywingedcoat');
+VALUES (42405, 'ace42405-duskywingedcoat');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (42405, 1076654104, 42405, 18, 100676833, 100667895, NULL, 33554854, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -41010,6 +49266,15 @@ VALUES (42405, 4, 13312);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42405, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42405, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42405, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42405, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (42405, 67115302, 96, 40)
      , (42405, 67115302, 174, 66);
@@ -41046,11 +49311,20 @@ VALUES (22316, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22316, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22316, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22316, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22316, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22316, 67111924, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (52758, 'ace52758gauntletdefenseamplification');
+VALUES (52758, 'ace52758-gauntletdefenseamplification');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (52758, 1076392088, 52758, 18, 100673218, 100673225, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -41088,6 +49362,15 @@ VALUES (52758, 19, 30);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52758, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52758, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52758, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52758, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (52758, 67111920, 0, 0);
 
@@ -41098,7 +49381,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (52758, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45359, 'ace45359spectralsneakattackmasterycrystal');
+VALUES (45359, 'ace45359-spectralsneakattackmasterycrystal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45359, 1349021849, 45359, 67108880, 100686697, 100692247, 100686604, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 5910, NULL, NULL);
@@ -41139,6 +49422,15 @@ VALUES (45359, 20, 'Spectral Sneak Attack Mastery Crystals');
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45359, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45359, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45359, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45359, 14, True);
+
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (45359, 0, 83890391, 83890391);
 
@@ -41169,8 +49461,17 @@ VALUES (25467, 19, 200);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (25467, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25467, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25467, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25467, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (51451, 'ace51451darkheart');
+VALUES (51451, 'ace51451-darkheart');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (51451, 1344811032, 51451, 18, 100671239, 100667895, NULL, 33556933, 536870932, NULL, NULL, 101, 872415275, 432257, NULL, NULL, NULL);
@@ -41211,6 +49512,15 @@ VALUES (51451, 39, 1.4);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51451, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51451, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51451, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51451, 14, True);
+
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (51451, 76, 0.5);
 
@@ -41224,7 +49534,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (51451, 0, 16778862);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (48710, 'ace48710pulsatingspirittrapgem');
+VALUES (48710, 'ace48710-pulsatingspirittrapgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (48710, 2125840, 48710, 18, 100671244, NULL, NULL, 33556932, 536870932, NULL, NULL, 101, 872415275, 137345, NULL, NULL, NULL);
@@ -41255,6 +49565,18 @@ VALUES (48710, 39, 0.6);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (48710, 93, 3092);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (48710, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (48710, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (48710, 14, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (48710, 15, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (48710, 67111919, 0, 0);
@@ -41289,6 +49611,15 @@ VALUES (22348, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22348, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22348, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22348, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22348, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22348, 67111924, 0, 0);
 
@@ -41321,6 +49652,15 @@ VALUES (8520, 16, 524296);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8520, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8520, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8520, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8520, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29567, 'hidekukuur3');
@@ -41358,6 +49698,15 @@ VALUES (29567, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29567, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29567, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29567, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29567, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29567, 67111918, 0, 0);
 
@@ -41368,7 +49717,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (29567, 0, 16777882);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (52740, 'ace52740gemofbrilliance');
+VALUES (52740, 'ace52740-gemofbrilliance');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (52740, 6320280, 52740, 16, 100668277, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, 6176, NULL, NULL);
@@ -41403,6 +49752,15 @@ VALUES (52740, 19, 45);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52740, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52740, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52740, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52740, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (52740, 67112926, 0, 0);
 
@@ -41436,11 +49794,20 @@ VALUES (22352, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22352, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22352, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22352, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22352, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22352, 67111923, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33686, 'ace33686lessermukkirslayerstone');
+VALUES (33686, 'ace33686-lessermukkirslayerstone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (33686, 2650264, 33686, 18, 100688992, NULL, NULL, 33556926, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -41478,6 +49845,15 @@ VALUES (33686, 19, 500);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33686, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33686, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33686, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33686, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33686, 67111924, 0, 0);
 
@@ -41488,7 +49864,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (33686, 0, 16779181);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44157, 'ace44157contractforassaultlow');
+VALUES (44157, 'ace44157-contractforassaultlow');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44157, 553112, 44157, 67108882, 100691929, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -41526,6 +49902,15 @@ VALUES (44157, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44157, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44157, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44157, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44157, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29565, 'hidekukuur1');
 
@@ -41562,6 +49947,15 @@ VALUES (29565, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29565, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29565, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29565, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29565, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29565, 67111918, 0, 0);
 
@@ -41572,7 +49966,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (29565, 0, 16777882);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32216, 'ace32216packgoldremoran');
+VALUES (32216, 'ace32216-packgoldremoran');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (32216, 271073304, 32216, 18, 100688455, NULL, NULL, 33559700, NULL, 150995351, 'AAA9AAAAAAA=', NULL, 872415414, 69763, NULL, NULL, NULL);
@@ -41607,11 +50001,20 @@ VALUES (32216, 39, 0.3);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32216, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32216, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32216, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32216, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32216, 67116783, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44863, 'ace44863rynthidenergytentacles');
+VALUES (44863, 'ace44863-rynthidenergytentacles');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44863, 1076654104, 44863, 18, 100693225, 100667895, NULL, 33561386, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -41646,6 +50049,15 @@ VALUES (44863, 4, 131072);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44863, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44863, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44863, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44863, 14, True);
+
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44863, 0, 16797047);
 
@@ -41672,6 +50084,15 @@ VALUES (22349, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22349, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22349, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22349, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22349, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22349, 67111924, 0, 0);
@@ -41700,11 +50121,20 @@ VALUES (22377, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22377, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22377, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22377, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22377, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22377, 67111923, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41740, 'ace41740twohandedcombatgemofenlightenment');
+VALUES (41740, 'ace41740-twohandedcombatgemofenlightenment');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41740, 1075855376, 41740, 18, 100673788, 100690641, NULL, 33558088, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -41726,6 +50156,15 @@ VALUES (41740, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41740, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41740, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41740, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41740, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41740, 67111923, 0, 0);
@@ -41754,11 +50193,20 @@ VALUES (22315, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22315, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22315, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22315, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22315, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22315, 67111924, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (41739, 'ace41739twohandedcombatgemofforgetfulness');
+VALUES (41739, 'ace41739-twohandedcombatgemofforgetfulness');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (41739, 1075855376, 41739, 18, 100673789, 100690641, NULL, 33558087, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -41780,6 +50228,15 @@ VALUES (41739, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41739, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41739, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41739, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41739, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41739, 67111924, 0, 0);
@@ -41808,6 +50265,15 @@ VALUES (22350, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22350, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22350, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22350, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22350, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22350, 67111923, 0, 0);
 
@@ -41834,6 +50300,15 @@ VALUES (22339, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22339, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22339, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22339, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22339, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22339, 67111924, 0, 0);
@@ -41862,11 +50337,20 @@ VALUES (22346, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22346, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22346, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22346, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22346, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22346, 67111924, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (45375, 'ace45375dirtyfightinggemofforgetfulness');
+VALUES (45375, 'ace45375-dirtyfightinggemofforgetfulness');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (45375, 1075855376, 45375, 18, 100673789, 100692235, NULL, 33558087, NULL, NULL, NULL, 101, NULL, 131073, NULL, NULL, NULL);
@@ -41889,11 +50373,20 @@ VALUES (45375, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45375, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45375, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45375, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45375, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45375, 67111924, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44903, 'ace44903contractfornenaispetdrudge');
+VALUES (44903, 'ace44903-contractfornenaispetdrudge');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44903, 553112, 44903, 67108882, 100691929, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -41931,8 +50424,17 @@ VALUES (44903, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44903, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44903, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44903, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44903, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44899, 'ace44899contractforbraidmansionruin');
+VALUES (44899, 'ace44899-contractforbraidmansionruin');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44899, 553112, 44899, 67108882, 100691929, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -41970,6 +50472,15 @@ VALUES (44899, 19, 100);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44899, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44899, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44899, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44899, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22326, 'skillgemdownfletching');
 
@@ -41994,11 +50505,20 @@ VALUES (22326, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22326, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22326, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22326, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22326, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22326, 67111924, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44128, 'ace44128scryingrod');
+VALUES (44128, 'ace44128-scryingrod');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44128, 553104, 44128, 67108882, 100691953, NULL, NULL, 33554809, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -42033,8 +50553,17 @@ VALUES (44128, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44128, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44128, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44128, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44128, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (44352, 'ace44352armoredillohuntinglostcityofneftetlevel200');
+VALUES (44352, 'ace44352-armoredillohuntinglostcityofneftetlevel200');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
 VALUES (44352, 553104, 44352, 67108882, 100691928, NULL, NULL, 33554773, 536870932, NULL, NULL, 101, 872415275, 137217, NULL, NULL, NULL);
@@ -42068,6 +50597,15 @@ VALUES (44352, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44352, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44352, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44352, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44352, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6893, 'moonstonemiyako');
@@ -42105,6 +50643,15 @@ VALUES (6893, 19, 483);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6893, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6893, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6893, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6893, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6893, 67111920, 0, 0);
 
@@ -42138,6 +50685,15 @@ VALUES (22355, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22355, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22355, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22355, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22355, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22355, 67111923, 0, 0);
 
@@ -42164,6 +50720,15 @@ VALUES (22353, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22353, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22353, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22353, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22353, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22353, 67111923, 0, 0);
@@ -42192,6 +50757,15 @@ VALUES (22333, 16, 8);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22333, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22333, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22333, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22333, 14, True);
+
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22333, 67111924, 0, 0);
 
@@ -42218,6 +50792,15 @@ VALUES (22324, 16, 8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22324, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22324, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22324, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22324, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22324, 67111924, 0, 0);
@@ -42255,6 +50838,15 @@ VALUES (11866, 16, 524296);
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11866, 93, 1044);
 
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11866, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11866, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11866, 14, True);
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11817, 'crestshreth');
 
@@ -42290,4 +50882,13 @@ VALUES (11817, 39, 0.8);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11817, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11817, 13, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11817, 11, True);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11817, 14, True);
 
