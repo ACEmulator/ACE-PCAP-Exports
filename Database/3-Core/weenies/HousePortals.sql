@@ -1,6 +1,23 @@
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (11730, 'House Portal', 65536, 0, 0, 0, 262164, 0, 0, 0, 0, 0, 0, 41943088, 0, 100667499, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554867, 0, 98307, 0, 150994947, 0, 3076, 0, 'AAA9AAAAAAA=');
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (11730, 'houseportal');
 
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (11730, 11730);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (11730, 41943088, 11730, 262164, 100667499, NULL, NULL, 33554867, NULL, 150994947, 'AAA9AAAAAAA=', NULL, NULL, 98307, NULL, NULL, NULL);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11730, 1, 'House Portal');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11730, 1, 65536)
+     , (11730, 133, 4)
+     , (11730, 16, 32)
+     , (11730, 93, 3076);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (11730, 54, 0.75);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11730, 13, True)
+     , (11730, 14, True)
+     , (11730, 15, True);
 

@@ -1,12 +1,44 @@
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (854, 'Altar of Bael''Zharon', 128, 0, 0, 0, 1044, 50, 0, 0, 0, 0, 0, 2097200, 0, 100668239, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33555289, 0, 100355, 0, 150994990, 536870964, 66576, 0, 'AAA9AAAAAAA=');
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (854, 'pkswitch');
 
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (854, 854);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (854, 2097200, 854, 1044, 100668239, NULL, NULL, 33555289, 536870964, 150994990, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (29034, 'Eye of Darkness', 128, 0, 0, 0, 1044, 50, 0, 0, 0, 0, 0, 2097200, 0, 100675798, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33558604, 0, 100355, 0, 150995275, 536870964, 1040, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (854, 1, 'Altar of Bael''Zharon');
 
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (29034, 29034);
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (854, 1, 128)
+     , (854, 5, 50)
+     , (854, 16, 32)
+     , (854, 93, 66576);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (854, 54, 5);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (854, 11, True)
+     , (854, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (29034, 'altarfalatacotpk');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (29034, 2097200, 29034, 1044, 100675798, NULL, NULL, 33558604, 536870964, 150995275, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29034, 1, 'Eye of Darkness');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29034, 1, 128)
+     , (29034, 5, 50)
+     , (29034, 16, 32)
+     , (29034, 93, 1040);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29034, 54, 5);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29034, 11, True)
+     , (29034, 14, True);
 

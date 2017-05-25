@@ -1,48 +1,168 @@
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (509, 'Life Stone', 268435456, 0, 0, 1, 16404, 0, 0, 0, 0, 0, 0, 9437232, 0, 100668245, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33555182, 0, 100355, 0, 150994982, 536870932, 1040, 0, 'AAA9AAAAAAA=');
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (509, 'lifestone');
 
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (509, 509);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (509, 9437232, 509, 16404, 100668245, NULL, NULL, 33555182, 536870932, 150994982, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (23618, 'Life Stone', 268435456, 0, 0, 1, 16404, 0, 0, 0, 0, 0, 0, 9437232, 0, 100668245, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33558189, 0, 100355, 0, 150995232, 536870932, 1040, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (509, 1, 'Life Stone');
 
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (23618, 23618);
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (509, 1, 268435456)
+     , (509, 95, 1)
+     , (509, 133, 4)
+     , (509, 16, 32)
+     , (509, 93, 1040);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (27096, 'Lugian Lifestone', 268435456, 0, 0, 1, 16404, 0, 0, 0, 0, 0, 0, 9437232, 0, 100675939, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33558653, 0, 100355, 0, 150995280, 536870932, 1040, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (509, 54, 2);
 
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (27096, 27096);
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (509, 11, True)
+     , (509, 14, True);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (37165, 'Mana Foci', 268435456, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 8388624, 0, 100668245, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33558189, 0, 100355, 0, 150995232, 536870932, 1040, 0, 'AAA9AAAAAAA=');
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (23618, 'lifestonenew');
 
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (37165, 37165);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (23618, 9437232, 23618, 16404, 100668245, NULL, NULL, 33558189, 536870932, 150995232, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (38054, 'Eldrytch Web Banner', 268435456, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 8388624, 0, 100689889, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33560563, 0, 34817, 0, 0, 536870932, 1040, 0, '0');
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23618, 1, 'Life Stone');
 
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (38054, 38054);
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23618, 1, 268435456)
+     , (23618, 95, 1)
+     , (23618, 133, 4)
+     , (23618, 16, 32)
+     , (23618, 93, 1040);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (38055, 'Radiant Blood Banner', 268435456, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 8388624, 0, 100689890, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33560564, 0, 34817, 0, 0, 536870932, 1040, 0, '0');
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23618, 54, 2);
 
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (38055, 38055);
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23618, 11, True)
+     , (23618, 14, True);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (38053, 'Celestial Hand Banner', 268435456, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 8388624, 0, 100689888, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33560562, 0, 34817, 0, 0, 536870932, 1040, 0, '0');
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (27096, 'lifestonelugian');
 
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (38053, 38053);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (27096, 9437232, 27096, 16404, 100675939, NULL, NULL, 33558653, 536870932, 150995280, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (24572, 'Life Stone', 268435456, 0, 0, 1, 16404, 0, 0, 0, 0, 0, 0, 9437232, 0, 100668245, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33558189, 0, 100355, 0, 150995232, 536870932, 1040, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27096, 1, 'Lugian Lifestone');
 
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (24572, 24572);
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27096, 1, 268435456)
+     , (27096, 95, 1)
+     , (27096, 133, 4)
+     , (27096, 16, 32)
+     , (27096, 93, 1040);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27096, 54, 2);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27096, 11, True)
+     , (27096, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (37165, 'ace37165-manafoci');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (37165, 8388624, 37165, 20, 100668245, NULL, NULL, 33558189, 536870932, 150995232, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37165, 1, 'Mana Foci');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37165, 1, 268435456)
+     , (37165, 133, 1)
+     , (37165, 16, 1)
+     , (37165, 93, 1040);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37165, 11, True)
+     , (37165, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (38054, 'ace38054-eldrytchwebbanner');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (38054, 8388624, 38054, 20, 100689889, NULL, NULL, 33560563, 536870932, NULL, NULL, NULL, NULL, 34817, NULL, NULL, NULL);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38054, 1, 'Eldrytch Web Banner');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38054, 1, 268435456)
+     , (38054, 133, 1)
+     , (38054, 16, 1)
+     , (38054, 93, 1040);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38054, 11, True)
+     , (38054, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (38055, 'ace38055-radiantbloodbanner');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (38055, 8388624, 38055, 20, 100689890, NULL, NULL, 33560564, 536870932, NULL, NULL, NULL, NULL, 34817, NULL, NULL, NULL);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38055, 1, 'Radiant Blood Banner');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38055, 1, 268435456)
+     , (38055, 133, 1)
+     , (38055, 16, 1)
+     , (38055, 93, 1040);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38055, 11, True)
+     , (38055, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (38053, 'ace38053-celestialhandbanner');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (38053, 8388624, 38053, 20, 100689888, NULL, NULL, 33560562, 536870932, NULL, NULL, NULL, NULL, 34817, NULL, NULL, NULL);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38053, 1, 'Celestial Hand Banner');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38053, 1, 268435456)
+     , (38053, 133, 1)
+     , (38053, 16, 1)
+     , (38053, 93, 1040);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38053, 11, True)
+     , (38053, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (24572, 'lifestonenewcandethkeep');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (24572, 9437232, 24572, 16404, 100668245, NULL, NULL, 33558189, 536870932, 150995232, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24572, 1, 'Life Stone');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24572, 1, 268435456)
+     , (24572, 95, 1)
+     , (24572, 133, 4)
+     , (24572, 16, 32)
+     , (24572, 93, 1040);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (24572, 54, 2);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24572, 11, True)
+     , (24572, 14, True);
 

@@ -1,12 +1,44 @@
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (8510, 'Adja''s Memorial', 128, 0, 0, 0, 2070, 100, 0, 0, 0, 0, 0, 2097200, 0, 100671209, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33556908, 0, 100355, 0, 150994989, 536870965, 66576, 0, 'AAA9AAAAAAA=');
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (8510, 'npkswitch2');
 
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (8510, 8510);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (8510, 2097200, 8510, 2070, 100671209, NULL, NULL, 33556908, 536870965, 150994989, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (855, 'Altar of Asheron', 128, 0, 0, 0, 2068, 100, 0, 0, 0, 0, 0, 2097200, 0, 100668239, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33555278, 0, 100355, 0, 150994989, 536870965, 1040, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8510, 1, 'Adja''s Memorial');
 
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (855, 855);
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8510, 1, 128)
+     , (8510, 5, 100)
+     , (8510, 16, 32)
+     , (8510, 93, 66576);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8510, 54, 5);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8510, 11, True)
+     , (8510, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (855, 'npkswitch');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (855, 2097200, 855, 2068, 100668239, NULL, NULL, 33555278, 536870965, 150994989, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (855, 1, 'Altar of Asheron');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (855, 1, 128)
+     , (855, 5, 100)
+     , (855, 16, 32)
+     , (855, 93, 1040);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (855, 54, 5);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (855, 11, True)
+     , (855, 14, True);
 

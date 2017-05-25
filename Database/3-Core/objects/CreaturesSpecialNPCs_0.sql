@@ -1,18 +1,60 @@
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3688325439, 'Babe the Blue Auroch', 16, 67109302, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437206, 0, 100667936, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554478, 5, 104579, 872415254, 150994969, 536870916, 2098184, 0, 'AAA9AIAAAABSABcAAACAPw==');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3688325439, 9437206, 8128, 4, 100667936, NULL, NULL, 33554478, 536870916, 150994969, 'AAA9AIAAAABSABcAAACAPw==', NULL, 872415254, 104579, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3688325439, 8128, 25576, 44, 125.249, 85.9626, 132.0425, -0.9952207, 0, 0, 0.09765107);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3688325439, 1, 1676148780, 125.249, 85.9626, 132.0425, -0.9952207, 0, 0, 0.09765107);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3688325439, 1, 'Babe the Blue Auroch');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3688325439, 1, 16)
+     , (3688325439, 3, 67109302)
+     , (3688325439, 95, 8)
+     , (3688325439, 7, 255)
+     , (3688325439, 6, 255)
+     , (3688325439, 133, 4)
+     , (3688325439, 16, 1)
+     , (3688325439, 93, 2098184);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3688325439, 39, 5);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3688325439, 12, True)
+     , (3688325439, 14, True)
+     , (3688325439, 41, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3688325439, 67112901, 0, 0);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3688325438, 'Paul the Monouga', 16, 67111302, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437206, 0, 100669117, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33555199, 8, 104643, 872415334, 150994983, 536870962, 2098184, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3688325438, 9437206, 8129, 4, 100669117, NULL, NULL, 33555199, 536870962, 150994983, 'AAA9AAAAAAA=', NULL, 872415334, 104643, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3688325438, 8129, 25576, 44, 134.263, 86.9166, 131.96, 0.9355682, 0, 0, -0.3531461);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3688325438, 1, 1676148780, 134.263, 86.9166, 131.96, 0.9355682, 0, 0, -0.3531461);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3688325438, 1, 'Paul the Monouga');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3688325438, 1, 16)
+     , (3688325438, 3, 67111302)
+     , (3688325438, 95, 8)
+     , (3688325438, 7, 255)
+     , (3688325438, 6, 255)
+     , (3688325438, 133, 4)
+     , (3688325438, 16, 1)
+     , (3688325438, 93, 2098184);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3688325438, 39, 8);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3688325438, 12, True)
+     , (3688325438, 14, True)
+     , (3688325438, 41, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3688325438, 67111952, 0, 0);
 

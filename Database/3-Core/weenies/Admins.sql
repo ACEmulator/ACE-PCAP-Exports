@@ -1,10 +1,27 @@
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (4, '+Moosier', 16, 67108990, 0, 0, 5242892, 0, 0, 0, 0, 0, 7, 8388630, 0, 100667446, 0, 0, 0, 102, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 104451, 872415236, 150994945, 536870913, 4195336, 0, 'AAA9AGYAAAAHAA0ABEEAQAAAwD8=');
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (4, 'admin');
 
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (4, 4);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (4, 8388630, 4, 5242892, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AGYAAAAHAA0ABEEAQAAAwD8=', NULL, 872415236, 104451, NULL, NULL, NULL);
 
-INSERT INTO `weenie_palette_changes` (`weenieClassId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4, 1, '+Moosier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4, 1, 16)
+     , (4, 3, 67108990)
+     , (4, 7, 7)
+     , (4, 6, 102)
+     , (4, 133, 4)
+     , (4, 16, 1)
+     , (4, 93, 4195336);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (4, 12, True)
+     , (4, 14, True)
+     , (4, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (4, 67110059, 0, 24)
      , (4, 67117070, 24, 8)
      , (4, 67110063, 32, 8)
@@ -14,7 +31,7 @@ VALUES (4, 67110059, 0, 24)
      , (4, 67110550, 92, 4)
      , (4, 67110320, 160, 8);
 
-INSERT INTO `weenie_texture_map_changes` (`weenieClassId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (4, 16, 83886232, 83890359)
      , (4, 16, 83886668, 83890496)
      , (4, 16, 83886837, 83890530)
@@ -34,7 +51,7 @@ VALUES (4, 16, 83886232, 83890359)
      , (4, 4, 83887068, 83887054)
      , (4, 8, 83887068, 83887054);
 
-INSERT INTO `weenie_animation_changes` (`weenieClassId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4, 11, 16777302)
      , (4, 12, 16777304)
      , (4, 14, 16777305)

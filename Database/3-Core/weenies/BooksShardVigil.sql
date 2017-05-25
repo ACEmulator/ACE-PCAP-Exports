@@ -1,6 +1,25 @@
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (9002, 'Shard Vigil Memorial', 8192, 0, 0, 8, 276, 10000, 0, 0, 0, 0, 0, 11534384, 0, 100671330, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 48, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33556953, 0, 32769, 0, 0, 0, 1048, 0, '0');
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (9002, 'monumentthistledown');
 
-INSERT INTO weenie_class (`weenieClassId`, `baseAceObjectId`)
-VALUES (9002, 9002);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (9002, 11534384, 9002, 276, 100671330, NULL, NULL, 33556953, NULL, NULL, NULL, NULL, NULL, 32769, NULL, NULL, NULL);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9002, 1, 'Shard Vigil Memorial');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9002, 1, 8192)
+     , (9002, 95, 8)
+     , (9002, 5, 10000)
+     , (9002, 133, 4)
+     , (9002, 16, 48)
+     , (9002, 93, 1048);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9002, 54, 5);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9002, 12, True)
+     , (9002, 11, True)
+     , (9002, 14, True);
 

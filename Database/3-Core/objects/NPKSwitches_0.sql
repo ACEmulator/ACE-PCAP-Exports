@@ -1,12 +1,44 @@
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2134999048, 'Adja''s Memorial', 128, 0, 0, 0, 2070, 100, 0, 0, 0, 0, 0, 2097200, 0, 100671209, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33556908, 0, 100355, 0, 150994989, 536870965, 66576, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (2134999048, 2097200, 8510, 2070, 100671209, NULL, NULL, 33556908, 536870965, 150994989, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2134999048, 8510, 62488, 269, 39.2854, 45.4451, 162.7, 1, 0, 0, 0);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2134999048, 1, 4095213837, 39.2854, 45.4451, 162.7, 1, 0, 0, 0);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (1881133059, 'Altar of Asheron', 128, 0, 0, 0, 2068, 100, 0, 0, 0, 0, 0, 2097200, 0, 100668239, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33555278, 0, 100355, 0, 150994989, 536870965, 1040, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2134999048, 1, 'Adja''s Memorial');
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (1881133059, 855, 509, 258, 90, -110, -23.999, -0.7071068, 0, 0, -0.7071068);
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2134999048, 1, 128)
+     , (2134999048, 5, 100)
+     , (2134999048, 16, 32)
+     , (2134999048, 93, 66576);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2134999048, 54, 5);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2134999048, 11, True)
+     , (2134999048, 14, True);
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (1881133059, 2097200, 855, 2068, 100668239, NULL, NULL, 33555278, 536870965, 150994989, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
+
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1881133059, 1, 33358082, 90, -110, -23.999, -0.7071068, 0, 0, -0.7071068);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1881133059, 1, 'Altar of Asheron');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1881133059, 1, 128)
+     , (1881133059, 5, 100)
+     , (1881133059, 16, 32)
+     , (1881133059, 93, 1040);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (1881133059, 54, 5);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1881133059, 11, True)
+     , (1881133059, 14, True);
 

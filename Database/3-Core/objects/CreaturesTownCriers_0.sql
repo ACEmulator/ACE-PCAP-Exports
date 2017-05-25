@@ -1,10 +1,33 @@
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685320409, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685320409, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685320409, 5777, 56377, 7, 3.30569, 156.3754, 14.005, -0.92388, 0, 0, -0.382683);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685320409, 1, 3694723079, 3.30569, 156.3754, 14.005, -0.92388, 0, 0, -0.382683);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685320409, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685320409, 1, 16)
+     , (3685320409, 3, 67108990)
+     , (3685320409, 95, 8)
+     , (3685320409, 7, 255)
+     , (3685320409, 6, 255)
+     , (3685320409, 133, 4)
+     , (3685320409, 16, 32)
+     , (3685320409, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685320409, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685320409, 12, True)
+     , (3685320409, 11, True)
+     , (3685320409, 14, True)
+     , (3685320409, 41, True)
+     , (3685320409, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685320409, 67110059, 0, 24)
      , (3685320409, 67117020, 24, 8)
      , (3685320409, 67110063, 32, 8)
@@ -18,7 +41,7 @@ VALUES (3685320409, 67110059, 0, 24)
      , (3685320409, 67110350, 116, 12)
      , (3685320409, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685320409, 16, 83886232, 83890359)
      , (3685320409, 16, 83886668, 83890437)
      , (3685320409, 16, 83886837, 83890529)
@@ -46,7 +69,7 @@ VALUES (3685320409, 16, 83886232, 83890359)
      , (3685320409, 13, 83892347, 83892347)
      , (3685320409, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685320409, 16, 16795638)
      , (3685320409, 15, 16777335)
      , (3685320409, 12, 16777334)
@@ -65,13 +88,36 @@ VALUES (3685320409, 16, 16795638)
      , (3685320409, 13, 16783871)
      , (3685320409, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3684910839, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3684910839, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3684910839, 5772, 52885, 34, 114.7415, 30.91683, 20.005, 0.121869, 0, 0, -0.9925462);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3684910839, 1, 3465871394, 114.7415, 30.91683, 20.005, 0.121869, 0, 0, -0.9925462);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3684910839, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3684910839, 1, 16)
+     , (3684910839, 3, 67108990)
+     , (3684910839, 95, 8)
+     , (3684910839, 7, 255)
+     , (3684910839, 6, 255)
+     , (3684910839, 133, 4)
+     , (3684910839, 16, 32)
+     , (3684910839, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3684910839, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3684910839, 12, True)
+     , (3684910839, 11, True)
+     , (3684910839, 14, True)
+     , (3684910839, 41, True)
+     , (3684910839, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3684910839, 67109558, 0, 24)
      , (3684910839, 67116993, 24, 8)
      , (3684910839, 67109565, 32, 8)
@@ -85,7 +131,7 @@ VALUES (3684910839, 67109558, 0, 24)
      , (3684910839, 67110350, 116, 12)
      , (3684910839, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684910839, 16, 83886232, 83890685)
      , (3684910839, 16, 83886668, 83890277)
      , (3684910839, 16, 83886837, 83890312)
@@ -111,7 +157,7 @@ VALUES (3684910839, 16, 83886232, 83890685)
      , (3684910839, 13, 83892347, 83892347)
      , (3684910839, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3684910839, 16, 16795655)
      , (3684910839, 15, 16777335)
      , (3684910839, 12, 16777334)
@@ -130,13 +176,36 @@ VALUES (3684910839, 16, 16795655)
      , (3684910839, 13, 16783871)
      , (3684910839, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3684908930, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3684908930, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3684908930, 5772, 52885, 38, 116.8475, 133.084, 20.005, -0.9918944, 0, 0, -0.127065);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3684908930, 1, 3465871398, 116.8475, 133.084, 20.005, -0.9918944, 0, 0, -0.127065);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3684908930, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3684908930, 1, 16)
+     , (3684908930, 3, 67108990)
+     , (3684908930, 95, 8)
+     , (3684908930, 7, 255)
+     , (3684908930, 6, 255)
+     , (3684908930, 133, 4)
+     , (3684908930, 16, 32)
+     , (3684908930, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3684908930, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3684908930, 12, True)
+     , (3684908930, 11, True)
+     , (3684908930, 14, True)
+     , (3684908930, 41, True)
+     , (3684908930, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3684908930, 67109560, 0, 24)
      , (3684908930, 67116986, 24, 8)
      , (3684908930, 67109566, 32, 8)
@@ -150,7 +219,7 @@ VALUES (3684908930, 67109560, 0, 24)
      , (3684908930, 67110350, 116, 12)
      , (3684908930, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684908930, 16, 83886232, 83890685)
      , (3684908930, 16, 83886668, 83890279)
      , (3684908930, 16, 83886837, 83890317)
@@ -176,7 +245,7 @@ VALUES (3684908930, 16, 83886232, 83890685)
      , (3684908930, 13, 83892347, 83892347)
      , (3684908930, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3684908930, 16, 16795650)
      , (3684908930, 15, 16777335)
      , (3684908930, 12, 16777334)
@@ -195,13 +264,36 @@ VALUES (3684908930, 16, 16795650)
      , (3684908930, 13, 16783871)
      , (3684908930, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685200398, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685200398, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685200398, 5777, 58942, 34, 103.3401, 30.04888, 76.49278, -4.37114E-08, 0, 0, -1);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685200398, 1, 3862822946, 103.3401, 30.04888, 76.49278, -4.37114E-08, 0, 0, -1);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685200398, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685200398, 1, 16)
+     , (3685200398, 3, 67108990)
+     , (3685200398, 95, 8)
+     , (3685200398, 7, 255)
+     , (3685200398, 6, 255)
+     , (3685200398, 133, 4)
+     , (3685200398, 16, 32)
+     , (3685200398, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685200398, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685200398, 12, True)
+     , (3685200398, 11, True)
+     , (3685200398, 14, True)
+     , (3685200398, 41, True)
+     , (3685200398, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685200398, 67110054, 0, 24)
      , (3685200398, 67117075, 24, 8)
      , (3685200398, 67110063, 32, 8)
@@ -215,7 +307,7 @@ VALUES (3685200398, 67110054, 0, 24)
      , (3685200398, 67110350, 116, 12)
      , (3685200398, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685200398, 16, 83886232, 83890685)
      , (3685200398, 16, 83886668, 83890516)
      , (3685200398, 16, 83886837, 83890519)
@@ -243,7 +335,7 @@ VALUES (3685200398, 16, 83886232, 83890685)
      , (3685200398, 13, 83892347, 83892347)
      , (3685200398, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685200398, 16, 16795665)
      , (3685200398, 15, 16777335)
      , (3685200398, 12, 16777334)
@@ -262,13 +354,36 @@ VALUES (3685200398, 16, 16795665)
      , (3685200398, 13, 16783871)
      , (3685200398, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685844864, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685844864, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685844864, 5777, 58941, 30, 76.69009, 131.7492, 86.005, 0.92388, 0, 0, -0.382683);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685844864, 1, 3862757406, 76.69009, 131.7492, 86.005, 0.92388, 0, 0, -0.382683);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685844864, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685844864, 1, 16)
+     , (3685844864, 3, 67108990)
+     , (3685844864, 95, 8)
+     , (3685844864, 7, 255)
+     , (3685844864, 6, 255)
+     , (3685844864, 133, 4)
+     , (3685844864, 16, 32)
+     , (3685844864, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685844864, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685844864, 12, True)
+     , (3685844864, 11, True)
+     , (3685844864, 14, True)
+     , (3685844864, 41, True)
+     , (3685844864, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685844864, 67110059, 0, 24)
      , (3685844864, 67116992, 24, 8)
      , (3685844864, 67110062, 32, 8)
@@ -282,7 +397,7 @@ VALUES (3685844864, 67110059, 0, 24)
      , (3685844864, 67110350, 116, 12)
      , (3685844864, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685844864, 16, 83886232, 83890685)
      , (3685844864, 16, 83886668, 83890487)
      , (3685844864, 16, 83886837, 83890555)
@@ -310,7 +425,7 @@ VALUES (3685844864, 16, 83886232, 83890685)
      , (3685844864, 13, 83892347, 83892347)
      , (3685844864, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685844864, 16, 16795650)
      , (3685844864, 15, 16777335)
      , (3685844864, 12, 16777334)
@@ -329,13 +444,36 @@ VALUES (3685844864, 16, 16795650)
      , (3685844864, 13, 16783871)
      , (3685844864, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685055962, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685055962, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685055962, 5777, 58941, 12, 37.89232, 77.79292, 85.16269, -0.930154, 0, 0, 0.36717);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685055962, 1, 3862757388, 37.89232, 77.79292, 85.16269, -0.930154, 0, 0, 0.36717);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685055962, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685055962, 1, 16)
+     , (3685055962, 3, 67108990)
+     , (3685055962, 95, 8)
+     , (3685055962, 7, 255)
+     , (3685055962, 6, 255)
+     , (3685055962, 133, 4)
+     , (3685055962, 16, 32)
+     , (3685055962, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685055962, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685055962, 12, True)
+     , (3685055962, 11, True)
+     , (3685055962, 14, True)
+     , (3685055962, 41, True)
+     , (3685055962, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685055962, 67110045, 0, 24)
      , (3685055962, 67116990, 24, 8)
      , (3685055962, 67110062, 32, 8)
@@ -349,7 +487,7 @@ VALUES (3685055962, 67110045, 0, 24)
      , (3685055962, 67110350, 116, 12)
      , (3685055962, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685055962, 16, 83886232, 83890685)
      , (3685055962, 16, 83886668, 83890446)
      , (3685055962, 16, 83886837, 83890522)
@@ -377,7 +515,7 @@ VALUES (3685055962, 16, 83886232, 83890685)
      , (3685055962, 13, 83892347, 83892347)
      , (3685055962, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685055962, 16, 16795654)
      , (3685055962, 15, 16777335)
      , (3685055962, 12, 16777334)
@@ -396,13 +534,36 @@ VALUES (3685055962, 16, 16795654)
      , (3685055962, 13, 16783871)
      , (3685055962, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685610854, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685610854, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685610854, 5777, 58686, 1, 20.51841, 12.73305, 123.0661, 0.357145, 0, 0, -0.934049);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685610854, 1, 3846045697, 20.51841, 12.73305, 123.0661, 0.357145, 0, 0, -0.934049);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685610854, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685610854, 1, 16)
+     , (3685610854, 3, 67108990)
+     , (3685610854, 95, 8)
+     , (3685610854, 7, 255)
+     , (3685610854, 6, 255)
+     , (3685610854, 133, 4)
+     , (3685610854, 16, 32)
+     , (3685610854, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685610854, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685610854, 12, True)
+     , (3685610854, 11, True)
+     , (3685610854, 14, True)
+     , (3685610854, 41, True)
+     , (3685610854, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685610854, 67110045, 0, 24)
      , (3685610854, 67116996, 24, 8)
      , (3685610854, 67110063, 32, 8)
@@ -416,7 +577,7 @@ VALUES (3685610854, 67110045, 0, 24)
      , (3685610854, 67110350, 116, 12)
      , (3685610854, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685610854, 16, 83886232, 83890685)
      , (3685610854, 16, 83886668, 83890510)
      , (3685610854, 16, 83886837, 83890529)
@@ -444,7 +605,7 @@ VALUES (3685610854, 16, 83886232, 83890685)
      , (3685610854, 13, 83892347, 83892347)
      , (3685610854, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685610854, 16, 16795640)
      , (3685610854, 15, 16777335)
      , (3685610854, 12, 16777334)
@@ -463,13 +624,36 @@ VALUES (3685610854, 16, 16795640)
      , (3685610854, 13, 16783871)
      , (3685610854, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685001131, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685001131, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685001131, 5777, 58685, 50, 163.6907, 29.46937, 76.46078, 0.9238797, 0, 0, -0.3826829);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685001131, 1, 3845980210, 163.6907, 29.46937, 76.46078, 0.9238797, 0, 0, -0.3826829);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685001131, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685001131, 1, 16)
+     , (3685001131, 3, 67108990)
+     , (3685001131, 95, 8)
+     , (3685001131, 7, 255)
+     , (3685001131, 6, 255)
+     , (3685001131, 133, 4)
+     , (3685001131, 16, 32)
+     , (3685001131, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685001131, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685001131, 12, True)
+     , (3685001131, 11, True)
+     , (3685001131, 14, True)
+     , (3685001131, 41, True)
+     , (3685001131, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685001131, 67110059, 0, 24)
      , (3685001131, 67117073, 24, 8)
      , (3685001131, 67109565, 32, 8)
@@ -483,7 +667,7 @@ VALUES (3685001131, 67110059, 0, 24)
      , (3685001131, 67110350, 116, 12)
      , (3685001131, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685001131, 16, 83886232, 83890685)
      , (3685001131, 16, 83886668, 83890487)
      , (3685001131, 16, 83886837, 83890520)
@@ -511,7 +695,7 @@ VALUES (3685001131, 16, 83886232, 83890685)
      , (3685001131, 13, 83892347, 83892347)
      , (3685001131, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685001131, 16, 16795654)
      , (3685001131, 15, 16777335)
      , (3685001131, 12, 16777334)
@@ -530,13 +714,36 @@ VALUES (3685001131, 16, 16795654)
      , (3685001131, 13, 16783871)
      , (3685001131, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685512962, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685512962, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685512962, 5777, 52802, 1, 9.752149, 22.26909, 52.81768, -0.382683, 0, 0, -0.92388);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685512962, 1, 3460431873, 9.752149, 22.26909, 52.81768, -0.382683, 0, 0, -0.92388);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685512962, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685512962, 1, 16)
+     , (3685512962, 3, 67108990)
+     , (3685512962, 95, 8)
+     , (3685512962, 7, 255)
+     , (3685512962, 6, 255)
+     , (3685512962, 133, 4)
+     , (3685512962, 16, 32)
+     , (3685512962, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685512962, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685512962, 12, True)
+     , (3685512962, 11, True)
+     , (3685512962, 14, True)
+     , (3685512962, 41, True)
+     , (3685512962, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685512962, 67110053, 0, 24)
      , (3685512962, 67117079, 24, 8)
      , (3685512962, 67110063, 32, 8)
@@ -550,7 +757,7 @@ VALUES (3685512962, 67110053, 0, 24)
      , (3685512962, 67110350, 116, 12)
      , (3685512962, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685512962, 16, 83886232, 83890685)
      , (3685512962, 16, 83886668, 83890450)
      , (3685512962, 16, 83886837, 83890520)
@@ -578,7 +785,7 @@ VALUES (3685512962, 16, 83886232, 83890685)
      , (3685512962, 13, 83892347, 83892347)
      , (3685512962, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685512962, 16, 16795662)
      , (3685512962, 15, 16777335)
      , (3685512962, 12, 16777334)
@@ -597,13 +804,36 @@ VALUES (3685512962, 16, 16795662)
      , (3685512962, 13, 16783871)
      , (3685512962, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685095050, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685095050, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685095050, 5777, 52545, 21, 63.10578, 102.1462, 54.005, 0.742379, 0, 0, 0.66998);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685095050, 1, 3443589141, 63.10578, 102.1462, 54.005, 0.742379, 0, 0, 0.66998);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685095050, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685095050, 1, 16)
+     , (3685095050, 3, 67108990)
+     , (3685095050, 95, 8)
+     , (3685095050, 7, 255)
+     , (3685095050, 6, 255)
+     , (3685095050, 133, 4)
+     , (3685095050, 16, 32)
+     , (3685095050, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685095050, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685095050, 12, True)
+     , (3685095050, 11, True)
+     , (3685095050, 14, True)
+     , (3685095050, 41, True)
+     , (3685095050, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685095050, 67110050, 0, 24)
      , (3685095050, 67117072, 24, 8)
      , (3685095050, 67110062, 32, 8)
@@ -617,7 +847,7 @@ VALUES (3685095050, 67110050, 0, 24)
      , (3685095050, 67110350, 116, 12)
      , (3685095050, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685095050, 16, 83886232, 83890359)
      , (3685095050, 16, 83886668, 83890432)
      , (3685095050, 16, 83886837, 83890530)
@@ -645,7 +875,7 @@ VALUES (3685095050, 16, 83886232, 83890359)
      , (3685095050, 13, 83892347, 83892347)
      , (3685095050, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685095050, 16, 16795638)
      , (3685095050, 15, 16777335)
      , (3685095050, 12, 16777334)
@@ -664,13 +894,36 @@ VALUES (3685095050, 16, 16795638)
      , (3685095050, 13, 16783871)
      , (3685095050, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685061840, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685061840, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685061840, 5777, 46192, 33, 112.1682, 12.26005, 42.005, -4.37114E-08, 0, 0, -1);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685061840, 1, 3027238945, 112.1682, 12.26005, 42.005, -4.37114E-08, 0, 0, -1);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685061840, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685061840, 1, 16)
+     , (3685061840, 3, 67108990)
+     , (3685061840, 95, 8)
+     , (3685061840, 7, 255)
+     , (3685061840, 6, 255)
+     , (3685061840, 133, 4)
+     , (3685061840, 16, 32)
+     , (3685061840, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685061840, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685061840, 12, True)
+     , (3685061840, 11, True)
+     , (3685061840, 14, True)
+     , (3685061840, 41, True)
+     , (3685061840, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685061840, 67110055, 0, 24)
      , (3685061840, 67116993, 24, 8)
      , (3685061840, 67109565, 32, 8)
@@ -684,7 +937,7 @@ VALUES (3685061840, 67110055, 0, 24)
      , (3685061840, 67110350, 116, 12)
      , (3685061840, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685061840, 16, 83886232, 83890359)
      , (3685061840, 16, 83886668, 83890444)
      , (3685061840, 16, 83886837, 83890529)
@@ -712,7 +965,7 @@ VALUES (3685061840, 16, 83886232, 83890359)
      , (3685061840, 13, 83892347, 83892347)
      , (3685061840, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685061840, 16, 16795638)
      , (3685061840, 15, 16777335)
      , (3685061840, 12, 16777334)
@@ -731,13 +984,36 @@ VALUES (3685061840, 16, 16795638)
      , (3685061840, 13, 16783871)
      , (3685061840, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3684886507, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3684886507, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3684886507, 5777, 47472, 35, 112.9422, 63.58959, 16.005, -4.37114E-08, 0, 0, -1);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3684886507, 1, 3111125027, 112.9422, 63.58959, 16.005, -4.37114E-08, 0, 0, -1);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3684886507, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3684886507, 1, 16)
+     , (3684886507, 3, 67108990)
+     , (3684886507, 95, 8)
+     , (3684886507, 7, 255)
+     , (3684886507, 6, 255)
+     , (3684886507, 133, 4)
+     , (3684886507, 16, 32)
+     , (3684886507, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3684886507, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3684886507, 12, True)
+     , (3684886507, 11, True)
+     , (3684886507, 14, True)
+     , (3684886507, 41, True)
+     , (3684886507, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3684886507, 67110045, 0, 24)
      , (3684886507, 67117072, 24, 8)
      , (3684886507, 67110062, 32, 8)
@@ -751,7 +1027,7 @@ VALUES (3684886507, 67110045, 0, 24)
      , (3684886507, 67110350, 116, 12)
      , (3684886507, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684886507, 16, 83886232, 83890685)
      , (3684886507, 16, 83886668, 83890449)
      , (3684886507, 16, 83886837, 83890548)
@@ -779,7 +1055,7 @@ VALUES (3684886507, 16, 83886232, 83890685)
      , (3684886507, 13, 83892347, 83892347)
      , (3684886507, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3684886507, 16, 16795665)
      , (3684886507, 15, 16777335)
      , (3684886507, 12, 16777334)
@@ -798,13 +1074,36 @@ VALUES (3684886507, 16, 16795665)
      , (3684886507, 13, 16783871)
      , (3684886507, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685030519, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685030519, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685030519, 5777, 51290, 63, 172.667, 167.124, 12.005, 0.92388, 0, 0, -0.382683);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685030519, 1, 3361341503, 172.667, 167.124, 12.005, 0.92388, 0, 0, -0.382683);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685030519, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685030519, 1, 16)
+     , (3685030519, 3, 67108990)
+     , (3685030519, 95, 8)
+     , (3685030519, 7, 255)
+     , (3685030519, 6, 255)
+     , (3685030519, 133, 4)
+     , (3685030519, 16, 32)
+     , (3685030519, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685030519, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685030519, 12, True)
+     , (3685030519, 11, True)
+     , (3685030519, 14, True)
+     , (3685030519, 41, True)
+     , (3685030519, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685030519, 67110047, 0, 24)
      , (3685030519, 67117016, 24, 8)
      , (3685030519, 67109565, 32, 8)
@@ -818,7 +1117,7 @@ VALUES (3685030519, 67110047, 0, 24)
      , (3685030519, 67110350, 116, 12)
      , (3685030519, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685030519, 16, 83886232, 83890685)
      , (3685030519, 16, 83886668, 83890488)
      , (3685030519, 16, 83886837, 83890525)
@@ -846,7 +1145,7 @@ VALUES (3685030519, 16, 83886232, 83890685)
      , (3685030519, 13, 83892347, 83892347)
      , (3685030519, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685030519, 16, 16795662)
      , (3685030519, 15, 16777335)
      , (3685030519, 12, 16777334)
@@ -865,13 +1164,36 @@ VALUES (3685030519, 16, 16795662)
      , (3685030519, 13, 16783871)
      , (3685030519, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3684935334, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3684935334, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3684935334, 5777, 51547, 38, 113.6726, 124.2889, 12.005, -0.707107, 0, 0, -0.707107);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3684935334, 1, 3378184230, 113.6726, 124.2889, 12.005, -0.707107, 0, 0, -0.707107);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3684935334, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3684935334, 1, 16)
+     , (3684935334, 3, 67108990)
+     , (3684935334, 95, 8)
+     , (3684935334, 7, 255)
+     , (3684935334, 6, 255)
+     , (3684935334, 133, 4)
+     , (3684935334, 16, 32)
+     , (3684935334, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3684935334, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3684935334, 12, True)
+     , (3684935334, 11, True)
+     , (3684935334, 14, True)
+     , (3684935334, 41, True)
+     , (3684935334, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3684935334, 67110047, 0, 24)
      , (3684935334, 67117028, 24, 8)
      , (3684935334, 67110063, 32, 8)
@@ -885,7 +1207,7 @@ VALUES (3684935334, 67110047, 0, 24)
      , (3684935334, 67110350, 116, 12)
      , (3684935334, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684935334, 16, 83886232, 83890685)
      , (3684935334, 16, 83886668, 83890447)
      , (3684935334, 16, 83886837, 83890529)
@@ -913,7 +1235,7 @@ VALUES (3684935334, 16, 83886232, 83890685)
      , (3684935334, 13, 83892347, 83892347)
      , (3684935334, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3684935334, 16, 16795640)
      , (3684935334, 15, 16777335)
      , (3684935334, 12, 16777334)
@@ -932,13 +1254,36 @@ VALUES (3684935334, 16, 16795640)
      , (3684935334, 13, 16783871)
      , (3684935334, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685104521, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685104521, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685104521, 5777, 59426, 38, 113.6383, 143.664, 0.004999995, 0.909006, 0, 0, 0.416783);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685104521, 1, 3894542374, 113.6383, 143.664, 0.004999995, 0.909006, 0, 0, 0.416783);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685104521, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685104521, 1, 16)
+     , (3685104521, 3, 67108990)
+     , (3685104521, 95, 8)
+     , (3685104521, 7, 255)
+     , (3685104521, 6, 255)
+     , (3685104521, 133, 4)
+     , (3685104521, 16, 32)
+     , (3685104521, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685104521, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685104521, 12, True)
+     , (3685104521, 11, True)
+     , (3685104521, 14, True)
+     , (3685104521, 41, True)
+     , (3685104521, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685104521, 67110047, 0, 24)
      , (3685104521, 67117021, 24, 8)
      , (3685104521, 67109565, 32, 8)
@@ -952,7 +1297,7 @@ VALUES (3685104521, 67110047, 0, 24)
      , (3685104521, 67110350, 116, 12)
      , (3685104521, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685104521, 16, 83886232, 83890685)
      , (3685104521, 16, 83886668, 83890487)
      , (3685104521, 16, 83886837, 83890547)
@@ -980,7 +1325,7 @@ VALUES (3685104521, 16, 83886232, 83890685)
      , (3685104521, 13, 83892347, 83892347)
      , (3685104521, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685104521, 16, 16795675)
      , (3685104521, 15, 16777335)
      , (3685104521, 12, 16777334)
@@ -999,13 +1344,36 @@ VALUES (3685104521, 16, 16795675)
      , (3685104521, 13, 16783871)
      , (3685104521, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685106882, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685106882, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685106882, 5777, 58958, 55, 148.804, 162.7914, 21.93757, -0.382683, 0, 0, -0.92388);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685106882, 1, 3863871543, 148.804, 162.7914, 21.93757, -0.382683, 0, 0, -0.92388);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685106882, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685106882, 1, 16)
+     , (3685106882, 3, 67108990)
+     , (3685106882, 95, 8)
+     , (3685106882, 7, 255)
+     , (3685106882, 6, 255)
+     , (3685106882, 133, 4)
+     , (3685106882, 16, 32)
+     , (3685106882, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685106882, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685106882, 12, True)
+     , (3685106882, 11, True)
+     , (3685106882, 14, True)
+     , (3685106882, 41, True)
+     , (3685106882, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685106882, 67110057, 0, 24)
      , (3685106882, 67117073, 24, 8)
      , (3685106882, 67110062, 32, 8)
@@ -1019,7 +1387,7 @@ VALUES (3685106882, 67110057, 0, 24)
      , (3685106882, 67110350, 116, 12)
      , (3685106882, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685106882, 16, 83886232, 83890685)
      , (3685106882, 16, 83886668, 83890453)
      , (3685106882, 16, 83886837, 83890561)
@@ -1047,7 +1415,7 @@ VALUES (3685106882, 16, 83886232, 83890685)
      , (3685106882, 13, 83892347, 83892347)
      , (3685106882, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685106882, 16, 16795665)
      , (3685106882, 15, 16777335)
      , (3685106882, 12, 16777334)
@@ -1066,13 +1434,36 @@ VALUES (3685106882, 16, 16795665)
      , (3685106882, 13, 16783871)
      , (3685106882, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3684813731, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3684813731, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3684813731, 5777, 59214, 29, 84.52153, 109.1996, 32.005, 1, 0, 0, 0);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3684813731, 1, 3880648733, 84.52153, 109.1996, 32.005, 1, 0, 0, 0);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3684813731, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3684813731, 1, 16)
+     , (3684813731, 3, 67108990)
+     , (3684813731, 95, 8)
+     , (3684813731, 7, 255)
+     , (3684813731, 6, 255)
+     , (3684813731, 133, 4)
+     , (3684813731, 16, 32)
+     , (3684813731, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3684813731, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3684813731, 12, True)
+     , (3684813731, 11, True)
+     , (3684813731, 14, True)
+     , (3684813731, 41, True)
+     , (3684813731, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3684813731, 67110059, 0, 24)
      , (3684813731, 67116998, 24, 8)
      , (3684813731, 67110063, 32, 8)
@@ -1086,7 +1477,7 @@ VALUES (3684813731, 67110059, 0, 24)
      , (3684813731, 67110350, 116, 12)
      , (3684813731, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684813731, 16, 83886232, 83890685)
      , (3684813731, 16, 83886668, 83890451)
      , (3684813731, 16, 83886837, 83890555)
@@ -1114,7 +1505,7 @@ VALUES (3684813731, 16, 83886232, 83890685)
      , (3684813731, 13, 83892347, 83892347)
      , (3684813731, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3684813731, 16, 16795640)
      , (3684813731, 15, 16777335)
      , (3684813731, 12, 16777334)
@@ -1133,13 +1524,36 @@ VALUES (3684813731, 16, 16795640)
      , (3684813731, 13, 16783871)
      , (3684813731, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685794393, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685794393, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685794393, 5777, 59469, 8, 15.36401, 188.0024, 32.005, -0.92388, 0, 0, -0.382683);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685794393, 1, 3897360392, 15.36401, 188.0024, 32.005, -0.92388, 0, 0, -0.382683);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685794393, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685794393, 1, 16)
+     , (3685794393, 3, 67108990)
+     , (3685794393, 95, 8)
+     , (3685794393, 7, 255)
+     , (3685794393, 6, 255)
+     , (3685794393, 133, 4)
+     , (3685794393, 16, 32)
+     , (3685794393, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685794393, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685794393, 12, True)
+     , (3685794393, 11, True)
+     , (3685794393, 14, True)
+     , (3685794393, 41, True)
+     , (3685794393, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685794393, 67110049, 0, 24)
      , (3685794393, 67117070, 24, 8)
      , (3685794393, 67109565, 32, 8)
@@ -1153,7 +1567,7 @@ VALUES (3685794393, 67110049, 0, 24)
      , (3685794393, 67110350, 116, 12)
      , (3685794393, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685794393, 16, 83886232, 83890685)
      , (3685794393, 16, 83886668, 83890516)
      , (3685794393, 16, 83886837, 83890529)
@@ -1181,7 +1595,7 @@ VALUES (3685794393, 16, 83886232, 83890685)
      , (3685794393, 13, 83892347, 83892347)
      , (3685794393, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685794393, 16, 16795654)
      , (3685794393, 15, 16777335)
      , (3685794393, 12, 16777334)
@@ -1200,13 +1614,36 @@ VALUES (3685794393, 16, 16795654)
      , (3685794393, 13, 16783871)
      , (3685794393, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685031227, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685031227, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685031227, 5777, 58957, 56, 166.3094, 185.2605, 32.005, 0.9238797, 0, 0, -0.3826829);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685031227, 1, 3863806008, 166.3094, 185.2605, 32.005, 0.9238797, 0, 0, -0.3826829);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685031227, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685031227, 1, 16)
+     , (3685031227, 3, 67108990)
+     , (3685031227, 95, 8)
+     , (3685031227, 7, 255)
+     , (3685031227, 6, 255)
+     , (3685031227, 133, 4)
+     , (3685031227, 16, 32)
+     , (3685031227, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685031227, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685031227, 12, True)
+     , (3685031227, 11, True)
+     , (3685031227, 14, True)
+     , (3685031227, 41, True)
+     , (3685031227, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685031227, 67110055, 0, 24)
      , (3685031227, 67117027, 24, 8)
      , (3685031227, 67110063, 32, 8)
@@ -1220,7 +1657,7 @@ VALUES (3685031227, 67110055, 0, 24)
      , (3685031227, 67110350, 116, 12)
      , (3685031227, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685031227, 16, 83886232, 83890685)
      , (3685031227, 16, 83886668, 83890514)
      , (3685031227, 16, 83886837, 83890525)
@@ -1248,7 +1685,7 @@ VALUES (3685031227, 16, 83886232, 83890685)
      , (3685031227, 13, 83892347, 83892347)
      , (3685031227, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685031227, 16, 16795640)
      , (3685031227, 15, 16777335)
      , (3685031227, 12, 16777334)
@@ -1267,13 +1704,36 @@ VALUES (3685031227, 16, 16795640)
      , (3685031227, 13, 16783871)
      , (3685031227, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685072333, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685072333, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685072333, 5777, 56379, 16, 45.57203, 179.6545, 20.005, -0.349359, 0, 0, -0.936989);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685072333, 1, 3694854160, 45.57203, 179.6545, 20.005, -0.349359, 0, 0, -0.936989);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685072333, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685072333, 1, 16)
+     , (3685072333, 3, 67108990)
+     , (3685072333, 95, 8)
+     , (3685072333, 7, 255)
+     , (3685072333, 6, 255)
+     , (3685072333, 133, 4)
+     , (3685072333, 16, 32)
+     , (3685072333, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685072333, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685072333, 12, True)
+     , (3685072333, 11, True)
+     , (3685072333, 14, True)
+     , (3685072333, 41, True)
+     , (3685072333, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685072333, 67110047, 0, 24)
      , (3685072333, 67117070, 24, 8)
      , (3685072333, 67110062, 32, 8)
@@ -1287,7 +1747,7 @@ VALUES (3685072333, 67110047, 0, 24)
      , (3685072333, 67110350, 116, 12)
      , (3685072333, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685072333, 16, 83886232, 83890359)
      , (3685072333, 16, 83886668, 83890442)
      , (3685072333, 16, 83886837, 83890520)
@@ -1315,7 +1775,7 @@ VALUES (3685072333, 16, 83886232, 83890359)
      , (3685072333, 13, 83892347, 83892347)
      , (3685072333, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685072333, 16, 16795638)
      , (3685072333, 15, 16777335)
      , (3685072333, 12, 16777334)
@@ -1334,13 +1794,36 @@ VALUES (3685072333, 16, 16795638)
      , (3685072333, 13, 16783871)
      , (3685072333, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3684964100, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3684964100, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3684964100, 5777, 55867, 49, 163.9548, 16.39766, 0.004999995, -0.707107, 0, 0, -0.707107);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3684964100, 1, 3661299761, 163.9548, 16.39766, 0.004999995, -0.707107, 0, 0, -0.707107);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3684964100, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3684964100, 1, 16)
+     , (3684964100, 3, 67108990)
+     , (3684964100, 95, 8)
+     , (3684964100, 7, 255)
+     , (3684964100, 6, 255)
+     , (3684964100, 133, 4)
+     , (3684964100, 16, 32)
+     , (3684964100, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3684964100, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3684964100, 12, True)
+     , (3684964100, 11, True)
+     , (3684964100, 14, True)
+     , (3684964100, 41, True)
+     , (3684964100, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3684964100, 67110047, 0, 24)
      , (3684964100, 67117001, 24, 8)
      , (3684964100, 67110062, 32, 8)
@@ -1354,7 +1837,7 @@ VALUES (3684964100, 67110047, 0, 24)
      , (3684964100, 67110350, 116, 12)
      , (3684964100, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684964100, 16, 83886232, 83890685)
      , (3684964100, 16, 83886668, 83890454)
      , (3684964100, 16, 83886837, 83890554)
@@ -1382,7 +1865,7 @@ VALUES (3684964100, 16, 83886232, 83890685)
      , (3684964100, 13, 83892347, 83892347)
      , (3684964100, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3684964100, 16, 16795665)
      , (3684964100, 15, 16777335)
      , (3684964100, 12, 16777334)
@@ -1401,13 +1884,36 @@ VALUES (3684964100, 16, 16795665)
      , (3684964100, 13, 16783871)
      , (3684964100, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3684990312, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3684990312, 9437238, 5776, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3684990312, 5776, 58930, 25, 91.42495, 6.382721, 28.005, -0.92388, 0, 0, -0.382683);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3684990312, 1, 3862036505, 91.42495, 6.382721, 28.005, -0.92388, 0, 0, -0.382683);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3684990312, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3684990312, 1, 16)
+     , (3684990312, 3, 67108990)
+     , (3684990312, 95, 8)
+     , (3684990312, 7, 255)
+     , (3684990312, 6, 255)
+     , (3684990312, 133, 4)
+     , (3684990312, 16, 32)
+     , (3684990312, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3684990312, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3684990312, 12, True)
+     , (3684990312, 11, True)
+     , (3684990312, 14, True)
+     , (3684990312, 41, True)
+     , (3684990312, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3684990312, 67110052, 0, 24)
      , (3684990312, 67116991, 24, 8)
      , (3684990312, 67110063, 32, 8)
@@ -1421,7 +1927,7 @@ VALUES (3684990312, 67110052, 0, 24)
      , (3684990312, 67110350, 116, 12)
      , (3684990312, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684990312, 16, 83886232, 83890685)
      , (3684990312, 16, 83886668, 83890244)
      , (3684990312, 16, 83886837, 83890293)
@@ -1451,7 +1957,7 @@ VALUES (3684990312, 16, 83886232, 83890685)
      , (3684990312, 13, 83892347, 83892347)
      , (3684990312, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3684990312, 16, 16795655)
      , (3684990312, 15, 16777335)
      , (3684990312, 12, 16777334)
@@ -1470,13 +1976,36 @@ VALUES (3684990312, 16, 16795655)
      , (3684990312, 13, 16783871)
      , (3684990312, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685109161, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685109161, 9437238, 5776, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685109161, 5776, 55893, 29, 85.05369, 108.9018, 20.005, -4.37114E-08, 0, 0, -1);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685109161, 1, 3663003677, 85.05369, 108.9018, 20.005, -4.37114E-08, 0, 0, -1);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685109161, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685109161, 1, 16)
+     , (3685109161, 3, 67108990)
+     , (3685109161, 95, 8)
+     , (3685109161, 7, 255)
+     , (3685109161, 6, 255)
+     , (3685109161, 133, 4)
+     , (3685109161, 16, 32)
+     , (3685109161, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685109161, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685109161, 12, True)
+     , (3685109161, 11, True)
+     , (3685109161, 14, True)
+     , (3685109161, 41, True)
+     , (3685109161, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685109161, 67110055, 0, 24)
      , (3685109161, 67116998, 24, 8)
      , (3685109161, 67110062, 32, 8)
@@ -1490,7 +2019,7 @@ VALUES (3685109161, 67110055, 0, 24)
      , (3685109161, 67110350, 116, 12)
      , (3685109161, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685109161, 16, 83886232, 83890685)
      , (3685109161, 16, 83886668, 83890242)
      , (3685109161, 16, 83886837, 83890298)
@@ -1520,7 +2049,7 @@ VALUES (3685109161, 16, 83886232, 83890685)
      , (3685109161, 13, 83892347, 83892347)
      , (3685109161, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685109161, 16, 16795655)
      , (3685109161, 15, 16777335)
      , (3685109161, 12, 16777334)
@@ -1539,13 +2068,36 @@ VALUES (3685109161, 16, 16795655)
      , (3685109161, 13, 16783871)
      , (3685109161, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685109082, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685109082, 9437238, 5776, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685109082, 5776, 55638, 49, 166.1123, 20.48978, 20.005, 0.382683, 0, 0, -0.92388);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685109082, 1, 3646292017, 166.1123, 20.48978, 20.005, 0.382683, 0, 0, -0.92388);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685109082, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685109082, 1, 16)
+     , (3685109082, 3, 67108990)
+     , (3685109082, 95, 8)
+     , (3685109082, 7, 255)
+     , (3685109082, 6, 255)
+     , (3685109082, 133, 4)
+     , (3685109082, 16, 32)
+     , (3685109082, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685109082, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685109082, 12, True)
+     , (3685109082, 11, True)
+     , (3685109082, 14, True)
+     , (3685109082, 41, True)
+     , (3685109082, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685109082, 67110057, 0, 24)
      , (3685109082, 67117072, 24, 8)
      , (3685109082, 67109565, 32, 8)
@@ -1559,7 +2111,7 @@ VALUES (3685109082, 67110057, 0, 24)
      , (3685109082, 67110350, 116, 12)
      , (3685109082, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685109082, 16, 83886232, 83890685)
      , (3685109082, 16, 83886668, 83890276)
      , (3685109082, 16, 83886837, 83890287)
@@ -1589,7 +2141,7 @@ VALUES (3685109082, 16, 83886232, 83890685)
      , (3685109082, 13, 83892347, 83892347)
      , (3685109082, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685109082, 16, 16795650)
      , (3685109082, 15, 16777335)
      , (3685109082, 12, 16777334)
@@ -1608,13 +2160,36 @@ VALUES (3685109082, 16, 16795650)
      , (3685109082, 13, 16783871)
      , (3685109082, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3685109136, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3685109136, 9437238, 5776, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3685109136, 5776, 56148, 8, 10.03386, 188.4212, 20.005, -0.07900333, 0, 0, -0.9968743);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685109136, 1, 3679715336, 10.03386, 188.4212, 20.005, -0.07900333, 0, 0, -0.9968743);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685109136, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685109136, 1, 16)
+     , (3685109136, 3, 67108990)
+     , (3685109136, 95, 8)
+     , (3685109136, 7, 255)
+     , (3685109136, 6, 255)
+     , (3685109136, 133, 4)
+     , (3685109136, 16, 32)
+     , (3685109136, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685109136, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685109136, 12, True)
+     , (3685109136, 11, True)
+     , (3685109136, 14, True)
+     , (3685109136, 41, True)
+     , (3685109136, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3685109136, 67110055, 0, 24)
      , (3685109136, 67117068, 24, 8)
      , (3685109136, 67110062, 32, 8)
@@ -1628,7 +2203,7 @@ VALUES (3685109136, 67110055, 0, 24)
      , (3685109136, 67110350, 116, 12)
      , (3685109136, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685109136, 16, 83886232, 83890685)
      , (3685109136, 16, 83886668, 83890241)
      , (3685109136, 16, 83886837, 83890311)
@@ -1658,7 +2233,7 @@ VALUES (3685109136, 16, 83886232, 83890685)
      , (3685109136, 13, 83892347, 83892347)
      , (3685109136, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685109136, 16, 16795647)
      , (3685109136, 15, 16777335)
      , (3685109136, 12, 16777334)
@@ -1677,13 +2252,36 @@ VALUES (3685109136, 16, 16795647)
      , (3685109136, 13, 16783871)
      , (3685109136, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3684900176, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3684900176, 9437238, 5773, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3684900176, 5773, 50857, 11, 43.10665, 65.46336, 42.005, 0.2434066, 0, 0, -0.9699243);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3684900176, 1, 3332964363, 43.10665, 65.46336, 42.005, 0.2434066, 0, 0, -0.9699243);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3684900176, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3684900176, 1, 16)
+     , (3684900176, 3, 67108990)
+     , (3684900176, 95, 8)
+     , (3684900176, 7, 255)
+     , (3684900176, 6, 255)
+     , (3684900176, 133, 4)
+     , (3684900176, 16, 32)
+     , (3684900176, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3684900176, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3684900176, 12, True)
+     , (3684900176, 11, True)
+     , (3684900176, 14, True)
+     , (3684900176, 41, True)
+     , (3684900176, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3684900176, 67109558, 0, 24)
      , (3684900176, 67117068, 24, 8)
      , (3684900176, 67110065, 32, 8)
@@ -1697,7 +2295,7 @@ VALUES (3684900176, 67109558, 0, 24)
      , (3684900176, 67110350, 116, 12)
      , (3684900176, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684900176, 16, 83886232, 83890685)
      , (3684900176, 16, 83886668, 83890479)
      , (3684900176, 16, 83886837, 83890522)
@@ -1721,7 +2319,7 @@ VALUES (3684900176, 16, 83886232, 83890685)
      , (3684900176, 13, 83892347, 83892347)
      , (3684900176, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3684900176, 16, 16795654)
      , (3684900176, 15, 16777335)
      , (3684900176, 12, 16777334)
@@ -1740,13 +2338,36 @@ VALUES (3684900176, 16, 16795654)
      , (3684900176, 13, 16783871)
      , (3684900176, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3686226563, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3686226563, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3686226563, 5772, 23452, 37, 104.0314, 106.8195, 14.005, 1, 0, 0, 0);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3686226563, 1, 1536950309, 104.0314, 106.8195, 14.005, 1, 0, 0, 0);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3686226563, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3686226563, 1, 16)
+     , (3686226563, 3, 67108990)
+     , (3686226563, 95, 8)
+     , (3686226563, 7, 255)
+     , (3686226563, 6, 255)
+     , (3686226563, 133, 4)
+     , (3686226563, 16, 32)
+     , (3686226563, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3686226563, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3686226563, 12, True)
+     , (3686226563, 11, True)
+     , (3686226563, 14, True)
+     , (3686226563, 41, True)
+     , (3686226563, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3686226563, 67109559, 0, 24)
      , (3686226563, 67117028, 24, 8)
      , (3686226563, 67109564, 32, 8)
@@ -1760,7 +2381,7 @@ VALUES (3686226563, 67109559, 0, 24)
      , (3686226563, 67110350, 116, 12)
      , (3686226563, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3686226563, 16, 83886232, 83890685)
      , (3686226563, 16, 83886668, 83890279)
      , (3686226563, 16, 83886837, 83890294)
@@ -1786,7 +2407,7 @@ VALUES (3686226563, 16, 83886232, 83890685)
      , (3686226563, 13, 83892347, 83892347)
      , (3686226563, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3686226563, 16, 16795662)
      , (3686226563, 15, 16777335)
      , (3686226563, 12, 16777334)
@@ -1805,13 +2426,36 @@ VALUES (3686226563, 16, 16795662)
      , (3686226563, 13, 16783871)
      , (3686226563, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3688978109, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3688978109, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3688978109, 5772, 11025, 30, 72.9174, 133.044, 48.005, 0.9913235, 0, 0, -0.1314451);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3688978109, 1, 722534430, 72.9174, 133.044, 48.005, 0.9913235, 0, 0, -0.1314451);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3688978109, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3688978109, 1, 16)
+     , (3688978109, 3, 67108990)
+     , (3688978109, 95, 8)
+     , (3688978109, 7, 255)
+     , (3688978109, 6, 255)
+     , (3688978109, 133, 4)
+     , (3688978109, 16, 32)
+     , (3688978109, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3688978109, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3688978109, 12, True)
+     , (3688978109, 11, True)
+     , (3688978109, 14, True)
+     , (3688978109, 41, True)
+     , (3688978109, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3688978109, 67109561, 0, 24)
      , (3688978109, 67116987, 24, 8)
      , (3688978109, 67110064, 32, 8)
@@ -1825,7 +2469,7 @@ VALUES (3688978109, 67109561, 0, 24)
      , (3688978109, 67110350, 116, 12)
      , (3688978109, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3688978109, 16, 83886232, 83890685)
      , (3688978109, 16, 83886668, 83890259)
      , (3688978109, 16, 83886837, 83890300)
@@ -1851,7 +2495,7 @@ VALUES (3688978109, 16, 83886232, 83890685)
      , (3688978109, 13, 83892347, 83892347)
      , (3688978109, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3688978109, 16, 16795641)
      , (3688978109, 15, 16777335)
      , (3688978109, 12, 16777334)
@@ -1870,13 +2514,36 @@ VALUES (3688978109, 16, 16795641)
      , (3688978109, 13, 16783871)
      , (3688978109, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3690893936, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3690893936, 9437238, 5776, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3690893936, 5776, 58418, 44, 131.8486, 95.35295, 28.005, -0.707107, 0, 0, -0.707107);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3690893936, 1, 3828482092, 131.8486, 95.35295, 28.005, -0.707107, 0, 0, -0.707107);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3690893936, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3690893936, 1, 16)
+     , (3690893936, 3, 67108990)
+     , (3690893936, 95, 8)
+     , (3690893936, 7, 255)
+     , (3690893936, 6, 255)
+     , (3690893936, 133, 4)
+     , (3690893936, 16, 32)
+     , (3690893936, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3690893936, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3690893936, 12, True)
+     , (3690893936, 11, True)
+     , (3690893936, 14, True)
+     , (3690893936, 41, True)
+     , (3690893936, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3690893936, 67110045, 0, 24)
      , (3690893936, 67117071, 24, 8)
      , (3690893936, 67109565, 32, 8)
@@ -1890,7 +2557,7 @@ VALUES (3690893936, 67110045, 0, 24)
      , (3690893936, 67110350, 116, 12)
      , (3690893936, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3690893936, 16, 83886232, 83890685)
      , (3690893936, 16, 83886668, 83890243)
      , (3690893936, 16, 83886837, 83890308)
@@ -1920,7 +2587,7 @@ VALUES (3690893936, 16, 83886232, 83890685)
      , (3690893936, 13, 83892347, 83892347)
      , (3690893936, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3690893936, 16, 16795655)
      , (3690893936, 15, 16777335)
      , (3690893936, 12, 16777334)
@@ -1939,13 +2606,36 @@ VALUES (3690893936, 16, 16795655)
      , (3690893936, 13, 16783871)
      , (3690893936, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3691225814, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3691225814, 9437238, 30063, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3691225814, 30063, 13017, 59, 184.881, 54.456, 52.005, 0.833052, 0, 0, -0.553194);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3691225814, 1, 853082171, 184.881, 54.456, 52.005, 0.833052, 0, 0, -0.553194);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3691225814, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3691225814, 1, 16)
+     , (3691225814, 3, 67108990)
+     , (3691225814, 95, 8)
+     , (3691225814, 7, 255)
+     , (3691225814, 6, 255)
+     , (3691225814, 133, 4)
+     , (3691225814, 16, 32)
+     , (3691225814, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3691225814, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3691225814, 12, True)
+     , (3691225814, 11, True)
+     , (3691225814, 14, True)
+     , (3691225814, 41, True)
+     , (3691225814, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691225814, 67115902, 0, 24)
      , (3691225814, 67117094, 24, 8)
      , (3691225814, 67109564, 32, 8)
@@ -1953,7 +2643,7 @@ VALUES (3691225814, 67115902, 0, 24)
      , (3691225814, 67116037, 207, 33)
      , (3691225814, 67116026, 174, 33);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691225814, 16, 83886232, 83890685)
      , (3691225814, 16, 83886668, 83890276)
      , (3691225814, 16, 83886837, 83890312)
@@ -1966,7 +2656,7 @@ VALUES (3691225814, 16, 83886232, 83890685)
      , (3691225814, 11, 83892346, 83897016)
      , (3691225814, 14, 83892346, 83897016);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3691225814, 16, 16795640)
      , (3691225814, 15, 16777335)
      , (3691225814, 12, 16777334)
@@ -1985,13 +2675,36 @@ VALUES (3691225814, 16, 16795640)
      , (3691225814, 13, 16791903)
      , (3691225814, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3691226005, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3691226005, 9437238, 30064, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3691226005, 30064, 13273, 8, 18.508, 186.459, 52.005, -0.423401, 0, 0, -0.905942);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3691226005, 1, 869859336, 18.508, 186.459, 52.005, -0.423401, 0, 0, -0.905942);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3691226005, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3691226005, 1, 16)
+     , (3691226005, 3, 67108990)
+     , (3691226005, 95, 8)
+     , (3691226005, 7, 255)
+     , (3691226005, 6, 255)
+     , (3691226005, 133, 4)
+     , (3691226005, 16, 32)
+     , (3691226005, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3691226005, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3691226005, 12, True)
+     , (3691226005, 11, True)
+     , (3691226005, 14, True)
+     , (3691226005, 41, True)
+     , (3691226005, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691226005, 67115905, 0, 24)
      , (3691226005, 67117028, 24, 8)
      , (3691226005, 67110063, 32, 8)
@@ -1999,7 +2712,7 @@ VALUES (3691226005, 67115905, 0, 24)
      , (3691226005, 67116037, 207, 33)
      , (3691226005, 67116026, 174, 33);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691226005, 16, 83886232, 83890359)
      , (3691226005, 16, 83886668, 83890465)
      , (3691226005, 16, 83886837, 83890557)
@@ -2012,7 +2725,7 @@ VALUES (3691226005, 16, 83886232, 83890359)
      , (3691226005, 11, 83892346, 83897016)
      , (3691226005, 14, 83892346, 83897016);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3691226005, 16, 16795638)
      , (3691226005, 15, 16777335)
      , (3691226005, 12, 16777334)
@@ -2031,13 +2744,36 @@ VALUES (3691226005, 16, 16795638)
      , (3691226005, 13, 16791903)
      , (3691226005, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3691086483, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3691086483, 9437238, 30063, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3691086483, 30063, 12759, 17, 71.7591, 18.0527, 80.005, -0.9994267, 0, 0, -0.03385579);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3691086483, 1, 836173841, 71.7591, 18.0527, 80.005, -0.9994267, 0, 0, -0.03385579);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3691086483, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3691086483, 1, 16)
+     , (3691086483, 3, 67108990)
+     , (3691086483, 95, 8)
+     , (3691086483, 7, 255)
+     , (3691086483, 6, 255)
+     , (3691086483, 133, 4)
+     , (3691086483, 16, 32)
+     , (3691086483, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3691086483, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3691086483, 12, True)
+     , (3691086483, 11, True)
+     , (3691086483, 14, True)
+     , (3691086483, 41, True)
+     , (3691086483, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691086483, 67115904, 0, 24)
      , (3691086483, 67117021, 24, 8)
      , (3691086483, 67110064, 32, 8)
@@ -2045,7 +2781,7 @@ VALUES (3691086483, 67115904, 0, 24)
      , (3691086483, 67116037, 207, 33)
      , (3691086483, 67116026, 174, 33);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691086483, 16, 83886232, 83890685)
      , (3691086483, 16, 83886668, 83890278)
      , (3691086483, 16, 83886837, 83890308)
@@ -2058,7 +2794,7 @@ VALUES (3691086483, 16, 83886232, 83890685)
      , (3691086483, 11, 83892346, 83897016)
      , (3691086483, 14, 83892346, 83897016);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3691086483, 16, 16795641)
      , (3691086483, 15, 16777335)
      , (3691086483, 12, 16777334)
@@ -2077,13 +2813,36 @@ VALUES (3691086483, 16, 16795641)
      , (3691086483, 13, 16791903)
      , (3691086483, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3691227423, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3691227423, 9437238, 30063, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3691227423, 30063, 6066, 42, 135.376, 33.1646, 44.005, -0.197293, 0, 0, -0.980345);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3691227423, 1, 397541418, 135.376, 33.1646, 44.005, -0.197293, 0, 0, -0.980345);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3691227423, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3691227423, 1, 16)
+     , (3691227423, 3, 67108990)
+     , (3691227423, 95, 8)
+     , (3691227423, 7, 255)
+     , (3691227423, 6, 255)
+     , (3691227423, 133, 4)
+     , (3691227423, 16, 32)
+     , (3691227423, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3691227423, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3691227423, 12, True)
+     , (3691227423, 11, True)
+     , (3691227423, 14, True)
+     , (3691227423, 41, True)
+     , (3691227423, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691227423, 67115903, 0, 24)
      , (3691227423, 67117096, 24, 8)
      , (3691227423, 67110063, 32, 8)
@@ -2091,7 +2850,7 @@ VALUES (3691227423, 67115903, 0, 24)
      , (3691227423, 67116037, 207, 33)
      , (3691227423, 67116026, 174, 33);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691227423, 16, 83886232, 83890685)
      , (3691227423, 16, 83886668, 83890282)
      , (3691227423, 16, 83886837, 83890310)
@@ -2104,7 +2863,7 @@ VALUES (3691227423, 16, 83886232, 83890685)
      , (3691227423, 11, 83892346, 83897016)
      , (3691227423, 14, 83892346, 83897016);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3691227423, 16, 16795650)
      , (3691227423, 15, 16777335)
      , (3691227423, 12, 16777334)
@@ -2123,13 +2882,36 @@ VALUES (3691227423, 16, 16795650)
      , (3691227423, 13, 16791903)
      , (3691227423, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3691229825, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3691229825, 9437238, 30063, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3691229825, 30063, 8624, 14, 39.9044, 139.445, 0.004999995, 0.978377, 0, 0, -0.20683);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3691229825, 1, 565182478, 39.9044, 139.445, 0.004999995, 0.978377, 0, 0, -0.20683);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3691229825, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3691229825, 1, 16)
+     , (3691229825, 3, 67108990)
+     , (3691229825, 95, 8)
+     , (3691229825, 7, 255)
+     , (3691229825, 6, 255)
+     , (3691229825, 133, 4)
+     , (3691229825, 16, 32)
+     , (3691229825, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3691229825, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3691229825, 12, True)
+     , (3691229825, 11, True)
+     , (3691229825, 14, True)
+     , (3691229825, 41, True)
+     , (3691229825, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691229825, 67115901, 0, 24)
      , (3691229825, 67117025, 24, 8)
      , (3691229825, 67109564, 32, 8)
@@ -2137,7 +2919,7 @@ VALUES (3691229825, 67115901, 0, 24)
      , (3691229825, 67116037, 207, 33)
      , (3691229825, 67116026, 174, 33);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691229825, 16, 83886232, 83890685)
      , (3691229825, 16, 83886668, 83890283)
      , (3691229825, 16, 83886837, 83890309)
@@ -2150,7 +2932,7 @@ VALUES (3691229825, 16, 83886232, 83890685)
      , (3691229825, 11, 83892346, 83897016)
      , (3691229825, 14, 83892346, 83897016);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3691229825, 16, 16795675)
      , (3691229825, 15, 16777335)
      , (3691229825, 12, 16777334)
@@ -2169,22 +2951,46 @@ VALUES (3691229825, 16, 16795675)
      , (3691229825, 13, 16791903)
      , (3691229825, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3691109814, 'Town Crier', 16, 67113007, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667443, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33556836, 0.9, 104579, 872415271, 150994956, 536870929, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3691109814, 9437238, 22643, 4, 100667443, NULL, NULL, 33556836, 536870929, 150994956, 'AAA9AAAAAAA=', NULL, 872415271, 104579, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3691109814, 22643, 63361, 24, 67.6088, 186.79, 46.7079, 0.700477, 0, 0, -0.713675);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3691109814, 1, 4152426520, 67.6088, 186.79, 46.7079, 0.700477, 0, 0, -0.713675);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3691109814, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3691109814, 1, 16)
+     , (3691109814, 3, 67113007)
+     , (3691109814, 95, 8)
+     , (3691109814, 7, 255)
+     , (3691109814, 6, 255)
+     , (3691109814, 133, 4)
+     , (3691109814, 16, 32)
+     , (3691109814, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3691109814, 54, 3)
+     , (3691109814, 39, 0.9);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3691109814, 12, True)
+     , (3691109814, 11, True)
+     , (3691109814, 14, True)
+     , (3691109814, 41, True)
+     , (3691109814, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691109814, 67113012, 0, 0);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691109814, 1, 83892782, 83892783)
      , (3691109814, 1, 83892779, 83892780)
      , (3691109814, 14, 83892787, 83892785)
      , (3691109814, 14, 83892790, 83892789);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3691109814, 1, 16785073)
      , (3691109814, 14, 16785088)
      , (3691109814, 19, 16777708)
@@ -2194,22 +3000,46 @@ VALUES (3691109814, 1, 16785073)
      , (3691109814, 23, 16777708)
      , (3691109814, 24, 16777708);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3691244957, 'Town Crier', 16, 67113007, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667443, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33556836, 0.9, 104579, 872415271, 150994956, 536870929, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3691244957, 9437238, 22643, 4, 100667443, NULL, NULL, 33556836, 536870929, 150994956, 'AAA9AAAAAAA=', NULL, 872415271, 104579, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3691244957, 22643, 63105, 23, 66.1941, 161.362, 51.59077, -0.492306, 0, 0, -0.870422);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3691244957, 1, 4135649303, 66.1941, 161.362, 51.59077, -0.492306, 0, 0, -0.870422);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3691244957, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3691244957, 1, 16)
+     , (3691244957, 3, 67113007)
+     , (3691244957, 95, 8)
+     , (3691244957, 7, 255)
+     , (3691244957, 6, 255)
+     , (3691244957, 133, 4)
+     , (3691244957, 16, 32)
+     , (3691244957, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3691244957, 54, 3)
+     , (3691244957, 39, 0.9);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3691244957, 12, True)
+     , (3691244957, 11, True)
+     , (3691244957, 14, True)
+     , (3691244957, 41, True)
+     , (3691244957, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691244957, 67113012, 0, 0);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691244957, 1, 83892782, 83892783)
      , (3691244957, 1, 83892779, 83892780)
      , (3691244957, 14, 83892787, 83892785)
      , (3691244957, 14, 83892790, 83892789);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3691244957, 1, 16785073)
      , (3691244957, 14, 16785088)
      , (3691244957, 19, 16777708)
@@ -2219,13 +3049,36 @@ VALUES (3691244957, 1, 16785073)
      , (3691244957, 23, 16777708)
      , (3691244957, 24, 16777708);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3691233243, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3691233243, 9437238, 30064, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3691233243, 30064, 11189, 60, 181.229, 80.8462, 0.004999995, -0.971316, 0, 0, -0.237791);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3691233243, 1, 733282364, 181.229, 80.8462, 0.004999995, -0.971316, 0, 0, -0.237791);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3691233243, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3691233243, 1, 16)
+     , (3691233243, 3, 67108990)
+     , (3691233243, 95, 8)
+     , (3691233243, 7, 255)
+     , (3691233243, 6, 255)
+     , (3691233243, 133, 4)
+     , (3691233243, 16, 32)
+     , (3691233243, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3691233243, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3691233243, 12, True)
+     , (3691233243, 11, True)
+     , (3691233243, 14, True)
+     , (3691233243, 41, True)
+     , (3691233243, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691233243, 67115906, 0, 24)
      , (3691233243, 67117103, 24, 8)
      , (3691233243, 67110065, 32, 8)
@@ -2233,7 +3086,7 @@ VALUES (3691233243, 67115906, 0, 24)
      , (3691233243, 67116037, 207, 33)
      , (3691233243, 67116026, 174, 33);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691233243, 16, 83886232, 83890685)
      , (3691233243, 16, 83886668, 83890508)
      , (3691233243, 16, 83886837, 83890556)
@@ -2246,7 +3099,7 @@ VALUES (3691233243, 16, 83886232, 83890685)
      , (3691233243, 11, 83892346, 83897016)
      , (3691233243, 14, 83892346, 83897016);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3691233243, 16, 16795654)
      , (3691233243, 15, 16777335)
      , (3691233243, 12, 16777334)
@@ -2265,13 +3118,36 @@ VALUES (3691233243, 16, 16795654)
      , (3691233243, 13, 16791903)
      , (3691233243, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3689603651, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3689603651, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3689603651, 5772, 52884, 54, 148.1393, 121.2729, 18.45602, 0.9712284, 0, 0, 0.2381501);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3689603651, 1, 3465805878, 148.1393, 121.2729, 18.45602, 0.9712284, 0, 0, 0.2381501);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3689603651, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3689603651, 1, 16)
+     , (3689603651, 3, 67108990)
+     , (3689603651, 95, 8)
+     , (3689603651, 7, 255)
+     , (3689603651, 6, 255)
+     , (3689603651, 133, 4)
+     , (3689603651, 16, 32)
+     , (3689603651, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3689603651, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3689603651, 12, True)
+     , (3689603651, 11, True)
+     , (3689603651, 14, True)
+     , (3689603651, 41, True)
+     , (3689603651, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3689603651, 67109558, 0, 24)
      , (3689603651, 67117026, 24, 8)
      , (3689603651, 67110064, 32, 8)
@@ -2285,7 +3161,7 @@ VALUES (3689603651, 67109558, 0, 24)
      , (3689603651, 67110350, 116, 12)
      , (3689603651, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3689603651, 16, 83886232, 83890685)
      , (3689603651, 16, 83886668, 83890259)
      , (3689603651, 16, 83886837, 83890314)
@@ -2311,7 +3187,7 @@ VALUES (3689603651, 16, 83886232, 83890685)
      , (3689603651, 13, 83892347, 83892347)
      , (3689603651, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3689603651, 16, 16795655)
      , (3689603651, 15, 16777335)
      , (3689603651, 12, 16777334)
@@ -2330,13 +3206,36 @@ VALUES (3689603651, 16, 16795655)
      , (3689603651, 13, 16783871)
      , (3689603651, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3677915729, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3677915729, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3677915729, 5772, 52886, 4, 9.068603, 80.67284, 19.24928, 0.268244, 0, 0, -0.963351);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3677915729, 1, 3465936900, 9.068603, 80.67284, 19.24928, 0.268244, 0, 0, -0.963351);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3677915729, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3677915729, 1, 16)
+     , (3677915729, 3, 67108990)
+     , (3677915729, 95, 8)
+     , (3677915729, 7, 255)
+     , (3677915729, 6, 255)
+     , (3677915729, 133, 4)
+     , (3677915729, 16, 32)
+     , (3677915729, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3677915729, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3677915729, 12, True)
+     , (3677915729, 11, True)
+     , (3677915729, 14, True)
+     , (3677915729, 41, True)
+     , (3677915729, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3677915729, 67109562, 0, 24)
      , (3677915729, 67117078, 24, 8)
      , (3677915729, 67110063, 32, 8)
@@ -2350,7 +3249,7 @@ VALUES (3677915729, 67109562, 0, 24)
      , (3677915729, 67110350, 116, 12)
      , (3677915729, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3677915729, 16, 83886232, 83890685)
      , (3677915729, 16, 83886668, 83890283)
      , (3677915729, 16, 83886837, 83890315)
@@ -2376,7 +3275,7 @@ VALUES (3677915729, 16, 83886232, 83890685)
      , (3677915729, 13, 83892347, 83892347)
      , (3677915729, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3677915729, 16, 16795655)
      , (3677915729, 15, 16777335)
      , (3677915729, 12, 16777334)
@@ -2395,13 +3294,36 @@ VALUES (3677915729, 16, 16795655)
      , (3677915729, 13, 16783871)
      , (3677915729, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692042025, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692042025, 9437238, 5776, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692042025, 5776, 55636, 56, 155.8772, 181.8127, 20.005, 0.9238797, 0, 0, -0.3826829);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692042025, 1, 3646160952, 155.8772, 181.8127, 20.005, 0.9238797, 0, 0, -0.3826829);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692042025, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692042025, 1, 16)
+     , (3692042025, 3, 67108990)
+     , (3692042025, 95, 8)
+     , (3692042025, 7, 255)
+     , (3692042025, 6, 255)
+     , (3692042025, 133, 4)
+     , (3692042025, 16, 32)
+     , (3692042025, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692042025, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692042025, 12, True)
+     , (3692042025, 11, True)
+     , (3692042025, 14, True)
+     , (3692042025, 41, True)
+     , (3692042025, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692042025, 67110059, 0, 24)
      , (3692042025, 67117018, 24, 8)
      , (3692042025, 67110062, 32, 8)
@@ -2415,7 +3337,7 @@ VALUES (3692042025, 67110059, 0, 24)
      , (3692042025, 67110350, 116, 12)
      , (3692042025, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692042025, 16, 83886232, 83890685)
      , (3692042025, 16, 83886668, 83890264)
      , (3692042025, 16, 83886837, 83890302)
@@ -2445,7 +3367,7 @@ VALUES (3692042025, 16, 83886232, 83890685)
      , (3692042025, 13, 83892347, 83892347)
      , (3692042025, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692042025, 16, 16795662)
      , (3692042025, 15, 16777335)
      , (3692042025, 12, 16777334)
@@ -2464,13 +3386,36 @@ VALUES (3692042025, 16, 16795662)
      , (3692042025, 13, 16783871)
      , (3692042025, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3687459819, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3687459819, 9437238, 5773, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3687459819, 5773, 43443, 16, 29.45353, 174.0813, 92.99145, 0.88995, 0, 0, -0.4560581);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3687459819, 1, 2847080464, 29.45353, 174.0813, 92.99145, 0.88995, 0, 0, -0.4560581);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3687459819, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3687459819, 1, 16)
+     , (3687459819, 3, 67108990)
+     , (3687459819, 95, 8)
+     , (3687459819, 7, 255)
+     , (3687459819, 6, 255)
+     , (3687459819, 133, 4)
+     , (3687459819, 16, 32)
+     , (3687459819, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3687459819, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3687459819, 12, True)
+     , (3687459819, 11, True)
+     , (3687459819, 14, True)
+     , (3687459819, 41, True)
+     , (3687459819, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3687459819, 67109560, 0, 24)
      , (3687459819, 67116980, 24, 8)
      , (3687459819, 67109564, 32, 8)
@@ -2484,7 +3429,7 @@ VALUES (3687459819, 67109560, 0, 24)
      , (3687459819, 67110350, 116, 12)
      , (3687459819, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3687459819, 16, 83886232, 83890685)
      , (3687459819, 16, 83886668, 83890514)
      , (3687459819, 16, 83886837, 83890557)
@@ -2508,7 +3453,7 @@ VALUES (3687459819, 16, 83886232, 83890685)
      , (3687459819, 13, 83892347, 83892347)
      , (3687459819, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3687459819, 16, 16795654)
      , (3687459819, 15, 16777335)
      , (3687459819, 12, 16777334)
@@ -2527,13 +3472,36 @@ VALUES (3687459819, 16, 16795654)
      , (3687459819, 13, 16783871)
      , (3687459819, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3688967941, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3688967941, 9437238, 5773, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3688967941, 5773, 43444, 31, 94.41958, 158.1599, 66.005, -0.4973929, 0, 0, -0.8675254);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3688967941, 1, 2847146015, 94.41958, 158.1599, 66.005, -0.4973929, 0, 0, -0.8675254);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3688967941, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3688967941, 1, 16)
+     , (3688967941, 3, 67108990)
+     , (3688967941, 95, 8)
+     , (3688967941, 7, 255)
+     , (3688967941, 6, 255)
+     , (3688967941, 133, 4)
+     , (3688967941, 16, 32)
+     , (3688967941, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3688967941, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3688967941, 12, True)
+     , (3688967941, 11, True)
+     , (3688967941, 14, True)
+     , (3688967941, 41, True)
+     , (3688967941, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3688967941, 67109562, 0, 24)
      , (3688967941, 67117073, 24, 8)
      , (3688967941, 67110064, 32, 8)
@@ -2547,7 +3515,7 @@ VALUES (3688967941, 67109562, 0, 24)
      , (3688967941, 67110350, 116, 12)
      , (3688967941, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3688967941, 16, 83886232, 83890685)
      , (3688967941, 16, 83886668, 83890510)
      , (3688967941, 16, 83886837, 83890521)
@@ -2571,7 +3539,7 @@ VALUES (3688967941, 16, 83886232, 83890685)
      , (3688967941, 13, 83892347, 83892347)
      , (3688967941, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3688967941, 16, 16795662)
      , (3688967941, 15, 16777335)
      , (3688967941, 12, 16777334)
@@ -2590,13 +3558,36 @@ VALUES (3688967941, 16, 16795662)
      , (3688967941, 13, 16783871)
      , (3688967941, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3691828188, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3691828188, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3691828188, 5772, 48031, 63, 173.549, 160.5172, 55.25214, 0.4871341, 0, 0, -0.8733272);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3691828188, 1, 3147759679, 173.549, 160.5172, 55.25214, 0.4871341, 0, 0, -0.8733272);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3691828188, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3691828188, 1, 16)
+     , (3691828188, 3, 67108990)
+     , (3691828188, 95, 8)
+     , (3691828188, 7, 255)
+     , (3691828188, 6, 255)
+     , (3691828188, 133, 4)
+     , (3691828188, 16, 32)
+     , (3691828188, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3691828188, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3691828188, 12, True)
+     , (3691828188, 11, True)
+     , (3691828188, 14, True)
+     , (3691828188, 41, True)
+     , (3691828188, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691828188, 67109562, 0, 24)
      , (3691828188, 67117018, 24, 8)
      , (3691828188, 67110063, 32, 8)
@@ -2610,7 +3601,7 @@ VALUES (3691828188, 67109562, 0, 24)
      , (3691828188, 67110350, 116, 12)
      , (3691828188, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691828188, 16, 83886232, 83890685)
      , (3691828188, 16, 83886668, 83890284)
      , (3691828188, 16, 83886837, 83890295)
@@ -2636,7 +3627,7 @@ VALUES (3691828188, 16, 83886232, 83890685)
      , (3691828188, 13, 83892347, 83892347)
      , (3691828188, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3691828188, 16, 16795640)
      , (3691828188, 15, 16777335)
      , (3691828188, 12, 16777334)
@@ -2655,13 +3646,36 @@ VALUES (3691828188, 16, 16795640)
      , (3691828188, 13, 16783871)
      , (3691828188, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3684813736, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3684813736, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3684813736, 5772, 48287, 28, 72.11662, 88.6206, 53.37062, 1, 0, 0, 0);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3684813736, 1, 3164536860, 72.11662, 88.6206, 53.37062, 1, 0, 0, 0);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3684813736, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3684813736, 1, 16)
+     , (3684813736, 3, 67108990)
+     , (3684813736, 95, 8)
+     , (3684813736, 7, 255)
+     , (3684813736, 6, 255)
+     , (3684813736, 133, 4)
+     , (3684813736, 16, 32)
+     , (3684813736, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3684813736, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3684813736, 12, True)
+     , (3684813736, 11, True)
+     , (3684813736, 14, True)
+     , (3684813736, 41, True)
+     , (3684813736, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3684813736, 67109560, 0, 24)
      , (3684813736, 67117018, 24, 8)
      , (3684813736, 67109566, 32, 8)
@@ -2675,7 +3689,7 @@ VALUES (3684813736, 67109560, 0, 24)
      , (3684813736, 67110350, 116, 12)
      , (3684813736, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684813736, 16, 83886232, 83890685)
      , (3684813736, 16, 83886668, 83890282)
      , (3684813736, 16, 83886837, 83890304)
@@ -2701,7 +3715,7 @@ VALUES (3684813736, 16, 83886232, 83890685)
      , (3684813736, 13, 83892347, 83892347)
      , (3684813736, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3684813736, 16, 16795675)
      , (3684813736, 15, 16777335)
      , (3684813736, 12, 16777334)
@@ -2720,13 +3734,36 @@ VALUES (3684813736, 16, 16795675)
      , (3684813736, 13, 16783871)
      , (3684813736, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3684814336, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3684814336, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3684814336, 5772, 48287, 51, 155.758, 64.30402, 32.005, 0.7071068, 0, 0, -0.7071068);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3684814336, 1, 3164536883, 155.758, 64.30402, 32.005, 0.7071068, 0, 0, -0.7071068);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3684814336, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3684814336, 1, 16)
+     , (3684814336, 3, 67108990)
+     , (3684814336, 95, 8)
+     , (3684814336, 7, 255)
+     , (3684814336, 6, 255)
+     , (3684814336, 133, 4)
+     , (3684814336, 16, 32)
+     , (3684814336, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3684814336, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3684814336, 12, True)
+     , (3684814336, 11, True)
+     , (3684814336, 14, True)
+     , (3684814336, 41, True)
+     , (3684814336, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3684814336, 67109561, 0, 24)
      , (3684814336, 67117018, 24, 8)
      , (3684814336, 67110065, 32, 8)
@@ -2740,7 +3777,7 @@ VALUES (3684814336, 67109561, 0, 24)
      , (3684814336, 67110350, 116, 12)
      , (3684814336, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684814336, 16, 83886232, 83890685)
      , (3684814336, 16, 83886668, 83890278)
      , (3684814336, 16, 83886837, 83890286)
@@ -2766,7 +3803,7 @@ VALUES (3684814336, 16, 83886232, 83890685)
      , (3684814336, 13, 83892347, 83892347)
      , (3684814336, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3684814336, 16, 16795641)
      , (3684814336, 15, 16777335)
      , (3684814336, 12, 16777334)
@@ -2785,13 +3822,36 @@ VALUES (3684814336, 16, 16795641)
      , (3684814336, 13, 16783871)
      , (3684814336, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3691776816, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3691776816, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3691776816, 5772, 48030, 64, 187.7493, 174.2852, 54.005, -0.9220473, 0, 0, 0.3870771);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3691776816, 1, 3147694144, 187.7493, 174.2852, 54.005, -0.9220473, 0, 0, 0.3870771);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3691776816, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3691776816, 1, 16)
+     , (3691776816, 3, 67108990)
+     , (3691776816, 95, 8)
+     , (3691776816, 7, 255)
+     , (3691776816, 6, 255)
+     , (3691776816, 133, 4)
+     , (3691776816, 16, 32)
+     , (3691776816, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3691776816, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3691776816, 12, True)
+     , (3691776816, 11, True)
+     , (3691776816, 14, True)
+     , (3691776816, 41, True)
+     , (3691776816, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691776816, 67109561, 0, 24)
      , (3691776816, 67116982, 24, 8)
      , (3691776816, 67110063, 32, 8)
@@ -2805,7 +3865,7 @@ VALUES (3691776816, 67109561, 0, 24)
      , (3691776816, 67110350, 116, 12)
      , (3691776816, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691776816, 16, 83886232, 83890685)
      , (3691776816, 16, 83886668, 83890280)
      , (3691776816, 16, 83886837, 83890304)
@@ -2831,7 +3891,7 @@ VALUES (3691776816, 16, 83886232, 83890685)
      , (3691776816, 13, 83892347, 83892347)
      , (3691776816, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3691776816, 16, 16795650)
      , (3691776816, 15, 16777335)
      , (3691776816, 12, 16777334)
@@ -2850,13 +3910,36 @@ VALUES (3691776816, 16, 16795650)
      , (3691776816, 13, 16783871)
      , (3691776816, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692274359, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692274359, 9437238, 5773, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692274359, 5773, 49280, 7, 3.041425, 153.2808, 33.75155, 0.80638, 0, 0, -0.591398);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692274359, 1, 3229614087, 3.041425, 153.2808, 33.75155, 0.80638, 0, 0, -0.591398);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692274359, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692274359, 1, 16)
+     , (3692274359, 3, 67108990)
+     , (3692274359, 95, 8)
+     , (3692274359, 7, 255)
+     , (3692274359, 6, 255)
+     , (3692274359, 133, 4)
+     , (3692274359, 16, 32)
+     , (3692274359, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692274359, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692274359, 12, True)
+     , (3692274359, 11, True)
+     , (3692274359, 14, True)
+     , (3692274359, 41, True)
+     , (3692274359, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692274359, 67109558, 0, 24)
      , (3692274359, 67116978, 24, 8)
      , (3692274359, 67109564, 32, 8)
@@ -2870,7 +3953,7 @@ VALUES (3692274359, 67109558, 0, 24)
      , (3692274359, 67110350, 116, 12)
      , (3692274359, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692274359, 16, 83886232, 83890359)
      , (3692274359, 16, 83886668, 83890437)
      , (3692274359, 16, 83886837, 83890521)
@@ -2894,7 +3977,7 @@ VALUES (3692274359, 16, 83886232, 83890359)
      , (3692274359, 13, 83892347, 83892347)
      , (3692274359, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692274359, 16, 16795638)
      , (3692274359, 15, 16777335)
      , (3692274359, 12, 16777334)
@@ -2913,13 +3996,36 @@ VALUES (3692274359, 16, 16795638)
      , (3692274359, 13, 16783871)
      , (3692274359, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692274407, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692274407, 9437238, 5773, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692274407, 5773, 49280, 4, 9.500022, 88.66918, 34.005, 0.655947, 0, 0, -0.754807);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692274407, 1, 3229614084, 9.500022, 88.66918, 34.005, 0.655947, 0, 0, -0.754807);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692274407, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692274407, 1, 16)
+     , (3692274407, 3, 67108990)
+     , (3692274407, 95, 8)
+     , (3692274407, 7, 255)
+     , (3692274407, 6, 255)
+     , (3692274407, 133, 4)
+     , (3692274407, 16, 32)
+     , (3692274407, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692274407, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692274407, 12, True)
+     , (3692274407, 11, True)
+     , (3692274407, 14, True)
+     , (3692274407, 41, True)
+     , (3692274407, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692274407, 67109559, 0, 24)
      , (3692274407, 67116994, 24, 8)
      , (3692274407, 67109567, 32, 8)
@@ -2933,7 +4039,7 @@ VALUES (3692274407, 67109559, 0, 24)
      , (3692274407, 67110350, 116, 12)
      , (3692274407, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692274407, 16, 83886232, 83890685)
      , (3692274407, 16, 83886668, 83890479)
      , (3692274407, 16, 83886837, 83890547)
@@ -2957,7 +4063,7 @@ VALUES (3692274407, 16, 83886232, 83890685)
      , (3692274407, 13, 83892347, 83892347)
      , (3692274407, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692274407, 16, 16795640)
      , (3692274407, 15, 16777335)
      , (3692274407, 12, 16777334)
@@ -2976,13 +4082,36 @@ VALUES (3692274407, 16, 16795640)
      , (3692274407, 13, 16783871)
      , (3692274407, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692274379, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692274379, 9437238, 5773, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692274379, 5773, 49024, 33, 107.7334, 15.56348, 32.98278, 0.96452, 0, 0, 0.264011);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692274379, 1, 3212836897, 107.7334, 15.56348, 32.98278, 0.96452, 0, 0, 0.264011);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692274379, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692274379, 1, 16)
+     , (3692274379, 3, 67108990)
+     , (3692274379, 95, 8)
+     , (3692274379, 7, 255)
+     , (3692274379, 6, 255)
+     , (3692274379, 133, 4)
+     , (3692274379, 16, 32)
+     , (3692274379, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692274379, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692274379, 12, True)
+     , (3692274379, 11, True)
+     , (3692274379, 14, True)
+     , (3692274379, 41, True)
+     , (3692274379, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692274379, 67109558, 0, 24)
      , (3692274379, 67117068, 24, 8)
      , (3692274379, 67110065, 32, 8)
@@ -2996,7 +4125,7 @@ VALUES (3692274379, 67109558, 0, 24)
      , (3692274379, 67110350, 116, 12)
      , (3692274379, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692274379, 16, 83886232, 83890685)
      , (3692274379, 16, 83886668, 83890481)
      , (3692274379, 16, 83886837, 83890547)
@@ -3020,7 +4149,7 @@ VALUES (3692274379, 16, 83886232, 83890685)
      , (3692274379, 13, 83892347, 83892347)
      , (3692274379, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692274379, 16, 16795654)
      , (3692274379, 15, 16777335)
      , (3692274379, 12, 16777334)
@@ -3039,13 +4168,36 @@ VALUES (3692274379, 16, 16795654)
      , (3692274379, 13, 16783871)
      , (3692274379, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692274506, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692274506, 9437238, 5773, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692274506, 5773, 48768, 35, 108.9684, 50.54309, 29.79308, 0.7791667, 0, 0, 0.6268167);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692274506, 1, 3196059683, 108.9684, 50.54309, 29.79308, 0.7791667, 0, 0, 0.6268167);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692274506, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692274506, 1, 16)
+     , (3692274506, 3, 67108990)
+     , (3692274506, 95, 8)
+     , (3692274506, 7, 255)
+     , (3692274506, 6, 255)
+     , (3692274506, 133, 4)
+     , (3692274506, 16, 32)
+     , (3692274506, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692274506, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692274506, 12, True)
+     , (3692274506, 11, True)
+     , (3692274506, 14, True)
+     , (3692274506, 41, True)
+     , (3692274506, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692274506, 67109558, 0, 24)
      , (3692274506, 67116979, 24, 8)
      , (3692274506, 67110064, 32, 8)
@@ -3059,7 +4211,7 @@ VALUES (3692274506, 67109558, 0, 24)
      , (3692274506, 67110350, 116, 12)
      , (3692274506, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692274506, 16, 83886232, 83890685)
      , (3692274506, 16, 83886668, 83890457)
      , (3692274506, 16, 83886837, 83890522)
@@ -3083,7 +4235,7 @@ VALUES (3692274506, 16, 83886232, 83890685)
      , (3692274506, 13, 83892347, 83892347)
      , (3692274506, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692274506, 16, 16795675)
      , (3692274506, 15, 16777335)
      , (3692274506, 12, 16777334)
@@ -3102,13 +4254,36 @@ VALUES (3692274506, 16, 16795675)
      , (3692274506, 13, 16783871)
      , (3692274506, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692286047, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692286047, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692286047, 5772, 9601, 52, 166.803, 78.545, 220.005, -0.9717, 0, 0, 0.236218);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692286047, 1, 629211188, 166.803, 78.545, 220.005, -0.9717, 0, 0, 0.236218);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692286047, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692286047, 1, 16)
+     , (3692286047, 3, 67108990)
+     , (3692286047, 95, 8)
+     , (3692286047, 7, 255)
+     , (3692286047, 6, 255)
+     , (3692286047, 133, 4)
+     , (3692286047, 16, 32)
+     , (3692286047, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692286047, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692286047, 12, True)
+     , (3692286047, 11, True)
+     , (3692286047, 14, True)
+     , (3692286047, 41, True)
+     , (3692286047, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692286047, 67109561, 0, 24)
      , (3692286047, 67117071, 24, 8)
      , (3692286047, 67109566, 32, 8)
@@ -3122,7 +4297,7 @@ VALUES (3692286047, 67109561, 0, 24)
      , (3692286047, 67110350, 116, 12)
      , (3692286047, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692286047, 16, 83886232, 83890685)
      , (3692286047, 16, 83886668, 83890260)
      , (3692286047, 16, 83886837, 83890311)
@@ -3148,7 +4323,7 @@ VALUES (3692286047, 16, 83886232, 83890685)
      , (3692286047, 13, 83892347, 83892347)
      , (3692286047, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692286047, 16, 16795655)
      , (3692286047, 15, 16777335)
      , (3692286047, 12, 16777334)
@@ -3167,13 +4342,36 @@ VALUES (3692286047, 16, 16795655)
      , (3692286047, 13, 16783871)
      , (3692286047, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692283400, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692283400, 9437238, 5773, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692283400, 5773, 55925, 43, 134.1897, 60.38836, 18.005, 0.707107, 0, 0, -0.707107);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692283400, 1, 3665100843, 134.1897, 60.38836, 18.005, 0.707107, 0, 0, -0.707107);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692283400, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692283400, 1, 16)
+     , (3692283400, 3, 67108990)
+     , (3692283400, 95, 8)
+     , (3692283400, 7, 255)
+     , (3692283400, 6, 255)
+     , (3692283400, 133, 4)
+     , (3692283400, 16, 32)
+     , (3692283400, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692283400, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692283400, 12, True)
+     , (3692283400, 11, True)
+     , (3692283400, 14, True)
+     , (3692283400, 41, True)
+     , (3692283400, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692283400, 67109559, 0, 24)
      , (3692283400, 67116985, 24, 8)
      , (3692283400, 67109567, 32, 8)
@@ -3187,7 +4385,7 @@ VALUES (3692283400, 67109559, 0, 24)
      , (3692283400, 67110350, 116, 12)
      , (3692283400, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692283400, 16, 83886232, 83890685)
      , (3692283400, 16, 83886668, 83890445)
      , (3692283400, 16, 83886837, 83890550)
@@ -3211,7 +4409,7 @@ VALUES (3692283400, 16, 83886232, 83890685)
      , (3692283400, 13, 83892347, 83892347)
      , (3692283400, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692283400, 16, 16795665)
      , (3692283400, 15, 16777335)
      , (3692283400, 12, 16777334)
@@ -3230,13 +4428,36 @@ VALUES (3692283400, 16, 16795665)
      , (3692283400, 13, 16783871)
      , (3692283400, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692283444, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692283444, 9437238, 5773, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692283444, 5773, 55926, 34, 102.4383, 29.76621, 18.005, 0.395514, 0, 0, -0.91846);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692283444, 1, 3665166370, 102.4383, 29.76621, 18.005, 0.395514, 0, 0, -0.91846);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692283444, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692283444, 1, 16)
+     , (3692283444, 3, 67108990)
+     , (3692283444, 95, 8)
+     , (3692283444, 7, 255)
+     , (3692283444, 6, 255)
+     , (3692283444, 133, 4)
+     , (3692283444, 16, 32)
+     , (3692283444, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692283444, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692283444, 12, True)
+     , (3692283444, 11, True)
+     , (3692283444, 14, True)
+     , (3692283444, 41, True)
+     , (3692283444, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692283444, 67109562, 0, 24)
      , (3692283444, 67117025, 24, 8)
      , (3692283444, 67109567, 32, 8)
@@ -3250,7 +4471,7 @@ VALUES (3692283444, 67109562, 0, 24)
      , (3692283444, 67110350, 116, 12)
      , (3692283444, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692283444, 16, 83886232, 83890685)
      , (3692283444, 16, 83886668, 83890480)
      , (3692283444, 16, 83886837, 83890522)
@@ -3274,7 +4495,7 @@ VALUES (3692283444, 16, 83886232, 83890685)
      , (3692283444, 13, 83892347, 83892347)
      , (3692283444, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692283444, 16, 16795675)
      , (3692283444, 15, 16777335)
      , (3692283444, 12, 16777334)
@@ -3293,13 +4514,36 @@ VALUES (3692283444, 16, 16795675)
      , (3692283444, 13, 16783871)
      , (3692283444, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692305088, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692305088, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692305088, 5772, 51596, 40, 104.4693, 186.2551, 22.005, -0.698494, 0, 0, 0.715616);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692305088, 1, 3381395496, 104.4693, 186.2551, 22.005, -0.698494, 0, 0, 0.715616);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692305088, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692305088, 1, 16)
+     , (3692305088, 3, 67108990)
+     , (3692305088, 95, 8)
+     , (3692305088, 7, 255)
+     , (3692305088, 6, 255)
+     , (3692305088, 133, 4)
+     , (3692305088, 16, 32)
+     , (3692305088, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692305088, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692305088, 12, True)
+     , (3692305088, 11, True)
+     , (3692305088, 14, True)
+     , (3692305088, 41, True)
+     , (3692305088, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692305088, 67109561, 0, 24)
      , (3692305088, 67116997, 24, 8)
      , (3692305088, 67109566, 32, 8)
@@ -3313,7 +4557,7 @@ VALUES (3692305088, 67109561, 0, 24)
      , (3692305088, 67110350, 116, 12)
      , (3692305088, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692305088, 16, 83886232, 83890685)
      , (3692305088, 16, 83886668, 83890258)
      , (3692305088, 16, 83886837, 83890317)
@@ -3339,7 +4583,7 @@ VALUES (3692305088, 16, 83886232, 83890685)
      , (3692305088, 13, 83892347, 83892347)
      , (3692305088, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692305088, 16, 16795640)
      , (3692305088, 15, 16777335)
      , (3692305088, 12, 16777334)
@@ -3358,13 +4602,36 @@ VALUES (3692305088, 16, 16795640)
      , (3692305088, 13, 16783871)
      , (3692305088, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692305074, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692305074, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692305074, 5772, 51340, 16, 31.2263, 186.7329, 22.005, 0.7071068, 0, 0, -0.7071068);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692305074, 1, 3364618256, 31.2263, 186.7329, 22.005, 0.7071068, 0, 0, -0.7071068);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692305074, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692305074, 1, 16)
+     , (3692305074, 3, 67108990)
+     , (3692305074, 95, 8)
+     , (3692305074, 7, 255)
+     , (3692305074, 6, 255)
+     , (3692305074, 133, 4)
+     , (3692305074, 16, 32)
+     , (3692305074, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692305074, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692305074, 12, True)
+     , (3692305074, 11, True)
+     , (3692305074, 14, True)
+     , (3692305074, 41, True)
+     , (3692305074, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692305074, 67109561, 0, 24)
      , (3692305074, 67117024, 24, 8)
      , (3692305074, 67109565, 32, 8)
@@ -3378,7 +4645,7 @@ VALUES (3692305074, 67109561, 0, 24)
      , (3692305074, 67110350, 116, 12)
      , (3692305074, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692305074, 16, 83886232, 83890685)
      , (3692305074, 16, 83886668, 83890282)
      , (3692305074, 16, 83886837, 83890313)
@@ -3404,7 +4671,7 @@ VALUES (3692305074, 16, 83886232, 83890685)
      , (3692305074, 13, 83892347, 83892347)
      , (3692305074, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692305074, 16, 16795650)
      , (3692305074, 15, 16777335)
      , (3692305074, 12, 16777334)
@@ -3423,13 +4690,36 @@ VALUES (3692305074, 16, 16795650)
      , (3692305074, 13, 16783871)
      , (3692305074, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692305049, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692305049, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692305049, 5772, 51340, 20, 64.56532, 80.09563, 22.005, 0.3757089, 0, 0, -0.9267377);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692305049, 1, 3364618260, 64.56532, 80.09563, 22.005, 0.3757089, 0, 0, -0.9267377);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692305049, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692305049, 1, 16)
+     , (3692305049, 3, 67108990)
+     , (3692305049, 95, 8)
+     , (3692305049, 7, 255)
+     , (3692305049, 6, 255)
+     , (3692305049, 133, 4)
+     , (3692305049, 16, 32)
+     , (3692305049, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692305049, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692305049, 12, True)
+     , (3692305049, 11, True)
+     , (3692305049, 14, True)
+     , (3692305049, 41, True)
+     , (3692305049, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692305049, 67109561, 0, 24)
      , (3692305049, 67117024, 24, 8)
      , (3692305049, 67109565, 32, 8)
@@ -3443,7 +4733,7 @@ VALUES (3692305049, 67109561, 0, 24)
      , (3692305049, 67110350, 116, 12)
      , (3692305049, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692305049, 16, 83886232, 83890685)
      , (3692305049, 16, 83886668, 83890281)
      , (3692305049, 16, 83886837, 83890313)
@@ -3469,7 +4759,7 @@ VALUES (3692305049, 16, 83886232, 83890685)
      , (3692305049, 13, 83892347, 83892347)
      , (3692305049, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692305049, 16, 16795650)
      , (3692305049, 15, 16777335)
      , (3692305049, 12, 16777334)
@@ -3488,13 +4778,36 @@ VALUES (3692305049, 16, 16795650)
      , (3692305049, 13, 16783871)
      , (3692305049, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692156464, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692156464, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692156464, 5772, 51084, 20, 48.97042, 82.38538, 22.005, 0.9560818, 0, 0, -0.2930999);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692156464, 1, 3347841044, 48.97042, 82.38538, 22.005, 0.9560818, 0, 0, -0.2930999);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692156464, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692156464, 1, 16)
+     , (3692156464, 3, 67108990)
+     , (3692156464, 95, 8)
+     , (3692156464, 7, 255)
+     , (3692156464, 6, 255)
+     , (3692156464, 133, 4)
+     , (3692156464, 16, 32)
+     , (3692156464, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692156464, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692156464, 12, True)
+     , (3692156464, 11, True)
+     , (3692156464, 14, True)
+     , (3692156464, 41, True)
+     , (3692156464, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692156464, 67109558, 0, 24)
      , (3692156464, 67117068, 24, 8)
      , (3692156464, 67110065, 32, 8)
@@ -3508,7 +4821,7 @@ VALUES (3692156464, 67109558, 0, 24)
      , (3692156464, 67110350, 116, 12)
      , (3692156464, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692156464, 16, 83886232, 83890685)
      , (3692156464, 16, 83886668, 83890259)
      , (3692156464, 16, 83886837, 83890289)
@@ -3534,7 +4847,7 @@ VALUES (3692156464, 16, 83886232, 83890685)
      , (3692156464, 13, 83892347, 83892347)
      , (3692156464, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692156464, 16, 16795675)
      , (3692156464, 15, 16777335)
      , (3692156464, 12, 16777334)
@@ -3553,13 +4866,36 @@ VALUES (3692156464, 16, 16795675)
      , (3692156464, 13, 16783871)
      , (3692156464, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692311008, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692311008, 9437238, 5772, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692311008, 5772, 51852, 16, 33.12798, 190.4262, 17.24434, -0.572064, 0, 0, -0.820209);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692311008, 1, 3398172688, 33.12798, 190.4262, 17.24434, -0.572064, 0, 0, -0.820209);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692311008, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692311008, 1, 16)
+     , (3692311008, 3, 67108990)
+     , (3692311008, 95, 8)
+     , (3692311008, 7, 255)
+     , (3692311008, 6, 255)
+     , (3692311008, 133, 4)
+     , (3692311008, 16, 32)
+     , (3692311008, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692311008, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692311008, 12, True)
+     , (3692311008, 11, True)
+     , (3692311008, 14, True)
+     , (3692311008, 41, True)
+     , (3692311008, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692311008, 67109560, 0, 24)
      , (3692311008, 67117017, 24, 8)
      , (3692311008, 67109566, 32, 8)
@@ -3573,7 +4909,7 @@ VALUES (3692311008, 67109560, 0, 24)
      , (3692311008, 67110350, 116, 12)
      , (3692311008, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692311008, 16, 83886232, 83890685)
      , (3692311008, 16, 83886668, 83890282)
      , (3692311008, 16, 83886837, 83890304)
@@ -3599,7 +4935,7 @@ VALUES (3692311008, 16, 83886232, 83890685)
      , (3692311008, 13, 83892347, 83892347)
      , (3692311008, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692311008, 16, 16795655)
      , (3692311008, 15, 16777335)
      , (3692311008, 12, 16777334)
@@ -3618,13 +4954,36 @@ VALUES (3692311008, 16, 16795655)
      , (3692311008, 13, 16783871)
      , (3692311008, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3689489271, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3689489271, 9437238, 5773, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3689489271, 5773, 50856, 21, 54.00516, 105.1116, 42.005, 0.9629533, 0, 0, -0.2696681);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3689489271, 1, 3332898837, 54.00516, 105.1116, 42.005, 0.9629533, 0, 0, -0.2696681);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3689489271, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3689489271, 1, 16)
+     , (3689489271, 3, 67108990)
+     , (3689489271, 95, 8)
+     , (3689489271, 7, 255)
+     , (3689489271, 6, 255)
+     , (3689489271, 133, 4)
+     , (3689489271, 16, 32)
+     , (3689489271, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3689489271, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3689489271, 12, True)
+     , (3689489271, 11, True)
+     , (3689489271, 14, True)
+     , (3689489271, 41, True)
+     , (3689489271, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3689489271, 67109559, 0, 24)
      , (3689489271, 67117001, 24, 8)
      , (3689489271, 67109564, 32, 8)
@@ -3638,7 +4997,7 @@ VALUES (3689489271, 67109559, 0, 24)
      , (3689489271, 67110350, 116, 12)
      , (3689489271, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3689489271, 16, 83886232, 83890685)
      , (3689489271, 16, 83886668, 83890509)
      , (3689489271, 16, 83886837, 83890546)
@@ -3662,7 +5021,7 @@ VALUES (3689489271, 16, 83886232, 83890685)
      , (3689489271, 13, 83892347, 83892347)
      , (3689489271, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3689489271, 16, 16795650)
      , (3689489271, 15, 16777335)
      , (3689489271, 12, 16777334)
@@ -3681,13 +5040,36 @@ VALUES (3689489271, 16, 16795650)
      , (3689489271, 13, 16783871)
      , (3689489271, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3691826826, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3691826826, 9437238, 5775, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3691826826, 5775, 32356, 21, 50.58802, 98.54698, 13.78933, 0.9238797, 0, 0, -0.3826829);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3691826826, 1, 2120482837, 50.58802, 98.54698, 13.78933, 0.9238797, 0, 0, -0.3826829);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3691826826, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3691826826, 1, 16)
+     , (3691826826, 3, 67108990)
+     , (3691826826, 95, 8)
+     , (3691826826, 7, 255)
+     , (3691826826, 6, 255)
+     , (3691826826, 133, 4)
+     , (3691826826, 16, 32)
+     , (3691826826, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3691826826, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3691826826, 12, True)
+     , (3691826826, 11, True)
+     , (3691826826, 14, True)
+     , (3691826826, 41, True)
+     , (3691826826, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691826826, 67109555, 0, 24)
      , (3691826826, 67117001, 24, 8)
      , (3691826826, 67109567, 32, 8)
@@ -3703,7 +5085,7 @@ VALUES (3691826826, 67109555, 0, 24)
      , (3691826826, 67110346, 240, 10)
      , (3691826826, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691826826, 16, 83886232, 83890685)
      , (3691826826, 16, 83886668, 83890475)
      , (3691826826, 16, 83886837, 83890538)
@@ -3732,7 +5114,7 @@ VALUES (3691826826, 16, 83886232, 83890685)
      , (3691826826, 14, 83892346, 83892354)
      , (3691826826, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3691826826, 3, 16777292)
      , (3691826826, 7, 16777296)
      , (3691826826, 4, 16777291)
@@ -3751,13 +5133,36 @@ VALUES (3691826826, 3, 16777292)
      , (3691826826, 14, 16783855)
      , (3691826826, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3690174494, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3690174494, 9437238, 5775, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3690174494, 5775, 32101, 10, 36.03313, 38.28074, 12.005, 0.3826829, 0, 0, -0.9238797);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3690174494, 1, 2103771146, 36.03313, 38.28074, 12.005, 0.3826829, 0, 0, -0.9238797);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3690174494, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3690174494, 1, 16)
+     , (3690174494, 3, 67108990)
+     , (3690174494, 95, 8)
+     , (3690174494, 7, 255)
+     , (3690174494, 6, 255)
+     , (3690174494, 133, 4)
+     , (3690174494, 16, 32)
+     , (3690174494, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3690174494, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3690174494, 12, True)
+     , (3690174494, 11, True)
+     , (3690174494, 14, True)
+     , (3690174494, 41, True)
+     , (3690174494, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3690174494, 67109552, 0, 24)
      , (3690174494, 67116993, 24, 8)
      , (3690174494, 67109567, 32, 8)
@@ -3773,7 +5178,7 @@ VALUES (3690174494, 67109552, 0, 24)
      , (3690174494, 67110346, 240, 10)
      , (3690174494, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3690174494, 16, 83886232, 83890359)
      , (3690174494, 16, 83886668, 83890466)
      , (3690174494, 16, 83886837, 83890537)
@@ -3802,7 +5207,7 @@ VALUES (3690174494, 16, 83886232, 83890359)
      , (3690174494, 14, 83892346, 83892354)
      , (3690174494, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3690174494, 3, 16777292)
      , (3690174494, 7, 16777296)
      , (3690174494, 4, 16777291)
@@ -3821,13 +5226,36 @@ VALUES (3690174494, 3, 16777292)
      , (3690174494, 14, 16783855)
      , (3690174494, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692331619, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692331619, 9437238, 5775, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692331619, 5775, 36696, 59, 189.4662, 63.78132, 9.793851, 0.7071068, 0, 0, -0.7071068);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692331619, 1, 2404909115, 189.4662, 63.78132, 9.793851, 0.7071068, 0, 0, -0.7071068);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692331619, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692331619, 1, 16)
+     , (3692331619, 3, 67108990)
+     , (3692331619, 95, 8)
+     , (3692331619, 7, 255)
+     , (3692331619, 6, 255)
+     , (3692331619, 133, 4)
+     , (3692331619, 16, 32)
+     , (3692331619, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692331619, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692331619, 12, True)
+     , (3692331619, 11, True)
+     , (3692331619, 14, True)
+     , (3692331619, 41, True)
+     , (3692331619, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692331619, 67109550, 0, 24)
      , (3692331619, 67116997, 24, 8)
      , (3692331619, 67110062, 32, 8)
@@ -3843,7 +5271,7 @@ VALUES (3692331619, 67109550, 0, 24)
      , (3692331619, 67110346, 240, 10)
      , (3692331619, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692331619, 16, 83886232, 83890359)
      , (3692331619, 16, 83886668, 83890467)
      , (3692331619, 16, 83886837, 83890517)
@@ -3872,7 +5300,7 @@ VALUES (3692331619, 16, 83886232, 83890359)
      , (3692331619, 14, 83892346, 83892354)
      , (3692331619, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692331619, 3, 16777292)
      , (3692331619, 7, 16777296)
      , (3692331619, 4, 16777291)
@@ -3891,13 +5319,36 @@ VALUES (3692331619, 3, 16777292)
      , (3692331619, 14, 16783855)
      , (3692331619, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692276043, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692276043, 9437238, 5775, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692276043, 5775, 36952, 28, 92.35725, 87.63683, -0.09500003, 0.125157, 0, 0, -0.992137);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692276043, 1, 2421686300, 92.35725, 87.63683, -0.09500003, 0.125157, 0, 0, -0.992137);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692276043, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692276043, 1, 16)
+     , (3692276043, 3, 67108990)
+     , (3692276043, 95, 8)
+     , (3692276043, 7, 255)
+     , (3692276043, 6, 255)
+     , (3692276043, 133, 4)
+     , (3692276043, 16, 32)
+     , (3692276043, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692276043, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692276043, 12, True)
+     , (3692276043, 11, True)
+     , (3692276043, 14, True)
+     , (3692276043, 41, True)
+     , (3692276043, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692276043, 67109550, 0, 24)
      , (3692276043, 67116990, 24, 8)
      , (3692276043, 67109567, 32, 8)
@@ -3913,7 +5364,7 @@ VALUES (3692276043, 67109550, 0, 24)
      , (3692276043, 67110346, 240, 10)
      , (3692276043, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692276043, 16, 83886232, 83890359)
      , (3692276043, 16, 83886668, 83890440)
      , (3692276043, 16, 83886837, 83890526)
@@ -3942,7 +5393,7 @@ VALUES (3692276043, 16, 83886232, 83890359)
      , (3692276043, 14, 83892346, 83892354)
      , (3692276043, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692276043, 3, 16777292)
      , (3692276043, 7, 16777296)
      , (3692276043, 4, 16777291)
@@ -3961,13 +5412,36 @@ VALUES (3692276043, 3, 16777292)
      , (3692276043, 14, 16783855)
      , (3692276043, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692228779, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692228779, 9437238, 5775, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692228779, 5775, 36952, 15, 35.14614, 159.0965, 5.263039, 0.997699, 0, 0, 0.0678047);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692228779, 1, 2421686287, 35.14614, 159.0965, 5.263039, 0.997699, 0, 0, 0.0678047);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692228779, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692228779, 1, 16)
+     , (3692228779, 3, 67108990)
+     , (3692228779, 95, 8)
+     , (3692228779, 7, 255)
+     , (3692228779, 6, 255)
+     , (3692228779, 133, 4)
+     , (3692228779, 16, 32)
+     , (3692228779, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692228779, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692228779, 12, True)
+     , (3692228779, 11, True)
+     , (3692228779, 14, True)
+     , (3692228779, 41, True)
+     , (3692228779, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692228779, 67109555, 0, 24)
      , (3692228779, 67117023, 24, 8)
      , (3692228779, 67109567, 32, 8)
@@ -3983,7 +5457,7 @@ VALUES (3692228779, 67109555, 0, 24)
      , (3692228779, 67110346, 240, 10)
      , (3692228779, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692228779, 16, 83886232, 83890359)
      , (3692228779, 16, 83886668, 83890443)
      , (3692228779, 16, 83886837, 83890517)
@@ -4012,7 +5486,7 @@ VALUES (3692228779, 16, 83886232, 83890359)
      , (3692228779, 14, 83892346, 83892354)
      , (3692228779, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692228779, 3, 16777292)
      , (3692228779, 7, 16777296)
      , (3692228779, 4, 16777291)
@@ -4031,13 +5505,36 @@ VALUES (3692228779, 3, 16777292)
      , (3692228779, 14, 16783855)
      , (3692228779, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692274439, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692274439, 9437238, 5775, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692274439, 5775, 37208, 11, 41.72795, 69.69624, 6.005, 0.351319, 0, 0, -0.936256);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692274439, 1, 2438463499, 41.72795, 69.69624, 6.005, 0.351319, 0, 0, -0.936256);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692274439, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692274439, 1, 16)
+     , (3692274439, 3, 67108990)
+     , (3692274439, 95, 8)
+     , (3692274439, 7, 255)
+     , (3692274439, 6, 255)
+     , (3692274439, 133, 4)
+     , (3692274439, 16, 32)
+     , (3692274439, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692274439, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692274439, 12, True)
+     , (3692274439, 11, True)
+     , (3692274439, 14, True)
+     , (3692274439, 41, True)
+     , (3692274439, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692274439, 67109551, 0, 24)
      , (3692274439, 67117019, 24, 8)
      , (3692274439, 67110062, 32, 8)
@@ -4053,7 +5550,7 @@ VALUES (3692274439, 67109551, 0, 24)
      , (3692274439, 67110346, 240, 10)
      , (3692274439, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692274439, 16, 83886232, 83890685)
      , (3692274439, 16, 83886668, 83890514)
      , (3692274439, 16, 83886837, 83890517)
@@ -4082,7 +5579,7 @@ VALUES (3692274439, 16, 83886232, 83890685)
      , (3692274439, 14, 83892346, 83892354)
      , (3692274439, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692274439, 3, 16777292)
      , (3692274439, 7, 16777296)
      , (3692274439, 4, 16777291)
@@ -4101,13 +5598,36 @@ VALUES (3692274439, 3, 16777292)
      , (3692274439, 14, 16783855)
      , (3692274439, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692266513, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692266513, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692266513, 5774, 40772, 18, 64.84808, 28.63645, 31.79538, -0.707107, 0, 0, -0.707107);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692266513, 1, 2672033810, 64.84808, 28.63645, 31.79538, -0.707107, 0, 0, -0.707107);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692266513, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692266513, 1, 16)
+     , (3692266513, 3, 67108990)
+     , (3692266513, 95, 8)
+     , (3692266513, 7, 255)
+     , (3692266513, 6, 255)
+     , (3692266513, 133, 4)
+     , (3692266513, 16, 32)
+     , (3692266513, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692266513, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692266513, 12, True)
+     , (3692266513, 11, True)
+     , (3692266513, 14, True)
+     , (3692266513, 41, True)
+     , (3692266513, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692266513, 67109552, 0, 24)
      , (3692266513, 67117028, 24, 8)
      , (3692266513, 67109567, 32, 8)
@@ -4123,7 +5643,7 @@ VALUES (3692266513, 67109552, 0, 24)
      , (3692266513, 67110346, 240, 10)
      , (3692266513, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692266513, 16, 83886232, 83890685)
      , (3692266513, 16, 83886668, 83890275)
      , (3692266513, 16, 83886837, 83890290)
@@ -4154,7 +5674,7 @@ VALUES (3692266513, 16, 83886232, 83890685)
      , (3692266513, 14, 83892346, 83892354)
      , (3692266513, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692266513, 3, 16778361)
      , (3692266513, 7, 16778360)
      , (3692266513, 4, 16778426)
@@ -4173,13 +5693,36 @@ VALUES (3692266513, 3, 16778361)
      , (3692266513, 14, 16783855)
      , (3692266513, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3691939724, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3691939724, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3691939724, 5774, 40516, 53, 162.5737, 115.292, 42.4572, -4.37114E-08, 0, 0, -1);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3691939724, 1, 2655256629, 162.5737, 115.292, 42.4572, -4.37114E-08, 0, 0, -1);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3691939724, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3691939724, 1, 16)
+     , (3691939724, 3, 67108990)
+     , (3691939724, 95, 8)
+     , (3691939724, 7, 255)
+     , (3691939724, 6, 255)
+     , (3691939724, 133, 4)
+     , (3691939724, 16, 32)
+     , (3691939724, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3691939724, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3691939724, 12, True)
+     , (3691939724, 11, True)
+     , (3691939724, 14, True)
+     , (3691939724, 41, True)
+     , (3691939724, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691939724, 67109552, 0, 24)
      , (3691939724, 67117074, 24, 8)
      , (3691939724, 67110063, 32, 8)
@@ -4195,7 +5738,7 @@ VALUES (3691939724, 67109552, 0, 24)
      , (3691939724, 67110346, 240, 10)
      , (3691939724, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691939724, 16, 83886232, 83890685)
      , (3691939724, 16, 83886668, 83890280)
      , (3691939724, 16, 83886837, 83890317)
@@ -4226,7 +5769,7 @@ VALUES (3691939724, 16, 83886232, 83890685)
      , (3691939724, 14, 83892346, 83892354)
      , (3691939724, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3691939724, 3, 16778361)
      , (3691939724, 7, 16778360)
      , (3691939724, 4, 16778426)
@@ -4245,13 +5788,36 @@ VALUES (3691939724, 3, 16778361)
      , (3691939724, 14, 16783855)
      , (3691939724, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3691970390, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3691970390, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3691970390, 5774, 40515, 11, 45.91224, 52.5273, 50.005, -0.9238797, 0, 0, -0.3826829);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3691970390, 1, 2655191051, 45.91224, 52.5273, 50.005, -0.9238797, 0, 0, -0.3826829);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3691970390, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3691970390, 1, 16)
+     , (3691970390, 3, 67108990)
+     , (3691970390, 95, 8)
+     , (3691970390, 7, 255)
+     , (3691970390, 6, 255)
+     , (3691970390, 133, 4)
+     , (3691970390, 16, 32)
+     , (3691970390, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3691970390, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3691970390, 12, True)
+     , (3691970390, 11, True)
+     , (3691970390, 14, True)
+     , (3691970390, 41, True)
+     , (3691970390, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691970390, 67109550, 0, 24)
      , (3691970390, 67117079, 24, 8)
      , (3691970390, 67110063, 32, 8)
@@ -4267,7 +5833,7 @@ VALUES (3691970390, 67109550, 0, 24)
      , (3691970390, 67110346, 240, 10)
      , (3691970390, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691970390, 16, 83886232, 83890685)
      , (3691970390, 16, 83886668, 83890260)
      , (3691970390, 16, 83886837, 83890290)
@@ -4298,7 +5864,7 @@ VALUES (3691970390, 16, 83886232, 83890685)
      , (3691970390, 14, 83892346, 83892354)
      , (3691970390, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3691970390, 3, 16778361)
      , (3691970390, 7, 16778360)
      , (3691970390, 4, 16778426)
@@ -4317,13 +5883,36 @@ VALUES (3691970390, 3, 16778361)
      , (3691970390, 14, 16783855)
      , (3691970390, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692267735, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 104451, 872415381, 150995141, 536871043, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692267735, 9437238, 49605, 4, 100667446, NULL, NULL, 33554433, 536871043, 150995141, 'AAA9AAAAAAA=', NULL, 872415381, 104451, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692267735, 49605, 41568, 60, 177.9893, 83.97722, 20.005, 0.92388, 0, 0, -0.382683);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692267735, 1, 2724200508, 177.9893, 83.97722, 20.005, 0.92388, 0, 0, -0.382683);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692267735, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692267735, 1, 16)
+     , (3692267735, 3, 67108990)
+     , (3692267735, 95, 8)
+     , (3692267735, 7, 255)
+     , (3692267735, 6, 255)
+     , (3692267735, 133, 4)
+     , (3692267735, 16, 32)
+     , (3692267735, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692267735, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692267735, 12, True)
+     , (3692267735, 11, True)
+     , (3692267735, 14, True)
+     , (3692267735, 41, True)
+     , (3692267735, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692267735, 67109556, 0, 24)
      , (3692267735, 67117002, 24, 8)
      , (3692267735, 67110062, 32, 8)
@@ -4339,7 +5928,7 @@ VALUES (3692267735, 67109556, 0, 24)
      , (3692267735, 67110346, 240, 10)
      , (3692267735, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692267735, 16, 83886232, 83890685)
      , (3692267735, 16, 83886668, 83890454)
      , (3692267735, 16, 83886837, 83890534)
@@ -4368,7 +5957,7 @@ VALUES (3692267735, 16, 83886232, 83890685)
      , (3692267735, 14, 83892346, 83892354)
      , (3692267735, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692267735, 3, 16777292)
      , (3692267735, 7, 16777296)
      , (3692267735, 4, 16777291)
@@ -4387,13 +5976,36 @@ VALUES (3692267735, 3, 16777292)
      , (3692267735, 14, 16783855)
      , (3692267735, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692267710, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 104451, 872415381, 150995141, 536871043, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692267710, 9437238, 49605, 4, 100667446, NULL, NULL, 33554433, 536871043, 150995141, 'AAA9AAAAAAA=', NULL, 872415381, 104451, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692267710, 49605, 41567, 52, 156.7601, 87.59596, 20.005, 0.7071068, 0, 0, -0.7071068);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692267710, 1, 2724134964, 156.7601, 87.59596, 20.005, 0.7071068, 0, 0, -0.7071068);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692267710, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692267710, 1, 16)
+     , (3692267710, 3, 67108990)
+     , (3692267710, 95, 8)
+     , (3692267710, 7, 255)
+     , (3692267710, 6, 255)
+     , (3692267710, 133, 4)
+     , (3692267710, 16, 32)
+     , (3692267710, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692267710, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692267710, 12, True)
+     , (3692267710, 11, True)
+     , (3692267710, 14, True)
+     , (3692267710, 41, True)
+     , (3692267710, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692267710, 67109556, 0, 24)
      , (3692267710, 67117072, 24, 8)
      , (3692267710, 67110062, 32, 8)
@@ -4409,7 +6021,7 @@ VALUES (3692267710, 67109556, 0, 24)
      , (3692267710, 67110346, 240, 10)
      , (3692267710, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692267710, 16, 83886232, 83890359)
      , (3692267710, 16, 83886668, 83890439)
      , (3692267710, 16, 83886837, 83890543)
@@ -4438,7 +6050,7 @@ VALUES (3692267710, 16, 83886232, 83890359)
      , (3692267710, 14, 83892346, 83892354)
      , (3692267710, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692267710, 3, 16777292)
      , (3692267710, 7, 16777296)
      , (3692267710, 4, 16777291)
@@ -4457,13 +6069,36 @@ VALUES (3692267710, 3, 16777292)
      , (3692267710, 14, 16783855)
      , (3692267710, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692268646, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 104451, 872415381, 150995141, 536871043, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692268646, 9437238, 49605, 4, 100667446, NULL, NULL, 33554433, 536871043, 150995141, 'AAA9AAAAAAA=', NULL, 872415381, 104451, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692268646, 49605, 41566, 46, 129.3064, 130.2705, 20.005, 0.92388, 0, 0, -0.382683);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692268646, 1, 2724069422, 129.3064, 130.2705, 20.005, 0.92388, 0, 0, -0.382683);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692268646, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692268646, 1, 16)
+     , (3692268646, 3, 67108990)
+     , (3692268646, 95, 8)
+     , (3692268646, 7, 255)
+     , (3692268646, 6, 255)
+     , (3692268646, 133, 4)
+     , (3692268646, 16, 32)
+     , (3692268646, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692268646, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692268646, 12, True)
+     , (3692268646, 11, True)
+     , (3692268646, 14, True)
+     , (3692268646, 41, True)
+     , (3692268646, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692268646, 67109555, 0, 24)
      , (3692268646, 67116994, 24, 8)
      , (3692268646, 67110063, 32, 8)
@@ -4479,7 +6114,7 @@ VALUES (3692268646, 67109555, 0, 24)
      , (3692268646, 67110346, 240, 10)
      , (3692268646, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692268646, 16, 83886232, 83890685)
      , (3692268646, 16, 83886668, 83890482)
      , (3692268646, 16, 83886837, 83890532)
@@ -4508,7 +6143,7 @@ VALUES (3692268646, 16, 83886232, 83890685)
      , (3692268646, 14, 83892346, 83892354)
      , (3692268646, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692268646, 3, 16777292)
      , (3692268646, 7, 16777296)
      , (3692268646, 4, 16777291)
@@ -4527,13 +6162,36 @@ VALUES (3692268646, 3, 16777292)
      , (3692268646, 14, 16783855)
      , (3692268646, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3690181909, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3690181909, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3690181909, 5774, 34669, 35, 103.1387, 57.89153, 18.005, -0.707107, 0, 0, -0.707107);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3690181909, 1, 2272067619, 103.1387, 57.89153, 18.005, -0.707107, 0, 0, -0.707107);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3690181909, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3690181909, 1, 16)
+     , (3690181909, 3, 67108990)
+     , (3690181909, 95, 8)
+     , (3690181909, 7, 255)
+     , (3690181909, 6, 255)
+     , (3690181909, 133, 4)
+     , (3690181909, 16, 32)
+     , (3690181909, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3690181909, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3690181909, 12, True)
+     , (3690181909, 11, True)
+     , (3690181909, 14, True)
+     , (3690181909, 41, True)
+     , (3690181909, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3690181909, 67109553, 0, 24)
      , (3690181909, 67117028, 24, 8)
      , (3690181909, 67110063, 32, 8)
@@ -4549,7 +6207,7 @@ VALUES (3690181909, 67109553, 0, 24)
      , (3690181909, 67110346, 240, 10)
      , (3690181909, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3690181909, 16, 83886232, 83890685)
      , (3690181909, 16, 83886668, 83890284)
      , (3690181909, 16, 83886837, 83890298)
@@ -4580,7 +6238,7 @@ VALUES (3690181909, 16, 83886232, 83890685)
      , (3690181909, 14, 83892346, 83892354)
      , (3690181909, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3690181909, 3, 16778361)
      , (3690181909, 7, 16778360)
      , (3690181909, 4, 16778426)
@@ -4599,13 +6257,36 @@ VALUES (3690181909, 3, 16778361)
      , (3690181909, 14, 16783855)
      , (3690181909, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692270251, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692270251, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692270251, 5774, 34414, 6, 13.40969, 136.0216, 13.57508, 1, 0, 0, 0);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692270251, 1, 2255355910, 13.40969, 136.0216, 13.57508, 1, 0, 0, 0);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692270251, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692270251, 1, 16)
+     , (3692270251, 3, 67108990)
+     , (3692270251, 95, 8)
+     , (3692270251, 7, 255)
+     , (3692270251, 6, 255)
+     , (3692270251, 133, 4)
+     , (3692270251, 16, 32)
+     , (3692270251, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692270251, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692270251, 12, True)
+     , (3692270251, 11, True)
+     , (3692270251, 14, True)
+     , (3692270251, 41, True)
+     , (3692270251, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692270251, 67109551, 0, 24)
      , (3692270251, 67117020, 24, 8)
      , (3692270251, 67110062, 32, 8)
@@ -4621,7 +6302,7 @@ VALUES (3692270251, 67109551, 0, 24)
      , (3692270251, 67110346, 240, 10)
      , (3692270251, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692270251, 16, 83886232, 83890685)
      , (3692270251, 16, 83886668, 83890284)
      , (3692270251, 16, 83886837, 83890286)
@@ -4652,7 +6333,7 @@ VALUES (3692270251, 16, 83886232, 83890685)
      , (3692270251, 14, 83892346, 83892354)
      , (3692270251, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692270251, 3, 16778361)
      , (3692270251, 7, 16778360)
      , (3692270251, 4, 16778426)
@@ -4671,13 +6352,36 @@ VALUES (3692270251, 3, 16778361)
      , (3692270251, 14, 16783855)
      , (3692270251, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692022984, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692022984, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692022984, 5774, 34156, 15, 41.18945, 166.559, 16.86991, 0.9108679, 0, 0, -0.412698);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692022984, 1, 2238447631, 41.18945, 166.559, 16.86991, 0.9108679, 0, 0, -0.412698);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692022984, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692022984, 1, 16)
+     , (3692022984, 3, 67108990)
+     , (3692022984, 95, 8)
+     , (3692022984, 7, 255)
+     , (3692022984, 6, 255)
+     , (3692022984, 133, 4)
+     , (3692022984, 16, 32)
+     , (3692022984, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692022984, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692022984, 12, True)
+     , (3692022984, 11, True)
+     , (3692022984, 14, True)
+     , (3692022984, 41, True)
+     , (3692022984, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692022984, 67109556, 0, 24)
      , (3692022984, 67117079, 24, 8)
      , (3692022984, 67109567, 32, 8)
@@ -4693,7 +6397,7 @@ VALUES (3692022984, 67109556, 0, 24)
      , (3692022984, 67110346, 240, 10)
      , (3692022984, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692022984, 16, 83886232, 83890685)
      , (3692022984, 16, 83886668, 83890278)
      , (3692022984, 16, 83886837, 83890303)
@@ -4724,7 +6428,7 @@ VALUES (3692022984, 16, 83886232, 83890685)
      , (3692022984, 14, 83892346, 83892354)
      , (3692022984, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692022984, 3, 16778361)
      , (3692022984, 7, 16778360)
      , (3692022984, 4, 16778426)
@@ -4743,13 +6447,36 @@ VALUES (3692022984, 3, 16778361)
      , (3692022984, 14, 16783855)
      , (3692022984, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692269899, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692269899, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692269899, 5774, 34412, 9, 29.1151, 13.64595, 9.578741, 1, 0, 0, 0);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692269899, 1, 2255224841, 29.1151, 13.64595, 9.578741, 1, 0, 0, 0);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692269899, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692269899, 1, 16)
+     , (3692269899, 3, 67108990)
+     , (3692269899, 95, 8)
+     , (3692269899, 7, 255)
+     , (3692269899, 6, 255)
+     , (3692269899, 133, 4)
+     , (3692269899, 16, 32)
+     , (3692269899, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692269899, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692269899, 12, True)
+     , (3692269899, 11, True)
+     , (3692269899, 14, True)
+     , (3692269899, 41, True)
+     , (3692269899, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692269899, 67109554, 0, 24)
      , (3692269899, 67117017, 24, 8)
      , (3692269899, 67109567, 32, 8)
@@ -4765,7 +6492,7 @@ VALUES (3692269899, 67109554, 0, 24)
      , (3692269899, 67110346, 240, 10)
      , (3692269899, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692269899, 16, 83886232, 83890685)
      , (3692269899, 16, 83886668, 83890241)
      , (3692269899, 16, 83886837, 83890299)
@@ -4796,7 +6523,7 @@ VALUES (3692269899, 16, 83886232, 83890685)
      , (3692269899, 14, 83892346, 83892354)
      , (3692269899, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692269899, 3, 16778361)
      , (3692269899, 7, 16778360)
      , (3692269899, 4, 16778426)
@@ -4815,13 +6542,36 @@ VALUES (3692269899, 3, 16778361)
      , (3692269899, 14, 16783855)
      , (3692269899, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692272692, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692272692, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692272692, 5774, 34155, 56, 147.9843, 172.093, 18.005, 0.910868, 0, 0, -0.412698);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692272692, 1, 2238382136, 147.9843, 172.093, 18.005, 0.910868, 0, 0, -0.412698);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692272692, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692272692, 1, 16)
+     , (3692272692, 3, 67108990)
+     , (3692272692, 95, 8)
+     , (3692272692, 7, 255)
+     , (3692272692, 6, 255)
+     , (3692272692, 133, 4)
+     , (3692272692, 16, 32)
+     , (3692272692, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692272692, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692272692, 12, True)
+     , (3692272692, 11, True)
+     , (3692272692, 14, True)
+     , (3692272692, 41, True)
+     , (3692272692, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692272692, 67109556, 0, 24)
      , (3692272692, 67116997, 24, 8)
      , (3692272692, 67109567, 32, 8)
@@ -4837,7 +6587,7 @@ VALUES (3692272692, 67109556, 0, 24)
      , (3692272692, 67110346, 240, 10)
      , (3692272692, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692272692, 16, 83886232, 83890685)
      , (3692272692, 16, 83886668, 83890276)
      , (3692272692, 16, 83886837, 83890295)
@@ -4868,7 +6618,7 @@ VALUES (3692272692, 16, 83886232, 83890685)
      , (3692272692, 14, 83892346, 83892354)
      , (3692272692, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692272692, 3, 16778361)
      , (3692272692, 7, 16778360)
      , (3692272692, 4, 16778426)
@@ -4887,13 +6637,36 @@ VALUES (3692272692, 3, 16778361)
      , (3692272692, 14, 16783855)
      , (3692272692, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692404011, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692404011, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692404011, 5774, 34184, 45, 126.846, 101.4339, 89.09935, 1, 0, 0, 0);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692404011, 1, 2240282669, 126.846, 101.4339, 89.09935, 1, 0, 0, 0);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692404011, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692404011, 1, 16)
+     , (3692404011, 3, 67108990)
+     , (3692404011, 95, 8)
+     , (3692404011, 7, 255)
+     , (3692404011, 6, 255)
+     , (3692404011, 133, 4)
+     , (3692404011, 16, 32)
+     , (3692404011, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692404011, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692404011, 12, True)
+     , (3692404011, 11, True)
+     , (3692404011, 14, True)
+     , (3692404011, 41, True)
+     , (3692404011, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692404011, 67109551, 0, 24)
      , (3692404011, 67116991, 24, 8)
      , (3692404011, 67110063, 32, 8)
@@ -4909,7 +6682,7 @@ VALUES (3692404011, 67109551, 0, 24)
      , (3692404011, 67110346, 240, 10)
      , (3692404011, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692404011, 16, 83886232, 83890685)
      , (3692404011, 16, 83886668, 83890261)
      , (3692404011, 16, 83886837, 83890294)
@@ -4940,7 +6713,7 @@ VALUES (3692404011, 16, 83886232, 83890685)
      , (3692404011, 14, 83892346, 83892354)
      , (3692404011, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692404011, 3, 16778361)
      , (3692404011, 7, 16778360)
      , (3692404011, 4, 16778426)
@@ -4959,13 +6732,36 @@ VALUES (3692404011, 3, 16778361)
      , (3692404011, 14, 16783855)
      , (3692404011, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692404109, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692404109, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692404109, 5774, 34185, 41, 142.242, 21.46368, 86.005, -0.382683, 0, 0, -0.92388);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692404109, 1, 2240348201, 142.242, 21.46368, 86.005, -0.382683, 0, 0, -0.92388);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692404109, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692404109, 1, 16)
+     , (3692404109, 3, 67108990)
+     , (3692404109, 95, 8)
+     , (3692404109, 7, 255)
+     , (3692404109, 6, 255)
+     , (3692404109, 133, 4)
+     , (3692404109, 16, 32)
+     , (3692404109, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692404109, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692404109, 12, True)
+     , (3692404109, 11, True)
+     , (3692404109, 14, True)
+     , (3692404109, 41, True)
+     , (3692404109, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692404109, 67109554, 0, 24)
      , (3692404109, 67117078, 24, 8)
      , (3692404109, 67109567, 32, 8)
@@ -4981,7 +6777,7 @@ VALUES (3692404109, 67109554, 0, 24)
      , (3692404109, 67110346, 240, 10)
      , (3692404109, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692404109, 16, 83886232, 83890685)
      , (3692404109, 16, 83886668, 83890284)
      , (3692404109, 16, 83886837, 83890290)
@@ -5012,7 +6808,7 @@ VALUES (3692404109, 16, 83886232, 83890685)
      , (3692404109, 14, 83892346, 83892354)
      , (3692404109, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692404109, 3, 16778361)
      , (3692404109, 7, 16778360)
      , (3692404109, 4, 16778426)
@@ -5031,13 +6827,36 @@ VALUES (3692404109, 3, 16778361)
      , (3692404109, 14, 16783855)
      , (3692404109, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692404022, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692404022, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692404022, 5774, 33928, 59, 189.2246, 69.52976, 86.005, 0.9238797, 0, 0, -0.3826829);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692404022, 1, 2223505467, 189.2246, 69.52976, 86.005, 0.9238797, 0, 0, -0.3826829);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692404022, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692404022, 1, 16)
+     , (3692404022, 3, 67108990)
+     , (3692404022, 95, 8)
+     , (3692404022, 7, 255)
+     , (3692404022, 6, 255)
+     , (3692404022, 133, 4)
+     , (3692404022, 16, 32)
+     , (3692404022, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692404022, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692404022, 12, True)
+     , (3692404022, 11, True)
+     , (3692404022, 14, True)
+     , (3692404022, 41, True)
+     , (3692404022, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692404022, 67109553, 0, 24)
      , (3692404022, 67117022, 24, 8)
      , (3692404022, 67110063, 32, 8)
@@ -5053,7 +6872,7 @@ VALUES (3692404022, 67109553, 0, 24)
      , (3692404022, 67110346, 240, 10)
      , (3692404022, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692404022, 16, 83886232, 83890685)
      , (3692404022, 16, 83886668, 83890259)
      , (3692404022, 16, 83886837, 83890294)
@@ -5084,7 +6903,7 @@ VALUES (3692404022, 16, 83886232, 83890685)
      , (3692404022, 14, 83892346, 83892354)
      , (3692404022, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692404022, 3, 16778361)
      , (3692404022, 7, 16778360)
      , (3692404022, 4, 16778426)
@@ -5103,13 +6922,36 @@ VALUES (3692404022, 3, 16778361)
      , (3692404022, 14, 16783855)
      , (3692404022, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3684813649, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3684813649, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3684813649, 5774, 32912, 19, 61.16045, 60.10392, 124.005, 0.3826829, 0, 0, -0.9238797);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3684813649, 1, 2156920851, 61.16045, 60.10392, 124.005, 0.3826829, 0, 0, -0.9238797);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3684813649, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3684813649, 1, 16)
+     , (3684813649, 3, 67108990)
+     , (3684813649, 95, 8)
+     , (3684813649, 7, 255)
+     , (3684813649, 6, 255)
+     , (3684813649, 133, 4)
+     , (3684813649, 16, 32)
+     , (3684813649, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3684813649, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3684813649, 12, True)
+     , (3684813649, 11, True)
+     , (3684813649, 14, True)
+     , (3684813649, 41, True)
+     , (3684813649, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3684813649, 67109552, 0, 24)
      , (3684813649, 67117068, 24, 8)
      , (3684813649, 67110062, 32, 8)
@@ -5125,7 +6967,7 @@ VALUES (3684813649, 67109552, 0, 24)
      , (3684813649, 67110346, 240, 10)
      , (3684813649, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684813649, 16, 83886232, 83890685)
      , (3684813649, 16, 83886668, 83890261)
      , (3684813649, 16, 83886837, 83890285)
@@ -5156,7 +6998,7 @@ VALUES (3684813649, 16, 83886232, 83890685)
      , (3684813649, 14, 83892346, 83892354)
      , (3684813649, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3684813649, 3, 16778361)
      , (3684813649, 7, 16778360)
      , (3684813649, 4, 16778426)
@@ -5175,13 +7017,36 @@ VALUES (3684813649, 3, 16778361)
      , (3684813649, 14, 16783855)
      , (3684813649, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692406771, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692406771, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692406771, 5774, 32913, 36, 114.1109, 88.19273, 81.30621, 1, 0, 0, 0);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692406771, 1, 2156986404, 114.1109, 88.19273, 81.30621, 1, 0, 0, 0);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692406771, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692406771, 1, 16)
+     , (3692406771, 3, 67108990)
+     , (3692406771, 95, 8)
+     , (3692406771, 7, 255)
+     , (3692406771, 6, 255)
+     , (3692406771, 133, 4)
+     , (3692406771, 16, 32)
+     , (3692406771, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692406771, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692406771, 12, True)
+     , (3692406771, 11, True)
+     , (3692406771, 14, True)
+     , (3692406771, 41, True)
+     , (3692406771, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692406771, 67109554, 0, 24)
      , (3692406771, 67117071, 24, 8)
      , (3692406771, 67110063, 32, 8)
@@ -5197,7 +7062,7 @@ VALUES (3692406771, 67109554, 0, 24)
      , (3692406771, 67110346, 240, 10)
      , (3692406771, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692406771, 16, 83886232, 83890685)
      , (3692406771, 16, 83886668, 83890260)
      , (3692406771, 16, 83886837, 83890285)
@@ -5228,7 +7093,7 @@ VALUES (3692406771, 16, 83886232, 83890685)
      , (3692406771, 14, 83892346, 83892354)
      , (3692406771, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692406771, 3, 16778361)
      , (3692406771, 7, 16778360)
      , (3692406771, 4, 16778426)
@@ -5247,13 +7112,36 @@ VALUES (3692406771, 3, 16778361)
      , (3692406771, 14, 16783855)
      , (3692406771, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692413283, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692413283, 9437238, 5775, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692413283, 5775, 37707, 41, 130.8265, 9.250508, 15.10279, 0.926734, 0, 0, -0.375719);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692413283, 1, 2471165993, 130.8265, 9.250508, 15.10279, 0.926734, 0, 0, -0.375719);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692413283, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692413283, 1, 16)
+     , (3692413283, 3, 67108990)
+     , (3692413283, 95, 8)
+     , (3692413283, 7, 255)
+     , (3692413283, 6, 255)
+     , (3692413283, 133, 4)
+     , (3692413283, 16, 32)
+     , (3692413283, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692413283, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692413283, 12, True)
+     , (3692413283, 11, True)
+     , (3692413283, 14, True)
+     , (3692413283, 41, True)
+     , (3692413283, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692413283, 67109554, 0, 24)
      , (3692413283, 67117028, 24, 8)
      , (3692413283, 67110063, 32, 8)
@@ -5269,7 +7157,7 @@ VALUES (3692413283, 67109554, 0, 24)
      , (3692413283, 67110346, 240, 10)
      , (3692413283, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692413283, 16, 83886232, 83890685)
      , (3692413283, 16, 83886668, 83890457)
      , (3692413283, 16, 83886837, 83890543)
@@ -5298,7 +7186,7 @@ VALUES (3692413283, 16, 83886232, 83890685)
      , (3692413283, 14, 83892346, 83892354)
      , (3692413283, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692413283, 3, 16777292)
      , (3692413283, 7, 16777296)
      , (3692413283, 4, 16777291)
@@ -5317,13 +7205,36 @@ VALUES (3692413283, 3, 16777292)
      , (3692413283, 14, 16783855)
      , (3692413283, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692413351, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692413351, 9437238, 5775, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692413351, 5775, 37707, 591, 116.6047, 23.86616, -13.595, -0.707107, 0, 0, -0.707107);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692413351, 1, 2471166543, 116.6047, 23.86616, -13.595, -0.707107, 0, 0, -0.707107);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692413351, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692413351, 1, 16)
+     , (3692413351, 3, 67108990)
+     , (3692413351, 95, 8)
+     , (3692413351, 7, 255)
+     , (3692413351, 6, 255)
+     , (3692413351, 133, 4)
+     , (3692413351, 16, 32)
+     , (3692413351, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692413351, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692413351, 12, True)
+     , (3692413351, 11, True)
+     , (3692413351, 14, True)
+     , (3692413351, 41, True)
+     , (3692413351, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692413351, 67109551, 0, 24)
      , (3692413351, 67117073, 24, 8)
      , (3692413351, 67110063, 32, 8)
@@ -5339,7 +7250,7 @@ VALUES (3692413351, 67109551, 0, 24)
      , (3692413351, 67110346, 240, 10)
      , (3692413351, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692413351, 16, 83886232, 83890685)
      , (3692413351, 16, 83886668, 83890479)
      , (3692413351, 16, 83886837, 83890543)
@@ -5368,7 +7279,7 @@ VALUES (3692413351, 16, 83886232, 83890685)
      , (3692413351, 14, 83892346, 83892354)
      , (3692413351, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692413351, 3, 16777292)
      , (3692413351, 7, 16777296)
      , (3692413351, 4, 16777291)
@@ -5387,13 +7298,36 @@ VALUES (3692413351, 3, 16777292)
      , (3692413351, 14, 16783855)
      , (3692413351, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692421397, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692421397, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692421397, 5774, 38690, 50, 164.1635, 29.18993, 102.005, 0.382683, 0, 0, -0.92388);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692421397, 1, 2535587890, 164.1635, 29.18993, 102.005, 0.382683, 0, 0, -0.92388);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692421397, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692421397, 1, 16)
+     , (3692421397, 3, 67108990)
+     , (3692421397, 95, 8)
+     , (3692421397, 7, 255)
+     , (3692421397, 6, 255)
+     , (3692421397, 133, 4)
+     , (3692421397, 16, 32)
+     , (3692421397, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692421397, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692421397, 12, True)
+     , (3692421397, 11, True)
+     , (3692421397, 14, True)
+     , (3692421397, 41, True)
+     , (3692421397, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692421397, 67109551, 0, 24)
      , (3692421397, 67116997, 24, 8)
      , (3692421397, 67110062, 32, 8)
@@ -5409,7 +7343,7 @@ VALUES (3692421397, 67109551, 0, 24)
      , (3692421397, 67110346, 240, 10)
      , (3692421397, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692421397, 16, 83886232, 83890685)
      , (3692421397, 16, 83886668, 83890281)
      , (3692421397, 16, 83886837, 83890294)
@@ -5440,7 +7374,7 @@ VALUES (3692421397, 16, 83886232, 83890685)
      , (3692421397, 14, 83892346, 83892354)
      , (3692421397, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692421397, 3, 16778361)
      , (3692421397, 7, 16778360)
      , (3692421397, 4, 16778426)
@@ -5459,13 +7393,36 @@ VALUES (3692421397, 3, 16778361)
      , (3692421397, 14, 16783855)
      , (3692421397, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692421382, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692421382, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692421382, 5774, 38690, 22, 49.75766, 142.467, 102.005, -0.92388, 0, 0, -0.382683);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692421382, 1, 2535587862, 49.75766, 142.467, 102.005, -0.92388, 0, 0, -0.382683);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692421382, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692421382, 1, 16)
+     , (3692421382, 3, 67108990)
+     , (3692421382, 95, 8)
+     , (3692421382, 7, 255)
+     , (3692421382, 6, 255)
+     , (3692421382, 133, 4)
+     , (3692421382, 16, 32)
+     , (3692421382, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692421382, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692421382, 12, True)
+     , (3692421382, 11, True)
+     , (3692421382, 14, True)
+     , (3692421382, 41, True)
+     , (3692421382, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692421382, 67109555, 0, 24)
      , (3692421382, 67117001, 24, 8)
      , (3692421382, 67110062, 32, 8)
@@ -5481,7 +7438,7 @@ VALUES (3692421382, 67109555, 0, 24)
      , (3692421382, 67110346, 240, 10)
      , (3692421382, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692421382, 16, 83886232, 83890685)
      , (3692421382, 16, 83886668, 83890284)
      , (3692421382, 16, 83886837, 83890290)
@@ -5512,7 +7469,7 @@ VALUES (3692421382, 16, 83886232, 83890685)
      , (3692421382, 14, 83892346, 83892354)
      , (3692421382, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692421382, 3, 16778361)
      , (3692421382, 7, 16778360)
      , (3692421382, 4, 16778426)
@@ -5531,13 +7488,36 @@ VALUES (3692421382, 3, 16778361)
      , (3692421382, 14, 16783855)
      , (3692421382, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692455789, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692455789, 9437238, 5775, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692455789, 5775, 38779, 12, 30.34627, 77.87778, 0.004999995, 0.92388, 0, 0, -0.382683);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692455789, 1, 2541420556, 30.34627, 77.87778, 0.004999995, 0.92388, 0, 0, -0.382683);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692455789, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692455789, 1, 16)
+     , (3692455789, 3, 67108990)
+     , (3692455789, 95, 8)
+     , (3692455789, 7, 255)
+     , (3692455789, 6, 255)
+     , (3692455789, 133, 4)
+     , (3692455789, 16, 32)
+     , (3692455789, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692455789, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692455789, 12, True)
+     , (3692455789, 11, True)
+     , (3692455789, 14, True)
+     , (3692455789, 41, True)
+     , (3692455789, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692455789, 67109555, 0, 24)
      , (3692455789, 67117016, 24, 8)
      , (3692455789, 67110063, 32, 8)
@@ -5553,7 +7533,7 @@ VALUES (3692455789, 67109555, 0, 24)
      , (3692455789, 67110346, 240, 10)
      , (3692455789, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692455789, 16, 83886232, 83890685)
      , (3692455789, 16, 83886668, 83890481)
      , (3692455789, 16, 83886837, 83890559)
@@ -5582,7 +7562,7 @@ VALUES (3692455789, 16, 83886232, 83890685)
      , (3692455789, 14, 83892346, 83892354)
      , (3692455789, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692455789, 3, 16777292)
      , (3692455789, 7, 16777296)
      , (3692455789, 4, 16777291)
@@ -5601,13 +7581,36 @@ VALUES (3692455789, 3, 16777292)
      , (3692455789, 14, 16783855)
      , (3692455789, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692455747, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692455747, 9437238, 5775, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692455747, 5775, 38779, 55, 163.7366, 161.0938, 0.004999995, 1, 0, 0, 0);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692455747, 1, 2541420599, 163.7366, 161.0938, 0.004999995, 1, 0, 0, 0);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692455747, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692455747, 1, 16)
+     , (3692455747, 3, 67108990)
+     , (3692455747, 95, 8)
+     , (3692455747, 7, 255)
+     , (3692455747, 6, 255)
+     , (3692455747, 133, 4)
+     , (3692455747, 16, 32)
+     , (3692455747, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692455747, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692455747, 12, True)
+     , (3692455747, 11, True)
+     , (3692455747, 14, True)
+     , (3692455747, 41, True)
+     , (3692455747, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692455747, 67109555, 0, 24)
      , (3692455747, 67117018, 24, 8)
      , (3692455747, 67109567, 32, 8)
@@ -5623,7 +7626,7 @@ VALUES (3692455747, 67109555, 0, 24)
      , (3692455747, 67110346, 240, 10)
      , (3692455747, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692455747, 16, 83886232, 83890685)
      , (3692455747, 16, 83886668, 83890479)
      , (3692455747, 16, 83886837, 83890559)
@@ -5652,7 +7655,7 @@ VALUES (3692455747, 16, 83886232, 83890685)
      , (3692455747, 14, 83892346, 83892354)
      , (3692455747, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692455747, 3, 16777292)
      , (3692455747, 7, 16777296)
      , (3692455747, 4, 16777291)
@@ -5671,13 +7674,36 @@ VALUES (3692455747, 3, 16777292)
      , (3692455747, 14, 16783855)
      , (3692455747, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692455805, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692455805, 9437238, 5775, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692455805, 5775, 39035, 14, 41.84249, 128.4453, 0.004999995, 0.3826829, 0, 0, -0.9238797);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692455805, 1, 2558197774, 41.84249, 128.4453, 0.004999995, 0.3826829, 0, 0, -0.9238797);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692455805, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692455805, 1, 16)
+     , (3692455805, 3, 67108990)
+     , (3692455805, 95, 8)
+     , (3692455805, 7, 255)
+     , (3692455805, 6, 255)
+     , (3692455805, 133, 4)
+     , (3692455805, 16, 32)
+     , (3692455805, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692455805, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692455805, 12, True)
+     , (3692455805, 11, True)
+     , (3692455805, 14, True)
+     , (3692455805, 41, True)
+     , (3692455805, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692455805, 67109556, 0, 24)
      , (3692455805, 67117071, 24, 8)
      , (3692455805, 67109567, 32, 8)
@@ -5693,7 +7719,7 @@ VALUES (3692455805, 67109556, 0, 24)
      , (3692455805, 67110346, 240, 10)
      , (3692455805, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692455805, 16, 83886232, 83890685)
      , (3692455805, 16, 83886668, 83890480)
      , (3692455805, 16, 83886837, 83890560)
@@ -5722,7 +7748,7 @@ VALUES (3692455805, 16, 83886232, 83890685)
      , (3692455805, 14, 83892346, 83892354)
      , (3692455805, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692455805, 3, 16777292)
      , (3692455805, 7, 16777296)
      , (3692455805, 4, 16777291)
@@ -5741,13 +7767,36 @@ VALUES (3692455805, 3, 16777292)
      , (3692455805, 14, 16783855)
      , (3692455805, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3690710009, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3690710009, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3690710009, 5774, 4404, 45, 121.871, 112.476, 42.005, 0.653408, 0, 0, -0.757006);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3690710009, 1, 288620589, 121.871, 112.476, 42.005, 0.653408, 0, 0, -0.757006);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3690710009, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3690710009, 1, 16)
+     , (3690710009, 3, 67108990)
+     , (3690710009, 95, 8)
+     , (3690710009, 7, 255)
+     , (3690710009, 6, 255)
+     , (3690710009, 133, 4)
+     , (3690710009, 16, 32)
+     , (3690710009, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3690710009, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3690710009, 12, True)
+     , (3690710009, 11, True)
+     , (3690710009, 14, True)
+     , (3690710009, 41, True)
+     , (3690710009, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3690710009, 67109552, 0, 24)
      , (3690710009, 67116992, 24, 8)
      , (3690710009, 67110063, 32, 8)
@@ -5763,7 +7812,7 @@ VALUES (3690710009, 67109552, 0, 24)
      , (3690710009, 67110346, 240, 10)
      , (3690710009, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3690710009, 16, 83886232, 83890685)
      , (3690710009, 16, 83886668, 83890276)
      , (3690710009, 16, 83886837, 83890298)
@@ -5794,7 +7843,7 @@ VALUES (3690710009, 16, 83886232, 83890685)
      , (3690710009, 14, 83892346, 83892354)
      , (3690710009, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3690710009, 3, 16778361)
      , (3690710009, 7, 16778360)
      , (3690710009, 4, 16778426)
@@ -5813,13 +7862,36 @@ VALUES (3690710009, 3, 16778361)
      , (3690710009, 14, 16783855)
      , (3690710009, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3692709119, 'Academy Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3692709119, 9437238, 13242, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3692709119, 13242, 34307, 811, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3692709119, 1, 2248344363, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3692709119, 1, 'Academy Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3692709119, 1, 16)
+     , (3692709119, 3, 67108990)
+     , (3692709119, 95, 8)
+     , (3692709119, 7, 255)
+     , (3692709119, 6, 255)
+     , (3692709119, 133, 4)
+     , (3692709119, 16, 32)
+     , (3692709119, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3692709119, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3692709119, 12, True)
+     , (3692709119, 11, True)
+     , (3692709119, 14, True)
+     , (3692709119, 41, True)
+     , (3692709119, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692709119, 67109559, 0, 24)
      , (3692709119, 67116980, 24, 8)
      , (3692709119, 67109564, 32, 8)
@@ -5832,7 +7904,7 @@ VALUES (3692709119, 67109559, 0, 24)
      , (3692709119, 67113255, 116, 12)
      , (3692709119, 67113255, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692709119, 16, 83886232, 83890359)
      , (3692709119, 16, 83886668, 83890492)
      , (3692709119, 16, 83886837, 83890550)
@@ -5860,7 +7932,7 @@ VALUES (3692709119, 16, 83886232, 83890359)
      , (3692709119, 13, 83892347, 83892347)
      , (3692709119, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692709119, 12, 16777304)
      , (3692709119, 15, 16777307)
      , (3692709119, 16, 16795638)
@@ -5879,13 +7951,36 @@ VALUES (3692709119, 12, 16777304)
      , (3692709119, 13, 16783871)
      , (3692709119, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3696804565, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3696804565, 9437238, 5776, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3696804565, 5776, 58418, 45, 130.1044, 96.10937, 28.005, -0.7071068, 0, 0, -0.7071068);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3696804565, 1, 3828482093, 130.1044, 96.10937, 28.005, -0.7071068, 0, 0, -0.7071068);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3696804565, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3696804565, 1, 16)
+     , (3696804565, 3, 67108990)
+     , (3696804565, 95, 8)
+     , (3696804565, 7, 255)
+     , (3696804565, 6, 255)
+     , (3696804565, 133, 4)
+     , (3696804565, 16, 32)
+     , (3696804565, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3696804565, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3696804565, 12, True)
+     , (3696804565, 11, True)
+     , (3696804565, 14, True)
+     , (3696804565, 41, True)
+     , (3696804565, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3696804565, 67110053, 0, 24)
      , (3696804565, 67116997, 24, 8)
      , (3696804565, 67110063, 32, 8)
@@ -5899,7 +7994,7 @@ VALUES (3696804565, 67110053, 0, 24)
      , (3696804565, 67110350, 116, 12)
      , (3696804565, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3696804565, 16, 83886232, 83890685)
      , (3696804565, 16, 83886668, 83890237)
      , (3696804565, 16, 83886837, 83890304)
@@ -5929,7 +8024,7 @@ VALUES (3696804565, 16, 83886232, 83890685)
      , (3696804565, 13, 83892347, 83892347)
      , (3696804565, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3696804565, 16, 16795641)
      , (3696804565, 15, 16777335)
      , (3696804565, 12, 16777334)
@@ -5948,13 +8043,36 @@ VALUES (3696804565, 16, 16795641)
      , (3696804565, 13, 16783871)
      , (3696804565, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3700030911, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3700030911, 9437238, 5775, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3700030911, 5775, 32355, 14, 44.03903, 124.4394, 12.005, 0.382683, 0, 0, -0.92388);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3700030911, 1, 2120417294, 44.03903, 124.4394, 12.005, 0.382683, 0, 0, -0.92388);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3700030911, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3700030911, 1, 16)
+     , (3700030911, 3, 67108990)
+     , (3700030911, 95, 8)
+     , (3700030911, 7, 255)
+     , (3700030911, 6, 255)
+     , (3700030911, 133, 4)
+     , (3700030911, 16, 32)
+     , (3700030911, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3700030911, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3700030911, 12, True)
+     , (3700030911, 11, True)
+     , (3700030911, 14, True)
+     , (3700030911, 41, True)
+     , (3700030911, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3700030911, 67109551, 0, 24)
      , (3700030911, 67117068, 24, 8)
      , (3700030911, 67110062, 32, 8)
@@ -5970,7 +8088,7 @@ VALUES (3700030911, 67109551, 0, 24)
      , (3700030911, 67110346, 240, 10)
      , (3700030911, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3700030911, 16, 83886232, 83890685)
      , (3700030911, 16, 83886668, 83890487)
      , (3700030911, 16, 83886837, 83890541)
@@ -5999,7 +8117,7 @@ VALUES (3700030911, 16, 83886232, 83890685)
      , (3700030911, 14, 83892346, 83892354)
      , (3700030911, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3700030911, 3, 16777292)
      , (3700030911, 7, 16777296)
      , (3700030911, 4, 16777291)
@@ -6018,13 +8136,36 @@ VALUES (3700030911, 3, 16777292)
      , (3700030911, 14, 16783855)
      , (3700030911, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3706894073, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3706894073, 9437238, 5773, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3706894073, 5773, 43700, 27, 93.0882, 64.62055, 54.24765, 0.430874, 0, 0, -0.9024121);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3706894073, 1, 2863923227, 93.0882, 64.62055, 54.24765, 0.430874, 0, 0, -0.9024121);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3706894073, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3706894073, 1, 16)
+     , (3706894073, 3, 67108990)
+     , (3706894073, 95, 8)
+     , (3706894073, 7, 255)
+     , (3706894073, 6, 255)
+     , (3706894073, 133, 4)
+     , (3706894073, 16, 32)
+     , (3706894073, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3706894073, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3706894073, 12, True)
+     , (3706894073, 11, True)
+     , (3706894073, 14, True)
+     , (3706894073, 41, True)
+     , (3706894073, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3706894073, 67109558, 0, 24)
      , (3706894073, 67116993, 24, 8)
      , (3706894073, 67110062, 32, 8)
@@ -6038,7 +8179,7 @@ VALUES (3706894073, 67109558, 0, 24)
      , (3706894073, 67110350, 116, 12)
      , (3706894073, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3706894073, 16, 83886232, 83890685)
      , (3706894073, 16, 83886668, 83890481)
      , (3706894073, 16, 83886837, 83890554)
@@ -6062,7 +8203,7 @@ VALUES (3706894073, 16, 83886232, 83890685)
      , (3706894073, 13, 83892347, 83892347)
      , (3706894073, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3706894073, 16, 16795665)
      , (3706894073, 15, 16777335)
      , (3706894073, 12, 16777334)
@@ -6081,13 +8222,36 @@ VALUES (3706894073, 16, 16795665)
      , (3706894073, 13, 16783871)
      , (3706894073, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3708155261, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3708155261, 9437238, 5775, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3708155261, 5775, 38780, 4, 10.76441, 85.77995, 5.153329, 0.382683, 0, 0, -0.92388);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3708155261, 1, 2541486084, 10.76441, 85.77995, 5.153329, 0.382683, 0, 0, -0.92388);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3708155261, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3708155261, 1, 16)
+     , (3708155261, 3, 67108990)
+     , (3708155261, 95, 8)
+     , (3708155261, 7, 255)
+     , (3708155261, 6, 255)
+     , (3708155261, 133, 4)
+     , (3708155261, 16, 32)
+     , (3708155261, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3708155261, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3708155261, 12, True)
+     , (3708155261, 11, True)
+     , (3708155261, 14, True)
+     , (3708155261, 41, True)
+     , (3708155261, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3708155261, 67109552, 0, 24)
      , (3708155261, 67117069, 24, 8)
      , (3708155261, 67110063, 32, 8)
@@ -6103,7 +8267,7 @@ VALUES (3708155261, 67109552, 0, 24)
      , (3708155261, 67110346, 240, 10)
      , (3708155261, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3708155261, 16, 83886232, 83890685)
      , (3708155261, 16, 83886668, 83890511)
      , (3708155261, 16, 83886837, 83890544)
@@ -6132,7 +8296,7 @@ VALUES (3708155261, 16, 83886232, 83890685)
      , (3708155261, 14, 83892346, 83892354)
      , (3708155261, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3708155261, 3, 16777292)
      , (3708155261, 7, 16777296)
      , (3708155261, 4, 16777291)
@@ -6151,13 +8315,36 @@ VALUES (3708155261, 3, 16777292)
      , (3708155261, 14, 16783855)
      , (3708155261, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3708841938, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 104451, 872415381, 150995141, 536871043, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3708841938, 9437238, 49605, 4, 100667446, NULL, NULL, 33554433, 536871043, 150995141, 'AAA9AAAAAAA=', NULL, 872415381, 104451, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3708841938, 49605, 41825, 25, 95.67522, 4.324752, 16.39246, 0.382217, 0, 0, 0.924073);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3708841938, 1, 2741043225, 95.67522, 4.324752, 16.39246, 0.382217, 0, 0, 0.924073);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3708841938, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3708841938, 1, 16)
+     , (3708841938, 3, 67108990)
+     , (3708841938, 95, 8)
+     , (3708841938, 7, 255)
+     , (3708841938, 6, 255)
+     , (3708841938, 133, 4)
+     , (3708841938, 16, 32)
+     , (3708841938, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3708841938, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3708841938, 12, True)
+     , (3708841938, 11, True)
+     , (3708841938, 14, True)
+     , (3708841938, 41, True)
+     , (3708841938, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3708841938, 67109554, 0, 24)
      , (3708841938, 67117001, 24, 8)
      , (3708841938, 67110062, 32, 8)
@@ -6173,7 +8360,7 @@ VALUES (3708841938, 67109554, 0, 24)
      , (3708841938, 67110346, 240, 10)
      , (3708841938, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3708841938, 16, 83886232, 83890685)
      , (3708841938, 16, 83886668, 83890484)
      , (3708841938, 16, 83886837, 83890561)
@@ -6202,7 +8389,7 @@ VALUES (3708841938, 16, 83886232, 83890685)
      , (3708841938, 14, 83892346, 83892354)
      , (3708841938, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3708841938, 3, 16777292)
      , (3708841938, 7, 16777296)
      , (3708841938, 4, 16777291)
@@ -6221,13 +8408,36 @@ VALUES (3708841938, 3, 16777292)
      , (3708841938, 14, 16783855)
      , (3708841938, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3710905883, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3710905883, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3710905883, 5777, 51802, 15, 41.95024, 166.4, 12.005, 1, 0, 0, 0);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3710905883, 1, 3394895887, 41.95024, 166.4, 12.005, 1, 0, 0, 0);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3710905883, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3710905883, 1, 16)
+     , (3710905883, 3, 67108990)
+     , (3710905883, 95, 8)
+     , (3710905883, 7, 255)
+     , (3710905883, 6, 255)
+     , (3710905883, 133, 4)
+     , (3710905883, 16, 32)
+     , (3710905883, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3710905883, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3710905883, 12, True)
+     , (3710905883, 11, True)
+     , (3710905883, 14, True)
+     , (3710905883, 41, True)
+     , (3710905883, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3710905883, 67110053, 0, 24)
      , (3710905883, 67117024, 24, 8)
      , (3710905883, 67109565, 32, 8)
@@ -6241,7 +8451,7 @@ VALUES (3710905883, 67110053, 0, 24)
      , (3710905883, 67110350, 116, 12)
      , (3710905883, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3710905883, 16, 83886232, 83890685)
      , (3710905883, 16, 83886668, 83890487)
      , (3710905883, 16, 83886837, 83890528)
@@ -6269,7 +8479,7 @@ VALUES (3710905883, 16, 83886232, 83890685)
      , (3710905883, 13, 83892347, 83892347)
      , (3710905883, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3710905883, 16, 16795665)
      , (3710905883, 15, 16777335)
      , (3710905883, 12, 16777334)
@@ -6288,13 +8498,36 @@ VALUES (3710905883, 16, 16795665)
      , (3710905883, 13, 16783871)
      , (3710905883, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3710906435, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3710906435, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3710906435, 5777, 51292, 50, 162.9564, 45.7373, 12.005, 0.382683, 0, 0, -0.92388);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3710906435, 1, 3361472562, 162.9564, 45.7373, 12.005, 0.382683, 0, 0, -0.92388);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3710906435, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3710906435, 1, 16)
+     , (3710906435, 3, 67108990)
+     , (3710906435, 95, 8)
+     , (3710906435, 7, 255)
+     , (3710906435, 6, 255)
+     , (3710906435, 133, 4)
+     , (3710906435, 16, 32)
+     , (3710906435, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3710906435, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3710906435, 12, True)
+     , (3710906435, 11, True)
+     , (3710906435, 14, True)
+     , (3710906435, 41, True)
+     , (3710906435, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3710906435, 67110057, 0, 24)
      , (3710906435, 67117079, 24, 8)
      , (3710906435, 67109565, 32, 8)
@@ -6308,7 +8541,7 @@ VALUES (3710906435, 67110057, 0, 24)
      , (3710906435, 67110350, 116, 12)
      , (3710906435, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3710906435, 16, 83886232, 83890359)
      , (3710906435, 16, 83886668, 83890471)
      , (3710906435, 16, 83886837, 83890548)
@@ -6336,7 +8569,7 @@ VALUES (3710906435, 16, 83886232, 83890359)
      , (3710906435, 13, 83892347, 83892347)
      , (3710906435, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3710906435, 16, 16795638)
      , (3710906435, 15, 16777335)
      , (3710906435, 12, 16777334)
@@ -6355,13 +8588,36 @@ VALUES (3710906435, 16, 16795638)
      , (3710906435, 13, 16783871)
      , (3710906435, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3629557959, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3629557959, 9437238, 5773, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3629557959, 5773, 43444, 39, 96.46415, 156.2477, 66.005, 1, 0, 0, 0);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3629557959, 1, 2847146023, 96.46415, 156.2477, 66.005, 1, 0, 0, 0);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3629557959, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3629557959, 1, 16)
+     , (3629557959, 3, 67108990)
+     , (3629557959, 95, 8)
+     , (3629557959, 7, 255)
+     , (3629557959, 6, 255)
+     , (3629557959, 133, 4)
+     , (3629557959, 16, 32)
+     , (3629557959, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3629557959, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3629557959, 12, True)
+     , (3629557959, 11, True)
+     , (3629557959, 14, True)
+     , (3629557959, 41, True)
+     , (3629557959, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3629557959, 67109559, 0, 24)
      , (3629557959, 67117076, 24, 8)
      , (3629557959, 67109566, 32, 8)
@@ -6375,7 +8631,7 @@ VALUES (3629557959, 67109559, 0, 24)
      , (3629557959, 67110350, 116, 12)
      , (3629557959, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3629557959, 16, 83886232, 83890685)
      , (3629557959, 16, 83886668, 83890457)
      , (3629557959, 16, 83886837, 83890554)
@@ -6399,7 +8655,7 @@ VALUES (3629557959, 16, 83886232, 83890685)
      , (3629557959, 13, 83892347, 83892347)
      , (3629557959, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3629557959, 16, 16795662)
      , (3629557959, 15, 16777335)
      , (3629557959, 12, 16777334)
@@ -6418,13 +8674,36 @@ VALUES (3629557959, 16, 16795662)
      , (3629557959, 13, 16783871)
      , (3629557959, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2628843673, 'Academy Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (2628843673, 9437238, 13242, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2628843673, 13242, 32771, 811, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2628843673, 1, 2147681067, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2628843673, 1, 'Academy Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2628843673, 1, 16)
+     , (2628843673, 3, 67108990)
+     , (2628843673, 95, 8)
+     , (2628843673, 7, 255)
+     , (2628843673, 6, 255)
+     , (2628843673, 133, 4)
+     , (2628843673, 16, 32)
+     , (2628843673, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2628843673, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2628843673, 12, True)
+     , (2628843673, 11, True)
+     , (2628843673, 14, True)
+     , (2628843673, 41, True)
+     , (2628843673, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2628843673, 67109558, 0, 24)
      , (2628843673, 67117080, 24, 8)
      , (2628843673, 67110062, 32, 8)
@@ -6437,7 +8716,7 @@ VALUES (2628843673, 67109558, 0, 24)
      , (2628843673, 67113255, 116, 12)
      , (2628843673, 67113255, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2628843673, 16, 83886232, 83890685)
      , (2628843673, 16, 83886668, 83890485)
      , (2628843673, 16, 83886837, 83890548)
@@ -6465,7 +8744,7 @@ VALUES (2628843673, 16, 83886232, 83890685)
      , (2628843673, 13, 83892347, 83892347)
      , (2628843673, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2628843673, 12, 16777304)
      , (2628843673, 15, 16777307)
      , (2628843673, 16, 16795662)
@@ -6484,13 +8763,36 @@ VALUES (2628843673, 12, 16777304)
      , (2628843673, 13, 16783871)
      , (2628843673, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2616511341, 'Academy Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (2616511341, 9437238, 13242, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2616511341, 13242, 29443, 811, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2616511341, 1, 1929577259, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2616511341, 1, 'Academy Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2616511341, 1, 16)
+     , (2616511341, 3, 67108990)
+     , (2616511341, 95, 8)
+     , (2616511341, 7, 255)
+     , (2616511341, 6, 255)
+     , (2616511341, 133, 4)
+     , (2616511341, 16, 32)
+     , (2616511341, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2616511341, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2616511341, 12, True)
+     , (2616511341, 11, True)
+     , (2616511341, 14, True)
+     , (2616511341, 41, True)
+     , (2616511341, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2616511341, 67109562, 0, 24)
      , (2616511341, 67117026, 24, 8)
      , (2616511341, 67109565, 32, 8)
@@ -6503,7 +8805,7 @@ VALUES (2616511341, 67109562, 0, 24)
      , (2616511341, 67113255, 116, 12)
      , (2616511341, 67113255, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2616511341, 16, 83886232, 83890685)
      , (2616511341, 16, 83886668, 83890482)
      , (2616511341, 16, 83886837, 83890547)
@@ -6531,7 +8833,7 @@ VALUES (2616511341, 16, 83886232, 83890685)
      , (2616511341, 13, 83892347, 83892347)
      , (2616511341, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2616511341, 12, 16777304)
      , (2616511341, 15, 16777307)
      , (2616511341, 16, 16795640)
@@ -6550,13 +8852,36 @@ VALUES (2616511341, 12, 16777304)
      , (2616511341, 13, 16783871)
      , (2616511341, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2780868984, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AIAAAACQAAcAAACAPw==');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (2780868984, 9437238, 5776, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AIAAAACQAAcAAACAPw==', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2780868984, 5776, 56149, 1, 9.248737, 0.1790314, 20.005, -0.07900333, 0, 0, -0.9968743);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2780868984, 1, 3679780865, 9.248737, 0.1790314, 20.005, -0.07900333, 0, 0, -0.9968743);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2780868984, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2780868984, 1, 16)
+     , (2780868984, 3, 67108990)
+     , (2780868984, 95, 8)
+     , (2780868984, 7, 255)
+     , (2780868984, 6, 255)
+     , (2780868984, 133, 4)
+     , (2780868984, 16, 32)
+     , (2780868984, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2780868984, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2780868984, 12, True)
+     , (2780868984, 11, True)
+     , (2780868984, 14, True)
+     , (2780868984, 41, True)
+     , (2780868984, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2780868984, 67110055, 0, 24)
      , (2780868984, 67117075, 24, 8)
      , (2780868984, 67109565, 32, 8)
@@ -6570,7 +8895,7 @@ VALUES (2780868984, 67110055, 0, 24)
      , (2780868984, 67110350, 116, 12)
      , (2780868984, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2780868984, 16, 83886232, 83890685)
      , (2780868984, 16, 83886668, 83890264)
      , (2780868984, 16, 83886837, 83890308)
@@ -6600,7 +8925,7 @@ VALUES (2780868984, 16, 83886232, 83890685)
      , (2780868984, 13, 83892347, 83892347)
      , (2780868984, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2780868984, 16, 16795641)
      , (2780868984, 15, 16777335)
      , (2780868984, 12, 16777334)
@@ -6619,13 +8944,36 @@ VALUES (2780868984, 16, 16795641)
      , (2780868984, 13, 16783871)
      , (2780868984, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3703977257, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3703977257, 9437238, 5776, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3703977257, 5776, 55638, 57, 168.2134, 19.51237, 20.005, 0.3826829, 0, 0, -0.9238797);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3703977257, 1, 3646292025, 168.2134, 19.51237, 20.005, 0.3826829, 0, 0, -0.9238797);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3703977257, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3703977257, 1, 16)
+     , (3703977257, 3, 67108990)
+     , (3703977257, 95, 8)
+     , (3703977257, 7, 255)
+     , (3703977257, 6, 255)
+     , (3703977257, 133, 4)
+     , (3703977257, 16, 32)
+     , (3703977257, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3703977257, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3703977257, 12, True)
+     , (3703977257, 11, True)
+     , (3703977257, 14, True)
+     , (3703977257, 41, True)
+     , (3703977257, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3703977257, 67110057, 0, 24)
      , (3703977257, 67117024, 24, 8)
      , (3703977257, 67109565, 32, 8)
@@ -6639,7 +8987,7 @@ VALUES (3703977257, 67110057, 0, 24)
      , (3703977257, 67110350, 116, 12)
      , (3703977257, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3703977257, 16, 83886232, 83890685)
      , (3703977257, 16, 83886668, 83890244)
      , (3703977257, 16, 83886837, 83890290)
@@ -6669,7 +9017,7 @@ VALUES (3703977257, 16, 83886232, 83890685)
      , (3703977257, 13, 83892347, 83892347)
      , (3703977257, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3703977257, 16, 16795647)
      , (3703977257, 15, 16777335)
      , (3703977257, 12, 16777334)
@@ -6688,13 +9036,36 @@ VALUES (3703977257, 16, 16795647)
      , (3703977257, 13, 16783871)
      , (3703977257, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2885235328, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (2885235328, 9437238, 49642, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2885235328, 49642, 22631, 320, 174.511, -120, -59.995, -0.7071068, 0, 0, -0.7071068);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2885235328, 1, 1483145536, 174.511, -120, -59.995, -0.7071068, 0, 0, -0.7071068);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2885235328, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2885235328, 1, 16)
+     , (2885235328, 3, 67108990)
+     , (2885235328, 95, 8)
+     , (2885235328, 7, 255)
+     , (2885235328, 6, 255)
+     , (2885235328, 133, 4)
+     , (2885235328, 16, 32)
+     , (2885235328, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2885235328, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2885235328, 12, True)
+     , (2885235328, 11, True)
+     , (2885235328, 14, True)
+     , (2885235328, 41, True)
+     , (2885235328, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2885235328, 67109557, 0, 24)
      , (2885235328, 67117078, 24, 8)
      , (2885235328, 67110062, 32, 8)
@@ -6705,7 +9076,7 @@ VALUES (2885235328, 67109557, 0, 24)
      , (2885235328, 67110346, 240, 10)
      , (2885235328, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2885235328, 16, 83886232, 83890685)
      , (2885235328, 16, 83886668, 83890456)
      , (2885235328, 16, 83886837, 83890517)
@@ -6724,7 +9095,7 @@ VALUES (2885235328, 16, 83886232, 83890685)
      , (2885235328, 14, 83892346, 83892354)
      , (2885235328, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2885235328, 12, 16777304)
      , (2885235328, 15, 16777307)
      , (2885235328, 3, 16777292)
@@ -6743,13 +9114,36 @@ VALUES (2885235328, 12, 16777304)
      , (2885235328, 14, 16783855)
      , (2885235328, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2877540314, 'Academy Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (2877540314, 9437238, 13242, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2877540314, 13242, 34308, 811, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2877540314, 1, 2248409899, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2877540314, 1, 'Academy Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2877540314, 1, 16)
+     , (2877540314, 3, 67108990)
+     , (2877540314, 95, 8)
+     , (2877540314, 7, 255)
+     , (2877540314, 6, 255)
+     , (2877540314, 133, 4)
+     , (2877540314, 16, 32)
+     , (2877540314, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2877540314, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2877540314, 12, True)
+     , (2877540314, 11, True)
+     , (2877540314, 14, True)
+     , (2877540314, 41, True)
+     , (2877540314, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2877540314, 67109562, 0, 24)
      , (2877540314, 67117018, 24, 8)
      , (2877540314, 67110065, 32, 8)
@@ -6762,7 +9156,7 @@ VALUES (2877540314, 67109562, 0, 24)
      , (2877540314, 67113255, 116, 12)
      , (2877540314, 67113255, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2877540314, 16, 83886232, 83890685)
      , (2877540314, 16, 83886668, 83890510)
      , (2877540314, 16, 83886837, 83890520)
@@ -6790,7 +9184,7 @@ VALUES (2877540314, 16, 83886232, 83890685)
      , (2877540314, 13, 83892347, 83892347)
      , (2877540314, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2877540314, 12, 16777304)
      , (2877540314, 15, 16777307)
      , (2877540314, 16, 16795640)
@@ -6809,13 +9203,36 @@ VALUES (2877540314, 12, 16777304)
      , (2877540314, 13, 16783871)
      , (2877540314, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3354961534, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3354961534, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3354961534, 5774, 38690, 23, 51.40577, 144.1579, 102.005, -0.92388, 0, 0, -0.382683);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3354961534, 1, 2535587863, 51.40577, 144.1579, 102.005, -0.92388, 0, 0, -0.382683);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3354961534, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3354961534, 1, 16)
+     , (3354961534, 3, 67108990)
+     , (3354961534, 95, 8)
+     , (3354961534, 7, 255)
+     , (3354961534, 6, 255)
+     , (3354961534, 133, 4)
+     , (3354961534, 16, 32)
+     , (3354961534, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3354961534, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3354961534, 12, True)
+     , (3354961534, 11, True)
+     , (3354961534, 14, True)
+     , (3354961534, 41, True)
+     , (3354961534, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3354961534, 67109552, 0, 24)
      , (3354961534, 67116992, 24, 8)
      , (3354961534, 67110063, 32, 8)
@@ -6831,7 +9248,7 @@ VALUES (3354961534, 67109552, 0, 24)
      , (3354961534, 67110346, 240, 10)
      , (3354961534, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3354961534, 16, 83886232, 83890685)
      , (3354961534, 16, 83886668, 83890281)
      , (3354961534, 16, 83886837, 83890302)
@@ -6862,7 +9279,7 @@ VALUES (3354961534, 16, 83886232, 83890685)
      , (3354961534, 14, 83892346, 83892354)
      , (3354961534, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3354961534, 3, 16778361)
      , (3354961534, 7, 16778360)
      , (3354961534, 4, 16778426)
@@ -6881,13 +9298,36 @@ VALUES (3354961534, 3, 16778361)
      , (3354961534, 14, 16783855)
      , (3354961534, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3359725689, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3359725689, 9437238, 5777, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3359725689, 5777, 59426, 39, 114.6449, 147.0848, 0.004999995, 0.909006, 0, 0, 0.416783);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3359725689, 1, 3894542375, 114.6449, 147.0848, 0.004999995, 0.909006, 0, 0, 0.416783);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3359725689, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3359725689, 1, 16)
+     , (3359725689, 3, 67108990)
+     , (3359725689, 95, 8)
+     , (3359725689, 7, 255)
+     , (3359725689, 6, 255)
+     , (3359725689, 133, 4)
+     , (3359725689, 16, 32)
+     , (3359725689, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3359725689, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3359725689, 12, True)
+     , (3359725689, 11, True)
+     , (3359725689, 14, True)
+     , (3359725689, 41, True)
+     , (3359725689, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3359725689, 67110056, 0, 24)
      , (3359725689, 67117074, 24, 8)
      , (3359725689, 67110063, 32, 8)
@@ -6901,7 +9341,7 @@ VALUES (3359725689, 67110056, 0, 24)
      , (3359725689, 67110350, 116, 12)
      , (3359725689, 67110003, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3359725689, 16, 83886232, 83890685)
      , (3359725689, 16, 83886668, 83890457)
      , (3359725689, 16, 83886837, 83890554)
@@ -6929,7 +9369,7 @@ VALUES (3359725689, 16, 83886232, 83890685)
      , (3359725689, 13, 83892347, 83892347)
      , (3359725689, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3359725689, 16, 16795675)
      , (3359725689, 15, 16777335)
      , (3359725689, 12, 16777334)
@@ -6948,13 +9388,36 @@ VALUES (3359725689, 16, 16795675)
      , (3359725689, 13, 16783871)
      , (3359725689, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3361874648, 'Town Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554510, 0, 100355, 0, 150994945, 536870914, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3361874648, 9437238, 5774, 4, 100667446, NULL, NULL, 33554510, 536870914, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3361874648, 5774, 34415, 53, 149.4655, 115.9212, 11.6651, -0.141493, 0, 0, -0.9899393);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3361874648, 1, 2255421493, 149.4655, 115.9212, 11.6651, -0.141493, 0, 0, -0.9899393);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3361874648, 1, 'Town Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3361874648, 1, 16)
+     , (3361874648, 3, 67108990)
+     , (3361874648, 95, 8)
+     , (3361874648, 7, 255)
+     , (3361874648, 6, 255)
+     , (3361874648, 133, 4)
+     , (3361874648, 16, 32)
+     , (3361874648, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3361874648, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3361874648, 12, True)
+     , (3361874648, 11, True)
+     , (3361874648, 14, True)
+     , (3361874648, 41, True)
+     , (3361874648, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3361874648, 67109550, 0, 24)
      , (3361874648, 67117020, 24, 8)
      , (3361874648, 67110063, 32, 8)
@@ -6970,7 +9433,7 @@ VALUES (3361874648, 67109550, 0, 24)
      , (3361874648, 67110346, 240, 10)
      , (3361874648, 67110350, 250, 6);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3361874648, 16, 83886232, 83890685)
      , (3361874648, 16, 83886668, 83890261)
      , (3361874648, 16, 83886837, 83890299)
@@ -7001,7 +9464,7 @@ VALUES (3361874648, 16, 83886232, 83890685)
      , (3361874648, 14, 83892346, 83892354)
      , (3361874648, 16, 83892358, 83892358);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3361874648, 3, 16778361)
      , (3361874648, 7, 16778360)
      , (3361874648, 4, 16778426)
@@ -7020,13 +9483,36 @@ VALUES (3361874648, 3, 16778361)
      , (3361874648, 14, 16783855)
      , (3361874648, 16, 16783901);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2927355025, 'Academy Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (2927355025, 9437238, 13242, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2927355025, 13242, 32515, 811, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2927355025, 1, 2130903851, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2927355025, 1, 'Academy Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2927355025, 1, 16)
+     , (2927355025, 3, 67108990)
+     , (2927355025, 95, 8)
+     , (2927355025, 7, 255)
+     , (2927355025, 6, 255)
+     , (2927355025, 133, 4)
+     , (2927355025, 16, 32)
+     , (2927355025, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2927355025, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2927355025, 12, True)
+     , (2927355025, 11, True)
+     , (2927355025, 14, True)
+     , (2927355025, 41, True)
+     , (2927355025, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2927355025, 67109561, 0, 24)
      , (2927355025, 67116982, 24, 8)
      , (2927355025, 67110065, 32, 8)
@@ -7039,7 +9525,7 @@ VALUES (2927355025, 67109561, 0, 24)
      , (2927355025, 67113255, 116, 12)
      , (2927355025, 67113255, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2927355025, 16, 83886232, 83890685)
      , (2927355025, 16, 83886668, 83890481)
      , (2927355025, 16, 83886837, 83890521)
@@ -7067,7 +9553,7 @@ VALUES (2927355025, 16, 83886232, 83890685)
      , (2927355025, 13, 83892347, 83892347)
      , (2927355025, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2927355025, 12, 16777304)
      , (2927355025, 15, 16777307)
      , (2927355025, 16, 16795662)
@@ -7086,13 +9572,36 @@ VALUES (2927355025, 12, 16777304)
      , (2927355025, 13, 16783871)
      , (2927355025, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2883524027, 'Academy Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (2883524027, 9437238, 13242, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2883524027, 13242, 36354, 811, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2883524027, 1, 2382496555, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2883524027, 1, 'Academy Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2883524027, 1, 16)
+     , (2883524027, 3, 67108990)
+     , (2883524027, 95, 8)
+     , (2883524027, 7, 255)
+     , (2883524027, 6, 255)
+     , (2883524027, 133, 4)
+     , (2883524027, 16, 32)
+     , (2883524027, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2883524027, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2883524027, 12, True)
+     , (2883524027, 11, True)
+     , (2883524027, 14, True)
+     , (2883524027, 41, True)
+     , (2883524027, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2883524027, 67109562, 0, 24)
      , (2883524027, 67117079, 24, 8)
      , (2883524027, 67110062, 32, 8)
@@ -7105,7 +9614,7 @@ VALUES (2883524027, 67109562, 0, 24)
      , (2883524027, 67113255, 116, 12)
      , (2883524027, 67113255, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2883524027, 16, 83886232, 83890685)
      , (2883524027, 16, 83886668, 83890448)
      , (2883524027, 16, 83886837, 83890518)
@@ -7133,7 +9642,7 @@ VALUES (2883524027, 16, 83886232, 83890685)
      , (2883524027, 13, 83892347, 83892347)
      , (2883524027, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2883524027, 12, 16777304)
      , (2883524027, 15, 16777307)
      , (2883524027, 16, 16795662)
@@ -7152,13 +9661,36 @@ VALUES (2883524027, 12, 16777304)
      , (2883524027, 13, 16783871)
      , (2883524027, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2614428432, 'Academy Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (2614428432, 9437238, 13242, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2614428432, 13242, 29187, 811, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2614428432, 1, 1912800043, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2614428432, 1, 'Academy Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2614428432, 1, 16)
+     , (2614428432, 3, 67108990)
+     , (2614428432, 95, 8)
+     , (2614428432, 7, 255)
+     , (2614428432, 6, 255)
+     , (2614428432, 133, 4)
+     , (2614428432, 16, 32)
+     , (2614428432, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2614428432, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2614428432, 12, True)
+     , (2614428432, 11, True)
+     , (2614428432, 14, True)
+     , (2614428432, 41, True)
+     , (2614428432, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2614428432, 67109561, 0, 24)
      , (2614428432, 67117070, 24, 8)
      , (2614428432, 67109567, 32, 8)
@@ -7171,7 +9703,7 @@ VALUES (2614428432, 67109561, 0, 24)
      , (2614428432, 67113255, 116, 12)
      , (2614428432, 67113255, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2614428432, 16, 83886232, 83890685)
      , (2614428432, 16, 83886668, 83890514)
      , (2614428432, 16, 83886837, 83890551)
@@ -7199,7 +9731,7 @@ VALUES (2614428432, 16, 83886232, 83890685)
      , (2614428432, 13, 83892347, 83892347)
      , (2614428432, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2614428432, 12, 16777304)
      , (2614428432, 15, 16777307)
      , (2614428432, 16, 16795665)
@@ -7218,13 +9750,36 @@ VALUES (2614428432, 12, 16777304)
      , (2614428432, 13, 16783871)
      , (2614428432, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (3355479830, 'Academy Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (3355479830, 9437238, 13242, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3355479830, 13242, 34562, 811, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3355479830, 1, 2265056043, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3355479830, 1, 'Academy Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3355479830, 1, 16)
+     , (3355479830, 3, 67108990)
+     , (3355479830, 95, 8)
+     , (3355479830, 7, 255)
+     , (3355479830, 6, 255)
+     , (3355479830, 133, 4)
+     , (3355479830, 16, 32)
+     , (3355479830, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3355479830, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3355479830, 12, True)
+     , (3355479830, 11, True)
+     , (3355479830, 14, True)
+     , (3355479830, 41, True)
+     , (3355479830, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3355479830, 67109562, 0, 24)
      , (3355479830, 67117019, 24, 8)
      , (3355479830, 67109564, 32, 8)
@@ -7237,7 +9792,7 @@ VALUES (3355479830, 67109562, 0, 24)
      , (3355479830, 67113255, 116, 12)
      , (3355479830, 67113255, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3355479830, 16, 83886232, 83890685)
      , (3355479830, 16, 83886668, 83890508)
      , (3355479830, 16, 83886837, 83890518)
@@ -7265,7 +9820,7 @@ VALUES (3355479830, 16, 83886232, 83890685)
      , (3355479830, 13, 83892347, 83892347)
      , (3355479830, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3355479830, 12, 16777304)
      , (3355479830, 15, 16777307)
      , (3355479830, 16, 16795650)
@@ -7284,13 +9839,36 @@ VALUES (3355479830, 12, 16777304)
      , (3355479830, 13, 16783871)
      , (3355479830, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2775835265, 'Academy Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (2775835265, 9437238, 13242, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2775835265, 13242, 35844, 811, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2775835265, 1, 2349073195, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2775835265, 1, 'Academy Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2775835265, 1, 16)
+     , (2775835265, 3, 67108990)
+     , (2775835265, 95, 8)
+     , (2775835265, 7, 255)
+     , (2775835265, 6, 255)
+     , (2775835265, 133, 4)
+     , (2775835265, 16, 32)
+     , (2775835265, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2775835265, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2775835265, 12, True)
+     , (2775835265, 11, True)
+     , (2775835265, 14, True)
+     , (2775835265, 41, True)
+     , (2775835265, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2775835265, 67109560, 0, 24)
      , (2775835265, 67116995, 24, 8)
      , (2775835265, 67109565, 32, 8)
@@ -7303,7 +9881,7 @@ VALUES (2775835265, 67109560, 0, 24)
      , (2775835265, 67113255, 116, 12)
      , (2775835265, 67113255, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2775835265, 16, 83886232, 83890685)
      , (2775835265, 16, 83886668, 83890481)
      , (2775835265, 16, 83886837, 83890549)
@@ -7331,7 +9909,7 @@ VALUES (2775835265, 16, 83886232, 83890685)
      , (2775835265, 13, 83892347, 83892347)
      , (2775835265, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2775835265, 12, 16777304)
      , (2775835265, 15, 16777307)
      , (2775835265, 16, 16795650)
@@ -7350,13 +9928,36 @@ VALUES (2775835265, 12, 16777304)
      , (2775835265, 13, 16783871)
      , (2775835265, 14, 16783855);
 
-INSERT INTO `base_ace_object` (`baseAceObjectId`, `name`, `typeId`, `paletteId`, `ammoType`, `blipColor`, `bitField`, `burden`, `combatUse`, `cooldownDuration`, `cooldownId`, `effects`, `containersCapacity`, `header`, `hookTypeId`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `hookItemTypes`, `itemsCapacity`, `location`, `materialType`, `maxStackSize`, `maxStructure`, `radar`, `pscript`, `spellId`, `stackSize`, `structure`, `targetTypeId`, `usability`, `useRadius`, `validLocations`, `value`, `workmanship`, `animationFrameId`, `defaultScript`, `defaultScriptIntensity`, `elasticity`, `friction`, `locationId`, `modelTableId`, `objectScale`, `physicsBitField`, `physicsTableId`, `motionTableId`, `soundTableId`, `physicsState`, `translucency`, `currentMotionState`)
-VALUES (2776686482, 'Academy Crier', 16, 67108990, 0, 8, 4, 0, 0, 0, 0, 0, 255, 9437238, 0, 100667446, 0, 0, 0, 255, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 32, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33554433, 0, 100355, 0, 150994945, 536870913, 6292504, 0, 'AAA9AAAAAAA=');
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `iconId`, `iconOverlayId`, `iconUnderlayId`, `modelTableId`, `soundTableId`, `motionTableId`, `currentMotionState`, `animationFrameId`, `physicsTableId`, `physicsDescriptionFlag`, `spellId`, `playScript`, `defaultScript`)
+VALUES (2776686482, 9437238, 13242, 4, 100667446, NULL, NULL, 33554433, 536870913, 150994945, 'AAA9AAAAAAA=', NULL, NULL, 100355, NULL, NULL, NULL);
 
-INSERT INTO `ace_object` (`baseAceObjectId`, `weenieClassId`, `landblock`, `cell`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2776686482, 13242, 36098, 811, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblock`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2776686482, 1, 2365719339, 71.8817, -72.58, 12.005, 0.989548, 0, 0, 0.144204);
 
-INSERT INTO `ace_object_palette_changes` (`baseAceObjectId`, `subPaletteId`, `offset`, `length`)
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2776686482, 1, 'Academy Crier');
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2776686482, 1, 16)
+     , (2776686482, 3, 67108990)
+     , (2776686482, 95, 8)
+     , (2776686482, 7, 255)
+     , (2776686482, 6, 255)
+     , (2776686482, 133, 4)
+     , (2776686482, 16, 32)
+     , (2776686482, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2776686482, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2776686482, 12, True)
+     , (2776686482, 11, True)
+     , (2776686482, 14, True)
+     , (2776686482, 41, True)
+     , (2776686482, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2776686482, 67109561, 0, 24)
      , (2776686482, 67116977, 24, 8)
      , (2776686482, 67109567, 32, 8)
@@ -7369,7 +9970,7 @@ VALUES (2776686482, 67109561, 0, 24)
      , (2776686482, 67113255, 116, 12)
      , (2776686482, 67113255, 96, 12);
 
-INSERT INTO `ace_object_texture_map_changes` (`baseAceObjectId`, `index`, `oldId`, `newId`)
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2776686482, 16, 83886232, 83890685)
      , (2776686482, 16, 83886668, 83890448)
      , (2776686482, 16, 83886837, 83890547)
@@ -7397,7 +9998,7 @@ VALUES (2776686482, 16, 83886232, 83890685)
      , (2776686482, 13, 83892347, 83892347)
      , (2776686482, 14, 83892346, 83892346);
 
-INSERT INTO `ace_object_animation_changes` (`baseAceObjectId`, `index`, `animationId`)
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2776686482, 12, 16777304)
      , (2776686482, 15, 16777307)
      , (2776686482, 16, 16795654)
