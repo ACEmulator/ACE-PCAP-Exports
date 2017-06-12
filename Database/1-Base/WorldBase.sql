@@ -15,6 +15,8 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
+DROP DATABASE IF EXISTS `ace_world`;
+
 CREATE DATABASE /*!32312 IF NOT EXISTS*/`ace_world` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
 USE `ace_world`;
@@ -31,7 +33,7 @@ CREATE TABLE `ace_object` (
   `aceObjectDescriptionFlags` int(10) unsigned NOT NULL,
   `weenieClassId` int(10) unsigned NOT NULL,
   `weenieHeaderFlags` int(10) unsigned NOT NULL,
-  `iconId` int(10) unsigned NOT NULL,
+  `iconId` int(10) unsigned DEFAULT NULL,
   `iconOverlayId` int(10) DEFAULT NULL,
   `iconUnderlayId` int(10) DEFAULT NULL,
   `modelTableId` int(10) DEFAULT NULL,
@@ -151,6 +153,88 @@ CREATE TABLE `ace_object_properties_int` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
+DROP TABLE IF EXISTS `ace_object_properties_did`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ace_object_properties_did` (
+  `aceObjectId` int(10) unsigned NOT NULL DEFAULT '0',
+  `didPropertyId` smallint(5) unsigned NOT NULL DEFAULT '0',
+  `propertyValue` int(10) unsigned NOT NULL DEFAULT '0',
+  UNIQUE KEY `ace_object__property_did_id` (`aceObjectId`,`didPropertyId`),
+  KEY `aceObjectId` (`aceObjectId`),
+  CONSTRAINT `fk_Prop_Did_AceObject` FOREIGN KEY (`aceObjectId`) REFERENCES `ace_object` (`aceObjectId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+DROP TABLE IF EXISTS `ace_object_properties_iid`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ace_object_properties_iid` (
+  `aceObjectId` int(10) unsigned NOT NULL DEFAULT '0',
+  `iidPropertyId` smallint(5) unsigned NOT NULL DEFAULT '0',
+  `propertyValue` int(10) unsigned NOT NULL DEFAULT '0',
+  UNIQUE KEY `ace_object__property_iid_id` (`aceObjectId`,`iidPropertyId`),
+  KEY `aceObjectId` (`aceObjectId`),
+  CONSTRAINT `fk_Prop_Iid_AceObject` FOREIGN KEY (`aceObjectId`) REFERENCES `ace_object` (`aceObjectId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+DROP TABLE IF EXISTS `ace_object_properties_spell`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ace_object_properties_spell` (
+  `aceObjectId` int(10) unsigned NOT NULL DEFAULT '0',
+  `spellId` int(10) unsigned NOT NULL DEFAULT '0',
+  UNIQUE KEY `ace_object__property_spell_id` (`aceObjectId`,`spellId`),
+  KEY `aceObjectId` (`aceObjectId`),
+  CONSTRAINT `fk_Prop_Spell_AceObject` FOREIGN KEY (`aceObjectId`) REFERENCES `ace_object` (`aceObjectId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+DROP TABLE IF EXISTS `ace_object_properties_skill`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ace_object_properties_skill` (
+  `aceObjectId` int(10) unsigned NOT NULL,
+  `skillId` tinyint(1) unsigned NOT NULL,
+  `skillStatus` tinyint(1) unsigned NOT NULL,
+  `skillPoints` smallint(2) unsigned NOT NULL DEFAULT '0',
+  `skillXpSpent` int(10) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`aceObjectId`,`skillId`),
+  CONSTRAINT `fk_Prop_Skill_AceObject` FOREIGN KEY (`aceObjectId`) REFERENCES `ace_object` (`aceObjectId`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+DROP TABLE IF EXISTS `ace_object_properties_attribute`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ace_object_properties_attribute` (
+  `aceObjectId` int(10) unsigned NOT NULL,
+  `attributeId` tinyint(1) unsigned NOT NULL,
+  `attributeBase` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `attributeRanks` tinyint(2) unsigned NOT NULL DEFAULT '0',
+  `attributeXpSpent` int(10) unsigned NOT NULL DEFAULT '0',
+  UNIQUE KEY `ace_object__property_attribute_id` (`aceObjectId`,`attributeId`),
+  PRIMARY KEY (`aceObjectId`,`attributeId`),
+  CONSTRAINT `fk_Prop_Attribute_AceObject` FOREIGN KEY (`aceObjectId`) REFERENCES `ace_object` (`aceObjectId`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+DROP TABLE IF EXISTS `ace_object_properties_attribute2nd`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ace_object_properties_attribute2nd` (
+  `aceObjectId` int(10) unsigned NOT NULL,
+  `attribute2ndId` tinyint(1) unsigned NOT NULL,
+  `attribute2ndValue` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `attribute2ndRanks` tinyint(2) unsigned NOT NULL DEFAULT '0',
+  `attribute2ndXpSpent` int(10) unsigned NOT NULL DEFAULT '0',
+  UNIQUE KEY `ace_object__property_attribute2nd_id` (`aceObjectId`,`attribute2ndId`),
+  PRIMARY KEY (`aceObjectId`,`attribute2ndId`),
+  CONSTRAINT `fk_Prop_Attribute2nd_AceObject` FOREIGN KEY (`aceObjectId`) REFERENCES `ace_object` (`aceObjectId`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
 --
 -- Table structure for table `ace_object_properties_string`
 --
@@ -212,7 +296,9 @@ CREATE TABLE `ace_position` (
   `positionId` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `aceObjectId` int(10) unsigned DEFAULT NULL,
   `positionType` smallint(5) unsigned NOT NULL,
-  `landblock` int(10) unsigned NOT NULL,
+  `landblockRaw` int(10) unsigned NOT NULL,
+  `landblock` SMALLINT(5) UNSIGNED DEFAULT NULL,
+  `cell` SMALLINT(5) UNSIGNED DEFAULT NULL,
   `posX` float NOT NULL,
   `posY` float NOT NULL,
   `posZ` float NOT NULL,
@@ -222,10 +308,10 @@ CREATE TABLE `ace_position` (
   `qZ` float NOT NULL,
   PRIMARY KEY (`positionId`),
   KEY `idx_aceObjectId` (`aceObjectId`),
-  KEY `idx_landblock` (`landblock`),
+  KEY `idx_landblock` (`landblockRaw`),
   KEY `idxPostionType` (`positionType`),
   CONSTRAINT `fk_ap_ao` FOREIGN KEY (`aceObjectId`) REFERENCES `ace_object` (`aceObjectId`)
-) ENGINE=InnoDB AUTO_INCREMENT=196669 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -247,141 +333,157 @@ CREATE TABLE `ace_weenie_class` (
 -- Temporary view structure for view `vw_ace_object`
 --
 
-DROP TABLE IF EXISTS `vw_ace_object`;
-/*!50001 DROP VIEW IF EXISTS `vw_ace_object`*/;
-SET @saved_cs_client     = @@character_set_client;
-SET character_set_client = utf8;
-/*!50001 CREATE VIEW `vw_ace_object` AS SELECT 
- 1 AS `aceObjectId`,
- 1 AS `name`,
- 1 AS `weenieClassId`,
- 1 AS `weenieClassDescription`,
- 1 AS `aceObjectDescriptionFlags`,
- 1 AS `animationFrameId`,
- 1 AS `currentMotionState`,
- 1 AS `iconId`,
- 1 AS `iconOverlayId`,
- 1 AS `iconUnderlayId`,
- 1 AS `modelTableId`,
- 1 AS `motionTableId`,
- 1 AS `physicsDescriptionFlag`,
- 1 AS `playScript`,
- 1 AS `physicsTableId`,
- 1 AS `soundTableId`,
- 1 AS `weenieHeaderFlags`,
- 1 AS `spellId`,
- 1 AS `defaultScript`*/;
-SET character_set_client = @saved_cs_client;
+/*Table structure for table `vw_ace_object` */
 
---
--- Temporary view structure for view `vw_ace_weenie_class`
---
+DROP TABLE IF EXISTS `vw_ace_object`;
+
+/*!50001 DROP VIEW IF EXISTS `vw_ace_object` */;
+/*!50001 DROP TABLE IF EXISTS `vw_ace_object` */;
+
+/*!50001 CREATE TABLE  `vw_ace_object`(
+ `aceObjectId` int(10) unsigned ,
+ `name` text ,
+ `weenieClassId` int(10) unsigned ,
+ `weenieClassDescription` text ,
+ `aceObjectDescriptionFlags` int(10) unsigned ,
+ `animationFrameId` int(10) unsigned ,
+ `currentMotionState` text ,
+ `iconId` int(10) unsigned ,
+ `iconOverlayId` int(10) unsigned ,
+ `iconUnderlayId` int(10) unsigned ,
+ `modelTableId` int(10) unsigned ,
+ `motionTableId` int(10) unsigned ,
+ `physicsDescriptionFlag` int(10) unsigned ,
+ `playScript` smallint(5) unsigned ,
+ `physicsTableId` int(10) unsigned ,
+ `soundTableId` int(10) unsigned ,
+ `weenieHeaderFlags` int(10) unsigned ,
+ `spellId` smallint(5) unsigned ,
+ `defaultScript` int(10) unsigned ,
+ `itemType` int(10) unsigned ,
+ `positionId` int(10) unsigned ,
+ `positionType` smallint(5) unsigned ,
+ `LandblockRaw` int(10) unsigned ,
+ `posX` float ,
+ `posY` float ,
+ `posZ` float ,
+ `qW` float ,
+ `qX` float ,
+ `qY` float ,
+ `qZ` float 
+)*/;
+
+
+
+/*Table structure for table `vw_ace_weenie_class` */
 
 DROP TABLE IF EXISTS `vw_ace_weenie_class`;
-/*!50001 DROP VIEW IF EXISTS `vw_ace_weenie_class`*/;
-SET @saved_cs_client     = @@character_set_client;
-SET character_set_client = utf8;
-/*!50001 CREATE VIEW `vw_ace_weenie_class` AS SELECT 
- 1 AS `weenieClassId`,
- 1 AS `weenieClassDescription`,
- 1 AS `aceObjectDescriptionFlags`,
- 1 AS `animationFrameId`,
- 1 AS `currentMotionState`,
- 1 AS `iconId`,
- 1 AS `iconOverlayId`,
- 1 AS `iconUnderlayId`,
- 1 AS `modelTableId`,
- 1 AS `motionTableId`,
- 1 AS `physicsDescriptionFlag`,
- 1 AS `playScript`,
- 1 AS `physicsTableId`,
- 1 AS `soundTableId`,
- 1 AS `weenieHeaderFlags`,
- 1 AS `spellId`,
- 1 AS `defaultScript`*/;
-SET character_set_client = @saved_cs_client;
 
---
--- Temporary view structure for view `vw_teleport_location`
---
+/*!50001 DROP VIEW IF EXISTS `vw_ace_weenie_class` */;
+/*!50001 DROP TABLE IF EXISTS `vw_ace_weenie_class` */;
+
+/*!50001 CREATE TABLE  `vw_ace_weenie_class`(
+ `weenieClassId` int(10) unsigned ,
+ `aceObjectId` int(10) unsigned ,
+ `name` text ,
+ `weenieClassDescription` text ,
+ `aceObjectDescriptionFlags` int(10) unsigned ,
+ `animationFrameId` int(10) unsigned ,
+ `currentMotionState` text ,
+ `iconId` int(10) unsigned ,
+ `iconOverlayId` int(10) unsigned ,
+ `iconUnderlayId` int(10) unsigned ,
+ `modelTableId` int(10) unsigned ,
+ `motionTableId` int(10) unsigned ,
+ `physicsDescriptionFlag` int(10) unsigned ,
+ `playScript` smallint(5) unsigned ,
+ `physicsTableId` int(10) unsigned ,
+ `soundTableId` int(10) unsigned ,
+ `weenieHeaderFlags` int(10) unsigned ,
+ `spellId` smallint(5) unsigned ,
+ `defaultScript` int(10) unsigned ,
+ `itemType` int(10) unsigned 
+)*/;
+
+/*Table structure for table `vw_base_ace_object` */
+
+DROP TABLE IF EXISTS `vw_base_ace_object`;
+
+/*!50001 DROP VIEW IF EXISTS `vw_base_ace_object` */;
+/*!50001 DROP TABLE IF EXISTS `vw_base_ace_object` */;
+
+/*!50001 CREATE TABLE  `vw_base_ace_object`(
+ `aceObjectId` int(10) unsigned ,
+ `weenieClassId` int(10) unsigned ,
+ `aceObjectDescriptionFlags` int(10) unsigned ,
+ `animationFrameId` int(10) unsigned ,
+ `currentMotionState` text ,
+ `iconId` int(10) unsigned ,
+ `iconOverlayId` int(10) unsigned ,
+ `iconUnderlayId` int(10) unsigned ,
+ `modelTableId` int(10) unsigned ,
+ `motionTableId` int(10) unsigned ,
+ `physicsDescriptionFlag` int(10) unsigned ,
+ `playScript` smallint(5) unsigned ,
+ `physicsTableId` int(10) unsigned ,
+ `soundTableId` int(10) unsigned ,
+ `weenieHeaderFlags` int(10) unsigned ,
+ `spellId` smallint(5) unsigned ,
+ `defaultScript` int(10) unsigned ,
+ `name` text ,
+ `itemType` int(10) unsigned ,
+ `weenieClassDescription` text 
+)*/;
+
+/*Table structure for table `vw_teleport_location` */
 
 DROP TABLE IF EXISTS `vw_teleport_location`;
-/*!50001 DROP VIEW IF EXISTS `vw_teleport_location`*/;
-SET @saved_cs_client     = @@character_set_client;
-SET character_set_client = utf8;
-/*!50001 CREATE VIEW `vw_teleport_location` AS SELECT 
- 1 AS `name`,
- 1 AS `landblock`,
- 1 AS `posX`,
- 1 AS `posY`,
- 1 AS `posZ`,
- 1 AS `qW`,
- 1 AS `qX`,
- 1 AS `qY`,
- 1 AS `qZ`*/;
-SET character_set_client = @saved_cs_client;
 
---
--- Final view structure for view `vw_ace_object`
---
+/*!50001 DROP VIEW IF EXISTS `vw_teleport_location` */;
+/*!50001 DROP TABLE IF EXISTS `vw_teleport_location` */;
 
-/*!50001 DROP VIEW IF EXISTS `vw_ace_object`*/;
-/*!50001 SET @saved_cs_client          = @@character_set_client */;
-/*!50001 SET @saved_cs_results         = @@character_set_results */;
-/*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8 */;
-/*!50001 SET character_set_results     = utf8 */;
-/*!50001 SET collation_connection      = utf8_general_ci */;
-/*!50001 CREATE ALGORITHM=UNDEFINED */
-/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
-/*!50001 VIEW `vw_ace_object` AS select `ao`.`aceObjectId` AS `aceObjectId`,`aops`.`propertyValue` AS `name`,`ao`.`weenieClassId` AS `weenieClassId`,`awc`.`weenieClassDescription` AS `weenieClassDescription`,`ao`.`aceObjectDescriptionFlags` AS `aceObjectDescriptionFlags`,`ao`.`animationFrameId` AS `animationFrameId`,`ao`.`currentMotionState` AS `currentMotionState`,`ao`.`iconId` AS `iconId`,`ao`.`iconOverlayId` AS `iconOverlayId`,`ao`.`iconUnderlayId` AS `iconUnderlayId`,`ao`.`modelTableId` AS `modelTableId`,`ao`.`motionTableId` AS `motionTableId`,`ao`.`physicsDescriptionFlag` AS `physicsDescriptionFlag`,`ao`.`playScript` AS `playScript`,`ao`.`physicsTableId` AS `physicsTableId`,`ao`.`soundTableId` AS `soundTableId`,`ao`.`weenieHeaderFlags` AS `weenieHeaderFlags`,`ao`.`spellId` AS `spellId`,`ao`.`defaultScript` AS `defaultScript` from ((`ace_object` `ao` join `ace_weenie_class` `awc` on((`ao`.`weenieClassId` = `awc`.`weenieClassId`))) join `ace_object_properties_string` `aops` on(((`ao`.`aceObjectId` = `aops`.`aceObjectId`) and (`aops`.`strPropertyId` = 1)))) where (`ao`.`aceObjectId` <> `ao`.`weenieClassId`) */;
-/*!50001 SET character_set_client      = @saved_cs_client */;
-/*!50001 SET character_set_results     = @saved_cs_results */;
-/*!50001 SET collation_connection      = @saved_col_connection */;
+/*!50001 CREATE TABLE  `vw_teleport_location`(
+ `name` text ,
+ `landblock` smallint(5) unsigned ,
+ `posX` float ,
+ `posY` float ,
+ `posZ` float ,
+ `qW` float ,
+ `qX` float ,
+ `qY` float ,
+ `qZ` float 
+)*/;
 
---
--- Final view structure for view `vw_ace_weenie_class`
---
+/*View structure for view vw_ace_object */
 
-/*!50001 DROP VIEW IF EXISTS `vw_ace_weenie_class`*/;
-/*!50001 SET @saved_cs_client          = @@character_set_client */;
-/*!50001 SET @saved_cs_results         = @@character_set_results */;
-/*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8 */;
-/*!50001 SET character_set_results     = utf8 */;
-/*!50001 SET collation_connection      = utf8_general_ci */;
-/*!50001 CREATE ALGORITHM=UNDEFINED */
-/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
-/*!50001 VIEW `vw_ace_weenie_class` AS select `ao`.`weenieClassId` AS `weenieClassId`,`awc`.`weenieClassDescription` AS `weenieClassDescription`,`ao`.`aceObjectDescriptionFlags` AS `aceObjectDescriptionFlags`,`ao`.`animationFrameId` AS `animationFrameId`,`ao`.`currentMotionState` AS `currentMotionState`,`ao`.`iconId` AS `iconId`,`ao`.`iconOverlayId` AS `iconOverlayId`,`ao`.`iconUnderlayId` AS `iconUnderlayId`,`ao`.`modelTableId` AS `modelTableId`,`ao`.`motionTableId` AS `motionTableId`,`ao`.`physicsDescriptionFlag` AS `physicsDescriptionFlag`,`ao`.`playScript` AS `playScript`,`ao`.`physicsTableId` AS `physicsTableId`,`ao`.`soundTableId` AS `soundTableId`,`ao`.`weenieHeaderFlags` AS `weenieHeaderFlags`,`ao`.`spellId` AS `spellId`,`ao`.`defaultScript` AS `defaultScript` from (((select `ace_world`.`ace_object`.`aceObjectId` AS `aceObjectId`,`ace_world`.`ace_object`.`weenieClassId` AS `weenieClassId`,`ace_world`.`ace_object`.`aceObjectDescriptionFlags` AS `aceObjectDescriptionFlags`,`ace_world`.`ace_object`.`animationFrameId` AS `animationFrameId`,`ace_world`.`ace_object`.`currentMotionState` AS `currentMotionState`,`ace_world`.`ace_object`.`iconId` AS `iconId`,`ace_world`.`ace_object`.`iconOverlayId` AS `iconOverlayId`,`ace_world`.`ace_object`.`iconUnderlayId` AS `iconUnderlayId`,`ace_world`.`ace_object`.`modelTableId` AS `modelTableId`,`ace_world`.`ace_object`.`motionTableId` AS `motionTableId`,`ace_world`.`ace_object`.`physicsDescriptionFlag` AS `physicsDescriptionFlag`,`ace_world`.`ace_object`.`playScript` AS `playScript`,`ace_world`.`ace_object`.`physicsTableId` AS `physicsTableId`,`ace_world`.`ace_object`.`soundTableId` AS `soundTableId`,`ace_world`.`ace_object`.`weenieHeaderFlags` AS `weenieHeaderFlags`,`ace_world`.`ace_object`.`spellId` AS `spellId`,`ace_world`.`ace_object`.`defaultScript` AS `defaultScript` from `ace_world`.`ace_object` where (`ace_world`.`ace_object`.`aceObjectId` = `ace_world`.`ace_object`.`weenieClassId`))) `ao` join `ace_world`.`ace_weenie_class` `awc` on((`ao`.`weenieClassId` = `awc`.`weenieClassId`))) */;
-/*!50001 SET character_set_client      = @saved_cs_client */;
-/*!50001 SET character_set_results     = @saved_cs_results */;
-/*!50001 SET collation_connection      = @saved_col_connection */;
+/*!50001 DROP TABLE IF EXISTS `vw_ace_object` */;
+/*!50001 DROP VIEW IF EXISTS `vw_ace_object` */;
 
---
--- Final view structure for view `vw_teleport_location`
---
+/*!50001 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `vw_ace_object` AS select `ao`.`aceObjectId` AS `aceObjectId`,`aops`.`propertyValue` AS `name`,`ao`.`weenieClassId` AS `weenieClassId`,`awc`.`weenieClassDescription` AS `weenieClassDescription`,`ao`.`aceObjectDescriptionFlags` AS `aceObjectDescriptionFlags`,`ao`.`animationFrameId` AS `animationFrameId`,`ao`.`currentMotionState` AS `currentMotionState`,`ao`.`iconId` AS `iconId`,`ao`.`iconOverlayId` AS `iconOverlayId`,`ao`.`iconUnderlayId` AS `iconUnderlayId`,`ao`.`modelTableId` AS `modelTableId`,`ao`.`motionTableId` AS `motionTableId`,`ao`.`physicsDescriptionFlag` AS `physicsDescriptionFlag`,`ao`.`playScript` AS `playScript`,`ao`.`physicsTableId` AS `physicsTableId`,`ao`.`soundTableId` AS `soundTableId`,`ao`.`weenieHeaderFlags` AS `weenieHeaderFlags`,`ao`.`spellId` AS `spellId`,`ao`.`defaultScript` AS `defaultScript`,`aopi`.`propertyValue` AS `itemType`,`ap`.`positionId` AS `positionId`,`ap`.`positionType` AS `positionType`,`ap`.`landblockraw` AS `LandblockRaw`,`ap`.`posX` AS `posX`,`ap`.`posY` AS `posY`,`ap`.`posZ` AS `posZ`,`ap`.`qW` AS `qW`,`ap`.`qX` AS `qX`,`ap`.`qY` AS `qY`,`ap`.`qZ` AS `qZ` from ((((`ace_object` `ao` join `ace_weenie_class` `awc` on((`ao`.`weenieClassId` = `awc`.`weenieClassId`))) join `ace_object_properties_string` `aops` on(((`ao`.`aceObjectId` = `aops`.`aceObjectId`) and (`aops`.`strPropertyId` = 1)))) join `ace_object_properties_int` `aopi` on(((`ao`.`aceObjectId` = `aopi`.`aceObjectId`) and (`aopi`.`intPropertyId` = 1)))) join `ace_position` `ap` on(((`ao`.`aceObjectId` = `ap`.`aceObjectId`) and (`ap`.`positionType` = 1)))) */;
 
-/*!50001 DROP VIEW IF EXISTS `vw_teleport_location`*/;
-/*!50001 SET @saved_cs_client          = @@character_set_client */;
-/*!50001 SET @saved_cs_results         = @@character_set_results */;
-/*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8 */;
-/*!50001 SET character_set_results     = utf8 */;
-/*!50001 SET collation_connection      = utf8_general_ci */;
-/*!50001 CREATE ALGORITHM=UNDEFINED */
-/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
-/*!50001 VIEW `vw_teleport_location` AS (select `apoi`.`name` AS `name`,`ap`.`landblock` AS `landblock`,`ap`.`posX` AS `posX`,`ap`.`posY` AS `posY`,`ap`.`posZ` AS `posZ`,`ap`.`qW` AS `qW`,`ap`.`qX` AS `qX`,`ap`.`qY` AS `qY`,`ap`.`qZ` AS `qZ` from (`ace_poi` `apoi` join `ace_position` `ap` on((`apoi`.`positionId` = `ap`.`positionId`))) where (`ap`.`positionType` = 28)) */;
-/*!50001 SET character_set_client      = @saved_cs_client */;
-/*!50001 SET character_set_results     = @saved_cs_results */;
-/*!50001 SET collation_connection      = @saved_col_connection */;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*View structure for view vw_ace_weenie_class */
+
+/*!50001 DROP TABLE IF EXISTS `vw_ace_weenie_class` */;
+/*!50001 DROP VIEW IF EXISTS `vw_ace_weenie_class` */;
+
+/*!50001 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `vw_ace_weenie_class` AS (select `ao`.`weenieClassId` AS `weenieClassId`,`ao`.`aceObjectId` AS `aceObjectId`,`aops`.`propertyValue` AS `name`,`awc`.`weenieClassDescription` AS `weenieClassDescription`,`ao`.`aceObjectDescriptionFlags` AS `aceObjectDescriptionFlags`,`ao`.`animationFrameId` AS `animationFrameId`,`ao`.`currentMotionState` AS `currentMotionState`,`ao`.`iconId` AS `iconId`,`ao`.`iconOverlayId` AS `iconOverlayId`,`ao`.`iconUnderlayId` AS `iconUnderlayId`,`ao`.`modelTableId` AS `modelTableId`,`ao`.`motionTableId` AS `motionTableId`,`ao`.`physicsDescriptionFlag` AS `physicsDescriptionFlag`,`ao`.`playScript` AS `playScript`,`ao`.`physicsTableId` AS `physicsTableId`,`ao`.`soundTableId` AS `soundTableId`,`ao`.`weenieHeaderFlags` AS `weenieHeaderFlags`,`ao`.`spellId` AS `spellId`,`ao`.`defaultScript` AS `defaultScript`,`aopi`.`propertyValue` AS `itemType` from (((`ace_object` `ao` join `ace_weenie_class` `awc` on((`ao`.`weenieClassId` = `awc`.`weenieClassId`))) join `ace_object_properties_string` `aops` on(((`ao`.`aceObjectId` = `aops`.`aceObjectId`) and (`aops`.`strPropertyId` = 1)))) join `ace_object_properties_int` `aopi` on(((`ao`.`aceObjectId` = `aopi`.`aceObjectId`) and (`aopi`.`intPropertyId` = 1)))) where (`ao`.`aceObjectId` = `ao`.`weenieClassId`)) */;
+
+/*View structure for view vw_base_ace_object */
+
+/*!50001 DROP TABLE IF EXISTS `vw_base_ace_object` */;
+/*!50001 DROP VIEW IF EXISTS `vw_base_ace_object` */;
+
+/*!50001 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `vw_base_ace_object` AS (select `ao`.`aceObjectId` AS `aceObjectId`,`ao`.`weenieClassId` AS `weenieClassId`,`ao`.`aceObjectDescriptionFlags` AS `aceObjectDescriptionFlags`,`ao`.`animationFrameId` AS `animationFrameId`,`ao`.`currentMotionState` AS `currentMotionState`,`ao`.`iconId` AS `iconId`,`ao`.`iconOverlayId` AS `iconOverlayId`,`ao`.`iconUnderlayId` AS `iconUnderlayId`,`ao`.`modelTableId` AS `modelTableId`,`ao`.`motionTableId` AS `motionTableId`,`ao`.`physicsDescriptionFlag` AS `physicsDescriptionFlag`,`ao`.`playScript` AS `playScript`,`ao`.`physicsTableId` AS `physicsTableId`,`ao`.`soundTableId` AS `soundTableId`,`ao`.`weenieHeaderFlags` AS `weenieHeaderFlags`,`ao`.`spellId` AS `spellId`,`ao`.`defaultScript` AS `defaultScript`,`aops`.`propertyValue` AS `name`,`aopi`.`propertyValue` AS `itemType`,`awc`.`weenieClassDescription` AS `weenieClassDescription` from (((`ace_object` `ao` join `ace_weenie_class` `awc` on((`ao`.`weenieClassId` = `awc`.`weenieClassId`))) join `ace_object_properties_string` `aops` on(((`ao`.`aceObjectId` = `aops`.`aceObjectId`) and (`aops`.`strPropertyId` = 1)))) join `ace_object_properties_int` `aopi` on(((`ao`.`aceObjectId` = `aopi`.`aceObjectId`) and (`aopi`.`intPropertyId` = 1)))) where (`ao`.`aceObjectId` = `ao`.`weenieClassId`)) */;
+
+/*View structure for view vw_teleport_location */
+
+/*!50001 DROP TABLE IF EXISTS `vw_teleport_location` */;
+/*!50001 DROP VIEW IF EXISTS `vw_teleport_location` */;
+
+/*!50001 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `vw_teleport_location` AS (select `apoi`.`name` AS `name`,`ap`.`landblockRaw` AS `landblock`,`ap`.`posX` AS `posX`,`ap`.`posY` AS `posY`,`ap`.`posZ` AS `posZ`,`ap`.`qW` AS `qW`,`ap`.`qX` AS `qX`,`ap`.`qY` AS `qY`,`ap`.`qZ` AS `qZ` from (`ace_poi` `apoi` join `ace_position` `ap` on((`apoi`.`positionId` = `ap`.`positionId`))) where (`ap`.`positionType` = 2)) */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed on 2017-05-19 13:03:16
