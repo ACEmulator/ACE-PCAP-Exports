@@ -2,7 +2,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2436, 'manastonegreater');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2436, 271073304, 2436, 18, NULL, 131073);
+VALUES (2436, 18, 2436, 271073432, NULL, 131073);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2436, 1, 'Greater Mana Stone');
@@ -15,6 +15,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (2436, 53, 101)
      , (2436, 1, 524288)
      , (2436, 5, 50)
+     , (2436, 18, 1)
      , (2436, 151, 2)
      , (2436, 94, 35103)
      , (2436, 16, 655368)
@@ -27,67 +28,10 @@ VALUES (2436, 13, True)
      , (2436, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27328, 'manastonemajor');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (27328, 271073304, 27328, 18, NULL, 131073);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27328, 1, 'Major Mana Stone');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (27328, 8, 100676308)
-     , (27328, 1, 33555641);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27328, 53, 101)
-     , (27328, 1, 524288)
-     , (27328, 5, 50)
-     , (27328, 151, 2)
-     , (27328, 94, 35103)
-     , (27328, 16, 655368)
-     , (27328, 19, 7500)
-     , (27328, 93, 1044);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27328, 13, True)
-     , (27328, 11, True)
-     , (27328, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4616, 'manastonegreat');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4616, 271073432, 4616, 18, NULL, 131073);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4616, 1, 'Great Mana Charge');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (4616, 8, 100676300)
-     , (4616, 1, 33555641);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4616, 53, 101)
-     , (4616, 1, 524288)
-     , (4616, 5, 50)
-     , (4616, 18, 1)
-     , (4616, 151, 2)
-     , (4616, 94, 35103)
-     , (4616, 16, 655368)
-     , (4616, 19, 5500)
-     , (4616, 93, 1044);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (4616, 13, True)
-     , (4616, 11, True)
-     , (4616, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27330, 'manastonemedium');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (27330, 271073432, 27330, 18, NULL, 131073);
+VALUES (27330, 18, 27330, 271073304, NULL, 131073);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27330, 1, 'Moderate Mana Stone');
@@ -100,7 +44,6 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (27330, 53, 101)
      , (27330, 1, 524288)
      , (27330, 5, 50)
-     , (27330, 18, 1)
      , (27330, 151, 2)
      , (27330, 94, 35103)
      , (27330, 16, 655368)
@@ -113,68 +56,10 @@ VALUES (27330, 13, True)
      , (27330, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (20179, 'manastonesuperb');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20179, 271073432, 20179, 18, NULL, 131073);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20179, 1, 'Superb Mana Charge');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (20179, 8, 100676301)
-     , (20179, 1, 33555641);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20179, 53, 101)
-     , (20179, 1, 524288)
-     , (20179, 5, 50)
-     , (20179, 18, 1)
-     , (20179, 151, 2)
-     , (20179, 94, 35103)
-     , (20179, 16, 655368)
-     , (20179, 19, 8000)
-     , (20179, 93, 1044);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (20179, 13, True)
-     , (20179, 11, True)
-     , (20179, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27329, 'manastonemassive');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (27329, 271073432, 27329, 18, NULL, 131073);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27329, 1, 'Massive Mana Charge');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (27329, 8, 100676403)
-     , (27329, 1, 33555641);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27329, 53, 101)
-     , (27329, 1, 524288)
-     , (27329, 5, 50)
-     , (27329, 18, 1)
-     , (27329, 151, 2)
-     , (27329, 94, 35103)
-     , (27329, 16, 655368)
-     , (27329, 19, 65000)
-     , (27329, 93, 1044);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27329, 13, True)
-     , (27329, 11, True)
-     , (27329, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2434, 'manastonelesser');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2434, 271073304, 2434, 18, NULL, 131073);
+VALUES (2434, 18, 2434, 271073304, NULL, 131073);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2434, 1, 'Lesser Mana Stone');
@@ -202,7 +87,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2435, 'manastone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2435, 271073304, 2435, 18, NULL, 131073);
+VALUES (2435, 18, 2435, 271073304, NULL, 131073);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2435, 1, 'Mana Stone');
@@ -227,10 +112,38 @@ VALUES (2435, 13, True)
      , (2435, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (27328, 'manastonemajor');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (27328, 18, 27328, 271073304, NULL, 131073);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27328, 1, 'Major Mana Stone');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (27328, 8, 100676308)
+     , (27328, 1, 33555641);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27328, 53, 101)
+     , (27328, 1, 524288)
+     , (27328, 5, 50)
+     , (27328, 151, 2)
+     , (27328, 94, 35103)
+     , (27328, 16, 655368)
+     , (27328, 19, 7500)
+     , (27328, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27328, 13, True)
+     , (27328, 11, True)
+     , (27328, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27331, 'manastoneminor');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (27331, 271073304, 27331, 18, NULL, 131073);
+VALUES (27331, 18, 27331, 271073304, NULL, 131073);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27331, 1, 'Minor Mana Stone');
@@ -255,39 +168,39 @@ VALUES (27331, 13, True)
      , (27331, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9060, 'manachargetitan');
+VALUES (4616, 'manastonegreat');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9060, 271057048, 9060, 18, NULL, 163841);
+VALUES (4616, 18, 4616, 271073432, NULL, 131073);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9060, 1, 'Titan Mana Charge');
+VALUES (4616, 1, 'Great Mana Charge');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (9060, 8, 100676402)
-     , (9060, 1, 33555641);
+VALUES (4616, 8, 100676300)
+     , (4616, 1, 33555641);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9060, 53, 101)
-     , (9060, 1, 524288)
-     , (9060, 5, 50)
-     , (9060, 18, 1)
-     , (9060, 151, 2)
-     , (9060, 94, 35103)
-     , (9060, 16, 655368)
-     , (9060, 19, 9000)
-     , (9060, 93, 1044);
+VALUES (4616, 53, 101)
+     , (4616, 1, 524288)
+     , (4616, 5, 50)
+     , (4616, 18, 1)
+     , (4616, 151, 2)
+     , (4616, 94, 35103)
+     , (4616, 16, 655368)
+     , (4616, 19, 5500)
+     , (4616, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (9060, 13, True)
-     , (9060, 11, True)
-     , (9060, 14, True);
+VALUES (4616, 13, True)
+     , (4616, 11, True)
+     , (4616, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4615, 'manastonehigh');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4615, 271073432, 4615, 18, NULL, 131073);
+VALUES (4615, 18, 4615, 271073432, NULL, 131073);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4615, 1, 'High Mana Charge');
@@ -313,10 +226,97 @@ VALUES (4615, 13, True)
      , (4615, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (27329, 'manastonemassive');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (27329, 18, 27329, 271057048, NULL, 163841);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27329, 1, 'Massive Mana Charge');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (27329, 8, 100676403)
+     , (27329, 1, 33555641);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27329, 53, 101)
+     , (27329, 1, 524288)
+     , (27329, 5, 50)
+     , (27329, 18, 1)
+     , (27329, 151, 2)
+     , (27329, 94, 35103)
+     , (27329, 16, 655368)
+     , (27329, 19, 65000)
+     , (27329, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27329, 13, True)
+     , (27329, 11, True)
+     , (27329, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (9060, 'manachargetitan');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9060, 18, 9060, 271057048, NULL, 163841);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9060, 1, 'Titan Mana Charge');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (9060, 8, 100676402)
+     , (9060, 1, 33555641);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9060, 53, 101)
+     , (9060, 1, 524288)
+     , (9060, 5, 50)
+     , (9060, 18, 1)
+     , (9060, 151, 2)
+     , (9060, 94, 35103)
+     , (9060, 16, 655368)
+     , (9060, 19, 9000)
+     , (9060, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9060, 13, True)
+     , (9060, 11, True)
+     , (9060, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (20179, 'manastonesuperb');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20179, 18, 20179, 271073432, NULL, 131073);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20179, 1, 'Superb Mana Charge');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (20179, 8, 100676301)
+     , (20179, 1, 33555641);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20179, 53, 101)
+     , (20179, 1, 524288)
+     , (20179, 5, 50)
+     , (20179, 18, 1)
+     , (20179, 151, 2)
+     , (20179, 94, 35103)
+     , (20179, 16, 655368)
+     , (20179, 19, 8000)
+     , (20179, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20179, 13, True)
+     , (20179, 11, True)
+     , (20179, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4614, 'manastonemoderate');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4614, 271073432, 4614, 18, NULL, 131073);
+VALUES (4614, 18, 4614, 271073432, NULL, 131073);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4614, 1, 'Moderate Mana Charge');
@@ -342,39 +342,10 @@ VALUES (4614, 13, True)
      , (4614, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4612, 'manastonetiny');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4612, 271073432, 4612, 18, NULL, 131073);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4612, 1, 'Tiny Mana Charge');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (4612, 8, 100676306)
-     , (4612, 1, 33555639);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4612, 53, 101)
-     , (4612, 1, 524288)
-     , (4612, 5, 50)
-     , (4612, 18, 1)
-     , (4612, 151, 2)
-     , (4612, 94, 35103)
-     , (4612, 16, 655368)
-     , (4612, 19, 350)
-     , (4612, 93, 1044);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (4612, 13, True)
-     , (4612, 11, True)
-     , (4612, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4613, 'manastonesmall');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4613, 271073432, 4613, 18, NULL, 131073);
+VALUES (4613, 18, 4613, 271073432, NULL, 131073);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4613, 1, 'Small Mana Charge');
@@ -398,4 +369,33 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4613, 13, True)
      , (4613, 11, True)
      , (4613, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (4612, 'manastonetiny');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4612, 18, 4612, 271073432, NULL, 131073);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4612, 1, 'Tiny Mana Charge');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (4612, 8, 100676306)
+     , (4612, 1, 33555639);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4612, 53, 101)
+     , (4612, 1, 524288)
+     , (4612, 5, 50)
+     , (4612, 18, 1)
+     , (4612, 151, 2)
+     , (4612, 94, 35103)
+     , (4612, 16, 655368)
+     , (4612, 19, 350)
+     , (4612, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (4612, 13, True)
+     , (4612, 11, True)
+     , (4612, 14, True);
 

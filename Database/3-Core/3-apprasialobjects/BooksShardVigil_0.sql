@@ -1,8 +1,8 @@
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2880146265, 19, 0)
-     , (2880146265, 5, 10000)
-     , (2880146265, 174, 9)
-     , (2880146265, 175, 9);
+VALUES (2880118656, 19, 0)
+     , (2880118656, 5, 10000)
+     , (2880118656, 174, 9)
+     , (2880118656, 175, 9);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9002, 19, 0)

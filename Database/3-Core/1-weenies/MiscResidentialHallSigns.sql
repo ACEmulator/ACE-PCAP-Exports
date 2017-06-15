@@ -1,8 +1,33 @@
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (19182, 'northpasshollowcottagessign');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (19182, 20, 19182, 2097176, NULL, 32769);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19182, 1, 'North Pass Hollow Cottages');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (19182, 8, 100668115)
+     , (19182, 1, 33557463);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19182, 1, 128)
+     , (19182, 5, 9000)
+     , (19182, 16, 1)
+     , (19182, 19, 125)
+     , (19182, 93, 1048);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19182, 12, True)
+     , (19182, 11, True)
+     , (19182, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42898, 'ace42898-hollowminion');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42898, 2097176, 42898, 20, NULL, 32769);
+VALUES (42898, 20, 42898, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42898, 1, 'Hollow Minion');
@@ -24,10 +49,35 @@ VALUES (42898, 13, True)
      , (42898, 11, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (21476, 'havenresidentialhallssign');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (21476, 20, 21476, 2097176, NULL, 32769);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21476, 1, 'Haven Residential Halls');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (21476, 8, 100667499)
+     , (21476, 1, 33557901);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21476, 1, 128)
+     , (21476, 5, 9000)
+     , (21476, 16, 1)
+     , (21476, 19, 125)
+     , (21476, 93, 1048);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21476, 12, True)
+     , (21476, 11, True)
+     , (21476, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19380, 'atriumresidentialhallssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19380, 2097176, 19380, 20, NULL, 32769);
+VALUES (19380, 20, 19380, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19380, 1, 'Atrium Residential Halls');
@@ -52,7 +102,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16898, 'sanctumresidentialhallssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (16898, 2097176, 16898, 20, NULL, 32769);
+VALUES (16898, 20, 16898, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (16898, 1, 'Sanctum Residential Halls');
@@ -74,35 +124,10 @@ VALUES (16898, 12, True)
      , (16898, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21476, 'havenresidentialhallssign');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (21476, 2097176, 21476, 20, NULL, 32769);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21476, 1, 'Haven Residential Halls');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (21476, 8, 100667499)
-     , (21476, 1, 33557901);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21476, 1, 128)
-     , (21476, 5, 9000)
-     , (21476, 16, 1)
-     , (21476, 19, 125)
-     , (21476, 93, 1048);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21476, 12, True)
-     , (21476, 11, True)
-     , (21476, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22242, 'victoryresidentialhallssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22242, 2097176, 22242, 20, NULL, 32769);
+VALUES (22242, 20, 22242, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22242, 1, 'Victory Residential Halls');
@@ -127,7 +152,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19391, 'orielresidentialhallssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19391, 2097176, 19391, 20, NULL, 32769);
+VALUES (19391, 20, 19391, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19391, 1, 'Oriel Residential Halls');
@@ -149,291 +174,10 @@ VALUES (19391, 12, True)
      , (19391, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (16903, 'treyvalverandasign');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (16903, 2097176, 16903, 20, NULL, 32769);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (16903, 1, 'Treyval Veranda');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (16903, 8, 100672342)
-     , (16903, 1, 33557658);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (16903, 1, 128)
-     , (16903, 5, 9000)
-     , (16903, 16, 1)
-     , (16903, 19, 125)
-     , (16903, 93, 1048);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (16903, 12, True)
-     , (16903, 11, True)
-     , (16903, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (16893, 'alvancourtsign');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (16893, 2097176, 16893, 20, NULL, 32769);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (16893, 1, 'Alvan Court');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (16893, 8, 100672342)
-     , (16893, 1, 33557651);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (16893, 1, 128)
-     , (16893, 5, 9000)
-     , (16893, 16, 1)
-     , (16893, 19, 125)
-     , (16893, 93, 1048);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (16893, 12, True)
-     , (16893, 11, True)
-     , (16893, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (16902, 'sylvandwellingssign');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (16902, 2097176, 16902, 20, NULL, 32769);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (16902, 1, 'SylvanDwellings');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (16902, 8, 100672342)
-     , (16902, 1, 33557659);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (16902, 1, 128)
-     , (16902, 5, 9000)
-     , (16902, 16, 1)
-     , (16902, 19, 125)
-     , (16902, 93, 1048);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (16902, 12, True)
-     , (16902, 11, True)
-     , (16902, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (16894, 'caernadwellingssign');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (16894, 2097176, 16894, 20, NULL, 32769);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (16894, 1, 'Caerna Dwellings');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (16894, 8, 100672342)
-     , (16894, 1, 33557649);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (16894, 1, 128)
-     , (16894, 5, 9000)
-     , (16894, 16, 1)
-     , (16894, 19, 125)
-     , (16894, 93, 1048);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (16894, 12, True)
-     , (16894, 11, True)
-     , (16894, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (16895, 'illsinverandasign');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (16895, 2097176, 16895, 20, NULL, 32769);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (16895, 1, 'Illsin Veranda');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (16895, 8, 100672342)
-     , (16895, 1, 33557650);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (16895, 1, 128)
-     , (16895, 5, 9000)
-     , (16895, 16, 1)
-     , (16895, 19, 125)
-     , (16895, 93, 1048);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (16895, 12, True)
-     , (16895, 11, True)
-     , (16895, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (16896, 'marincourtsign');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (16896, 2097176, 16896, 20, NULL, 32769);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (16896, 1, 'Marin Court');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (16896, 8, 100672342)
-     , (16896, 1, 33557652);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (16896, 1, 128)
-     , (16896, 5, 9000)
-     , (16896, 16, 1)
-     , (16896, 19, 125)
-     , (16896, 93, 1048);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (16896, 12, True)
-     , (16896, 11, True)
-     , (16896, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (16900, 'sigilverandasign');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (16900, 2097176, 16900, 20, NULL, 32769);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (16900, 1, 'Sigil Veranda');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (16900, 8, 100672342)
-     , (16900, 1, 33557657);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (16900, 1, 128)
-     , (16900, 5, 9000)
-     , (16900, 16, 1)
-     , (16900, 19, 125)
-     , (16900, 93, 1048);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (16900, 12, True)
-     , (16900, 11, True)
-     , (16900, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (16899, 'senmaicourtsign');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (16899, 2097176, 16899, 20, NULL, 32769);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (16899, 1, 'Senmai Court');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (16899, 8, 100672342)
-     , (16899, 1, 33557653);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (16899, 1, 128)
-     , (16899, 5, 9000)
-     , (16899, 16, 1)
-     , (16899, 19, 125)
-     , (16899, 93, 1048);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (16899, 12, True)
-     , (16899, 11, True)
-     , (16899, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (16901, 'sorveyacourtsign');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (16901, 2097176, 16901, 20, NULL, 32769);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (16901, 1, 'Sorveya Court');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (16901, 8, 100672342)
-     , (16901, 1, 33557656);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (16901, 1, 128)
-     , (16901, 5, 9000)
-     , (16901, 16, 1)
-     , (16901, 19, 125)
-     , (16901, 93, 1048);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (16901, 12, True)
-     , (16901, 11, True)
-     , (16901, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (16897, 'ruadnarcourtsign');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (16897, 2097176, 16897, 20, NULL, 32769);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (16897, 1, 'Ruadnar Court');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (16897, 8, 100672342)
-     , (16897, 1, 33557655);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (16897, 1, 128)
-     , (16897, 5, 9000)
-     , (16897, 16, 1)
-     , (16897, 19, 125)
-     , (16897, 93, 1048);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (16897, 12, True)
-     , (16897, 11, True)
-     , (16897, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8017, 'gatefenmalain');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8017, 2621496, 8017, 20, NULL, 38913);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8017, 1, 'Fenmalain Gate');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (8017, 8, 100670964)
-     , (8017, 1, 33556740)
-     , (8017, 3, 536870932)
-     , (8017, 22, 872415275);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8017, 1, 128)
-     , (8017, 5, 6000)
-     , (8017, 94, 128)
-     , (8017, 16, 48)
-     , (8017, 19, 200)
-     , (8017, 93, 1048);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8017, 54, 2);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8017, 12, True)
-     , (8017, 11, True)
-     , (8017, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7412, 'magmasluicebar');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (7412, 2097176, 7412, 18, NULL, 39041);
+VALUES (7412, 18, 7412, 2097176, NULL, 39041);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7412, 1, 'Sluice Gate Bar');
@@ -460,266 +204,289 @@ VALUES (7412, 13, True)
      , (7412, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21471, 'bentenlodgesign');
+VALUES (19398, 'whitelotusgatesign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (21471, 2097176, 21471, 20, NULL, 32769);
+VALUES (19398, 20, 19398, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21471, 1, 'Ben Ten Lodge');
+VALUES (19398, 1, 'White Lotus Gate');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (21471, 8, 100667499)
-     , (21471, 1, 33557905);
+VALUES (19398, 8, 100667499)
+     , (19398, 1, 33557685);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21471, 1, 128)
-     , (21471, 5, 9000)
-     , (21471, 16, 1)
-     , (21471, 19, 125)
-     , (21471, 93, 1048);
+VALUES (19398, 1, 128)
+     , (19398, 5, 9000)
+     , (19398, 16, 1)
+     , (19398, 19, 125)
+     , (19398, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21471, 12, True)
-     , (21471, 11, True)
-     , (21471, 14, True);
+VALUES (19398, 12, True)
+     , (19398, 11, True)
+     , (19398, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21473, 'celcyndgrottosign');
+VALUES (19378, 'allaincourtsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (21473, 2097176, 21473, 20, NULL, 32769);
+VALUES (19378, 20, 19378, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21473, 1, 'Celcynd Grotto');
+VALUES (19378, 1, 'Allain Court');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (21473, 8, 100667499)
-     , (21473, 1, 33557899);
+VALUES (19378, 8, 100667499)
+     , (19378, 1, 33557683);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21473, 1, 128)
-     , (21473, 5, 9000)
-     , (21473, 16, 1)
-     , (21473, 19, 125)
-     , (21473, 93, 1048);
+VALUES (19378, 1, 128)
+     , (19378, 5, 9000)
+     , (19378, 16, 1)
+     , (19378, 19, 125)
+     , (19378, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21473, 12, True)
-     , (21473, 11, True)
-     , (21473, 14, True);
+VALUES (19378, 12, True)
+     , (19378, 11, True)
+     , (19378, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21472, 'cedraiccourtsign');
+VALUES (19397, 'vindalandwellingssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (21472, 2097176, 21472, 20, NULL, 32769);
+VALUES (19397, 20, 19397, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21472, 1, 'Cedraic Court');
+VALUES (19397, 1, 'Vindalan Dwellings');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (21472, 8, 100667499)
-     , (21472, 1, 33557902);
+VALUES (19397, 8, 100667499)
+     , (19397, 1, 33557689);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21472, 1, 128)
-     , (21472, 5, 9000)
-     , (21472, 16, 1)
-     , (21472, 19, 125)
-     , (21472, 93, 1048);
+VALUES (19397, 1, 128)
+     , (19397, 5, 9000)
+     , (19397, 16, 1)
+     , (19397, 19, 125)
+     , (19397, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21472, 12, True)
-     , (21472, 11, True)
-     , (21472, 14, True);
+VALUES (19397, 12, True)
+     , (19397, 11, True)
+     , (19397, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21482, 'xaowugardenssign');
+VALUES (19381, 'autumnmoongardenssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (21482, 2097176, 21482, 20, NULL, 32769);
+VALUES (19381, 20, 19381, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21482, 1, 'Xao Wu Gardens');
+VALUES (19381, 1, 'Autumn Moon Gardens');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (21482, 8, 100667499)
-     , (21482, 1, 33557900);
+VALUES (19381, 8, 100667499)
+     , (19381, 1, 33557684);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21482, 1, 128)
-     , (21482, 5, 9000)
-     , (21482, 16, 1)
-     , (21482, 19, 125)
-     , (21482, 93, 1048);
+VALUES (19381, 1, 128)
+     , (19381, 5, 9000)
+     , (19381, 16, 1)
+     , (19381, 19, 125)
+     , (19381, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21482, 12, True)
-     , (21482, 11, True)
-     , (21482, 14, True);
+VALUES (19381, 12, True)
+     , (19381, 11, True)
+     , (19381, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21481, 'trothyrhollowsign');
+VALUES (19382, 'endaragatesign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (21481, 2097176, 21481, 20, NULL, 32769);
+VALUES (19382, 20, 19382, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21481, 1, 'Trothyr Hollow');
+VALUES (19382, 1, 'Endara Gate');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (21481, 8, 100667499)
-     , (21481, 1, 33557898);
+VALUES (19382, 8, 100667499)
+     , (19382, 1, 33557687);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21481, 1, 128)
-     , (21481, 5, 9000)
-     , (21481, 16, 1)
-     , (21481, 19, 125)
-     , (21481, 93, 1048);
+VALUES (19382, 1, 128)
+     , (19382, 5, 9000)
+     , (19382, 16, 1)
+     , (19382, 19, 125)
+     , (19382, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21481, 12, True)
-     , (21481, 11, True)
-     , (21481, 14, True);
+VALUES (19382, 12, True)
+     , (19382, 11, True)
+     , (19382, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21479, 'jojiigardenssign');
+VALUES (19383, 'forsythiangardenssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (21479, 2097176, 21479, 20, NULL, 32769);
+VALUES (19383, 20, 19383, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21479, 1, 'Jojii Gardens');
+VALUES (19383, 1, 'Forsythian Gardens');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (21479, 8, 100667499)
-     , (21479, 1, 33557903);
+VALUES (19383, 8, 100667499)
+     , (19383, 1, 33557690);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21479, 1, 128)
-     , (21479, 5, 9000)
-     , (21479, 16, 1)
-     , (21479, 19, 125)
-     , (21479, 93, 1048);
+VALUES (19383, 1, 128)
+     , (19383, 5, 9000)
+     , (19383, 16, 1)
+     , (19383, 19, 125)
+     , (19383, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21479, 12, True)
-     , (21479, 11, True)
-     , (21479, 14, True);
+VALUES (19383, 12, True)
+     , (19383, 11, True)
+     , (19383, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21475, 'dulokcourtsign');
+VALUES (19393, 'syrahdwellingssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (21475, 2097176, 21475, 20, NULL, 32769);
+VALUES (19393, 20, 19393, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21475, 1, 'Dulok Court');
+VALUES (19393, 1, 'Syrah Dwellings');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (21475, 8, 100667499)
-     , (21475, 1, 33557904);
+VALUES (19393, 8, 100667499)
+     , (19393, 1, 33557688);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21475, 1, 128)
-     , (21475, 5, 9000)
-     , (21475, 16, 1)
-     , (21475, 19, 125)
-     , (21475, 93, 1048);
+VALUES (19393, 1, 128)
+     , (19393, 5, 9000)
+     , (19393, 16, 1)
+     , (19393, 19, 125)
+     , (19393, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21475, 12, True)
-     , (21475, 11, True)
-     , (21475, 14, True);
+VALUES (19393, 12, True)
+     , (19393, 11, True)
+     , (19393, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21477, 'isparyardsign');
+VALUES (19392, 'soracgatesign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (21477, 2097176, 21477, 20, NULL, 32769);
+VALUES (19392, 20, 19392, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21477, 1, 'Ispar Yard');
+VALUES (19392, 1, 'Sorac Gate');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (21477, 8, 100667499)
-     , (21477, 1, 33557906);
+VALUES (19392, 8, 100667499)
+     , (19392, 1, 33557692);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21477, 1, 128)
-     , (21477, 5, 9000)
-     , (21477, 16, 1)
-     , (21477, 19, 125)
-     , (21477, 93, 1048);
+VALUES (19392, 1, 128)
+     , (19392, 5, 9000)
+     , (19392, 16, 1)
+     , (19392, 19, 125)
+     , (19392, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21477, 12, True)
-     , (21477, 11, True)
-     , (21477, 14, True);
+VALUES (19392, 12, True)
+     , (19392, 11, True)
+     , (19392, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21474, 'crescentmoonverandasign');
+VALUES (19389, 'maruverandasign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (21474, 2097176, 21474, 20, NULL, 32769);
+VALUES (19389, 20, 19389, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21474, 1, 'Crescent Moon Veranda');
+VALUES (19389, 1, 'Maru Veranda');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (21474, 8, 100667499)
-     , (21474, 1, 33557897);
+VALUES (19389, 8, 100667499)
+     , (19389, 1, 33557691);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21474, 1, 128)
-     , (21474, 5, 9000)
-     , (21474, 16, 1)
-     , (21474, 19, 125)
-     , (21474, 93, 1048);
+VALUES (19389, 1, 128)
+     , (19389, 5, 9000)
+     , (19389, 16, 1)
+     , (19389, 19, 125)
+     , (19389, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21474, 12, True)
-     , (21474, 11, True)
-     , (21474, 14, True);
+VALUES (19389, 12, True)
+     , (19389, 11, True)
+     , (19389, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8016, 'gatecaulnalain');
+VALUES (19394, 'trellyngardenssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8016, 2621496, 8016, 20, NULL, 38913);
+VALUES (19394, 20, 19394, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8016, 1, 'Caulnalain Gate');
+VALUES (19394, 1, 'Trellyn Gardens');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (8016, 8, 100670964)
-     , (8016, 1, 33556740)
-     , (8016, 3, 536870932)
-     , (8016, 22, 872415275);
+VALUES (19394, 8, 100667499)
+     , (19394, 1, 33557686);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8016, 1, 128)
-     , (8016, 5, 6000)
-     , (8016, 94, 128)
-     , (8016, 16, 48)
-     , (8016, 19, 200)
-     , (8016, 93, 1048);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8016, 54, 2);
+VALUES (19394, 1, 128)
+     , (19394, 5, 9000)
+     , (19394, 16, 1)
+     , (19394, 19, 125)
+     , (19394, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8016, 12, True)
-     , (8016, 11, True)
-     , (8016, 14, True);
+VALUES (19394, 12, True)
+     , (19394, 11, True)
+     , (19394, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (24842, 'hollowminiontelumiatmist');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (24842, 18, 24842, 270532632, NULL, 169985);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24842, 1, 'Telumiat Hollow Minion Essence');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (24842, 8, 100674488)
+     , (24842, 1, 33555205)
+     , (24842, 3, 536870932)
+     , (24842, 22, 872415275);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24842, 53, 101)
+     , (24842, 1, 128)
+     , (24842, 5, 10)
+     , (24842, 151, 11)
+     , (24842, 16, 1)
+     , (24842, 19, 15)
+     , (24842, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24842, 13, True)
+     , (24842, 11, True)
+     , (24842, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22236, 'festivuscourtsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22236, 2097176, 22236, 20, NULL, 32769);
+VALUES (22236, 20, 22236, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22236, 1, 'Festivus Court');
@@ -744,7 +511,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22243, 'wilamilcourtsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22243, 2097176, 22243, 20, NULL, 32769);
+VALUES (22243, 20, 22243, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22243, 1, 'Wilamil Court');
@@ -769,7 +536,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22241, 'triumphalgardenssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22241, 2097176, 22241, 20, NULL, 32769);
+VALUES (22241, 20, 22241, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22241, 1, 'Triumphal Gardens');
@@ -794,7 +561,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22239, 'seteragardenssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22239, 2097176, 22239, 20, NULL, 32769);
+VALUES (22239, 20, 22239, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22239, 1, 'Setera Gardens');
@@ -819,7 +586,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22240, 'spiritgatesign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22240, 2097176, 22240, 20, NULL, 32769);
+VALUES (22240, 20, 22240, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22240, 1, 'Spirit Gate');
@@ -844,7 +611,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22233, 'accordverandasign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22233, 2097176, 22233, 20, NULL, 32769);
+VALUES (22233, 20, 22233, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22233, 1, 'Accord Veranda');
@@ -869,7 +636,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22235, 'celdisethcourtsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22235, 2097176, 22235, 20, NULL, 32769);
+VALUES (22235, 20, 22235, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22235, 1, 'Celdiseth Court');
@@ -894,7 +661,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22237, 'hibiscusgardenssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22237, 2097176, 22237, 20, NULL, 32769);
+VALUES (22237, 20, 22237, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22237, 1, 'Hibiscus Gardens');
@@ -919,7 +686,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22238, 'meditationgardenssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22238, 2097176, 22238, 20, NULL, 32769);
+VALUES (22238, 20, 22238, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22238, 1, 'Meditation Gardens');
@@ -944,7 +711,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8018, 'gateshendolain');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8018, 2621496, 8018, 20, NULL, 38913);
+VALUES (8018, 20, 8018, 2621496, NULL, 38913);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8018, 1, 'Shendolain Gate');
@@ -972,314 +739,317 @@ VALUES (8018, 12, True)
      , (8018, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19182, 'northpasshollowcottagessign');
+VALUES (16903, 'treyvalverandasign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19182, 2097176, 19182, 20, NULL, 32769);
+VALUES (16903, 20, 16903, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19182, 1, 'North Pass Hollow Cottages');
+VALUES (16903, 1, 'Treyval Veranda');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19182, 8, 100668115)
-     , (19182, 1, 33557463);
+VALUES (16903, 8, 100672342)
+     , (16903, 1, 33557658);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19182, 1, 128)
-     , (19182, 5, 9000)
-     , (19182, 16, 1)
-     , (19182, 19, 125)
-     , (19182, 93, 1048);
+VALUES (16903, 1, 128)
+     , (16903, 5, 9000)
+     , (16903, 16, 1)
+     , (16903, 19, 125)
+     , (16903, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19182, 12, True)
-     , (19182, 11, True)
-     , (19182, 14, True);
+VALUES (16903, 12, True)
+     , (16903, 11, True)
+     , (16903, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19398, 'whitelotusgatesign');
+VALUES (16893, 'alvancourtsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19398, 2097176, 19398, 20, NULL, 32769);
+VALUES (16893, 20, 16893, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19398, 1, 'White Lotus Gate');
+VALUES (16893, 1, 'Alvan Court');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19398, 8, 100667499)
-     , (19398, 1, 33557685);
+VALUES (16893, 8, 100672342)
+     , (16893, 1, 33557651);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19398, 1, 128)
-     , (19398, 5, 9000)
-     , (19398, 16, 1)
-     , (19398, 19, 125)
-     , (19398, 93, 1048);
+VALUES (16893, 1, 128)
+     , (16893, 5, 9000)
+     , (16893, 16, 1)
+     , (16893, 19, 125)
+     , (16893, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19398, 12, True)
-     , (19398, 11, True)
-     , (19398, 14, True);
+VALUES (16893, 12, True)
+     , (16893, 11, True)
+     , (16893, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19378, 'allaincourtsign');
+VALUES (16902, 'sylvandwellingssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19378, 2097176, 19378, 20, NULL, 32769);
+VALUES (16902, 20, 16902, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19378, 1, 'Allain Court');
+VALUES (16902, 1, 'SylvanDwellings');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19378, 8, 100667499)
-     , (19378, 1, 33557683);
+VALUES (16902, 8, 100672342)
+     , (16902, 1, 33557659);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19378, 1, 128)
-     , (19378, 5, 9000)
-     , (19378, 16, 1)
-     , (19378, 19, 125)
-     , (19378, 93, 1048);
+VALUES (16902, 1, 128)
+     , (16902, 5, 9000)
+     , (16902, 16, 1)
+     , (16902, 19, 125)
+     , (16902, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19378, 12, True)
-     , (19378, 11, True)
-     , (19378, 14, True);
+VALUES (16902, 12, True)
+     , (16902, 11, True)
+     , (16902, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19397, 'vindalandwellingssign');
+VALUES (16894, 'caernadwellingssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19397, 2097176, 19397, 20, NULL, 32769);
+VALUES (16894, 20, 16894, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19397, 1, 'Vindalan Dwellings');
+VALUES (16894, 1, 'Caerna Dwellings');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19397, 8, 100667499)
-     , (19397, 1, 33557689);
+VALUES (16894, 8, 100672342)
+     , (16894, 1, 33557649);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19397, 1, 128)
-     , (19397, 5, 9000)
-     , (19397, 16, 1)
-     , (19397, 19, 125)
-     , (19397, 93, 1048);
+VALUES (16894, 1, 128)
+     , (16894, 5, 9000)
+     , (16894, 16, 1)
+     , (16894, 19, 125)
+     , (16894, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19397, 12, True)
-     , (19397, 11, True)
-     , (19397, 14, True);
+VALUES (16894, 12, True)
+     , (16894, 11, True)
+     , (16894, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19381, 'autumnmoongardenssign');
+VALUES (16895, 'illsinverandasign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19381, 2097176, 19381, 20, NULL, 32769);
+VALUES (16895, 20, 16895, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19381, 1, 'Autumn Moon Gardens');
+VALUES (16895, 1, 'Illsin Veranda');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19381, 8, 100667499)
-     , (19381, 1, 33557684);
+VALUES (16895, 8, 100672342)
+     , (16895, 1, 33557650);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19381, 1, 128)
-     , (19381, 5, 9000)
-     , (19381, 16, 1)
-     , (19381, 19, 125)
-     , (19381, 93, 1048);
+VALUES (16895, 1, 128)
+     , (16895, 5, 9000)
+     , (16895, 16, 1)
+     , (16895, 19, 125)
+     , (16895, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19381, 12, True)
-     , (19381, 11, True)
-     , (19381, 14, True);
+VALUES (16895, 12, True)
+     , (16895, 11, True)
+     , (16895, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19382, 'endaragatesign');
+VALUES (16896, 'marincourtsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19382, 2097176, 19382, 20, NULL, 32769);
+VALUES (16896, 20, 16896, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19382, 1, 'Endara Gate');
+VALUES (16896, 1, 'Marin Court');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19382, 8, 100667499)
-     , (19382, 1, 33557687);
+VALUES (16896, 8, 100672342)
+     , (16896, 1, 33557652);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19382, 1, 128)
-     , (19382, 5, 9000)
-     , (19382, 16, 1)
-     , (19382, 19, 125)
-     , (19382, 93, 1048);
+VALUES (16896, 1, 128)
+     , (16896, 5, 9000)
+     , (16896, 16, 1)
+     , (16896, 19, 125)
+     , (16896, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19382, 12, True)
-     , (19382, 11, True)
-     , (19382, 14, True);
+VALUES (16896, 12, True)
+     , (16896, 11, True)
+     , (16896, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19383, 'forsythiangardenssign');
+VALUES (16900, 'sigilverandasign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19383, 2097176, 19383, 20, NULL, 32769);
+VALUES (16900, 20, 16900, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19383, 1, 'Forsythian Gardens');
+VALUES (16900, 1, 'Sigil Veranda');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19383, 8, 100667499)
-     , (19383, 1, 33557690);
+VALUES (16900, 8, 100672342)
+     , (16900, 1, 33557657);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19383, 1, 128)
-     , (19383, 5, 9000)
-     , (19383, 16, 1)
-     , (19383, 19, 125)
-     , (19383, 93, 1048);
+VALUES (16900, 1, 128)
+     , (16900, 5, 9000)
+     , (16900, 16, 1)
+     , (16900, 19, 125)
+     , (16900, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19383, 12, True)
-     , (19383, 11, True)
-     , (19383, 14, True);
+VALUES (16900, 12, True)
+     , (16900, 11, True)
+     , (16900, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19393, 'syrahdwellingssign');
+VALUES (16899, 'senmaicourtsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19393, 2097176, 19393, 20, NULL, 32769);
+VALUES (16899, 20, 16899, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19393, 1, 'Syrah Dwellings');
+VALUES (16899, 1, 'Senmai Court');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19393, 8, 100667499)
-     , (19393, 1, 33557688);
+VALUES (16899, 8, 100672342)
+     , (16899, 1, 33557653);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19393, 1, 128)
-     , (19393, 5, 9000)
-     , (19393, 16, 1)
-     , (19393, 19, 125)
-     , (19393, 93, 1048);
+VALUES (16899, 1, 128)
+     , (16899, 5, 9000)
+     , (16899, 16, 1)
+     , (16899, 19, 125)
+     , (16899, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19393, 12, True)
-     , (19393, 11, True)
-     , (19393, 14, True);
+VALUES (16899, 12, True)
+     , (16899, 11, True)
+     , (16899, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19392, 'soracgatesign');
+VALUES (16901, 'sorveyacourtsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19392, 2097176, 19392, 20, NULL, 32769);
+VALUES (16901, 20, 16901, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19392, 1, 'Sorac Gate');
+VALUES (16901, 1, 'Sorveya Court');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19392, 8, 100667499)
-     , (19392, 1, 33557692);
+VALUES (16901, 8, 100672342)
+     , (16901, 1, 33557656);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19392, 1, 128)
-     , (19392, 5, 9000)
-     , (19392, 16, 1)
-     , (19392, 19, 125)
-     , (19392, 93, 1048);
+VALUES (16901, 1, 128)
+     , (16901, 5, 9000)
+     , (16901, 16, 1)
+     , (16901, 19, 125)
+     , (16901, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19392, 12, True)
-     , (19392, 11, True)
-     , (19392, 14, True);
+VALUES (16901, 12, True)
+     , (16901, 11, True)
+     , (16901, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19389, 'maruverandasign');
+VALUES (16897, 'ruadnarcourtsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19389, 2097176, 19389, 20, NULL, 32769);
+VALUES (16897, 20, 16897, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19389, 1, 'Maru Veranda');
+VALUES (16897, 1, 'Ruadnar Court');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19389, 8, 100667499)
-     , (19389, 1, 33557691);
+VALUES (16897, 8, 100672342)
+     , (16897, 1, 33557655);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19389, 1, 128)
-     , (19389, 5, 9000)
-     , (19389, 16, 1)
-     , (19389, 19, 125)
-     , (19389, 93, 1048);
+VALUES (16897, 1, 128)
+     , (16897, 5, 9000)
+     , (16897, 16, 1)
+     , (16897, 19, 125)
+     , (16897, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19389, 12, True)
-     , (19389, 11, True)
-     , (19389, 14, True);
+VALUES (16897, 12, True)
+     , (16897, 11, True)
+     , (16897, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19394, 'trellyngardenssign');
+VALUES (8017, 'gatefenmalain');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19394, 2097176, 19394, 20, NULL, 32769);
+VALUES (8017, 20, 8017, 2621496, NULL, 38913);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19394, 1, 'Trellyn Gardens');
+VALUES (8017, 1, 'Fenmalain Gate');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19394, 8, 100667499)
-     , (19394, 1, 33557686);
+VALUES (8017, 8, 100670964)
+     , (8017, 1, 33556740)
+     , (8017, 3, 536870932)
+     , (8017, 22, 872415275);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19394, 1, 128)
-     , (19394, 5, 9000)
-     , (19394, 16, 1)
-     , (19394, 19, 125)
-     , (19394, 93, 1048);
+VALUES (8017, 1, 128)
+     , (8017, 5, 6000)
+     , (8017, 94, 128)
+     , (8017, 16, 48)
+     , (8017, 19, 200)
+     , (8017, 93, 1048);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8017, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19394, 12, True)
-     , (19394, 11, True)
-     , (19394, 14, True);
+VALUES (8017, 12, True)
+     , (8017, 11, True)
+     , (8017, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24842, 'hollowminiontelumiatmist');
+VALUES (30737, 'newyearsgiftyardballoon');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (24842, 270532632, 24842, 18, NULL, 169985);
+VALUES (30737, 18, 30737, 270532616, NULL, 163841);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24842, 1, 'Telumiat Hollow Minion Essence');
+VALUES (30737, 1, 'Yard Balloons');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (24842, 8, 100674488)
-     , (24842, 1, 33555205)
-     , (24842, 3, 536870932)
-     , (24842, 22, 872415275);
+VALUES (30737, 8, 100677404)
+     , (30737, 1, 33559223);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24842, 53, 101)
-     , (24842, 1, 128)
-     , (24842, 5, 10)
-     , (24842, 151, 11)
-     , (24842, 16, 1)
-     , (24842, 19, 15)
-     , (24842, 93, 1044);
+VALUES (30737, 53, 101)
+     , (30737, 1, 128)
+     , (30737, 5, 5)
+     , (30737, 151, 25)
+     , (30737, 19, 1000)
+     , (30737, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (24842, 13, True)
-     , (24842, 11, True)
-     , (24842, 14, True);
+VALUES (30737, 13, True)
+     , (30737, 11, True)
+     , (30737, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14553, 'trunkhollow');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (14553, 2097168, 14553, 18, NULL, 170113);
+VALUES (14553, 18, 14553, 2097168, NULL, 170113);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14553, 1, 'Hollowed-Out Tree Trunk');
@@ -1310,36 +1080,210 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (14553, 67113788, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30737, 'newyearsgiftyardballoon');
+VALUES (21471, 'bentenlodgesign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30737, 270532616, 30737, 18, NULL, 163841);
+VALUES (21471, 20, 21471, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30737, 1, 'Yard Balloons');
+VALUES (21471, 1, 'Ben Ten Lodge');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (30737, 8, 100677404)
-     , (30737, 1, 33559223);
+VALUES (21471, 8, 100667499)
+     , (21471, 1, 33557905);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30737, 53, 101)
-     , (30737, 1, 128)
-     , (30737, 5, 5)
-     , (30737, 151, 25)
-     , (30737, 19, 1000)
-     , (30737, 93, 1044);
+VALUES (21471, 1, 128)
+     , (21471, 5, 9000)
+     , (21471, 16, 1)
+     , (21471, 19, 125)
+     , (21471, 93, 1048);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30737, 13, True)
-     , (30737, 11, True)
-     , (30737, 14, True);
+VALUES (21471, 12, True)
+     , (21471, 11, True)
+     , (21471, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (21473, 'celcyndgrottosign');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (21473, 20, 21473, 2097176, NULL, 32769);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21473, 1, 'Celcynd Grotto');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (21473, 8, 100667499)
+     , (21473, 1, 33557899);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21473, 1, 128)
+     , (21473, 5, 9000)
+     , (21473, 16, 1)
+     , (21473, 19, 125)
+     , (21473, 93, 1048);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21473, 12, True)
+     , (21473, 11, True)
+     , (21473, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (21472, 'cedraiccourtsign');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (21472, 20, 21472, 2097176, NULL, 32769);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21472, 1, 'Cedraic Court');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (21472, 8, 100667499)
+     , (21472, 1, 33557902);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21472, 1, 128)
+     , (21472, 5, 9000)
+     , (21472, 16, 1)
+     , (21472, 19, 125)
+     , (21472, 93, 1048);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21472, 12, True)
+     , (21472, 11, True)
+     , (21472, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (21482, 'xaowugardenssign');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (21482, 20, 21482, 2097176, NULL, 32769);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21482, 1, 'Xao Wu Gardens');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (21482, 8, 100667499)
+     , (21482, 1, 33557900);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21482, 1, 128)
+     , (21482, 5, 9000)
+     , (21482, 16, 1)
+     , (21482, 19, 125)
+     , (21482, 93, 1048);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21482, 12, True)
+     , (21482, 11, True)
+     , (21482, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (21481, 'trothyrhollowsign');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (21481, 20, 21481, 2097176, NULL, 32769);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21481, 1, 'Trothyr Hollow');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (21481, 8, 100667499)
+     , (21481, 1, 33557898);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21481, 1, 128)
+     , (21481, 5, 9000)
+     , (21481, 16, 1)
+     , (21481, 19, 125)
+     , (21481, 93, 1048);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21481, 12, True)
+     , (21481, 11, True)
+     , (21481, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (21479, 'jojiigardenssign');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (21479, 20, 21479, 2097176, NULL, 32769);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21479, 1, 'Jojii Gardens');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (21479, 8, 100667499)
+     , (21479, 1, 33557903);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21479, 1, 128)
+     , (21479, 5, 9000)
+     , (21479, 16, 1)
+     , (21479, 19, 125)
+     , (21479, 93, 1048);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21479, 12, True)
+     , (21479, 11, True)
+     , (21479, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (21475, 'dulokcourtsign');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (21475, 20, 21475, 2097176, NULL, 32769);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21475, 1, 'Dulok Court');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (21475, 8, 100667499)
+     , (21475, 1, 33557904);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21475, 1, 128)
+     , (21475, 5, 9000)
+     , (21475, 16, 1)
+     , (21475, 19, 125)
+     , (21475, 93, 1048);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21475, 12, True)
+     , (21475, 11, True)
+     , (21475, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (21477, 'isparyardsign');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (21477, 20, 21477, 2097176, NULL, 32769);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21477, 1, 'Ispar Yard');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (21477, 8, 100667499)
+     , (21477, 1, 33557906);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21477, 1, 128)
+     , (21477, 5, 9000)
+     , (21477, 16, 1)
+     , (21477, 19, 125)
+     , (21477, 93, 1048);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21477, 12, True)
+     , (21477, 11, True)
+     , (21477, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19387, 'ivorygatesign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19387, 2097176, 19387, 20, NULL, 32769);
+VALUES (19387, 20, 19387, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19387, 1, 'Ivory Gate');
@@ -1364,7 +1308,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19399, 'winthurgatesign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19399, 2097176, 19399, 20, NULL, 32769);
+VALUES (19399, 20, 19399, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19399, 1, 'Winthur Gate');
@@ -1389,7 +1333,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19379, 'alphuscourtsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19379, 2097176, 19379, 20, NULL, 32769);
+VALUES (19379, 20, 19379, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19379, 1, 'Alphus Court');
@@ -1414,7 +1358,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19396, 'vespergatesign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19396, 2097176, 19396, 20, NULL, 32769);
+VALUES (19396, 20, 19396, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19396, 1, 'Vesper Gate');
@@ -1439,7 +1383,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19384, 'gagindwellingssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19384, 2097176, 19384, 20, NULL, 32769);
+VALUES (19384, 20, 19384, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19384, 1, 'Gajin Dwellings');
@@ -1464,7 +1408,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19386, 'heartlandyardsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19386, 2097176, 19386, 20, NULL, 32769);
+VALUES (19386, 20, 19386, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19386, 1, 'Heartland Yard');
@@ -1489,7 +1433,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19385, 'hasinagardenssign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19385, 2097176, 19385, 20, NULL, 32769);
+VALUES (19385, 20, 19385, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19385, 1, 'Hasina Gardens');
@@ -1514,7 +1458,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19390, 'mellascourtsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19390, 2097176, 19390, 20, NULL, 32769);
+VALUES (19390, 20, 19390, 2097176, NULL, 32769);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19390, 1, 'Mellas Court');
@@ -1534,4 +1478,60 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (19390, 12, True)
      , (19390, 11, True)
      , (19390, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (21474, 'crescentmoonverandasign');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (21474, 20, 21474, 2097176, NULL, 32769);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21474, 1, 'Crescent Moon Veranda');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (21474, 8, 100667499)
+     , (21474, 1, 33557897);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21474, 1, 128)
+     , (21474, 5, 9000)
+     , (21474, 16, 1)
+     , (21474, 19, 125)
+     , (21474, 93, 1048);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21474, 12, True)
+     , (21474, 11, True)
+     , (21474, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (8016, 'gatecaulnalain');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8016, 20, 8016, 2621496, NULL, 38913);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8016, 1, 'Caulnalain Gate');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (8016, 8, 100670964)
+     , (8016, 1, 33556740)
+     , (8016, 3, 536870932)
+     , (8016, 22, 872415275);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8016, 1, 128)
+     , (8016, 5, 6000)
+     , (8016, 94, 128)
+     , (8016, 16, 48)
+     , (8016, 19, 200)
+     , (8016, 93, 1048);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8016, 54, 2);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8016, 12, True)
+     , (8016, 11, True)
+     , (8016, 14, True);
 

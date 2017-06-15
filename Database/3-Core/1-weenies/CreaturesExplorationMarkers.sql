@@ -1,143 +1,818 @@
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39790, 'ace39790-explorationmarker');
+VALUES (39817, 'ace39817-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39790, 54, 39790, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39817, 4, 39817, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39790, 1, 'Exploration Marker');
+VALUES (39817, 1, 'Exploration Marker');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39790, 8, 100671368)
-     , (39790, 1, 33560703)
-     , (39790, 3, 536870932)
-     , (39790, 2, 150995429)
-     , (39790, 22, 872415275)
-     , (39790, 6, 67113133);
+VALUES (39817, 8, 100671368)
+     , (39817, 1, 33560703)
+     , (39817, 3, 536870932)
+     , (39817, 2, 150995429)
+     , (39817, 22, 872415275)
+     , (39817, 6, 67113133);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39790, 1, 16)
-     , (39790, 7, 255)
-     , (39790, 6, 255)
-     , (39790, 16, 32)
-     , (39790, 93, 6292508);
+VALUES (39817, 1, 16)
+     , (39817, 7, 255)
+     , (39817, 6, 255)
+     , (39817, 16, 32)
+     , (39817, 93, 6292508);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39790, 54, 3);
+VALUES (39817, 54, 3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39790, 13, True)
-     , (39790, 12, True)
-     , (39790, 11, True)
-     , (39790, 14, True)
-     , (39790, 41, True)
-     , (39790, 42, True);
+VALUES (39817, 13, True)
+     , (39817, 12, True)
+     , (39817, 11, True)
+     , (39817, 14, True)
+     , (39817, 41, True)
+     , (39817, 42, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39790, 67111092, 0, 0);
+VALUES (39817, 67111092, 0, 0);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39790, 0, 83893054, 83893054)
-     , (39790, 0, 83893053, 83893053);
+VALUES (39817, 0, 83893054, 83893054)
+     , (39817, 0, 83893053, 83893053);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39790, 0, 16794232);
+VALUES (39817, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39829, 'ace39829-explorationmarker');
+VALUES (39795, 'ace39795-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39829, 54, 39829, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39795, 4, 39795, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39829, 1, 'Exploration Marker');
+VALUES (39795, 1, 'Exploration Marker');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39829, 8, 100671368)
-     , (39829, 1, 33560703)
-     , (39829, 3, 536870932)
-     , (39829, 2, 150995429)
-     , (39829, 22, 872415275)
-     , (39829, 6, 67113133);
+VALUES (39795, 8, 100671368)
+     , (39795, 1, 33560703)
+     , (39795, 3, 536870932)
+     , (39795, 2, 150995429)
+     , (39795, 22, 872415275)
+     , (39795, 6, 67113133);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39829, 1, 16)
-     , (39829, 7, 255)
-     , (39829, 6, 255)
-     , (39829, 16, 32)
-     , (39829, 93, 6292508);
+VALUES (39795, 1, 16)
+     , (39795, 7, 255)
+     , (39795, 6, 255)
+     , (39795, 16, 32)
+     , (39795, 93, 6292508);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39829, 54, 3);
+VALUES (39795, 54, 3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39829, 13, True)
-     , (39829, 12, True)
-     , (39829, 11, True)
-     , (39829, 14, True)
-     , (39829, 41, True)
-     , (39829, 42, True);
+VALUES (39795, 13, True)
+     , (39795, 12, True)
+     , (39795, 11, True)
+     , (39795, 14, True)
+     , (39795, 41, True)
+     , (39795, 42, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39829, 67111092, 0, 0);
+VALUES (39795, 67111092, 0, 0);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39829, 0, 83893054, 83893054)
-     , (39829, 0, 83893053, 83893053);
+VALUES (39795, 0, 83893054, 83893054)
+     , (39795, 0, 83893053, 83893053);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39829, 0, 16794232);
+VALUES (39795, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39770, 'ace39770-explorationmarker');
+VALUES (39838, 'ace39838-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39770, 54, 39770, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39838, 4, 39838, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39770, 1, 'Exploration Marker');
+VALUES (39838, 1, 'Exploration Marker');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39770, 8, 100671368)
-     , (39770, 1, 33560703)
-     , (39770, 3, 536870932)
-     , (39770, 2, 150995429)
-     , (39770, 22, 872415275)
-     , (39770, 6, 67113133);
+VALUES (39838, 8, 100671368)
+     , (39838, 1, 33560703)
+     , (39838, 3, 536870932)
+     , (39838, 2, 150995429)
+     , (39838, 22, 872415275)
+     , (39838, 6, 67113133);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39770, 1, 16)
-     , (39770, 7, 255)
-     , (39770, 6, 255)
-     , (39770, 16, 32)
-     , (39770, 93, 6292508);
+VALUES (39838, 1, 16)
+     , (39838, 7, 255)
+     , (39838, 6, 255)
+     , (39838, 16, 32)
+     , (39838, 93, 6292508);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39770, 54, 3);
+VALUES (39838, 54, 3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39770, 13, True)
-     , (39770, 12, True)
-     , (39770, 11, True)
-     , (39770, 14, True)
-     , (39770, 41, True)
-     , (39770, 42, True);
+VALUES (39838, 13, True)
+     , (39838, 12, True)
+     , (39838, 11, True)
+     , (39838, 14, True)
+     , (39838, 41, True)
+     , (39838, 42, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39770, 67111092, 0, 0);
+VALUES (39838, 67111092, 0, 0);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39770, 0, 83893054, 83893054)
-     , (39770, 0, 83893053, 83893053);
+VALUES (39838, 0, 83893054, 83893054)
+     , (39838, 0, 83893053, 83893053);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39770, 0, 16794232);
+VALUES (39838, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39757, 'ace39757-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39757, 4, 39757, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39757, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39757, 8, 100671368)
+     , (39757, 1, 33560703)
+     , (39757, 3, 536870932)
+     , (39757, 2, 150995429)
+     , (39757, 22, 872415275)
+     , (39757, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39757, 1, 16)
+     , (39757, 7, 255)
+     , (39757, 6, 255)
+     , (39757, 16, 32)
+     , (39757, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39757, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39757, 13, True)
+     , (39757, 12, True)
+     , (39757, 11, True)
+     , (39757, 14, True)
+     , (39757, 41, True)
+     , (39757, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39757, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39757, 0, 83893054, 83893054)
+     , (39757, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39757, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39791, 'ace39791-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39791, 4, 39791, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39791, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39791, 8, 100671368)
+     , (39791, 1, 33560703)
+     , (39791, 3, 536870932)
+     , (39791, 2, 150995429)
+     , (39791, 22, 872415275)
+     , (39791, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39791, 1, 16)
+     , (39791, 7, 255)
+     , (39791, 6, 255)
+     , (39791, 16, 32)
+     , (39791, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39791, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39791, 13, True)
+     , (39791, 12, True)
+     , (39791, 11, True)
+     , (39791, 14, True)
+     , (39791, 41, True)
+     , (39791, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39791, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39791, 0, 83893054, 83893054)
+     , (39791, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39791, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39779, 'ace39779-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39779, 4, 39779, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39779, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39779, 8, 100671368)
+     , (39779, 1, 33560703)
+     , (39779, 3, 536870932)
+     , (39779, 2, 150995429)
+     , (39779, 22, 872415275)
+     , (39779, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39779, 1, 16)
+     , (39779, 7, 255)
+     , (39779, 6, 255)
+     , (39779, 16, 32)
+     , (39779, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39779, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39779, 13, True)
+     , (39779, 12, True)
+     , (39779, 11, True)
+     , (39779, 14, True)
+     , (39779, 41, True)
+     , (39779, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39779, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39779, 0, 83893054, 83893054)
+     , (39779, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39779, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39831, 'ace39831-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39831, 4, 39831, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39831, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39831, 8, 100671368)
+     , (39831, 1, 33560703)
+     , (39831, 3, 536870932)
+     , (39831, 2, 150995429)
+     , (39831, 22, 872415275)
+     , (39831, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39831, 1, 16)
+     , (39831, 7, 255)
+     , (39831, 6, 255)
+     , (39831, 16, 32)
+     , (39831, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39831, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39831, 13, True)
+     , (39831, 12, True)
+     , (39831, 11, True)
+     , (39831, 14, True)
+     , (39831, 41, True)
+     , (39831, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39831, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39831, 0, 83893054, 83893054)
+     , (39831, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39831, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39748, 'ace39748-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39748, 4, 39748, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39748, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39748, 8, 100671368)
+     , (39748, 1, 33560703)
+     , (39748, 3, 536870932)
+     , (39748, 2, 150995429)
+     , (39748, 22, 872415275)
+     , (39748, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39748, 1, 16)
+     , (39748, 7, 255)
+     , (39748, 6, 255)
+     , (39748, 16, 32)
+     , (39748, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39748, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39748, 13, True)
+     , (39748, 12, True)
+     , (39748, 11, True)
+     , (39748, 14, True)
+     , (39748, 41, True)
+     , (39748, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39748, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39748, 0, 83893054, 83893054)
+     , (39748, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39748, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39826, 'ace39826-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39826, 4, 39826, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39826, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39826, 8, 100671368)
+     , (39826, 1, 33560703)
+     , (39826, 3, 536870932)
+     , (39826, 2, 150995429)
+     , (39826, 22, 872415275)
+     , (39826, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39826, 1, 16)
+     , (39826, 7, 255)
+     , (39826, 6, 255)
+     , (39826, 16, 32)
+     , (39826, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39826, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39826, 13, True)
+     , (39826, 12, True)
+     , (39826, 11, True)
+     , (39826, 14, True)
+     , (39826, 41, True)
+     , (39826, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39826, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39826, 0, 83893054, 83893054)
+     , (39826, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39826, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39801, 'ace39801-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39801, 4, 39801, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39801, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39801, 8, 100671368)
+     , (39801, 1, 33560703)
+     , (39801, 3, 536870932)
+     , (39801, 2, 150995429)
+     , (39801, 22, 872415275)
+     , (39801, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39801, 1, 16)
+     , (39801, 7, 255)
+     , (39801, 6, 255)
+     , (39801, 16, 32)
+     , (39801, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39801, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39801, 13, True)
+     , (39801, 12, True)
+     , (39801, 11, True)
+     , (39801, 14, True)
+     , (39801, 41, True)
+     , (39801, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39801, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39801, 0, 83893054, 83893054)
+     , (39801, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39801, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39785, 'ace39785-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39785, 4, 39785, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39785, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39785, 8, 100671368)
+     , (39785, 1, 33560703)
+     , (39785, 3, 536870932)
+     , (39785, 2, 150995429)
+     , (39785, 22, 872415275)
+     , (39785, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39785, 1, 16)
+     , (39785, 7, 255)
+     , (39785, 6, 255)
+     , (39785, 16, 32)
+     , (39785, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39785, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39785, 13, True)
+     , (39785, 12, True)
+     , (39785, 11, True)
+     , (39785, 14, True)
+     , (39785, 41, True)
+     , (39785, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39785, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39785, 0, 83893054, 83893054)
+     , (39785, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39785, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39768, 'ace39768-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39768, 4, 39768, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39768, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39768, 8, 100671368)
+     , (39768, 1, 33560703)
+     , (39768, 3, 536870932)
+     , (39768, 2, 150995429)
+     , (39768, 22, 872415275)
+     , (39768, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39768, 1, 16)
+     , (39768, 7, 255)
+     , (39768, 6, 255)
+     , (39768, 16, 32)
+     , (39768, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39768, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39768, 13, True)
+     , (39768, 12, True)
+     , (39768, 11, True)
+     , (39768, 14, True)
+     , (39768, 41, True)
+     , (39768, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39768, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39768, 0, 83893054, 83893054)
+     , (39768, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39768, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39827, 'ace39827-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39827, 4, 39827, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39827, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39827, 8, 100671368)
+     , (39827, 1, 33560703)
+     , (39827, 3, 536870932)
+     , (39827, 2, 150995429)
+     , (39827, 22, 872415275)
+     , (39827, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39827, 1, 16)
+     , (39827, 7, 255)
+     , (39827, 6, 255)
+     , (39827, 16, 32)
+     , (39827, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39827, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39827, 13, True)
+     , (39827, 12, True)
+     , (39827, 11, True)
+     , (39827, 14, True)
+     , (39827, 41, True)
+     , (39827, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39827, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39827, 0, 83893054, 83893054)
+     , (39827, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39827, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39841, 'ace39841-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39841, 4, 39841, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39841, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39841, 8, 100671368)
+     , (39841, 1, 33560703)
+     , (39841, 3, 536870932)
+     , (39841, 2, 150995429)
+     , (39841, 22, 872415275)
+     , (39841, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39841, 1, 16)
+     , (39841, 7, 255)
+     , (39841, 6, 255)
+     , (39841, 16, 32)
+     , (39841, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39841, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39841, 13, True)
+     , (39841, 12, True)
+     , (39841, 11, True)
+     , (39841, 14, True)
+     , (39841, 41, True)
+     , (39841, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39841, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39841, 0, 83893054, 83893054)
+     , (39841, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39841, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39842, 'ace39842-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39842, 4, 39842, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39842, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39842, 8, 100671368)
+     , (39842, 1, 33560703)
+     , (39842, 3, 536870932)
+     , (39842, 2, 150995429)
+     , (39842, 22, 872415275)
+     , (39842, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39842, 1, 16)
+     , (39842, 7, 255)
+     , (39842, 6, 255)
+     , (39842, 16, 32)
+     , (39842, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39842, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39842, 13, True)
+     , (39842, 12, True)
+     , (39842, 11, True)
+     , (39842, 14, True)
+     , (39842, 41, True)
+     , (39842, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39842, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39842, 0, 83893054, 83893054)
+     , (39842, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39842, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39811, 'ace39811-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39811, 4, 39811, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39811, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39811, 8, 100671368)
+     , (39811, 1, 33560703)
+     , (39811, 3, 536870932)
+     , (39811, 2, 150995429)
+     , (39811, 22, 872415275)
+     , (39811, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39811, 1, 16)
+     , (39811, 7, 255)
+     , (39811, 6, 255)
+     , (39811, 16, 32)
+     , (39811, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39811, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39811, 13, True)
+     , (39811, 12, True)
+     , (39811, 11, True)
+     , (39811, 14, True)
+     , (39811, 41, True)
+     , (39811, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39811, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39811, 0, 83893054, 83893054)
+     , (39811, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39811, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39771, 'ace39771-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39771, 4, 39771, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39771, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39771, 8, 100671368)
+     , (39771, 1, 33560703)
+     , (39771, 3, 536870932)
+     , (39771, 2, 150995429)
+     , (39771, 22, 872415275)
+     , (39771, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39771, 1, 16)
+     , (39771, 7, 255)
+     , (39771, 6, 255)
+     , (39771, 16, 32)
+     , (39771, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39771, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39771, 13, True)
+     , (39771, 12, True)
+     , (39771, 11, True)
+     , (39771, 14, True)
+     , (39771, 41, True)
+     , (39771, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39771, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39771, 0, 83893054, 83893054)
+     , (39771, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39771, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39821, 'ace39821-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39821, 4, 39821, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39821, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39821, 8, 100671368)
+     , (39821, 1, 33560703)
+     , (39821, 3, 536870932)
+     , (39821, 2, 150995429)
+     , (39821, 22, 872415275)
+     , (39821, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39821, 1, 16)
+     , (39821, 7, 255)
+     , (39821, 6, 255)
+     , (39821, 16, 32)
+     , (39821, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39821, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39821, 13, True)
+     , (39821, 12, True)
+     , (39821, 11, True)
+     , (39821, 14, True)
+     , (39821, 41, True)
+     , (39821, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39821, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39821, 0, 83893054, 83893054)
+     , (39821, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39821, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39784, 'ace39784-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39784, 54, 39784, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39784, 4, 39784, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39784, 1, 'Exploration Marker');
@@ -179,55 +854,235 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39784, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39803, 'ace39803-explorationmarker');
+VALUES (39760, 'ace39760-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39803, 54, 39803, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39760, 4, 39760, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39803, 1, 'Exploration Marker');
+VALUES (39760, 1, 'Exploration Marker');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39803, 8, 100671368)
-     , (39803, 1, 33560703)
-     , (39803, 3, 536870932)
-     , (39803, 2, 150995429)
-     , (39803, 22, 872415275)
-     , (39803, 6, 67113133);
+VALUES (39760, 8, 100671368)
+     , (39760, 1, 33560703)
+     , (39760, 3, 536870932)
+     , (39760, 2, 150995429)
+     , (39760, 22, 872415275)
+     , (39760, 6, 67113133);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39803, 1, 16)
-     , (39803, 7, 255)
-     , (39803, 6, 255)
-     , (39803, 16, 32)
-     , (39803, 93, 6292508);
+VALUES (39760, 1, 16)
+     , (39760, 7, 255)
+     , (39760, 6, 255)
+     , (39760, 16, 32)
+     , (39760, 93, 6292508);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39803, 54, 3);
+VALUES (39760, 54, 3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39803, 13, True)
-     , (39803, 12, True)
-     , (39803, 11, True)
-     , (39803, 14, True)
-     , (39803, 41, True)
-     , (39803, 42, True);
+VALUES (39760, 13, True)
+     , (39760, 12, True)
+     , (39760, 11, True)
+     , (39760, 14, True)
+     , (39760, 41, True)
+     , (39760, 42, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39803, 67111092, 0, 0);
+VALUES (39760, 67111092, 0, 0);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39803, 0, 83893054, 83893054)
-     , (39803, 0, 83893053, 83893053);
+VALUES (39760, 0, 83893054, 83893054)
+     , (39760, 0, 83893053, 83893053);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39803, 0, 16794232);
+VALUES (39760, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39844, 'ace39844-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39844, 4, 39844, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39844, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39844, 8, 100671368)
+     , (39844, 1, 33560703)
+     , (39844, 3, 536870932)
+     , (39844, 2, 150995429)
+     , (39844, 22, 872415275)
+     , (39844, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39844, 1, 16)
+     , (39844, 7, 255)
+     , (39844, 6, 255)
+     , (39844, 16, 32)
+     , (39844, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39844, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39844, 13, True)
+     , (39844, 12, True)
+     , (39844, 11, True)
+     , (39844, 14, True)
+     , (39844, 41, True)
+     , (39844, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39844, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39844, 0, 83893054, 83893054)
+     , (39844, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39844, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39828, 'ace39828-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39828, 4, 39828, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39828, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39828, 8, 100671368)
+     , (39828, 1, 33560703)
+     , (39828, 3, 536870932)
+     , (39828, 2, 150995429)
+     , (39828, 22, 872415275)
+     , (39828, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39828, 1, 16)
+     , (39828, 7, 255)
+     , (39828, 6, 255)
+     , (39828, 16, 32)
+     , (39828, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39828, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39828, 13, True)
+     , (39828, 12, True)
+     , (39828, 11, True)
+     , (39828, 14, True)
+     , (39828, 41, True)
+     , (39828, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39828, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39828, 0, 83893054, 83893054)
+     , (39828, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39828, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39778, 'ace39778-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39778, 4, 39778, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39778, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39778, 8, 100671368)
+     , (39778, 1, 33560703)
+     , (39778, 3, 536870932)
+     , (39778, 2, 150995429)
+     , (39778, 22, 872415275)
+     , (39778, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39778, 1, 16)
+     , (39778, 7, 255)
+     , (39778, 6, 255)
+     , (39778, 16, 32)
+     , (39778, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39778, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39778, 13, True)
+     , (39778, 12, True)
+     , (39778, 11, True)
+     , (39778, 14, True)
+     , (39778, 41, True)
+     , (39778, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39778, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39778, 0, 83893054, 83893054)
+     , (39778, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39778, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39767, 'ace39767-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39767, 4, 39767, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39767, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39767, 8, 100671368)
+     , (39767, 1, 33560703)
+     , (39767, 3, 536870932)
+     , (39767, 2, 150995429)
+     , (39767, 22, 872415275)
+     , (39767, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39767, 1, 16)
+     , (39767, 7, 255)
+     , (39767, 6, 255)
+     , (39767, 16, 32)
+     , (39767, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39767, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39767, 13, True)
+     , (39767, 12, True)
+     , (39767, 11, True)
+     , (39767, 14, True)
+     , (39767, 41, True)
+     , (39767, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39767, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39767, 0, 83893054, 83893054)
+     , (39767, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39767, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39815, 'ace39815-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39815, 54, 39815, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39815, 4, 39815, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39815, 1, 'Exploration Marker');
@@ -269,10 +1124,640 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39815, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39787, 'ace39787-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39787, 4, 39787, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39787, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39787, 8, 100671368)
+     , (39787, 1, 33560703)
+     , (39787, 3, 536870932)
+     , (39787, 2, 150995429)
+     , (39787, 22, 872415275)
+     , (39787, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39787, 1, 16)
+     , (39787, 7, 255)
+     , (39787, 6, 255)
+     , (39787, 16, 32)
+     , (39787, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39787, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39787, 13, True)
+     , (39787, 12, True)
+     , (39787, 11, True)
+     , (39787, 14, True)
+     , (39787, 41, True)
+     , (39787, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39787, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39787, 0, 83893054, 83893054)
+     , (39787, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39787, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39840, 'ace39840-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39840, 4, 39840, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39840, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39840, 8, 100671368)
+     , (39840, 1, 33560703)
+     , (39840, 3, 536870932)
+     , (39840, 2, 150995429)
+     , (39840, 22, 872415275)
+     , (39840, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39840, 1, 16)
+     , (39840, 7, 255)
+     , (39840, 6, 255)
+     , (39840, 16, 32)
+     , (39840, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39840, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39840, 13, True)
+     , (39840, 12, True)
+     , (39840, 11, True)
+     , (39840, 14, True)
+     , (39840, 41, True)
+     , (39840, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39840, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39840, 0, 83893054, 83893054)
+     , (39840, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39840, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39790, 'ace39790-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39790, 4, 39790, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39790, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39790, 8, 100671368)
+     , (39790, 1, 33560703)
+     , (39790, 3, 536870932)
+     , (39790, 2, 150995429)
+     , (39790, 22, 872415275)
+     , (39790, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39790, 1, 16)
+     , (39790, 7, 255)
+     , (39790, 6, 255)
+     , (39790, 16, 32)
+     , (39790, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39790, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39790, 13, True)
+     , (39790, 12, True)
+     , (39790, 11, True)
+     , (39790, 14, True)
+     , (39790, 41, True)
+     , (39790, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39790, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39790, 0, 83893054, 83893054)
+     , (39790, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39790, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39753, 'ace39753-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39753, 4, 39753, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39753, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39753, 8, 100671368)
+     , (39753, 1, 33560703)
+     , (39753, 3, 536870932)
+     , (39753, 2, 150995429)
+     , (39753, 22, 872415275)
+     , (39753, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39753, 1, 16)
+     , (39753, 7, 255)
+     , (39753, 6, 255)
+     , (39753, 16, 32)
+     , (39753, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39753, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39753, 13, True)
+     , (39753, 12, True)
+     , (39753, 11, True)
+     , (39753, 14, True)
+     , (39753, 41, True)
+     , (39753, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39753, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39753, 0, 83893054, 83893054)
+     , (39753, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39753, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39763, 'ace39763-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39763, 4, 39763, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39763, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39763, 8, 100671368)
+     , (39763, 1, 33560703)
+     , (39763, 3, 536870932)
+     , (39763, 2, 150995429)
+     , (39763, 22, 872415275)
+     , (39763, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39763, 1, 16)
+     , (39763, 7, 255)
+     , (39763, 6, 255)
+     , (39763, 16, 32)
+     , (39763, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39763, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39763, 13, True)
+     , (39763, 12, True)
+     , (39763, 11, True)
+     , (39763, 14, True)
+     , (39763, 41, True)
+     , (39763, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39763, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39763, 0, 83893054, 83893054)
+     , (39763, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39763, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39770, 'ace39770-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39770, 4, 39770, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39770, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39770, 8, 100671368)
+     , (39770, 1, 33560703)
+     , (39770, 3, 536870932)
+     , (39770, 2, 150995429)
+     , (39770, 22, 872415275)
+     , (39770, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39770, 1, 16)
+     , (39770, 7, 255)
+     , (39770, 6, 255)
+     , (39770, 16, 32)
+     , (39770, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39770, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39770, 13, True)
+     , (39770, 12, True)
+     , (39770, 11, True)
+     , (39770, 14, True)
+     , (39770, 41, True)
+     , (39770, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39770, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39770, 0, 83893054, 83893054)
+     , (39770, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39770, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39788, 'ace39788-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39788, 4, 39788, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39788, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39788, 8, 100671368)
+     , (39788, 1, 33560703)
+     , (39788, 3, 536870932)
+     , (39788, 2, 150995429)
+     , (39788, 22, 872415275)
+     , (39788, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39788, 1, 16)
+     , (39788, 7, 255)
+     , (39788, 6, 255)
+     , (39788, 16, 32)
+     , (39788, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39788, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39788, 13, True)
+     , (39788, 12, True)
+     , (39788, 11, True)
+     , (39788, 14, True)
+     , (39788, 41, True)
+     , (39788, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39788, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39788, 0, 83893054, 83893054)
+     , (39788, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39788, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39800, 'ace39800-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39800, 4, 39800, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39800, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39800, 8, 100671368)
+     , (39800, 1, 33560703)
+     , (39800, 3, 536870932)
+     , (39800, 2, 150995429)
+     , (39800, 22, 872415275)
+     , (39800, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39800, 1, 16)
+     , (39800, 7, 255)
+     , (39800, 6, 255)
+     , (39800, 16, 32)
+     , (39800, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39800, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39800, 13, True)
+     , (39800, 12, True)
+     , (39800, 11, True)
+     , (39800, 14, True)
+     , (39800, 41, True)
+     , (39800, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39800, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39800, 0, 83893054, 83893054)
+     , (39800, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39800, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39775, 'ace39775-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39775, 4, 39775, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39775, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39775, 8, 100671368)
+     , (39775, 1, 33560703)
+     , (39775, 3, 536870932)
+     , (39775, 2, 150995429)
+     , (39775, 22, 872415275)
+     , (39775, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39775, 1, 16)
+     , (39775, 7, 255)
+     , (39775, 6, 255)
+     , (39775, 16, 32)
+     , (39775, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39775, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39775, 13, True)
+     , (39775, 12, True)
+     , (39775, 11, True)
+     , (39775, 14, True)
+     , (39775, 41, True)
+     , (39775, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39775, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39775, 0, 83893054, 83893054)
+     , (39775, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39775, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39829, 'ace39829-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39829, 4, 39829, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39829, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39829, 8, 100671368)
+     , (39829, 1, 33560703)
+     , (39829, 3, 536870932)
+     , (39829, 2, 150995429)
+     , (39829, 22, 872415275)
+     , (39829, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39829, 1, 16)
+     , (39829, 7, 255)
+     , (39829, 6, 255)
+     , (39829, 16, 32)
+     , (39829, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39829, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39829, 13, True)
+     , (39829, 12, True)
+     , (39829, 11, True)
+     , (39829, 14, True)
+     , (39829, 41, True)
+     , (39829, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39829, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39829, 0, 83893054, 83893054)
+     , (39829, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39829, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39774, 'ace39774-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39774, 4, 39774, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39774, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39774, 8, 100671368)
+     , (39774, 1, 33560703)
+     , (39774, 3, 536870932)
+     , (39774, 2, 150995429)
+     , (39774, 22, 872415275)
+     , (39774, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39774, 1, 16)
+     , (39774, 7, 255)
+     , (39774, 6, 255)
+     , (39774, 16, 32)
+     , (39774, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39774, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39774, 13, True)
+     , (39774, 12, True)
+     , (39774, 11, True)
+     , (39774, 14, True)
+     , (39774, 41, True)
+     , (39774, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39774, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39774, 0, 83893054, 83893054)
+     , (39774, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39774, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39814, 'ace39814-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39814, 4, 39814, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39814, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39814, 8, 100671368)
+     , (39814, 1, 33560703)
+     , (39814, 3, 536870932)
+     , (39814, 2, 150995429)
+     , (39814, 22, 872415275)
+     , (39814, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39814, 1, 16)
+     , (39814, 7, 255)
+     , (39814, 6, 255)
+     , (39814, 16, 32)
+     , (39814, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39814, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39814, 13, True)
+     , (39814, 12, True)
+     , (39814, 11, True)
+     , (39814, 14, True)
+     , (39814, 41, True)
+     , (39814, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39814, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39814, 0, 83893054, 83893054)
+     , (39814, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39814, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39805, 'ace39805-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39805, 4, 39805, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39805, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39805, 8, 100671368)
+     , (39805, 1, 33560703)
+     , (39805, 3, 536870932)
+     , (39805, 2, 150995429)
+     , (39805, 22, 872415275)
+     , (39805, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39805, 1, 16)
+     , (39805, 7, 255)
+     , (39805, 6, 255)
+     , (39805, 16, 32)
+     , (39805, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39805, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39805, 13, True)
+     , (39805, 12, True)
+     , (39805, 11, True)
+     , (39805, 14, True)
+     , (39805, 41, True)
+     , (39805, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39805, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39805, 0, 83893054, 83893054)
+     , (39805, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39805, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39803, 'ace39803-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39803, 4, 39803, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39803, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39803, 8, 100671368)
+     , (39803, 1, 33560703)
+     , (39803, 3, 536870932)
+     , (39803, 2, 150995429)
+     , (39803, 22, 872415275)
+     , (39803, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39803, 1, 16)
+     , (39803, 7, 255)
+     , (39803, 6, 255)
+     , (39803, 16, 32)
+     , (39803, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39803, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39803, 13, True)
+     , (39803, 12, True)
+     , (39803, 11, True)
+     , (39803, 14, True)
+     , (39803, 41, True)
+     , (39803, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39803, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39803, 0, 83893054, 83893054)
+     , (39803, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39803, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39820, 'ace39820-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39820, 54, 39820, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39820, 4, 39820, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39820, 1, 'Exploration Marker');
@@ -317,7 +1802,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39776, 'ace39776-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39776, 54, 39776, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39776, 4, 39776, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39776, 1, 'Exploration Marker');
@@ -359,415 +1844,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39776, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39801, 'ace39801-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39801, 54, 39801, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39801, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39801, 8, 100671368)
-     , (39801, 1, 33560703)
-     , (39801, 3, 536870932)
-     , (39801, 2, 150995429)
-     , (39801, 22, 872415275)
-     , (39801, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39801, 1, 16)
-     , (39801, 7, 255)
-     , (39801, 6, 255)
-     , (39801, 16, 32)
-     , (39801, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39801, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39801, 13, True)
-     , (39801, 12, True)
-     , (39801, 11, True)
-     , (39801, 14, True)
-     , (39801, 41, True)
-     , (39801, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39801, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39801, 0, 83893054, 83893054)
-     , (39801, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39801, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39788, 'ace39788-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39788, 54, 39788, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39788, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39788, 8, 100671368)
-     , (39788, 1, 33560703)
-     , (39788, 3, 536870932)
-     , (39788, 2, 150995429)
-     , (39788, 22, 872415275)
-     , (39788, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39788, 1, 16)
-     , (39788, 7, 255)
-     , (39788, 6, 255)
-     , (39788, 16, 32)
-     , (39788, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39788, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39788, 13, True)
-     , (39788, 12, True)
-     , (39788, 11, True)
-     , (39788, 14, True)
-     , (39788, 41, True)
-     , (39788, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39788, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39788, 0, 83893054, 83893054)
-     , (39788, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39788, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39748, 'ace39748-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39748, 54, 39748, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39748, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39748, 8, 100671368)
-     , (39748, 1, 33560703)
-     , (39748, 3, 536870932)
-     , (39748, 2, 150995429)
-     , (39748, 22, 872415275)
-     , (39748, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39748, 1, 16)
-     , (39748, 7, 255)
-     , (39748, 6, 255)
-     , (39748, 16, 32)
-     , (39748, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39748, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39748, 13, True)
-     , (39748, 12, True)
-     , (39748, 11, True)
-     , (39748, 14, True)
-     , (39748, 41, True)
-     , (39748, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39748, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39748, 0, 83893054, 83893054)
-     , (39748, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39748, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39778, 'ace39778-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39778, 54, 39778, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39778, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39778, 8, 100671368)
-     , (39778, 1, 33560703)
-     , (39778, 3, 536870932)
-     , (39778, 2, 150995429)
-     , (39778, 22, 872415275)
-     , (39778, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39778, 1, 16)
-     , (39778, 7, 255)
-     , (39778, 6, 255)
-     , (39778, 16, 32)
-     , (39778, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39778, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39778, 13, True)
-     , (39778, 12, True)
-     , (39778, 11, True)
-     , (39778, 14, True)
-     , (39778, 41, True)
-     , (39778, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39778, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39778, 0, 83893054, 83893054)
-     , (39778, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39778, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39800, 'ace39800-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39800, 54, 39800, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39800, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39800, 8, 100671368)
-     , (39800, 1, 33560703)
-     , (39800, 3, 536870932)
-     , (39800, 2, 150995429)
-     , (39800, 22, 872415275)
-     , (39800, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39800, 1, 16)
-     , (39800, 7, 255)
-     , (39800, 6, 255)
-     , (39800, 16, 32)
-     , (39800, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39800, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39800, 13, True)
-     , (39800, 12, True)
-     , (39800, 11, True)
-     , (39800, 14, True)
-     , (39800, 41, True)
-     , (39800, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39800, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39800, 0, 83893054, 83893054)
-     , (39800, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39800, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39826, 'ace39826-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39826, 54, 39826, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39826, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39826, 8, 100671368)
-     , (39826, 1, 33560703)
-     , (39826, 3, 536870932)
-     , (39826, 2, 150995429)
-     , (39826, 22, 872415275)
-     , (39826, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39826, 1, 16)
-     , (39826, 7, 255)
-     , (39826, 6, 255)
-     , (39826, 16, 32)
-     , (39826, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39826, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39826, 13, True)
-     , (39826, 12, True)
-     , (39826, 11, True)
-     , (39826, 14, True)
-     , (39826, 41, True)
-     , (39826, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39826, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39826, 0, 83893054, 83893054)
-     , (39826, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39826, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39835, 'ace39835-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39835, 54, 39835, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39835, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39835, 8, 100671368)
-     , (39835, 1, 33560703)
-     , (39835, 3, 536870932)
-     , (39835, 2, 150995429)
-     , (39835, 22, 872415275)
-     , (39835, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39835, 1, 16)
-     , (39835, 7, 255)
-     , (39835, 6, 255)
-     , (39835, 16, 32)
-     , (39835, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39835, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39835, 13, True)
-     , (39835, 12, True)
-     , (39835, 11, True)
-     , (39835, 14, True)
-     , (39835, 41, True)
-     , (39835, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39835, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39835, 0, 83893054, 83893054)
-     , (39835, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39835, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39842, 'ace39842-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39842, 54, 39842, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39842, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39842, 8, 100671368)
-     , (39842, 1, 33560703)
-     , (39842, 3, 536870932)
-     , (39842, 2, 150995429)
-     , (39842, 22, 872415275)
-     , (39842, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39842, 1, 16)
-     , (39842, 7, 255)
-     , (39842, 6, 255)
-     , (39842, 16, 32)
-     , (39842, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39842, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39842, 13, True)
-     , (39842, 12, True)
-     , (39842, 11, True)
-     , (39842, 14, True)
-     , (39842, 41, True)
-     , (39842, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39842, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39842, 0, 83893054, 83893054)
-     , (39842, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39842, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39772, 'ace39772-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39772, 54, 39772, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39772, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39772, 8, 100671368)
-     , (39772, 1, 33560703)
-     , (39772, 3, 536870932)
-     , (39772, 2, 150995429)
-     , (39772, 22, 872415275)
-     , (39772, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39772, 1, 16)
-     , (39772, 7, 255)
-     , (39772, 6, 255)
-     , (39772, 16, 32)
-     , (39772, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39772, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39772, 13, True)
-     , (39772, 12, True)
-     , (39772, 11, True)
-     , (39772, 14, True)
-     , (39772, 41, True)
-     , (39772, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39772, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39772, 0, 83893054, 83893054)
-     , (39772, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39772, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39816, 'ace39816-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39816, 54, 39816, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39816, 4, 39816, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39816, 1, 'Exploration Marker');
@@ -809,10 +1889,415 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39816, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39802, 'ace39802-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39802, 4, 39802, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39802, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39802, 8, 100671368)
+     , (39802, 1, 33560703)
+     , (39802, 3, 536870932)
+     , (39802, 2, 150995429)
+     , (39802, 22, 872415275)
+     , (39802, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39802, 1, 16)
+     , (39802, 7, 255)
+     , (39802, 6, 255)
+     , (39802, 16, 32)
+     , (39802, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39802, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39802, 13, True)
+     , (39802, 12, True)
+     , (39802, 11, True)
+     , (39802, 14, True)
+     , (39802, 41, True)
+     , (39802, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39802, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39802, 0, 83893054, 83893054)
+     , (39802, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39802, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39754, 'ace39754-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39754, 4, 39754, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39754, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39754, 8, 100671368)
+     , (39754, 1, 33560703)
+     , (39754, 3, 536870932)
+     , (39754, 2, 150995429)
+     , (39754, 22, 872415275)
+     , (39754, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39754, 1, 16)
+     , (39754, 7, 255)
+     , (39754, 6, 255)
+     , (39754, 16, 32)
+     , (39754, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39754, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39754, 13, True)
+     , (39754, 12, True)
+     , (39754, 11, True)
+     , (39754, 14, True)
+     , (39754, 41, True)
+     , (39754, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39754, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39754, 0, 83893054, 83893054)
+     , (39754, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39754, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39835, 'ace39835-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39835, 4, 39835, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39835, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39835, 8, 100671368)
+     , (39835, 1, 33560703)
+     , (39835, 3, 536870932)
+     , (39835, 2, 150995429)
+     , (39835, 22, 872415275)
+     , (39835, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39835, 1, 16)
+     , (39835, 7, 255)
+     , (39835, 6, 255)
+     , (39835, 16, 32)
+     , (39835, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39835, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39835, 13, True)
+     , (39835, 12, True)
+     , (39835, 11, True)
+     , (39835, 14, True)
+     , (39835, 41, True)
+     , (39835, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39835, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39835, 0, 83893054, 83893054)
+     , (39835, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39835, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39846, 'ace39846-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39846, 4, 39846, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39846, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39846, 8, 100671368)
+     , (39846, 1, 33560703)
+     , (39846, 3, 536870932)
+     , (39846, 2, 150995429)
+     , (39846, 22, 872415275)
+     , (39846, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39846, 1, 16)
+     , (39846, 7, 255)
+     , (39846, 6, 255)
+     , (39846, 16, 32)
+     , (39846, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39846, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39846, 13, True)
+     , (39846, 12, True)
+     , (39846, 11, True)
+     , (39846, 14, True)
+     , (39846, 41, True)
+     , (39846, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39846, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39846, 0, 83893054, 83893054)
+     , (39846, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39846, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39794, 'ace39794-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39794, 4, 39794, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39794, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39794, 8, 100671368)
+     , (39794, 1, 33560703)
+     , (39794, 3, 536870932)
+     , (39794, 2, 150995429)
+     , (39794, 22, 872415275)
+     , (39794, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39794, 1, 16)
+     , (39794, 7, 255)
+     , (39794, 6, 255)
+     , (39794, 16, 32)
+     , (39794, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39794, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39794, 13, True)
+     , (39794, 12, True)
+     , (39794, 11, True)
+     , (39794, 14, True)
+     , (39794, 41, True)
+     , (39794, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39794, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39794, 0, 83893054, 83893054)
+     , (39794, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39794, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39832, 'ace39832-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39832, 4, 39832, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39832, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39832, 8, 100671368)
+     , (39832, 1, 33560703)
+     , (39832, 3, 536870932)
+     , (39832, 2, 150995429)
+     , (39832, 22, 872415275)
+     , (39832, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39832, 1, 16)
+     , (39832, 7, 255)
+     , (39832, 6, 255)
+     , (39832, 16, 32)
+     , (39832, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39832, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39832, 13, True)
+     , (39832, 12, True)
+     , (39832, 11, True)
+     , (39832, 14, True)
+     , (39832, 41, True)
+     , (39832, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39832, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39832, 0, 83893054, 83893054)
+     , (39832, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39832, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39834, 'ace39834-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39834, 4, 39834, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39834, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39834, 8, 100671368)
+     , (39834, 1, 33560703)
+     , (39834, 3, 536870932)
+     , (39834, 2, 150995429)
+     , (39834, 22, 872415275)
+     , (39834, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39834, 1, 16)
+     , (39834, 7, 255)
+     , (39834, 6, 255)
+     , (39834, 16, 32)
+     , (39834, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39834, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39834, 13, True)
+     , (39834, 12, True)
+     , (39834, 11, True)
+     , (39834, 14, True)
+     , (39834, 41, True)
+     , (39834, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39834, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39834, 0, 83893054, 83893054)
+     , (39834, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39834, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39798, 'ace39798-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39798, 4, 39798, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39798, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39798, 8, 100671368)
+     , (39798, 1, 33560703)
+     , (39798, 3, 536870932)
+     , (39798, 2, 150995429)
+     , (39798, 22, 872415275)
+     , (39798, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39798, 1, 16)
+     , (39798, 7, 255)
+     , (39798, 6, 255)
+     , (39798, 16, 32)
+     , (39798, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39798, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39798, 13, True)
+     , (39798, 12, True)
+     , (39798, 11, True)
+     , (39798, 14, True)
+     , (39798, 41, True)
+     , (39798, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39798, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39798, 0, 83893054, 83893054)
+     , (39798, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39798, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39772, 'ace39772-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39772, 4, 39772, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39772, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39772, 8, 100671368)
+     , (39772, 1, 33560703)
+     , (39772, 3, 536870932)
+     , (39772, 2, 150995429)
+     , (39772, 22, 872415275)
+     , (39772, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39772, 1, 16)
+     , (39772, 7, 255)
+     , (39772, 6, 255)
+     , (39772, 16, 32)
+     , (39772, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39772, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39772, 13, True)
+     , (39772, 12, True)
+     , (39772, 11, True)
+     , (39772, 14, True)
+     , (39772, 41, True)
+     , (39772, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39772, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39772, 0, 83893054, 83893054)
+     , (39772, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39772, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39783, 'ace39783-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39783, 54, 39783, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39783, 4, 39783, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39783, 1, 'Exploration Marker');
@@ -854,55 +2339,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39783, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39838, 'ace39838-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39838, 54, 39838, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39838, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39838, 8, 100671368)
-     , (39838, 1, 33560703)
-     , (39838, 3, 536870932)
-     , (39838, 2, 150995429)
-     , (39838, 22, 872415275)
-     , (39838, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39838, 1, 16)
-     , (39838, 7, 255)
-     , (39838, 6, 255)
-     , (39838, 16, 32)
-     , (39838, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39838, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39838, 13, True)
-     , (39838, 12, True)
-     , (39838, 11, True)
-     , (39838, 14, True)
-     , (39838, 41, True)
-     , (39838, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39838, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39838, 0, 83893054, 83893054)
-     , (39838, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39838, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39810, 'ace39810-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39810, 54, 39810, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39810, 4, 39810, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39810, 1, 'Exploration Marker');
@@ -947,7 +2387,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39749, 'ace39749-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39749, 54, 39749, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39749, 4, 39749, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39749, 1, 'Exploration Marker');
@@ -992,7 +2432,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39839, 'ace39839-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39839, 54, 39839, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39839, 4, 39839, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39839, 1, 'Exploration Marker');
@@ -1034,100 +2474,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39839, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39754, 'ace39754-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39754, 54, 39754, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39754, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39754, 8, 100671368)
-     , (39754, 1, 33560703)
-     , (39754, 3, 536870932)
-     , (39754, 2, 150995429)
-     , (39754, 22, 872415275)
-     , (39754, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39754, 1, 16)
-     , (39754, 7, 255)
-     , (39754, 6, 255)
-     , (39754, 16, 32)
-     , (39754, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39754, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39754, 13, True)
-     , (39754, 12, True)
-     , (39754, 11, True)
-     , (39754, 14, True)
-     , (39754, 41, True)
-     , (39754, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39754, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39754, 0, 83893054, 83893054)
-     , (39754, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39754, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39811, 'ace39811-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39811, 54, 39811, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39811, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39811, 8, 100671368)
-     , (39811, 1, 33560703)
-     , (39811, 3, 536870932)
-     , (39811, 2, 150995429)
-     , (39811, 22, 872415275)
-     , (39811, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39811, 1, 16)
-     , (39811, 7, 255)
-     , (39811, 6, 255)
-     , (39811, 16, 32)
-     , (39811, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39811, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39811, 13, True)
-     , (39811, 12, True)
-     , (39811, 11, True)
-     , (39811, 14, True)
-     , (39811, 41, True)
-     , (39811, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39811, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39811, 0, 83893054, 83893054)
-     , (39811, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39811, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39750, 'ace39750-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39750, 54, 39750, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39750, 4, 39750, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39750, 1, 'Exploration Marker');
@@ -1172,7 +2522,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39755, 'ace39755-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39755, 54, 39755, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39755, 4, 39755, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39755, 1, 'Exploration Marker');
@@ -1214,55 +2564,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39755, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39817, 'ace39817-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39817, 54, 39817, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39817, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39817, 8, 100671368)
-     , (39817, 1, 33560703)
-     , (39817, 3, 536870932)
-     , (39817, 2, 150995429)
-     , (39817, 22, 872415275)
-     , (39817, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39817, 1, 16)
-     , (39817, 7, 255)
-     , (39817, 6, 255)
-     , (39817, 16, 32)
-     , (39817, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39817, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39817, 13, True)
-     , (39817, 12, True)
-     , (39817, 11, True)
-     , (39817, 14, True)
-     , (39817, 41, True)
-     , (39817, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39817, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39817, 0, 83893054, 83893054)
-     , (39817, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39817, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39781, 'ace39781-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39781, 54, 39781, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39781, 4, 39781, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39781, 1, 'Exploration Marker');
@@ -1307,7 +2612,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39806, 'ace39806-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39806, 54, 39806, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39806, 4, 39806, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39806, 1, 'Exploration Marker');
@@ -1349,55 +2654,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39806, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39791, 'ace39791-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39791, 54, 39791, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39791, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39791, 8, 100671368)
-     , (39791, 1, 33560703)
-     , (39791, 3, 536870932)
-     , (39791, 2, 150995429)
-     , (39791, 22, 872415275)
-     , (39791, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39791, 1, 16)
-     , (39791, 7, 255)
-     , (39791, 6, 255)
-     , (39791, 16, 32)
-     , (39791, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39791, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39791, 13, True)
-     , (39791, 12, True)
-     , (39791, 11, True)
-     , (39791, 14, True)
-     , (39791, 41, True)
-     , (39791, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39791, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39791, 0, 83893054, 83893054)
-     , (39791, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39791, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39847, 'ace39847-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39847, 54, 39847, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39847, 4, 39847, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39847, 1, 'Exploration Marker');
@@ -1442,7 +2702,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39773, 'ace39773-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39773, 54, 39773, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39773, 4, 39773, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39773, 1, 'Exploration Marker');
@@ -1487,7 +2747,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39756, 'ace39756-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39756, 54, 39756, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39756, 4, 39756, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39756, 1, 'Exploration Marker');
@@ -1529,100 +2789,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39756, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39768, 'ace39768-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39768, 54, 39768, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39768, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39768, 8, 100671368)
-     , (39768, 1, 33560703)
-     , (39768, 3, 536870932)
-     , (39768, 2, 150995429)
-     , (39768, 22, 872415275)
-     , (39768, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39768, 1, 16)
-     , (39768, 7, 255)
-     , (39768, 6, 255)
-     , (39768, 16, 32)
-     , (39768, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39768, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39768, 13, True)
-     , (39768, 12, True)
-     , (39768, 11, True)
-     , (39768, 14, True)
-     , (39768, 41, True)
-     , (39768, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39768, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39768, 0, 83893054, 83893054)
-     , (39768, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39768, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39771, 'ace39771-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39771, 54, 39771, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39771, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39771, 8, 100671368)
-     , (39771, 1, 33560703)
-     , (39771, 3, 536870932)
-     , (39771, 2, 150995429)
-     , (39771, 22, 872415275)
-     , (39771, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39771, 1, 16)
-     , (39771, 7, 255)
-     , (39771, 6, 255)
-     , (39771, 16, 32)
-     , (39771, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39771, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39771, 13, True)
-     , (39771, 12, True)
-     , (39771, 11, True)
-     , (39771, 14, True)
-     , (39771, 41, True)
-     , (39771, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39771, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39771, 0, 83893054, 83893054)
-     , (39771, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39771, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39807, 'ace39807-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39807, 54, 39807, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39807, 4, 39807, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39807, 1, 'Exploration Marker');
@@ -1667,7 +2837,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39822, 'ace39822-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39822, 54, 39822, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39822, 4, 39822, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39822, 1, 'Exploration Marker');
@@ -1712,7 +2882,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39758, 'ace39758-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39758, 54, 39758, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39758, 4, 39758, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39758, 1, 'Exploration Marker');
@@ -1757,7 +2927,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39819, 'ace39819-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39819, 54, 39819, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39819, 4, 39819, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39819, 1, 'Exploration Marker');
@@ -1802,7 +2972,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39845, 'ace39845-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39845, 54, 39845, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39845, 4, 39845, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39845, 1, 'Exploration Marker');
@@ -1847,7 +3017,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39793, 'ace39793-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39793, 54, 39793, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39793, 4, 39793, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39793, 1, 'Exploration Marker');
@@ -1892,7 +3062,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39830, 'ace39830-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39830, 54, 39830, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39830, 4, 39830, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39830, 1, 'Exploration Marker');
@@ -1934,100 +3104,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39830, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39840, 'ace39840-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39840, 54, 39840, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39840, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39840, 8, 100671368)
-     , (39840, 1, 33560703)
-     , (39840, 3, 536870932)
-     , (39840, 2, 150995429)
-     , (39840, 22, 872415275)
-     , (39840, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39840, 1, 16)
-     , (39840, 7, 255)
-     , (39840, 6, 255)
-     , (39840, 16, 32)
-     , (39840, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39840, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39840, 13, True)
-     , (39840, 12, True)
-     , (39840, 11, True)
-     , (39840, 14, True)
-     , (39840, 41, True)
-     , (39840, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39840, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39840, 0, 83893054, 83893054)
-     , (39840, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39840, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39787, 'ace39787-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39787, 54, 39787, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39787, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39787, 8, 100671368)
-     , (39787, 1, 33560703)
-     , (39787, 3, 536870932)
-     , (39787, 2, 150995429)
-     , (39787, 22, 872415275)
-     , (39787, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39787, 1, 16)
-     , (39787, 7, 255)
-     , (39787, 6, 255)
-     , (39787, 16, 32)
-     , (39787, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39787, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39787, 13, True)
-     , (39787, 12, True)
-     , (39787, 11, True)
-     , (39787, 14, True)
-     , (39787, 41, True)
-     , (39787, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39787, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39787, 0, 83893054, 83893054)
-     , (39787, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39787, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39766, 'ace39766-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39766, 54, 39766, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39766, 4, 39766, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39766, 1, 'Exploration Marker');
@@ -2069,55 +3149,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39766, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39828, 'ace39828-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39828, 54, 39828, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39828, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39828, 8, 100671368)
-     , (39828, 1, 33560703)
-     , (39828, 3, 536870932)
-     , (39828, 2, 150995429)
-     , (39828, 22, 872415275)
-     , (39828, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39828, 1, 16)
-     , (39828, 7, 255)
-     , (39828, 6, 255)
-     , (39828, 16, 32)
-     , (39828, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39828, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39828, 13, True)
-     , (39828, 12, True)
-     , (39828, 11, True)
-     , (39828, 14, True)
-     , (39828, 41, True)
-     , (39828, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39828, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39828, 0, 83893054, 83893054)
-     , (39828, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39828, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39837, 'ace39837-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39837, 54, 39837, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39837, 4, 39837, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39837, 1, 'Exploration Marker');
@@ -2162,7 +3197,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39765, 'ace39765-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39765, 54, 39765, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39765, 4, 39765, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39765, 1, 'Exploration Marker');
@@ -2207,7 +3242,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39752, 'ace39752-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39752, 54, 39752, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39752, 4, 39752, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39752, 1, 'Exploration Marker');
@@ -2252,7 +3287,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39818, 'ace39818-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39818, 54, 39818, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39818, 4, 39818, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39818, 1, 'Exploration Marker');
@@ -2297,7 +3332,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39782, 'ace39782-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39782, 54, 39782, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39782, 4, 39782, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39782, 1, 'Exploration Marker');
@@ -2339,190 +3374,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39782, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39795, 'ace39795-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39795, 54, 39795, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39795, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39795, 8, 100671368)
-     , (39795, 1, 33560703)
-     , (39795, 3, 536870932)
-     , (39795, 2, 150995429)
-     , (39795, 22, 872415275)
-     , (39795, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39795, 1, 16)
-     , (39795, 7, 255)
-     , (39795, 6, 255)
-     , (39795, 16, 32)
-     , (39795, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39795, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39795, 13, True)
-     , (39795, 12, True)
-     , (39795, 11, True)
-     , (39795, 14, True)
-     , (39795, 41, True)
-     , (39795, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39795, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39795, 0, 83893054, 83893054)
-     , (39795, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39795, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39779, 'ace39779-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39779, 54, 39779, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39779, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39779, 8, 100671368)
-     , (39779, 1, 33560703)
-     , (39779, 3, 536870932)
-     , (39779, 2, 150995429)
-     , (39779, 22, 872415275)
-     , (39779, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39779, 1, 16)
-     , (39779, 7, 255)
-     , (39779, 6, 255)
-     , (39779, 16, 32)
-     , (39779, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39779, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39779, 13, True)
-     , (39779, 12, True)
-     , (39779, 11, True)
-     , (39779, 14, True)
-     , (39779, 41, True)
-     , (39779, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39779, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39779, 0, 83893054, 83893054)
-     , (39779, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39779, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39757, 'ace39757-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39757, 54, 39757, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39757, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39757, 8, 100671368)
-     , (39757, 1, 33560703)
-     , (39757, 3, 536870932)
-     , (39757, 2, 150995429)
-     , (39757, 22, 872415275)
-     , (39757, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39757, 1, 16)
-     , (39757, 7, 255)
-     , (39757, 6, 255)
-     , (39757, 16, 32)
-     , (39757, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39757, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39757, 13, True)
-     , (39757, 12, True)
-     , (39757, 11, True)
-     , (39757, 14, True)
-     , (39757, 41, True)
-     , (39757, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39757, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39757, 0, 83893054, 83893054)
-     , (39757, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39757, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39846, 'ace39846-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39846, 54, 39846, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39846, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39846, 8, 100671368)
-     , (39846, 1, 33560703)
-     , (39846, 3, 536870932)
-     , (39846, 2, 150995429)
-     , (39846, 22, 872415275)
-     , (39846, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39846, 1, 16)
-     , (39846, 7, 255)
-     , (39846, 6, 255)
-     , (39846, 16, 32)
-     , (39846, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39846, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39846, 13, True)
-     , (39846, 12, True)
-     , (39846, 11, True)
-     , (39846, 14, True)
-     , (39846, 41, True)
-     , (39846, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39846, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39846, 0, 83893054, 83893054)
-     , (39846, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39846, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39825, 'ace39825-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39825, 54, 39825, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39825, 4, 39825, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39825, 1, 'Exploration Marker');
@@ -2564,55 +3419,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39825, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39814, 'ace39814-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39814, 54, 39814, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39814, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39814, 8, 100671368)
-     , (39814, 1, 33560703)
-     , (39814, 3, 536870932)
-     , (39814, 2, 150995429)
-     , (39814, 22, 872415275)
-     , (39814, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39814, 1, 16)
-     , (39814, 7, 255)
-     , (39814, 6, 255)
-     , (39814, 16, 32)
-     , (39814, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39814, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39814, 13, True)
-     , (39814, 12, True)
-     , (39814, 11, True)
-     , (39814, 14, True)
-     , (39814, 41, True)
-     , (39814, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39814, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39814, 0, 83893054, 83893054)
-     , (39814, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39814, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39797, 'ace39797-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39797, 54, 39797, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39797, 4, 39797, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39797, 1, 'Exploration Marker');
@@ -2654,100 +3464,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39797, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39798, 'ace39798-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39798, 54, 39798, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39798, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39798, 8, 100671368)
-     , (39798, 1, 33560703)
-     , (39798, 3, 536870932)
-     , (39798, 2, 150995429)
-     , (39798, 22, 872415275)
-     , (39798, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39798, 1, 16)
-     , (39798, 7, 255)
-     , (39798, 6, 255)
-     , (39798, 16, 32)
-     , (39798, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39798, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39798, 13, True)
-     , (39798, 12, True)
-     , (39798, 11, True)
-     , (39798, 14, True)
-     , (39798, 41, True)
-     , (39798, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39798, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39798, 0, 83893054, 83893054)
-     , (39798, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39798, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39775, 'ace39775-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39775, 54, 39775, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39775, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39775, 8, 100671368)
-     , (39775, 1, 33560703)
-     , (39775, 3, 536870932)
-     , (39775, 2, 150995429)
-     , (39775, 22, 872415275)
-     , (39775, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39775, 1, 16)
-     , (39775, 7, 255)
-     , (39775, 6, 255)
-     , (39775, 16, 32)
-     , (39775, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39775, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39775, 13, True)
-     , (39775, 12, True)
-     , (39775, 11, True)
-     , (39775, 14, True)
-     , (39775, 41, True)
-     , (39775, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39775, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39775, 0, 83893054, 83893054)
-     , (39775, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39775, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39769, 'ace39769-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39769, 54, 39769, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39769, 4, 39769, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39769, 1, 'Exploration Marker');
@@ -2789,55 +3509,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39769, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39831, 'ace39831-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39831, 54, 39831, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39831, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39831, 8, 100671368)
-     , (39831, 1, 33560703)
-     , (39831, 3, 536870932)
-     , (39831, 2, 150995429)
-     , (39831, 22, 872415275)
-     , (39831, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39831, 1, 16)
-     , (39831, 7, 255)
-     , (39831, 6, 255)
-     , (39831, 16, 32)
-     , (39831, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39831, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39831, 13, True)
-     , (39831, 12, True)
-     , (39831, 11, True)
-     , (39831, 14, True)
-     , (39831, 41, True)
-     , (39831, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39831, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39831, 0, 83893054, 83893054)
-     , (39831, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39831, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39780, 'ace39780-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39780, 54, 39780, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39780, 4, 39780, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39780, 1, 'Exploration Marker');
@@ -2882,7 +3557,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39796, 'ace39796-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39796, 54, 39796, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39796, 4, 39796, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39796, 1, 'Exploration Marker');
@@ -2927,7 +3602,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39833, 'ace39833-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39833, 54, 39833, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39833, 4, 39833, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39833, 1, 'Exploration Marker');
@@ -2969,100 +3644,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39833, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39841, 'ace39841-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39841, 54, 39841, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39841, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39841, 8, 100671368)
-     , (39841, 1, 33560703)
-     , (39841, 3, 536870932)
-     , (39841, 2, 150995429)
-     , (39841, 22, 872415275)
-     , (39841, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39841, 1, 16)
-     , (39841, 7, 255)
-     , (39841, 6, 255)
-     , (39841, 16, 32)
-     , (39841, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39841, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39841, 13, True)
-     , (39841, 12, True)
-     , (39841, 11, True)
-     , (39841, 14, True)
-     , (39841, 41, True)
-     , (39841, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39841, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39841, 0, 83893054, 83893054)
-     , (39841, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39841, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39802, 'ace39802-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39802, 54, 39802, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39802, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39802, 8, 100671368)
-     , (39802, 1, 33560703)
-     , (39802, 3, 536870932)
-     , (39802, 2, 150995429)
-     , (39802, 22, 872415275)
-     , (39802, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39802, 1, 16)
-     , (39802, 7, 255)
-     , (39802, 6, 255)
-     , (39802, 16, 32)
-     , (39802, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39802, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39802, 13, True)
-     , (39802, 12, True)
-     , (39802, 11, True)
-     , (39802, 14, True)
-     , (39802, 41, True)
-     , (39802, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39802, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39802, 0, 83893054, 83893054)
-     , (39802, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39802, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39759, 'ace39759-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39759, 54, 39759, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39759, 4, 39759, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39759, 1, 'Exploration Marker');
@@ -3107,7 +3692,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39823, 'ace39823-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39823, 54, 39823, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39823, 4, 39823, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39823, 1, 'Exploration Marker');
@@ -3149,55 +3734,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39823, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39753, 'ace39753-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39753, 54, 39753, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39753, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39753, 8, 100671368)
-     , (39753, 1, 33560703)
-     , (39753, 3, 536870932)
-     , (39753, 2, 150995429)
-     , (39753, 22, 872415275)
-     , (39753, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39753, 1, 16)
-     , (39753, 7, 255)
-     , (39753, 6, 255)
-     , (39753, 16, 32)
-     , (39753, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39753, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39753, 13, True)
-     , (39753, 12, True)
-     , (39753, 11, True)
-     , (39753, 14, True)
-     , (39753, 41, True)
-     , (39753, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39753, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39753, 0, 83893054, 83893054)
-     , (39753, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39753, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39762, 'ace39762-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39762, 54, 39762, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39762, 4, 39762, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39762, 1, 'Exploration Marker');
@@ -3239,55 +3779,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39762, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39834, 'ace39834-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39834, 54, 39834, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39834, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39834, 8, 100671368)
-     , (39834, 1, 33560703)
-     , (39834, 3, 536870932)
-     , (39834, 2, 150995429)
-     , (39834, 22, 872415275)
-     , (39834, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39834, 1, 16)
-     , (39834, 7, 255)
-     , (39834, 6, 255)
-     , (39834, 16, 32)
-     , (39834, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39834, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39834, 13, True)
-     , (39834, 12, True)
-     , (39834, 11, True)
-     , (39834, 14, True)
-     , (39834, 41, True)
-     , (39834, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39834, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39834, 0, 83893054, 83893054)
-     , (39834, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39834, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39804, 'ace39804-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39804, 54, 39804, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39804, 4, 39804, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39804, 1, 'Exploration Marker');
@@ -3332,7 +3827,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39786, 'ace39786-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39786, 54, 39786, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39786, 4, 39786, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39786, 1, 'Exploration Marker');
@@ -3374,55 +3869,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39786, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39805, 'ace39805-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39805, 54, 39805, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39805, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39805, 8, 100671368)
-     , (39805, 1, 33560703)
-     , (39805, 3, 536870932)
-     , (39805, 2, 150995429)
-     , (39805, 22, 872415275)
-     , (39805, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39805, 1, 16)
-     , (39805, 7, 255)
-     , (39805, 6, 255)
-     , (39805, 16, 32)
-     , (39805, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39805, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39805, 13, True)
-     , (39805, 12, True)
-     , (39805, 11, True)
-     , (39805, 14, True)
-     , (39805, 41, True)
-     , (39805, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39805, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39805, 0, 83893054, 83893054)
-     , (39805, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39805, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39812, 'ace39812-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39812, 54, 39812, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39812, 4, 39812, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39812, 1, 'Exploration Marker');
@@ -3467,7 +3917,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39809, 'ace39809-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39809, 54, 39809, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39809, 4, 39809, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39809, 1, 'Exploration Marker');
@@ -3509,280 +3959,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39809, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39821, 'ace39821-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39821, 54, 39821, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39821, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39821, 8, 100671368)
-     , (39821, 1, 33560703)
-     , (39821, 3, 536870932)
-     , (39821, 2, 150995429)
-     , (39821, 22, 872415275)
-     , (39821, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39821, 1, 16)
-     , (39821, 7, 255)
-     , (39821, 6, 255)
-     , (39821, 16, 32)
-     , (39821, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39821, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39821, 13, True)
-     , (39821, 12, True)
-     , (39821, 11, True)
-     , (39821, 14, True)
-     , (39821, 41, True)
-     , (39821, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39821, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39821, 0, 83893054, 83893054)
-     , (39821, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39821, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39844, 'ace39844-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39844, 54, 39844, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39844, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39844, 8, 100671368)
-     , (39844, 1, 33560703)
-     , (39844, 3, 536870932)
-     , (39844, 2, 150995429)
-     , (39844, 22, 872415275)
-     , (39844, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39844, 1, 16)
-     , (39844, 7, 255)
-     , (39844, 6, 255)
-     , (39844, 16, 32)
-     , (39844, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39844, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39844, 13, True)
-     , (39844, 12, True)
-     , (39844, 11, True)
-     , (39844, 14, True)
-     , (39844, 41, True)
-     , (39844, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39844, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39844, 0, 83893054, 83893054)
-     , (39844, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39844, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39827, 'ace39827-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39827, 54, 39827, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39827, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39827, 8, 100671368)
-     , (39827, 1, 33560703)
-     , (39827, 3, 536870932)
-     , (39827, 2, 150995429)
-     , (39827, 22, 872415275)
-     , (39827, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39827, 1, 16)
-     , (39827, 7, 255)
-     , (39827, 6, 255)
-     , (39827, 16, 32)
-     , (39827, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39827, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39827, 13, True)
-     , (39827, 12, True)
-     , (39827, 11, True)
-     , (39827, 14, True)
-     , (39827, 41, True)
-     , (39827, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39827, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39827, 0, 83893054, 83893054)
-     , (39827, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39827, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39785, 'ace39785-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39785, 54, 39785, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39785, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39785, 8, 100671368)
-     , (39785, 1, 33560703)
-     , (39785, 3, 536870932)
-     , (39785, 2, 150995429)
-     , (39785, 22, 872415275)
-     , (39785, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39785, 1, 16)
-     , (39785, 7, 255)
-     , (39785, 6, 255)
-     , (39785, 16, 32)
-     , (39785, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39785, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39785, 13, True)
-     , (39785, 12, True)
-     , (39785, 11, True)
-     , (39785, 14, True)
-     , (39785, 41, True)
-     , (39785, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39785, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39785, 0, 83893054, 83893054)
-     , (39785, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39785, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39789, 'ace39789-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39789, 54, 39789, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39789, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39789, 8, 100671368)
-     , (39789, 1, 33560703)
-     , (39789, 3, 536870932)
-     , (39789, 2, 150995429)
-     , (39789, 22, 872415275)
-     , (39789, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39789, 1, 16)
-     , (39789, 7, 255)
-     , (39789, 6, 255)
-     , (39789, 16, 32)
-     , (39789, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39789, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39789, 13, True)
-     , (39789, 12, True)
-     , (39789, 11, True)
-     , (39789, 14, True)
-     , (39789, 41, True)
-     , (39789, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39789, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39789, 0, 83893054, 83893054)
-     , (39789, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39789, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39794, 'ace39794-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39794, 54, 39794, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39794, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39794, 8, 100671368)
-     , (39794, 1, 33560703)
-     , (39794, 3, 536870932)
-     , (39794, 2, 150995429)
-     , (39794, 22, 872415275)
-     , (39794, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39794, 1, 16)
-     , (39794, 7, 255)
-     , (39794, 6, 255)
-     , (39794, 16, 32)
-     , (39794, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39794, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39794, 13, True)
-     , (39794, 12, True)
-     , (39794, 11, True)
-     , (39794, 14, True)
-     , (39794, 41, True)
-     , (39794, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39794, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39794, 0, 83893054, 83893054)
-     , (39794, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39794, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39824, 'ace39824-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39824, 54, 39824, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39824, 4, 39824, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39824, 1, 'Exploration Marker');
@@ -3824,415 +4004,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39824, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39832, 'ace39832-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39832, 54, 39832, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39832, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39832, 8, 100671368)
-     , (39832, 1, 33560703)
-     , (39832, 3, 536870932)
-     , (39832, 2, 150995429)
-     , (39832, 22, 872415275)
-     , (39832, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39832, 1, 16)
-     , (39832, 7, 255)
-     , (39832, 6, 255)
-     , (39832, 16, 32)
-     , (39832, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39832, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39832, 13, True)
-     , (39832, 12, True)
-     , (39832, 11, True)
-     , (39832, 14, True)
-     , (39832, 41, True)
-     , (39832, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39832, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39832, 0, 83893054, 83893054)
-     , (39832, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39832, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39764, 'ace39764-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39764, 54, 39764, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39764, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39764, 8, 100671368)
-     , (39764, 1, 33560703)
-     , (39764, 3, 536870932)
-     , (39764, 2, 150995429)
-     , (39764, 22, 872415275)
-     , (39764, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39764, 1, 16)
-     , (39764, 7, 255)
-     , (39764, 6, 255)
-     , (39764, 16, 32)
-     , (39764, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39764, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39764, 13, True)
-     , (39764, 12, True)
-     , (39764, 11, True)
-     , (39764, 14, True)
-     , (39764, 41, True)
-     , (39764, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39764, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39764, 0, 83893054, 83893054)
-     , (39764, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39764, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39836, 'ace39836-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39836, 54, 39836, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39836, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39836, 8, 100671368)
-     , (39836, 1, 33560703)
-     , (39836, 3, 536870932)
-     , (39836, 2, 150995429)
-     , (39836, 22, 872415275)
-     , (39836, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39836, 1, 16)
-     , (39836, 7, 255)
-     , (39836, 6, 255)
-     , (39836, 16, 32)
-     , (39836, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39836, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39836, 13, True)
-     , (39836, 12, True)
-     , (39836, 11, True)
-     , (39836, 14, True)
-     , (39836, 41, True)
-     , (39836, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39836, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39836, 0, 83893054, 83893054)
-     , (39836, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39836, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39777, 'ace39777-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39777, 54, 39777, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39777, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39777, 8, 100671368)
-     , (39777, 1, 33560703)
-     , (39777, 3, 536870932)
-     , (39777, 2, 150995429)
-     , (39777, 22, 872415275)
-     , (39777, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39777, 1, 16)
-     , (39777, 7, 255)
-     , (39777, 6, 255)
-     , (39777, 16, 32)
-     , (39777, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39777, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39777, 13, True)
-     , (39777, 12, True)
-     , (39777, 11, True)
-     , (39777, 14, True)
-     , (39777, 41, True)
-     , (39777, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39777, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39777, 0, 83893054, 83893054)
-     , (39777, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39777, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39799, 'ace39799-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39799, 54, 39799, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39799, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39799, 8, 100671368)
-     , (39799, 1, 33560703)
-     , (39799, 3, 536870932)
-     , (39799, 2, 150995429)
-     , (39799, 22, 872415275)
-     , (39799, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39799, 1, 16)
-     , (39799, 7, 255)
-     , (39799, 6, 255)
-     , (39799, 16, 32)
-     , (39799, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39799, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39799, 13, True)
-     , (39799, 12, True)
-     , (39799, 11, True)
-     , (39799, 14, True)
-     , (39799, 41, True)
-     , (39799, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39799, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39799, 0, 83893054, 83893054)
-     , (39799, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39799, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39767, 'ace39767-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39767, 54, 39767, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39767, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39767, 8, 100671368)
-     , (39767, 1, 33560703)
-     , (39767, 3, 536870932)
-     , (39767, 2, 150995429)
-     , (39767, 22, 872415275)
-     , (39767, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39767, 1, 16)
-     , (39767, 7, 255)
-     , (39767, 6, 255)
-     , (39767, 16, 32)
-     , (39767, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39767, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39767, 13, True)
-     , (39767, 12, True)
-     , (39767, 11, True)
-     , (39767, 14, True)
-     , (39767, 41, True)
-     , (39767, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39767, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39767, 0, 83893054, 83893054)
-     , (39767, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39767, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39761, 'ace39761-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39761, 54, 39761, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39761, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39761, 8, 100671368)
-     , (39761, 1, 33560703)
-     , (39761, 3, 536870932)
-     , (39761, 2, 150995429)
-     , (39761, 22, 872415275)
-     , (39761, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39761, 1, 16)
-     , (39761, 7, 255)
-     , (39761, 6, 255)
-     , (39761, 16, 32)
-     , (39761, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39761, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39761, 13, True)
-     , (39761, 12, True)
-     , (39761, 11, True)
-     , (39761, 14, True)
-     , (39761, 41, True)
-     , (39761, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39761, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39761, 0, 83893054, 83893054)
-     , (39761, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39761, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39760, 'ace39760-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39760, 54, 39760, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39760, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39760, 8, 100671368)
-     , (39760, 1, 33560703)
-     , (39760, 3, 536870932)
-     , (39760, 2, 150995429)
-     , (39760, 22, 872415275)
-     , (39760, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39760, 1, 16)
-     , (39760, 7, 255)
-     , (39760, 6, 255)
-     , (39760, 16, 32)
-     , (39760, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39760, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39760, 13, True)
-     , (39760, 12, True)
-     , (39760, 11, True)
-     , (39760, 14, True)
-     , (39760, 41, True)
-     , (39760, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39760, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39760, 0, 83893054, 83893054)
-     , (39760, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39760, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39763, 'ace39763-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39763, 54, 39763, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39763, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39763, 8, 100671368)
-     , (39763, 1, 33560703)
-     , (39763, 3, 536870932)
-     , (39763, 2, 150995429)
-     , (39763, 22, 872415275)
-     , (39763, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39763, 1, 16)
-     , (39763, 7, 255)
-     , (39763, 6, 255)
-     , (39763, 16, 32)
-     , (39763, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39763, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39763, 13, True)
-     , (39763, 12, True)
-     , (39763, 11, True)
-     , (39763, 14, True)
-     , (39763, 41, True)
-     , (39763, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39763, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39763, 0, 83893054, 83893054)
-     , (39763, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39763, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39843, 'ace39843-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39843, 54, 39843, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39843, 4, 39843, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39843, 1, 'Exploration Marker');
@@ -4274,145 +4049,10 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (39843, 0, 16794232);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39808, 'ace39808-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39808, 54, 39808, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39808, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39808, 8, 100671368)
-     , (39808, 1, 33560703)
-     , (39808, 3, 536870932)
-     , (39808, 2, 150995429)
-     , (39808, 22, 872415275)
-     , (39808, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39808, 1, 16)
-     , (39808, 7, 255)
-     , (39808, 6, 255)
-     , (39808, 16, 32)
-     , (39808, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39808, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39808, 13, True)
-     , (39808, 12, True)
-     , (39808, 11, True)
-     , (39808, 14, True)
-     , (39808, 41, True)
-     , (39808, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39808, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39808, 0, 83893054, 83893054)
-     , (39808, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39808, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39774, 'ace39774-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39774, 54, 39774, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39774, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39774, 8, 100671368)
-     , (39774, 1, 33560703)
-     , (39774, 3, 536870932)
-     , (39774, 2, 150995429)
-     , (39774, 22, 872415275)
-     , (39774, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39774, 1, 16)
-     , (39774, 7, 255)
-     , (39774, 6, 255)
-     , (39774, 16, 32)
-     , (39774, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39774, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39774, 13, True)
-     , (39774, 12, True)
-     , (39774, 11, True)
-     , (39774, 14, True)
-     , (39774, 41, True)
-     , (39774, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39774, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39774, 0, 83893054, 83893054)
-     , (39774, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39774, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (39813, 'ace39813-explorationmarker');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39813, 54, 39813, 4, 'AAA9AAAAAAA=', 104451);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39813, 1, 'Exploration Marker');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39813, 8, 100671368)
-     , (39813, 1, 33560703)
-     , (39813, 3, 536870932)
-     , (39813, 2, 150995429)
-     , (39813, 22, 872415275)
-     , (39813, 6, 67113133);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39813, 1, 16)
-     , (39813, 7, 255)
-     , (39813, 6, 255)
-     , (39813, 16, 32)
-     , (39813, 93, 6292508);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39813, 54, 3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39813, 13, True)
-     , (39813, 12, True)
-     , (39813, 11, True)
-     , (39813, 14, True)
-     , (39813, 41, True)
-     , (39813, 42, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (39813, 67111092, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (39813, 0, 83893054, 83893054)
-     , (39813, 0, 83893053, 83893053);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (39813, 0, 16794232);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39792, 'ace39792-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39792, 54, 39792, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39792, 4, 39792, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39792, 1, 'Exploration Marker');
@@ -4457,7 +4097,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39751, 'ace39751-explorationmarker');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39751, 54, 39751, 4, 'AAA9AAAAAAA=', 104451);
+VALUES (39751, 4, 39751, 54, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39751, 1, 'Exploration Marker');
@@ -4497,4 +4137,364 @@ VALUES (39751, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39751, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39764, 'ace39764-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39764, 4, 39764, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39764, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39764, 8, 100671368)
+     , (39764, 1, 33560703)
+     , (39764, 3, 536870932)
+     , (39764, 2, 150995429)
+     , (39764, 22, 872415275)
+     , (39764, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39764, 1, 16)
+     , (39764, 7, 255)
+     , (39764, 6, 255)
+     , (39764, 16, 32)
+     , (39764, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39764, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39764, 13, True)
+     , (39764, 12, True)
+     , (39764, 11, True)
+     , (39764, 14, True)
+     , (39764, 41, True)
+     , (39764, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39764, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39764, 0, 83893054, 83893054)
+     , (39764, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39764, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39761, 'ace39761-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39761, 4, 39761, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39761, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39761, 8, 100671368)
+     , (39761, 1, 33560703)
+     , (39761, 3, 536870932)
+     , (39761, 2, 150995429)
+     , (39761, 22, 872415275)
+     , (39761, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39761, 1, 16)
+     , (39761, 7, 255)
+     , (39761, 6, 255)
+     , (39761, 16, 32)
+     , (39761, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39761, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39761, 13, True)
+     , (39761, 12, True)
+     , (39761, 11, True)
+     , (39761, 14, True)
+     , (39761, 41, True)
+     , (39761, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39761, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39761, 0, 83893054, 83893054)
+     , (39761, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39761, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39777, 'ace39777-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39777, 4, 39777, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39777, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39777, 8, 100671368)
+     , (39777, 1, 33560703)
+     , (39777, 3, 536870932)
+     , (39777, 2, 150995429)
+     , (39777, 22, 872415275)
+     , (39777, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39777, 1, 16)
+     , (39777, 7, 255)
+     , (39777, 6, 255)
+     , (39777, 16, 32)
+     , (39777, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39777, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39777, 13, True)
+     , (39777, 12, True)
+     , (39777, 11, True)
+     , (39777, 14, True)
+     , (39777, 41, True)
+     , (39777, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39777, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39777, 0, 83893054, 83893054)
+     , (39777, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39777, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39813, 'ace39813-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39813, 4, 39813, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39813, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39813, 8, 100671368)
+     , (39813, 1, 33560703)
+     , (39813, 3, 536870932)
+     , (39813, 2, 150995429)
+     , (39813, 22, 872415275)
+     , (39813, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39813, 1, 16)
+     , (39813, 7, 255)
+     , (39813, 6, 255)
+     , (39813, 16, 32)
+     , (39813, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39813, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39813, 13, True)
+     , (39813, 12, True)
+     , (39813, 11, True)
+     , (39813, 14, True)
+     , (39813, 41, True)
+     , (39813, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39813, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39813, 0, 83893054, 83893054)
+     , (39813, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39813, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39836, 'ace39836-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39836, 4, 39836, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39836, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39836, 8, 100671368)
+     , (39836, 1, 33560703)
+     , (39836, 3, 536870932)
+     , (39836, 2, 150995429)
+     , (39836, 22, 872415275)
+     , (39836, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39836, 1, 16)
+     , (39836, 7, 255)
+     , (39836, 6, 255)
+     , (39836, 16, 32)
+     , (39836, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39836, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39836, 13, True)
+     , (39836, 12, True)
+     , (39836, 11, True)
+     , (39836, 14, True)
+     , (39836, 41, True)
+     , (39836, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39836, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39836, 0, 83893054, 83893054)
+     , (39836, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39836, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39808, 'ace39808-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39808, 4, 39808, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39808, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39808, 8, 100671368)
+     , (39808, 1, 33560703)
+     , (39808, 3, 536870932)
+     , (39808, 2, 150995429)
+     , (39808, 22, 872415275)
+     , (39808, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39808, 1, 16)
+     , (39808, 7, 255)
+     , (39808, 6, 255)
+     , (39808, 16, 32)
+     , (39808, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39808, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39808, 13, True)
+     , (39808, 12, True)
+     , (39808, 11, True)
+     , (39808, 14, True)
+     , (39808, 41, True)
+     , (39808, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39808, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39808, 0, 83893054, 83893054)
+     , (39808, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39808, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39799, 'ace39799-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39799, 4, 39799, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39799, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39799, 8, 100671368)
+     , (39799, 1, 33560703)
+     , (39799, 3, 536870932)
+     , (39799, 2, 150995429)
+     , (39799, 22, 872415275)
+     , (39799, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39799, 1, 16)
+     , (39799, 7, 255)
+     , (39799, 6, 255)
+     , (39799, 16, 32)
+     , (39799, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39799, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39799, 13, True)
+     , (39799, 12, True)
+     , (39799, 11, True)
+     , (39799, 14, True)
+     , (39799, 41, True)
+     , (39799, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39799, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39799, 0, 83893054, 83893054)
+     , (39799, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39799, 0, 16794232);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (39789, 'ace39789-explorationmarker');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39789, 4, 39789, 54, 'AAA9AAAAAAA=', 104451);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39789, 1, 'Exploration Marker');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39789, 8, 100671368)
+     , (39789, 1, 33560703)
+     , (39789, 3, 536870932)
+     , (39789, 2, 150995429)
+     , (39789, 22, 872415275)
+     , (39789, 6, 67113133);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39789, 1, 16)
+     , (39789, 7, 255)
+     , (39789, 6, 255)
+     , (39789, 16, 32)
+     , (39789, 93, 6292508);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39789, 54, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39789, 13, True)
+     , (39789, 12, True)
+     , (39789, 11, True)
+     , (39789, 14, True)
+     , (39789, 41, True)
+     , (39789, 42, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (39789, 67111092, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (39789, 0, 83893054, 83893054)
+     , (39789, 0, 83893053, 83893053);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (39789, 0, 16794232);
 

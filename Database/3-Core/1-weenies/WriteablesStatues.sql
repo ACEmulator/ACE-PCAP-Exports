@@ -1,175 +1,8 @@
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11638, 'statuebaelzharonvirindi');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11638, 11534384, 11638, 148, NULL, 32897);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11638, 1, 'Statue');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (11638, 8, 100670208)
-     , (11638, 1, 33557075);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11638, 1, 8192)
-     , (11638, 95, 8)
-     , (11638, 5, 9000)
-     , (11638, 133, 4)
-     , (11638, 16, 1)
-     , (11638, 93, 1048);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (11638, 54, 4)
-     , (11638, 39, 5);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (11638, 12, True)
-     , (11638, 11, True)
-     , (11638, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19202, 'statuesclavusnull');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19202, 2097168, 19202, 20, 'AAA9AAAAAAA=', 100483);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19202, 1, 'Nullified Statue of a Sclavus');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19202, 8, 100669120)
-     , (19202, 1, 33555608)
-     , (19202, 3, 536871052)
-     , (19202, 2, 150995168)
-     , (19202, 6, 67111936);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19202, 1, 8192)
-     , (19202, 5, 1800)
-     , (19202, 16, 1)
-     , (19202, 93, 1048);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (19202, 39, 4);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19202, 12, True)
-     , (19202, 11, True)
-     , (19202, 14, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (19202, 67113813, 0, 0);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19206, 'statuetumeroknull');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19206, 2097168, 19206, 20, 'AAA9AAAAAAA=', 100483);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19206, 1, 'Nullified Statue of a Tumerok');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19206, 8, 100667452)
-     , (19206, 1, 33559553)
-     , (19206, 3, 536871052)
-     , (19206, 2, 150995171)
-     , (19206, 6, 67116625);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19206, 1, 8192)
-     , (19206, 5, 1800)
-     , (19206, 16, 1)
-     , (19206, 93, 1048);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (19206, 39, 4);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19206, 12, True)
-     , (19206, 11, True)
-     , (19206, 14, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (19206, 67116656, 0, 0);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19200, 'statuemosswartnull');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19200, 2097168, 19200, 20, 'AAA9AAAAAAA=', 100483);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19200, 1, 'Nullified Statue of a Mosswart');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19200, 8, 100667449)
-     , (19200, 1, 33557327)
-     , (19200, 3, 536871052)
-     , (19200, 2, 150995166)
-     , (19200, 6, 67113400);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19200, 1, 8192)
-     , (19200, 5, 1800)
-     , (19200, 16, 1)
-     , (19200, 93, 1048);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (19200, 39, 3.5);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19200, 12, True)
-     , (19200, 11, True)
-     , (19200, 14, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (19200, 67113805, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (19200, 0, 83893769, 83893769)
-     , (19200, 1, 83893768, 83893778)
-     , (19200, 2, 83893766, 83893775)
-     , (19200, 3, 83893766, 83893775)
-     , (19200, 4, 83893766, 83893775)
-     , (19200, 5, 83893766, 83893775)
-     , (19200, 6, 83893766, 83893775)
-     , (19200, 7, 83893766, 83893775)
-     , (19200, 8, 83893767, 83893767)
-     , (19200, 9, 83893768, 83893778)
-     , (19200, 10, 83893766, 83893775)
-     , (19200, 11, 83893767, 83893767)
-     , (19200, 12, 83893768, 83893778)
-     , (19200, 13, 83893766, 83893775)
-     , (19200, 14, 83893766, 83893775)
-     , (19200, 15, 83893766, 83893775)
-     , (19200, 16, 83893766, 83893775);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (19200, 0, 16787248)
-     , (19200, 1, 16787249)
-     , (19200, 2, 16787261)
-     , (19200, 3, 16787254)
-     , (19200, 4, 16787250)
-     , (19200, 5, 16787259)
-     , (19200, 6, 16787255)
-     , (19200, 7, 16787253)
-     , (19200, 8, 16787260)
-     , (19200, 9, 16787262)
-     , (19200, 10, 16787252)
-     , (19200, 11, 16787258)
-     , (19200, 12, 16787263)
-     , (19200, 13, 16787251)
-     , (19200, 14, 16787247)
-     , (19200, 15, 16787257)
-     , (19200, 16, 16787256);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19194, 'statuebanderlingnull');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19194, 2097168, 19194, 20, 'AAA9AAAAAAA=', 100483);
+VALUES (19194, 20, 19194, 2097168, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19194, 1, 'Nullified Statue of a Banderling');
@@ -199,49 +32,175 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (19194, 67113810, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19207, 'statuevirindinull');
+VALUES (19201, 'statuereedsharknull');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19207, 2097168, 19207, 20, 'AAA9AAAAAAA=', 100483);
+VALUES (19201, 20, 19201, 2097168, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19207, 1, 'Nullified Statue of a Virindi');
+VALUES (19201, 1, 'Nullified Statue of a Reedshark');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19207, 8, 100667943)
-     , (19207, 1, 33554497)
-     , (19207, 3, 536871052)
-     , (19207, 2, 150995173)
-     , (19207, 6, 67111346);
+VALUES (19201, 8, 100667939)
+     , (19201, 1, 33554489)
+     , (19201, 3, 536871052)
+     , (19201, 2, 150995159)
+     , (19201, 6, 67109313);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19207, 1, 8192)
-     , (19207, 5, 1800)
-     , (19207, 16, 1)
-     , (19207, 93, 1048);
+VALUES (19201, 1, 8192)
+     , (19201, 5, 1800)
+     , (19201, 16, 1)
+     , (19201, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (19207, 39, 4);
+VALUES (19201, 39, 4);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19207, 12, True)
-     , (19207, 11, True)
-     , (19207, 14, True);
+VALUES (19201, 12, True)
+     , (19201, 11, True)
+     , (19201, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (19207, 67113828, 0, 0);
+VALUES (19201, 67113802, 0, 0);
 
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (19207, 9, 83890028, 83890027);
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (19197, 'statuegolemnull');
 
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (19207, 9, 16780702);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (19197, 20, 19197, 2097168, 'AAA9AAAAAAA=', 100483);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19197, 1, 'Nullified Statue of a Golem');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (19197, 8, 100667940)
+     , (19197, 1, 33556426)
+     , (19197, 3, 536871052)
+     , (19197, 2, 150995163)
+     , (19197, 6, 67112775);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19197, 1, 8192)
+     , (19197, 5, 1800)
+     , (19197, 16, 1)
+     , (19197, 93, 1048);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (19197, 39, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19197, 12, True)
+     , (19197, 11, True)
+     , (19197, 14, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (19197, 67113808, 0, 0);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (21282, 'statuereedsharknulldestroyed');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (21282, 20, 21282, 2097168, 'AAA9AAAAAAA=', 100483);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21282, 1, 'Destroyed Statue of a Reedshark');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (21282, 8, 100667939)
+     , (21282, 1, 33554489)
+     , (21282, 3, 536871052)
+     , (21282, 2, 150995216)
+     , (21282, 6, 67109313);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21282, 1, 8192)
+     , (21282, 5, 1800)
+     , (21282, 16, 1)
+     , (21282, 93, 1048);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21282, 39, 4);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21282, 12, True)
+     , (21282, 11, True)
+     , (21282, 14, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (21282, 67113802, 0, 0);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (19202, 'statuesclavusnull');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (19202, 20, 19202, 2097168, 'AAA9AAAAAAA=', 100483);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19202, 1, 'Nullified Statue of a Sclavus');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (19202, 8, 100669120)
+     , (19202, 1, 33555608)
+     , (19202, 3, 536871052)
+     , (19202, 2, 150995168)
+     , (19202, 6, 67111936);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19202, 1, 8192)
+     , (19202, 5, 1800)
+     , (19202, 16, 1)
+     , (19202, 93, 1048);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (19202, 39, 4);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19202, 12, True)
+     , (19202, 11, True)
+     , (19202, 14, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (19202, 67113813, 0, 0);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (19203, 'statueshadownull');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (19203, 20, 19203, 2097168, 'AAA9AAAAAAA=', 100483);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19203, 1, 'Nullified Statue of a Shadow');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (19203, 8, 100670397)
+     , (19203, 1, 33554433)
+     , (19203, 3, 536871052)
+     , (19203, 2, 150995169)
+     , (19203, 6, 67108990);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19203, 1, 8192)
+     , (19203, 5, 1800)
+     , (19203, 16, 1)
+     , (19203, 93, 1048);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (19203, 39, 4);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19203, 12, True)
+     , (19203, 11, True)
+     , (19203, 14, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (19203, 67113866, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19195, 'statuebentennull');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19195, 2097168, 19195, 20, 'AAA9AAAAAAA=', 100483);
+VALUES (19195, 20, 19195, 2097168, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19195, 1, 'Nullified Statue of Ben Ten');
@@ -305,43 +264,43 @@ VALUES (19195, 0, 16783897)
      , (19195, 16, 16783891);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19201, 'statuereedsharknull');
+VALUES (19204, 'statueskeletonnull');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19201, 2097168, 19201, 20, 'AAA9AAAAAAA=', 100483);
+VALUES (19204, 20, 19204, 2097168, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19201, 1, 'Nullified Statue of a Reedshark');
+VALUES (19204, 1, 'Nullified Statue of a Skeleton');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19201, 8, 100667939)
-     , (19201, 1, 33554489)
-     , (19201, 3, 536871052)
-     , (19201, 2, 150995159)
-     , (19201, 6, 67109313);
+VALUES (19204, 8, 100669124)
+     , (19204, 1, 33554521)
+     , (19204, 3, 536871052)
+     , (19204, 2, 150995170)
+     , (19204, 6, 67116522);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19201, 1, 8192)
-     , (19201, 5, 1800)
-     , (19201, 16, 1)
-     , (19201, 93, 1048);
+VALUES (19204, 1, 8192)
+     , (19204, 5, 1800)
+     , (19204, 16, 1)
+     , (19204, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (19201, 39, 4);
+VALUES (19204, 39, 4);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19201, 12, True)
-     , (19201, 11, True)
-     , (19201, 14, True);
+VALUES (19204, 12, True)
+     , (19204, 11, True)
+     , (19204, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (19201, 67113802, 0, 0);
+VALUES (19204, 67116534, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19196, 'statuedrudgenull');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19196, 2097168, 19196, 20, 'AAA9AAAAAAA=', 100483);
+VALUES (19196, 20, 19196, 2097168, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19196, 1, 'Nullified Statue of a Drudge');
@@ -378,76 +337,43 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (19196, 1, 16784273);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19197, 'statuegolemnull');
+VALUES (19206, 'statuetumeroknull');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19197, 2097168, 19197, 20, 'AAA9AAAAAAA=', 100483);
+VALUES (19206, 20, 19206, 2097168, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19197, 1, 'Nullified Statue of a Golem');
+VALUES (19206, 1, 'Nullified Statue of a Tumerok');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19197, 8, 100667940)
-     , (19197, 1, 33556426)
-     , (19197, 3, 536871052)
-     , (19197, 2, 150995163)
-     , (19197, 6, 67112775);
+VALUES (19206, 8, 100667452)
+     , (19206, 1, 33559553)
+     , (19206, 3, 536871052)
+     , (19206, 2, 150995171)
+     , (19206, 6, 67116625);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19197, 1, 8192)
-     , (19197, 5, 1800)
-     , (19197, 16, 1)
-     , (19197, 93, 1048);
+VALUES (19206, 1, 8192)
+     , (19206, 5, 1800)
+     , (19206, 16, 1)
+     , (19206, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (19197, 39, 3);
+VALUES (19206, 39, 4);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19197, 12, True)
-     , (19197, 11, True)
-     , (19197, 14, True);
+VALUES (19206, 12, True)
+     , (19206, 11, True)
+     , (19206, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (19197, 67113808, 0, 0);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19204, 'statueskeletonnull');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19204, 2097168, 19204, 20, 'AAA9AAAAAAA=', 100483);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19204, 1, 'Nullified Statue of a Skeleton');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19204, 8, 100669124)
-     , (19204, 1, 33554521)
-     , (19204, 3, 536871052)
-     , (19204, 2, 150995170)
-     , (19204, 6, 67116522);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19204, 1, 8192)
-     , (19204, 5, 1800)
-     , (19204, 16, 1)
-     , (19204, 93, 1048);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (19204, 39, 4);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19204, 12, True)
-     , (19204, 11, True)
-     , (19204, 14, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (19204, 67116534, 0, 0);
+VALUES (19206, 67116656, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19205, 'statuethorstennull');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19205, 2097168, 19205, 20, 'AAA9AAAAAAA=', 100483);
+VALUES (19205, 20, 19205, 2097168, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19205, 1, 'Nullified Statue of Thorsten Cragstone');
@@ -519,10 +445,147 @@ VALUES (19205, 9, 16781837)
      , (19205, 16, 16778313);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (19200, 'statuemosswartnull');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (19200, 20, 19200, 2097168, 'AAA9AAAAAAA=', 100483);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19200, 1, 'Nullified Statue of a Mosswart');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (19200, 8, 100667449)
+     , (19200, 1, 33557327)
+     , (19200, 3, 536871052)
+     , (19200, 2, 150995166)
+     , (19200, 6, 67113400);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19200, 1, 8192)
+     , (19200, 5, 1800)
+     , (19200, 16, 1)
+     , (19200, 93, 1048);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (19200, 39, 3.5);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19200, 12, True)
+     , (19200, 11, True)
+     , (19200, 14, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (19200, 67113805, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (19200, 0, 83893769, 83893769)
+     , (19200, 1, 83893768, 83893778)
+     , (19200, 2, 83893766, 83893775)
+     , (19200, 3, 83893766, 83893775)
+     , (19200, 4, 83893766, 83893775)
+     , (19200, 5, 83893766, 83893775)
+     , (19200, 6, 83893766, 83893775)
+     , (19200, 7, 83893766, 83893775)
+     , (19200, 8, 83893767, 83893767)
+     , (19200, 9, 83893768, 83893778)
+     , (19200, 10, 83893766, 83893775)
+     , (19200, 11, 83893767, 83893767)
+     , (19200, 12, 83893768, 83893778)
+     , (19200, 13, 83893766, 83893775)
+     , (19200, 14, 83893766, 83893775)
+     , (19200, 15, 83893766, 83893775)
+     , (19200, 16, 83893766, 83893775);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (19200, 0, 16787248)
+     , (19200, 1, 16787249)
+     , (19200, 2, 16787261)
+     , (19200, 3, 16787254)
+     , (19200, 4, 16787250)
+     , (19200, 5, 16787259)
+     , (19200, 6, 16787255)
+     , (19200, 7, 16787253)
+     , (19200, 8, 16787260)
+     , (19200, 9, 16787262)
+     , (19200, 10, 16787252)
+     , (19200, 11, 16787258)
+     , (19200, 12, 16787263)
+     , (19200, 13, 16787251)
+     , (19200, 14, 16787247)
+     , (19200, 15, 16787257)
+     , (19200, 16, 16787256);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (19198, 'statuegrievvernull');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (19198, 20, 19198, 2097168, 'AAA9AAAAAAA=', 100483);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19198, 1, 'Nullified Statue of a Grievver');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (19198, 8, 100670960)
+     , (19198, 1, 33556698)
+     , (19198, 3, 536871052)
+     , (19198, 2, 150995164)
+     , (19198, 6, 67112927);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19198, 1, 8192)
+     , (19198, 5, 1800)
+     , (19198, 16, 1)
+     , (19198, 93, 1048);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (19198, 39, 2);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19198, 12, True)
+     , (19198, 11, True)
+     , (19198, 14, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (19198, 67113814, 0, 0);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (19199, 'statuegromnienull');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (19199, 20, 19199, 2097168, 'AAA9AAAAAAA=', 100483);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19199, 1, 'Nullified Statue of a Gromnie');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (19199, 8, 100667938)
+     , (19199, 1, 33554487)
+     , (19199, 3, 536871052)
+     , (19199, 2, 150995165)
+     , (19199, 6, 67109307);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19199, 1, 8192)
+     , (19199, 5, 1800)
+     , (19199, 16, 1)
+     , (19199, 93, 1048);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (19199, 39, 3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19199, 12, True)
+     , (19199, 11, True)
+     , (19199, 14, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (19199, 67113812, 0, 0);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19208, 'statuezharalimnull');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19208, 2097168, 19208, 20, 'AAA9AAAAAAA=', 100483);
+VALUES (19208, 20, 19208, 2097168, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19208, 1, 'Nullified Statue of a Zharalim');
@@ -592,134 +655,71 @@ VALUES (19208, 0, 16783894)
      , (19208, 16, 16787671);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19199, 'statuegromnienull');
+VALUES (19207, 'statuevirindinull');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19199, 2097168, 19199, 20, 'AAA9AAAAAAA=', 100483);
+VALUES (19207, 20, 19207, 2097168, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19199, 1, 'Nullified Statue of a Gromnie');
+VALUES (19207, 1, 'Nullified Statue of a Virindi');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19199, 8, 100667938)
-     , (19199, 1, 33554487)
-     , (19199, 3, 536871052)
-     , (19199, 2, 150995165)
-     , (19199, 6, 67109307);
+VALUES (19207, 8, 100667943)
+     , (19207, 1, 33554497)
+     , (19207, 3, 536871052)
+     , (19207, 2, 150995173)
+     , (19207, 6, 67111346);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19199, 1, 8192)
-     , (19199, 5, 1800)
-     , (19199, 16, 1)
-     , (19199, 93, 1048);
+VALUES (19207, 1, 8192)
+     , (19207, 5, 1800)
+     , (19207, 16, 1)
+     , (19207, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (19199, 39, 3);
+VALUES (19207, 39, 4);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19199, 12, True)
-     , (19199, 11, True)
-     , (19199, 14, True);
+VALUES (19207, 12, True)
+     , (19207, 11, True)
+     , (19207, 14, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (19199, 67113812, 0, 0);
+VALUES (19207, 67113828, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (19207, 9, 83890028, 83890027);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (19207, 9, 16780702);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19198, 'statuegrievvernull');
+VALUES (11638, 'statuebaelzharonvirindi');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19198, 2097168, 19198, 20, 'AAA9AAAAAAA=', 100483);
+VALUES (11638, 148, 11638, 11534384, NULL, 32897);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19198, 1, 'Nullified Statue of a Grievver');
+VALUES (11638, 1, 'Statue');
 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19198, 8, 100670960)
-     , (19198, 1, 33556698)
-     , (19198, 3, 536871052)
-     , (19198, 2, 150995164)
-     , (19198, 6, 67112927);
+VALUES (11638, 8, 100670208)
+     , (11638, 1, 33557075);
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19198, 1, 8192)
-     , (19198, 5, 1800)
-     , (19198, 16, 1)
-     , (19198, 93, 1048);
+VALUES (11638, 1, 8192)
+     , (11638, 95, 8)
+     , (11638, 5, 9000)
+     , (11638, 133, 4)
+     , (11638, 16, 1)
+     , (11638, 93, 1048);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (19198, 39, 2);
+VALUES (11638, 54, 4)
+     , (11638, 39, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19198, 12, True)
-     , (19198, 11, True)
-     , (19198, 14, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (19198, 67113814, 0, 0);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19203, 'statueshadownull');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (19203, 2097168, 19203, 20, 'AAA9AAAAAAA=', 100483);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19203, 1, 'Nullified Statue of a Shadow');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19203, 8, 100670397)
-     , (19203, 1, 33554433)
-     , (19203, 3, 536871052)
-     , (19203, 2, 150995169)
-     , (19203, 6, 67108990);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19203, 1, 8192)
-     , (19203, 5, 1800)
-     , (19203, 16, 1)
-     , (19203, 93, 1048);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (19203, 39, 4);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19203, 12, True)
-     , (19203, 11, True)
-     , (19203, 14, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (19203, 67113866, 0, 0);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21282, 'statuereedsharknulldestroyed');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (21282, 2097168, 21282, 20, 'AAA9AAAAAAA=', 100483);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21282, 1, 'Destroyed Statue of a Reedshark');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (21282, 8, 100667939)
-     , (21282, 1, 33554489)
-     , (21282, 3, 536871052)
-     , (21282, 2, 150995216)
-     , (21282, 6, 67109313);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21282, 1, 8192)
-     , (21282, 5, 1800)
-     , (21282, 16, 1)
-     , (21282, 93, 1048);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (21282, 39, 4);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21282, 12, True)
-     , (21282, 11, True)
-     , (21282, 14, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (21282, 67113802, 0, 0);
+VALUES (11638, 12, True)
+     , (11638, 11, True)
+     , (11638, 14, True);
 

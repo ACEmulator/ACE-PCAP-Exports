@@ -1,5 +1,40 @@
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (3707809465, 1048630, 48857, 4, 'AAA9AAAAAAA=', 104579);
+VALUES (3685971145, 4, 32807, 1048630, 'AAA9AAAAAAA=', 104579);
+
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (3685971145, 1, 1896415263, 91.3769, 148.065, 2, -0.863652, 0, 0, -0.504088);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3685971145, 1, 'Mysterious Hatch');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (3685971145, 8, 100672468)
+     , (3685971145, 1, 33557478)
+     , (3685971145, 3, 536870947)
+     , (3685971145, 2, 150995151)
+     , (3685971145, 22, 872415237);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3685971145, 1, 16)
+     , (3685971145, 95, 3)
+     , (3685971145, 7, 255)
+     , (3685971145, 6, 255)
+     , (3685971145, 16, 32)
+     , (3685971145, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3685971145, 54, 2.5)
+     , (3685971145, 39, 1.5);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3685971145, 12, True)
+     , (3685971145, 11, True)
+     , (3685971145, 14, True)
+     , (3685971145, 41, True)
+     , (3685971145, 42, True);
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (3707809465, 4, 48857, 1048630, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (3707809465, 1, 1289945348, 29.9093, 28.848, 60, -0.707107, 0, 0, -0.707107);
@@ -34,7 +69,7 @@ VALUES (3707809465, 12, True)
      , (3707809465, 42, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (3708045988, 1048630, 48858, 4, 'AAA9AAAAAAA=', 104579);
+VALUES (3708045988, 4, 48858, 1048630, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (3708045988, 1, 1289814308, 131.994, 138.095, 53.5, 1, 0, 0, 0);
@@ -69,7 +104,7 @@ VALUES (3708045988, 12, True)
      , (3708045988, 42, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (3708106049, 1048630, 48859, 4, 'AAA9AAAAAAA=', 104579);
+VALUES (3708106049, 4, 48859, 1048630, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (3708106049, 1, 1256259852, 102.475, 39.2372, 60, -0.922431, 0, 0, -0.386163);
@@ -104,7 +139,7 @@ VALUES (3708106049, 12, True)
      , (3708106049, 42, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (3707855832, 1048630, 48875, 4, 'AAA9AAAAAAA=', 104583);
+VALUES (3707855832, 4, 48875, 1048630, 'AAA9AAAAAAA=', 104583);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (3707855832, 1, 1273102356, 63.5441, 85.876, 172.094, 0.999989, 0, 0, -0.00478222);
@@ -137,39 +172,4 @@ VALUES (3707855832, 12, True)
      , (3707855832, 14, True)
      , (3707855832, 41, True)
      , (3707855832, 42, True);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (3710897419, 1048630, 32807, 4, 'AAA9AAAAAAA=', 104579);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3710897419, 1, 1896415263, 91.3769, 148.065, 2, -0.863652, 0, 0, -0.504088);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3710897419, 1, 'Mysterious Hatch');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (3710897419, 8, 100672468)
-     , (3710897419, 1, 33557478)
-     , (3710897419, 3, 536870947)
-     , (3710897419, 2, 150995151)
-     , (3710897419, 22, 872415237);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3710897419, 1, 16)
-     , (3710897419, 95, 3)
-     , (3710897419, 7, 255)
-     , (3710897419, 6, 255)
-     , (3710897419, 16, 32)
-     , (3710897419, 93, 6292504);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3710897419, 54, 2.5)
-     , (3710897419, 39, 1.5);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3710897419, 12, True)
-     , (3710897419, 11, True)
-     , (3710897419, 14, True)
-     , (3710897419, 41, True)
-     , (3710897419, 42, True);
 

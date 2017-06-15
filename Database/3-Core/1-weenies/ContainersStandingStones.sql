@@ -2,7 +2,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5864, 'monolithfrore1');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5864, 2097214, 5864, 20, 'AAA9AAIAAAAMAAAA', 104451);
+VALUES (5864, 20, 5864, 2097214, 'AAA9AAIAAAAMAAAA', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5864, 1, 'Standing Stone');
@@ -35,7 +35,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5865, 'monolithfrore2');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5865, 2097214, 5865, 21, NULL, 38917);
+VALUES (5865, 21, 5865, 2097214, NULL, 38917);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5865, 1, 'Standing Stone');
@@ -48,7 +48,7 @@ VALUES (5865, 8, 100670227)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5865, 1, 512)
-     , (5865, 5, 9000)
+     , (5865, 5, 9025)
      , (5865, 7, 10)
      , (5865, 6, 120)
      , (5865, 16, 48)
@@ -67,7 +67,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5866, 'monolithfrore3');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5866, 2097214, 5866, 21, NULL, 38913);
+VALUES (5866, 21, 5866, 2097214, NULL, 38913);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5866, 1, 'Standing Stone');
@@ -80,7 +80,7 @@ VALUES (5866, 8, 100670227)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5866, 1, 512)
-     , (5866, 5, 9000)
+     , (5866, 5, 9025)
      , (5866, 7, 10)
      , (5866, 6, 120)
      , (5866, 16, 48)

@@ -2,7 +2,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15451, 'doorapartment');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (15451, 48, 15451, 4116, 'AAA9AAIAAAAMAAAA', 104451);
+VALUES (15451, 4116, 15451, 48, 'AAA9AAIAAAALAAAA', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15451, 1, 'Door');
@@ -17,12 +17,13 @@ VALUES (15451, 8, 100668183)
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (15451, 1, 128)
      , (15451, 16, 32)
-     , (15451, 93, 65560);
+     , (15451, 93, 65564);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (15451, 54, 0.5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (15451, 12, True)
+VALUES (15451, 13, True)
+     , (15451, 12, True)
      , (15451, 11, True);
 

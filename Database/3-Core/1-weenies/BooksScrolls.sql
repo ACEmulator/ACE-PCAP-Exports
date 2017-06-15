@@ -1,8 +1,38 @@
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (9010, 'scrollaerlintherecall');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9010, 274, 9010, 2113560, NULL, 135297);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9010, 1, 'Unreadable Scroll');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (9010, 8, 100669876)
+     , (9010, 1, 33554826)
+     , (9010, 22, 872415275);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9010, 53, 101)
+     , (9010, 1, 8192)
+     , (9010, 5, 50)
+     , (9010, 16, 8)
+     , (9010, 19, 10)
+     , (9010, 93, 1044);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9010, 39, 1.5);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9010, 13, True)
+     , (9010, 11, True)
+     , (9010, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51921, 'ace51921-sealedscrollforcommanderpresk');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (51921, 2113552, 51921, 274, NULL, 137217);
+VALUES (51921, 274, 51921, 2113552, NULL, 137217);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51921, 1, 'Sealed Scroll for Commander Presk');
@@ -29,7 +59,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38246, 'ace38246-scrollofprophecy');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38246, 2113584, 38246, 272, NULL, 137217);
+VALUES (38246, 272, 38246, 2113584, NULL, 137217);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38246, 1, 'Scroll of Prophecy');
@@ -59,7 +89,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8505, 'noteadjauntranslated');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8505, 2113560, 8505, 272, NULL, 137217);
+VALUES (8505, 272, 8505, 2113560, NULL, 137217);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8505, 1, 'Damp Scroll');
@@ -84,10 +114,41 @@ VALUES (8505, 13, True)
      , (8505, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (6411, 'morphnote4untranslated');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (6411, 272, 6411, 2113592, NULL, 137217);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (6411, 1, 'Elaborate Scroll');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (6411, 8, 100667503)
+     , (6411, 1, 33554773)
+     , (6411, 3, 536870932)
+     , (6411, 22, 872415275);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6411, 53, 101)
+     , (6411, 1, 8192)
+     , (6411, 5, 25)
+     , (6411, 16, 8)
+     , (6411, 19, 3)
+     , (6411, 93, 1044);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6411, 54, 1);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6411, 13, True)
+     , (6411, 11, True)
+     , (6411, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22253, 'scrollulgrim');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22253, 2097168, 22253, 274, NULL, 168065);
+VALUES (22253, 274, 22253, 2097168, NULL, 168065);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22253, 1, 'Ulgrim''s Scroll');
@@ -116,7 +177,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51922, 'ace51922-sealedscrollforraksaa');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (51922, 2113552, 51922, 274, NULL, 137217);
+VALUES (51922, 274, 51922, 2113552, NULL, 137217);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51922, 1, 'Sealed Scroll for Raksaa');
@@ -140,71 +201,10 @@ VALUES (51922, 13, True)
      , (51922, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6411, 'morphnote4untranslated');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (6411, 2113592, 6411, 272, NULL, 137217);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6411, 1, 'Elaborate Scroll');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (6411, 8, 100667503)
-     , (6411, 1, 33554773)
-     , (6411, 3, 536870932)
-     , (6411, 22, 872415275);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6411, 53, 101)
-     , (6411, 1, 8192)
-     , (6411, 5, 25)
-     , (6411, 16, 8)
-     , (6411, 19, 3)
-     , (6411, 93, 1044);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (6411, 54, 1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (6411, 13, True)
-     , (6411, 11, True)
-     , (6411, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9010, 'scrollaerlintherecall');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9010, 2113560, 9010, 274, NULL, 135297);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9010, 1, 'Unreadable Scroll');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (9010, 8, 100669876)
-     , (9010, 1, 33554826)
-     , (9010, 22, 872415275);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9010, 53, 101)
-     , (9010, 1, 8192)
-     , (9010, 5, 50)
-     , (9010, 16, 8)
-     , (9010, 19, 10)
-     , (9010, 93, 1044);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (9010, 39, 1.5);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (9010, 13, True)
-     , (9010, 11, True)
-     , (9010, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8812, 'scrollarcanerestoration');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8812, 2113592, 8812, 272, NULL, 268417);
+VALUES (8812, 272, 8812, 2113592, NULL, 268417);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8812, 1, 'Esard''s Life Magic Scroll');
@@ -236,7 +236,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8811, 'scrolldarkflame');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8811, 2113592, 8811, 272, NULL, 268417);
+VALUES (8811, 272, 8811, 2113592, NULL, 268417);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8811, 1, 'Nelamar''s War Magic Scroll');
@@ -268,7 +268,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8810, 'scrollunnaturalpersistenceself');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8810, 2113592, 8810, 272, NULL, 268417);
+VALUES (8810, 272, 8810, 2113592, NULL, 268417);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8810, 1, 'Geraux''s Life Magic Scroll');

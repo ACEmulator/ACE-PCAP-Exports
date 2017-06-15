@@ -1,4 +1,54 @@
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23773, 14, 'Use this item to drink it.')
+     , (23773, 15, 'A heady drink that makes you feel like dancin.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23773, 19, 300)
+     , (23773, 5, 45)
+     , (23773, 89, 4)
+     , (23773, 90, 60);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23924, 16, 'Ulgrim''s guaranteed Hangover Cure.')
+     , (23924, 14, 'Use this potion at your own risk. Any claims or guarantees are completely without merit.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23924, 19, 1000)
+     , (23924, 5, 75)
+     , (23924, 89, 2)
+     , (23924, 90, 65);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1449, 14, 'Use this item to eat it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1449, 19, 48)
+     , (1449, 5, 100)
+     , (1449, 89, 2)
+     , (1449, 90, 6);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (378, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (378, 19, 75)
+     , (378, 5, 15)
+     , (378, 89, 4)
+     , (378, 90, 25);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (378, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27324, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27324, 19, 300)
+     , (27324, 5, 100)
+     , (27324, 89, 4)
+     , (27324, 90, 85);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5090, 14, 'Use this item to eat it.')
      , (5090, 15, 'This is edible but unappetizing food that no vendors will want to buy.');
 
@@ -7,6 +57,138 @@ VALUES (5090, 19, 0)
      , (5090, 5, 50)
      , (5090, 89, 4)
      , (5090, 90, 4);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31197, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31197, 19, 0)
+     , (31197, 5, 25)
+     , (31197, 89, 4)
+     , (31197, 90, 5);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31197, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31196, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31196, 19, 0)
+     , (31196, 5, 15)
+     , (31196, 89, 6)
+     , (31196, 90, 5);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31196, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31198, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31198, 19, 0)
+     , (31198, 5, 25)
+     , (31198, 89, 2)
+     , (31198, 90, 5);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31198, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27321, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27321, 19, 5000)
+     , (27321, 5, 150)
+     , (27321, 89, 6)
+     , (27321, 90, 100);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2468, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2468, 19, 15)
+     , (2468, 5, 50)
+     , (2468, 89, 4)
+     , (2468, 90, 8);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27327, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27327, 19, 500)
+     , (27327, 5, 150)
+     , (27327, 89, 4)
+     , (27327, 90, 100);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27323, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27323, 19, 2000)
+     , (27323, 5, 100)
+     , (27323, 89, 6)
+     , (27323, 90, 85);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4746, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4746, 19, 12)
+     , (4746, 5, 300)
+     , (4746, 89, 4)
+     , (4746, 90, 4);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (4746, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (13231, 14, 'Use this item to drink it.')
+     , (13231, 15, 'Many items, such as potions, are stackable. This means that they will stack on top of each other in the same slot in your Inventory. Academy potions, however, are not stackable.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (13231, 19, 75)
+     , (13231, 5, 15)
+     , (13231, 89, 4)
+     , (13231, 90, 25);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (13230, 14, 'Use this item to drink it.')
+     , (13230, 15, 'Many items, such as potions, are stackable. This means that they will stack on top of each other in the same slot in your Inventory. Academy potions, however, are not stackable.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (13230, 19, 75)
+     , (13230, 5, 15)
+     , (13230, 89, 6)
+     , (13230, 90, 25);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (262, 14, 'Use this item to eat it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (262, 19, 40)
+     , (262, 5, 920)
+     , (262, 89, 4)
+     , (262, 90, 10);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (13229, 14, 'Use this item to drink it.')
+     , (13229, 15, 'Many items, such as potions, are stackable. This means that they will stack on top of each other in the same slot in your Inventory. Academy potions, however, are not stackable.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (13229, 19, 75)
+     , (13229, 5, 15)
+     , (13229, 89, 2)
+     , (13229, 90, 25);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27325, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27325, 19, 7000)
+     , (27325, 5, 1400)
+     , (27325, 89, 4)
+     , (27325, 90, 125);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (259, 14, 'Use this item to eat it.');
@@ -21,74 +203,102 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (259, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (546, 14, 'Use this item to eat it.');
+VALUES (14910, 14, 'Use this item to eat it.  Or cut into pieces with a Wedding Cake Knife.')
+     , (14910, 15, 'The perfect feast to celebrate the joys of marriage.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (546, 19, 6)
-     , (546, 5, 45)
-     , (546, 89, 4)
-     , (546, 90, 4);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2461, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2461, 19, 1000)
-     , (2461, 5, 75)
-     , (2461, 89, 6)
-     , (2461, 90, 65);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (379, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (379, 19, 170)
-     , (379, 5, 15)
-     , (379, 89, 6)
-     , (379, 90, 25);
+VALUES (14910, 19, 28)
+     , (14910, 5, 35)
+     , (14910, 89, 2)
+     , (14910, 90, 30);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (379, 69, 0);
+VALUES (14910, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23328, 14, 'Use this item to eat it.')
-     , (23328, 15, 'An elaborate mix of reconstituted meat, nuts, and fruit. It''s very filling, and almost tasty.');
+VALUES (14912, 16, 'The perfect drink to celebrate the joys of marriage.')
+     , (14912, 14, 'Use this item to drink it.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23328, 19, 0)
-     , (23328, 5, 5875)
-     , (23328, 89, 4)
-     , (23328, 90, 100);
+VALUES (14912, 19, 1000)
+     , (14912, 5, 20)
+     , (14912, 89, 4)
+     , (14912, 90, 30);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8391, 14, 'Use this item to drink it.')
+     , (8391, 15, 'Commemorative mug celebrating the new season. It''s filled with the tavern''s best dark beer.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8391, 19, 10)
+     , (8391, 5, 45)
+     , (8391, 89, 4)
+     , (8391, 90, 7);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (23328, 69, 0);
+VALUES (8391, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27669, 16, 'These salted meats have been specially treated by Tumerok priests with herbs and spices that have many healing qualities. The result is a pungent and dry strip of meat with incredible healing properties.');
+VALUES (5758, 14, 'Use this item to eat it.')
+     , (5758, 15, 'Sweet carrots of a fine, rich orange hue.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27669, 19, 4100)
-     , (27669, 5, 6560)
-     , (27669, 89, 2)
-     , (27669, 90, 120);
+VALUES (5758, 19, 18)
+     , (5758, 5, 300)
+     , (5758, 89, 4)
+     , (5758, 90, 3);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23126, 14, 'Use this item to drink it.')
+     , (23126, 15, 'A delicious, rich and spicy lager.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23126, 19, 2400)
+     , (23126, 5, 360)
+     , (23126, 89, 4)
+     , (23126, 90, 60);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22578, 15, 'A bunch of good smelling fruit.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22578, 19, 50)
-     , (22578, 5, 30)
+VALUES (22578, 19, 400)
+     , (22578, 5, 240)
      , (22578, 89, 4)
      , (22578, 90, 6);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (263, 14, 'Use this item to eat it.');
+VALUES (27318, 14, 'Use this item to drink it.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (263, 19, 15)
-     , (263, 5, 50)
-     , (263, 89, 4)
-     , (263, 90, 8);
+VALUES (27318, 19, 5000)
+     , (27318, 5, 150)
+     , (27318, 89, 2)
+     , (27318, 90, 100);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4741, 14, 'Use this item to eat it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4741, 19, 30)
+     , (4741, 5, 75)
+     , (4741, 89, 4)
+     , (4741, 90, 15);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (4741, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2460, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2460, 19, 85)
+     , (2460, 5, 5)
+     , (2460, 89, 6)
+     , (2460, 90, 10);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2460, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (548, 14, 'Use this item to eat it.');
@@ -100,13 +310,43 @@ VALUES (548, 19, 10)
      , (548, 90, 6);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1449, 14, 'Use this item to eat it.');
+VALUES (2457, 14, 'Use this item to drink it.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1449, 19, 48)
-     , (1449, 5, 100)
-     , (1449, 89, 2)
-     , (1449, 90, 6);
+VALUES (2457, 19, 85)
+     , (2457, 5, 5)
+     , (2457, 89, 2)
+     , (2457, 90, 10);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2457, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27326, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27326, 19, 100)
+     , (27326, 5, 50)
+     , (27326, 89, 4)
+     , (27326, 90, 60);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1450, 14, 'Use this item to eat it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1450, 19, 15)
+     , (1450, 5, 100)
+     , (1450, 89, 2)
+     , (1450, 90, 3);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1447, 14, 'Use this item to eat it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1447, 19, 60)
+     , (1447, 5, 50)
+     , (1447, 89, 4)
+     , (1447, 90, 24);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1448, 14, 'Use this item to eat it.');
@@ -118,13 +358,196 @@ VALUES (1448, 19, 60)
      , (1448, 90, 18);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1445, 14, 'Use this item to eat it.');
+VALUES (4890, 16, 'A bottle of perfectly aged greenish yellow dew from the lost distillery.')
+     , (4890, 14, 'Use this item to drink it.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1445, 19, 15)
-     , (1445, 5, 100)
-     , (1445, 89, 4)
-     , (1445, 90, 18);
+VALUES (4890, 33, 1)
+     , (4890, 114, 1)
+     , (4890, 19, 0)
+     , (4890, 5, 50)
+     , (4890, 89, 2)
+     , (4890, 90, 8);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2451, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2451, 19, 50)
+     , (2451, 5, 250)
+     , (2451, 89, 4)
+     , (2451, 90, 6);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2469, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2469, 19, 5)
+     , (2469, 5, 50)
+     , (2469, 89, 4)
+     , (2469, 90, 5);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5278, 14, 'Use this item to eat it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5278, 19, 135)
+     , (5278, 5, 50)
+     , (5278, 89, 2)
+     , (5278, 90, 39);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5278, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29224, 14, 'Use this item to eat it.')
+     , (29224, 15, 'An elaborate mix of reconstituted meats, nuts, and fruit. It''s very filling, and a bit spicy.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29224, 19, 0)
+     , (29224, 5, 2430)
+     , (29224, 89, 2)
+     , (29224, 90, 70);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29224, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29228, 14, 'Use this item to eat it.')
+     , (29228, 15, 'An elaborate mix of reconstituted meats, nuts, and fruit. It''s very filling, and tastes a bit of cinnamon.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29228, 19, 0)
+     , (29228, 5, 3060)
+     , (29228, 89, 6)
+     , (29228, 90, 70);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29228, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23328, 14, 'Use this item to eat it.')
+     , (23328, 15, 'An elaborate mix of reconstituted meat, nuts, and fruit. It''s very filling, and almost tasty.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23328, 19, 0)
+     , (23328, 5, 4000)
+     , (23328, 89, 4)
+     , (23328, 90, 100);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23328, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22616, 14, 'Eat this food to recover stamina.')
+     , (22616, 15, 'A frozen ice cream treat.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22616, 19, 2800)
+     , (22616, 5, 840)
+     , (22616, 89, 4)
+     , (22616, 90, 60);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22616, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34860, 16, 'This is a Health-restoring wafer made from a Tiriun Mushroom Cap that has been roasted and sliced.')
+     , (34860, 14, 'Use this item to consume it and  regenerate 90 Health.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34860, 19, 1500)
+     , (34860, 5, 2100)
+     , (34860, 89, 2)
+     , (34860, 90, 90);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5759, 8, 'Chia')
+     , (5759, 14, 'Use this item to eat it.')
+     , (5759, 7, 'And no spire left to sacrifice it to ;)')
+     , (5759, 15, 'A heavy, strong-smelling cake filled with unidentifiable brown lumps.  Somehow you just can''t eat it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5759, 19, 15)
+     , (5759, 5, 100)
+     , (5759, 89, 4)
+     , (5759, 90, 1);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5759, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27669, 16, 'These salted meats have been specially treated by Tumerok priests with herbs and spices that have many healing qualities. The result is a pungent and dry strip of meat with incredible healing properties.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27669, 19, 4100)
+     , (27669, 5, 6560)
+     , (27669, 89, 2)
+     , (27669, 90, 120);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4745, 14, 'Use this item to eat it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4745, 19, 22)
+     , (4745, 5, 75)
+     , (4745, 89, 4)
+     , (4745, 90, 9);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (4745, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22619, 14, 'Eat this food to recover stamina.')
+     , (22619, 15, 'A chocolate covered fruity treat on a stick!');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22619, 19, 100)
+     , (22619, 5, 50)
+     , (22619, 89, 4)
+     , (22619, 90, 55);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22619, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7868, 14, 'Use this item to eat it.')
+     , (7868, 15, 'Applesauce: simple, impeccably pureed, buttery.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7868, 19, 140)
+     , (7868, 5, 80)
+     , (7868, 89, 6)
+     , (7868, 90, 24);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7868, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8249, 14, 'Use this item to eat it.')
+     , (8249, 15, 'A thick, sweetened soup made from cooked pumpkin.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8249, 19, 70)
+     , (8249, 5, 150)
+     , (8249, 89, 4)
+     , (8249, 90, 15);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8249, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12227, 14, 'Use this item to eat it.')
+     , (12227, 15, 'An apple coated with sticky, sweet monougat.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12227, 19, 60)
+     , (12227, 5, 150)
+     , (12227, 89, 4)
+     , (12227, 90, 15);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12227, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1452, 14, 'Use this item to eat it.');
@@ -136,13 +559,104 @@ VALUES (1452, 19, 28)
      , (1452, 90, 18);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (262, 14, 'Use this item to eat it.');
+VALUES (8248, 14, 'Use this item to eat it.')
+     , (8248, 15, 'A lightly baked, browned pumpkin pie, thick, savory, sweet.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (262, 19, 20)
-     , (262, 5, 460)
-     , (262, 89, 4)
-     , (262, 90, 10);
+VALUES (8248, 19, 70)
+     , (8248, 5, 150)
+     , (8248, 89, 4)
+     , (8248, 90, 15);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8248, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1451, 14, 'Use this item to eat it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1451, 19, 28)
+     , (1451, 5, 100)
+     , (1451, 89, 2)
+     , (1451, 90, 10);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2454, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2454, 19, 30)
+     , (2454, 5, 50)
+     , (2454, 89, 4)
+     , (2454, 90, 12);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2465, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2465, 19, 20)
+     , (2465, 5, 50)
+     , (2465, 89, 4)
+     , (2465, 90, 8);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22637, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22637, 19, 30)
+     , (22637, 5, 50)
+     , (22637, 89, 4)
+     , (22637, 90, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22617, 14, 'Eat this food to recover stamina.')
+     , (22617, 15, 'A sweet smelling loaf of baked bread.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22617, 19, 80)
+     , (22617, 5, 50)
+     , (22617, 89, 4)
+     , (22617, 90, 15);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22617, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38794, 14, 'Use this item to drink it.  After you drink it, you will not be able to use another Black Market or Enhanced health elixir for an hour.')
+     , (38794, 15, 'A vial of very powerful Health potion.  Hazardous to use too often.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38794, 33, 1)
+     , (38794, 114, 1)
+     , (38794, 19, 2100000)
+     , (38794, 5, 1575)
+     , (38794, 280, 4)
+     , (38794, 89, 2)
+     , (38794, 90, 300);
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (38794, 167, 300);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12251, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12251, 19, 30)
+     , (12251, 5, 210)
+     , (12251, 89, 6)
+     , (12251, 90, 70);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12251, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5174, 16, 'A Cove Apple pie baked by Mara al-Luq, with healing properties.')
+     , (5174, 14, 'Use this item to eat it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5174, 19, 12)
+     , (5174, 5, 75)
+     , (5174, 89, 2)
+     , (5174, 90, 15);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4753, 14, 'Use this item to eat it.');
@@ -166,47 +680,158 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (4739, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14910, 14, 'Use this item to eat it.  Or cut into pieces with a Wedding Cake Knife.')
-     , (14910, 15, 'The perfect feast to celebrate the joys of marriage.');
+VALUES (43635, 14, 'Use this item to drink it.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14910, 19, 28)
-     , (14910, 5, 35)
-     , (14910, 89, 2)
-     , (14910, 90, 30);
+VALUES (43635, 33, 1)
+     , (43635, 114, 1)
+     , (43635, 19, 99)
+     , (43635, 5, 4950)
+     , (43635, 89, 6)
+     , (43635, 90, 100);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7863, 14, 'Use this item to eat it.')
+     , (7863, 15, 'A juicy Holtburger, on bread.  Said to be old Foster''s favorite.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7863, 19, 89)
+     , (7863, 5, 40)
+     , (7863, 89, 4)
+     , (7863, 90, 40);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14910, 69, 0);
+VALUES (7863, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5278, 14, 'Use this item to eat it.');
+VALUES (23329, 14, 'Use this item to eat it.')
+     , (23329, 15, 'A filling if tasteless mix of reconstituted meat, nuts, and fruit.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5278, 19, 135)
-     , (5278, 5, 50)
-     , (5278, 89, 2)
-     , (5278, 90, 39);
+VALUES (23329, 19, 0)
+     , (23329, 5, 1200)
+     , (23329, 89, 4)
+     , (23329, 90, 75);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (5278, 69, 0);
+VALUES (23329, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22637, 14, 'Use this item to drink it.');
+VALUES (37517, 14, 'Use this item to drink it.')
+     , (37517, 15, 'This elixir has been enhanced by the Arcanum to be extra potent.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22637, 19, 30)
-     , (22637, 5, 50)
-     , (22637, 89, 4)
-     , (22637, 90, 1);
+VALUES (37517, 33, 1)
+     , (37517, 114, 1)
+     , (37517, 19, 1000)
+     , (37517, 5, 75)
+     , (37517, 280, 4)
+     , (37517, 89, 2)
+     , (37517, 90, 200);
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (37517, 167, 30);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1446, 14, 'Use this item to eat it.');
+VALUES (27670, 16, 'A flute of cool liquid. The contents of this flute teem with energy and feel as though they are swirling within the container.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1446, 19, 20)
-     , (1446, 5, 100)
-     , (1446, 89, 2)
-     , (1446, 90, 4);
+VALUES (27670, 19, 10000)
+     , (27670, 5, 3000)
+     , (27670, 89, 6)
+     , (27670, 90, 120);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7849, 14, 'Use this item to eat it.')
+     , (7849, 15, 'A tempting bowl of cool, pale, green tea ice cream.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7849, 19, 480)
+     , (7849, 5, 80)
+     , (7849, 89, 2)
+     , (7849, 90, 55);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7849, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29213, 16, 'An amazing bottle of glorious amber ale. This beer has a thicker consistency than the usual brew.')
+     , (29213, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29213, 19, 490)
+     , (29213, 5, 3675)
+     , (29213, 89, 4)
+     , (29213, 90, 75);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29213, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9539, 14, 'Use this item to eat it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9539, 19, 1)
+     , (9539, 5, 2)
+     , (9539, 89, 4)
+     , (9539, 90, 4);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5807, 14, 'Use this item to eat it.')
+     , (5807, 15, 'An aromatic cheese pizza, liberally sprinkled with spicy oregano.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5807, 19, 1045)
+     , (5807, 5, 550)
+     , (5807, 89, 4)
+     , (5807, 90, 50);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5807, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30108, 16, 'This elixir was brewed by Ulgrim the Unpleasant, who had no idea what he was doing at the time.')
+     , (30108, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30108, 17, 69)
+     , (30108, 19, 0)
+     , (30108, 5, 5)
+     , (30108, 89, 6)
+     , (30108, 90, 500);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5633, 14, 'Use this item to eat it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5633, 19, 20)
+     , (5633, 5, 600)
+     , (5633, 89, 4)
+     , (5633, 90, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29108, 16, 'Do not drink this.')
+     , (29108, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29108, 19, 10)
+     , (29108, 5, 50)
+     , (29108, 89, 4)
+     , (29108, 90, 4294957297);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29108, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30107, 16, 'This elixir was brewed by Ulgrim the Unpleasant, who had no idea what he was doing at the time.')
+     , (30107, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30107, 17, 67)
+     , (30107, 19, 0)
+     , (30107, 5, 5)
+     , (30107, 89, 2)
+     , (30107, 90, 500);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23264, 14, 'Use this item to eat it.');
@@ -229,88 +854,14 @@ VALUES (30109, 17, 68)
      , (30109, 90, 500);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2451, 14, 'Use this item to drink it.');
+VALUES (5831, 16, 'A mug of beer lovingly brewed in the traditional ways of old Ispar.')
+     , (5831, 14, 'Use this item to drink it.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2451, 19, 10)
-     , (2451, 5, 50)
-     , (2451, 89, 4)
-     , (2451, 90, 6);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13230, 14, 'Use this item to drink it.')
-     , (13230, 15, 'Many items, such as potions, are stackable. This means that they will stack on top of each other in the same slot in your Inventory. Academy potions, however, are not stackable.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13230, 19, 75)
-     , (13230, 5, 15)
-     , (13230, 89, 6)
-     , (13230, 90, 25);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13229, 14, 'Use this item to drink it.')
-     , (13229, 15, 'Many items, such as potions, are stackable. This means that they will stack on top of each other in the same slot in your Inventory. Academy potions, however, are not stackable.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13229, 19, 75)
-     , (13229, 5, 15)
-     , (13229, 89, 2)
-     , (13229, 90, 25);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13231, 14, 'Use this item to drink it.')
-     , (13231, 15, 'Many items, such as potions, are stackable. This means that they will stack on top of each other in the same slot in your Inventory. Academy potions, however, are not stackable.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13231, 19, 75)
-     , (13231, 5, 15)
-     , (13231, 89, 4)
-     , (13231, 90, 25);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30108, 16, 'This elixir was brewed by Ulgrim the Unpleasant, who had no idea what he was doing at the time.')
-     , (30108, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30108, 17, 69)
-     , (30108, 19, 0)
-     , (30108, 5, 5)
-     , (30108, 89, 6)
-     , (30108, 90, 500);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2468, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2468, 19, 60)
-     , (2468, 5, 200)
-     , (2468, 89, 4)
-     , (2468, 90, 8);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27318, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27318, 19, 10000)
-     , (27318, 5, 300)
-     , (27318, 89, 2)
-     , (27318, 90, 100);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38794, 14, 'Use this item to drink it.  After you drink it, you will not be able to use another Black Market or Enhanced health elixir for an hour.')
-     , (38794, 15, 'A vial of very powerful Health potion.  Hazardous to use too often.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38794, 33, 1)
-     , (38794, 114, 1)
-     , (38794, 19, 200000)
-     , (38794, 5, 150)
-     , (38794, 280, 4)
-     , (38794, 89, 2)
-     , (38794, 90, 300);
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (38794, 167, 300);
+VALUES (5831, 19, 100)
+     , (5831, 5, 250)
+     , (5831, 89, 4)
+     , (5831, 90, 10);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24225, 14, 'Use this item to eat it.');
@@ -332,55 +883,6 @@ VALUES (5616, 19, 770)
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5616, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43635, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43635, 33, 1)
-     , (43635, 114, 1)
-     , (43635, 19, 100)
-     , (43635, 5, 5000)
-     , (43635, 89, 6)
-     , (43635, 90, 100);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43634, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43634, 33, 1)
-     , (43634, 114, 1)
-     , (43634, 19, 10)
-     , (43634, 5, 500)
-     , (43634, 89, 2)
-     , (43634, 90, 100);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29224, 14, 'Use this item to eat it.')
-     , (29224, 15, 'An elaborate mix of reconstituted meats, nuts, and fruit. It''s very filling, and a bit spicy.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29224, 19, 0)
-     , (29224, 5, 4500)
-     , (29224, 89, 2)
-     , (29224, 90, 70);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29224, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12233, 25, 'Squire Juliana')
-     , (12233, 14, 'Use this item to eat it.')
-     , (12233, 15, 'A dark chocolate candy with a sticky, sweet center.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12233, 19, 315)
-     , (12233, 5, 140)
-     , (12233, 89, 4)
-     , (12233, 90, 35);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (12233, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14769, 14, 'Use this item to drink it.')
@@ -408,27 +910,39 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (5268, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23924, 16, 'Ulgrim''s guaranteed Hangover Cure.')
-     , (23924, 14, 'Use this potion at your own risk. Any claims or guarantees are completely without merit.');
+VALUES (23245, 14, 'Use this item to eat it.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23924, 19, 1000)
-     , (23924, 5, 75)
-     , (23924, 89, 2)
-     , (23924, 90, 65);
+VALUES (23245, 19, 0)
+     , (23245, 5, 75)
+     , (23245, 89, 4)
+     , (23245, 90, 40);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14772, 14, 'This item is used in cooking.')
-     , (14772, 15, 'Chewy Peppermint Candy made with Monougat.');
+VALUES (14771, 14, 'Use this item to eat it.')
+     , (14771, 15, 'Ice Cream with crushed peppermint in it.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14772, 19, 4)
-     , (14772, 5, 50)
-     , (14772, 89, 4)
-     , (14772, 90, 20);
+VALUES (14771, 19, 150)
+     , (14771, 5, 60)
+     , (14771, 89, 4)
+     , (14771, 90, 30);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14772, 69, 0);
+VALUES (14771, 69, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7843, 14, 'Use this item to eat it.')
+     , (7843, 15, 'A tempting bowl of cool, dark, rich, chocolate ice cream.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7843, 19, 150)
+     , (7843, 5, 60)
+     , (7843, 89, 2)
+     , (7843, 90, 20);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7843, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4735, 14, 'Use this item to eat it.');
@@ -456,18 +970,6 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (14770, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4890, 16, 'A bottle of perfectly aged greenish yellow dew from the lost distillery.')
-     , (4890, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4890, 33, 1)
-     , (4890, 114, 1)
-     , (4890, 19, 0)
-     , (4890, 5, 50)
-     , (4890, 89, 2)
-     , (4890, 90, 8);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (549, 14, 'Use this item to eat it.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -475,16 +977,6 @@ VALUES (549, 19, 18)
      , (549, 5, 75)
      , (549, 89, 4)
      , (549, 90, 8);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34860, 16, 'This is a Health-restoring wafer made from a Tiriun Mushroom Cap that has been roasted and sliced.')
-     , (34860, 14, 'Use this item to consume it and  regenerate 90 Health.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34860, 19, 4000)
-     , (34860, 5, 5600)
-     , (34860, 89, 2)
-     , (34860, 90, 90);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14767, 14, 'Use this item to eat it.')
@@ -535,350 +1027,6 @@ VALUES (4889, 33, 1)
      , (4889, 5, 50)
      , (4889, 89, 2)
      , (4889, 90, 4);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7864, 14, 'Use this item to eat it.')
-     , (7864, 15, 'A juicy Holtburger, on bread.  Said to be old Foster''s favorite.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7864, 19, 1419)
-     , (7864, 5, 440)
-     , (7864, 89, 2)
-     , (7864, 90, 40);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (7864, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5292, 14, 'Use this item to eat it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5292, 19, 140)
-     , (5292, 5, 50)
-     , (5292, 89, 6)
-     , (5292, 90, 45);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (5292, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27323, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27323, 19, 40000)
-     , (27323, 5, 2000)
-     , (27323, 89, 6)
-     , (27323, 90, 85);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31198, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31198, 19, 0)
-     , (31198, 5, 200)
-     , (31198, 89, 2)
-     , (31198, 90, 5);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (31198, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31197, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31197, 19, 0)
-     , (31197, 5, 200)
-     , (31197, 89, 4)
-     , (31197, 90, 5);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (31197, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31196, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31196, 19, 0)
-     , (31196, 5, 135)
-     , (31196, 89, 6)
-     , (31196, 90, 5);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (31196, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8391, 14, 'Use this item to drink it.')
-     , (8391, 15, 'Commemorative mug celebrating the new season. It''s filled with the tavern''s best dark beer.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8391, 19, 10)
-     , (8391, 5, 45)
-     , (8391, 89, 4)
-     , (8391, 90, 7);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8391, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5126, 16, 'A bottle containing what looks like water, except the water somehow smells more refreshing than normal water.')
-     , (5126, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5126, 33, 1)
-     , (5126, 114, 1)
-     , (5126, 19, 0)
-     , (5126, 5, 25)
-     , (5126, 89, 4)
-     , (5126, 90, 12);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12227, 14, 'Use this item to eat it.')
-     , (12227, 15, 'An apple coated with sticky, sweet monougat.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12227, 19, 20)
-     , (12227, 5, 50)
-     , (12227, 89, 4)
-     , (12227, 90, 15);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (12227, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2462, 16, 'Sceptre');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2462, 177, 3)
-     , (2462, 178, 23)
-     , (2462, 19, 1663)
-     , (2462, 131, 31)
-     , (2462, 5, 50)
-     , (2462, 105, 5)
-     , (2462, 172, 5);
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2462, 144, 0.05)
-     , (2462, 29, 1.09);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22619, 14, 'Eat this food to recover stamina.')
-     , (22619, 15, 'A chocolate covered fruity treat on a stick!');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22619, 19, 100)
-     , (22619, 5, 50)
-     , (22619, 89, 4)
-     , (22619, 90, 55);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (22619, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8249, 14, 'Use this item to eat it.')
-     , (8249, 15, 'A thick, sweetened soup made from cooked pumpkin.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8249, 19, 70)
-     , (8249, 5, 150)
-     , (8249, 89, 4)
-     , (8249, 90, 15);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8249, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14760, 14, 'Use this item to eat it.')
-     , (14760, 15, 'A ginger bread cookie in the shape of a Drudge.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14760, 19, 56)
-     , (14760, 5, 60)
-     , (14760, 89, 4)
-     , (14760, 90, 50);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14760, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32209, 14, 'Use this item to eat it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32209, 19, 4)
-     , (32209, 5, 8)
-     , (32209, 89, 4)
-     , (32209, 90, 40);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32208, 14, 'Use this item to eat it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32208, 19, 5)
-     , (32208, 5, 10)
-     , (32208, 89, 2)
-     , (32208, 90, 40);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14759, 14, 'Use this item to eat it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14759, 19, 180)
-     , (14759, 5, 135)
-     , (14759, 89, 2)
-     , (14759, 90, 10);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14759, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14762, 14, 'Use this item to eat it.')
-     , (14762, 15, 'A ginger bread cookie in the shape of a Human.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14762, 19, 28)
-     , (14762, 5, 30)
-     , (14762, 89, 4)
-     , (14762, 90, 50);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14762, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8248, 14, 'Use this item to eat it.')
-     , (8248, 15, 'A lightly baked, browned pumpkin pie, thick, savory, sweet.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8248, 19, 70)
-     , (8248, 5, 150)
-     , (8248, 89, 4)
-     , (8248, 90, 15);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8248, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14758, 14, 'Use this item to eat it.')
-     , (14758, 15, 'A chocolate bar with crushed peppermint pieces in it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14758, 19, 165)
-     , (14758, 5, 60)
-     , (14758, 89, 4)
-     , (14758, 90, 35);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14758, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2454, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2454, 19, 30)
-     , (2454, 5, 50)
-     , (2454, 89, 4)
-     , (2454, 90, 12);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2465, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2465, 19, 20)
-     , (2465, 5, 50)
-     , (2465, 89, 4)
-     , (2465, 90, 8);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22617, 14, 'Eat this food to recover stamina.')
-     , (22617, 15, 'A sweet smelling loaf of baked bread.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22617, 19, 80)
-     , (22617, 5, 50)
-     , (22617, 89, 4)
-     , (22617, 90, 15);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (22617, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14763, 14, 'Use this item to eat it.')
-     , (14763, 15, 'A cookie with crushed Peppermint in it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14763, 19, 42)
-     , (14763, 5, 45)
-     , (14763, 89, 4)
-     , (14763, 90, 15);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14763, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7830, 14, 'Use this item to eat it.')
-     , (7830, 15, 'A small rectangle of slightly sweetened, rich dark chocolate.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7830, 19, 90)
-     , (7830, 5, 40)
-     , (7830, 89, 4)
-     , (7830, 90, 22);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (7830, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23245, 14, 'Use this item to eat it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23245, 19, 0)
-     , (23245, 5, 75)
-     , (23245, 89, 4)
-     , (23245, 90, 40);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14771, 14, 'Use this item to eat it.')
-     , (14771, 15, 'Ice Cream with crushed peppermint in it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14771, 19, 150)
-     , (14771, 5, 60)
-     , (14771, 89, 4)
-     , (14771, 90, 30);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14771, 69, 0);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7868, 2, 9)
-     , (7868, 25, 80);
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (7868, 1, 120)
-     , (7868, 2, 145)
-     , (7868, 4, 175)
-     , (7868, 3, 175)
-     , (7868, 5, 125)
-     , (7868, 6, 105);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (7868, 2, 238)
-     , (7868, 4, 355)
-     , (7868, 6, 241)
-     , (7868, 1, 238)
-     , (7868, 3, 355)
-     , (7868, 5, 265);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22616, 14, 'Eat this food to recover stamina.')
-     , (22616, 15, 'A frozen ice cream treat.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22616, 19, 200)
-     , (22616, 5, 60)
-     , (22616, 89, 4)
-     , (22616, 90, 60);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (22616, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27754, 16, 'An odorous bottle of brackish blue liquid.')
@@ -985,100 +1133,77 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (27750, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27325, 16, 'Ornamental Bowl of Fletching Mastery');
+VALUES (7864, 14, 'Use this item to eat it.')
+     , (7864, 15, 'A juicy Holtburger, on bread.  Said to be old Foster''s favorite.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27325, 353, 10)
-     , (27325, 177, 4)
-     , (27325, 178, 11)
-     , (27325, 19, 3805)
-     , (27325, 131, 2)
-     , (27325, 115, 0)
-     , (27325, 5, 50)
-     , (27325, 105, 7)
-     , (27325, 106, 204)
-     , (27325, 107, 1301)
-     , (27325, 108, 1301)
-     , (27325, 172, 5)
-     , (27325, 109, 153)
-     , (27325, 110, 0)
-     , (27325, 45, 4)
-     , (27325, 49, 10)
-     , (27325, 48, 47)
-     , (27325, 44, 4);
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27325, 5, -0.05)
-     , (27325, 29, 1)
-     , (27325, 22, 0.25)
-     , (27325, 63, 1)
-     , (27325, 21, 0)
-     , (27325, 26, 0)
-     , (27325, 62, 1);
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27325, 1743);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7863, 14, 'Use this item to eat it.')
-     , (7863, 15, 'A juicy Holtburger, on bread.  Said to be old Foster''s favorite.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7863, 19, 89)
-     , (7863, 5, 40)
-     , (7863, 89, 4)
-     , (7863, 90, 40);
+VALUES (7864, 19, 1419)
+     , (7864, 5, 440)
+     , (7864, 89, 2)
+     , (7864, 90, 40);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (7863, 69, 0);
+VALUES (7864, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27670, 16, 'A flute of cool liquid. The contents of this flute teem with energy and feel as though they are swirling within the container.');
+VALUES (5292, 14, 'Use this item to eat it.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27670, 19, 10000)
-     , (27670, 5, 3000)
-     , (27670, 89, 6)
-     , (27670, 90, 120);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7849, 14, 'Use this item to eat it.')
-     , (7849, 15, 'A tempting bowl of cool, pale, green tea ice cream.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7849, 19, 480)
-     , (7849, 5, 80)
-     , (7849, 89, 2)
-     , (7849, 90, 55);
+VALUES (5292, 19, 140)
+     , (5292, 5, 50)
+     , (5292, 89, 6)
+     , (5292, 90, 45);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (7849, 69, 0);
+VALUES (5292, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29213, 16, 'An amazing bottle of glorious amber ale. This beer has a thicker consistency than the usual brew.')
-     , (29213, 14, 'Use this item to drink it.');
+VALUES (4891, 16, 'A small bottle full of a sweet golden nectar from the lost distillery.')
+     , (4891, 14, 'Use this item to drink it.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29213, 19, 490)
-     , (29213, 5, 3675)
-     , (29213, 89, 4)
-     , (29213, 90, 75);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29213, 69, 0);
+VALUES (4891, 33, 1)
+     , (4891, 114, 1)
+     , (4891, 19, 0)
+     , (4891, 5, 50)
+     , (4891, 89, 4)
+     , (4891, 90, 8);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5807, 14, 'Use this item to eat it.')
-     , (5807, 15, 'An aromatic cheese pizza, liberally sprinkled with spicy oregano.');
+VALUES (5126, 16, 'A bottle containing what looks like water, except the water somehow smells more refreshing than normal water.')
+     , (5126, 14, 'Use this item to drink it.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5807, 19, 1045)
-     , (5807, 5, 550)
-     , (5807, 89, 4)
-     , (5807, 90, 50);
+VALUES (5126, 33, 1)
+     , (5126, 114, 1)
+     , (5126, 19, 0)
+     , (5126, 5, 25)
+     , (5126, 89, 4)
+     , (5126, 90, 12);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5139, 16, 'A flask of muddy water from deep within the Dry Well near Samsur.')
+     , (5139, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5139, 33, 1)
+     , (5139, 114, 1)
+     , (5139, 19, 0)
+     , (5139, 5, 50)
+     , (5139, 89, 4)
+     , (5139, 90, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5634, 14, 'Use this item to drink it.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5634, 19, 30)
+     , (5634, 5, 5)
+     , (5634, 89, 4)
+     , (5634, 90, 10);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (5807, 69, 0);
+VALUES (5634, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5809, 14, 'Use this item to eat it.')
@@ -1094,36 +1219,18 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (5809, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5139, 16, 'A flask of muddy water from deep within the Dry Well near Samsur.')
-     , (5139, 14, 'Use this item to drink it.');
+VALUES (2462, 16, 'Sceptre');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5139, 33, 1)
-     , (5139, 114, 1)
-     , (5139, 19, 0)
-     , (5139, 5, 50)
-     , (5139, 89, 4)
-     , (5139, 90, 1);
+VALUES (2462, 177, 3)
+     , (2462, 178, 23)
+     , (2462, 19, 1663)
+     , (2462, 131, 31)
+     , (2462, 5, 50)
+     , (2462, 105, 5)
+     , (2462, 172, 5);
 
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5831, 16, 'A mug of beer lovingly brewed in the traditional ways of old Ispar.')
-     , (5831, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5831, 19, 100)
-     , (5831, 5, 250)
-     , (5831, 89, 4)
-     , (5831, 90, 10);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5634, 14, 'Use this item to drink it.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5634, 19, 30)
-     , (5634, 5, 5)
-     , (5634, 89, 4)
-     , (5634, 90, 10);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (5634, 69, 0);
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2462, 144, 0.05)
+     , (2462, 29, 1.09);
 
