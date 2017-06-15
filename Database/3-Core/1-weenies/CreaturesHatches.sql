@@ -1,8 +1,43 @@
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (32807, 'ace32807-mysterioushatch');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (32807, 4, 32807, 1048630, 'AAA9AAAAAAA=', 104579);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32807, 1, 'Mysterious Hatch');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (32807, 8, 100672468)
+     , (32807, 1, 33557478)
+     , (32807, 3, 536870947)
+     , (32807, 2, 150995151)
+     , (32807, 22, 872415237);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32807, 1, 16)
+     , (32807, 95, 3)
+     , (32807, 7, 255)
+     , (32807, 6, 255)
+     , (32807, 16, 32)
+     , (32807, 93, 6292504);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32807, 54, 2.5)
+     , (32807, 39, 1.5);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32807, 12, True)
+     , (32807, 11, True)
+     , (32807, 14, True)
+     , (32807, 41, True)
+     , (32807, 42, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48857, 'ace48857-mysterioushatch');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (48857, 1048630, 48857, 4, 'AAA9AAAAAAA=', 104579);
+VALUES (48857, 4, 48857, 1048630, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48857, 1, 'Mysterious Hatch');
@@ -37,7 +72,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48858, 'ace48858-mysterioushatch');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (48858, 1048630, 48858, 4, 'AAA9AAAAAAA=', 104579);
+VALUES (48858, 4, 48858, 1048630, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48858, 1, 'Mysterious Hatch');
@@ -72,7 +107,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48859, 'ace48859-mysterioushatch');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (48859, 1048630, 48859, 4, 'AAA9AAAAAAA=', 104579);
+VALUES (48859, 4, 48859, 1048630, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48859, 1, 'Mysterious Hatch');
@@ -107,7 +142,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48875, 'ace48875-mysterioushatch');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (48875, 1048630, 48875, 4, 'AAA9AAAAAAA=', 104583);
+VALUES (48875, 4, 48875, 1048630, 'AAA9AAAAAAA=', 104583);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48875, 1, 'Mysterious Hatch');
@@ -137,39 +172,4 @@ VALUES (48875, 12, True)
      , (48875, 14, True)
      , (48875, 41, True)
      , (48875, 42, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (32807, 'ace32807-mysterioushatch');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (32807, 1048630, 32807, 4, 'AAA9AAAAAAA=', 104579);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32807, 1, 'Mysterious Hatch');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (32807, 8, 100672468)
-     , (32807, 1, 33557478)
-     , (32807, 3, 536870947)
-     , (32807, 2, 150995151)
-     , (32807, 22, 872415237);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32807, 1, 16)
-     , (32807, 95, 3)
-     , (32807, 7, 255)
-     , (32807, 6, 255)
-     , (32807, 16, 32)
-     , (32807, 93, 6292504);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (32807, 54, 2.5)
-     , (32807, 39, 1.5);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (32807, 12, True)
-     , (32807, 11, True)
-     , (32807, 14, True)
-     , (32807, 41, True)
-     , (32807, 42, True);
 

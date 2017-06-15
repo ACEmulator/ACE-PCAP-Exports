@@ -1,5 +1,5 @@
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2057629702, 0, 21196, 148, NULL, 163969);
+VALUES (2057629702, 148, 21196, 0, NULL, 163969);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (2057629702, 1, 2857304093, 83.9796, 107.2, 35.0383, -0.9853383, 0, 0, 0.1706121);
@@ -25,7 +25,7 @@ VALUES (2057629702, 13, True)
      , (2057629702, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1969557648, 10485776, 22215, 148, NULL, 163969);
+VALUES (1969557648, 148, 22215, 10485776, NULL, 163969);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (1969557648, 1, 1448149340, 20, -170, -60, 1, 0, 0, 0);
@@ -61,7 +61,7 @@ VALUES (1969557648, 0, 16778667)
      , (1969557648, 1, 16778672);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2036768769, 0, 21188, 148, NULL, 163969);
+VALUES (2036768769, 148, 21188, 0, NULL, 163969);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (2036768769, 1, 2523529244, 82.248, 83.424, 10.04, 0.7455239, 0, 0, -0.6664789);
@@ -87,7 +87,7 @@ VALUES (2036768769, 13, True)
      , (2036768769, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2082025478, 0, 21194, 148, NULL, 163969);
+VALUES (2082025478, 148, 21194, 0, NULL, 163969);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (2082025478, 1, 3247636535, 156.169, 157.372, 2.04, -0.361193, 0, 0, -0.9324911);

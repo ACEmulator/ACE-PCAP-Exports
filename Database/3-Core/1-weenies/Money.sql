@@ -2,7 +2,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (273, 'coinstack');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (273, 28696, 273, 16, NULL, 131073);
+VALUES (273, 16, 273, 28696, NULL, 131073);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (273, 1, 'Pyreal');
@@ -15,9 +15,9 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (273, 53, 101)
      , (273, 1, 64)
      , (273, 11, 25000)
-     , (273, 12, 4076)
+     , (273, 12, 17094)
      , (273, 16, 1)
-     , (273, 19, 4076)
+     , (273, 19, 17094)
      , (273, 93, 1044);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
@@ -29,7 +29,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38234, 'ace38234-celestialhandtradetoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38234, 1073770512, 38234, 16, NULL, 131073);
+VALUES (38234, 16, 38234, 1073770512, NULL, 131073);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38234, 1, 'Celestial Hand Trade Token');
@@ -53,71 +53,10 @@ VALUES (38234, 13, True)
      , (38234, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (38405, 'ace38405-glowingmoargland');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38405, 2125969, 38405, 16, NULL, 137217);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38405, 1, 'Glowing Moar Gland')
-     , (38405, 20, 'Glowing Moar Glands');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38405, 8, 100689267)
-     , (38405, 1, 33560134)
-     , (38405, 3, 536870932)
-     , (38405, 22, 872415275);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38405, 53, 101)
-     , (38405, 1, 64)
-     , (38405, 5, 200)
-     , (38405, 18, 1)
-     , (38405, 11, 15)
-     , (38405, 12, 2)
-     , (38405, 16, 1)
-     , (38405, 93, 1044);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38405, 13, True)
-     , (38405, 11, True)
-     , (38405, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (38407, 'ace38407-glowingjunglelily');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38407, 2125969, 38407, 16, NULL, 6145);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38407, 1, 'Glowing Jungle Lily')
-     , (38407, 20, 'Glowing Jungle Lilies');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38407, 8, 100689548)
-     , (38407, 1, 33560322)
-     , (38407, 3, 536870932)
-     , (38407, 22, 872415275);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38407, 1, 64)
-     , (38407, 5, 100)
-     , (38407, 18, 1)
-     , (38407, 11, 10)
-     , (38407, 12, 2)
-     , (38407, 16, 1)
-     , (38407, 93, 1044);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38407, 13, True)
-     , (38407, 11, True)
-     , (38407, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38413, 'ace38413-manainfusedjungleflower');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38413, 2125969, 38413, 16, NULL, 6145);
+VALUES (38413, 16, 38413, 2125969, NULL, 6145);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38413, 1, 'Mana-Infused Jungle Flower')
@@ -148,37 +87,10 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (38413, 67111920, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (38236, 'ace38236-radiantbloodtradetoken');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38236, 1073770512, 38236, 16, NULL, 131073);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38236, 1, 'Radiant Blood Trade Token');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38236, 8, 100689461)
-     , (38236, 50, 100690179)
-     , (38236, 1, 33554802);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38236, 53, 101)
-     , (38236, 1, 64)
-     , (38236, 11, 100)
-     , (38236, 12, 100)
-     , (38236, 16, 1)
-     , (38236, 93, 1044);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38236, 13, True)
-     , (38236, 11, True)
-     , (38236, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38459, 'ace38459-pristinemanashard');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38459, 28824, 38459, 16, NULL, 131201);
+VALUES (38459, 16, 38459, 28824, NULL, 131201);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38459, 1, 'Pristine Mana Shard');
@@ -192,9 +104,9 @@ VALUES (38459, 53, 101)
      , (38459, 1, 64)
      , (38459, 18, 64)
      , (38459, 11, 1000)
-     , (38459, 12, 5)
+     , (38459, 12, 473)
      , (38459, 16, 1)
-     , (38459, 19, 50)
+     , (38459, 19, 4730)
      , (38459, 93, 1044);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
@@ -206,10 +118,71 @@ VALUES (38459, 13, True)
      , (38459, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (38405, 'ace38405-glowingmoargland');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (38405, 16, 38405, 2125969, NULL, 137217);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38405, 1, 'Glowing Moar Gland')
+     , (38405, 20, 'Glowing Moar Glands');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38405, 8, 100689267)
+     , (38405, 1, 33560134)
+     , (38405, 3, 536870932)
+     , (38405, 22, 872415275);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38405, 53, 101)
+     , (38405, 1, 64)
+     , (38405, 5, 200)
+     , (38405, 18, 1)
+     , (38405, 11, 15)
+     , (38405, 12, 2)
+     , (38405, 16, 1)
+     , (38405, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38405, 13, True)
+     , (38405, 11, True)
+     , (38405, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (38407, 'ace38407-glowingjunglelily');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (38407, 16, 38407, 2125969, NULL, 6145);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38407, 1, 'Glowing Jungle Lily')
+     , (38407, 20, 'Glowing Jungle Lilies');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38407, 8, 100689548)
+     , (38407, 1, 33560322)
+     , (38407, 3, 536870932)
+     , (38407, 22, 872415275);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38407, 1, 64)
+     , (38407, 5, 100)
+     , (38407, 18, 1)
+     , (38407, 11, 10)
+     , (38407, 12, 2)
+     , (38407, 16, 1)
+     , (38407, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38407, 13, True)
+     , (38407, 11, True)
+     , (38407, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38237, 'ace38237-eldrytchwebtradetoken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38237, 1073770512, 38237, 16, NULL, 131073);
+VALUES (38237, 16, 38237, 1073770512, NULL, 131073);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38237, 1, 'Eldrytch Web Trade Token');
@@ -223,7 +196,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (38237, 53, 101)
      , (38237, 1, 64)
      , (38237, 11, 100)
-     , (38237, 12, 100)
+     , (38237, 12, 50)
      , (38237, 16, 1)
      , (38237, 93, 1044);
 
@@ -236,7 +209,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40457, 'ace40457-blightencrustedblackcoral');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40457, 2109585, 40457, 16, NULL, 38913);
+VALUES (40457, 16, 40457, 2109585, NULL, 38913);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40457, 1, 'Blight-encrusted Black Coral')
@@ -263,10 +236,37 @@ VALUES (40457, 13, True)
      , (40457, 14, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (38236, 'ace38236-radiantbloodtradetoken');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (38236, 16, 38236, 1073770512, NULL, 131073);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38236, 1, 'Radiant Blood Trade Token');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38236, 8, 100689461)
+     , (38236, 50, 100690179)
+     , (38236, 1, 33554802);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38236, 53, 101)
+     , (38236, 1, 64)
+     , (38236, 11, 100)
+     , (38236, 12, 100)
+     , (38236, 16, 1)
+     , (38236, 93, 1044);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38236, 13, True)
+     , (38236, 11, True)
+     , (38236, 14, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45769, 'ace45769-deruavatarsgem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (45769, 28816, 45769, 16, NULL, 131201);
+VALUES (45769, 16, 45769, 28816, NULL, 131201);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45769, 1, 'Deru Avatar''s Gem');

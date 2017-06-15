@@ -1,5 +1,5 @@
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2080186368, 2097214, 5864, 20, 'AAA9AAIAAAAMAAAA', 104451);
+VALUES (2080186368, 20, 5864, 2097214, 'AAA9AAIAAAAMAAAA', 104451);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (2080186368, 1, 3218210857, 124.508, 20.2073, 304.6297, 0.670344, 0, 0, -0.742051);
@@ -32,7 +32,7 @@ VALUES (2080186368, 12, True)
      , (2080186368, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2033012736, 2097214, 5865, 21, NULL, 38917);
+VALUES (2033012736, 21, 5865, 2097214, NULL, 38917);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (2033012736, 1, 2463432744, 102.337, 185.552, 300.581, -0.921586, 0, 0, -0.388174);
@@ -48,7 +48,7 @@ VALUES (2033012736, 8, 100670227)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2033012736, 1, 512)
-     , (2033012736, 5, 9000)
+     , (2033012736, 5, 9025)
      , (2033012736, 7, 10)
      , (2033012736, 6, 120)
      , (2033012736, 16, 48)
@@ -64,7 +64,7 @@ VALUES (2033012736, 12, True)
      , (2033012736, 14, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1983746048, 2097214, 5866, 21, NULL, 38913);
+VALUES (1983746048, 21, 5866, 2097214, NULL, 38913);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (1983746048, 1, 1675165756, 170.431, 78.133, 269.2863, -4.37114E-08, 0, 0, -1);
@@ -80,7 +80,7 @@ VALUES (1983746048, 8, 100670227)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1983746048, 1, 512)
-     , (1983746048, 5, 9000)
+     , (1983746048, 5, 9025)
      , (1983746048, 7, 10)
      , (1983746048, 6, 120)
      , (1983746048, 16, 48)

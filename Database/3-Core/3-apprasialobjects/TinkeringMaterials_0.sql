@@ -1,4 +1,111 @@
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21065, 14, 'Apply this material to a treasure-generated magic caster to increase the its mana conversion bonus by 1%.')
+     , (21065, 15, 'Chips of opal material salvaged from old items.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21065, 33, 1)
+     , (21065, 19, 11296)
+     , (21065, 131, 33)
+     , (21065, 5, 100)
+     , (21065, 105, 136)
+     , (21065, 170, 23);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33621, 16, 'A bag of steel material salvaged from old items.')
+     , (33621, 14, 'Apply this material to treasure-generated armor to increase the armor''s armor level by 20. This material cannot be used on Covenant Armor.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33621, 131, 64)
+     , (33621, 19, 10)
+     , (33621, 5, 100)
+     , (33621, 105, 50)
+     , (33621, 170, 10);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21053, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Warrior''s Vitality. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.')
+     , (21053, 15, 'Chips of hematite material salvaged from old items.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21053, 33, 1)
+     , (21053, 131, 25)
+     , (21053, 19, 644)
+     , (21053, 5, 100)
+     , (21053, 105, 40)
+     , (21053, 170, 6);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20993, 14, 'Apply this material to treasure-generated armor to increase the armor''s armor level by 20. This material cannot be used on Covenant Armor.')
+     , (20993, 15, 'A bar of steel material salvaged from old items.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20993, 33, 1)
+     , (20993, 131, 64)
+     , (20993, 19, 8406)
+     , (20993, 5, 100)
+     , (20993, 105, 61)
+     , (20993, 170, 8);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21037, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Cold Rending. Cold Rending gives the weapon the ability to make its opponent vulnerable to cold attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Cold Vulnerability spells. ')
+     , (21037, 15, 'Chips of aquamarine material salvaged from old items.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21037, 33, 1)
+     , (21037, 19, 16947)
+     , (21037, 131, 13)
+     , (21037, 5, 100)
+     , (21037, 105, 32)
+     , (21037, 170, 5);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20988, 14, 'Apply this material to a treasure-generated missile weapon to increase the weapon''s damage modifier by 4%.')
+     , (20988, 15, 'A bundle of mahogany material salvaged from old items.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20988, 33, 1)
+     , (20988, 19, 7031)
+     , (20988, 131, 74)
+     , (20988, 5, 100)
+     , (20988, 105, 27)
+     , (20988, 170, 4);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21056, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Lightning Rending. Lightning Rending gives the weapon the ability to make its opponent vulnerable to lightning attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Lightning Vulnerability spells. ')
+     , (21056, 15, 'Chips of jet material salvaged from old items.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21056, 33, 1)
+     , (21056, 19, 7078)
+     , (21056, 131, 27)
+     , (21056, 5, 100)
+     , (21056, 105, 33)
+     , (21056, 170, 5);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21048, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Acid Rending. Acid Rending gives the weapon the ability to make its opponent vulnerable to acid attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Acid Vulnerability spells. ')
+     , (21048, 15, 'Chips of emerald material salvaged from old items.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21048, 33, 1)
+     , (21048, 19, 4935)
+     , (21048, 131, 21)
+     , (21048, 5, 100)
+     , (21048, 105, 7)
+     , (21048, 170, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36570, 14, 'Apply this material to a treasure-generated weapon to increase the weapon''s melee defense bonus by 1%.')
+     , (36570, 15, 'A bar of brass material salvaged from old items.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36570, 33, 1)
+     , (36570, 131, 57)
+     , (36570, 19, 10)
+     , (36570, 5, 100)
+     , (36570, 105, 100)
+     , (36570, 170, 10);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21074, 14, 'Apply this material to a Minor, Moderate or Major Armature to prepare it. Then apply this material to the prepared Armature. This Armature can then be used on a magical loot-generated Trinket to add Minor, Moderate or Major Augmented Mana. This also increases the Spellcraft and Arcane Lore of the trinket by 25.')
      , (21074, 15, 'Chips of sapphire material salvaged from old items.');
 
@@ -9,30 +116,6 @@ VALUES (21074, 33, 1)
      , (21074, 5, 100)
      , (21074, 105, 27)
      , (21074, 170, 4);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21042, 14, 'Apply this material to a treasure-generated weapon to increase the weapon''s melee defense bonus by 1%.')
-     , (21042, 15, 'A bar of brass material salvaged from old items.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21042, 33, 1)
-     , (21042, 131, 57)
-     , (21042, 19, 30859)
-     , (21042, 5, 100)
-     , (21042, 105, 114)
-     , (21042, 170, 16);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21069, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Fire Rending. Fire Rending gives the weapon the ability to make its opponent vulnerable to fire attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Fire Vulnerability spells. ')
-     , (21069, 15, 'Chips of red garnet material salvaged from old items.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21069, 33, 1)
-     , (21069, 131, 35)
-     , (21069, 19, 9553)
-     , (21069, 5, 100)
-     , (21069, 105, 75)
-     , (21069, 170, 12);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21043, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Strength. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.')
@@ -47,30 +130,6 @@ VALUES (21043, 33, 1)
      , (21043, 170, 18);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21049, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Crippling Blow. Crippling Blow increases the amount of damage that the item does when it critically hits its opponent. The amount of extra damage depends on the attack skill of the wielder.')
-     , (21049, 15, 'Chips of fire opal material salvaged from old items.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21049, 33, 1)
-     , (21049, 131, 22)
-     , (21049, 19, 34145)
-     , (21049, 5, 100)
-     , (21049, 105, 104)
-     , (21049, 170, 15);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21053, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Warrior''s Vitality. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.')
-     , (21053, 15, 'Chips of hematite material salvaged from old items.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21053, 33, 1)
-     , (21053, 131, 25)
-     , (21053, 19, 5662)
-     , (21053, 5, 100)
-     , (21053, 105, 129)
-     , (21053, 170, 26);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21078, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Coordination. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.')
      , (21078, 15, 'Chips of smoky quartz material salvaged from old items.');
 
@@ -83,28 +142,16 @@ VALUES (21078, 33, 1)
      , (21078, 170, 24);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29576, 14, 'Apply this material to a treasure-generated weapon to improve the weapon''s variance by 20%.')
-     , (29576, 15, 'A brick of granite material salvaged from old items.');
+VALUES (21071, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Quickness. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.')
+     , (21071, 15, 'Chips of rose quartz material salvaged from old items.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29576, 33, 1)
-     , (29576, 19, 10)
-     , (29576, 131, 67)
-     , (29576, 5, 100)
-     , (29576, 105, 100)
-     , (29576, 170, 10);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29572, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Pierce Rending. Pierce Rending gives the weapon the ability to make its opponent vulnerable to piercing attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Piercing Vulnerability spells.')
-     , (29572, 15, 'Chips of black garnet material salvaged from old items.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29572, 33, 1)
-     , (29572, 19, 10)
-     , (29572, 131, 15)
-     , (29572, 5, 100)
-     , (29572, 105, 100)
-     , (29572, 170, 10);
+VALUES (21071, 33, 1)
+     , (21071, 131, 37)
+     , (21071, 19, 5973)
+     , (21071, 5, 100)
+     , (21071, 105, 77)
+     , (21071, 170, 13);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21057, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Self. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.')
@@ -113,22 +160,10 @@ VALUES (21057, 14, 'Apply this material to a piece of magical treasure-generated
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (21057, 33, 1)
      , (21057, 131, 28)
-     , (21057, 19, 1056)
+     , (21057, 19, 2560)
      , (21057, 5, 100)
-     , (21057, 105, 49)
-     , (21057, 170, 10);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21044, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Stamina Gain. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.')
-     , (21044, 15, 'Chips of citrine material salvaged from old items.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21044, 33, 1)
-     , (21044, 131, 19)
-     , (21044, 19, 267)
-     , (21044, 5, 100)
-     , (21044, 105, 12)
-     , (21044, 170, 2);
+     , (21057, 105, 93)
+     , (21057, 170, 20);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21041, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Endurance. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.')
@@ -137,34 +172,58 @@ VALUES (21041, 14, 'Apply this material to a piece of magical treasure-generated
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (21041, 33, 1)
      , (21041, 131, 17)
-     , (21041, 19, 531)
+     , (21041, 19, 2986)
      , (21041, 5, 100)
-     , (21041, 105, 22)
-     , (21041, 170, 4);
+     , (21041, 105, 56)
+     , (21041, 170, 11);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21071, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Quickness. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.')
-     , (21071, 15, 'Chips of rose quartz material salvaged from old items.');
+VALUES (21058, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Mana Gain. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.')
+     , (21058, 15, 'Chips of lavender jade material salvaged from old items.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21071, 33, 1)
-     , (21071, 131, 37)
-     , (21071, 19, 551)
-     , (21071, 5, 100)
-     , (21071, 105, 26)
-     , (21071, 170, 7);
+VALUES (21058, 33, 1)
+     , (21058, 131, 29)
+     , (21058, 19, 3584)
+     , (21058, 5, 100)
+     , (21058, 105, 32)
+     , (21058, 170, 6);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21083, 14, 'This item has no apparent use.')
-     , (21083, 15, 'Chips of turquoise material salvaged from old items.');
+VALUES (21070, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Health Gain. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.')
+     , (21070, 15, 'Chips of red jade material salvaged from old items.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21083, 33, 1)
-     , (21083, 131, 44)
-     , (21083, 19, 72)
-     , (21083, 5, 100)
-     , (21083, 105, 9)
-     , (21083, 170, 2);
+VALUES (21070, 33, 1)
+     , (21070, 131, 36)
+     , (21070, 19, 8585)
+     , (21070, 5, 100)
+     , (21070, 105, 96)
+     , (21070, 170, 17);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20987, 14, 'Apply this material to a treasure-generated item to reduce the item''s burden by 25%.')
+     , (20987, 15, 'A bolt of linen material salvaged from old items.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20987, 33, 1)
+     , (20987, 131, 4)
+     , (20987, 19, 10403)
+     , (20987, 5, 100)
+     , (20987, 105, 105)
+     , (20987, 170, 21);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21044, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Stamina Gain. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.')
+     , (21044, 15, 'Chips of citrine material salvaged from old items.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21044, 33, 1)
+     , (21044, 131, 19)
+     , (21044, 19, 2199)
+     , (21044, 5, 100)
+     , (21044, 105, 49)
+     , (21044, 170, 10);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21062, 14, 'Apply this material to a treasure-generated item to increase its maximum mana by 500.')
@@ -173,59 +232,22 @@ VALUES (21062, 14, 'Apply this material to a treasure-generated item to increase
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (21062, 33, 1)
      , (21062, 131, 31)
-     , (21062, 19, 39)
+     , (21062, 19, 5203)
      , (21062, 5, 100)
-     , (21062, 105, 10)
-     , (21062, 170, 2);
+     , (21062, 105, 57)
+     , (21062, 170, 10);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36574, 14, 'Apply this material to a treasure-generated magic caster to increase the its mana conversion bonus by 1%.')
-     , (36574, 15, 'Chips of opal material salvaged from old items.');
+VALUES (20990, 14, 'Apply this material to a treasure-generated item to reduce the item''s value by 25%.')
+     , (20990, 15, 'A bundle of pine material salvaged from old items.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36574, 33, 1)
-     , (36574, 131, 33)
-     , (36574, 19, 10)
-     , (36574, 5, 100)
-     , (36574, 105, 100)
-     , (36574, 170, 10);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41498, 40, 'Ferahgo the assasin')
-     , (41498, 14, 'Apply Salvaged Gromnie Hide to this Armature. This Armature can then be used on a magical loot-generated Trinket to add Augmented Damage Reduction II.')
-     , (41498, 15, 'A Moderate Item Tinkering Armature prepared with Gromnie Hide.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41498, 33, 1)
-     , (41498, 19, 10)
-     , (41498, 5, 100)
-     , (41498, 105, 35)
-     , (41498, 170, 4)
-     , (41498, 92, 100);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21081, 14, 'This item has no apparent use.')
-     , (21081, 15, 'Chips of tiger eye material salvaged from old items.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21081, 33, 1)
-     , (21081, 131, 42)
-     , (21081, 19, 2)
-     , (21081, 5, 100)
-     , (21081, 105, 4)
-     , (21081, 170, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21085, 14, 'This item has no apparent use.')
-     , (21085, 15, 'Chips of white quartz material salvaged from old items.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21085, 33, 1)
-     , (21085, 131, 46)
-     , (21085, 19, 2)
-     , (21085, 5, 100)
-     , (21085, 105, 3)
-     , (21085, 170, 1);
+VALUES (20990, 33, 1)
+     , (20990, 131, 76)
+     , (20990, 19, 12707)
+     , (20990, 5, 100)
+     , (20990, 105, 88)
+     , (20990, 170, 19);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21064, 14, 'This item has no apparent use.')
@@ -264,14 +286,14 @@ VALUES (21036, 33, 1)
      , (21036, 170, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29575, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Crippling Blow. Crippling Blow increases the amount of damage that the item does when it critically hits its opponent. The amount of extra damage depends on the attack skill of the wielder.')
-     , (29575, 15, 'Chips of fire opal material salvaged from old items.');
+VALUES (36571, 14, 'Apply this material to a treasure-generated magic caster that has an elemental damage bonus in order to increase the elemental damage bonus by 1% vs. monsters and 0.25% vs. players.')
+     , (36571, 15, 'Chips of green garnet material salvaged from old items.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29575, 33, 1)
-     , (29575, 131, 22)
-     , (29575, 19, 10)
-     , (29575, 5, 100)
-     , (29575, 105, 100)
-     , (29575, 170, 10);
+VALUES (36571, 33, 1)
+     , (36571, 131, 23)
+     , (36571, 19, 10)
+     , (36571, 5, 100)
+     , (36571, 105, 100)
+     , (36571, 170, 10);
 

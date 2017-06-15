@@ -1,114 +1,4 @@
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3701728345, 16, 'A wand, crafted from the remains of the stronger Paradox-touched Olthoi.  Something about the nature of these creatures makes the weapon naturally deadlier versus normal Olthoi.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3701728345, 160, 355)
-     , (3701728345, 33, 1)
-     , (3701728345, 114, 1)
-     , (3701728345, 19, 10000)
-     , (3701728345, 5, 200)
-     , (3701728345, 166, 1)
-     , (3701728345, 263, 2)
-     , (3701728345, 106, 450)
-     , (3701728345, 107, 10000)
-     , (3701728345, 108, 10000)
-     , (3701728345, 45, 2)
-     , (3701728345, 158, 2)
-     , (3701728345, 159, 34);
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3701728345, 144, 0.2)
-     , (3701728345, 152, 1.1)
-     , (3701728345, 147, 1)
-     , (3701728345, 5, -0.0333)
-     , (3701728345, 157, 1)
-     , (3701728345, 29, 1.15);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3701728345, 99, 1)
-     , (3701728345, 69, 0);
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3701728345, 67)
-     , (3701728345, 2101)
-     , (3701728345, 3259);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3701728348, 16, 'A wand, crafted from the remains of the stronger Paradox-touched Olthoi.  Something about the nature of these creatures makes the weapon naturally deadlier versus normal Olthoi.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3701728348, 160, 355)
-     , (3701728348, 33, 1)
-     , (3701728348, 114, 1)
-     , (3701728348, 19, 10000)
-     , (3701728348, 5, 200)
-     , (3701728348, 166, 1)
-     , (3701728348, 263, 2)
-     , (3701728348, 106, 450)
-     , (3701728348, 107, 10000)
-     , (3701728348, 108, 10000)
-     , (3701728348, 45, 2)
-     , (3701728348, 158, 2)
-     , (3701728348, 159, 33);
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3701728348, 144, 0.2)
-     , (3701728348, 152, 1.1)
-     , (3701728348, 147, 1)
-     , (3701728348, 5, -0.0333)
-     , (3701728348, 157, 1)
-     , (3701728348, 29, 1.15);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3701728348, 99, 1)
-     , (3701728348, 69, 0);
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3701728348, 67)
-     , (3701728348, 2101)
-     , (3701728348, 3259);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3705068074, 2, 2)
-     , (3705068074, 25, 60);
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (3705068074, 1, 180)
-     , (3705068074, 2, 150)
-     , (3705068074, 4, 175)
-     , (3705068074, 3, 100)
-     , (3705068074, 5, 90)
-     , (3705068074, 6, 90);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3705068074, 2, 195)
-     , (3705068074, 4, 330)
-     , (3705068074, 6, 190)
-     , (3705068074, 1, 195)
-     , (3705068074, 3, 330)
-     , (3705068074, 5, 190);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36576, 2, 2)
-     , (36576, 25, 60);
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (36576, 1, 180)
-     , (36576, 2, 150)
-     , (36576, 4, 175)
-     , (36576, 3, 100)
-     , (36576, 5, 90)
-     , (36576, 6, 90);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (36576, 2, 195)
-     , (36576, 4, 330)
-     , (36576, 6, 190)
-     , (36576, 1, 195)
-     , (36576, 3, 330)
-     , (36576, 5, 190);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3696903783, 16, 'All the Deru can trace their ancestry to the First Tree, because they all were once twigs on its great trunk. It is said that the First Tree has seen the beginning of the world and that when the First Tree perishes, so will the world. On rare occasions the First Tree will grant a blessing to those that show exceptional awareness of the cycles of life.  This wand is one such gift.  This wand must be cultivated from the First Tree in such a way that no knife is used. The petitioner must pray and coax a piece of the First Tree so that the limb will naturally fall off the tree, neither harming the First Tree nor the new limb.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -167,4 +57,44 @@ VALUES (36947, 2073)
      , (36947, 995)
      , (36947, 2153)
      , (36947, 2157);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3705068074, 2, 2)
+     , (3705068074, 25, 60);
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (3705068074, 1, 180)
+     , (3705068074, 2, 150)
+     , (3705068074, 4, 175)
+     , (3705068074, 3, 100)
+     , (3705068074, 5, 90)
+     , (3705068074, 6, 90);
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (3705068074, 2, 195)
+     , (3705068074, 4, 330)
+     , (3705068074, 6, 190)
+     , (3705068074, 1, 195)
+     , (3705068074, 3, 330)
+     , (3705068074, 5, 190);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36576, 2, 2)
+     , (36576, 25, 60);
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (36576, 1, 180)
+     , (36576, 2, 150)
+     , (36576, 4, 175)
+     , (36576, 3, 100)
+     , (36576, 5, 90)
+     , (36576, 6, 90);
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (36576, 2, 195)
+     , (36576, 4, 330)
+     , (36576, 6, 190)
+     , (36576, 1, 195)
+     , (36576, 3, 330)
+     , (36576, 5, 190);
 

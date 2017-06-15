@@ -1,44 +1,8 @@
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29917, 'dollrewardbaelzharon');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (29917, 270549048, 29917, 274, NULL, 6273);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29917, 1, 'Pack Bael''Zharon');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (29917, 8, 100669122)
-     , (29917, 1, 33559089)
-     , (29917, 3, 536870932)
-     , (29917, 22, 872415275)
-     , (29917, 6, 67113073);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29917, 1, 8192)
-     , (29917, 5, 10)
-     , (29917, 151, 9)
-     , (29917, 16, 8)
-     , (29917, 19, 5000)
-     , (29917, 93, 1044);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29917, 54, 1)
-     , (29917, 39, 0.5);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29917, 13, True)
-     , (29917, 11, True)
-     , (29917, 14, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (29917, 67113074, 0, 0);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29916, 'dollrewardasheron');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (29916, 270549048, 29916, 274, NULL, 6273);
+VALUES (29916, 274, 29916, 270549048, NULL, 6273);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29916, 1, 'Pack Asheron');
@@ -71,187 +35,10 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (29916, 67113862, 0, 0);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29921, 'dollrewardmartine');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (29921, 270549048, 29921, 274, NULL, 6273);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29921, 1, 'Pack Martine');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (29921, 8, 100667446)
-     , (29921, 1, 33559087)
-     , (29921, 3, 536870932)
-     , (29921, 22, 872415275);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29921, 1, 8192)
-     , (29921, 5, 10)
-     , (29921, 151, 9)
-     , (29921, 16, 8)
-     , (29921, 19, 5000)
-     , (29921, 93, 1044);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29921, 54, 1)
-     , (29921, 39, 0.4);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29921, 13, True)
-     , (29921, 11, True)
-     , (29921, 14, True);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (29921, 0, 83892345, 83894110)
-     , (29921, 0, 83892344, 83894264)
-     , (29921, 1, 83892352, 83894114)
-     , (29921, 2, 83892351, 83894112)
-     , (29921, 5, 83892352, 83894114)
-     , (29921, 6, 83892351, 83894112)
-     , (29921, 9, 83887061, 83894116)
-     , (29921, 9, 83887060, 83894108)
-     , (29921, 10, 83892347, 83894115)
-     , (29921, 11, 83892346, 83894111)
-     , (29921, 13, 83892347, 83894115)
-     , (29921, 14, 83892346, 83894111);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (29921, 0, 16783894)
-     , (29921, 1, 16783885)
-     , (29921, 2, 16783878)
-     , (29921, 3, 16777708)
-     , (29921, 4, 16777708)
-     , (29921, 5, 16783889)
-     , (29921, 6, 16783881)
-     , (29921, 7, 16777708)
-     , (29921, 8, 16777708)
-     , (29921, 9, 16781837)
-     , (29921, 10, 16783863)
-     , (29921, 11, 16783855)
-     , (29921, 13, 16783871)
-     , (29921, 14, 16783855)
-     , (29921, 16, 16787917)
-     , (29921, 15, 16787916)
-     , (29921, 12, 16787915);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29918, 'dollrewardgaerlan');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (29918, 270549048, 29918, 274, NULL, 6273);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29918, 1, 'Pack Gaerlan');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (29918, 8, 100673073)
-     , (29918, 1, 33559085)
-     , (29918, 3, 536870932)
-     , (29918, 22, 872415275)
-     , (29918, 6, 67112626);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29918, 1, 8192)
-     , (29918, 5, 10)
-     , (29918, 151, 9)
-     , (29918, 16, 8)
-     , (29918, 19, 5000)
-     , (29918, 93, 1044);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29918, 54, 1)
-     , (29918, 39, 0.4);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29918, 13, True)
-     , (29918, 11, True)
-     , (29918, 14, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (29918, 67113864, 0, 0);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29919, 'dollrewardkukuur');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (29919, 270549048, 29919, 274, NULL, 137345);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29919, 1, 'Pack Burun Kukuur');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (29919, 8, 100677029)
-     , (29919, 1, 33559088)
-     , (29919, 3, 536870932)
-     , (29919, 22, 872415275);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29919, 53, 101)
-     , (29919, 1, 8192)
-     , (29919, 5, 10)
-     , (29919, 151, 9)
-     , (29919, 16, 8)
-     , (29919, 19, 5000)
-     , (29919, 93, 1044);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29919, 54, 1)
-     , (29919, 39, 0.2);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29919, 13, True)
-     , (29919, 11, True)
-     , (29919, 14, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29920, 'dollrewardlevistras');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (29920, 270549048, 29920, 274, 'AAA9AAAAAAA=', 71811);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29920, 1, 'Pack Levistras');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (29920, 8, 100667943)
-     , (29920, 1, 33554497)
-     , (29920, 3, 536870932)
-     , (29920, 2, 150995118)
-     , (29920, 22, 872415275)
-     , (29920, 6, 67111346);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29920, 1, 8192)
-     , (29920, 5, 10)
-     , (29920, 151, 9)
-     , (29920, 16, 8)
-     , (29920, 19, 5000)
-     , (29920, 93, 1044);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29920, 54, 1)
-     , (29920, 39, 0.3);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29920, 13, True)
-     , (29920, 11, True)
-     , (29920, 14, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (29920, 67113396, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (29920, 9, 83890028, 83890028);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (29920, 9, 16780702);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29922, 'dollrewardolthoiqueen');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (29922, 270549048, 29922, 274, NULL, 6273);
+VALUES (29922, 274, 29922, 270549048, NULL, 6273);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29922, 1, 'Pack Ancient Olthoi Queen');
@@ -376,4 +163,217 @@ VALUES (29922, 0, 16786511)
      , (29922, 37, 16789416)
      , (29922, 38, 16789417)
      , (29922, 39, 16789415);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (29917, 'dollrewardbaelzharon');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (29917, 274, 29917, 270549048, NULL, 6273);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29917, 1, 'Pack Bael''Zharon');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (29917, 8, 100669122)
+     , (29917, 1, 33559089)
+     , (29917, 3, 536870932)
+     , (29917, 22, 872415275)
+     , (29917, 6, 67113073);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29917, 1, 8192)
+     , (29917, 5, 10)
+     , (29917, 151, 9)
+     , (29917, 16, 8)
+     , (29917, 19, 5000)
+     , (29917, 93, 1044);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29917, 54, 1)
+     , (29917, 39, 0.5);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29917, 13, True)
+     , (29917, 11, True)
+     , (29917, 14, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (29917, 67113074, 0, 0);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (29921, 'dollrewardmartine');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (29921, 274, 29921, 270549048, NULL, 6273);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29921, 1, 'Pack Martine');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (29921, 8, 100667446)
+     , (29921, 1, 33559087)
+     , (29921, 3, 536870932)
+     , (29921, 22, 872415275);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29921, 1, 8192)
+     , (29921, 5, 10)
+     , (29921, 151, 9)
+     , (29921, 16, 8)
+     , (29921, 19, 5000)
+     , (29921, 93, 1044);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29921, 54, 1)
+     , (29921, 39, 0.4);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29921, 13, True)
+     , (29921, 11, True)
+     , (29921, 14, True);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (29921, 0, 83892345, 83894110)
+     , (29921, 0, 83892344, 83894264)
+     , (29921, 1, 83892352, 83894114)
+     , (29921, 2, 83892351, 83894112)
+     , (29921, 5, 83892352, 83894114)
+     , (29921, 6, 83892351, 83894112)
+     , (29921, 9, 83887061, 83894116)
+     , (29921, 9, 83887060, 83894108)
+     , (29921, 10, 83892347, 83894115)
+     , (29921, 11, 83892346, 83894111)
+     , (29921, 13, 83892347, 83894115)
+     , (29921, 14, 83892346, 83894111);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (29921, 0, 16783894)
+     , (29921, 1, 16783885)
+     , (29921, 2, 16783878)
+     , (29921, 3, 16777708)
+     , (29921, 4, 16777708)
+     , (29921, 5, 16783889)
+     , (29921, 6, 16783881)
+     , (29921, 7, 16777708)
+     , (29921, 8, 16777708)
+     , (29921, 9, 16781837)
+     , (29921, 10, 16783863)
+     , (29921, 11, 16783855)
+     , (29921, 13, 16783871)
+     , (29921, 14, 16783855)
+     , (29921, 16, 16787917)
+     , (29921, 15, 16787916)
+     , (29921, 12, 16787915);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (29918, 'dollrewardgaerlan');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (29918, 274, 29918, 270549048, NULL, 6273);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29918, 1, 'Pack Gaerlan');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (29918, 8, 100673073)
+     , (29918, 1, 33559085)
+     , (29918, 3, 536870932)
+     , (29918, 22, 872415275)
+     , (29918, 6, 67112626);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29918, 1, 8192)
+     , (29918, 5, 10)
+     , (29918, 151, 9)
+     , (29918, 16, 8)
+     , (29918, 19, 5000)
+     , (29918, 93, 1044);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29918, 54, 1)
+     , (29918, 39, 0.4);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29918, 13, True)
+     , (29918, 11, True)
+     , (29918, 14, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (29918, 67113864, 0, 0);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (29920, 'dollrewardlevistras');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (29920, 274, 29920, 270532664, 'AAA9AAAAAAA=', 104579);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29920, 1, 'Pack Levistras');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (29920, 8, 100667943)
+     , (29920, 1, 33554497)
+     , (29920, 3, 536870932)
+     , (29920, 2, 150995118)
+     , (29920, 22, 872415275)
+     , (29920, 6, 67111346);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29920, 1, 8192)
+     , (29920, 5, 10)
+     , (29920, 151, 9)
+     , (29920, 16, 8)
+     , (29920, 19, 5000)
+     , (29920, 93, 1044);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29920, 54, 1)
+     , (29920, 39, 0.3);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29920, 13, True)
+     , (29920, 11, True)
+     , (29920, 14, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (29920, 67113396, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (29920, 9, 83890028, 83890028);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (29920, 9, 16780702);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (29919, 'dollrewardkukuur');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (29919, 274, 29919, 270532664, NULL, 170113);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29919, 1, 'Pack Burun Kukuur');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (29919, 8, 100677029)
+     , (29919, 1, 33559088)
+     , (29919, 3, 536870932)
+     , (29919, 22, 872415275);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29919, 53, 101)
+     , (29919, 1, 8192)
+     , (29919, 5, 10)
+     , (29919, 151, 9)
+     , (29919, 16, 8)
+     , (29919, 19, 5000)
+     , (29919, 93, 1044);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29919, 54, 1)
+     , (29919, 39, 0.2);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29919, 13, True)
+     , (29919, 11, True)
+     , (29919, 14, True);
 
