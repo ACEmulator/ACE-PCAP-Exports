@@ -132,7 +132,7 @@ VALUES (45083, 304, 0)
      , (45083, 45, 2)
      , (45083, 49, 4294967295)
      , (45083, 48, 0)
-     , (45083, 44, 2);
+     , (45083, 44, 114);
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (45083, 29, 1)
