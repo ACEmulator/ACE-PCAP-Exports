@@ -2816,7 +2816,7 @@ VALUES (3692228779, 353, 10)
      , (3692228779, 45, 0)
      , (3692228779, 49, 4294967295)
      , (3692228779, 48, 47)
-     , (3692228779, 44, 0);
+     , (3692228779, 44, 4294967295);
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (3692228779, 29, 1)

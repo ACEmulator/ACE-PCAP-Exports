@@ -6,7 +6,7 @@ VALUES (2155160192, 353, 7)
      , (2155160192, 45, 4)
      , (2155160192, 49, 25)
      , (2155160192, 48, 46)
-     , (2155160192, 44, 4);
+     , (2155160192, 44, 7);
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2155160192, 29, 1)
@@ -24,7 +24,7 @@ VALUES (22158, 353, 7)
      , (22158, 45, 4)
      , (22158, 49, 25)
      , (22158, 48, 46)
-     , (22158, 44, 4);
+     , (22158, 44, 7);
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (22158, 29, 1)
@@ -160,7 +160,7 @@ VALUES (2447690109, 176, 44)
      , (2447690109, 45, 1)
      , (2447690109, 49, 50)
      , (2447690109, 48, 44)
-     , (2447690109, 44, 1);
+     , (2447690109, 44, 56);
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2447690109, 5, -0.05555556)
@@ -197,7 +197,7 @@ VALUES (2447686379, 353, 10)
      , (2447686379, 45, 4)
      , (2447686379, 49, 10)
      , (2447686379, 48, 47)
-     , (2447686379, 44, 4);
+     , (2447686379, 44, 14);
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2447686379, 5, -0.05555556)
@@ -336,7 +336,7 @@ VALUES (2447885546, 160, 315)
      , (2447885546, 45, 4)
      , (2447885546, 49, 39)
      , (2447885546, 48, 47)
-     , (2447885546, 44, 4);
+     , (2447885546, 44, 0);
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2447885546, 29, 1.11)
@@ -354,7 +354,7 @@ VALUES (2152075655, 353, 4)
      , (2152075655, 45, 4)
      , (2152075655, 49, 80)
      , (2152075655, 48, 44)
-     , (2152075655, 44, 4);
+     , (2152075655, 44, 48);
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2152075655, 29, 1)
@@ -373,7 +373,7 @@ VALUES (3702770172, 353, 11)
      , (3702770172, 45, 0)
      , (3702770172, 49, 4294967295)
      , (3702770172, 48, 41)
-     , (3702770172, 44, 0);
+     , (3702770172, 44, 4294967295);
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (3702770172, 29, 1)
