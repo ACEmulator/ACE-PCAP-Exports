@@ -1,5 +1,9 @@
 # ACE-World Change Log
 
+### 2017-06-17
+[Ripley]
+* Merged schema v2 with master.
+
 ### 2017-05-06
 [Ripley]
 * Restructured scripts.
