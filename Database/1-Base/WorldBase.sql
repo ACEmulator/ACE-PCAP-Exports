@@ -285,11 +285,11 @@ DROP TABLE IF EXISTS `ace_position`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `ace_position` (
   `positionId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `aceObjectId` int(10) unsigned DEFAULT NULL,
+  `aceObjectId` int(10) unsigned NOT NULL,
   `positionType` smallint(5) unsigned NOT NULL,
   `landblockRaw` int(10) unsigned NOT NULL,
-  `landblock` smallint(5) unsigned GENERATED ALWAYS AS (conv(left(hex(`landblockRaw`),4),16,10)) STORED,
-  `cell` smallint(5) unsigned GENERATED ALWAYS AS (conv(lpad(substr(hex(`landblockRaw`),5,4),4,'0'),16,10)) STORED,
+  `landblock` int(5) GENERATED ALWAYS AS (conv(left(lpad(hex(`landblockRaw`),8,'0'),4),16,10)) VIRTUAL,
+  `cell` int(5) GENERATED ALWAYS AS (conv(right(lpad(hex(`landblockRaw`),8,'0'),4),16,10)) VIRTUAL,
   `posX` float NOT NULL,
   `posY` float NOT NULL,
   `posZ` float NOT NULL,
@@ -299,8 +299,10 @@ CREATE TABLE `ace_position` (
   `qZ` float NOT NULL,
   PRIMARY KEY (`positionId`),
   KEY `idx_aceObjectId` (`aceObjectId`),
-  KEY `idx_landblock` (`landblockRaw`),
   KEY `idxPostionType` (`positionType`),
+  KEY `idx_landblock_raw` (`landblockRaw`),
+  KEY `idx_landblock` (`landblock`),
+  KEY `idx_cell` (`cell`),
   CONSTRAINT `fk_position_ao` FOREIGN KEY (`aceObjectId`) REFERENCES `ace_object` (`aceObjectId`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -417,4 +419,4 @@ SET character_set_client = @saved_cs_client;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-06-17 17:09:54
+-- Dump completed on 2017-06-17 22:55:22
