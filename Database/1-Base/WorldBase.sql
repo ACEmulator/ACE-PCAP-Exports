@@ -288,8 +288,8 @@ CREATE TABLE `ace_position` (
   `aceObjectId` int(10) unsigned NOT NULL,
   `positionType` smallint(5) unsigned NOT NULL,
   `landblockRaw` int(10) unsigned NOT NULL,
-  `landblock` int(5) GENERATED ALWAYS AS (conv(left(lpad(hex(`landblockRaw`),8,'0'),4),16,10)) VIRTUAL,
-  `cell` int(5) GENERATED ALWAYS AS (conv(right(lpad(hex(`landblockRaw`),8,'0'),4),16,10)) VIRTUAL,
+  `landblock` smallint(5) GENERATED ALWAYS AS ((`landblockRaw` >> 16)) VIRTUAL,
+  `cell` smallint(5) GENERATED ALWAYS AS ((`landblockRaw` & 0xFFFF)) VIRTUAL,
   `posX` float NOT NULL,
   `posY` float NOT NULL,
   `posZ` float NOT NULL,
@@ -419,4 +419,4 @@ SET character_set_client = @saved_cs_client;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-06-17 22:55:22
+-- Dump completed on 2017-06-20 01:08:00
