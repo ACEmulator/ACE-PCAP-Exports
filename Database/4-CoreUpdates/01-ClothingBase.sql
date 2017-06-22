@@ -975,4 +975,3 @@ INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `proper
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`) VALUES ('52580', '7', '268436960'); 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`) VALUES ('52798', '7', '268436914'); 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`) VALUES ('52799', '7', '268436918'); 
-
