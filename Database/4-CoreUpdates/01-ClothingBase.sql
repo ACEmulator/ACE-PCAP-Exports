@@ -1,7 +1,4 @@
-
-
-DELETE FROM `ace_object_properties_did` WHERE `didPropertyId` = 7
-
+DELETE FROM `ace_object_properties_did` WHERE `didPropertyId` = 7;
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`) VALUES ('35', '7', '268435514'); 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`) VALUES ('36', '7', '268435468'); 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`) VALUES ('37', '7', '268435470'); 
@@ -978,4 +975,3 @@ INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `proper
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`) VALUES ('52580', '7', '268436960'); 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`) VALUES ('52798', '7', '268436914'); 
 INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`) VALUES ('52799', '7', '268436918'); 
-
