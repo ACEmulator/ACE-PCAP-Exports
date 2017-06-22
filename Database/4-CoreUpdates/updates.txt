@@ -1,3 +1,7 @@
+6/21/2017
+--------
+- Added 01-ClothingBase - ClothingBase DID Properties
+
 --------
 Initial upload.
 
