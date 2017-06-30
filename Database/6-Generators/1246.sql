@@ -31,7 +31,7 @@ INSERT INTO ace_object_properties_did
 	propertyValue)
 VALUES 
 	(last_insert_id(), 1, 33555051),
-    (last_insert_id(), 8, 100667494);
+	(last_insert_id(), 8, 100667494);
 
 INSERT INTO ace_object_properties_int
 	(aceObjectId,
@@ -40,7 +40,7 @@ INSERT INTO ace_object_properties_int
 VALUES 
 	(last_insert_id(), 1, 0),      /* ItemType = 0 */
 	(last_insert_id(), 81, 1),     /* MaxGeneratedObjects = 1 */
-    (last_insert_id(), 93, 1040),  /* PhysicsState = 1040 */
+	(last_insert_id(), 93, 1040),  /* PhysicsState = 1040 */
 	(last_insert_id(), 100, 2),    /* GeneratorType = Absolute */
 	(last_insert_id(), 104, 2568), /* ActivationCreateClass = 2568 (wcid of White Rabbit) */
 	(last_insert_id(), 142, 0),    /* GeneratorTimeType = Undef */
@@ -52,7 +52,7 @@ INSERT INTO ace_object_properties_bool
 	propertyValue)
 VALUES 
 	(last_insert_id(), 11, True),
-    (last_insert_id(), 14, True);
+	(last_insert_id(), 14, True);
     
 INSERT INTO ace_object_properties_double
 	(aceObjectId,
