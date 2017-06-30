@@ -40,9 +40,9 @@ INSERT INTO ace_object_properties_int
 VALUES 
 	(last_insert_id(), 1, 0),      /* ItemType = 0 */
 	(last_insert_id(), 81, 1),     /* MaxGeneratedObjects = 1 */
-    (last_insert_id(), 93, 1040),     /* MaxGeneratedObjects = 1 */
+    (last_insert_id(), 93, 1040),  /* PhysicsState = 1040 */
 	(last_insert_id(), 100, 2),    /* GeneratorType = Absolute */
-	(last_insert_id(), 104, 25578),		/* ActivationCreateClass = 25578 (wcid of The Chicken) */
+	(last_insert_id(), 104, 25578),/* ActivationCreateClass = 25578 (wcid of The Chicken) */
 	(last_insert_id(), 142, 0),    /* GeneratorTimeType = Undef */
 	(last_insert_id(), 9006, 100); /* GeneratorProbability = 100 */ 
 
