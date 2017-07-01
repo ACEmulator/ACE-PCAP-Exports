@@ -7,6 +7,10 @@ copy /b ACE-World.sql + ..\2-BaseUpdates\*.sql ACE-World.sql
 echo. >> ACE-World.sql
 copy /b ACE-World.sql + ..\3-Core\1-weenies\*.sql ACE-World.sql
 echo. >> ACE-World.sql
+copy /b ACE-World.sql + ..\3-Core\000-PrepDatabase.sql ACE-World.sql
+echo. >> ACE-World.sql
+copy /b ACE-World.sql + ..\6-Generators\*.sql ACE-World.sql
+echo. >> ACE-World.sql
 copy /b ACE-World.sql + ..\3-Core\2-objects\*.sql ACE-World.sql
 echo. >> ACE-World.sql
 copy /b ACE-World.sql + ..\3-Core\3-apprasialobjects\*.sql ACE-World.sql
