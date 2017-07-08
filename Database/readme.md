@@ -9,4 +9,5 @@ Manual Script Execution Order:
 4. Load the scripts created in step 3 into your database in numerical order.
 5. Load the scripts found in 4-CoreUpdates into your database in numerical order.
 6. Load the scripts found in 5-Portals into your database in numerical order.
-7. Optionally load scripts found in 6-Overwrites folder following the same steps 2 and 3 in each subfolder.
+7. Load the scripts found in 6-Generators into your database in numerical order.
+8. Optionally load scripts found in 10-Overwrites folder following the same steps 2 and 3 in each subfolder.
