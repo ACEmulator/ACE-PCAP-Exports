@@ -11,17 +11,7 @@ Restricted to characters of allegiance rank 6 or greater.
 ');
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20853, 16, 'The current maintenance has been paid.
-You must be a monarch to purchase and maintain this dwelling.
-Restricted to characters of allegiance rank 6 or greater.
-');
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2018230290, 16, 'The current maintenance has not been paid.
-');
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12461, 16, 'The current maintenance has not been paid.
 ');
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
@@ -36,10 +26,6 @@ VALUES (2088321186, 16, 'The current maintenance has not been paid.
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2088317302, 16, 'The current maintenance has been paid.
-');
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19074, 16, 'The current maintenance has been paid.
 ');
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
@@ -58,12 +44,6 @@ VALUES (2021257382, 16, 'The current maintenance has not been paid.
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2019143744, 16, 'The current maintenance has been paid.
-You must be a monarch to purchase and maintain this dwelling.
-Restricted to characters of allegiance rank 6 or greater.
-');
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14250, 16, 'The current maintenance has been paid.
 You must be a monarch to purchase and maintain this dwelling.
 Restricted to characters of allegiance rank 6 or greater.
 ');
@@ -357,13 +337,6 @@ VALUES (1978352168, 16, 'This house is available for purchase.
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1978352168, 86, 35);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15611, 16, 'This house is available for purchase.
-');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15611, 86, 35);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1978352167, 16, 'This house is available for purchase.
@@ -696,12 +669,6 @@ Restricted to characters of allegiance rank 6 or greater.
 ');
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14246, 16, 'The current maintenance has not been paid.
-You must be a monarch to purchase and maintain this dwelling.
-Restricted to characters of allegiance rank 6 or greater.
-');
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2107904025, 16, 'The current maintenance has been paid.
 ');
 
@@ -738,12 +705,6 @@ Restricted to characters of allegiance rank 6 or greater.
 ');
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13081, 16, 'The current maintenance has not been paid.
-You must be a monarch to purchase and maintain this dwelling.
-Restricted to characters of allegiance rank 6 or greater.
-');
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2087149717, 16, 'The current maintenance has been paid.
 ');
 
@@ -760,13 +721,6 @@ VALUES (2010636610, 16, 'This house is available for purchase.
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2010636610, 86, 20);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13079, 16, 'This house is available for purchase.
-');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13079, 86, 20);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2122502170, 16, 'The current maintenance has not been paid.
@@ -980,12 +934,6 @@ Restricted to characters of allegiance rank 6 or greater.
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2029043776, 16, 'The current maintenance has been paid.
-You must be a monarch to purchase and maintain this dwelling.
-Restricted to characters of allegiance rank 6 or greater.
-');
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11714, 16, 'The current maintenance has been paid.
 You must be a monarch to purchase and maintain this dwelling.
 Restricted to characters of allegiance rank 6 or greater.
 ');

@@ -31,7 +31,8 @@ VALUES (32807, 12, True)
      , (32807, 11, True)
      , (32807, 14, True)
      , (32807, 41, True)
-     , (32807, 42, True);
+     , (32807, 42, True)
+     , (32807, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48857, 'ace48857-mysterioushatch');
@@ -66,7 +67,8 @@ VALUES (48857, 12, True)
      , (48857, 11, True)
      , (48857, 14, True)
      , (48857, 41, True)
-     , (48857, 42, True);
+     , (48857, 42, True)
+     , (48857, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48858, 'ace48858-mysterioushatch');
@@ -101,7 +103,8 @@ VALUES (48858, 12, True)
      , (48858, 11, True)
      , (48858, 14, True)
      , (48858, 41, True)
-     , (48858, 42, True);
+     , (48858, 42, True)
+     , (48858, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48859, 'ace48859-mysterioushatch');
@@ -136,7 +139,8 @@ VALUES (48859, 12, True)
      , (48859, 11, True)
      , (48859, 14, True)
      , (48859, 41, True)
-     , (48859, 42, True);
+     , (48859, 42, True)
+     , (48859, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48875, 'ace48875-mysterioushatch');
@@ -171,5 +175,6 @@ VALUES (48875, 12, True)
      , (48875, 11, True)
      , (48875, 14, True)
      , (48875, 41, True)
-     , (48875, 42, True);
+     , (48875, 42, True)
+     , (48875, 1, True);
 

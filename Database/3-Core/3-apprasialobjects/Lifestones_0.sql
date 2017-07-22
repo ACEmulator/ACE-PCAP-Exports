@@ -2,9 +2,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (2109968387, 14, 'Use this item to set your resurrection point.');
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (509, 14, 'Use this item to set your resurrection point.');
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2032287744, 14, 'Use this item to set your resurrection point.');
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
@@ -83,9 +80,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (1911234560, 14, 'Use this item to set your resurrection point.');
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23618, 14, 'Use this item to set your resurrection point.');
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1914372123, 14, 'Use this item to set your resurrection point.');
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
@@ -93,9 +87,6 @@ VALUES (1916641280, 14, 'Use this item to set your resurrection point.');
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2049040396, 14, 'Use this item to set your resurrection point.');
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27096, 14, 'Use this item to set your resurrection point.');
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1956577280, 14, 'Use this item to set your resurrection point.');
@@ -588,9 +579,6 @@ VALUES (2035068928, 14, 'Use this item to set your resurrection point.');
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1924202497, 14, 'Use this item to set your resurrection point.');
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24572, 14, 'Use this item to set your resurrection point.');
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2030419991, 14, 'Use this item to set your resurrection point.');

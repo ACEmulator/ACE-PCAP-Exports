@@ -25,7 +25,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10797, 13, True)
      , (10797, 12, True)
      , (10797, 14, True)
-     , (10797, 15, True);
+     , (10797, 15, True)
+     , (10797, 19, True)
+     , (10797, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10794, 'portalvirindiisland');
@@ -53,7 +55,9 @@ VALUES (10794, 54, -0.1);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (10794, 13, True)
      , (10794, 12, True)
-     , (10794, 15, True);
+     , (10794, 15, True)
+     , (10794, 19, True)
+     , (10794, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15775, 'portalarcanumstorehouse');
@@ -81,7 +85,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15775, 13, True)
      , (15775, 12, True)
      , (15775, 14, True)
-     , (15775, 15, True);
+     , (15775, 15, True)
+     , (15775, 19, True)
+     , (15775, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (429, 'portalsylsfeardungeonexit');
@@ -110,7 +116,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (429, 13, True)
      , (429, 12, True)
      , (429, 14, True)
-     , (429, 15, True);
+     , (429, 15, True)
+     , (429, 19, True)
+     , (429, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (433, 'portalbaseofalphus');
@@ -139,7 +147,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (433, 13, True)
      , (433, 12, True)
      , (433, 14, True)
-     , (433, 15, True);
+     , (433, 15, True)
+     , (433, 19, True)
+     , (433, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31374, 'ace31374-thefazendacaves');
@@ -168,7 +178,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31374, 13, True)
      , (31374, 12, True)
      , (31374, 14, True)
-     , (31374, 15, True);
+     , (31374, 15, True)
+     , (31374, 19, True)
+     , (31374, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34374, 'ace34374-tanadahouseofearth');
@@ -197,7 +209,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34374, 13, True)
      , (34374, 12, True)
      , (34374, 14, True)
-     , (34374, 15, True);
+     , (34374, 15, True)
+     , (34374, 19, True)
+     , (34374, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39409, 'ace39409-patriarchsvalley');
@@ -226,7 +240,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (39409, 13, True)
      , (39409, 12, True)
      , (39409, 14, True)
-     , (39409, 15, True);
+     , (39409, 15, True)
+     , (39409, 19, True)
+     , (39409, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46925, 'ace46925-provinggroundsuber');
@@ -255,7 +271,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46925, 13, True)
      , (46925, 12, True)
      , (46925, 14, True)
-     , (46925, 15, True);
+     , (46925, 15, True)
+     , (46925, 19, True)
+     , (46925, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21401, 'portalcitadellibrary');
@@ -284,7 +302,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21401, 13, True)
      , (21401, 12, True)
      , (21401, 14, True)
-     , (21401, 15, True);
+     , (21401, 15, True)
+     , (21401, 19, True)
+     , (21401, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21747, 'portalprovinggroundsextreme');
@@ -313,7 +333,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21747, 13, True)
      , (21747, 12, True)
      , (21747, 14, True)
-     , (21747, 15, True);
+     , (21747, 15, True)
+     , (21747, 19, True)
+     , (21747, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21748, 'portalprovinggroundshigh');
@@ -342,7 +364,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21748, 13, True)
      , (21748, 12, True)
      , (21748, 14, True)
-     , (21748, 15, True);
+     , (21748, 15, True)
+     , (21748, 19, True)
+     , (21748, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21750, 'portalprovinggroundsmid');
@@ -371,7 +395,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21750, 13, True)
      , (21750, 12, True)
      , (21750, 14, True)
-     , (21750, 15, True);
+     , (21750, 15, True)
+     , (21750, 19, True)
+     , (21750, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21749, 'portalprovinggroundslow');
@@ -400,7 +426,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21749, 13, True)
      , (21749, 12, True)
      , (21749, 14, True)
-     , (21749, 15, True);
+     , (21749, 15, True)
+     , (21749, 19, True)
+     , (21749, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46924, 'ace46924-prismaticziggurat');
@@ -429,7 +457,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46924, 13, True)
      , (46924, 12, True)
      , (46924, 14, True)
-     , (46924, 15, True);
+     , (46924, 15, True)
+     , (46924, 19, True)
+     , (46924, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21425, 'portallightningziggurat');
@@ -458,7 +488,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21425, 13, True)
      , (21425, 12, True)
      , (21425, 14, True)
-     , (21425, 15, True);
+     , (21425, 15, True)
+     , (21425, 19, True)
+     , (21425, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21399, 'portalacidziggurat');
@@ -487,7 +519,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21399, 13, True)
      , (21399, 12, True)
      , (21399, 14, True)
-     , (21399, 15, True);
+     , (21399, 15, True)
+     , (21399, 19, True)
+     , (21399, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21411, 'portalfireziggurat');
@@ -516,7 +550,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21411, 13, True)
      , (21411, 12, True)
      , (21411, 14, True)
-     , (21411, 15, True);
+     , (21411, 15, True)
+     , (21411, 19, True)
+     , (21411, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21413, 'portalfrostziggurat');
@@ -545,7 +581,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21413, 13, True)
      , (21413, 12, True)
      , (21413, 14, True)
-     , (21413, 15, True);
+     , (21413, 15, True)
+     , (21413, 19, True)
+     , (21413, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23032, 'portalmarketplace');
@@ -574,7 +612,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23032, 13, True)
      , (23032, 12, True)
      , (23032, 14, True)
-     , (23032, 15, True);
+     , (23032, 15, True)
+     , (23032, 19, True)
+     , (23032, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43003, 'ace43003-danbysoutpost');
@@ -603,7 +643,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43003, 13, True)
      , (43003, 12, True)
      , (43003, 14, True)
-     , (43003, 15, True);
+     , (43003, 15, True)
+     , (43003, 19, True)
+     , (43003, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42999, 'ace42999-fiunoutpost');
@@ -632,7 +674,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42999, 13, True)
      , (42999, 12, True)
      , (42999, 14, True)
-     , (42999, 15, True);
+     , (42999, 15, True)
+     , (42999, 19, True)
+     , (42999, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43002, 'ace43002-oolutangasrefuge');
@@ -662,7 +706,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43002, 13, True)
      , (43002, 12, True)
      , (43002, 14, True)
-     , (43002, 15, True);
+     , (43002, 15, True)
+     , (43002, 19, True)
+     , (43002, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43865, 'ace43865-theshadows');
@@ -690,7 +736,9 @@ VALUES (43865, 54, -0.1);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43865, 13, True)
      , (43865, 12, True)
-     , (43865, 14, True);
+     , (43865, 14, True)
+     , (43865, 19, True)
+     , (43865, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43561, 'ace43561-olthoitunnel');
@@ -720,7 +768,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43561, 13, True)
      , (43561, 12, True)
      , (43561, 14, True)
-     , (43561, 15, True);
+     , (43561, 15, True)
+     , (43561, 19, True)
+     , (43561, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43561, 67111849, 1, 255);
@@ -752,7 +802,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24435, 13, True)
      , (24435, 12, True)
      , (24435, 14, True)
-     , (24435, 15, True);
+     , (24435, 15, True)
+     , (24435, 19, True)
+     , (24435, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24433, 'portalasheroninvasionextreme');
@@ -781,7 +833,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24433, 13, True)
      , (24433, 12, True)
      , (24433, 14, True)
-     , (24433, 15, True);
+     , (24433, 15, True)
+     , (24433, 19, True)
+     , (24433, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43575, 'ace43575-olthoitunnel');
@@ -811,7 +865,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43575, 13, True)
      , (43575, 12, True)
      , (43575, 14, True)
-     , (43575, 15, True);
+     , (43575, 15, True)
+     , (43575, 19, True)
+     , (43575, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43575, 67111849, 1, 255);
@@ -843,7 +899,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28259, 13, True)
      , (28259, 12, True)
      , (28259, 14, True)
-     , (28259, 15, True);
+     , (28259, 15, True)
+     , (28259, 19, True)
+     , (28259, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28263, 'portalmosswartmirewitch');
@@ -872,7 +930,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28263, 13, True)
      , (28263, 12, True)
      , (28263, 14, True)
-     , (28263, 15, True);
+     , (28263, 15, True)
+     , (28263, 19, True)
+     , (28263, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1907, 'portalshoroadside');
@@ -901,7 +961,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1907, 13, True)
      , (1907, 12, True)
      , (1907, 14, True)
-     , (1907, 15, True);
+     , (1907, 15, True)
+     , (1907, 19, True)
+     , (1907, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37387, 'ace37387-celestialhandstronghold');
@@ -930,7 +992,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (37387, 13, True)
      , (37387, 12, True)
      , (37387, 14, True)
-     , (37387, 15, True);
+     , (37387, 15, True)
+     , (37387, 19, True)
+     , (37387, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53446, 'ace53446-celestialhandgauntlet');
@@ -959,7 +1023,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (53446, 13, True)
      , (53446, 12, True)
      , (53446, 14, True)
-     , (53446, 15, True);
+     , (53446, 15, True)
+     , (53446, 19, True)
+     , (53446, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14449, 'portalwitshiredungeonbottom');
@@ -988,7 +1054,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14449, 13, True)
      , (14449, 12, True)
      , (14449, 14, True)
-     , (14449, 15, True);
+     , (14449, 15, True)
+     , (14449, 19, True)
+     , (14449, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28835, 'portalmossycave');
@@ -1017,7 +1085,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28835, 13, True)
      , (28835, 12, True)
      , (28835, 14, True)
-     , (28835, 15, True);
+     , (28835, 15, True)
+     , (28835, 19, True)
+     , (28835, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23770, 'portalulgrimsdungeon');
@@ -1046,7 +1116,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23770, 13, True)
      , (23770, 12, True)
      , (23770, 14, True)
-     , (23770, 15, True);
+     , (23770, 15, True)
+     , (23770, 19, True)
+     , (23770, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23076, 'portaldarktreecrystalmine');
@@ -1075,7 +1147,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23076, 13, True)
      , (23076, 12, True)
      , (23076, 14, True)
-     , (23076, 15, True);
+     , (23076, 15, True)
+     , (23076, 19, True)
+     , (23076, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22895, 'portalspiritcell');
@@ -1104,7 +1178,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22895, 13, True)
      , (22895, 12, True)
      , (22895, 14, True)
-     , (22895, 15, True);
+     , (22895, 15, True)
+     , (22895, 19, True)
+     , (22895, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8385, 'portalseshoredirelands');
@@ -1133,7 +1209,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8385, 13, True)
      , (8385, 12, True)
      , (8385, 14, True)
-     , (8385, 15, True);
+     , (8385, 15, True)
+     , (8385, 19, True)
+     , (8385, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32818, 'ace32818-ruschkburialmound');
@@ -1162,7 +1240,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32818, 13, True)
      , (32818, 12, True)
      , (32818, 14, True)
-     , (32818, 15, True);
+     , (32818, 15, True)
+     , (32818, 19, True)
+     , (32818, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31432, 'ace31432-frozencenotaph');
@@ -1191,7 +1271,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31432, 13, True)
      , (31432, 12, True)
      , (31432, 14, True)
-     , (31432, 15, True);
+     , (31432, 15, True)
+     , (31432, 19, True)
+     , (31432, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29500, 'portalkarlunfort');
@@ -1220,7 +1302,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29500, 13, True)
      , (29500, 12, True)
      , (29500, 14, True)
-     , (29500, 15, True);
+     , (29500, 15, True)
+     , (29500, 19, True)
+     , (29500, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29501, 'portalkarlunfortexit');
@@ -1249,7 +1333,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29501, 13, True)
      , (29501, 12, True)
      , (29501, 14, True)
-     , (29501, 15, True);
+     , (29501, 15, True)
+     , (29501, 19, True)
+     , (29501, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29502, 'portalkarlunhall');
@@ -1278,7 +1364,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29502, 13, True)
      , (29502, 12, True)
      , (29502, 14, True)
-     , (29502, 15, True);
+     , (29502, 15, True)
+     , (29502, 19, True)
+     , (29502, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29496, 'portaleaterpit');
@@ -1307,7 +1395,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29496, 13, True)
      , (29496, 12, True)
      , (29496, 14, True)
-     , (29496, 15, True);
+     , (29496, 15, True)
+     , (29496, 19, True)
+     , (29496, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30382, 'portalhalaetanuberplains');
@@ -1336,7 +1426,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30382, 13, True)
      , (30382, 12, True)
      , (30382, 14, True)
-     , (30382, 15, True);
+     , (30382, 15, True)
+     , (30382, 19, True)
+     , (30382, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1900, 'portalheartland');
@@ -1365,7 +1457,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1900, 13, True)
      , (1900, 12, True)
      , (1900, 14, True)
-     , (1900, 15, True);
+     , (1900, 15, True)
+     , (1900, 19, True)
+     , (1900, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22927, 'portalaerbaxasylum');
@@ -1394,7 +1488,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22927, 13, True)
      , (22927, 12, True)
      , (22927, 14, True)
-     , (22927, 15, True);
+     , (22927, 15, True)
+     , (22927, 19, True)
+     , (22927, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22928, 'portalaerbaxathenaeum');
@@ -1423,7 +1519,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22928, 13, True)
      , (22928, 12, True)
      , (22928, 14, True)
-     , (22928, 15, True);
+     , (22928, 15, True)
+     , (22928, 19, True)
+     , (22928, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22929, 'portalaerbaxquagmire');
@@ -1452,7 +1550,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22929, 13, True)
      , (22929, 12, True)
      , (22929, 14, True)
-     , (22929, 15, True);
+     , (22929, 15, True)
+     , (22929, 19, True)
+     , (22929, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22930, 'portalaerbaxsanatorium');
@@ -1481,7 +1581,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22930, 13, True)
      , (22930, 12, True)
      , (22930, 14, True)
-     , (22930, 15, True);
+     , (22930, 15, True)
+     , (22930, 19, True)
+     , (22930, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36217, 'ace36217-artifexcollegium');
@@ -1510,7 +1612,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (36217, 13, True)
      , (36217, 12, True)
      , (36217, 14, True)
-     , (36217, 15, True);
+     , (36217, 15, True)
+     , (36217, 19, True)
+     , (36217, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25795, 'portalmountingot');
@@ -1539,7 +1643,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25795, 13, True)
      , (25795, 12, True)
      , (25795, 14, True)
-     , (25795, 15, True);
+     , (25795, 15, True)
+     , (25795, 19, True)
+     , (25795, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25796, 'portalmountingotexit');
@@ -1568,7 +1674,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25796, 13, True)
      , (25796, 12, True)
      , (25796, 14, True)
-     , (25796, 15, True);
+     , (25796, 15, True)
+     , (25796, 19, True)
+     , (25796, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42178, 'ace42178-tuskercave');
@@ -1598,7 +1706,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42178, 13, True)
      , (42178, 12, True)
      , (42178, 14, True)
-     , (42178, 15, True);
+     , (42178, 15, True)
+     , (42178, 19, True)
+     , (42178, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42179, 'ace42179-tuskercavern');
@@ -1628,7 +1738,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42179, 13, True)
      , (42179, 12, True)
      , (42179, 14, True)
-     , (42179, 15, True);
+     , (42179, 15, True)
+     , (42179, 19, True)
+     , (42179, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42175, 'ace42175-tuskerabode');
@@ -1658,7 +1770,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42175, 13, True)
      , (42175, 12, True)
      , (42175, 14, True)
-     , (42175, 15, True);
+     , (42175, 15, True)
+     , (42175, 19, True)
+     , (42175, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42146, 'ace42146-abandonedtumeroksite');
@@ -1688,7 +1802,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42146, 13, True)
      , (42146, 12, True)
      , (42146, 14, True)
-     , (42146, 15, True);
+     , (42146, 15, True)
+     , (42146, 19, True)
+     , (42146, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42181, 'ace42181-tuskerlodge');
@@ -1718,7 +1834,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42181, 13, True)
      , (42181, 12, True)
      , (42181, 14, True)
-     , (42181, 15, True);
+     , (42181, 15, True)
+     , (42181, 19, True)
+     , (42181, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42176, 'ace42176-tuskerbarracks');
@@ -1748,7 +1866,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42176, 13, True)
      , (42176, 12, True)
      , (42176, 14, True)
-     , (42176, 15, True);
+     , (42176, 15, True)
+     , (42176, 19, True)
+     , (42176, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42148, 'ace42148-ancientempyreangrotto');
@@ -1778,7 +1898,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42148, 13, True)
      , (42148, 12, True)
      , (42148, 14, True)
-     , (42148, 15, True);
+     , (42148, 15, True)
+     , (42148, 19, True)
+     , (42148, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42180, 'ace42180-tuskerhabitat');
@@ -1808,7 +1930,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42180, 13, True)
      , (42180, 12, True)
      , (42180, 14, True)
-     , (42180, 15, True);
+     , (42180, 15, True)
+     , (42180, 19, True)
+     , (42180, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42155, 'ace42155-thedarklair');
@@ -1838,7 +1962,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42155, 13, True)
      , (42155, 12, True)
      , (42155, 14, True)
-     , (42155, 15, True);
+     , (42155, 15, True)
+     , (42155, 19, True)
+     , (42155, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42177, 'ace42177-tuskerburrow');
@@ -1868,7 +1994,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42177, 13, True)
      , (42177, 12, True)
      , (42177, 14, True)
-     , (42177, 15, True);
+     , (42177, 15, True)
+     , (42177, 19, True)
+     , (42177, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42154, 'ace42154-crumblingempyreanmansion');
@@ -1898,7 +2026,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42154, 13, True)
      , (42154, 12, True)
      , (42154, 14, True)
-     , (42154, 15, True);
+     , (42154, 15, True)
+     , (42154, 19, True)
+     , (42154, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42170, 'ace42170-anolthoisoldiernest');
@@ -1928,7 +2058,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42170, 13, True)
      , (42170, 12, True)
      , (42170, 14, True)
-     , (42170, 15, True);
+     , (42170, 15, True)
+     , (42170, 19, True)
+     , (42170, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42182, 'ace42182-tuskerquarters');
@@ -1958,7 +2090,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42182, 13, True)
      , (42182, 12, True)
      , (42182, 14, True)
-     , (42182, 15, True);
+     , (42182, 15, True)
+     , (42182, 19, True)
+     , (42182, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42174, 'ace42174-tumerokcamps');
@@ -1988,7 +2122,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42174, 13, True)
      , (42174, 12, True)
      , (42174, 14, True)
-     , (42174, 15, True);
+     , (42174, 15, True)
+     , (42174, 19, True)
+     , (42174, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42164, 'ace42164-skeletonfort');
@@ -2018,7 +2154,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42164, 13, True)
      , (42164, 12, True)
      , (42164, 14, True)
-     , (42164, 15, True);
+     , (42164, 15, True)
+     , (42164, 19, True)
+     , (42164, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42169, 'ace42169-mountainsewer');
@@ -2048,7 +2186,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42169, 13, True)
      , (42169, 12, True)
      , (42169, 14, True)
-     , (42169, 15, True);
+     , (42169, 15, True)
+     , (42169, 19, True)
+     , (42169, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42160, 'ace42160-greenmiregrave');
@@ -2078,7 +2218,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42160, 13, True)
      , (42160, 12, True)
      , (42160, 14, True)
-     , (42160, 15, True);
+     , (42160, 15, True)
+     , (42160, 19, True)
+     , (42160, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42163, 'ace42163-mosswartcamp');
@@ -2108,7 +2250,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42163, 13, True)
      , (42163, 12, True)
      , (42163, 14, True)
-     , (42163, 15, True);
+     , (42163, 15, True)
+     , (42163, 19, True)
+     , (42163, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42152, 'ace42152-mitemaze');
@@ -2138,7 +2282,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42152, 13, True)
      , (42152, 12, True)
      , (42152, 14, True)
-     , (42152, 15, True);
+     , (42152, 15, True)
+     , (42152, 19, True)
+     , (42152, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42149, 'ace42149-banderlingcamp');
@@ -2168,7 +2314,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42149, 13, True)
      , (42149, 12, True)
      , (42149, 14, True)
-     , (42149, 15, True);
+     , (42149, 15, True)
+     , (42149, 19, True)
+     , (42149, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42150, 'ace42150-colier');
@@ -2198,7 +2346,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42150, 13, True)
      , (42150, 12, True)
      , (42150, 14, True)
-     , (42150, 15, True);
+     , (42150, 15, True)
+     , (42150, 19, True)
+     , (42150, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42158, 'ace42158-folthidestate');
@@ -2228,7 +2378,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42158, 13, True)
      , (42158, 12, True)
      , (42158, 14, True)
-     , (42158, 15, True);
+     , (42158, 15, True)
+     , (42158, 19, True)
+     , (42158, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42171, 'ace42171-hallsofhelm');
@@ -2258,7 +2410,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42171, 13, True)
      , (42171, 12, True)
      , (42171, 14, True)
-     , (42171, 15, True);
+     , (42171, 15, True)
+     , (42171, 19, True)
+     , (42171, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42162, 'ace42162-hauntedmansion');
@@ -2288,7 +2442,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42162, 13, True)
      , (42162, 12, True)
      , (42162, 14, True)
-     , (42162, 15, True);
+     , (42162, 15, True)
+     , (42162, 19, True)
+     , (42162, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42147, 'ace42147-suntik');
@@ -2318,7 +2474,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42147, 13, True)
      , (42147, 12, True)
      , (42147, 14, True)
-     , (42147, 15, True);
+     , (42147, 15, True)
+     , (42147, 19, True)
+     , (42147, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42159, 'ace42159-glendenwood');
@@ -2348,7 +2506,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42159, 13, True)
      , (42159, 12, True)
      , (42159, 14, True)
-     , (42159, 15, True);
+     , (42159, 15, True)
+     , (42159, 19, True)
+     , (42159, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42151, 'ace42151-blackmiretemple');
@@ -2378,7 +2538,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42151, 13, True)
      , (42151, 12, True)
      , (42151, 14, True)
-     , (42151, 15, True);
+     , (42151, 15, True)
+     , (42151, 19, True)
+     , (42151, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42161, 'ace42161-belligtowerbase');
@@ -2408,7 +2570,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42161, 13, True)
      , (42161, 12, True)
      , (42161, 14, True)
-     , (42161, 15, True);
+     , (42161, 15, True)
+     , (42161, 19, True)
+     , (42161, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42165, 'ace42165-huntersleap');
@@ -2438,7 +2602,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42165, 13, True)
      , (42165, 12, True)
      , (42165, 14, True)
-     , (42165, 15, True);
+     , (42165, 15, True)
+     , (42165, 19, True)
+     , (42165, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42157, 'ace42157-fledgemasterscamp');
@@ -2468,7 +2634,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42157, 13, True)
      , (42157, 12, True)
      , (42157, 14, True)
-     , (42157, 15, True);
+     , (42157, 15, True)
+     , (42157, 19, True)
+     , (42157, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42166, 'ace42166-banderlingconquestdungeon');
@@ -2498,7 +2666,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42166, 13, True)
      , (42166, 12, True)
      , (42166, 14, True)
-     , (42166, 15, True);
+     , (42166, 15, True)
+     , (42166, 19, True)
+     , (42166, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42167, 'ace42167-mosswartmaze');
@@ -2528,7 +2698,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42167, 13, True)
      , (42167, 12, True)
      , (42167, 14, True)
-     , (42167, 15, True);
+     , (42167, 15, True)
+     , (42167, 19, True)
+     , (42167, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42153, 'ace42153-castleofbaronnuvillus');
@@ -2558,7 +2730,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42153, 13, True)
      , (42153, 12, True)
      , (42153, 14, True)
-     , (42153, 15, True);
+     , (42153, 15, True)
+     , (42153, 19, True)
+     , (42153, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42173, 'ace42173-trothyrsrest');
@@ -2588,7 +2762,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42173, 13, True)
      , (42173, 12, True)
      , (42173, 14, True)
-     , (42173, 15, True);
+     , (42173, 15, True)
+     , (42173, 19, True)
+     , (42173, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42168, 'ace42168-catacombsoftheforgotten');
@@ -2618,7 +2794,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42168, 13, True)
      , (42168, 12, True)
      , (42168, 14, True)
-     , (42168, 15, True);
+     , (42168, 15, True)
+     , (42168, 19, True)
+     , (42168, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42172, 'ace42172-dangerouscave');
@@ -2648,7 +2826,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42172, 13, True)
      , (42172, 12, True)
      , (42172, 14, True)
-     , (42172, 15, True);
+     , (42172, 15, True)
+     , (42172, 19, True)
+     , (42172, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42156, 'ace42156-dryreach');
@@ -2678,7 +2858,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42156, 13, True)
      , (42156, 12, True)
      , (42156, 14, True)
-     , (42156, 15, True);
+     , (42156, 15, True)
+     , (42156, 19, True)
+     , (42156, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (373, 'portalbelligtowerbase');
@@ -2707,7 +2889,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (373, 13, True)
      , (373, 12, True)
      , (373, 14, True)
-     , (373, 15, True);
+     , (373, 15, True)
+     , (373, 19, True)
+     , (373, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (375, 'portalbelligtowertop');
@@ -2736,7 +2920,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (375, 13, True)
      , (375, 12, True)
      , (375, 14, True)
-     , (375, 15, True);
+     , (375, 15, True)
+     , (375, 19, True)
+     , (375, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (435, 'portalgemmnorth');
@@ -2765,7 +2951,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (435, 13, True)
      , (435, 12, True)
      , (435, 14, True)
-     , (435, 15, True);
+     , (435, 15, True)
+     , (435, 19, True)
+     , (435, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (374, 'portalbelligtowerbaseexit');
@@ -2794,7 +2982,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (374, 13, True)
      , (374, 12, True)
      , (374, 14, True)
-     , (374, 15, True);
+     , (374, 15, True)
+     , (374, 19, True)
+     , (374, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (376, 'portalbelligtowertopexit');
@@ -2823,7 +3013,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (376, 13, True)
      , (376, 12, True)
      , (376, 14, True)
-     , (376, 15, True);
+     , (376, 15, True)
+     , (376, 19, True)
+     , (376, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (436, 'portalbelligsouth');
@@ -2852,7 +3044,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (436, 13, True)
      , (436, 12, True)
      , (436, 14, True)
-     , (436, 15, True);
+     , (436, 15, True)
+     , (436, 19, True)
+     , (436, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (437, 'portaldaltnorth');
@@ -2881,7 +3075,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (437, 13, True)
      , (437, 12, True)
      , (437, 14, True)
-     , (437, 15, True);
+     , (437, 15, True)
+     , (437, 19, True)
+     , (437, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (438, 'portalgemmsouth');
@@ -2910,7 +3106,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (438, 13, True)
      , (438, 12, True)
      , (438, 14, True)
-     , (438, 15, True);
+     , (438, 15, True)
+     , (438, 19, True)
+     , (438, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (439, 'portalsyliphnorth');
@@ -2939,7 +3137,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (439, 13, True)
      , (439, 12, True)
      , (439, 14, True)
-     , (439, 15, True);
+     , (439, 15, True)
+     , (439, 19, True)
+     , (439, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (440, 'portaldaltsouth');
@@ -2968,7 +3168,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (440, 13, True)
      , (440, 12, True)
      , (440, 14, True)
-     , (440, 15, True);
+     , (440, 15, True)
+     , (440, 19, True)
+     , (440, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (426, 'portalsyliphtowertop');
@@ -2997,7 +3199,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (426, 13, True)
      , (426, 12, True)
      , (426, 14, True)
-     , (426, 15, True);
+     , (426, 15, True)
+     , (426, 19, True)
+     , (426, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (427, 'portalsyliphtowertopexit');
@@ -3026,7 +3230,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (427, 13, True)
      , (427, 12, True)
      , (427, 14, True)
-     , (427, 15, True);
+     , (427, 15, True)
+     , (427, 19, True)
+     , (427, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (430, 'portalbaseofsyliph');
@@ -3055,7 +3261,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (430, 13, True)
      , (430, 12, True)
      , (430, 14, True)
-     , (430, 15, True);
+     , (430, 15, True)
+     , (430, 19, True)
+     , (430, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28061, 'portalcoraltunnelseast');
@@ -3084,7 +3292,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28061, 13, True)
      , (28061, 12, True)
      , (28061, 14, True)
-     , (28061, 15, True);
+     , (28061, 15, True)
+     , (28061, 19, True)
+     , (28061, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2554, 'portalcraterpathtop');
@@ -3113,7 +3323,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2554, 13, True)
      , (2554, 12, True)
      , (2554, 14, True)
-     , (2554, 15, True);
+     , (2554, 15, True)
+     , (2554, 19, True)
+     , (2554, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1902, 'portalhilltop');
@@ -3142,7 +3354,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1902, 13, True)
      , (1902, 12, True)
      , (1902, 14, True)
-     , (1902, 15, True);
+     , (1902, 15, True)
+     , (1902, 19, True)
+     , (1902, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2387, 'portalcraterdungeon');
@@ -3171,7 +3385,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2387, 13, True)
      , (2387, 12, True)
      , (2387, 14, True)
-     , (2387, 15, True);
+     , (2387, 15, True)
+     , (2387, 19, True)
+     , (2387, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2388, 'portalcraterdungeonexit');
@@ -3200,7 +3416,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2388, 13, True)
      , (2388, 12, True)
      , (2388, 14, True)
-     , (2388, 15, True);
+     , (2388, 15, True)
+     , (2388, 19, True)
+     , (2388, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23077, 'portaldarktreecrystalmineexit');
@@ -3229,7 +3447,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23077, 13, True)
      , (23077, 12, True)
      , (23077, 14, True)
-     , (23077, 15, True);
+     , (23077, 15, True)
+     , (23077, 19, True)
+     , (23077, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22686, 'portaltuskerlacuna');
@@ -3258,7 +3478,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22686, 13, True)
      , (22686, 12, True)
      , (22686, 14, True)
-     , (22686, 15, True);
+     , (22686, 15, True)
+     , (22686, 19, True)
+     , (22686, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22674, 'portaltuskergauntlet');
@@ -3287,7 +3509,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22674, 13, True)
      , (22674, 12, True)
      , (22674, 14, True)
-     , (22674, 15, True);
+     , (22674, 15, True)
+     , (22674, 19, True)
+     , (22674, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22651, 'portallegendboboexit');
@@ -3316,7 +3540,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22651, 13, True)
      , (22651, 12, True)
      , (22651, 14, True)
-     , (22651, 15, True);
+     , (22651, 15, True)
+     , (22651, 19, True)
+     , (22651, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22704, 'portaltuskerwarriorlair');
@@ -3345,7 +3571,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22704, 13, True)
      , (22704, 12, True)
      , (22704, 14, True)
-     , (22704, 15, True);
+     , (22704, 15, True)
+     , (22704, 19, True)
+     , (22704, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22671, 'portaltuskerfoodstores');
@@ -3374,7 +3602,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22671, 13, True)
      , (22671, 12, True)
      , (22671, 14, True)
-     , (22671, 15, True);
+     , (22671, 15, True)
+     , (22671, 19, True)
+     , (22671, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28826, 'portalabayarlaboratoryexit');
@@ -3403,7 +3633,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28826, 13, True)
      , (28826, 12, True)
      , (28826, 14, True)
-     , (28826, 15, True);
+     , (28826, 15, True)
+     , (28826, 19, True)
+     , (28826, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28825, 'portalabayarlaboratory');
@@ -3432,7 +3664,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28825, 13, True)
      , (28825, 12, True)
      , (28825, 14, True)
-     , (28825, 15, True);
+     , (28825, 15, True)
+     , (28825, 19, True)
+     , (28825, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22650, 'portallegendbobo');
@@ -3461,7 +3695,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22650, 13, True)
      , (22650, 12, True)
      , (22650, 14, True)
-     , (22650, 15, True);
+     , (22650, 15, True)
+     , (22650, 19, True)
+     , (22650, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22684, 'portaltuskerking');
@@ -3490,7 +3726,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22684, 13, True)
      , (22684, 12, True)
      , (22684, 14, True)
-     , (22684, 15, True);
+     , (22684, 15, True)
+     , (22684, 19, True)
+     , (22684, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22708, 'portalwishingroom');
@@ -3519,7 +3757,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22708, 13, True)
      , (22708, 12, True)
      , (22708, 14, True)
-     , (22708, 15, True);
+     , (22708, 15, True)
+     , (22708, 19, True)
+     , (22708, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22685, 'portaltuskerkingexit');
@@ -3548,7 +3788,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22685, 13, True)
      , (22685, 12, True)
      , (22685, 14, True)
-     , (22685, 15, True);
+     , (22685, 15, True)
+     , (22685, 19, True)
+     , (22685, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22656, 'portaltuskerarena');
@@ -3577,7 +3819,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22656, 13, True)
      , (22656, 12, True)
      , (22656, 14, True)
-     , (22656, 15, True);
+     , (22656, 15, True)
+     , (22656, 19, True)
+     , (22656, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8484, 'portalvesayensmallruin');
@@ -3606,7 +3850,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8484, 13, True)
      , (8484, 12, True)
      , (8484, 14, True)
-     , (8484, 15, True);
+     , (8484, 15, True)
+     , (8484, 19, True)
+     , (8484, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8598, 'portalvesayenmoars');
@@ -3635,7 +3881,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8598, 13, True)
      , (8598, 12, True)
      , (8598, 14, True)
-     , (8598, 15, True);
+     , (8598, 15, True)
+     , (8598, 19, True)
+     , (8598, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8482, 'portalvesayensmalltemplec');
@@ -3664,7 +3912,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8482, 13, True)
      , (8482, 12, True)
      , (8482, 14, True)
-     , (8482, 15, True);
+     , (8482, 15, True)
+     , (8482, 19, True)
+     , (8482, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8599, 'portalvesayenmoarsexit');
@@ -3693,7 +3943,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8599, 13, True)
      , (8599, 12, True)
      , (8599, 14, True)
-     , (8599, 15, True);
+     , (8599, 15, True)
+     , (8599, 19, True)
+     , (8599, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30536, 'portalelenabeacontower');
@@ -3722,7 +3974,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30536, 13, True)
      , (30536, 12, True)
      , (30536, 14, True)
-     , (30536, 15, True);
+     , (30536, 15, True)
+     , (30536, 19, True)
+     , (30536, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29095, 'portalsultryhovel');
@@ -3751,7 +4005,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29095, 13, True)
      , (29095, 12, True)
      , (29095, 14, True)
-     , (29095, 15, True);
+     , (29095, 15, True)
+     , (29095, 19, True)
+     , (29095, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32996, 'ace32996-dardantesworkshop');
@@ -3780,7 +4036,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32996, 13, True)
      , (32996, 12, True)
      , (32996, 14, True)
-     , (32996, 15, True);
+     , (32996, 15, True)
+     , (32996, 19, True)
+     , (32996, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33016, 'ace33016-rossumortachapterhouse');
@@ -3809,7 +4067,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33016, 13, True)
      , (33016, 12, True)
      , (33016, 14, True)
-     , (33016, 15, True);
+     , (33016, 15, True)
+     , (33016, 19, True)
+     , (33016, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28713, 'portalviamontiantorturechamber');
@@ -3838,7 +4098,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28713, 13, True)
      , (28713, 12, True)
      , (28713, 14, True)
-     , (28713, 15, True);
+     , (28713, 15, True)
+     , (28713, 19, True)
+     , (28713, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32710, 'ace32710-viamontianlaboratory');
@@ -3867,7 +4129,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32710, 13, True)
      , (32710, 12, True)
      , (32710, 14, True)
-     , (32710, 15, True);
+     , (32710, 15, True)
+     , (32710, 19, True)
+     , (32710, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9410, 'portallinvaktukalexit');
@@ -3896,7 +4160,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9410, 13, True)
      , (9410, 12, True)
      , (9410, 14, True)
-     , (9410, 15, True);
+     , (9410, 15, True)
+     , (9410, 19, True)
+     , (9410, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38156, 'ace38156-blightedputridmoarsmantunnels');
@@ -3925,7 +4191,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38156, 13, True)
      , (38156, 12, True)
      , (38156, 14, True)
-     , (38156, 15, True);
+     , (38156, 15, True)
+     , (38156, 19, True)
+     , (38156, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28788, 'portalundeadtemple');
@@ -3954,7 +4222,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28788, 13, True)
      , (28788, 12, True)
      , (28788, 14, True)
-     , (28788, 15, True);
+     , (28788, 15, True)
+     , (28788, 19, True)
+     , (28788, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43571, 'ace43571-olthoitunnel');
@@ -3984,7 +4254,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43571, 13, True)
      , (43571, 12, True)
      , (43571, 14, True)
-     , (43571, 15, True);
+     , (43571, 15, True)
+     , (43571, 19, True)
+     , (43571, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43571, 67111849, 1, 255);
@@ -4016,7 +4288,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1331, 13, True)
      , (1331, 12, True)
      , (1331, 14, True)
-     , (1331, 15, True);
+     , (1331, 15, True)
+     , (1331, 19, True)
+     , (1331, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33558, 'ace33558-asheronsisland');
@@ -4045,7 +4319,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33558, 13, True)
      , (33558, 12, True)
      , (33558, 14, True)
-     , (33558, 15, True);
+     , (33558, 15, True)
+     , (33558, 19, True)
+     , (33558, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1219, 'portalthievesden');
@@ -4074,7 +4350,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1219, 13, True)
      , (1219, 12, True)
      , (1219, 14, True)
-     , (1219, 15, True);
+     , (1219, 15, True)
+     , (1219, 19, True)
+     , (1219, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4955, 'portalstonecathedral');
@@ -4103,7 +4381,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4955, 13, True)
      , (4955, 12, True)
      , (4955, 14, True)
-     , (4955, 15, True);
+     , (4955, 15, True)
+     , (4955, 19, True)
+     , (4955, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2066, 'portalbraid');
@@ -4132,7 +4412,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2066, 13, True)
      , (2066, 12, True)
      , (2066, 14, True)
-     , (2066, 15, True);
+     , (2066, 15, True)
+     , (2066, 19, True)
+     , (2066, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2068, 'portaldrudgehideout');
@@ -4161,7 +4443,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068, 13, True)
      , (2068, 12, True)
      , (2068, 14, True)
-     , (2068, 15, True);
+     , (2068, 15, True)
+     , (2068, 19, True)
+     , (2068, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22701, 'portaltuskertempleostethexit');
@@ -4190,7 +4474,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22701, 13, True)
      , (22701, 12, True)
      , (22701, 14, True)
-     , (22701, 15, True);
+     , (22701, 15, True)
+     , (22701, 19, True)
+     , (22701, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1307, 'portalglendendungeon');
@@ -4219,7 +4505,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1307, 13, True)
      , (1307, 12, True)
      , (1307, 14, True)
-     , (1307, 15, True);
+     , (1307, 15, True)
+     , (1307, 19, True)
+     , (1307, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2550, 'portalplateaubase');
@@ -4248,7 +4536,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2550, 13, True)
      , (2550, 12, True)
      , (2550, 14, True)
-     , (2550, 15, True);
+     , (2550, 15, True)
+     , (2550, 19, True)
+     , (2550, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2551, 'portalinnerdungeon');
@@ -4277,7 +4567,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2551, 13, True)
      , (2551, 12, True)
      , (2551, 14, True)
-     , (2551, 15, True);
+     , (2551, 15, True)
+     , (2551, 19, True)
+     , (2551, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31294, 'ace31294-renegadeincursion');
@@ -4306,7 +4598,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31294, 13, True)
      , (31294, 12, True)
      , (31294, 14, True)
-     , (31294, 15, True);
+     , (31294, 15, True)
+     , (31294, 19, True)
+     , (31294, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20919, 'portalmartinesretreat');
@@ -4335,7 +4629,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (20919, 13, True)
      , (20919, 12, True)
      , (20919, 14, True)
-     , (20919, 15, True);
+     , (20919, 15, True)
+     , (20919, 19, True)
+     , (20919, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4933, 'portaloldwarehouse');
@@ -4364,7 +4660,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4933, 13, True)
      , (4933, 12, True)
      , (4933, 14, True)
-     , (4933, 15, True);
+     , (4933, 15, True)
+     , (4933, 19, True)
+     , (4933, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2076, 'portalgallerytower');
@@ -4393,7 +4691,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2076, 13, True)
      , (2076, 12, True)
      , (2076, 14, True)
-     , (2076, 15, True);
+     , (2076, 15, True)
+     , (2076, 19, True)
+     , (2076, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1122, 'portaltrothyrsrest');
@@ -4422,7 +4722,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1122, 13, True)
      , (1122, 12, True)
      , (1122, 14, True)
-     , (1122, 15, True);
+     , (1122, 15, True)
+     , (1122, 19, True)
+     , (1122, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1335, 'portaldrudgefamily');
@@ -4451,7 +4753,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1335, 13, True)
      , (1335, 12, True)
      , (1335, 14, True)
-     , (1335, 15, True);
+     , (1335, 15, True)
+     , (1335, 19, True)
+     , (1335, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35293, 'ace35293-asheronscastle');
@@ -4479,7 +4783,9 @@ VALUES (35293, 54, 0.8);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (35293, 13, True)
      , (35293, 11, True)
-     , (35293, 14, True);
+     , (35293, 14, True)
+     , (35293, 19, True)
+     , (35293, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24516, 'portalasheronsanctum');
@@ -4504,7 +4810,9 @@ VALUES (24516, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24516, 13, True)
      , (24516, 12, True)
-     , (24516, 15, True);
+     , (24516, 15, True)
+     , (24516, 19, True)
+     , (24516, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43569, 'ace43569-olthoitunnel');
@@ -4534,7 +4842,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43569, 13, True)
      , (43569, 12, True)
      , (43569, 14, True)
-     , (43569, 15, True);
+     , (43569, 15, True)
+     , (43569, 19, True)
+     , (43569, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43569, 67111849, 1, 255);
@@ -4566,7 +4876,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14928, 13, True)
      , (14928, 12, True)
      , (14928, 14, True)
-     , (14928, 15, True);
+     , (14928, 15, True)
+     , (14928, 19, True)
+     , (14928, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1603, 'portalsimpleruin');
@@ -4595,7 +4907,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1603, 13, True)
      , (1603, 12, True)
      , (1603, 14, True)
-     , (1603, 15, True);
+     , (1603, 15, True)
+     , (1603, 19, True)
+     , (1603, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1595, 'portalabandonedmine');
@@ -4624,7 +4938,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1595, 13, True)
      , (1595, 12, True)
      , (1595, 14, True)
-     , (1595, 15, True);
+     , (1595, 15, True)
+     , (1595, 19, True)
+     , (1595, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1596, 'portalabandonedmineexit');
@@ -4653,7 +4969,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1596, 13, True)
      , (1596, 12, True)
      , (1596, 14, True)
-     , (1596, 15, True);
+     , (1596, 15, True)
+     , (1596, 19, True)
+     , (1596, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1091, 'portalblackdeathexit');
@@ -4682,7 +5000,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1091, 13, True)
      , (1091, 12, True)
      , (1091, 14, True)
-     , (1091, 15, True);
+     , (1091, 15, True)
+     , (1091, 19, True)
+     , (1091, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35820, 'ace35820-deepercatacombs');
@@ -4711,7 +5031,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35820, 13, True)
      , (35820, 12, True)
      , (35820, 14, True)
-     , (35820, 15, True);
+     , (35820, 15, True)
+     , (35820, 19, True)
+     , (35820, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24436, 'portalasheroninvasionmid');
@@ -4740,7 +5062,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24436, 13, True)
      , (24436, 12, True)
      , (24436, 14, True)
-     , (24436, 15, True);
+     , (24436, 15, True)
+     , (24436, 19, True)
+     , (24436, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24434, 'portalasheroninvasionhigh');
@@ -4769,7 +5093,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24434, 13, True)
      , (24434, 12, True)
      , (24434, 14, True)
-     , (24434, 15, True);
+     , (24434, 15, True)
+     , (24434, 19, True)
+     , (24434, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25495, 'portalolthoiqueenlairrot2');
@@ -4798,7 +5124,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25495, 13, True)
      , (25495, 12, True)
      , (25495, 14, True)
-     , (25495, 15, True);
+     , (25495, 15, True)
+     , (25495, 19, True)
+     , (25495, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43563, 'ace43563-olthoitunnel');
@@ -4828,7 +5156,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43563, 13, True)
      , (43563, 12, True)
      , (43563, 14, True)
-     , (43563, 15, True);
+     , (43563, 15, True)
+     , (43563, 19, True)
+     , (43563, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43563, 67111849, 1, 255);
@@ -4860,7 +5190,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (37163, 13, True)
      , (37163, 12, True)
      , (37163, 14, True)
-     , (37163, 15, True);
+     , (37163, 15, True)
+     , (37163, 19, True)
+     , (37163, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53445, 'ace53445-radiantbloodgauntlet');
@@ -4889,7 +5221,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (53445, 13, True)
      , (53445, 12, True)
      , (53445, 14, True)
-     , (53445, 15, True);
+     , (53445, 15, True)
+     , (53445, 19, True)
+     , (53445, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29433, 'portalinvaderkeepcopper');
@@ -4918,7 +5252,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29433, 13, True)
      , (29433, 12, True)
      , (29433, 14, True)
-     , (29433, 15, True);
+     , (29433, 15, True)
+     , (29433, 19, True)
+     , (29433, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3956, 'portalfourtowersin');
@@ -4947,7 +5283,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3956, 13, True)
      , (3956, 12, True)
      , (3956, 14, True)
-     , (3956, 15, True);
+     , (3956, 15, True)
+     , (3956, 19, True)
+     , (3956, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3957, 'portalfourtowersout');
@@ -4977,7 +5315,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3957, 13, True)
      , (3957, 12, True)
      , (3957, 14, True)
-     , (3957, 15, True);
+     , (3957, 15, True)
+     , (3957, 19, True)
+     , (3957, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3957, 67111849, 1, 255);
@@ -5009,7 +5349,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29435, 13, True)
      , (29435, 12, True)
      , (29435, 14, True)
-     , (29435, 15, True);
+     , (29435, 15, True)
+     , (29435, 19, True)
+     , (29435, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29439, 'portalinvaderkeepsilver');
@@ -5038,7 +5380,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29439, 13, True)
      , (29439, 12, True)
      , (29439, 14, True)
-     , (29439, 15, True);
+     , (29439, 15, True)
+     , (29439, 19, True)
+     , (29439, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1339, 'portalmosschamber');
@@ -5067,7 +5411,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1339, 13, True)
      , (1339, 12, True)
      , (1339, 14, True)
-     , (1339, 15, True);
+     , (1339, 15, True)
+     , (1339, 19, True)
+     , (1339, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32811, 'ace32811-bookcase');
@@ -5095,7 +5441,9 @@ VALUES (32811, 54, 0.75);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (32811, 13, True)
      , (32811, 14, True)
-     , (32811, 15, True);
+     , (32811, 15, True)
+     , (32811, 19, True)
+     , (32811, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1592, 'portallugianpost');
@@ -5124,7 +5472,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1592, 13, True)
      , (1592, 12, True)
      , (1592, 14, True)
-     , (1592, 15, True);
+     , (1592, 15, True)
+     , (1592, 19, True)
+     , (1592, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28806, 'portalabhorrentvault');
@@ -5153,7 +5503,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28806, 13, True)
      , (28806, 12, True)
      , (28806, 14, True)
-     , (28806, 15, True);
+     , (28806, 15, True)
+     , (28806, 19, True)
+     , (28806, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28807, 'portalabhorrentvaultexit');
@@ -5182,7 +5534,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28807, 13, True)
      , (28807, 12, True)
      , (28807, 14, True)
-     , (28807, 15, True);
+     , (28807, 15, True)
+     , (28807, 19, True)
+     , (28807, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29481, 'portallugianicetunnels');
@@ -5211,7 +5565,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29481, 13, True)
      , (29481, 12, True)
      , (29481, 14, True)
-     , (29481, 15, True);
+     , (29481, 15, True)
+     , (29481, 19, True)
+     , (29481, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29482, 'portallugianicetunnelsexit');
@@ -5240,7 +5596,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29482, 13, True)
      , (29482, 12, True)
      , (29482, 14, True)
-     , (29482, 15, True);
+     , (29482, 15, True)
+     , (29482, 19, True)
+     , (29482, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29483, 'portalruschkicehold');
@@ -5269,7 +5627,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29483, 13, True)
      , (29483, 12, True)
      , (29483, 14, True)
-     , (29483, 15, True);
+     , (29483, 15, True)
+     , (29483, 19, True)
+     , (29483, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43565, 'ace43565-olthoitunnel');
@@ -5299,7 +5659,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43565, 13, True)
      , (43565, 12, True)
      , (43565, 14, True)
-     , (43565, 15, True);
+     , (43565, 15, True)
+     , (43565, 19, True)
+     , (43565, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43565, 67111849, 1, 255);
@@ -5331,7 +5693,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29484, 13, True)
      , (29484, 12, True)
      , (29484, 14, True)
-     , (29484, 15, True);
+     , (29484, 15, True)
+     , (29484, 19, True)
+     , (29484, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29485, 'portalviamontianroyalprison');
@@ -5360,7 +5724,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29485, 13, True)
      , (29485, 12, True)
      , (29485, 14, True)
-     , (29485, 15, True);
+     , (29485, 15, True)
+     , (29485, 19, True)
+     , (29485, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29486, 'portalviamontianroyalprisonexit');
@@ -5389,7 +5755,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29486, 13, True)
      , (29486, 12, True)
      , (29486, 14, True)
-     , (29486, 15, True);
+     , (29486, 15, True)
+     , (29486, 19, True)
+     , (29486, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38155, 'ace38155-blighteddisgustingmoarsmantunnels');
@@ -5418,7 +5786,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38155, 13, True)
      , (38155, 12, True)
      , (38155, 14, True)
-     , (38155, 15, True);
+     , (38155, 15, True)
+     , (38155, 19, True)
+     , (38155, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31061, 'ace31061-centralcourtyard');
@@ -5447,7 +5817,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31061, 13, True)
      , (31061, 12, True)
      , (31061, 14, True)
-     , (31061, 15, True);
+     , (31061, 15, True)
+     , (31061, 19, True)
+     , (31061, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29334, 'portalnewbieacademyoutercourtyard');
@@ -5476,7 +5848,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29334, 13, True)
      , (29334, 12, True)
      , (29334, 14, True)
-     , (29334, 15, True);
+     , (29334, 15, True)
+     , (29334, 19, True)
+     , (29334, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29338, 'portalnewbieexitholtburg');
@@ -5505,7 +5879,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29338, 13, True)
      , (29338, 12, True)
      , (29338, 14, True)
-     , (29338, 15, True);
+     , (29338, 15, True)
+     , (29338, 19, True)
+     , (29338, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4034, 'portalthievesdenexit');
@@ -5534,7 +5910,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4034, 13, True)
      , (4034, 12, True)
      , (4034, 14, True)
-     , (4034, 15, True);
+     , (4034, 15, True)
+     , (4034, 19, True)
+     , (4034, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2091, 'portalseasidelair');
@@ -5563,7 +5941,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2091, 13, True)
      , (2091, 12, True)
      , (2091, 14, True)
-     , (2091, 15, True);
+     , (2091, 15, True)
+     , (2091, 19, True)
+     , (2091, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1901, 'portalhighvalley');
@@ -5592,7 +5972,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1901, 13, True)
      , (1901, 12, True)
      , (1901, 14, True)
-     , (1901, 15, True);
+     , (1901, 15, True)
+     , (1901, 19, True)
+     , (1901, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1903, 'portalmidrange');
@@ -5621,7 +6003,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1903, 13, True)
      , (1903, 12, True)
      , (1903, 14, True)
-     , (1903, 15, True);
+     , (1903, 15, True)
+     , (1903, 19, True)
+     , (1903, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1601, 'portallostgardenruins');
@@ -5650,7 +6034,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1601, 13, True)
      , (1601, 12, True)
      , (1601, 14, True)
-     , (1601, 15, True);
+     , (1601, 15, True)
+     , (1601, 19, True)
+     , (1601, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1906, 'portalriverbend');
@@ -5679,7 +6065,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1906, 13, True)
      , (1906, 12, True)
      , (1906, 14, True)
-     , (1906, 15, True);
+     , (1906, 15, True)
+     , (1906, 19, True)
+     , (1906, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2391, 'portalabandonedarena');
@@ -5708,7 +6096,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2391, 13, True)
      , (2391, 12, True)
      , (2391, 14, True)
-     , (2391, 15, True);
+     , (2391, 15, True)
+     , (2391, 19, True)
+     , (2391, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1905, 'portalnorthdesertedge');
@@ -5737,7 +6127,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1905, 13, True)
      , (1905, 12, True)
      , (1905, 14, True)
-     , (1905, 15, True);
+     , (1905, 15, True)
+     , (1905, 19, True)
+     , (1905, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34508, 'ace34508-thecolosseum');
@@ -5765,7 +6157,9 @@ VALUES (34508, 54, 0.8);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34508, 13, True)
      , (34508, 11, True)
-     , (34508, 14, True);
+     , (34508, 14, True)
+     , (34508, 19, True)
+     , (34508, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34510, 'ace34510-stonefists');
@@ -5794,7 +6188,9 @@ VALUES (34510, 39, 1.4);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34510, 11, True)
-     , (34510, 14, True);
+     , (34510, 14, True)
+     , (34510, 19, True)
+     , (34510, 1, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (34510, 0, 83892410, 83897667)
@@ -5848,7 +6244,9 @@ VALUES (34511, 39, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34511, 11, True)
-     , (34511, 14, True);
+     , (34511, 14, True)
+     , (34511, 19, True)
+     , (34511, 1, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (34511, 0, 83890034, 83897668)
@@ -5906,7 +6304,9 @@ VALUES (34535, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34535, 11, True)
-     , (34535, 14, True);
+     , (34535, 14, True)
+     , (34535, 19, True)
+     , (34535, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34512, 'ace34512-killagurg');
@@ -5935,7 +6335,9 @@ VALUES (34512, 39, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34512, 11, True)
-     , (34512, 14, True);
+     , (34512, 14, True)
+     , (34512, 19, True)
+     , (34512, 1, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (34512, 0, 83893769, 83897668)
@@ -6002,7 +6404,9 @@ VALUES (34513, 39, 0.9);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34513, 11, True)
-     , (34513, 14, True);
+     , (34513, 14, True)
+     , (34513, 19, True)
+     , (34513, 1, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (34513, 0, 83893576, 83897667)
@@ -6121,7 +6525,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (12692, 13, True)
      , (12692, 12, True)
      , (12692, 14, True)
-     , (12692, 15, True);
+     , (12692, 15, True)
+     , (12692, 19, True)
+     , (12692, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1432, 'portalrithwiccrypt');
@@ -6150,7 +6556,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1432, 13, True)
      , (1432, 12, True)
      , (1432, 14, True)
-     , (1432, 15, True);
+     , (1432, 15, True)
+     , (1432, 19, True)
+     , (1432, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35595, 'ace35595-cave');
@@ -6179,7 +6587,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35595, 13, True)
      , (35595, 12, True)
      , (35595, 14, True)
-     , (35595, 15, True);
+     , (35595, 15, True)
+     , (35595, 19, True)
+     , (35595, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2074, 'portaldungeontatters');
@@ -6208,7 +6618,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2074, 13, True)
      , (2074, 12, True)
      , (2074, 14, True)
-     , (2074, 15, True);
+     , (2074, 15, True)
+     , (2074, 19, True)
+     , (2074, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4925, 'portalphyntosmenace');
@@ -6237,7 +6649,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4925, 13, True)
      , (4925, 12, True)
      , (4925, 14, True)
-     , (4925, 15, True);
+     , (4925, 15, True)
+     , (4925, 19, True)
+     , (4925, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45648, 'ace45648-gerainesstudy');
@@ -6266,7 +6680,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (45648, 13, True)
      , (45648, 12, True)
      , (45648, 14, True)
-     , (45648, 15, True);
+     , (45648, 15, True)
+     , (45648, 19, True)
+     , (45648, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51428, 'ace51428-tuskerden');
@@ -6295,7 +6711,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51428, 13, True)
      , (51428, 12, True)
      , (51428, 14, True)
-     , (51428, 15, True);
+     , (51428, 15, True)
+     , (51428, 19, True)
+     , (51428, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43559, 'ace43559-olthoitunnel');
@@ -6325,7 +6743,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43559, 13, True)
      , (43559, 12, True)
      , (43559, 14, True)
-     , (43559, 15, True);
+     , (43559, 15, True)
+     , (43559, 19, True)
+     , (43559, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43559, 67111849, 1, 255);
@@ -6357,7 +6777,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30693, 13, True)
      , (30693, 12, True)
      , (30693, 14, True)
-     , (30693, 15, True);
+     , (30693, 15, True)
+     , (30693, 19, True)
+     , (30693, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38369, 'ace38369-templedoor');
@@ -6384,7 +6806,9 @@ VALUES (38369, 54, -0.1);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (38369, 13, True)
      , (38369, 12, True)
-     , (38369, 14, True);
+     , (38369, 14, True)
+     , (38369, 19, True)
+     , (38369, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27698, 'portalrenegadetufa');
@@ -6413,7 +6837,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27698, 13, True)
      , (27698, 12, True)
      , (27698, 14, True)
-     , (27698, 15, True);
+     , (27698, 15, True)
+     , (27698, 19, True)
+     , (27698, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27699, 'portalrenegadetufaexit');
@@ -6442,7 +6868,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27699, 13, True)
      , (27699, 12, True)
      , (27699, 14, True)
-     , (27699, 15, True);
+     , (27699, 15, True)
+     , (27699, 19, True)
+     , (27699, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24049, 'portalvirindicomplex');
@@ -6471,7 +6899,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24049, 13, True)
      , (24049, 12, True)
      , (24049, 14, True)
-     , (24049, 15, True);
+     , (24049, 15, True)
+     , (24049, 19, True)
+     , (24049, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24050, 'portalvirindicomplexexit');
@@ -6500,7 +6930,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24050, 13, True)
      , (24050, 12, True)
      , (24050, 14, True)
-     , (24050, 15, True);
+     , (24050, 15, True)
+     , (24050, 19, True)
+     , (24050, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24071, 'portalvirindicomplex2exit');
@@ -6529,7 +6961,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24071, 13, True)
      , (24071, 12, True)
      , (24071, 14, True)
-     , (24071, 15, True);
+     , (24071, 15, True)
+     , (24071, 19, True)
+     , (24071, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22706, 'portalvengeancecaverns');
@@ -6558,7 +6992,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22706, 13, True)
      , (22706, 12, True)
      , (22706, 14, True)
-     , (22706, 15, True);
+     , (22706, 15, True)
+     , (22706, 19, True)
+     , (22706, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22657, 'portaltuskerarmory');
@@ -6587,7 +7023,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22657, 13, True)
      , (22657, 12, True)
      , (22657, 14, True)
-     , (22657, 15, True);
+     , (22657, 15, True)
+     , (22657, 19, True)
+     , (22657, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22682, 'portaltuskerhoneycombs');
@@ -6616,7 +7054,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22682, 13, True)
      , (22682, 12, True)
      , (22682, 14, True)
-     , (22682, 15, True);
+     , (22682, 15, True)
+     , (22682, 19, True)
+     , (22682, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35946, 'ace35946-whisperingcaverns');
@@ -6645,7 +7085,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35946, 13, True)
      , (35946, 12, True)
      , (35946, 14, True)
-     , (35946, 15, True);
+     , (35946, 15, True)
+     , (35946, 19, True)
+     , (35946, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35947, 'ace35947-surface');
@@ -6674,7 +7116,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35947, 13, True)
      , (35947, 12, True)
      , (35947, 14, True)
-     , (35947, 15, True);
+     , (35947, 15, True)
+     , (35947, 19, True)
+     , (35947, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4937, 'portalwindyshrethlair');
@@ -6703,7 +7147,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4937, 13, True)
      , (4937, 12, True)
      , (4937, 14, True)
-     , (4937, 15, True);
+     , (4937, 15, True)
+     , (4937, 19, True)
+     , (4937, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4938, 'portalwindyshrethlairexit');
@@ -6732,7 +7178,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4938, 13, True)
      , (4938, 12, True)
      , (4938, 14, True)
-     , (4938, 15, True);
+     , (4938, 15, True)
+     , (4938, 19, True)
+     , (4938, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33985, 'ace33985-ancientcaves');
@@ -6761,7 +7209,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33985, 13, True)
      , (33985, 12, True)
      , (33985, 14, True)
-     , (33985, 15, True);
+     , (33985, 15, True)
+     , (33985, 19, True)
+     , (33985, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33986, 'ace33986-surface');
@@ -6790,7 +7240,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33986, 13, True)
      , (33986, 12, True)
      , (33986, 14, True)
-     , (33986, 15, True);
+     , (33986, 15, True)
+     , (33986, 19, True)
+     , (33986, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2328, 'portalblackhill');
@@ -6819,7 +7271,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2328, 13, True)
      , (2328, 12, True)
      , (2328, 14, True)
-     , (2328, 15, True);
+     , (2328, 15, True)
+     , (2328, 19, True)
+     , (2328, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8501, 'portalsouthesper');
@@ -6848,7 +7302,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8501, 13, True)
      , (8501, 12, True)
      , (8501, 14, True)
-     , (8501, 15, True);
+     , (8501, 15, True)
+     , (8501, 19, True)
+     , (8501, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1306, 'portalbanditcastleprison');
@@ -6877,7 +7333,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1306, 13, True)
      , (1306, 12, True)
      , (1306, 14, True)
-     , (1306, 15, True);
+     , (1306, 15, True)
+     , (1306, 19, True)
+     , (1306, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31342, 'ace31342-keepout!');
@@ -6906,7 +7364,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31342, 13, True)
      , (31342, 12, True)
      , (31342, 14, True)
-     , (31342, 15, True);
+     , (31342, 15, True)
+     , (31342, 19, True)
+     , (31342, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28267, 'portalmosswartvagurat');
@@ -6935,7 +7395,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28267, 13, True)
      , (28267, 12, True)
      , (28267, 14, True)
-     , (28267, 15, True);
+     , (28267, 15, True)
+     , (28267, 19, True)
+     , (28267, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29361, 'portalmarauderlair');
@@ -6964,7 +7426,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29361, 13, True)
      , (29361, 12, True)
      , (29361, 14, True)
-     , (29361, 15, True);
+     , (29361, 15, True)
+     , (29361, 19, True)
+     , (29361, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29498, 'portalheartofmadness');
@@ -6993,7 +7457,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29498, 13, True)
      , (29498, 12, True)
      , (29498, 14, True)
-     , (29498, 15, True);
+     , (29498, 15, True)
+     , (29498, 19, True)
+     , (29498, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1125, 'portalholtburgdungeon');
@@ -7022,7 +7488,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1125, 13, True)
      , (1125, 12, True)
      , (1125, 14, True)
-     , (1125, 15, True);
+     , (1125, 15, True)
+     , (1125, 19, True)
+     , (1125, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1093, 'portalholtburgdungeonexit');
@@ -7051,7 +7519,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1093, 13, True)
      , (1093, 12, True)
      , (1093, 14, True)
-     , (1093, 15, True);
+     , (1093, 15, True)
+     , (1093, 19, True)
+     , (1093, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1101, 'portalyaraqtunnelsexit');
@@ -7080,7 +7550,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1101, 13, True)
      , (1101, 12, True)
      , (1101, 14, True)
-     , (1101, 15, True);
+     , (1101, 15, True)
+     , (1101, 19, True)
+     , (1101, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1399, 'portalyanshitunnelexit');
@@ -7109,7 +7581,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1399, 13, True)
      , (1399, 12, True)
      , (1399, 14, True)
-     , (1399, 15, True);
+     , (1399, 15, True)
+     , (1399, 19, True)
+     , (1399, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1096, 'portalshoushigrottoexit');
@@ -7138,7 +7612,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1096, 13, True)
      , (1096, 12, True)
      , (1096, 14, True)
-     , (1096, 15, True);
+     , (1096, 15, True)
+     , (1096, 19, True)
+     , (1096, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1092, 'portaldungeonmanorexit');
@@ -7167,7 +7643,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1092, 13, True)
      , (1092, 12, True)
      , (1092, 14, True)
-     , (1092, 15, True);
+     , (1092, 15, True)
+     , (1092, 19, True)
+     , (1092, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1433, 'portalrithwiccryptexit');
@@ -7196,7 +7674,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1433, 13, True)
      , (1433, 12, True)
      , (1433, 14, True)
-     , (1433, 15, True);
+     , (1433, 15, True)
+     , (1433, 19, True)
+     , (1433, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3631, 'portalcarvedcaveexit');
@@ -7225,7 +7705,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3631, 13, True)
      , (3631, 12, True)
      , (3631, 14, True)
-     , (3631, 15, True);
+     , (3631, 15, True)
+     , (3631, 19, True)
+     , (3631, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1430, 'portallostlight');
@@ -7254,7 +7736,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1430, 13, True)
      , (1430, 12, True)
      , (1430, 14, True)
-     , (1430, 15, True);
+     , (1430, 15, True)
+     , (1430, 19, True)
+     , (1430, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1431, 'portallostlightexit');
@@ -7283,7 +7767,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1431, 13, True)
      , (1431, 12, True)
      , (1431, 14, True)
-     , (1431, 15, True);
+     , (1431, 15, True)
+     , (1431, 19, True)
+     , (1431, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7254, 'portalolthoilairalu');
@@ -7312,7 +7798,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7254, 13, True)
      , (7254, 12, True)
      , (7254, 14, True)
-     , (7254, 15, True);
+     , (7254, 15, True)
+     , (7254, 19, True)
+     , (7254, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2086, 'portalolthoilair');
@@ -7341,7 +7829,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2086, 13, True)
      , (2086, 12, True)
      , (2086, 14, True)
-     , (2086, 15, True);
+     , (2086, 15, True)
+     , (2086, 19, True)
+     , (2086, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35935, 'ace35935-paradoxtouchedolthoiqueenslair');
@@ -7370,7 +7860,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35935, 13, True)
      , (35935, 12, True)
      , (35935, 14, True)
-     , (35935, 15, True);
+     , (35935, 15, True)
+     , (35935, 19, True)
+     , (35935, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8888, 'portalempyreancloisterescape');
@@ -7399,7 +7891,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8888, 13, True)
      , (8888, 12, True)
      , (8888, 14, True)
-     , (8888, 15, True);
+     , (8888, 15, True)
+     , (8888, 19, True)
+     , (8888, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8885, 'portalshadestrongholdescapeupper');
@@ -7428,7 +7922,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8885, 13, True)
      , (8885, 12, True)
      , (8885, 14, True)
-     , (8885, 15, True);
+     , (8885, 15, True)
+     , (8885, 19, True)
+     , (8885, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8886, 'portalshadestrongholdescapelower');
@@ -7457,7 +7953,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8886, 13, True)
      , (8886, 12, True)
      , (8886, 14, True)
-     , (8886, 15, True);
+     , (8886, 15, True)
+     , (8886, 19, True)
+     , (8886, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8889, 'portalchakrongateescape');
@@ -7486,7 +7984,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8889, 13, True)
      , (8889, 12, True)
      , (8889, 14, True)
-     , (8889, 15, True);
+     , (8889, 15, True)
+     , (8889, 19, True)
+     , (8889, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45724, 'ace45724-fireyrefuge');
@@ -7515,7 +8015,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (45724, 13, True)
      , (45724, 12, True)
      , (45724, 14, True)
-     , (45724, 15, True);
+     , (45724, 15, True)
+     , (45724, 19, True)
+     , (45724, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36218, 'ace36218-surface');
@@ -7544,7 +8046,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (36218, 13, True)
      , (36218, 12, True)
      , (36218, 14, True)
-     , (36218, 15, True);
+     , (36218, 15, True)
+     , (36218, 19, True)
+     , (36218, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33247, 'ace33247-essencechambers');
@@ -7573,7 +8077,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33247, 13, True)
      , (33247, 11, True)
      , (33247, 14, True)
-     , (33247, 15, True);
+     , (33247, 15, True)
+     , (33247, 19, True)
+     , (33247, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38730, 'ace38730-ancientcloister');
@@ -7602,7 +8108,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38730, 13, True)
      , (38730, 12, True)
      , (38730, 14, True)
-     , (38730, 15, True);
+     , (38730, 15, True)
+     , (38730, 19, True)
+     , (38730, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46357, 'ace46357-lostruins');
@@ -7631,7 +8139,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46357, 13, True)
      , (46357, 12, True)
      , (46357, 14, True)
-     , (46357, 15, True);
+     , (46357, 15, True)
+     , (46357, 19, True)
+     , (46357, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7244, 'portalblackdrudgespawngha');
@@ -7660,7 +8170,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7244, 13, True)
      , (7244, 12, True)
      , (7244, 14, True)
-     , (7244, 15, True);
+     , (7244, 15, True)
+     , (7244, 19, True)
+     , (7244, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7242, 'portalblackdrudgespawnalu');
@@ -7689,7 +8201,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7242, 13, True)
      , (7242, 12, True)
      , (7242, 14, True)
-     , (7242, 15, True);
+     , (7242, 15, True)
+     , (7242, 19, True)
+     , (7242, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46922, 'ace46922-prismaticguardianlair');
@@ -7718,7 +8232,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46922, 13, True)
      , (46922, 12, True)
      , (46922, 14, True)
-     , (46922, 15, True);
+     , (46922, 15, True)
+     , (46922, 19, True)
+     , (46922, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46953, 'ace46953-provinggroundsuber');
@@ -7747,7 +8263,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46953, 13, True)
      , (46953, 12, True)
      , (46953, 14, True)
-     , (46953, 15, True);
+     , (46953, 15, True)
+     , (46953, 19, True)
+     , (46953, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46955, 'ace46955-provinggroundsuber');
@@ -7776,7 +8294,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46955, 13, True)
      , (46955, 12, True)
      , (46955, 14, True)
-     , (46955, 15, True);
+     , (46955, 15, True)
+     , (46955, 19, True)
+     , (46955, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46923, 'ace46923-citadelvalley');
@@ -7805,7 +8325,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46923, 13, True)
      , (46923, 12, True)
      , (46923, 14, True)
-     , (46923, 15, True);
+     , (46923, 15, True)
+     , (46923, 19, True)
+     , (46923, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46926, 'ace46926-prismaticdevastation');
@@ -7834,7 +8356,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46926, 13, True)
      , (46926, 12, True)
      , (46926, 14, True)
-     , (46926, 15, True);
+     , (46926, 15, True)
+     , (46926, 19, True)
+     , (46926, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21408, 'portalentropicdecay');
@@ -7863,7 +8387,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21408, 13, True)
      , (21408, 12, True)
      , (21408, 14, True)
-     , (21408, 15, True);
+     , (21408, 15, True)
+     , (21408, 19, True)
+     , (21408, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21407, 'portalelectricdestruction');
@@ -7892,7 +8418,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21407, 13, True)
      , (21407, 12, True)
      , (21407, 14, True)
-     , (21407, 15, True);
+     , (21407, 15, True)
+     , (21407, 19, True)
+     , (21407, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21409, 'portalfieryconsumption');
@@ -7921,7 +8449,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21409, 13, True)
      , (21409, 12, True)
      , (21409, 14, True)
-     , (21409, 15, True);
+     , (21409, 15, True)
+     , (21409, 19, True)
+     , (21409, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21423, 'portalicydemise');
@@ -7950,7 +8480,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21423, 13, True)
      , (21423, 12, True)
      , (21423, 14, True)
-     , (21423, 15, True);
+     , (21423, 15, True)
+     , (21423, 19, True)
+     , (21423, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21400, 'portalcitadelapex');
@@ -7979,7 +8511,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21400, 13, True)
      , (21400, 12, True)
      , (21400, 14, True)
-     , (21400, 15, True);
+     , (21400, 15, True)
+     , (21400, 19, True)
+     , (21400, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24471, 'portalmartinesfarm');
@@ -8008,7 +8542,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24471, 13, True)
      , (24471, 12, True)
      , (24471, 14, True)
-     , (24471, 15, True);
+     , (24471, 15, True)
+     , (24471, 19, True)
+     , (24471, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20921, 'portalmartinesstudy');
@@ -8037,7 +8573,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (20921, 13, True)
      , (20921, 12, True)
      , (20921, 14, True)
-     , (20921, 15, True);
+     , (20921, 15, True)
+     , (20921, 19, True)
+     , (20921, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20920, 'portalmartinesretreatexit');
@@ -8066,7 +8604,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (20920, 13, True)
      , (20920, 12, True)
      , (20920, 14, True)
-     , (20920, 15, True);
+     , (20920, 15, True)
+     , (20920, 19, True)
+     , (20920, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20922, 'portalmartinesthrone');
@@ -8095,7 +8635,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (20922, 13, True)
      , (20922, 12, True)
      , (20922, 14, True)
-     , (20922, 15, True);
+     , (20922, 15, True)
+     , (20922, 19, True)
+     , (20922, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44992, 'ace44992-frozenwightlair');
@@ -8125,7 +8667,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (44992, 13, True)
      , (44992, 12, True)
      , (44992, 14, True)
-     , (44992, 15, True);
+     , (44992, 15, True)
+     , (44992, 19, True)
+     , (44992, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43524, 'ace43524-frozentomb');
@@ -8154,7 +8698,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43524, 13, True)
      , (43524, 12, True)
      , (43524, 14, True)
-     , (43524, 15, True);
+     , (43524, 15, True)
+     , (43524, 19, True)
+     , (43524, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43525, 'ace43525-surface');
@@ -8183,7 +8729,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43525, 13, True)
      , (43525, 12, True)
      , (43525, 14, True)
-     , (43525, 15, True);
+     , (43525, 15, True)
+     , (43525, 19, True)
+     , (43525, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43567, 'ace43567-olthoitunnel');
@@ -8213,7 +8761,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43567, 13, True)
      , (43567, 12, True)
      , (43567, 14, True)
-     , (43567, 15, True);
+     , (43567, 15, True)
+     , (43567, 19, True)
+     , (43567, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43567, 67111849, 1, 255);
@@ -8245,7 +8795,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43202, 13, True)
      , (43202, 12, True)
      , (43202, 14, True)
-     , (43202, 15, True);
+     , (43202, 15, True)
+     , (43202, 19, True)
+     , (43202, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51690, 'ace51690-fearfactory');
@@ -8274,7 +8826,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51690, 13, True)
      , (51690, 12, True)
      , (51690, 14, True)
-     , (51690, 15, True);
+     , (51690, 15, True)
+     , (51690, 19, True)
+     , (51690, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52012, 'ace52012-catacombsoftorment');
@@ -8303,7 +8857,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (52012, 13, True)
      , (52012, 12, True)
      , (52012, 14, True)
-     , (52012, 15, True);
+     , (52012, 15, True)
+     , (52012, 19, True)
+     , (52012, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51718, 'ace51718-pathofrage');
@@ -8332,7 +8888,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51718, 13, True)
      , (51718, 12, True)
      , (51718, 14, True)
-     , (51718, 15, True);
+     , (51718, 15, True)
+     , (51718, 19, True)
+     , (51718, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51669, 'ace51669-rynthidfoundry');
@@ -8361,7 +8919,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51669, 13, True)
      , (51669, 12, True)
      , (51669, 14, True)
-     , (51669, 15, True);
+     , (51669, 15, True)
+     , (51669, 19, True)
+     , (51669, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51717, 'ace51717-pathoftorment');
@@ -8390,7 +8950,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51717, 13, True)
      , (51717, 12, True)
      , (51717, 14, True)
-     , (51717, 15, True);
+     , (51717, 15, True)
+     , (51717, 19, True)
+     , (51717, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51822, 'ace51822-surface');
@@ -8419,7 +8981,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51822, 13, True)
      , (51822, 12, True)
      , (51822, 14, True)
-     , (51822, 15, True);
+     , (51822, 15, True)
+     , (51822, 19, True)
+     , (51822, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52014, 'ace52014-innersanctum');
@@ -8448,7 +9012,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (52014, 13, True)
      , (52014, 12, True)
      , (52014, 14, True)
-     , (52014, 15, True);
+     , (52014, 15, True)
+     , (52014, 19, True)
+     , (52014, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52013, 'ace52013-innersanctum');
@@ -8477,7 +9043,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (52013, 13, True)
      , (52013, 12, True)
      , (52013, 14, True)
-     , (52013, 15, True);
+     , (52013, 15, True)
+     , (52013, 19, True)
+     , (52013, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51564, 'ace51564-seedofhatred');
@@ -8506,7 +9074,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51564, 13, True)
      , (51564, 12, True)
      , (51564, 14, True)
-     , (51564, 15, True);
+     , (51564, 15, True)
+     , (51564, 19, True)
+     , (51564, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45725, 'ace45725-twistedrefuge');
@@ -8535,7 +9105,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (45725, 13, True)
      , (45725, 12, True)
      , (45725, 14, True)
-     , (45725, 15, True);
+     , (45725, 15, True)
+     , (45725, 19, True)
+     , (45725, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2329, 'portalsmallblackhill');
@@ -8564,7 +9136,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2329, 13, True)
      , (2329, 12, True)
      , (2329, 14, True)
-     , (2329, 15, True);
+     , (2329, 15, True)
+     , (2329, 19, True)
+     , (2329, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2330, 'portalsmallhillbase');
@@ -8593,7 +9167,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2330, 13, True)
      , (2330, 12, True)
      , (2330, 14, True)
-     , (2330, 15, True);
+     , (2330, 15, True)
+     , (2330, 19, True)
+     , (2330, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7246, 'portalblackdrudgespawnsho');
@@ -8622,7 +9198,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7246, 13, True)
      , (7246, 12, True)
      , (7246, 14, True)
-     , (7246, 15, True);
+     , (7246, 15, True)
+     , (7246, 19, True)
+     , (7246, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1347, 'portalwhiteratnest');
@@ -8651,7 +9229,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1347, 13, True)
      , (1347, 12, True)
      , (1347, 14, True)
-     , (1347, 15, True);
+     , (1347, 15, True)
+     , (1347, 19, True)
+     , (1347, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1120, 'portalashentears');
@@ -8680,7 +9260,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1120, 13, True)
      , (1120, 12, True)
      , (1120, 14, True)
-     , (1120, 15, True);
+     , (1120, 15, True)
+     , (1120, 19, True)
+     , (1120, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34011, 'ace34011-cryptofcrimsonnight');
@@ -8709,7 +9291,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34011, 13, True)
      , (34011, 12, True)
      , (34011, 14, True)
-     , (34011, 15, True);
+     , (34011, 15, True)
+     , (34011, 19, True)
+     , (34011, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45722, 'ace45722-cavernousrefuge');
@@ -8738,7 +9322,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (45722, 13, True)
      , (45722, 12, True)
      , (45722, 14, True)
-     , (45722, 15, True);
+     , (45722, 15, True)
+     , (45722, 19, True)
+     , (45722, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2088, 'portalranch');
@@ -8767,7 +9353,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2088, 13, True)
      , (2088, 12, True)
      , (2088, 14, True)
-     , (2088, 15, True);
+     , (2088, 15, True)
+     , (2088, 19, True)
+     , (2088, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4204, 'portalgrievousvault');
@@ -8796,7 +9384,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4204, 13, True)
      , (4204, 12, True)
      , (4204, 14, True)
-     , (4204, 15, True);
+     , (4204, 15, True)
+     , (4204, 19, True)
+     , (4204, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1590, 'portallugianoutpost');
@@ -8825,7 +9415,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1590, 13, True)
      , (1590, 12, True)
      , (1590, 14, True)
-     , (1590, 15, True);
+     , (1590, 15, True)
+     , (1590, 19, True)
+     , (1590, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8189, 'portalfloatingadvocatespire');
@@ -8854,7 +9446,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8189, 13, True)
      , (8189, 12, True)
      , (8189, 14, True)
-     , (8189, 15, True);
+     , (8189, 15, True)
+     , (8189, 19, True)
+     , (8189, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4959, 'portalempyreangarrison');
@@ -8883,7 +9477,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4959, 13, True)
      , (4959, 12, True)
      , (4959, 14, True)
-     , (4959, 15, True);
+     , (4959, 15, True)
+     , (4959, 19, True)
+     , (4959, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28478, 'portalburunbreedingpit');
@@ -8912,7 +9508,10 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28478, 13, True)
      , (28478, 12, True)
      , (28478, 14, True)
-     , (28478, 15, True);
+     , (28478, 15, True)
+     , (28478, 19, True)
+     , (28478, 1, True)
+     , (28478, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28483, 'portalburunmucorpit');
@@ -8941,7 +9540,10 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28483, 13, True)
      , (28483, 12, True)
      , (28483, 14, True)
-     , (28483, 15, True);
+     , (28483, 15, True)
+     , (28483, 19, True)
+     , (28483, 1, True)
+     , (28483, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28482, 'portalburunkoruuspawn');
@@ -8970,7 +9572,10 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28482, 13, True)
      , (28482, 12, True)
      , (28482, 14, True)
-     , (28482, 15, True);
+     , (28482, 15, True)
+     , (28482, 19, True)
+     , (28482, 1, True)
+     , (28482, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28479, 'portalburunfeeluntree');
@@ -8999,7 +9604,10 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28479, 13, True)
      , (28479, 12, True)
      , (28479, 14, True)
-     , (28479, 15, True);
+     , (28479, 15, True)
+     , (28479, 19, True)
+     , (28479, 1, True)
+     , (28479, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28481, 'portalburunfortresslair');
@@ -9028,7 +9636,10 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28481, 13, True)
      , (28481, 12, True)
      , (28481, 14, True)
-     , (28481, 15, True);
+     , (28481, 15, True)
+     , (28481, 19, True)
+     , (28481, 1, True)
+     , (28481, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28261, 'portalmosswartleerargh');
@@ -9057,7 +9668,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28261, 13, True)
      , (28261, 12, True)
      , (28261, 14, True)
-     , (28261, 15, True);
+     , (28261, 15, True)
+     , (28261, 19, True)
+     , (28261, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2067, 'portalcolonial');
@@ -9086,7 +9699,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2067, 13, True)
      , (2067, 12, True)
      , (2067, 14, True)
-     , (2067, 15, True);
+     , (2067, 15, True)
+     , (2067, 19, True)
+     , (2067, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4927, 'portalfilosdoom');
@@ -9115,7 +9730,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4927, 13, True)
      , (4927, 12, True)
      , (4927, 14, True)
-     , (4927, 15, True);
+     , (4927, 15, True)
+     , (4927, 19, True)
+     , (4927, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23771, 'portalulgrimsdungeonexit');
@@ -9144,7 +9761,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23771, 13, True)
      , (23771, 12, True)
      , (23771, 14, True)
-     , (23771, 15, True);
+     , (23771, 15, True)
+     , (23771, 19, True)
+     , (23771, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4147, 'portalridgetower');
@@ -9173,7 +9792,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4147, 13, True)
      , (4147, 12, True)
      , (4147, 14, True)
-     , (4147, 15, True);
+     , (4147, 15, True)
+     , (4147, 19, True)
+     , (4147, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1098, 'portaltrothyrsrestexit');
@@ -9202,7 +9823,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1098, 13, True)
      , (1098, 12, True)
      , (1098, 14, True)
-     , (1098, 15, True);
+     , (1098, 15, True)
+     , (1098, 19, True)
+     , (1098, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10796, 'portalvirindiobsidiannexusdungeon');
@@ -9231,7 +9854,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10796, 13, True)
      , (10796, 12, True)
      , (10796, 14, True)
-     , (10796, 15, True);
+     , (10796, 15, True)
+     , (10796, 19, True)
+     , (10796, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32655, 'ace32655-empyreanworkshop');
@@ -9260,7 +9885,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32655, 13, True)
      , (32655, 12, True)
      , (32655, 14, True)
-     , (32655, 15, True);
+     , (32655, 15, True)
+     , (32655, 19, True)
+     , (32655, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4910, 'portalmattekarcave');
@@ -9289,7 +9916,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4910, 13, True)
      , (4910, 12, True)
      , (4910, 14, True)
-     , (4910, 15, True);
+     , (4910, 15, True)
+     , (4910, 19, True)
+     , (4910, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1094, 'portalmitemazeexit');
@@ -9318,7 +9947,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1094, 13, True)
      , (1094, 12, True)
      , (1094, 14, True)
-     , (1094, 15, True);
+     , (1094, 15, True)
+     , (1094, 19, True)
+     , (1094, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33034, 'ace33034-ancientmasonry');
@@ -9347,7 +9978,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33034, 13, True)
      , (33034, 12, True)
      , (33034, 14, True)
-     , (33034, 15, True);
+     , (33034, 15, True)
+     , (33034, 19, True)
+     , (33034, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36727, 'ace36727-lonelyfortress');
@@ -9376,7 +10009,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (36727, 13, True)
      , (36727, 12, True)
      , (36727, 14, True)
-     , (36727, 15, True);
+     , (36727, 15, True)
+     , (36727, 19, True)
+     , (36727, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7291, 'portalgolemheimgha');
@@ -9405,7 +10040,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7291, 13, True)
      , (7291, 12, True)
      , (7291, 14, True)
-     , (7291, 15, True);
+     , (7291, 15, True)
+     , (7291, 19, True)
+     , (7291, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14502, 'portalempyreanlightningcisternlower');
@@ -9434,7 +10071,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14502, 13, True)
      , (14502, 12, True)
      , (14502, 14, True)
-     , (14502, 15, True);
+     , (14502, 15, True)
+     , (14502, 19, True)
+     , (14502, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14501, 'portalempyreanlightningcisternupper');
@@ -9463,7 +10102,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14501, 13, True)
      , (14501, 12, True)
      , (14501, 14, True)
-     , (14501, 15, True);
+     , (14501, 15, True)
+     , (14501, 19, True)
+     , (14501, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14503, 'portalempyreanlightningpropylaeum');
@@ -9492,7 +10133,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14503, 13, True)
      , (14503, 12, True)
      , (14503, 14, True)
-     , (14503, 15, True);
+     , (14503, 15, True)
+     , (14503, 19, True)
+     , (14503, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14491, 'portalempyreanlightningpropylaeumexit');
@@ -9521,7 +10164,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14491, 13, True)
      , (14491, 12, True)
      , (14491, 14, True)
-     , (14491, 15, True);
+     , (14491, 15, True)
+     , (14491, 19, True)
+     , (14491, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2381, 'portalllcatacombs');
@@ -9550,7 +10195,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2381, 13, True)
      , (2381, 12, True)
      , (2381, 14, True)
-     , (2381, 15, True);
+     , (2381, 15, True)
+     , (2381, 19, True)
+     , (2381, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2333, 'portaltumerokchamber');
@@ -9579,7 +10226,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2333, 13, True)
      , (2333, 12, True)
      , (2333, 14, True)
-     , (2333, 15, True);
+     , (2333, 15, True)
+     , (2333, 19, True)
+     , (2333, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2359, 'portalslaughterhouse');
@@ -9608,7 +10257,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2359, 13, True)
      , (2359, 12, True)
      , (2359, 14, True)
-     , (2359, 15, True);
+     , (2359, 15, True)
+     , (2359, 19, True)
+     , (2359, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5110, 'portalfroreexit');
@@ -9637,7 +10288,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5110, 13, True)
      , (5110, 12, True)
      , (5110, 14, True)
-     , (5110, 15, True);
+     , (5110, 15, True)
+     , (5110, 19, True)
+     , (5110, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28808, 'portalinsatiablevault');
@@ -9666,7 +10319,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28808, 13, True)
      , (28808, 12, True)
      , (28808, 14, True)
-     , (28808, 15, True);
+     , (28808, 15, True)
+     , (28808, 19, True)
+     , (28808, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28801, 'portalinsatiablevaultexit');
@@ -9695,7 +10350,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28801, 13, True)
      , (28801, 12, True)
      , (28801, 14, True)
-     , (28801, 15, True);
+     , (28801, 15, True)
+     , (28801, 19, True)
+     , (28801, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28710, 'portalaugmentationrealmexit');
@@ -9724,7 +10381,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28710, 13, True)
      , (28710, 12, True)
      , (28710, 14, True)
-     , (28710, 15, True);
+     , (28710, 15, True)
+     , (28710, 19, True)
+     , (28710, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42712, 'ace42712-empyreanfacilitylowerlevel');
@@ -9753,7 +10412,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42712, 13, True)
      , (42712, 12, True)
      , (42712, 14, True)
-     , (42712, 15, True);
+     , (42712, 15, True)
+     , (42712, 19, True)
+     , (42712, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42713, 'ace42713-empyreanfacilitymiddlelevel');
@@ -9782,7 +10443,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42713, 13, True)
      , (42713, 12, True)
      , (42713, 14, True)
-     , (42713, 15, True);
+     , (42713, 15, True)
+     , (42713, 19, True)
+     , (42713, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42714, 'ace42714-surface');
@@ -9811,7 +10474,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42714, 13, True)
      , (42714, 12, True)
      , (42714, 14, True)
-     , (42714, 15, True);
+     , (42714, 15, True)
+     , (42714, 19, True)
+     , (42714, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42711, 'ace42711-empyreanfacilityupperlevel');
@@ -9840,7 +10505,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42711, 13, True)
      , (42711, 12, True)
      , (42711, 14, True)
-     , (42711, 15, True);
+     , (42711, 15, True)
+     , (42711, 19, True)
+     , (42711, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25570, 'portalhiddencavern');
@@ -9869,7 +10536,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25570, 13, True)
      , (25570, 12, True)
      , (25570, 14, True)
-     , (25570, 15, True);
+     , (25570, 15, True)
+     , (25570, 19, True)
+     , (25570, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36935, 'ace36935-surface');
@@ -9898,7 +10567,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (36935, 13, True)
      , (36935, 12, True)
      , (36935, 14, True)
-     , (36935, 15, True);
+     , (36935, 15, True)
+     , (36935, 19, True)
+     , (36935, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51426, 'ace51426-surface');
@@ -9927,7 +10598,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51426, 13, True)
      , (51426, 12, True)
      , (51426, 14, True)
-     , (51426, 15, True);
+     , (51426, 15, True)
+     , (51426, 19, True)
+     , (51426, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38646, 'ace38646-roguedelvings');
@@ -9956,7 +10629,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38646, 13, True)
      , (38646, 12, True)
      , (38646, 14, True)
-     , (38646, 15, True);
+     , (38646, 15, True)
+     , (38646, 19, True)
+     , (38646, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21420, 'portalgaerlanguardianlightning');
@@ -9985,7 +10660,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21420, 13, True)
      , (21420, 12, True)
      , (21420, 14, True)
-     , (21420, 15, True);
+     , (21420, 15, True)
+     , (21420, 19, True)
+     , (21420, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45721, 'ace45721-chargedrefuge');
@@ -10014,7 +10691,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (45721, 13, True)
      , (45721, 12, True)
      , (45721, 14, True)
-     , (45721, 15, True);
+     , (45721, 15, True)
+     , (45721, 19, True)
+     , (45721, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10857, 'portalsoldiernamequest-xp');
@@ -10043,7 +10722,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10857, 13, True)
      , (10857, 12, True)
      , (10857, 14, True)
-     , (10857, 15, True);
+     , (10857, 15, True)
+     , (10857, 19, True)
+     , (10857, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10856, 'portalsoldiernamequestexit-xp');
@@ -10072,7 +10753,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10856, 13, True)
      , (10856, 12, True)
      , (10856, 14, True)
-     , (10856, 15, True);
+     , (10856, 15, True)
+     , (10856, 19, True)
+     , (10856, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11442, 'portalpalenquall-xp');
@@ -10101,7 +10784,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (11442, 13, True)
      , (11442, 12, True)
      , (11442, 14, True)
-     , (11442, 15, True);
+     , (11442, 15, True)
+     , (11442, 19, True)
+     , (11442, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10855, 'portallegionarynamequest-xp');
@@ -10130,7 +10815,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10855, 13, True)
      , (10855, 12, True)
      , (10855, 14, True)
-     , (10855, 15, True);
+     , (10855, 15, True)
+     , (10855, 19, True)
+     , (10855, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10854, 'portallegionarynamequestexit-xp');
@@ -10159,7 +10846,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10854, 13, True)
      , (10854, 12, True)
      , (10854, 14, True)
-     , (10854, 15, True);
+     , (10854, 15, True)
+     , (10854, 19, True)
+     , (10854, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27583, 'portalmutilatornamequest');
@@ -10188,7 +10877,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27583, 13, True)
      , (27583, 12, True)
      , (27583, 14, True)
-     , (27583, 15, True);
+     , (27583, 15, True)
+     , (27583, 19, True)
+     , (27583, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27584, 'portalmutilatornamequestexit');
@@ -10217,7 +10908,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27584, 13, True)
      , (27584, 12, True)
      , (27584, 14, True)
-     , (27584, 15, True);
+     , (27584, 15, True)
+     , (27584, 19, True)
+     , (27584, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10849, 'portalbutchernamequest-xp');
@@ -10246,7 +10939,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10849, 13, True)
      , (10849, 12, True)
      , (10849, 14, True)
-     , (10849, 15, True);
+     , (10849, 15, True)
+     , (10849, 19, True)
+     , (10849, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10848, 'portalbutchernamequestexit-xp');
@@ -10275,7 +10970,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10848, 13, True)
      , (10848, 12, True)
      , (10848, 14, True)
-     , (10848, 15, True);
+     , (10848, 15, True)
+     , (10848, 19, True)
+     , (10848, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10881, 'portalmartinatelair-xp');
@@ -10304,7 +11001,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10881, 13, True)
      , (10881, 12, True)
      , (10881, 14, True)
-     , (10881, 15, True);
+     , (10881, 15, True)
+     , (10881, 19, True)
+     , (10881, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10880, 'portalmartinatelairexit-xp');
@@ -10333,7 +11032,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10880, 13, True)
      , (10880, 12, True)
      , (10880, 14, True)
-     , (10880, 15, True);
+     , (10880, 15, True)
+     , (10880, 19, True)
+     , (10880, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24881, 'portalothoihive2mid');
@@ -10362,7 +11063,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24881, 13, True)
      , (24881, 12, True)
      , (24881, 14, True)
-     , (24881, 15, True);
+     , (24881, 15, True)
+     , (24881, 19, True)
+     , (24881, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24883, 'portalothoihivemid2exit');
@@ -10391,7 +11094,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24883, 13, True)
      , (24883, 12, True)
      , (24883, 14, True)
-     , (24883, 15, True);
+     , (24883, 15, True)
+     , (24883, 19, True)
+     , (24883, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27694, 'portalrenegadeshoushi');
@@ -10420,7 +11125,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27694, 13, True)
      , (27694, 12, True)
      , (27694, 14, True)
-     , (27694, 15, True);
+     , (27694, 15, True)
+     , (27694, 19, True)
+     , (27694, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27695, 'portalrenegadeshoushiexit');
@@ -10449,7 +11156,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27695, 13, True)
      , (27695, 12, True)
      , (27695, 14, True)
-     , (27695, 15, True);
+     , (27695, 15, True)
+     , (27695, 19, True)
+     , (27695, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19719, 'portalfathomlesschasm');
@@ -10478,7 +11187,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (19719, 13, True)
      , (19719, 12, True)
      , (19719, 14, True)
-     , (19719, 15, True);
+     , (19719, 15, True)
+     , (19719, 19, True)
+     , (19719, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19725, 'portalfathomlesschasmplummet');
@@ -10507,7 +11218,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (19725, 13, True)
      , (19725, 12, True)
      , (19725, 14, True)
-     , (19725, 15, True);
+     , (19725, 15, True)
+     , (19725, 19, True)
+     , (19725, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19720, 'portalfathomlesschasmabyss');
@@ -10536,7 +11249,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (19720, 13, True)
      , (19720, 12, True)
      , (19720, 14, True)
-     , (19720, 15, True);
+     , (19720, 15, True)
+     , (19720, 19, True)
+     , (19720, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19723, 'portalfathomlesschasmdevex');
@@ -10565,7 +11280,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (19723, 13, True)
      , (19723, 12, True)
      , (19723, 14, True)
-     , (19723, 15, True);
+     , (19723, 15, True)
+     , (19723, 19, True)
+     , (19723, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19721, 'portalfathomlesschasmclough');
@@ -10594,7 +11311,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (19721, 13, True)
      , (19721, 12, True)
      , (19721, 14, True)
-     , (19721, 15, True);
+     , (19721, 15, True)
+     , (19721, 19, True)
+     , (19721, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19722, 'portalfathomlesschasmdescent');
@@ -10623,7 +11342,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (19722, 13, True)
      , (19722, 12, True)
      , (19722, 14, True)
-     , (19722, 15, True);
+     , (19722, 15, True)
+     , (19722, 19, True)
+     , (19722, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19724, 'portalfathomlesschasmexit');
@@ -10652,7 +11373,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (19724, 13, True)
      , (19724, 12, True)
      , (19724, 14, True)
-     , (19724, 15, True);
+     , (19724, 15, True)
+     , (19724, 19, True)
+     , (19724, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1333, 'portalmosswartroom');
@@ -10681,7 +11404,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1333, 13, True)
      , (1333, 12, True)
      , (1333, 14, True)
-     , (1333, 15, True);
+     , (1333, 15, True)
+     , (1333, 19, True)
+     , (1333, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1334, 'portalmosswartroomexit');
@@ -10710,7 +11435,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1334, 13, True)
      , (1334, 12, True)
      , (1334, 14, True)
-     , (1334, 15, True);
+     , (1334, 15, True)
+     , (1334, 19, True)
+     , (1334, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25837, 'portalunicornemptysoul');
@@ -10739,7 +11466,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25837, 13, True)
      , (25837, 12, True)
      , (25837, 14, True)
-     , (25837, 15, True);
+     , (25837, 15, True)
+     , (25837, 19, True)
+     , (25837, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1604, 'portalsimpleruinexit');
@@ -10768,7 +11497,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1604, 13, True)
      , (1604, 12, True)
      , (1604, 14, True)
-     , (1604, 15, True);
+     , (1604, 15, True)
+     , (1604, 19, True)
+     , (1604, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3626, 'portalmitetunnels');
@@ -10797,7 +11528,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3626, 13, True)
      , (3626, 12, True)
      , (3626, 14, True)
-     , (3626, 15, True);
+     , (3626, 15, True)
+     , (3626, 19, True)
+     , (3626, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3627, 'portalmitetunnelsexit');
@@ -10826,7 +11559,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3627, 13, True)
      , (3627, 12, True)
      , (3627, 14, True)
-     , (3627, 15, True);
+     , (3627, 15, True)
+     , (3627, 19, True)
+     , (3627, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25496, 'portalrenegadegarrison');
@@ -10855,7 +11590,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25496, 13, True)
      , (25496, 12, True)
      , (25496, 14, True)
-     , (25496, 15, True);
+     , (25496, 15, True)
+     , (25496, 19, True)
+     , (25496, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22762, 'portaltempleforgetfulnesssanctumfake');
@@ -10884,7 +11621,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22762, 13, True)
      , (22762, 12, True)
      , (22762, 14, True)
-     , (22762, 15, True);
+     , (22762, 15, True)
+     , (22762, 19, True)
+     , (22762, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22761, 'portaltempleforgetfulnesssanctum');
@@ -10913,7 +11652,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22761, 13, True)
      , (22761, 12, True)
      , (22761, 14, True)
-     , (22761, 15, True);
+     , (22761, 15, True)
+     , (22761, 19, True)
+     , (22761, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22760, 'portaltempleforgetfulnessexit');
@@ -10942,7 +11683,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22760, 13, True)
      , (22760, 12, True)
      , (22760, 14, True)
-     , (22760, 15, True);
+     , (22760, 15, True)
+     , (22760, 19, True)
+     , (22760, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22758, 'portaltempleenlightenmentsanctumfake');
@@ -10971,7 +11714,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22758, 13, True)
      , (22758, 12, True)
      , (22758, 14, True)
-     , (22758, 15, True);
+     , (22758, 15, True)
+     , (22758, 19, True)
+     , (22758, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22757, 'portaltempleenlightenmentsanctum');
@@ -11000,7 +11745,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22757, 13, True)
      , (22757, 12, True)
      , (22757, 14, True)
-     , (22757, 15, True);
+     , (22757, 15, True)
+     , (22757, 19, True)
+     , (22757, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22756, 'portaltempleenlightenmentexit');
@@ -11029,7 +11776,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22756, 13, True)
      , (22756, 12, True)
      , (22756, 14, True)
-     , (22756, 15, True);
+     , (22756, 15, True)
+     , (22756, 19, True)
+     , (22756, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1904, 'portalmountainshortnorth');
@@ -11058,7 +11807,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1904, 13, True)
      , (1904, 12, True)
      , (1904, 14, True)
-     , (1904, 15, True);
+     , (1904, 15, True)
+     , (1904, 19, True)
+     , (1904, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40249, 'ace40249-entrancetothepyramid');
@@ -11087,7 +11838,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40249, 13, True)
      , (40249, 12, True)
      , (40249, 14, True)
-     , (40249, 15, True);
+     , (40249, 15, True)
+     , (40249, 19, True)
+     , (40249, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31314, 'ace31314-surface');
@@ -11116,7 +11869,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31314, 13, True)
      , (31314, 12, True)
      , (31314, 14, True)
-     , (31314, 15, True);
+     , (31314, 15, True)
+     , (31314, 19, True)
+     , (31314, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48778, 'ace48778-countphainorstomb');
@@ -11145,7 +11900,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (48778, 13, True)
      , (48778, 12, True)
      , (48778, 14, True)
-     , (48778, 15, True);
+     , (48778, 15, True)
+     , (48778, 19, True)
+     , (48778, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37489, 'ace37489-mhoirearmory');
@@ -11174,7 +11931,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (37489, 13, True)
      , (37489, 12, True)
      , (37489, 14, True)
-     , (37489, 15, True);
+     , (37489, 15, True)
+     , (37489, 19, True)
+     , (37489, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38729, 'ace38729-massilorscrypt');
@@ -11203,7 +11962,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38729, 13, True)
      , (38729, 12, True)
      , (38729, 14, True)
-     , (38729, 15, True);
+     , (38729, 15, True)
+     , (38729, 19, True)
+     , (38729, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40919, 'ace40919-uptoarcanumlookout');
@@ -11232,7 +11993,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40919, 13, True)
      , (40919, 12, True)
      , (40919, 14, True)
-     , (40919, 15, True);
+     , (40919, 15, True)
+     , (40919, 19, True)
+     , (40919, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40920, 'ace40920-downtosurface');
@@ -11261,7 +12024,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40920, 13, True)
      , (40920, 12, True)
      , (40920, 14, True)
-     , (40920, 15, True);
+     , (40920, 15, True)
+     , (40920, 19, True)
+     , (40920, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38086, 'ace38086-gardensofmenilesh');
@@ -11290,7 +12055,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38086, 13, True)
      , (38086, 12, True)
      , (38086, 14, True)
-     , (38086, 15, True);
+     , (38086, 15, True)
+     , (38086, 19, True)
+     , (38086, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28063, 'portalcoraltunnelswest');
@@ -11319,7 +12086,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28063, 13, True)
      , (28063, 12, True)
      , (28063, 14, True)
-     , (28063, 15, True);
+     , (28063, 15, True)
+     , (28063, 19, True)
+     , (28063, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8478, 'portalvesayensmalltemplea');
@@ -11348,7 +12117,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8478, 13, True)
      , (8478, 12, True)
      , (8478, 14, True)
-     , (8478, 15, True);
+     , (8478, 15, True)
+     , (8478, 19, True)
+     , (8478, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51944, 'ace51944-bahktarstower');
@@ -11377,7 +12148,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51944, 13, True)
      , (51944, 12, True)
      , (51944, 14, True)
-     , (51944, 15, True);
+     , (51944, 15, True)
+     , (51944, 19, True)
+     , (51944, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51615, 'ace51615-rynthidgenesis');
@@ -11406,7 +12179,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51615, 13, True)
      , (51615, 12, True)
      , (51615, 14, True)
-     , (51615, 15, True);
+     , (51615, 15, True)
+     , (51615, 19, True)
+     , (51615, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51943, 'ace51943-corruptedenergy');
@@ -11435,7 +12210,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51943, 13, True)
      , (51943, 12, True)
      , (51943, 14, True)
-     , (51943, 15, True);
+     , (51943, 15, True)
+     , (51943, 19, True)
+     , (51943, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43583, 'ace43583-queensburrow');
@@ -11465,7 +12242,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43583, 13, True)
      , (43583, 12, True)
      , (43583, 14, True)
-     , (43583, 15, True);
+     , (43583, 15, True)
+     , (43583, 19, True)
+     , (43583, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43583, 67111849, 1, 255);
@@ -11498,7 +12277,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43581, 13, True)
      , (43581, 12, True)
      , (43581, 14, True)
-     , (43581, 15, True);
+     , (43581, 15, True)
+     , (43581, 19, True)
+     , (43581, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43581, 67111849, 1, 255);
@@ -11531,7 +12312,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43588, 13, True)
      , (43588, 12, True)
      , (43588, 14, True)
-     , (43588, 15, True);
+     , (43588, 15, True)
+     , (43588, 19, True)
+     , (43588, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43588, 67111849, 1, 255);
@@ -11564,7 +12347,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43582, 13, True)
      , (43582, 12, True)
      , (43582, 14, True)
-     , (43582, 15, True);
+     , (43582, 15, True)
+     , (43582, 19, True)
+     , (43582, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43582, 67111849, 1, 255);
@@ -11597,7 +12382,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43584, 13, True)
      , (43584, 12, True)
      , (43584, 14, True)
-     , (43584, 15, True);
+     , (43584, 15, True)
+     , (43584, 19, True)
+     , (43584, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43584, 67111849, 1, 255);
@@ -11630,7 +12417,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43587, 13, True)
      , (43587, 12, True)
      , (43587, 14, True)
-     , (43587, 15, True);
+     , (43587, 15, True)
+     , (43587, 19, True)
+     , (43587, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43587, 67111849, 1, 255);
@@ -11663,7 +12452,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43548, 13, True)
      , (43548, 12, True)
      , (43548, 14, True)
-     , (43548, 15, True);
+     , (43548, 15, True)
+     , (43548, 19, True)
+     , (43548, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43548, 67111849, 1, 255);
@@ -11695,7 +12486,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30535, 13, True)
      , (30535, 12, True)
      , (30535, 14, True)
-     , (30535, 15, True);
+     , (30535, 15, True)
+     , (30535, 19, True)
+     , (30535, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1329, 'portalemptyroom');
@@ -11724,7 +12517,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1329, 13, True)
      , (1329, 12, True)
      , (1329, 14, True)
-     , (1329, 15, True);
+     , (1329, 15, True)
+     , (1329, 19, True)
+     , (1329, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1330, 'portalemptyroomexit');
@@ -11753,7 +12548,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1330, 13, True)
      , (1330, 12, True)
      , (1330, 14, True)
-     , (1330, 15, True);
+     , (1330, 15, True)
+     , (1330, 19, True)
+     , (1330, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1597, 'portalthieftrail');
@@ -11782,7 +12579,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1597, 13, True)
      , (1597, 12, True)
      , (1597, 14, True)
-     , (1597, 15, True);
+     , (1597, 15, True)
+     , (1597, 19, True)
+     , (1597, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1593, 'portallugianpostexit');
@@ -11811,7 +12610,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1593, 13, True)
      , (1593, 12, True)
      , (1593, 14, True)
-     , (1593, 15, True);
+     , (1593, 15, True)
+     , (1593, 19, True)
+     , (1593, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33776, 'ace33776-blackferahsvault');
@@ -11840,7 +12641,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33776, 13, True)
      , (33776, 12, True)
      , (33776, 14, True)
-     , (33776, 15, True);
+     , (33776, 15, True)
+     , (33776, 19, True)
+     , (33776, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33791, 'ace33791-surface');
@@ -11869,7 +12672,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33791, 13, True)
      , (33791, 12, True)
      , (33791, 14, True)
-     , (33791, 15, True);
+     , (33791, 15, True)
+     , (33791, 19, True)
+     , (33791, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33774, 'ace33774-mukkirinfestedblackspeartemple');
@@ -11898,7 +12703,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33774, 13, True)
      , (33774, 12, True)
      , (33774, 14, True)
-     , (33774, 15, True);
+     , (33774, 15, True)
+     , (33774, 19, True)
+     , (33774, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33790, 'ace33790-surface');
@@ -11927,7 +12734,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33790, 13, True)
      , (33790, 12, True)
      , (33790, 14, True)
-     , (33790, 15, True);
+     , (33790, 15, True)
+     , (33790, 19, True)
+     , (33790, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33772, 'ace33772-graelschamber');
@@ -11956,7 +12765,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33772, 13, True)
      , (33772, 12, True)
      , (33772, 14, True)
-     , (33772, 15, True);
+     , (33772, 15, True)
+     , (33772, 19, True)
+     , (33772, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33789, 'ace33789-graelschamber');
@@ -11985,7 +12796,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33789, 13, True)
      , (33789, 12, True)
      , (33789, 14, True)
-     , (33789, 15, True);
+     , (33789, 15, True)
+     , (33789, 19, True)
+     , (33789, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33874, 'ace33874-trophyroom');
@@ -12014,7 +12827,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33874, 13, True)
      , (33874, 12, True)
      , (33874, 14, True)
-     , (33874, 15, True);
+     , (33874, 15, True)
+     , (33874, 19, True)
+     , (33874, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37384, 'ace37384-surface');
@@ -12043,7 +12858,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (37384, 13, True)
      , (37384, 12, True)
      , (37384, 14, True)
-     , (37384, 15, True);
+     , (37384, 15, True)
+     , (37384, 19, True)
+     , (37384, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43705, 'ace43705-olthoitunnel');
@@ -12073,7 +12890,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43705, 13, True)
      , (43705, 12, True)
      , (43705, 14, True)
-     , (43705, 15, True);
+     , (43705, 15, True)
+     , (43705, 19, True)
+     , (43705, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43705, 67111849, 1, 255);
@@ -12105,7 +12924,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32127, 13, True)
      , (32127, 12, True)
      , (32127, 14, True)
-     , (32127, 15, True);
+     , (32127, 15, True)
+     , (32127, 19, True)
+     , (32127, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37070, 'ace37070-trialofthedeep');
@@ -12134,7 +12955,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (37070, 13, True)
      , (37070, 12, True)
      , (37070, 14, True)
-     , (37070, 15, True);
+     , (37070, 15, True)
+     , (37070, 19, True)
+     , (37070, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34845, 'ace34845-dereth');
@@ -12163,7 +12986,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34845, 13, True)
      , (34845, 12, True)
      , (34845, 14, True)
-     , (34845, 15, True);
+     , (34845, 15, True)
+     , (34845, 19, True)
+     , (34845, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40248, 'ace40248-entrancetothepyramid');
@@ -12192,7 +13017,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40248, 13, True)
      , (40248, 12, True)
      , (40248, 14, True)
-     , (40248, 15, True);
+     , (40248, 15, True)
+     , (40248, 19, True)
+     , (40248, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22690, 'portaltuskerpits');
@@ -12221,7 +13048,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22690, 13, True)
      , (22690, 12, True)
      , (22690, 14, True)
-     , (22690, 15, True);
+     , (22690, 15, True)
+     , (22690, 19, True)
+     , (22690, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22680, 'portaltuskerholding');
@@ -12250,7 +13079,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22680, 13, True)
      , (22680, 12, True)
      , (22680, 14, True)
-     , (22680, 15, True);
+     , (22680, 15, True)
+     , (22680, 19, True)
+     , (22680, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48823, 'ace48823-desertdwelling');
@@ -12279,7 +13110,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (48823, 13, True)
      , (48823, 12, True)
      , (48823, 14, True)
-     , (48823, 15, True);
+     , (48823, 15, True)
+     , (48823, 19, True)
+     , (48823, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52214, 'ace52214-sanctuaryoftherecluse');
@@ -12308,7 +13141,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (52214, 13, True)
      , (52214, 12, True)
      , (52214, 14, True)
-     , (52214, 15, True);
+     , (52214, 15, True)
+     , (52214, 19, True)
+     , (52214, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45799, 'ace45799-deepcaves');
@@ -12337,7 +13172,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (45799, 13, True)
      , (45799, 12, True)
      , (45799, 14, True)
-     , (45799, 15, True);
+     , (45799, 15, True)
+     , (45799, 19, True)
+     , (45799, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44136, 'ace44136-temple');
@@ -12366,7 +13203,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (44136, 13, True)
      , (44136, 12, True)
      , (44136, 14, True)
-     , (44136, 15, True);
+     , (44136, 15, True)
+     , (44136, 19, True)
+     , (44136, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38075, 'ace38075-ithaencarchipelago');
@@ -12395,7 +13234,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38075, 13, True)
      , (38075, 12, True)
      , (38075, 14, True)
-     , (38075, 15, True);
+     , (38075, 15, True)
+     , (38075, 19, True)
+     , (38075, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43591, 'ace43591-olthoitunnel');
@@ -12425,7 +13266,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43591, 13, True)
      , (43591, 12, True)
      , (43591, 14, True)
-     , (43591, 15, True);
+     , (43591, 15, True)
+     , (43591, 19, True)
+     , (43591, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43591, 67111849, 1, 255);
@@ -12457,7 +13300,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (45726, 13, True)
      , (45726, 12, True)
      , (45726, 14, True)
-     , (45726, 15, True);
+     , (45726, 15, True)
+     , (45726, 19, True)
+     , (45726, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2552, 'portalcraterpathbottom');
@@ -12486,7 +13331,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2552, 13, True)
      , (2552, 12, True)
      , (2552, 14, True)
-     , (2552, 15, True);
+     , (2552, 15, True)
+     , (2552, 19, True)
+     , (2552, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2553, 'portalcraterpathbottomexit');
@@ -12515,7 +13362,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2553, 13, True)
      , (2553, 12, True)
      , (2553, 14, True)
-     , (2553, 15, True);
+     , (2553, 15, True)
+     , (2553, 19, True)
+     , (2553, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2555, 'portalcraterpathtopexit');
@@ -12544,7 +13393,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2555, 13, True)
      , (2555, 12, True)
      , (2555, 14, True)
-     , (2555, 15, True);
+     , (2555, 15, True)
+     , (2555, 19, True)
+     , (2555, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28062, 'portalcoraltunnelseastexit');
@@ -12573,7 +13424,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28062, 13, True)
      , (28062, 12, True)
      , (28062, 14, True)
-     , (28062, 15, True);
+     , (28062, 15, True)
+     , (28062, 19, True)
+     , (28062, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28064, 'portalcoraltunnelswestexit');
@@ -12602,7 +13455,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28064, 13, True)
      , (28064, 12, True)
      , (28064, 14, True)
-     , (28064, 15, True);
+     , (28064, 15, True)
+     , (28064, 19, True)
+     , (28064, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7318, 'portallugiancitadelaluexit');
@@ -12631,7 +13486,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7318, 13, True)
      , (7318, 12, True)
      , (7318, 14, True)
-     , (7318, 15, True);
+     , (7318, 15, True)
+     , (7318, 19, True)
+     , (7318, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33910, 'ace33910-surface');
@@ -12660,7 +13517,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33910, 13, True)
      , (33910, 12, True)
      , (33910, 14, True)
-     , (33910, 15, True);
+     , (33910, 15, True)
+     , (33910, 19, True)
+     , (33910, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28784, 'portalruschkiceberg');
@@ -12689,7 +13548,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28784, 13, True)
      , (28784, 12, True)
      , (28784, 14, True)
-     , (28784, 15, True);
+     , (28784, 15, True)
+     , (28784, 19, True)
+     , (28784, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28785, 'portalruschkicebergexit');
@@ -12718,7 +13579,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28785, 13, True)
      , (28785, 12, True)
      , (28785, 14, True)
-     , (28785, 15, True);
+     , (28785, 15, True)
+     , (28785, 19, True)
+     , (28785, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7287, 'portalsclavuscathedralalu');
@@ -12747,7 +13610,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7287, 13, True)
      , (7287, 12, True)
      , (7287, 14, True)
-     , (7287, 15, True);
+     , (7287, 15, True)
+     , (7287, 19, True)
+     , (7287, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53447, 'ace53447-eldrytchwebgauntlet');
@@ -12776,7 +13641,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (53447, 13, True)
      , (53447, 12, True)
      , (53447, 14, True)
-     , (53447, 15, True);
+     , (53447, 15, True)
+     , (53447, 19, True)
+     , (53447, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1100, 'portalundergroundexit');
@@ -12805,7 +13672,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1100, 13, True)
      , (1100, 12, True)
      , (1100, 14, True)
-     , (1100, 15, True);
+     , (1100, 15, True)
+     , (1100, 19, True)
+     , (1100, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1345, 'portalwhiteratlair');
@@ -12834,7 +13703,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1345, 13, True)
      , (1345, 12, True)
      , (1345, 14, True)
-     , (1345, 15, True);
+     , (1345, 15, True)
+     , (1345, 19, True)
+     , (1345, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5200, 'portalkick');
@@ -12862,7 +13733,9 @@ VALUES (5200, 54, -0.1);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5200, 13, True)
      , (5200, 12, True)
-     , (5200, 15, True);
+     , (5200, 15, True)
+     , (5200, 19, True)
+     , (5200, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5198, 'portalapplejuice');
@@ -12891,7 +13764,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5198, 13, True)
      , (5198, 12, True)
      , (5198, 14, True)
-     , (5198, 15, True);
+     , (5198, 15, True)
+     , (5198, 19, True)
+     , (5198, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5201, 'portalkickexit');
@@ -12920,7 +13795,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5201, 13, True)
      , (5201, 12, True)
      , (5201, 14, True)
-     , (5201, 15, True);
+     , (5201, 15, True)
+     , (5201, 19, True)
+     , (5201, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35318, 'ace35318-tanadahouseofwater');
@@ -12949,7 +13826,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35318, 13, True)
      , (35318, 12, True)
      , (35318, 14, True)
-     , (35318, 15, True);
+     , (35318, 15, True)
+     , (35318, 19, True)
+     , (35318, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8387, 'portalnorthvalleydirelands');
@@ -12978,7 +13857,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8387, 13, True)
      , (8387, 12, True)
      , (8387, 14, True)
-     , (8387, 15, True);
+     , (8387, 15, True)
+     , (8387, 19, True)
+     , (8387, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25394, 'portalenergycrystal');
@@ -13007,7 +13888,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25394, 13, True)
      , (25394, 12, True)
      , (25394, 14, True)
-     , (25394, 15, True);
+     , (25394, 15, True)
+     , (25394, 19, True)
+     , (25394, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1309, 'portalgreenmiregrave');
@@ -13036,7 +13919,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1309, 13, True)
      , (1309, 12, True)
      , (1309, 14, True)
-     , (1309, 15, True);
+     , (1309, 15, True)
+     , (1309, 19, True)
+     , (1309, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1310, 'portalgreenmiregraveexit');
@@ -13065,7 +13950,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1310, 13, True)
      , (1310, 12, True)
      , (1310, 14, True)
-     , (1310, 15, True);
+     , (1310, 15, True)
+     , (1310, 19, True)
+     , (1310, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31434, 'ace31434-lostcoastalarchive');
@@ -13094,7 +13981,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31434, 13, True)
      , (31434, 12, True)
      , (31434, 14, True)
-     , (31434, 15, True);
+     , (31434, 15, True)
+     , (31434, 19, True)
+     , (31434, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43580, 'ace43580-passagetoolthoiisland');
@@ -13124,7 +14013,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43580, 13, True)
      , (43580, 12, True)
      , (43580, 14, True)
-     , (43580, 15, True);
+     , (43580, 15, True)
+     , (43580, 19, True)
+     , (43580, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43580, 67111849, 1, 255);
@@ -13157,7 +14048,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43536, 13, True)
      , (43536, 12, True)
      , (43536, 14, True)
-     , (43536, 15, True);
+     , (43536, 15, True)
+     , (43536, 19, True)
+     , (43536, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43536, 67111849, 1, 255);
@@ -13189,7 +14082,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32058, 13, True)
      , (32058, 12, True)
      , (32058, 14, True)
-     , (32058, 15, True);
+     , (32058, 15, True)
+     , (32058, 19, True)
+     , (32058, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38157, 'ace38157-blighteddesolationmoarsmantunnels');
@@ -13218,7 +14113,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38157, 13, True)
      , (38157, 12, True)
      , (38157, 14, True)
-     , (38157, 15, True);
+     , (38157, 15, True)
+     , (38157, 19, True)
+     , (38157, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25396, 'portalfalatacottemple');
@@ -13247,7 +14144,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25396, 13, True)
      , (25396, 12, True)
      , (25396, 14, True)
-     , (25396, 15, True);
+     , (25396, 15, True)
+     , (25396, 19, True)
+     , (25396, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38152, 'ace38152-blightedgrimymoarsmantunnels');
@@ -13276,7 +14175,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38152, 13, True)
      , (38152, 12, True)
      , (38152, 14, True)
-     , (38152, 15, True);
+     , (38152, 15, True)
+     , (38152, 19, True)
+     , (38152, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32685, 'ace32685-shadeironmine');
@@ -13305,7 +14206,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32685, 13, True)
      , (32685, 12, True)
      , (32685, 14, True)
-     , (32685, 15, True);
+     , (32685, 15, True)
+     , (32685, 19, True)
+     , (32685, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4941, 'portalbanishedassembly');
@@ -13334,7 +14237,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4941, 13, True)
      , (4941, 12, True)
      , (4941, 14, True)
-     , (4941, 15, True);
+     , (4941, 15, True)
+     , (4941, 19, True)
+     , (4941, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5519, 'portalsmugglersfort');
@@ -13363,7 +14268,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5519, 13, True)
      , (5519, 12, True)
      , (5519, 14, True)
-     , (5519, 15, True);
+     , (5519, 15, True)
+     , (5519, 19, True)
+     , (5519, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5520, 'portalsmugglersfortexit');
@@ -13392,7 +14299,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5520, 13, True)
      , (5520, 12, True)
      , (5520, 14, True)
-     , (5520, 15, True);
+     , (5520, 15, True)
+     , (5520, 19, True)
+     , (5520, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27479, 'portalrenegadefortress');
@@ -13421,7 +14330,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27479, 13, True)
      , (27479, 12, True)
      , (27479, 14, True)
-     , (27479, 15, True);
+     , (27479, 15, True)
+     , (27479, 19, True)
+     , (27479, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40349, 'ace40349-renegadefortress');
@@ -13450,7 +14361,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40349, 13, True)
      , (40349, 12, True)
      , (40349, 14, True)
-     , (40349, 15, True);
+     , (40349, 15, True)
+     , (40349, 19, True)
+     , (40349, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24185, 'portalheartinnocent');
@@ -13479,7 +14392,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24185, 13, True)
      , (24185, 12, True)
      , (24185, 14, True)
-     , (24185, 15, True);
+     , (24185, 15, True)
+     , (24185, 19, True)
+     , (24185, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7293, 'portalgolemheimalu');
@@ -13508,7 +14423,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7293, 13, True)
      , (7293, 12, True)
      , (7293, 14, True)
-     , (7293, 15, True);
+     , (7293, 15, True)
+     , (7293, 19, True)
+     , (7293, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37386, 'ace37386-surface');
@@ -13537,7 +14454,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (37386, 13, True)
      , (37386, 12, True)
      , (37386, 14, True)
-     , (37386, 15, True);
+     , (37386, 15, True)
+     , (37386, 19, True)
+     , (37386, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38728, 'ace38728-graveyard');
@@ -13566,7 +14485,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38728, 13, True)
      , (38728, 12, True)
      , (38728, 14, True)
-     , (38728, 15, True);
+     , (38728, 15, True)
+     , (38728, 19, True)
+     , (38728, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31326, 'ace31326-coralcaves');
@@ -13595,7 +14516,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31326, 13, True)
      , (31326, 12, True)
      , (31326, 14, True)
-     , (31326, 15, True);
+     , (31326, 15, True)
+     , (31326, 19, True)
+     , (31326, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25282, 'portallugiancitadelndiresexit');
@@ -13624,7 +14547,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25282, 13, True)
      , (25282, 12, True)
      , (25282, 14, True)
-     , (25282, 15, True);
+     , (25282, 15, True)
+     , (25282, 19, True)
+     , (25282, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38153, 'ace38153-blightedverdantmoarsmantunnels');
@@ -13653,7 +14578,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38153, 13, True)
      , (38153, 12, True)
      , (38153, 14, True)
-     , (38153, 15, True);
+     , (38153, 15, True)
+     , (38153, 19, True)
+     , (38153, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38365, 'ace38365-moarsmenpriory');
@@ -13682,7 +14609,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38365, 13, True)
      , (38365, 12, True)
      , (38365, 14, True)
-     , (38365, 15, True);
+     , (38365, 15, True)
+     , (38365, 19, True)
+     , (38365, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38366, 'ace38366-surface');
@@ -13711,7 +14640,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38366, 13, True)
      , (38366, 12, True)
      , (38366, 14, True)
-     , (38366, 15, True);
+     , (38366, 15, True)
+     , (38366, 19, True)
+     , (38366, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38087, 'ace38087-surface');
@@ -13740,7 +14671,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38087, 13, True)
      , (38087, 12, True)
      , (38087, 14, True)
-     , (38087, 15, True);
+     , (38087, 15, True)
+     , (38087, 19, True)
+     , (38087, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1308, 'portalglendendungeonexit');
@@ -13769,7 +14702,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1308, 13, True)
      , (1308, 12, True)
      , (1308, 14, True)
-     , (1308, 15, True);
+     , (1308, 15, True)
+     , (1308, 19, True)
+     , (1308, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1311, 'portalnorthglenden');
@@ -13798,7 +14733,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1311, 13, True)
      , (1311, 12, True)
      , (1311, 14, True)
-     , (1311, 15, True);
+     , (1311, 15, True)
+     , (1311, 19, True)
+     , (1311, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37164, 'ace37164-surface');
@@ -13827,7 +14764,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (37164, 13, True)
      , (37164, 12, True)
      , (37164, 14, True)
-     , (37164, 15, True);
+     , (37164, 15, True)
+     , (37164, 19, True)
+     , (37164, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25727, 'portalnoirexit');
@@ -13856,7 +14795,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25727, 13, True)
      , (25727, 12, True)
      , (25727, 14, True)
-     , (25727, 15, True);
+     , (25727, 15, True)
+     , (25727, 19, True)
+     , (25727, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37385, 'ace37385-eldrytchwebstronghold');
@@ -13885,7 +14826,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (37385, 13, True)
      , (37385, 12, True)
      , (37385, 14, True)
-     , (37385, 15, True);
+     , (37385, 15, True)
+     , (37385, 19, True)
+     , (37385, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38377, 'ace38377-surface');
@@ -13914,7 +14857,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38377, 13, True)
      , (38377, 12, True)
      , (38377, 14, True)
-     , (38377, 15, True);
+     , (38377, 15, True)
+     , (38377, 19, True)
+     , (38377, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35003, 'ace35003-thecolosseum');
@@ -13940,7 +14885,9 @@ VALUES (35003, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (35003, 11, True)
-     , (35003, 14, True);
+     , (35003, 14, True)
+     , (35003, 19, True)
+     , (35003, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38400, 'ace38400-corruptedcatacombs');
@@ -13969,7 +14916,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38400, 13, True)
      , (38400, 12, True)
      , (38400, 14, True)
-     , (38400, 15, True);
+     , (38400, 15, True)
+     , (38400, 19, True)
+     , (38400, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38401, 'ace38401-surface');
@@ -13998,7 +14947,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38401, 13, True)
      , (38401, 12, True)
      , (38401, 14, True)
-     , (38401, 15, True);
+     , (38401, 15, True)
+     , (38401, 19, True)
+     , (38401, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42223, 'ace42223-stronghold');
@@ -14027,7 +14978,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42223, 13, True)
      , (42223, 12, True)
      , (42223, 14, True)
-     , (42223, 15, True);
+     , (42223, 15, True)
+     , (42223, 19, True)
+     , (42223, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53477, 'ace53477-templeofthefont');
@@ -14056,7 +15009,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (53477, 13, True)
      , (53477, 12, True)
      , (53477, 14, True)
-     , (53477, 15, True);
+     , (53477, 15, True)
+     , (53477, 19, True)
+     , (53477, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29337, 'portalnewbieexitshoushi');
@@ -14085,7 +15040,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29337, 13, True)
      , (29337, 12, True)
      , (29337, 14, True)
-     , (29337, 15, True);
+     , (29337, 15, True)
+     , (29337, 19, True)
+     , (29337, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4046, 'portaldirelandforest');
@@ -14114,7 +15071,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4046, 13, True)
      , (4046, 12, True)
      , (4046, 14, True)
-     , (4046, 15, True);
+     , (4046, 15, True)
+     , (4046, 19, True)
+     , (4046, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8502, 'portalsouthshoreheights');
@@ -14143,7 +15102,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8502, 13, True)
      , (8502, 12, True)
      , (8502, 14, True)
-     , (8502, 15, True);
+     , (8502, 15, True)
+     , (8502, 19, True)
+     , (8502, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32125, 'ace32125-gatekeepers');
@@ -14172,7 +15133,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32125, 13, True)
      , (32125, 12, True)
      , (32125, 14, True)
-     , (32125, 15, True);
+     , (32125, 15, True)
+     , (32125, 19, True)
+     , (32125, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8600, 'portalvesayenmoarslaboratory');
@@ -14201,7 +15164,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8600, 13, True)
      , (8600, 12, True)
      , (8600, 14, True)
-     , (8600, 15, True);
+     , (8600, 15, True)
+     , (8600, 19, True)
+     , (8600, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8474, 'portalmudcave');
@@ -14230,7 +15195,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8474, 13, True)
      , (8474, 12, True)
      , (8474, 14, True)
-     , (8474, 15, True);
+     , (8474, 15, True)
+     , (8474, 19, True)
+     , (8474, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8584, 'portalmoarsmenspawninggrounds');
@@ -14259,7 +15226,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8584, 13, True)
      , (8584, 12, True)
      , (8584, 14, True)
-     , (8584, 15, True);
+     , (8584, 15, True)
+     , (8584, 19, True)
+     , (8584, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8476, 'portalmoarsmenmuck');
@@ -14288,7 +15257,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8476, 13, True)
      , (8476, 12, True)
      , (8476, 14, True)
-     , (8476, 15, True);
+     , (8476, 15, True)
+     , (8476, 19, True)
+     , (8476, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8456, 'portalmoarsmenhideout');
@@ -14317,7 +15288,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8456, 13, True)
      , (8456, 12, True)
      , (8456, 14, True)
-     , (8456, 15, True);
+     , (8456, 15, True)
+     , (8456, 19, True)
+     , (8456, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8601, 'portalvesayenmoarslaboratoryexit');
@@ -14347,7 +15320,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8601, 13, True)
      , (8601, 12, True)
      , (8601, 14, True)
-     , (8601, 15, True);
+     , (8601, 15, True)
+     , (8601, 19, True)
+     , (8601, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8585, 'portalmoarsmenspawninggroundsexit');
@@ -14376,7 +15351,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8585, 13, True)
      , (8585, 12, True)
      , (8585, 14, True)
-     , (8585, 15, True);
+     , (8585, 15, True)
+     , (8585, 19, True)
+     , (8585, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51569, 'ace51569-seedofmisery');
@@ -14405,7 +15382,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51569, 13, True)
      , (51569, 12, True)
      , (51569, 14, True)
-     , (51569, 15, True);
+     , (51569, 15, True)
+     , (51569, 19, True)
+     , (51569, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51580, 'ace51580-seedofanger');
@@ -14434,7 +15413,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51580, 13, True)
      , (51580, 12, True)
      , (51580, 14, True)
-     , (51580, 15, True);
+     , (51580, 15, True)
+     , (51580, 19, True)
+     , (51580, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51721, 'ace51721-pathofsorrows');
@@ -14463,7 +15444,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51721, 13, True)
      , (51721, 12, True)
      , (51721, 14, True)
-     , (51721, 15, True);
+     , (51721, 15, True)
+     , (51721, 19, True)
+     , (51721, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51906, 'ace51906-presksbunker');
@@ -14492,7 +15475,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51906, 13, True)
      , (51906, 12, True)
      , (51906, 14, True)
-     , (51906, 15, True);
+     , (51906, 15, True)
+     , (51906, 19, True)
+     , (51906, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51319, 'ace51319-frozenfortress');
@@ -14521,7 +15506,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51319, 13, True)
      , (51319, 12, True)
      , (51319, 14, True)
-     , (51319, 15, True);
+     , (51319, 15, True)
+     , (51319, 19, True)
+     , (51319, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44117, 'ace44117-sandcaves');
@@ -14550,7 +15537,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (44117, 13, True)
      , (44117, 12, True)
      , (44117, 14, True)
-     , (44117, 15, True);
+     , (44117, 15, True)
+     , (44117, 19, True)
+     , (44117, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35503, 'ace35503-surface');
@@ -14579,7 +15568,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35503, 13, True)
      , (35503, 12, True)
      , (35503, 14, True)
-     , (35503, 15, True);
+     , (35503, 15, True)
+     , (35503, 19, True)
+     , (35503, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31892, 'ace31892-gatekeepers');
@@ -14608,7 +15599,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31892, 13, True)
      , (31892, 12, True)
      , (31892, 14, True)
-     , (31892, 15, True);
+     , (31892, 15, True)
+     , (31892, 19, True)
+     , (31892, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33478, 'ace33478-blackspearsummoningchamber');
@@ -14637,7 +15630,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33478, 13, True)
      , (33478, 12, True)
      , (33478, 14, True)
-     , (33478, 15, True);
+     , (33478, 15, True)
+     , (33478, 19, True)
+     , (33478, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33545, 'ace33545-darkisle');
@@ -14666,7 +15661,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33545, 13, True)
      , (33545, 12, True)
      , (33545, 14, True)
-     , (33545, 15, True);
+     , (33545, 15, True)
+     , (33545, 19, True)
+     , (33545, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43258, 'ace43258-surface');
@@ -14695,7 +15692,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43258, 13, True)
      , (43258, 12, True)
      , (43258, 14, True)
-     , (43258, 15, True);
+     , (43258, 15, True)
+     , (43258, 19, True)
+     , (43258, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38653, 'ace38653-surface');
@@ -14724,7 +15723,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38653, 13, True)
      , (38653, 12, True)
      , (38653, 14, True)
-     , (38653, 15, True);
+     , (38653, 15, True)
+     , (38653, 19, True)
+     , (38653, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38585, 'ace38585-templeoftthuun');
@@ -14753,7 +15754,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38585, 13, True)
      , (38585, 12, True)
      , (38585, 14, True)
-     , (38585, 15, True);
+     , (38585, 15, True)
+     , (38585, 19, True)
+     , (38585, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38584, 'ace38584-chamberofthehighprieststhird');
@@ -14782,7 +15785,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38584, 13, True)
      , (38584, 12, True)
      , (38584, 14, True)
-     , (38584, 15, True);
+     , (38584, 15, True)
+     , (38584, 19, True)
+     , (38584, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38581, 'ace38581-acolyteschamber');
@@ -14811,7 +15816,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38581, 13, True)
      , (38581, 12, True)
      , (38581, 14, True)
-     , (38581, 15, True);
+     , (38581, 15, True)
+     , (38581, 19, True)
+     , (38581, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38582, 'ace38582-chamberofthehighpriestsfirst');
@@ -14840,7 +15847,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38582, 13, True)
      , (38582, 12, True)
      , (38582, 14, True)
-     , (38582, 15, True);
+     , (38582, 15, True)
+     , (38582, 19, True)
+     , (38582, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38583, 'ace38583-chamberofthehighpriestssecond');
@@ -14869,7 +15878,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38583, 13, True)
      , (38583, 12, True)
      , (38583, 14, True)
-     , (38583, 15, True);
+     , (38583, 15, True)
+     , (38583, 19, True)
+     , (38583, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14884, 'portalconvergentmedian');
@@ -14898,7 +15909,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14884, 13, True)
      , (14884, 12, True)
      , (14884, 14, True)
-     , (14884, 15, True);
+     , (14884, 15, True)
+     , (14884, 19, True)
+     , (14884, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29339, 'portalnewbieexitsanamar');
@@ -14927,7 +15940,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29339, 13, True)
      , (29339, 12, True)
      , (29339, 14, True)
-     , (29339, 15, True);
+     , (29339, 15, True)
+     , (29339, 19, True)
+     , (29339, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30717, 'portalassaultsewersweakened');
@@ -14956,7 +15971,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30717, 13, True)
      , (30717, 12, True)
      , (30717, 14, True)
-     , (30717, 15, True);
+     , (30717, 15, True)
+     , (30717, 19, True)
+     , (30717, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30718, 'portalassaultsewersweakenedexit');
@@ -14985,7 +16002,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30718, 13, True)
      , (30718, 12, True)
      , (30718, 14, True)
-     , (30718, 15, True);
+     , (30718, 15, True)
+     , (30718, 19, True)
+     , (30718, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30726, 'portalassaultroyalvaultweakened');
@@ -15014,7 +16033,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30726, 13, True)
      , (30726, 12, True)
      , (30726, 14, True)
-     , (30726, 15, True);
+     , (30726, 15, True)
+     , (30726, 19, True)
+     , (30726, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30727, 'portalassaultroyalvaultweakenedexit');
@@ -15043,7 +16064,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30727, 13, True)
      , (30727, 12, True)
      , (30727, 14, True)
-     , (30727, 15, True);
+     , (30727, 15, True)
+     , (30727, 19, True)
+     , (30727, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15776, 'portalgeliditelibrary');
@@ -15072,7 +16095,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15776, 13, True)
      , (15776, 12, True)
      , (15776, 14, True)
-     , (15776, 15, True);
+     , (15776, 15, True)
+     , (15776, 19, True)
+     , (15776, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29799, 'portalthreebagsexit');
@@ -15101,7 +16126,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29799, 13, True)
      , (29799, 12, True)
      , (29799, 14, True)
-     , (29799, 15, True);
+     , (29799, 15, True)
+     , (29799, 19, True)
+     , (29799, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40250, 'ace40250-entrancetothepyramid');
@@ -15130,7 +16157,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40250, 13, True)
      , (40250, 12, True)
      , (40250, 14, True)
-     , (40250, 15, True);
+     , (40250, 15, True)
+     , (40250, 19, True)
+     , (40250, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2069, 'portaldrudgehideoutexit');
@@ -15159,7 +16188,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2069, 13, True)
      , (2069, 12, True)
      , (2069, 14, True)
-     , (2069, 15, True);
+     , (2069, 15, True)
+     , (2069, 19, True)
+     , (2069, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22663, 'portaltuskerburrow');
@@ -15188,7 +16219,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22663, 13, True)
      , (22663, 12, True)
      , (22663, 14, True)
-     , (22663, 15, True);
+     , (22663, 15, True)
+     , (22663, 19, True)
+     , (22663, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22664, 'portaltuskerburrowexit');
@@ -15217,7 +16250,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22664, 13, True)
      , (22664, 12, True)
      , (22664, 14, True)
-     , (22664, 15, True);
+     , (22664, 15, True)
+     , (22664, 19, True)
+     , (22664, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22688, 'portaltuskerlodge');
@@ -15246,7 +16281,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22688, 13, True)
      , (22688, 12, True)
      , (22688, 14, True)
-     , (22688, 15, True);
+     , (22688, 15, True)
+     , (22688, 19, True)
+     , (22688, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22689, 'portaltuskerlodgeexit');
@@ -15275,7 +16312,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22689, 13, True)
      , (22689, 12, True)
      , (22689, 14, True)
-     , (22689, 15, True);
+     , (22689, 15, True)
+     , (22689, 19, True)
+     , (22689, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22665, 'portaltuskercave');
@@ -15304,7 +16343,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22665, 13, True)
      , (22665, 12, True)
      , (22665, 14, True)
-     , (22665, 15, True);
+     , (22665, 15, True)
+     , (22665, 19, True)
+     , (22665, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22666, 'portaltuskercaveexit');
@@ -15333,7 +16374,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22666, 13, True)
      , (22666, 12, True)
      , (22666, 14, True)
-     , (22666, 15, True);
+     , (22666, 15, True)
+     , (22666, 19, True)
+     , (22666, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10853, 'portalharvesternamequest-xp');
@@ -15362,7 +16405,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10853, 13, True)
      , (10853, 12, True)
      , (10853, 14, True)
-     , (10853, 15, True);
+     , (10853, 15, True)
+     , (10853, 19, True)
+     , (10853, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11323, 'portaltanuacave-xp');
@@ -15391,7 +16436,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (11323, 13, True)
      , (11323, 12, True)
      , (11323, 14, True)
-     , (11323, 15, True);
+     , (11323, 15, True)
+     , (11323, 19, True)
+     , (11323, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10852, 'portalharvesternamequestexit-xp');
@@ -15420,7 +16467,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10852, 13, True)
      , (10852, 12, True)
      , (10852, 14, True)
-     , (10852, 15, True);
+     , (10852, 15, True)
+     , (10852, 19, True)
+     , (10852, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10851, 'portalgardenernamequest-xp');
@@ -15449,7 +16498,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10851, 13, True)
      , (10851, 12, True)
      , (10851, 14, True)
-     , (10851, 15, True);
+     , (10851, 15, True)
+     , (10851, 19, True)
+     , (10851, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10850, 'portalgardenernamequestexit-xp');
@@ -15478,7 +16529,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10850, 13, True)
      , (10850, 12, True)
      , (10850, 14, True)
-     , (10850, 15, True);
+     , (10850, 15, True)
+     , (10850, 19, True)
+     , (10850, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22667, 'portaltuskercavern');
@@ -15507,7 +16560,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22667, 13, True)
      , (22667, 12, True)
      , (22667, 14, True)
-     , (22667, 15, True);
+     , (22667, 15, True)
+     , (22667, 19, True)
+     , (22667, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22668, 'portaltuskercavernexit');
@@ -15536,7 +16591,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22668, 13, True)
      , (22668, 12, True)
      , (22668, 14, True)
-     , (22668, 15, True);
+     , (22668, 15, True)
+     , (22668, 19, True)
+     , (22668, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22654, 'portaltuskerabode');
@@ -15565,7 +16622,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22654, 13, True)
      , (22654, 12, True)
      , (22654, 14, True)
-     , (22654, 15, True);
+     , (22654, 15, True)
+     , (22654, 19, True)
+     , (22654, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22655, 'portaltuskerabodeexit');
@@ -15594,7 +16653,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22655, 13, True)
      , (22655, 12, True)
      , (22655, 14, True)
-     , (22655, 15, True);
+     , (22655, 15, True)
+     , (22655, 19, True)
+     , (22655, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22678, 'portaltuskerhabitat');
@@ -15623,7 +16684,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22678, 13, True)
      , (22678, 12, True)
      , (22678, 14, True)
-     , (22678, 15, True);
+     , (22678, 15, True)
+     , (22678, 19, True)
+     , (22678, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22679, 'portaltuskerhabitatexit');
@@ -15652,7 +16715,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22679, 13, True)
      , (22679, 12, True)
      , (22679, 14, True)
-     , (22679, 15, True);
+     , (22679, 15, True)
+     , (22679, 19, True)
+     , (22679, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22692, 'portaltuskerquarters');
@@ -15681,7 +16746,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22692, 13, True)
      , (22692, 12, True)
      , (22692, 14, True)
-     , (22692, 15, True);
+     , (22692, 15, True)
+     , (22692, 19, True)
+     , (22692, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22693, 'portaltuskerquartersexit');
@@ -15710,7 +16777,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22693, 13, True)
      , (22693, 12, True)
      , (22693, 14, True)
-     , (22693, 15, True);
+     , (22693, 15, True)
+     , (22693, 19, True)
+     , (22693, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27587, 'portalworkernamequest');
@@ -15739,7 +16808,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27587, 13, True)
      , (27587, 12, True)
      , (27587, 14, True)
-     , (27587, 15, True);
+     , (27587, 15, True)
+     , (27587, 19, True)
+     , (27587, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27588, 'portalworkernamequestexit');
@@ -15768,7 +16839,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27588, 13, True)
      , (27588, 12, True)
      , (27588, 14, True)
-     , (27588, 15, True);
+     , (27588, 15, True)
+     , (27588, 19, True)
+     , (27588, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1512, 'portalhallshelm');
@@ -15797,7 +16870,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1512, 13, True)
      , (1512, 12, True)
      , (1512, 14, True)
-     , (1512, 15, True);
+     , (1512, 15, True)
+     , (1512, 19, True)
+     , (1512, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1513, 'portalhallshelmexit');
@@ -15826,7 +16901,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1513, 13, True)
      , (1513, 12, True)
      , (1513, 14, True)
-     , (1513, 15, True);
+     , (1513, 15, True)
+     , (1513, 19, True)
+     , (1513, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3635, 'portalmountainsewerexit');
@@ -15855,7 +16932,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3635, 13, True)
      , (3635, 12, True)
      , (3635, 14, True)
-     , (3635, 15, True);
+     , (3635, 15, True)
+     , (3635, 19, True)
+     , (3635, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22661, 'portaltuskerbarracks');
@@ -15884,7 +16963,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22661, 13, True)
      , (22661, 12, True)
      , (22661, 14, True)
-     , (22661, 15, True);
+     , (22661, 15, True)
+     , (22661, 19, True)
+     , (22661, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22662, 'portaltuskerbarracksexit');
@@ -15913,7 +16994,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22662, 13, True)
      , (22662, 12, True)
      , (22662, 14, True)
-     , (22662, 15, True);
+     , (22662, 15, True)
+     , (22662, 19, True)
+     , (22662, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31710, 'ace31710-hagrasholdfast');
@@ -15942,7 +17025,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31710, 13, True)
      , (31710, 12, True)
      , (31710, 14, True)
-     , (31710, 15, True);
+     , (31710, 15, True)
+     , (31710, 19, True)
+     , (31710, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2080, 'portalhaven');
@@ -15971,7 +17056,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2080, 13, True)
      , (2080, 12, True)
      , (2080, 14, True)
-     , (2080, 15, True);
+     , (2080, 15, True)
+     , (2080, 19, True)
+     , (2080, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2081, 'portalhavenexit');
@@ -16000,7 +17087,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2081, 13, True)
      , (2081, 12, True)
      , (2081, 14, True)
-     , (2081, 15, True);
+     , (2081, 15, True)
+     , (2081, 19, True)
+     , (2081, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42221, 'ace42221-stronghold');
@@ -16029,7 +17118,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42221, 13, True)
      , (42221, 12, True)
      , (42221, 14, True)
-     , (42221, 15, True);
+     , (42221, 15, True)
+     , (42221, 19, True)
+     , (42221, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4935, 'portaldeadbarracks');
@@ -16058,7 +17149,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4935, 13, True)
      , (4935, 12, True)
      , (4935, 14, True)
-     , (4935, 15, True);
+     , (4935, 15, True)
+     , (4935, 19, True)
+     , (4935, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37107, 'ace37107-surface');
@@ -16087,7 +17180,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (37107, 13, True)
      , (37107, 12, True)
      , (37107, 14, True)
-     , (37107, 15, True);
+     , (37107, 15, True)
+     , (37107, 19, True)
+     , (37107, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31514, 'ace31514-tunneloflove');
@@ -16116,7 +17211,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31514, 13, True)
      , (31514, 12, True)
      , (31514, 14, True)
-     , (31514, 15, True);
+     , (31514, 15, True)
+     , (31514, 19, True)
+     , (31514, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31515, 'ace31515-surface');
@@ -16145,7 +17242,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31515, 13, True)
      , (31515, 12, True)
      , (31515, 14, True)
-     , (31515, 15, True);
+     , (31515, 15, True)
+     , (31515, 19, True)
+     , (31515, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22702, 'portaltuskertunnels');
@@ -16174,7 +17273,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22702, 13, True)
      , (22702, 12, True)
      , (22702, 14, True)
-     , (22702, 15, True);
+     , (22702, 15, True)
+     , (22702, 19, True)
+     , (22702, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22703, 'portaltuskertunnelsexit');
@@ -16203,7 +17304,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22703, 13, True)
      , (22703, 12, True)
      , (22703, 14, True)
-     , (22703, 15, True);
+     , (22703, 15, True)
+     , (22703, 19, True)
+     , (22703, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22652, 'portalplatedrifts');
@@ -16232,7 +17335,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22652, 13, True)
      , (22652, 12, True)
      , (22652, 14, True)
-     , (22652, 15, True);
+     , (22652, 15, True)
+     , (22652, 19, True)
+     , (22652, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22653, 'portalplatedriftsexit');
@@ -16261,7 +17366,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22653, 13, True)
      , (22653, 12, True)
      , (22653, 14, True)
-     , (22653, 15, True);
+     , (22653, 15, True)
+     , (22653, 19, True)
+     , (22653, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22750, 'portalrampagebluff');
@@ -16290,7 +17397,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22750, 13, True)
      , (22750, 12, True)
      , (22750, 14, True)
-     , (22750, 15, True);
+     , (22750, 15, True)
+     , (22750, 19, True)
+     , (22750, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43554, 'ace43554-olthoitunnel');
@@ -16320,7 +17429,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43554, 13, True)
      , (43554, 12, True)
      , (43554, 14, True)
-     , (43554, 15, True);
+     , (43554, 15, True)
+     , (43554, 19, True)
+     , (43554, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43554, 67111849, 1, 255);
@@ -16353,7 +17464,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43585, 13, True)
      , (43585, 12, True)
      , (43585, 14, True)
-     , (43585, 15, True);
+     , (43585, 15, True)
+     , (43585, 19, True)
+     , (43585, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43585, 67111849, 1, 255);
@@ -16386,7 +17499,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43586, 13, True)
      , (43586, 12, True)
      , (43586, 14, True)
-     , (43586, 15, True);
+     , (43586, 15, True)
+     , (43586, 19, True)
+     , (43586, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43586, 67111849, 1, 255);
@@ -16419,7 +17534,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43542, 13, True)
      , (43542, 12, True)
      , (43542, 14, True)
-     , (43542, 15, True);
+     , (43542, 15, True)
+     , (43542, 19, True)
+     , (43542, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43542, 67111849, 1, 255);
@@ -16451,7 +17568,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3636, 13, True)
      , (3636, 12, True)
      , (3636, 14, True)
-     , (3636, 15, True);
+     , (3636, 15, True)
+     , (3636, 19, True)
+     , (3636, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3637, 'portallargecaveexit');
@@ -16480,7 +17599,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3637, 13, True)
      , (3637, 12, True)
      , (3637, 14, True)
-     , (3637, 15, True);
+     , (3637, 15, True)
+     , (3637, 19, True)
+     , (3637, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43540, 'ace43540-olthoitunnel');
@@ -16510,7 +17631,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43540, 13, True)
      , (43540, 12, True)
      , (43540, 14, True)
-     , (43540, 15, True);
+     , (43540, 15, True)
+     , (43540, 19, True)
+     , (43540, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43540, 67111849, 1, 255);
@@ -16543,7 +17666,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43556, 13, True)
      , (43556, 12, True)
      , (43556, 14, True)
-     , (43556, 15, True);
+     , (43556, 15, True)
+     , (43556, 19, True)
+     , (43556, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43556, 67111849, 1, 255);
@@ -16576,7 +17701,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43544, 13, True)
      , (43544, 12, True)
      , (43544, 14, True)
-     , (43544, 15, True);
+     , (43544, 15, True)
+     , (43544, 19, True)
+     , (43544, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43544, 67111849, 1, 255);
@@ -16608,7 +17735,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31928, 13, True)
      , (31928, 12, True)
      , (31928, 14, True)
-     , (31928, 15, True);
+     , (31928, 15, True)
+     , (31928, 19, True)
+     , (31928, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30964, 'portaleggorchard');
@@ -16637,7 +17766,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30964, 13, True)
      , (30964, 12, True)
      , (30964, 14, True)
-     , (30964, 15, True);
+     , (30964, 15, True)
+     , (30964, 19, True)
+     , (30964, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31926, 'ace31926-eggorchardeast');
@@ -16666,7 +17797,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31926, 13, True)
      , (31926, 12, True)
      , (31926, 14, True)
-     , (31926, 15, True);
+     , (31926, 15, True)
+     , (31926, 19, True)
+     , (31926, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30965, 'portaleggorchardexit');
@@ -16695,7 +17828,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30965, 13, True)
      , (30965, 12, True)
      , (30965, 14, True)
-     , (30965, 15, True);
+     , (30965, 15, True)
+     , (30965, 19, True)
+     , (30965, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2557, 'portalswampdirelandsexit');
@@ -16724,7 +17859,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2557, 13, True)
      , (2557, 12, True)
      , (2557, 14, True)
-     , (2557, 15, True);
+     , (2557, 15, True)
+     , (2557, 19, True)
+     , (2557, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28803, 'portalravenousvaultexit');
@@ -16753,7 +17890,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28803, 13, True)
      , (28803, 12, True)
      , (28803, 14, True)
-     , (28803, 15, True);
+     , (28803, 15, True)
+     , (28803, 19, True)
+     , (28803, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1089, 'portalarwicminesexit');
@@ -16782,7 +17921,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1089, 13, True)
      , (1089, 12, True)
      , (1089, 14, True)
-     , (1089, 15, True);
+     , (1089, 15, True)
+     , (1089, 19, True)
+     , (1089, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3639, 'portalknathlairexit');
@@ -16811,7 +17952,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3639, 13, True)
      , (3639, 12, True)
      , (3639, 14, True)
-     , (3639, 15, True);
+     , (3639, 15, True)
+     , (3639, 19, True)
+     , (3639, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3638, 'portalknathlair');
@@ -16840,7 +17983,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3638, 13, True)
      , (3638, 12, True)
      , (3638, 14, True)
-     , (3638, 15, True);
+     , (3638, 15, True)
+     , (3638, 19, True)
+     , (3638, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1547, 'portalcoliermine');
@@ -16869,7 +18014,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1547, 13, True)
      , (1547, 12, True)
      , (1547, 14, True)
-     , (1547, 15, True);
+     , (1547, 15, True)
+     , (1547, 19, True)
+     , (1547, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2082, 'portalhuntersleap');
@@ -16898,7 +18045,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2082, 13, True)
      , (2082, 12, True)
      , (2082, 14, True)
-     , (2082, 15, True);
+     , (2082, 15, True)
+     , (2082, 19, True)
+     , (2082, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2083, 'portalhuntersleapexit');
@@ -16927,7 +18076,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2083, 13, True)
      , (2083, 12, True)
      , (2083, 14, True)
-     , (2083, 15, True);
+     , (2083, 15, True)
+     , (2083, 19, True)
+     , (2083, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8379, 'portalmosswartbanderlingdungeon');
@@ -16956,7 +18107,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8379, 13, True)
      , (8379, 12, True)
      , (8379, 14, True)
-     , (8379, 15, True);
+     , (8379, 15, True)
+     , (8379, 19, True)
+     , (8379, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44351, 'ace44351-surface');
@@ -16985,7 +18138,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (44351, 13, True)
      , (44351, 12, True)
      , (44351, 14, True)
-     , (44351, 15, True);
+     , (44351, 15, True)
+     , (44351, 19, True)
+     , (44351, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23075, 'portalcrystalwarehouseokexit');
@@ -17014,7 +18169,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23075, 13, True)
      , (23075, 12, True)
      , (23075, 14, True)
-     , (23075, 15, True);
+     , (23075, 15, True)
+     , (23075, 19, True)
+     , (23075, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23081, 'portalwarehouseannex');
@@ -17043,7 +18200,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23081, 13, True)
      , (23081, 12, True)
      , (23081, 14, True)
-     , (23081, 15, True);
+     , (23081, 15, True)
+     , (23081, 19, True)
+     , (23081, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23043, 'portalcrystalwarehouserobbed');
@@ -17072,7 +18231,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23043, 13, True)
      , (23043, 12, True)
      , (23043, 14, True)
-     , (23043, 15, True);
+     , (23043, 15, True)
+     , (23043, 19, True)
+     , (23043, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23078, 'portalshatteredsoul1');
@@ -17101,7 +18262,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23078, 13, True)
      , (23078, 12, True)
      , (23078, 14, True)
-     , (23078, 15, True);
+     , (23078, 15, True)
+     , (23078, 19, True)
+     , (23078, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23079, 'portalshatteredsoul2');
@@ -17130,7 +18293,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23079, 13, True)
      , (23079, 12, True)
      , (23079, 14, True)
-     , (23079, 15, True);
+     , (23079, 15, True)
+     , (23079, 19, True)
+     , (23079, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23080, 'portalshatteredsoulexit');
@@ -17159,7 +18324,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23080, 13, True)
      , (23080, 12, True)
      , (23080, 14, True)
-     , (23080, 15, True);
+     , (23080, 15, True)
+     , (23080, 19, True)
+     , (23080, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25684, 'portaldeepplaces1');
@@ -17188,7 +18355,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25684, 13, True)
      , (25684, 12, True)
      , (25684, 14, True)
-     , (25684, 15, True);
+     , (25684, 15, True)
+     , (25684, 19, True)
+     , (25684, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25685, 'portaldeepplaces2');
@@ -17217,7 +18386,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25685, 13, True)
      , (25685, 12, True)
      , (25685, 14, True)
-     , (25685, 15, True);
+     , (25685, 15, True)
+     , (25685, 19, True)
+     , (25685, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25686, 'portaldeepplaces3');
@@ -17246,7 +18417,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25686, 13, True)
      , (25686, 12, True)
      , (25686, 14, True)
-     , (25686, 15, True);
+     , (25686, 15, True)
+     , (25686, 19, True)
+     , (25686, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25687, 'portaldeepplaces4');
@@ -17275,7 +18448,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25687, 13, True)
      , (25687, 12, True)
      , (25687, 14, True)
-     , (25687, 15, True);
+     , (25687, 15, True)
+     , (25687, 19, True)
+     , (25687, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25688, 'portaldeepplaces5');
@@ -17304,7 +18479,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25688, 13, True)
      , (25688, 12, True)
      , (25688, 14, True)
-     , (25688, 15, True);
+     , (25688, 15, True)
+     , (25688, 19, True)
+     , (25688, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22866, 'portalcrystalmineaccess');
@@ -17333,7 +18510,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22866, 13, True)
      , (22866, 12, True)
      , (22866, 14, True)
-     , (22866, 15, True);
+     , (22866, 15, True)
+     , (22866, 19, True)
+     , (22866, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4966, 'portalshrethhiveexit');
@@ -17362,7 +18541,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4966, 13, True)
      , (4966, 12, True)
      , (4966, 14, True)
-     , (4966, 15, True);
+     , (4966, 15, True)
+     , (4966, 19, True)
+     , (4966, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28264, 'portalmosswartmirewitchexit');
@@ -17391,7 +18572,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28264, 13, True)
      , (28264, 12, True)
      , (28264, 14, True)
-     , (28264, 15, True);
+     , (28264, 15, True)
+     , (28264, 19, True)
+     , (28264, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7320, 'portallugiancitadelghaexit');
@@ -17420,7 +18603,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7320, 13, True)
      , (7320, 12, True)
      , (7320, 14, True)
-     , (7320, 15, True);
+     , (7320, 15, True)
+     , (7320, 19, True)
+     , (7320, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1591, 'portallugianoutpostexit');
@@ -17449,7 +18634,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1591, 13, True)
      , (1591, 12, True)
      , (1591, 14, True)
-     , (1591, 15, True);
+     , (1591, 15, True)
+     , (1591, 19, True)
+     , (1591, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43573, 'ace43573-olthoitunnel');
@@ -17479,7 +18666,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43573, 13, True)
      , (43573, 12, True)
      , (43573, 14, True)
-     , (43573, 15, True);
+     , (43573, 15, True)
+     , (43573, 19, True)
+     , (43573, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43573, 67111849, 1, 255);
@@ -17511,7 +18700,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9411, 13, True)
      , (9411, 12, True)
      , (9411, 14, True)
-     , (9411, 15, True);
+     , (9411, 15, True)
+     , (9411, 19, True)
+     , (9411, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51250, 'ace51250-westforkdamhive');
@@ -17540,7 +18731,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51250, 13, True)
      , (51250, 12, True)
      , (51250, 14, True)
-     , (51250, 15, True);
+     , (51250, 15, True)
+     , (51250, 19, True)
+     , (51250, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52223, 'ace52223-stingingcorner');
@@ -17569,7 +18762,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (52223, 13, True)
      , (52223, 12, True)
      , (52223, 14, True)
-     , (52223, 15, True);
+     , (52223, 15, True)
+     , (52223, 19, True)
+     , (52223, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32584, 'ace32584-repository');
@@ -17598,7 +18793,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32584, 13, True)
      , (32584, 12, True)
      , (32584, 14, True)
-     , (32584, 15, True);
+     , (32584, 15, True)
+     , (32584, 19, True)
+     , (32584, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2096, 'portalwitshiredungeonexit');
@@ -17627,7 +18824,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2096, 13, True)
      , (2096, 12, True)
      , (2096, 14, True)
-     , (2096, 15, True);
+     , (2096, 15, True)
+     , (2096, 19, True)
+     , (2096, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9201, 'portalaerbaxlaboratory');
@@ -17656,7 +18855,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9201, 13, True)
      , (9201, 12, True)
      , (9201, 14, True)
-     , (9201, 15, True);
+     , (9201, 15, True)
+     , (9201, 19, True)
+     , (9201, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9322, 'portalsaelardungeon');
@@ -17685,7 +18886,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9322, 13, True)
      , (9322, 12, True)
      , (9322, 14, True)
-     , (9322, 15, True);
+     , (9322, 15, True)
+     , (9322, 19, True)
+     , (9322, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9323, 'portalsaelardungeonexit');
@@ -17714,7 +18917,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9323, 13, True)
      , (9323, 12, True)
      , (9323, 14, True)
-     , (9323, 15, True);
+     , (9323, 15, True)
+     , (9323, 19, True)
+     , (9323, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9320, 'portalhahnaindungeon');
@@ -17743,7 +18948,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9320, 13, True)
      , (9320, 12, True)
      , (9320, 14, True)
-     , (9320, 15, True);
+     , (9320, 15, True)
+     , (9320, 19, True)
+     , (9320, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9321, 'portalrenselmdungeon');
@@ -17772,7 +18979,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9321, 13, True)
      , (9321, 12, True)
      , (9321, 14, True)
-     , (9321, 15, True);
+     , (9321, 15, True)
+     , (9321, 19, True)
+     , (9321, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1599, 'portalhebiantosewers');
@@ -17801,7 +19010,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1599, 13, True)
      , (1599, 12, True)
      , (1599, 14, True)
-     , (1599, 15, True);
+     , (1599, 15, True)
+     , (1599, 19, True)
+     , (1599, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1600, 'portalhebiantosewersexit');
@@ -17830,7 +19041,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1600, 13, True)
      , (1600, 12, True)
      , (1600, 14, True)
-     , (1600, 15, True);
+     , (1600, 15, True)
+     , (1600, 19, True)
+     , (1600, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1337, 'portaldrudgenest');
@@ -17859,7 +19072,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1337, 13, True)
      , (1337, 12, True)
      , (1337, 14, True)
-     , (1337, 15, True);
+     , (1337, 15, True)
+     , (1337, 19, True)
+     , (1337, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21414, 'portalgaerlanguardianacid');
@@ -17888,7 +19103,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21414, 13, True)
      , (21414, 12, True)
      , (21414, 14, True)
-     , (21414, 15, True);
+     , (21414, 15, True)
+     , (21414, 19, True)
+     , (21414, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40505, 'ace40505-apostatecitadelmines');
@@ -17917,7 +19134,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40505, 13, True)
      , (40505, 12, True)
      , (40505, 14, True)
-     , (40505, 15, True);
+     , (40505, 15, True)
+     , (40505, 19, True)
+     , (40505, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40504, 'ace40504-surface');
@@ -17946,7 +19165,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40504, 13, True)
      , (40504, 12, True)
      , (40504, 14, True)
-     , (40504, 15, True);
+     , (40504, 15, True)
+     , (40504, 19, True)
+     , (40504, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40502, 'ace40502-apostatecitadelbarracks');
@@ -17975,7 +19196,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40502, 13, True)
      , (40502, 12, True)
      , (40502, 14, True)
-     , (40502, 15, True);
+     , (40502, 15, True)
+     , (40502, 19, True)
+     , (40502, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40503, 'ace40503-apostatecitadelheadquarters');
@@ -18004,7 +19227,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40503, 13, True)
      , (40503, 12, True)
      , (40503, 14, True)
-     , (40503, 15, True);
+     , (40503, 15, True)
+     , (40503, 19, True)
+     , (40503, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41195, 'ace41195-apostateexcavation');
@@ -18033,7 +19258,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41195, 13, True)
      , (41195, 12, True)
      , (41195, 14, True)
-     , (41195, 15, True);
+     , (41195, 15, True)
+     , (41195, 19, True)
+     , (41195, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41196, 'ace41196-surface');
@@ -18062,7 +19289,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41196, 13, True)
      , (41196, 12, True)
      , (41196, 14, True)
-     , (41196, 15, True);
+     , (41196, 15, True)
+     , (41196, 19, True)
+     , (41196, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38647, 'ace38647-surface');
@@ -18091,7 +19320,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38647, 13, True)
      , (38647, 12, True)
      , (38647, 14, True)
-     , (38647, 15, True);
+     , (38647, 15, True)
+     , (38647, 19, True)
+     , (38647, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22696, 'portaltuskertempledirelands');
@@ -18120,7 +19351,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22696, 13, True)
      , (22696, 12, True)
      , (22696, 14, True)
-     , (22696, 15, True);
+     , (22696, 15, True)
+     , (22696, 19, True)
+     , (22696, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37051, 'ace37051-southgate');
@@ -18147,7 +19380,9 @@ VALUES (37051, 54, -0.1);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (37051, 13, True)
      , (37051, 12, True)
-     , (37051, 15, True);
+     , (37051, 15, True)
+     , (37051, 19, True)
+     , (37051, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1899, 'portalbeachside');
@@ -18176,7 +19411,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1899, 13, True)
      , (1899, 12, True)
      , (1899, 14, True)
-     , (1899, 15, True);
+     , (1899, 15, True)
+     , (1899, 19, True)
+     , (1899, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29237, 'portalishaqscellar');
@@ -18205,7 +19442,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29237, 13, True)
      , (29237, 12, True)
      , (29237, 14, True)
-     , (29237, 15, True);
+     , (29237, 15, True)
+     , (29237, 19, True)
+     , (29237, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2382, 'portalllcatacombsexit');
@@ -18234,7 +19473,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2382, 13, True)
      , (2382, 12, True)
      , (2382, 14, True)
-     , (2382, 15, True);
+     , (2382, 15, True)
+     , (2382, 19, True)
+     , (2382, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2334, 'portaltumerokchamberexit');
@@ -18263,7 +19504,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2334, 13, True)
      , (2334, 12, True)
      , (2334, 14, True)
-     , (2334, 15, True);
+     , (2334, 15, True)
+     , (2334, 19, True)
+     , (2334, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30963, 'portalthrungushole');
@@ -18292,7 +19535,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30963, 13, True)
      , (30963, 12, True)
      , (30963, 14, True)
-     , (30963, 15, True);
+     , (30963, 15, True)
+     , (30963, 19, True)
+     , (30963, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30962, 'portalthrungusholeexit');
@@ -18321,7 +19566,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30962, 13, True)
      , (30962, 12, True)
      , (30962, 14, True)
-     , (30962, 15, True);
+     , (30962, 15, True)
+     , (30962, 19, True)
+     , (30962, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3649, 'portalolthoitunnels');
@@ -18350,7 +19597,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3649, 13, True)
      , (3649, 12, True)
      , (3649, 14, True)
-     , (3649, 15, True);
+     , (3649, 15, True)
+     , (3649, 19, True)
+     , (3649, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3650, 'portalolthoitunnelsexit');
@@ -18379,7 +19628,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3650, 13, True)
      , (3650, 12, True)
      , (3650, 14, True)
-     , (3650, 15, True);
+     , (3650, 15, True)
+     , (3650, 19, True)
+     , (3650, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24233, 'portalolthoitunnelsexpansion');
@@ -18408,7 +19659,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24233, 13, True)
      , (24233, 12, True)
      , (24233, 14, True)
-     , (24233, 15, True);
+     , (24233, 15, True)
+     , (24233, 19, True)
+     , (24233, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32623, 'ace32623-viamontianespermine');
@@ -18437,7 +19690,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32623, 13, True)
      , (32623, 12, True)
      , (32623, 14, True)
-     , (32623, 15, True);
+     , (32623, 15, True)
+     , (32623, 19, True)
+     , (32623, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7295, 'portalgolemheimsho');
@@ -18466,7 +19721,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7295, 13, True)
      , (7295, 12, True)
      , (7295, 14, True)
-     , (7295, 15, True);
+     , (7295, 15, True)
+     , (7295, 19, True)
+     , (7295, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33251, 'ace33251-assassinshideout');
@@ -18495,7 +19752,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33251, 13, True)
      , (33251, 12, True)
      , (33251, 14, True)
-     , (33251, 15, True);
+     , (33251, 15, True)
+     , (33251, 19, True)
+     , (33251, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33786, 'ace33786-shadowinfestedblackspeartemple');
@@ -18524,7 +19783,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33786, 13, True)
      , (33786, 12, True)
      , (33786, 14, True)
-     , (33786, 15, True);
+     , (33786, 15, True)
+     , (33786, 19, True)
+     , (33786, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34522, 'ace34522-arena7');
@@ -18550,7 +19811,9 @@ VALUES (34522, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34522, 11, True)
-     , (34522, 14, True);
+     , (34522, 14, True)
+     , (34522, 19, True)
+     , (34522, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34523, 'ace34523-arena8');
@@ -18576,7 +19839,9 @@ VALUES (34523, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34523, 11, True)
-     , (34523, 14, True);
+     , (34523, 14, True)
+     , (34523, 19, True)
+     , (34523, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5501, 'portalsmugglershideaway');
@@ -18605,7 +19870,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5501, 13, True)
      , (5501, 12, True)
      , (5501, 14, True)
-     , (5501, 15, True);
+     , (5501, 15, True)
+     , (5501, 19, True)
+     , (5501, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5502, 'portalsmugglershideawayexit');
@@ -18634,7 +19901,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5502, 13, True)
      , (5502, 12, True)
      , (5502, 14, True)
-     , (5502, 15, True);
+     , (5502, 15, True)
+     , (5502, 19, True)
+     , (5502, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28714, 'portaldericostruin');
@@ -18663,7 +19932,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28714, 13, True)
      , (28714, 12, True)
      , (28714, 14, True)
-     , (28714, 15, True);
+     , (28714, 15, True)
+     , (28714, 19, True)
+     , (28714, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28715, 'portaldericostruinexit');
@@ -18692,7 +19963,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28715, 13, True)
      , (28715, 12, True)
      , (28715, 14, True)
-     , (28715, 15, True);
+     , (28715, 15, True)
+     , (28715, 19, True)
+     , (28715, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29497, 'portaleaterpitexit');
@@ -18721,7 +19994,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29497, 13, True)
      , (29497, 12, True)
      , (29497, 14, True)
-     , (29497, 15, True);
+     , (29497, 15, True)
+     , (29497, 19, True)
+     , (29497, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32695, 'ace32695-silyunchapterhouse');
@@ -18750,7 +20025,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32695, 13, True)
      , (32695, 12, True)
      , (32695, 14, True)
-     , (32695, 15, True);
+     , (32695, 15, True)
+     , (32695, 19, True)
+     , (32695, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29499, 'portalheartofmadnessexit');
@@ -18779,7 +20056,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29499, 13, True)
      , (29499, 12, True)
      , (29499, 14, True)
-     , (29499, 15, True);
+     , (29499, 15, True)
+     , (29499, 19, True)
+     , (29499, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29503, 'portalkarlunhallexit');
@@ -18808,7 +20087,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29503, 13, True)
      , (29503, 12, True)
      , (29503, 14, True)
-     , (29503, 15, True);
+     , (29503, 15, True)
+     , (29503, 19, True)
+     , (29503, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29101, 'portalmoisthovel');
@@ -18837,7 +20118,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29101, 13, True)
      , (29101, 12, True)
      , (29101, 14, True)
-     , (29101, 15, True);
+     , (29101, 15, True)
+     , (29101, 19, True)
+     , (29101, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46620, 'ace46620-hoshinotower');
@@ -18867,7 +20150,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46620, 13, True)
      , (46620, 12, True)
      , (46620, 14, True)
-     , (46620, 15, True);
+     , (46620, 15, True)
+     , (46620, 19, True)
+     , (46620, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30960, 'portaldarkdesign');
@@ -18896,7 +20181,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30960, 13, True)
      , (30960, 12, True)
      , (30960, 14, True)
-     , (30960, 15, True);
+     , (30960, 15, True)
+     , (30960, 19, True)
+     , (30960, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45727, 'ace45727-frozenrefuge');
@@ -18925,7 +20212,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (45727, 13, True)
      , (45727, 12, True)
      , (45727, 14, True)
-     , (45727, 15, True);
+     , (45727, 15, True)
+     , (45727, 19, True)
+     , (45727, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4926, 'portalphyntosmenaceexit');
@@ -18953,7 +20242,9 @@ VALUES (4926, 54, -0.1);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4926, 13, True)
      , (4926, 12, True)
-     , (4926, 15, True);
+     , (4926, 15, True)
+     , (4926, 19, True)
+     , (4926, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47208, 'ace47208-falatacotdepot');
@@ -18982,7 +20273,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (47208, 13, True)
      , (47208, 12, True)
      , (47208, 14, True)
-     , (47208, 15, True);
+     , (47208, 15, True)
+     , (47208, 19, True)
+     , (47208, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2087, 'portalolthoilairexit');
@@ -19011,7 +20304,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087, 13, True)
      , (2087, 12, True)
      , (2087, 14, True)
-     , (2087, 15, True);
+     , (2087, 15, True)
+     , (2087, 19, True)
+     , (2087, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21418, 'portalgaerlanguardianfrost');
@@ -19040,7 +20335,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21418, 13, True)
      , (21418, 12, True)
      , (21418, 14, True)
-     , (21418, 15, True);
+     , (21418, 15, True)
+     , (21418, 19, True)
+     , (21418, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21950, 'portalprovinggroundsfloorlow');
@@ -19069,7 +20366,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21950, 13, True)
      , (21950, 12, True)
      , (21950, 14, True)
-     , (21950, 15, True);
+     , (21950, 15, True)
+     , (21950, 19, True)
+     , (21950, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21958, 'portalprovinggroundssilencelow');
@@ -19098,7 +20397,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21958, 13, True)
      , (21958, 12, True)
      , (21958, 14, True)
-     , (21958, 15, True);
+     , (21958, 15, True)
+     , (21958, 19, True)
+     , (21958, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21405, 'portalcitadelvalleyice');
@@ -19127,7 +20428,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21405, 13, True)
      , (21405, 12, True)
      , (21405, 14, True)
-     , (21405, 15, True);
+     , (21405, 15, True)
+     , (21405, 19, True)
+     , (21405, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32676, 'ace32676-cellsoftheblackbook');
@@ -19156,7 +20459,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32676, 13, True)
      , (32676, 12, True)
      , (32676, 14, True)
-     , (32676, 15, True);
+     , (32676, 15, True)
+     , (32676, 19, True)
+     , (32676, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32677, 'ace32677-cellsoftheblackbook');
@@ -19185,7 +20490,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32677, 13, True)
      , (32677, 12, True)
      , (32677, 14, True)
-     , (32677, 15, True);
+     , (32677, 15, True)
+     , (32677, 19, True)
+     , (32677, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32674, 'ace32674-cellsoftheblackbook');
@@ -19214,7 +20521,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32674, 13, True)
      , (32674, 12, True)
      , (32674, 14, True)
-     , (32674, 15, True);
+     , (32674, 15, True)
+     , (32674, 19, True)
+     , (32674, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32675, 'ace32675-cellsoftheblackbook');
@@ -19243,7 +20552,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32675, 13, True)
      , (32675, 12, True)
      , (32675, 14, True)
-     , (32675, 15, True);
+     , (32675, 15, True)
+     , (32675, 19, True)
+     , (32675, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32678, 'ace32678-surface');
@@ -19272,7 +20583,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32678, 13, True)
      , (32678, 12, True)
      , (32678, 14, True)
-     , (32678, 15, True);
+     , (32678, 15, True)
+     , (32678, 19, True)
+     , (32678, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31435, 'ace31435-surface');
@@ -19301,7 +20614,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31435, 13, True)
      , (31435, 12, True)
      , (31435, 14, True)
-     , (31435, 15, True);
+     , (31435, 15, True)
+     , (31435, 19, True)
+     , (31435, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31436, 'ace31436-lostdesertarchive');
@@ -19330,7 +20645,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31436, 13, True)
      , (31436, 12, True)
      , (31436, 14, True)
-     , (31436, 15, True);
+     , (31436, 15, True)
+     , (31436, 19, True)
+     , (31436, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31437, 'ace31437-surface');
@@ -19359,7 +20676,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31437, 13, True)
      , (31437, 12, True)
      , (31437, 14, True)
-     , (31437, 15, True);
+     , (31437, 15, True)
+     , (31437, 19, True)
+     , (31437, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31433, 'ace31433-surface');
@@ -19388,7 +20707,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31433, 13, True)
      , (31433, 12, True)
      , (31433, 14, True)
-     , (31433, 15, True);
+     , (31433, 15, True)
+     , (31433, 19, True)
+     , (31433, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46336, 'ace46336-serpentburialgrounds');
@@ -19417,7 +20738,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46336, 13, True)
      , (46336, 12, True)
      , (46336, 14, True)
-     , (46336, 15, True);
+     , (46336, 15, True)
+     , (46336, 19, True)
+     , (46336, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36611, 'ace36611-hiddenlaboratory');
@@ -19446,7 +20769,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (36611, 13, True)
      , (36611, 12, True)
      , (36611, 14, True)
-     , (36611, 15, True);
+     , (36611, 15, True)
+     , (36611, 19, True)
+     , (36611, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36612, 'ace36612-surface');
@@ -19475,7 +20800,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (36612, 13, True)
      , (36612, 12, True)
      , (36612, 14, True)
-     , (36612, 15, True);
+     , (36612, 15, True)
+     , (36612, 19, True)
+     , (36612, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48800, 'ace48800-surface');
@@ -19504,7 +20831,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (48800, 13, True)
      , (48800, 12, True)
      , (48800, 14, True)
-     , (48800, 15, True);
+     , (48800, 15, True)
+     , (48800, 19, True)
+     , (48800, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30694, 'portalvilesanctuaryexit');
@@ -19533,7 +20862,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30694, 13, True)
      , (30694, 12, True)
      , (30694, 14, True)
-     , (30694, 15, True);
+     , (30694, 15, True)
+     , (30694, 19, True)
+     , (30694, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4942, 'portalbanishedassemblyexit');
@@ -19562,7 +20893,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4942, 13, True)
      , (4942, 12, True)
      , (4942, 14, True)
-     , (4942, 15, True);
+     , (4942, 15, True)
+     , (4942, 19, True)
+     , (4942, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30695, 'portalravagedcathedral');
@@ -19591,7 +20924,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30695, 13, True)
      , (30695, 12, True)
      , (30695, 14, True)
-     , (30695, 15, True);
+     , (30695, 15, True)
+     , (30695, 19, True)
+     , (30695, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30692, 'portalravagedcathedralexit');
@@ -19620,7 +20955,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30692, 13, True)
      , (30692, 12, True)
      , (30692, 14, True)
-     , (30692, 15, True);
+     , (30692, 15, True)
+     , (30692, 19, True)
+     , (30692, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30380, 'portalhalaetanwaterfall');
@@ -19649,7 +20986,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30380, 13, True)
      , (30380, 12, True)
      , (30380, 14, True)
-     , (30380, 15, True);
+     , (30380, 15, True)
+     , (30380, 19, True)
+     , (30380, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28796, 'portalwaterfallcave');
@@ -19678,7 +21017,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28796, 13, True)
      , (28796, 12, True)
      , (28796, 14, True)
-     , (28796, 15, True);
+     , (28796, 15, True)
+     , (28796, 19, True)
+     , (28796, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28797, 'portalwaterfallcaveexit');
@@ -19707,7 +21048,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28797, 13, True)
      , (28797, 12, True)
      , (28797, 14, True)
-     , (28797, 15, True);
+     , (28797, 15, True)
+     , (28797, 19, True)
+     , (28797, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28782, 'portalremoteempvault');
@@ -19736,7 +21079,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28782, 13, True)
      , (28782, 12, True)
      , (28782, 14, True)
-     , (28782, 15, True);
+     , (28782, 15, True)
+     , (28782, 19, True)
+     , (28782, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28783, 'portalremoteempvaultexit');
@@ -19765,7 +21110,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28783, 13, True)
      , (28783, 12, True)
      , (28783, 14, True)
-     , (28783, 15, True);
+     , (28783, 15, True)
+     , (28783, 19, True)
+     , (28783, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28795, 'portalviamontiangarrison');
@@ -19794,7 +21141,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28795, 13, True)
      , (28795, 12, True)
      , (28795, 14, True)
-     , (28795, 15, True);
+     , (28795, 15, True)
+     , (28795, 19, True)
+     , (28795, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28800, 'portalviamontiangarrisonexit');
@@ -19823,7 +21172,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28800, 13, True)
      , (28800, 12, True)
      , (28800, 14, True)
-     , (28800, 15, True);
+     , (28800, 15, True)
+     , (28800, 19, True)
+     , (28800, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28798, 'portallolasden');
@@ -19852,7 +21203,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28798, 13, True)
      , (28798, 12, True)
      , (28798, 14, True)
-     , (28798, 15, True);
+     , (28798, 15, True)
+     , (28798, 19, True)
+     , (28798, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28799, 'portallolasdenexit');
@@ -19881,7 +21234,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28799, 13, True)
      , (28799, 12, True)
      , (28799, 14, True)
-     , (28799, 15, True);
+     , (28799, 15, True)
+     , (28799, 19, True)
+     , (28799, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47155, 'ace47155-foundryofizexi');
@@ -19910,7 +21265,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (47155, 13, True)
      , (47155, 12, True)
      , (47155, 14, True)
-     , (47155, 15, True);
+     , (47155, 15, True)
+     , (47155, 19, True)
+     , (47155, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45801, 'ace45801-templetrial');
@@ -19939,7 +21296,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (45801, 13, True)
      , (45801, 12, True)
      , (45801, 14, True)
-     , (45801, 15, True);
+     , (45801, 15, True)
+     , (45801, 19, True)
+     , (45801, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45800, 'ace45800-surface');
@@ -19968,7 +21327,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (45800, 13, True)
      , (45800, 12, True)
      , (45800, 14, True)
-     , (45800, 15, True);
+     , (45800, 15, True)
+     , (45800, 19, True)
+     , (45800, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (434, 'portalalphusvalley');
@@ -19997,7 +21358,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (434, 13, True)
      , (434, 12, True)
      , (434, 14, True)
-     , (434, 15, True);
+     , (434, 15, True)
+     , (434, 19, True)
+     , (434, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (370, 'portalzabooltowertop');
@@ -20026,7 +21389,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (370, 13, True)
      , (370, 12, True)
      , (370, 14, True)
-     , (370, 15, True);
+     , (370, 15, True)
+     , (370, 19, True)
+     , (370, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (368, 'portalzabooltowerbase');
@@ -20055,7 +21420,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (368, 13, True)
      , (368, 12, True)
      , (368, 14, True)
-     , (368, 15, True);
+     , (368, 15, True)
+     , (368, 19, True)
+     , (368, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35739, 'ace35739-deepercatacombs');
@@ -20084,7 +21451,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35739, 13, True)
      , (35739, 11, True)
      , (35739, 14, True)
-     , (35739, 15, True);
+     , (35739, 15, True)
+     , (35739, 19, True)
+     , (35739, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24329, 'portalblackdeathbotst2');
@@ -20113,7 +21482,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24329, 13, True)
      , (24329, 12, True)
      , (24329, 14, True)
-     , (24329, 15, True);
+     , (24329, 15, True)
+     , (24329, 19, True)
+     , (24329, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24003, 'trapportal-knorracumen');
@@ -20138,7 +21509,9 @@ VALUES (24003, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24003, 13, True)
      , (24003, 12, True)
-     , (24003, 15, True);
+     , (24003, 15, True)
+     , (24003, 19, True)
+     , (24003, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24007, 'trapportal-knorrdepths');
@@ -20163,7 +21536,9 @@ VALUES (24007, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24007, 13, True)
      , (24007, 12, True)
-     , (24007, 15, True);
+     , (24007, 15, True)
+     , (24007, 19, True)
+     , (24007, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24015, 'trapportal-knorrforge');
@@ -20188,7 +21563,9 @@ VALUES (24015, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24015, 13, True)
      , (24015, 12, True)
-     , (24015, 15, True);
+     , (24015, 15, True)
+     , (24015, 19, True)
+     , (24015, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24022, 'trapportal-knorrmedi');
@@ -20213,7 +21590,9 @@ VALUES (24022, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24022, 13, True)
      , (24022, 12, True)
-     , (24022, 15, True);
+     , (24022, 15, True)
+     , (24022, 19, True)
+     , (24022, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24023, 'trapportal-knorrorganis');
@@ -20238,7 +21617,9 @@ VALUES (24023, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24023, 13, True)
      , (24023, 12, True)
-     , (24023, 15, True);
+     , (24023, 15, True)
+     , (24023, 19, True)
+     , (24023, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24021, 'trapportal-knorrlibrarywest');
@@ -20263,7 +21644,9 @@ VALUES (24021, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24021, 13, True)
      , (24021, 12, True)
-     , (24021, 15, True);
+     , (24021, 15, True)
+     , (24021, 19, True)
+     , (24021, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24004, 'trapportal-knorrartificae');
@@ -20288,7 +21671,9 @@ VALUES (24004, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24004, 13, True)
      , (24004, 12, True)
-     , (24004, 15, True);
+     , (24004, 15, True)
+     , (24004, 19, True)
+     , (24004, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24017, 'trapportal-knorrheiromancy');
@@ -20313,7 +21698,9 @@ VALUES (24017, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24017, 13, True)
      , (24017, 12, True)
-     , (24017, 15, True);
+     , (24017, 15, True)
+     , (24017, 19, True)
+     , (24017, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24009, 'trapportal-knorrdormalaidain');
@@ -20338,7 +21725,9 @@ VALUES (24009, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24009, 13, True)
      , (24009, 12, True)
-     , (24009, 15, True);
+     , (24009, 15, True)
+     , (24009, 19, True)
+     , (24009, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24024, 'trapportal-knorrplanar');
@@ -20363,7 +21752,9 @@ VALUES (24024, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24024, 13, True)
      , (24024, 12, True)
-     , (24024, 15, True);
+     , (24024, 15, True)
+     , (24024, 19, True)
+     , (24024, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24018, 'trapportal-knorrlibraryeast');
@@ -20388,7 +21779,9 @@ VALUES (24018, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24018, 13, True)
      , (24018, 12, True)
-     , (24018, 15, True);
+     , (24018, 15, True)
+     , (24018, 19, True)
+     , (24018, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24016, 'trapportal-knorrgeomancy');
@@ -20413,7 +21806,9 @@ VALUES (24016, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24016, 13, True)
      , (24016, 12, True)
-     , (24016, 15, True);
+     , (24016, 15, True)
+     , (24016, 19, True)
+     , (24016, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24006, 'trapportal-knorrconjure');
@@ -20438,7 +21833,9 @@ VALUES (24006, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24006, 13, True)
      , (24006, 12, True)
-     , (24006, 15, True);
+     , (24006, 15, True)
+     , (24006, 19, True)
+     , (24006, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24010, 'trapportal-knorrdormatlan');
@@ -20463,7 +21860,9 @@ VALUES (24010, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24010, 13, True)
      , (24010, 12, True)
-     , (24010, 15, True);
+     , (24010, 15, True)
+     , (24010, 19, True)
+     , (24010, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24020, 'trapportal-knorrlibrarysouth');
@@ -20488,7 +21887,9 @@ VALUES (24020, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24020, 13, True)
      , (24020, 12, True)
-     , (24020, 15, True);
+     , (24020, 15, True)
+     , (24020, 19, True)
+     , (24020, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24008, 'trapportal-knorrdivine');
@@ -20513,7 +21914,9 @@ VALUES (24008, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24008, 13, True)
      , (24008, 12, True)
-     , (24008, 15, True);
+     , (24008, 15, True)
+     , (24008, 19, True)
+     , (24008, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24014, 'trapportal-knorrfatae');
@@ -20538,7 +21941,9 @@ VALUES (24014, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24014, 13, True)
      , (24014, 12, True)
-     , (24014, 15, True);
+     , (24014, 15, True)
+     , (24014, 19, True)
+     , (24014, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24011, 'trapportal-knorrdormcaerlin');
@@ -20563,7 +21968,9 @@ VALUES (24011, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24011, 13, True)
      , (24011, 12, True)
-     , (24011, 15, True);
+     , (24011, 15, True)
+     , (24011, 19, True)
+     , (24011, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24012, 'trapportal-knorrdrommaila');
@@ -20588,7 +21995,9 @@ VALUES (24012, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24012, 13, True)
      , (24012, 12, True)
-     , (24012, 15, True);
+     , (24012, 15, True)
+     , (24012, 19, True)
+     , (24012, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32281, 'ace32281-collegiumoccultusanteroom');
@@ -20617,7 +22026,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32281, 13, True)
      , (32281, 12, True)
      , (32281, 14, True)
-     , (32281, 15, True);
+     , (32281, 15, True)
+     , (32281, 19, True)
+     , (32281, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24019, 'trapportal-knorrlibrarynorth');
@@ -20642,7 +22053,9 @@ VALUES (24019, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24019, 13, True)
      , (24019, 12, True)
-     , (24019, 15, True);
+     , (24019, 15, True)
+     , (24019, 19, True)
+     , (24019, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24013, 'trapportal-knorrentropic');
@@ -20667,7 +22080,9 @@ VALUES (24013, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24013, 13, True)
      , (24013, 12, True)
-     , (24013, 15, True);
+     , (24013, 15, True)
+     , (24013, 19, True)
+     , (24013, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24005, 'trapportal-knorrbarracks');
@@ -20692,7 +22107,9 @@ VALUES (24005, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24005, 13, True)
      , (24005, 12, True)
-     , (24005, 15, True);
+     , (24005, 15, True)
+     , (24005, 19, True)
+     , (24005, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24026, 'trapportal-knorrstorm');
@@ -20717,7 +22134,9 @@ VALUES (24026, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24026, 13, True)
      , (24026, 12, True)
-     , (24026, 15, True);
+     , (24026, 15, True)
+     , (24026, 19, True)
+     , (24026, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24025, 'trapportal-knorrseat');
@@ -20742,7 +22161,9 @@ VALUES (24025, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24025, 13, True)
      , (24025, 12, True)
-     , (24025, 15, True);
+     , (24025, 15, True)
+     , (24025, 19, True)
+     , (24025, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36939, 'ace36939-planaracademylecturehall');
@@ -20767,7 +22188,9 @@ VALUES (36939, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (36939, 13, True)
      , (36939, 12, True)
-     , (36939, 15, True);
+     , (36939, 15, True)
+     , (36939, 19, True)
+     , (36939, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36940, 'ace36940-planaracademyheadmastersrooms');
@@ -20792,7 +22215,9 @@ VALUES (36940, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (36940, 13, True)
      , (36940, 12, True)
-     , (36940, 15, True);
+     , (36940, 15, True)
+     , (36940, 19, True)
+     , (36940, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36769, 'ace36769-quiddityseed');
@@ -20822,7 +22247,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (36769, 13, True)
      , (36769, 12, True)
      , (36769, 14, True)
-     , (36769, 15, True);
+     , (36769, 15, True)
+     , (36769, 19, True)
+     , (36769, 1, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (36769, 0, 83893820, 83893819);
@@ -20857,7 +22284,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51570, 13, True)
      , (51570, 12, True)
      , (51570, 14, True)
-     , (51570, 15, True);
+     , (51570, 15, True)
+     , (51570, 19, True)
+     , (51570, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51565, 'ace51565-surface');
@@ -20886,7 +22315,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51565, 13, True)
      , (51565, 12, True)
      , (51565, 14, True)
-     , (51565, 15, True);
+     , (51565, 15, True)
+     , (51565, 19, True)
+     , (51565, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51911, 'ace51911-surface');
@@ -20915,7 +22346,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51911, 13, True)
      , (51911, 12, True)
      , (51911, 14, True)
-     , (51911, 15, True);
+     , (51911, 15, True)
+     , (51911, 19, True)
+     , (51911, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51912, 'ace51912-preskstreasury');
@@ -20944,7 +22377,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51912, 13, True)
      , (51912, 12, True)
      , (51912, 14, True)
-     , (51912, 15, True);
+     , (51912, 15, True)
+     , (51912, 19, True)
+     , (51912, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51670, 'ace51670-surface');
@@ -20973,7 +22408,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51670, 13, True)
      , (51670, 12, True)
      , (51670, 14, True)
-     , (51670, 15, True);
+     , (51670, 15, True)
+     , (51670, 19, True)
+     , (51670, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52593, 'ace52593-gauntletstage2');
@@ -20999,7 +22436,9 @@ VALUES (52593, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52593, 11, True)
-     , (52593, 14, True);
+     , (52593, 14, True)
+     , (52593, 19, True)
+     , (52593, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52610, 'ace52610-gauntletstage3');
@@ -21025,7 +22464,9 @@ VALUES (52610, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52610, 11, True)
-     , (52610, 14, True);
+     , (52610, 14, True)
+     , (52610, 19, True)
+     , (52610, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52611, 'ace52611-gauntletstage4');
@@ -21051,7 +22492,9 @@ VALUES (52611, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52611, 11, True)
-     , (52611, 14, True);
+     , (52611, 14, True)
+     , (52611, 19, True)
+     , (52611, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52655, 'ace52655-gauntletstage6');
@@ -21077,7 +22520,9 @@ VALUES (52655, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52655, 11, True)
-     , (52655, 14, True);
+     , (52655, 14, True)
+     , (52655, 19, True)
+     , (52655, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52656, 'ace52656-gauntletstage7');
@@ -21103,7 +22548,9 @@ VALUES (52656, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52656, 11, True)
-     , (52656, 14, True);
+     , (52656, 14, True)
+     , (52656, 19, True)
+     , (52656, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52658, 'ace52658-gauntletstage8');
@@ -21129,7 +22576,9 @@ VALUES (52658, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52658, 11, True)
-     , (52658, 14, True);
+     , (52658, 14, True)
+     , (52658, 19, True)
+     , (52658, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52659, 'ace52659-gauntletstage9');
@@ -21155,7 +22604,9 @@ VALUES (52659, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52659, 11, True)
-     , (52659, 14, True);
+     , (52659, 14, True)
+     , (52659, 19, True)
+     , (52659, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44350, 'ace44350-catacombs');
@@ -21184,7 +22635,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (44350, 13, True)
      , (44350, 12, True)
      , (44350, 14, True)
-     , (44350, 15, True);
+     , (44350, 15, True)
+     , (44350, 19, True)
+     , (44350, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44450, 'ace44450-catacombs');
@@ -21213,7 +22666,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (44450, 13, True)
      , (44450, 12, True)
      , (44450, 14, True)
-     , (44450, 15, True);
+     , (44450, 15, True)
+     , (44450, 19, True)
+     , (44450, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44349, 'ace44349-exittosurface');
@@ -21242,7 +22697,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (44349, 13, True)
      , (44349, 12, True)
      , (44349, 14, True)
-     , (44349, 15, True);
+     , (44349, 15, True)
+     , (44349, 19, True)
+     , (44349, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30660, 'portalwarroom');
@@ -21271,7 +22728,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30660, 13, True)
      , (30660, 12, True)
      , (30660, 14, True)
-     , (30660, 15, True);
+     , (30660, 15, True)
+     , (30660, 19, True)
+     , (30660, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30661, 'portalwarroomexit');
@@ -21300,7 +22759,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30661, 13, True)
      , (30661, 12, True)
      , (30661, 14, True)
-     , (30661, 15, True);
+     , (30661, 15, True)
+     , (30661, 19, True)
+     , (30661, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52678, 'ace52678-gauntletstage1');
@@ -21326,7 +22787,9 @@ VALUES (52678, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52678, 11, True)
-     , (52678, 14, True);
+     , (52678, 14, True)
+     , (52678, 19, True)
+     , (52678, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1340, 'portalmosschamberexit');
@@ -21355,7 +22818,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1340, 13, True)
      , (1340, 12, True)
      , (1340, 14, True)
-     , (1340, 15, True);
+     , (1340, 15, True)
+     , (1340, 19, True)
+     , (1340, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9166, 'portalmartinelair');
@@ -21384,7 +22849,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9166, 13, True)
      , (9166, 12, True)
      , (9166, 14, True)
-     , (9166, 15, True);
+     , (9166, 15, True)
+     , (9166, 19, True)
+     , (9166, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9167, 'portalmartinelairexit');
@@ -21413,7 +22880,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9167, 13, True)
      , (9167, 12, True)
      , (9167, 14, True)
-     , (9167, 15, True);
+     , (9167, 15, True)
+     , (9167, 19, True)
+     , (9167, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51367, 'ace51367-antechamber');
@@ -21442,7 +22911,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51367, 13, True)
      , (51367, 12, True)
      , (51367, 14, True)
-     , (51367, 15, True);
+     , (51367, 15, True)
+     , (51367, 19, True)
+     , (51367, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51320, 'ace51320-surface');
@@ -21471,7 +22942,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51320, 13, True)
      , (51320, 12, True)
      , (51320, 14, True)
-     , (51320, 15, True);
+     , (51320, 15, True)
+     , (51320, 19, True)
+     , (51320, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51369, 'ace51369-testinggrounds');
@@ -21500,7 +22973,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51369, 13, True)
      , (51369, 12, True)
      , (51369, 14, True)
-     , (51369, 15, True);
+     , (51369, 15, True)
+     , (51369, 19, True)
+     , (51369, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51368, 'ace51368-laboratory');
@@ -21529,7 +23004,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51368, 13, True)
      , (51368, 12, True)
      , (51368, 14, True)
-     , (51368, 15, True);
+     , (51368, 15, True)
+     , (51368, 19, True)
+     , (51368, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19726, 'portalarcanumresearchfacility');
@@ -21558,7 +23035,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (19726, 13, True)
      , (19726, 12, True)
      , (19726, 14, True)
-     , (19726, 15, True);
+     , (19726, 15, True)
+     , (19726, 19, True)
+     , (19726, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19727, 'portalarcanumresearchfacilityexit');
@@ -21587,7 +23066,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (19727, 13, True)
      , (19727, 12, True)
      , (19727, 14, True)
-     , (19727, 15, True);
+     , (19727, 15, True)
+     , (19727, 19, True)
+     , (19727, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12290, 'portalchoriziterepository');
@@ -21616,7 +23097,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (12290, 13, True)
      , (12290, 12, True)
      , (12290, 14, True)
-     , (12290, 15, True);
+     , (12290, 15, True)
+     , (12290, 19, True)
+     , (12290, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33516, 'ace33516-altarnest');
@@ -21645,7 +23128,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33516, 13, True)
      , (33516, 12, True)
      , (33516, 14, True)
-     , (33516, 15, True);
+     , (33516, 15, True)
+     , (33516, 19, True)
+     , (33516, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49449, 'ace49449-samuraihausu');
@@ -21674,7 +23159,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (49449, 13, True)
      , (49449, 12, True)
      , (49449, 14, True)
-     , (49449, 15, True);
+     , (49449, 15, True)
+     , (49449, 19, True)
+     , (49449, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46619, 'ace46619-hoshinotower');
@@ -21704,7 +23191,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46619, 13, True)
      , (46619, 12, True)
      , (46619, 14, True)
-     , (46619, 15, True);
+     , (46619, 15, True)
+     , (46619, 19, True)
+     , (46619, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46545, 'ace46545-nanjoushoujenacademy');
@@ -21733,7 +23222,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46545, 13, True)
      , (46545, 12, True)
      , (46545, 14, True)
-     , (46545, 15, True);
+     , (46545, 15, True)
+     , (46545, 19, True)
+     , (46545, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46440, 'ace46440-venerablemausoleum');
@@ -21762,7 +23253,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46440, 13, True)
      , (46440, 12, True)
      , (46440, 14, True)
-     , (46440, 15, True);
+     , (46440, 15, True)
+     , (46440, 19, True)
+     , (46440, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46452, 'ace46452-surface');
@@ -21791,7 +23284,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46452, 13, True)
      , (46452, 12, True)
      , (46452, 14, True)
-     , (46452, 15, True);
+     , (46452, 15, True)
+     , (46452, 19, True)
+     , (46452, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46675, 'ace46675-surface');
@@ -21820,7 +23315,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46675, 13, True)
      , (46675, 12, True)
      , (46675, 14, True)
-     , (46675, 15, True);
+     , (46675, 15, True)
+     , (46675, 19, True)
+     , (46675, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46597, 'ace46597-falatacottemple');
@@ -21849,7 +23346,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46597, 13, True)
      , (46597, 12, True)
      , (46597, 14, True)
-     , (46597, 15, True);
+     , (46597, 15, True)
+     , (46597, 19, True)
+     , (46597, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46590, 'ace46590-greathall');
@@ -21878,7 +23377,10 @@ VALUES (46590, 54, -0.1)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (46590, 13, True)
      , (46590, 12, True)
-     , (46590, 14, True);
+     , (46590, 14, True)
+     , (46590, 19, True)
+     , (46590, 1, True)
+     , (46590, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2549, 'portalplateautop');
@@ -21907,7 +23409,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2549, 13, True)
      , (2549, 12, True)
      , (2549, 14, True)
-     , (2549, 15, True);
+     , (2549, 15, True)
+     , (2549, 19, True)
+     , (2549, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27696, 'portalrenegadestonehold');
@@ -21936,7 +23440,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27696, 13, True)
      , (27696, 12, True)
      , (27696, 14, True)
-     , (27696, 15, True);
+     , (27696, 15, True)
+     , (27696, 19, True)
+     , (27696, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33780, 'ace33780-blackspeartemple');
@@ -21965,7 +23471,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33780, 13, True)
      , (33780, 12, True)
      , (33780, 14, True)
-     , (33780, 15, True);
+     , (33780, 15, True)
+     , (33780, 19, True)
+     , (33780, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3629, 'portalpitexit');
@@ -21994,7 +23502,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3629, 13, True)
      , (3629, 12, True)
      , (3629, 14, True)
-     , (3629, 15, True);
+     , (3629, 15, True)
+     , (3629, 19, True)
+     , (3629, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24633, 'portalolthoihivehigh');
@@ -22023,7 +23533,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24633, 13, True)
      , (24633, 12, True)
      , (24633, 14, True)
-     , (24633, 15, True);
+     , (24633, 15, True)
+     , (24633, 19, True)
+     , (24633, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24330, 'portalblackdeathbotst3');
@@ -22052,7 +23564,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24330, 13, True)
      , (24330, 12, True)
      , (24330, 14, True)
-     , (24330, 15, True);
+     , (24330, 15, True)
+     , (24330, 19, True)
+     , (24330, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24328, 'portalblackdeathbotst1');
@@ -22081,7 +23595,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24328, 13, True)
      , (24328, 12, True)
      , (24328, 14, True)
-     , (24328, 15, True);
+     , (24328, 15, True)
+     , (24328, 19, True)
+     , (24328, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24334, 'portalblackdeathtopst2');
@@ -22110,7 +23626,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24334, 13, True)
      , (24334, 12, True)
      , (24334, 14, True)
-     , (24334, 15, True);
+     , (24334, 15, True)
+     , (24334, 19, True)
+     , (24334, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24336, 'portalblackdeathtopst4');
@@ -22139,7 +23657,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24336, 13, True)
      , (24336, 12, True)
      , (24336, 14, True)
-     , (24336, 15, True);
+     , (24336, 15, True)
+     , (24336, 19, True)
+     , (24336, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24337, 'portalblackdeathtopst5');
@@ -22168,7 +23688,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24337, 13, True)
      , (24337, 12, True)
      , (24337, 14, True)
-     , (24337, 15, True);
+     , (24337, 15, True)
+     , (24337, 19, True)
+     , (24337, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24226, 'portalblackdeathexpansion');
@@ -22197,7 +23719,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24226, 13, True)
      , (24226, 12, True)
      , (24226, 14, True)
-     , (24226, 15, True);
+     , (24226, 15, True)
+     , (24226, 19, True)
+     , (24226, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24227, 'portalcatacombsofopposition');
@@ -22226,7 +23750,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24227, 13, True)
      , (24227, 12, True)
      , (24227, 14, True)
-     , (24227, 15, True);
+     , (24227, 15, True)
+     , (24227, 19, True)
+     , (24227, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31341, 'ace31341-banditcastle');
@@ -22255,7 +23781,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31341, 13, True)
      , (31341, 12, True)
      , (31341, 14, True)
-     , (31341, 15, True);
+     , (31341, 15, True)
+     , (31341, 19, True)
+     , (31341, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9143, 'portaltumerokvanguardsouth');
@@ -22284,7 +23812,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9143, 13, True)
      , (9143, 12, True)
      , (9143, 14, True)
-     , (9143, 15, True);
+     , (9143, 15, True)
+     , (9143, 19, True)
+     , (9143, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9144, 'portaltumerokvanguardsouthexit');
@@ -22313,7 +23843,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9144, 13, True)
      , (9144, 12, True)
      , (9144, 14, True)
-     , (9144, 15, True);
+     , (9144, 15, True)
+     , (9144, 19, True)
+     , (9144, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15777, 'portalgeliditelibraryexit');
@@ -22342,7 +23874,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15777, 13, True)
      , (15777, 12, True)
      , (15777, 14, True)
-     , (15777, 15, True);
+     , (15777, 15, True)
+     , (15777, 19, True)
+     , (15777, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15778, 'portallabyrinth');
@@ -22371,7 +23905,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15778, 13, True)
      , (15778, 12, True)
      , (15778, 14, True)
-     , (15778, 15, True);
+     , (15778, 15, True)
+     , (15778, 19, True)
+     , (15778, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15779, 'portaloubliette');
@@ -22400,7 +23936,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15779, 13, True)
      , (15779, 12, True)
      , (15779, 14, True)
-     , (15779, 15, True);
+     , (15779, 15, True)
+     , (15779, 19, True)
+     , (15779, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28981, 'portalchapelxiru');
@@ -22429,7 +23967,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28981, 13, True)
      , (28981, 12, True)
      , (28981, 14, True)
-     , (28981, 15, True);
+     , (28981, 15, True)
+     , (28981, 19, True)
+     , (28981, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37068, 'ace37068-rootsofthederutree');
@@ -22458,7 +23998,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (37068, 13, True)
      , (37068, 12, True)
      , (37068, 14, True)
-     , (37068, 15, True);
+     , (37068, 15, True)
+     , (37068, 19, True)
+     , (37068, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28982, 'portalchapelxiruexit');
@@ -22487,7 +24029,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28982, 13, True)
      , (28982, 12, True)
      , (28982, 14, True)
-     , (28982, 15, True);
+     , (28982, 15, True)
+     , (28982, 19, True)
+     , (28982, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29959, 'portalcryptxiru');
@@ -22516,7 +24060,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29959, 13, True)
      , (29959, 12, True)
      , (29959, 14, True)
-     , (29959, 15, True);
+     , (29959, 15, True)
+     , (29959, 19, True)
+     , (29959, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29960, 'portallibraryxiru');
@@ -22545,7 +24091,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29960, 13, True)
      , (29960, 12, True)
      , (29960, 14, True)
-     , (29960, 15, True);
+     , (29960, 15, True)
+     , (29960, 19, True)
+     , (29960, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34542, 'ace34542-realaidaineasternvault');
@@ -22574,7 +24122,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34542, 13, True)
      , (34542, 12, True)
      , (34542, 14, True)
-     , (34542, 15, True);
+     , (34542, 15, True)
+     , (34542, 19, True)
+     , (34542, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34543, 'ace34543-surface');
@@ -22603,7 +24153,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34543, 13, True)
      , (34543, 12, True)
      , (34543, 14, True)
-     , (34543, 15, True);
+     , (34543, 15, True)
+     , (34543, 19, True)
+     , (34543, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34544, 'ace34544-realaidainnorthernvault');
@@ -22632,7 +24184,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34544, 13, True)
      , (34544, 12, True)
      , (34544, 14, True)
-     , (34544, 15, True);
+     , (34544, 15, True)
+     , (34544, 19, True)
+     , (34544, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34539, 'ace34539-surface');
@@ -22661,7 +24215,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34539, 13, True)
      , (34539, 12, True)
      , (34539, 14, True)
-     , (34539, 15, True);
+     , (34539, 15, True)
+     , (34539, 19, True)
+     , (34539, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34540, 'ace34540-realaidainwesternvault');
@@ -22690,7 +24246,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34540, 13, True)
      , (34540, 12, True)
      , (34540, 14, True)
-     , (34540, 15, True);
+     , (34540, 15, True)
+     , (34540, 19, True)
+     , (34540, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34541, 'ace34541-surface');
@@ -22719,7 +24277,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34541, 13, True)
      , (34541, 12, True)
      , (34541, 14, True)
-     , (34541, 15, True);
+     , (34541, 15, True)
+     , (34541, 19, True)
+     , (34541, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34844, 'ace34844-korgursha');
@@ -22748,7 +24308,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34844, 13, True)
      , (34844, 12, True)
      , (34844, 14, True)
-     , (34844, 15, True);
+     , (34844, 15, True)
+     , (34844, 19, True)
+     , (34844, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34771, 'ace34771-muggygurukcaverns');
@@ -22777,7 +24339,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34771, 13, True)
      , (34771, 12, True)
      , (34771, 14, True)
-     , (34771, 15, True);
+     , (34771, 15, True)
+     , (34771, 19, True)
+     , (34771, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34831, 'ace34831-easterncatacombs');
@@ -22806,7 +24370,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34831, 13, True)
      , (34831, 12, True)
      , (34831, 14, True)
-     , (34831, 15, True);
+     , (34831, 15, True)
+     , (34831, 19, True)
+     , (34831, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34827, 'ace34827-southerncatacombs');
@@ -22835,7 +24401,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34827, 13, True)
      , (34827, 12, True)
      , (34827, 14, True)
-     , (34827, 15, True);
+     , (34827, 15, True)
+     , (34827, 19, True)
+     , (34827, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34829, 'ace34829-northerncatacombs');
@@ -22864,7 +24432,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34829, 13, True)
      , (34829, 12, True)
      , (34829, 14, True)
-     , (34829, 15, True);
+     , (34829, 15, True)
+     , (34829, 19, True)
+     , (34829, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34828, 'ace34828-southerncatacombsexit');
@@ -22893,7 +24463,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34828, 13, True)
      , (34828, 12, True)
      , (34828, 14, True)
-     , (34828, 15, True);
+     , (34828, 15, True)
+     , (34828, 19, True)
+     , (34828, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35801, 'ace35801-templeofthethree,ritualchambers');
@@ -22922,7 +24494,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35801, 13, True)
      , (35801, 12, True)
      , (35801, 14, True)
-     , (35801, 15, True);
+     , (35801, 15, True)
+     , (35801, 19, True)
+     , (35801, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34767, 'ace34767-deepgurukcaverns');
@@ -22951,7 +24525,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34767, 13, True)
      , (34767, 12, True)
      , (34767, 14, True)
-     , (34767, 15, True);
+     , (34767, 15, True)
+     , (34767, 19, True)
+     , (34767, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34768, 'ace34768-cavernexit');
@@ -22980,7 +24556,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34768, 13, True)
      , (34768, 12, True)
      , (34768, 14, True)
-     , (34768, 15, True);
+     , (34768, 15, True)
+     , (34768, 19, True)
+     , (34768, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35037, 'ace35037-templeofthethree');
@@ -23009,7 +24587,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35037, 13, True)
      , (35037, 12, True)
      , (35037, 14, True)
-     , (35037, 15, True);
+     , (35037, 15, True)
+     , (35037, 19, True)
+     , (35037, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35039, 'ace35039-ritualchambers');
@@ -23038,7 +24618,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35039, 13, True)
      , (35039, 12, True)
      , (35039, 14, True)
-     , (35039, 15, True);
+     , (35039, 15, True)
+     , (35039, 19, True)
+     , (35039, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35038, 'ace35038-burcatacombs');
@@ -23067,7 +24649,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35038, 13, True)
      , (35038, 12, True)
      , (35038, 14, True)
-     , (35038, 15, True);
+     , (35038, 15, True)
+     , (35038, 19, True)
+     , (35038, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35484, 'ace35484-returntolinvaktukal');
@@ -23096,7 +24680,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35484, 13, True)
      , (35484, 12, True)
      , (35484, 14, True)
-     , (35484, 15, True);
+     , (35484, 15, True)
+     , (35484, 19, True)
+     , (35484, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36698, 'ace36698-trialsofthearm,mindandheart');
@@ -23125,7 +24711,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (36698, 13, True)
      , (36698, 12, True)
      , (36698, 14, True)
-     , (36698, 15, True);
+     , (36698, 15, True)
+     , (36698, 19, True)
+     , (36698, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36699, 'ace36699-trialofthearm');
@@ -23154,7 +24742,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (36699, 13, True)
      , (36699, 12, True)
      , (36699, 14, True)
-     , (36699, 15, True);
+     , (36699, 15, True)
+     , (36699, 19, True)
+     , (36699, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36701, 'ace36701-trialofthemind');
@@ -23183,7 +24773,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (36701, 13, True)
      , (36701, 12, True)
      , (36701, 14, True)
-     , (36701, 15, True);
+     , (36701, 15, True)
+     , (36701, 19, True)
+     , (36701, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5530, 'portalsaadiaruins');
@@ -23212,7 +24804,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5530, 13, True)
      , (5530, 12, True)
      , (5530, 14, True)
-     , (5530, 15, True);
+     , (5530, 15, True)
+     , (5530, 19, True)
+     , (5530, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39747, 'ace39747-southostethpeak');
@@ -23240,7 +24834,9 @@ VALUES (39747, 54, -0.1);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (39747, 13, True)
      , (39747, 12, True)
-     , (39747, 15, True);
+     , (39747, 15, True)
+     , (39747, 19, True)
+     , (39747, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25835, 'portalfirebirdemptysoul');
@@ -23269,7 +24865,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25835, 13, True)
      , (25835, 12, True)
      , (25835, 14, True)
-     , (25835, 15, True);
+     , (25835, 15, True)
+     , (25835, 19, True)
+     , (25835, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28712, 'portalviamontiantorturechamberexit');
@@ -23298,7 +24896,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28712, 13, True)
      , (28712, 12, True)
      , (28712, 14, True)
-     , (28712, 15, True);
+     , (28712, 15, True)
+     , (28712, 19, True)
+     , (28712, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28780, 'portalsmallempvault');
@@ -23327,7 +24927,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28780, 13, True)
      , (28780, 12, True)
      , (28780, 14, True)
-     , (28780, 15, True);
+     , (28780, 15, True)
+     , (28780, 19, True)
+     , (28780, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30061, 'portalaugmentationrealmupper');
@@ -23356,7 +24958,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30061, 13, True)
      , (30061, 12, True)
      , (30061, 14, True)
-     , (30061, 15, True);
+     , (30061, 15, True)
+     , (30061, 19, True)
+     , (30061, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25605, 'portalelementalcaverns');
@@ -23385,7 +24989,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25605, 13, True)
      , (25605, 12, True)
      , (25605, 14, True)
-     , (25605, 15, True);
+     , (25605, 15, True)
+     , (25605, 19, True)
+     , (25605, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40878, 'ace40878-facilityentrance');
@@ -23414,7 +25020,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40878, 13, True)
      , (40878, 12, True)
      , (40878, 14, True)
-     , (40878, 15, True);
+     , (40878, 15, True)
+     , (40878, 19, True)
+     , (40878, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2556, 'portalswampdirelands');
@@ -23443,7 +25051,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2556, 13, True)
      , (2556, 12, True)
      , (2556, 14, True)
-     , (2556, 15, True);
+     , (2556, 15, True)
+     , (2556, 19, True)
+     , (2556, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14886, 'portalmalignanttabernacle');
@@ -23472,7 +25082,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14886, 13, True)
      , (14886, 12, True)
      , (14886, 14, True)
-     , (14886, 15, True);
+     , (14886, 15, True)
+     , (14886, 19, True)
+     , (14886, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30470, 'portalpowerforgewest');
@@ -23501,7 +25113,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30470, 13, True)
      , (30470, 12, True)
      , (30470, 14, True)
-     , (30470, 15, True);
+     , (30470, 15, True)
+     , (30470, 19, True)
+     , (30470, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25976, 'portaldecrepittowersurface');
@@ -23530,7 +25144,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25976, 13, True)
      , (25976, 12, True)
      , (25976, 14, True)
-     , (25976, 15, True);
+     , (25976, 15, True)
+     , (25976, 19, True)
+     , (25976, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25975, 'portaldecrepittower');
@@ -23559,7 +25175,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25975, 13, True)
      , (25975, 12, True)
      , (25975, 14, True)
-     , (25975, 15, True);
+     , (25975, 15, True)
+     , (25975, 19, True)
+     , (25975, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46012, 'ace46012-virindiresearchfacility');
@@ -23588,7 +25206,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46012, 13, True)
      , (46012, 12, True)
      , (46012, 14, True)
-     , (46012, 15, True);
+     , (46012, 15, True)
+     , (46012, 19, True)
+     , (46012, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46013, 'ace46013-surface');
@@ -23617,7 +25237,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46013, 13, True)
      , (46013, 12, True)
      , (46013, 14, True)
-     , (46013, 15, True);
+     , (46013, 15, True)
+     , (46013, 19, True)
+     , (46013, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41233, 'ace41233-reavingfacility');
@@ -23646,7 +25268,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41233, 13, True)
      , (41233, 12, True)
      , (41233, 14, True)
-     , (41233, 15, True);
+     , (41233, 15, True)
+     , (41233, 19, True)
+     , (41233, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41235, 'ace41235-surface');
@@ -23675,7 +25299,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41235, 13, True)
      , (41235, 12, True)
      , (41235, 14, True)
-     , (41235, 15, True);
+     , (41235, 15, True)
+     , (41235, 19, True)
+     , (41235, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41234, 'ace41234-arrivalchamber');
@@ -23704,7 +25330,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41234, 13, True)
      , (41234, 12, True)
      , (41234, 14, True)
-     , (41234, 15, True);
+     , (41234, 15, True)
+     , (41234, 19, True)
+     , (41234, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5651, 'portalbaishiundeadkeepdown');
@@ -23733,7 +25361,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5651, 13, True)
      , (5651, 12, True)
      , (5651, 14, True)
-     , (5651, 15, True);
+     , (5651, 15, True)
+     , (5651, 19, True)
+     , (5651, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28823, 'portalabayarstudy');
@@ -23762,7 +25392,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28823, 13, True)
      , (28823, 12, True)
      , (28823, 14, True)
-     , (28823, 15, True);
+     , (28823, 15, True)
+     , (28823, 19, True)
+     , (28823, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28824, 'portalabayarstudyexit');
@@ -23791,7 +25423,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28824, 13, True)
      , (28824, 12, True)
      , (28824, 14, True)
-     , (28824, 15, True);
+     , (28824, 15, True)
+     , (28824, 19, True)
+     , (28824, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36170, 'ace36170-thepathtomorerecenttimes');
@@ -23820,7 +25454,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (36170, 13, True)
      , (36170, 12, True)
      , (36170, 14, True)
-     , (36170, 15, True);
+     , (36170, 15, True)
+     , (36170, 19, True)
+     , (36170, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46358, 'ace46358-surface');
@@ -23849,7 +25485,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46358, 13, True)
      , (46358, 12, True)
      , (46358, 14, True)
-     , (46358, 15, True);
+     , (46358, 15, True)
+     , (46358, 19, True)
+     , (46358, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47209, 'ace47209-surface');
@@ -23878,7 +25516,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (47209, 13, True)
      , (47209, 12, True)
      , (47209, 14, True)
-     , (47209, 15, True);
+     , (47209, 15, True)
+     , (47209, 19, True)
+     , (47209, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48933, 'ace48933-surface');
@@ -23907,7 +25547,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (48933, 13, True)
      , (48933, 12, True)
      , (48933, 14, True)
-     , (48933, 15, True);
+     , (48933, 15, True)
+     , (48933, 19, True)
+     , (48933, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1332, 'portalcaveexit');
@@ -23936,7 +25578,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1332, 13, True)
      , (1332, 12, True)
      , (1332, 14, True)
-     , (1332, 15, True);
+     , (1332, 15, True)
+     , (1332, 19, True)
+     , (1332, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4053, 'portalminesofdespair');
@@ -23965,7 +25609,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4053, 13, True)
      , (4053, 12, True)
      , (4053, 14, True)
-     , (4053, 15, True);
+     , (4053, 15, True)
+     , (4053, 19, True)
+     , (4053, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1090, 'portalashentearsexit');
@@ -23994,7 +25640,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1090, 13, True)
      , (1090, 12, True)
      , (1090, 14, True)
-     , (1090, 15, True);
+     , (1090, 15, True)
+     , (1090, 19, True)
+     , (1090, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3633, 'portaloldmineexit');
@@ -24023,7 +25671,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3633, 13, True)
      , (3633, 12, True)
      , (3633, 14, True)
-     , (3633, 15, True);
+     , (3633, 15, True)
+     , (3633, 19, True)
+     , (3633, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3632, 'portaloldmine');
@@ -24052,7 +25702,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3632, 13, True)
      , (3632, 12, True)
      , (3632, 14, True)
-     , (3632, 15, True);
+     , (3632, 15, True)
+     , (3632, 19, True)
+     , (3632, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2075, 'portaldungeontattersexit');
@@ -24081,7 +25733,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2075, 13, True)
      , (2075, 12, True)
      , (2075, 14, True)
-     , (2075, 15, True);
+     , (2075, 15, True)
+     , (2075, 19, True)
+     , (2075, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8497, 'portaljungleshadows');
@@ -24110,7 +25764,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8497, 13, True)
      , (8497, 12, True)
      , (8497, 14, True)
-     , (8497, 15, True);
+     , (8497, 15, True)
+     , (8497, 19, True)
+     , (8497, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33788, 'ace33788-falatacotvault');
@@ -24139,7 +25795,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33788, 13, True)
      , (33788, 12, True)
      , (33788, 14, True)
-     , (33788, 15, True);
+     , (33788, 15, True)
+     , (33788, 19, True)
+     , (33788, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8480, 'portalvesayensmalltempleb');
@@ -24168,7 +25826,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8480, 13, True)
      , (8480, 12, True)
      , (8480, 14, True)
-     , (8480, 15, True);
+     , (8480, 15, True)
+     , (8480, 19, True)
+     , (8480, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8481, 'portalvesayensmalltemplebexit');
@@ -24197,7 +25857,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8481, 13, True)
      , (8481, 12, True)
      , (8481, 14, True)
-     , (8481, 15, True);
+     , (8481, 15, True)
+     , (8481, 19, True)
+     , (8481, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42222, 'ace42222-stronghold');
@@ -24226,7 +25888,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42222, 13, True)
      , (42222, 12, True)
      , (42222, 14, True)
-     , (42222, 15, True);
+     , (42222, 15, True)
+     , (42222, 19, True)
+     , (42222, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2337, 'portaltumerokoutpost');
@@ -24255,7 +25919,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2337, 13, True)
      , (2337, 12, True)
      , (2337, 14, True)
-     , (2337, 15, True);
+     , (2337, 15, True)
+     , (2337, 19, True)
+     , (2337, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47840, 'ace47840-coltonreeyanssanctuary');
@@ -24284,7 +25950,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (47840, 13, True)
      , (47840, 12, True)
      , (47840, 14, True)
-     , (47840, 15, True);
+     , (47840, 15, True)
+     , (47840, 19, True)
+     , (47840, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5523, 'portalmountnaipenset');
@@ -24312,7 +25980,9 @@ VALUES (5523, 54, -0.1);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5523, 13, True)
      , (5523, 12, True)
-     , (5523, 15, True);
+     , (5523, 15, True)
+     , (5523, 19, True)
+     , (5523, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28834, 'portalmossycaveexit');
@@ -24341,7 +26011,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28834, 13, True)
      , (28834, 12, True)
      , (28834, 14, True)
-     , (28834, 15, True);
+     , (28834, 15, True)
+     , (28834, 19, True)
+     , (28834, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24911, 'portalolthoihive2low');
@@ -24370,7 +26042,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24911, 13, True)
      , (24911, 12, True)
      , (24911, 14, True)
-     , (24911, 15, True);
+     , (24911, 15, True)
+     , (24911, 19, True)
+     , (24911, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28805, 'portalruinedempvaultexit');
@@ -24399,7 +26073,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28805, 13, True)
      , (28805, 12, True)
      , (28805, 14, True)
-     , (28805, 15, True);
+     , (28805, 15, True)
+     , (28805, 19, True)
+     , (28805, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28804, 'portalruinedempvault');
@@ -24428,7 +26104,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28804, 13, True)
      , (28804, 12, True)
      , (28804, 14, True)
-     , (28804, 15, True);
+     , (28804, 15, True)
+     , (28804, 19, True)
+     , (28804, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31315, 'ace31315-creepycanyons');
@@ -24457,7 +26135,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31315, 13, True)
      , (31315, 12, True)
      , (31315, 14, True)
-     , (31315, 15, True);
+     , (31315, 15, True)
+     , (31315, 19, True)
+     , (31315, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4164, 'portaldesertmine');
@@ -24486,7 +26166,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4164, 13, True)
      , (4164, 12, True)
      , (4164, 14, True)
-     , (4164, 15, True);
+     , (4164, 15, True)
+     , (4164, 19, True)
+     , (4164, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11686, 'portaldyedungeon');
@@ -24515,7 +26197,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (11686, 13, True)
      , (11686, 12, True)
      , (11686, 14, True)
-     , (11686, 15, True);
+     , (11686, 15, True)
+     , (11686, 19, True)
+     , (11686, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23512, 'portalsmallarchive');
@@ -24544,7 +26228,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23512, 13, True)
      , (23512, 12, True)
      , (23512, 14, True)
-     , (23512, 15, True);
+     , (23512, 15, True)
+     , (23512, 19, True)
+     , (23512, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12152, 'portalinfiltratorkeepsouth');
@@ -24573,7 +26259,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (12152, 13, True)
      , (12152, 12, True)
      , (12152, 14, True)
-     , (12152, 15, True);
+     , (12152, 15, True)
+     , (12152, 19, True)
+     , (12152, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12153, 'portalinfiltratorkeepsouthexit');
@@ -24602,7 +26290,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (12153, 13, True)
      , (12153, 12, True)
      , (12153, 14, True)
-     , (12153, 15, True);
+     , (12153, 15, True)
+     , (12153, 19, True)
+     , (12153, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (442, 'portalsyliphplain');
@@ -24631,7 +26321,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (442, 13, True)
      , (442, 12, True)
      , (442, 14, True)
-     , (442, 15, True);
+     , (442, 15, True)
+     , (442, 19, True)
+     , (442, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (441, 'portalbaseofsyliphb');
@@ -24660,7 +26352,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (441, 13, True)
      , (441, 12, True)
      , (441, 14, True)
-     , (441, 15, True);
+     , (441, 15, True)
+     , (441, 19, True)
+     , (441, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12150, 'portalinfiltratorkeepnorth');
@@ -24689,7 +26383,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (12150, 13, True)
      , (12150, 12, True)
      , (12150, 14, True)
-     , (12150, 15, True);
+     , (12150, 15, True)
+     , (12150, 19, True)
+     , (12150, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7248, 'portalmossbandalu');
@@ -24718,7 +26414,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7248, 13, True)
      , (7248, 12, True)
      , (7248, 14, True)
-     , (7248, 15, True);
+     , (7248, 15, True)
+     , (7248, 19, True)
+     , (7248, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4917, 'portalbonelair');
@@ -24747,7 +26445,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4917, 13, True)
      , (4917, 12, True)
      , (4917, 14, True)
-     , (4917, 15, True);
+     , (4917, 15, True)
+     , (4917, 19, True)
+     , (4917, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27299, 'portalshadoworphanageexit');
@@ -24775,7 +26475,9 @@ VALUES (27299, 54, -0.1);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27299, 13, True)
      , (27299, 12, True)
-     , (27299, 15, True);
+     , (27299, 15, True)
+     , (27299, 19, True)
+     , (27299, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36008, 'ace36008-prodigalshadowchildslair');
@@ -24804,7 +26506,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (36008, 13, True)
      , (36008, 12, True)
      , (36008, 14, True)
-     , (36008, 15, True);
+     , (36008, 15, True)
+     , (36008, 19, True)
+     , (36008, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2385, 'portaldisastermaze');
@@ -24833,7 +26537,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2385, 13, True)
      , (2385, 12, True)
      , (2385, 14, True)
-     , (2385, 15, True);
+     , (2385, 15, True)
+     , (2385, 19, True)
+     , (2385, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2064, 'portaldryreachout');
@@ -24862,7 +26568,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2064, 13, True)
      , (2064, 12, True)
      , (2064, 14, True)
-     , (2064, 15, True);
+     , (2064, 15, True)
+     , (2064, 19, True)
+     , (2064, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2065, 'portaldryreachin');
@@ -24891,7 +26599,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2065, 13, True)
      , (2065, 12, True)
      , (2065, 14, True)
-     , (2065, 15, True);
+     , (2065, 15, True)
+     , (2065, 19, True)
+     , (2065, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2339, 'portalforkingtrail');
@@ -24920,7 +26630,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2339, 13, True)
      , (2339, 12, True)
      , (2339, 14, True)
-     , (2339, 15, True);
+     , (2339, 15, True)
+     , (2339, 19, True)
+     , (2339, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2340, 'portalforkingtrailexit');
@@ -24949,7 +26661,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2340, 13, True)
      , (2340, 12, True)
      , (2340, 14, True)
-     , (2340, 15, True);
+     , (2340, 15, True)
+     , (2340, 19, True)
+     , (2340, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1348, 'portalwhiteratnestexit');
@@ -24978,7 +26692,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1348, 13, True)
      , (1348, 12, True)
      , (1348, 14, True)
-     , (1348, 15, True);
+     , (1348, 15, True)
+     , (1348, 19, True)
+     , (1348, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4158, 'portaldaiklosdungeon');
@@ -25007,7 +26723,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4158, 13, True)
      , (4158, 12, True)
      , (4158, 14, True)
-     , (4158, 15, True);
+     , (4158, 15, True)
+     , (4158, 19, True)
+     , (4158, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2071, 'portaldungeonfernexit');
@@ -25036,7 +26754,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2071, 13, True)
      , (2071, 12, True)
      , (2071, 14, True)
-     , (2071, 15, True);
+     , (2071, 15, True)
+     , (2071, 19, True)
+     , (2071, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2070, 'portaldungeonfern');
@@ -25065,7 +26785,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2070, 13, True)
      , (2070, 12, True)
      , (2070, 14, True)
-     , (2070, 15, True);
+     , (2070, 15, True)
+     , (2070, 19, True)
+     , (2070, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1095, 'portalshadowsexit');
@@ -25094,7 +26816,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1095, 13, True)
      , (1095, 12, True)
      , (1095, 14, True)
-     , (1095, 15, True);
+     , (1095, 15, True)
+     , (1095, 19, True)
+     , (1095, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1323, 'portaleasthamsewer');
@@ -25123,7 +26847,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1323, 13, True)
      , (1323, 12, True)
      , (1323, 14, True)
-     , (1323, 15, True);
+     , (1323, 15, True)
+     , (1323, 19, True)
+     , (1323, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4936, 'portaldeadbarracksexit');
@@ -25152,7 +26878,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4936, 13, True)
      , (4936, 12, True)
      , (4936, 14, True)
-     , (4936, 15, True);
+     , (4936, 15, True)
+     , (4936, 19, True)
+     , (4936, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2085, 'portallakesidelairexit');
@@ -25181,7 +26909,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2085, 13, True)
      , (2085, 12, True)
      , (2085, 14, True)
-     , (2085, 15, True);
+     , (2085, 15, True)
+     , (2085, 19, True)
+     , (2085, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2084, 'portallakesidelair');
@@ -25210,7 +26940,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2084, 13, True)
      , (2084, 12, True)
      , (2084, 14, True)
-     , (2084, 15, True);
+     , (2084, 15, True)
+     , (2084, 19, True)
+     , (2084, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2093, 'portalsimpletowerexit');
@@ -25239,7 +26971,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2093, 13, True)
      , (2093, 12, True)
      , (2093, 14, True)
-     , (2093, 15, True);
+     , (2093, 15, True)
+     , (2093, 19, True)
+     , (2093, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11324, 'portaltanuacaveexit-xp');
@@ -25268,7 +27002,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (11324, 13, True)
      , (11324, 12, True)
      , (11324, 14, True)
-     , (11324, 15, True);
+     , (11324, 15, True)
+     , (11324, 19, True)
+     , (11324, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22011, 'portalolthoiarcadenorth');
@@ -25297,7 +27033,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22011, 13, True)
      , (22011, 12, True)
      , (22011, 14, True)
-     , (22011, 15, True);
+     , (22011, 15, True)
+     , (22011, 19, True)
+     , (22011, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22012, 'portalolthoiarcadenorthexit');
@@ -25326,7 +27064,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22012, 13, True)
      , (22012, 12, True)
      , (22012, 14, True)
-     , (22012, 15, True);
+     , (22012, 15, True)
+     , (22012, 19, True)
+     , (22012, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22189, 'portalolthoiarcadecentral');
@@ -25355,7 +27095,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22189, 13, True)
      , (22189, 12, True)
      , (22189, 14, True)
-     , (22189, 15, True);
+     , (22189, 15, True)
+     , (22189, 19, True)
+     , (22189, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23891, 'portaltumerokwarfalcon');
@@ -25384,7 +27126,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23891, 13, True)
      , (23891, 12, True)
      , (23891, 14, True)
-     , (23891, 15, True);
+     , (23891, 15, True)
+     , (23891, 19, True)
+     , (23891, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23892, 'portaltumerokwarfalconexit');
@@ -25413,7 +27157,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23892, 13, True)
      , (23892, 12, True)
      , (23892, 14, True)
-     , (23892, 15, True);
+     , (23892, 15, True)
+     , (23892, 19, True)
+     , (23892, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33543, 'ace33543-deepmukkirnest');
@@ -25442,7 +27188,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33543, 13, True)
      , (33543, 12, True)
      , (33543, 14, True)
-     , (33543, 15, True);
+     , (33543, 15, True)
+     , (33543, 19, True)
+     , (33543, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4156, 'portalnye');
@@ -25471,7 +27219,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4156, 13, True)
      , (4156, 12, True)
      , (4156, 14, True)
-     , (4156, 15, True);
+     , (4156, 15, True)
+     , (4156, 19, True)
+     , (4156, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28265, 'portalmosswartswamplord');
@@ -25500,7 +27250,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28265, 13, True)
      , (28265, 12, True)
      , (28265, 14, True)
-     , (28265, 15, True);
+     , (28265, 15, True)
+     , (28265, 19, True)
+     , (28265, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28096, 'renegadehiddenentrance');
@@ -25525,7 +27277,9 @@ VALUES (28096, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28096, 13, True)
      , (28096, 12, True)
-     , (28096, 15, True);
+     , (28096, 15, True)
+     , (28096, 19, True)
+     , (28096, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8499, 'portalnorthernpoint');
@@ -25554,7 +27308,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8499, 13, True)
      , (8499, 12, True)
      , (8499, 14, True)
-     , (8499, 15, True);
+     , (8499, 15, True)
+     , (8499, 19, True)
+     , (8499, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9188, 'portaltombofthedead');
@@ -25583,7 +27339,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9188, 13, True)
      , (9188, 12, True)
      , (9188, 14, True)
-     , (9188, 15, True);
+     , (9188, 15, True)
+     , (9188, 19, True)
+     , (9188, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30750, 'portaldefiledtemplemid');
@@ -25612,7 +27370,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30750, 13, True)
      , (30750, 12, True)
      , (30750, 14, True)
-     , (30750, 15, True);
+     , (30750, 15, True)
+     , (30750, 19, True)
+     , (30750, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30749, 'portaldefiledtemplelow');
@@ -25641,7 +27401,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30749, 13, True)
      , (30749, 12, True)
      , (30749, 14, True)
-     , (30749, 15, True);
+     , (30749, 15, True)
+     , (30749, 19, True)
+     , (30749, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30751, 'portaldefiledtemplehigh');
@@ -25670,7 +27432,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30751, 13, True)
      , (30751, 12, True)
      , (30751, 14, True)
-     , (30751, 15, True);
+     , (30751, 15, True)
+     , (30751, 19, True)
+     , (30751, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30752, 'portaldefiledtempleuber');
@@ -25699,7 +27463,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30752, 13, True)
      , (30752, 12, True)
      , (30752, 14, True)
-     , (30752, 15, True);
+     , (30752, 15, True)
+     , (30752, 19, True)
+     , (30752, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25397, 'portalfalatacottemplesurface');
@@ -25728,7 +27494,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25397, 13, True)
      , (25397, 12, True)
      , (25397, 14, True)
-     , (25397, 15, True);
+     , (25397, 15, True)
+     , (25397, 19, True)
+     , (25397, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34516, 'ace34516-statue');
@@ -25757,7 +27525,9 @@ VALUES (34516, 39, 0.8);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34516, 11, True)
-     , (34516, 14, True);
+     , (34516, 14, True)
+     , (34516, 19, True)
+     , (34516, 1, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (34516, 0, 83886113, 83897668)
@@ -25842,7 +27612,9 @@ VALUES (34515, 39, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34515, 11, True)
-     , (34515, 14, True);
+     , (34515, 14, True)
+     , (34515, 19, True)
+     , (34515, 1, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (34515, 0, 83889751, 83897668)
@@ -25893,7 +27665,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31420, 13, True)
      , (31420, 12, True)
      , (31420, 14, True)
-     , (31420, 15, True);
+     , (31420, 15, True)
+     , (31420, 19, True)
+     , (31420, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10792, 'portalvirindieastham');
@@ -25922,7 +27696,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10792, 13, True)
      , (10792, 12, True)
      , (10792, 14, True)
-     , (10792, 15, True);
+     , (10792, 15, True)
+     , (10792, 19, True)
+     , (10792, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1327, 'portalemptyicecave');
@@ -25951,7 +27727,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1327, 13, True)
      , (1327, 12, True)
      , (1327, 14, True)
-     , (1327, 15, True);
+     , (1327, 15, True)
+     , (1327, 19, True)
+     , (1327, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2344, 'portaldungeonswampruin');
@@ -25980,7 +27758,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2344, 13, True)
      , (2344, 12, True)
      , (2344, 14, True)
-     , (2344, 15, True);
+     , (2344, 15, True)
+     , (2344, 19, True)
+     , (2344, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27692, 'portalrenegadeprosper');
@@ -26009,7 +27789,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27692, 13, True)
      , (27692, 12, True)
      , (27692, 14, True)
-     , (27692, 15, True);
+     , (27692, 15, True)
+     , (27692, 19, True)
+     , (27692, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35563, 'ace35563-archive');
@@ -26038,7 +27820,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35563, 13, True)
      , (35563, 12, True)
      , (35563, 14, True)
-     , (35563, 15, True);
+     , (35563, 15, True)
+     , (35563, 19, True)
+     , (35563, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35564, 'ace35564-surface');
@@ -26067,7 +27851,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35564, 13, True)
      , (35564, 12, True)
      , (35564, 14, True)
-     , (35564, 15, True);
+     , (35564, 15, True)
+     , (35564, 19, True)
+     , (35564, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32993, 'ace32993-whisperingbladechapterhouse');
@@ -26096,7 +27882,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32993, 13, True)
      , (32993, 12, True)
      , (32993, 14, True)
-     , (32993, 15, True);
+     , (32993, 15, True)
+     , (32993, 19, True)
+     , (32993, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33255, 'ace33255-pheraionssanctum');
@@ -26125,7 +27913,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33255, 13, True)
      , (33255, 12, True)
      , (33255, 14, True)
-     , (33255, 15, True);
+     , (33255, 15, True)
+     , (33255, 19, True)
+     , (33255, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33254, 'ace33254-surface');
@@ -26154,7 +27944,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33254, 13, True)
      , (33254, 12, True)
      , (33254, 14, True)
-     , (33254, 15, True);
+     , (33254, 15, True)
+     , (33254, 19, True)
+     , (33254, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33517, 'ace33517-surface');
@@ -26183,7 +27975,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33517, 13, True)
      , (33517, 12, True)
      , (33517, 14, True)
-     , (33517, 15, True);
+     , (33517, 15, True)
+     , (33517, 19, True)
+     , (33517, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43577, 'ace43577-olthoitunnel');
@@ -26213,7 +28007,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43577, 13, True)
      , (43577, 12, True)
      , (43577, 14, True)
-     , (43577, 15, True);
+     , (43577, 15, True)
+     , (43577, 19, True)
+     , (43577, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43577, 67111849, 1, 255);
@@ -26245,7 +28041,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51402, 13, True)
      , (51402, 12, True)
      , (51402, 14, True)
-     , (51402, 15, True);
+     , (51402, 15, True)
+     , (51402, 19, True)
+     , (51402, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32844, 'ace32844-thedarkspiral');
@@ -26274,7 +28072,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32844, 13, True)
      , (32844, 12, True)
      , (32844, 14, True)
-     , (32844, 15, True);
+     , (32844, 15, True)
+     , (32844, 19, True)
+     , (32844, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32845, 'ace32845-surface');
@@ -26303,7 +28103,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32845, 13, True)
      , (32845, 12, True)
      , (32845, 14, True)
-     , (32845, 15, True);
+     , (32845, 15, True)
+     , (32845, 19, True)
+     , (32845, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14887, 'portalmalignanttabernacleexit');
@@ -26332,7 +28134,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14887, 13, True)
      , (14887, 12, True)
      , (14887, 14, True)
-     , (14887, 15, True);
+     , (14887, 15, True)
+     , (14887, 19, True)
+     , (14887, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30471, 'portalpowerforgewestexit');
@@ -26361,7 +28165,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30471, 13, True)
      , (30471, 12, True)
      , (30471, 14, True)
-     , (30471, 15, True);
+     , (30471, 15, True)
+     , (30471, 19, True)
+     , (30471, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28790, 'portaluberknathlair');
@@ -26390,7 +28196,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28790, 13, True)
      , (28790, 12, True)
      , (28790, 14, True)
-     , (28790, 15, True);
+     , (28790, 15, True)
+     , (28790, 19, True)
+     , (28790, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28777, 'portaluberknathlairexit');
@@ -26419,7 +28227,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28777, 13, True)
      , (28777, 12, True)
      , (28777, 14, True)
-     , (28777, 15, True);
+     , (28777, 15, True)
+     , (28777, 19, True)
+     , (28777, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28789, 'portalundeadtempleexit');
@@ -26448,7 +28258,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28789, 13, True)
      , (28789, 12, True)
      , (28789, 14, True)
-     , (28789, 15, True);
+     , (28789, 15, True)
+     , (28789, 19, True)
+     , (28789, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53352, 'ace53352-surface');
@@ -26477,7 +28289,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (53352, 13, True)
      , (53352, 12, True)
      , (53352, 14, True)
-     , (53352, 15, True);
+     , (53352, 15, True)
+     , (53352, 19, True)
+     , (53352, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45723, 'ace45723-acidicrefuge');
@@ -26506,7 +28320,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (45723, 13, True)
      , (45723, 12, True)
      , (45723, 14, True)
-     , (45723, 15, True);
+     , (45723, 15, True)
+     , (45723, 19, True)
+     , (45723, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12294, 'portalobsidianrepository');
@@ -26535,7 +28351,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (12294, 13, True)
      , (12294, 12, True)
      , (12294, 14, True)
-     , (12294, 15, True);
+     , (12294, 15, True)
+     , (12294, 19, True)
+     , (12294, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23897, 'portaltumerokwarreedshark');
@@ -26564,7 +28382,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23897, 13, True)
      , (23897, 12, True)
      , (23897, 14, True)
-     , (23897, 15, True);
+     , (23897, 15, True)
+     , (23897, 19, True)
+     , (23897, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23898, 'portaltumerokwarreedsharkexit');
@@ -26593,7 +28413,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23898, 13, True)
      , (23898, 12, True)
      , (23898, 14, True)
-     , (23898, 15, True);
+     , (23898, 15, True)
+     , (23898, 19, True)
+     , (23898, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49608, 'ace49608-virindiedifice');
@@ -26622,7 +28444,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (49608, 13, True)
      , (49608, 12, True)
      , (49608, 14, True)
-     , (49608, 15, True);
+     , (49608, 15, True)
+     , (49608, 19, True)
+     , (49608, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49609, 'ace49609-surface');
@@ -26651,7 +28475,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (49609, 13, True)
      , (49609, 12, True)
      , (49609, 14, True)
-     , (49609, 15, True);
+     , (49609, 15, True)
+     , (49609, 19, True)
+     , (49609, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48901, 'ace48901-surface');
@@ -26680,7 +28506,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (48901, 13, True)
      , (48901, 12, True)
      , (48901, 14, True)
-     , (48901, 15, True);
+     , (48901, 15, True)
+     , (48901, 19, True)
+     , (48901, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (432, 'portalsouthzabool');
@@ -26709,7 +28537,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (432, 13, True)
      , (432, 12, True)
      , (432, 14, True)
-     , (432, 15, True);
+     , (432, 15, True)
+     , (432, 19, True)
+     , (432, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14584, 'portalportalspaceexit');
@@ -26737,7 +28567,9 @@ VALUES (14584, 54, -0.1);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14584, 13, True)
      , (14584, 12, True)
-     , (14584, 15, True);
+     , (14584, 15, True)
+     , (14584, 19, True)
+     , (14584, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40331, 'ace40331-chamberofscrolls');
@@ -26766,7 +28598,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40331, 13, True)
      , (40331, 12, True)
      , (40331, 14, True)
-     , (40331, 15, True);
+     , (40331, 15, True)
+     , (40331, 19, True)
+     , (40331, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2078, 'portalgolemgrounds');
@@ -26795,7 +28629,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2078, 13, True)
      , (2078, 12, True)
      , (2078, 14, True)
-     , (2078, 15, True);
+     , (2078, 15, True)
+     , (2078, 19, True)
+     , (2078, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2079, 'portalgolemgroundsexit');
@@ -26824,7 +28660,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079, 13, True)
      , (2079, 12, True)
      , (2079, 14, True)
-     , (2079, 15, True);
+     , (2079, 15, True)
+     , (2079, 19, True)
+     , (2079, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37490, 'ace37490-graveyard');
@@ -26853,7 +28691,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (37490, 13, True)
      , (37490, 12, True)
      , (37490, 14, True)
-     , (37490, 15, True);
+     , (37490, 15, True)
+     , (37490, 19, True)
+     , (37490, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37514, 'ace37514-forges');
@@ -26882,7 +28722,9 @@ VALUES (37514, 54, 0.5)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (37514, 11, True)
      , (37514, 14, True)
-     , (37514, 15, True);
+     , (37514, 15, True)
+     , (37514, 19, True)
+     , (37514, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37513, 'ace37513-armory');
@@ -26911,7 +28753,9 @@ VALUES (37513, 54, 0.5)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (37513, 11, True)
      , (37513, 14, True)
-     , (37513, 15, True);
+     , (37513, 15, True)
+     , (37513, 19, True)
+     , (37513, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9388, 'portalenvoychamber');
@@ -26940,7 +28784,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9388, 13, True)
      , (9388, 12, True)
      , (9388, 14, True)
-     , (9388, 15, True);
+     , (9388, 15, True)
+     , (9388, 19, True)
+     , (9388, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9507, 'portalenvoychamberexit');
@@ -26969,7 +28815,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9507, 13, True)
      , (9507, 12, True)
      , (9507, 14, True)
-     , (9507, 15, True);
+     , (9507, 15, True)
+     , (9507, 19, True)
+     , (9507, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9508, 'portalgredalineconsulate');
@@ -26998,7 +28846,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9508, 13, True)
      , (9508, 12, True)
      , (9508, 14, True)
-     , (9508, 15, True);
+     , (9508, 15, True)
+     , (9508, 19, True)
+     , (9508, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14497, 'portalempyreanacidpropylaeumexit');
@@ -27027,7 +28877,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14497, 13, True)
      , (14497, 12, True)
      , (14497, 14, True)
-     , (14497, 15, True);
+     , (14497, 15, True)
+     , (14497, 19, True)
+     , (14497, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14494, 'portalempyreanacidcisternlower');
@@ -27056,7 +28908,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14494, 13, True)
      , (14494, 12, True)
      , (14494, 14, True)
-     , (14494, 15, True);
+     , (14494, 15, True)
+     , (14494, 19, True)
+     , (14494, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14495, 'portalempyreanacidcisternupper');
@@ -27085,7 +28939,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14495, 13, True)
      , (14495, 12, True)
      , (14495, 14, True)
-     , (14495, 15, True);
+     , (14495, 15, True)
+     , (14495, 19, True)
+     , (14495, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14492, 'portalempyreanacidpropylaeum');
@@ -27114,7 +28970,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14492, 13, True)
      , (14492, 12, True)
      , (14492, 14, True)
-     , (14492, 15, True);
+     , (14492, 15, True)
+     , (14492, 19, True)
+     , (14492, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14489, 'portalempyreanfirepropylaeumexit');
@@ -27143,7 +29001,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14489, 13, True)
      , (14489, 12, True)
      , (14489, 14, True)
-     , (14489, 15, True);
+     , (14489, 15, True)
+     , (14489, 19, True)
+     , (14489, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14493, 'portalempyreanfirecisternlower');
@@ -27172,7 +29032,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14493, 13, True)
      , (14493, 12, True)
      , (14493, 14, True)
-     , (14493, 15, True);
+     , (14493, 15, True)
+     , (14493, 19, True)
+     , (14493, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14496, 'portalempyreanfirecisternupper');
@@ -27201,7 +29063,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14496, 13, True)
      , (14496, 12, True)
      , (14496, 14, True)
-     , (14496, 15, True);
+     , (14496, 15, True)
+     , (14496, 19, True)
+     , (14496, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14488, 'portalempyreanfirepropylaeum');
@@ -27230,7 +29094,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14488, 13, True)
      , (14488, 12, True)
      , (14488, 14, True)
-     , (14488, 15, True);
+     , (14488, 15, True)
+     , (14488, 19, True)
+     , (14488, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14490, 'portalempyreanicepropylaeumexit');
@@ -27259,7 +29125,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14490, 13, True)
      , (14490, 12, True)
      , (14490, 14, True)
-     , (14490, 15, True);
+     , (14490, 15, True)
+     , (14490, 19, True)
+     , (14490, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14498, 'portalempyreanicecisternlower');
@@ -27288,7 +29156,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14498, 13, True)
      , (14498, 12, True)
      , (14498, 14, True)
-     , (14498, 15, True);
+     , (14498, 15, True)
+     , (14498, 19, True)
+     , (14498, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14499, 'portalempyreanicecisternupper');
@@ -27317,7 +29187,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14499, 13, True)
      , (14499, 12, True)
      , (14499, 14, True)
-     , (14499, 15, True);
+     , (14499, 15, True)
+     , (14499, 19, True)
+     , (14499, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14500, 'portalempyreanicepropylaeum');
@@ -27346,7 +29218,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14500, 13, True)
      , (14500, 12, True)
      , (14500, 14, True)
-     , (14500, 15, True);
+     , (14500, 15, True)
+     , (14500, 19, True)
+     , (14500, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21416, 'portalgaerlanguardianfire');
@@ -27375,7 +29249,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (21416, 13, True)
      , (21416, 12, True)
      , (21416, 14, True)
-     , (21416, 15, True);
+     , (21416, 15, True)
+     , (21416, 19, True)
+     , (21416, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6115, 'portalmountainfortressexit');
@@ -27404,7 +29280,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (6115, 13, True)
      , (6115, 12, True)
      , (6115, 14, True)
-     , (6115, 15, True);
+     , (6115, 15, True)
+     , (6115, 19, True)
+     , (6115, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25838, 'portalunicornemptysoulsurface');
@@ -27433,7 +29311,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25838, 13, True)
      , (25838, 12, True)
      , (25838, 14, True)
-     , (25838, 15, True);
+     , (25838, 15, True)
+     , (25838, 19, True)
+     , (25838, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29434, 'portalinvaderkeepcopperexit');
@@ -27462,7 +29342,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29434, 13, True)
      , (29434, 12, True)
      , (29434, 14, True)
-     , (29434, 15, True);
+     , (29434, 15, True)
+     , (29434, 19, True)
+     , (29434, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23894, 'portaltumerokwargromnieexit');
@@ -27491,7 +29373,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23894, 13, True)
      , (23894, 12, True)
      , (23894, 14, True)
-     , (23894, 15, True);
+     , (23894, 15, True)
+     , (23894, 19, True)
+     , (23894, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23893, 'portaltumerokwargromnie');
@@ -27520,7 +29404,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23893, 13, True)
      , (23893, 12, True)
      , (23893, 14, True)
-     , (23893, 15, True);
+     , (23893, 15, True)
+     , (23893, 19, True)
+     , (23893, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1598, 'portalthieftrailexit');
@@ -27549,7 +29435,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1598, 13, True)
      , (1598, 12, True)
      , (1598, 14, True)
-     , (1598, 15, True);
+     , (1598, 15, True)
+     , (1598, 19, True)
+     , (1598, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29512, 'portalcannibalcaverns');
@@ -27578,7 +29466,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29512, 13, True)
      , (29512, 12, True)
      , (29512, 14, True)
-     , (29512, 15, True);
+     , (29512, 15, True)
+     , (29512, 19, True)
+     , (29512, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28802, 'portalravenousvault');
@@ -27607,7 +29497,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28802, 13, True)
      , (28802, 12, True)
      , (28802, 14, True)
-     , (28802, 15, True);
+     , (28802, 15, True)
+     , (28802, 19, True)
+     , (28802, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51325, 'ace51325-hivewarriormound');
@@ -27636,7 +29528,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51325, 13, True)
      , (51325, 12, True)
      , (51325, 14, True)
-     , (51325, 15, True);
+     , (51325, 15, True)
+     , (51325, 19, True)
+     , (51325, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51326, 'ace51326-surface');
@@ -27665,7 +29559,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51326, 13, True)
      , (51326, 12, True)
      , (51326, 14, True)
-     , (51326, 15, True);
+     , (51326, 15, True)
+     , (51326, 19, True)
+     , (51326, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34830, 'ace34830-northerncatacombsexit');
@@ -27694,7 +29590,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34830, 13, True)
      , (34830, 12, True)
      , (34830, 14, True)
-     , (34830, 15, True);
+     , (34830, 15, True)
+     , (34830, 19, True)
+     , (34830, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34832, 'ace34832-easterncatacombsexit');
@@ -27723,7 +29621,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34832, 13, True)
      , (34832, 12, True)
      , (34832, 14, True)
-     , (34832, 15, True);
+     , (34832, 15, True)
+     , (34832, 19, True)
+     , (34832, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35210, 'ace35210-swampcavern');
@@ -27752,7 +29652,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35210, 13, True)
      , (35210, 12, True)
      , (35210, 14, True)
-     , (35210, 15, True);
+     , (35210, 15, True)
+     , (35210, 19, True)
+     , (35210, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44116, 'ace44116-sandcaves');
@@ -27781,7 +29683,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (44116, 13, True)
      , (44116, 12, True)
      , (44116, 14, True)
-     , (44116, 15, True);
+     , (44116, 15, True)
+     , (44116, 19, True)
+     , (44116, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47154, 'ace47154-surface');
@@ -27810,7 +29714,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (47154, 13, True)
      , (47154, 12, True)
      , (47154, 14, True)
-     , (47154, 15, True);
+     , (47154, 15, True)
+     , (47154, 19, True)
+     , (47154, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46304, 'ace46304-frigidgrotto');
@@ -27839,7 +29745,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46304, 13, True)
      , (46304, 12, True)
      , (46304, 14, True)
-     , (46304, 15, True);
+     , (46304, 15, True)
+     , (46304, 19, True)
+     , (46304, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46308, 'ace46308-surface');
@@ -27868,7 +29776,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46308, 13, True)
      , (46308, 12, True)
      , (46308, 14, True)
-     , (46308, 15, True);
+     , (46308, 15, True)
+     , (46308, 19, True)
+     , (46308, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32045, 'ace32045-templeofxikminru');
@@ -27897,7 +29807,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32045, 13, True)
      , (32045, 12, True)
      , (32045, 14, True)
-     , (32045, 15, True);
+     , (32045, 15, True)
+     , (32045, 19, True)
+     , (32045, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32044, 'ace32044-uppersanctumofxikminru');
@@ -27926,7 +29838,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32044, 13, True)
      , (32044, 12, True)
      , (32044, 14, True)
-     , (32044, 15, True);
+     , (32044, 15, True)
+     , (32044, 19, True)
+     , (32044, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32037, 'ace32037-exit');
@@ -27955,7 +29869,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32037, 13, True)
      , (32037, 12, True)
      , (32037, 14, True)
-     , (32037, 15, True);
+     , (32037, 15, True)
+     , (32037, 19, True)
+     , (32037, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32039, 'ace32039-sanctumofxikminru');
@@ -27984,7 +29900,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32039, 13, True)
      , (32039, 12, True)
      , (32039, 14, True)
-     , (32039, 15, True);
+     , (32039, 15, True)
+     , (32039, 19, True)
+     , (32039, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32043, 'ace32043-southerncourtyard');
@@ -28013,7 +29931,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32043, 13, True)
      , (32043, 12, True)
      , (32043, 14, True)
-     , (32043, 15, True);
+     , (32043, 15, True)
+     , (32043, 19, True)
+     , (32043, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2336, 'portaltumeroksmallcomplexexit');
@@ -28042,7 +29962,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2336, 13, True)
      , (2336, 12, True)
      , (2336, 14, True)
-     , (2336, 15, True);
+     , (2336, 15, True)
+     , (2336, 19, True)
+     , (2336, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25497, 'portalrenegadegarrisonexit');
@@ -28071,7 +29993,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25497, 13, True)
      , (25497, 12, True)
      , (25497, 14, True)
-     , (25497, 15, True);
+     , (25497, 15, True)
+     , (25497, 19, True)
+     , (25497, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48719, 'ace48719-crystalcore');
@@ -28100,7 +30024,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (48719, 13, True)
      , (48719, 12, True)
      , (48719, 14, True)
-     , (48719, 15, True);
+     , (48719, 15, True)
+     , (48719, 19, True)
+     , (48719, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48735, 'ace48735-surface');
@@ -28129,7 +30055,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (48735, 13, True)
      , (48735, 12, True)
      , (48735, 14, True)
-     , (48735, 15, True);
+     , (48735, 15, True)
+     , (48735, 19, True)
+     , (48735, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1342, 'portalsimplemazeexit');
@@ -28158,7 +30086,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1342, 13, True)
      , (1342, 12, True)
      , (1342, 14, True)
-     , (1342, 15, True);
+     , (1342, 15, True)
+     , (1342, 19, True)
+     , (1342, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1341, 'portalsimplemaze');
@@ -28187,7 +30117,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1341, 13, True)
      , (1341, 12, True)
      , (1341, 14, True)
-     , (1341, 15, True);
+     , (1341, 15, True)
+     , (1341, 19, True)
+     , (1341, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4928, 'portalfilosdoomexit');
@@ -28216,7 +30148,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4928, 13, True)
      , (4928, 12, True)
      , (4928, 14, True)
-     , (4928, 15, True);
+     , (4928, 15, True)
+     , (4928, 19, True)
+     , (4928, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2077, 'portalgallerytowerexit');
@@ -28245,7 +30179,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077, 13, True)
      , (2077, 12, True)
      , (2077, 14, True)
-     , (2077, 15, True);
+     , (2077, 15, True)
+     , (2077, 19, True)
+     , (2077, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1336, 'portaldrudgefamilyexit');
@@ -28274,7 +30210,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1336, 13, True)
      , (1336, 12, True)
      , (1336, 14, True)
-     , (1336, 15, True);
+     , (1336, 15, True)
+     , (1336, 19, True)
+     , (1336, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15842, 'portaltreyvalveranda');
@@ -28303,7 +30241,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15842, 13, True)
      , (15842, 12, True)
      , (15842, 14, True)
-     , (15842, 15, True);
+     , (15842, 15, True)
+     , (15842, 19, True)
+     , (15842, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15832, 'portalalvancourt');
@@ -28332,7 +30272,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15832, 13, True)
      , (15832, 12, True)
      , (15832, 14, True)
-     , (15832, 15, True);
+     , (15832, 15, True)
+     , (15832, 19, True)
+     , (15832, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15841, 'portalsylvandwellings');
@@ -28361,7 +30303,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15841, 13, True)
      , (15841, 12, True)
      , (15841, 14, True)
-     , (15841, 15, True);
+     , (15841, 15, True)
+     , (15841, 19, True)
+     , (15841, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15833, 'portalcaernadwellings');
@@ -28390,7 +30334,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15833, 13, True)
      , (15833, 12, True)
      , (15833, 14, True)
-     , (15833, 15, True);
+     , (15833, 15, True)
+     , (15833, 19, True)
+     , (15833, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15834, 'portalillsinveranda');
@@ -28419,7 +30365,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15834, 13, True)
      , (15834, 12, True)
      , (15834, 14, True)
-     , (15834, 15, True);
+     , (15834, 15, True)
+     , (15834, 19, True)
+     , (15834, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15835, 'portalmarincourt');
@@ -28448,7 +30396,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15835, 13, True)
      , (15835, 12, True)
      , (15835, 14, True)
-     , (15835, 15, True);
+     , (15835, 15, True)
+     , (15835, 19, True)
+     , (15835, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15839, 'portalsigilveranda');
@@ -28477,7 +30427,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15839, 13, True)
      , (15839, 12, True)
      , (15839, 14, True)
-     , (15839, 15, True);
+     , (15839, 15, True)
+     , (15839, 19, True)
+     , (15839, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15838, 'portalsenmaicourt');
@@ -28506,7 +30458,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15838, 13, True)
      , (15838, 12, True)
      , (15838, 14, True)
-     , (15838, 15, True);
+     , (15838, 15, True)
+     , (15838, 19, True)
+     , (15838, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15840, 'portalsorveyacourt');
@@ -28535,7 +30489,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15840, 13, True)
      , (15840, 12, True)
      , (15840, 14, True)
-     , (15840, 15, True);
+     , (15840, 15, True)
+     , (15840, 19, True)
+     , (15840, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15836, 'portalruadnarcourt');
@@ -28564,7 +30520,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15836, 13, True)
      , (15836, 12, True)
      , (15836, 14, True)
-     , (15836, 15, True);
+     , (15836, 15, True)
+     , (15836, 19, True)
+     , (15836, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2345, 'portaldungeonswampruinexit');
@@ -28593,7 +30551,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2345, 13, True)
      , (2345, 12, True)
      , (2345, 14, True)
-     , (2345, 15, True);
+     , (2345, 15, True)
+     , (2345, 19, True)
+     , (2345, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1363, 'portalbaseofzabool');
@@ -28622,7 +30582,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1363, 13, True)
      , (1363, 12, True)
      , (1363, 14, True)
-     , (1363, 15, True);
+     , (1363, 15, True)
+     , (1363, 19, True)
+     , (1363, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (369, 'portalzabooltop');
@@ -28651,7 +30613,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (369, 13, True)
      , (369, 12, True)
      , (369, 14, True)
-     , (369, 15, True);
+     , (369, 15, True)
+     , (369, 19, True)
+     , (369, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (431, 'portalalphusnorth');
@@ -28680,7 +30644,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (431, 13, True)
      , (431, 12, True)
      , (431, 14, True)
-     , (431, 15, True);
+     , (431, 15, True)
+     , (431, 19, True)
+     , (431, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3641, 'portalmountainhallsexit');
@@ -28709,7 +30675,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3641, 13, True)
      , (3641, 12, True)
      , (3641, 14, True)
-     , (3641, 15, True);
+     , (3641, 15, True)
+     , (3641, 19, True)
+     , (3641, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3640, 'portalmountainhalls');
@@ -28738,7 +30706,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3640, 13, True)
      , (3640, 12, True)
      , (3640, 14, True)
-     , (3640, 15, True);
+     , (3640, 15, True)
+     , (3640, 19, True)
+     , (3640, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2332, 'portaltumerokmineexit');
@@ -28767,7 +30737,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2332, 13, True)
      , (2332, 12, True)
      , (2332, 14, True)
-     , (2332, 15, True);
+     , (2332, 15, True)
+     , (2332, 19, True)
+     , (2332, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2331, 'portaltumerokmine');
@@ -28796,7 +30768,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2331, 13, True)
      , (2331, 12, True)
      , (2331, 14, True)
-     , (2331, 15, True);
+     , (2331, 15, True)
+     , (2331, 19, True)
+     , (2331, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43546, 'ace43546-olthoitunnel');
@@ -28826,7 +30800,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43546, 13, True)
      , (43546, 12, True)
      , (43546, 14, True)
-     , (43546, 15, True);
+     , (43546, 15, True)
+     , (43546, 19, True)
+     , (43546, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43546, 67111849, 1, 255);
@@ -28859,7 +30835,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43590, 13, True)
      , (43590, 12, True)
      , (43590, 14, True)
-     , (43590, 15, True);
+     , (43590, 15, True)
+     , (43590, 19, True)
+     , (43590, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43590, 67111849, 1, 255);
@@ -28892,7 +30870,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43550, 13, True)
      , (43550, 12, True)
      , (43550, 14, True)
-     , (43550, 15, True);
+     , (43550, 15, True)
+     , (43550, 19, True)
+     , (43550, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43550, 67111849, 1, 255);
@@ -28924,7 +30904,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (371, 13, True)
      , (371, 12, True)
      , (371, 14, True)
-     , (371, 15, True);
+     , (371, 15, True)
+     , (371, 19, True)
+     , (371, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (372, 'portalalfrethdungeonexit');
@@ -28953,7 +30935,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (372, 13, True)
      , (372, 12, True)
      , (372, 14, True)
-     , (372, 15, True);
+     , (372, 15, True)
+     , (372, 19, True)
+     , (372, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5505, 'portalenkindledsouls');
@@ -28982,7 +30966,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5505, 13, True)
      , (5505, 12, True)
      , (5505, 14, True)
-     , (5505, 15, True);
+     , (5505, 15, True)
+     , (5505, 19, True)
+     , (5505, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5506, 'portalenkindledsoulsexit');
@@ -29011,7 +30997,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5506, 13, True)
      , (5506, 12, True)
      , (5506, 14, True)
-     , (5506, 15, True);
+     , (5506, 15, True)
+     , (5506, 19, True)
+     , (5506, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7256, 'portalolthoilairgha');
@@ -29040,7 +31028,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7256, 13, True)
      , (7256, 12, True)
      , (7256, 14, True)
-     , (7256, 15, True);
+     , (7256, 15, True)
+     , (7256, 19, True)
+     , (7256, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24231, 'portalolthoilairghaexpansion');
@@ -29069,7 +31059,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24231, 13, True)
      , (24231, 12, True)
      , (24231, 14, True)
-     , (24231, 15, True);
+     , (24231, 15, True)
+     , (24231, 19, True)
+     , (24231, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28268, 'portalmosswartvaguratexit');
@@ -29098,7 +31090,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28268, 13, True)
      , (28268, 12, True)
      , (28268, 14, True)
-     , (28268, 15, True);
+     , (28268, 15, True)
+     , (28268, 19, True)
+     , (28268, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4146, 'portalbraidexit');
@@ -29127,7 +31121,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4146, 13, True)
      , (4146, 12, True)
      , (4146, 14, True)
-     , (4146, 15, True);
+     , (4146, 15, True)
+     , (4146, 19, True)
+     , (4146, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51763, 'ace51763-spiritedhalls');
@@ -29156,7 +31152,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51763, 13, True)
      , (51763, 12, True)
      , (51763, 14, True)
-     , (51763, 15, True);
+     , (51763, 15, True)
+     , (51763, 19, True)
+     , (51763, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43118, 'ace43118-forgottentunnels');
@@ -29185,7 +31183,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43118, 13, True)
      , (43118, 12, True)
      , (43118, 14, True)
-     , (43118, 15, True);
+     , (43118, 15, True)
+     , (43118, 19, True)
+     , (43118, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43119, 'ace43119-forgottentunnels');
@@ -29214,7 +31214,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43119, 13, True)
      , (43119, 12, True)
      , (43119, 14, True)
-     , (43119, 15, True);
+     , (43119, 15, True)
+     , (43119, 19, True)
+     , (43119, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43120, 'ace43120-forgottentunnels');
@@ -29243,7 +31245,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43120, 13, True)
      , (43120, 12, True)
      , (43120, 14, True)
-     , (43120, 15, True);
+     , (43120, 15, True)
+     , (43120, 19, True)
+     , (43120, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52916, 'ace52916-gauntletstage1');
@@ -29269,7 +31273,9 @@ VALUES (52916, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52916, 11, True)
-     , (52916, 14, True);
+     , (52916, 14, True)
+     , (52916, 19, True)
+     , (52916, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52904, 'ace52904-gauntletstage2');
@@ -29295,7 +31301,9 @@ VALUES (52904, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52904, 11, True)
-     , (52904, 14, True);
+     , (52904, 14, True)
+     , (52904, 19, True)
+     , (52904, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52905, 'ace52905-gauntletstage3');
@@ -29321,7 +31329,9 @@ VALUES (52905, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52905, 11, True)
-     , (52905, 14, True);
+     , (52905, 14, True)
+     , (52905, 19, True)
+     , (52905, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52906, 'ace52906-gauntletstage4');
@@ -29347,7 +31357,9 @@ VALUES (52906, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52906, 11, True)
-     , (52906, 14, True);
+     , (52906, 14, True)
+     , (52906, 19, True)
+     , (52906, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53380, 'ace53380-gauntletstage6');
@@ -29373,7 +31385,9 @@ VALUES (53380, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (53380, 11, True)
-     , (53380, 14, True);
+     , (53380, 14, True)
+     , (53380, 19, True)
+     , (53380, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52921, 'ace52921-gauntletstage6');
@@ -29399,7 +31413,9 @@ VALUES (52921, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52921, 11, True)
-     , (52921, 14, True);
+     , (52921, 14, True)
+     , (52921, 19, True)
+     , (52921, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52909, 'ace52909-gauntletstage7');
@@ -29425,7 +31441,9 @@ VALUES (52909, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52909, 11, True)
-     , (52909, 14, True);
+     , (52909, 14, True)
+     , (52909, 19, True)
+     , (52909, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52910, 'ace52910-gauntletstage8');
@@ -29451,7 +31469,9 @@ VALUES (52910, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52910, 11, True)
-     , (52910, 14, True);
+     , (52910, 14, True)
+     , (52910, 19, True)
+     , (52910, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52911, 'ace52911-gauntletstage9');
@@ -29477,7 +31497,9 @@ VALUES (52911, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52911, 11, True)
-     , (52911, 14, True);
+     , (52911, 14, True)
+     , (52911, 19, True)
+     , (52911, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52908, 'ace52908-gauntletstage6');
@@ -29503,7 +31525,9 @@ VALUES (52908, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52908, 11, True)
-     , (52908, 14, True);
+     , (52908, 14, True)
+     , (52908, 19, True)
+     , (52908, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24913, 'portalothoihive2extreme');
@@ -29532,7 +31556,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24913, 13, True)
      , (24913, 12, True)
      , (24913, 14, True)
-     , (24913, 15, True);
+     , (24913, 15, True)
+     , (24913, 19, True)
+     , (24913, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8498, 'portaljungleshadowsexit');
@@ -29561,7 +31587,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8498, 13, True)
      , (8498, 12, True)
      , (8498, 14, True)
-     , (8498, 15, True);
+     , (8498, 15, True)
+     , (8498, 19, True)
+     , (8498, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22698, 'portaltuskertemplenorth');
@@ -29590,7 +31618,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22698, 13, True)
      , (22698, 12, True)
      , (22698, 14, True)
-     , (22698, 15, True);
+     , (22698, 15, True)
+     , (22698, 19, True)
+     , (22698, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32656, 'ace32656-surface');
@@ -29619,7 +31649,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32656, 13, True)
      , (32656, 12, True)
      , (32656, 14, True)
-     , (32656, 15, True);
+     , (32656, 15, True)
+     , (32656, 19, True)
+     , (32656, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8486, 'portalvesayenmosswartnest');
@@ -29648,7 +31680,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8486, 13, True)
      , (8486, 12, True)
      , (8486, 14, True)
-     , (8486, 15, True);
+     , (8486, 15, True)
+     , (8486, 19, True)
+     , (8486, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8586, 'portalidolspawninggrounds');
@@ -29677,7 +31711,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8586, 13, True)
      , (8586, 12, True)
      , (8586, 14, True)
-     , (8586, 15, True);
+     , (8586, 15, True)
+     , (8586, 19, True)
+     , (8586, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25588, 'portalsclavustemple');
@@ -29706,7 +31742,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25588, 13, True)
      , (25588, 12, True)
      , (25588, 14, True)
-     , (25588, 15, True);
+     , (25588, 15, True)
+     , (25588, 19, True)
+     , (25588, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33590, 'ace33590-asheronstower');
@@ -29731,7 +31769,9 @@ VALUES (33590, 1, 65536)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (33590, 13, True)
      , (33590, 12, True)
-     , (33590, 15, True);
+     , (33590, 15, True)
+     , (33590, 19, True)
+     , (33590, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20643, 'portalgrievvercavesexit');
@@ -29760,7 +31800,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (20643, 13, True)
      , (20643, 12, True)
      , (20643, 14, True)
-     , (20643, 15, True);
+     , (20643, 15, True)
+     , (20643, 19, True)
+     , (20643, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29236, 'portalishaqscellarexit');
@@ -29789,7 +31831,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29236, 13, True)
      , (29236, 12, True)
      , (29236, 14, True)
-     , (29236, 15, True);
+     , (29236, 15, True)
+     , (29236, 19, True)
+     , (29236, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42923, 'ace42923-surface');
@@ -29818,7 +31862,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42923, 13, True)
      , (42923, 12, True)
      , (42923, 14, True)
-     , (42923, 15, True);
+     , (42923, 15, True)
+     , (42923, 19, True)
+     , (42923, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28793, 'portalpenguinden');
@@ -29847,7 +31893,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28793, 13, True)
      , (28793, 12, True)
      , (28793, 14, True)
-     , (28793, 15, True);
+     , (28793, 15, True)
+     , (28793, 19, True)
+     , (28793, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29786, 'portalsteamyfont');
@@ -29875,7 +31923,10 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29786, 13, True)
      , (29786, 12, True)
      , (29786, 14, True)
-     , (29786, 15, True);
+     , (29786, 15, True)
+     , (29786, 19, True)
+     , (29786, 1, True)
+     , (29786, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29781, 'portalhumidfont');
@@ -29903,7 +31954,10 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29781, 13, True)
      , (29781, 12, True)
      , (29781, 14, True)
-     , (29781, 15, True);
+     , (29781, 15, True)
+     , (29781, 19, True)
+     , (29781, 1, True)
+     , (29781, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29778, 'portalbalmyfont');
@@ -29931,7 +31985,10 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29778, 13, True)
      , (29778, 12, True)
      , (29778, 14, True)
-     , (29778, 15, True);
+     , (29778, 15, True)
+     , (29778, 19, True)
+     , (29778, 1, True)
+     , (29778, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29783, 'portalmuggyfont');
@@ -29959,7 +32016,10 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29783, 13, True)
      , (29783, 12, True)
      , (29783, 14, True)
-     , (29783, 15, True);
+     , (29783, 15, True)
+     , (29783, 19, True)
+     , (29783, 1, True)
+     , (29783, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40246, 'ace40246-surface');
@@ -29988,7 +32048,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40246, 13, True)
      , (40246, 12, True)
      , (40246, 14, True)
-     , (40246, 15, True);
+     , (40246, 15, True)
+     , (40246, 19, True)
+     , (40246, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40245, 'ace40245-surface');
@@ -30017,7 +32079,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40245, 13, True)
      , (40245, 12, True)
      , (40245, 14, True)
-     , (40245, 15, True);
+     , (40245, 15, True)
+     , (40245, 19, True)
+     , (40245, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40244, 'ace40244-surface');
@@ -30046,7 +32110,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40244, 13, True)
      , (40244, 12, True)
      , (40244, 14, True)
-     , (40244, 15, True);
+     , (40244, 15, True)
+     , (40244, 19, True)
+     , (40244, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7322, 'portallugiancitadelshoexit');
@@ -30075,7 +32141,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7322, 13, True)
      , (7322, 12, True)
      , (7322, 14, True)
-     , (7322, 15, True);
+     , (7322, 15, True)
+     , (7322, 19, True)
+     , (7322, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1312, 'portalnorthglendenexit');
@@ -30104,7 +32172,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1312, 13, True)
      , (1312, 12, True)
      , (1312, 14, True)
-     , (1312, 15, True);
+     , (1312, 15, True)
+     , (1312, 19, True)
+     , (1312, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32292, 'ace32292-commandersquarters');
@@ -30133,7 +32203,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32292, 13, True)
      , (32292, 12, True)
      , (32292, 14, True)
-     , (32292, 15, True);
+     , (32292, 15, True)
+     , (32292, 19, True)
+     , (32292, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25675, 'portalcaliginousbethelexit');
@@ -30162,7 +32234,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25675, 13, True)
      , (25675, 12, True)
      , (25675, 14, True)
-     , (25675, 15, True);
+     , (25675, 15, True)
+     , (25675, 19, True)
+     , (25675, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25674, 'portalcaliginousbethel');
@@ -30191,7 +32265,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25674, 13, True)
      , (25674, 12, True)
      , (25674, 14, True)
-     , (25674, 15, True);
+     , (25674, 15, True)
+     , (25674, 19, True)
+     , (25674, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30381, 'portalhalaetanoutpostfiun');
@@ -30219,7 +32295,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30381, 13, True)
      , (30381, 12, True)
      , (30381, 14, True)
-     , (30381, 15, True);
+     , (30381, 15, True)
+     , (30381, 19, True)
+     , (30381, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31925, 'ace31925-pathoftheblindeast');
@@ -30248,7 +32326,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31925, 13, True)
      , (31925, 12, True)
      , (31925, 14, True)
-     , (31925, 15, True);
+     , (31925, 15, True)
+     , (31925, 19, True)
+     , (31925, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30971, 'portalpathblind');
@@ -30277,7 +32357,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30971, 13, True)
      , (30971, 12, True)
      , (30971, 14, True)
-     , (30971, 15, True);
+     , (30971, 15, True)
+     , (30971, 19, True)
+     , (30971, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31924, 'ace31924-pathoftheblindwest');
@@ -30306,7 +32388,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31924, 13, True)
      , (31924, 12, True)
      , (31924, 14, True)
-     , (31924, 15, True);
+     , (31924, 15, True)
+     , (31924, 19, True)
+     , (31924, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30970, 'portalpathblindexit');
@@ -30335,7 +32419,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30970, 13, True)
      , (30970, 12, True)
      , (30970, 14, True)
-     , (30970, 15, True);
+     , (30970, 15, True)
+     , (30970, 19, True)
+     , (30970, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14885, 'portalconvergentmedianexit');
@@ -30364,7 +32450,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14885, 13, True)
      , (14885, 12, True)
      , (14885, 14, True)
-     , (14885, 15, True);
+     , (14885, 15, True)
+     , (14885, 19, True)
+     , (14885, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4157, 'portalnyeexit');
@@ -30393,7 +32481,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4157, 13, True)
      , (4157, 12, True)
      , (4157, 14, True)
-     , (4157, 15, True);
+     , (4157, 15, True)
+     , (4157, 19, True)
+     , (4157, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14888, 'portalvenomousnidus');
@@ -30422,7 +32512,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14888, 13, True)
      , (14888, 12, True)
      , (14888, 14, True)
-     , (14888, 15, True);
+     , (14888, 15, True)
+     , (14888, 19, True)
+     , (14888, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34438, 'ace34438-gatewaytothehallsofmetos');
@@ -30451,7 +32543,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34438, 13, True)
      , (34438, 12, True)
      , (34438, 14, True)
-     , (34438, 15, True);
+     , (34438, 15, True)
+     , (34438, 19, True)
+     , (34438, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22683, 'portaltuskerhoneycombsexit');
@@ -30480,7 +32574,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22683, 13, True)
      , (22683, 12, True)
      , (22683, 14, True)
-     , (22683, 15, True);
+     , (22683, 15, True)
+     , (22683, 19, True)
+     , (22683, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14889, 'portalvenomousnidusexit');
@@ -30509,7 +32605,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14889, 13, True)
      , (14889, 12, True)
      , (14889, 14, True)
-     , (14889, 15, True);
+     , (14889, 15, True)
+     , (14889, 19, True)
+     , (14889, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22896, 'portalspiritcellexit');
@@ -30538,7 +32636,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22896, 13, True)
      , (22896, 12, True)
      , (22896, 14, True)
-     , (22896, 15, True);
+     , (22896, 15, True)
+     , (22896, 19, True)
+     , (22896, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22870, 'portalcrystalminelow');
@@ -30567,7 +32667,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22870, 13, True)
      , (22870, 12, True)
      , (22870, 14, True)
-     , (22870, 15, True);
+     , (22870, 15, True)
+     , (22870, 19, True)
+     , (22870, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22871, 'portalcrystalminenoob');
@@ -30596,7 +32698,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22871, 13, True)
      , (22871, 12, True)
      , (22871, 14, True)
-     , (22871, 15, True);
+     , (22871, 15, True)
+     , (22871, 19, True)
+     , (22871, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22872, 'portallcrystalminemid');
@@ -30625,7 +32729,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22872, 13, True)
      , (22872, 12, True)
      , (22872, 14, True)
-     , (22872, 15, True);
+     , (22872, 15, True)
+     , (22872, 19, True)
+     , (22872, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22868, 'portalcrystalmineextreme');
@@ -30654,7 +32760,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22868, 13, True)
      , (22868, 12, True)
      , (22868, 14, True)
-     , (22868, 15, True);
+     , (22868, 15, True)
+     , (22868, 19, True)
+     , (22868, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22869, 'portalcrystalminehigh');
@@ -30683,7 +32791,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22869, 13, True)
      , (22869, 12, True)
      , (22869, 14, True)
-     , (22869, 15, True);
+     , (22869, 15, True)
+     , (22869, 19, True)
+     , (22869, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22867, 'portalcrystalmineexit');
@@ -30712,7 +32822,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22867, 13, True)
      , (22867, 12, True)
      , (22867, 14, True)
-     , (22867, 15, True);
+     , (22867, 15, True)
+     , (22867, 19, True)
+     , (22867, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8576, 'portalrumubahideyhole');
@@ -30741,7 +32853,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8576, 13, True)
      , (8576, 12, True)
      , (8576, 14, True)
-     , (8576, 15, True);
+     , (8576, 15, True)
+     , (8576, 19, True)
+     , (8576, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8577, 'portalrumubahideyholeexit');
@@ -30770,7 +32884,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8577, 13, True)
      , (8577, 12, True)
      , (8577, 14, True)
-     , (8577, 15, True);
+     , (8577, 15, True)
+     , (8577, 19, True)
+     , (8577, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8578, 'portalmosswartrisingdungeon');
@@ -30799,7 +32915,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8578, 13, True)
      , (8578, 12, True)
      , (8578, 14, True)
-     , (8578, 15, True);
+     , (8578, 15, True)
+     , (8578, 19, True)
+     , (8578, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2360, 'portaltumerokhall');
@@ -30828,7 +32946,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2360, 13, True)
      , (2360, 12, True)
      , (2360, 14, True)
-     , (2360, 15, True);
+     , (2360, 15, True)
+     , (2360, 19, True)
+     , (2360, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40280, 'ace40280-surface');
@@ -30857,7 +32977,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (40280, 13, True)
      , (40280, 12, True)
      , (40280, 14, True)
-     , (40280, 15, True);
+     , (40280, 15, True)
+     , (40280, 19, True)
+     , (40280, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8500, 'portalrivermouth');
@@ -30886,7 +33008,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8500, 13, True)
      , (8500, 12, True)
      , (8500, 14, True)
-     , (8500, 15, True);
+     , (8500, 15, True)
+     , (8500, 19, True)
+     , (8500, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8458, 'portalslithispit');
@@ -30915,7 +33039,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8458, 13, True)
      , (8458, 12, True)
      , (8458, 14, True)
-     , (8458, 15, True);
+     , (8458, 15, True)
+     , (8458, 19, True)
+     , (8458, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1097, 'portaltalismanexit');
@@ -30944,7 +33070,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1097, 13, True)
      , (1097, 12, True)
      , (1097, 14, True)
-     , (1097, 15, True);
+     , (1097, 15, True)
+     , (1097, 19, True)
+     , (1097, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12696, 'portalvendorfurniturearcanum');
@@ -30973,7 +33101,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (12696, 13, True)
      , (12696, 12, True)
      , (12696, 14, True)
-     , (12696, 15, True);
+     , (12696, 15, True)
+     , (12696, 19, True)
+     , (12696, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2386, 'portaldisastermazeexit');
@@ -31002,7 +33132,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2386, 13, True)
      , (2386, 12, True)
      , (2386, 14, True)
-     , (2386, 15, True);
+     , (2386, 15, True)
+     , (2386, 19, True)
+     , (2386, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15275, 'portalnuhmudiramansion');
@@ -31031,7 +33163,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15275, 13, True)
      , (15275, 12, True)
      , (15275, 14, True)
-     , (15275, 15, True);
+     , (15275, 15, True)
+     , (15275, 19, True)
+     , (15275, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8487, 'portalvesayenmosswartnestexit');
@@ -31060,7 +33194,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8487, 13, True)
      , (8487, 12, True)
      , (8487, 14, True)
-     , (8487, 15, True);
+     , (8487, 15, True)
+     , (8487, 19, True)
+     , (8487, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44115, 'ace44115-sandcaves');
@@ -31089,7 +33225,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (44115, 13, True)
      , (44115, 12, True)
      , (44115, 14, True)
-     , (44115, 15, True);
+     , (44115, 15, True)
+     , (44115, 19, True)
+     , (44115, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34524, 'ace34524-arena9');
@@ -31115,7 +33253,9 @@ VALUES (34524, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34524, 11, True)
-     , (34524, 14, True);
+     , (34524, 14, True)
+     , (34524, 19, True)
+     , (34524, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34525, 'ace34525-arena10');
@@ -31141,7 +33281,9 @@ VALUES (34525, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34525, 11, True)
-     , (34525, 14, True);
+     , (34525, 14, True)
+     , (34525, 19, True)
+     , (34525, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34526, 'ace34526-arena11');
@@ -31167,7 +33309,9 @@ VALUES (34526, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34526, 11, True)
-     , (34526, 14, True);
+     , (34526, 14, True)
+     , (34526, 19, True)
+     , (34526, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34527, 'ace34527-arena12');
@@ -31193,7 +33337,9 @@ VALUES (34527, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34527, 11, True)
-     , (34527, 14, True);
+     , (34527, 14, True)
+     , (34527, 19, True)
+     , (34527, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34528, 'ace34528-arena13');
@@ -31219,7 +33365,9 @@ VALUES (34528, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34528, 11, True)
-     , (34528, 14, True);
+     , (34528, 14, True)
+     , (34528, 19, True)
+     , (34528, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34529, 'ace34529-arena14');
@@ -31245,7 +33393,9 @@ VALUES (34529, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34529, 11, True)
-     , (34529, 14, True);
+     , (34529, 14, True)
+     , (34529, 19, True)
+     , (34529, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34530, 'ace34530-arena15');
@@ -31271,7 +33421,9 @@ VALUES (34530, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34530, 11, True)
-     , (34530, 14, True);
+     , (34530, 14, True)
+     , (34530, 19, True)
+     , (34530, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34531, 'ace34531-arena16');
@@ -31297,7 +33449,9 @@ VALUES (34531, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34531, 11, True)
-     , (34531, 14, True);
+     , (34531, 14, True)
+     , (34531, 19, True)
+     , (34531, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34532, 'ace34532-arena17');
@@ -31323,7 +33477,9 @@ VALUES (34532, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34532, 11, True)
-     , (34532, 14, True);
+     , (34532, 14, True)
+     , (34532, 19, True)
+     , (34532, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34533, 'ace34533-arena18');
@@ -31349,7 +33505,9 @@ VALUES (34533, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34533, 11, True)
-     , (34533, 14, True);
+     , (34533, 14, True)
+     , (34533, 19, True)
+     , (34533, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34517, 'ace34517-arena2');
@@ -31375,7 +33533,9 @@ VALUES (34517, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34517, 11, True)
-     , (34517, 14, True);
+     , (34517, 14, True)
+     , (34517, 19, True)
+     , (34517, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34518, 'ace34518-arena3');
@@ -31401,7 +33561,9 @@ VALUES (34518, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34518, 11, True)
-     , (34518, 14, True);
+     , (34518, 14, True)
+     , (34518, 19, True)
+     , (34518, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34519, 'ace34519-arena4');
@@ -31427,7 +33589,9 @@ VALUES (34519, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34519, 11, True)
-     , (34519, 14, True);
+     , (34519, 14, True)
+     , (34519, 19, True)
+     , (34519, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34534, 'ace34534-returntothehallofchampions');
@@ -31453,7 +33617,9 @@ VALUES (34534, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34534, 11, True)
-     , (34534, 14, True);
+     , (34534, 14, True)
+     , (34534, 19, True)
+     , (34534, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34520, 'ace34520-arena5');
@@ -31479,7 +33645,9 @@ VALUES (34520, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34520, 11, True)
-     , (34520, 14, True);
+     , (34520, 14, True)
+     , (34520, 19, True)
+     , (34520, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34521, 'ace34521-arena6');
@@ -31505,7 +33673,9 @@ VALUES (34521, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34521, 11, True)
-     , (34521, 14, True);
+     , (34521, 14, True)
+     , (34521, 19, True)
+     , (34521, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32104, 'ace32104-breachedhive');
@@ -31534,7 +33704,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32104, 13, True)
      , (32104, 12, True)
      , (32104, 14, True)
-     , (32104, 15, True);
+     , (32104, 15, True)
+     , (32104, 19, True)
+     , (32104, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51321, 'ace51321-hiveevisceratorburrow');
@@ -31563,7 +33735,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51321, 13, True)
      , (51321, 12, True)
      , (51321, 14, True)
-     , (51321, 15, True);
+     , (51321, 15, True)
+     , (51321, 19, True)
+     , (51321, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32235, 'ace32235-mistresshalmerasdig');
@@ -31592,7 +33766,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32235, 13, True)
      , (32235, 12, True)
      , (32235, 14, True)
-     , (32235, 15, True);
+     , (32235, 15, True)
+     , (32235, 19, True)
+     , (32235, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1343, 'portalsimplesuite');
@@ -31621,7 +33797,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1343, 13, True)
      , (1343, 12, True)
      , (1343, 14, True)
-     , (1343, 15, True);
+     , (1343, 15, True)
+     , (1343, 19, True)
+     , (1343, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22648, 'portalchapelofmowen');
@@ -31650,7 +33828,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22648, 13, True)
      , (22648, 12, True)
      , (22648, 14, True)
-     , (22648, 15, True);
+     , (22648, 15, True)
+     , (22648, 19, True)
+     , (22648, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2072, 'portaldungeonmuddy');
@@ -31679,7 +33859,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2072, 13, True)
      , (2072, 12, True)
      , (2072, 14, True)
-     , (2072, 15, True);
+     , (2072, 15, True)
+     , (2072, 19, True)
+     , (2072, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2073, 'portaldungeonmuddyexit');
@@ -31708,7 +33890,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2073, 13, True)
      , (2073, 12, True)
      , (2073, 14, True)
-     , (2073, 15, True);
+     , (2073, 15, True)
+     , (2073, 19, True)
+     , (2073, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28262, 'portalmosswartleerarghexit');
@@ -31737,7 +33921,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28262, 13, True)
      , (28262, 12, True)
      , (28262, 14, True)
-     , (28262, 15, True);
+     , (28262, 15, True)
+     , (28262, 19, True)
+     , (28262, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2392, 'portalabandonedarenaexit');
@@ -31766,7 +33952,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2392, 13, True)
      , (2392, 12, True)
      , (2392, 14, True)
-     , (2392, 15, True);
+     , (2392, 15, True)
+     , (2392, 19, True)
+     , (2392, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7252, 'portalmossbandsho');
@@ -31795,7 +33983,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7252, 13, True)
      , (7252, 12, True)
      , (7252, 14, True)
-     , (7252, 15, True);
+     , (7252, 15, True)
+     , (7252, 19, True)
+     , (7252, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4918, 'portalbonelairexit');
@@ -31824,7 +34014,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4918, 13, True)
      , (4918, 12, True)
      , (4918, 14, True)
-     , (4918, 15, True);
+     , (4918, 15, True)
+     , (4918, 19, True)
+     , (4918, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12151, 'portalinfiltratorkeepnorthexit');
@@ -31853,7 +34045,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (12151, 13, True)
      , (12151, 12, True)
      , (12151, 14, True)
-     , (12151, 15, True);
+     , (12151, 15, True)
+     , (12151, 19, True)
+     , (12151, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12148, 'portalasteliary');
@@ -31882,7 +34076,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (12148, 13, True)
      , (12148, 12, True)
      , (12148, 14, True)
-     , (12148, 15, True);
+     , (12148, 15, True)
+     , (12148, 19, True)
+     , (12148, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12149, 'portalasteliaryexit');
@@ -31911,7 +34107,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (12149, 13, True)
      , (12149, 12, True)
      , (12149, 14, True)
-     , (12149, 15, True);
+     , (12149, 15, True)
+     , (12149, 19, True)
+     , (12149, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23368, 'portalabadonedarmoryexit');
@@ -31940,7 +34138,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23368, 13, True)
      , (23368, 12, True)
      , (23368, 14, True)
-     , (23368, 15, True);
+     , (23368, 15, True)
+     , (23368, 19, True)
+     , (23368, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1338, 'portaldrudgenestexit');
@@ -31969,7 +34169,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1338, 13, True)
      , (1338, 12, True)
      , (1338, 14, True)
-     , (1338, 15, True);
+     , (1338, 15, True)
+     , (1338, 19, True)
+     , (1338, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15824, 'portalthorstentombannexexit');
@@ -31998,7 +34200,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (15824, 13, True)
      , (15824, 12, True)
      , (15824, 14, True)
-     , (15824, 15, True);
+     , (15824, 15, True)
+     , (15824, 19, True)
+     , (15824, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29340, 'portalnewbieexityaraq');
@@ -32027,7 +34231,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29340, 13, True)
      , (29340, 12, True)
      , (29340, 14, True)
-     , (29340, 15, True);
+     , (29340, 15, True)
+     , (29340, 19, True)
+     , (29340, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4054, 'portalminesofdespairexit');
@@ -32056,7 +34262,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4054, 13, True)
      , (4054, 12, True)
      , (4054, 14, True)
-     , (4054, 15, True);
+     , (4054, 15, True)
+     , (4054, 19, True)
+     , (4054, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5531, 'portalsaadiaruinsexit');
@@ -32085,7 +34293,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5531, 13, True)
      , (5531, 12, True)
      , (5531, 14, True)
-     , (5531, 15, True);
+     , (5531, 15, True)
+     , (5531, 19, True)
+     , (5531, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52222, 'ace52222-chargedniche');
@@ -32114,7 +34324,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (52222, 13, True)
      , (52222, 12, True)
      , (52222, 14, True)
-     , (52222, 15, True);
+     , (52222, 15, True)
+     , (52222, 19, True)
+     , (52222, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52218, 'ace52218-surface');
@@ -32143,7 +34355,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (52218, 13, True)
      , (52218, 12, True)
      , (52218, 14, True)
-     , (52218, 15, True);
+     , (52218, 15, True)
+     , (52218, 19, True)
+     , (52218, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52220, 'ace52220-fieryalcove');
@@ -32172,7 +34386,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (52220, 13, True)
      , (52220, 12, True)
      , (52220, 14, True)
-     , (52220, 15, True);
+     , (52220, 15, True)
+     , (52220, 19, True)
+     , (52220, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52216, 'ace52216-surface');
@@ -32201,7 +34417,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (52216, 13, True)
      , (52216, 12, True)
      , (52216, 14, True)
-     , (52216, 15, True);
+     , (52216, 15, True)
+     , (52216, 19, True)
+     , (52216, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52221, 'ace52221-frozenrecess');
@@ -32230,7 +34448,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (52221, 13, True)
      , (52221, 12, True)
      , (52221, 14, True)
-     , (52221, 15, True);
+     , (52221, 15, True)
+     , (52221, 19, True)
+     , (52221, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52217, 'ace52217-surface');
@@ -32259,7 +34479,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (52217, 13, True)
      , (52217, 12, True)
      , (52217, 14, True)
-     , (52217, 15, True);
+     , (52217, 15, True)
+     , (52217, 19, True)
+     , (52217, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52219, 'ace52219-surface');
@@ -32288,7 +34510,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (52219, 13, True)
      , (52219, 12, True)
      , (52219, 14, True)
-     , (52219, 15, True);
+     , (52219, 15, True)
+     , (52219, 19, True)
+     , (52219, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52215, 'ace52215-surface');
@@ -32317,7 +34541,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (52215, 13, True)
      , (52215, 12, True)
      , (52215, 14, True)
-     , (52215, 15, True);
+     , (52215, 15, True)
+     , (52215, 19, True)
+     , (52215, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28781, 'portalsmallempvaultexit');
@@ -32346,7 +34572,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28781, 13, True)
      , (28781, 12, True)
      , (28781, 14, True)
-     , (28781, 15, True);
+     , (28781, 15, True)
+     , (28781, 19, True)
+     , (28781, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31884, 'ace31884-surface');
@@ -32375,7 +34603,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31884, 13, True)
      , (31884, 12, True)
      , (31884, 14, True)
-     , (31884, 15, True);
+     , (31884, 15, True)
+     , (31884, 19, True)
+     , (31884, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1328, 'portalemptyicecaveexit');
@@ -32404,7 +34634,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1328, 13, True)
      , (1328, 12, True)
      , (1328, 14, True)
-     , (1328, 15, True);
+     , (1328, 15, True)
+     , (1328, 19, True)
+     , (1328, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33295, 'ace33295-templeofncthail');
@@ -32433,7 +34665,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33295, 13, True)
      , (33295, 12, True)
      , (33295, 14, True)
-     , (33295, 15, True);
+     , (33295, 15, True)
+     , (33295, 19, True)
+     , (33295, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33302, 'ace33302-vaultofeternalslumber');
@@ -32462,7 +34696,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33302, 13, True)
      , (33302, 12, True)
      , (33302, 14, True)
-     , (33302, 15, True);
+     , (33302, 15, True)
+     , (33302, 19, True)
+     , (33302, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33306, 'ace33306-westerntemplecatacombs');
@@ -32491,7 +34727,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33306, 13, True)
      , (33306, 12, True)
      , (33306, 14, True)
-     , (33306, 15, True);
+     , (33306, 15, True)
+     , (33306, 19, True)
+     , (33306, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33303, 'ace33303-easterntemplecatacombs');
@@ -32520,7 +34758,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33303, 13, True)
      , (33303, 12, True)
      , (33303, 14, True)
-     , (33303, 15, True);
+     , (33303, 15, True)
+     , (33303, 19, True)
+     , (33303, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33305, 'ace33305-northerntemplecatacombs');
@@ -32549,7 +34789,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33305, 13, True)
      , (33305, 12, True)
      , (33305, 14, True)
-     , (33305, 15, True);
+     , (33305, 15, True)
+     , (33305, 19, True)
+     , (33305, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33304, 'ace33304-templeexit');
@@ -32578,7 +34820,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33304, 13, True)
      , (33304, 12, True)
      , (33304, 14, True)
-     , (33304, 15, True);
+     , (33304, 15, True)
+     , (33304, 19, True)
+     , (33304, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33544, 'ace33544-surface');
@@ -32607,7 +34851,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33544, 13, True)
      , (33544, 12, True)
      , (33544, 14, True)
-     , (33544, 15, True);
+     , (33544, 15, True)
+     , (33544, 19, True)
+     , (33544, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51403, 'ace51403-surface');
@@ -32636,7 +34882,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51403, 13, True)
      , (51403, 12, True)
      , (51403, 14, True)
-     , (51403, 15, True);
+     , (51403, 15, True)
+     , (51403, 19, True)
+     , (51403, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44119, 'ace44119-surface');
@@ -32665,7 +34913,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (44119, 13, True)
      , (44119, 12, True)
      , (44119, 14, True)
-     , (44119, 15, True);
+     , (44119, 15, True)
+     , (44119, 19, True)
+     , (44119, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44114, 'ace44114-surface');
@@ -32694,7 +34944,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (44114, 13, True)
      , (44114, 12, True)
      , (44114, 14, True)
-     , (44114, 15, True);
+     , (44114, 15, True)
+     , (44114, 19, True)
+     , (44114, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44118, 'ace44118-surface');
@@ -32723,7 +34975,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (44118, 13, True)
      , (44118, 12, True)
      , (44118, 14, True)
-     , (44118, 15, True);
+     , (44118, 15, True)
+     , (44118, 19, True)
+     , (44118, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49450, 'ace49450-surface');
@@ -32752,7 +35006,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (49450, 13, True)
      , (49450, 12, True)
      , (49450, 14, True)
-     , (49450, 15, True);
+     , (49450, 15, True)
+     , (49450, 19, True)
+     , (49450, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51719, 'ace51719-platformsoftorment');
@@ -32781,7 +35037,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51719, 13, True)
      , (51719, 12, True)
      , (51719, 14, True)
-     , (51719, 15, True);
+     , (51719, 15, True)
+     , (51719, 19, True)
+     , (51719, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51720, 'ace51720-platformsofrage');
@@ -32810,7 +35068,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51720, 13, True)
      , (51720, 12, True)
      , (51720, 14, True)
-     , (51720, 15, True);
+     , (51720, 15, True)
+     , (51720, 19, True)
+     , (51720, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51764, 'ace51764-surface');
@@ -32839,7 +35099,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51764, 13, True)
      , (51764, 12, True)
      , (51764, 14, True)
-     , (51764, 15, True);
+     , (51764, 15, True)
+     , (51764, 19, True)
+     , (51764, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8587, 'portalidolspawninggroundsexit');
@@ -32868,7 +35130,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8587, 13, True)
      , (8587, 12, True)
      , (8587, 14, True)
-     , (8587, 15, True);
+     , (8587, 15, True)
+     , (8587, 19, True)
+     , (8587, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51616, 'ace51616-surface');
@@ -32897,7 +35161,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51616, 13, True)
      , (51616, 12, True)
      , (51616, 14, True)
-     , (51616, 15, True);
+     , (51616, 15, True)
+     , (51616, 19, True)
+     , (51616, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51282, 'ace51282-maskedpreface');
@@ -32926,7 +35192,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51282, 13, True)
      , (51282, 12, True)
      , (51282, 14, True)
-     , (51282, 15, True);
+     , (51282, 15, True)
+     , (51282, 19, True)
+     , (51282, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51283, 'ace51283-surface');
@@ -32955,7 +35223,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51283, 13, True)
      , (51283, 12, True)
      , (51283, 14, True)
-     , (51283, 15, True);
+     , (51283, 15, True)
+     , (51283, 19, True)
+     , (51283, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22190, 'portalolthoiarcadecentralexit');
@@ -32984,7 +35254,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22190, 13, True)
      , (22190, 12, True)
      , (22190, 14, True)
-     , (22190, 15, True);
+     , (22190, 15, True)
+     , (22190, 19, True)
+     , (22190, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22191, 'portalolthoiarcadesouth');
@@ -33013,7 +35285,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22191, 13, True)
      , (22191, 12, True)
      , (22191, 14, True)
-     , (22191, 15, True);
+     , (22191, 15, True)
+     , (22191, 19, True)
+     , (22191, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22192, 'portalolthoiarcadesouthexit');
@@ -33042,7 +35316,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22192, 13, True)
      , (22192, 12, True)
      , (22192, 14, True)
-     , (22192, 15, True);
+     , (22192, 15, True)
+     , (22192, 19, True)
+     , (22192, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22193, 'portalolthoiarcadesouthsurfaceexit');
@@ -33071,7 +35347,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22193, 13, True)
      , (22193, 12, True)
      , (22193, 14, True)
-     , (22193, 15, True);
+     , (22193, 15, True)
+     , (22193, 19, True)
+     , (22193, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35847, 'ace35847-laboratory');
@@ -33100,7 +35378,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35847, 13, True)
      , (35847, 12, True)
      , (35847, 14, True)
-     , (35847, 15, True);
+     , (35847, 15, True)
+     , (35847, 19, True)
+     , (35847, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35597, 'ace35597-surface');
@@ -33129,7 +35409,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35597, 13, True)
      , (35597, 12, True)
      , (35597, 14, True)
-     , (35597, 15, True);
+     , (35597, 15, True)
+     , (35597, 19, True)
+     , (35597, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27585, 'portalwarriornamequest');
@@ -33158,7 +35440,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27585, 13, True)
      , (27585, 12, True)
      , (27585, 14, True)
-     , (27585, 15, True);
+     , (27585, 15, True)
+     , (27585, 19, True)
+     , (27585, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10925, 'portalgrubhatcheryentry-xp');
@@ -33187,7 +35471,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (10925, 13, True)
      , (10925, 12, True)
      , (10925, 14, True)
-     , (10925, 15, True);
+     , (10925, 15, True)
+     , (10925, 19, True)
+     , (10925, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34019, 'ace34019-deepercaves');
@@ -33216,7 +35502,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34019, 13, True)
      , (34019, 12, True)
      , (34019, 14, True)
-     , (34019, 15, True);
+     , (34019, 15, True)
+     , (34019, 19, True)
+     , (34019, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34020, 'ace34020-deepestcaves');
@@ -33245,7 +35533,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34020, 13, True)
      , (34020, 12, True)
      , (34020, 14, True)
-     , (34020, 15, True);
+     , (34020, 15, True)
+     , (34020, 19, True)
+     , (34020, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29099, 'portalsteaminghovel');
@@ -33274,7 +35564,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29099, 13, True)
      , (29099, 12, True)
      , (29099, 14, True)
-     , (29099, 15, True);
+     , (29099, 15, True)
+     , (29099, 19, True)
+     , (29099, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32518, 'ace32518-yanshilowerundermine');
@@ -33303,7 +35595,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32518, 13, True)
      , (32518, 12, True)
      , (32518, 14, True)
-     , (32518, 15, True);
+     , (32518, 15, True)
+     , (32518, 19, True)
+     , (32518, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32516, 'ace32516-surface');
@@ -33332,7 +35626,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32516, 13, True)
      , (32516, 12, True)
      , (32516, 14, True)
-     , (32516, 15, True);
+     , (32516, 15, True)
+     , (32516, 19, True)
+     , (32516, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32517, 'ace32517-yanshiupperundermine');
@@ -33361,7 +35657,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32517, 13, True)
      , (32517, 12, True)
      , (32517, 14, True)
-     , (32517, 15, True);
+     , (32517, 15, True)
+     , (32517, 19, True)
+     , (32517, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27586, 'portalwarriornamequestexit');
@@ -33390,7 +35688,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27586, 13, True)
      , (27586, 12, True)
      , (27586, 14, True)
-     , (27586, 15, True);
+     , (27586, 15, True)
+     , (27586, 19, True)
+     , (27586, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22691, 'portaltuskerpitsexit');
@@ -33419,7 +35719,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22691, 13, True)
      , (22691, 12, True)
      , (22691, 14, True)
-     , (22691, 15, True);
+     , (22691, 15, True)
+     , (22691, 19, True)
+     , (22691, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22681, 'portaltuskerholdingexit');
@@ -33448,7 +35750,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22681, 13, True)
      , (22681, 12, True)
      , (22681, 14, True)
-     , (22681, 15, True);
+     , (22681, 15, True)
+     , (22681, 19, True)
+     , (22681, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22687, 'portaltuskerlacunaexit');
@@ -33477,7 +35781,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22687, 13, True)
      , (22687, 12, True)
      , (22687, 14, True)
-     , (22687, 15, True);
+     , (22687, 15, True)
+     , (22687, 19, True)
+     , (22687, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4956, 'portalstonecathedralexit');
@@ -33506,7 +35812,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4956, 13, True)
      , (4956, 12, True)
      , (4956, 14, True)
-     , (4956, 15, True);
+     , (4956, 15, True)
+     , (4956, 19, True)
+     , (4956, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1346, 'portalwhiteratlairexit');
@@ -33535,7 +35843,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1346, 13, True)
      , (1346, 12, True)
      , (1346, 14, True)
-     , (1346, 15, True);
+     , (1346, 15, True)
+     , (1346, 19, True)
+     , (1346, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5199, 'portalapplejuiceexit');
@@ -33564,7 +35874,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5199, 13, True)
      , (5199, 12, True)
      , (5199, 14, True)
-     , (5199, 15, True);
+     , (5199, 15, True)
+     , (5199, 19, True)
+     , (5199, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43552, 'ace43552-olthoitunnel');
@@ -33594,7 +35906,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43552, 13, True)
      , (43552, 12, True)
      , (43552, 14, True)
-     , (43552, 15, True);
+     , (43552, 15, True)
+     , (43552, 19, True)
+     , (43552, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43552, 67111849, 1, 255);
@@ -33626,7 +35940,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22751, 13, True)
      , (22751, 12, True)
      , (22751, 14, True)
-     , (22751, 15, True);
+     , (22751, 15, True)
+     , (22751, 19, True)
+     , (22751, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22659, 'portaltuskerassault');
@@ -33655,7 +35971,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22659, 13, True)
      , (22659, 12, True)
      , (22659, 14, True)
-     , (22659, 15, True);
+     , (22659, 15, True)
+     , (22659, 19, True)
+     , (22659, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22660, 'portaltuskerassaultexit');
@@ -33684,7 +36002,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22660, 13, True)
      , (22660, 12, True)
      , (22660, 14, True)
-     , (22660, 15, True);
+     , (22660, 15, True)
+     , (22660, 19, True)
+     , (22660, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22675, 'portaltuskergauntletexit');
@@ -33713,7 +36033,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22675, 13, True)
      , (22675, 12, True)
      , (22675, 14, True)
-     , (22675, 15, True);
+     , (22675, 15, True)
+     , (22675, 19, True)
+     , (22675, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33035, 'ace33035-surface');
@@ -33742,7 +36064,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33035, 13, True)
      , (33035, 12, True)
      , (33035, 14, True)
-     , (33035, 15, True);
+     , (33035, 15, True)
+     , (33035, 19, True)
+     , (33035, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22931, 'portalaerbaxsurface');
@@ -33771,7 +36095,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22931, 13, True)
      , (22931, 12, True)
      , (22931, 14, True)
-     , (22931, 15, True);
+     , (22931, 15, True)
+     , (22931, 19, True)
+     , (22931, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52912, 'ace52912-gauntletstage10');
@@ -33797,7 +36123,9 @@ VALUES (52912, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52912, 11, True)
-     , (52912, 14, True);
+     , (52912, 14, True)
+     , (52912, 19, True)
+     , (52912, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52913, 'ace52913-gauntletstage11');
@@ -33823,7 +36151,9 @@ VALUES (52913, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52913, 11, True)
-     , (52913, 14, True);
+     , (52913, 14, True)
+     , (52913, 19, True)
+     , (52913, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52914, 'ace52914-gauntletstage12');
@@ -33849,7 +36179,9 @@ VALUES (52914, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52914, 11, True)
-     , (52914, 14, True);
+     , (52914, 14, True)
+     , (52914, 19, True)
+     , (52914, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52915, 'ace52915-gauntletexit');
@@ -33875,7 +36207,9 @@ VALUES (52915, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52915, 11, True)
-     , (52915, 14, True);
+     , (52915, 14, True)
+     , (52915, 19, True)
+     , (52915, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52928, 'ace52928-gauntletexit');
@@ -33901,7 +36235,9 @@ VALUES (52928, 54, 0.3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52928, 11, True)
-     , (52928, 14, True);
+     , (52928, 14, True)
+     , (52928, 19, True)
+     , (52928, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33784, 'ace33784-graelschamber');
@@ -33930,7 +36266,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33784, 13, True)
      , (33784, 12, True)
      , (33784, 14, True)
-     , (33784, 15, True);
+     , (33784, 15, True)
+     , (33784, 19, True)
+     , (33784, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2558, 'portaltumeroksmallhideout');
@@ -33959,7 +36297,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2558, 13, True)
      , (2558, 12, True)
      , (2558, 14, True)
-     , (2558, 15, True);
+     , (2558, 15, True)
+     , (2558, 19, True)
+     , (2558, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2559, 'portaltumeroksmallhideoutexit');
@@ -33988,7 +36328,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2559, 13, True)
      , (2559, 12, True)
      , (2559, 14, True)
-     , (2559, 15, True);
+     , (2559, 15, True)
+     , (2559, 19, True)
+     , (2559, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25227, 'portalhighnest1');
@@ -34017,7 +36359,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25227, 13, True)
      , (25227, 12, True)
      , (25227, 14, True)
-     , (25227, 15, True);
+     , (25227, 15, True)
+     , (25227, 19, True)
+     , (25227, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28778, 'portalfrozenlibrary');
@@ -34046,7 +36390,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28778, 13, True)
      , (28778, 12, True)
      , (28778, 14, True)
-     , (28778, 15, True);
+     , (28778, 15, True)
+     , (28778, 19, True)
+     , (28778, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34318, 'ace34318-soulhunterslair');
@@ -34075,7 +36421,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34318, 13, True)
      , (34318, 12, True)
      , (34318, 14, True)
-     , (34318, 15, True);
+     , (34318, 15, True)
+     , (34318, 19, True)
+     , (34318, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27477, 'portalburunburrow');
@@ -34104,7 +36452,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27477, 13, True)
      , (27477, 12, True)
      , (27477, 14, True)
-     , (27477, 15, True);
+     , (27477, 15, True)
+     , (27477, 19, True)
+     , (27477, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24229, 'portalolthoilairaluexpansion');
@@ -34133,7 +36483,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24229, 13, True)
      , (24229, 12, True)
      , (24229, 14, True)
-     , (24229, 15, True);
+     , (24229, 15, True)
+     , (24229, 19, True)
+     , (24229, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23899, 'portaltumerokwarserpent');
@@ -34162,7 +36514,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23899, 13, True)
      , (23899, 12, True)
      , (23899, 14, True)
-     , (23899, 15, True);
+     , (23899, 15, True)
+     , (23899, 19, True)
+     , (23899, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32830, 'ace32830-sclavusumbralforge');
@@ -34191,7 +36545,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32830, 13, True)
      , (32830, 12, True)
      , (32830, 14, True)
-     , (32830, 15, True);
+     , (32830, 15, True)
+     , (32830, 19, True)
+     , (32830, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23900, 'portaltumerokwarserpentexit');
@@ -34220,7 +36576,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23900, 13, True)
      , (23900, 12, True)
      , (23900, 14, True)
-     , (23900, 15, True);
+     , (23900, 15, True)
+     , (23900, 19, True)
+     , (23900, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2341, 'portaltrialos');
@@ -34249,7 +36607,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2341, 13, True)
      , (2341, 12, True)
      , (2341, 14, True)
-     , (2341, 15, True);
+     , (2341, 15, True)
+     , (2341, 19, True)
+     , (2341, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22658, 'portaltuskerarmoryexit');
@@ -34278,7 +36638,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22658, 13, True)
      , (22658, 12, True)
      , (22658, 14, True)
-     , (22658, 15, True);
+     , (22658, 15, True)
+     , (22658, 19, True)
+     , (22658, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23516, 'portaltowerexit');
@@ -34307,7 +36669,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23516, 13, True)
      , (23516, 12, True)
      , (23516, 14, True)
-     , (23516, 15, True);
+     , (23516, 15, True)
+     , (23516, 19, True)
+     , (23516, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23515, 'portaltowerbase');
@@ -34336,7 +36700,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23515, 13, True)
      , (23515, 12, True)
      , (23515, 14, True)
-     , (23515, 15, True);
+     , (23515, 15, True)
+     , (23515, 19, True)
+     , (23515, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2383, 'portalswamptemple');
@@ -34365,7 +36731,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2383, 13, True)
      , (2383, 12, True)
      , (2383, 14, True)
-     , (2383, 15, True);
+     , (2383, 15, True)
+     , (2383, 19, True)
+     , (2383, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1364, 'portalmountainkeep');
@@ -34394,7 +36762,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1364, 13, True)
      , (1364, 12, True)
      , (1364, 14, True)
-     , (1364, 15, True);
+     , (1364, 15, True)
+     , (1364, 19, True)
+     , (1364, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51691, 'ace51691-surface');
@@ -34423,7 +36793,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51691, 13, True)
      , (51691, 12, True)
      , (51691, 14, True)
-     , (51691, 15, True);
+     , (51691, 15, True)
+     , (51691, 19, True)
+     , (51691, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52079, 'ace52079-assessmentchamber');
@@ -34452,7 +36824,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (52079, 13, True)
      , (52079, 12, True)
      , (52079, 14, True)
-     , (52079, 15, True);
+     , (52079, 15, True)
+     , (52079, 19, True)
+     , (52079, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52173, 'ace52173-surface');
@@ -34481,7 +36855,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (52173, 13, True)
      , (52173, 12, True)
      , (52173, 14, True)
-     , (52173, 15, True);
+     , (52173, 15, True)
+     , (52173, 19, True)
+     , (52173, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51581, 'ace51581-surface');
@@ -34510,7 +36886,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51581, 13, True)
      , (51581, 12, True)
      , (51581, 14, True)
-     , (51581, 15, True);
+     , (51581, 15, True)
+     , (51581, 19, True)
+     , (51581, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51597, 'ace51597-surface');
@@ -34539,7 +36917,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51597, 13, True)
      , (51597, 12, True)
      , (51597, 14, True)
-     , (51597, 15, True);
+     , (51597, 15, True)
+     , (51597, 19, True)
+     , (51597, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11441, 'portalpalenqualexit-xp');
@@ -34568,7 +36948,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (11441, 13, True)
      , (11441, 12, True)
      , (11441, 14, True)
-     , (11441, 15, True);
+     , (11441, 15, True)
+     , (11441, 19, True)
+     , (11441, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7894, 'portalpkarena2');
@@ -34597,7 +36979,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7894, 13, True)
      , (7894, 12, True)
      , (7894, 14, True)
-     , (7894, 15, True);
+     , (7894, 15, True)
+     , (7894, 19, True)
+     , (7894, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7891, 'portalpkarena1');
@@ -34626,7 +37010,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7891, 13, True)
      , (7891, 12, True)
      , (7891, 14, True)
-     , (7891, 15, True);
+     , (7891, 15, True)
+     , (7891, 19, True)
+     , (7891, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28102, 'portalrenegadetunnels');
@@ -34655,7 +37041,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28102, 13, True)
      , (28102, 12, True)
      , (28102, 14, True)
-     , (28102, 15, True);
+     , (28102, 15, True)
+     , (28102, 19, True)
+     , (28102, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28103, 'portalrenegadeunderway');
@@ -34684,7 +37072,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28103, 13, True)
      , (28103, 12, True)
      , (28103, 14, True)
-     , (28103, 15, True);
+     , (28103, 15, True)
+     , (28103, 19, True)
+     , (28103, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28097, 'portalburunhold');
@@ -34713,7 +37103,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28097, 13, True)
      , (28097, 12, True)
      , (28097, 14, True)
-     , (28097, 15, True);
+     , (28097, 15, True)
+     , (28097, 19, True)
+     , (28097, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7250, 'portalmossbandgha');
@@ -34742,7 +37134,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7250, 13, True)
      , (7250, 12, True)
      , (7250, 14, True)
-     , (7250, 15, True);
+     , (7250, 15, True)
+     , (7250, 19, True)
+     , (7250, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34320, 'ace34320-surface');
@@ -34771,7 +37165,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34320, 13, True)
      , (34320, 12, True)
      , (34320, 14, True)
-     , (34320, 15, True);
+     , (34320, 15, True)
+     , (34320, 19, True)
+     , (34320, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34319, 'ace34319-soulhunterschambers');
@@ -34800,7 +37196,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34319, 13, True)
      , (34319, 12, True)
      , (34319, 14, True)
-     , (34319, 15, True);
+     , (34319, 15, True)
+     , (34319, 19, True)
+     , (34319, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29440, 'portalinvaderkeepsilverexit');
@@ -34829,7 +37227,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29440, 13, True)
      , (29440, 12, True)
      , (29440, 14, True)
-     , (29440, 15, True);
+     , (29440, 15, True)
+     , (29440, 19, True)
+     , (29440, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33017, 'ace33017-blackspeartempleupperlevels');
@@ -34858,7 +37258,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33017, 13, True)
      , (33017, 12, True)
      , (33017, 14, True)
-     , (33017, 15, True);
+     , (33017, 15, True)
+     , (33017, 19, True)
+     , (33017, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32711, 'ace32711-surface');
@@ -34887,7 +37289,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32711, 13, True)
      , (32711, 12, True)
      , (32711, 14, True)
-     , (32711, 15, True);
+     , (32711, 15, True)
+     , (32711, 19, True)
+     , (32711, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32712, 'ace32712-castlepietrus');
@@ -34916,7 +37320,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32712, 13, True)
      , (32712, 12, True)
      , (32712, 14, True)
-     , (32712, 15, True);
+     , (32712, 15, True)
+     , (32712, 19, True)
+     , (32712, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9189, 'portaltombofthedeadexit');
@@ -34945,7 +37351,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9189, 13, True)
      , (9189, 12, True)
      , (9189, 14, True)
-     , (9189, 15, True);
+     , (9189, 15, True)
+     , (9189, 19, True)
+     , (9189, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8969, 'portalminesofdespairtunnels');
@@ -34974,7 +37382,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8969, 13, True)
      , (8969, 12, True)
      , (8969, 14, True)
-     , (8969, 15, True);
+     , (8969, 15, True)
+     , (8969, 19, True)
+     , (8969, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25836, 'portalfirebirdemptysoulsurface');
@@ -35003,7 +37413,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25836, 13, True)
      , (25836, 12, True)
      , (25836, 14, True)
-     , (25836, 15, True);
+     , (25836, 15, True)
+     , (25836, 19, True)
+     , (25836, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25833, 'portaldragonemptysoul');
@@ -35032,7 +37444,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25833, 13, True)
      , (25833, 12, True)
      , (25833, 14, True)
-     , (25833, 15, True);
+     , (25833, 15, True)
+     , (25833, 19, True)
+     , (25833, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25834, 'portaldragonemptysoulsurface');
@@ -35061,7 +37475,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25834, 13, True)
      , (25834, 12, True)
      , (25834, 14, True)
-     , (25834, 15, True);
+     , (25834, 15, True)
+     , (25834, 19, True)
+     , (25834, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1344, 'portalsimplesuiteexit');
@@ -35090,7 +37506,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1344, 13, True)
      , (1344, 12, True)
      , (1344, 14, True)
-     , (1344, 15, True);
+     , (1344, 15, True)
+     , (1344, 19, True)
+     , (1344, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27691, 'portalburunholdingexit');
@@ -35119,7 +37537,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27691, 13, True)
      , (27691, 12, True)
      , (27691, 14, True)
-     , (27691, 15, True);
+     , (27691, 15, True)
+     , (27691, 19, True)
+     , (27691, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3651, 'portalcraterlair');
@@ -35148,7 +37568,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3651, 13, True)
      , (3651, 12, True)
      , (3651, 14, True)
-     , (3651, 15, True);
+     , (3651, 15, True)
+     , (3651, 19, True)
+     , (3651, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3652, 'portalcraterlairexit');
@@ -35177,7 +37599,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3652, 13, True)
      , (3652, 12, True)
      , (3652, 14, True)
-     , (3652, 15, True);
+     , (3652, 15, True)
+     , (3652, 19, True)
+     , (3652, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24228, 'portalcraterlairexpansion');
@@ -35206,7 +37630,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24228, 13, True)
      , (24228, 12, True)
      , (24228, 14, True)
-     , (24228, 15, True);
+     , (24228, 15, True)
+     , (24228, 19, True)
+     , (24228, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4960, 'portalempyreangarrisonexit');
@@ -35235,7 +37661,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4960, 13, True)
      , (4960, 12, True)
      , (4960, 14, True)
-     , (4960, 15, True);
+     , (4960, 15, True)
+     , (4960, 19, True)
+     , (4960, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28787, 'portalhiddencityexit');
@@ -35264,7 +37692,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28787, 13, True)
      , (28787, 12, True)
      , (28787, 14, True)
-     , (28787, 15, True);
+     , (28787, 15, True)
+     , (28787, 19, True)
+     , (28787, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28786, 'portalhiddencity');
@@ -35293,7 +37723,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28786, 13, True)
      , (28786, 12, True)
      , (28786, 14, True)
-     , (28786, 15, True);
+     , (28786, 15, True)
+     , (28786, 19, True)
+     , (28786, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29097, 'portalhumidhovelexit');
@@ -35322,7 +37754,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29097, 13, True)
      , (29097, 12, True)
      , (29097, 14, True)
-     , (29097, 15, True);
+     , (29097, 15, True)
+     , (29097, 19, True)
+     , (29097, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29102, 'portalhumidhovel');
@@ -35351,7 +37785,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29102, 13, True)
      , (29102, 12, True)
      , (29102, 14, True)
-     , (29102, 15, True);
+     , (29102, 15, True)
+     , (29102, 19, True)
+     , (29102, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24953, 'portallugiancitadelsdiresexit');
@@ -35380,7 +37816,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24953, 13, True)
      , (24953, 12, True)
      , (24953, 14, True)
-     , (24953, 15, True);
+     , (24953, 15, True)
+     , (24953, 19, True)
+     , (24953, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1602, 'portallostgardenruinsexit');
@@ -35409,7 +37847,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1602, 13, True)
      , (1602, 12, True)
      , (1602, 14, True)
-     , (1602, 15, True);
+     , (1602, 15, True)
+     , (1602, 19, True)
+     , (1602, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29098, 'portalmoisthovelexit');
@@ -35438,7 +37878,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29098, 13, True)
      , (29098, 12, True)
      , (29098, 14, True)
-     , (29098, 15, True);
+     , (29098, 15, True)
+     , (29098, 19, True)
+     , (29098, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1366, 'portalmountainkeepexit2');
@@ -35467,7 +37909,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1366, 13, True)
      , (1366, 12, True)
      , (1366, 14, True)
-     , (1366, 15, True);
+     , (1366, 15, True)
+     , (1366, 19, True)
+     , (1366, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1365, 'portalmountainkeepexit');
@@ -35496,7 +37940,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1365, 13, True)
      , (1365, 12, True)
      , (1365, 14, True)
-     , (1365, 15, True);
+     , (1365, 15, True)
+     , (1365, 19, True)
+     , (1365, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24917, 'portalothoihivelow2exit');
@@ -35525,7 +37971,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24917, 13, True)
      , (24917, 12, True)
      , (24917, 14, True)
-     , (24917, 15, True);
+     , (24917, 15, True)
+     , (24917, 19, True)
+     , (24917, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24918, 'portalothoihivelowexit');
@@ -35554,7 +38002,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24918, 13, True)
      , (24918, 12, True)
      , (24918, 14, True)
-     , (24918, 15, True);
+     , (24918, 15, True)
+     , (24918, 19, True)
+     , (24918, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24912, 'portalolthoihivelow');
@@ -35583,7 +38033,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24912, 13, True)
      , (24912, 12, True)
      , (24912, 14, True)
-     , (24912, 15, True);
+     , (24912, 15, True)
+     , (24912, 19, True)
+     , (24912, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24636, 'portalothoihivemidexit');
@@ -35612,7 +38064,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24636, 13, True)
      , (24636, 12, True)
      , (24636, 14, True)
-     , (24636, 15, True);
+     , (24636, 15, True)
+     , (24636, 19, True)
+     , (24636, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24635, 'portalothoihivemid');
@@ -35641,7 +38095,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24635, 13, True)
      , (24635, 12, True)
      , (24635, 14, True)
-     , (24635, 15, True);
+     , (24635, 15, True)
+     , (24635, 19, True)
+     , (24635, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24634, 'portalothoihivehighexit');
@@ -35670,7 +38126,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24634, 13, True)
      , (24634, 12, True)
      , (24634, 14, True)
-     , (24634, 15, True);
+     , (24634, 15, True)
+     , (24634, 19, True)
+     , (24634, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24880, 'portalolthoihive2high');
@@ -35699,7 +38157,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24880, 13, True)
      , (24880, 12, True)
      , (24880, 14, True)
-     , (24880, 15, True);
+     , (24880, 15, True)
+     , (24880, 19, True)
+     , (24880, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24882, 'portalothoihivehigh2exit');
@@ -35728,7 +38188,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24882, 13, True)
      , (24882, 12, True)
      , (24882, 14, True)
-     , (24882, 15, True);
+     , (24882, 15, True)
+     , (24882, 19, True)
+     , (24882, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24915, 'portalothoihiveextreme2exit');
@@ -35757,7 +38219,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24915, 13, True)
      , (24915, 12, True)
      , (24915, 14, True)
-     , (24915, 15, True);
+     , (24915, 15, True)
+     , (24915, 19, True)
+     , (24915, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24914, 'portalothoihiveextreme');
@@ -35786,7 +38250,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24914, 13, True)
      , (24914, 12, True)
      , (24914, 14, True)
-     , (24914, 15, True);
+     , (24914, 15, True)
+     , (24914, 19, True)
+     , (24914, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24916, 'portalothoihiveextremeexit');
@@ -35815,7 +38281,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24916, 13, True)
      , (24916, 12, True)
      , (24916, 14, True)
-     , (24916, 15, True);
+     , (24916, 15, True)
+     , (24916, 19, True)
+     , (24916, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2342, 'portaltrialosexit');
@@ -35844,7 +38312,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2342, 13, True)
      , (2342, 12, True)
      , (2342, 14, True)
-     , (2342, 15, True);
+     , (2342, 15, True)
+     , (2342, 19, True)
+     , (2342, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22677, 'portaltuskergrottoexit');
@@ -35873,7 +38343,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22677, 13, True)
      , (22677, 12, True)
      , (22677, 14, True)
-     , (22677, 15, True);
+     , (22677, 15, True)
+     , (22677, 19, True)
+     , (22677, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22676, 'portaltuskergrotto');
@@ -35902,7 +38374,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22676, 13, True)
      , (22676, 12, True)
      , (22676, 14, True)
-     , (22676, 15, True);
+     , (22676, 15, True)
+     , (22676, 19, True)
+     , (22676, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2090, 'portalrockycryptexit');
@@ -35931,7 +38405,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090, 13, True)
      , (2090, 12, True)
      , (2090, 14, True)
-     , (2090, 15, True);
+     , (2090, 15, True)
+     , (2090, 19, True)
+     , (2090, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8485, 'portalvesayensmallruinexit');
@@ -35960,7 +38436,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8485, 13, True)
      , (8485, 12, True)
      , (8485, 14, True)
-     , (8485, 15, True);
+     , (8485, 15, True)
+     , (8485, 19, True)
+     , (8485, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8483, 'portalvesayensmalltemplecexit');
@@ -35989,7 +38467,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8483, 13, True)
      , (8483, 12, True)
      , (8483, 14, True)
-     , (8483, 15, True);
+     , (8483, 15, True)
+     , (8483, 19, True)
+     , (8483, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29100, 'portalsteaminghovelexit');
@@ -36018,7 +38498,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29100, 13, True)
      , (29100, 12, True)
      , (29100, 14, True)
-     , (29100, 15, True);
+     , (29100, 15, True)
+     , (29100, 19, True)
+     , (29100, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29096, 'portalsultryhovelexit');
@@ -36047,7 +38529,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29096, 13, True)
      , (29096, 12, True)
      , (29096, 14, True)
-     , (29096, 15, True);
+     , (29096, 15, True)
+     , (29096, 19, True)
+     , (29096, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11685, 'portaldyedungeonexit');
@@ -36076,7 +38560,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (11685, 13, True)
      , (11685, 12, True)
      , (11685, 14, True)
-     , (11685, 15, True);
+     , (11685, 15, True)
+     , (11685, 19, True)
+     , (11685, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2384, 'portalswamptempleexit');
@@ -36105,7 +38591,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2384, 13, True)
      , (2384, 12, True)
      , (2384, 14, True)
-     , (2384, 15, True);
+     , (2384, 15, True)
+     , (2384, 19, True)
+     , (2384, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25228, 'portalhighnest1surface');
@@ -36134,7 +38622,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25228, 13, True)
      , (25228, 12, True)
      , (25228, 14, True)
-     , (25228, 15, True);
+     , (25228, 15, True)
+     , (25228, 19, True)
+     , (25228, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2561, 'portaltumerokbaseexit');
@@ -36163,7 +38653,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2561, 13, True)
      , (2561, 12, True)
      , (2561, 14, True)
-     , (2561, 15, True);
+     , (2561, 15, True)
+     , (2561, 19, True)
+     , (2561, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2560, 'portaltumerokbase');
@@ -36192,7 +38684,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2560, 13, True)
      , (2560, 12, True)
      , (2560, 14, True)
-     , (2560, 15, True);
+     , (2560, 15, True)
+     , (2560, 19, True)
+     , (2560, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11326, 'portaltanuacavernexit-xp');
@@ -36221,7 +38715,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (11326, 13, True)
      , (11326, 12, True)
      , (11326, 14, True)
-     , (11326, 15, True);
+     , (11326, 15, True)
+     , (11326, 19, True)
+     , (11326, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2563, 'portaltumerokdungeonexit');
@@ -36250,7 +38746,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2563, 13, True)
      , (2563, 12, True)
      , (2563, 14, True)
-     , (2563, 15, True);
+     , (2563, 15, True)
+     , (2563, 19, True)
+     , (2563, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2338, 'portaltumerokoutpostexit');
@@ -36279,7 +38777,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2338, 13, True)
      , (2338, 12, True)
      , (2338, 14, True)
-     , (2338, 15, True);
+     , (2338, 15, True)
+     , (2338, 19, True)
+     , (2338, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28266, 'portalmosswartswamplordexit');
@@ -36308,7 +38808,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28266, 13, True)
      , (28266, 12, True)
      , (28266, 14, True)
-     , (28266, 15, True);
+     , (28266, 15, True)
+     , (28266, 19, True)
+     , (28266, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2562, 'portaltumerokdungeon');
@@ -36337,7 +38839,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2562, 13, True)
      , (2562, 12, True)
      , (2562, 14, True)
-     , (2562, 15, True);
+     , (2562, 15, True)
+     , (2562, 19, True)
+     , (2562, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24230, 'portalolthoilairexpansion');
@@ -36366,7 +38870,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24230, 13, True)
      , (24230, 12, True)
      , (24230, 14, True)
-     , (24230, 15, True);
+     , (24230, 15, True)
+     , (24230, 19, True)
+     , (24230, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22649, 'portalchapelofmowenexit');
@@ -36395,7 +38901,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22649, 13, True)
      , (22649, 12, True)
      , (22649, 14, True)
-     , (22649, 15, True);
+     , (22649, 15, True)
+     , (22649, 19, True)
+     , (22649, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22670, 'portaltuskerencampmentsexit');
@@ -36424,7 +38932,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22670, 13, True)
      , (22670, 12, True)
      , (22670, 14, True)
-     , (22670, 15, True);
+     , (22670, 15, True)
+     , (22670, 19, True)
+     , (22670, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22669, 'portaltuskerencampments');
@@ -36453,7 +38963,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22669, 13, True)
      , (22669, 12, True)
      , (22669, 14, True)
-     , (22669, 15, True);
+     , (22669, 15, True)
+     , (22669, 19, True)
+     , (22669, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22673, 'portaltuskerfreeholdexit');
@@ -36482,7 +38994,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22673, 13, True)
      , (22673, 12, True)
      , (22673, 14, True)
-     , (22673, 15, True);
+     , (22673, 15, True)
+     , (22673, 19, True)
+     , (22673, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22672, 'portaltuskerfreehold');
@@ -36511,7 +39025,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22672, 13, True)
      , (22672, 12, True)
      , (22672, 14, True)
-     , (22672, 15, True);
+     , (22672, 15, True)
+     , (22672, 19, True)
+     , (22672, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22707, 'portalvengeancecavernsexit');
@@ -36540,7 +39056,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22707, 13, True)
      , (22707, 12, True)
      , (22707, 14, True)
-     , (22707, 15, True);
+     , (22707, 15, True)
+     , (22707, 19, True)
+     , (22707, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22694, 'portaltuskerretreat');
@@ -36569,7 +39087,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22694, 13, True)
      , (22694, 12, True)
      , (22694, 14, True)
-     , (22694, 15, True);
+     , (22694, 15, True)
+     , (22694, 19, True)
+     , (22694, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25511, 'portalcrystalminerot2exit');
@@ -36598,7 +39118,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25511, 13, True)
      , (25511, 12, True)
      , (25511, 14, True)
-     , (25511, 15, True);
+     , (25511, 15, True)
+     , (25511, 19, True)
+     , (25511, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25494, 'portalcrystalminerot2');
@@ -36627,7 +39149,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25494, 13, True)
      , (25494, 12, True)
      , (25494, 14, True)
-     , (25494, 15, True);
+     , (25494, 15, True)
+     , (25494, 19, True)
+     , (25494, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9200, 'portalsandshallowexit');
@@ -36656,7 +39180,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9200, 13, True)
      , (9200, 12, True)
      , (9200, 14, True)
-     , (9200, 15, True);
+     , (9200, 15, True)
+     , (9200, 19, True)
+     , (9200, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9199, 'portalsandshallow');
@@ -36685,7 +39211,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9199, 13, True)
      , (9199, 12, True)
      , (9199, 14, True)
-     , (9199, 15, True);
+     , (9199, 15, True)
+     , (9199, 19, True)
+     , (9199, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2363, 'portalthasaliexit');
@@ -36714,7 +39242,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2363, 13, True)
      , (2363, 12, True)
      , (2363, 14, True)
-     , (2363, 15, True);
+     , (2363, 15, True)
+     , (2363, 19, True)
+     , (2363, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22695, 'portaltuskerretreatexit');
@@ -36743,7 +39273,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (22695, 13, True)
      , (22695, 12, True)
      , (22695, 14, True)
-     , (22695, 15, True);
+     , (22695, 15, True)
+     , (22695, 19, True)
+     , (22695, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32508, 'ace32508-templeofthestirringshadow');
@@ -36772,7 +39304,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32508, 13, True)
      , (32508, 12, True)
      , (32508, 14, True)
-     , (32508, 15, True);
+     , (32508, 15, True)
+     , (32508, 19, True)
+     , (32508, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32507, 'ace32507-surface');
@@ -36801,7 +39335,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32507, 13, True)
      , (32507, 12, True)
      , (32507, 14, True)
-     , (32507, 15, True);
+     , (32507, 15, True)
+     , (32507, 19, True)
+     , (32507, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32509, 'ace32509-templenorthwing');
@@ -36830,7 +39366,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32509, 13, True)
      , (32509, 12, True)
      , (32509, 14, True)
-     , (32509, 15, True);
+     , (32509, 15, True)
+     , (32509, 19, True)
+     , (32509, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32505, 'ace32505-templesouthwing');
@@ -36859,7 +39397,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32505, 13, True)
      , (32505, 12, True)
      , (32505, 14, True)
-     , (32505, 15, True);
+     , (32505, 15, True)
+     , (32505, 19, True)
+     , (32505, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32506, 'ace32506-templeeastwing');
@@ -36888,7 +39428,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32506, 13, True)
      , (32506, 12, True)
      , (32506, 14, True)
-     , (32506, 15, True);
+     , (32506, 15, True)
+     , (32506, 19, True)
+     , (32506, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31670, 'ace31670-fontoftheeternalharvester');
@@ -36917,7 +39459,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31670, 13, True)
      , (31670, 12, True)
      , (31670, 14, True)
-     , (31670, 15, True);
+     , (31670, 15, True)
+     , (31670, 19, True)
+     , (31670, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31671, 'ace31671-surface');
@@ -36946,7 +39490,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (31671, 13, True)
      , (31671, 12, True)
      , (31671, 14, True)
-     , (31671, 15, True);
+     , (31671, 15, True)
+     , (31671, 19, True)
+     , (31671, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30472, 'portalpowerforgenorth');
@@ -36975,7 +39521,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30472, 13, True)
      , (30472, 12, True)
      , (30472, 14, True)
-     , (30472, 15, True);
+     , (30472, 15, True)
+     , (30472, 19, True)
+     , (30472, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41590, 'ace41590-gearknightlordstower');
@@ -37004,7 +39552,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41590, 13, True)
      , (41590, 12, True)
      , (41590, 14, True)
-     , (41590, 15, True);
+     , (41590, 15, True)
+     , (41590, 19, True)
+     , (41590, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41594, 'ace41594-gearknightlordstower');
@@ -37033,7 +39583,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41594, 13, True)
      , (41594, 12, True)
      , (41594, 14, True)
-     , (41594, 15, True);
+     , (41594, 15, True)
+     , (41594, 19, True)
+     , (41594, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41597, 'ace41597-gearknightlordstower');
@@ -37062,7 +39614,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41597, 13, True)
      , (41597, 12, True)
      , (41597, 14, True)
-     , (41597, 15, True);
+     , (41597, 15, True)
+     , (41597, 19, True)
+     , (41597, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41600, 'ace41600-gearknightlordstower');
@@ -37091,7 +39645,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41600, 13, True)
      , (41600, 12, True)
      , (41600, 14, True)
-     , (41600, 15, True);
+     , (41600, 15, True)
+     , (41600, 19, True)
+     , (41600, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41603, 'ace41603-gearknightlordstower');
@@ -37120,7 +39676,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41603, 13, True)
      , (41603, 12, True)
      , (41603, 14, True)
-     , (41603, 15, True);
+     , (41603, 15, True)
+     , (41603, 19, True)
+     , (41603, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41606, 'ace41606-gearknightlordstower');
@@ -37149,7 +39707,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41606, 13, True)
      , (41606, 12, True)
      , (41606, 14, True)
-     , (41606, 15, True);
+     , (41606, 15, True)
+     , (41606, 19, True)
+     , (41606, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41609, 'ace41609-surface');
@@ -37178,7 +39738,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41609, 13, True)
      , (41609, 12, True)
      , (41609, 14, True)
-     , (41609, 15, True);
+     , (41609, 15, True)
+     , (41609, 19, True)
+     , (41609, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38154, 'ace38154-blightedrankmoarsmantunnels');
@@ -37207,7 +39769,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (38154, 13, True)
      , (38154, 12, True)
      , (38154, 14, True)
-     , (38154, 15, True);
+     , (38154, 15, True)
+     , (38154, 19, True)
+     , (38154, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23902, 'portaltumerokwarshrethexit');
@@ -37236,7 +39800,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (23902, 13, True)
      , (23902, 12, True)
      , (23902, 14, True)
-     , (23902, 15, True);
+     , (23902, 15, True)
+     , (23902, 19, True)
+     , (23902, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24331, 'portalblackdeathbotst4');
@@ -37265,7 +39831,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24331, 13, True)
      , (24331, 12, True)
      , (24331, 14, True)
-     , (24331, 15, True);
+     , (24331, 15, True)
+     , (24331, 19, True)
+     , (24331, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24333, 'portalblackdeathtopst1');
@@ -37294,7 +39862,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (24333, 13, True)
      , (24333, 12, True)
      , (24333, 14, True)
-     , (24333, 15, True);
+     , (24333, 15, True)
+     , (24333, 19, True)
+     , (24333, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28260, 'portalmosswartdrageergexit');
@@ -37323,7 +39893,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28260, 13, True)
      , (28260, 12, True)
      , (28260, 14, True)
-     , (28260, 15, True);
+     , (28260, 15, True)
+     , (28260, 19, True)
+     , (28260, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12296, 'portalpyrealrepository');
@@ -37352,7 +39924,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (12296, 13, True)
      , (12296, 12, True)
      , (12296, 14, True)
-     , (12296, 15, True);
+     , (12296, 15, True)
+     , (12296, 19, True)
+     , (12296, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28792, 'portaldrudgehovel');
@@ -37381,7 +39955,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (28792, 13, True)
      , (28792, 12, True)
      , (28792, 14, True)
-     , (28792, 15, True);
+     , (28792, 15, True)
+     , (28792, 19, True)
+     , (28792, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25392, 'portaldarkessence');
@@ -37410,7 +39986,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25392, 13, True)
      , (25392, 12, True)
      , (25392, 14, True)
-     , (25392, 15, True);
+     , (25392, 15, True)
+     , (25392, 19, True)
+     , (25392, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25393, 'portaldarkessencesurface');
@@ -37439,7 +40017,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25393, 13, True)
      , (25393, 12, True)
      , (25393, 14, True)
-     , (25393, 15, True);
+     , (25393, 15, True)
+     , (25393, 19, True)
+     , (25393, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1326, 'portalemptychamberexit');
@@ -37468,5 +40048,7 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1326, 13, True)
      , (1326, 12, True)
      , (1326, 14, True)
-     , (1326, 15, True);
+     , (1326, 15, True)
+     , (1326, 19, True)
+     , (1326, 1, True);
 

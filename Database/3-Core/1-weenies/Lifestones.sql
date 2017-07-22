@@ -25,7 +25,9 @@ VALUES (509, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (509, 11, True)
-     , (509, 14, True);
+     , (509, 14, True)
+     , (509, 19, True)
+     , (509, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23618, 'lifestonenew');
@@ -54,7 +56,9 @@ VALUES (23618, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (23618, 11, True)
-     , (23618, 14, True);
+     , (23618, 14, True)
+     , (23618, 19, True)
+     , (23618, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27096, 'lifestonelugian');
@@ -83,7 +87,9 @@ VALUES (27096, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27096, 11, True)
-     , (27096, 14, True);
+     , (27096, 14, True)
+     , (27096, 19, True)
+     , (27096, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37165, 'ace37165-manafoci');
@@ -108,7 +114,9 @@ VALUES (37165, 1, 268435456)
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (37165, 11, True)
-     , (37165, 14, True);
+     , (37165, 14, True)
+     , (37165, 19, True)
+     , (37165, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38054, 'ace38054-eldrytchwebbanner');
@@ -132,7 +140,9 @@ VALUES (38054, 1, 268435456)
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (38054, 11, True)
-     , (38054, 14, True);
+     , (38054, 14, True)
+     , (38054, 19, True)
+     , (38054, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38055, 'ace38055-radiantbloodbanner');
@@ -156,7 +166,9 @@ VALUES (38055, 1, 268435456)
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (38055, 11, True)
-     , (38055, 14, True);
+     , (38055, 14, True)
+     , (38055, 19, True)
+     , (38055, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38053, 'ace38053-celestialhandbanner');
@@ -180,7 +192,9 @@ VALUES (38053, 1, 268435456)
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (38053, 11, True)
-     , (38053, 14, True);
+     , (38053, 14, True)
+     , (38053, 19, True)
+     , (38053, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24572, 'lifestonenewcandethkeep');
@@ -209,5 +223,7 @@ VALUES (24572, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24572, 11, True)
-     , (24572, 14, True);
+     , (24572, 14, True)
+     , (24572, 19, True)
+     , (24572, 1, True);
 

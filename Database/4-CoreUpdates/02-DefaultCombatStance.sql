@@ -43,7 +43,7 @@ WHERE (
    AND aopi.propertyValue NOT IN (3, 4, 5)
 ORDER BY weenieClassid;
 
-# ID the two handed weapons TODO fix for swords and staffs
+# ID the two handed weapons sword stance
 INSERT INTO ace_world.ace_object_properties_int (
    aceObjectId
    , intPropertyId
@@ -60,6 +60,27 @@ FROM
       AND aopi.intPropertyId = 51
 WHERE wc.itemType = 1
    AND aopi.propertyValue = 5
+   AND weenieclassdescription NOT LIKE '%mace%' AND weenieclassdescription NOT LIKE '%Tetsubo'
+ORDER BY wc.weenieClassId;
+
+# ID the two handed weapons staff stance
+INSERT INTO ace_world.ace_object_properties_int (
+   aceObjectId
+   , intPropertyId
+   , propertyValue
+)
+ SELECT
+    weenieClassId
+   , 46
+   , CONV('44', 16, 10)
+FROM
+   vw_ace_weenie_class wc
+   LEFT OUTER JOIN ace_object_properties_int aopi
+      ON wc.aceObjectId = aopi.aceObjectId
+      AND aopi.intPropertyId = 51
+WHERE wc.itemType = 1
+   AND aopi.propertyValue = 5
+   AND weenieclassdescription LIKE '%mace%' OR weenieclassdescription LIKE '%Tetsubo'
 ORDER BY wc.weenieClassId;
 
 #ID the crossbows

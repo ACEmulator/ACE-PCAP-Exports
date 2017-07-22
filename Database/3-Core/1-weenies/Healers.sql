@@ -25,7 +25,9 @@ VALUES (22449, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (22449, 13, True)
      , (22449, 11, True)
-     , (22449, 14, True);
+     , (22449, 14, True)
+     , (22449, 19, True)
+     , (22449, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (22449, 0, 83889681, 83894377)
@@ -61,7 +63,9 @@ VALUES (629, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (629, 13, True)
      , (629, 11, True)
-     , (629, 14, True);
+     , (629, 14, True)
+     , (629, 19, True)
+     , (629, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (631, 'healingkitexcellent');
@@ -90,7 +94,9 @@ VALUES (631, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (631, 13, True)
      , (631, 11, True)
-     , (631, 14, True);
+     , (631, 14, True)
+     , (631, 19, True)
+     , (631, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (632, 'healingkitpeerless');
@@ -119,7 +125,9 @@ VALUES (632, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (632, 13, True)
      , (632, 11, True)
-     , (632, 14, True);
+     , (632, 14, True)
+     , (632, 19, True)
+     , (632, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (630, 'healingkitgood');
@@ -148,7 +156,9 @@ VALUES (630, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (630, 13, True)
      , (630, 11, True)
-     , (630, 14, True);
+     , (630, 14, True)
+     , (630, 19, True)
+     , (630, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13233, 'healingkitacademy');
@@ -177,7 +187,9 @@ VALUES (13233, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13233, 13, True)
      , (13233, 11, True)
-     , (13233, 14, True);
+     , (13233, 14, True)
+     , (13233, 19, True)
+     , (13233, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (628, 'healingkitcrude');
@@ -206,7 +218,9 @@ VALUES (628, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (628, 13, True)
      , (628, 11, True)
-     , (628, 14, True);
+     , (628, 14, True)
+     , (628, 19, True)
+     , (628, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9229, 'healingkittreated');
@@ -235,7 +249,9 @@ VALUES (9229, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9229, 13, True)
      , (9229, 11, True)
-     , (9229, 14, True);
+     , (9229, 14, True)
+     , (9229, 19, True)
+     , (9229, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44712, 'ace44712-greatermanakit');
@@ -264,7 +280,9 @@ VALUES (44712, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44712, 13, True)
      , (44712, 11, True)
-     , (44712, 14, True);
+     , (44712, 14, True)
+     , (44712, 19, True)
+     , (44712, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (44712, 0, 83889681, 83894377)
@@ -300,7 +318,9 @@ VALUES (44714, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44714, 13, True)
      , (44714, 11, True)
-     , (44714, 14, True);
+     , (44714, 14, True)
+     , (44714, 19, True)
+     , (44714, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (44714, 0, 83889681, 83894377)
@@ -336,7 +356,9 @@ VALUES (27671, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27671, 13, True)
      , (27671, 11, True)
-     , (27671, 14, True);
+     , (27671, 14, True)
+     , (27671, 19, True)
+     , (27671, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30251, 'healingkitrarevolatilemana');
@@ -366,7 +388,9 @@ VALUES (30251, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30251, 13, True)
      , (30251, 11, True)
-     , (30251, 14, True);
+     , (30251, 14, True)
+     , (30251, 19, True)
+     , (30251, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30251, 0, 83889681, 83894377)
@@ -403,7 +427,9 @@ VALUES (43701, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43701, 13, True)
      , (43701, 11, True)
-     , (43701, 14, True);
+     , (43701, 14, True)
+     , (43701, 19, True)
+     , (43701, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43701, 0, 83889681, 83894377)
@@ -439,7 +465,9 @@ VALUES (44711, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44711, 13, True)
      , (44711, 11, True)
-     , (44711, 14, True);
+     , (44711, 14, True)
+     , (44711, 19, True)
+     , (44711, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30252, 'healingkitrarevolatilestamina');
@@ -469,7 +497,9 @@ VALUES (30252, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30252, 13, True)
      , (30252, 11, True)
-     , (30252, 14, True);
+     , (30252, 14, True)
+     , (30252, 19, True)
+     , (30252, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30252, 0, 83889681, 83894377)
@@ -505,7 +535,9 @@ VALUES (44713, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44713, 13, True)
      , (44713, 11, True)
-     , (44713, 14, True);
+     , (44713, 14, True)
+     , (44713, 19, True)
+     , (44713, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30250, 'healingkitrarevolatilehealth');
@@ -535,7 +567,9 @@ VALUES (30250, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30250, 13, True)
      , (30250, 11, True)
-     , (30250, 14, True);
+     , (30250, 14, True)
+     , (30250, 19, True)
+     , (30250, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (30250, 0, 83889681, 83894377)
@@ -572,7 +606,9 @@ VALUES (43479, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43479, 13, True)
      , (43479, 11, True)
-     , (43479, 14, True);
+     , (43479, 14, True)
+     , (43479, 19, True)
+     , (43479, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52737, 'ace52737-gauntlethealthkit');
@@ -602,7 +638,9 @@ VALUES (52737, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52737, 13, True)
      , (52737, 11, True)
-     , (52737, 14, True);
+     , (52737, 14, True)
+     , (52737, 19, True)
+     , (52737, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (52737, 0, 83889681, 83894377)
@@ -639,7 +677,9 @@ VALUES (52739, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52739, 13, True)
      , (52739, 11, True)
-     , (52739, 14, True);
+     , (52739, 14, True)
+     , (52739, 19, True)
+     , (52739, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (52739, 0, 83889681, 83894377)

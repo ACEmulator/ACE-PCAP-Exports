@@ -22,7 +22,9 @@ VALUES (5388, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5388, 12, True)
      , (5388, 11, True)
-     , (5388, 14, True);
+     , (5388, 14, True)
+     , (5388, 19, True)
+     , (5388, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5391, 'festivalstoneleafcull');
@@ -48,7 +50,9 @@ VALUES (5391, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5391, 12, True)
      , (5391, 11, True)
-     , (5391, 14, True);
+     , (5391, 14, True)
+     , (5391, 19, True)
+     , (5391, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5383, 'festivalstoneforedawn');
@@ -74,7 +78,9 @@ VALUES (5383, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5383, 12, True)
      , (5383, 11, True)
-     , (5383, 14, True);
+     , (5383, 14, True)
+     , (5383, 19, True)
+     , (5383, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5393, 'festivalstonesnowreap');
@@ -100,7 +106,9 @@ VALUES (5393, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5393, 12, True)
      , (5393, 11, True)
-     , (5393, 14, True);
+     , (5393, 14, True)
+     , (5393, 19, True)
+     , (5393, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5384, 'festivalstonemorningthaw');
@@ -126,7 +134,9 @@ VALUES (5384, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5384, 12, True)
      , (5384, 11, True)
-     , (5384, 14, True);
+     , (5384, 14, True)
+     , (5384, 19, True)
+     , (5384, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5378, 'festivalstonemidsong');
@@ -152,7 +162,9 @@ VALUES (5378, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5378, 12, True)
      , (5378, 11, True)
-     , (5378, 14, True);
+     , (5378, 14, True)
+     , (5378, 19, True)
+     , (5378, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5390, 'festivalstoneharvestgain');
@@ -178,7 +190,9 @@ VALUES (5390, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5390, 12, True)
      , (5390, 11, True)
-     , (5390, 14, True);
+     , (5390, 14, True)
+     , (5390, 19, True)
+     , (5390, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5387, 'festivalstoneleafdawning');
@@ -204,7 +218,9 @@ VALUES (5387, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5387, 12, True)
      , (5387, 11, True)
-     , (5387, 14, True);
+     , (5387, 14, True)
+     , (5387, 19, True)
+     , (5387, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5389, 'festivalstonethistledown');
@@ -230,7 +246,9 @@ VALUES (5389, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5389, 12, True)
      , (5389, 11, True)
-     , (5389, 14, True);
+     , (5389, 14, True)
+     , (5389, 19, True)
+     , (5389, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5379, 'festivalstonewarmtide');
@@ -256,7 +274,9 @@ VALUES (5379, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5379, 12, True)
      , (5379, 11, True)
-     , (5379, 14, True);
+     , (5379, 14, True)
+     , (5379, 19, True)
+     , (5379, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5382, 'festivalstonedarktide');
@@ -282,7 +302,9 @@ VALUES (5382, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5382, 12, True)
      , (5382, 11, True)
-     , (5382, 14, True);
+     , (5382, 14, True)
+     , (5382, 19, True)
+     , (5382, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5394, 'festivalstonecoldeve');
@@ -308,7 +330,9 @@ VALUES (5394, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5394, 12, True)
      , (5394, 11, True)
-     , (5394, 14, True);
+     , (5394, 14, True)
+     , (5394, 19, True)
+     , (5394, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5377, 'festivalstonemorntide');
@@ -334,7 +358,9 @@ VALUES (5377, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5377, 12, True)
      , (5377, 11, True)
-     , (5377, 14, True);
+     , (5377, 14, True)
+     , (5377, 19, True)
+     , (5377, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5381, 'festivalstonegloaming');
@@ -360,7 +386,9 @@ VALUES (5381, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5381, 12, True)
      , (5381, 11, True)
-     , (5381, 14, True);
+     , (5381, 14, True)
+     , (5381, 19, True)
+     , (5381, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5386, 'festivalstoneseedsow');
@@ -386,7 +414,9 @@ VALUES (5386, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5386, 12, True)
      , (5386, 11, True)
-     , (5386, 14, True);
+     , (5386, 14, True)
+     , (5386, 19, True)
+     , (5386, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5392, 'festivalstonefrostfell');
@@ -412,7 +442,9 @@ VALUES (5392, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5392, 12, True)
      , (5392, 11, True)
-     , (5392, 14, True);
+     , (5392, 14, True)
+     , (5392, 19, True)
+     , (5392, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5395, 'festivalstonewintersebb');
@@ -438,7 +470,9 @@ VALUES (5395, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5395, 12, True)
      , (5395, 11, True)
-     , (5395, 14, True);
+     , (5395, 14, True)
+     , (5395, 19, True)
+     , (5395, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5380, 'festivalstoneevensong');
@@ -464,5 +498,7 @@ VALUES (5380, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5380, 12, True)
      , (5380, 11, True)
-     , (5380, 14, True);
+     , (5380, 14, True)
+     , (5380, 19, True)
+     , (5380, 1, True);
 

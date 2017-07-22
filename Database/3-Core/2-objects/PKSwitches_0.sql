@@ -24,7 +24,9 @@ VALUES (1881116704, 54, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1881116704, 11, True)
-     , (1881116704, 14, True);
+     , (1881116704, 14, True)
+     , (1881116704, 19, True)
+     , (1881116704, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1880383523, 1044, 854, 2097200, 'AAA9AAAAAAA=', 100355);
@@ -52,7 +54,9 @@ VALUES (1880383523, 54, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1880383523, 11, True)
-     , (1880383523, 14, True);
+     , (1880383523, 14, True)
+     , (1880383523, 19, True)
+     , (1880383523, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1879576595, 1044, 29034, 2097200, 'AAA9AAAAAAA=', 100355);
@@ -80,7 +84,9 @@ VALUES (1879576595, 54, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1879576595, 11, True)
-     , (1879576595, 14, True);
+     , (1879576595, 14, True)
+     , (1879576595, 19, True)
+     , (1879576595, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1984208948, 1044, 854, 2097200, 'AAA9AAAAAAA=', 100355);
@@ -108,7 +114,9 @@ VALUES (1984208948, 54, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1984208948, 11, True)
-     , (1984208948, 14, True);
+     , (1984208948, 14, True)
+     , (1984208948, 19, True)
+     , (1984208948, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1881055237, 1044, 854, 2097200, 'AAA9AAAAAAA=', 100355);
@@ -136,5 +144,7 @@ VALUES (1881055237, 54, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1881055237, 11, True)
-     , (1881055237, 14, True);
+     , (1881055237, 14, True)
+     , (1881055237, 19, True)
+     , (1881055237, 1, True);
 

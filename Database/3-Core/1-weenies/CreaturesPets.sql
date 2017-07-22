@@ -30,7 +30,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41613, 13, True)
      , (41613, 11, True)
      , (41613, 14, True)
-     , (41613, 41, True);
+     , (41613, 41, True)
+     , (41613, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48887, 'ace48887-twinklewillsgolem');
@@ -63,7 +64,9 @@ VALUES (48887, 39, 1.1);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48887, 13, True)
      , (48887, 12, True)
-     , (48887, 14, True);
+     , (48887, 14, True)
+     , (48887, 19, True)
+     , (48887, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (48887, 67112774, 0, 0);
@@ -126,7 +129,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34902, 13, True)
      , (34902, 11, True)
      , (34902, 14, True)
-     , (34902, 41, True);
+     , (34902, 41, True)
+     , (34902, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34902, 67116746, 0, 0);
@@ -159,7 +163,9 @@ VALUES (48891, 1, 16)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48891, 13, True)
      , (48891, 12, True)
-     , (48891, 14, True);
+     , (48891, 14, True)
+     , (48891, 19, True)
+     , (48891, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (48891, 67112822, 0, 0);
@@ -197,7 +203,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34901, 13, True)
      , (34901, 11, True)
      , (34901, 14, True)
-     , (34901, 41, True);
+     , (34901, 41, True)
+     , (34901, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34901, 67116746, 0, 0);
@@ -230,7 +237,9 @@ VALUES (48881, 1, 16)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48881, 13, True)
      , (48881, 12, True)
-     , (48881, 14, True);
+     , (48881, 14, True)
+     , (48881, 19, True)
+     , (48881, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (48881, 67112891, 0, 0);
@@ -292,7 +301,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (45085, 13, True)
      , (45085, 11, True)
      , (45085, 14, True)
-     , (45085, 41, True);
+     , (45085, 41, True)
+     , (45085, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33920, 'ace33920-icedancerspetarmoredillopup');
@@ -327,7 +337,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33920, 13, True)
      , (33920, 11, True)
      , (33920, 14, True)
-     , (33920, 41, True);
+     , (33920, 41, True)
+     , (33920, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33920, 67115921, 0, 0);
@@ -365,7 +376,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46024, 13, True)
      , (46024, 11, True)
      , (46024, 14, True)
-     , (46024, 41, True);
+     , (46024, 41, True)
+     , (46024, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (46024, 67116354, 0, 0);
@@ -403,7 +415,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33918, 13, True)
      , (33918, 11, True)
      , (33918, 14, True)
-     , (33918, 41, True);
+     , (33918, 41, True)
+     , (33918, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33918, 67112817, 0, 0);
@@ -441,7 +454,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33979, 13, True)
      , (33979, 11, True)
      , (33979, 14, True)
-     , (33979, 41, True);
+     , (33979, 41, True)
+     , (33979, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33979, 67115388, 0, 0);
@@ -479,7 +493,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (39483, 13, True)
      , (39483, 11, True)
      , (39483, 14, True)
-     , (39483, 41, True);
+     , (39483, 41, True)
+     , (39483, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (39483, 67112947, 0, 0);
@@ -513,7 +528,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34080, 13, True)
      , (34080, 11, True)
      , (34080, 14, True)
-     , (34080, 41, True);
+     , (34080, 41, True)
+     , (34080, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33961, 'ace33961-petarmoredillopup');
@@ -547,7 +563,8 @@ VALUES (33961, 39, 0.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (33961, 12, True)
      , (33961, 14, True)
-     , (33961, 41, True);
+     , (33961, 41, True)
+     , (33961, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33961, 67115921, 0, 0);
@@ -584,7 +601,8 @@ VALUES (33962, 39, 0.65);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (33962, 12, True)
      , (33962, 14, True)
-     , (33962, 41, True);
+     , (33962, 41, True)
+     , (33962, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33962, 67112817, 0, 0);
@@ -621,7 +639,8 @@ VALUES (33963, 39, 0.65);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (33963, 12, True)
      , (33963, 14, True)
-     , (33963, 41, True);
+     , (33963, 41, True)
+     , (33963, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33963, 67116365, 0, 0);
@@ -657,7 +676,8 @@ VALUES (33964, 39, 0.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (33964, 12, True)
      , (33964, 14, True)
-     , (33964, 41, True);
+     , (33964, 41, True)
+     , (33964, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47170, 'ace47170-mogwaispetsnowtuskie');
@@ -691,7 +711,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (47170, 13, True)
      , (47170, 11, True)
      , (47170, 14, True)
-     , (47170, 41, True);
+     , (47170, 41, True)
+     , (47170, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43731, 'ace43731-gillithspetolthoisoldier');
@@ -726,7 +747,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43731, 13, True)
      , (43731, 11, True)
      , (43731, 14, True)
-     , (43731, 41, True);
+     , (43731, 41, True)
+     , (43731, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43731, 67116868, 0, 32)
@@ -825,7 +847,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33922, 13, True)
      , (33922, 11, True)
      , (33922, 14, True)
-     , (33922, 41, True);
+     , (33922, 41, True)
+     , (33922, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34397, 'ace34397-drakeviispetsnowman');
@@ -859,7 +882,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34397, 13, True)
      , (34397, 11, True)
      , (34397, 14, True)
-     , (34397, 41, True);
+     , (34397, 41, True)
+     , (34397, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35930, 'ace35930-caiusbritannicussameliaspetgargoyle');
@@ -895,7 +919,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (35930, 13, True)
      , (35930, 11, True)
      , (35930, 14, True)
-     , (35930, 41, True);
+     , (35930, 41, True)
+     , (35930, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35930, 67115143, 0, 0);
@@ -932,7 +957,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (36750, 13, True)
      , (36750, 11, True)
      , (36750, 14, True)
-     , (36750, 41, True);
+     , (36750, 41, True)
+     , (36750, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33921, 'ace33921-crimsonstormbringerspetbabythrungus');
@@ -967,7 +993,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (33921, 13, True)
      , (33921, 11, True)
      , (33921, 14, True)
-     , (33921, 41, True);
+     , (33921, 41, True)
+     , (33921, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33921, 67116365, 0, 0);
@@ -1000,7 +1027,9 @@ VALUES (48889, 1, 16)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48889, 13, True)
      , (48889, 12, True)
-     , (48889, 14, True);
+     , (48889, 14, True)
+     , (48889, 19, True)
+     , (48889, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (48889, 67113788, 0, 0);
@@ -1037,7 +1066,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (45082, 13, True)
      , (45082, 11, True)
      , (45082, 14, True)
-     , (45082, 41, True);
+     , (45082, 41, True)
+     , (45082, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48883, 'ace48883-blazingsunsgolem');
@@ -1067,7 +1097,9 @@ VALUES (48883, 1, 16)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48883, 13, True)
      , (48883, 12, True)
-     , (48883, 14, True);
+     , (48883, 14, True)
+     , (48883, 19, True)
+     , (48883, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (48883, 67114284, 0, 0);
@@ -1130,7 +1162,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34900, 13, True)
      , (34900, 11, True)
      , (34900, 14, True)
-     , (34900, 41, True);
+     , (34900, 41, True)
+     , (34900, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34900, 67116746, 0, 0);
@@ -1167,7 +1200,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (45083, 13, True)
      , (45083, 11, True)
      , (45083, 14, True)
-     , (45083, 41, True);
+     , (45083, 41, True)
+     , (45083, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34898, 'ace34898-saradinsvacantgolem');
@@ -1202,7 +1236,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34898, 13, True)
      , (34898, 11, True)
      , (34898, 14, True)
-     , (34898, 41, True);
+     , (34898, 41, True)
+     , (34898, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34898, 67116739, 0, 0);
@@ -1240,7 +1275,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34908, 13, True)
      , (34908, 11, True)
      , (34908, 14, True)
-     , (34908, 41, True);
+     , (34908, 41, True)
+     , (34908, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34908, 67116743, 0, 0);
@@ -1273,7 +1309,9 @@ VALUES (48879, 1, 16)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48879, 13, True)
      , (48879, 12, True)
-     , (48879, 14, True);
+     , (48879, 14, True)
+     , (48879, 19, True)
+     , (48879, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (48879, 67112772, 0, 0);
@@ -1335,7 +1373,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (45084, 13, True)
      , (45084, 11, True)
      , (45084, 14, True)
-     , (45084, 41, True);
+     , (45084, 41, True)
+     , (45084, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41543, 'ace41543-tifalockhartspetpumpkingolem');
@@ -1369,7 +1408,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41543, 13, True)
      , (41543, 11, True)
      , (41543, 14, True)
-     , (41543, 41, True);
+     , (41543, 41, True)
+     , (41543, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34906, 'ace34906-croftlarasjourneymanlockpickersgolem');
@@ -1404,7 +1444,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (34906, 13, True)
      , (34906, 11, True)
      , (34906, 14, True)
-     , (34906, 41, True);
+     , (34906, 41, True)
+     , (34906, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34906, 67116741, 0, 0);

@@ -27,7 +27,8 @@ VALUES (20630, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20630, 13, True)
      , (20630, 11, True)
-     , (20630, 14, True);
+     , (20630, 14, True)
+     , (20630, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2624, 'tradenote5000');
@@ -58,7 +59,8 @@ VALUES (2624, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2624, 13, True)
      , (2624, 11, True)
-     , (2624, 14, True);
+     , (2624, 14, True)
+     , (2624, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2625, 'tradenote10000');
@@ -89,7 +91,8 @@ VALUES (2625, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2625, 13, True)
      , (2625, 11, True)
-     , (2625, 14, True);
+     , (2625, 14, True)
+     , (2625, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2622, 'tradenote500');
@@ -120,7 +123,8 @@ VALUES (2622, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2622, 13, True)
      , (2622, 11, True)
-     , (2622, 14, True);
+     , (2622, 14, True)
+     , (2622, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2621, 'tradenote100');
@@ -151,7 +155,8 @@ VALUES (2621, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2621, 13, True)
      , (2621, 11, True)
-     , (2621, 14, True);
+     , (2621, 14, True)
+     , (2621, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2623, 'tradenote1000');
@@ -182,7 +187,8 @@ VALUES (2623, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2623, 13, True)
      , (2623, 11, True)
-     , (2623, 14, True);
+     , (2623, 14, True)
+     , (2623, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20628, 'tradenote150000');
@@ -213,7 +219,8 @@ VALUES (20628, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20628, 13, True)
      , (20628, 11, True)
-     , (20628, 14, True);
+     , (20628, 14, True)
+     , (20628, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2626, 'tradenote50000');
@@ -244,7 +251,8 @@ VALUES (2626, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2626, 13, True)
      , (2626, 11, True)
-     , (2626, 14, True);
+     , (2626, 14, True)
+     , (2626, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2627, 'tradenote100000');
@@ -275,7 +283,8 @@ VALUES (2627, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2627, 13, True)
      , (2627, 11, True)
-     , (2627, 14, True);
+     , (2627, 14, True)
+     , (2627, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20629, 'tradenote200000');
@@ -306,7 +315,8 @@ VALUES (20629, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20629, 13, True)
      , (20629, 11, True)
-     , (20629, 14, True);
+     , (20629, 14, True)
+     , (20629, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7377, 'tradenote75000');
@@ -337,7 +347,8 @@ VALUES (7377, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7377, 13, True)
      , (7377, 11, True)
-     , (7377, 14, True);
+     , (7377, 14, True)
+     , (7377, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7374, 'tradenote15000');
@@ -368,7 +379,8 @@ VALUES (7374, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7374, 13, True)
      , (7374, 11, True)
-     , (7374, 14, True);
+     , (7374, 14, True)
+     , (7374, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7375, 'tradenote20000');
@@ -399,7 +411,8 @@ VALUES (7375, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7375, 13, True)
      , (7375, 11, True)
-     , (7375, 14, True);
+     , (7375, 14, True)
+     , (7375, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7376, 'tradenote25000');
@@ -430,5 +443,6 @@ VALUES (7376, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7376, 13, True)
      , (7376, 11, True)
-     , (7376, 14, True);
+     , (7376, 14, True)
+     , (7376, 19, True);
 

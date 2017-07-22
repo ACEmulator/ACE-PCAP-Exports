@@ -25,7 +25,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43065, 13, True)
      , (43065, 12, True)
      , (43065, 14, True)
-     , (43065, 15, True);
+     , (43065, 15, True)
+     , (43065, 19, True)
+     , (43065, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43067, 'ace43067-portaltotownnetwork');
@@ -54,7 +56,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43067, 13, True)
      , (43067, 12, True)
      , (43067, 14, True)
-     , (43067, 15, True);
+     , (43067, 15, True)
+     , (43067, 19, True)
+     , (43067, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42852, 'ace42852-portaltotownnetwork');
@@ -83,7 +87,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (42852, 13, True)
      , (42852, 12, True)
      , (42852, 14, True)
-     , (42852, 15, True);
+     , (42852, 15, True)
+     , (42852, 19, True)
+     , (42852, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43066, 'ace43066-portaltotownnetwork');
@@ -112,5 +118,7 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (43066, 13, True)
      , (43066, 12, True)
      , (43066, 14, True)
-     , (43066, 15, True);
+     , (43066, 15, True)
+     , (43066, 19, True)
+     , (43066, 1, True);
 

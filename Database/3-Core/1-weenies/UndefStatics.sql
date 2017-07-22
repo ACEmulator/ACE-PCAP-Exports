@@ -22,7 +22,10 @@ VALUES (21196, 39, 0.8);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21196, 13, True)
      , (21196, 11, True)
-     , (21196, 14, True);
+     , (21196, 14, True)
+     , (21196, 19, True)
+     , (21196, 1, True)
+     , (21196, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22215, 'mysterioussarcophagusgen');
@@ -50,7 +53,10 @@ VALUES (22215, 39, 3);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (22215, 11, True)
-     , (22215, 14, True);
+     , (22215, 14, True)
+     , (22215, 19, True)
+     , (22215, 1, True)
+     , (22215, 24, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (22215, 0, 83889697, 83893818)
@@ -84,7 +90,10 @@ VALUES (21188, 39, 0.8);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21188, 13, True)
      , (21188, 11, True)
-     , (21188, 14, True);
+     , (21188, 14, True)
+     , (21188, 19, True)
+     , (21188, 1, True)
+     , (21188, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21194, 'frostelementalhighcampgen');
@@ -110,5 +119,8 @@ VALUES (21194, 39, 0.8);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21194, 13, True)
      , (21194, 11, True)
-     , (21194, 14, True);
+     , (21194, 14, True)
+     , (21194, 19, True)
+     , (21194, 1, True)
+     , (21194, 24, True);
 

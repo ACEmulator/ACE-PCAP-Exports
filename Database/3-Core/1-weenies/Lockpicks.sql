@@ -28,7 +28,9 @@ VALUES (545, 39, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (545, 13, True)
      , (545, 11, True)
-     , (545, 14, True);
+     , (545, 14, True)
+     , (545, 19, True)
+     , (545, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (515, 'lockpicksuperb');
@@ -60,7 +62,9 @@ VALUES (515, 39, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (515, 13, True)
      , (515, 11, True)
-     , (515, 14, True);
+     , (515, 14, True)
+     , (515, 19, True)
+     , (515, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (514, 'lockpickexcell');
@@ -92,7 +96,9 @@ VALUES (514, 39, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (514, 13, True)
      , (514, 11, True)
-     , (514, 14, True);
+     , (514, 14, True)
+     , (514, 19, True)
+     , (514, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (512, 'lockpickgood');
@@ -124,7 +130,9 @@ VALUES (512, 39, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (512, 13, True)
      , (512, 11, True)
-     , (512, 14, True);
+     , (512, 14, True)
+     , (512, 19, True)
+     , (512, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (511, 'lockpickcrude');
@@ -156,7 +164,9 @@ VALUES (511, 39, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (511, 13, True)
      , (511, 11, True)
-     , (511, 14, True);
+     , (511, 14, True)
+     , (511, 19, True)
+     , (511, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (513, 'lockpickplain');
@@ -188,7 +198,9 @@ VALUES (513, 39, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (513, 13, True)
      , (513, 11, True)
-     , (513, 14, True);
+     , (513, 14, True)
+     , (513, 19, True)
+     , (513, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (516, 'lockpickpeer');
@@ -220,7 +232,9 @@ VALUES (516, 39, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (516, 13, True)
      , (516, 11, True)
-     , (516, 14, True);
+     , (516, 14, True)
+     , (516, 19, True)
+     , (516, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27672, 'lockpickrenegade');
@@ -252,7 +266,9 @@ VALUES (27672, 39, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27672, 13, True)
      , (27672, 11, True)
-     , (27672, 14, True);
+     , (27672, 14, True)
+     , (27672, 19, True)
+     , (27672, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (510, 'lockpickflimsy');
@@ -284,5 +300,7 @@ VALUES (510, 39, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (510, 13, True)
      , (510, 11, True)
-     , (510, 14, True);
+     , (510, 14, True)
+     , (510, 19, True)
+     , (510, 22, True);
 

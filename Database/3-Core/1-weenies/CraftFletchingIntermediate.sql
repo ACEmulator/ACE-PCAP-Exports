@@ -27,7 +27,8 @@ VALUES (6117, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (6117, 13, True)
      , (6117, 11, True)
-     , (6117, 14, True);
+     , (6117, 14, True)
+     , (6117, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6118, 'shortsticks');
@@ -61,7 +62,8 @@ VALUES (6118, 39, 0.6);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (6118, 13, True)
      , (6118, 11, True)
-     , (6118, 14, True);
+     , (6118, 14, True)
+     , (6118, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9359, 'wrappedarrowhead');
@@ -92,7 +94,8 @@ VALUES (9359, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9359, 13, True)
      , (9359, 11, True)
-     , (9359, 14, True);
+     , (9359, 14, True)
+     , (9359, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5339, 'quarrelshaft');
@@ -121,7 +124,8 @@ VALUES (5339, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5339, 13, True)
      , (5339, 11, True)
-     , (5339, 14, True);
+     , (5339, 14, True)
+     , (5339, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9377, 'wrappedarrowshaft');
@@ -150,7 +154,8 @@ VALUES (9377, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9377, 13, True)
      , (9377, 11, True)
-     , (9377, 14, True);
+     , (9377, 14, True)
+     , (9377, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15423, 'wrappedarrowheaddeadlyblunt');
@@ -181,7 +186,8 @@ VALUES (15423, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15423, 13, True)
      , (15423, 11, True)
-     , (15423, 14, True);
+     , (15423, 14, True)
+     , (15423, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23858, 'wrappedspiketail');
@@ -210,7 +216,8 @@ VALUES (23858, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (23858, 13, True)
      , (23858, 11, True)
-     , (23858, 14, True);
+     , (23858, 14, True)
+     , (23858, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38779, 'ace38779-wrappedbundleofraiderlightningarrowheads');
@@ -242,7 +249,8 @@ VALUES (38779, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (38779, 13, True)
      , (38779, 11, True)
-     , (38779, 14, True);
+     , (38779, 14, True)
+     , (38779, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44073, 'ace44073-wrappedbundleofgreaterprismaticarrowheads');
@@ -273,7 +281,8 @@ VALUES (44073, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44073, 13, True)
      , (44073, 11, True)
-     , (44073, 14, True);
+     , (44073, 14, True)
+     , (44073, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9378, 'wrappedquarrelshaft');
@@ -302,7 +311,8 @@ VALUES (9378, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9378, 13, True)
      , (9378, 11, True)
-     , (9378, 14, True);
+     , (9378, 14, True)
+     , (9378, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9362, 'wrappedarrowheadblunt');
@@ -333,7 +343,8 @@ VALUES (9362, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9362, 13, True)
      , (9362, 11, True)
-     , (9362, 14, True);
+     , (9362, 14, True)
+     , (9362, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15426, 'wrappedarrowheaddeadlyfire');
@@ -364,7 +375,8 @@ VALUES (15426, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15426, 13, True)
      , (15426, 11, True)
-     , (15426, 14, True);
+     , (15426, 14, True)
+     , (15426, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15427, 'wrappedarrowheaddeadlyfrogcrotch');
@@ -395,7 +407,8 @@ VALUES (15427, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15427, 13, True)
      , (15427, 11, True)
-     , (15427, 14, True);
+     , (15427, 14, True)
+     , (15427, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9235, 'arrowheadsoulrender');
@@ -426,7 +439,8 @@ VALUES (9235, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9235, 13, True)
      , (9235, 11, True)
-     , (9235, 14, True);
+     , (9235, 14, True)
+     , (9235, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9233, 'arrowheadbloodletter');
@@ -457,7 +471,8 @@ VALUES (9233, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9233, 13, True)
      , (9233, 11, True)
-     , (9233, 14, True);
+     , (9233, 14, True)
+     , (9233, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15422, 'wrappedarrowheaddeadlyarmorpiercing');
@@ -488,7 +503,8 @@ VALUES (15422, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15422, 13, True)
      , (15422, 11, True)
-     , (15422, 14, True);
+     , (15422, 14, True)
+     , (15422, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15421, 'wrappedarrowheaddeadlyacid');
@@ -519,7 +535,8 @@ VALUES (15421, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15421, 13, True)
      , (15421, 11, True)
-     , (15421, 14, True);
+     , (15421, 14, True)
+     , (15421, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15428, 'wrappedarrowheaddeadlyfrost');
@@ -550,7 +567,8 @@ VALUES (15428, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15428, 13, True)
      , (15428, 11, True)
-     , (15428, 14, True);
+     , (15428, 14, True)
+     , (15428, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15425, 'wrappedarrowheaddeadlyelectric');
@@ -581,7 +599,8 @@ VALUES (15425, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15425, 13, True)
      , (15425, 11, True)
-     , (15425, 14, True);
+     , (15425, 14, True)
+     , (15425, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44210, 'ace44210-wrappedbundleofburningsandsarrowheads');
@@ -613,7 +632,8 @@ VALUES (44210, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44210, 13, True)
      , (44210, 11, True)
-     , (44210, 14, True);
+     , (44210, 14, True)
+     , (44210, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36363, 'ace36363-wrappedbundleofolthoiacidarrowheads');
@@ -645,7 +665,8 @@ VALUES (36363, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (36363, 13, True)
      , (36363, 11, True)
-     , (36363, 14, True);
+     , (36363, 14, True)
+     , (36363, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4586, 'arrowhead');
@@ -676,7 +697,8 @@ VALUES (4586, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4586, 13, True)
      , (4586, 11, True)
-     , (4586, 14, True);
+     , (4586, 14, True)
+     , (4586, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15296, 'atlatldartshaft');
@@ -705,7 +727,8 @@ VALUES (15296, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15296, 13, True)
      , (15296, 11, True)
-     , (15296, 14, True);
+     , (15296, 14, True)
+     , (15296, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9361, 'wrappedarrowheadarmorpiercing');
@@ -736,7 +759,8 @@ VALUES (9361, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9361, 13, True)
      , (9361, 11, True)
-     , (9361, 14, True);
+     , (9361, 14, True)
+     , (9361, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9371, 'wrappedarrowheadgreaterblunt');
@@ -767,7 +791,8 @@ VALUES (9371, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9371, 13, True)
      , (9371, 11, True)
-     , (9371, 14, True);
+     , (9371, 14, True)
+     , (9371, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44072, 'ace44072-wrappedbundleofdeadlyprismaticarrowheads');
@@ -798,7 +823,8 @@ VALUES (44072, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44072, 13, True)
      , (44072, 11, True)
-     , (44072, 14, True);
+     , (44072, 14, True)
+     , (44072, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21999, 'wrappedarrowheadchorizite');
@@ -829,7 +855,8 @@ VALUES (21999, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21999, 13, True)
      , (21999, 11, True)
-     , (21999, 14, True);
+     , (21999, 14, True)
+     , (21999, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32200, 'ace32200-blueblanket');
@@ -859,7 +886,9 @@ VALUES (32200, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (32200, 13, True)
      , (32200, 11, True)
-     , (32200, 14, True);
+     , (32200, 14, True)
+     , (32200, 19, True)
+     , (32200, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44071, 'ace44071-wrappedbundleofprismaticarrowheads');
@@ -890,7 +919,8 @@ VALUES (44071, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44071, 13, True)
      , (44071, 11, True)
-     , (44071, 14, True);
+     , (44071, 14, True)
+     , (44071, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15298, 'wrappedatlatldartshaft');
@@ -919,7 +949,8 @@ VALUES (15298, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15298, 13, True)
      , (15298, 11, True)
-     , (15298, 14, True);
+     , (15298, 14, True)
+     , (15298, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4585, 'arrowshaft');
@@ -948,7 +979,8 @@ VALUES (4585, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4585, 13, True)
      , (4585, 11, True)
-     , (4585, 14, True);
+     , (4585, 14, True)
+     , (4585, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9363, 'wrappedarrowheadbroad');
@@ -979,7 +1011,8 @@ VALUES (9363, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9363, 13, True)
      , (9363, 11, True)
-     , (9363, 14, True);
+     , (9363, 14, True)
+     , (9363, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9366, 'wrappedarrowheadfrogcrotch');
@@ -1010,7 +1043,8 @@ VALUES (9366, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9366, 13, True)
      , (9366, 11, True)
-     , (9366, 14, True);
+     , (9366, 14, True)
+     , (9366, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43148, 'ace43148-wrappedbundleofgearbladeslashingarrowheads');
@@ -1042,7 +1076,8 @@ VALUES (43148, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43148, 13, True)
      , (43148, 11, True)
-     , (43148, 14, True);
+     , (43148, 14, True)
+     , (43148, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44070, 'ace44070-bundleofprismaticarrowheads');
@@ -1073,7 +1108,8 @@ VALUES (44070, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44070, 13, True)
      , (44070, 11, True)
-     , (44070, 14, True);
+     , (44070, 14, True)
+     , (44070, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44068, 'ace44068-bundleofdeadlyprismaticarrowheads');
@@ -1104,7 +1140,8 @@ VALUES (44068, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44068, 13, True)
      , (44068, 11, True)
-     , (44068, 14, True);
+     , (44068, 14, True)
+     , (44068, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22000, 'wrappedarrowheadchorizitedeadly');
@@ -1135,7 +1172,8 @@ VALUES (22000, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (22000, 13, True)
      , (22000, 11, True)
-     , (22000, 14, True);
+     , (22000, 14, True)
+     , (22000, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44224, 'ace44224-wrappedbundleofgreaterdeadlybluntarrowheads');
@@ -1167,7 +1205,8 @@ VALUES (44224, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44224, 13, True)
      , (44224, 11, True)
-     , (44224, 14, True);
+     , (44224, 14, True)
+     , (44224, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44366, 'ace44366-wrappedbundleofgreaterdeadlyarmorpiercingarrowheads');
@@ -1199,7 +1238,8 @@ VALUES (44366, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44366, 13, True)
      , (44366, 11, True)
-     , (44366, 14, True);
+     , (44366, 14, True)
+     , (44366, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15417, 'arrowheaddeadlyfire');
@@ -1230,7 +1270,8 @@ VALUES (15417, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15417, 13, True)
      , (15417, 11, True)
-     , (15417, 14, True);
+     , (15417, 14, True)
+     , (15417, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15414, 'arrowheaddeadlyblunt');
@@ -1261,7 +1302,8 @@ VALUES (15414, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15414, 13, True)
      , (15414, 11, True)
-     , (15414, 14, True);
+     , (15414, 14, True)
+     , (15414, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9374, 'wrappedarrowheadgreaterfire');
@@ -1292,7 +1334,8 @@ VALUES (9374, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9374, 13, True)
      , (9374, 11, True)
-     , (9374, 14, True);
+     , (9374, 14, True)
+     , (9374, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5350, 'arrowheadgreaterfire');
@@ -1323,7 +1366,8 @@ VALUES (5350, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5350, 13, True)
      , (5350, 11, True)
-     , (5350, 14, True);
+     , (5350, 14, True)
+     , (5350, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9365, 'wrappedarrowheadfire');
@@ -1354,7 +1398,8 @@ VALUES (9365, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9365, 13, True)
      , (9365, 11, True)
-     , (9365, 14, True);
+     , (9365, 14, True)
+     , (9365, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9360, 'wrappedarrowheadacid');
@@ -1385,7 +1430,8 @@ VALUES (9360, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9360, 13, True)
      , (9360, 11, True)
-     , (9360, 14, True);
+     , (9360, 14, True)
+     , (9360, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44367, 'ace44367-wrappedbundleofgreaterdeadlyfrogcrotcharrowheads');
@@ -1417,7 +1463,8 @@ VALUES (44367, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44367, 13, True)
      , (44367, 11, True)
-     , (44367, 14, True);
+     , (44367, 14, True)
+     , (44367, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9368, 'wrappedarrowheadgreater');
@@ -1448,7 +1495,8 @@ VALUES (9368, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9368, 13, True)
      , (9368, 11, True)
-     , (9368, 14, True);
+     , (9368, 14, True)
+     , (9368, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9375, 'wrappedarrowheadgreaterfrogcrotch');
@@ -1479,7 +1527,8 @@ VALUES (9375, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9375, 13, True)
      , (9375, 11, True)
-     , (9375, 14, True);
+     , (9375, 14, True)
+     , (9375, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44069, 'ace44069-bundleofgreaterprismaticarrowheads');
@@ -1510,7 +1559,8 @@ VALUES (44069, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44069, 13, True)
      , (44069, 11, True)
-     , (44069, 14, True);
+     , (44069, 14, True)
+     , (44069, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9376, 'wrappedarrowheadgreaterfrost');
@@ -1541,7 +1591,8 @@ VALUES (9376, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9376, 13, True)
      , (9376, 11, True)
-     , (9376, 14, True);
+     , (9376, 14, True)
+     , (9376, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9373, 'wrappedarrowheadgreaterelectric');
@@ -1572,7 +1623,8 @@ VALUES (9373, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9373, 13, True)
      , (9373, 11, True)
-     , (9373, 14, True);
+     , (9373, 14, True)
+     , (9373, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9369, 'wrappedarrowheadgreateracid');
@@ -1603,7 +1655,8 @@ VALUES (9369, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9369, 13, True)
      , (9369, 11, True)
-     , (9369, 14, True);
+     , (9369, 14, True)
+     , (9369, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15420, 'wrappedarrowheaddeadly');
@@ -1634,7 +1687,8 @@ VALUES (15420, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15420, 13, True)
      , (15420, 11, True)
-     , (15420, 14, True);
+     , (15420, 14, True)
+     , (15420, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36497, 'ace36497-wrappedbundleofgreaterdeadlybluntarrowheads');
@@ -1666,7 +1720,8 @@ VALUES (36497, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (36497, 13, True)
      , (36497, 11, True)
-     , (36497, 14, True);
+     , (36497, 14, True)
+     , (36497, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15412, 'arrowheaddeadlyacid');
@@ -1697,7 +1752,8 @@ VALUES (15412, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15412, 13, True)
      , (15412, 11, True)
-     , (15412, 14, True);
+     , (15412, 14, True)
+     , (15412, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9370, 'wrappedarrowheadgreaterarmorpiercing');
@@ -1728,7 +1784,8 @@ VALUES (9370, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9370, 13, True)
      , (9370, 11, True)
-     , (9370, 14, True);
+     , (9370, 14, True)
+     , (9370, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44360, 'ace44360-bundleofgreaterdeadlybluntarrowheads');
@@ -1760,7 +1817,8 @@ VALUES (44360, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44360, 13, True)
      , (44360, 11, True)
-     , (44360, 14, True);
+     , (44360, 14, True)
+     , (44360, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44361, 'ace44361-bundleofgreaterdeadlybroadarrowheads');
@@ -1792,7 +1850,8 @@ VALUES (44361, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44361, 13, True)
      , (44361, 11, True)
-     , (44361, 14, True);
+     , (44361, 14, True)
+     , (44361, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5355, 'arrowheadgreaterfrogcrotch');
@@ -1823,7 +1882,8 @@ VALUES (5355, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5355, 13, True)
      , (5355, 11, True)
-     , (5355, 14, True);
+     , (5355, 14, True)
+     , (5355, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5356, 'arrowheadgreaterarmorpiercing');
@@ -1854,7 +1914,8 @@ VALUES (5356, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5356, 13, True)
      , (5356, 11, True)
-     , (5356, 14, True);
+     , (5356, 14, True)
+     , (5356, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5353, 'arrowheadgreaterblunt');
@@ -1885,7 +1946,8 @@ VALUES (5353, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5353, 13, True)
      , (5353, 11, True)
-     , (5353, 14, True);
+     , (5353, 14, True)
+     , (5353, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5344, 'arrowheadblunt');
@@ -1916,7 +1978,8 @@ VALUES (5344, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5344, 13, True)
      , (5344, 11, True)
-     , (5344, 14, True);
+     , (5344, 14, True)
+     , (5344, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9372, 'wrappedarrowheadgreaterbroad');
@@ -1947,7 +2010,8 @@ VALUES (9372, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9372, 13, True)
      , (9372, 11, True)
-     , (9372, 14, True);
+     , (9372, 14, True)
+     , (9372, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15424, 'wrappedarrowheaddeadlybroad');
@@ -1978,7 +2042,8 @@ VALUES (15424, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15424, 13, True)
      , (15424, 11, True)
-     , (15424, 14, True);
+     , (15424, 14, True)
+     , (15424, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24545, 'wrappedarrowheaddeadlybarbed');
@@ -2009,7 +2074,8 @@ VALUES (24545, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24545, 13, True)
      , (24545, 11, True)
-     , (24545, 14, True);
+     , (24545, 14, True)
+     , (24545, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15416, 'arrowheaddeadlyelectric');
@@ -2040,7 +2106,8 @@ VALUES (15416, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15416, 13, True)
      , (15416, 11, True)
-     , (15416, 14, True);
+     , (15416, 14, True)
+     , (15416, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5346, 'arrowheadfrogcrotch');
@@ -2071,7 +2138,8 @@ VALUES (5346, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5346, 13, True)
      , (5346, 11, True)
-     , (5346, 14, True);
+     , (5346, 14, True)
+     , (5346, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44364, 'ace44364-wrappedbundleofgreaterdeadlyarrowheads');
@@ -2103,7 +2171,8 @@ VALUES (44364, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44364, 13, True)
      , (44364, 11, True)
-     , (44364, 14, True);
+     , (44364, 14, True)
+     , (44364, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5352, 'arrowheadgreaterelectric');
@@ -2134,7 +2203,8 @@ VALUES (5352, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5352, 13, True)
      , (5352, 11, True)
-     , (5352, 14, True);
+     , (5352, 14, True)
+     , (5352, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5342, 'arrowheadfrost');
@@ -2165,7 +2235,8 @@ VALUES (5342, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5342, 13, True)
      , (5342, 11, True)
-     , (5342, 14, True);
+     , (5342, 14, True)
+     , (5342, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44362, 'ace44362-bundleofgreaterdeadlyarmorpiercingarrowheads');
@@ -2197,7 +2268,8 @@ VALUES (44362, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44362, 13, True)
      , (44362, 11, True)
-     , (44362, 14, True);
+     , (44362, 14, True)
+     , (44362, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5345, 'arrowheadbroad');
@@ -2228,7 +2300,8 @@ VALUES (5345, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5345, 13, True)
      , (5345, 11, True)
-     , (5345, 14, True);
+     , (5345, 14, True)
+     , (5345, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7996, 'arrowheadcrystal');
@@ -2259,7 +2332,8 @@ VALUES (7996, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7996, 13, True)
      , (7996, 11, True)
-     , (7996, 14, True);
+     , (7996, 14, True)
+     , (7996, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44365, 'ace44365-wrappedbundleofgreaterdeadlybroadarrowheads');
@@ -2291,7 +2365,8 @@ VALUES (44365, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44365, 13, True)
      , (44365, 11, True)
-     , (44365, 14, True);
+     , (44365, 14, True)
+     , (44365, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44359, 'ace44359-bundleofgreaterdeadlyarrowheads');
@@ -2323,7 +2398,8 @@ VALUES (44359, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44359, 13, True)
      , (44359, 11, True)
-     , (44359, 14, True);
+     , (44359, 14, True)
+     , (44359, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15419, 'arrowheaddeadlyfrost');
@@ -2354,7 +2430,8 @@ VALUES (15419, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15419, 13, True)
      , (15419, 11, True)
-     , (15419, 14, True);
+     , (15419, 14, True)
+     , (15419, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23857, 'spiketail');
@@ -2383,7 +2460,8 @@ VALUES (23857, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (23857, 13, True)
      , (23857, 11, True)
-     , (23857, 14, True);
+     , (23857, 14, True)
+     , (23857, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5343, 'arrowheadelectric');
@@ -2414,7 +2492,8 @@ VALUES (5343, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5343, 13, True)
      , (5343, 11, True)
-     , (5343, 14, True);
+     , (5343, 14, True)
+     , (5343, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5347, 'arrowheadarmorpiercing');
@@ -2445,7 +2524,8 @@ VALUES (5347, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5347, 13, True)
      , (5347, 11, True)
-     , (5347, 14, True);
+     , (5347, 14, True)
+     , (5347, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15411, 'arrowheaddeadly');
@@ -2476,7 +2556,8 @@ VALUES (15411, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15411, 13, True)
      , (15411, 11, True)
-     , (15411, 14, True);
+     , (15411, 14, True)
+     , (15411, 19, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44363, 'ace44363-bundleofgreaterdeadlyfrogcrotcharrowheads');
@@ -2508,5 +2589,6 @@ VALUES (44363, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44363, 13, True)
      , (44363, 11, True)
-     , (44363, 14, True);
+     , (44363, 14, True)
+     , (44363, 19, True);
 
