@@ -25,7 +25,9 @@ VALUES (2436, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2436, 13, True)
      , (2436, 11, True)
-     , (2436, 14, True);
+     , (2436, 14, True)
+     , (2436, 19, True)
+     , (2436, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27330, 'manastonemedium');
@@ -53,7 +55,9 @@ VALUES (27330, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27330, 13, True)
      , (27330, 11, True)
-     , (27330, 14, True);
+     , (27330, 14, True)
+     , (27330, 19, True)
+     , (27330, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2434, 'manastonelesser');
@@ -81,7 +85,9 @@ VALUES (2434, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2434, 13, True)
      , (2434, 11, True)
-     , (2434, 14, True);
+     , (2434, 14, True)
+     , (2434, 19, True)
+     , (2434, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2435, 'manastone');
@@ -109,7 +115,9 @@ VALUES (2435, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2435, 13, True)
      , (2435, 11, True)
-     , (2435, 14, True);
+     , (2435, 14, True)
+     , (2435, 19, True)
+     , (2435, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27328, 'manastonemajor');
@@ -137,7 +145,9 @@ VALUES (27328, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27328, 13, True)
      , (27328, 11, True)
-     , (27328, 14, True);
+     , (27328, 14, True)
+     , (27328, 19, True)
+     , (27328, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27331, 'manastoneminor');
@@ -165,7 +175,9 @@ VALUES (27331, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27331, 13, True)
      , (27331, 11, True)
-     , (27331, 14, True);
+     , (27331, 14, True)
+     , (27331, 19, True)
+     , (27331, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4616, 'manastonegreat');
@@ -194,7 +206,9 @@ VALUES (4616, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4616, 13, True)
      , (4616, 11, True)
-     , (4616, 14, True);
+     , (4616, 14, True)
+     , (4616, 19, True)
+     , (4616, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4615, 'manastonehigh');
@@ -223,7 +237,9 @@ VALUES (4615, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4615, 13, True)
      , (4615, 11, True)
-     , (4615, 14, True);
+     , (4615, 14, True)
+     , (4615, 19, True)
+     , (4615, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27329, 'manastonemassive');
@@ -252,7 +268,9 @@ VALUES (27329, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27329, 13, True)
      , (27329, 11, True)
-     , (27329, 14, True);
+     , (27329, 14, True)
+     , (27329, 19, True)
+     , (27329, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9060, 'manachargetitan');
@@ -281,7 +299,9 @@ VALUES (9060, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9060, 13, True)
      , (9060, 11, True)
-     , (9060, 14, True);
+     , (9060, 14, True)
+     , (9060, 19, True)
+     , (9060, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20179, 'manastonesuperb');
@@ -310,7 +330,9 @@ VALUES (20179, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20179, 13, True)
      , (20179, 11, True)
-     , (20179, 14, True);
+     , (20179, 14, True)
+     , (20179, 19, True)
+     , (20179, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4614, 'manastonemoderate');
@@ -339,7 +361,9 @@ VALUES (4614, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4614, 13, True)
      , (4614, 11, True)
-     , (4614, 14, True);
+     , (4614, 14, True)
+     , (4614, 19, True)
+     , (4614, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4613, 'manastonesmall');
@@ -368,7 +392,9 @@ VALUES (4613, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4613, 13, True)
      , (4613, 11, True)
-     , (4613, 14, True);
+     , (4613, 14, True)
+     , (4613, 19, True)
+     , (4613, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4612, 'manastonetiny');
@@ -397,5 +423,7 @@ VALUES (4612, 53, 101)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4612, 13, True)
      , (4612, 11, True)
-     , (4612, 14, True);
+     , (4612, 14, True)
+     , (4612, 19, True)
+     , (4612, 22, True);
 

@@ -6,13 +6,6 @@ VALUES (3685917978, 86, 25)
      , (3685917978, 111, 17);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7934, 38, 'Golem Sanctum Portal');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7934, 86, 25)
-     , (7934, 111, 17);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3692328637, 38, 'Golem Sanctum Portal');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

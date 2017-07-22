@@ -27,7 +27,9 @@ VALUES (5959, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5959, 13, True)
      , (5959, 11, True)
-     , (5959, 14, True);
+     , (5959, 14, True)
+     , (5959, 19, True)
+     , (5959, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2736, 'scrollslowness6');
@@ -58,7 +60,9 @@ VALUES (2736, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2736, 13, True)
      , (2736, 11, True)
-     , (2736, 14, True);
+     , (2736, 14, True)
+     , (2736, 19, True)
+     , (2736, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8952, 'scrollshockwavestreak6');
@@ -89,7 +93,9 @@ VALUES (8952, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8952, 13, True)
      , (8952, 11, True)
-     , (8952, 14, True);
+     , (8952, 14, True)
+     , (8952, 19, True)
+     , (8952, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2945, 'scrollfrostbolt6');
@@ -120,7 +126,9 @@ VALUES (2945, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2945, 13, True)
      , (2945, 11, True)
-     , (2945, 14, True);
+     , (2945, 14, True)
+     , (2945, 19, True)
+     , (2945, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20235, 'scrollcoordinationself7');
@@ -151,7 +159,9 @@ VALUES (20235, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20235, 13, True)
      , (20235, 11, True)
-     , (20235, 14, True);
+     , (20235, 14, True)
+     , (20235, 19, True)
+     , (20235, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20233, 'scrollclumsiness7');
@@ -182,7 +192,9 @@ VALUES (20233, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20233, 13, True)
      , (20233, 11, True)
-     , (20233, 14, True);
+     , (20233, 14, True)
+     , (20233, 19, True)
+     , (20233, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3451, 'scrollpersonattunementother5');
@@ -213,7 +225,9 @@ VALUES (3451, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3451, 13, True)
      , (3451, 11, True)
-     , (3451, 14, True);
+     , (3451, 14, True)
+     , (3451, 19, True)
+     , (3451, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20254, 'scrollstrengthself7');
@@ -244,7 +258,9 @@ VALUES (20254, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20254, 13, True)
      , (20254, 11, True)
-     , (20254, 14, True);
+     , (20254, 14, True)
+     , (20254, 19, True)
+     , (20254, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20591, 'scrollunarmedmasteryother7');
@@ -275,7 +291,9 @@ VALUES (20591, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20591, 13, True)
      , (20591, 11, True)
-     , (20591, 14, True);
+     , (20591, 14, True)
+     , (20591, 19, True)
+     , (20591, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20530, 'scrollfletchingmasteryother7');
@@ -306,7 +324,9 @@ VALUES (20530, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20530, 13, True)
      , (20530, 11, True)
-     , (20530, 14, True);
+     , (20530, 14, True)
+     , (20530, 19, True)
+     , (20530, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20501, 'scrollarmorexpertiseother7');
@@ -337,7 +357,9 @@ VALUES (20501, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20501, 13, True)
      , (20501, 11, True)
-     , (20501, 14, True);
+     , (20501, 14, True)
+     , (20501, 19, True)
+     , (20501, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3726, 'scrolldrainstamina2');
@@ -368,7 +390,9 @@ VALUES (3726, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3726, 13, True)
      , (3726, 11, True)
-     , (3726, 14, True);
+     , (3726, 14, True)
+     , (3726, 19, True)
+     , (3726, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2825, 'scrollfrostbane5');
@@ -399,7 +423,9 @@ VALUES (2825, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2825, 13, True)
      , (2825, 11, True)
-     , (2825, 14, True);
+     , (2825, 14, True)
+     , (2825, 19, True)
+     , (2825, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43369, 'ace43369-scrollofvoidmagicmasteryselfiii');
@@ -430,7 +456,9 @@ VALUES (43369, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43369, 13, True)
      , (43369, 11, True)
-     , (43369, 14, True);
+     , (43369, 14, True)
+     , (43369, 19, True)
+     , (43369, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2746, 'scrollstrengthself6');
@@ -461,7 +489,9 @@ VALUES (2746, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2746, 13, True)
      , (2746, 11, True)
-     , (2746, 14, True);
+     , (2746, 14, True)
+     , (2746, 19, True)
+     , (2746, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20538, 'scrollinvulnerabilityself7');
@@ -492,7 +522,9 @@ VALUES (20538, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20538, 13, True)
      , (20538, 11, True)
-     , (20538, 14, True);
+     , (20538, 14, True)
+     , (20538, 19, True)
+     , (20538, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20455, 'scrolllightningbolt7');
@@ -523,7 +555,9 @@ VALUES (20455, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20455, 13, True)
      , (20455, 11, True)
-     , (20455, 14, True);
+     , (20455, 14, True)
+     , (20455, 19, True)
+     , (20455, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2731, 'scrollrevitalizeself6');
@@ -554,7 +588,9 @@ VALUES (2731, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2731, 13, True)
      , (2731, 11, True)
-     , (2731, 14, True);
+     , (2731, 14, True)
+     , (2731, 19, True)
+     , (2731, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20465, 'scrollacidprotectionother7');
@@ -585,7 +621,9 @@ VALUES (20465, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20465, 13, True)
      , (20465, 11, True)
-     , (20465, 14, True);
+     , (20465, 14, True)
+     , (20465, 19, True)
+     , (20465, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20403, 'scrollacidlure7');
@@ -616,7 +654,9 @@ VALUES (20403, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20403, 13, True)
      , (20403, 11, True)
-     , (20403, 14, True);
+     , (20403, 14, True)
+     , (20403, 19, True)
+     , (20403, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20533, 'scrollhealingmasteryother7');
@@ -647,7 +687,9 @@ VALUES (20533, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20533, 13, True)
      , (20533, 11, True)
-     , (20533, 14, True);
+     , (20533, 14, True)
+     , (20533, 19, True)
+     , (20533, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9634, 'scrollhealthtomanaself6');
@@ -678,7 +720,9 @@ VALUES (9634, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9634, 13, True)
      , (9634, 11, True)
-     , (9634, 14, True);
+     , (9634, 14, True)
+     , (9634, 19, True)
+     , (9634, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3252, 'scrolldefenselessnessother6');
@@ -709,7 +753,9 @@ VALUES (3252, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3252, 13, True)
      , (3252, 11, True)
-     , (3252, 14, True);
+     , (3252, 14, True)
+     , (3252, 19, True)
+     , (3252, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21293, 'scrollacidarc6');
@@ -740,7 +786,9 @@ VALUES (21293, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21293, 13, True)
      , (21293, 11, True)
-     , (21293, 14, True);
+     , (21293, 14, True)
+     , (21293, 19, True)
+     , (21293, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5949, 'scrollcookingineptitude6');
@@ -771,7 +819,9 @@ VALUES (5949, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5949, 13, True)
      , (5949, 11, True)
-     , (5949, 14, True);
+     , (5949, 14, True)
+     , (5949, 19, True)
+     , (5949, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3051, 'scrolllightningprotectionother5');
@@ -802,7 +852,9 @@ VALUES (3051, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3051, 13, True)
      , (3051, 11, True)
-     , (3051, 14, True);
+     , (3051, 14, True)
+     , (3051, 19, True)
+     , (3051, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2840, 'scrollhidevalue5');
@@ -833,7 +885,9 @@ VALUES (2840, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2840, 13, True)
      , (2840, 11, True)
-     , (2840, 14, True);
+     , (2840, 14, True)
+     , (2840, 19, True)
+     , (2840, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2751, 'scrollweaknessother6');
@@ -864,7 +918,9 @@ VALUES (2751, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2751, 13, True)
      , (2751, 11, True)
-     , (2751, 14, True);
+     , (2751, 14, True)
+     , (2751, 19, True)
+     , (2751, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20553, 'scrolllifemagicmasteryother7');
@@ -895,7 +951,9 @@ VALUES (20553, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20553, 13, True)
      , (20553, 11, True)
-     , (20553, 14, True);
+     , (20553, 14, True)
+     , (20553, 19, True)
+     , (20553, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3587, 'scrollweaponexpertiseself6');
@@ -926,7 +984,9 @@ VALUES (3587, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3587, 13, True)
      , (3587, 11, True)
-     , (3587, 14, True);
+     , (3587, 14, True)
+     , (3587, 19, True)
+     , (3587, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3202, 'scrollcreatureenchantmentself6');
@@ -957,7 +1017,9 @@ VALUES (3202, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3202, 13, True)
      , (3202, 11, True)
-     , (3202, 14, True);
+     , (3202, 14, True)
+     , (3202, 19, True)
+     , (3202, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8925, 'scrollflamestreak6');
@@ -988,7 +1050,9 @@ VALUES (8925, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8925, 13, True)
      , (8925, 11, True)
-     , (8925, 14, True);
+     , (8925, 14, True)
+     , (8925, 19, True)
+     , (8925, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2846, 'scrollimpenetrability6');
@@ -1019,7 +1083,9 @@ VALUES (2846, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2846, 13, True)
      , (2846, 11, True)
-     , (2846, 14, True);
+     , (2846, 14, True)
+     , (2846, 19, True)
+     , (2846, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21300, 'scrollbladearc6');
@@ -1050,7 +1116,9 @@ VALUES (21300, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21300, 13, True)
      , (21300, 11, True)
-     , (21300, 14, True);
+     , (21300, 14, True)
+     , (21300, 19, True)
+     , (21300, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9613, 'scrollmanaineptitude6');
@@ -1081,7 +1149,9 @@ VALUES (9613, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9613, 13, True)
      , (9613, 11, True)
-     , (9613, 14, True);
+     , (9613, 14, True)
+     , (9613, 19, True)
+     , (9613, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2933, 'scrollforcebolt5');
@@ -1112,7 +1182,9 @@ VALUES (2933, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2933, 13, True)
      , (2933, 11, True)
-     , (2933, 14, True);
+     , (2933, 14, True)
+     , (2933, 19, True)
+     , (2933, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2896, 'scrollturnblade5');
@@ -1143,7 +1215,9 @@ VALUES (2896, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2896, 13, True)
      , (2896, 11, True)
-     , (2896, 14, True);
+     , (2896, 14, True)
+     , (2896, 19, True)
+     , (2896, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43363, 'ace43363-scrollofvoidmagicmasteryselfv');
@@ -1174,7 +1248,9 @@ VALUES (43363, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43363, 13, True)
      , (43363, 11, True)
-     , (43363, 14, True);
+     , (43363, 14, True)
+     , (43363, 19, True)
+     , (43363, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9659, 'scrollstaminatomanaself6');
@@ -1205,7 +1281,9 @@ VALUES (9659, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9659, 13, True)
      , (9659, 11, True)
-     , (9659, 14, True);
+     , (9659, 14, True)
+     , (9659, 19, True)
+     , (9659, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21329, 'scrolllightningarc7');
@@ -1236,7 +1314,9 @@ VALUES (21329, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21329, 13, True)
      , (21329, 11, True)
-     , (21329, 14, True);
+     , (21329, 14, True)
+     , (21329, 19, True)
+     , (21329, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20481, 'scrolllightningprotectionself7');
@@ -1267,7 +1347,9 @@ VALUES (20481, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20481, 13, True)
      , (20481, 11, True)
-     , (20481, 14, True);
+     , (20481, 14, True)
+     , (20481, 19, True)
+     , (20481, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20456, 'scrolllightningstreak7');
@@ -1298,7 +1380,9 @@ VALUES (20456, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20456, 13, True)
      , (20456, 11, True)
-     , (20456, 14, True);
+     , (20456, 14, True)
+     , (20456, 19, True)
+     , (20456, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43336, 'ace43336-scrollofweakeningcursevii');
@@ -1329,7 +1413,9 @@ VALUES (43336, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43336, 13, True)
      , (43336, 11, True)
-     , (43336, 14, True);
+     , (43336, 14, True)
+     , (43336, 19, True)
+     , (43336, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3580, 'scrollweaponexpertiseother4');
@@ -1360,7 +1446,9 @@ VALUES (3580, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3580, 13, True)
      , (3580, 11, True)
-     , (3580, 14, True);
+     , (3580, 14, True)
+     , (3580, 19, True)
+     , (3580, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3099, 'scrollmanarenewalother3');
@@ -1391,7 +1479,9 @@ VALUES (3099, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3099, 13, True)
      , (3099, 11, True)
-     , (3099, 14, True);
+     , (3099, 14, True)
+     , (3099, 19, True)
+     , (3099, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2799, 'scrollbludgeonlure4');
@@ -1422,7 +1512,9 @@ VALUES (2799, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2799, 13, True)
      , (2799, 11, True)
-     , (2799, 14, True);
+     , (2799, 14, True)
+     , (2799, 19, True)
+     , (2799, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45343, 'ace45343-scrollofsneakattackmasteryotheriv');
@@ -1453,7 +1545,9 @@ VALUES (45343, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45343, 13, True)
      , (45343, 11, True)
-     , (45343, 14, True);
+     , (45343, 14, True)
+     , (45343, 19, True)
+     , (45343, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3114, 'scrollregenerateself3');
@@ -1484,7 +1578,9 @@ VALUES (3114, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3114, 13, True)
      , (3114, 11, True)
-     , (3114, 14, True);
+     , (3114, 14, True)
+     , (3114, 19, True)
+     , (3114, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20238, 'scrollenfeeble7');
@@ -1515,7 +1611,9 @@ VALUES (20238, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20238, 13, True)
      , (20238, 11, True)
-     , (20238, 14, True);
+     , (20238, 14, True)
+     , (20238, 19, True)
+     , (20238, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20574, 'scrollresistmagicother7');
@@ -1546,7 +1644,9 @@ VALUES (20574, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20574, 13, True)
      , (20574, 11, True)
-     , (20574, 14, True);
+     , (20574, 14, True)
+     , (20574, 19, True)
+     , (20574, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20544, 'scrollitemignorance7');
@@ -1577,7 +1677,9 @@ VALUES (20544, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20544, 13, True)
      , (20544, 11, True)
-     , (20544, 14, True);
+     , (20544, 14, True)
+     , (20544, 19, True)
+     , (20544, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28946, 'scrollarcanumsalvagingother7');
@@ -1608,7 +1710,9 @@ VALUES (28946, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28946, 13, True)
      , (28946, 11, True)
-     , (28946, 14, True);
+     , (28946, 14, True)
+     , (28946, 19, True)
+     , (28946, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20546, 'scrolljumpmasteryother7');
@@ -1639,7 +1743,9 @@ VALUES (20546, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20546, 13, True)
      , (20546, 11, True)
-     , (20546, 14, True);
+     , (20546, 14, True)
+     , (20546, 19, True)
+     , (20546, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20405, 'scrollbladelure7');
@@ -1670,7 +1776,9 @@ VALUES (20405, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20405, 13, True)
      , (20405, 11, True)
-     , (20405, 14, True);
+     , (20405, 14, True)
+     , (20405, 19, True)
+     , (20405, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20450, 'scrollfrostbolt7');
@@ -1701,7 +1809,9 @@ VALUES (20450, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20450, 13, True)
      , (20450, 11, True)
-     , (20450, 14, True);
+     , (20450, 14, True)
+     , (20450, 19, True)
+     , (20450, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31383, 'ace31383-scrollofravenfury');
@@ -1731,7 +1841,9 @@ VALUES (31383, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (31383, 13, True)
      , (31383, 11, True)
-     , (31383, 14, True);
+     , (31383, 14, True)
+     , (31383, 19, True)
+     , (31383, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3292, 'scrollimpregnabilityself6');
@@ -1762,7 +1874,9 @@ VALUES (3292, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3292, 13, True)
      , (3292, 11, True)
-     , (3292, 14, True);
+     , (3292, 14, True)
+     , (3292, 19, True)
+     , (3292, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3435, 'scrollmanaconvertmasteryself4');
@@ -1793,7 +1907,9 @@ VALUES (3435, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3435, 13, True)
      , (3435, 11, True)
-     , (3435, 14, True);
+     , (3435, 14, True)
+     , (3435, 19, True)
+     , (3435, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2741, 'scrollstrengthother6');
@@ -1824,7 +1940,9 @@ VALUES (2741, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2741, 13, True)
      , (2741, 11, True)
-     , (2741, 14, True);
+     , (2741, 14, True)
+     , (2741, 19, True)
+     , (2741, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21315, 'scrollforcearc7');
@@ -1855,7 +1973,9 @@ VALUES (21315, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21315, 13, True)
      , (21315, 11, True)
-     , (21315, 14, True);
+     , (21315, 14, True)
+     , (21315, 19, True)
+     , (21315, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3735, 'scrollinfusehealth6');
@@ -1886,7 +2006,9 @@ VALUES (3735, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3735, 13, True)
      , (3735, 11, True)
-     , (3735, 14, True);
+     , (3735, 14, True)
+     , (3735, 19, True)
+     , (3735, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3177, 'scrollbowineptitude6');
@@ -1917,7 +2039,9 @@ VALUES (3177, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3177, 13, True)
      , (3177, 11, True)
-     , (3177, 14, True);
+     , (3177, 14, True)
+     , (3177, 19, True)
+     , (3177, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3029, 'scrollcoldvulnerabilityother3');
@@ -1948,7 +2072,9 @@ VALUES (3029, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3029, 13, True)
      , (3029, 11, True)
-     , (3029, 14, True);
+     , (3029, 14, True)
+     , (3029, 19, True)
+     , (3029, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3111, 'scrollregenerateother5');
@@ -1979,7 +2105,9 @@ VALUES (3111, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3111, 13, True)
      , (3111, 11, True)
-     , (3111, 14, True);
+     , (3111, 14, True)
+     , (3111, 19, True)
+     , (3111, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20230, 'scrollarmorother7');
@@ -2010,7 +2138,9 @@ VALUES (20230, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20230, 13, True)
      , (20230, 11, True)
-     , (20230, 14, True);
+     , (20230, 14, True)
+     , (20230, 19, True)
+     , (20230, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49457, 'ace49457-scrollofsummoningineptitudeotherii');
@@ -2041,7 +2171,9 @@ VALUES (49457, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49457, 13, True)
      , (49457, 11, True)
-     , (49457, 14, True);
+     , (49457, 14, True)
+     , (49457, 19, True)
+     , (49457, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3447, 'scrollmonsterunfamiliarity6');
@@ -2072,7 +2204,9 @@ VALUES (3447, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3447, 13, True)
      , (3447, 11, True)
-     , (3447, 14, True);
+     , (3447, 14, True)
+     , (3447, 19, True)
+     , (3447, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2987, 'scrollacidvulnerabilityother6');
@@ -2103,7 +2237,9 @@ VALUES (2987, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2987, 13, True)
      , (2987, 11, True)
-     , (2987, 14, True);
+     , (2987, 14, True)
+     , (2987, 19, True)
+     , (2987, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1858, 'scrollmanadepletion');
@@ -2134,7 +2270,9 @@ VALUES (1858, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1858, 13, True)
      , (1858, 11, True)
-     , (1858, 14, True);
+     , (1858, 14, True)
+     , (1858, 19, True)
+     , (1858, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20476, 'scrollcoldvulnerabilityother7');
@@ -2165,7 +2303,9 @@ VALUES (20476, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20476, 13, True)
      , (20476, 11, True)
-     , (20476, 14, True);
+     , (20476, 14, True)
+     , (20476, 19, True)
+     , (20476, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2967, 'scrollshockwave6');
@@ -2196,7 +2336,9 @@ VALUES (2967, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2967, 13, True)
      , (2967, 11, True)
-     , (2967, 14, True);
+     , (2967, 14, True)
+     , (2967, 19, True)
+     , (2967, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49458, 'ace49458-scrollofsummoningineptitudeotheriii');
@@ -2227,7 +2369,9 @@ VALUES (49458, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49458, 13, True)
      , (49458, 11, True)
-     , (49458, 14, True);
+     , (49458, 14, True)
+     , (49458, 19, True)
+     , (49458, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2735, 'scrollslowness5');
@@ -2258,7 +2402,9 @@ VALUES (2735, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2735, 13, True)
      , (2735, 11, True)
-     , (2735, 14, True);
+     , (2735, 14, True)
+     , (2735, 19, True)
+     , (2735, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2658, 'scrollenduranceother6');
@@ -2289,7 +2435,9 @@ VALUES (2658, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2658, 13, True)
      , (2658, 11, True)
-     , (2658, 14, True);
+     , (2658, 14, True)
+     , (2658, 19, True)
+     , (2658, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3102, 'scrollmanarenewalother6');
@@ -2320,7 +2468,9 @@ VALUES (3102, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3102, 13, True)
      , (3102, 11, True)
-     , (3102, 14, True);
+     , (3102, 14, True)
+     , (3102, 19, True)
+     , (3102, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20493, 'scrollrejuvenateother7');
@@ -2351,7 +2501,9 @@ VALUES (20493, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20493, 13, True)
      , (20493, 11, True)
-     , (20493, 14, True);
+     , (20493, 14, True)
+     , (20493, 19, True)
+     , (20493, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3582, 'scrollweaponexpertiseother6');
@@ -2382,7 +2534,9 @@ VALUES (3582, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3582, 13, True)
      , (3582, 11, True)
-     , (3582, 14, True);
+     , (3582, 14, True)
+     , (3582, 19, True)
+     , (3582, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3197, 'scrollcreatureenchantmentother6');
@@ -2413,7 +2567,9 @@ VALUES (3197, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3197, 13, True)
      , (3197, 11, True)
-     , (3197, 14, True);
+     , (3197, 14, True)
+     , (3197, 19, True)
+     , (3197, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2771, 'scrollacidlure6');
@@ -2444,7 +2600,9 @@ VALUES (2771, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2771, 13, True)
      , (2771, 11, True)
-     , (2771, 14, True);
+     , (2771, 14, True)
+     , (2771, 19, True)
+     , (2771, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3232, 'scrolldaggermasteryself6');
@@ -2475,7 +2633,9 @@ VALUES (3232, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3232, 13, True)
      , (3232, 11, True)
-     , (3232, 14, True);
+     , (3232, 14, True)
+     , (3232, 19, True)
+     , (3232, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3417, 'scrollmagicitemexpertiseself6');
@@ -2506,7 +2666,9 @@ VALUES (3417, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3417, 13, True)
      , (3417, 11, True)
-     , (3417, 14, True);
+     , (3417, 14, True)
+     , (3417, 19, True)
+     , (3417, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43281, 'ace43281-scrollofcorrosioniv');
@@ -2537,7 +2699,9 @@ VALUES (43281, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43281, 13, True)
      , (43281, 11, True)
-     , (43281, 14, True);
+     , (43281, 14, True)
+     , (43281, 19, True)
+     , (43281, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45350, 'ace45350-scrollofsneakattackmasteryselfiii');
@@ -2568,7 +2732,9 @@ VALUES (45350, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45350, 13, True)
      , (45350, 11, True)
-     , (45350, 14, True);
+     , (45350, 14, True)
+     , (45350, 19, True)
+     , (45350, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4220, 'scrolldrainhealth4');
@@ -2599,7 +2765,9 @@ VALUES (4220, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4220, 13, True)
      , (4220, 11, True)
-     , (4220, 14, True);
+     , (4220, 14, True)
+     , (4220, 19, True)
+     , (4220, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20526, 'scrollfaithlessness7');
@@ -2630,7 +2798,9 @@ VALUES (20526, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20526, 13, True)
      , (20526, 11, True)
-     , (20526, 14, True);
+     , (20526, 14, True)
+     , (20526, 19, True)
+     , (20526, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2726, 'scrollrevitalizeother6');
@@ -2661,7 +2831,9 @@ VALUES (2726, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2726, 13, True)
      , (2726, 11, True)
-     , (2726, 14, True);
+     , (2726, 14, True)
+     , (2726, 19, True)
+     , (2726, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45290, 'ace45290-scrollofrecklessnessineptitudeothervii');
@@ -2692,7 +2864,9 @@ VALUES (45290, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45290, 13, True)
      , (45290, 11, True)
-     , (45290, 14, True);
+     , (45290, 14, True)
+     , (45290, 19, True)
+     , (45290, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20566, 'scrollmanaconvertmasteryself7');
@@ -2723,7 +2897,9 @@ VALUES (20566, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20566, 13, True)
      , (20566, 11, True)
-     , (20566, 14, True);
+     , (20566, 14, True)
+     , (20566, 19, True)
+     , (20566, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3414, 'scrollmagicitemexpertiseself3');
@@ -2754,7 +2930,9 @@ VALUES (3414, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3414, 13, True)
      , (3414, 11, True)
-     , (3414, 14, True);
+     , (3414, 14, True)
+     , (3414, 19, True)
+     , (3414, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3272, 'scrollhealingineptitude6');
@@ -2785,7 +2963,9 @@ VALUES (3272, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3272, 13, True)
      , (3272, 11, True)
-     , (3272, 14, True);
+     , (3272, 14, True)
+     , (3272, 19, True)
+     , (3272, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20611, 'scrollmanatohealthself7');
@@ -2816,7 +2996,9 @@ VALUES (20611, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20611, 13, True)
      , (20611, 11, True)
-     , (20611, 14, True);
+     , (20611, 14, True)
+     , (20611, 19, True)
+     , (20611, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3517, 'scrollswordineptitude6');
@@ -2847,7 +3029,9 @@ VALUES (3517, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3517, 13, True)
      , (3517, 11, True)
-     , (3517, 14, True);
+     , (3517, 14, True)
+     , (3517, 19, True)
+     , (3517, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3182, 'scrollbowmasteryother6');
@@ -2878,7 +3062,9 @@ VALUES (3182, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3182, 13, True)
      , (3182, 11, True)
-     , (3182, 14, True);
+     , (3182, 14, True)
+     , (3182, 19, True)
+     , (3182, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3047, 'scrollfirevulnerabilityother6');
@@ -2909,7 +3095,9 @@ VALUES (3047, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3047, 13, True)
      , (3047, 11, True)
-     , (3047, 14, True);
+     , (3047, 14, True)
+     , (3047, 19, True)
+     , (3047, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21321, 'scrollfrostarc6');
@@ -2940,7 +3128,9 @@ VALUES (21321, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21321, 13, True)
      , (21321, 11, True)
-     , (21321, 14, True);
+     , (21321, 14, True)
+     , (21321, 19, True)
+     , (21321, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20471, 'scrollbludgeonprotectionother7');
@@ -2971,7 +3161,9 @@ VALUES (20471, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20471, 13, True)
      , (20471, 11, True)
-     , (20471, 14, True);
+     , (20471, 14, True)
+     , (20471, 19, True)
+     , (20471, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3367, 'scrolllifemagicineptitude6');
@@ -3002,7 +3194,9 @@ VALUES (3367, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3367, 13, True)
      , (3367, 11, True)
-     , (3367, 14, True);
+     , (3367, 14, True)
+     , (3367, 19, True)
+     , (3367, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20327, 'scrolldispelcreatureneutralself4');
@@ -3033,7 +3227,9 @@ VALUES (20327, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20327, 13, True)
      , (20327, 11, True)
-     , (20327, 14, True);
+     , (20327, 14, True)
+     , (20327, 19, True)
+     , (20327, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43283, 'ace43283-scrollofcorrosionvi');
@@ -3064,7 +3260,9 @@ VALUES (43283, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43283, 13, True)
      , (43283, 11, True)
-     , (43283, 14, True);
+     , (43283, 14, True)
+     , (43283, 19, True)
+     , (43283, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3737, 'scrollinfusemana3');
@@ -3095,7 +3293,9 @@ VALUES (3737, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3737, 13, True)
      , (3737, 11, True)
-     , (3737, 14, True);
+     , (3737, 14, True)
+     , (3737, 19, True)
+     , (3737, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45346, 'ace45346-scrollofsneakattackmasteryothervii');
@@ -3126,7 +3326,9 @@ VALUES (45346, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45346, 13, True)
      , (45346, 11, True)
-     , (45346, 14, True);
+     , (45346, 14, True)
+     , (45346, 19, True)
+     , (45346, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20402, 'scrollacidbane7');
@@ -3157,7 +3359,9 @@ VALUES (20402, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20402, 13, True)
      , (20402, 11, True)
-     , (20402, 14, True);
+     , (20402, 14, True)
+     , (20402, 19, True)
+     , (20402, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20236, 'scrollenduranceother7');
@@ -3188,7 +3392,9 @@ VALUES (20236, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20236, 13, True)
      , (20236, 11, True)
-     , (20236, 14, True);
+     , (20236, 14, True)
+     , (20236, 19, True)
+     , (20236, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21294, 'scrollacidarc7');
@@ -3219,7 +3425,9 @@ VALUES (21294, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21294, 13, True)
      , (21294, 11, True)
-     , (21294, 14, True);
+     , (21294, 14, True)
+     , (21294, 19, True)
+     , (21294, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20451, 'scrollfroststreak7');
@@ -3250,7 +3458,9 @@ VALUES (20451, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20451, 13, True)
      , (20451, 11, True)
-     , (20451, 14, True);
+     , (20451, 14, True)
+     , (20451, 19, True)
+     , (20451, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20617, 'scrollstaminatomanaself7');
@@ -3281,7 +3491,9 @@ VALUES (20617, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20617, 13, True)
      , (20617, 11, True)
-     , (20617, 14, True);
+     , (20617, 14, True)
+     , (20617, 19, True)
+     , (20617, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20551, 'scrollleadershipmasteryself7');
@@ -3312,7 +3524,9 @@ VALUES (20551, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20551, 13, True)
      , (20551, 11, True)
-     , (20551, 14, True);
+     , (20551, 14, True)
+     , (20551, 19, True)
+     , (20551, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3577, 'scrollwarmagicmasteryself6');
@@ -3343,7 +3557,9 @@ VALUES (3577, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3577, 13, True)
      , (3577, 11, True)
-     , (3577, 14, True);
+     , (3577, 14, True)
+     , (3577, 19, True)
+     , (3577, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20466, 'scrollacidprotectionself7');
@@ -3374,7 +3590,9 @@ VALUES (20466, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20466, 13, True)
      , (20466, 11, True)
-     , (20466, 14, True);
+     , (20466, 14, True)
+     , (20466, 19, True)
+     , (20466, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20424, 'scrollpiercinglure7');
@@ -3405,7 +3623,9 @@ VALUES (20424, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20424, 13, True)
      , (20424, 11, True)
-     , (20424, 14, True);
+     , (20424, 14, True)
+     , (20424, 19, True)
+     , (20424, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2801, 'scrollbludgeonlure6');
@@ -3436,7 +3656,9 @@ VALUES (2801, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2801, 13, True)
      , (2801, 11, True)
-     , (2801, 14, True);
+     , (2801, 14, True)
+     , (2801, 19, True)
+     , (2801, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3071, 'scrollpierceprotectionself5');
@@ -3467,7 +3689,9 @@ VALUES (3071, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3071, 13, True)
      , (3071, 11, True)
-     , (3071, 14, True);
+     , (3071, 14, True)
+     , (3071, 19, True)
+     , (3071, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3236, 'scrolldeceptionineptitude5');
@@ -3498,7 +3722,9 @@ VALUES (3236, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3236, 13, True)
      , (3236, 11, True)
-     , (3236, 14, True);
+     , (3236, 14, True)
+     , (3236, 19, True)
+     , (3236, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3283, 'scrollimpregnabilityother2');
@@ -3529,7 +3755,9 @@ VALUES (3283, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3283, 13, True)
      , (3283, 11, True)
-     , (3283, 14, True);
+     , (3283, 14, True)
+     , (3283, 19, True)
+     , (3283, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20515, 'scrollcreatureenchantmentself7');
@@ -3560,7 +3788,9 @@ VALUES (20515, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20515, 13, True)
      , (20515, 11, True)
-     , (20515, 14, True);
+     , (20515, 14, True)
+     , (20515, 19, True)
+     , (20515, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20534, 'scrollhealingmasteryself7');
@@ -3591,7 +3821,9 @@ VALUES (20534, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20534, 13, True)
      , (20534, 11, True)
-     , (20534, 14, True);
+     , (20534, 14, True)
+     , (20534, 19, True)
+     , (20534, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43326, 'ace43326-scrollofdestructivecursevii');
@@ -3622,7 +3854,9 @@ VALUES (43326, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43326, 13, True)
      , (43326, 11, True)
-     , (43326, 14, True);
+     , (43326, 14, True)
+     , (43326, 19, True)
+     , (43326, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20503, 'scrollarmorignorance7');
@@ -3653,7 +3887,9 @@ VALUES (20503, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20503, 13, True)
      , (20503, 11, True)
-     , (20503, 14, True);
+     , (20503, 14, True)
+     , (20503, 19, True)
+     , (20503, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20421, 'scrolllightninglure7');
@@ -3684,7 +3920,9 @@ VALUES (20421, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20421, 13, True)
      , (20421, 11, True)
-     , (20421, 14, True);
+     , (20421, 14, True)
+     , (20421, 19, True)
+     , (20421, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28015, 'scrollspiritloather7');
@@ -3715,7 +3953,9 @@ VALUES (28015, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28015, 13, True)
      , (28015, 11, True)
-     , (28015, 14, True);
+     , (28015, 14, True)
+     , (28015, 19, True)
+     , (28015, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3331, 'scrollitemignorance5');
@@ -3746,7 +3986,9 @@ VALUES (3331, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3331, 13, True)
      , (3331, 11, True)
-     , (3331, 14, True);
+     , (3331, 14, True)
+     , (3331, 19, True)
+     , (3331, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45303, 'ace45303-scrollofrecklessnessmasteryselfiv');
@@ -3777,7 +4019,9 @@ VALUES (45303, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45303, 13, True)
      , (45303, 11, True)
-     , (45303, 14, True);
+     , (45303, 14, True)
+     , (45303, 19, True)
+     , (45303, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3253, 'scrollfaithlessness2');
@@ -3808,7 +4052,9 @@ VALUES (3253, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3253, 13, True)
      , (3253, 11, True)
-     , (3253, 14, True);
+     , (3253, 14, True)
+     , (3253, 19, True)
+     , (3253, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1569, 'scrollflamebolt');
@@ -3839,7 +4085,9 @@ VALUES (1569, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1569, 13, True)
      , (1569, 11, True)
-     , (1569, 14, True);
+     , (1569, 14, True)
+     , (1569, 19, True)
+     , (1569, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28941, 'scrollarcanumsalvagingother2');
@@ -3870,7 +4118,9 @@ VALUES (28941, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28941, 13, True)
      , (28941, 11, True)
-     , (28941, 14, True);
+     , (28941, 14, True)
+     , (28941, 19, True)
+     , (28941, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8932, 'scrollforcestreak4');
@@ -3901,7 +4151,9 @@ VALUES (8932, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8932, 13, True)
      , (8932, 11, True)
-     , (8932, 14, True);
+     , (8932, 14, True)
+     , (8932, 19, True)
+     , (8932, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21290, 'scrollacidarc3');
@@ -3932,7 +4184,9 @@ VALUES (21290, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21290, 13, True)
      , (21290, 11, True)
-     , (21290, 14, True);
+     , (21290, 14, True)
+     , (21290, 19, True)
+     , (21290, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43316, 'ace43316-scrollofnetherstreakvii');
@@ -3963,7 +4217,9 @@ VALUES (43316, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43316, 13, True)
      , (43316, 11, True)
-     , (43316, 14, True);
+     , (43316, 14, True)
+     , (43316, 19, True)
+     , (43316, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8949, 'scrollshockwavestreak3');
@@ -3994,7 +4250,9 @@ VALUES (8949, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8949, 13, True)
      , (8949, 11, True)
-     , (8949, 14, True);
+     , (8949, 14, True)
+     , (8949, 19, True)
+     , (8949, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20504, 'scrollaxeineptitudeother7');
@@ -4025,7 +4283,9 @@ VALUES (20504, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20504, 13, True)
      , (20504, 11, True)
-     , (20504, 14, True);
+     , (20504, 14, True)
+     , (20504, 19, True)
+     , (20504, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2798, 'scrollbludgeonlure3');
@@ -4056,7 +4316,9 @@ VALUES (2798, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2798, 13, True)
      , (2798, 11, True)
-     , (2798, 14, True);
+     , (2798, 14, True)
+     , (2798, 19, True)
+     , (2798, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20531, 'scrollfletchingmasteryself7');
@@ -4087,7 +4349,9 @@ VALUES (20531, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20531, 13, True)
      , (20531, 11, True)
-     , (20531, 14, True);
+     , (20531, 14, True)
+     , (20531, 19, True)
+     , (20531, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3172, 'scrollaxemasteryself6');
@@ -4118,7 +4382,9 @@ VALUES (3172, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3172, 13, True)
      , (3172, 11, True)
-     , (3172, 14, True);
+     , (3172, 14, True)
+     , (3172, 19, True)
+     , (3172, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20509, 'scrollbowmasteryself7');
@@ -4149,7 +4415,9 @@ VALUES (20509, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20509, 13, True)
      , (20509, 11, True)
-     , (20509, 14, True);
+     , (20509, 14, True)
+     , (20509, 19, True)
+     , (20509, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49469, 'ace49469-scrollofsummoningmasteryothervii');
@@ -4180,7 +4448,9 @@ VALUES (49469, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49469, 13, True)
      , (49469, 11, True)
-     , (49469, 14, True);
+     , (49469, 14, True)
+     , (49469, 19, True)
+     , (49469, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20404, 'scrollbladebane7');
@@ -4211,7 +4481,9 @@ VALUES (20404, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20404, 13, True)
      , (20404, 11, True)
-     , (20404, 14, True);
+     , (20404, 14, True)
+     , (20404, 19, True)
+     , (20404, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20600, 'scrolldrainhealth7');
@@ -4242,7 +4514,9 @@ VALUES (20600, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20600, 13, True)
      , (20600, 11, True)
-     , (20600, 14, True);
+     , (20600, 14, True)
+     , (20600, 19, True)
+     , (20600, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20613, 'scrollmanatostaminaself7');
@@ -4273,7 +4547,9 @@ VALUES (20613, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20613, 13, True)
      , (20613, 11, True)
-     , (20613, 14, True);
+     , (20613, 14, True)
+     , (20613, 19, True)
+     , (20613, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20475, 'scrollcoldprotectionself7');
@@ -4304,7 +4580,9 @@ VALUES (20475, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20475, 13, True)
      , (20475, 11, True)
-     , (20475, 14, True);
+     , (20475, 14, True)
+     , (20475, 19, True)
+     , (20475, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20243, 'scrollharmother7');
@@ -4335,7 +4613,9 @@ VALUES (20243, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20243, 13, True)
      , (20243, 11, True)
-     , (20243, 14, True);
+     , (20243, 14, True)
+     , (20243, 19, True)
+     , (20243, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20478, 'scrollfireprotectionself7');
@@ -4366,7 +4646,9 @@ VALUES (20478, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20478, 13, True)
      , (20478, 11, True)
-     , (20478, 14, True);
+     , (20478, 14, True)
+     , (20478, 19, True)
+     , (20478, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20510, 'scrollcookingineptitude7');
@@ -4397,7 +4679,9 @@ VALUES (20510, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20510, 13, True)
      , (20510, 11, True)
-     , (20510, 14, True);
+     , (20510, 14, True)
+     , (20510, 19, True)
+     , (20510, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20252, 'scrollslowness7');
@@ -4428,7 +4712,9 @@ VALUES (20252, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20252, 13, True)
      , (20252, 11, True)
-     , (20252, 14, True);
+     , (20252, 14, True)
+     , (20252, 19, True)
+     , (20252, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27233, 'scrolldispelcreatureneutralother7');
@@ -4459,7 +4745,9 @@ VALUES (27233, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27233, 13, True)
      , (27233, 11, True)
-     , (27233, 14, True);
+     , (27233, 14, True)
+     , (27233, 19, True)
+     , (27233, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21110, 'scrollstaminabolt2');
@@ -4490,7 +4778,9 @@ VALUES (21110, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21110, 13, True)
      , (21110, 11, True)
-     , (21110, 14, True);
+     , (21110, 14, True)
+     , (21110, 19, True)
+     , (21110, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45309, 'ace45309-scrollofshieldineptitudeotherii');
@@ -4521,7 +4811,9 @@ VALUES (45309, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45309, 13, True)
      , (45309, 11, True)
-     , (45309, 14, True);
+     , (45309, 14, True)
+     , (45309, 19, True)
+     , (45309, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20571, 'scrollpersonattunementother7');
@@ -4552,7 +4844,9 @@ VALUES (20571, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20571, 13, True)
      , (20571, 11, True)
-     , (20571, 14, True);
+     , (20571, 14, True)
+     , (20571, 19, True)
+     , (20571, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20524, 'scrolldeceptionmasteryself7');
@@ -4583,7 +4877,9 @@ VALUES (20524, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20524, 13, True)
      , (20524, 11, True)
-     , (20524, 14, True);
+     , (20524, 14, True)
+     , (20524, 19, True)
+     , (20524, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45306, 'ace45306-scrollofrecklessnessmasteryselfvii');
@@ -4614,7 +4910,9 @@ VALUES (45306, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45306, 13, True)
      , (45306, 11, True)
-     , (45306, 14, True);
+     , (45306, 14, True)
+     , (45306, 19, True)
+     , (45306, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21308, 'scrollflamearc7');
@@ -4645,7 +4943,9 @@ VALUES (21308, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21308, 13, True)
      , (21308, 11, True)
-     , (21308, 14, True);
+     , (21308, 14, True)
+     , (21308, 19, True)
+     , (21308, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20586, 'scrollswordmasteryself7');
@@ -4676,7 +4976,9 @@ VALUES (20586, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20586, 13, True)
      , (20586, 11, True)
-     , (20586, 14, True);
+     , (20586, 14, True)
+     , (20586, 19, True)
+     , (20586, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20488, 'scrollmanadepletion7');
@@ -4707,7 +5009,9 @@ VALUES (20488, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20488, 13, True)
      , (20488, 11, True)
-     , (20488, 14, True);
+     , (20488, 14, True)
+     , (20488, 19, True)
+     , (20488, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3440, 'scrollmonsterattunementother4');
@@ -4738,7 +5042,9 @@ VALUES (3440, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3440, 13, True)
      , (3440, 11, True)
-     , (3440, 14, True);
+     , (3440, 14, True)
+     , (3440, 19, True)
+     , (3440, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9638, 'scrollhealthtostaminaself5');
@@ -4769,7 +5075,9 @@ VALUES (9638, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9638, 13, True)
      , (9638, 11, True)
-     , (9638, 14, True);
+     , (9638, 14, True)
+     , (9638, 19, True)
+     , (9638, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2637, 'scrollbafflement5');
@@ -4800,7 +5108,9 @@ VALUES (2637, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2637, 13, True)
      , (2637, 11, True)
-     , (2637, 14, True);
+     , (2637, 14, True)
+     , (2637, 19, True)
+     , (2637, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43297, 'ace43297-scrollofnetherarciv');
@@ -4831,7 +5141,9 @@ VALUES (43297, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43297, 13, True)
      , (43297, 11, True)
-     , (43297, 14, True);
+     , (43297, 14, True)
+     , (43297, 19, True)
+     , (43297, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3728, 'scrolldrainstamina4');
@@ -4862,7 +5174,9 @@ VALUES (3728, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3728, 13, True)
      , (3728, 11, True)
-     , (3728, 14, True);
+     , (3728, 14, True)
+     , (3728, 19, True)
+     , (3728, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20575, 'scrollresistmagicself7');
@@ -4893,7 +5207,9 @@ VALUES (20575, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20575, 13, True)
      , (20575, 11, True)
-     , (20575, 14, True);
+     , (20575, 14, True)
+     , (20575, 19, True)
+     , (20575, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20484, 'scrollpierceprotectionself7');
@@ -4924,7 +5240,9 @@ VALUES (20484, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20484, 13, True)
      , (20484, 11, True)
-     , (20484, 14, True);
+     , (20484, 14, True)
+     , (20484, 19, True)
+     , (20484, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20502, 'scrollarmorexpertiseself7');
@@ -4955,7 +5273,9 @@ VALUES (20502, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20502, 13, True)
      , (20502, 11, True)
-     , (20502, 14, True);
+     , (20502, 14, True)
+     , (20502, 19, True)
+     , (20502, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49468, 'ace49468-scrollofsummoningmasteryothervi');
@@ -4986,7 +5306,9 @@ VALUES (49468, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49468, 13, True)
      , (49468, 11, True)
-     , (49468, 14, True);
+     , (49468, 14, True)
+     , (49468, 19, True)
+     , (49468, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20495, 'scrollalchemyineptitude7');
@@ -5017,7 +5339,9 @@ VALUES (20495, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20495, 13, True)
      , (20495, 11, True)
-     , (20495, 14, True);
+     , (20495, 14, True)
+     , (20495, 19, True)
+     , (20495, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20464, 'scrollwhirlingbladestreak7');
@@ -5048,7 +5372,9 @@ VALUES (20464, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20464, 13, True)
      , (20464, 11, True)
-     , (20464, 14, True);
+     , (20464, 14, True)
+     , (20464, 19, True)
+     , (20464, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3032, 'scrollcoldvulnerabilityother6');
@@ -5079,7 +5405,9 @@ VALUES (3032, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3032, 13, True)
      , (3032, 11, True)
-     , (3032, 14, True);
+     , (3032, 14, True)
+     , (3032, 19, True)
+     , (3032, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20542, 'scrollitemexpertiseother7');
@@ -5110,7 +5438,9 @@ VALUES (20542, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20542, 13, True)
      , (20542, 11, True)
-     , (20542, 14, True);
+     , (20542, 14, True)
+     , (20542, 19, True)
+     , (20542, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20596, 'scrollwarmagicmasteryself7');
@@ -5141,7 +5471,9 @@ VALUES (20596, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20596, 13, True)
      , (20596, 11, True)
-     , (20596, 14, True);
+     , (20596, 14, True)
+     , (20596, 19, True)
+     , (20596, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20601, 'scrolldrainmana7');
@@ -5172,7 +5504,9 @@ VALUES (20601, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20601, 13, True)
      , (20601, 11, True)
-     , (20601, 14, True);
+     , (20601, 14, True)
+     , (20601, 19, True)
+     , (20601, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2871, 'scrollpiercingbane6');
@@ -5203,7 +5537,9 @@ VALUES (2871, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2871, 13, True)
      , (2871, 11, True)
-     , (2871, 14, True);
+     , (2871, 14, True)
+     , (2871, 19, True)
+     , (2871, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3012, 'scrollbludgeonprotectionself6');
@@ -5234,7 +5570,9 @@ VALUES (3012, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3012, 13, True)
      , (3012, 11, True)
-     , (3012, 14, True);
+     , (3012, 14, True)
+     , (3012, 19, True)
+     , (3012, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20604, 'scrollhealthtomanaself7');
@@ -5265,7 +5603,9 @@ VALUES (20604, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20604, 13, True)
      , (20604, 11, True)
-     , (20604, 14, True);
+     , (20604, 14, True)
+     , (20604, 19, True)
+     , (20604, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5985, 'scrollalchemyineptitude6');
@@ -5296,7 +5636,9 @@ VALUES (5985, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5985, 13, True)
      , (5985, 11, True)
-     , (5985, 14, True);
+     , (5985, 14, True)
+     , (5985, 19, True)
+     , (5985, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20543, 'scrollitemexpertiseself7');
@@ -5327,7 +5669,9 @@ VALUES (20543, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20543, 13, True)
      , (20543, 11, True)
-     , (20543, 14, True);
+     , (20543, 14, True)
+     , (20543, 19, True)
+     , (20543, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20580, 'scrollsprintself7');
@@ -5358,7 +5702,9 @@ VALUES (20580, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20580, 13, True)
      , (20580, 11, True)
-     , (20580, 14, True);
+     , (20580, 14, True)
+     , (20580, 19, True)
+     , (20580, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3297, 'scrollinvulnerabilityother6');
@@ -5389,7 +5735,9 @@ VALUES (3297, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3297, 13, True)
      , (3297, 11, True)
-     , (3297, 14, True);
+     , (3297, 14, True)
+     , (3297, 19, True)
+     , (3297, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3152, 'scrollarmorexpertiseself6');
@@ -5420,7 +5768,9 @@ VALUES (3152, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3152, 13, True)
      , (3152, 11, True)
-     , (3152, 14, True);
+     , (3152, 14, True)
+     , (3152, 19, True)
+     , (3152, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5991, 'scrollalchemymasteryother6');
@@ -5451,7 +5801,9 @@ VALUES (5991, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5991, 13, True)
      , (5991, 11, True)
-     , (5991, 14, True);
+     , (5991, 14, True)
+     , (5991, 19, True)
+     , (5991, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2706, 'scrollimperil6');
@@ -5482,7 +5834,9 @@ VALUES (2706, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2706, 13, True)
      , (2706, 11, True)
-     , (2706, 14, True);
+     , (2706, 14, True)
+     , (2706, 19, True)
+     , (2706, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3025, 'scrollcoldprotectionself4');
@@ -5513,7 +5867,9 @@ VALUES (3025, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3025, 13, True)
      , (3025, 11, True)
-     , (3025, 14, True);
+     , (3025, 14, True)
+     , (3025, 19, True)
+     , (3025, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20545, 'scrolljumpineptitude7');
@@ -5544,7 +5900,9 @@ VALUES (20545, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20545, 13, True)
      , (20545, 11, True)
-     , (20545, 14, True);
+     , (20545, 14, True)
+     , (20545, 19, True)
+     , (20545, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5547, 'scrollmonsterattunementself6');
@@ -5575,7 +5933,9 @@ VALUES (5547, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5547, 13, True)
      , (5547, 11, True)
-     , (5547, 14, True);
+     , (5547, 14, True)
+     , (5547, 19, True)
+     , (5547, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43325, 'ace43325-scrollofdestructivecursevi');
@@ -5606,7 +5966,9 @@ VALUES (43325, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43325, 13, True)
      , (43325, 11, True)
-     , (43325, 14, True);
+     , (43325, 14, True)
+     , (43325, 19, True)
+     , (43325, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2806, 'scrollbrittlemail6');
@@ -5637,7 +5999,9 @@ VALUES (2806, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2806, 13, True)
      , (2806, 11, True)
-     , (2806, 14, True);
+     , (2806, 14, True)
+     , (2806, 19, True)
+     , (2806, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20255, 'scrollweaknessother7');
@@ -5668,7 +6032,9 @@ VALUES (20255, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20255, 13, True)
      , (20255, 11, True)
-     , (20255, 14, True);
+     , (20255, 14, True)
+     , (20255, 19, True)
+     , (20255, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3042, 'scrollfireprotectionself6');
@@ -5699,7 +6065,9 @@ VALUES (3042, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3042, 13, True)
      , (3042, 11, True)
-     , (3042, 14, True);
+     , (3042, 14, True)
+     , (3042, 19, True)
+     , (3042, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20473, 'scrollbludgeonvulnerabilityother7');
@@ -5730,7 +6098,9 @@ VALUES (20473, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20473, 13, True)
      , (20473, 11, True)
-     , (20473, 14, True);
+     , (20473, 14, True)
+     , (20473, 19, True)
+     , (20473, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21335, 'scrollshockarc6');
@@ -5761,7 +6131,9 @@ VALUES (21335, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21335, 13, True)
      , (21335, 11, True)
-     , (21335, 14, True);
+     , (21335, 14, True)
+     , (21335, 19, True)
+     , (21335, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20584, 'scrollswordineptitude7');
@@ -5792,7 +6164,9 @@ VALUES (20584, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20584, 13, True)
      , (20584, 11, True)
-     , (20584, 14, True);
+     , (20584, 14, True)
+     , (20584, 19, True)
+     , (20584, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2710, 'scrollmanadrain5');
@@ -5823,7 +6197,9 @@ VALUES (2710, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2710, 13, True)
      , (2710, 11, True)
-     , (2710, 14, True);
+     , (2710, 14, True)
+     , (2710, 19, True)
+     , (2710, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5961, 'scrollcookingmasteryself6');
@@ -5854,7 +6230,9 @@ VALUES (5961, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5961, 13, True)
      , (5961, 11, True)
-     , (5961, 14, True);
+     , (5961, 14, True)
+     , (5961, 19, True)
+     , (5961, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28938, 'scrollarcanumsalvaging6');
@@ -5885,7 +6263,9 @@ VALUES (28938, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28938, 13, True)
      , (28938, 11, True)
-     , (28938, 14, True);
+     , (28938, 14, True)
+     , (28938, 19, True)
+     , (28938, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20593, 'scrollvulnerabilityother7');
@@ -5916,7 +6296,9 @@ VALUES (20593, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20593, 13, True)
      , (20593, 11, True)
-     , (20593, 14, True);
+     , (20593, 14, True)
+     , (20593, 19, True)
+     , (20593, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28014, 'scrollspiritloather6');
@@ -5947,7 +6329,9 @@ VALUES (28014, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28014, 13, True)
      , (28014, 11, True)
-     , (28014, 14, True);
+     , (28014, 14, True)
+     , (28014, 19, True)
+     , (28014, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9629, 'scrolljumpineptitude6');
@@ -5978,7 +6362,9 @@ VALUES (9629, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9629, 13, True)
      , (9629, 11, True)
-     , (9629, 14, True);
+     , (9629, 14, True)
+     , (9629, 19, True)
+     , (9629, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20248, 'scrollquicknessother7');
@@ -6009,7 +6395,9 @@ VALUES (20248, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20248, 13, True)
      , (20248, 11, True)
-     , (20248, 14, True);
+     , (20248, 14, True)
+     , (20248, 19, True)
+     , (20248, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20420, 'scrolllightningbane7');
@@ -6040,7 +6428,9 @@ VALUES (20420, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20420, 13, True)
      , (20420, 11, True)
-     , (20420, 14, True);
+     , (20420, 14, True)
+     , (20420, 19, True)
+     , (20420, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43292, 'ace43292-scrollofcorruptionvii');
@@ -6071,7 +6461,9 @@ VALUES (43292, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43292, 13, True)
      , (43292, 11, True)
-     , (43292, 14, True);
+     , (43292, 14, True)
+     , (43292, 19, True)
+     , (43292, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20460, 'scrollshockwave7');
@@ -6102,7 +6494,9 @@ VALUES (20460, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20460, 13, True)
      , (20460, 11, True)
-     , (20460, 14, True);
+     , (20460, 14, True)
+     , (20460, 19, True)
+     , (20460, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20468, 'scrollbladeprotectionother7');
@@ -6133,7 +6527,9 @@ VALUES (20468, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20468, 13, True)
      , (20468, 11, True)
-     , (20468, 14, True);
+     , (20468, 14, True)
+     , (20468, 19, True)
+     , (20468, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20561, 'scrollmagicitemexpertiseother7');
@@ -6164,7 +6560,9 @@ VALUES (20561, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20561, 13, True)
      , (20561, 11, True)
-     , (20561, 14, True);
+     , (20561, 14, True)
+     , (20561, 19, True)
+     , (20561, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20491, 'scrollregenerateother7');
@@ -6195,7 +6593,9 @@ VALUES (20491, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20491, 13, True)
      , (20491, 11, True)
-     , (20491, 14, True);
+     , (20491, 14, True)
+     , (20491, 19, True)
+     , (20491, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20513, 'scrollcreatureenchantmentineptitude7');
@@ -6226,7 +6626,9 @@ VALUES (20513, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20513, 13, True)
      , (20513, 11, True)
-     , (20513, 14, True);
+     , (20513, 14, True)
+     , (20513, 19, True)
+     , (20513, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45338, 'ace45338-scrollofsneakattackineptitudeothervii');
@@ -6257,7 +6659,9 @@ VALUES (45338, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45338, 13, True)
      , (45338, 11, True)
-     , (45338, 14, True);
+     , (45338, 14, True)
+     , (45338, 19, True)
+     , (45338, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20483, 'scrollpierceprotectionother7');
@@ -6288,7 +6692,9 @@ VALUES (20483, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20483, 13, True)
      , (20483, 11, True)
-     , (20483, 14, True);
+     , (20483, 14, True)
+     , (20483, 19, True)
+     , (20483, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21301, 'scrollbladearc7');
@@ -6319,7 +6725,9 @@ VALUES (21301, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21301, 13, True)
      , (21301, 11, True)
-     , (21301, 14, True);
+     , (21301, 14, True)
+     , (21301, 19, True)
+     , (21301, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20422, 'scrolllureblade7');
@@ -6350,7 +6758,9 @@ VALUES (20422, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20422, 13, True)
      , (20422, 11, True)
-     , (20422, 14, True);
+     , (20422, 14, True)
+     , (20422, 19, True)
+     , (20422, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1721, 'scrolllockpickmasteryself');
@@ -6381,7 +6791,9 @@ VALUES (1721, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1721, 13, True)
      , (1721, 11, True)
-     , (1721, 14, True);
+     , (1721, 14, True)
+     , (1721, 19, True)
+     , (1721, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20573, 'scrollpersonunfamiliarity7');
@@ -6412,7 +6824,9 @@ VALUES (20573, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20573, 13, True)
      , (20573, 11, True)
-     , (20573, 14, True);
+     , (20573, 14, True)
+     , (20573, 19, True)
+     , (20573, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45322, 'ace45322-scrollofshieldmasteryothervii');
@@ -6443,7 +6857,9 @@ VALUES (45322, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45322, 13, True)
      , (45322, 11, True)
-     , (45322, 14, True);
+     , (45322, 14, True)
+     , (45322, 19, True)
+     , (45322, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20474, 'scrollcoldprotectionother7');
@@ -6474,7 +6890,9 @@ VALUES (20474, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20474, 13, True)
      , (20474, 11, True)
-     , (20474, 14, True);
+     , (20474, 14, True)
+     , (20474, 19, True)
+     , (20474, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32935, 'ace32935-scrollofringaroundtherabbit');
@@ -6505,7 +6923,9 @@ VALUES (32935, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (32935, 13, True)
      , (32935, 11, True)
-     , (32935, 14, True);
+     , (32935, 14, True)
+     , (32935, 19, True)
+     , (32935, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21302, 'scrollflamearc');
@@ -6536,7 +6956,9 @@ VALUES (21302, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21302, 13, True)
      , (21302, 11, True)
-     , (21302, 14, True);
+     , (21302, 14, True)
+     , (21302, 19, True)
+     , (21302, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21291, 'scrollacidarc4');
@@ -6567,7 +6989,9 @@ VALUES (21291, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21291, 13, True)
      , (21291, 11, True)
-     , (21291, 14, True);
+     , (21291, 14, True)
+     , (21291, 19, True)
+     , (21291, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3195, 'scrollcreatureenchantmentother4');
@@ -6598,7 +7022,9 @@ VALUES (3195, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3195, 13, True)
      , (3195, 11, True)
-     , (3195, 14, True);
+     , (3195, 14, True)
+     , (3195, 19, True)
+     , (3195, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3375, 'scrolllifemagicmasteryself4');
@@ -6629,7 +7055,9 @@ VALUES (3375, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3375, 13, True)
      , (3375, 11, True)
-     , (3375, 14, True);
+     , (3375, 14, True)
+     , (3375, 19, True)
+     , (3375, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3162, 'scrollaxeineptitudeother6');
@@ -6660,7 +7088,9 @@ VALUES (3162, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3162, 13, True)
      , (3162, 11, True)
-     , (3162, 14, True);
+     , (3162, 14, True)
+     , (3162, 19, True)
+     , (3162, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2881, 'scrollstrengthenlock6');
@@ -6691,7 +7121,9 @@ VALUES (2881, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2881, 13, True)
      , (2881, 11, True)
-     , (2881, 14, True);
+     , (2881, 14, True)
+     , (2881, 19, True)
+     , (2881, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20432, 'scrollacidstream7');
@@ -6722,7 +7154,9 @@ VALUES (20432, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20432, 13, True)
      , (20432, 11, True)
-     , (20432, 14, True);
+     , (20432, 14, True)
+     , (20432, 19, True)
+     , (20432, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20492, 'scrollregenerateself7');
@@ -6753,7 +7187,9 @@ VALUES (20492, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20492, 13, True)
      , (20492, 11, True)
-     , (20492, 14, True);
+     , (20492, 14, True)
+     , (20492, 19, True)
+     , (20492, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20556, 'scrolllockpickmasteryother7');
@@ -6784,7 +7220,9 @@ VALUES (20556, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20556, 13, True)
      , (20556, 11, True)
-     , (20556, 14, True);
+     , (20556, 14, True)
+     , (20556, 19, True)
+     , (20556, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2826, 'scrollfrostbane6');
@@ -6815,7 +7253,9 @@ VALUES (2826, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2826, 13, True)
      , (2826, 11, True)
-     , (2826, 14, True);
+     , (2826, 14, True)
+     , (2826, 19, True)
+     , (2826, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3572, 'scrollwarmagicmasteryother6');
@@ -6846,7 +7286,9 @@ VALUES (3572, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3572, 13, True)
      , (3572, 11, True)
-     , (3572, 14, True);
+     , (3572, 14, True)
+     , (3572, 19, True)
+     , (3572, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20239, 'scrollfeeblemind7');
@@ -6877,7 +7319,9 @@ VALUES (20239, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20239, 13, True)
      , (20239, 11, True)
-     , (20239, 14, True);
+     , (20239, 14, True)
+     , (20239, 19, True)
+     , (20239, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20598, 'scrollweaponexpertiseself7');
@@ -6908,7 +7352,9 @@ VALUES (20598, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20598, 13, True)
      , (20598, 11, True)
-     , (20598, 14, True);
+     , (20598, 14, True)
+     , (20598, 19, True)
+     , (20598, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3350, 'scrollleadershipineptitude4');
@@ -6939,7 +7385,9 @@ VALUES (3350, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3350, 13, True)
      , (3350, 11, True)
-     , (3350, 14, True);
+     , (3350, 14, True)
+     , (3350, 19, True)
+     , (3350, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20412, 'scrollflamebane7');
@@ -6970,7 +7418,9 @@ VALUES (20412, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20412, 13, True)
      , (20412, 11, True)
-     , (20412, 14, True);
+     , (20412, 14, True)
+     , (20412, 19, True)
+     , (20412, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3311, 'scrollitemenchantmentmasteryother5');
@@ -7001,7 +7451,9 @@ VALUES (3311, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3311, 13, True)
      , (3311, 11, True)
-     , (3311, 14, True);
+     , (3311, 14, True)
+     , (3311, 19, True)
+     , (3311, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3312, 'scrollitemenchantmentmasteryother6');
@@ -7032,7 +7484,9 @@ VALUES (3312, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3312, 13, True)
      , (3312, 11, True)
-     , (3312, 14, True);
+     , (3312, 14, True)
+     , (3312, 19, True)
+     , (3312, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43315, 'ace43315-scrollofnetherstreakvi');
@@ -7063,7 +7517,9 @@ VALUES (43315, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43315, 13, True)
      , (43315, 11, True)
-     , (43315, 14, True);
+     , (43315, 14, True)
+     , (43315, 19, True)
+     , (43315, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20505, 'scrollaxemasteryother7');
@@ -7094,7 +7550,9 @@ VALUES (20505, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20505, 13, True)
      , (20505, 11, True)
-     , (20505, 14, True);
+     , (20505, 14, True)
+     , (20505, 19, True)
+     , (20505, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5973, 'scrollfletchingmasteryother6');
@@ -7125,7 +7583,9 @@ VALUES (5973, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5973, 13, True)
      , (5973, 11, True)
-     , (5973, 14, True);
+     , (5973, 14, True)
+     , (5973, 19, True)
+     , (5973, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45273, 'ace45273-scrollofdualwieldmasteryothervi');
@@ -7156,7 +7616,9 @@ VALUES (45273, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45273, 13, True)
      , (45273, 11, True)
-     , (45273, 14, True);
+     , (45273, 14, True)
+     , (45273, 19, True)
+     , (45273, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2685, 'scrollfrailty5');
@@ -7187,7 +7649,9 @@ VALUES (2685, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2685, 13, True)
      , (2685, 11, True)
-     , (2685, 14, True);
+     , (2685, 14, True)
+     , (2685, 19, True)
+     , (2685, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2980, 'scrollacidprotectionself4');
@@ -7218,7 +7682,9 @@ VALUES (2980, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2980, 13, True)
      , (2980, 11, True)
-     , (2980, 14, True);
+     , (2980, 14, True)
+     , (2980, 19, True)
+     , (2980, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21108, 'scrollmanabolt7');
@@ -7249,7 +7715,9 @@ VALUES (21108, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21108, 13, True)
      , (21108, 11, True)
-     , (21108, 14, True);
+     , (21108, 14, True)
+     , (21108, 19, True)
+     , (21108, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3384, 'scrolllockpickmasteryother3');
@@ -7280,7 +7748,9 @@ VALUES (3384, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3384, 13, True)
      , (3384, 11, True)
-     , (3384, 14, True);
+     , (3384, 14, True)
+     , (3384, 19, True)
+     , (3384, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3434, 'scrollmanaconvertmasteryself3');
@@ -7311,7 +7781,9 @@ VALUES (3434, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3434, 13, True)
      , (3434, 11, True)
-     , (3434, 14, True);
+     , (3434, 14, True)
+     , (3434, 19, True)
+     , (3434, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45342, 'ace45342-scrollofsneakattackmasteryotheriii');
@@ -7342,7 +7814,9 @@ VALUES (45342, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45342, 13, True)
      , (45342, 11, True)
-     , (45342, 14, True);
+     , (45342, 14, True)
+     , (45342, 19, True)
+     , (45342, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1712, 'scrollleadenfeet');
@@ -7373,7 +7847,9 @@ VALUES (1712, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1712, 13, True)
      , (1712, 11, True)
-     , (1712, 14, True);
+     , (1712, 14, True)
+     , (1712, 19, True)
+     , (1712, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1556, 'scrollhealself');
@@ -7404,7 +7880,9 @@ VALUES (1556, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1556, 13, True)
      , (1556, 11, True)
-     , (1556, 14, True);
+     , (1556, 14, True)
+     , (1556, 19, True)
+     , (1556, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3228, 'scrolldaggermasteryself2');
@@ -7435,7 +7913,9 @@ VALUES (3228, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3228, 13, True)
      , (3228, 11, True)
-     , (3228, 14, True);
+     , (3228, 14, True)
+     , (3228, 19, True)
+     , (3228, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3093, 'scrollmanadepletion2');
@@ -7466,7 +7946,9 @@ VALUES (3093, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3093, 13, True)
      , (3093, 11, True)
-     , (3093, 14, True);
+     , (3093, 14, True)
+     , (3093, 19, True)
+     , (3093, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43329, 'ace43329-scrolloffesteringcurse');
@@ -7497,7 +7979,9 @@ VALUES (43329, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43329, 13, True)
      , (43329, 11, True)
-     , (43329, 14, True);
+     , (43329, 14, True)
+     , (43329, 19, True)
+     , (43329, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2699, 'scrollhealself4');
@@ -7528,7 +8012,9 @@ VALUES (2699, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2699, 13, True)
      , (2699, 11, True)
-     , (2699, 14, True);
+     , (2699, 14, True)
+     , (2699, 19, True)
+     , (2699, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1710, 'scrolljumpmasteryother');
@@ -7559,7 +8045,9 @@ VALUES (1710, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1710, 13, True)
      , (1710, 11, True)
-     , (1710, 14, True);
+     , (1710, 14, True)
+     , (1710, 19, True)
+     , (1710, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3356, 'scrollleadershipmasteryother5');
@@ -7590,7 +8078,9 @@ VALUES (3356, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3356, 13, True)
      , (3356, 11, True)
-     , (3356, 14, True);
+     , (3356, 14, True)
+     , (3356, 19, True)
+     , (3356, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2670, 'scrollfeeblemind3');
@@ -7621,7 +8111,9 @@ VALUES (2670, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2670, 13, True)
      , (2670, 11, True)
-     , (2670, 14, True);
+     , (2670, 14, True)
+     , (2670, 19, True)
+     , (2670, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8937, 'scrollfroststreak3');
@@ -7652,7 +8144,9 @@ VALUES (8937, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8937, 13, True)
      , (8937, 11, True)
-     , (8937, 14, True);
+     , (8937, 14, True)
+     , (8937, 19, True)
+     , (8937, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3429, 'scrollmanaconvertmasteryother3');
@@ -7683,7 +8177,9 @@ VALUES (3429, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3429, 13, True)
      , (3429, 11, True)
-     , (3429, 14, True);
+     , (3429, 14, True)
+     , (3429, 19, True)
+     , (3429, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2932, 'scrollforcebolt4');
@@ -7714,7 +8210,9 @@ VALUES (2932, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2932, 13, True)
      , (2932, 11, True)
-     , (2932, 14, True);
+     , (2932, 14, True)
+     , (2932, 19, True)
+     , (2932, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2693, 'scrollhealother3');
@@ -7745,7 +8243,9 @@ VALUES (2693, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2693, 13, True)
      , (2693, 11, True)
-     , (2693, 14, True);
+     , (2693, 14, True)
+     , (2693, 19, True)
+     , (2693, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20328, 'scrolldispelcreatureneutralself5');
@@ -7776,7 +8276,9 @@ VALUES (20328, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20328, 13, True)
      , (20328, 11, True)
-     , (20328, 14, True);
+     , (20328, 14, True)
+     , (20328, 19, True)
+     , (20328, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3516, 'scrollswordineptitude5');
@@ -7807,7 +8309,9 @@ VALUES (3516, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3516, 13, True)
      , (3516, 11, True)
-     , (3516, 14, True);
+     , (3516, 14, True)
+     , (3516, 19, True)
+     , (3516, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45241, 'ace45241-scrollofdirtyfightingineptitudeothervi');
@@ -7838,7 +8342,9 @@ VALUES (45241, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45241, 13, True)
      , (45241, 11, True)
-     , (45241, 14, True);
+     , (45241, 14, True)
+     , (45241, 19, True)
+     , (45241, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3416, 'scrollmagicitemexpertiseself5');
@@ -7869,7 +8375,9 @@ VALUES (3416, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3416, 13, True)
      , (3416, 11, True)
-     , (3416, 14, True);
+     , (3416, 14, True)
+     , (3416, 19, True)
+     , (3416, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5946, 'scrollcookingineptitude3');
@@ -7900,7 +8408,9 @@ VALUES (5946, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5946, 13, True)
      , (5946, 11, True)
-     , (5946, 14, True);
+     , (5946, 14, True)
+     , (5946, 19, True)
+     , (5946, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4388, 'scrollarmorother5');
@@ -7931,7 +8441,9 @@ VALUES (4388, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4388, 13, True)
      , (4388, 11, True)
-     , (4388, 14, True);
+     , (4388, 14, True)
+     , (4388, 19, True)
+     , (4388, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3521, 'scrollswordmasteryother5');
@@ -7962,7 +8474,9 @@ VALUES (3521, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3521, 13, True)
      , (3521, 11, True)
-     , (3521, 14, True);
+     , (3521, 14, True)
+     , (3521, 19, True)
+     , (3521, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43367, 'ace43367-scrollofvoidmagicineptitudeiii');
@@ -7993,7 +8507,9 @@ VALUES (43367, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43367, 13, True)
      , (43367, 11, True)
-     , (43367, 14, True);
+     , (43367, 14, True)
+     , (43367, 19, True)
+     , (43367, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4393, 'scrollarmorself5');
@@ -8024,7 +8540,9 @@ VALUES (4393, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4393, 13, True)
      , (4393, 11, True)
-     , (4393, 14, True);
+     , (4393, 14, True)
+     , (4393, 19, True)
+     , (4393, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20563, 'scrollmagicitemignorance7');
@@ -8055,7 +8573,9 @@ VALUES (20563, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20563, 13, True)
      , (20563, 11, True)
-     , (20563, 14, True);
+     , (20563, 14, True)
+     , (20563, 19, True)
+     , (20563, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20431, 'scrollacidstreak7');
@@ -8086,7 +8606,9 @@ VALUES (20431, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20431, 13, True)
      , (20431, 11, True)
-     , (20431, 14, True);
+     , (20431, 14, True)
+     , (20431, 19, True)
+     , (20431, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20506, 'scrollaxemasteryself7');
@@ -8117,7 +8639,9 @@ VALUES (20506, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20506, 13, True)
      , (20506, 11, True)
-     , (20506, 14, True);
+     , (20506, 14, True)
+     , (20506, 19, True)
+     , (20506, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20250, 'scrollrevitalizeother7');
@@ -8148,7 +8672,9 @@ VALUES (20250, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20250, 13, True)
      , (20250, 11, True)
-     , (20250, 14, True);
+     , (20250, 14, True)
+     , (20250, 19, True)
+     , (20250, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20529, 'scrollfletchingineptitude7');
@@ -8179,7 +8705,9 @@ VALUES (20529, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20529, 13, True)
      , (20529, 11, True)
-     , (20529, 14, True);
+     , (20529, 14, True)
+     , (20529, 19, True)
+     , (20529, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20499, 'scrollarcaneenlightenmentother7');
@@ -8210,7 +8738,9 @@ VALUES (20499, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20499, 13, True)
      , (20499, 11, True)
-     , (20499, 14, True);
+     , (20499, 14, True)
+     , (20499, 19, True)
+     , (20499, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3192, 'scrollcreatureenchantmentineptitude6');
@@ -8241,7 +8771,9 @@ VALUES (3192, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3192, 13, True)
      , (3192, 11, True)
-     , (3192, 14, True);
+     , (3192, 14, True)
+     , (3192, 19, True)
+     , (3192, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3094, 'scrollmanadepletion3');
@@ -8272,7 +8804,9 @@ VALUES (3094, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3094, 13, True)
      , (3094, 11, True)
-     , (3094, 14, True);
+     , (3094, 14, True)
+     , (3094, 19, True)
+     , (3094, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20322, 'scrolldispelcreatureneutralother5');
@@ -8303,7 +8837,9 @@ VALUES (20322, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20322, 13, True)
      , (20322, 11, True)
-     , (20322, 14, True);
+     , (20322, 14, True)
+     , (20322, 19, True)
+     , (20322, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2908, 'scrollacidstream3');
@@ -8334,7 +8870,9 @@ VALUES (2908, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2908, 13, True)
      , (2908, 11, True)
-     , (2908, 14, True);
+     , (2908, 14, True)
+     , (2908, 19, True)
+     , (2908, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20479, 'scrollfirevulnerabilityother7');
@@ -8365,7 +8903,9 @@ VALUES (20479, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20479, 13, True)
      , (20479, 11, True)
-     , (20479, 14, True);
+     , (20479, 14, True)
+     , (20479, 19, True)
+     , (20479, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20413, 'scrollflamelure7');
@@ -8396,7 +8936,9 @@ VALUES (20413, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20413, 13, True)
      , (20413, 11, True)
-     , (20413, 14, True);
+     , (20413, 14, True)
+     , (20413, 19, True)
+     , (20413, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20480, 'scrolllightningprotectionother7');
@@ -8427,7 +8969,9 @@ VALUES (20480, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20480, 13, True)
      , (20480, 11, True)
-     , (20480, 14, True);
+     , (20480, 14, True)
+     , (20480, 19, True)
+     , (20480, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41302, 'ace41302-scrollofboonofting');
@@ -8458,7 +9002,9 @@ VALUES (41302, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41302, 13, True)
      , (41302, 11, True)
-     , (41302, 14, True);
+     , (41302, 14, True)
+     , (41302, 19, True)
+     , (41302, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45282, 'ace45282-scrollofdualwieldmasteryselfvii');
@@ -8489,7 +9035,9 @@ VALUES (45282, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45282, 13, True)
      , (45282, 11, True)
-     , (45282, 14, True);
+     , (45282, 14, True)
+     , (45282, 19, True)
+     , (45282, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2902, 'scrollweakenlock6');
@@ -8520,7 +9068,9 @@ VALUES (2902, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2902, 13, True)
      , (2902, 11, True)
-     , (2902, 14, True);
+     , (2902, 14, True)
+     , (2902, 19, True)
+     , (2902, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43308, 'ace43308-scrollofnetherboltvii');
@@ -8551,7 +9101,9 @@ VALUES (43308, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43308, 13, True)
      , (43308, 11, True)
-     , (43308, 14, True);
+     , (43308, 14, True)
+     , (43308, 19, True)
+     , (43308, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45274, 'ace45274-scrollofdualwieldmasteryothervii');
@@ -8582,7 +9134,9 @@ VALUES (45274, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45274, 13, True)
      , (45274, 11, True)
-     , (45274, 14, True);
+     , (45274, 14, True)
+     , (45274, 19, True)
+     , (45274, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20240, 'scrollfocusother7');
@@ -8613,7 +9167,9 @@ VALUES (20240, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20240, 13, True)
      , (20240, 11, True)
-     , (20240, 14, True);
+     , (20240, 14, True)
+     , (20240, 19, True)
+     , (20240, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27235, 'scrolldispelitemneutralother7');
@@ -8644,7 +9200,9 @@ VALUES (27235, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27235, 13, True)
      , (27235, 11, True)
-     , (27235, 14, True);
+     , (27235, 14, True)
+     , (27235, 19, True)
+     , (27235, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20467, 'scrollacidvulnerabilityother7');
@@ -8675,7 +9233,9 @@ VALUES (20467, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20467, 13, True)
      , (20467, 11, True)
-     , (20467, 14, True);
+     , (20467, 14, True)
+     , (20467, 19, True)
+     , (20467, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20256, 'scrollwillpowerother7');
@@ -8706,7 +9266,9 @@ VALUES (20256, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20256, 13, True)
      , (20256, 11, True)
-     , (20256, 14, True);
+     , (20256, 14, True)
+     , (20256, 19, True)
+     , (20256, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20241, 'scrollfocusself7');
@@ -8737,7 +9299,9 @@ VALUES (20241, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20241, 13, True)
      , (20241, 11, True)
-     , (20241, 14, True);
+     , (20241, 14, True)
+     , (20241, 19, True)
+     , (20241, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20414, 'scrollfrostbane7');
@@ -8768,7 +9332,9 @@ VALUES (20414, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20414, 13, True)
      , (20414, 11, True)
-     , (20414, 14, True);
+     , (20414, 14, True)
+     , (20414, 19, True)
+     , (20414, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20562, 'scrollmagicitemexpertiseself7');
@@ -8799,7 +9365,9 @@ VALUES (20562, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20562, 13, True)
      , (20562, 11, True)
-     , (20562, 14, True);
+     , (20562, 14, True)
+     , (20562, 19, True)
+     , (20562, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2959, 'scrolllightningbolt6');
@@ -8830,7 +9398,9 @@ VALUES (2959, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2959, 13, True)
      , (2959, 11, True)
-     , (2959, 14, True);
+     , (2959, 14, True)
+     , (2959, 19, True)
+     , (2959, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20321, 'scrolldispelcreatureneutralother4');
@@ -8861,7 +9431,9 @@ VALUES (20321, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20321, 13, True)
      , (20321, 11, True)
-     , (20321, 14, True);
+     , (20321, 14, True)
+     , (20321, 19, True)
+     , (20321, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45314, 'ace45314-scrollofshieldineptitudeothervii');
@@ -8892,7 +9464,9 @@ VALUES (45314, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45314, 13, True)
      , (45314, 11, True)
-     , (45314, 14, True);
+     , (45314, 14, True)
+     , (45314, 19, True)
+     , (45314, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3422, 'scrollmagicitemignorance6');
@@ -8923,7 +9497,9 @@ VALUES (3422, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3422, 13, True)
      , (3422, 11, True)
-     , (3422, 14, True);
+     , (3422, 14, True)
+     , (3422, 19, True)
+     , (3422, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2849, 'scrollleadenweapon4');
@@ -8954,7 +9530,9 @@ VALUES (2849, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2849, 13, True)
      , (2849, 11, True)
-     , (2849, 14, True);
+     , (2849, 14, True)
+     , (2849, 19, True)
+     , (2849, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3167, 'scrollaxemasteryother6');
@@ -8985,7 +9563,9 @@ VALUES (3167, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3167, 13, True)
      , (3167, 11, True)
-     , (3167, 14, True);
+     , (3167, 14, True)
+     , (3167, 19, True)
+     , (3167, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2856, 'scrolllightningbane6');
@@ -9016,7 +9596,9 @@ VALUES (2856, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2856, 13, True)
      , (2856, 11, True)
-     , (2856, 14, True);
+     , (2856, 14, True)
+     , (2856, 19, True)
+     , (2856, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3007, 'scrollbludgeonprotectionother6');
@@ -9047,7 +9629,9 @@ VALUES (3007, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3007, 13, True)
      , (3007, 11, True)
-     , (3007, 14, True);
+     , (3007, 14, True)
+     , (3007, 19, True)
+     , (3007, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45242, 'ace45242-scrollofdirtyfightingineptitudeothervii');
@@ -9078,7 +9662,9 @@ VALUES (45242, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45242, 13, True)
      , (45242, 11, True)
-     , (45242, 14, True);
+     , (45242, 14, True)
+     , (45242, 19, True)
+     , (45242, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20401, 'scrolldispellifeneutralself6');
@@ -9109,7 +9695,9 @@ VALUES (20401, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20401, 13, True)
      , (20401, 11, True)
-     , (20401, 14, True);
+     , (20401, 14, True)
+     , (20401, 19, True)
+     , (20401, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2721, 'scrollquicknessself6');
@@ -9140,7 +9728,9 @@ VALUES (2721, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2721, 13, True)
      , (2721, 11, True)
-     , (2721, 14, True);
+     , (2721, 14, True)
+     , (2721, 19, True)
+     , (2721, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2653, 'scrollcoordinationself6');
@@ -9171,7 +9761,9 @@ VALUES (2653, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2653, 13, True)
      , (2653, 11, True)
-     , (2653, 14, True);
+     , (2653, 14, True)
+     , (2653, 19, True)
+     , (2653, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20549, 'scrollleadershipineptitude7');
@@ -9202,7 +9794,9 @@ VALUES (20549, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20549, 13, True)
      , (20549, 11, True)
-     , (20549, 14, True);
+     , (20549, 14, True)
+     , (20549, 19, True)
+     , (20549, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20595, 'scrollwarmagicmasteryother7');
@@ -9233,7 +9827,9 @@ VALUES (20595, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20595, 13, True)
      , (20595, 11, True)
-     , (20595, 14, True);
+     , (20595, 14, True)
+     , (20595, 19, True)
+     , (20595, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49461, 'ace49461-scrollofsummoningineptitudeothervi');
@@ -9264,7 +9860,9 @@ VALUES (49461, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49461, 13, True)
      , (49461, 11, True)
-     , (49461, 14, True);
+     , (49461, 14, True)
+     , (49461, 19, True)
+     , (49461, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21115, 'scrollstaminabolt7');
@@ -9295,7 +9893,9 @@ VALUES (21115, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21115, 13, True)
      , (21115, 11, True)
-     , (21115, 14, True);
+     , (21115, 14, True)
+     , (21115, 19, True)
+     , (21115, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3442, 'scrollmonsterattunementother6');
@@ -9326,7 +9926,9 @@ VALUES (3442, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3442, 13, True)
      , (3442, 11, True)
-     , (3442, 14, True);
+     , (3442, 14, True)
+     , (3442, 19, True)
+     , (3442, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20522, 'scrolldeceptionineptitude7');
@@ -9357,7 +9959,9 @@ VALUES (20522, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20522, 13, True)
      , (20522, 11, True)
-     , (20522, 14, True);
+     , (20522, 14, True)
+     , (20522, 19, True)
+     , (20522, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45313, 'ace45313-scrollofshieldineptitudeothervi');
@@ -9388,7 +9992,9 @@ VALUES (45313, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45313, 13, True)
      , (45313, 11, True)
-     , (45313, 14, True);
+     , (45313, 14, True)
+     , (45313, 19, True)
+     , (45313, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20594, 'scrollwarmagicineptitude7');
@@ -9419,7 +10025,9 @@ VALUES (20594, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20594, 13, True)
      , (20594, 11, True)
-     , (20594, 14, True);
+     , (20594, 14, True)
+     , (20594, 19, True)
+     , (20594, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27236, 'scrolldispellifeneutralother7');
@@ -9450,7 +10058,9 @@ VALUES (27236, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27236, 13, True)
      , (27236, 11, True)
-     , (27236, 14, True);
+     , (27236, 14, True)
+     , (27236, 19, True)
+     , (27236, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2667, 'scrollenfeeble5');
@@ -9481,7 +10091,9 @@ VALUES (2667, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2667, 13, True)
      , (2667, 11, True)
-     , (2667, 14, True);
+     , (2667, 14, True)
+     , (2667, 19, True)
+     , (2667, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43377, 'ace43377-scrollofvoidmasteryselfvii');
@@ -9512,7 +10124,9 @@ VALUES (43377, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43377, 13, True)
      , (43377, 11, True)
-     , (43377, 14, True);
+     , (43377, 14, True)
+     , (43377, 19, True)
+     , (43377, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2766, 'scrollacidbane6');
@@ -9543,7 +10157,9 @@ VALUES (2766, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2766, 13, True)
      , (2766, 11, True)
-     , (2766, 14, True);
+     , (2766, 14, True)
+     , (2766, 19, True)
+     , (2766, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3166, 'scrollaxemasteryother5');
@@ -9574,7 +10190,9 @@ VALUES (3166, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3166, 13, True)
      , (3166, 11, True)
-     , (3166, 14, True);
+     , (3166, 14, True)
+     , (3166, 19, True)
+     , (3166, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4389, 'scrollarmorother6');
@@ -9605,7 +10223,9 @@ VALUES (4389, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4389, 13, True)
      , (4389, 11, True)
-     , (4389, 14, True);
+     , (4389, 14, True)
+     , (4389, 19, True)
+     , (4389, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2851, 'scrollleadenweapon6');
@@ -9636,7 +10256,9 @@ VALUES (2851, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2851, 13, True)
      , (2851, 11, True)
-     , (2851, 14, True);
+     , (2851, 14, True)
+     , (2851, 19, True)
+     , (2851, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49474, 'ace49474-scrollofsummoningmasteryselfv');
@@ -9667,7 +10289,9 @@ VALUES (49474, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49474, 13, True)
      , (49474, 11, True)
-     , (49474, 14, True);
+     , (49474, 14, True)
+     , (49474, 19, True)
+     , (49474, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3281, 'scrollhealingmasteryself5');
@@ -9698,7 +10322,9 @@ VALUES (3281, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3281, 13, True)
      , (3281, 11, True)
-     , (3281, 14, True);
+     , (3281, 14, True)
+     , (3281, 19, True)
+     , (3281, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20525, 'scrolldefenselessnessother7');
@@ -9729,7 +10355,9 @@ VALUES (20525, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20525, 13, True)
      , (20525, 11, True)
-     , (20525, 14, True);
+     , (20525, 14, True)
+     , (20525, 19, True)
+     , (20525, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20512, 'scrollcookingmasteryself7');
@@ -9760,7 +10388,9 @@ VALUES (20512, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20512, 13, True)
      , (20512, 11, True)
-     , (20512, 14, True);
+     , (20512, 14, True)
+     , (20512, 19, True)
+     , (20512, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20489, 'scrollmanarenewalother7');
@@ -9791,7 +10421,9 @@ VALUES (20489, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20489, 13, True)
      , (20489, 11, True)
-     , (20489, 14, True);
+     , (20489, 14, True)
+     , (20489, 19, True)
+     , (20489, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20409, 'scrollbludgeonlure7');
@@ -9822,7 +10454,9 @@ VALUES (20409, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20409, 13, True)
      , (20409, 11, True)
-     , (20409, 14, True);
+     , (20409, 14, True)
+     , (20409, 19, True)
+     , (20409, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20231, 'scrollarmorself7');
@@ -9853,7 +10487,9 @@ VALUES (20231, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20231, 13, True)
      , (20231, 11, True)
-     , (20231, 14, True);
+     , (20231, 14, True)
+     , (20231, 19, True)
+     , (20231, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45353, 'ace45353-scrollofsneakattackmasteryselfvi');
@@ -9884,7 +10520,9 @@ VALUES (45353, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45353, 13, True)
      , (45353, 11, True)
-     , (45353, 14, True);
+     , (45353, 14, True)
+     , (45353, 19, True)
+     , (45353, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20585, 'scrollswordmasteryother7');
@@ -9915,7 +10553,9 @@ VALUES (20585, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20585, 13, True)
      , (20585, 11, True)
-     , (20585, 14, True);
+     , (20585, 14, True)
+     , (20585, 19, True)
+     , (20585, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43373, 'ace43373-scrollofvoidmagicineptitudeothervii');
@@ -9946,7 +10586,9 @@ VALUES (43373, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43373, 13, True)
      , (43373, 11, True)
-     , (43373, 14, True);
+     , (43373, 14, True)
+     , (43373, 19, True)
+     , (43373, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20523, 'scrolldeceptionmasteryother7');
@@ -9977,7 +10619,9 @@ VALUES (20523, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20523, 13, True)
      , (20523, 11, True)
-     , (20523, 14, True);
+     , (20523, 14, True)
+     , (20523, 19, True)
+     , (20523, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20244, 'scrollhealother7');
@@ -10008,7 +10652,9 @@ VALUES (20244, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20244, 13, True)
      , (20244, 11, True)
-     , (20244, 14, True);
+     , (20244, 14, True)
+     , (20244, 19, True)
+     , (20244, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8919, 'scrollacidstreak6');
@@ -10039,7 +10685,9 @@ VALUES (8919, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8919, 13, True)
      , (8919, 11, True)
-     , (8919, 14, True);
+     , (8919, 14, True)
+     , (8919, 19, True)
+     , (8919, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20536, 'scrollimpregnabilityself7');
@@ -10070,7 +10718,9 @@ VALUES (20536, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20536, 13, True)
      , (20536, 11, True)
-     , (20536, 14, True);
+     , (20536, 14, True)
+     , (20536, 19, True)
+     , (20536, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20415, 'scrollfrostlure7');
@@ -10101,7 +10751,9 @@ VALUES (20415, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20415, 13, True)
      , (20415, 11, True)
-     , (20415, 14, True);
+     , (20415, 14, True)
+     , (20415, 19, True)
+     , (20415, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43143, 'ace43143-scrollofgearknightinvasionareacamprecall');
@@ -10132,7 +10784,9 @@ VALUES (43143, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43143, 13, True)
      , (43143, 11, True)
-     , (43143, 14, True);
+     , (43143, 14, True)
+     , (43143, 19, True)
+     , (43143, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20528, 'scrollfealtyself7');
@@ -10163,7 +10817,9 @@ VALUES (20528, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20528, 13, True)
      , (20528, 11, True)
-     , (20528, 14, True);
+     , (20528, 14, True)
+     , (20528, 19, True)
+     , (20528, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20463, 'scrollwhirlingblade7');
@@ -10194,7 +10850,9 @@ VALUES (20463, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20463, 13, True)
      , (20463, 11, True)
-     , (20463, 14, True);
+     , (20463, 14, True)
+     , (20463, 19, True)
+     , (20463, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20607, 'scrollinfusehealth7');
@@ -10225,7 +10883,9 @@ VALUES (20607, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20607, 13, True)
      , (20607, 11, True)
-     , (20607, 14, True);
+     , (20607, 14, True)
+     , (20607, 19, True)
+     , (20607, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3132, 'scrollarcanebenightedness6');
@@ -10256,7 +10916,9 @@ VALUES (3132, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3132, 13, True)
      , (3132, 11, True)
-     , (3132, 14, True);
+     , (3132, 14, True)
+     , (3132, 19, True)
+     , (3132, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2899, 'scrollweakenlock3');
@@ -10287,7 +10949,9 @@ VALUES (2899, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2899, 13, True)
      , (2899, 11, True)
-     , (2899, 14, True);
+     , (2899, 14, True)
+     , (2899, 19, True)
+     , (2899, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20552, 'scrolllifemagicineptitude7');
@@ -10318,7 +10982,9 @@ VALUES (20552, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20552, 13, True)
      , (20552, 11, True)
-     , (20552, 14, True);
+     , (20552, 14, True)
+     , (20552, 19, True)
+     , (20552, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20567, 'scrollmanaineptitude7');
@@ -10349,7 +11015,9 @@ VALUES (20567, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20567, 13, True)
      , (20567, 11, True)
-     , (20567, 14, True);
+     , (20567, 14, True)
+     , (20567, 19, True)
+     , (20567, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49476, 'ace49476-scrollofsummoningmasteryselfvii');
@@ -10380,7 +11048,9 @@ VALUES (49476, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49476, 13, True)
      , (49476, 11, True)
-     , (49476, 14, True);
+     , (49476, 14, True)
+     , (49476, 19, True)
+     , (49476, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20425, 'scrollstrengthenlock7');
@@ -10411,7 +11081,9 @@ VALUES (20425, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20425, 13, True)
      , (20425, 11, True)
-     , (20425, 14, True);
+     , (20425, 14, True)
+     , (20425, 19, True)
+     , (20425, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3107, 'scrollmanarenewalself6');
@@ -10442,7 +11114,9 @@ VALUES (3107, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3107, 13, True)
      , (3107, 11, True)
-     , (3107, 14, True);
+     , (3107, 14, True)
+     , (3107, 19, True)
+     , (3107, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20568, 'scrollmonsterattunementother7');
@@ -10473,7 +11147,9 @@ VALUES (20568, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20568, 13, True)
      , (20568, 11, True)
-     , (20568, 14, True);
+     , (20568, 14, True)
+     , (20568, 19, True)
+     , (20568, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3267, 'scrollfealtyself6');
@@ -10504,7 +11180,9 @@ VALUES (3267, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3267, 13, True)
      , (3267, 11, True)
-     , (3267, 14, True);
+     , (3267, 14, True)
+     , (3267, 19, True)
+     , (3267, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3576, 'scrollwarmagicmasteryself5');
@@ -10535,7 +11213,9 @@ VALUES (3576, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3576, 13, True)
      , (3576, 11, True)
-     , (3576, 14, True);
+     , (3576, 14, True)
+     , (3576, 19, True)
+     , (3576, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2701, 'scrollhealself6');
@@ -10566,7 +11246,9 @@ VALUES (2701, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2701, 13, True)
      , (2701, 11, True)
-     , (2701, 14, True);
+     , (2701, 14, True)
+     , (2701, 19, True)
+     , (2701, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20441, 'scrollflamestreak7');
@@ -10597,7 +11279,9 @@ VALUES (20441, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20441, 13, True)
      , (20441, 11, True)
-     , (20441, 14, True);
+     , (20441, 14, True)
+     , (20441, 19, True)
+     , (20441, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27234, 'scrolldispelcreatureneutralself7');
@@ -10628,7 +11312,9 @@ VALUES (27234, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27234, 13, True)
      , (27234, 11, True)
-     , (27234, 14, True);
+     , (27234, 14, True)
+     , (27234, 19, True)
+     , (27234, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2797, 'scrollbludgeonlure2');
@@ -10659,7 +11345,9 @@ VALUES (2797, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2797, 13, True)
      , (2797, 11, True)
-     , (2797, 14, True);
+     , (2797, 14, True)
+     , (2797, 19, True)
+     , (2797, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2765, 'scrollacidbane5');
@@ -10690,7 +11378,9 @@ VALUES (2765, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2765, 13, True)
      , (2765, 11, True)
-     , (2765, 14, True);
+     , (2765, 14, True)
+     , (2765, 19, True)
+     , (2765, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1840, 'scrollacidvulnerabilityother');
@@ -10721,7 +11411,9 @@ VALUES (1840, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1840, 13, True)
      , (1840, 11, True)
-     , (1840, 14, True);
+     , (1840, 14, True)
+     , (1840, 19, True)
+     , (1840, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20527, 'scrollfealtyother7');
@@ -10752,7 +11444,9 @@ VALUES (20527, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20527, 13, True)
      , (20527, 11, True)
-     , (20527, 14, True);
+     , (20527, 14, True)
+     , (20527, 19, True)
+     , (20527, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21322, 'scrollfrostarc7');
@@ -10783,7 +11477,9 @@ VALUES (21322, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21322, 13, True)
      , (21322, 11, True)
-     , (21322, 14, True);
+     , (21322, 14, True)
+     , (21322, 19, True)
+     , (21322, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45258, 'ace45258-scrollofdirtyfightingmasteryselfvii');
@@ -10814,7 +11510,9 @@ VALUES (45258, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45258, 13, True)
      , (45258, 11, True)
-     , (45258, 14, True);
+     , (45258, 14, True)
+     , (45258, 19, True)
+     , (45258, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2996, 'scrollbladeprotectionself5');
@@ -10845,7 +11543,9 @@ VALUES (2996, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2996, 13, True)
      , (2996, 11, True)
-     , (2996, 14, True);
+     , (2996, 14, True)
+     , (2996, 19, True)
+     , (2996, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2966, 'scrollshockwave5');
@@ -10876,7 +11576,9 @@ VALUES (2966, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2966, 13, True)
      , (2966, 11, True)
-     , (2966, 14, True);
+     , (2966, 14, True)
+     , (2966, 19, True)
+     , (2966, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2943, 'scrollfrostbolt4');
@@ -10907,7 +11609,9 @@ VALUES (2943, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2943, 13, True)
      , (2943, 11, True)
-     , (2943, 14, True);
+     , (2943, 14, True)
+     , (2943, 19, True)
+     , (2943, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3385, 'scrolllockpickmasteryother4');
@@ -10938,7 +11642,9 @@ VALUES (3385, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3385, 13, True)
      , (3385, 11, True)
-     , (3385, 14, True);
+     , (3385, 14, True)
+     , (3385, 19, True)
+     , (3385, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3330, 'scrollitemignorance4');
@@ -10969,7 +11675,9 @@ VALUES (3330, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3330, 13, True)
      , (3330, 11, True)
-     , (3330, 14, True);
+     , (3330, 14, True)
+     , (3330, 19, True)
+     , (3330, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2876, 'scrollpiercinglure6');
@@ -11000,7 +11708,9 @@ VALUES (2876, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2876, 13, True)
      , (2876, 11, True)
-     , (2876, 14, True);
+     , (2876, 14, True)
+     , (2876, 19, True)
+     , (2876, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3740, 'scrollinfusemana6');
@@ -11031,7 +11741,9 @@ VALUES (3740, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3740, 13, True)
      , (3740, 11, True)
-     , (3740, 14, True);
+     , (3740, 14, True)
+     , (3740, 19, True)
+     , (3740, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21113, 'scrollstaminabolt5');
@@ -11062,7 +11774,9 @@ VALUES (21113, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21113, 13, True)
      , (21113, 11, True)
-     , (21113, 14, True);
+     , (21113, 14, True)
+     , (21113, 19, True)
+     , (21113, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45281, 'ace45281-scrollofdualwieldmasteryselfvi');
@@ -11093,7 +11807,9 @@ VALUES (45281, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45281, 13, True)
      , (45281, 11, True)
-     , (45281, 14, True);
+     , (45281, 14, True)
+     , (45281, 19, True)
+     , (45281, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45330, 'ace45330-scrollofshieldmasteryselfvii');
@@ -11124,7 +11840,9 @@ VALUES (45330, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45330, 13, True)
      , (45330, 11, True)
-     , (45330, 14, True);
+     , (45330, 14, True)
+     , (45330, 19, True)
+     , (45330, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2711, 'scrollmanadrain6');
@@ -11155,7 +11873,9 @@ VALUES (2711, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2711, 13, True)
      , (2711, 11, True)
-     , (2711, 14, True);
+     , (2711, 14, True)
+     , (2711, 19, True)
+     , (2711, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20569, 'scrollmonsterattunementself7');
@@ -11186,7 +11906,9 @@ VALUES (20569, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20569, 13, True)
      , (20569, 11, True)
-     , (20569, 14, True);
+     , (20569, 14, True)
+     , (20569, 19, True)
+     , (20569, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43314, 'ace43314-scrollofnetherstreakv');
@@ -11217,7 +11939,9 @@ VALUES (43314, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43314, 13, True)
      , (43314, 11, True)
-     , (43314, 14, True);
+     , (43314, 14, True)
+     , (43314, 19, True)
+     , (43314, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3117, 'scrollregenerateself6');
@@ -11248,7 +11972,9 @@ VALUES (3117, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3117, 13, True)
      , (3117, 11, True)
-     , (3117, 14, True);
+     , (3117, 14, True)
+     , (3117, 19, True)
+     , (3117, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3337, 'scrolljumpmasteryother6');
@@ -11279,7 +12005,9 @@ VALUES (3337, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3337, 13, True)
      , (3337, 11, True)
-     , (3337, 14, True);
+     , (3337, 14, True)
+     , (3337, 19, True)
+     , (3337, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3112, 'scrollregenerateother6');
@@ -11310,7 +12038,9 @@ VALUES (3112, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3112, 13, True)
      , (3112, 11, True)
-     , (3112, 14, True);
+     , (3112, 14, True)
+     , (3112, 19, True)
+     , (3112, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20251, 'scrollrevitalizeself7');
@@ -11341,7 +12071,9 @@ VALUES (20251, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20251, 13, True)
      , (20251, 11, True)
-     , (20251, 14, True);
+     , (20251, 14, True)
+     , (20251, 19, True)
+     , (20251, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20487, 'scrollfester7');
@@ -11372,7 +12104,9 @@ VALUES (20487, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20487, 13, True)
      , (20487, 11, True)
-     , (20487, 14, True);
+     , (20487, 14, True)
+     , (20487, 19, True)
+     , (20487, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20410, 'scrollbrittlemail7');
@@ -11403,7 +12137,9 @@ VALUES (20410, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20410, 13, True)
      , (20410, 11, True)
-     , (20410, 14, True);
+     , (20410, 14, True)
+     , (20410, 19, True)
+     , (20410, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20477, 'scrollfireprotectionother7');
@@ -11434,7 +12170,9 @@ VALUES (20477, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20477, 13, True)
      , (20477, 11, True)
-     , (20477, 14, True);
+     , (20477, 14, True)
+     , (20477, 19, True)
+     , (20477, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43307, 'ace43307-scrollofnetherboltvi');
@@ -11465,7 +12203,9 @@ VALUES (43307, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43307, 13, True)
      , (43307, 11, True)
-     , (43307, 14, True);
+     , (43307, 14, True)
+     , (43307, 19, True)
+     , (43307, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43366, 'ace43366-scrollofvoidmagicmasteryselfvi');
@@ -11496,7 +12236,9 @@ VALUES (43366, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43366, 13, True)
      , (43366, 11, True)
-     , (43366, 14, True);
+     , (43366, 14, True)
+     , (43366, 19, True)
+     , (43366, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45329, 'ace45329-scrollofshieldmasteryselfvi');
@@ -11527,7 +12269,9 @@ VALUES (45329, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45329, 13, True)
      , (45329, 11, True)
-     , (45329, 14, True);
+     , (45329, 14, True)
+     , (45329, 19, True)
+     , (45329, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20496, 'scrollalchemymasteryother7');
@@ -11558,7 +12302,9 @@ VALUES (20496, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20496, 13, True)
      , (20496, 11, True)
-     , (20496, 14, True);
+     , (20496, 14, True)
+     , (20496, 19, True)
+     , (20496, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20547, 'scrolljumpmasteryself7');
@@ -11589,7 +12335,9 @@ VALUES (20547, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20547, 13, True)
      , (20547, 11, True)
-     , (20547, 14, True);
+     , (20547, 14, True)
+     , (20547, 19, True)
+     , (20547, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20615, 'scrollstaminatohealthself7');
@@ -11620,7 +12368,9 @@ VALUES (20615, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20615, 13, True)
      , (20615, 11, True)
-     , (20615, 14, True);
+     , (20615, 14, True)
+     , (20615, 19, True)
+     , (20615, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28945, 'scrollarcanumsalvagingother6');
@@ -11651,7 +12401,9 @@ VALUES (28945, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28945, 13, True)
      , (28945, 11, True)
-     , (28945, 14, True);
+     , (28945, 14, True)
+     , (28945, 19, True)
+     , (28945, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3743, 'scrollinfusestamina4');
@@ -11682,7 +12434,9 @@ VALUES (3743, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3743, 13, True)
      , (3743, 11, True)
-     , (3743, 14, True);
+     , (3743, 14, True)
+     , (3743, 19, True)
+     , (3743, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2874, 'scrollpiercinglure4');
@@ -11713,7 +12467,9 @@ VALUES (2874, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2874, 13, True)
      , (2874, 11, True)
-     , (2874, 14, True);
+     , (2874, 14, True)
+     , (2874, 19, True)
+     , (2874, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20395, 'scrolldispellifeneutralother6');
@@ -11744,7 +12500,9 @@ VALUES (20395, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20395, 13, True)
      , (20395, 11, True)
-     , (20395, 14, True);
+     , (20395, 14, True)
+     , (20395, 19, True)
+     , (20395, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3452, 'scrollpersonattunementother6');
@@ -11775,7 +12533,9 @@ VALUES (3452, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3452, 13, True)
      , (3452, 11, True)
-     , (3452, 14, True);
+     , (3452, 14, True)
+     , (3452, 19, True)
+     , (3452, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3097, 'scrollmanadepletion6');
@@ -11806,7 +12566,9 @@ VALUES (3097, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3097, 13, True)
      , (3097, 11, True)
-     , (3097, 14, True);
+     , (3097, 14, True)
+     , (3097, 19, True)
+     , (3097, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2696, 'scrollhealother6');
@@ -11837,7 +12599,9 @@ VALUES (2696, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2696, 13, True)
      , (2696, 11, True)
-     , (2696, 14, True);
+     , (2696, 14, True)
+     , (2696, 19, True)
+     , (2696, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3315, 'scrollitemenchantmentmasteryself4');
@@ -11868,7 +12632,9 @@ VALUES (3315, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3315, 13, True)
      , (3315, 11, True)
-     , (3315, 14, True);
+     , (3315, 14, True)
+     , (3315, 19, True)
+     , (3315, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2999, 'scrollbladevulnerabilityother3');
@@ -11899,7 +12665,9 @@ VALUES (2999, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2999, 13, True)
      , (2999, 11, True)
-     , (2999, 14, True);
+     , (2999, 14, True)
+     , (2999, 19, True)
+     , (2999, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43300, 'ace43300-scrollofnetherarcvii');
@@ -11930,7 +12698,9 @@ VALUES (43300, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43300, 13, True)
      , (43300, 11, True)
-     , (43300, 14, True);
+     , (43300, 14, True)
+     , (43300, 19, True)
+     , (43300, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20541, 'scrollitemenchantmentmasteryself7');
@@ -11961,7 +12731,9 @@ VALUES (20541, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20541, 13, True)
      , (20541, 11, True)
-     , (20541, 14, True);
+     , (20541, 14, True)
+     , (20541, 19, True)
+     , (20541, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21336, 'scrollshockarc7');
@@ -11992,7 +12764,9 @@ VALUES (21336, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21336, 13, True)
      , (21336, 11, True)
-     , (21336, 14, True);
+     , (21336, 14, True)
+     , (21336, 19, True)
+     , (21336, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20532, 'scrollhealingineptitude7');
@@ -12023,7 +12797,9 @@ VALUES (20532, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20532, 13, True)
      , (20532, 11, True)
-     , (20532, 14, True);
+     , (20532, 14, True)
+     , (20532, 19, True)
+     , (20532, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3222, 'scrolldaggerineptitudeother6');
@@ -12054,7 +12830,9 @@ VALUES (3222, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3222, 13, True)
      , (3222, 11, True)
-     , (3222, 14, True);
+     , (3222, 14, True)
+     , (3222, 19, True)
+     , (3222, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3127, 'scrollrejuvenateself6');
@@ -12084,7 +12862,9 @@ VALUES (3127, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3127, 13, True)
      , (3127, 11, True)
-     , (3127, 14, True);
+     , (3127, 14, True)
+     , (3127, 19, True)
+     , (3127, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45296, 'ace45296-scrollofrecklessnessmasteryotherv');
@@ -12115,7 +12895,9 @@ VALUES (45296, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45296, 13, True)
      , (45296, 11, True)
-     , (45296, 14, True);
+     , (45296, 14, True)
+     , (45296, 19, True)
+     , (45296, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43334, 'ace43334-scrolloffesteringcursevi');
@@ -12146,7 +12928,9 @@ VALUES (43334, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43334, 13, True)
      , (43334, 11, True)
-     , (43334, 14, True);
+     , (43334, 14, True)
+     , (43334, 19, True)
+     , (43334, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3377, 'scrolllifemagicmasteryself6');
@@ -12177,7 +12961,9 @@ VALUES (3377, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3377, 13, True)
      , (3377, 11, True)
-     , (3377, 14, True);
+     , (3377, 14, True)
+     , (3377, 19, True)
+     , (3377, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2911, 'scrollacidstream6');
@@ -12208,7 +12994,9 @@ VALUES (2911, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2911, 13, True)
      , (2911, 11, True)
-     , (2911, 14, True);
+     , (2911, 14, True)
+     , (2911, 19, True)
+     , (2911, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3227, 'scrolldaggermasteryother6');
@@ -12239,7 +13027,9 @@ VALUES (3227, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3227, 13, True)
      , (3227, 11, True)
-     , (3227, 14, True);
+     , (3227, 14, True)
+     , (3227, 19, True)
+     , (3227, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2796, 'scrollbludgeonbane6');
@@ -12270,7 +13060,9 @@ VALUES (2796, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2796, 13, True)
      , (2796, 11, True)
-     , (2796, 14, True);
+     , (2796, 14, True)
+     , (2796, 19, True)
+     , (2796, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21114, 'scrollstaminabolt6');
@@ -12301,7 +13093,9 @@ VALUES (21114, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21114, 13, True)
      , (21114, 11, True)
-     , (21114, 14, True);
+     , (21114, 14, True)
+     , (21114, 19, True)
+     , (21114, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20497, 'scrollalchemymasteryself7');
@@ -12332,7 +13126,9 @@ VALUES (20497, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20497, 13, True)
      , (20497, 11, True)
-     , (20497, 14, True);
+     , (20497, 14, True)
+     , (20497, 19, True)
+     , (20497, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2997, 'scrollbladeprotectionself6');
@@ -12363,7 +13159,9 @@ VALUES (2997, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2997, 13, True)
      , (2997, 11, True)
-     , (2997, 14, True);
+     , (2997, 14, True)
+     , (2997, 19, True)
+     , (2997, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9665, 'scrolldrainmana6');
@@ -12394,7 +13192,9 @@ VALUES (9665, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9665, 13, True)
      , (9665, 11, True)
-     , (9665, 14, True);
+     , (9665, 14, True)
+     , (9665, 19, True)
+     , (9665, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20609, 'scrollinfusestamina7');
@@ -12425,7 +13225,9 @@ VALUES (20609, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20609, 13, True)
      , (20609, 11, True)
-     , (20609, 14, True);
+     , (20609, 14, True)
+     , (20609, 19, True)
+     , (20609, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20579, 'scrollsprintother7');
@@ -12456,7 +13258,9 @@ VALUES (20579, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20579, 13, True)
      , (20579, 11, True)
-     , (20579, 14, True);
+     , (20579, 14, True)
+     , (20579, 19, True)
+     , (20579, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20537, 'scrollinvulnerabilityother7');
@@ -12487,7 +13291,9 @@ VALUES (20537, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20537, 13, True)
      , (20537, 11, True)
-     , (20537, 14, True);
+     , (20537, 14, True)
+     , (20537, 19, True)
+     , (20537, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5979, 'scrollfletchingmasteryself6');
@@ -12518,7 +13324,9 @@ VALUES (5979, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5979, 13, True)
      , (5979, 11, True)
-     , (5979, 14, True);
+     , (5979, 14, True)
+     , (5979, 19, True)
+     , (5979, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45352, 'ace45352-scrollofsneakattackmasteryselfv');
@@ -12549,7 +13357,9 @@ VALUES (45352, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45352, 13, True)
      , (45352, 11, True)
-     , (45352, 14, True);
+     , (45352, 14, True)
+     , (45352, 19, True)
+     , (45352, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2861, 'scrolllightninglure6');
@@ -12580,7 +13390,9 @@ VALUES (2861, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2861, 13, True)
      , (2861, 11, True)
-     , (2861, 14, True);
+     , (2861, 14, True)
+     , (2861, 19, True)
+     , (2861, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45304, 'ace45304-scrollofrecklessnessmasteryselfv');
@@ -12611,7 +13423,9 @@ VALUES (45304, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45304, 13, True)
      , (45304, 11, True)
-     , (45304, 14, True);
+     , (45304, 14, True)
+     , (45304, 19, True)
+     , (45304, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20490, 'scrollmanarenewalself7');
@@ -12642,7 +13456,9 @@ VALUES (20490, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20490, 13, True)
      , (20490, 11, True)
-     , (20490, 14, True);
+     , (20490, 14, True)
+     , (20490, 19, True)
+     , (20490, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20407, 'scrollbloodloather7');
@@ -12673,7 +13489,9 @@ VALUES (20407, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20407, 13, True)
      , (20407, 11, True)
-     , (20407, 14, True);
+     , (20407, 14, True)
+     , (20407, 19, True)
+     , (20407, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20417, 'scrollhidevalue7');
@@ -12704,7 +13522,9 @@ VALUES (20417, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20417, 13, True)
      , (20417, 11, True)
-     , (20417, 14, True);
+     , (20417, 14, True)
+     , (20417, 19, True)
+     , (20417, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20247, 'scrollmanadrain7');
@@ -12735,7 +13555,9 @@ VALUES (20247, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20247, 13, True)
      , (20247, 11, True)
-     , (20247, 14, True);
+     , (20247, 14, True)
+     , (20247, 19, True)
+     , (20247, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3120, 'scrollrejuvenateother4');
@@ -12766,7 +13588,9 @@ VALUES (3120, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3120, 13, True)
      , (3120, 11, True)
-     , (3120, 14, True);
+     , (3120, 14, True)
+     , (3120, 19, True)
+     , (3120, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45319, 'ace45319-scrollofshieldmasteryotheriv');
@@ -12797,7 +13621,9 @@ VALUES (45319, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45319, 13, True)
      , (45319, 11, True)
-     , (45319, 14, True);
+     , (45319, 14, True)
+     , (45319, 19, True)
+     , (45319, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3265, 'scrollfealtyself4');
@@ -12828,7 +13654,9 @@ VALUES (3265, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3265, 13, True)
      , (3265, 11, True)
-     , (3265, 14, True);
+     , (3265, 14, True)
+     , (3265, 19, True)
+     , (3265, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2814, 'scrollflamebane4');
@@ -12859,7 +13687,9 @@ VALUES (2814, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2814, 13, True)
      , (2814, 11, True)
-     , (2814, 14, True);
+     , (2814, 14, True)
+     , (2814, 19, True)
+     , (2814, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22078, 'scrollletherecall');
@@ -12890,7 +13720,9 @@ VALUES (22078, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (22078, 13, True)
      , (22078, 11, True)
-     , (22078, 14, True);
+     , (22078, 14, True)
+     , (22078, 19, True)
+     , (22078, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3250, 'scrolldefenselessnessother4');
@@ -12921,7 +13753,9 @@ VALUES (3250, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3250, 13, True)
      , (3250, 11, True)
-     , (3250, 14, True);
+     , (3250, 14, True)
+     , (3250, 19, True)
+     , (3250, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20597, 'scrollweaponexpertiseother7');
@@ -12952,7 +13786,9 @@ VALUES (20597, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20597, 13, True)
      , (20597, 11, True)
-     , (20597, 14, True);
+     , (20597, 14, True)
+     , (20597, 19, True)
+     , (20597, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20486, 'scrollexhaustion7');
@@ -12983,7 +13819,9 @@ VALUES (20486, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20486, 13, True)
      , (20486, 11, True)
-     , (20486, 14, True);
+     , (20486, 14, True)
+     , (20486, 19, True)
+     , (20486, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20440, 'scrollflamebolt7');
@@ -13014,7 +13852,9 @@ VALUES (20440, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20440, 13, True)
      , (20440, 11, True)
-     , (20440, 14, True);
+     , (20440, 14, True)
+     , (20440, 19, True)
+     , (20440, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45266, 'ace45266-scrollofdualwieldineptitudeothervii');
@@ -13045,7 +13885,9 @@ VALUES (45266, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45266, 13, True)
      , (45266, 11, True)
-     , (45266, 14, True);
+     , (45266, 14, True)
+     , (45266, 19, True)
+     , (45266, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20500, 'scrollarcaneenlightenmentself7');
@@ -13076,7 +13918,9 @@ VALUES (20500, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20500, 13, True)
      , (20500, 11, True)
-     , (20500, 14, True);
+     , (20500, 14, True)
+     , (20500, 19, True)
+     , (20500, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20234, 'scrollcoordinationother7');
@@ -13107,7 +13951,9 @@ VALUES (20234, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20234, 13, True)
      , (20234, 11, True)
-     , (20234, 14, True);
+     , (20234, 14, True)
+     , (20234, 19, True)
+     , (20234, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20599, 'scrollweaponignorance7');
@@ -13138,7 +13984,9 @@ VALUES (20599, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20599, 13, True)
      , (20599, 11, True)
-     , (20599, 14, True);
+     , (20599, 14, True)
+     , (20599, 19, True)
+     , (20599, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45294, 'ace45294-scrollofrecklessnessmasteryotheriii');
@@ -13169,7 +14017,9 @@ VALUES (45294, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45294, 13, True)
      , (45294, 11, True)
-     , (45294, 14, True);
+     , (45294, 14, True)
+     , (45294, 19, True)
+     , (45294, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2714, 'scrollquicknessother4');
@@ -13200,7 +14050,9 @@ VALUES (2714, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2714, 13, True)
      , (2714, 11, True)
-     , (2714, 14, True);
+     , (2714, 14, True)
+     , (2714, 19, True)
+     , (2714, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3085, 'scrollfester4');
@@ -13231,7 +14083,9 @@ VALUES (3085, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3085, 13, True)
      , (3085, 11, True)
-     , (3085, 14, True);
+     , (3085, 14, True)
+     , (3085, 19, True)
+     , (3085, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2819, 'scrollflamelure4');
@@ -13262,7 +14116,9 @@ VALUES (2819, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2819, 13, True)
      , (2819, 11, True)
-     , (2819, 14, True);
+     , (2819, 14, True)
+     , (2819, 19, True)
+     , (2819, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2646, 'scrollcoordinationother4');
@@ -13293,7 +14149,9 @@ VALUES (2646, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2646, 13, True)
      , (2646, 11, True)
-     , (2646, 14, True);
+     , (2646, 14, True)
+     , (2646, 19, True)
+     , (2646, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45351, 'ace45351-scrollofsneakattackmasteryselfiv');
@@ -13324,7 +14182,9 @@ VALUES (45351, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45351, 13, True)
      , (45351, 11, True)
-     , (45351, 14, True);
+     , (45351, 14, True)
+     , (45351, 19, True)
+     , (45351, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49462, 'ace49462-scrollofsummoningineptitudeothervii');
@@ -13355,7 +14215,9 @@ VALUES (49462, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49462, 13, True)
      , (49462, 11, True)
-     , (49462, 14, True);
+     , (49462, 14, True)
+     , (49462, 19, True)
+     , (49462, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3432, 'scrollmanaconvertmasteryother6');
@@ -13386,7 +14248,9 @@ VALUES (3432, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3432, 13, True)
      , (3432, 11, True)
-     , (3432, 14, True);
+     , (3432, 14, True)
+     , (3432, 19, True)
+     , (3432, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5955, 'scrollcookingmasteryother6');
@@ -13417,7 +14281,9 @@ VALUES (5955, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5955, 13, True)
      , (5955, 11, True)
-     , (5955, 14, True);
+     , (5955, 14, True)
+     , (5955, 19, True)
+     , (5955, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3302, 'scrollinvulnerabilityself6');
@@ -13448,7 +14314,9 @@ VALUES (3302, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3302, 13, True)
      , (3302, 11, True)
-     , (3302, 14, True);
+     , (3302, 14, True)
+     , (3302, 19, True)
+     , (3302, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27237, 'scrolldispellifeneutralself7');
@@ -13479,7 +14347,9 @@ VALUES (27237, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27237, 13, True)
      , (27237, 11, True)
-     , (27237, 14, True);
+     , (27237, 14, True)
+     , (27237, 19, True)
+     , (27237, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3038, 'scrollfireprotectionself2');
@@ -13510,7 +14380,9 @@ VALUES (3038, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3038, 13, True)
      , (3038, 11, True)
-     , (3038, 14, True);
+     , (3038, 14, True)
+     , (3038, 19, True)
+     , (3038, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2992, 'scrollbladeprotectionother6');
@@ -13541,7 +14413,9 @@ VALUES (2992, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2992, 13, True)
      , (2992, 11, True)
-     , (2992, 14, True);
+     , (2992, 14, True)
+     , (2992, 19, True)
+     , (2992, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28939, 'scrollarcanumsalvaging7');
@@ -13572,7 +14446,9 @@ VALUES (28939, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28939, 13, True)
      , (28939, 11, True)
-     , (28939, 14, True);
+     , (28939, 14, True)
+     , (28939, 19, True)
+     , (28939, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20511, 'scrollcookingmasteryother7');
@@ -13603,7 +14479,9 @@ VALUES (20511, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20511, 13, True)
      , (20511, 11, True)
-     , (20511, 14, True);
+     , (20511, 14, True)
+     , (20511, 19, True)
+     , (20511, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20508, 'scrollbowmasteryother7');
@@ -13634,7 +14512,9 @@ VALUES (20508, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20508, 13, True)
      , (20508, 11, True)
-     , (20508, 14, True);
+     , (20508, 14, True)
+     , (20508, 19, True)
+     , (20508, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3262, 'scrollfealtyother6');
@@ -13665,7 +14545,9 @@ VALUES (3262, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3262, 13, True)
      , (3262, 11, True)
-     , (3262, 14, True);
+     , (3262, 14, True)
+     , (3262, 19, True)
+     , (3262, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3357, 'scrollleadershipmasteryother6');
@@ -13696,7 +14578,9 @@ VALUES (3357, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3357, 13, True)
      , (3357, 11, True)
-     , (3357, 14, True);
+     , (3357, 14, True)
+     , (3357, 19, True)
+     , (3357, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20419, 'scrollleadenweapon7');
@@ -13727,7 +14611,9 @@ VALUES (20419, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20419, 13, True)
      , (20419, 11, True)
-     , (20419, 14, True);
+     , (20419, 14, True)
+     , (20419, 19, True)
+     , (20419, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2643, 'scrollclumsiness6');
@@ -13758,7 +14644,9 @@ VALUES (2643, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2643, 13, True)
      , (2643, 11, True)
-     , (2643, 14, True);
+     , (2643, 14, True)
+     , (2643, 19, True)
+     , (2643, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20445, 'scrollforcebolt7');
@@ -13789,7 +14677,9 @@ VALUES (20445, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20445, 13, True)
      , (20445, 11, True)
-     , (20445, 14, True);
+     , (20445, 14, True)
+     , (20445, 19, True)
+     , (20445, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41293, 'ace41293-scrolloftwohandedweaponsineptitudevi');
@@ -13820,7 +14710,9 @@ VALUES (41293, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41293, 13, True)
      , (41293, 11, True)
-     , (41293, 14, True);
+     , (41293, 14, True)
+     , (41293, 19, True)
+     , (41293, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3169, 'scrollaxemasteryself3');
@@ -13851,7 +14743,9 @@ VALUES (3169, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3169, 13, True)
      , (3169, 11, True)
-     , (3169, 14, True);
+     , (3169, 14, True)
+     , (3169, 19, True)
+     , (3169, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9633, 'scrollhealthtomanaself5');
@@ -13882,7 +14776,9 @@ VALUES (9633, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9633, 13, True)
      , (9633, 11, True)
-     , (9633, 14, True);
+     , (9633, 14, True)
+     , (9633, 19, True)
+     , (9633, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8945, 'scrolllightningstreak5');
@@ -13913,7 +14809,9 @@ VALUES (8945, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8945, 13, True)
      , (8945, 11, True)
-     , (8945, 14, True);
+     , (8945, 14, True)
+     , (8945, 19, True)
+     , (8945, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2666, 'scrollenfeeble4');
@@ -13944,7 +14842,9 @@ VALUES (2666, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2666, 13, True)
      , (2666, 11, True)
-     , (2666, 14, True);
+     , (2666, 14, True)
+     , (2666, 19, True)
+     , (2666, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3427, 'scrollmagicyieldother6');
@@ -13975,7 +14875,9 @@ VALUES (3427, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3427, 13, True)
      , (3427, 11, True)
-     , (3427, 14, True);
+     , (3427, 14, True)
+     , (3427, 19, True)
+     , (3427, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3562, 'scrollvulnerabilityother6');
@@ -14006,7 +14908,9 @@ VALUES (3562, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3562, 13, True)
      , (3562, 11, True)
-     , (3562, 14, True);
+     , (3562, 14, True)
+     , (3562, 19, True)
+     , (3562, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3428, 'scrollmanaconvertmasteryother2');
@@ -14037,7 +14941,9 @@ VALUES (3428, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3428, 13, True)
      , (3428, 11, True)
-     , (3428, 14, True);
+     , (3428, 14, True)
+     , (3428, 19, True)
+     , (3428, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43284, 'ace43284-scrollofcorrosionvii');
@@ -14068,7 +14974,9 @@ VALUES (43284, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43284, 13, True)
      , (43284, 11, True)
-     , (43284, 14, True);
+     , (43284, 14, True)
+     , (43284, 19, True)
+     , (43284, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20514, 'scrollcreatureenchantmentother7');
@@ -14099,7 +15007,9 @@ VALUES (20514, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20514, 13, True)
      , (20514, 11, True)
-     , (20514, 14, True);
+     , (20514, 14, True)
+     , (20514, 19, True)
+     , (20514, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2865, 'scrolllureblade5');
@@ -14130,7 +15040,9 @@ VALUES (2865, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2865, 13, True)
      , (2865, 11, True)
-     , (2865, 14, True);
+     , (2865, 14, True)
+     , (2865, 19, True)
+     , (2865, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20318, 'scrolldispelcreatureneutralother');
@@ -14161,7 +15073,9 @@ VALUES (20318, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20318, 13, True)
      , (20318, 11, True)
-     , (20318, 14, True);
+     , (20318, 14, True)
+     , (20318, 19, True)
+     , (20318, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3581, 'scrollweaponexpertiseother5');
@@ -14192,7 +15106,9 @@ VALUES (3581, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3581, 13, True)
      , (3581, 11, True)
-     , (3581, 14, True);
+     , (3581, 14, True)
+     , (3581, 19, True)
+     , (3581, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20535, 'scrollimpregnabilityother7');
@@ -14223,7 +15139,9 @@ VALUES (20535, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20535, 13, True)
      , (20535, 11, True)
-     , (20535, 14, True);
+     , (20535, 14, True)
+     , (20535, 19, True)
+     , (20535, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2982, 'scrollacidprotectionself6');
@@ -14254,7 +15172,9 @@ VALUES (2982, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2982, 13, True)
      , (2982, 11, True)
-     , (2982, 14, True);
+     , (2982, 14, True)
+     , (2982, 19, True)
+     , (2982, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3431, 'scrollmanaconvertmasteryother5');
@@ -14285,7 +15205,9 @@ VALUES (3431, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3431, 13, True)
      , (3431, 11, True)
-     , (3431, 14, True);
+     , (3431, 14, True)
+     , (3431, 19, True)
+     , (3431, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5981, 'scrollalchemyineptitude2');
@@ -14316,7 +15238,9 @@ VALUES (5981, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5981, 13, True)
      , (5981, 11, True)
-     , (5981, 14, True);
+     , (5981, 14, True)
+     , (5981, 19, True)
+     , (5981, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20446, 'scrollforcestreak7');
@@ -14347,7 +15271,9 @@ VALUES (20446, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20446, 13, True)
      , (20446, 11, True)
-     , (20446, 14, True);
+     , (20446, 14, True)
+     , (20446, 19, True)
+     , (20446, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20539, 'scrollitemenchantmentineptitude7');
@@ -14378,7 +15304,9 @@ VALUES (20539, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20539, 13, True)
      , (20539, 11, True)
-     , (20539, 14, True);
+     , (20539, 14, True)
+     , (20539, 19, True)
+     , (20539, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20408, 'scrollbludgeonbane7');
@@ -14409,7 +15337,9 @@ VALUES (20408, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20408, 13, True)
      , (20408, 11, True)
-     , (20408, 14, True);
+     , (20408, 14, True)
+     , (20408, 19, True)
+     , (20408, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5960, 'scrollcookingmasteryself5');
@@ -14440,7 +15370,9 @@ VALUES (5960, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5960, 13, True)
      , (5960, 11, True)
-     , (5960, 14, True);
+     , (5960, 14, True)
+     , (5960, 19, True)
+     , (5960, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20249, 'scrollquicknessself7');
@@ -14471,7 +15403,9 @@ VALUES (20249, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20249, 13, True)
      , (20249, 11, True)
-     , (20249, 14, True);
+     , (20249, 14, True)
+     , (20249, 19, True)
+     , (20249, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8934, 'scrollforcestreak6');
@@ -14502,7 +15436,9 @@ VALUES (8934, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8934, 13, True)
      , (8934, 11, True)
-     , (8934, 14, True);
+     , (8934, 14, True)
+     , (8934, 19, True)
+     , (8934, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3137, 'scrollarcaneenlightenmentother6');
@@ -14533,7 +15469,9 @@ VALUES (3137, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3137, 13, True)
      , (3137, 11, True)
-     , (3137, 14, True);
+     , (3137, 14, True)
+     , (3137, 19, True)
+     , (3137, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43364, 'ace43364-scrollofvoidmagicineptitudevi');
@@ -14564,7 +15502,9 @@ VALUES (43364, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43364, 13, True)
      , (43364, 11, True)
-     , (43364, 14, True);
+     , (43364, 14, True)
+     , (43364, 19, True)
+     , (43364, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20608, 'scrollinfusemana7');
@@ -14595,7 +15535,9 @@ VALUES (20608, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20608, 13, True)
      , (20608, 11, True)
-     , (20608, 14, True);
+     , (20608, 14, True)
+     , (20608, 19, True)
+     , (20608, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3592, 'scrollweaponignorance6');
@@ -14626,7 +15568,9 @@ VALUES (3592, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3592, 13, True)
      , (3592, 11, True)
-     , (3592, 14, True);
+     , (3592, 14, True)
+     , (3592, 19, True)
+     , (3592, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3935, 'scrolldrainhealth5');
@@ -14657,7 +15601,9 @@ VALUES (3935, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3935, 13, True)
      , (3935, 11, True)
-     , (3935, 14, True);
+     , (3935, 14, True)
+     , (3935, 19, True)
+     , (3935, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45250, 'ace45250-scrollofdirtyfightingmasteryothervii');
@@ -14688,7 +15634,9 @@ VALUES (45250, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45250, 13, True)
      , (45250, 11, True)
-     , (45250, 14, True);
+     , (45250, 14, True)
+     , (45250, 19, True)
+     , (45250, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20507, 'scrollbowineptitude7');
@@ -14719,7 +15667,9 @@ VALUES (20507, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20507, 13, True)
      , (20507, 11, True)
-     , (20507, 14, True);
+     , (20507, 14, True)
+     , (20507, 19, True)
+     , (20507, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2793, 'scrollbludgeonbane3');
@@ -14750,7 +15700,9 @@ VALUES (2793, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2793, 13, True)
      , (2793, 11, True)
-     , (2793, 14, True);
+     , (2793, 14, True)
+     , (2793, 19, True)
+     , (2793, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3076, 'scrollpiercevulnerabilityother5');
@@ -14781,7 +15733,9 @@ VALUES (3076, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3076, 13, True)
      , (3076, 11, True)
-     , (3076, 14, True);
+     , (3076, 14, True)
+     , (3076, 19, True)
+     , (3076, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43306, 'ace43306-scrollofnetherboltv');
@@ -14812,7 +15766,9 @@ VALUES (43306, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43306, 13, True)
      , (43306, 11, True)
-     , (43306, 14, True);
+     , (43306, 14, True)
+     , (43306, 19, True)
+     , (43306, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2900, 'scrollweakenlock4');
@@ -14843,7 +15799,9 @@ VALUES (2900, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2900, 13, True)
      , (2900, 11, True)
-     , (2900, 14, True);
+     , (2900, 14, True)
+     , (2900, 19, True)
+     , (2900, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3017, 'scrollbludgeonvulnerabilityother6');
@@ -14874,7 +15832,9 @@ VALUES (3017, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3017, 13, True)
      , (3017, 11, True)
-     , (3017, 14, True);
+     , (3017, 14, True)
+     , (3017, 19, True)
+     , (3017, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3259, 'scrollfealtyother3');
@@ -14905,7 +15865,9 @@ VALUES (3259, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3259, 13, True)
      , (3259, 11, True)
-     , (3259, 14, True);
+     , (3259, 14, True)
+     , (3259, 19, True)
+     , (3259, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3307, 'scrollitemenchantmentineptitude6');
@@ -14936,7 +15898,9 @@ VALUES (3307, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3307, 13, True)
      , (3307, 11, True)
-     , (3307, 14, True);
+     , (3307, 14, True)
+     , (3307, 19, True)
+     , (3307, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3575, 'scrollwarmagicmasteryself4');
@@ -14967,7 +15931,9 @@ VALUES (3575, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3575, 13, True)
      , (3575, 11, True)
-     , (3575, 14, True);
+     , (3575, 14, True)
+     , (3575, 19, True)
+     , (3575, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6000, 'scrollflamebolt4');
@@ -14998,7 +15964,9 @@ VALUES (6000, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (6000, 13, True)
      , (6000, 11, True)
-     , (6000, 14, True);
+     , (6000, 14, True)
+     , (6000, 19, True)
+     , (6000, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9648, 'scrollmanatostaminaself5');
@@ -15029,7 +15997,9 @@ VALUES (9648, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9648, 13, True)
      , (9648, 11, True)
-     , (9648, 14, True);
+     , (9648, 14, True)
+     , (9648, 19, True)
+     , (9648, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2638, 'scrollbafflement6');
@@ -15060,7 +16030,9 @@ VALUES (2638, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2638, 13, True)
      , (2638, 11, True)
-     , (2638, 14, True);
+     , (2638, 14, True)
+     , (2638, 19, True)
+     , (2638, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20359, 'scrolldispelitemneutralother6');
@@ -15091,7 +16063,9 @@ VALUES (20359, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20359, 13, True)
      , (20359, 11, True)
-     , (20359, 14, True);
+     , (20359, 14, True)
+     , (20359, 19, True)
+     , (20359, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3230, 'scrolldaggermasteryself4');
@@ -15122,7 +16096,9 @@ VALUES (3230, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3230, 13, True)
      , (3230, 11, True)
-     , (3230, 14, True);
+     , (3230, 14, True)
+     , (3230, 19, True)
+     , (3230, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2750, 'scrollweaknessother5');
@@ -15153,7 +16129,9 @@ VALUES (2750, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2750, 13, True)
      , (2750, 11, True)
-     , (2750, 14, True);
+     , (2750, 14, True)
+     , (2750, 19, True)
+     , (2750, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3421, 'scrollmagicitemignorance5');
@@ -15184,7 +16162,9 @@ VALUES (3421, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3421, 13, True)
      , (3421, 11, True)
-     , (3421, 14, True);
+     , (3421, 14, True)
+     , (3421, 19, True)
+     , (3421, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20602, 'scrolldrainstamina7');
@@ -15215,7 +16195,9 @@ VALUES (20602, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20602, 13, True)
      , (20602, 11, True)
-     , (20602, 14, True);
+     , (20602, 14, True)
+     , (20602, 19, True)
+     , (20602, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2901, 'scrollweakenlock5');
@@ -15246,7 +16228,9 @@ VALUES (2901, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2901, 13, True)
      , (2901, 11, True)
-     , (2901, 14, True);
+     , (2901, 14, True)
+     , (2901, 19, True)
+     , (2901, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3161, 'scrollaxeineptitudeother5');
@@ -15277,7 +16261,9 @@ VALUES (3161, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3161, 13, True)
      , (3161, 11, True)
-     , (3161, 14, True);
+     , (3161, 14, True)
+     , (3161, 19, True)
+     , (3161, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3246, 'scrolldeceptionmasteryself5');
@@ -15308,7 +16294,9 @@ VALUES (3246, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3246, 13, True)
      , (3246, 11, True)
-     , (3246, 14, True);
+     , (3246, 14, True)
+     , (3246, 19, True)
+     , (3246, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3087, 'scrollfester6');
@@ -15339,7 +16327,9 @@ VALUES (3087, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3087, 13, True)
      , (3087, 11, True)
-     , (3087, 14, True);
+     , (3087, 14, True)
+     , (3087, 19, True)
+     , (3087, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32492, 'ace32492-scrollofglendenwoodrecall');
@@ -15370,7 +16360,9 @@ VALUES (32492, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (32492, 13, True)
      , (32492, 11, True)
-     , (32492, 14, True);
+     , (32492, 14, True)
+     , (32492, 19, True)
+     , (32492, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20428, 'scrollturnblade7');
@@ -15401,7 +16393,9 @@ VALUES (20428, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20428, 13, True)
      , (20428, 11, True)
-     , (20428, 14, True);
+     , (20428, 14, True)
+     , (20428, 19, True)
+     , (20428, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20540, 'scrollitemenchantmentmasteryother7');
@@ -15432,7 +16426,9 @@ VALUES (20540, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20540, 13, True)
      , (20540, 11, True)
-     , (20540, 14, True);
+     , (20540, 14, True)
+     , (20540, 19, True)
+     , (20540, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20520, 'scrolldaggermasteryother7');
@@ -15463,7 +16459,9 @@ VALUES (20520, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20520, 13, True)
      , (20520, 11, True)
-     , (20520, 14, True);
+     , (20520, 14, True)
+     , (20520, 19, True)
+     , (20520, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20548, 'scrollleadenfeet7');
@@ -15494,7 +16492,9 @@ VALUES (20548, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20548, 13, True)
      , (20548, 11, True)
-     , (20548, 14, True);
+     , (20548, 14, True)
+     , (20548, 19, True)
+     , (20548, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20246, 'scrollimperil7');
@@ -15525,7 +16525,9 @@ VALUES (20246, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20246, 13, True)
      , (20246, 11, True)
-     , (20246, 14, True);
+     , (20246, 14, True)
+     , (20246, 19, True)
+     , (20246, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20472, 'scrollbludgeonprotectionself7');
@@ -15556,7 +16558,9 @@ VALUES (20472, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20472, 13, True)
      , (20472, 11, True)
-     , (20472, 14, True);
+     , (20472, 14, True)
+     , (20472, 19, True)
+     , (20472, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20429, 'scrollweakenlock7');
@@ -15587,7 +16591,9 @@ VALUES (20429, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20429, 13, True)
      , (20429, 11, True)
-     , (20429, 14, True);
+     , (20429, 14, True)
+     , (20429, 19, True)
+     , (20429, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20470, 'scrollbladevulnerabilityother7');
@@ -15618,7 +16624,9 @@ VALUES (20470, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20470, 13, True)
      , (20470, 11, True)
-     , (20470, 14, True);
+     , (20470, 14, True)
+     , (20470, 19, True)
+     , (20470, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20555, 'scrolllockpickineptitude7');
@@ -15649,7 +16657,9 @@ VALUES (20555, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20555, 13, True)
      , (20555, 11, True)
-     , (20555, 14, True);
+     , (20555, 14, True)
+     , (20555, 19, True)
+     , (20555, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20606, 'scrollhealthtostaminaself7');
@@ -15680,7 +16690,9 @@ VALUES (20606, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20606, 13, True)
      , (20606, 11, True)
-     , (20606, 14, True);
+     , (20606, 14, True)
+     , (20606, 19, True)
+     , (20606, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3040, 'scrollfireprotectionself4');
@@ -15711,7 +16723,9 @@ VALUES (3040, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3040, 13, True)
      , (3040, 11, True)
-     , (3040, 14, True);
+     , (3040, 14, True)
+     , (3040, 19, True)
+     , (3040, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2733, 'scrollslowness3');
@@ -15742,7 +16756,9 @@ VALUES (2733, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2733, 13, True)
      , (2733, 11, True)
-     , (2733, 14, True);
+     , (2733, 14, True)
+     , (2733, 19, True)
+     , (2733, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21098, 'scrollhealthbolt4');
@@ -15773,7 +16789,9 @@ VALUES (21098, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21098, 13, True)
      , (21098, 11, True)
-     , (21098, 14, True);
+     , (21098, 14, True)
+     , (21098, 19, True)
+     , (21098, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2764, 'scrollacidbane4');
@@ -15804,7 +16822,9 @@ VALUES (2764, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2764, 13, True)
      , (2764, 11, True)
-     , (2764, 14, True);
+     , (2764, 14, True)
+     , (2764, 19, True)
+     , (2764, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3355, 'scrollleadershipmasteryother4');
@@ -15835,7 +16855,9 @@ VALUES (3355, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3355, 13, True)
      , (3355, 11, True)
-     , (3355, 14, True);
+     , (3355, 14, True)
+     , (3355, 19, True)
+     , (3355, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3239, 'scrolldeceptionmasteryother3');
@@ -15866,7 +16888,9 @@ VALUES (3239, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3239, 13, True)
      , (3239, 11, True)
-     , (3239, 14, True);
+     , (3239, 14, True)
+     , (3239, 19, True)
+     , (3239, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2845, 'scrollimpenetrability5');
@@ -15897,7 +16921,9 @@ VALUES (2845, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2845, 13, True)
      , (2845, 11, True)
-     , (2845, 14, True);
+     , (2845, 14, True)
+     , (2845, 19, True)
+     , (2845, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2689, 'scrollharmother4');
@@ -15928,7 +16954,9 @@ VALUES (2689, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2689, 13, True)
      , (2689, 11, True)
-     , (2689, 14, True);
+     , (2689, 14, True)
+     , (2689, 19, True)
+     , (2689, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3280, 'scrollhealingmasteryself4');
@@ -15959,7 +16987,9 @@ VALUES (3280, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3280, 13, True)
      , (3280, 11, True)
-     , (3280, 14, True);
+     , (3280, 14, True)
+     , (3280, 19, True)
+     , (3280, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8924, 'scrollflamestreak5');
@@ -15990,7 +17020,9 @@ VALUES (8924, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8924, 13, True)
      , (8924, 11, True)
-     , (8924, 14, True);
+     , (8924, 14, True)
+     , (8924, 19, True)
+     , (8924, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3745, 'scrollinfusestamina6');
@@ -16021,7 +17053,9 @@ VALUES (3745, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3745, 13, True)
      , (3745, 11, True)
-     , (3745, 14, True);
+     , (3745, 14, True)
+     , (3745, 19, True)
+     , (3745, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8946, 'scrolllightningstreak6');
@@ -16052,7 +17086,9 @@ VALUES (8946, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8946, 13, True)
      , (8946, 11, True)
-     , (8946, 14, True);
+     , (8946, 14, True)
+     , (8946, 19, True)
+     , (8946, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3062, 'scrolllightningvulnerabilityother6');
@@ -16083,7 +17119,9 @@ VALUES (3062, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3062, 13, True)
      , (3062, 11, True)
-     , (3062, 14, True);
+     , (3062, 14, True)
+     , (3062, 19, True)
+     , (3062, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3370, 'scrolllifemagicmasteryother4');
@@ -16114,7 +17152,9 @@ VALUES (3370, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3370, 13, True)
      , (3370, 11, True)
-     , (3370, 14, True);
+     , (3370, 14, True)
+     , (3370, 19, True)
+     , (3370, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2680, 'scrollfocusself5');
@@ -16145,7 +17185,9 @@ VALUES (2680, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2680, 13, True)
      , (2680, 11, True)
-     , (2680, 14, True);
+     , (2680, 14, True)
+     , (2680, 19, True)
+     , (2680, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3045, 'scrollfirevulnerabilityother4');
@@ -16176,7 +17218,9 @@ VALUES (3045, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3045, 13, True)
      , (3045, 11, True)
-     , (3045, 14, True);
+     , (3045, 14, True)
+     , (3045, 19, True)
+     , (3045, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9644, 'scrollmanatohealthself6');
@@ -16207,7 +17251,9 @@ VALUES (9644, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9644, 13, True)
      , (9644, 11, True)
-     , (9644, 14, True);
+     , (9644, 14, True)
+     , (9644, 19, True)
+     , (9644, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45297, 'ace45297-scrollofrecklessnessmasteryothervi');
@@ -16238,7 +17284,9 @@ VALUES (45297, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45297, 13, True)
      , (45297, 11, True)
-     , (45297, 14, True);
+     , (45297, 14, True)
+     , (45297, 19, True)
+     , (45297, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20570, 'scrollmonsterunfamiliarity7');
@@ -16269,7 +17317,9 @@ VALUES (20570, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20570, 13, True)
      , (20570, 11, True)
-     , (20570, 14, True);
+     , (20570, 14, True)
+     , (20570, 19, True)
+     , (20570, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28009, 'scrollspiritloather');
@@ -16300,7 +17350,9 @@ VALUES (28009, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28009, 13, True)
      , (28009, 11, True)
-     , (28009, 14, True);
+     , (28009, 14, True)
+     , (28009, 19, True)
+     , (28009, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21101, 'scrollhealthbolt7');
@@ -16331,7 +17383,9 @@ VALUES (21101, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21101, 13, True)
      , (21101, 11, True)
-     , (21101, 14, True);
+     , (21101, 14, True)
+     , (21101, 19, True)
+     , (21101, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20242, 'scrollfrailty7');
@@ -16362,7 +17416,9 @@ VALUES (20242, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20242, 13, True)
      , (20242, 11, True)
-     , (20242, 14, True);
+     , (20242, 14, True)
+     , (20242, 19, True)
+     , (20242, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20253, 'scrollstrengthother7');
@@ -16393,7 +17449,9 @@ VALUES (20253, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20253, 13, True)
      , (20253, 11, True)
-     , (20253, 14, True);
+     , (20253, 14, True)
+     , (20253, 19, True)
+     , (20253, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20461, 'scrollshockwavestreak7');
@@ -16424,7 +17482,9 @@ VALUES (20461, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20461, 13, True)
      , (20461, 11, True)
-     , (20461, 14, True);
+     , (20461, 14, True)
+     , (20461, 19, True)
+     , (20461, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28008, 'scrollspiritdrinker7');
@@ -16455,7 +17515,9 @@ VALUES (28008, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28008, 13, True)
      , (28008, 11, True)
-     , (28008, 14, True);
+     , (28008, 14, True)
+     , (28008, 19, True)
+     , (28008, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3482, 'scrollspearmasteryother6');
@@ -16486,7 +17548,9 @@ VALUES (3482, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3482, 13, True)
      , (3482, 11, True)
-     , (3482, 14, True);
+     , (3482, 14, True)
+     , (3482, 19, True)
+     , (3482, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3392, 'scrolllockpickmasteryself6');
@@ -16517,7 +17581,9 @@ VALUES (3392, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3392, 13, True)
      , (3392, 11, True)
-     , (3392, 14, True);
+     , (3392, 14, True)
+     , (3392, 19, True)
+     , (3392, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3522, 'scrollswordmasteryother6');
@@ -16548,7 +17614,9 @@ VALUES (3522, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3522, 13, True)
      , (3522, 11, True)
-     , (3522, 14, True);
+     , (3522, 14, True)
+     , (3522, 19, True)
+     , (3522, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3022, 'scrollcoldprotectionother6');
@@ -16579,7 +17647,9 @@ VALUES (3022, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3022, 13, True)
      , (3022, 11, True)
-     , (3022, 14, True);
+     , (3022, 14, True)
+     , (3022, 19, True)
+     , (3022, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2678, 'scrollfocusother6');
@@ -16610,7 +17680,9 @@ VALUES (2678, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2678, 13, True)
      , (2678, 11, True)
-     , (2678, 14, True);
+     , (2678, 14, True)
+     , (2678, 19, True)
+     , (2678, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2977, 'scrollacidprotectionother6');
@@ -16641,7 +17713,9 @@ VALUES (2977, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2977, 13, True)
      , (2977, 11, True)
-     , (2977, 14, True);
+     , (2977, 14, True)
+     , (2977, 19, True)
+     , (2977, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3730, 'scrolldrainstamina6');
@@ -16672,7 +17746,9 @@ VALUES (3730, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3730, 13, True)
      , (3730, 11, True)
-     , (3730, 14, True);
+     , (3730, 14, True)
+     , (3730, 19, True)
+     , (3730, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4221, 'scrolldrainhealth6');
@@ -16703,7 +17779,9 @@ VALUES (4221, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4221, 13, True)
      , (4221, 11, True)
-     , (4221, 14, True);
+     , (4221, 14, True)
+     , (4221, 19, True)
+     , (4221, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3322, 'scrollitemexpertiseother6');
@@ -16734,7 +17812,9 @@ VALUES (3322, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3322, 13, True)
      , (3322, 11, True)
-     , (3322, 14, True);
+     , (3322, 14, True)
+     , (3322, 19, True)
+     , (3322, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7520, 'scrollfrostwall');
@@ -16765,7 +17845,9 @@ VALUES (7520, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7520, 13, True)
      , (7520, 11, True)
-     , (7520, 14, True);
+     , (7520, 14, True)
+     , (7520, 19, True)
+     , (7520, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41278, 'ace41278-scrollofyoshisboon');
@@ -16796,7 +17878,9 @@ VALUES (41278, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41278, 13, True)
      , (41278, 11, True)
-     , (41278, 14, True);
+     , (41278, 14, True)
+     , (41278, 19, True)
+     , (41278, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3532, 'scrollthrownineptitude6');
@@ -16827,7 +17911,9 @@ VALUES (3532, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3532, 13, True)
      , (3532, 11, True)
-     , (3532, 14, True);
+     , (3532, 14, True)
+     , (3532, 19, True)
+     , (3532, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43280, 'ace43280-scrollofcorrosioniii');
@@ -16858,7 +17944,9 @@ VALUES (43280, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43280, 13, True)
      , (43280, 11, True)
-     , (43280, 14, True);
+     , (43280, 14, True)
+     , (43280, 19, True)
+     , (43280, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3018, 'scrollcoldprotectionother2');
@@ -16889,7 +17977,9 @@ VALUES (3018, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3018, 13, True)
      , (3018, 11, True)
-     , (3018, 14, True);
+     , (3018, 14, True)
+     , (3018, 19, True)
+     , (3018, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43339, 'ace43339-scrollofweakeningcurseii');
@@ -16920,7 +18010,9 @@ VALUES (43339, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43339, 13, True)
      , (43339, 11, True)
-     , (43339, 14, True);
+     , (43339, 14, True)
+     , (43339, 19, True)
+     , (43339, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3313, 'scrollitemenchantmentmasteryself2');
@@ -16951,7 +18043,9 @@ VALUES (3313, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3313, 13, True)
      , (3313, 11, True)
-     , (3313, 14, True);
+     , (3313, 14, True)
+     , (3313, 19, True)
+     , (3313, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5543, 'scrollmonsterattunementself2');
@@ -16982,7 +18076,9 @@ VALUES (5543, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5543, 13, True)
      , (5543, 11, True)
-     , (5543, 14, True);
+     , (5543, 14, True)
+     , (5543, 19, True)
+     , (5543, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21289, 'scrollacidarc2');
@@ -17013,7 +18109,9 @@ VALUES (21289, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21289, 13, True)
      , (21289, 11, True)
-     , (21289, 14, True);
+     , (21289, 14, True)
+     , (21289, 19, True)
+     , (21289, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2893, 'scrollturnblade2');
@@ -17044,7 +18142,9 @@ VALUES (2893, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2893, 13, True)
      , (2893, 11, True)
-     , (2893, 14, True);
+     , (2893, 14, True)
+     , (2893, 19, True)
+     , (2893, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21310, 'scrollforcearc2');
@@ -17075,7 +18175,9 @@ VALUES (21310, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21310, 13, True)
      , (21310, 11, True)
-     , (21310, 14, True);
+     , (21310, 14, True)
+     , (21310, 19, True)
+     , (21310, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45325, 'ace45325-scrollofshieldmasteryselfii');
@@ -17106,7 +18208,9 @@ VALUES (45325, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45325, 13, True)
      , (45325, 11, True)
-     , (45325, 14, True);
+     , (45325, 14, True)
+     , (45325, 19, True)
+     , (45325, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1774, 'scrollfeeblemind');
@@ -17137,7 +18241,9 @@ VALUES (1774, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1774, 13, True)
      , (1774, 11, True)
-     , (1774, 14, True);
+     , (1774, 14, True)
+     , (1774, 19, True)
+     , (1774, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2837, 'scrollhidevalue2');
@@ -17168,7 +18274,9 @@ VALUES (2837, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2837, 13, True)
      , (2837, 11, True)
-     , (2837, 14, True);
+     , (2837, 14, True)
+     , (2837, 19, True)
+     , (2837, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1573, 'scrollfrostbolt');
@@ -17199,7 +18307,9 @@ VALUES (1573, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1573, 13, True)
      , (1573, 11, True)
-     , (1573, 14, True);
+     , (1573, 14, True)
+     , (1573, 19, True)
+     , (1573, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5992, 'scrollalchemymasteryself');
@@ -17230,7 +18340,9 @@ VALUES (5992, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5992, 13, True)
      , (5992, 11, True)
-     , (5992, 14, True);
+     , (5992, 14, True)
+     , (5992, 19, True)
+     , (5992, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20557, 'scrolllockpickmasteryself7');
@@ -17261,7 +18373,9 @@ VALUES (20557, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20557, 13, True)
      , (20557, 11, True)
-     , (20557, 14, True);
+     , (20557, 14, True)
+     , (20557, 19, True)
+     , (20557, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20418, 'scrollimpenetrability7');
@@ -17292,7 +18406,9 @@ VALUES (20418, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20418, 13, True)
      , (20418, 11, True)
-     , (20418, 14, True);
+     , (20418, 14, True)
+     , (20418, 19, True)
+     , (20418, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20572, 'scrollpersonattunementself7');
@@ -17323,7 +18439,9 @@ VALUES (20572, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20572, 13, True)
      , (20572, 11, True)
-     , (20572, 14, True);
+     , (20572, 14, True)
+     , (20572, 19, True)
+     , (20572, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20482, 'scrolllightningvulnerabilityother7');
@@ -17354,7 +18472,9 @@ VALUES (20482, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20482, 13, True)
      , (20482, 11, True)
-     , (20482, 14, True);
+     , (20482, 14, True)
+     , (20482, 19, True)
+     , (20482, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20564, 'scrollmagicyieldother7');
@@ -17385,7 +18505,9 @@ VALUES (20564, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20564, 13, True)
      , (20564, 11, True)
-     , (20564, 14, True);
+     , (20564, 14, True)
+     , (20564, 19, True)
+     , (20564, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20469, 'scrollbladeprotectionself7');
@@ -17416,7 +18538,9 @@ VALUES (20469, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20469, 13, True)
      , (20469, 11, True)
-     , (20469, 14, True);
+     , (20469, 14, True)
+     , (20469, 19, True)
+     , (20469, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43335, 'ace43335-scrolloffesteringcursevii');
@@ -17447,7 +18571,9 @@ VALUES (43335, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43335, 13, True)
      , (43335, 11, True)
-     , (43335, 14, True);
+     , (43335, 14, True)
+     , (43335, 19, True)
+     , (43335, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20519, 'scrolldaggerineptitudeother7');
@@ -17478,7 +18604,9 @@ VALUES (20519, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20519, 13, True)
      , (20519, 11, True)
-     , (20519, 14, True);
+     , (20519, 14, True)
+     , (20519, 19, True)
+     , (20519, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45321, 'ace45321-scrollofshieldmasteryothervi');
@@ -17509,7 +18637,9 @@ VALUES (45321, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45321, 13, True)
      , (45321, 11, True)
-     , (45321, 14, True);
+     , (45321, 14, True)
+     , (45321, 19, True)
+     , (45321, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3467, 'scrollresistmagicother6');
@@ -17540,7 +18670,9 @@ VALUES (3467, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3467, 13, True)
      , (3467, 11, True)
-     , (3467, 14, True);
+     , (3467, 14, True)
+     , (3467, 19, True)
+     , (3467, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2866, 'scrolllureblade6');
@@ -17571,7 +18703,9 @@ VALUES (2866, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2866, 13, True)
      , (2866, 11, True)
-     , (2866, 14, True);
+     , (2866, 14, True)
+     , (2866, 19, True)
+     , (2866, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43342, 'ace43342-scrollofweakeningcursev');
@@ -17602,7 +18736,9 @@ VALUES (43342, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43342, 13, True)
      , (43342, 11, True)
-     , (43342, 14, True);
+     , (43342, 14, True)
+     , (43342, 19, True)
+     , (43342, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3590, 'scrollweaponignorance4');
@@ -17633,7 +18769,9 @@ VALUES (3590, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3590, 13, True)
      , (3590, 11, True)
-     , (3590, 14, True);
+     , (3590, 14, True)
+     , (3590, 19, True)
+     , (3590, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21292, 'scrollacidarc5');
@@ -17664,7 +18802,9 @@ VALUES (21292, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21292, 13, True)
      , (21292, 11, True)
-     , (21292, 14, True);
+     , (21292, 14, True)
+     , (21292, 19, True)
+     , (21292, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2931, 'scrollforcebolt3');
@@ -17695,7 +18835,9 @@ VALUES (2931, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2931, 13, True)
      , (2931, 11, True)
-     , (2931, 14, True);
+     , (2931, 14, True)
+     , (2931, 19, True)
+     , (2931, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21295, 'scrollbladearc');
@@ -17726,7 +18868,9 @@ VALUES (21295, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21295, 13, True)
      , (21295, 11, True)
-     , (21295, 14, True);
+     , (21295, 14, True)
+     , (21295, 19, True)
+     , (21295, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45269, 'ace45269-scrollofdualwieldmasteryotherii');
@@ -17757,7 +18901,9 @@ VALUES (45269, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45269, 13, True)
      , (45269, 11, True)
-     , (45269, 14, True);
+     , (45269, 14, True)
+     , (45269, 19, True)
+     , (45269, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3727, 'scrolldrainstamina3');
@@ -17788,7 +18934,9 @@ VALUES (3727, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3727, 13, True)
      , (3727, 11, True)
-     , (3727, 14, True);
+     , (3727, 14, True)
+     , (3727, 19, True)
+     , (3727, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3058, 'scrolllightningvulnerabilityother2');
@@ -17819,7 +18967,9 @@ VALUES (3058, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3058, 13, True)
      , (3058, 11, True)
-     , (3058, 14, True);
+     , (3058, 14, True)
+     , (3058, 19, True)
+     , (3058, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3318, 'scrollitemexpertiseother2');
@@ -17850,7 +19000,9 @@ VALUES (3318, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3318, 13, True)
      , (3318, 11, True)
-     , (3318, 14, True);
+     , (3318, 14, True)
+     , (3318, 19, True)
+     , (3318, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3064, 'scrollpierceprotectionother3');
@@ -17881,7 +19033,9 @@ VALUES (3064, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3064, 13, True)
      , (3064, 11, True)
-     , (3064, 14, True);
+     , (3064, 14, True)
+     , (3064, 19, True)
+     , (3064, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5969, 'scrollfletchingmasteryother2');
@@ -17912,7 +19066,9 @@ VALUES (5969, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5969, 13, True)
      , (5969, 11, True)
-     , (5969, 14, True);
+     , (5969, 14, True)
+     , (5969, 19, True)
+     , (5969, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2718, 'scrollquicknessself3');
@@ -17943,7 +19099,9 @@ VALUES (2718, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2718, 13, True)
      , (2718, 11, True)
-     , (2718, 14, True);
+     , (2718, 14, True)
+     , (2718, 19, True)
+     , (2718, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45270, 'ace45270-scrollofdualwieldmasteryotheriii');
@@ -17974,7 +19132,9 @@ VALUES (45270, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45270, 13, True)
      , (45270, 11, True)
-     , (45270, 14, True);
+     , (45270, 14, True)
+     , (45270, 19, True)
+     , (45270, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3264, 'scrollfealtyself3');
@@ -18005,7 +19165,9 @@ VALUES (3264, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3264, 13, True)
      , (3264, 11, True)
-     , (3264, 14, True);
+     , (3264, 14, True)
+     , (3264, 19, True)
+     , (3264, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21304, 'scrollflamearc3');
@@ -18036,7 +19198,9 @@ VALUES (21304, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21304, 13, True)
      , (21304, 11, True)
-     , (21304, 14, True);
+     , (21304, 14, True)
+     , (21304, 19, True)
+     , (21304, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1670, 'scrollaxemasteryother');
@@ -18067,7 +19231,9 @@ VALUES (1670, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1670, 13, True)
      , (1670, 11, True)
-     , (1670, 14, True);
+     , (1670, 14, True)
+     , (1670, 19, True)
+     , (1670, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45293, 'ace45293-scrollofrecklessnessmasteryotherii');
@@ -18098,7 +19264,9 @@ VALUES (45293, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45293, 13, True)
      , (45293, 11, True)
-     , (45293, 14, True);
+     , (45293, 14, True)
+     , (45293, 19, True)
+     , (45293, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3459, 'scrollpersonunfamiliarity3');
@@ -18129,7 +19297,9 @@ VALUES (3459, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3459, 13, True)
      , (3459, 11, True)
-     , (3459, 14, True);
+     , (3459, 14, True)
+     , (3459, 19, True)
+     , (3459, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3059, 'scrolllightningvulnerabilityother3');
@@ -18160,7 +19330,9 @@ VALUES (3059, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3059, 13, True)
      , (3059, 11, True)
-     , (3059, 14, True);
+     , (3059, 14, True)
+     , (3059, 19, True)
+     , (3059, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1874, 'scrollstaminatomanaself');
@@ -18191,7 +19363,9 @@ VALUES (1874, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1874, 13, True)
      , (1874, 11, True)
-     , (1874, 14, True);
+     , (1874, 14, True)
+     , (1874, 19, True)
+     , (1874, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3591, 'scrollweaponignorance5');
@@ -18222,7 +19396,9 @@ VALUES (3591, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3591, 13, True)
      , (3591, 11, True)
-     , (3591, 14, True);
+     , (3591, 14, True)
+     , (3591, 19, True)
+     , (3591, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2813, 'scrollflamebane3');
@@ -18253,7 +19429,9 @@ VALUES (2813, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2813, 13, True)
      , (2813, 11, True)
-     , (2813, 14, True);
+     , (2813, 14, True)
+     , (2813, 19, True)
+     , (2813, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1709, 'scrolljumpineptitude');
@@ -18284,7 +19462,9 @@ VALUES (1709, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1709, 13, True)
      , (1709, 11, True)
-     , (1709, 14, True);
+     , (1709, 14, True)
+     , (1709, 19, True)
+     , (1709, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43375, 'ace43375-scrollofvoidmagicmasteryothervii');
@@ -18315,7 +19495,9 @@ VALUES (43375, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43375, 13, True)
      , (43375, 11, True)
-     , (43375, 14, True);
+     , (43375, 14, True)
+     , (43375, 19, True)
+     , (43375, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2904, 'scrollsummonportal1');
@@ -18346,7 +19528,9 @@ VALUES (2904, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2904, 13, True)
      , (2904, 11, True)
-     , (2904, 14, True);
+     , (2904, 14, True)
+     , (2904, 19, True)
+     , (2904, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3497, 'scrollsprintself6');
@@ -18377,7 +19561,9 @@ VALUES (3497, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3497, 13, True)
      , (3497, 11, True)
-     , (3497, 14, True);
+     , (3497, 14, True)
+     , (3497, 19, True)
+     , (3497, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20485, 'scrollpiercevulnerabilityother7');
@@ -18408,7 +19594,9 @@ VALUES (20485, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20485, 13, True)
      , (20485, 11, True)
-     , (20485, 14, True);
+     , (20485, 14, True)
+     , (20485, 19, True)
+     , (20485, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41294, 'ace41294-scrollofgreasedpalms');
@@ -18439,7 +19627,9 @@ VALUES (41294, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41294, 13, True)
      , (41294, 11, True)
-     , (41294, 14, True);
+     , (41294, 14, True)
+     , (41294, 19, True)
+     , (41294, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21312, 'scrollforcearc4');
@@ -18470,7 +19660,9 @@ VALUES (21312, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21312, 13, True)
      , (21312, 11, True)
-     , (21312, 14, True);
+     , (21312, 14, True)
+     , (21312, 19, True)
+     , (21312, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20565, 'scrollmanaconvertmasteryother7');
@@ -18501,7 +19693,9 @@ VALUES (20565, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20565, 13, True)
      , (20565, 11, True)
-     , (20565, 14, True);
+     , (20565, 14, True)
+     , (20565, 19, True)
+     , (20565, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41264, 'ace41264-scrolloftwohandedweaponmasteryself');
@@ -18532,7 +19726,9 @@ VALUES (41264, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41264, 13, True)
      , (41264, 11, True)
-     , (41264, 14, True);
+     , (41264, 14, True)
+     , (41264, 19, True)
+     , (41264, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2665, 'scrollenfeeble3');
@@ -18563,7 +19759,9 @@ VALUES (2665, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2665, 13, True)
      , (2665, 11, True)
-     , (2665, 14, True);
+     , (2665, 14, True)
+     , (2665, 19, True)
+     , (2665, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1838, 'scrollacidprotectionother');
@@ -18594,7 +19792,9 @@ VALUES (1838, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1838, 13, True)
      , (1838, 11, True)
-     , (1838, 14, True);
+     , (1838, 14, True)
+     , (1838, 19, True)
+     , (1838, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3170, 'scrollaxemasteryself4');
@@ -18625,7 +19825,9 @@ VALUES (3170, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3170, 13, True)
      , (3170, 11, True)
-     , (3170, 14, True);
+     , (3170, 14, True)
+     , (3170, 19, True)
+     , (3170, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1898, 'scrollweakenlock');
@@ -18656,7 +19858,9 @@ VALUES (1898, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1898, 13, True)
      , (1898, 11, True)
-     , (1898, 14, True);
+     , (1898, 14, True)
+     , (1898, 19, True)
+     , (1898, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4387, 'scrollarmorother4');
@@ -18687,7 +19891,9 @@ VALUES (4387, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4387, 13, True)
      , (4387, 11, True)
-     , (4387, 14, True);
+     , (4387, 14, True)
+     , (4387, 19, True)
+     , (4387, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1659, 'scrollmanarenewalself');
@@ -18718,7 +19924,9 @@ VALUES (1659, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1659, 13, True)
      , (1659, 11, True)
-     , (1659, 14, True);
+     , (1659, 14, True)
+     , (1659, 19, True)
+     , (1659, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1855, 'scrollpiercevulnerabilityother');
@@ -18749,7 +19957,9 @@ VALUES (1855, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1855, 13, True)
      , (1855, 11, True)
-     , (1855, 14, True);
+     , (1855, 14, True)
+     , (1855, 19, True)
+     , (1855, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3140, 'scrollarcaneenlightenmentself4');
@@ -18780,7 +19990,9 @@ VALUES (3140, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3140, 13, True)
      , (3140, 11, True)
-     , (3140, 14, True);
+     , (3140, 14, True)
+     , (3140, 19, True)
+     , (3140, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45253, 'ace45253-scrollofdirtyfightingmasteryselfii');
@@ -18811,7 +20023,9 @@ VALUES (45253, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45253, 13, True)
      , (45253, 11, True)
-     , (45253, 14, True);
+     , (45253, 14, True)
+     , (45253, 19, True)
+     , (45253, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43362, 'ace43362-scrollofvoidmagicmasteryotherv');
@@ -18842,7 +20056,9 @@ VALUES (43362, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43362, 13, True)
      , (43362, 11, True)
-     , (43362, 14, True);
+     , (43362, 14, True)
+     , (43362, 19, True)
+     , (43362, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1689, 'scrollcreatureenchantmentother');
@@ -18873,7 +20089,9 @@ VALUES (1689, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1689, 13, True)
      , (1689, 11, True)
-     , (1689, 14, True);
+     , (1689, 14, True)
+     , (1689, 19, True)
+     , (1689, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2789, 'scrollbloodloather4');
@@ -18904,7 +20122,9 @@ VALUES (2789, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2789, 13, True)
      , (2789, 11, True)
-     , (2789, 14, True);
+     , (2789, 14, True)
+     , (2789, 19, True)
+     , (2789, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3450, 'scrollpersonattunementother4');
@@ -18935,7 +20155,9 @@ VALUES (3450, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3450, 13, True)
      , (3450, 11, True)
-     , (3450, 14, True);
+     , (3450, 14, True)
+     , (3450, 19, True)
+     , (3450, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2907, 'scrollacidstream2');
@@ -18966,7 +20188,9 @@ VALUES (2907, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2907, 13, True)
      , (2907, 11, True)
-     , (2907, 14, True);
+     , (2907, 14, True)
+     , (2907, 19, True)
+     , (2907, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3738, 'scrollinfusemana4');
@@ -18997,7 +20221,9 @@ VALUES (3738, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3738, 13, True)
      , (3738, 11, True)
-     , (3738, 14, True);
+     , (3738, 14, True)
+     , (3738, 19, True)
+     , (3738, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3471, 'scrollresistmagicself5');
@@ -19028,7 +20254,9 @@ VALUES (3471, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3471, 13, True)
      , (3471, 11, True)
-     , (3471, 14, True);
+     , (3471, 14, True)
+     , (3471, 19, True)
+     , (3471, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3069, 'scrollpierceprotectionself3');
@@ -19059,7 +20287,9 @@ VALUES (3069, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3069, 13, True)
      , (3069, 11, True)
-     , (3069, 14, True);
+     , (3069, 14, True)
+     , (3069, 19, True)
+     , (3069, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20521, 'scrolldaggermasteryself7');
@@ -19090,7 +20320,9 @@ VALUES (20521, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20521, 13, True)
      , (20521, 11, True)
-     , (20521, 14, True);
+     , (20521, 14, True)
+     , (20521, 19, True)
+     , (20521, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20245, 'scrollhealself7');
@@ -19121,7 +20353,9 @@ VALUES (20245, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20245, 13, True)
      , (20245, 11, True)
-     , (20245, 14, True);
+     , (20245, 14, True)
+     , (20245, 19, True)
+     , (20245, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20494, 'scrollrejuvenateself7');
@@ -19152,7 +20386,9 @@ VALUES (20494, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20494, 13, True)
      , (20494, 11, True)
-     , (20494, 14, True);
+     , (20494, 14, True)
+     , (20494, 19, True)
+     , (20494, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7519, 'scrollforcewall');
@@ -19183,7 +20419,9 @@ VALUES (7519, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7519, 13, True)
      , (7519, 11, True)
-     , (7519, 14, True);
+     , (7519, 14, True)
+     , (7519, 19, True)
+     , (7519, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7521, 'scrolllightningwall');
@@ -19214,7 +20452,9 @@ VALUES (7521, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7521, 13, True)
      , (7521, 11, True)
-     , (7521, 14, True);
+     , (7521, 14, True)
+     , (7521, 19, True)
+     , (7521, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7509, 'scrollacidring');
@@ -19245,7 +20485,9 @@ VALUES (7509, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7509, 13, True)
      , (7509, 11, True)
-     , (7509, 14, True);
+     , (7509, 14, True)
+     , (7509, 19, True)
+     , (7509, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36542, 'ace36542-scrolloftuskerfists');
@@ -19277,7 +20519,9 @@ VALUES (36542, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (36542, 13, True)
      , (36542, 11, True)
-     , (36542, 14, True);
+     , (36542, 14, True)
+     , (36542, 19, True)
+     , (36542, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7515, 'scrollshockwavering');
@@ -19308,7 +20552,9 @@ VALUES (7515, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7515, 13, True)
      , (7515, 11, True)
-     , (7515, 14, True);
+     , (7515, 14, True)
+     , (7515, 19, True)
+     , (7515, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7514, 'scrolllightningring');
@@ -19339,7 +20585,9 @@ VALUES (7514, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7514, 13, True)
      , (7514, 11, True)
-     , (7514, 14, True);
+     , (7514, 14, True)
+     , (7514, 19, True)
+     , (7514, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7518, 'scrollflamewall');
@@ -19370,7 +20618,9 @@ VALUES (7518, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7518, 13, True)
      , (7518, 11, True)
-     , (7518, 14, True);
+     , (7518, 14, True)
+     , (7518, 19, True)
+     , (7518, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7511, 'scrollflamering');
@@ -19401,7 +20651,9 @@ VALUES (7511, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7511, 13, True)
      , (7511, 11, True)
-     , (7511, 14, True);
+     , (7511, 14, True)
+     , (7511, 19, True)
+     , (7511, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43319, 'ace43319-scrollofcloudedsoul');
@@ -19432,7 +20684,9 @@ VALUES (43319, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43319, 13, True)
      , (43319, 11, True)
-     , (43319, 14, True);
+     , (43319, 14, True)
+     , (43319, 19, True)
+     , (43319, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7522, 'scrollshockwavewall');
@@ -19463,7 +20717,9 @@ VALUES (7522, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7522, 13, True)
      , (7522, 11, True)
-     , (7522, 14, True);
+     , (7522, 14, True)
+     , (7522, 19, True)
+     , (7522, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7512, 'scrollforcering');
@@ -19494,7 +20750,9 @@ VALUES (7512, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7512, 13, True)
      , (7512, 11, True)
-     , (7512, 14, True);
+     , (7512, 14, True)
+     , (7512, 19, True)
+     , (7512, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7517, 'scrollbladewall');
@@ -19525,7 +20783,9 @@ VALUES (7517, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7517, 13, True)
      , (7517, 11, True)
-     , (7517, 14, True);
+     , (7517, 14, True)
+     , (7517, 19, True)
+     , (7517, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7513, 'scrollfrostring');
@@ -19556,7 +20816,9 @@ VALUES (7513, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7513, 13, True)
      , (7513, 11, True)
-     , (7513, 14, True);
+     , (7513, 14, True)
+     , (7513, 19, True)
+     , (7513, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7516, 'scrollacidwall');
@@ -19587,7 +20849,9 @@ VALUES (7516, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7516, 13, True)
      , (7516, 11, True)
-     , (7516, 14, True);
+     , (7516, 14, True)
+     , (7516, 19, True)
+     , (7516, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7510, 'scrollbladering');
@@ -19618,7 +20882,9 @@ VALUES (7510, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7510, 13, True)
      , (7510, 11, True)
-     , (7510, 14, True);
+     , (7510, 14, True)
+     , (7510, 19, True)
+     , (7510, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2905, 'scrollsummonportal2');
@@ -19649,7 +20915,9 @@ VALUES (2905, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2905, 13, True)
      , (2905, 11, True)
-     , (2905, 14, True);
+     , (2905, 14, True)
+     , (2905, 19, True)
+     , (2905, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20622, 'scrollsummonsecondportal1');
@@ -19680,7 +20948,9 @@ VALUES (20622, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20622, 13, True)
      , (20622, 11, True)
-     , (20622, 14, True);
+     , (20622, 14, True)
+     , (20622, 19, True)
+     , (20622, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35594, 'ace35594-scrollofflamechain');
@@ -19711,7 +20981,9 @@ VALUES (35594, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (35594, 13, True)
      , (35594, 11, True)
-     , (35594, 14, True);
+     , (35594, 14, True)
+     , (35594, 19, True)
+     , (35594, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1785, 'scrollrevitalizeself');
@@ -19742,7 +21014,9 @@ VALUES (1785, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1785, 13, True)
      , (1785, 11, True)
-     , (1785, 14, True);
+     , (1785, 14, True)
+     , (1785, 19, True)
+     , (1785, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1658, 'scrollregenerateself');
@@ -19773,7 +21047,9 @@ VALUES (1658, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1658, 13, True)
      , (1658, 11, True)
-     , (1658, 14, True);
+     , (1658, 14, True)
+     , (1658, 19, True)
+     , (1658, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1656, 'scrollrejuvenateself');
@@ -19803,7 +21079,9 @@ VALUES (1656, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1656, 13, True)
      , (1656, 11, True)
-     , (1656, 14, True);
+     , (1656, 14, True)
+     , (1656, 19, True)
+     , (1656, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1856, 'scrollexhaustion');
@@ -19834,7 +21112,9 @@ VALUES (1856, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1856, 13, True)
      , (1856, 11, True)
-     , (1856, 14, True);
+     , (1856, 14, True)
+     , (1856, 19, True)
+     , (1856, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1857, 'scrollfester');
@@ -19865,7 +21145,9 @@ VALUES (1857, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1857, 13, True)
      , (1857, 11, True)
-     , (1857, 14, True);
+     , (1857, 14, True)
+     , (1857, 19, True)
+     , (1857, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2677, 'scrollfocusother5');
@@ -19896,7 +21178,9 @@ VALUES (2677, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2677, 13, True)
      , (2677, 11, True)
-     , (2677, 14, True);
+     , (2677, 14, True)
+     , (2677, 19, True)
+     , (2677, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3269, 'scrollhealingineptitude3');
@@ -19927,7 +21211,9 @@ VALUES (3269, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3269, 13, True)
      , (3269, 11, True)
-     , (3269, 14, True);
+     , (3269, 14, True)
+     , (3269, 19, True)
+     , (3269, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3341, 'scrolljumpmasteryself5');
@@ -19958,7 +21244,9 @@ VALUES (3341, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3341, 13, True)
      , (3341, 11, True)
-     , (3341, 14, True);
+     , (3341, 14, True)
+     , (3341, 19, True)
+     , (3341, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49473, 'ace49473-scrollofsummoningmasteryselfiv');
@@ -19989,7 +21277,9 @@ VALUES (49473, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49473, 13, True)
      , (49473, 11, True)
-     , (49473, 14, True);
+     , (49473, 14, True)
+     , (49473, 19, True)
+     , (49473, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3110, 'scrollregenerateother4');
@@ -20020,7 +21310,9 @@ VALUES (3110, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3110, 13, True)
      , (3110, 11, True)
-     , (3110, 14, True);
+     , (3110, 14, True)
+     , (3110, 19, True)
+     , (3110, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21104, 'scrollmanabolt3');
@@ -20051,7 +21343,9 @@ VALUES (21104, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21104, 13, True)
      , (21104, 11, True)
-     , (21104, 14, True);
+     , (21104, 14, True)
+     , (21104, 19, True)
+     , (21104, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45354, 'ace45354-scrollofsneakattackmasteryselfvii');
@@ -20082,7 +21376,9 @@ VALUES (45354, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45354, 13, True)
      , (45354, 11, True)
-     , (45354, 14, True);
+     , (45354, 14, True)
+     , (45354, 19, True)
+     , (45354, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3122, 'scrollrejuvenateother6');
@@ -20113,7 +21409,9 @@ VALUES (3122, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3122, 13, True)
      , (3122, 11, True)
-     , (3122, 14, True);
+     , (3122, 14, True)
+     , (3122, 19, True)
+     , (3122, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5954, 'scrollcookingmasteryother5');
@@ -20144,7 +21442,9 @@ VALUES (5954, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5954, 13, True)
      , (5954, 11, True)
-     , (5954, 14, True);
+     , (5954, 14, True)
+     , (5954, 19, True)
+     , (5954, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9639, 'scrollhealthtostaminaself6');
@@ -20175,7 +21475,9 @@ VALUES (9639, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9639, 13, True)
      , (9639, 11, True)
-     , (9639, 14, True);
+     , (9639, 14, True)
+     , (9639, 19, True)
+     , (9639, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45345, 'ace45345-scrollofsneakattackmasteryothervi');
@@ -20206,7 +21508,9 @@ VALUES (45345, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45345, 13, True)
      , (45345, 11, True)
-     , (45345, 14, True);
+     , (45345, 14, True)
+     , (45345, 19, True)
+     , (45345, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3186, 'scrollbowmasteryself5');
@@ -20237,7 +21541,9 @@ VALUES (3186, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3186, 13, True)
      , (3186, 11, True)
-     , (3186, 14, True);
+     , (3186, 14, True)
+     , (3186, 19, True)
+     , (3186, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2986, 'scrollacidvulnerabilityother5');
@@ -20268,7 +21574,9 @@ VALUES (2986, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2986, 13, True)
      , (2986, 11, True)
-     , (2986, 14, True);
+     , (2986, 14, True)
+     , (2986, 19, True)
+     , (2986, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21328, 'scrolllightningarc6');
@@ -20299,7 +21607,9 @@ VALUES (21328, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21328, 13, True)
      , (21328, 11, True)
-     , (21328, 14, True);
+     , (21328, 14, True)
+     , (21328, 19, True)
+     , (21328, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20323, 'scrolldispelcreatureneutralother6');
@@ -20330,7 +21640,9 @@ VALUES (20323, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20323, 13, True)
      , (20323, 11, True)
-     , (20323, 14, True);
+     , (20323, 14, True)
+     , (20323, 19, True)
+     , (20323, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3052, 'scrolllightningprotectionother6');
@@ -20361,7 +21673,9 @@ VALUES (3052, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3052, 13, True)
      , (3052, 11, True)
-     , (3052, 14, True);
+     , (3052, 14, True)
+     , (3052, 19, True)
+     , (3052, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28010, 'scrollspiritloather2');
@@ -20392,7 +21706,9 @@ VALUES (28010, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28010, 13, True)
      , (28010, 11, True)
-     , (28010, 14, True);
+     , (28010, 14, True)
+     , (28010, 19, True)
+     , (28010, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1872, 'scrollstaminatohealthself');
@@ -20423,7 +21739,9 @@ VALUES (1872, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1872, 13, True)
      , (1872, 11, True)
-     , (1872, 14, True);
+     , (1872, 14, True)
+     , (1872, 19, True)
+     , (1872, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9610, 'scrollmanaineptitude3');
@@ -20454,7 +21772,9 @@ VALUES (9610, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9610, 13, True)
      , (9610, 11, True)
-     , (9610, 14, True);
+     , (9610, 14, True)
+     , (9610, 19, True)
+     , (9610, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3118, 'scrollrejuvenateother2');
@@ -20485,7 +21805,9 @@ VALUES (3118, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3118, 13, True)
      , (3118, 11, True)
-     , (3118, 14, True);
+     , (3118, 14, True)
+     , (3118, 19, True)
+     , (3118, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1783, 'scrollfocusself3');
@@ -20516,7 +21838,9 @@ VALUES (1783, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1783, 13, True)
      , (1783, 11, True)
-     , (1783, 14, True);
+     , (1783, 14, True)
+     , (1783, 19, True)
+     , (1783, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2988, 'scrollbladeprotectionother2');
@@ -20547,7 +21871,9 @@ VALUES (2988, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2988, 13, True)
      , (2988, 11, True)
-     , (2988, 14, True);
+     , (2988, 14, True)
+     , (2988, 19, True)
+     , (2988, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3348, 'scrollleadershipineptitude2');
@@ -20578,7 +21904,9 @@ VALUES (3348, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3348, 13, True)
      , (3348, 11, True)
-     , (3348, 14, True);
+     , (3348, 14, True)
+     , (3348, 19, True)
+     , (3348, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2788, 'scrollbloodloather3');
@@ -20609,7 +21937,9 @@ VALUES (2788, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2788, 13, True)
      , (2788, 11, True)
-     , (2788, 14, True);
+     , (2788, 14, True)
+     , (2788, 19, True)
+     , (2788, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2647, 'scrollcoordinationother5');
@@ -20640,7 +21970,9 @@ VALUES (2647, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2647, 13, True)
      , (2647, 11, True)
-     , (2647, 14, True);
+     , (2647, 14, True)
+     , (2647, 19, True)
+     , (2647, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2839, 'scrollhidevalue4');
@@ -20671,7 +22003,9 @@ VALUES (2839, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2839, 13, True)
      , (2839, 11, True)
-     , (2839, 14, True);
+     , (2839, 14, True)
+     , (2839, 19, True)
+     , (2839, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5944, 'scrollcookingineptitude');
@@ -20702,7 +22036,9 @@ VALUES (5944, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5944, 13, True)
      , (5944, 11, True)
-     , (5944, 14, True);
+     , (5944, 14, True)
+     , (5944, 19, True)
+     , (5944, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1719, 'scrolllockpickineptitude');
@@ -20733,7 +22069,9 @@ VALUES (1719, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1719, 13, True)
      , (1719, 11, True)
-     , (1719, 14, True);
+     , (1719, 14, True)
+     , (1719, 19, True)
+     , (1719, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3568, 'scrollwarmagicmasteryother2');
@@ -20764,7 +22102,9 @@ VALUES (3568, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3568, 13, True)
      , (3568, 11, True)
-     , (3568, 14, True);
+     , (3568, 14, True)
+     , (3568, 19, True)
+     , (3568, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20623, 'scrollsummonsecondportal2');
@@ -20795,7 +22135,9 @@ VALUES (20623, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20623, 13, True)
      , (20623, 11, True)
-     , (20623, 14, True);
+     , (20623, 14, True)
+     , (20623, 19, True)
+     , (20623, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49464, 'ace49464-scrollofsummoningmasteryotherii');
@@ -20826,7 +22168,9 @@ VALUES (49464, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49464, 13, True)
      , (49464, 11, True)
-     , (49464, 14, True);
+     , (49464, 14, True)
+     , (49464, 19, True)
+     , (49464, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43331, 'ace43331-scrolloffesteringcurseiii');
@@ -20857,7 +22201,9 @@ VALUES (43331, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43331, 13, True)
      , (43331, 11, True)
-     , (43331, 14, True);
+     , (43331, 14, True)
+     , (43331, 19, True)
+     , (43331, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2730, 'scrollrevitalizeself5');
@@ -20888,7 +22234,9 @@ VALUES (2730, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2730, 13, True)
      , (2730, 11, True)
-     , (2730, 14, True);
+     , (2730, 14, True)
+     , (2730, 19, True)
+     , (2730, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2704, 'scrollimperil4');
@@ -20919,7 +22267,9 @@ VALUES (2704, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2704, 13, True)
      , (2704, 11, True)
-     , (2704, 14, True);
+     , (2704, 14, True)
+     , (2704, 19, True)
+     , (2704, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2671, 'scrollfeeblemind4');
@@ -20950,7 +22300,9 @@ VALUES (2671, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2671, 13, True)
      , (2671, 11, True)
-     , (2671, 14, True);
+     , (2671, 14, True)
+     , (2671, 19, True)
+     , (2671, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3026, 'scrollcoldprotectionself5');
@@ -20981,7 +22333,9 @@ VALUES (3026, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3026, 13, True)
      , (3026, 11, True)
-     , (3026, 14, True);
+     , (3026, 14, True)
+     , (3026, 19, True)
+     , (3026, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2971, 'scrollwhirlingblade5');
@@ -21012,7 +22366,9 @@ VALUES (2971, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2971, 13, True)
      , (2971, 11, True)
-     , (2971, 14, True);
+     , (2971, 14, True)
+     , (2971, 19, True)
+     , (2971, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3570, 'scrollwarmagicmasteryother4');
@@ -21043,7 +22399,9 @@ VALUES (3570, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3570, 13, True)
      , (3570, 11, True)
-     , (3570, 14, True);
+     , (3570, 14, True)
+     , (3570, 19, True)
+     , (3570, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3100, 'scrollmanarenewalother4');
@@ -21074,7 +22432,9 @@ VALUES (3100, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3100, 13, True)
      , (3100, 11, True)
-     , (3100, 14, True);
+     , (3100, 14, True)
+     , (3100, 19, True)
+     , (3100, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2958, 'scrolllightningbolt5');
@@ -21105,7 +22465,9 @@ VALUES (2958, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2958, 13, True)
      , (2958, 11, True)
-     , (2958, 14, True);
+     , (2958, 14, True)
+     , (2958, 19, True)
+     , (2958, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2738, 'scrollstrengthother3');
@@ -21136,7 +22498,9 @@ VALUES (2738, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2738, 13, True)
      , (2738, 11, True)
-     , (2738, 14, True);
+     , (2738, 14, True)
+     , (2738, 19, True)
+     , (2738, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45326, 'ace45326-scrollofshieldmasteryselfiii');
@@ -21167,7 +22531,9 @@ VALUES (45326, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45326, 13, True)
      , (45326, 11, True)
-     , (45326, 14, True);
+     , (45326, 14, True)
+     , (45326, 19, True)
+     , (45326, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3515, 'scrollswordineptitude4');
@@ -21198,7 +22564,9 @@ VALUES (3515, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3515, 13, True)
      , (3515, 11, True)
-     , (3515, 14, True);
+     , (3515, 14, True)
+     , (3515, 19, True)
+     , (3515, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3344, 'scrollleadenfeet3');
@@ -21229,7 +22597,9 @@ VALUES (3344, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3344, 13, True)
      , (3344, 11, True)
-     , (3344, 14, True);
+     , (3344, 14, True)
+     , (3344, 19, True)
+     , (3344, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3004, 'scrollbludgeonprotectionother3');
@@ -21260,7 +22630,9 @@ VALUES (3004, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3004, 13, True)
      , (3004, 11, True)
-     , (3004, 14, True);
+     , (3004, 14, True)
+     , (3004, 19, True)
+     , (3004, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2775, 'scrollbladebane5');
@@ -21291,7 +22663,9 @@ VALUES (2775, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2775, 13, True)
      , (2775, 11, True)
-     , (2775, 14, True);
+     , (2775, 14, True)
+     , (2775, 19, True)
+     , (2775, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3359, 'scrollleadershipmasteryself3');
@@ -21322,7 +22696,9 @@ VALUES (3359, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3359, 13, True)
      , (3359, 11, True)
-     , (3359, 14, True);
+     , (3359, 14, True)
+     , (3359, 19, True)
+     , (3359, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45271, 'ace45271-scrollofdualwieldmasteryotheriv');
@@ -21353,7 +22729,9 @@ VALUES (45271, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45271, 13, True)
      , (45271, 11, True)
-     , (45271, 14, True);
+     , (45271, 14, True)
+     , (45271, 19, True)
+     , (45271, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2895, 'scrollturnblade4');
@@ -21384,7 +22762,9 @@ VALUES (2895, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2895, 13, True)
      , (2895, 11, True)
-     , (2895, 14, True);
+     , (2895, 14, True)
+     , (2895, 19, True)
+     , (2895, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43340, 'ace43340-scrollofweakeningcurseiii');
@@ -21415,7 +22795,9 @@ VALUES (43340, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43340, 13, True)
      , (43340, 11, True)
-     , (43340, 14, True);
+     , (43340, 14, True)
+     , (43340, 19, True)
+     , (43340, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3190, 'scrollcreatureenchantmentineptitude4');
@@ -21446,7 +22828,9 @@ VALUES (3190, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3190, 13, True)
      , (3190, 11, True)
-     , (3190, 14, True);
+     , (3190, 14, True)
+     , (3190, 19, True)
+     , (3190, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3466, 'scrollresistmagicother5');
@@ -21477,7 +22861,9 @@ VALUES (3466, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3466, 13, True)
      , (3466, 11, True)
-     , (3466, 14, True);
+     , (3466, 14, True)
+     , (3466, 19, True)
+     , (3466, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45337, 'ace45337-scrollofsneakattackineptitudeothervi');
@@ -21508,7 +22894,9 @@ VALUES (45337, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45337, 13, True)
      , (45337, 11, True)
-     , (45337, 14, True);
+     , (45337, 14, True)
+     , (45337, 19, True)
+     , (45337, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9655, 'scrollstaminatomanaself2');
@@ -21539,7 +22927,9 @@ VALUES (9655, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9655, 13, True)
      , (9655, 11, True)
-     , (9655, 14, True);
+     , (9655, 14, True)
+     , (9655, 19, True)
+     , (9655, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3115, 'scrollregenerateself4');
@@ -21570,7 +22960,9 @@ VALUES (3115, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3115, 13, True)
      , (3115, 11, True)
-     , (3115, 14, True);
+     , (3115, 14, True)
+     , (3115, 19, True)
+     , (3115, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41299, 'ace41299-scrolloftwohandedweaponmasteryotheriv');
@@ -21601,7 +22993,9 @@ VALUES (41299, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41299, 13, True)
      , (41299, 11, True)
-     , (41299, 14, True);
+     , (41299, 14, True)
+     , (41299, 19, True)
+     , (41299, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43332, 'ace43332-scrolloffesteringcurseiv');
@@ -21632,7 +23026,9 @@ VALUES (43332, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43332, 13, True)
      , (43332, 11, True)
-     , (43332, 14, True);
+     , (43332, 14, True)
+     , (43332, 19, True)
+     , (43332, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2769, 'scrollacidlure4');
@@ -21663,7 +23059,9 @@ VALUES (2769, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2769, 13, True)
      , (2769, 11, True)
-     , (2769, 14, True);
+     , (2769, 14, True)
+     , (2769, 19, True)
+     , (2769, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4392, 'scrollarmorself4');
@@ -21694,7 +23092,9 @@ VALUES (4392, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4392, 13, True)
      , (4392, 11, True)
-     , (4392, 14, True);
+     , (4392, 14, True)
+     , (4392, 19, True)
+     , (4392, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3260, 'scrollfealtyother4');
@@ -21725,7 +23125,9 @@ VALUES (3260, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3260, 13, True)
      , (3260, 11, True)
-     , (3260, 14, True);
+     , (3260, 14, True)
+     , (3260, 19, True)
+     , (3260, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9663, 'scrolldrainmana4');
@@ -21756,7 +23158,9 @@ VALUES (9663, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9663, 13, True)
      , (9663, 11, True)
-     , (9663, 14, True);
+     , (9663, 14, True)
+     , (9663, 19, True)
+     , (9663, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3235, 'scrolldeceptionineptitude4');
@@ -21787,7 +23191,9 @@ VALUES (3235, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3235, 13, True)
      , (3235, 11, True)
-     , (3235, 14, True);
+     , (3235, 14, True)
+     , (3235, 19, True)
+     , (3235, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21111, 'scrollstaminabolt3');
@@ -21818,7 +23224,9 @@ VALUES (21111, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21111, 13, True)
      , (21111, 11, True)
-     , (21111, 14, True);
+     , (21111, 14, True)
+     , (21111, 19, True)
+     , (21111, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2708, 'scrollmanadrain3');
@@ -21849,7 +23257,9 @@ VALUES (2708, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2708, 13, True)
      , (2708, 11, True)
-     , (2708, 14, True);
+     , (2708, 14, True)
+     , (2708, 19, True)
+     , (2708, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3569, 'scrollwarmagicmasteryother3');
@@ -21880,7 +23290,9 @@ VALUES (3569, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3569, 13, True)
      , (3569, 11, True)
-     , (3569, 14, True);
+     , (3569, 14, True)
+     , (3569, 19, True)
+     , (3569, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2860, 'scrolllightninglure5');
@@ -21911,7 +23323,9 @@ VALUES (2860, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2860, 13, True)
      , (2860, 11, True)
-     , (2860, 14, True);
+     , (2860, 14, True)
+     , (2860, 19, True)
+     , (2860, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20390, 'scrolldispellifeneutralother');
@@ -21942,7 +23356,9 @@ VALUES (20390, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20390, 13, True)
      , (20390, 11, True)
-     , (20390, 14, True);
+     , (20390, 14, True)
+     , (20390, 19, True)
+     , (20390, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41297, 'ace41297-scrolloftwohandedweaponmasteryotherii');
@@ -21973,7 +23389,9 @@ VALUES (41297, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41297, 13, True)
      , (41297, 11, True)
-     , (41297, 14, True);
+     , (41297, 14, True)
+     , (41297, 19, True)
+     , (41297, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21331, 'scrollshockarc2');
@@ -22004,7 +23422,9 @@ VALUES (21331, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21331, 13, True)
      , (21331, 11, True)
-     , (21331, 14, True);
+     , (21331, 14, True)
+     , (21331, 19, True)
+     , (21331, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3433, 'scrollmanaconvertmasteryself2');
@@ -22035,7 +23455,9 @@ VALUES (3433, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3433, 13, True)
      , (3433, 11, True)
-     , (3433, 14, True);
+     , (3433, 14, True)
+     , (3433, 19, True)
+     , (3433, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1661, 'scrollresistmagicother');
@@ -22066,7 +23488,9 @@ VALUES (1661, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1661, 13, True)
      , (1661, 11, True)
-     , (1661, 14, True);
+     , (1661, 14, True)
+     , (1661, 19, True)
+     , (1661, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45254, 'ace45254-scrollofdirtyfightingmasteryselfiii');
@@ -22097,7 +23521,9 @@ VALUES (45254, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45254, 13, True)
      , (45254, 11, True)
-     , (45254, 14, True);
+     , (45254, 14, True)
+     , (45254, 19, True)
+     , (45254, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3441, 'scrollmonsterattunementother5');
@@ -22128,7 +23554,9 @@ VALUES (3441, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3441, 13, True)
      , (3441, 11, True)
-     , (3441, 14, True);
+     , (3441, 14, True)
+     , (3441, 19, True)
+     , (3441, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9647, 'scrollmanatostaminaself4');
@@ -22159,7 +23587,9 @@ VALUES (9647, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9647, 13, True)
      , (9647, 11, True)
-     , (9647, 14, True);
+     , (9647, 14, True)
+     , (9647, 19, True)
+     , (9647, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3365, 'scrolllifemagicineptitude4');
@@ -22190,7 +23620,9 @@ VALUES (3365, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3365, 13, True)
      , (3365, 11, True)
-     , (3365, 14, True);
+     , (3365, 14, True)
+     , (3365, 19, True)
+     , (3365, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21106, 'scrollmanabolt5');
@@ -22221,7 +23653,9 @@ VALUES (21106, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21106, 13, True)
      , (21106, 11, True)
-     , (21106, 14, True);
+     , (21106, 14, True)
+     , (21106, 19, True)
+     , (21106, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3527, 'scrollswordmasteryself6');
@@ -22252,7 +23686,9 @@ VALUES (3527, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3527, 13, True)
      , (3527, 11, True)
-     , (3527, 14, True);
+     , (3527, 14, True)
+     , (3527, 19, True)
+     , (3527, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5997, 'scrollalchemymasteryself6');
@@ -22283,7 +23719,9 @@ VALUES (5997, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5997, 13, True)
      , (5997, 11, True)
-     , (5997, 14, True);
+     , (5997, 14, True)
+     , (5997, 19, True)
+     , (5997, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20397, 'scrolldispellifeneutralself2');
@@ -22314,7 +23752,9 @@ VALUES (20397, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20397, 13, True)
      , (20397, 11, True)
-     , (20397, 14, True);
+     , (20397, 14, True)
+     , (20397, 19, True)
+     , (20397, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3430, 'scrollmanaconvertmasteryother4');
@@ -22345,7 +23785,9 @@ VALUES (3430, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3430, 13, True)
      , (3430, 11, True)
-     , (3430, 14, True);
+     , (3430, 14, True)
+     , (3430, 19, True)
+     , (3430, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21333, 'scrollshockarc4');
@@ -22376,7 +23818,9 @@ VALUES (21333, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21333, 13, True)
      , (21333, 11, True)
-     , (21333, 14, True);
+     , (21333, 14, True)
+     , (21333, 19, True)
+     , (21333, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3015, 'scrollbludgeonvulnerabilityother4');
@@ -22407,7 +23851,9 @@ VALUES (3015, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3015, 13, True)
      , (3015, 11, True)
-     , (3015, 14, True);
+     , (3015, 14, True)
+     , (3015, 19, True)
+     , (3015, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3147, 'scrollarmorexpertiseother6');
@@ -22438,7 +23884,9 @@ VALUES (3147, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3147, 13, True)
      , (3147, 11, True)
-     , (3147, 14, True);
+     , (3147, 14, True)
+     , (3147, 19, True)
+     , (3147, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20498, 'scrollarcanebenightedness7');
@@ -22469,7 +23917,9 @@ VALUES (20498, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20498, 13, True)
      , (20498, 11, True)
-     , (20498, 14, True);
+     , (20498, 14, True)
+     , (20498, 19, True)
+     , (20498, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5972, 'scrollfletchingmasteryother5');
@@ -22500,7 +23950,9 @@ VALUES (5972, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5972, 13, True)
      , (5972, 11, True)
-     , (5972, 14, True);
+     , (5972, 14, True)
+     , (5972, 19, True)
+     , (5972, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20554, 'scrolllifemagicmasteryself7');
@@ -22531,7 +23983,9 @@ VALUES (20554, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20554, 13, True)
      , (20554, 11, True)
-     , (20554, 14, True);
+     , (20554, 14, True)
+     , (20554, 19, True)
+     , (20554, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2816, 'scrollflamebane6');
@@ -22562,7 +24016,9 @@ VALUES (2816, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2816, 13, True)
      , (2816, 11, True)
-     , (2816, 14, True);
+     , (2816, 14, True)
+     , (2816, 19, True)
+     , (2816, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3057, 'scrolllightningprotectionself6');
@@ -22593,7 +24049,9 @@ VALUES (3057, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3057, 13, True)
      , (3057, 11, True)
-     , (3057, 14, True);
+     , (3057, 14, True)
+     , (3057, 19, True)
+     , (3057, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3037, 'scrollfireprotectionother6');
@@ -22624,7 +24082,9 @@ VALUES (3037, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3037, 13, True)
      , (3037, 11, True)
-     , (3037, 14, True);
+     , (3037, 14, True)
+     , (3037, 19, True)
+     , (3037, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4394, 'scrollarmorself6');
@@ -22655,7 +24115,9 @@ VALUES (4394, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4394, 13, True)
      , (4394, 11, True)
-     , (4394, 14, True);
+     , (4394, 14, True)
+     , (4394, 19, True)
+     , (4394, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2841, 'scrollhidevalue6');
@@ -22686,7 +24148,9 @@ VALUES (2841, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2841, 13, True)
      , (2841, 11, True)
-     , (2841, 14, True);
+     , (2841, 14, True)
+     , (2841, 19, True)
+     , (2841, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2686, 'scrollfrailty6');
@@ -22717,7 +24181,9 @@ VALUES (2686, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2686, 13, True)
      , (2686, 11, True)
-     , (2686, 14, True);
+     , (2686, 14, True)
+     , (2686, 19, True)
+     , (2686, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3082, 'scrollexhaustion6');
@@ -22748,7 +24214,9 @@ VALUES (3082, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3082, 13, True)
      , (3082, 11, True)
-     , (3082, 14, True);
+     , (3082, 14, True)
+     , (3082, 19, True)
+     , (3082, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3055, 'scrolllightningprotectionself4');
@@ -22779,7 +24247,9 @@ VALUES (3055, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3055, 13, True)
      , (3055, 11, True)
-     , (3055, 14, True);
+     , (3055, 14, True)
+     , (3055, 19, True)
+     , (3055, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1741, 'scrollswordineptitude');
@@ -22810,7 +24280,9 @@ VALUES (1741, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1741, 13, True)
      , (1741, 11, True)
-     , (1741, 14, True);
+     , (1741, 14, True)
+     , (1741, 19, True)
+     , (1741, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5958, 'scrollcookingmasteryself3');
@@ -22841,7 +24313,9 @@ VALUES (5958, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5958, 13, True)
      , (5958, 11, True)
-     , (5958, 14, True);
+     , (5958, 14, True)
+     , (5958, 19, True)
+     , (5958, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3523, 'scrollswordmasteryself2');
@@ -22872,7 +24346,9 @@ VALUES (3523, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3523, 13, True)
      , (3523, 11, True)
-     , (3523, 14, True);
+     , (3523, 14, True)
+     , (3523, 19, True)
+     , (3523, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5951, 'scrollcookingmasteryother2');
@@ -22903,7 +24379,9 @@ VALUES (5951, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5951, 13, True)
      , (5951, 11, True)
-     , (5951, 14, True);
+     , (5951, 14, True)
+     , (5951, 19, True)
+     , (5951, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1642, 'scrollwhirlingblade');
@@ -22934,7 +24412,9 @@ VALUES (1642, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1642, 13, True)
      , (1642, 11, True)
-     , (1642, 14, True);
+     , (1642, 14, True)
+     , (1642, 19, True)
+     , (1642, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3183, 'scrollbowmasteryself2');
@@ -22965,7 +24445,9 @@ VALUES (3183, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3183, 13, True)
      , (3183, 11, True)
-     , (3183, 14, True);
+     , (3183, 14, True)
+     , (3183, 19, True)
+     , (3183, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2963, 'scrollshockwave2');
@@ -22996,7 +24478,9 @@ VALUES (2963, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2963, 13, True)
      , (2963, 11, True)
-     , (2963, 14, True);
+     , (2963, 14, True)
+     , (2963, 19, True)
+     , (2963, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3247, 'scrolldeceptionmasteryself6');
@@ -23027,7 +24511,9 @@ VALUES (3247, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3247, 13, True)
      , (3247, 11, True)
-     , (3247, 14, True);
+     , (3247, 14, True)
+     , (3247, 19, True)
+     , (3247, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2673, 'scrollfeeblemind6');
@@ -23058,7 +24544,9 @@ VALUES (2673, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2673, 13, True)
      , (2673, 11, True)
-     , (2673, 14, True);
+     , (2673, 14, True)
+     , (2673, 19, True)
+     , (2673, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2691, 'scrollharmother6');
@@ -23089,7 +24577,9 @@ VALUES (2691, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2691, 13, True)
      , (2691, 11, True)
-     , (2691, 14, True);
+     , (2691, 14, True)
+     , (2691, 19, True)
+     , (2691, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20423, 'scrollpiercingbane7');
@@ -23120,7 +24610,9 @@ VALUES (20423, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20423, 13, True)
      , (20423, 11, True)
-     , (20423, 14, True);
+     , (20423, 14, True)
+     , (20423, 19, True)
+     , (20423, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3352, 'scrollleadershipineptitude6');
@@ -23151,7 +24643,9 @@ VALUES (3352, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3352, 13, True)
      , (3352, 11, True)
-     , (3352, 14, True);
+     , (3352, 14, True)
+     , (3352, 19, True)
+     , (3352, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3332, 'scrollitemignorance6');
@@ -23182,7 +24676,9 @@ VALUES (3332, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3332, 13, True)
      , (3332, 11, True)
-     , (3332, 14, True);
+     , (3332, 14, True)
+     , (3332, 19, True)
+     , (3332, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20257, 'scrollwillpowerself7');
@@ -23213,7 +24709,9 @@ VALUES (20257, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20257, 13, True)
      , (20257, 11, True)
-     , (20257, 14, True);
+     , (20257, 14, True)
+     , (20257, 19, True)
+     , (20257, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2716, 'scrollquicknessother6');
@@ -23244,7 +24742,9 @@ VALUES (2716, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2716, 13, True)
      , (2716, 11, True)
-     , (2716, 14, True);
+     , (2716, 14, True)
+     , (2716, 19, True)
+     , (2716, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3027, 'scrollcoldprotectionself6');
@@ -23275,7 +24775,9 @@ VALUES (3027, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3027, 13, True)
      , (3027, 11, True)
-     , (3027, 14, True);
+     , (3027, 14, True)
+     , (3027, 19, True)
+     , (3027, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20550, 'scrollleadershipmasteryother7');
@@ -23306,7 +24808,9 @@ VALUES (20550, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20550, 13, True)
      , (20550, 11, True)
-     , (20550, 14, True);
+     , (20550, 14, True)
+     , (20550, 19, True)
+     , (20550, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2897, 'scrollturnblade6');
@@ -23337,7 +24841,9 @@ VALUES (2897, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2897, 13, True)
      , (2897, 11, True)
-     , (2897, 14, True);
+     , (2897, 14, True)
+     , (2897, 19, True)
+     , (2897, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45305, 'ace45305-scrollofrecklessnessmasteryselfvi');
@@ -23368,7 +24874,9 @@ VALUES (45305, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45305, 13, True)
      , (45305, 11, True)
-     , (45305, 14, True);
+     , (45305, 14, True)
+     , (45305, 19, True)
+     , (45305, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43291, 'ace43291-scrollofcorruptionvi');
@@ -23399,7 +24907,9 @@ VALUES (43291, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43291, 13, True)
      , (43291, 11, True)
-     , (43291, 14, True);
+     , (43291, 14, True)
+     , (43291, 19, True)
+     , (43291, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6002, 'scrollflamebolt6');
@@ -23430,7 +24940,9 @@ VALUES (6002, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (6002, 13, True)
      , (6002, 11, True)
-     , (6002, 14, True);
+     , (6002, 14, True)
+     , (6002, 19, True)
+     , (6002, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2681, 'scrollfocusself6');
@@ -23461,7 +24973,9 @@ VALUES (2681, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2681, 13, True)
      , (2681, 11, True)
-     , (2681, 14, True);
+     , (2681, 14, True)
+     , (2681, 19, True)
+     , (2681, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3412, 'scrollmagicitemexpertiseother6');
@@ -23492,7 +25006,9 @@ VALUES (3412, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3412, 13, True)
      , (3412, 11, True)
-     , (3412, 14, True);
+     , (3412, 14, True)
+     , (3412, 19, True)
+     , (3412, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3492, 'scrollsprintother6');
@@ -23523,7 +25039,9 @@ VALUES (3492, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3492, 13, True)
      , (3492, 11, True)
-     , (3492, 14, True);
+     , (3492, 14, True)
+     , (3492, 19, True)
+     , (3492, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45298, 'ace45298-scrollofrecklessnessmasteryothervii');
@@ -23554,7 +25072,9 @@ VALUES (45298, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45298, 13, True)
      , (45298, 11, True)
-     , (45298, 14, True);
+     , (45298, 14, True)
+     , (45298, 19, True)
+     , (45298, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2821, 'scrollflamelure6');
@@ -23585,7 +25105,9 @@ VALUES (2821, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2821, 13, True)
      , (2821, 11, True)
-     , (2821, 14, True);
+     , (2821, 14, True)
+     , (2821, 19, True)
+     , (2821, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3067, 'scrollpierceprotectionother6');
@@ -23616,7 +25138,9 @@ VALUES (3067, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3067, 13, True)
      , (3067, 11, True)
-     , (3067, 14, True);
+     , (3067, 14, True)
+     , (3067, 19, True)
+     , (3067, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2972, 'scrollwhirlingblade6');
@@ -23647,7 +25171,9 @@ VALUES (2972, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2972, 13, True)
      , (2972, 11, True)
-     , (2972, 14, True);
+     , (2972, 14, True)
+     , (2972, 19, True)
+     , (2972, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3242, 'scrolldeceptionmasteryother6');
@@ -23678,7 +25204,9 @@ VALUES (3242, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3242, 13, True)
      , (3242, 11, True)
-     , (3242, 14, True);
+     , (3242, 14, True)
+     , (3242, 19, True)
+     , (3242, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3237, 'scrolldeceptionineptitude6');
@@ -23709,7 +25237,9 @@ VALUES (3237, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3237, 13, True)
      , (3237, 11, True)
-     , (3237, 14, True);
+     , (3237, 14, True)
+     , (3237, 19, True)
+     , (3237, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43299, 'ace43299-scrollofnetherarcvi');
@@ -23740,7 +25270,9 @@ VALUES (43299, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43299, 13, True)
      , (43299, 11, True)
-     , (43299, 14, True);
+     , (43299, 14, True)
+     , (43299, 19, True)
+     , (43299, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43343, 'ace43343-scrollofweakeningcursevi');
@@ -23771,7 +25303,9 @@ VALUES (43343, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43343, 13, True)
      , (43343, 11, True)
-     , (43343, 14, True);
+     , (43343, 14, True)
+     , (43343, 19, True)
+     , (43343, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3457, 'scrollpersonattunementself6');
@@ -23802,7 +25336,9 @@ VALUES (3457, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3457, 13, True)
      , (3457, 11, True)
-     , (3457, 14, True);
+     , (3457, 14, True)
+     , (3457, 19, True)
+     , (3457, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20232, 'scrollbafflement7');
@@ -23833,7 +25369,9 @@ VALUES (20232, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20232, 13, True)
      , (20232, 11, True)
-     , (20232, 14, True);
+     , (20232, 14, True)
+     , (20232, 19, True)
+     , (20232, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3347, 'scrollleadenfeet6');
@@ -23864,7 +25402,9 @@ VALUES (3347, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3347, 13, True)
      , (3347, 11, True)
-     , (3347, 14, True);
+     , (3347, 14, True)
+     , (3347, 19, True)
+     , (3347, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8940, 'scrollfroststreak6');
@@ -23895,7 +25435,9 @@ VALUES (8940, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8940, 13, True)
      , (8940, 11, True)
-     , (8940, 14, True);
+     , (8940, 14, True)
+     , (8940, 19, True)
+     , (8940, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41301, 'ace41301-scrolloftwohandedweaponmasteryothervi');
@@ -23926,7 +25468,9 @@ VALUES (41301, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41301, 13, True)
      , (41301, 11, True)
-     , (41301, 14, True);
+     , (41301, 14, True)
+     , (41301, 19, True)
+     , (41301, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20237, 'scrollenduranceself7');
@@ -23957,7 +25501,9 @@ VALUES (20237, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20237, 13, True)
      , (20237, 11, True)
-     , (20237, 14, True);
+     , (20237, 14, True)
+     , (20237, 19, True)
+     , (20237, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3282, 'scrollhealingmasteryself6');
@@ -23988,7 +25534,9 @@ VALUES (3282, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3282, 13, True)
      , (3282, 11, True)
-     , (3282, 14, True);
+     , (3282, 14, True)
+     , (3282, 19, True)
+     , (3282, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2648, 'scrollcoordinationother6');
@@ -24019,7 +25567,9 @@ VALUES (2648, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2648, 13, True)
      , (2648, 11, True)
-     , (2648, 14, True);
+     , (2648, 14, True)
+     , (2648, 19, True)
+     , (2648, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2831, 'scrollfrostlure6');
@@ -24050,7 +25600,9 @@ VALUES (2831, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2831, 13, True)
      , (2831, 11, True)
-     , (2831, 14, True);
+     , (2831, 14, True)
+     , (2831, 19, True)
+     , (2831, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41262, 'ace41262-scrollofblessingofting');
@@ -24081,7 +25633,9 @@ VALUES (41262, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41262, 13, True)
      , (41262, 11, True)
-     , (41262, 14, True);
+     , (41262, 14, True)
+     , (41262, 19, True)
+     , (41262, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5967, 'scrollfletchingineptitude6');
@@ -24112,7 +25666,9 @@ VALUES (5967, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5967, 13, True)
      , (5967, 11, True)
-     , (5967, 14, True);
+     , (5967, 14, True)
+     , (5967, 19, True)
+     , (5967, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21107, 'scrollmanabolt6');
@@ -24143,7 +25699,9 @@ VALUES (21107, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21107, 13, True)
      , (21107, 11, True)
-     , (21107, 14, True);
+     , (21107, 14, True)
+     , (21107, 19, True)
+     , (21107, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3382, 'scrolllockpickineptitude6');
@@ -24174,7 +25732,9 @@ VALUES (3382, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3382, 13, True)
      , (3382, 11, True)
-     , (3382, 14, True);
+     , (3382, 14, True)
+     , (3382, 19, True)
+     , (3382, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3142, 'scrollarcaneenlightenmentself6');
@@ -24205,7 +25765,9 @@ VALUES (3142, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3142, 13, True)
      , (3142, 11, True)
-     , (3142, 14, True);
+     , (3142, 14, True)
+     , (3142, 19, True)
+     , (3142, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45265, 'ace45265-scrollofdualwieldineptitudeothervi');
@@ -24236,7 +25798,9 @@ VALUES (45265, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45265, 13, True)
      , (45265, 11, True)
-     , (45265, 14, True);
+     , (45265, 14, True)
+     , (45265, 19, True)
+     , (45265, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2776, 'scrollbladebane6');
@@ -24267,7 +25831,9 @@ VALUES (2776, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2776, 13, True)
      , (2776, 11, True)
-     , (2776, 14, True);
+     , (2776, 14, True)
+     , (2776, 19, True)
+     , (2776, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3342, 'scrolljumpmasteryself6');
@@ -24298,7 +25864,9 @@ VALUES (3342, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3342, 13, True)
      , (3342, 11, True)
-     , (3342, 14, True);
+     , (3342, 14, True)
+     , (3342, 19, True)
+     , (3342, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53335, 'ace53335-scrollofcloudedsoulii');
@@ -24329,7 +25897,9 @@ VALUES (53335, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (53335, 13, True)
      , (53335, 11, True)
-     , (53335, 14, True);
+     , (53335, 14, True)
+     , (53335, 19, True)
+     , (53335, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53339, 'ace53339-scrollofnuhmudirasspinesii');
@@ -24360,7 +25930,9 @@ VALUES (53339, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (53339, 13, True)
      , (53339, 11, True)
-     , (53339, 14, True);
+     , (53339, 14, True)
+     , (53339, 19, True)
+     , (53339, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53336, 'ace53336-scrollofsearingdiscii');
@@ -24391,7 +25963,9 @@ VALUES (53336, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (53336, 13, True)
      , (53336, 11, True)
-     , (53336, 14, True);
+     , (53336, 14, True)
+     , (53336, 19, True)
+     , (53336, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53340, 'ace53340-scrollofhalooffrostii');
@@ -24422,7 +25996,9 @@ VALUES (53340, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (53340, 13, True)
      , (53340, 11, True)
-     , (53340, 14, True);
+     , (53340, 14, True)
+     , (53340, 19, True)
+     , (53340, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53342, 'ace53342-scrolloftectonicriftsii');
@@ -24453,7 +26029,9 @@ VALUES (53342, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (53342, 13, True)
      , (53342, 11, True)
-     , (53342, 14, True);
+     , (53342, 14, True)
+     , (53342, 19, True)
+     , (53342, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53337, 'ace53337-scrollofhorizonsbladesii');
@@ -24484,7 +26062,9 @@ VALUES (53337, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (53337, 13, True)
      , (53337, 11, True)
-     , (53337, 14, True);
+     , (53337, 14, True)
+     , (53337, 19, True)
+     , (53337, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2903, 'scrolllifestonerecall1');
@@ -24515,7 +26095,9 @@ VALUES (2903, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2903, 13, True)
      , (2903, 11, True)
-     , (2903, 14, True);
+     , (2903, 14, True)
+     , (2903, 19, True)
+     , (2903, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20618, 'scrolllifestonetie1');
@@ -24546,7 +26128,9 @@ VALUES (20618, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20618, 13, True)
      , (20618, 11, True)
-     , (20618, 14, True);
+     , (20618, 14, True)
+     , (20618, 19, True)
+     , (20618, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1564, 'scrollportalrecall');
@@ -24577,7 +26161,9 @@ VALUES (1564, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1564, 13, True)
      , (1564, 11, True)
-     , (1564, 14, True);
+     , (1564, 14, True)
+     , (1564, 19, True)
+     , (1564, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1565, 'scrollportaltie1');
@@ -24608,7 +26194,9 @@ VALUES (1565, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1565, 13, True)
      , (1565, 11, True)
-     , (1565, 14, True);
+     , (1565, 14, True)
+     , (1565, 19, True)
+     , (1565, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20619, 'scrollportaltie2');
@@ -24639,7 +26227,9 @@ VALUES (20619, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20619, 13, True)
      , (20619, 11, True)
-     , (20619, 14, True);
+     , (20619, 14, True)
+     , (20619, 19, True)
+     , (20619, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20620, 'scrollportaltierecall1');
@@ -24670,7 +26260,9 @@ VALUES (20620, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20620, 13, True)
      , (20620, 11, True)
-     , (20620, 14, True);
+     , (20620, 14, True)
+     , (20620, 19, True)
+     , (20620, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20621, 'scrollportaltierecall2');
@@ -24701,7 +26293,9 @@ VALUES (20621, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20621, 13, True)
      , (20621, 11, True)
-     , (20621, 14, True);
+     , (20621, 14, True)
+     , (20621, 19, True)
+     , (20621, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3274, 'scrollhealingmasteryother3');
@@ -24732,7 +26326,9 @@ VALUES (3274, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3274, 13, True)
      , (3274, 11, True)
-     , (3274, 14, True);
+     , (3274, 14, True)
+     , (3274, 19, True)
+     , (3274, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41259, 'ace41259-scrolloftwohandedweaponmasteryselfiv');
@@ -24763,7 +26359,9 @@ VALUES (41259, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41259, 13, True)
      , (41259, 11, True)
-     , (41259, 14, True);
+     , (41259, 14, True)
+     , (41259, 19, True)
+     , (41259, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43341, 'ace43341-scrollofweakeningcurseiv');
@@ -24794,7 +26392,9 @@ VALUES (43341, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43341, 13, True)
      , (43341, 11, True)
-     , (43341, 14, True);
+     , (43341, 14, True)
+     , (43341, 19, True)
+     , (43341, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3443, 'scrollmonsterunfamiliarity2');
@@ -24825,7 +26425,9 @@ VALUES (3443, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3443, 13, True)
      , (3443, 11, True)
-     , (3443, 14, True);
+     , (3443, 14, True)
+     , (3443, 19, True)
+     , (3443, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3054, 'scrolllightningprotectionself3');
@@ -24856,7 +26458,9 @@ VALUES (3054, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3054, 13, True)
      , (3054, 11, True)
-     , (3054, 14, True);
+     , (3054, 14, True)
+     , (3054, 19, True)
+     , (3054, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1836, 'scrollwillpowerother');
@@ -24887,7 +26491,9 @@ VALUES (1836, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1836, 13, True)
      , (1836, 11, True)
-     , (1836, 14, True);
+     , (1836, 14, True)
+     , (1836, 19, True)
+     , (1836, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2752, 'scrollwillpowerother2');
@@ -24918,7 +26524,9 @@ VALUES (2752, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2752, 13, True)
      , (2752, 11, True)
-     , (2752, 14, True);
+     , (2752, 14, True)
+     , (2752, 19, True)
+     , (2752, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3103, 'scrollmanarenewalself2');
@@ -24949,7 +26557,9 @@ VALUES (3103, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3103, 13, True)
      , (3103, 11, True)
-     , (3103, 14, True);
+     , (3103, 14, True)
+     , (3103, 19, True)
+     , (3103, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2772, 'scrollbladebane2');
@@ -24980,7 +26590,9 @@ VALUES (2772, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2772, 13, True)
      , (2772, 11, True)
-     , (2772, 14, True);
+     , (2772, 14, True)
+     , (2772, 19, True)
+     , (2772, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2973, 'scrollacidprotectionother2');
@@ -25011,7 +26623,9 @@ VALUES (2973, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2973, 13, True)
      , (2973, 11, True)
-     , (2973, 14, True);
+     , (2973, 14, True)
+     , (2973, 19, True)
+     , (2973, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1742, 'scrollswordmasteryother');
@@ -25042,7 +26656,9 @@ VALUES (1742, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1742, 13, True)
      , (1742, 11, True)
-     , (1742, 14, True);
+     , (1742, 14, True)
+     , (1742, 19, True)
+     , (1742, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1687, 'scrollbowmasteryself');
@@ -25073,7 +26689,9 @@ VALUES (1687, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1687, 13, True)
      , (1687, 11, True)
-     , (1687, 14, True);
+     , (1687, 14, True)
+     , (1687, 19, True)
+     , (1687, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21097, 'scrollhealthbolt3');
@@ -25104,7 +26722,9 @@ VALUES (21097, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21097, 13, True)
      , (21097, 11, True)
-     , (21097, 14, True);
+     , (21097, 14, True)
+     , (21097, 19, True)
+     , (21097, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28940, 'scrollarcanumsalvagingother');
@@ -25135,7 +26755,9 @@ VALUES (28940, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28940, 13, True)
      , (28940, 11, True)
-     , (28940, 14, True);
+     , (28940, 14, True)
+     , (28940, 19, True)
+     , (28940, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3268, 'scrollhealingineptitude2');
@@ -25166,7 +26788,9 @@ VALUES (3268, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3268, 13, True)
      , (3268, 11, True)
-     , (3268, 14, True);
+     , (3268, 14, True)
+     , (3268, 19, True)
+     , (3268, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3561, 'scrollvulnerabilityother5');
@@ -25197,7 +26821,9 @@ VALUES (3561, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3561, 13, True)
      , (3561, 11, True)
-     , (3561, 14, True);
+     , (3561, 14, True)
+     , (3561, 19, True)
+     , (3561, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5950, 'scrollcookingmasteryother');
@@ -25228,7 +26854,9 @@ VALUES (5950, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5950, 13, True)
      , (5950, 11, True)
-     , (5950, 14, True);
+     , (5950, 14, True)
+     , (5950, 19, True)
+     , (5950, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3573, 'scrollwarmagicmasteryself2');
@@ -25259,7 +26887,9 @@ VALUES (3573, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3573, 13, True)
      , (3573, 11, True)
-     , (3573, 14, True);
+     , (3573, 14, True)
+     , (3573, 19, True)
+     , (3573, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3143, 'scrollarmorexpertiseother2');
@@ -25290,7 +26920,9 @@ VALUES (3143, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3143, 13, True)
      , (3143, 11, True)
-     , (3143, 14, True);
+     , (3143, 14, True)
+     , (3143, 19, True)
+     , (3143, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3448, 'scrollpersonattunementother2');
@@ -25321,7 +26953,9 @@ VALUES (3448, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3448, 13, True)
      , (3448, 11, True)
-     , (3448, 14, True);
+     , (3448, 14, True)
+     , (3448, 19, True)
+     , (3448, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2727, 'scrollrevitalizeself2');
@@ -25352,7 +26986,9 @@ VALUES (2727, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2727, 13, True)
      , (2727, 11, True)
-     , (2727, 14, True);
+     , (2727, 14, True)
+     , (2727, 19, True)
+     , (2727, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2703, 'scrollimperil3');
@@ -25383,7 +27019,9 @@ VALUES (2703, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2703, 13, True)
      , (2703, 11, True)
-     , (2703, 14, True);
+     , (2703, 14, True)
+     , (2703, 19, True)
+     , (2703, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3408, 'scrollmagicitemexpertiseother2');
@@ -25414,7 +27052,9 @@ VALUES (3408, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3408, 13, True)
      , (3408, 11, True)
-     , (3408, 14, True);
+     , (3408, 14, True)
+     , (3408, 19, True)
+     , (3408, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3354, 'scrollleadershipmasteryother3');
@@ -25445,7 +27085,9 @@ VALUES (3354, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3354, 13, True)
      , (3354, 11, True)
-     , (3354, 14, True);
+     , (3354, 14, True)
+     , (3354, 19, True)
+     , (3354, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3309, 'scrollitemenchantmentmasteryother3');
@@ -25476,7 +27118,9 @@ VALUES (3309, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3309, 13, True)
      , (3309, 11, True)
-     , (3309, 14, True);
+     , (3309, 14, True)
+     , (3309, 19, True)
+     , (3309, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1688, 'scrollcreatureenchantmentineptitude');
@@ -25507,7 +27151,9 @@ VALUES (1688, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1688, 13, True)
      , (1688, 11, True)
-     , (1688, 14, True);
+     , (1688, 14, True)
+     , (1688, 19, True)
+     , (1688, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3736, 'scrollinfusemana2');
@@ -25538,7 +27184,9 @@ VALUES (3736, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3736, 13, True)
      , (3736, 11, True)
-     , (3736, 14, True);
+     , (3736, 14, True)
+     , (3736, 19, True)
+     , (3736, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3028, 'scrollcoldvulnerabilityother2');
@@ -25569,7 +27217,9 @@ VALUES (3028, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3028, 13, True)
      , (3028, 11, True)
-     , (3028, 14, True);
+     , (3028, 14, True)
+     , (3028, 19, True)
+     , (3028, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1675, 'scrolldaggerineptitudeother');
@@ -25600,7 +27250,9 @@ VALUES (1675, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1675, 13, True)
      , (1675, 11, True)
-     , (1675, 14, True);
+     , (1675, 14, True)
+     , (1675, 19, True)
+     , (1675, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3298, 'scrollinvulnerabilityself2');
@@ -25631,7 +27283,9 @@ VALUES (3298, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3298, 13, True)
      , (3298, 11, True)
-     , (3298, 14, True);
+     , (3298, 14, True)
+     , (3298, 19, True)
+     , (3298, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3491, 'scrollsprintother5');
@@ -25662,7 +27316,9 @@ VALUES (3491, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3491, 13, True)
      , (3491, 11, True)
-     , (3491, 14, True);
+     , (3491, 14, True)
+     , (3491, 19, True)
+     , (3491, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2848, 'scrollleadenweapon3');
@@ -25693,7 +27349,9 @@ VALUES (2848, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2848, 13, True)
      , (2848, 11, True)
-     , (2848, 14, True);
+     , (2848, 14, True)
+     , (2848, 19, True)
+     , (2848, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43303, 'ace43303-scrollofnetherboltii');
@@ -25724,7 +27382,9 @@ VALUES (43303, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43303, 13, True)
      , (43303, 11, True)
-     , (43303, 14, True);
+     , (43303, 14, True)
+     , (43303, 19, True)
+     , (43303, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20320, 'scrolldispelcreatureneutralother3');
@@ -25755,7 +27415,9 @@ VALUES (20320, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20320, 13, True)
      , (20320, 11, True)
-     , (20320, 14, True);
+     , (20320, 14, True)
+     , (20320, 19, True)
+     , (20320, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43359, 'ace43359-scrollofvoidmagicmasteryotherii');
@@ -25786,7 +27448,9 @@ VALUES (43359, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43359, 13, True)
      , (43359, 11, True)
-     , (43359, 14, True);
+     , (43359, 14, True)
+     , (43359, 19, True)
+     , (43359, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1713, 'scrollleadershipineptitude');
@@ -25817,7 +27481,9 @@ VALUES (1713, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1713, 13, True)
      , (1713, 11, True)
-     , (1713, 14, True);
+     , (1713, 14, True)
+     , (1713, 19, True)
+     , (1713, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1589, 'scrollbloodloather');
@@ -25848,7 +27514,9 @@ VALUES (1589, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1589, 13, True)
      , (1589, 11, True)
-     , (1589, 14, True);
+     , (1589, 14, True)
+     , (1589, 19, True)
+     , (1589, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9640, 'scrollmanatohealthself2');
@@ -25879,7 +27547,9 @@ VALUES (9640, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9640, 13, True)
      , (9640, 11, True)
-     , (9640, 14, True);
+     , (9640, 14, True)
+     , (9640, 19, True)
+     , (9640, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3149, 'scrollarmorexpertiseself3');
@@ -25910,7 +27580,9 @@ VALUES (3149, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3149, 13, True)
      , (3149, 11, True)
-     , (3149, 14, True);
+     , (3149, 14, True)
+     , (3149, 19, True)
+     , (3149, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41290, 'ace41290-scrolloftwohandedweaponsineptitudeiii');
@@ -25941,7 +27613,9 @@ VALUES (41290, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41290, 13, True)
      , (41290, 11, True)
-     , (41290, 14, True);
+     , (41290, 14, True)
+     , (41290, 19, True)
+     , (41290, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1843, 'scrollbladevulnerabilityother');
@@ -25972,7 +27646,9 @@ VALUES (1843, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1843, 13, True)
      , (1843, 11, True)
-     , (1843, 14, True);
+     , (1843, 14, True)
+     , (1843, 19, True)
+     , (1843, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45261, 'ace45261-scrollofdualwieldineptitudeotherii');
@@ -26003,7 +27679,9 @@ VALUES (45261, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45261, 13, True)
      , (45261, 11, True)
-     , (45261, 14, True);
+     , (45261, 14, True)
+     , (45261, 19, True)
+     , (45261, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1717, 'scrolllifemagicmasteryother');
@@ -26034,7 +27712,9 @@ VALUES (1717, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1717, 13, True)
      , (1717, 11, True)
-     , (1717, 14, True);
+     , (1717, 14, True)
+     , (1717, 19, True)
+     , (1717, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3068, 'scrollpierceprotectionself2');
@@ -26065,7 +27745,9 @@ VALUES (3068, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3068, 13, True)
      , (3068, 11, True)
-     , (3068, 14, True);
+     , (3068, 14, True)
+     , (3068, 19, True)
+     , (3068, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3579, 'scrollweaponexpertiseother3');
@@ -26096,7 +27778,9 @@ VALUES (3579, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3579, 13, True)
      , (3579, 11, True)
-     , (3579, 14, True);
+     , (3579, 14, True)
+     , (3579, 19, True)
+     , (3579, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1860, 'scrolldrainstamina');
@@ -26127,7 +27811,9 @@ VALUES (1860, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1860, 13, True)
      , (1860, 11, True)
-     , (1860, 14, True);
+     , (1860, 14, True)
+     , (1860, 19, True)
+     , (1860, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3333, 'scrolljumpmasteryother2');
@@ -26158,7 +27844,9 @@ VALUES (3333, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3333, 13, True)
      , (3333, 11, True)
-     , (3333, 14, True);
+     , (3333, 14, True)
+     , (3333, 19, True)
+     , (3333, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3238, 'scrolldeceptionmasteryother2');
@@ -26189,7 +27877,9 @@ VALUES (3238, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3238, 13, True)
      , (3238, 11, True)
-     , (3238, 14, True);
+     , (3238, 14, True)
+     , (3238, 19, True)
+     , (3238, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1696, 'scrolldeceptionmasteryself');
@@ -26220,7 +27910,9 @@ VALUES (1696, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1696, 13, True)
      , (1696, 11, True)
-     , (1696, 14, True);
+     , (1696, 14, True)
+     , (1696, 19, True)
+     , (1696, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3380, 'scrolllockpickineptitude4');
@@ -26251,7 +27943,9 @@ VALUES (3380, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3380, 13, True)
      , (3380, 11, True)
-     , (3380, 14, True);
+     , (3380, 14, True)
+     , (3380, 19, True)
+     , (3380, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43368, 'ace43368-scrollofvoidmagicmasteryotheriii');
@@ -26282,7 +27976,9 @@ VALUES (43368, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43368, 13, True)
      , (43368, 11, True)
-     , (43368, 14, True);
+     , (43368, 14, True)
+     , (43368, 19, True)
+     , (43368, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3316, 'scrollitemenchantmentmasteryself5');
@@ -26313,7 +28009,9 @@ VALUES (3316, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3316, 13, True)
      , (3316, 11, True)
-     , (3316, 14, True);
+     , (3316, 14, True)
+     , (3316, 19, True)
+     , (3316, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43370, 'ace43370-scrollofvoidmagicineptitudeiv');
@@ -26344,7 +28042,9 @@ VALUES (43370, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43370, 13, True)
      , (43370, 11, True)
-     , (43370, 14, True);
+     , (43370, 14, True)
+     , (43370, 19, True)
+     , (43370, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1640, 'scrolllightningbolt');
@@ -26375,7 +28075,9 @@ VALUES (1640, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1640, 13, True)
      , (1640, 11, True)
-     , (1640, 14, True);
+     , (1640, 14, True)
+     , (1640, 19, True)
+     , (1640, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49475, 'ace49475-scrollofsummoningmasteryselfvi');
@@ -26406,7 +28108,9 @@ VALUES (49475, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49475, 13, True)
      , (49475, 11, True)
-     , (49475, 14, True);
+     , (49475, 14, True)
+     , (49475, 19, True)
+     , (49475, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2985, 'scrollacidvulnerabilityother4');
@@ -26437,7 +28141,9 @@ VALUES (2985, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2985, 13, True)
      , (2985, 11, True)
-     , (2985, 14, True);
+     , (2985, 14, True)
+     , (2985, 19, True)
+     , (2985, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5977, 'scrollfletchingmasteryself4');
@@ -26468,7 +28174,9 @@ VALUES (5977, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5977, 13, True)
      , (5977, 11, True)
-     , (5977, 14, True);
+     , (5977, 14, True)
+     , (5977, 19, True)
+     , (5977, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2719, 'scrollquicknessself4');
@@ -26499,7 +28207,9 @@ VALUES (2719, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2719, 13, True)
      , (2719, 11, True)
-     , (2719, 14, True);
+     , (2719, 14, True)
+     , (2719, 19, True)
+     , (2719, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45256, 'ace45256-scrollofdirtyfightingmasteryselfv');
@@ -26530,7 +28240,9 @@ VALUES (45256, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45256, 13, True)
      , (45256, 11, True)
-     , (45256, 14, True);
+     , (45256, 14, True)
+     , (45256, 19, True)
+     , (45256, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3585, 'scrollweaponexpertiseself4');
@@ -26561,7 +28273,9 @@ VALUES (3585, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3585, 13, True)
      , (3585, 11, True)
-     , (3585, 14, True);
+     , (3585, 14, True)
+     , (3585, 19, True)
+     , (3585, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3181, 'scrollbowmasteryother5');
@@ -26592,7 +28306,9 @@ VALUES (3181, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3181, 13, True)
      , (3181, 11, True)
-     , (3181, 14, True);
+     , (3181, 14, True)
+     , (3181, 19, True)
+     , (3181, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9646, 'scrollmanatostaminaself3');
@@ -26623,7 +28339,9 @@ VALUES (9646, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9646, 13, True)
      , (9646, 11, True)
-     , (9646, 14, True);
+     , (9646, 14, True)
+     , (9646, 19, True)
+     , (9646, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2768, 'scrollacidlure3');
@@ -26654,7 +28372,9 @@ VALUES (2768, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2768, 13, True)
      , (2768, 11, True)
-     , (2768, 14, True);
+     , (2768, 14, True)
+     , (2768, 19, True)
+     , (2768, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3426, 'scrollmagicyieldother5');
@@ -26685,7 +28405,9 @@ VALUES (3426, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3426, 13, True)
      , (3426, 11, True)
-     , (3426, 14, True);
+     , (3426, 14, True)
+     , (3426, 19, True)
+     , (3426, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3289, 'scrollimpregnabilityself3');
@@ -26716,7 +28438,9 @@ VALUES (3289, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3289, 13, True)
      , (3289, 11, True)
-     , (3289, 14, True);
+     , (3289, 14, True)
+     , (3289, 19, True)
+     , (3289, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43371, 'ace43371-scrollofvoidmagicmasteryotheriv');
@@ -26747,7 +28471,9 @@ VALUES (43371, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43371, 13, True)
      , (43371, 11, True)
-     , (43371, 14, True);
+     , (43371, 14, True)
+     , (43371, 19, True)
+     , (43371, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3033, 'scrollfireprotectionother2');
@@ -26778,7 +28504,9 @@ VALUES (3033, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3033, 13, True)
      , (3033, 11, True)
-     , (3033, 14, True);
+     , (3033, 14, True)
+     , (3033, 19, True)
+     , (3033, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2642, 'scrollclumsiness5');
@@ -26809,7 +28537,9 @@ VALUES (2642, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2642, 13, True)
      , (2642, 11, True)
-     , (2642, 14, True);
+     , (2642, 14, True)
+     , (2642, 19, True)
+     , (2642, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2729, 'scrollrevitalizeself4');
@@ -26840,7 +28570,9 @@ VALUES (2729, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2729, 13, True)
      , (2729, 11, True)
-     , (2729, 14, True);
+     , (2729, 14, True)
+     , (2729, 19, True)
+     , (2729, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2663, 'scrollenduranceself6');
@@ -26871,7 +28603,9 @@ VALUES (2663, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2663, 13, True)
      , (2663, 11, True)
-     , (2663, 14, True);
+     , (2663, 14, True)
+     , (2663, 19, True)
+     , (2663, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45317, 'ace45317-scrollofshieldmasteryotherii');
@@ -26902,7 +28636,9 @@ VALUES (45317, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45317, 13, True)
      , (45317, 11, True)
-     , (45317, 14, True);
+     , (45317, 14, True)
+     , (45317, 19, True)
+     , (45317, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2763, 'scrollacidbane3');
@@ -26933,7 +28669,9 @@ VALUES (2763, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2763, 13, True)
      , (2763, 11, True)
-     , (2763, 14, True);
+     , (2763, 14, True)
+     , (2763, 19, True)
+     , (2763, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28943, 'scrollarcanumsalvagingother4');
@@ -26964,7 +28702,9 @@ VALUES (28943, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28943, 13, True)
      , (28943, 11, True)
-     , (28943, 14, True);
+     , (28943, 14, True)
+     , (28943, 19, True)
+     , (28943, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3349, 'scrollleadershipineptitude3');
@@ -26995,7 +28735,9 @@ VALUES (3349, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3349, 13, True)
      , (3349, 11, True)
-     , (3349, 14, True);
+     , (3349, 14, True)
+     , (3349, 19, True)
+     , (3349, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2910, 'scrollacidstream5');
@@ -27026,7 +28768,9 @@ VALUES (2910, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2910, 13, True)
      , (2910, 11, True)
-     , (2910, 14, True);
+     , (2910, 14, True)
+     , (2910, 19, True)
+     , (2910, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3254, 'scrollfaithlessness3');
@@ -27057,7 +28801,9 @@ VALUES (3254, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3254, 13, True)
      , (3254, 11, True)
-     , (3254, 14, True);
+     , (3254, 14, True)
+     , (3254, 19, True)
+     , (3254, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1586, 'scrollinfusemana');
@@ -27088,7 +28834,9 @@ VALUES (1586, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1586, 13, True)
      , (1586, 11, True)
-     , (1586, 14, True);
+     , (1586, 14, True)
+     , (1586, 19, True)
+     , (1586, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3104, 'scrollmanarenewalself3');
@@ -27119,7 +28867,9 @@ VALUES (3104, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3104, 13, True)
      , (3104, 11, True)
-     , (3104, 14, True);
+     , (3104, 14, True)
+     , (3104, 19, True)
+     , (3104, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9635, 'scrollhealthtostaminaself2');
@@ -27150,7 +28900,9 @@ VALUES (9635, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9635, 13, True)
      , (9635, 11, True)
-     , (9635, 14, True);
+     , (9635, 14, True)
+     , (9635, 19, True)
+     , (9635, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41296, 'ace41296-scrolloftwohandedweaponsineptitude');
@@ -27181,7 +28933,9 @@ VALUES (41296, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41296, 13, True)
      , (41296, 11, True)
-     , (41296, 14, True);
+     , (41296, 14, True)
+     , (41296, 19, True)
+     , (41296, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3334, 'scrolljumpmasteryother3');
@@ -27212,7 +28966,9 @@ VALUES (3334, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3334, 13, True)
      , (3334, 11, True)
-     , (3334, 14, True);
+     , (3334, 14, True)
+     , (3334, 19, True)
+     , (3334, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3174, 'scrollbowineptitude3');
@@ -27243,7 +28999,9 @@ VALUES (3174, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3174, 13, True)
      , (3174, 11, True)
-     , (3174, 14, True);
+     , (3174, 14, True)
+     , (3174, 19, True)
+     , (3174, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49471, 'ace49471-scrollofsummoningmasteryselfii');
@@ -27274,7 +29032,9 @@ VALUES (49471, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49471, 13, True)
      , (49471, 11, True)
-     , (49471, 14, True);
+     , (49471, 14, True)
+     , (49471, 19, True)
+     , (49471, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21306, 'scrollflamearc5');
@@ -27305,7 +29065,9 @@ VALUES (21306, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21306, 13, True)
      , (21306, 11, True)
-     , (21306, 14, True);
+     , (21306, 14, True)
+     , (21306, 19, True)
+     , (21306, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2679, 'scrollfocusself4');
@@ -27336,7 +29098,9 @@ VALUES (2679, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2679, 13, True)
      , (2679, 11, True)
-     , (2679, 14, True);
+     , (2679, 14, True)
+     , (2679, 19, True)
+     , (2679, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8915, 'scrollacidstreak2');
@@ -27367,7 +29131,9 @@ VALUES (8915, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8915, 13, True)
      , (8915, 11, True)
-     , (8915, 14, True);
+     , (8915, 14, True)
+     , (8915, 19, True)
+     , (8915, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3496, 'scrollsprintself5');
@@ -27398,7 +29164,9 @@ VALUES (3496, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3496, 13, True)
      , (3496, 11, True)
-     , (3496, 14, True);
+     , (3496, 14, True)
+     , (3496, 19, True)
+     , (3496, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28011, 'scrollspiritloather3');
@@ -27429,7 +29197,9 @@ VALUES (28011, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28011, 13, True)
      , (28011, 11, True)
-     , (28011, 14, True);
+     , (28011, 14, True)
+     , (28011, 19, True)
+     , (28011, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1655, 'scrollrejuvenateother');
@@ -27460,7 +29230,9 @@ VALUES (1655, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1655, 13, True)
      , (1655, 11, True)
-     , (1655, 14, True);
+     , (1655, 14, True)
+     , (1655, 19, True)
+     , (1655, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3024, 'scrollcoldprotectionself3');
@@ -27491,7 +29263,9 @@ VALUES (3024, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3024, 13, True)
      , (3024, 11, True)
-     , (3024, 14, True);
+     , (3024, 14, True)
+     , (3024, 19, True)
+     , (3024, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3383, 'scrolllockpickmasteryother2');
@@ -27522,7 +29296,9 @@ VALUES (3383, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3383, 13, True)
      , (3383, 11, True)
-     , (3383, 14, True);
+     , (3383, 14, True)
+     , (3383, 19, True)
+     , (3383, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45340, 'ace45340-scrollofsneakattackmasteryother');
@@ -27553,7 +29329,9 @@ VALUES (45340, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45340, 13, True)
      , (45340, 11, True)
-     , (45340, 14, True);
+     , (45340, 14, True)
+     , (45340, 19, True)
+     , (45340, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3189, 'scrollcreatureenchantmentineptitude3');
@@ -27584,7 +29362,9 @@ VALUES (3189, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3189, 13, True)
      , (3189, 11, True)
-     , (3189, 14, True);
+     , (3189, 14, True)
+     , (3189, 19, True)
+     , (3189, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2827, 'scrollfrostlure2');
@@ -27615,7 +29395,9 @@ VALUES (2827, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2827, 13, True)
      , (2827, 11, True)
-     , (2827, 14, True);
+     , (2827, 14, True)
+     , (2827, 19, True)
+     , (2827, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2970, 'scrollwhirlingblade4');
@@ -27646,7 +29428,9 @@ VALUES (2970, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2970, 13, True)
      , (2970, 11, True)
-     , (2970, 14, True);
+     , (2970, 14, True)
+     , (2970, 19, True)
+     , (2970, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45318, 'ace45318-scrollofshieldmasteryotheriii');
@@ -27677,7 +29461,9 @@ VALUES (45318, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45318, 13, True)
      , (45318, 11, True)
-     , (45318, 14, True);
+     , (45318, 14, True)
+     , (45318, 19, True)
+     , (45318, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8955, 'scrollwhirlingbladestreak3');
@@ -27708,7 +29494,9 @@ VALUES (8955, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8955, 13, True)
      , (8955, 11, True)
-     , (8955, 14, True);
+     , (8955, 14, True)
+     , (8955, 19, True)
+     , (8955, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3123, 'scrollrejuvenateself2');
@@ -27738,7 +29526,9 @@ VALUES (3123, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3123, 13, True)
      , (3123, 11, True)
-     , (3123, 14, True);
+     , (3123, 14, True)
+     , (3123, 19, True)
+     , (3123, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3129, 'scrollarcanebenightedness3');
@@ -27769,7 +29559,9 @@ VALUES (3129, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3129, 13, True)
      , (3129, 11, True)
-     , (3129, 14, True);
+     , (3129, 14, True)
+     , (3129, 19, True)
+     , (3129, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2753, 'scrollwillpowerother3');
@@ -27800,7 +29592,9 @@ VALUES (2753, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2753, 13, True)
      , (2753, 11, True)
-     , (2753, 14, True);
+     , (2753, 14, True)
+     , (2753, 19, True)
+     , (2753, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3524, 'scrollswordmasteryself3');
@@ -27831,7 +29625,9 @@ VALUES (3524, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3524, 13, True)
      , (3524, 11, True)
-     , (3524, 14, True);
+     , (3524, 14, True)
+     , (3524, 19, True)
+     , (3524, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2870, 'scrollpiercingbane5');
@@ -27862,7 +29658,9 @@ VALUES (2870, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2870, 13, True)
      , (2870, 11, True)
-     , (2870, 14, True);
+     , (2870, 14, True)
+     , (2870, 19, True)
+     , (2870, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3489, 'scrollsprintother3');
@@ -27893,7 +29691,9 @@ VALUES (3489, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3489, 13, True)
      , (3489, 11, True)
-     , (3489, 14, True);
+     , (3489, 14, True)
+     , (3489, 19, True)
+     , (3489, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5546, 'scrollmonsterattunementself5');
@@ -27924,7 +29724,9 @@ VALUES (5546, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5546, 13, True)
      , (5546, 11, True)
-     , (5546, 14, True);
+     , (5546, 14, True)
+     , (5546, 19, True)
+     , (5546, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21319, 'scrollfrostarc4');
@@ -27955,7 +29757,9 @@ VALUES (21319, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21319, 13, True)
      , (21319, 11, True)
-     , (21319, 14, True);
+     , (21319, 14, True)
+     , (21319, 19, True)
+     , (21319, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3226, 'scrolldaggermasteryother5');
@@ -27986,7 +29790,9 @@ VALUES (3226, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3226, 13, True)
      , (3226, 11, True)
-     , (3226, 14, True);
+     , (3226, 14, True)
+     , (3226, 19, True)
+     , (3226, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20358, 'scrolldispelitemneutralother5');
@@ -28017,7 +29823,9 @@ VALUES (20358, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20358, 13, True)
      , (20358, 11, True)
-     , (20358, 14, True);
+     , (20358, 14, True)
+     , (20358, 19, True)
+     , (20358, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3175, 'scrollbowineptitude4');
@@ -28048,7 +29856,9 @@ VALUES (3175, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3175, 13, True)
      , (3175, 11, True)
-     , (3175, 14, True);
+     , (3175, 14, True)
+     , (3175, 19, True)
+     , (3175, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3574, 'scrollwarmagicmasteryself3');
@@ -28079,7 +29889,9 @@ VALUES (3574, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3574, 13, True)
      , (3574, 11, True)
-     , (3574, 14, True);
+     , (3574, 14, True)
+     , (3574, 19, True)
+     , (3574, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3130, 'scrollarcanebenightedness4');
@@ -28110,7 +29922,9 @@ VALUES (3130, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3130, 13, True)
      , (3130, 11, True)
-     , (3130, 14, True);
+     , (3130, 14, True)
+     , (3130, 19, True)
+     , (3130, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3340, 'scrolljumpmasteryself4');
@@ -28141,7 +29955,9 @@ VALUES (3340, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3340, 13, True)
      , (3340, 11, True)
-     , (3340, 14, True);
+     , (3340, 14, True)
+     , (3340, 19, True)
+     , (3340, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41306, 'ace41306-scrolloftwohandedweaponmasteryselfiii');
@@ -28172,7 +29988,9 @@ VALUES (41306, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41306, 13, True)
      , (41306, 11, True)
-     , (41306, 14, True);
+     , (41306, 14, True)
+     , (41306, 19, True)
+     , (41306, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5947, 'scrollcookingineptitude4');
@@ -28203,7 +30021,9 @@ VALUES (5947, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5947, 13, True)
      , (5947, 11, True)
-     , (5947, 14, True);
+     , (5947, 14, True)
+     , (5947, 19, True)
+     , (5947, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3063, 'scrollpierceprotectionother2');
@@ -28234,7 +30054,9 @@ VALUES (3063, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3063, 13, True)
      , (3063, 11, True)
-     , (3063, 14, True);
+     , (3063, 14, True)
+     , (3063, 19, True)
+     , (3063, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3449, 'scrollpersonattunementother3');
@@ -28265,7 +30087,9 @@ VALUES (3449, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3449, 13, True)
      , (3449, 11, True)
-     , (3449, 14, True);
+     , (3449, 14, True)
+     , (3449, 19, True)
+     , (3449, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2828, 'scrollfrostlure3');
@@ -28296,7 +30120,9 @@ VALUES (2828, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2828, 13, True)
      , (2828, 11, True)
-     , (2828, 14, True);
+     , (2828, 14, True)
+     , (2828, 19, True)
+     , (2828, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3468, 'scrollresistmagicself2');
@@ -28327,7 +30153,9 @@ VALUES (3468, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3468, 13, True)
      , (3468, 11, True)
-     , (3468, 14, True);
+     , (3468, 14, True)
+     , (3468, 19, True)
+     , (3468, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1849, 'scrollcoldvulnerabilityother');
@@ -28358,7 +30186,9 @@ VALUES (1849, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1849, 13, True)
      , (1849, 11, True)
-     , (1849, 14, True);
+     , (1849, 14, True)
+     , (1849, 19, True)
+     , (1849, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1585, 'scrollinvulnerabilityself');
@@ -28389,7 +30219,9 @@ VALUES (1585, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1585, 13, True)
      , (1585, 11, True)
-     , (1585, 14, True);
+     , (1585, 14, True)
+     , (1585, 19, True)
+     , (1585, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1724, 'scrollmagicitemignorance');
@@ -28420,7 +30252,9 @@ VALUES (1724, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1724, 13, True)
      , (1724, 11, True)
-     , (1724, 14, True);
+     , (1724, 14, True)
+     , (1724, 19, True)
+     , (1724, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43312, 'ace43312-scrollofnetherstreakiii');
@@ -28451,7 +30285,9 @@ VALUES (43312, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43312, 13, True)
      , (43312, 11, True)
-     , (43312, 14, True);
+     , (43312, 14, True)
+     , (43312, 19, True)
+     , (43312, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9630, 'scrollhealthtomanaself2');
@@ -28482,7 +30318,9 @@ VALUES (9630, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9630, 13, True)
      , (9630, 11, True)
-     , (9630, 14, True);
+     , (9630, 14, True)
+     , (9630, 19, True)
+     , (9630, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3290, 'scrollimpregnabilityself4');
@@ -28513,7 +30351,9 @@ VALUES (3290, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3290, 13, True)
      , (3290, 11, True)
-     , (3290, 14, True);
+     , (3290, 14, True)
+     , (3290, 19, True)
+     , (3290, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43372, 'ace43372-scrollofvoidmagicmasteryselfiv');
@@ -28544,7 +30384,9 @@ VALUES (43372, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43372, 13, True)
      , (43372, 11, True)
-     , (43372, 14, True);
+     , (43372, 14, True)
+     , (43372, 19, True)
+     , (43372, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2700, 'scrollhealself5');
@@ -28575,7 +30417,9 @@ VALUES (2700, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2700, 13, True)
      , (2700, 11, True)
-     , (2700, 14, True);
+     , (2700, 14, True)
+     , (2700, 19, True)
+     , (2700, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3173, 'scrollbowineptitude2');
@@ -28606,7 +30450,9 @@ VALUES (3173, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3173, 13, True)
      , (3173, 11, True)
-     , (3173, 14, True);
+     , (3173, 14, True)
+     , (3173, 19, True)
+     , (3173, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1702, 'scrollhealingmasteryself');
@@ -28637,7 +30483,9 @@ VALUES (1702, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1702, 13, True)
      , (1702, 11, True)
-     , (1702, 14, True);
+     , (1702, 14, True)
+     , (1702, 19, True)
+     , (1702, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5970, 'scrollfletchingmasteryother3');
@@ -28668,7 +30516,9 @@ VALUES (5970, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5970, 13, True)
      , (5970, 11, True)
-     , (5970, 14, True);
+     , (5970, 14, True)
+     , (5970, 19, True)
+     , (5970, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21332, 'scrollshockarc3');
@@ -28699,7 +30549,9 @@ VALUES (21332, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21332, 13, True)
      , (21332, 11, True)
-     , (21332, 14, True);
+     , (21332, 14, True)
+     , (21332, 19, True)
+     , (21332, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3233, 'scrolldeceptionineptitude2');
@@ -28730,7 +30582,9 @@ VALUES (3233, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3233, 13, True)
      , (3233, 11, True)
-     , (3233, 14, True);
+     , (3233, 14, True)
+     , (3233, 19, True)
+     , (3233, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8938, 'scrollfroststreak4');
@@ -28761,7 +30615,9 @@ VALUES (8938, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8938, 13, True)
      , (8938, 11, True)
-     , (8938, 14, True);
+     , (8938, 14, True)
+     , (8938, 19, True)
+     , (8938, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21326, 'scrolllightningarc4');
@@ -28792,7 +30648,9 @@ VALUES (21326, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21326, 13, True)
      , (21326, 11, True)
-     , (21326, 14, True);
+     , (21326, 14, True)
+     , (21326, 19, True)
+     , (21326, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3244, 'scrolldeceptionmasteryself3');
@@ -28823,7 +30681,9 @@ VALUES (3244, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3244, 13, True)
      , (3244, 11, True)
-     , (3244, 14, True);
+     , (3244, 14, True)
+     , (3244, 19, True)
+     , (3244, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28013, 'scrollspiritloather5');
@@ -28854,7 +30714,9 @@ VALUES (28013, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28013, 13, True)
      , (28013, 11, True)
-     , (28013, 14, True);
+     , (28013, 14, True)
+     , (28013, 19, True)
+     , (28013, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45334, 'ace45334-scrollofsneakattackineptitudeotheriii');
@@ -28885,7 +30747,9 @@ VALUES (45334, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45334, 13, True)
      , (45334, 11, True)
-     , (45334, 14, True);
+     , (45334, 14, True)
+     , (45334, 19, True)
+     , (45334, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43305, 'ace43305-scrollofnetherboltiv');
@@ -28916,7 +30780,9 @@ VALUES (43305, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43305, 13, True)
      , (43305, 11, True)
-     , (43305, 14, True);
+     , (43305, 14, True)
+     , (43305, 19, True)
+     , (43305, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20329, 'scrolldispelcreatureneutralself6');
@@ -28947,7 +30813,9 @@ VALUES (20329, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20329, 13, True)
      , (20329, 11, True)
-     , (20329, 14, True);
+     , (20329, 14, True)
+     , (20329, 19, True)
+     , (20329, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20393, 'scrolldispellifeneutralother4');
@@ -28978,7 +30846,9 @@ VALUES (20393, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20393, 13, True)
      , (20393, 11, True)
-     , (20393, 14, True);
+     , (20393, 14, True)
+     , (20393, 19, True)
+     , (20393, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8917, 'scrollacidstreak4');
@@ -29009,7 +30879,9 @@ VALUES (8917, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8917, 13, True)
      , (8917, 11, True)
-     , (8917, 14, True);
+     , (8917, 14, True)
+     , (8917, 19, True)
+     , (8917, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3009, 'scrollbludgeonprotectionself3');
@@ -29040,7 +30912,9 @@ VALUES (3009, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3009, 13, True)
      , (3009, 11, True)
-     , (3009, 14, True);
+     , (3009, 14, True)
+     , (3009, 19, True)
+     , (3009, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3225, 'scrolldaggermasteryother4');
@@ -29071,7 +30945,9 @@ VALUES (3225, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3225, 13, True)
      , (3225, 11, True)
-     , (3225, 14, True);
+     , (3225, 14, True)
+     , (3225, 19, True)
+     , (3225, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3514, 'scrollswordineptitude3');
@@ -29102,7 +30978,9 @@ VALUES (3514, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3514, 13, True)
      , (3514, 11, True)
-     , (3514, 14, True);
+     , (3514, 14, True)
+     , (3514, 19, True)
+     , (3514, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5965, 'scrollfletchingineptitude4');
@@ -29133,7 +31011,9 @@ VALUES (5965, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5965, 13, True)
      , (5965, 11, True)
-     , (5965, 14, True);
+     , (5965, 14, True)
+     , (5965, 19, True)
+     , (5965, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3733, 'scrollinfusehealth4');
@@ -29164,7 +31044,9 @@ VALUES (3733, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3733, 13, True)
      , (3733, 11, True)
-     , (3733, 14, True);
+     , (3733, 14, True)
+     , (3733, 19, True)
+     , (3733, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20394, 'scrolldispellifeneutralother5');
@@ -29195,7 +31077,9 @@ VALUES (20394, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20394, 13, True)
      , (20394, 11, True)
-     , (20394, 14, True);
+     , (20394, 14, True)
+     , (20394, 19, True)
+     , (20394, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3224, 'scrolldaggermasteryother3');
@@ -29226,7 +31110,9 @@ VALUES (3224, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3224, 13, True)
      , (3224, 11, True)
-     , (3224, 14, True);
+     , (3224, 14, True)
+     , (3224, 19, True)
+     , (3224, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3329, 'scrollitemignorance3');
@@ -29257,7 +31143,9 @@ VALUES (3329, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3329, 13, True)
      , (3329, 11, True)
-     , (3329, 14, True);
+     , (3329, 14, True)
+     , (3329, 19, True)
+     , (3329, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2683, 'scrollfrailty3');
@@ -29288,7 +31176,9 @@ VALUES (2683, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2683, 13, True)
      , (2683, 11, True)
-     , (2683, 14, True);
+     , (2683, 14, True)
+     , (2683, 19, True)
+     , (2683, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9641, 'scrollmanatohealthself3');
@@ -29319,7 +31209,9 @@ VALUES (9641, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9641, 13, True)
      , (9641, 11, True)
-     , (9641, 14, True);
+     , (9641, 14, True)
+     , (9641, 19, True)
+     , (9641, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5952, 'scrollcookingmasteryother3');
@@ -29350,7 +31242,9 @@ VALUES (5952, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5952, 13, True)
      , (5952, 11, True)
-     , (5952, 14, True);
+     , (5952, 14, True)
+     , (5952, 19, True)
+     , (5952, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2743, 'scrollstrengthself3');
@@ -29381,7 +31275,9 @@ VALUES (2743, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2743, 13, True)
      , (2743, 11, True)
-     , (2743, 14, True);
+     , (2743, 14, True)
+     , (2743, 19, True)
+     , (2743, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2657, 'scrollenduranceother5');
@@ -29412,7 +31308,9 @@ VALUES (2657, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2657, 13, True)
      , (2657, 11, True)
-     , (2657, 14, True);
+     , (2657, 14, True)
+     , (2657, 19, True)
+     , (2657, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3739, 'scrollinfusemana5');
@@ -29443,7 +31341,9 @@ VALUES (3739, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3739, 13, True)
      , (3739, 11, True)
-     , (3739, 14, True);
+     , (3739, 14, True)
+     , (3739, 19, True)
+     , (3739, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2778, 'scrollbladelure3');
@@ -29474,7 +31374,9 @@ VALUES (2778, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2778, 13, True)
      , (2778, 11, True)
-     , (2778, 14, True);
+     , (2778, 14, True)
+     , (2778, 19, True)
+     , (2778, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43298, 'ace43298-scrollofnetherarcv');
@@ -29505,7 +31407,9 @@ VALUES (43298, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43298, 13, True)
      , (43298, 11, True)
-     , (43298, 14, True);
+     , (43298, 14, True)
+     , (43298, 19, True)
+     , (43298, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2990, 'scrollbladeprotectionother4');
@@ -29536,7 +31440,9 @@ VALUES (2990, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2990, 13, True)
      , (2990, 11, True)
-     , (2990, 14, True);
+     , (2990, 14, True)
+     , (2990, 19, True)
+     , (2990, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3465, 'scrollresistmagicother4');
@@ -29567,7 +31473,9 @@ VALUES (3465, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3465, 13, True)
      , (3465, 11, True)
-     , (3465, 14, True);
+     , (3465, 14, True)
+     , (3465, 19, True)
+     , (3465, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3339, 'scrolljumpmasteryself3');
@@ -29598,7 +31506,9 @@ VALUES (3339, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3339, 13, True)
      , (3339, 11, True)
-     , (3339, 14, True);
+     , (3339, 14, True)
+     , (3339, 19, True)
+     , (3339, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20399, 'scrolldispellifeneutralself4');
@@ -29629,7 +31539,9 @@ VALUES (20399, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20399, 13, True)
      , (20399, 11, True)
-     , (20399, 14, True);
+     , (20399, 14, True)
+     , (20399, 19, True)
+     , (20399, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3126, 'scrollrejuvenateself5');
@@ -29659,7 +31571,9 @@ VALUES (3126, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3126, 13, True)
      , (3126, 11, True)
-     , (3126, 14, True);
+     , (3126, 14, True)
+     , (3126, 19, True)
+     , (3126, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3039, 'scrollfireprotectionself3');
@@ -29690,7 +31604,9 @@ VALUES (3039, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3039, 13, True)
      , (3039, 11, True)
-     , (3039, 14, True);
+     , (3039, 14, True)
+     , (3039, 19, True)
+     , (3039, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2724, 'scrollrevitalizeother4');
@@ -29721,7 +31637,9 @@ VALUES (2724, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2724, 13, True)
      , (2724, 11, True)
-     , (2724, 14, True);
+     , (2724, 14, True)
+     , (2724, 19, True)
+     , (2724, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43288, 'ace43288-scrollofcorruptioniii');
@@ -29752,7 +31670,9 @@ VALUES (43288, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43288, 13, True)
      , (43288, 11, True)
-     , (43288, 14, True);
+     , (43288, 14, True)
+     , (43288, 19, True)
+     , (43288, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2859, 'scrolllightninglure4');
@@ -29783,7 +31703,9 @@ VALUES (2859, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2859, 13, True)
      , (2859, 11, True)
-     , (2859, 14, True);
+     , (2859, 14, True)
+     , (2859, 19, True)
+     , (2859, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5953, 'scrollcookingmasteryother4');
@@ -29814,7 +31736,9 @@ VALUES (5953, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5953, 13, True)
      , (5953, 11, True)
-     , (5953, 14, True);
+     , (5953, 14, True)
+     , (5953, 19, True)
+     , (5953, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3306, 'scrollitemenchantmentineptitude5');
@@ -29845,7 +31769,9 @@ VALUES (3306, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3306, 13, True)
      , (3306, 11, True)
-     , (3306, 14, True);
+     , (3306, 14, True)
+     , (3306, 19, True)
+     , (3306, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21330, 'scrollshockarc');
@@ -29876,7 +31802,9 @@ VALUES (21330, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21330, 13, True)
      , (21330, 11, True)
-     , (21330, 14, True);
+     , (21330, 14, True)
+     , (21330, 19, True)
+     , (21330, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2707, 'scrollmanadrain2');
@@ -29907,7 +31835,9 @@ VALUES (2707, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2707, 13, True)
      , (2707, 11, True)
-     , (2707, 14, True);
+     , (2707, 14, True)
+     , (2707, 19, True)
+     , (2707, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3564, 'scrollwarmagicineptitude3');
@@ -29938,7 +31868,9 @@ VALUES (3564, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3564, 13, True)
      , (3564, 11, True)
-     , (3564, 14, True);
+     , (3564, 14, True)
+     , (3564, 19, True)
+     , (3564, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43311, 'ace43311-scrollofnetherstreakii');
@@ -29969,7 +31901,9 @@ VALUES (43311, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43311, 13, True)
      , (43311, 11, True)
-     , (43311, 14, True);
+     , (43311, 14, True)
+     , (43311, 19, True)
+     , (43311, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8931, 'scrollforcestreak3');
@@ -30000,7 +31934,9 @@ VALUES (8931, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8931, 13, True)
      , (8931, 11, True)
-     , (8931, 14, True);
+     , (8931, 14, True)
+     , (8931, 19, True)
+     , (8931, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3005, 'scrollbludgeonprotectionother4');
@@ -30031,7 +31967,9 @@ VALUES (3005, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3005, 13, True)
      , (3005, 11, True)
-     , (3005, 14, True);
+     , (3005, 14, True)
+     , (3005, 19, True)
+     , (3005, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8918, 'scrollacidstreak5');
@@ -30062,7 +32000,9 @@ VALUES (8918, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8918, 13, True)
      , (8918, 11, True)
-     , (8918, 14, True);
+     , (8918, 14, True)
+     , (8918, 19, True)
+     , (8918, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3185, 'scrollbowmasteryself4');
@@ -30093,7 +32033,9 @@ VALUES (3185, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3185, 13, True)
      , (3185, 11, True)
-     , (3185, 14, True);
+     , (3185, 14, True)
+     , (3185, 19, True)
+     , (3185, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3160, 'scrollaxeineptitudeother4');
@@ -30124,7 +32066,9 @@ VALUES (3160, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3160, 13, True)
      , (3160, 11, True)
-     , (3160, 14, True);
+     , (3160, 14, True)
+     , (3160, 19, True)
+     , (3160, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3488, 'scrollsprintother2');
@@ -30155,7 +32099,9 @@ VALUES (3488, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3488, 13, True)
      , (3488, 11, True)
-     , (3488, 14, True);
+     , (3488, 14, True)
+     , (3488, 19, True)
+     , (3488, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2662, 'scrollenduranceself5');
@@ -30186,7 +32132,9 @@ VALUES (2662, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2662, 13, True)
      , (2662, 11, True)
-     , (2662, 14, True);
+     , (2662, 14, True)
+     , (2662, 19, True)
+     , (2662, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5989, 'scrollalchemymasteryother4');
@@ -30217,7 +32165,9 @@ VALUES (5989, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5989, 13, True)
      , (5989, 11, True)
-     , (5989, 14, True);
+     , (5989, 14, True)
+     , (5989, 19, True)
+     , (5989, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2969, 'scrollwhirlingblade3');
@@ -30248,7 +32198,9 @@ VALUES (2969, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2969, 13, True)
      , (2969, 11, True)
-     , (2969, 14, True);
+     , (2969, 14, True)
+     , (2969, 19, True)
+     , (2969, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2770, 'scrollacidlure5');
@@ -30279,7 +32231,9 @@ VALUES (2770, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2770, 13, True)
      , (2770, 11, True)
-     , (2770, 14, True);
+     , (2770, 14, True)
+     , (2770, 19, True)
+     , (2770, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3131, 'scrollarcanebenightedness5');
@@ -30310,7 +32264,9 @@ VALUES (3131, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3131, 13, True)
      , (3131, 11, True)
-     , (3131, 14, True);
+     , (3131, 14, True)
+     , (3131, 19, True)
+     , (3131, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3286, 'scrollimpregnabilityother5');
@@ -30341,7 +32297,9 @@ VALUES (3286, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3286, 13, True)
      , (3286, 11, True)
-     , (3286, 14, True);
+     , (3286, 14, True)
+     , (3286, 19, True)
+     , (3286, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2794, 'scrollbludgeonbane4');
@@ -30372,7 +32330,9 @@ VALUES (2794, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2794, 13, True)
      , (2794, 11, True)
-     , (2794, 14, True);
+     , (2794, 14, True)
+     , (2794, 19, True)
+     , (2794, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2820, 'scrollflamelure5');
@@ -30403,7 +32363,9 @@ VALUES (2820, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2820, 13, True)
      , (2820, 11, True)
-     , (2820, 14, True);
+     , (2820, 14, True)
+     , (2820, 19, True)
+     , (2820, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2652, 'scrollcoordinationself5');
@@ -30434,7 +32396,9 @@ VALUES (2652, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2652, 13, True)
      , (2652, 11, True)
-     , (2652, 14, True);
+     , (2652, 14, True)
+     , (2652, 19, True)
+     , (2652, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2690, 'scrollharmother5');
@@ -30465,7 +32429,9 @@ VALUES (2690, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2690, 13, True)
      , (2690, 11, True)
-     , (2690, 14, True);
+     , (2690, 14, True)
+     , (2690, 19, True)
+     , (2690, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3343, 'scrollleadenfeet2');
@@ -30496,7 +32462,9 @@ VALUES (3343, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3343, 13, True)
      , (3343, 11, True)
-     , (3343, 14, True);
+     , (3343, 14, True)
+     , (3343, 19, True)
+     , (3343, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3016, 'scrollbludgeonvulnerabilityother5');
@@ -30527,7 +32495,9 @@ VALUES (3016, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3016, 13, True)
      , (3016, 11, True)
-     , (3016, 14, True);
+     , (3016, 14, True)
+     , (3016, 19, True)
+     , (3016, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2644, 'scrollcoordinationother2');
@@ -30558,7 +32528,9 @@ VALUES (2644, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2644, 13, True)
      , (2644, 11, True)
-     , (2644, 14, True);
+     , (2644, 14, True)
+     , (2644, 19, True)
+     , (2644, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2773, 'scrollbladebane3');
@@ -30589,7 +32561,9 @@ VALUES (2773, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2773, 13, True)
      , (2773, 11, True)
-     , (2773, 14, True);
+     , (2773, 14, True)
+     , (2773, 19, True)
+     , (2773, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2781, 'scrollbladelure6');
@@ -30620,7 +32594,9 @@ VALUES (2781, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2781, 13, True)
      , (2781, 11, True)
-     , (2781, 14, True);
+     , (2781, 14, True)
+     , (2781, 19, True)
+     , (2781, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45249, 'ace45249-scrollofdirtyfightingmasteryothervi');
@@ -30651,7 +32627,9 @@ VALUES (45249, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45249, 13, True)
      , (45249, 11, True)
-     , (45249, 14, True);
+     , (45249, 14, True)
+     , (45249, 19, True)
+     , (45249, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3261, 'scrollfealtyother5');
@@ -30682,7 +32660,9 @@ VALUES (3261, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3261, 13, True)
      , (3261, 11, True)
-     , (3261, 14, True);
+     , (3261, 14, True)
+     , (3261, 19, True)
+     , (3261, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45239, 'ace45239-scrollofdirtyfightingineptitudeotheriv');
@@ -30713,7 +32693,9 @@ VALUES (45239, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45239, 13, True)
      , (45239, 11, True)
-     , (45239, 14, True);
+     , (45239, 14, True)
+     , (45239, 19, True)
+     , (45239, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3565, 'scrollwarmagicineptitude4');
@@ -30744,7 +32726,9 @@ VALUES (3565, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3565, 13, True)
      , (3565, 11, True)
-     , (3565, 14, True);
+     , (3565, 14, True)
+     , (3565, 19, True)
+     , (3565, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21324, 'scrolllightningarc2');
@@ -30775,7 +32759,9 @@ VALUES (21324, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21324, 13, True)
      , (21324, 11, True)
-     , (21324, 14, True);
+     , (21324, 14, True)
+     , (21324, 19, True)
+     , (21324, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3361, 'scrollleadershipmasteryself5');
@@ -30806,7 +32792,9 @@ VALUES (3361, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3361, 13, True)
      , (3361, 11, True)
-     , (3361, 14, True);
+     , (3361, 14, True)
+     , (3361, 19, True)
+     , (3361, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9658, 'scrollstaminatomanaself5');
@@ -30837,7 +32825,9 @@ VALUES (9658, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9658, 13, True)
      , (9658, 11, True)
-     , (9658, 14, True);
+     , (9658, 14, True)
+     , (9658, 19, True)
+     , (9658, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2880, 'scrollstrengthenlock5');
@@ -30868,7 +32858,9 @@ VALUES (2880, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2880, 13, True)
      , (2880, 11, True)
-     , (2880, 14, True);
+     , (2880, 14, True)
+     , (2880, 19, True)
+     , (2880, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2934, 'scrollforcebolt6');
@@ -30899,7 +32891,9 @@ VALUES (2934, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2934, 13, True)
      , (2934, 11, True)
-     , (2934, 14, True);
+     , (2934, 14, True)
+     , (2934, 19, True)
+     , (2934, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3206, 'scrollcrossbowineptitude5');
@@ -30930,7 +32924,9 @@ VALUES (3206, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3206, 13, True)
      , (3206, 11, True)
-     , (3206, 14, True);
+     , (3206, 14, True)
+     , (3206, 19, True)
+     , (3206, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3279, 'scrollhealingmasteryself3');
@@ -30961,7 +32957,9 @@ VALUES (3279, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3279, 13, True)
      , (3279, 11, True)
-     , (3279, 14, True);
+     , (3279, 14, True)
+     , (3279, 19, True)
+     , (3279, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3474, 'scrollspearineptitude3');
@@ -30992,7 +32990,9 @@ VALUES (3474, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3474, 13, True)
      , (3474, 11, True)
-     , (3474, 14, True);
+     , (3474, 14, True)
+     , (3474, 19, True)
+     , (3474, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9657, 'scrollstaminatomanaself4');
@@ -31023,7 +33023,9 @@ VALUES (9657, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9657, 13, True)
      , (9657, 11, True)
-     , (9657, 14, True);
+     , (9657, 14, True)
+     , (9657, 19, True)
+     , (9657, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3445, 'scrollmonsterunfamiliarity4');
@@ -31054,7 +33056,9 @@ VALUES (3445, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3445, 13, True)
      , (3445, 11, True)
-     , (3445, 14, True);
+     , (3445, 14, True)
+     , (3445, 19, True)
+     , (3445, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3095, 'scrollmanadepletion4');
@@ -31085,7 +33089,9 @@ VALUES (3095, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3095, 13, True)
      , (3095, 11, True)
-     , (3095, 14, True);
+     , (3095, 14, True)
+     , (3095, 19, True)
+     , (3095, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3439, 'scrollmonsterattunementother3');
@@ -31116,7 +33122,9 @@ VALUES (3439, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3439, 13, True)
      , (3439, 11, True)
-     , (3439, 14, True);
+     , (3439, 14, True)
+     , (3439, 19, True)
+     , (3439, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2844, 'scrollimpenetrability4');
@@ -31147,7 +33155,9 @@ VALUES (2844, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2844, 13, True)
      , (2844, 11, True)
-     , (2844, 14, True);
+     , (2844, 14, True)
+     , (2844, 19, True)
+     , (2844, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8950, 'scrollshockwavestreak4');
@@ -31178,7 +33188,9 @@ VALUES (8950, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8950, 13, True)
      , (8950, 11, True)
-     , (8950, 14, True);
+     , (8950, 14, True)
+     , (8950, 19, True)
+     , (8950, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3494, 'scrollsprintself3');
@@ -31209,7 +33221,9 @@ VALUES (3494, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3494, 13, True)
      , (3494, 11, True)
-     , (3494, 14, True);
+     , (3494, 14, True)
+     , (3494, 19, True)
+     , (3494, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3138, 'scrollarcaneenlightenmentself2');
@@ -31240,7 +33254,9 @@ VALUES (3138, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3138, 13, True)
      , (3138, 11, True)
-     , (3138, 14, True);
+     , (3138, 14, True)
+     , (3138, 19, True)
+     , (3138, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20355, 'scrolldispelitemneutralother2');
@@ -31271,7 +33287,9 @@ VALUES (20355, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20355, 13, True)
      , (20355, 11, True)
-     , (20355, 14, True);
+     , (20355, 14, True)
+     , (20355, 19, True)
+     , (20355, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3364, 'scrolllifemagicineptitude3');
@@ -31302,7 +33320,9 @@ VALUES (3364, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3364, 13, True)
      , (3364, 11, True)
-     , (3364, 14, True);
+     , (3364, 14, True)
+     , (3364, 19, True)
+     , (3364, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2762, 'scrollacidbane2');
@@ -31333,7 +33353,9 @@ VALUES (2762, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2762, 13, True)
      , (2762, 11, True)
-     , (2762, 14, True);
+     , (2762, 14, True)
+     , (2762, 19, True)
+     , (2762, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3413, 'scrollmagicitemexpertiseself2');
@@ -31364,7 +33386,9 @@ VALUES (3413, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3413, 13, True)
      , (3413, 11, True)
-     , (3413, 14, True);
+     , (3413, 14, True)
+     , (3413, 19, True)
+     , (3413, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2847, 'scrollleadenweapon2');
@@ -31395,7 +33419,9 @@ VALUES (2847, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2847, 13, True)
      , (2847, 11, True)
-     , (2847, 14, True);
+     , (2847, 14, True)
+     , (2847, 19, True)
+     , (2847, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9656, 'scrollstaminatomanaself3');
@@ -31426,7 +33452,9 @@ VALUES (9656, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9656, 13, True)
      , (9656, 11, True)
-     , (9656, 14, True);
+     , (9656, 14, True)
+     , (9656, 19, True)
+     , (9656, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2737, 'scrollstrengthother2');
@@ -31457,7 +33485,9 @@ VALUES (2737, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2737, 13, True)
      , (2737, 11, True)
-     , (2737, 14, True);
+     , (2737, 14, True)
+     , (2737, 19, True)
+     , (2737, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3278, 'scrollhealingmasteryself2');
@@ -31488,7 +33518,9 @@ VALUES (3278, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3278, 13, True)
      , (3278, 11, True)
-     , (3278, 14, True);
+     , (3278, 14, True)
+     , (3278, 19, True)
+     , (3278, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2636, 'scrollbafflement4');
@@ -31519,7 +33551,9 @@ VALUES (2636, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2636, 13, True)
      , (2636, 11, True)
-     , (2636, 14, True);
+     , (2636, 14, True)
+     , (2636, 19, True)
+     , (2636, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2894, 'scrollturnblade3');
@@ -31550,7 +33584,9 @@ VALUES (2894, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2894, 13, True)
      , (2894, 11, True)
-     , (2894, 14, True);
+     , (2894, 14, True)
+     , (2894, 19, True)
+     , (2894, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3373, 'scrolllifemagicmasteryself2');
@@ -31581,7 +33617,9 @@ VALUES (3373, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3373, 13, True)
      , (3373, 11, True)
-     , (3373, 14, True);
+     , (3373, 14, True)
+     , (3373, 19, True)
+     , (3373, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3128, 'scrollarcanebenightedness2');
@@ -31612,7 +33650,9 @@ VALUES (3128, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3128, 13, True)
      , (3128, 11, True)
-     , (3128, 14, True);
+     , (3128, 14, True)
+     , (3128, 19, True)
+     , (3128, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2712, 'scrollquicknessother2');
@@ -31643,7 +33683,9 @@ VALUES (2712, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2712, 13, True)
      , (2712, 11, True)
-     , (2712, 14, True);
+     , (2712, 14, True)
+     , (2712, 19, True)
+     , (2712, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8948, 'scrollshockwavestreak2');
@@ -31674,7 +33716,9 @@ VALUES (8948, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8948, 13, True)
      , (8948, 11, True)
-     , (8948, 14, True);
+     , (8948, 14, True)
+     , (8948, 19, True)
+     , (8948, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2649, 'scrollcoordinationself2');
@@ -31705,7 +33749,9 @@ VALUES (2649, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2649, 13, True)
      , (2649, 11, True)
-     , (2649, 14, True);
+     , (2649, 14, True)
+     , (2649, 19, True)
+     , (2649, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2968, 'scrollwhirlingblade2');
@@ -31736,7 +33782,9 @@ VALUES (2968, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2968, 13, True)
      , (2968, 11, True)
-     , (2968, 14, True);
+     , (2968, 14, True)
+     , (2968, 19, True)
+     , (2968, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4395, 'scrollforcebolt2');
@@ -31767,7 +33815,9 @@ VALUES (4395, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4395, 13, True)
      , (4395, 11, True)
-     , (4395, 14, True);
+     , (4395, 14, True)
+     , (4395, 19, True)
+     , (4395, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45236, 'ace45236-scrollofdirtyfightingineptitudeother');
@@ -31798,7 +33848,9 @@ VALUES (45236, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45236, 13, True)
      , (45236, 11, True)
-     , (45236, 14, True);
+     , (45236, 14, True)
+     , (45236, 19, True)
+     , (45236, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45244, 'ace45244-scrollofdirtyfightingmasteryother');
@@ -31829,7 +33881,9 @@ VALUES (45244, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45244, 13, True)
      , (45244, 11, True)
-     , (45244, 14, True);
+     , (45244, 14, True)
+     , (45244, 19, True)
+     , (45244, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2994, 'scrollbladeprotectionself3');
@@ -31860,7 +33914,9 @@ VALUES (2994, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2994, 13, True)
      , (2994, 11, True)
-     , (2994, 14, True);
+     , (2994, 14, True)
+     , (2994, 19, True)
+     , (2994, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1881, 'scrollflamebane');
@@ -31891,7 +33947,9 @@ VALUES (1881, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1881, 13, True)
      , (1881, 11, True)
-     , (1881, 14, True);
+     , (1881, 14, True)
+     , (1881, 19, True)
+     , (1881, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3218, 'scrolldaggerineptitudeother2');
@@ -31922,7 +33980,9 @@ VALUES (3218, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3218, 13, True)
      , (3218, 11, True)
-     , (3218, 14, True);
+     , (3218, 14, True)
+     , (3218, 19, True)
+     , (3218, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3308, 'scrollitemenchantmentmasteryother2');
@@ -31953,7 +34013,9 @@ VALUES (3308, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3308, 13, True)
      , (3308, 11, True)
-     , (3308, 14, True);
+     , (3308, 14, True)
+     , (3308, 19, True)
+     , (3308, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3083, 'scrollfester2');
@@ -31984,7 +34046,9 @@ VALUES (3083, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3083, 13, True)
      , (3083, 11, True)
-     , (3083, 14, True);
+     , (3083, 14, True)
+     , (3083, 19, True)
+     , (3083, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5963, 'scrollfletchingineptitude2');
@@ -32015,7 +34079,9 @@ VALUES (5963, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5963, 13, True)
      , (5963, 11, True)
-     , (5963, 14, True);
+     , (5963, 14, True)
+     , (5963, 19, True)
+     , (5963, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1886, 'scrollhidevalue');
@@ -32046,7 +34112,9 @@ VALUES (1886, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1886, 13, True)
      , (1886, 11, True)
-     , (1886, 14, True);
+     , (1886, 14, True)
+     , (1886, 19, True)
+     , (1886, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43286, 'ace43286-scrollofcorrosion');
@@ -32077,7 +34145,9 @@ VALUES (43286, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43286, 13, True)
      , (43286, 11, True)
-     , (43286, 14, True);
+     , (43286, 14, True)
+     , (43286, 19, True)
+     , (43286, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20392, 'scrolldispellifeneutralother3');
@@ -32108,7 +34178,9 @@ VALUES (20392, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20392, 13, True)
      , (20392, 11, True)
-     , (20392, 14, True);
+     , (20392, 14, True)
+     , (20392, 19, True)
+     , (20392, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20592, 'scrollunarmedmasteryself7');
@@ -32139,7 +34211,9 @@ VALUES (20592, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20592, 13, True)
      , (20592, 11, True)
-     , (20592, 14, True);
+     , (20592, 14, True)
+     , (20592, 19, True)
+     , (20592, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9654, 'scrollstaminatohealthself6');
@@ -32170,7 +34244,9 @@ VALUES (9654, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9654, 13, True)
      , (9654, 11, True)
-     , (9654, 14, True);
+     , (9654, 14, True)
+     , (9654, 19, True)
+     , (9654, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2668, 'scrollenfeeble6');
@@ -32201,7 +34277,9 @@ VALUES (2668, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2668, 13, True)
      , (2668, 11, True)
-     , (2668, 14, True);
+     , (2668, 14, True)
+     , (2668, 19, True)
+     , (2668, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8944, 'scrolllightningstreak4');
@@ -32232,7 +34310,9 @@ VALUES (8944, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8944, 13, True)
      , (8944, 11, True)
-     , (8944, 14, True);
+     , (8944, 14, True)
+     , (8944, 19, True)
+     , (8944, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3472, 'scrollresistmagicself6');
@@ -32263,7 +34343,9 @@ VALUES (3472, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3472, 13, True)
      , (3472, 11, True)
-     , (3472, 14, True);
+     , (3472, 14, True)
+     , (3472, 19, True)
+     , (3472, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2675, 'scrollfocusother3');
@@ -32294,7 +34376,9 @@ VALUES (2675, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2675, 13, True)
      , (2675, 11, True)
-     , (2675, 14, True);
+     , (2675, 14, True)
+     , (2675, 19, True)
+     , (2675, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9631, 'scrollhealthtomanaself3');
@@ -32325,7 +34409,9 @@ VALUES (9631, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9631, 13, True)
      , (9631, 11, True)
-     , (9631, 14, True);
+     , (9631, 14, True)
+     , (9631, 19, True)
+     , (9631, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43365, 'ace43365-scrollofvoidmagicmasteryothervi');
@@ -32356,7 +34442,9 @@ VALUES (43365, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43365, 13, True)
      , (43365, 11, True)
-     , (43365, 14, True);
+     , (43365, 14, True)
+     , (43365, 19, True)
+     , (43365, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3287, 'scrollimpregnabilityother6');
@@ -32387,7 +34475,9 @@ VALUES (3287, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3287, 13, True)
      , (3287, 11, True)
-     , (3287, 14, True);
+     , (3287, 14, True)
+     , (3287, 19, True)
+     , (3287, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20624, 'scrollsummonsecondportal3');
@@ -32418,7 +34508,9 @@ VALUES (20624, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20624, 13, True)
      , (20624, 11, True)
-     , (20624, 14, True);
+     , (20624, 14, True)
+     , (20624, 19, True)
+     , (20624, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2906, 'scrollsummonportal3');
@@ -32449,7 +34541,9 @@ VALUES (2906, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2906, 13, True)
      , (2906, 11, True)
-     , (2906, 14, True);
+     , (2906, 14, True)
+     , (2906, 19, True)
+     , (2906, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3437, 'scrollmanaconvertmasteryself6');
@@ -32480,7 +34574,9 @@ VALUES (3437, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3437, 13, True)
      , (3437, 11, True)
-     , (3437, 14, True);
+     , (3437, 14, True)
+     , (3437, 19, True)
+     , (3437, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2975, 'scrollacidprotectionother4');
@@ -32511,7 +34607,9 @@ VALUES (2975, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2975, 13, True)
      , (2975, 11, True)
-     , (2975, 14, True);
+     , (2975, 14, True)
+     , (2975, 19, True)
+     , (2975, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43322, 'ace43322-scrollofdestructivecurseiii');
@@ -32542,7 +34640,9 @@ VALUES (43322, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43322, 13, True)
      , (43322, 11, True)
-     , (43322, 14, True);
+     , (43322, 14, True)
+     , (43322, 19, True)
+     , (43322, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21103, 'scrollmanabolt2');
@@ -32573,7 +34673,9 @@ VALUES (21103, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21103, 13, True)
      , (21103, 11, True)
-     , (21103, 14, True);
+     , (21103, 14, True)
+     , (21103, 19, True)
+     , (21103, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3165, 'scrollaxemasteryother4');
@@ -32604,7 +34706,9 @@ VALUES (3165, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3165, 13, True)
      , (3165, 11, True)
-     , (3165, 14, True);
+     , (3165, 14, True)
+     , (3165, 19, True)
+     , (3165, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3495, 'scrollsprintself4');
@@ -32635,7 +34739,9 @@ VALUES (3495, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3495, 13, True)
      , (3495, 11, True)
-     , (3495, 14, True);
+     , (3495, 14, True)
+     , (3495, 19, True)
+     , (3495, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3002, 'scrollbladevulnerabilityother6');
@@ -32666,7 +34772,9 @@ VALUES (3002, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3002, 13, True)
      , (3002, 11, True)
-     , (3002, 14, True);
+     , (3002, 14, True)
+     , (3002, 19, True)
+     , (3002, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3381, 'scrolllockpickineptitude5');
@@ -32697,7 +34805,9 @@ VALUES (3381, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3381, 13, True)
      , (3381, 11, True)
-     , (3381, 14, True);
+     , (3381, 14, True)
+     , (3381, 19, True)
+     , (3381, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9628, 'scrolljumpineptitude5');
@@ -32728,7 +34838,9 @@ VALUES (9628, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9628, 13, True)
      , (9628, 11, True)
-     , (9628, 14, True);
+     , (9628, 14, True)
+     , (9628, 19, True)
+     , (9628, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3327, 'scrollitemexpertiseself6');
@@ -32759,7 +34871,9 @@ VALUES (3327, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3327, 13, True)
      , (3327, 11, True)
-     , (3327, 14, True);
+     , (3327, 14, True)
+     , (3327, 19, True)
+     , (3327, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43324, 'ace43324-scrollofdestructivecursev');
@@ -32790,7 +34904,9 @@ VALUES (43324, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43324, 13, True)
      , (43324, 11, True)
-     , (43324, 14, True);
+     , (43324, 14, True)
+     , (43324, 19, True)
+     , (43324, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3266, 'scrollfealtyself5');
@@ -32821,7 +34937,9 @@ VALUES (3266, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3266, 13, True)
      , (3266, 11, True)
-     , (3266, 14, True);
+     , (3266, 14, True)
+     , (3266, 19, True)
+     , (3266, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3379, 'scrolllockpickineptitude3');
@@ -32852,7 +34970,9 @@ VALUES (3379, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3379, 13, True)
      , (3379, 11, True)
-     , (3379, 14, True);
+     , (3379, 14, True)
+     , (3379, 19, True)
+     , (3379, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5971, 'scrollfletchingmasteryother4');
@@ -32883,7 +35003,9 @@ VALUES (5971, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5971, 13, True)
      , (5971, 11, True)
-     , (5971, 14, True);
+     , (5971, 14, True)
+     , (5971, 19, True)
+     , (5971, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45312, 'ace45312-scrollofshieldineptitudeotherv');
@@ -32914,7 +35036,9 @@ VALUES (45312, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45312, 13, True)
      , (45312, 11, True)
-     , (45312, 14, True);
+     , (45312, 14, True)
+     , (45312, 19, True)
+     , (45312, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3241, 'scrolldeceptionmasteryother5');
@@ -32945,7 +35069,9 @@ VALUES (3241, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3241, 13, True)
      , (3241, 11, True)
-     , (3241, 14, True);
+     , (3241, 14, True)
+     , (3241, 19, True)
+     , (3241, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3155, 'scrollarmorignorance4');
@@ -32976,7 +35102,9 @@ VALUES (3155, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3155, 13, True)
      , (3155, 11, True)
-     , (3155, 14, True);
+     , (3155, 14, True)
+     , (3155, 19, True)
+     , (3155, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3019, 'scrollcoldprotectionother3');
@@ -33007,7 +35135,9 @@ VALUES (3019, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3019, 13, True)
      , (3019, 11, True)
-     , (3019, 14, True);
+     , (3019, 14, True)
+     , (3019, 19, True)
+     , (3019, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3271, 'scrollhealingineptitude5');
@@ -33038,7 +35168,9 @@ VALUES (3271, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3271, 13, True)
      , (3271, 11, True)
-     , (3271, 14, True);
+     , (3271, 14, True)
+     , (3271, 19, True)
+     , (3271, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9662, 'scrolldrainmana3');
@@ -33069,7 +35201,9 @@ VALUES (9662, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9662, 13, True)
      , (9662, 11, True)
-     , (9662, 14, True);
+     , (9662, 14, True)
+     , (9662, 19, True)
+     , (9662, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3124, 'scrollrejuvenateself3');
@@ -33099,7 +35233,9 @@ VALUES (3124, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3124, 13, True)
      , (3124, 11, True)
-     , (3124, 14, True);
+     , (3124, 14, True)
+     , (3124, 19, True)
+     , (3124, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3934, 'scrolldrainhealth3');
@@ -33130,7 +35266,9 @@ VALUES (3934, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3934, 13, True)
      , (3934, 11, True)
-     , (3934, 14, True);
+     , (3934, 14, True)
+     , (3934, 19, True)
+     , (3934, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3399, 'scrollmacemasteryother3');
@@ -33161,7 +35299,9 @@ VALUES (3399, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3399, 13, True)
      , (3399, 11, True)
-     , (3399, 14, True);
+     , (3399, 14, True)
+     , (3399, 19, True)
+     , (3399, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2853, 'scrolllightningbane3');
@@ -33192,7 +35332,9 @@ VALUES (2853, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2853, 13, True)
      , (2853, 11, True)
-     , (2853, 14, True);
+     , (2853, 14, True)
+     , (2853, 19, True)
+     , (2853, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1639, 'scrollforcebolt');
@@ -33223,7 +35365,9 @@ VALUES (1639, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1639, 13, True)
      , (1639, 11, True)
-     , (1639, 14, True);
+     , (1639, 14, True)
+     , (1639, 19, True)
+     , (1639, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3588, 'scrollweaponignorance2');
@@ -33254,7 +35398,9 @@ VALUES (3588, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3588, 13, True)
      , (3588, 11, True)
-     , (3588, 14, True);
+     , (3588, 14, True)
+     , (3588, 19, True)
+     , (3588, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3366, 'scrolllifemagicineptitude5');
@@ -33285,7 +35431,9 @@ VALUES (3366, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3366, 13, True)
      , (3366, 11, True)
-     , (3366, 14, True);
+     , (3366, 14, True)
+     , (3366, 19, True)
+     , (3366, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2989, 'scrollbladeprotectionother3');
@@ -33316,7 +35464,9 @@ VALUES (2989, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2989, 13, True)
      , (2989, 11, True)
-     , (2989, 14, True);
+     , (2989, 14, True)
+     , (2989, 19, True)
+     , (2989, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3469, 'scrollresistmagicself3');
@@ -33347,7 +35497,9 @@ VALUES (3469, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3469, 13, True)
      , (3469, 11, True)
-     , (3469, 14, True);
+     , (3469, 14, True)
+     , (3469, 19, True)
+     , (3469, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2815, 'scrollflamebane5');
@@ -33378,7 +35530,9 @@ VALUES (2815, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2815, 13, True)
      , (2815, 11, True)
-     , (2815, 14, True);
+     , (2815, 14, True)
+     , (2815, 19, True)
+     , (2815, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2795, 'scrollbludgeonbane5');
@@ -33409,7 +35563,9 @@ VALUES (2795, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2795, 13, True)
      , (2795, 11, True)
-     , (2795, 14, True);
+     , (2795, 14, True)
+     , (2795, 19, True)
+     , (2795, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3212, 'scrollcrossbowmasteryother6');
@@ -33440,7 +35596,9 @@ VALUES (3212, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3212, 13, True)
      , (3212, 11, True)
-     , (3212, 14, True);
+     , (3212, 14, True)
+     , (3212, 19, True)
+     , (3212, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20516, 'scrollcrossbowineptitude7');
@@ -33471,7 +35629,9 @@ VALUES (20516, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20516, 13, True)
      , (20516, 11, True)
-     , (20516, 14, True);
+     , (20516, 14, True)
+     , (20516, 19, True)
+     , (20516, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8951, 'scrollshockwavestreak5');
@@ -33502,7 +35662,9 @@ VALUES (8951, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8951, 13, True)
      , (8951, 11, True)
-     , (8951, 14, True);
+     , (8951, 14, True)
+     , (8951, 19, True)
+     , (8951, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2761, 'scrollwillpowerself6');
@@ -33533,7 +35695,9 @@ VALUES (2761, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2761, 13, True)
      , (2761, 11, True)
-     , (2761, 14, True);
+     , (2761, 14, True)
+     , (2761, 19, True)
+     , (2761, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2824, 'scrollfrostbane4');
@@ -33564,7 +35728,9 @@ VALUES (2824, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2824, 13, True)
      , (2824, 11, True)
-     , (2824, 14, True);
+     , (2824, 14, True)
+     , (2824, 19, True)
+     , (2824, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9632, 'scrollhealthtomanaself4');
@@ -33595,7 +35761,9 @@ VALUES (9632, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9632, 13, True)
      , (9632, 11, True)
-     , (9632, 14, True);
+     , (9632, 14, True)
+     , (9632, 19, True)
+     , (9632, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1728, 'scrollmonsterattunementself');
@@ -33626,7 +35794,9 @@ VALUES (1728, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1728, 13, True)
      , (1728, 11, True)
-     , (1728, 14, True);
+     , (1728, 14, True)
+     , (1728, 19, True)
+     , (1728, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2869, 'scrollpiercingbane4');
@@ -33657,7 +35827,9 @@ VALUES (2869, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2869, 13, True)
      , (2869, 11, True)
-     , (2869, 14, True);
+     , (2869, 14, True)
+     , (2869, 19, True)
+     , (2869, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2747, 'scrollweaknessother2');
@@ -33688,7 +35860,9 @@ VALUES (2747, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2747, 13, True)
      , (2747, 11, True)
-     , (2747, 14, True);
+     , (2747, 14, True)
+     , (2747, 19, True)
+     , (2747, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1878, 'scrollbludgeonlure');
@@ -33719,7 +35893,9 @@ VALUES (1878, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1878, 13, True)
      , (1878, 11, True)
-     , (1878, 14, True);
+     , (1878, 14, True)
+     , (1878, 19, True)
+     , (1878, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3035, 'scrollfireprotectionother4');
@@ -33750,7 +35926,9 @@ VALUES (3035, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3035, 13, True)
      , (3035, 11, True)
-     , (3035, 14, True);
+     , (3035, 14, True)
+     , (3035, 19, True)
+     , (3035, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3077, 'scrollpiercevulnerabilityother6');
@@ -33781,7 +35959,9 @@ VALUES (3077, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3077, 13, True)
      , (3077, 11, True)
-     , (3077, 14, True);
+     , (3077, 14, True)
+     , (3077, 19, True)
+     , (3077, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3525, 'scrollswordmasteryself4');
@@ -33812,7 +35992,9 @@ VALUES (3525, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3525, 13, True)
      , (3525, 11, True)
-     , (3525, 14, True);
+     , (3525, 14, True)
+     , (3525, 19, True)
+     , (3525, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43313, 'ace43313-scrollofnetherstreakiv');
@@ -33843,7 +36025,9 @@ VALUES (43313, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43313, 13, True)
      , (43313, 11, True)
-     , (43313, 14, True);
+     , (43313, 14, True)
+     , (43313, 19, True)
+     , (43313, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1844, 'scrollbludgeonprotectionother');
@@ -33874,7 +36058,9 @@ VALUES (1844, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1844, 13, True)
      , (1844, 11, True)
-     , (1844, 14, True);
+     , (1844, 14, True)
+     , (1844, 19, True)
+     , (1844, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41261, 'ace41261-scrolloftwohandedweaponmasteryselfvi');
@@ -33905,7 +36091,9 @@ VALUES (41261, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41261, 13, True)
      , (41261, 11, True)
-     , (41261, 14, True);
+     , (41261, 14, True)
+     , (41261, 19, True)
+     , (41261, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3072, 'scrollpierceprotectionself6');
@@ -33936,7 +36124,9 @@ VALUES (3072, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3072, 13, True)
      , (3072, 11, True)
-     , (3072, 14, True);
+     , (3072, 14, True)
+     , (3072, 19, True)
+     , (3072, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3050, 'scrolllightningprotectionother4');
@@ -33967,7 +36157,9 @@ VALUES (3050, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3050, 13, True)
      , (3050, 11, True)
-     , (3050, 14, True);
+     , (3050, 14, True)
+     , (3050, 19, True)
+     , (3050, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3320, 'scrollitemexpertiseother4');
@@ -33998,7 +36190,9 @@ VALUES (3320, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3320, 13, True)
      , (3320, 11, True)
-     , (3320, 14, True);
+     , (3320, 14, True)
+     , (3320, 19, True)
+     , (3320, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3411, 'scrollmagicitemexpertiseother5');
@@ -34029,7 +36223,9 @@ VALUES (3411, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3411, 13, True)
      , (3411, 11, True)
-     , (3411, 14, True);
+     , (3411, 14, True)
+     , (3411, 19, True)
+     , (3411, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21299, 'scrollbladearc5');
@@ -34060,7 +36256,9 @@ VALUES (21299, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21299, 13, True)
      , (21299, 11, True)
-     , (21299, 14, True);
+     , (21299, 14, True)
+     , (21299, 19, True)
+     , (21299, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2898, 'scrollweakenlock2');
@@ -34091,7 +36289,9 @@ VALUES (2898, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2898, 13, True)
      , (2898, 11, True)
-     , (2898, 14, True);
+     , (2898, 14, True)
+     , (2898, 19, True)
+     , (2898, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2998, 'scrollbladevulnerabilityother2');
@@ -34122,7 +36322,9 @@ VALUES (2998, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2998, 13, True)
      , (2998, 11, True)
-     , (2998, 14, True);
+     , (2998, 14, True)
+     , (2998, 19, True)
+     , (2998, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29024, 'scrollregenerationfellowship7');
@@ -34152,7 +36354,9 @@ VALUES (29024, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29024, 13, True)
      , (29024, 11, True)
-     , (29024, 14, True);
+     , (29024, 14, True)
+     , (29024, 19, True)
+     , (29024, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29023, 'scrollregenerationfellowship6');
@@ -34182,7 +36386,9 @@ VALUES (29023, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29023, 13, True)
      , (29023, 11, True)
-     , (29023, 14, True);
+     , (29023, 14, True)
+     , (29023, 19, True)
+     , (29023, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29022, 'scrollregenerationfellowship5');
@@ -34212,7 +36418,9 @@ VALUES (29022, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29022, 13, True)
      , (29022, 11, True)
-     , (29022, 14, True);
+     , (29022, 14, True)
+     , (29022, 19, True)
+     , (29022, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29021, 'scrollregenerationfellowship4');
@@ -34242,7 +36450,9 @@ VALUES (29021, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29021, 13, True)
      , (29021, 11, True)
-     , (29021, 14, True);
+     , (29021, 14, True)
+     , (29021, 19, True)
+     , (29021, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21307, 'scrollflamearc6');
@@ -34273,7 +36483,9 @@ VALUES (21307, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21307, 13, True)
      , (21307, 11, True)
-     , (21307, 14, True);
+     , (21307, 14, True)
+     , (21307, 19, True)
+     , (21307, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2774, 'scrollbladebane4');
@@ -34304,7 +36516,9 @@ VALUES (2774, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2774, 13, True)
      , (2774, 11, True)
-     , (2774, 14, True);
+     , (2774, 14, True)
+     , (2774, 19, True)
+     , (2774, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3391, 'scrolllockpickmasteryself5');
@@ -34335,7 +36549,9 @@ VALUES (3391, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3391, 13, True)
      , (3391, 11, True)
-     , (3391, 14, True);
+     , (3391, 14, True)
+     , (3391, 19, True)
+     , (3391, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3362, 'scrollleadershipmasteryself6');
@@ -34366,7 +36582,9 @@ VALUES (3362, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3362, 13, True)
      , (3362, 11, True)
-     , (3362, 14, True);
+     , (3362, 14, True)
+     , (3362, 19, True)
+     , (3362, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43289, 'ace43289-scrollofcorruptioniv');
@@ -34397,7 +36615,9 @@ VALUES (43289, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43289, 13, True)
      , (43289, 11, True)
-     , (43289, 14, True);
+     , (43289, 14, True)
+     , (43289, 19, True)
+     , (43289, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2875, 'scrollpiercinglure5');
@@ -34428,7 +36648,9 @@ VALUES (2875, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2875, 13, True)
      , (2875, 11, True)
-     , (2875, 14, True);
+     , (2875, 14, True)
+     , (2875, 19, True)
+     , (2875, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5993, 'scrollalchemymasteryself2');
@@ -34459,7 +36681,9 @@ VALUES (5993, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5993, 13, True)
      , (5993, 11, True)
-     , (5993, 14, True);
+     , (5993, 14, True)
+     , (5993, 19, True)
+     , (5993, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3256, 'scrollfaithlessness5');
@@ -34490,7 +36714,9 @@ VALUES (3256, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3256, 13, True)
      , (3256, 11, True)
-     , (3256, 14, True);
+     , (3256, 14, True)
+     , (3256, 19, True)
+     , (3256, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2656, 'scrollenduranceother4');
@@ -34521,7 +36747,9 @@ VALUES (2656, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2656, 13, True)
      , (2656, 11, True)
-     , (2656, 14, True);
+     , (2656, 14, True)
+     , (2656, 19, True)
+     , (2656, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8921, 'scrollflamestreak2');
@@ -34552,7 +36780,9 @@ VALUES (8921, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8921, 13, True)
      , (8921, 11, True)
-     , (8921, 14, True);
+     , (8921, 14, True)
+     , (8921, 19, True)
+     , (8921, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3299, 'scrollinvulnerabilityself3');
@@ -34583,7 +36813,9 @@ VALUES (3299, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3299, 13, True)
      , (3299, 11, True)
-     , (3299, 14, True);
+     , (3299, 14, True)
+     , (3299, 19, True)
+     , (3299, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3145, 'scrollarmorexpertiseother4');
@@ -34614,7 +36846,9 @@ VALUES (3145, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3145, 13, True)
      , (3145, 11, True)
-     , (3145, 14, True);
+     , (3145, 14, True)
+     , (3145, 19, True)
+     , (3145, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1711, 'scrolljumpmasteryself');
@@ -34645,7 +36879,9 @@ VALUES (1711, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1711, 13, True)
      , (1711, 11, True)
-     , (1711, 14, True);
+     , (1711, 14, True)
+     , (1711, 19, True)
+     , (1711, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20356, 'scrolldispelitemneutralother3');
@@ -34676,7 +36912,9 @@ VALUES (20356, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20356, 13, True)
      , (20356, 11, True)
-     , (20356, 14, True);
+     , (20356, 14, True)
+     , (20356, 19, True)
+     , (20356, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1716, 'scrolllifemagicineptitude');
@@ -34707,7 +36945,9 @@ VALUES (1716, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1716, 13, True)
      , (1716, 11, True)
-     , (1716, 14, True);
+     , (1716, 14, True)
+     , (1716, 19, True)
+     , (1716, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21102, 'scrollmanabolt');
@@ -34738,7 +36978,9 @@ VALUES (21102, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21102, 13, True)
      , (21102, 11, True)
-     , (21102, 14, True);
+     , (21102, 14, True)
+     , (21102, 19, True)
+     , (21102, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1683, 'scrollarmorexpertiseself');
@@ -34769,7 +37011,9 @@ VALUES (1683, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1683, 13, True)
      , (1683, 11, True)
-     , (1683, 14, True);
+     , (1683, 14, True)
+     , (1683, 19, True)
+     , (1683, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9645, 'scrollmanatostaminaself2');
@@ -34800,7 +37044,9 @@ VALUES (9645, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9645, 13, True)
      , (9645, 11, True)
-     , (9645, 14, True);
+     , (9645, 14, True)
+     , (9645, 19, True)
+     , (9645, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28933, 'scrollarcanumsalvaging');
@@ -34831,7 +37077,9 @@ VALUES (28933, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28933, 13, True)
      , (28933, 11, True)
-     , (28933, 14, True);
+     , (28933, 14, True)
+     , (28933, 19, True)
+     , (28933, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3234, 'scrolldeceptionineptitude3');
@@ -34862,7 +37110,9 @@ VALUES (3234, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3234, 13, True)
      , (3234, 11, True)
-     , (3234, 14, True);
+     , (3234, 14, True)
+     , (3234, 19, True)
+     , (3234, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5945, 'scrollcookingineptitude2');
@@ -34893,7 +37143,9 @@ VALUES (5945, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5945, 13, True)
      , (5945, 11, True)
-     , (5945, 14, True);
+     , (5945, 14, True)
+     , (5945, 19, True)
+     , (5945, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1553, 'scrollbladelure');
@@ -34924,7 +37176,9 @@ VALUES (1553, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1553, 13, True)
      , (1553, 11, True)
-     , (1553, 14, True);
+     , (1553, 14, True)
+     , (1553, 19, True)
+     , (1553, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20326, 'scrolldispelcreatureneutralself3');
@@ -34955,7 +37209,9 @@ VALUES (20326, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20326, 13, True)
      , (20326, 11, True)
-     , (20326, 14, True);
+     , (20326, 14, True)
+     , (20326, 19, True)
+     , (20326, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49467, 'ace49467-scrollofsummoningmasteryotherv');
@@ -34986,7 +37242,9 @@ VALUES (49467, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49467, 13, True)
      , (49467, 11, True)
-     , (49467, 14, True);
+     , (49467, 14, True)
+     , (49467, 19, True)
+     , (49467, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45328, 'ace45328-scrollofshieldmasteryselfv');
@@ -35017,7 +37275,9 @@ VALUES (45328, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45328, 13, True)
      , (45328, 11, True)
-     , (45328, 14, True);
+     , (45328, 14, True)
+     , (45328, 19, True)
+     , (45328, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43360, 'ace43360-scrollofvoidmagicmasteryselfii');
@@ -35048,7 +37308,9 @@ VALUES (43360, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43360, 13, True)
      , (43360, 11, True)
-     , (43360, 14, True);
+     , (43360, 14, True)
+     , (43360, 19, True)
+     , (43360, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3586, 'scrollweaponexpertiseself5');
@@ -35079,7 +37341,9 @@ VALUES (3586, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3586, 13, True)
      , (3586, 11, True)
-     , (3586, 14, True);
+     , (3586, 14, True)
+     , (3586, 19, True)
+     , (3586, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3061, 'scrolllightningvulnerabilityother5');
@@ -35110,7 +37374,9 @@ VALUES (3061, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3061, 13, True)
      , (3061, 11, True)
-     , (3061, 14, True);
+     , (3061, 14, True)
+     , (3061, 19, True)
+     , (3061, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2660, 'scrollenduranceself3');
@@ -35141,7 +37407,9 @@ VALUES (2660, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2660, 13, True)
      , (2660, 11, True)
-     , (2660, 14, True);
+     , (2660, 14, True)
+     , (2660, 19, True)
+     , (2660, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3363, 'scrolllifemagicineptitude2');
@@ -35172,7 +37440,9 @@ VALUES (3363, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3363, 13, True)
      , (3363, 11, True)
-     , (3363, 14, True);
+     , (3363, 14, True)
+     , (3363, 19, True)
+     , (3363, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2688, 'scrollharmother3');
@@ -35203,7 +37473,9 @@ VALUES (2688, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2688, 13, True)
      , (2688, 11, True)
-     , (2688, 14, True);
+     , (2688, 14, True)
+     , (2688, 19, True)
+     , (2688, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5999, 'scrollflamebolt3');
@@ -35234,7 +37506,9 @@ VALUES (5999, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5999, 13, True)
      , (5999, 11, True)
-     , (5999, 14, True);
+     , (5999, 14, True)
+     , (5999, 19, True)
+     , (5999, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2709, 'scrollmanadrain4');
@@ -35265,7 +37539,9 @@ VALUES (2709, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2709, 13, True)
      , (2709, 11, True)
-     , (2709, 14, True);
+     , (2709, 14, True)
+     , (2709, 19, True)
+     , (2709, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2725, 'scrollrevitalizeother5');
@@ -35296,7 +37572,9 @@ VALUES (2725, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2725, 13, True)
      , (2725, 11, True)
-     , (2725, 14, True);
+     , (2725, 14, True)
+     , (2725, 19, True)
+     , (2725, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9652, 'scrollstaminatohealthself4');
@@ -35327,7 +37605,9 @@ VALUES (9652, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9652, 13, True)
      , (9652, 11, True)
-     , (9652, 14, True);
+     , (9652, 14, True)
+     , (9652, 19, True)
+     , (9652, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2754, 'scrollwillpowerother4');
@@ -35358,7 +37638,9 @@ VALUES (2754, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2754, 13, True)
      , (2754, 11, True)
-     , (2754, 14, True);
+     , (2754, 14, True)
+     , (2754, 19, True)
+     , (2754, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45348, 'ace45348-scrollofsneakattackmasteryself');
@@ -35389,7 +37671,9 @@ VALUES (45348, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45348, 13, True)
      , (45348, 11, True)
-     , (45348, 14, True);
+     , (45348, 14, True)
+     , (45348, 19, True)
+     , (45348, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3291, 'scrollimpregnabilityself5');
@@ -35420,7 +37704,9 @@ VALUES (3291, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3291, 13, True)
      , (3291, 11, True)
-     , (3291, 14, True);
+     , (3291, 14, True)
+     , (3291, 19, True)
+     , (3291, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45286, 'ace45286-scrollofrecklessnessineptitudeotheriii');
@@ -35451,7 +37737,9 @@ VALUES (45286, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45286, 13, True)
      , (45286, 11, True)
-     , (45286, 14, True);
+     , (45286, 14, True)
+     , (45286, 19, True)
+     , (45286, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3567, 'scrollwarmagicineptitude6');
@@ -35482,7 +37770,9 @@ VALUES (3567, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3567, 13, True)
      , (3567, 11, True)
-     , (3567, 14, True);
+     , (3567, 14, True)
+     , (3567, 19, True)
+     , (3567, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3188, 'scrollcreatureenchantmentineptitude2');
@@ -35513,7 +37803,9 @@ VALUES (3188, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3188, 13, True)
      , (3188, 11, True)
-     , (3188, 14, True);
+     , (3188, 14, True)
+     , (3188, 19, True)
+     , (3188, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3098, 'scrollmanarenewalother2');
@@ -35544,7 +37836,9 @@ VALUES (3098, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3098, 13, True)
      , (3098, 11, True)
-     , (3098, 14, True);
+     , (3098, 14, True)
+     , (3098, 19, True)
+     , (3098, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21109, 'scrollstaminabolt');
@@ -35575,7 +37869,9 @@ VALUES (21109, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21109, 13, True)
      , (21109, 11, True)
-     , (21109, 14, True);
+     , (21109, 14, True)
+     , (21109, 19, True)
+     , (21109, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3493, 'scrollsprintself2');
@@ -35606,7 +37902,9 @@ VALUES (3493, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3493, 13, True)
      , (3493, 11, True)
-     , (3493, 14, True);
+     , (3493, 14, True)
+     , (3493, 19, True)
+     , (3493, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45268, 'ace45268-scrollofdualwieldmasteryother');
@@ -35637,7 +37935,9 @@ VALUES (45268, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45268, 13, True)
      , (45268, 11, True)
-     , (45268, 14, True);
+     , (45268, 14, True)
+     , (45268, 19, True)
+     , (45268, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45237, 'ace45237-scrollofdirtyfightingineptitudeotherii');
@@ -35668,7 +37968,9 @@ VALUES (45237, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45237, 13, True)
      , (45237, 11, True)
-     , (45237, 14, True);
+     , (45237, 14, True)
+     , (45237, 19, True)
+     , (45237, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45277, 'ace45277-scrollofdualwieldmasteryselfii');
@@ -35699,7 +38001,9 @@ VALUES (45277, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45277, 13, True)
      , (45277, 11, True)
-     , (45277, 14, True);
+     , (45277, 14, True)
+     , (45277, 19, True)
+     , (45277, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1854, 'scrollpierceprotectionself');
@@ -35730,7 +38034,9 @@ VALUES (1854, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1854, 13, True)
      , (1854, 11, True)
-     , (1854, 14, True);
+     , (1854, 14, True)
+     , (1854, 19, True)
+     , (1854, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45255, 'ace45255-scrollofdirtyfightingmasteryselfiv');
@@ -35761,7 +38067,9 @@ VALUES (45255, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45255, 13, True)
      , (45255, 11, True)
-     , (45255, 14, True);
+     , (45255, 14, True)
+     , (45255, 19, True)
+     , (45255, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3742, 'scrollinfusestamina3');
@@ -35792,7 +38100,9 @@ VALUES (3742, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3742, 13, True)
      , (3742, 11, True)
-     , (3742, 14, True);
+     , (3742, 14, True)
+     , (3742, 19, True)
+     , (3742, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2655, 'scrollenduranceother3');
@@ -35823,7 +38133,9 @@ VALUES (2655, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2655, 13, True)
      , (2655, 11, True)
-     , (2655, 14, True);
+     , (2655, 14, True)
+     , (2655, 19, True)
+     , (2655, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3198, 'scrollcreatureenchantmentself2');
@@ -35854,7 +38166,9 @@ VALUES (3198, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3198, 13, True)
      , (3198, 11, True)
-     , (3198, 14, True);
+     , (3198, 14, True)
+     , (3198, 19, True)
+     , (3198, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8958, 'scrollwhirlingbladestreak6');
@@ -35885,7 +38199,9 @@ VALUES (8958, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8958, 13, True)
      , (8958, 11, True)
-     , (8958, 14, True);
+     , (8958, 14, True)
+     , (8958, 19, True)
+     , (8958, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28942, 'scrollarcanumsalvagingother3');
@@ -35916,7 +38232,9 @@ VALUES (28942, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28942, 13, True)
      , (28942, 11, True)
-     , (28942, 14, True);
+     , (28942, 14, True)
+     , (28942, 19, True)
+     , (28942, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35479, 'ace35479-scrollofburrecall');
@@ -35946,7 +38264,9 @@ VALUES (35479, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (35479, 13, True)
      , (35479, 11, True)
-     , (35479, 14, True);
+     , (35479, 14, True)
+     , (35479, 19, True)
+     , (35479, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2749, 'scrollweaknessother4');
@@ -35977,7 +38297,9 @@ VALUES (2749, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2749, 13, True)
      , (2749, 11, True)
-     , (2749, 14, True);
+     , (2749, 14, True)
+     , (2749, 19, True)
+     , (2749, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2838, 'scrollhidevalue3');
@@ -36008,7 +38330,9 @@ VALUES (2838, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2838, 13, True)
      , (2838, 11, True)
-     , (2838, 14, True);
+     , (2838, 14, True)
+     , (2838, 19, True)
+     , (2838, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3116, 'scrollregenerateself5');
@@ -36039,7 +38363,9 @@ VALUES (3116, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3116, 13, True)
      , (3116, 11, True)
-     , (3116, 14, True);
+     , (3116, 14, True)
+     , (3116, 19, True)
+     , (3116, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3257, 'scrollfaithlessness6');
@@ -36070,7 +38396,9 @@ VALUES (3257, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3257, 13, True)
      , (3257, 11, True)
-     , (3257, 14, True);
+     , (3257, 14, True)
+     , (3257, 19, True)
+     , (3257, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2991, 'scrollbladeprotectionother5');
@@ -36101,7 +38429,9 @@ VALUES (2991, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2991, 13, True)
      , (2991, 11, True)
-     , (2991, 14, True);
+     , (2991, 14, True)
+     , (2991, 19, True)
+     , (2991, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21318, 'scrollfrostarc3');
@@ -36132,7 +38462,9 @@ VALUES (21318, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21318, 13, True)
      , (21318, 11, True)
-     , (21318, 14, True);
+     , (21318, 14, True)
+     , (21318, 19, True)
+     , (21318, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5948, 'scrollcookingineptitude5');
@@ -36163,7 +38495,9 @@ VALUES (5948, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5948, 13, True)
      , (5948, 11, True)
-     , (5948, 14, True);
+     , (5948, 14, True)
+     , (5948, 19, True)
+     , (5948, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3296, 'scrollinvulnerabilityother5');
@@ -36194,7 +38528,9 @@ VALUES (3296, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3296, 13, True)
      , (3296, 11, True)
-     , (3296, 14, True);
+     , (3296, 14, True)
+     , (3296, 19, True)
+     , (3296, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3043, 'scrollfirevulnerabilityother2');
@@ -36225,7 +38561,9 @@ VALUES (3043, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3043, 13, True)
      , (3043, 11, True)
-     , (3043, 14, True);
+     , (3043, 14, True)
+     , (3043, 19, True)
+     , (3043, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45252, 'ace45252-scrollofdirtyfightingmasteryself');
@@ -36256,7 +38594,9 @@ VALUES (45252, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45252, 13, True)
      , (45252, 11, True)
-     , (45252, 14, True);
+     , (45252, 14, True)
+     , (45252, 19, True)
+     , (45252, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8942, 'scrolllightningstreak2');
@@ -36287,7 +38627,9 @@ VALUES (8942, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8942, 13, True)
      , (8942, 11, True)
-     , (8942, 14, True);
+     , (8942, 14, True)
+     , (8942, 19, True)
+     , (8942, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43279, 'ace43279-scrollofcorrosionii');
@@ -36318,7 +38660,9 @@ VALUES (43279, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43279, 13, True)
      , (43279, 11, True)
-     , (43279, 14, True);
+     , (43279, 14, True)
+     , (43279, 19, True)
+     , (43279, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3113, 'scrollregenerateself2');
@@ -36349,7 +38693,9 @@ VALUES (3113, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3113, 13, True)
      , (3113, 11, True)
-     , (3113, 14, True);
+     , (3113, 14, True)
+     , (3113, 19, True)
+     , (3113, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2983, 'scrollacidvulnerabilityother2');
@@ -36380,7 +38726,9 @@ VALUES (2983, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2983, 13, True)
      , (2983, 11, True)
-     , (2983, 14, True);
+     , (2983, 14, True)
+     , (2983, 19, True)
+     , (2983, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20459, 'scrollshockblast7');
@@ -36411,7 +38759,9 @@ VALUES (20459, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20459, 13, True)
      , (20459, 11, True)
-     , (20459, 14, True);
+     , (20459, 14, True)
+     , (20459, 19, True)
+     , (20459, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20434, 'scrollacidvolley7');
@@ -36442,7 +38792,9 @@ VALUES (20434, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20434, 13, True)
      , (20434, 11, True)
-     , (20434, 14, True);
+     , (20434, 14, True)
+     , (20434, 19, True)
+     , (20434, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20437, 'scrollbladevolley7');
@@ -36473,7 +38825,9 @@ VALUES (20437, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20437, 13, True)
      , (20437, 11, True)
-     , (20437, 14, True);
+     , (20437, 14, True)
+     , (20437, 19, True)
+     , (20437, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3277, 'scrollhealingmasteryother6');
@@ -36504,7 +38858,9 @@ VALUES (3277, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3277, 13, True)
      , (3277, 11, True)
-     , (3277, 14, True);
+     , (3277, 14, True)
+     , (3277, 19, True)
+     , (3277, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2858, 'scrolllightninglure3');
@@ -36535,7 +38891,9 @@ VALUES (2858, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2858, 13, True)
      , (2858, 11, True)
-     , (2858, 14, True);
+     , (2858, 14, True)
+     , (2858, 19, True)
+     , (2858, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3462, 'scrollpersonunfamiliarity6');
@@ -36566,7 +38924,9 @@ VALUES (3462, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3462, 13, True)
      , (3462, 11, True)
-     , (3462, 14, True);
+     , (3462, 14, True)
+     , (3462, 19, True)
+     , (3462, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3139, 'scrollarcaneenlightenmentself3');
@@ -36597,7 +38957,9 @@ VALUES (3139, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3139, 13, True)
      , (3139, 11, True)
-     , (3139, 14, True);
+     , (3139, 14, True)
+     , (3139, 19, True)
+     , (3139, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3180, 'scrollbowmasteryother4');
@@ -36628,7 +38990,9 @@ VALUES (3180, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3180, 13, True)
      , (3180, 11, True)
-     , (3180, 14, True);
+     , (3180, 14, True)
+     , (3180, 19, True)
+     , (3180, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2800, 'scrollbludgeonlure5');
@@ -36659,7 +39023,9 @@ VALUES (2800, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2800, 13, True)
      , (2800, 11, True)
-     , (2800, 14, True);
+     , (2800, 14, True)
+     , (2800, 19, True)
+     , (2800, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8956, 'scrollwhirlingbladestreak4');
@@ -36690,7 +39056,9 @@ VALUES (8956, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8956, 13, True)
      , (8956, 11, True)
-     , (8956, 14, True);
+     , (8956, 14, True)
+     , (8956, 19, True)
+     , (8956, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2805, 'scrollbrittlemail5');
@@ -36721,7 +39089,9 @@ VALUES (2805, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2805, 13, True)
      , (2805, 11, True)
-     , (2805, 14, True);
+     , (2805, 14, True)
+     , (2805, 19, True)
+     , (2805, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45311, 'ace45311-scrollofshieldineptitudeotheriv');
@@ -36752,7 +39122,9 @@ VALUES (45311, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45311, 13, True)
      , (45311, 11, True)
-     , (45311, 14, True);
+     , (45311, 14, True)
+     , (45311, 19, True)
+     , (45311, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3346, 'scrollleadenfeet5');
@@ -36783,7 +39155,9 @@ VALUES (3346, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3346, 13, True)
      , (3346, 11, True)
-     , (3346, 14, True);
+     , (3346, 14, True)
+     , (3346, 19, True)
+     , (3346, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49460, 'ace49460-scrollofsummoningineptitudeotherv');
@@ -36814,7 +39188,9 @@ VALUES (49460, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49460, 13, True)
      , (49460, 11, True)
-     , (49460, 14, True);
+     , (49460, 14, True)
+     , (49460, 19, True)
+     , (49460, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5998, 'scrollflamebolt2');
@@ -36845,7 +39221,9 @@ VALUES (5998, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5998, 13, True)
      , (5998, 11, True)
-     , (5998, 14, True);
+     , (5998, 14, True)
+     , (5998, 19, True)
+     , (5998, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41305, 'ace41305-scrolloftwohandedweaponmasteryselfii');
@@ -36876,7 +39254,9 @@ VALUES (41305, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41305, 13, True)
      , (41305, 11, True)
-     , (41305, 14, True);
+     , (41305, 14, True)
+     , (41305, 19, True)
+     , (41305, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8930, 'scrollforcestreak2');
@@ -36907,7 +39287,9 @@ VALUES (8930, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8930, 13, True)
      , (8930, 11, True)
-     , (8930, 14, True);
+     , (8930, 14, True)
+     , (8930, 19, True)
+     , (8930, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41304, 'ace41304-scrolloftwohandedweaponmasteryother');
@@ -36938,7 +39320,9 @@ VALUES (41304, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41304, 13, True)
      , (41304, 11, True)
-     , (41304, 14, True);
+     , (41304, 14, True)
+     , (41304, 19, True)
+     , (41304, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8922, 'scrollflamestreak3');
@@ -36969,7 +39353,9 @@ VALUES (8922, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8922, 13, True)
      , (8922, 11, True)
-     , (8922, 14, True);
+     , (8922, 14, True)
+     , (8922, 19, True)
+     , (8922, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3048, 'scrolllightningprotectionother2');
@@ -37000,7 +39386,9 @@ VALUES (3048, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3048, 13, True)
      , (3048, 11, True)
-     , (3048, 14, True);
+     , (3048, 14, True)
+     , (3048, 19, True)
+     , (3048, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3438, 'scrollmonsterattunementother2');
@@ -37031,7 +39419,9 @@ VALUES (3438, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3438, 13, True)
      , (3438, 11, True)
-     , (3438, 14, True);
+     , (3438, 14, True)
+     , (3438, 19, True)
+     , (3438, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2984, 'scrollacidvulnerabilityother3');
@@ -37062,7 +39452,9 @@ VALUES (2984, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2984, 13, True)
      , (2984, 11, True)
-     , (2984, 14, True);
+     , (2984, 14, True)
+     , (2984, 19, True)
+     , (2984, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20444, 'scrollforceblast7');
@@ -37093,7 +39485,9 @@ VALUES (20444, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20444, 13, True)
      , (20444, 11, True)
-     , (20444, 14, True);
+     , (20444, 14, True)
+     , (20444, 19, True)
+     , (20444, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3546, 'scrollunarmedineptitude5');
@@ -37124,7 +39518,9 @@ VALUES (3546, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3546, 13, True)
      , (3546, 11, True)
-     , (3546, 14, True);
+     , (3546, 14, True)
+     , (3546, 19, True)
+     , (3546, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3542, 'scrollthrownmasteryself6');
@@ -37155,7 +39551,9 @@ VALUES (3542, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3542, 13, True)
      , (3542, 11, True)
-     , (3542, 14, True);
+     , (3542, 14, True)
+     , (3542, 19, True)
+     , (3542, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3547, 'scrollunarmedineptitude6');
@@ -37186,7 +39584,9 @@ VALUES (3547, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3547, 13, True)
      , (3547, 11, True)
-     , (3547, 14, True);
+     , (3547, 14, True)
+     , (3547, 19, True)
+     , (3547, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3294, 'scrollinvulnerabilityother3');
@@ -37217,7 +39617,9 @@ VALUES (3294, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3294, 13, True)
      , (3294, 11, True)
-     , (3294, 14, True);
+     , (3294, 14, True)
+     , (3294, 19, True)
+     , (3294, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5964, 'scrollfletchingineptitude3');
@@ -37248,7 +39650,9 @@ VALUES (5964, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5964, 13, True)
      , (5964, 11, True)
-     , (5964, 14, True);
+     , (5964, 14, True)
+     , (5964, 19, True)
+     , (5964, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21096, 'scrollhealthbolt2');
@@ -37279,7 +39683,9 @@ VALUES (21096, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21096, 13, True)
      , (21096, 11, True)
-     , (21096, 14, True);
+     , (21096, 14, True)
+     , (21096, 19, True)
+     , (21096, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21297, 'scrollbladearc3');
@@ -37310,7 +39716,9 @@ VALUES (21297, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21297, 13, True)
      , (21297, 11, True)
-     , (21297, 14, True);
+     , (21297, 14, True)
+     , (21297, 19, True)
+     , (21297, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3470, 'scrollresistmagicself4');
@@ -37341,7 +39749,9 @@ VALUES (3470, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3470, 13, True)
      , (3470, 11, True)
-     , (3470, 14, True);
+     , (3470, 14, True)
+     , (3470, 19, True)
+     , (3470, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2651, 'scrollcoordinationself4');
@@ -37372,7 +39782,9 @@ VALUES (2651, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2651, 13, True)
      , (2651, 11, True)
-     , (2651, 14, True);
+     , (2651, 14, True)
+     , (2651, 19, True)
+     , (2651, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3300, 'scrollinvulnerabilityself4');
@@ -37403,7 +39815,9 @@ VALUES (3300, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3300, 13, True)
      , (3300, 11, True)
-     , (3300, 14, True);
+     , (3300, 14, True)
+     , (3300, 19, True)
+     , (3300, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2995, 'scrollbladeprotectionself4');
@@ -37434,7 +39848,9 @@ VALUES (2995, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2995, 13, True)
      , (2995, 11, True)
-     , (2995, 14, True);
+     , (2995, 14, True)
+     , (2995, 19, True)
+     , (2995, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3010, 'scrollbludgeonprotectionself4');
@@ -37465,7 +39881,9 @@ VALUES (3010, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3010, 13, True)
      , (3010, 11, True)
-     , (3010, 14, True);
+     , (3010, 14, True)
+     , (3010, 19, True)
+     , (3010, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3070, 'scrollpierceprotectionself4');
@@ -37496,7 +39914,9 @@ VALUES (3070, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3070, 13, True)
      , (3070, 11, True)
-     , (3070, 14, True);
+     , (3070, 14, True)
+     , (3070, 19, True)
+     , (3070, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2854, 'scrolllightningbane4');
@@ -37527,7 +39947,9 @@ VALUES (2854, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2854, 13, True)
      , (2854, 11, True)
-     , (2854, 14, True);
+     , (2854, 14, True)
+     , (2854, 19, True)
+     , (2854, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3249, 'scrolldefenselessnessother3');
@@ -37558,7 +39980,9 @@ VALUES (3249, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3249, 13, True)
      , (3249, 11, True)
-     , (3249, 14, True);
+     , (3249, 14, True)
+     , (3249, 19, True)
+     , (3249, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1887, 'scrollimpenetrability');
@@ -37589,7 +40013,9 @@ VALUES (1887, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1887, 13, True)
      , (1887, 11, True)
-     , (1887, 14, True);
+     , (1887, 14, True)
+     , (1887, 19, True)
+     , (1887, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1767, 'scrollbafflement');
@@ -37620,7 +40046,9 @@ VALUES (1767, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1767, 13, True)
      , (1767, 11, True)
-     , (1767, 14, True);
+     , (1767, 14, True)
+     , (1767, 19, True)
+     , (1767, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1846, 'scrollbludgeonvulnerabilityother');
@@ -37651,7 +40079,9 @@ VALUES (1846, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1846, 13, True)
      , (1846, 11, True)
-     , (1846, 14, True);
+     , (1846, 14, True)
+     , (1846, 19, True)
+     , (1846, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3219, 'scrolldaggerineptitudeother3');
@@ -37682,7 +40112,9 @@ VALUES (3219, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3219, 13, True)
      , (3219, 11, True)
-     , (3219, 14, True);
+     , (3219, 14, True)
+     , (3219, 19, True)
+     , (3219, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3105, 'scrollmanarenewalself4');
@@ -37713,7 +40145,9 @@ VALUES (3105, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3105, 13, True)
      , (3105, 11, True)
-     , (3105, 14, True);
+     , (3105, 14, True)
+     , (3105, 19, True)
+     , (3105, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3125, 'scrollrejuvenateself4');
@@ -37743,7 +40177,9 @@ VALUES (3125, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3125, 13, True)
      , (3125, 11, True)
-     , (3125, 14, True);
+     , (3125, 14, True)
+     , (3125, 19, True)
+     , (3125, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21298, 'scrollbladearc4');
@@ -37774,7 +40210,9 @@ VALUES (21298, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21298, 13, True)
      , (21298, 11, True)
-     , (21298, 14, True);
+     , (21298, 14, True)
+     , (21298, 19, True)
+     , (21298, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3425, 'scrollmagicyieldother4');
@@ -37805,7 +40243,9 @@ VALUES (3425, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3425, 13, True)
      , (3425, 11, True)
-     , (3425, 14, True);
+     , (3425, 14, True)
+     , (3425, 19, True)
+     , (3425, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9642, 'scrollmanatohealthself4');
@@ -37836,7 +40276,9 @@ VALUES (9642, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9642, 13, True)
      , (9642, 11, True)
-     , (9642, 14, True);
+     , (9642, 14, True)
+     , (9642, 19, True)
+     , (9642, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2692, 'scrollhealother2');
@@ -37867,7 +40309,9 @@ VALUES (2692, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2692, 13, True)
      , (2692, 11, True)
-     , (2692, 14, True);
+     , (2692, 14, True)
+     , (2692, 19, True)
+     , (2692, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3453, 'scrollpersonattunementself2');
@@ -37898,7 +40342,9 @@ VALUES (3453, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3453, 13, True)
      , (3453, 11, True)
-     , (3453, 14, True);
+     , (3453, 14, True)
+     , (3453, 19, True)
+     , (3453, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5987, 'scrollalchemymasteryother2');
@@ -37929,7 +40375,9 @@ VALUES (5987, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5987, 13, True)
      , (5987, 11, True)
-     , (5987, 14, True);
+     , (5987, 14, True)
+     , (5987, 19, True)
+     , (5987, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3041, 'scrollfireprotectionself5');
@@ -37960,7 +40408,9 @@ VALUES (3041, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3041, 13, True)
      , (3041, 11, True)
-     , (3041, 14, True);
+     , (3041, 14, True)
+     , (3041, 19, True)
+     , (3041, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3156, 'scrollarmorignorance5');
@@ -37991,7 +40441,9 @@ VALUES (3156, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3156, 13, True)
      , (3156, 11, True)
-     , (3156, 14, True);
+     , (3156, 14, True)
+     , (3156, 19, True)
+     , (3156, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45302, 'ace45302-scrollofrecklessnessmasteryselfiii');
@@ -38022,7 +40474,9 @@ VALUES (45302, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45302, 13, True)
      , (45302, 11, True)
-     , (45302, 14, True);
+     , (45302, 14, True)
+     , (45302, 19, True)
+     , (45302, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3201, 'scrollcreatureenchantmentself5');
@@ -38053,7 +40507,9 @@ VALUES (3201, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3201, 13, True)
      , (3201, 11, True)
-     , (3201, 14, True);
+     , (3201, 14, True)
+     , (3201, 19, True)
+     , (3201, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21311, 'scrollforcearc3');
@@ -38084,7 +40540,9 @@ VALUES (21311, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21311, 13, True)
      , (21311, 11, True)
-     , (21311, 14, True);
+     , (21311, 14, True)
+     , (21311, 19, True)
+     , (21311, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49459, 'ace49459-scrollofsummoningineptitudeotheriv');
@@ -38115,7 +40573,9 @@ VALUES (49459, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49459, 13, True)
      , (49459, 11, True)
-     , (49459, 14, True);
+     , (49459, 14, True)
+     , (49459, 19, True)
+     , (49459, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3325, 'scrollitemexpertiseself4');
@@ -38146,7 +40606,9 @@ VALUES (3325, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3325, 13, True)
      , (3325, 11, True)
-     , (3325, 14, True);
+     , (3325, 14, True)
+     , (3325, 19, True)
+     , (3325, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3326, 'scrollitemexpertiseself5');
@@ -38177,7 +40639,9 @@ VALUES (3326, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3326, 13, True)
      , (3326, 11, True)
-     , (3326, 14, True);
+     , (3326, 14, True)
+     , (3326, 19, True)
+     , (3326, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2850, 'scrollleadenweapon5');
@@ -38208,7 +40672,9 @@ VALUES (2850, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2850, 13, True)
      , (2850, 11, True)
-     , (2850, 14, True);
+     , (2850, 14, True)
+     , (2850, 19, True)
+     , (2850, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3073, 'scrollpiercevulnerabilityother2');
@@ -38239,7 +40705,9 @@ VALUES (3073, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3073, 13, True)
      , (3073, 11, True)
-     , (3073, 14, True);
+     , (3073, 14, True)
+     , (3073, 19, True)
+     , (3073, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3065, 'scrollpierceprotectionother4');
@@ -38270,7 +40738,9 @@ VALUES (3065, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3065, 13, True)
      , (3065, 11, True)
-     , (3065, 14, True);
+     , (3065, 14, True)
+     , (3065, 19, True)
+     , (3065, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9661, 'scrolldrainmana2');
@@ -38301,7 +40771,9 @@ VALUES (9661, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9661, 13, True)
      , (9661, 11, True)
-     , (9661, 14, True);
+     , (9661, 14, True)
+     , (9661, 19, True)
+     , (9661, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2767, 'scrollacidlure2');
@@ -38332,7 +40804,9 @@ VALUES (2767, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2767, 13, True)
      , (2767, 11, True)
-     , (2767, 14, True);
+     , (2767, 14, True)
+     , (2767, 19, True)
+     , (2767, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3509, 'scrollstaffmasteryself3');
@@ -38363,7 +40837,9 @@ VALUES (3509, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3509, 13, True)
      , (3509, 11, True)
-     , (3509, 14, True);
+     , (3509, 14, True)
+     , (3509, 19, True)
+     , (3509, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9011, 'scrolllightningvolley3');
@@ -38394,7 +40870,9 @@ VALUES (9011, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9011, 13, True)
      , (9011, 11, True)
-     , (9011, 14, True);
+     , (9011, 14, True)
+     , (9011, 19, True)
+     , (9011, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2138, 'scrollfrostvolley3');
@@ -38425,7 +40903,9 @@ VALUES (2138, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2138, 13, True)
      , (2138, 11, True)
-     , (2138, 14, True);
+     , (2138, 14, True)
+     , (2138, 19, True)
+     , (2138, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2137, 'scrollforcevolley3');
@@ -38456,7 +40936,9 @@ VALUES (2137, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2137, 13, True)
      , (2137, 11, True)
-     , (2137, 14, True);
+     , (2137, 14, True)
+     , (2137, 19, True)
+     , (2137, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2135, 'scrollflamevolley3');
@@ -38487,7 +40969,9 @@ VALUES (2135, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2135, 13, True)
      , (2135, 11, True)
-     , (2135, 14, True);
+     , (2135, 14, True)
+     , (2135, 19, True)
+     , (2135, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2912, 'scrollacidvolley3');
@@ -38518,7 +41002,9 @@ VALUES (2912, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2912, 13, True)
      , (2912, 11, True)
-     , (2912, 14, True);
+     , (2912, 14, True)
+     , (2912, 19, True)
+     , (2912, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2134, 'scrollbludgeoningvolley3');
@@ -38549,7 +41035,9 @@ VALUES (2134, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2134, 13, True)
      , (2134, 11, True)
-     , (2134, 14, True);
+     , (2134, 14, True)
+     , (2134, 19, True)
+     , (2134, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2133, 'scrollbladevolley3');
@@ -38580,7 +41068,9 @@ VALUES (2133, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2133, 13, True)
      , (2133, 11, True)
-     , (2133, 14, True);
+     , (2133, 14, True)
+     , (2133, 19, True)
+     , (2133, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2705, 'scrollimperil5');
@@ -38611,7 +41101,9 @@ VALUES (2705, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2705, 13, True)
      , (2705, 11, True)
-     , (2705, 14, True);
+     , (2705, 14, True)
+     , (2705, 19, True)
+     , (2705, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3520, 'scrollswordmasteryother4');
@@ -38642,7 +41134,9 @@ VALUES (3520, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3520, 13, True)
      , (3520, 11, True)
-     , (3520, 14, True);
+     , (3520, 14, True)
+     , (3520, 19, True)
+     , (3520, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9649, 'scrollmanatostaminaself6');
@@ -38673,7 +41167,9 @@ VALUES (9649, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9649, 13, True)
      , (9649, 11, True)
-     , (9649, 14, True);
+     , (9649, 14, True)
+     , (9649, 19, True)
+     , (9649, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3584, 'scrollweaponexpertiseself3');
@@ -38704,7 +41200,9 @@ VALUES (3584, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3584, 13, True)
      , (3584, 11, True)
-     , (3584, 14, True);
+     , (3584, 14, True)
+     , (3584, 19, True)
+     , (3584, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5545, 'scrollmonsterattunementself4');
@@ -38735,7 +41233,9 @@ VALUES (5545, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5545, 13, True)
      , (5545, 11, True)
-     , (5545, 14, True);
+     , (5545, 14, True)
+     , (5545, 19, True)
+     , (5545, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3109, 'scrollregenerateother3');
@@ -38766,7 +41266,9 @@ VALUES (3109, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3109, 13, True)
      , (3109, 11, True)
-     , (3109, 14, True);
+     , (3109, 14, True)
+     , (3109, 19, True)
+     , (3109, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1664, 'scrollimpregnabilityself');
@@ -38797,7 +41299,9 @@ VALUES (1664, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1664, 13, True)
      , (1664, 11, True)
-     , (1664, 14, True);
+     , (1664, 14, True)
+     , (1664, 19, True)
+     , (1664, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1882, 'scrollflamelure');
@@ -38828,7 +41332,9 @@ VALUES (1882, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1882, 13, True)
      , (1882, 11, True)
-     , (1882, 14, True);
+     , (1882, 14, True)
+     , (1882, 19, True)
+     , (1882, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3008, 'scrollbludgeonprotectionself2');
@@ -38859,7 +41365,9 @@ VALUES (3008, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3008, 13, True)
      , (3008, 11, True)
-     , (3008, 14, True);
+     , (3008, 14, True)
+     , (3008, 19, True)
+     , (3008, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3273, 'scrollhealingmasteryother2');
@@ -38890,7 +41398,9 @@ VALUES (3273, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3273, 13, True)
      , (3273, 11, True)
-     , (3273, 14, True);
+     , (3273, 14, True)
+     , (3273, 19, True)
+     , (3273, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2717, 'scrollquicknessself2');
@@ -38921,7 +41431,9 @@ VALUES (2717, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2717, 13, True)
      , (2717, 11, True)
-     , (2717, 14, True);
+     , (2717, 14, True)
+     , (2717, 19, True)
+     , (2717, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3179, 'scrollbowmasteryother3');
@@ -38952,7 +41464,9 @@ VALUES (3179, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3179, 13, True)
      , (3179, 11, True)
-     , (3179, 14, True);
+     , (3179, 14, True)
+     , (3179, 19, True)
+     , (3179, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3221, 'scrolldaggerineptitudeother5');
@@ -38983,7 +41497,9 @@ VALUES (3221, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3221, 13, True)
      , (3221, 11, True)
-     , (3221, 14, True);
+     , (3221, 14, True)
+     , (3221, 19, True)
+     , (3221, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3191, 'scrollcreatureenchantmentineptitude5');
@@ -39014,7 +41530,9 @@ VALUES (3191, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3191, 13, True)
      , (3191, 11, True)
-     , (3191, 14, True);
+     , (3191, 14, True)
+     , (3191, 19, True)
+     , (3191, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3011, 'scrollbludgeonprotectionself5');
@@ -39045,7 +41563,9 @@ VALUES (3011, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3011, 13, True)
      , (3011, 11, True)
-     , (3011, 14, True);
+     , (3011, 14, True)
+     , (3011, 19, True)
+     , (3011, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3046, 'scrollfirevulnerabilityother5');
@@ -39076,7 +41596,9 @@ VALUES (3046, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3046, 13, True)
      , (3046, 11, True)
-     , (3046, 14, True);
+     , (3046, 14, True)
+     , (3046, 19, True)
+     , (3046, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1782, 'scrollfocusself2');
@@ -39107,7 +41629,9 @@ VALUES (1782, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1782, 13, True)
      , (1782, 11, True)
-     , (1782, 14, True);
+     , (1782, 14, True)
+     , (1782, 19, True)
+     , (1782, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2981, 'scrollacidprotectionself5');
@@ -39138,7 +41662,9 @@ VALUES (2981, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2981, 13, True)
      , (2981, 11, True)
-     , (2981, 14, True);
+     , (2981, 14, True)
+     , (2981, 19, True)
+     , (2981, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1725, 'scrollmanaconvertmasteryother');
@@ -39169,7 +41695,9 @@ VALUES (1725, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1725, 13, True)
      , (1725, 11, True)
-     , (1725, 14, True);
+     , (1725, 14, True)
+     , (1725, 19, True)
+     , (1725, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3119, 'scrollrejuvenateother3');
@@ -39200,7 +41728,9 @@ VALUES (3119, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3119, 13, True)
      , (3119, 11, True)
-     , (3119, 14, True);
+     , (3119, 14, True)
+     , (3119, 19, True)
+     , (3119, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5983, 'scrollalchemyineptitude4');
@@ -39231,7 +41761,9 @@ VALUES (5983, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5983, 13, True)
      , (5983, 11, True)
-     , (5983, 14, True);
+     , (5983, 14, True)
+     , (5983, 19, True)
+     , (5983, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1752, 'scrollwarmagicmasteryself');
@@ -39262,7 +41794,9 @@ VALUES (1752, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1752, 13, True)
      , (1752, 11, True)
-     , (1752, 14, True);
+     , (1752, 14, True)
+     , (1752, 19, True)
+     , (1752, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3734, 'scrollinfusehealth5');
@@ -39293,7 +41827,9 @@ VALUES (3734, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3734, 13, True)
      , (3734, 11, True)
-     , (3734, 14, True);
+     , (3734, 14, True)
+     , (3734, 19, True)
+     , (3734, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3310, 'scrollitemenchantmentmasteryother4');
@@ -39324,7 +41860,9 @@ VALUES (3310, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3310, 13, True)
      , (3310, 11, True)
-     , (3310, 14, True);
+     , (3310, 14, True)
+     , (3310, 19, True)
+     , (3310, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21305, 'scrollflamearc4');
@@ -39355,7 +41893,9 @@ VALUES (21305, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21305, 13, True)
      , (21305, 11, True)
-     , (21305, 14, True);
+     , (21305, 14, True)
+     , (21305, 19, True)
+     , (21305, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2654, 'scrollenduranceother2');
@@ -39386,7 +41926,9 @@ VALUES (2654, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2654, 13, True)
      , (2654, 11, True)
-     , (2654, 14, True);
+     , (2654, 14, True)
+     , (2654, 19, True)
+     , (2654, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2879, 'scrollstrengthenlock4');
@@ -39417,7 +41959,9 @@ VALUES (2879, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2879, 13, True)
      , (2879, 11, True)
-     , (2879, 14, True);
+     , (2879, 14, True)
+     , (2879, 19, True)
+     , (2879, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41300, 'ace41300-scrolloftwohandedweaponmasteryotherv');
@@ -39448,7 +41992,9 @@ VALUES (41300, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41300, 13, True)
      , (41300, 11, True)
-     , (41300, 14, True);
+     , (41300, 14, True)
+     , (41300, 19, True)
+     , (41300, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21105, 'scrollmanabolt4');
@@ -39479,7 +42025,9 @@ VALUES (21105, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21105, 13, True)
      , (21105, 11, True)
-     , (21105, 14, True);
+     , (21105, 14, True)
+     , (21105, 19, True)
+     , (21105, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3378, 'scrolllockpickineptitude2');
@@ -39510,7 +42058,9 @@ VALUES (3378, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3378, 13, True)
      , (3378, 11, True)
-     , (3378, 14, True);
+     , (3378, 14, True)
+     , (3378, 19, True)
+     , (3378, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3001, 'scrollbladevulnerabilityother5');
@@ -39541,7 +42091,9 @@ VALUES (3001, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3001, 13, True)
      , (3001, 11, True)
-     , (3001, 14, True);
+     , (3001, 14, True)
+     , (3001, 19, True)
+     , (3001, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3301, 'scrollinvulnerabilityself5');
@@ -39572,7 +42124,9 @@ VALUES (3301, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3301, 13, True)
      , (3301, 11, True)
-     , (3301, 14, True);
+     , (3301, 14, True)
+     , (3301, 19, True)
+     , (3301, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3245, 'scrolldeceptionmasteryself4');
@@ -39603,7 +42157,9 @@ VALUES (3245, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3245, 13, True)
      , (3245, 11, True)
-     , (3245, 14, True);
+     , (3245, 14, True)
+     , (3245, 19, True)
+     , (3245, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3184, 'scrollbowmasteryself3');
@@ -39634,7 +42190,9 @@ VALUES (3184, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3184, 13, True)
      , (3184, 11, True)
-     , (3184, 14, True);
+     , (3184, 14, True)
+     , (3184, 19, True)
+     , (3184, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2787, 'scrollbloodloather2');
@@ -39665,7 +42223,9 @@ VALUES (2787, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2787, 13, True)
      , (2787, 11, True)
-     , (2787, 14, True);
+     , (2787, 14, True)
+     , (2787, 19, True)
+     , (2787, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2803, 'scrollbrittlemail3');
@@ -39696,7 +42256,9 @@ VALUES (2803, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2803, 13, True)
      , (2803, 11, True)
-     , (2803, 14, True);
+     , (2803, 14, True)
+     , (2803, 19, True)
+     , (2803, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3518, 'scrollswordmasteryother2');
@@ -39727,7 +42289,9 @@ VALUES (3518, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3518, 13, True)
      , (3518, 11, True)
-     , (3518, 14, True);
+     , (3518, 14, True)
+     , (3518, 19, True)
+     , (3518, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1777, 'scrollfrailty');
@@ -39758,7 +42322,9 @@ VALUES (1777, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1777, 13, True)
      , (1777, 11, True)
-     , (1777, 14, True);
+     , (1777, 14, True)
+     , (1777, 19, True)
+     , (1777, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3295, 'scrollinvulnerabilityother4');
@@ -39789,7 +42355,9 @@ VALUES (3295, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3295, 13, True)
      , (3295, 11, True)
-     , (3295, 14, True);
+     , (3295, 14, True)
+     , (3295, 19, True)
+     , (3295, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28012, 'scrollspiritloather4');
@@ -39820,7 +42388,9 @@ VALUES (28012, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28012, 13, True)
      , (28012, 11, True)
-     , (28012, 14, True);
+     , (28012, 14, True)
+     , (28012, 19, True)
+     , (28012, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3164, 'scrollaxemasteryother3');
@@ -39851,7 +42421,9 @@ VALUES (3164, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3164, 13, True)
      , (3164, 11, True)
-     , (3164, 14, True);
+     , (3164, 14, True)
+     , (3164, 19, True)
+     , (3164, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4386, 'scrollarmorother3');
@@ -39882,7 +42454,9 @@ VALUES (4386, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4386, 13, True)
      , (4386, 11, True)
-     , (4386, 14, True);
+     , (4386, 14, True)
+     , (4386, 19, True)
+     , (4386, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41287, 'ace41287-scrollofyoshisblessing');
@@ -39913,7 +42487,9 @@ VALUES (41287, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41287, 13, True)
      , (41287, 11, True)
-     , (41287, 14, True);
+     , (41287, 14, True)
+     , (41287, 19, True)
+     , (41287, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20578, 'scrollspearmasteryself7');
@@ -39944,7 +42520,9 @@ VALUES (20578, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20578, 13, True)
      , (20578, 11, True)
-     , (20578, 14, True);
+     , (20578, 14, True)
+     , (20578, 19, True)
+     , (20578, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20589, 'scrollthrownmasteryself7');
@@ -39975,7 +42553,9 @@ VALUES (20589, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20589, 13, True)
      , (20589, 11, True)
-     , (20589, 14, True);
+     , (20589, 14, True)
+     , (20589, 19, True)
+     , (20589, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20587, 'scrollthrownineptitude7');
@@ -40006,7 +42586,9 @@ VALUES (20587, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20587, 13, True)
      , (20587, 11, True)
-     , (20587, 14, True);
+     , (20587, 14, True)
+     , (20587, 19, True)
+     , (20587, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45279, 'ace45279-scrollofdualwieldmasteryselfiv');
@@ -40037,7 +42619,9 @@ VALUES (45279, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45279, 13, True)
      , (45279, 11, True)
-     , (45279, 14, True);
+     , (45279, 14, True)
+     , (45279, 19, True)
+     , (45279, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43323, 'ace43323-scrollofdestructivecurseiv');
@@ -40068,7 +42652,9 @@ VALUES (43323, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43323, 13, True)
      , (43323, 11, True)
-     , (43323, 14, True);
+     , (43323, 14, True)
+     , (43323, 19, True)
+     , (43323, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3424, 'scrollmagicyieldother3');
@@ -40099,7 +42685,9 @@ VALUES (3424, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3424, 13, True)
      , (3424, 11, True)
-     , (3424, 14, True);
+     , (3424, 14, True)
+     , (3424, 19, True)
+     , (3424, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1862, 'scrollhealthtomanaself');
@@ -40130,7 +42718,9 @@ VALUES (1862, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1862, 13, True)
      , (1862, 11, True)
-     , (1862, 14, True);
+     , (1862, 14, True)
+     , (1862, 19, True)
+     , (1862, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43330, 'ace43330-scrolloffesteringcurseii');
@@ -40161,7 +42751,9 @@ VALUES (43330, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43330, 13, True)
      , (43330, 11, True)
-     , (43330, 14, True);
+     , (43330, 14, True)
+     , (43330, 19, True)
+     , (43330, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3436, 'scrollmanaconvertmasteryself5');
@@ -40192,7 +42784,9 @@ VALUES (3436, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3436, 13, True)
      , (3436, 11, True)
-     , (3436, 14, True);
+     , (3436, 14, True)
+     , (3436, 19, True)
+     , (3436, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45240, 'ace45240-scrollofdirtyfightingineptitudeotherv');
@@ -40223,7 +42817,9 @@ VALUES (45240, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45240, 13, True)
      , (45240, 11, True)
-     , (45240, 14, True);
+     , (45240, 14, True)
+     , (45240, 19, True)
+     , (45240, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45248, 'ace45248-scrollofdirtyfightingmasteryotherv');
@@ -40254,7 +42850,9 @@ VALUES (45248, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45248, 13, True)
      , (45248, 11, True)
-     , (45248, 14, True);
+     , (45248, 14, True)
+     , (45248, 19, True)
+     , (45248, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43333, 'ace43333-scrolloffesteringcursev');
@@ -40285,7 +42883,9 @@ VALUES (43333, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43333, 13, True)
      , (43333, 11, True)
-     , (43333, 14, True);
+     , (43333, 14, True)
+     , (43333, 19, True)
+     , (43333, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5980, 'scrollalchemyineptitude');
@@ -40316,7 +42916,9 @@ VALUES (5980, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5980, 13, True)
      , (5980, 11, True)
-     , (5980, 14, True);
+     , (5980, 14, True)
+     , (5980, 19, True)
+     , (5980, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43295, 'ace43295-scrollofnetherarcii');
@@ -40347,7 +42949,9 @@ VALUES (43295, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43295, 13, True)
      , (43295, 11, True)
-     , (43295, 14, True);
+     , (43295, 14, True)
+     , (43295, 19, True)
+     , (43295, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3513, 'scrollswordineptitude2');
@@ -40378,7 +42982,9 @@ VALUES (3513, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3513, 13, True)
      , (3513, 11, True)
-     , (3513, 14, True);
+     , (3513, 14, True)
+     , (3513, 19, True)
+     , (3513, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3319, 'scrollitemexpertiseother3');
@@ -40409,7 +43015,9 @@ VALUES (3319, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3319, 13, True)
      , (3319, 11, True)
-     , (3319, 14, True);
+     , (3319, 14, True)
+     , (3319, 19, True)
+     , (3319, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1682, 'scrollarmorexpertiseother');
@@ -40440,7 +43048,9 @@ VALUES (1682, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1682, 13, True)
      , (1682, 11, True)
-     , (1682, 14, True);
+     , (1682, 14, True)
+     , (1682, 19, True)
+     , (1682, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1681, 'scrollarcaneenlightenmentself');
@@ -40471,7 +43081,9 @@ VALUES (1681, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1681, 13, True)
      , (1681, 11, True)
-     , (1681, 14, True);
+     , (1681, 14, True)
+     , (1681, 19, True)
+     , (1681, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3034, 'scrollfireprotectionother3');
@@ -40502,7 +43114,9 @@ VALUES (3034, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3034, 13, True)
      , (3034, 11, True)
-     , (3034, 14, True);
+     , (3034, 14, True)
+     , (3034, 19, True)
+     , (3034, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1707, 'scrollitemexpertiseself');
@@ -40533,7 +43147,9 @@ VALUES (1707, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1707, 13, True)
      , (1707, 11, True)
-     , (1707, 14, True);
+     , (1707, 14, True)
+     , (1707, 19, True)
+     , (1707, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1850, 'scrolllightningprotectionother');
@@ -40564,7 +43180,9 @@ VALUES (1850, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1850, 13, True)
      , (1850, 11, True)
-     , (1850, 14, True);
+     , (1850, 14, True)
+     , (1850, 19, True)
+     , (1850, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1770, 'scrollcoordinationself');
@@ -40595,7 +43213,9 @@ VALUES (1770, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1770, 13, True)
      , (1770, 11, True)
-     , (1770, 14, True);
+     , (1770, 14, True)
+     , (1770, 19, True)
+     , (1770, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3144, 'scrollarmorexpertiseother3');
@@ -40626,7 +43246,9 @@ VALUES (3144, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3144, 13, True)
      , (3144, 11, True)
-     , (3144, 14, True);
+     , (3144, 14, True)
+     , (3144, 19, True)
+     , (3144, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9636, 'scrollhealthtostaminaself3');
@@ -40657,7 +43279,9 @@ VALUES (9636, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9636, 13, True)
      , (9636, 11, True)
-     , (9636, 14, True);
+     , (9636, 14, True)
+     , (9636, 19, True)
+     , (9636, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21112, 'scrollstaminabolt4');
@@ -40688,7 +43312,9 @@ VALUES (21112, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21112, 13, True)
      , (21112, 11, True)
-     , (21112, 14, True);
+     , (21112, 14, True)
+     , (21112, 19, True)
+     , (21112, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3080, 'scrollexhaustion4');
@@ -40719,7 +43345,9 @@ VALUES (3080, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3080, 13, True)
      , (3080, 11, True)
-     , (3080, 14, True);
+     , (3080, 14, True)
+     , (3080, 19, True)
+     , (3080, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45263, 'ace45263-scrollofdualwieldineptitudeotheriv');
@@ -40750,7 +43378,9 @@ VALUES (45263, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45263, 13, True)
      , (45263, 11, True)
-     , (45263, 14, True);
+     , (45263, 14, True)
+     , (45263, 19, True)
+     , (45263, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2720, 'scrollquicknessself5');
@@ -40781,7 +43411,9 @@ VALUES (2720, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2720, 13, True)
      , (2720, 11, True)
-     , (2720, 14, True);
+     , (2720, 14, True)
+     , (2720, 19, True)
+     , (2720, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45264, 'ace45264-scrollofdualwieldineptitudeotherv');
@@ -40812,7 +43444,9 @@ VALUES (45264, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45264, 13, True)
      , (45264, 11, True)
-     , (45264, 14, True);
+     , (45264, 14, True)
+     , (45264, 19, True)
+     , (45264, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3255, 'scrollfaithlessness4');
@@ -40843,7 +43477,9 @@ VALUES (3255, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3255, 13, True)
      , (3255, 11, True)
-     , (3255, 14, True);
+     , (3255, 14, True)
+     , (3255, 19, True)
+     , (3255, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3454, 'scrollpersonattunementself3');
@@ -40874,7 +43510,9 @@ VALUES (3454, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3454, 13, True)
      , (3454, 11, True)
-     , (3454, 14, True);
+     , (3454, 14, True)
+     , (3454, 19, True)
+     , (3454, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2745, 'scrollstrengthself5');
@@ -40905,7 +43543,9 @@ VALUES (2745, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2745, 13, True)
      , (2745, 11, True)
-     , (2745, 14, True);
+     , (2745, 14, True)
+     , (2745, 19, True)
+     , (2745, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2864, 'scrolllureblade4');
@@ -40936,7 +43576,9 @@ VALUES (2864, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2864, 13, True)
      , (2864, 11, True)
-     , (2864, 14, True);
+     , (2864, 14, True)
+     , (2864, 19, True)
+     , (2864, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45335, 'ace45335-scrollofsneakattackineptitudeotheriv');
@@ -40967,7 +43609,9 @@ VALUES (45335, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45335, 13, True)
      , (45335, 11, True)
-     , (45335, 14, True);
+     , (45335, 14, True)
+     , (45335, 19, True)
+     , (45335, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3000, 'scrollbladevulnerabilityother4');
@@ -40998,7 +43642,9 @@ VALUES (3000, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3000, 13, True)
      , (3000, 11, True)
-     , (3000, 14, True);
+     , (3000, 14, True)
+     , (3000, 19, True)
+     , (3000, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2713, 'scrollquicknessother3');
@@ -41029,7 +43675,9 @@ VALUES (2713, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2713, 13, True)
      , (2713, 11, True)
-     , (2713, 14, True);
+     , (2713, 14, True)
+     , (2713, 19, True)
+     , (2713, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1769, 'scrollcoordinationother');
@@ -41060,7 +43708,9 @@ VALUES (1769, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1769, 13, True)
      , (1769, 11, True)
-     , (1769, 14, True);
+     , (1769, 14, True)
+     , (1769, 19, True)
+     , (1769, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1894, 'scrollstrengthenlock');
@@ -41091,7 +43741,9 @@ VALUES (1894, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1894, 13, True)
      , (1894, 11, True)
-     , (1894, 14, True);
+     , (1894, 14, True)
+     , (1894, 19, True)
+     , (1894, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2817, 'scrollflamelure2');
@@ -41122,7 +43774,9 @@ VALUES (2817, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2817, 13, True)
      , (2817, 11, True)
-     , (2817, 14, True);
+     , (2817, 14, True)
+     , (2817, 19, True)
+     , (2817, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2868, 'scrollpiercingbane3');
@@ -41153,7 +43807,9 @@ VALUES (2868, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2868, 13, True)
      , (2868, 11, True)
-     , (2868, 14, True);
+     , (2868, 14, True)
+     , (2868, 19, True)
+     , (2868, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3023, 'scrollcoldprotectionself2');
@@ -41184,7 +43840,9 @@ VALUES (3023, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3023, 13, True)
      , (3023, 11, True)
-     , (3023, 14, True);
+     , (3023, 14, True)
+     , (3023, 19, True)
+     , (3023, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2802, 'scrollbrittlemail2');
@@ -41215,7 +43873,9 @@ VALUES (2802, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2802, 13, True)
      , (2802, 11, True)
-     , (2802, 14, True);
+     , (2802, 14, True)
+     , (2802, 19, True)
+     , (2802, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2732, 'scrollslowness2');
@@ -41246,7 +43906,9 @@ VALUES (2732, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2732, 13, True)
      , (2732, 11, True)
-     , (2732, 14, True);
+     , (2732, 14, True)
+     , (2732, 19, True)
+     , (2732, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1870, 'scrollmanatostaminaself');
@@ -41277,7 +43939,9 @@ VALUES (1870, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1870, 13, True)
      , (1870, 11, True)
-     , (1870, 14, True);
+     , (1870, 14, True)
+     , (1870, 19, True)
+     , (1870, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45349, 'ace45349-scrollofsneakattackmasteryselfii');
@@ -41308,7 +43972,9 @@ VALUES (45349, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45349, 13, True)
      , (45349, 11, True)
-     , (45349, 14, True);
+     , (45349, 14, True)
+     , (45349, 19, True)
+     , (45349, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43282, 'ace43282-scrollofcorrosionv');
@@ -41339,7 +44005,9 @@ VALUES (43282, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43282, 13, True)
      , (43282, 11, True)
-     , (43282, 14, True);
+     , (43282, 14, True)
+     , (43282, 19, True)
+     , (43282, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1671, 'scrollaxemasteryself');
@@ -41370,7 +44038,9 @@ VALUES (1671, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1671, 13, True)
      , (1671, 11, True)
-     , (1671, 14, True);
+     , (1671, 14, True)
+     , (1671, 19, True)
+     , (1671, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21100, 'scrollhealthbolt6');
@@ -41401,7 +44071,9 @@ VALUES (21100, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21100, 13, True)
      , (21100, 11, True)
-     , (21100, 14, True);
+     , (21100, 14, True)
+     , (21100, 19, True)
+     , (21100, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45289, 'ace45289-scrollofrecklessnessineptitudeothervi');
@@ -41432,7 +44104,9 @@ VALUES (45289, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45289, 13, True)
      , (45289, 11, True)
-     , (45289, 14, True);
+     , (45289, 14, True)
+     , (45289, 19, True)
+     , (45289, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8943, 'scrolllightningstreak3');
@@ -41463,7 +44137,9 @@ VALUES (8943, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8943, 13, True)
      , (8943, 11, True)
-     , (8943, 14, True);
+     , (8943, 14, True)
+     , (8943, 19, True)
+     , (8943, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8941, 'scrolllightningstreak');
@@ -41494,7 +44170,9 @@ VALUES (8941, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8941, 13, True)
      , (8941, 11, True)
-     , (8941, 14, True);
+     , (8941, 14, True)
+     , (8941, 19, True)
+     , (8941, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3258, 'scrollfealtyother2');
@@ -41525,7 +44203,9 @@ VALUES (3258, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3258, 13, True)
      , (3258, 11, True)
-     , (3258, 14, True);
+     , (3258, 14, True)
+     , (3258, 19, True)
+     , (3258, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20583, 'scrollstaffmasteryself7');
@@ -41556,7 +44236,9 @@ VALUES (20583, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20583, 13, True)
      , (20583, 11, True)
-     , (20583, 14, True);
+     , (20583, 14, True)
+     , (20583, 19, True)
+     , (20583, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43357, 'ace43357-scrollofvoidmagicmasteryself');
@@ -41587,7 +44269,9 @@ VALUES (43357, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43357, 13, True)
      , (43357, 11, True)
-     , (43357, 14, True);
+     , (43357, 14, True)
+     , (43357, 19, True)
+     , (43357, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3215, 'scrollcrossbowmasteryself4');
@@ -41618,7 +44302,9 @@ VALUES (3215, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3215, 13, True)
      , (3215, 11, True)
-     , (3215, 14, True);
+     , (3215, 14, True)
+     , (3215, 19, True)
+     , (3215, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3502, 'scrollstaffineptitude6');
@@ -41649,7 +44335,9 @@ VALUES (3502, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3502, 13, True)
      , (3502, 11, True)
-     , (3502, 14, True);
+     , (3502, 14, True)
+     , (3502, 19, True)
+     , (3502, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3078, 'scrollexhaustion2');
@@ -41680,7 +44368,9 @@ VALUES (3078, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3078, 13, True)
      , (3078, 11, True)
-     , (3078, 14, True);
+     , (3078, 14, True)
+     , (3078, 19, True)
+     , (3078, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2684, 'scrollfrailty4');
@@ -41711,7 +44401,9 @@ VALUES (2684, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2684, 13, True)
      , (2684, 11, True)
-     , (2684, 14, True);
+     , (2684, 14, True)
+     , (2684, 19, True)
+     , (2684, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3214, 'scrollcrossbowmasteryself3');
@@ -41742,7 +44434,9 @@ VALUES (3214, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3214, 13, True)
      , (3214, 11, True)
-     , (3214, 14, True);
+     , (3214, 14, True)
+     , (3214, 19, True)
+     , (3214, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3477, 'scrollspearineptitude6');
@@ -41773,7 +44467,9 @@ VALUES (3477, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3477, 13, True)
      , (3477, 11, True)
-     , (3477, 14, True);
+     , (3477, 14, True)
+     , (3477, 19, True)
+     , (3477, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3731, 'scrollinfusehealth2');
@@ -41804,7 +44500,9 @@ VALUES (3731, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3731, 13, True)
      , (3731, 11, True)
-     , (3731, 14, True);
+     , (3731, 14, True)
+     , (3731, 19, True)
+     , (3731, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20391, 'scrolldispellifeneutralother2');
@@ -41835,7 +44533,9 @@ VALUES (20391, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20391, 13, True)
      , (20391, 11, True)
-     , (20391, 14, True);
+     , (20391, 14, True)
+     , (20391, 19, True)
+     , (20391, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3074, 'scrollpiercevulnerabilityother3');
@@ -41866,7 +44566,9 @@ VALUES (3074, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3074, 13, True)
      , (3074, 11, True)
-     , (3074, 14, True);
+     , (3074, 14, True)
+     , (3074, 19, True)
+     , (3074, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3084, 'scrollfester3');
@@ -41897,7 +44599,9 @@ VALUES (3084, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3084, 13, True)
      , (3084, 11, True)
-     , (3084, 14, True);
+     , (3084, 14, True)
+     , (3084, 19, True)
+     , (3084, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45341, 'ace45341-scrollofsneakattackmasteryotherii');
@@ -41928,7 +44632,9 @@ VALUES (45341, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45341, 13, True)
      , (45341, 11, True)
-     , (45341, 14, True);
+     , (45341, 14, True)
+     , (45341, 19, True)
+     , (45341, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1720, 'scrolllockpickmasteryother');
@@ -41959,7 +44665,9 @@ VALUES (1720, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1720, 13, True)
      , (1720, 11, True)
-     , (1720, 14, True);
+     , (1720, 14, True)
+     , (1720, 19, True)
+     , (1720, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3304, 'scrollitemenchantmentineptitude3');
@@ -41990,7 +44698,9 @@ VALUES (3304, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3304, 13, True)
      , (3304, 11, True)
-     , (3304, 14, True);
+     , (3304, 14, True)
+     , (3304, 19, True)
+     , (3304, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3134, 'scrollarcaneenlightenmentother3');
@@ -42021,7 +44731,9 @@ VALUES (3134, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3134, 13, True)
      , (3134, 11, True)
-     , (3134, 14, True);
+     , (3134, 14, True)
+     , (3134, 19, True)
+     , (3134, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1660, 'scrollmanarenewalother');
@@ -42052,7 +44764,9 @@ VALUES (1660, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1660, 13, True)
      , (1660, 11, True)
-     , (1660, 14, True);
+     , (1660, 14, True)
+     , (1660, 19, True)
+     , (1660, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2723, 'scrollrevitalizeother3');
@@ -42083,7 +44797,9 @@ VALUES (2723, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2723, 13, True)
      , (2723, 11, True)
-     , (2723, 14, True);
+     , (2723, 14, True)
+     , (2723, 19, True)
+     , (2723, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3293, 'scrollinvulnerabilityother2');
@@ -42114,7 +44830,9 @@ VALUES (3293, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3293, 13, True)
      , (3293, 11, True)
-     , (3293, 14, True);
+     , (3293, 14, True)
+     , (3293, 19, True)
+     , (3293, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8935, 'scrollfroststreak');
@@ -42145,7 +44863,9 @@ VALUES (8935, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8935, 13, True)
      , (8935, 11, True)
-     , (8935, 14, True);
+     , (8935, 14, True)
+     , (8935, 19, True)
+     , (8935, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20324, 'scrolldispelcreatureneutralself');
@@ -42176,7 +44896,9 @@ VALUES (20324, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20324, 13, True)
      , (20324, 11, True)
-     , (20324, 14, True);
+     , (20324, 14, True)
+     , (20324, 19, True)
+     , (20324, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1892, 'scrollpiercingbane');
@@ -42207,7 +44929,9 @@ VALUES (1892, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1892, 13, True)
      , (1892, 11, True)
-     , (1892, 14, True);
+     , (1892, 14, True)
+     , (1892, 19, True)
+     , (1892, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45278, 'ace45278-scrollofdualwieldmasteryselfiii');
@@ -42238,7 +44962,9 @@ VALUES (45278, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45278, 13, True)
      , (45278, 11, True)
-     , (45278, 14, True);
+     , (45278, 14, True)
+     , (45278, 19, True)
+     , (45278, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2639, 'scrollclumsiness2');
@@ -42269,7 +44995,9 @@ VALUES (2639, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2639, 13, True)
      , (2639, 11, True)
-     , (2639, 14, True);
+     , (2639, 14, True)
+     , (2639, 19, True)
+     , (2639, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28936, 'scrollarcanumsalvaging4');
@@ -42300,7 +45028,9 @@ VALUES (28936, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28936, 13, True)
      , (28936, 11, True)
-     , (28936, 14, True);
+     , (28936, 14, True)
+     , (28936, 19, True)
+     , (28936, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2739, 'scrollstrengthother4');
@@ -42331,7 +45061,9 @@ VALUES (2739, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2739, 13, True)
      , (2739, 11, True)
-     , (2739, 14, True);
+     , (2739, 14, True)
+     , (2739, 19, True)
+     , (2739, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28937, 'scrollarcanumsalvaging5');
@@ -42362,7 +45094,9 @@ VALUES (28937, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28937, 13, True)
      , (28937, 11, True)
-     , (28937, 14, True);
+     , (28937, 14, True)
+     , (28937, 19, True)
+     , (28937, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1891, 'scrolllureblade');
@@ -42393,7 +45127,9 @@ VALUES (1891, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1891, 13, True)
      , (1891, 11, True)
-     , (1891, 14, True);
+     , (1891, 14, True)
+     , (1891, 19, True)
+     , (1891, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8954, 'scrollwhirlingbladestreak2');
@@ -42424,7 +45160,9 @@ VALUES (8954, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8954, 13, True)
      , (8954, 11, True)
-     , (8954, 14, True);
+     , (8954, 14, True)
+     , (8954, 19, True)
+     , (8954, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9650, 'scrollstaminatohealthself2');
@@ -42455,7 +45193,9 @@ VALUES (9650, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9650, 13, True)
      , (9650, 11, True)
-     , (9650, 14, True);
+     , (9650, 14, True)
+     , (9650, 19, True)
+     , (9650, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1665, 'scrolldefenselessnessother');
@@ -42486,7 +45226,9 @@ VALUES (1665, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1665, 13, True)
      , (1665, 11, True)
-     , (1665, 14, True);
+     , (1665, 14, True)
+     , (1665, 19, True)
+     , (1665, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3353, 'scrollleadershipmasteryother2');
@@ -42517,7 +45259,9 @@ VALUES (3353, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3353, 13, True)
      , (3353, 11, True)
-     , (3353, 14, True);
+     , (3353, 14, True)
+     , (3353, 19, True)
+     , (3353, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3270, 'scrollhealingineptitude4');
@@ -42548,7 +45292,9 @@ VALUES (3270, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3270, 13, True)
      , (3270, 11, True)
-     , (3270, 14, True);
+     , (3270, 14, True)
+     , (3270, 19, True)
+     , (3270, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2664, 'scrollenfeeble2');
@@ -42579,7 +45325,9 @@ VALUES (2664, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2664, 13, True)
      , (2664, 11, True)
-     , (2664, 14, True);
+     , (2664, 14, True)
+     , (2664, 19, True)
+     , (2664, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2641, 'scrollclumsiness4');
@@ -42610,7 +45358,9 @@ VALUES (2641, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2641, 13, True)
      , (2641, 11, True)
-     , (2641, 14, True);
+     , (2641, 14, True)
+     , (2641, 19, True)
+     , (2641, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2878, 'scrollstrengthenlock3');
@@ -42641,7 +45391,9 @@ VALUES (2878, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2878, 13, True)
      , (2878, 11, True)
-     , (2878, 14, True);
+     , (2878, 14, True)
+     , (2878, 19, True)
+     , (2878, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45300, 'ace45300-scrollofrecklessnessmasteryself');
@@ -42672,7 +45424,9 @@ VALUES (45300, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45300, 13, True)
      , (45300, 11, True)
-     , (45300, 14, True);
+     , (45300, 14, True)
+     , (45300, 19, True)
+     , (45300, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1859, 'scrolldrainhealth');
@@ -42703,7 +45457,9 @@ VALUES (1859, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1859, 13, True)
      , (1859, 11, True)
-     , (1859, 14, True);
+     , (1859, 14, True)
+     , (1859, 19, True)
+     , (1859, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1583, 'scrollvulnerabilityother');
@@ -42734,7 +45490,9 @@ VALUES (1583, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1583, 13, True)
      , (1583, 11, True)
-     , (1583, 14, True);
+     , (1583, 14, True)
+     , (1583, 19, True)
+     , (1583, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2822, 'scrollfrostbane2');
@@ -42765,7 +45523,9 @@ VALUES (2822, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2822, 13, True)
      , (2822, 11, True)
-     , (2822, 14, True);
+     , (2822, 14, True)
+     , (2822, 19, True)
+     , (2822, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3053, 'scrolllightningprotectionself2');
@@ -42796,7 +45556,9 @@ VALUES (3053, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3053, 13, True)
      , (3053, 11, True)
-     , (3053, 14, True);
+     , (3053, 14, True)
+     , (3053, 19, True)
+     , (3053, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1723, 'scrollmagicitemexpertiseself');
@@ -42827,7 +45589,9 @@ VALUES (1723, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1723, 13, True)
      , (1723, 11, True)
-     , (1723, 14, True);
+     , (1723, 14, True)
+     , (1723, 19, True)
+     , (1723, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1700, 'scrollhealingineptitude');
@@ -42858,7 +45622,9 @@ VALUES (1700, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1700, 13, True)
      , (1700, 11, True)
-     , (1700, 14, True);
+     , (1700, 14, True)
+     , (1700, 19, True)
+     , (1700, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2722, 'scrollrevitalizeother2');
@@ -42889,7 +45655,9 @@ VALUES (2722, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2722, 13, True)
      , (2722, 11, True)
-     , (2722, 14, True);
+     , (2722, 14, True)
+     , (2722, 19, True)
+     , (2722, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3407, 'scrollmacemasteryself6');
@@ -42920,7 +45688,9 @@ VALUES (3407, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3407, 13, True)
      , (3407, 11, True)
-     , (3407, 14, True);
+     , (3407, 14, True)
+     , (3407, 19, True)
+     , (3407, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21327, 'scrolllightningarc5');
@@ -42951,7 +45721,9 @@ VALUES (21327, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21327, 13, True)
      , (21327, 11, True)
-     , (21327, 14, True);
+     , (21327, 14, True)
+     , (21327, 19, True)
+     , (21327, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20588, 'scrollthrownmasteryother7');
@@ -42982,7 +45754,9 @@ VALUES (20588, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20588, 13, True)
      , (20588, 11, True)
-     , (20588, 14, True);
+     , (20588, 14, True)
+     , (20588, 19, True)
+     , (20588, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20576, 'scrollspearineptitude7');
@@ -43013,7 +45787,9 @@ VALUES (20576, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20576, 13, True)
      , (20576, 11, True)
-     , (20576, 14, True);
+     , (20576, 14, True)
+     , (20576, 19, True)
+     , (20576, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3386, 'scrolllockpickmasteryother5');
@@ -43044,7 +45820,9 @@ VALUES (3386, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3386, 13, True)
      , (3386, 11, True)
-     , (3386, 14, True);
+     , (3386, 14, True)
+     , (3386, 19, True)
+     , (3386, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45301, 'ace45301-scrollofrecklessnessmasteryselfii');
@@ -43075,7 +45853,9 @@ VALUES (45301, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45301, 13, True)
      , (45301, 11, True)
-     , (45301, 14, True);
+     , (45301, 14, True)
+     , (45301, 19, True)
+     , (45301, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45324, 'ace45324-scrollofshieldmasteryself');
@@ -43106,7 +45886,9 @@ VALUES (45324, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45324, 13, True)
      , (45324, 11, True)
-     , (45324, 14, True);
+     , (45324, 14, True)
+     , (45324, 19, True)
+     , (45324, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3328, 'scrollitemignorance2');
@@ -43137,7 +45919,9 @@ VALUES (3328, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3328, 13, True)
      , (3328, 11, True)
-     , (3328, 14, True);
+     , (3328, 14, True)
+     , (3328, 19, True)
+     , (3328, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3484, 'scrollspearmasteryself3');
@@ -43168,7 +45952,9 @@ VALUES (3484, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3484, 13, True)
      , (3484, 11, True)
-     , (3484, 14, True);
+     , (3484, 14, True)
+     , (3484, 19, True)
+     , (3484, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1554, 'scrollharmother');
@@ -43199,7 +45985,9 @@ VALUES (1554, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1554, 13, True)
      , (1554, 11, True)
-     , (1554, 14, True);
+     , (1554, 14, True)
+     , (1554, 19, True)
+     , (1554, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1883, 'scrollfrostbane');
@@ -43230,7 +46018,9 @@ VALUES (1883, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1883, 13, True)
      , (1883, 11, True)
-     , (1883, 14, True);
+     , (1883, 14, True)
+     , (1883, 19, True)
+     , (1883, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1577, 'scrollfireprotectionself');
@@ -43261,7 +46051,9 @@ VALUES (1577, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1577, 13, True)
      , (1577, 11, True)
-     , (1577, 14, True);
+     , (1577, 14, True)
+     , (1577, 19, True)
+     , (1577, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2979, 'scrollacidprotectionself3');
@@ -43292,7 +46084,9 @@ VALUES (2979, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2979, 13, True)
      , (2979, 11, True)
-     , (2979, 14, True);
+     , (2979, 14, True)
+     , (2979, 19, True)
+     , (2979, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3483, 'scrollspearmasteryself2');
@@ -43323,7 +46117,9 @@ VALUES (3483, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3483, 13, True)
      , (3483, 11, True)
-     , (3483, 14, True);
+     , (3483, 14, True)
+     , (3483, 19, True)
+     , (3483, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9627, 'scrolljumpineptitude4');
@@ -43354,7 +46150,9 @@ VALUES (9627, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9627, 13, True)
      , (9627, 11, True)
-     , (9627, 14, True);
+     , (9627, 14, True)
+     , (9627, 19, True)
+     , (9627, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2650, 'scrollcoordinationself3');
@@ -43385,7 +46183,9 @@ VALUES (2650, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2650, 13, True)
      , (2650, 11, True)
-     , (2650, 14, True);
+     , (2650, 14, True)
+     , (2650, 19, True)
+     , (2650, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1837, 'scrollwillpowerself');
@@ -43416,7 +46216,9 @@ VALUES (1837, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1837, 13, True)
      , (1837, 11, True)
-     , (1837, 14, True);
+     , (1837, 14, True)
+     , (1837, 19, True)
+     , (1837, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1737, 'scrollsprintself');
@@ -43447,7 +46249,9 @@ VALUES (1737, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1737, 13, True)
      , (1737, 11, True)
-     , (1737, 14, True);
+     , (1737, 14, True)
+     , (1737, 19, True)
+     , (1737, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3187, 'scrollbowmasteryself6');
@@ -43478,7 +46282,9 @@ VALUES (3187, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3187, 13, True)
      , (3187, 11, True)
-     , (3187, 14, True);
+     , (3187, 14, True)
+     , (3187, 19, True)
+     , (3187, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3446, 'scrollmonsterunfamiliarity5');
@@ -43509,7 +46315,9 @@ VALUES (3446, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3446, 13, True)
      , (3446, 11, True)
-     , (3446, 14, True);
+     , (3446, 14, True)
+     , (3446, 19, True)
+     , (3446, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3121, 'scrollrejuvenateother5');
@@ -43540,7 +46348,9 @@ VALUES (3121, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3121, 13, True)
      , (3121, 11, True)
-     , (3121, 14, True);
+     , (3121, 14, True)
+     , (3121, 19, True)
+     , (3121, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5975, 'scrollfletchingmasteryself2');
@@ -43571,7 +46381,9 @@ VALUES (5975, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5975, 13, True)
      , (5975, 11, True)
-     , (5975, 14, True);
+     , (5975, 14, True)
+     , (5975, 19, True)
+     , (5975, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3415, 'scrollmagicitemexpertiseself4');
@@ -43602,7 +46414,9 @@ VALUES (3415, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3415, 13, True)
      , (3415, 11, True)
-     , (3415, 14, True);
+     , (3415, 14, True)
+     , (3415, 19, True)
+     , (3415, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2890, 'scrolldrainhealth2');
@@ -43633,7 +46447,9 @@ VALUES (2890, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2890, 13, True)
      , (2890, 11, True)
-     , (2890, 14, True);
+     , (2890, 14, True)
+     , (2890, 19, True)
+     , (2890, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3146, 'scrollarmorexpertiseother5');
@@ -43664,7 +46480,9 @@ VALUES (3146, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3146, 13, True)
      , (3146, 11, True)
-     , (3146, 14, True);
+     , (3146, 14, True)
+     , (3146, 19, True)
+     , (3146, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45280, 'ace45280-scrollofdualwieldmasteryselfv');
@@ -43695,7 +46513,9 @@ VALUES (45280, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45280, 13, True)
      , (45280, 11, True)
-     , (45280, 14, True);
+     , (45280, 14, True)
+     , (45280, 19, True)
+     , (45280, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20560, 'scrollmacemasteryself7');
@@ -43726,7 +46546,9 @@ VALUES (20560, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20560, 13, True)
      , (20560, 11, True)
-     , (20560, 14, True);
+     , (20560, 14, True)
+     , (20560, 19, True)
+     , (20560, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20590, 'scrollunarmedineptitude7');
@@ -43757,7 +46579,9 @@ VALUES (20590, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20590, 13, True)
      , (20590, 11, True)
-     , (20590, 14, True);
+     , (20590, 14, True)
+     , (20590, 19, True)
+     , (20590, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3193, 'scrollcreatureenchantmentother2');
@@ -43788,7 +46612,9 @@ VALUES (3193, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3193, 13, True)
      , (3193, 11, True)
-     , (3193, 14, True);
+     , (3193, 14, True)
+     , (3193, 19, True)
+     , (3193, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2757, 'scrollwillpowerself2');
@@ -43819,7 +46645,9 @@ VALUES (2757, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2757, 13, True)
      , (2757, 11, True)
-     , (2757, 14, True);
+     , (2757, 14, True)
+     , (2757, 19, True)
+     , (2757, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1852, 'scrolllightningvulnerabilityother');
@@ -43850,7 +46678,9 @@ VALUES (1852, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1852, 13, True)
      , (1852, 11, True)
-     , (1852, 14, True);
+     , (1852, 14, True)
+     , (1852, 19, True)
+     , (1852, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49466, 'ace49466-scrollofsummoningmasteryotheriv');
@@ -43881,7 +46711,9 @@ VALUES (49466, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49466, 13, True)
      , (49466, 11, True)
-     , (49466, 14, True);
+     , (49466, 14, True)
+     , (49466, 19, True)
+     , (49466, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4391, 'scrollarmorself3');
@@ -43912,7 +46744,9 @@ VALUES (4391, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4391, 13, True)
      , (4391, 11, True)
-     , (4391, 14, True);
+     , (4391, 14, True)
+     , (4391, 19, True)
+     , (4391, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2669, 'scrollfeeblemind2');
@@ -43943,7 +46777,9 @@ VALUES (2669, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2669, 13, True)
      , (2669, 11, True)
-     , (2669, 14, True);
+     , (2669, 14, True)
+     , (2669, 19, True)
+     , (2669, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20581, 'scrollstaffineptitude7');
@@ -43974,7 +46810,9 @@ VALUES (20581, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20581, 13, True)
      , (20581, 11, True)
-     , (20581, 14, True);
+     , (20581, 14, True)
+     , (20581, 19, True)
+     , (20581, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20518, 'scrollcrossbowmasteryself7');
@@ -44005,7 +46843,9 @@ VALUES (20518, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20518, 13, True)
      , (20518, 11, True)
-     , (20518, 14, True);
+     , (20518, 14, True)
+     , (20518, 19, True)
+     , (20518, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45257, 'ace45257-scrollofdirtyfightingmasteryselfvi');
@@ -44036,7 +46876,9 @@ VALUES (45257, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45257, 13, True)
      , (45257, 11, True)
-     , (45257, 14, True);
+     , (45257, 14, True)
+     , (45257, 19, True)
+     , (45257, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3275, 'scrollhealingmasteryother4');
@@ -44067,7 +46909,9 @@ VALUES (3275, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3275, 13, True)
      , (3275, 11, True)
-     , (3275, 14, True);
+     , (3275, 14, True)
+     , (3275, 19, True)
+     , (3275, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8914, 'scrollacidstreak');
@@ -44098,7 +46942,9 @@ VALUES (8914, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8914, 13, True)
      , (8914, 11, True)
-     , (8914, 14, True);
+     , (8914, 14, True)
+     , (8914, 19, True)
+     , (8914, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2812, 'scrollflamebane2');
@@ -44129,7 +46975,9 @@ VALUES (2812, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2812, 13, True)
      , (2812, 11, True)
-     , (2812, 14, True);
+     , (2812, 14, True)
+     , (2812, 19, True)
+     , (2812, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1779, 'scrollmanadrain');
@@ -44160,7 +47008,9 @@ VALUES (1779, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1779, 13, True)
      , (1779, 11, True)
-     , (1779, 14, True);
+     , (1779, 14, True)
+     , (1779, 19, True)
+     , (1779, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20400, 'scrolldispellifeneutralself5');
@@ -44191,7 +47041,9 @@ VALUES (20400, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20400, 13, True)
      , (20400, 11, True)
-     , (20400, 14, True);
+     , (20400, 14, True)
+     , (20400, 19, True)
+     , (20400, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3335, 'scrolljumpmasteryother4');
@@ -44222,7 +47074,9 @@ VALUES (3335, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3335, 13, True)
      , (3335, 11, True)
-     , (3335, 14, True);
+     , (3335, 14, True)
+     , (3335, 19, True)
+     , (3335, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9664, 'scrolldrainmana5');
@@ -44253,7 +47107,9 @@ VALUES (9664, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9664, 13, True)
      , (9664, 11, True)
-     , (9664, 14, True);
+     , (9664, 14, True)
+     , (9664, 19, True)
+     , (9664, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9637, 'scrollhealthtostaminaself4');
@@ -44284,7 +47140,9 @@ VALUES (9637, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9637, 13, True)
      , (9637, 11, True)
-     , (9637, 14, True);
+     , (9637, 14, True)
+     , (9637, 19, True)
+     , (9637, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3444, 'scrollmonsterunfamiliarity3');
@@ -44315,7 +47173,9 @@ VALUES (3444, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3444, 13, True)
      , (3444, 11, True)
-     , (3444, 14, True);
+     , (3444, 14, True)
+     , (3444, 19, True)
+     , (3444, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5988, 'scrollalchemymasteryother3');
@@ -44346,7 +47206,9 @@ VALUES (5988, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5988, 13, True)
      , (5988, 11, True)
-     , (5988, 14, True);
+     , (5988, 14, True)
+     , (5988, 19, True)
+     , (5988, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3196, 'scrollcreatureenchantmentother5');
@@ -44377,7 +47239,9 @@ VALUES (3196, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3196, 13, True)
      , (3196, 11, True)
-     , (3196, 14, True);
+     , (3196, 14, True)
+     , (3196, 19, True)
+     , (3196, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3276, 'scrollhealingmasteryother5');
@@ -44408,7 +47272,9 @@ VALUES (3276, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3276, 13, True)
      , (3276, 11, True)
-     , (3276, 14, True);
+     , (3276, 14, True)
+     , (3276, 19, True)
+     , (3276, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3560, 'scrollvulnerabilityother4');
@@ -44439,7 +47305,9 @@ VALUES (3560, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3560, 13, True)
      , (3560, 11, True)
-     , (3560, 14, True);
+     , (3560, 14, True)
+     , (3560, 19, True)
+     , (3560, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45287, 'ace45287-scrollofrecklessnessineptitudeotheriv');
@@ -44470,7 +47338,9 @@ VALUES (45287, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45287, 13, True)
      , (45287, 11, True)
-     , (45287, 14, True);
+     , (45287, 14, True)
+     , (45287, 19, True)
+     , (45287, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3390, 'scrolllockpickmasteryself4');
@@ -44501,7 +47371,9 @@ VALUES (3390, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3390, 13, True)
      , (3390, 11, True)
-     , (3390, 14, True);
+     , (3390, 14, True)
+     , (3390, 19, True)
+     , (3390, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3419, 'scrollmagicitemignorance3');
@@ -44532,7 +47404,9 @@ VALUES (3419, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3419, 13, True)
      , (3419, 11, True)
-     , (3419, 14, True);
+     , (3419, 14, True)
+     , (3419, 19, True)
+     , (3419, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2780, 'scrollbladelure5');
@@ -44563,7 +47437,9 @@ VALUES (2780, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2780, 13, True)
      , (2780, 11, True)
-     , (2780, 14, True);
+     , (2780, 14, True)
+     , (2780, 19, True)
+     , (2780, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2759, 'scrollwillpowerself4');
@@ -44594,7 +47470,9 @@ VALUES (2759, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2759, 13, True)
      , (2759, 11, True)
-     , (2759, 14, True);
+     , (2759, 14, True)
+     , (2759, 19, True)
+     , (2759, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8933, 'scrollforcestreak5');
@@ -44625,7 +47503,9 @@ VALUES (8933, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8933, 13, True)
      , (8933, 11, True)
-     , (8933, 14, True);
+     , (8933, 14, True)
+     , (8933, 19, True)
+     , (8933, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8957, 'scrollwhirlingbladestreak5');
@@ -44656,7 +47536,9 @@ VALUES (8957, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8957, 13, True)
      , (8957, 11, True)
-     , (8957, 14, True);
+     , (8957, 14, True)
+     , (8957, 19, True)
+     , (8957, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41260, 'ace41260-scrolloftwohandedweaponmasteryselfv');
@@ -44687,7 +47569,9 @@ VALUES (41260, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41260, 13, True)
      , (41260, 11, True)
-     , (41260, 14, True);
+     , (41260, 14, True)
+     , (41260, 19, True)
+     , (41260, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5995, 'scrollalchemymasteryself4');
@@ -44718,7 +47602,9 @@ VALUES (5995, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5995, 13, True)
      , (5995, 11, True)
-     , (5995, 14, True);
+     , (5995, 14, True)
+     , (5995, 19, True)
+     , (5995, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9612, 'scrollmanaineptitude5');
@@ -44749,7 +47635,9 @@ VALUES (9612, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9612, 13, True)
      , (9612, 11, True)
-     , (9612, 14, True);
+     , (9612, 14, True)
+     , (9612, 19, True)
+     , (9612, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2965, 'scrollshockwave4');
@@ -44780,7 +47668,9 @@ VALUES (2965, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2965, 13, True)
      , (2965, 11, True)
-     , (2965, 14, True);
+     , (2965, 14, True)
+     , (2965, 19, True)
+     , (2965, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3744, 'scrollinfusestamina5');
@@ -44811,7 +47701,9 @@ VALUES (3744, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3744, 13, True)
      , (3744, 11, True)
-     , (3744, 14, True);
+     , (3744, 14, True)
+     , (3744, 19, True)
+     , (3744, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8530, 'scrollsanctuaryrecall');
@@ -44842,7 +47734,9 @@ VALUES (8530, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8530, 13, True)
      , (8530, 11, True)
-     , (8530, 14, True);
+     , (8530, 14, True)
+     , (8530, 19, True)
+     , (8530, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2956, 'scrolllightningbolt3');
@@ -44873,7 +47767,9 @@ VALUES (2956, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2956, 13, True)
      , (2956, 11, True)
-     , (2956, 14, True);
+     , (2956, 14, True)
+     , (2956, 19, True)
+     , (2956, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20319, 'scrolldispelcreatureneutralother2');
@@ -44904,7 +47800,9 @@ VALUES (20319, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20319, 13, True)
      , (20319, 11, True)
-     , (20319, 14, True);
+     , (20319, 14, True)
+     , (20319, 19, True)
+     , (20319, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3351, 'scrollleadershipineptitude5');
@@ -44935,7 +47833,9 @@ VALUES (3351, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3351, 13, True)
      , (3351, 11, True)
-     , (3351, 14, True);
+     , (3351, 14, True)
+     , (3351, 19, True)
+     , (3351, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3199, 'scrollcreatureenchantmentself3');
@@ -44966,7 +47866,9 @@ VALUES (3199, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3199, 13, True)
      , (3199, 11, True)
-     , (3199, 14, True);
+     , (3199, 14, True)
+     , (3199, 19, True)
+     , (3199, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2682, 'scrollfrailty2');
@@ -44997,7 +47899,9 @@ VALUES (2682, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2682, 13, True)
      , (2682, 11, True)
-     , (2682, 14, True);
+     , (2682, 14, True)
+     , (2682, 19, True)
+     , (2682, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3154, 'scrollarmorignorance3');
@@ -45028,7 +47932,9 @@ VALUES (3154, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3154, 13, True)
      , (3154, 11, True)
-     , (3154, 14, True);
+     , (3154, 14, True)
+     , (3154, 19, True)
+     , (3154, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2863, 'scrolllureblade3');
@@ -45059,7 +47965,9 @@ VALUES (2863, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2863, 13, True)
      , (2863, 11, True)
-     , (2863, 14, True);
+     , (2863, 14, True)
+     , (2863, 19, True)
+     , (2863, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1780, 'scrollquicknessother');
@@ -45090,7 +47998,9 @@ VALUES (1780, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1780, 13, True)
      , (1780, 11, True)
-     , (1780, 14, True);
+     , (1780, 14, True)
+     , (1780, 19, True)
+     , (1780, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3732, 'scrollinfusehealth3');
@@ -45121,7 +48031,9 @@ VALUES (3732, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3732, 13, True)
      , (3732, 11, True)
-     , (3732, 14, True);
+     , (3732, 14, True)
+     , (3732, 19, True)
+     , (3732, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45285, 'ace45285-scrollofrecklessnessineptitudeotherii');
@@ -45152,7 +48064,9 @@ VALUES (45285, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45285, 13, True)
      , (45285, 11, True)
-     , (45285, 14, True);
+     , (45285, 14, True)
+     , (45285, 19, True)
+     , (45285, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8939, 'scrollfroststreak5');
@@ -45183,7 +48097,9 @@ VALUES (8939, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8939, 13, True)
      , (8939, 11, True)
-     , (8939, 14, True);
+     , (8939, 14, True)
+     , (8939, 19, True)
+     , (8939, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3079, 'scrollexhaustion3');
@@ -45214,7 +48130,9 @@ VALUES (3079, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3079, 13, True)
      , (3079, 11, True)
-     , (3079, 14, True);
+     , (3079, 14, True)
+     , (3079, 19, True)
+     , (3079, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8923, 'scrollflamestreak4');
@@ -45245,7 +48163,9 @@ VALUES (8923, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8923, 13, True)
      , (8923, 11, True)
-     , (8923, 14, True);
+     , (8923, 14, True)
+     , (8923, 19, True)
+     , (8923, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1557, 'scrollstrengthother');
@@ -45276,7 +48196,9 @@ VALUES (1557, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1557, 13, True)
      , (1557, 11, True)
-     , (1557, 14, True);
+     , (1557, 14, True)
+     , (1557, 19, True)
+     , (1557, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3389, 'scrolllockpickmasteryself3');
@@ -45307,7 +48229,9 @@ VALUES (3389, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3389, 13, True)
      , (3389, 11, True)
-     , (3389, 14, True);
+     , (3389, 14, True)
+     , (3389, 19, True)
+     , (3389, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21303, 'scrollflamearc2');
@@ -45338,7 +48262,9 @@ VALUES (21303, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21303, 13, True)
      , (21303, 11, True)
-     , (21303, 14, True);
+     , (21303, 14, True)
+     , (21303, 19, True)
+     , (21303, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3338, 'scrolljumpmasteryself2');
@@ -45369,7 +48295,9 @@ VALUES (3338, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3338, 13, True)
      , (3338, 11, True)
-     , (3338, 14, True);
+     , (3338, 14, True)
+     , (3338, 19, True)
+     , (3338, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2674, 'scrollfocusother2');
@@ -45400,7 +48328,9 @@ VALUES (2674, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2674, 13, True)
      , (2674, 11, True)
-     , (2674, 14, True);
+     , (2674, 14, True)
+     , (2674, 19, True)
+     , (2674, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1848, 'scrollcoldprotectionself');
@@ -45431,7 +48361,9 @@ VALUES (1848, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1848, 13, True)
      , (1848, 11, True)
-     , (1848, 14, True);
+     , (1848, 14, True)
+     , (1848, 19, True)
+     , (1848, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1755, 'scrollweaponignorance');
@@ -45462,7 +48394,9 @@ VALUES (1755, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1755, 13, True)
      , (1755, 11, True)
-     , (1755, 14, True);
+     , (1755, 14, True)
+     , (1755, 19, True)
+     , (1755, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2964, 'scrollshockwave3');
@@ -45493,7 +48427,9 @@ VALUES (2964, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2964, 13, True)
      , (2964, 11, True)
-     , (2964, 14, True);
+     , (2964, 14, True)
+     , (2964, 19, True)
+     , (2964, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2942, 'scrollfrostbolt3');
@@ -45524,7 +48460,9 @@ VALUES (2942, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2942, 13, True)
      , (2942, 11, True)
-     , (2942, 14, True);
+     , (2942, 14, True)
+     , (2942, 19, True)
+     , (2942, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3044, 'scrollfirevulnerabilityother3');
@@ -45555,7 +48493,9 @@ VALUES (3044, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3044, 13, True)
      , (3044, 11, True)
-     , (3044, 14, True);
+     , (3044, 14, True)
+     , (3044, 19, True)
+     , (3044, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3014, 'scrollbludgeonvulnerabilityother3');
@@ -45586,7 +48526,9 @@ VALUES (3014, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3014, 13, True)
      , (3014, 11, True)
-     , (3014, 14, True);
+     , (3014, 14, True)
+     , (3014, 19, True)
+     , (3014, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2728, 'scrollrevitalizeself3');
@@ -45617,7 +48559,9 @@ VALUES (2728, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2728, 13, True)
      , (2728, 11, True)
-     , (2728, 14, True);
+     , (2728, 14, True)
+     , (2728, 19, True)
+     , (2728, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2698, 'scrollhealself3');
@@ -45648,7 +48592,9 @@ VALUES (2698, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2698, 13, True)
      , (2698, 11, True)
-     , (2698, 14, True);
+     , (2698, 14, True)
+     , (2698, 19, True)
+     , (2698, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2760, 'scrollwillpowerself5');
@@ -45679,7 +48625,9 @@ VALUES (2760, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2760, 13, True)
      , (2760, 11, True)
-     , (2760, 14, True);
+     , (2760, 14, True)
+     , (2760, 19, True)
+     , (2760, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41289, 'ace41289-scrolloftwohandedweaponsineptitudeii');
@@ -45710,7 +48658,9 @@ VALUES (41289, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41289, 13, True)
      , (41289, 11, True)
-     , (41289, 14, True);
+     , (41289, 14, True)
+     , (41289, 19, True)
+     , (41289, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2993, 'scrollbladeprotectionself2');
@@ -45741,7 +48691,9 @@ VALUES (2993, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2993, 13, True)
      , (2993, 11, True)
-     , (2993, 14, True);
+     , (2993, 14, True)
+     , (2993, 19, True)
+     , (2993, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3423, 'scrollmagicyieldother2');
@@ -45772,7 +48724,9 @@ VALUES (3423, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3423, 13, True)
      , (3423, 11, True)
-     , (3423, 14, True);
+     , (3423, 14, True)
+     , (3423, 19, True)
+     , (3423, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3030, 'scrollcoldvulnerabilityother4');
@@ -45803,7 +48757,9 @@ VALUES (3030, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3030, 13, True)
      , (3030, 11, True)
-     , (3030, 14, True);
+     , (3030, 14, True)
+     , (3030, 19, True)
+     , (3030, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3060, 'scrolllightningvulnerabilityother4');
@@ -45834,7 +48790,9 @@ VALUES (3060, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3060, 13, True)
      , (3060, 11, True)
-     , (3060, 14, True);
+     , (3060, 14, True)
+     , (3060, 19, True)
+     , (3060, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3075, 'scrollpiercevulnerabilityother4');
@@ -45865,7 +48823,9 @@ VALUES (3075, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3075, 13, True)
      , (3075, 11, True)
-     , (3075, 14, True);
+     , (3075, 14, True)
+     , (3075, 19, True)
+     , (3075, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2909, 'scrollacidstream4');
@@ -45896,7 +48856,9 @@ VALUES (2909, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2909, 13, True)
      , (2909, 11, True)
-     , (2909, 14, True);
+     , (2909, 14, True)
+     , (2909, 19, True)
+     , (2909, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2661, 'scrollenduranceself4');
@@ -45927,7 +48889,9 @@ VALUES (2661, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2661, 13, True)
      , (2661, 11, True)
-     , (2661, 14, True);
+     , (2661, 14, True)
+     , (2661, 19, True)
+     , (2661, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2744, 'scrollstrengthself4');
@@ -45958,7 +48922,9 @@ VALUES (2744, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2744, 13, True)
      , (2744, 11, True)
-     , (2744, 14, True);
+     , (2744, 14, True)
+     , (2744, 19, True)
+     , (2744, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3135, 'scrollarcaneenlightenmentother4');
@@ -45989,7 +48955,9 @@ VALUES (3135, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3135, 13, True)
      , (3135, 11, True)
-     , (3135, 14, True);
+     , (3135, 14, True)
+     , (3135, 19, True)
+     , (3135, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3200, 'scrollcreatureenchantmentself4');
@@ -46020,7 +48988,9 @@ VALUES (3200, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3200, 13, True)
      , (3200, 11, True)
-     , (3200, 14, True);
+     , (3200, 14, True)
+     , (3200, 19, True)
+     , (3200, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9611, 'scrollmanaineptitude4');
@@ -46051,7 +49021,9 @@ VALUES (9611, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9611, 13, True)
      , (9611, 11, True)
-     , (9611, 14, True);
+     , (9611, 14, True)
+     , (9611, 19, True)
+     , (9611, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3559, 'scrollvulnerabilityother3');
@@ -46082,7 +49054,9 @@ VALUES (3559, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3559, 13, True)
      , (3559, 11, True)
-     , (3559, 14, True);
+     , (3559, 14, True)
+     , (3559, 19, True)
+     , (3559, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9651, 'scrollstaminatohealthself3');
@@ -46113,7 +49087,9 @@ VALUES (9651, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9651, 13, True)
      , (9651, 11, True)
-     , (9651, 14, True);
+     , (9651, 14, True)
+     , (9651, 19, True)
+     , (9651, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3455, 'scrollpersonattunementself4');
@@ -46144,7 +49120,9 @@ VALUES (3455, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3455, 13, True)
      , (3455, 11, True)
-     , (3455, 14, True);
+     , (3455, 14, True)
+     , (3455, 19, True)
+     , (3455, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3420, 'scrollmagicitemignorance4');
@@ -46175,7 +49153,9 @@ VALUES (3420, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3420, 13, True)
      , (3420, 11, True)
-     , (3420, 14, True);
+     , (3420, 14, True)
+     , (3420, 19, True)
+     , (3420, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3056, 'scrolllightningprotectionself5');
@@ -46206,7 +49186,9 @@ VALUES (3056, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3056, 13, True)
      , (3056, 11, True)
-     , (3056, 14, True);
+     , (3056, 14, True)
+     , (3056, 19, True)
+     , (3056, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2873, 'scrollpiercinglure3');
@@ -46237,7 +49219,9 @@ VALUES (2873, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2873, 13, True)
      , (2873, 11, True)
-     , (2873, 14, True);
+     , (2873, 14, True)
+     , (2873, 19, True)
+     , (2873, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3360, 'scrollleadershipmasteryself4');
@@ -46268,7 +49252,9 @@ VALUES (3360, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3360, 13, True)
      , (3360, 11, True)
-     , (3360, 14, True);
+     , (3360, 14, True)
+     , (3360, 19, True)
+     , (3360, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2855, 'scrolllightningbane5');
@@ -46299,7 +49285,9 @@ VALUES (2855, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2855, 13, True)
      , (2855, 11, True)
-     , (2855, 14, True);
+     , (2855, 14, True)
+     , (2855, 19, True)
+     , (2855, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3240, 'scrolldeceptionmasteryother4');
@@ -46330,7 +49318,9 @@ VALUES (3240, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3240, 13, True)
      , (3240, 11, True)
-     , (3240, 14, True);
+     , (3240, 14, True)
+     , (3240, 19, True)
+     , (3240, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6001, 'scrollflamebolt5');
@@ -46361,7 +49351,9 @@ VALUES (6001, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (6001, 13, True)
      , (6001, 11, True)
-     , (6001, 14, True);
+     , (6001, 14, True)
+     , (6001, 19, True)
+     , (6001, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3106, 'scrollmanarenewalself5');
@@ -46392,7 +49384,9 @@ VALUES (3106, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3106, 13, True)
      , (3106, 11, True)
-     , (3106, 14, True);
+     , (3106, 14, True)
+     , (3106, 19, True)
+     , (3106, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3376, 'scrolllifemagicmasteryself5');
@@ -46423,7 +49417,9 @@ VALUES (3376, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3376, 13, True)
      , (3376, 11, True)
-     , (3376, 14, True);
+     , (3376, 14, True)
+     , (3376, 19, True)
+     , (3376, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3526, 'scrollswordmasteryself5');
@@ -46454,7 +49450,9 @@ VALUES (3526, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3526, 13, True)
      , (3526, 11, True)
-     , (3526, 14, True);
+     , (3526, 14, True)
+     , (3526, 19, True)
+     , (3526, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3317, 'scrollitemenchantmentmasteryself6');
@@ -46485,7 +49483,9 @@ VALUES (3317, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3317, 13, True)
      , (3317, 11, True)
-     , (3317, 14, True);
+     , (3317, 14, True)
+     , (3317, 19, True)
+     , (3317, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3372, 'scrolllifemagicmasteryother6');
@@ -46516,7 +49516,9 @@ VALUES (3372, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3372, 13, True)
      , (3372, 11, True)
-     , (3372, 14, True);
+     , (3372, 14, True)
+     , (3372, 19, True)
+     , (3372, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2640, 'scrollclumsiness3');
@@ -46547,7 +49549,9 @@ VALUES (2640, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2640, 13, True)
      , (2640, 11, True)
-     , (2640, 14, True);
+     , (2640, 14, True)
+     , (2640, 19, True)
+     , (2640, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3460, 'scrollpersonunfamiliarity4');
@@ -46578,7 +49582,9 @@ VALUES (3460, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3460, 13, True)
      , (3460, 11, True)
-     , (3460, 14, True);
+     , (3460, 14, True)
+     , (3460, 19, True)
+     , (3460, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5544, 'scrollmonsterattunementself3');
@@ -46609,7 +49615,9 @@ VALUES (5544, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5544, 13, True)
      , (5544, 11, True)
-     , (5544, 14, True);
+     , (5544, 14, True)
+     , (5544, 19, True)
+     , (5544, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45295, 'ace45295-scrollofrecklessnessmasteryotheriv');
@@ -46640,7 +49648,9 @@ VALUES (45295, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45295, 13, True)
      , (45295, 11, True)
-     , (45295, 14, True);
+     , (45295, 14, True)
+     , (45295, 19, True)
+     , (45295, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2694, 'scrollhealother4');
@@ -46671,7 +49681,9 @@ VALUES (2694, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2694, 13, True)
      , (2694, 11, True)
-     , (2694, 14, True);
+     , (2694, 14, True)
+     , (2694, 19, True)
+     , (2694, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5994, 'scrollalchemymasteryself3');
@@ -46702,7 +49714,9 @@ VALUES (5994, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5994, 13, True)
      , (5994, 11, True)
-     , (5994, 14, True);
+     , (5994, 14, True)
+     , (5994, 19, True)
+     , (5994, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3021, 'scrollcoldprotectionother5');
@@ -46733,7 +49747,9 @@ VALUES (3021, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3021, 13, True)
      , (3021, 11, True)
-     , (3021, 14, True);
+     , (3021, 14, True)
+     , (3021, 19, True)
+     , (3021, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20357, 'scrolldispelitemneutralother4');
@@ -46764,7 +49780,9 @@ VALUES (20357, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20357, 13, True)
      , (20357, 11, True)
-     , (20357, 14, True);
+     , (20357, 14, True)
+     , (20357, 19, True)
+     , (20357, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2976, 'scrollacidprotectionother5');
@@ -46795,7 +49813,9 @@ VALUES (2976, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2976, 13, True)
      , (2976, 11, True)
-     , (2976, 14, True);
+     , (2976, 14, True)
+     , (2976, 19, True)
+     , (2976, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3141, 'scrollarcaneenlightenmentself5');
@@ -46826,7 +49846,9 @@ VALUES (3141, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3141, 13, True)
      , (3141, 11, True)
-     , (3141, 14, True);
+     , (3141, 14, True)
+     , (3141, 19, True)
+     , (3141, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2843, 'scrollimpenetrability3');
@@ -46857,7 +49879,9 @@ VALUES (2843, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2843, 13, True)
      , (2843, 11, True)
-     , (2843, 14, True);
+     , (2843, 14, True)
+     , (2843, 19, True)
+     , (2843, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1701, 'scrollhealingmasteryother');
@@ -46888,7 +49912,9 @@ VALUES (1701, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1701, 13, True)
      , (1701, 11, True)
-     , (1701, 14, True);
+     , (1701, 14, True)
+     , (1701, 19, True)
+     , (1701, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45333, 'ace45333-scrollofsneakattackineptitudeotherii');
@@ -46919,7 +49945,9 @@ VALUES (45333, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45333, 13, True)
      , (45333, 11, True)
-     , (45333, 14, True);
+     , (45333, 14, True)
+     , (45333, 19, True)
+     , (45333, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1879, 'scrollbrittlemail');
@@ -46950,7 +49978,9 @@ VALUES (1879, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1879, 13, True)
      , (1879, 11, True)
-     , (1879, 14, True);
+     , (1879, 14, True)
+     , (1879, 19, True)
+     , (1879, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2792, 'scrollbludgeonbane2');
@@ -46981,7 +50011,9 @@ VALUES (2792, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2792, 13, True)
      , (2792, 11, True)
-     , (2792, 14, True);
+     , (2792, 14, True)
+     , (2792, 19, True)
+     , (2792, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1672, 'scrollaxeineptitudeother');
@@ -47012,7 +50044,9 @@ VALUES (1672, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1672, 13, True)
      , (1672, 11, True)
-     , (1672, 14, True);
+     , (1672, 14, True)
+     , (1672, 19, True)
+     , (1672, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43358, 'ace43358-scrollofvoidmagicineptitudeii');
@@ -47043,7 +50077,9 @@ VALUES (43358, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43358, 13, True)
      , (43358, 11, True)
-     , (43358, 14, True);
+     , (43358, 14, True)
+     , (43358, 19, True)
+     , (43358, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3108, 'scrollregenerateother2');
@@ -47074,7 +50110,9 @@ VALUES (3108, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3108, 13, True)
      , (3108, 11, True)
-     , (3108, 14, True);
+     , (3108, 14, True)
+     , (3108, 19, True)
+     , (3108, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3153, 'scrollarmorignorance2');
@@ -47105,7 +50143,9 @@ VALUES (3153, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3153, 13, True)
      , (3153, 11, True)
-     , (3153, 14, True);
+     , (3153, 14, True)
+     , (3153, 19, True)
+     , (3153, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3168, 'scrollaxemasteryself2');
@@ -47136,7 +50176,9 @@ VALUES (3168, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3168, 13, True)
      , (3168, 11, True)
-     , (3168, 14, True);
+     , (3168, 14, True)
+     , (3168, 19, True)
+     , (3168, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3013, 'scrollbludgeonvulnerabilityother2');
@@ -47167,7 +50209,9 @@ VALUES (3013, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3013, 13, True)
      , (3013, 11, True)
-     , (3013, 14, True);
+     , (3013, 14, True)
+     , (3013, 19, True)
+     , (3013, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2857, 'scrolllightninglure2');
@@ -47198,7 +50242,9 @@ VALUES (2857, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2857, 13, True)
      , (2857, 11, True)
-     , (2857, 14, True);
+     , (2857, 14, True)
+     , (2857, 19, True)
+     , (2857, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1845, 'scrollbludgeonprotectionself');
@@ -47229,7 +50275,9 @@ VALUES (1845, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1845, 13, True)
      , (1845, 11, True)
-     , (1845, 14, True);
+     , (1845, 14, True)
+     , (1845, 19, True)
+     , (1845, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43321, 'ace43321-scrollofdestructivecurseii');
@@ -47260,7 +50308,9 @@ VALUES (43321, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43321, 13, True)
      , (43321, 11, True)
-     , (43321, 14, True);
+     , (43321, 14, True)
+     , (43321, 19, True)
+     , (43321, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21296, 'scrollbladearc2');
@@ -47291,7 +50341,9 @@ VALUES (21296, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21296, 13, True)
      , (21296, 11, True)
-     , (21296, 14, True);
+     , (21296, 14, True)
+     , (21296, 19, True)
+     , (21296, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2867, 'scrollpiercingbane2');
@@ -47322,7 +50374,9 @@ VALUES (2867, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2867, 13, True)
      , (2867, 11, True)
-     , (2867, 14, True);
+     , (2867, 14, True)
+     , (2867, 19, True)
+     , (2867, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5974, 'scrollfletchingmasteryself');
@@ -47353,7 +50407,9 @@ VALUES (5974, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5974, 13, True)
      , (5974, 11, True)
-     , (5974, 14, True);
+     , (5974, 14, True)
+     , (5974, 19, True)
+     , (5974, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3371, 'scrolllifemagicmasteryother5');
@@ -47384,7 +50440,9 @@ VALUES (3371, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3371, 13, True)
      , (3371, 11, True)
-     , (3371, 14, True);
+     , (3371, 14, True)
+     , (3371, 19, True)
+     , (3371, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1893, 'scrollpiercinglure');
@@ -47415,7 +50473,9 @@ VALUES (1893, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1893, 13, True)
      , (1893, 11, True)
-     , (1893, 14, True);
+     , (1893, 14, True)
+     , (1893, 19, True)
+     , (1893, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8953, 'scrollwhirlingbladestreak');
@@ -47446,7 +50506,9 @@ VALUES (8953, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8953, 13, True)
      , (8953, 11, True)
-     , (8953, 14, True);
+     , (8953, 14, True)
+     , (8953, 19, True)
+     , (8953, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3031, 'scrollcoldvulnerabilityother5');
@@ -47477,7 +50539,9 @@ VALUES (3031, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3031, 13, True)
      , (3031, 11, True)
-     , (3031, 14, True);
+     , (3031, 14, True)
+     , (3031, 19, True)
+     , (3031, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3133, 'scrollarcaneenlightenmentother2');
@@ -47508,7 +50572,9 @@ VALUES (3133, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3133, 13, True)
      , (3133, 11, True)
-     , (3133, 14, True);
+     , (3133, 14, True)
+     , (3133, 19, True)
+     , (3133, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1706, 'scrollitemexpertiseother');
@@ -47539,7 +50605,9 @@ VALUES (1706, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1706, 13, True)
      , (1706, 11, True)
-     , (1706, 14, True);
+     , (1706, 14, True)
+     , (1706, 19, True)
+     , (1706, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3519, 'scrollswordmasteryother3');
@@ -47570,7 +50638,9 @@ VALUES (3519, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3519, 13, True)
      , (3519, 11, True)
-     , (3519, 14, True);
+     , (3519, 14, True)
+     , (3519, 19, True)
+     , (3519, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1685, 'scrollbowineptitude');
@@ -47601,7 +50671,9 @@ VALUES (1685, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1685, 13, True)
      , (1685, 11, True)
-     , (1685, 14, True);
+     , (1685, 14, True)
+     , (1685, 19, True)
+     , (1685, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2687, 'scrollharmother2');
@@ -47632,7 +50704,9 @@ VALUES (2687, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2687, 13, True)
      , (2687, 11, True)
-     , (2687, 14, True);
+     , (2687, 14, True)
+     , (2687, 19, True)
+     , (2687, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21309, 'scrollforcearc');
@@ -47663,7 +50737,9 @@ VALUES (21309, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21309, 13, True)
      , (21309, 11, True)
-     , (21309, 14, True);
+     , (21309, 14, True)
+     , (21309, 19, True)
+     , (21309, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3741, 'scrollinfusestamina2');
@@ -47694,7 +50770,9 @@ VALUES (3741, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3741, 13, True)
      , (3741, 11, True)
-     , (3741, 14, True);
+     , (3741, 14, True)
+     , (3741, 19, True)
+     , (3741, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1889, 'scrolllightningbane');
@@ -47725,7 +50803,9 @@ VALUES (1889, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1889, 13, True)
      , (1889, 11, True)
-     , (1889, 14, True);
+     , (1889, 14, True)
+     , (1889, 19, True)
+     , (1889, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21316, 'scrollfrostarc');
@@ -47756,7 +50836,9 @@ VALUES (21316, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21316, 13, True)
      , (21316, 11, True)
-     , (21316, 14, True);
+     , (21316, 14, True)
+     , (21316, 19, True)
+     , (21316, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45310, 'ace45310-scrollofshieldineptitudeotheriii');
@@ -47787,7 +50869,9 @@ VALUES (45310, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45310, 13, True)
      , (45310, 11, True)
-     , (45310, 14, True);
+     , (45310, 14, True)
+     , (45310, 19, True)
+     , (45310, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45260, 'ace45260-scrollofdualwieldineptitudeother');
@@ -47818,7 +50902,9 @@ VALUES (45260, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45260, 13, True)
      , (45260, 11, True)
-     , (45260, 14, True);
+     , (45260, 14, True)
+     , (45260, 19, True)
+     , (45260, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2702, 'scrollimperil2');
@@ -47849,7 +50935,9 @@ VALUES (2702, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2702, 13, True)
      , (2702, 11, True)
-     , (2702, 14, True);
+     , (2702, 14, True)
+     , (2702, 19, True)
+     , (2702, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1888, 'scrollleadenweapon');
@@ -47880,7 +50968,9 @@ VALUES (1888, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1888, 13, True)
      , (1888, 11, True)
-     , (1888, 14, True);
+     , (1888, 14, True)
+     , (1888, 19, True)
+     , (1888, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3157, 'scrollarmorignorance6');
@@ -47911,7 +51001,9 @@ VALUES (3157, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3157, 13, True)
      , (3157, 11, True)
-     , (3157, 14, True);
+     , (3157, 14, True)
+     , (3157, 19, True)
+     , (3157, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3305, 'scrollitemenchantmentineptitude4');
@@ -47942,7 +51034,9 @@ VALUES (3305, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3305, 13, True)
      , (3305, 11, True)
-     , (3305, 14, True);
+     , (3305, 14, True)
+     , (3305, 19, True)
+     , (3305, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53369, 'ace53369-scrollofradiantbloodrecall');
@@ -47973,7 +51067,9 @@ VALUES (53369, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (53369, 13, True)
      , (53369, 11, True)
-     , (53369, 14, True);
+     , (53369, 14, True)
+     , (53369, 19, True)
+     , (53369, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3171, 'scrollaxemasteryself5');
@@ -48004,7 +51100,9 @@ VALUES (3171, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3171, 13, True)
      , (3171, 11, True)
-     , (3171, 14, True);
+     , (3171, 14, True)
+     , (3171, 19, True)
+     , (3171, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41292, 'ace41292-scrolloftwohandedweaponsineptitudev');
@@ -48035,7 +51133,9 @@ VALUES (41292, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41292, 13, True)
      , (41292, 11, True)
-     , (41292, 14, True);
+     , (41292, 14, True)
+     , (41292, 19, True)
+     , (41292, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1865, 'scrollinfusehealth');
@@ -48066,7 +51166,9 @@ VALUES (1865, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1865, 13, True)
      , (1865, 11, True)
-     , (1865, 14, True);
+     , (1865, 14, True)
+     , (1865, 19, True)
+     , (1865, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2715, 'scrollquicknessother5');
@@ -48097,7 +51199,9 @@ VALUES (2715, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2715, 13, True)
      , (2715, 11, True)
-     , (2715, 14, True);
+     , (2715, 14, True)
+     , (2715, 19, True)
+     , (2715, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3284, 'scrollimpregnabilityother3');
@@ -48128,7 +51232,9 @@ VALUES (3284, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3284, 13, True)
      , (3284, 11, True)
-     , (3284, 14, True);
+     , (3284, 14, True)
+     , (3284, 19, True)
+     , (3284, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3176, 'scrollbowineptitude5');
@@ -48159,7 +51265,9 @@ VALUES (3176, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3176, 13, True)
      , (3176, 11, True)
-     , (3176, 14, True);
+     , (3176, 14, True)
+     , (3176, 19, True)
+     , (3176, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41269, 'ace41269-scrollofitemtinkeringignorancevi');
@@ -48190,7 +51298,9 @@ VALUES (41269, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41269, 13, True)
      , (41269, 11, True)
-     , (41269, 14, True);
+     , (41269, 14, True)
+     , (41269, 19, True)
+     , (41269, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20396, 'scrolldispellifeneutralself');
@@ -48221,7 +51331,9 @@ VALUES (20396, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20396, 13, True)
      , (20396, 11, True)
-     , (20396, 14, True);
+     , (20396, 14, True)
+     , (20396, 19, True)
+     , (20396, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1784, 'scrollrevitalizeother');
@@ -48252,7 +51364,9 @@ VALUES (1784, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1784, 13, True)
      , (1784, 11, True)
-     , (1784, 14, True);
+     , (1784, 14, True)
+     , (1784, 19, True)
+     , (1784, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1775, 'scrollfocusother');
@@ -48283,7 +51397,9 @@ VALUES (1775, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1775, 13, True)
      , (1775, 11, True)
-     , (1775, 14, True);
+     , (1775, 14, True)
+     , (1775, 19, True)
+     , (1775, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3066, 'scrollpierceprotectionother5');
@@ -48314,7 +51430,9 @@ VALUES (3066, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3066, 13, True)
      , (3066, 11, True)
-     , (3066, 14, True);
+     , (3066, 14, True)
+     , (3066, 19, True)
+     , (3066, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9626, 'scrolljumpineptitude3');
@@ -48345,7 +51463,9 @@ VALUES (9626, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9626, 13, True)
      , (9626, 11, True)
-     , (9626, 14, True);
+     , (9626, 14, True)
+     , (9626, 19, True)
+     , (9626, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3388, 'scrolllockpickmasteryself2');
@@ -48376,7 +51496,9 @@ VALUES (3388, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3388, 13, True)
      , (3388, 11, True)
-     , (3388, 14, True);
+     , (3388, 14, True)
+     , (3388, 19, True)
+     , (3388, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9609, 'scrollmanaineptitude2');
@@ -48407,7 +51529,9 @@ VALUES (9609, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9609, 13, True)
      , (9609, 11, True)
-     , (9609, 14, True);
+     , (9609, 14, True)
+     , (9609, 19, True)
+     , (9609, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2635, 'scrollbafflement3');
@@ -48438,7 +51562,9 @@ VALUES (2635, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2635, 13, True)
      , (2635, 11, True)
-     , (2635, 14, True);
+     , (2635, 14, True)
+     , (2635, 19, True)
+     , (2635, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1781, 'scrollquicknessself');
@@ -48469,7 +51595,9 @@ VALUES (1781, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1781, 13, True)
      , (1781, 11, True)
-     , (1781, 14, True);
+     , (1781, 14, True)
+     , (1781, 19, True)
+     , (1781, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3418, 'scrollmagicitemignorance2');
@@ -48500,7 +51628,9 @@ VALUES (3418, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3418, 13, True)
      , (3418, 11, True)
-     , (3418, 14, True);
+     , (3418, 14, True)
+     , (3418, 19, True)
+     , (3418, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2842, 'scrollimpenetrability2');
@@ -48531,7 +51661,9 @@ VALUES (2842, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2842, 13, True)
      , (2842, 11, True)
-     , (2842, 14, True);
+     , (2842, 14, True)
+     , (2842, 19, True)
+     , (2842, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1555, 'scrollhealother');
@@ -48562,7 +51694,9 @@ VALUES (1555, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1555, 13, True)
      , (1555, 11, True)
-     , (1555, 14, True);
+     , (1555, 14, True)
+     , (1555, 19, True)
+     , (1555, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41265, 'ace41265-scrollofitemtinkeringignoranceii');
@@ -48593,7 +51727,9 @@ VALUES (41265, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41265, 13, True)
      , (41265, 11, True)
-     , (41265, 14, True);
+     , (41265, 14, True)
+     , (41265, 19, True)
+     , (41265, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2756, 'scrollwillpowerother6');
@@ -48624,7 +51760,9 @@ VALUES (2756, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2756, 13, True)
      , (2756, 11, True)
-     , (2756, 14, True);
+     , (2756, 14, True)
+     , (2756, 19, True)
+     , (2756, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3511, 'scrollstaffmasteryself5');
@@ -48655,7 +51793,9 @@ VALUES (3511, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3511, 13, True)
      , (3511, 11, True)
-     , (3511, 14, True);
+     , (3511, 14, True)
+     , (3511, 19, True)
+     , (3511, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3478, 'scrollspearmasteryother2');
@@ -48686,7 +51826,9 @@ VALUES (3478, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3478, 13, True)
      , (3478, 11, True)
-     , (3478, 14, True);
+     , (3478, 14, True)
+     , (3478, 19, True)
+     , (3478, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1877, 'scrollbludgeonbane');
@@ -48717,7 +51859,9 @@ VALUES (1877, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1877, 13, True)
      , (1877, 11, True)
-     , (1877, 14, True);
+     , (1877, 14, True)
+     , (1877, 19, True)
+     , (1877, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2862, 'scrolllureblade2');
@@ -48748,7 +51892,9 @@ VALUES (2862, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2862, 13, True)
      , (2862, 11, True)
-     , (2862, 14, True);
+     , (2862, 14, True)
+     , (2862, 19, True)
+     , (2862, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3504, 'scrollstaffmasteryother3');
@@ -48779,7 +51925,9 @@ VALUES (3504, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3504, 13, True)
      , (3504, 11, True)
-     , (3504, 14, True);
+     , (3504, 14, True)
+     , (3504, 19, True)
+     , (3504, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3003, 'scrollbludgeonprotectionother2');
@@ -48810,7 +51958,9 @@ VALUES (3003, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3003, 13, True)
      , (3003, 11, True)
-     , (3003, 14, True);
+     , (3003, 14, True)
+     , (3003, 19, True)
+     , (3003, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1718, 'scrolllifemagicmasteryself');
@@ -48841,7 +51991,9 @@ VALUES (1718, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1718, 13, True)
      , (1718, 11, True)
-     , (1718, 14, True);
+     , (1718, 14, True)
+     , (1718, 19, True)
+     , (1718, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1727, 'scrollmonsterattunementother');
@@ -48872,7 +52024,9 @@ VALUES (1727, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1727, 13, True)
      , (1727, 11, True)
-     , (1727, 14, True);
+     , (1727, 14, True)
+     , (1727, 19, True)
+     , (1727, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3374, 'scrolllifemagicmasteryself3');
@@ -48903,7 +52057,9 @@ VALUES (3374, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3374, 13, True)
      , (3374, 11, True)
-     , (3374, 14, True);
+     , (3374, 14, True)
+     , (3374, 19, True)
+     , (3374, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21288, 'scrollacidarc');
@@ -48934,7 +52090,9 @@ VALUES (21288, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21288, 13, True)
      , (21288, 11, True)
-     , (21288, 14, True);
+     , (21288, 14, True)
+     , (21288, 19, True)
+     , (21288, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21317, 'scrollfrostarc2');
@@ -48965,7 +52123,9 @@ VALUES (21317, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21317, 13, True)
      , (21317, 11, True)
-     , (21317, 14, True);
+     , (21317, 14, True)
+     , (21317, 19, True)
+     , (21317, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3151, 'scrollarmorexpertiseself5');
@@ -48996,7 +52156,9 @@ VALUES (3151, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3151, 13, True)
      , (3151, 11, True)
-     , (3151, 14, True);
+     , (3151, 14, True)
+     , (3151, 19, True)
+     , (3151, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21314, 'scrollforcearc6');
@@ -49027,7 +52189,9 @@ VALUES (21314, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21314, 13, True)
      , (21314, 11, True)
-     , (21314, 14, True);
+     , (21314, 14, True)
+     , (21314, 19, True)
+     , (21314, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43304, 'ace43304-scrollofnetherboltiii');
@@ -49058,7 +52222,9 @@ VALUES (43304, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43304, 13, True)
      , (43304, 11, True)
-     , (43304, 14, True);
+     , (43304, 14, True)
+     , (43304, 19, True)
+     , (43304, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45247, 'ace45247-scrollofdirtyfightingmasteryotheriv');
@@ -49089,7 +52255,9 @@ VALUES (45247, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45247, 13, True)
      , (45247, 11, True)
-     , (45247, 14, True);
+     , (45247, 14, True)
+     , (45247, 19, True)
+     , (45247, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2804, 'scrollbrittlemail4');
@@ -49120,7 +52288,9 @@ VALUES (2804, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2804, 13, True)
      , (2804, 11, True)
-     , (2804, 14, True);
+     , (2804, 14, True)
+     , (2804, 19, True)
+     , (2804, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43296, 'ace43296-scrollofnetherarciii');
@@ -49151,7 +52321,9 @@ VALUES (43296, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43296, 13, True)
      , (43296, 11, True)
-     , (43296, 14, True);
+     , (43296, 14, True)
+     , (43296, 19, True)
+     , (43296, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20398, 'scrolldispellifeneutralself3');
@@ -49182,7 +52354,9 @@ VALUES (20398, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20398, 13, True)
      , (20398, 11, True)
-     , (20398, 14, True);
+     , (20398, 14, True)
+     , (20398, 19, True)
+     , (20398, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3563, 'scrollwarmagicineptitude2');
@@ -49213,7 +52387,9 @@ VALUES (3563, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3563, 13, True)
      , (3563, 11, True)
-     , (3563, 14, True);
+     , (3563, 14, True)
+     , (3563, 19, True)
+     , (3563, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1875, 'scrollacidbane');
@@ -49244,7 +52420,9 @@ VALUES (1875, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1875, 13, True)
      , (1875, 11, True)
-     , (1875, 14, True);
+     , (1875, 14, True)
+     , (1875, 19, True)
+     , (1875, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3263, 'scrollfealtyself2');
@@ -49275,7 +52453,9 @@ VALUES (3263, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3263, 13, True)
      , (3263, 11, True)
-     , (3263, 14, True);
+     , (3263, 14, True)
+     , (3263, 19, True)
+     , (3263, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45245, 'ace45245-scrollofdirtyfightingmasteryotherii');
@@ -49306,7 +52486,9 @@ VALUES (45245, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45245, 13, True)
      , (45245, 11, True)
-     , (45245, 14, True);
+     , (45245, 14, True)
+     , (45245, 19, True)
+     , (45245, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5976, 'scrollfletchingmasteryself3');
@@ -49337,7 +52519,9 @@ VALUES (5976, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5976, 13, True)
      , (5976, 11, True)
-     , (5976, 14, True);
+     , (5976, 14, True)
+     , (5976, 19, True)
+     , (5976, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8916, 'scrollacidstreak3');
@@ -49368,7 +52552,9 @@ VALUES (8916, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8916, 13, True)
      , (8916, 11, True)
-     , (8916, 14, True);
+     , (8916, 14, True)
+     , (8916, 19, True)
+     , (8916, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21313, 'scrollforcearc5');
@@ -49399,7 +52585,9 @@ VALUES (21313, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21313, 13, True)
      , (21313, 11, True)
-     , (21313, 14, True);
+     , (21313, 14, True)
+     , (21313, 19, True)
+     , (21313, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2823, 'scrollfrostbane3');
@@ -49430,7 +52618,9 @@ VALUES (2823, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2823, 13, True)
      , (2823, 11, True)
-     , (2823, 14, True);
+     , (2823, 14, True)
+     , (2823, 19, True)
+     , (2823, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1890, 'scrolllightninglure');
@@ -49461,7 +52651,9 @@ VALUES (1890, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1890, 13, True)
      , (1890, 11, True)
-     , (1890, 14, True);
+     , (1890, 14, True)
+     , (1890, 19, True)
+     , (1890, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3020, 'scrollcoldprotectionother4');
@@ -49492,7 +52684,9 @@ VALUES (3020, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3020, 13, True)
      , (3020, 11, True)
-     , (3020, 14, True);
+     , (3020, 14, True)
+     , (3020, 19, True)
+     , (3020, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3589, 'scrollweaponignorance3');
@@ -49523,7 +52717,9 @@ VALUES (3589, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3589, 13, True)
      , (3589, 11, True)
-     , (3589, 14, True);
+     , (3589, 14, True)
+     , (3589, 19, True)
+     , (3589, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45332, 'ace45332-scrollofsneakattackineptitudeother');
@@ -49554,7 +52750,9 @@ VALUES (45332, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45332, 13, True)
      , (45332, 11, True)
-     , (45332, 14, True);
+     , (45332, 14, True)
+     , (45332, 19, True)
+     , (45332, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28935, 'scrollarcanumsalvaging3');
@@ -49585,7 +52783,9 @@ VALUES (28935, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28935, 13, True)
      , (28935, 11, True)
-     , (28935, 14, True);
+     , (28935, 14, True)
+     , (28935, 19, True)
+     , (28935, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3314, 'scrollitemenchantmentmasteryself3');
@@ -49616,7 +52816,9 @@ VALUES (3314, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3314, 13, True)
      , (3314, 11, True)
-     , (3314, 14, True);
+     , (3314, 14, True)
+     , (3314, 19, True)
+     , (3314, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3410, 'scrollmagicitemexpertiseother4');
@@ -49647,7 +52849,9 @@ VALUES (3410, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3410, 13, True)
      , (3410, 11, True)
-     , (3410, 14, True);
+     , (3410, 14, True)
+     , (3410, 19, True)
+     , (3410, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1695, 'scrolldeceptionmasteryother');
@@ -49678,7 +52882,9 @@ VALUES (1695, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1695, 13, True)
      , (1695, 11, True)
-     , (1695, 14, True);
+     , (1695, 14, True)
+     , (1695, 19, True)
+     , (1695, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2829, 'scrollfrostlure4');
@@ -49709,7 +52915,9 @@ VALUES (2829, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2829, 13, True)
      , (2829, 11, True)
-     , (2829, 14, True);
+     , (2829, 14, True)
+     , (2829, 19, True)
+     , (2829, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1549, 'scrollarmorother');
@@ -49740,7 +52948,9 @@ VALUES (1549, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1549, 13, True)
      , (1549, 11, True)
-     , (1549, 14, True);
+     , (1549, 14, True)
+     , (1549, 19, True)
+     , (1549, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2758, 'scrollwillpowerself3');
@@ -49771,7 +52981,9 @@ VALUES (2758, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2758, 13, True)
      , (2758, 11, True)
-     , (2758, 14, True);
+     , (2758, 14, True)
+     , (2758, 19, True)
+     , (2758, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3571, 'scrollwarmagicmasteryother5');
@@ -49802,7 +53014,9 @@ VALUES (3571, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3571, 13, True)
      , (3571, 11, True)
-     , (3571, 14, True);
+     , (3571, 14, True)
+     , (3571, 19, True)
+     , (3571, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3490, 'scrollsprintother4');
@@ -49833,7 +53047,9 @@ VALUES (3490, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3490, 13, True)
      , (3490, 11, True)
-     , (3490, 14, True);
+     , (3490, 14, True)
+     , (3490, 19, True)
+     , (3490, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1704, 'scrollitemenchantmentmasteryother');
@@ -49864,7 +53080,9 @@ VALUES (1704, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1704, 13, True)
      , (1704, 11, True)
-     , (1704, 14, True);
+     , (1704, 14, True)
+     , (1704, 19, True)
+     , (1704, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3323, 'scrollitemexpertiseself2');
@@ -49895,7 +53113,9 @@ VALUES (3323, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3323, 13, True)
      , (3323, 11, True)
-     , (3323, 14, True);
+     , (3323, 14, True)
+     , (3323, 19, True)
+     , (3323, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2852, 'scrolllightningbane2');
@@ -49926,7 +53146,9 @@ VALUES (2852, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2852, 13, True)
      , (2852, 11, True)
-     , (2852, 14, True);
+     , (2852, 14, True)
+     , (2852, 19, True)
+     , (2852, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2941, 'scrollfrostbolt2');
@@ -49957,7 +53179,9 @@ VALUES (2941, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2941, 13, True)
      , (2941, 11, True)
-     , (2941, 14, True);
+     , (2941, 14, True)
+     , (2941, 19, True)
+     , (2941, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2944, 'scrollfrostbolt5');
@@ -49988,7 +53212,9 @@ VALUES (2944, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2944, 13, True)
      , (2944, 11, True)
-     , (2944, 14, True);
+     , (2944, 14, True)
+     , (2944, 19, True)
+     , (2944, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1662, 'scrollresistmagicself');
@@ -50019,7 +53245,9 @@ VALUES (1662, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1662, 13, True)
      , (1662, 11, True)
-     , (1662, 14, True);
+     , (1662, 14, True)
+     , (1662, 19, True)
+     , (1662, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1686, 'scrollbowmasteryother');
@@ -50050,7 +53278,9 @@ VALUES (1686, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1686, 13, True)
      , (1686, 11, True)
-     , (1686, 14, True);
+     , (1686, 14, True)
+     , (1686, 19, True)
+     , (1686, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1732, 'scrollpersonunfamiliarity');
@@ -50081,7 +53311,9 @@ VALUES (1732, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1732, 13, True)
      , (1732, 11, True)
-     , (1732, 14, True);
+     , (1732, 14, True)
+     , (1732, 19, True)
+     , (1732, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1680, 'scrollarcaneenlightenmentother');
@@ -50112,7 +53344,9 @@ VALUES (1680, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1680, 13, True)
      , (1680, 11, True)
-     , (1680, 14, True);
+     , (1680, 14, True)
+     , (1680, 19, True)
+     , (1680, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5966, 'scrollfletchingineptitude5');
@@ -50143,7 +53377,9 @@ VALUES (5966, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5966, 13, True)
      , (5966, 11, True)
-     , (5966, 14, True);
+     , (5966, 14, True)
+     , (5966, 19, True)
+     , (5966, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1772, 'scrollenduranceself');
@@ -50174,7 +53410,9 @@ VALUES (1772, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1772, 13, True)
      , (1772, 11, True)
-     , (1772, 14, True);
+     , (1772, 14, True)
+     , (1772, 19, True)
+     , (1772, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2955, 'scrolllightningbolt2');
@@ -50205,7 +53443,9 @@ VALUES (2955, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2955, 13, True)
      , (2955, 11, True)
-     , (2955, 14, True);
+     , (2955, 14, True)
+     , (2955, 19, True)
+     , (2955, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43338, 'ace43338-scrollofweakeningcurse');
@@ -50236,7 +53476,9 @@ VALUES (43338, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43338, 13, True)
      , (43338, 11, True)
-     , (43338, 14, True);
+     , (43338, 14, True)
+     , (43338, 19, True)
+     , (43338, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9643, 'scrollmanatohealthself5');
@@ -50267,7 +53509,9 @@ VALUES (9643, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9643, 13, True)
      , (9643, 11, True)
-     , (9643, 14, True);
+     , (9643, 14, True)
+     , (9643, 19, True)
+     , (9643, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1736, 'scrollsprintother');
@@ -50298,7 +53542,9 @@ VALUES (1736, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1736, 13, True)
      , (1736, 11, True)
-     , (1736, 14, True);
+     , (1736, 14, True)
+     , (1736, 19, True)
+     , (1736, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3463, 'scrollresistmagicother2');
@@ -50329,7 +53575,9 @@ VALUES (3463, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3463, 13, True)
      , (3463, 11, True)
-     , (3463, 14, True);
+     , (3463, 14, True)
+     , (3463, 19, True)
+     , (3463, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2645, 'scrollcoordinationother3');
@@ -50360,7 +53608,9 @@ VALUES (2645, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2645, 13, True)
      , (2645, 11, True)
-     , (2645, 14, True);
+     , (2645, 14, True)
+     , (2645, 19, True)
+     , (2645, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2697, 'scrollhealself2');
@@ -50391,7 +53641,9 @@ VALUES (2697, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2697, 13, True)
      , (2697, 11, True)
-     , (2697, 14, True);
+     , (2697, 14, True)
+     , (2697, 19, True)
+     , (2697, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43290, 'ace43290-scrollofcorruptionv');
@@ -50422,7 +53674,9 @@ VALUES (43290, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43290, 13, True)
      , (43290, 11, True)
-     , (43290, 14, True);
+     , (43290, 14, True)
+     , (43290, 19, True)
+     , (43290, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3159, 'scrollaxeineptitudeother3');
@@ -50453,7 +53707,9 @@ VALUES (3159, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3159, 13, True)
      , (3159, 11, True)
-     , (3159, 14, True);
+     , (3159, 14, True)
+     , (3159, 19, True)
+     , (3159, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2676, 'scrollfocusother4');
@@ -50484,7 +53740,9 @@ VALUES (2676, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2676, 13, True)
      , (2676, 11, True)
-     , (2676, 14, True);
+     , (2676, 14, True)
+     , (2676, 19, True)
+     , (2676, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3558, 'scrollvulnerabilityother2');
@@ -50515,7 +53773,9 @@ VALUES (3558, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3558, 13, True)
      , (3558, 11, True)
-     , (3558, 14, True);
+     , (3558, 14, True)
+     , (3558, 19, True)
+     , (3558, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1730, 'scrollpersonattunementother');
@@ -50546,7 +53806,9 @@ VALUES (1730, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1730, 13, True)
      , (1730, 11, True)
-     , (1730, 14, True);
+     , (1730, 14, True)
+     , (1730, 19, True)
+     , (1730, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1841, 'scrollbladeprotectionother');
@@ -50577,7 +53839,9 @@ VALUES (1841, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1841, 13, True)
      , (1841, 11, True)
-     , (1841, 14, True);
+     , (1841, 14, True)
+     , (1841, 19, True)
+     , (1841, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2791, 'scrollbloodloather6');
@@ -50608,7 +53872,9 @@ VALUES (2791, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2791, 13, True)
      , (2791, 11, True)
-     , (2791, 14, True);
+     , (2791, 14, True)
+     , (2791, 19, True)
+     , (2791, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21099, 'scrollhealthbolt5');
@@ -50639,7 +53905,9 @@ VALUES (21099, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21099, 13, True)
      , (21099, 11, True)
-     , (21099, 14, True);
+     , (21099, 14, True)
+     , (21099, 19, True)
+     , (21099, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2779, 'scrollbladelure4');
@@ -50670,7 +53938,9 @@ VALUES (2779, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2779, 13, True)
      , (2779, 11, True)
-     , (2779, 14, True);
+     , (2779, 14, True)
+     , (2779, 19, True)
+     , (2779, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45327, 'ace45327-scrollofshieldmasteryselfiv');
@@ -50701,7 +53971,9 @@ VALUES (45327, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45327, 13, True)
      , (45327, 11, True)
-     , (45327, 14, True);
+     , (45327, 14, True)
+     , (45327, 19, True)
+     , (45327, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3368, 'scrolllifemagicmasteryother2');
@@ -50732,7 +54004,9 @@ VALUES (3368, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3368, 13, True)
      , (3368, 11, True)
-     , (3368, 14, True);
+     , (3368, 14, True)
+     , (3368, 19, True)
+     , (3368, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1641, 'scrollshockwave');
@@ -50763,7 +54037,9 @@ VALUES (1641, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1641, 13, True)
      , (1641, 11, True)
-     , (1641, 14, True);
+     , (1641, 14, True)
+     , (1641, 19, True)
+     , (1641, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3464, 'scrollresistmagicother3');
@@ -50794,7 +54070,9 @@ VALUES (3464, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3464, 13, True)
      , (3464, 11, True)
-     , (3464, 14, True);
+     , (3464, 14, True)
+     , (3464, 19, True)
+     , (3464, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9625, 'scrolljumpineptitude2');
@@ -50825,7 +54103,9 @@ VALUES (9625, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9625, 13, True)
      , (9625, 11, True)
-     , (9625, 14, True);
+     , (9625, 14, True)
+     , (9625, 19, True)
+     , (9625, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1558, 'scrollstrengthself');
@@ -50856,7 +54136,9 @@ VALUES (1558, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1558, 13, True)
      , (1558, 11, True)
-     , (1558, 14, True);
+     , (1558, 14, True)
+     , (1558, 19, True)
+     , (1558, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3583, 'scrollweaponexpertiseself2');
@@ -50887,7 +54169,9 @@ VALUES (3583, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3583, 13, True)
      , (3583, 11, True)
-     , (3583, 14, True);
+     , (3583, 14, True)
+     , (3583, 19, True)
+     , (3583, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45262, 'ace45262-scrollofdualwieldineptitudeotheriii');
@@ -50918,7 +54202,9 @@ VALUES (45262, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45262, 13, True)
      , (45262, 11, True)
-     , (45262, 14, True);
+     , (45262, 14, True)
+     , (45262, 19, True)
+     , (45262, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45292, 'ace45292-scrollofrecklessnessmasteryother');
@@ -50949,7 +54235,9 @@ VALUES (45292, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45292, 13, True)
      , (45292, 11, True)
-     , (45292, 14, True);
+     , (45292, 14, True)
+     , (45292, 19, True)
+     , (45292, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3456, 'scrollpersonattunementself5');
@@ -50980,7 +54268,9 @@ VALUES (3456, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3456, 13, True)
      , (3456, 11, True)
-     , (3456, 14, True);
+     , (3456, 14, True)
+     , (3456, 19, True)
+     , (3456, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3229, 'scrolldaggermasteryself3');
@@ -51011,7 +54301,9 @@ VALUES (3229, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3229, 13, True)
      , (3229, 11, True)
-     , (3229, 14, True);
+     , (3229, 14, True)
+     , (3229, 19, True)
+     , (3229, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2672, 'scrollfeeblemind5');
@@ -51042,7 +54334,9 @@ VALUES (2672, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2672, 13, True)
      , (2672, 11, True)
-     , (2672, 14, True);
+     , (2672, 14, True)
+     , (2672, 19, True)
+     , (2672, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5978, 'scrollfletchingmasteryself5');
@@ -51073,7 +54367,9 @@ VALUES (5978, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5978, 13, True)
      , (5978, 11, True)
-     , (5978, 14, True);
+     , (5978, 14, True)
+     , (5978, 19, True)
+     , (5978, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3387, 'scrolllockpickmasteryother6');
@@ -51104,7 +54400,9 @@ VALUES (3387, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3387, 13, True)
      , (3387, 11, True)
-     , (3387, 14, True);
+     , (3387, 14, True)
+     , (3387, 19, True)
+     , (3387, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45320, 'ace45320-scrollofshieldmasteryotherv');
@@ -51135,7 +54433,9 @@ VALUES (45320, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45320, 13, True)
      , (45320, 11, True)
-     , (45320, 14, True);
+     , (45320, 14, True)
+     , (45320, 19, True)
+     , (45320, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3321, 'scrollitemexpertiseother5');
@@ -51166,7 +54466,9 @@ VALUES (3321, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3321, 13, True)
      , (3321, 11, True)
-     , (3321, 14, True);
+     , (3321, 14, True)
+     , (3321, 19, True)
+     , (3321, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45246, 'ace45246-scrollofdirtyfightingmasteryotheriii');
@@ -51197,7 +54499,9 @@ VALUES (45246, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45246, 13, True)
      , (45246, 11, True)
-     , (45246, 14, True);
+     , (45246, 14, True)
+     , (45246, 19, True)
+     , (45246, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45336, 'ace45336-scrollofsneakattackineptitudeotherv');
@@ -51228,7 +54532,9 @@ VALUES (45336, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45336, 13, True)
      , (45336, 11, True)
-     , (45336, 14, True);
+     , (45336, 14, True)
+     , (45336, 19, True)
+     , (45336, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5996, 'scrollalchemymasteryself5');
@@ -51259,7 +54565,9 @@ VALUES (5996, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5996, 13, True)
      , (5996, 11, True)
-     , (5996, 14, True);
+     , (5996, 14, True)
+     , (5996, 19, True)
+     , (5996, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3285, 'scrollimpregnabilityother4');
@@ -51290,7 +54598,9 @@ VALUES (3285, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3285, 13, True)
      , (3285, 11, True)
-     , (3285, 14, True);
+     , (3285, 14, True)
+     , (3285, 19, True)
+     , (3285, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2974, 'scrollacidprotectionother3');
@@ -51321,7 +54631,9 @@ VALUES (2974, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2974, 13, True)
      , (2974, 11, True)
-     , (2974, 14, True);
+     , (2974, 14, True)
+     , (2974, 19, True)
+     , (2974, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3081, 'scrollexhaustion5');
@@ -51352,7 +54664,9 @@ VALUES (3081, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3081, 13, True)
      , (3081, 11, True)
-     , (3081, 14, True);
+     , (3081, 14, True)
+     , (3081, 19, True)
+     , (3081, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45344, 'ace45344-scrollofsneakattackmasteryotherv');
@@ -51383,7 +54697,9 @@ VALUES (45344, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45344, 13, True)
      , (45344, 11, True)
-     , (45344, 14, True);
+     , (45344, 14, True)
+     , (45344, 19, True)
+     , (45344, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3220, 'scrolldaggerineptitudeother4');
@@ -51414,7 +54730,9 @@ VALUES (3220, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3220, 13, True)
      , (3220, 11, True)
-     , (3220, 14, True);
+     , (3220, 14, True)
+     , (3220, 19, True)
+     , (3220, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3086, 'scrollfester5');
@@ -51445,7 +54763,9 @@ VALUES (3086, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3086, 13, True)
      , (3086, 11, True)
-     , (3086, 14, True);
+     , (3086, 14, True)
+     , (3086, 19, True)
+     , (3086, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43361, 'ace43361-scrollofvoidmagicineptitudev');
@@ -51476,7 +54796,9 @@ VALUES (43361, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43361, 13, True)
      , (43361, 11, True)
-     , (43361, 14, True);
+     , (43361, 14, True)
+     , (43361, 19, True)
+     , (43361, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3336, 'scrolljumpmasteryother5');
@@ -51507,7 +54829,9 @@ VALUES (3336, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3336, 13, True)
      , (3336, 11, True)
-     , (3336, 14, True);
+     , (3336, 14, True)
+     , (3336, 19, True)
+     , (3336, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2755, 'scrollwillpowerother5');
@@ -51538,7 +54862,9 @@ VALUES (2755, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2755, 13, True)
      , (2755, 11, True)
-     , (2755, 14, True);
+     , (2755, 14, True)
+     , (2755, 19, True)
+     , (2755, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3461, 'scrollpersonunfamiliarity5');
@@ -51569,7 +54895,9 @@ VALUES (3461, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3461, 13, True)
      , (3461, 11, True)
-     , (3461, 14, True);
+     , (3461, 14, True)
+     , (3461, 19, True)
+     , (3461, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2790, 'scrollbloodloather5');
@@ -51600,7 +54928,9 @@ VALUES (2790, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2790, 13, True)
      , (2790, 11, True)
-     , (2790, 14, True);
+     , (2790, 14, True)
+     , (2790, 19, True)
+     , (2790, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2830, 'scrollfrostlure5');
@@ -51631,7 +54961,9 @@ VALUES (2830, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2830, 13, True)
      , (2830, 11, True)
-     , (2830, 14, True);
+     , (2830, 14, True)
+     , (2830, 19, True)
+     , (2830, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3231, 'scrolldaggermasteryself5');
@@ -51662,7 +54994,9 @@ VALUES (3231, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3231, 13, True)
      , (3231, 11, True)
-     , (3231, 14, True);
+     , (3231, 14, True)
+     , (3231, 19, True)
+     , (3231, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3136, 'scrollarcaneenlightenmentother5');
@@ -51693,7 +55027,9 @@ VALUES (3136, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3136, 13, True)
      , (3136, 11, True)
-     , (3136, 14, True);
+     , (3136, 14, True)
+     , (3136, 19, True)
+     , (3136, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21334, 'scrollshockarc5');
@@ -51724,7 +55060,9 @@ VALUES (21334, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21334, 13, True)
      , (21334, 11, True)
-     , (21334, 14, True);
+     , (21334, 14, True)
+     , (21334, 19, True)
+     , (21334, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3101, 'scrollmanarenewalother5');
@@ -51755,7 +55093,9 @@ VALUES (3101, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3101, 13, True)
      , (3101, 11, True)
-     , (3101, 14, True);
+     , (3101, 14, True)
+     , (3101, 19, True)
+     , (3101, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5984, 'scrollalchemyineptitude5');
@@ -51786,7 +55126,9 @@ VALUES (5984, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5984, 13, True)
      , (5984, 11, True)
-     , (5984, 14, True);
+     , (5984, 14, True)
+     , (5984, 19, True)
+     , (5984, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28944, 'scrollarcanumsalvagingother5');
@@ -51817,7 +55159,9 @@ VALUES (28944, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28944, 13, True)
      , (28944, 11, True)
-     , (28944, 14, True);
+     , (28944, 14, True)
+     , (28944, 19, True)
+     , (28944, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3096, 'scrollmanadepletion5');
@@ -51848,7 +55192,9 @@ VALUES (3096, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3096, 13, True)
      , (3096, 11, True)
-     , (3096, 14, True);
+     , (3096, 14, True)
+     , (3096, 19, True)
+     , (3096, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45288, 'ace45288-scrollofrecklessnessineptitudeotherv');
@@ -51879,7 +55225,9 @@ VALUES (45288, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45288, 13, True)
      , (45288, 11, True)
-     , (45288, 14, True);
+     , (45288, 14, True)
+     , (45288, 19, True)
+     , (45288, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36377, 'ace36377-scrollofinfestedarearecall');
@@ -51910,7 +55258,9 @@ VALUES (36377, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (36377, 13, True)
      , (36377, 11, True)
-     , (36377, 14, True);
+     , (36377, 14, True)
+     , (36377, 19, True)
+     , (36377, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45272, 'ace45272-scrollofdualwieldmasteryotherv');
@@ -51941,7 +55291,9 @@ VALUES (45272, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45272, 13, True)
      , (45272, 11, True)
-     , (45272, 14, True);
+     , (45272, 14, True)
+     , (45272, 19, True)
+     , (45272, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20582, 'scrollstaffmasteryother7');
@@ -51972,7 +55324,9 @@ VALUES (20582, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20582, 13, True)
      , (20582, 11, True)
-     , (20582, 14, True);
+     , (20582, 14, True)
+     , (20582, 19, True)
+     , (20582, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1673, 'scrolldaggermasteryother');
@@ -52003,7 +55357,9 @@ VALUES (1673, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1673, 13, True)
      , (1673, 11, True)
-     , (1673, 14, True);
+     , (1673, 14, True)
+     , (1673, 19, True)
+     , (1673, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43287, 'ace43287-scrollofcorruptionii');
@@ -52034,7 +55390,9 @@ VALUES (43287, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43287, 13, True)
      , (43287, 11, True)
-     , (43287, 14, True);
+     , (43287, 14, True)
+     , (43287, 19, True)
+     , (43287, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2748, 'scrollweaknessother3');
@@ -52065,7 +55423,9 @@ VALUES (2748, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2748, 13, True)
      , (2748, 11, True)
-     , (2748, 14, True);
+     , (2748, 14, True)
+     , (2748, 19, True)
+     , (2748, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1698, 'scrollfealtyother');
@@ -52096,7 +55456,9 @@ VALUES (1698, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1698, 13, True)
      , (1698, 11, True)
-     , (1698, 14, True);
+     , (1698, 14, True)
+     , (1698, 19, True)
+     , (1698, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3178, 'scrollbowmasteryother2');
@@ -52127,7 +55489,9 @@ VALUES (3178, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3178, 13, True)
      , (3178, 11, True)
-     , (3178, 14, True);
+     , (3178, 14, True)
+     , (3178, 19, True)
+     , (3178, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43320, 'ace43320-scrollofdestructivecurse');
@@ -52158,7 +55522,9 @@ VALUES (43320, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43320, 13, True)
      , (43320, 11, True)
-     , (43320, 14, True);
+     , (43320, 14, True)
+     , (43320, 19, True)
+     , (43320, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5982, 'scrollalchemyineptitude3');
@@ -52189,7 +55555,9 @@ VALUES (5982, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5982, 13, True)
      , (5982, 11, True)
-     , (5982, 14, True);
+     , (5982, 14, True)
+     , (5982, 19, True)
+     , (5982, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21325, 'scrolllightningarc3');
@@ -52220,7 +55588,9 @@ VALUES (21325, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21325, 13, True)
      , (21325, 11, True)
-     , (21325, 14, True);
+     , (21325, 14, True)
+     , (21325, 19, True)
+     , (21325, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5990, 'scrollalchemymasteryother5');
@@ -52251,7 +55621,9 @@ VALUES (5990, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5990, 13, True)
      , (5990, 11, True)
-     , (5990, 14, True);
+     , (5990, 14, True)
+     , (5990, 19, True)
+     , (5990, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41291, 'ace41291-scrolloftwohandedweaponsineptitudeiv');
@@ -52282,7 +55654,9 @@ VALUES (41291, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41291, 13, True)
      , (41291, 11, True)
-     , (41291, 14, True);
+     , (41291, 14, True)
+     , (41291, 19, True)
+     , (41291, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2957, 'scrolllightningbolt4');
@@ -52313,7 +55687,9 @@ VALUES (2957, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2957, 13, True)
      , (2957, 11, True)
-     , (2957, 14, True);
+     , (2957, 14, True)
+     , (2957, 19, True)
+     , (2957, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3243, 'scrolldeceptionmasteryself2');
@@ -52344,7 +55720,9 @@ VALUES (3243, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3243, 13, True)
      , (3243, 11, True)
-     , (3243, 14, True);
+     , (3243, 14, True)
+     , (3243, 19, True)
+     , (3243, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3158, 'scrollaxeineptitudeother2');
@@ -52375,7 +55753,9 @@ VALUES (3158, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3158, 13, True)
      , (3158, 11, True)
-     , (3158, 14, True);
+     , (3158, 14, True)
+     , (3158, 19, True)
+     , (3158, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1699, 'scrollfealtyself');
@@ -52406,7 +55786,9 @@ VALUES (1699, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1699, 13, True)
      , (1699, 11, True)
-     , (1699, 14, True);
+     , (1699, 14, True)
+     , (1699, 19, True)
+     , (1699, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2659, 'scrollenduranceself2');
@@ -52437,7 +55819,9 @@ VALUES (2659, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2659, 13, True)
      , (2659, 11, True)
-     , (2659, 14, True);
+     , (2659, 14, True)
+     , (2659, 19, True)
+     , (2659, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3148, 'scrollarmorexpertiseself2');
@@ -52468,7 +55852,9 @@ VALUES (3148, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3148, 13, True)
      , (3148, 11, True)
-     , (3148, 14, True);
+     , (3148, 14, True)
+     , (3148, 19, True)
+     , (3148, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45276, 'ace45276-scrollofdualwieldmasteryself');
@@ -52499,7 +55885,9 @@ VALUES (45276, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45276, 13, True)
      , (45276, 11, True)
-     , (45276, 14, True);
+     , (45276, 14, True)
+     , (45276, 19, True)
+     , (45276, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2877, 'scrollstrengthenlock2');
@@ -52530,7 +55918,9 @@ VALUES (2877, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2877, 13, True)
      , (2877, 11, True)
-     , (2877, 14, True);
+     , (2877, 14, True)
+     , (2877, 19, True)
+     , (2877, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5968, 'scrollfletchingmasteryother');
@@ -52561,7 +55951,9 @@ VALUES (5968, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5968, 13, True)
      , (5968, 11, True)
-     , (5968, 14, True);
+     , (5968, 14, True)
+     , (5968, 19, True)
+     , (5968, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3163, 'scrollaxemasteryother2');
@@ -52592,7 +55984,9 @@ VALUES (3163, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3163, 13, True)
      , (3163, 11, True)
-     , (3163, 14, True);
+     , (3163, 14, True)
+     , (3163, 19, True)
+     , (3163, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8936, 'scrollfroststreak2');
@@ -52623,7 +56017,9 @@ VALUES (8936, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8936, 13, True)
      , (8936, 11, True)
-     , (8936, 14, True);
+     , (8936, 14, True)
+     , (8936, 19, True)
+     , (8936, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2818, 'scrollflamelure3');
@@ -52654,7 +56050,9 @@ VALUES (2818, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2818, 13, True)
      , (2818, 11, True)
-     , (2818, 14, True);
+     , (2818, 14, True)
+     , (2818, 19, True)
+     , (2818, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1868, 'scrollmanatohealthself');
@@ -52685,7 +56083,9 @@ VALUES (1868, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1868, 13, True)
      , (1868, 11, True)
-     , (1868, 14, True);
+     , (1868, 14, True)
+     , (1868, 19, True)
+     , (1868, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49454, 'ace49454-scrollofsummoningmasteryself');
@@ -52716,7 +56116,9 @@ VALUES (49454, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49454, 13, True)
      , (49454, 11, True)
-     , (49454, 14, True);
+     , (49454, 14, True)
+     , (49454, 19, True)
+     , (49454, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2634, 'scrollbafflement2');
@@ -52747,7 +56149,9 @@ VALUES (2634, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2634, 13, True)
      , (2634, 11, True)
-     , (2634, 14, True);
+     , (2634, 14, True)
+     , (2634, 19, True)
+     , (2634, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1552, 'scrollbladebane');
@@ -52778,7 +56182,9 @@ VALUES (1552, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1552, 13, True)
      , (1552, 11, True)
-     , (1552, 14, True);
+     , (1552, 14, True)
+     , (1552, 19, True)
+     , (1552, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3288, 'scrollimpregnabilityself2');
@@ -52809,7 +56215,9 @@ VALUES (3288, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3288, 13, True)
      , (3288, 11, True)
-     , (3288, 14, True);
+     , (3288, 14, True)
+     , (3288, 19, True)
+     , (3288, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2777, 'scrollbladelure2');
@@ -52840,7 +56248,9 @@ VALUES (2777, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2777, 13, True)
      , (2777, 11, True)
-     , (2777, 14, True);
+     , (2777, 14, True)
+     , (2777, 19, True)
+     , (2777, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3458, 'scrollpersonunfamiliarity2');
@@ -52871,7 +56281,9 @@ VALUES (3458, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3458, 13, True)
      , (3458, 11, True)
-     , (3458, 14, True);
+     , (3458, 14, True)
+     , (3458, 19, True)
+     , (3458, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4385, 'scrollarmorother2');
@@ -52902,7 +56314,9 @@ VALUES (4385, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4385, 13, True)
      , (4385, 11, True)
-     , (4385, 14, True);
+     , (4385, 14, True)
+     , (4385, 19, True)
+     , (4385, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8929, 'scrollforcestreak');
@@ -52933,7 +56347,9 @@ VALUES (8929, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8929, 13, True)
      , (8929, 11, True)
-     , (8929, 14, True);
+     , (8929, 14, True)
+     , (8929, 19, True)
+     , (8929, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2978, 'scrollacidprotectionself2');
@@ -52964,7 +56380,9 @@ VALUES (2978, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2978, 13, True)
      , (2978, 11, True)
-     , (2978, 14, True);
+     , (2978, 14, True)
+     , (2978, 19, True)
+     , (2978, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43294, 'ace43294-scrollofcorruption');
@@ -52995,7 +56413,9 @@ VALUES (43294, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43294, 13, True)
      , (43294, 11, True)
-     , (43294, 14, True);
+     , (43294, 14, True)
+     , (43294, 19, True)
+     , (43294, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45284, 'ace45284-scrollofrecklessnessineptitudeother');
@@ -53026,7 +56446,9 @@ VALUES (45284, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45284, 13, True)
      , (45284, 11, True)
-     , (45284, 14, True);
+     , (45284, 14, True)
+     , (45284, 19, True)
+     , (45284, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3578, 'scrollweaponexpertiseother2');
@@ -53057,7 +56479,9 @@ VALUES (3578, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3578, 13, True)
      , (3578, 11, True)
-     , (3578, 14, True);
+     , (3578, 14, True)
+     , (3578, 19, True)
+     , (3578, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1768, 'scrollclumsiness');
@@ -53088,7 +56512,9 @@ VALUES (1768, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1768, 13, True)
      , (1768, 11, True)
-     , (1768, 14, True);
+     , (1768, 14, True)
+     , (1768, 19, True)
+     , (1768, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1714, 'scrollleadershipmasteryother');
@@ -53119,7 +56545,9 @@ VALUES (1714, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1714, 13, True)
      , (1714, 11, True)
-     , (1714, 14, True);
+     , (1714, 14, True)
+     , (1714, 19, True)
+     , (1714, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20354, 'scrolldispelitemneutralother');
@@ -53150,7 +56578,9 @@ VALUES (20354, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20354, 13, True)
      , (20354, 11, True)
-     , (20354, 14, True);
+     , (20354, 14, True)
+     , (20354, 19, True)
+     , (20354, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3194, 'scrollcreatureenchantmentother3');
@@ -53181,7 +56611,9 @@ VALUES (3194, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3194, 13, True)
      , (3194, 11, True)
-     , (3194, 14, True);
+     , (3194, 14, True)
+     , (3194, 19, True)
+     , (3194, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1839, 'scrollacidprotectionself');
@@ -53212,7 +56644,9 @@ VALUES (1839, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1839, 13, True)
      , (1839, 11, True)
-     , (1839, 14, True);
+     , (1839, 14, True)
+     , (1839, 19, True)
+     , (1839, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1684, 'scrollarmorignorance');
@@ -53243,7 +56677,9 @@ VALUES (1684, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1684, 13, True)
      , (1684, 11, True)
-     , (1684, 14, True);
+     , (1684, 14, True)
+     , (1684, 19, True)
+     , (1684, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4390, 'scrollarmorself2');
@@ -53274,7 +56710,9 @@ VALUES (4390, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4390, 13, True)
      , (4390, 11, True)
-     , (4390, 14, True);
+     , (4390, 14, True)
+     , (4390, 19, True)
+     , (4390, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3150, 'scrollarmorexpertiseself4');
@@ -53305,7 +56743,9 @@ VALUES (3150, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3150, 13, True)
      , (3150, 11, True)
-     , (3150, 14, True);
+     , (3150, 14, True)
+     , (3150, 19, True)
+     , (3150, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1884, 'scrollfrostlure');
@@ -53336,7 +56776,9 @@ VALUES (1884, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1884, 13, True)
      , (1884, 11, True)
-     , (1884, 14, True);
+     , (1884, 14, True)
+     , (1884, 19, True)
+     , (1884, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5962, 'scrollfletchingineptitude');
@@ -53367,7 +56809,9 @@ VALUES (5962, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5962, 13, True)
      , (5962, 11, True)
-     , (5962, 14, True);
+     , (5962, 14, True)
+     , (5962, 19, True)
+     , (5962, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1729, 'scrollmonsterunfamiliarity');
@@ -53398,7 +56842,9 @@ VALUES (1729, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1729, 13, True)
      , (1729, 11, True)
-     , (1729, 14, True);
+     , (1729, 14, True)
+     , (1729, 19, True)
+     , (1729, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1703, 'scrollitemenchantmentineptitude');
@@ -53429,7 +56875,9 @@ VALUES (1703, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1703, 13, True)
      , (1703, 11, True)
-     , (1703, 14, True);
+     , (1703, 14, True)
+     , (1703, 19, True)
+     , (1703, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43318, 'ace43318-scrollofnetherstreak');
@@ -53460,7 +56908,9 @@ VALUES (43318, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43318, 13, True)
      , (43318, 11, True)
-     , (43318, 14, True);
+     , (43318, 14, True)
+     , (43318, 19, True)
+     , (43318, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1866, 'scrollinfusestamina');
@@ -53491,7 +56941,9 @@ VALUES (1866, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1866, 13, True)
      , (1866, 11, True)
-     , (1866, 14, True);
+     , (1866, 14, True)
+     , (1866, 19, True)
+     , (1866, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1876, 'scrollacidlure');
@@ -53522,7 +56974,9 @@ VALUES (1876, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1876, 13, True)
      , (1876, 11, True)
-     , (1876, 14, True);
+     , (1876, 14, True)
+     , (1876, 19, True)
+     , (1876, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1743, 'scrollswordmasteryself');
@@ -53553,7 +57007,9 @@ VALUES (1743, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1743, 13, True)
      , (1743, 11, True)
-     , (1743, 14, True);
+     , (1743, 14, True)
+     , (1743, 19, True)
+     , (1743, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1550, 'scrollarmorself');
@@ -53584,7 +57040,9 @@ VALUES (1550, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1550, 13, True)
      , (1550, 11, True)
-     , (1550, 14, True);
+     , (1550, 14, True)
+     , (1550, 19, True)
+     , (1550, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3006, 'scrollbludgeonprotectionother5');
@@ -53615,7 +57073,9 @@ VALUES (3006, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3006, 13, True)
      , (3006, 11, True)
-     , (3006, 14, True);
+     , (3006, 14, True)
+     , (3006, 19, True)
+     , (3006, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49472, 'ace49472-scrollofsummoningmasteryselfiii');
@@ -53646,7 +57106,9 @@ VALUES (49472, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49472, 13, True)
      , (49472, 11, True)
-     , (49472, 14, True);
+     , (49472, 14, True)
+     , (49472, 19, True)
+     , (49472, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9660, 'scrolldrainmana');
@@ -53677,7 +57139,9 @@ VALUES (9660, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9660, 13, True)
      , (9660, 11, True)
-     , (9660, 14, True);
+     , (9660, 14, True)
+     , (9660, 19, True)
+     , (9660, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1638, 'scrollacidstream');
@@ -53708,7 +57172,9 @@ VALUES (1638, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1638, 13, True)
      , (1638, 11, True)
-     , (1638, 14, True);
+     , (1638, 14, True)
+     , (1638, 19, True)
+     , (1638, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28934, 'scrollarcanumsalvaging2');
@@ -53739,7 +57205,9 @@ VALUES (28934, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28934, 13, True)
      , (28934, 11, True)
-     , (28934, 14, True);
+     , (28934, 14, True)
+     , (28934, 19, True)
+     , (28934, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3049, 'scrolllightningprotectionother3');
@@ -53770,7 +57238,9 @@ VALUES (3049, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3049, 13, True)
      , (3049, 11, True)
-     , (3049, 14, True);
+     , (3049, 14, True)
+     , (3049, 19, True)
+     , (3049, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1731, 'scrollpersonattunementself');
@@ -53801,7 +57271,9 @@ VALUES (1731, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1731, 13, True)
      , (1731, 11, True)
-     , (1731, 14, True);
+     , (1731, 14, True)
+     , (1731, 19, True)
+     , (1731, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1847, 'scrollcoldprotectionother');
@@ -53832,7 +57304,9 @@ VALUES (1847, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1847, 13, True)
      , (1847, 11, True)
-     , (1847, 14, True);
+     , (1847, 14, True)
+     , (1847, 19, True)
+     , (1847, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3324, 'scrollitemexpertiseself3');
@@ -53863,7 +57337,9 @@ VALUES (3324, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3324, 13, True)
      , (3324, 11, True)
-     , (3324, 14, True);
+     , (3324, 14, True)
+     , (3324, 19, True)
+     , (3324, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1786, 'scrollslowness');
@@ -53894,7 +57370,9 @@ VALUES (1786, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1786, 13, True)
      , (1786, 11, True)
-     , (1786, 14, True);
+     , (1786, 14, True)
+     , (1786, 19, True)
+     , (1786, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21320, 'scrollfrostarc5');
@@ -53925,7 +57403,9 @@ VALUES (21320, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21320, 13, True)
      , (21320, 11, True)
-     , (21320, 14, True);
+     , (21320, 14, True)
+     , (21320, 19, True)
+     , (21320, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1778, 'scrollimperil');
@@ -53956,7 +57436,9 @@ VALUES (1778, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1778, 13, True)
      , (1778, 11, True)
-     , (1778, 14, True);
+     , (1778, 14, True)
+     , (1778, 19, True)
+     , (1778, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45316, 'ace45316-scrollofshieldmasteryother');
@@ -53987,7 +57469,9 @@ VALUES (45316, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45316, 13, True)
      , (45316, 11, True)
-     , (45316, 14, True);
+     , (45316, 14, True)
+     , (45316, 19, True)
+     , (45316, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1694, 'scrolldeceptionineptitude');
@@ -54018,7 +57502,9 @@ VALUES (1694, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1694, 13, True)
      , (1694, 11, True)
-     , (1694, 14, True);
+     , (1694, 14, True)
+     , (1694, 19, True)
+     , (1694, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1754, 'scrollweaponexpertiseself');
@@ -54049,7 +57535,9 @@ VALUES (1754, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1754, 13, True)
      , (1754, 11, True)
-     , (1754, 14, True);
+     , (1754, 14, True)
+     , (1754, 19, True)
+     , (1754, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36453, 'ace36453-scrollofspectralflame');
@@ -54081,7 +57569,9 @@ VALUES (36453, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (36453, 13, True)
      , (36453, 11, True)
-     , (36453, 14, True);
+     , (36453, 14, True)
+     , (36453, 19, True)
+     , (36453, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36537, 'ace36537-scrollofcolosseumrecall');
@@ -54112,7 +57602,9 @@ VALUES (36537, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (36537, 13, True)
      , (36537, 11, True)
-     , (36537, 14, True);
+     , (36537, 14, True)
+     , (36537, 19, True)
+     , (36537, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20438, 'scrollbludgeoningvolley7');
@@ -54143,7 +57635,9 @@ VALUES (20438, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20438, 13, True)
      , (20438, 11, True)
-     , (20438, 14, True);
+     , (20438, 14, True)
+     , (20438, 19, True)
+     , (20438, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1679, 'scrollarcanebenightedness');
@@ -54174,7 +57668,9 @@ VALUES (1679, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1679, 13, True)
      , (1679, 11, True)
-     , (1679, 14, True);
+     , (1679, 14, True)
+     , (1679, 19, True)
+     , (1679, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1584, 'scrollinvulnerabilityother');
@@ -54205,7 +57701,9 @@ VALUES (1584, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1584, 13, True)
      , (1584, 11, True)
-     , (1584, 14, True);
+     , (1584, 14, True)
+     , (1584, 19, True)
+     , (1584, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3473, 'scrollspearineptitude2');
@@ -54236,7 +57734,9 @@ VALUES (3473, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3473, 13, True)
      , (3473, 11, True)
-     , (3473, 14, True);
+     , (3473, 14, True)
+     , (3473, 19, True)
+     , (3473, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3208, 'scrollcrossbowmasteryother2');
@@ -54267,7 +57767,9 @@ VALUES (3208, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3208, 13, True)
      , (3208, 11, True)
-     , (3208, 14, True);
+     , (3208, 14, True)
+     , (3208, 19, True)
+     , (3208, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3508, 'scrollstaffmasteryself2');
@@ -54298,7 +57800,9 @@ VALUES (3508, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3508, 13, True)
      , (3508, 11, True)
-     , (3508, 14, True);
+     , (3508, 14, True)
+     , (3508, 19, True)
+     , (3508, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3409, 'scrollmagicitemexpertiseother3');
@@ -54329,7 +57833,9 @@ VALUES (3409, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3409, 13, True)
      , (3409, 11, True)
-     , (3409, 14, True);
+     , (3409, 14, True)
+     , (3409, 19, True)
+     , (3409, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21323, 'scrolllightningarc');
@@ -54360,7 +57866,9 @@ VALUES (21323, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21323, 13, True)
      , (21323, 11, True)
-     , (21323, 14, True);
+     , (21323, 14, True)
+     , (21323, 19, True)
+     , (21323, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1559, 'scrollweaknessother');
@@ -54391,7 +57899,9 @@ VALUES (1559, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1559, 13, True)
      , (1559, 11, True)
-     , (1559, 14, True);
+     , (1559, 14, True)
+     , (1559, 19, True)
+     , (1559, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2740, 'scrollstrengthother5');
@@ -54422,7 +57932,9 @@ VALUES (2740, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2740, 13, True)
      , (2740, 11, True)
-     , (2740, 14, True);
+     , (2740, 14, True)
+     , (2740, 19, True)
+     , (2740, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20435, 'scrollbladeblast7');
@@ -54453,7 +57965,9 @@ VALUES (20435, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20435, 13, True)
      , (20435, 11, True)
-     , (20435, 14, True);
+     , (20435, 14, True)
+     , (20435, 19, True)
+     , (20435, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3393, 'scrollmaceineptitudeother2');
@@ -54484,7 +57998,9 @@ VALUES (3393, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3393, 13, True)
      , (3393, 11, True)
-     , (3393, 14, True);
+     , (3393, 14, True)
+     , (3393, 19, True)
+     , (3393, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20559, 'scrollmacemasteryother7');
@@ -54515,7 +58031,9 @@ VALUES (20559, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20559, 13, True)
      , (20559, 11, True)
-     , (20559, 14, True);
+     , (20559, 14, True)
+     , (20559, 19, True)
+     , (20559, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3553, 'scrollunarmedmasteryself2');
@@ -54546,7 +58064,9 @@ VALUES (3553, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3553, 13, True)
      , (3553, 11, True)
-     , (3553, 14, True);
+     , (3553, 14, True)
+     , (3553, 19, True)
+     , (3553, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3217, 'scrollcrossbowmasteryself6');
@@ -54577,7 +58097,9 @@ VALUES (3217, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3217, 13, True)
      , (3217, 11, True)
-     , (3217, 14, True);
+     , (3217, 14, True)
+     , (3217, 19, True)
+     , (3217, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3397, 'scrollmaceineptitudeother6');
@@ -54608,7 +58130,9 @@ VALUES (3397, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3397, 13, True)
      , (3397, 11, True)
-     , (3397, 14, True);
+     , (3397, 14, True)
+     , (3397, 19, True)
+     , (3397, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3507, 'scrollstaffmasteryother6');
@@ -54639,7 +58163,9 @@ VALUES (3507, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3507, 13, True)
      , (3507, 11, True)
-     , (3507, 14, True);
+     , (3507, 14, True)
+     , (3507, 19, True)
+     , (3507, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3248, 'scrolldefenselessnessother2');
@@ -54670,7 +58196,9 @@ VALUES (3248, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3248, 13, True)
      , (3248, 11, True)
-     , (3248, 14, True);
+     , (3248, 14, True)
+     , (3248, 19, True)
+     , (3248, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3358, 'scrollleadershipmasteryself2');
@@ -54701,7 +58229,9 @@ VALUES (3358, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3358, 13, True)
      , (3358, 11, True)
-     , (3358, 14, True);
+     , (3358, 14, True)
+     , (3358, 19, True)
+     , (3358, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3725, 'scrollmagicyieldother');
@@ -54732,7 +58262,9 @@ VALUES (3725, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3725, 13, True)
      , (3725, 11, True)
-     , (3725, 14, True);
+     , (3725, 14, True)
+     , (3725, 19, True)
+     , (3725, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2872, 'scrollpiercinglure2');
@@ -54763,7 +58295,9 @@ VALUES (2872, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2872, 13, True)
      , (2872, 11, True)
-     , (2872, 14, True);
+     , (2872, 14, True)
+     , (2872, 19, True)
+     , (2872, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3487, 'scrollspearmasteryself6');
@@ -54794,7 +58328,9 @@ VALUES (3487, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3487, 13, True)
      , (3487, 11, True)
-     , (3487, 14, True);
+     , (3487, 14, True)
+     , (3487, 19, True)
+     , (3487, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3537, 'scrollthrownmasteryother6');
@@ -54825,7 +58361,9 @@ VALUES (3537, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3537, 13, True)
      , (3537, 11, True)
-     , (3537, 14, True);
+     , (3537, 14, True)
+     , (3537, 19, True)
+     , (3537, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3512, 'scrollstaffmasteryself6');
@@ -54856,7 +58394,9 @@ VALUES (3512, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3512, 13, True)
      , (3512, 11, True)
-     , (3512, 14, True);
+     , (3512, 14, True)
+     , (3512, 19, True)
+     , (3512, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3369, 'scrolllifemagicmasteryother3');
@@ -54887,7 +58427,9 @@ VALUES (3369, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3369, 13, True)
      , (3369, 11, True)
-     , (3369, 14, True);
+     , (3369, 14, True)
+     , (3369, 19, True)
+     , (3369, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1851, 'scrolllightningprotectionself');
@@ -54918,7 +58460,9 @@ VALUES (1851, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1851, 13, True)
      , (1851, 11, True)
-     , (1851, 14, True);
+     , (1851, 14, True)
+     , (1851, 19, True)
+     , (1851, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8947, 'scrollshockwavestreak');
@@ -54949,7 +58493,9 @@ VALUES (8947, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8947, 13, True)
      , (8947, 11, True)
-     , (8947, 14, True);
+     , (8947, 14, True)
+     , (8947, 19, True)
+     , (8947, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3223, 'scrolldaggermasteryother2');
@@ -54980,7 +58526,9 @@ VALUES (3223, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3223, 13, True)
      , (3223, 11, True)
-     , (3223, 14, True);
+     , (3223, 14, True)
+     , (3223, 19, True)
+     , (3223, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1657, 'scrollregenerateother');
@@ -55011,7 +58559,9 @@ VALUES (1657, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1657, 13, True)
      , (1657, 11, True)
-     , (1657, 14, True);
+     , (1657, 14, True)
+     , (1657, 19, True)
+     , (1657, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44312, 'ace44312-scrolloflostcityofneftetrecall');
@@ -55042,7 +58592,9 @@ VALUES (44312, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44312, 13, True)
      , (44312, 11, True)
-     , (44312, 14, True);
+     , (44312, 14, True)
+     , (44312, 19, True)
+     , (44312, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35981, 'ace35981-scrollofancientgraveyardrecall');
@@ -55073,7 +58625,9 @@ VALUES (35981, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (35981, 13, True)
      , (35981, 11, True)
-     , (35981, 14, True);
+     , (35981, 14, True)
+     , (35981, 19, True)
+     , (35981, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1576, 'scrollfireprotectionother');
@@ -55104,7 +58658,9 @@ VALUES (1576, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1576, 13, True)
      , (1576, 11, True)
-     , (1576, 14, True);
+     , (1576, 14, True)
+     , (1576, 19, True)
+     , (1576, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1842, 'scrollbladeprotectionself');
@@ -55135,7 +58691,9 @@ VALUES (1842, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1842, 13, True)
      , (1842, 11, True)
-     , (1842, 14, True);
+     , (1842, 14, True)
+     , (1842, 19, True)
+     , (1842, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20454, 'scrolllightningblast7');
@@ -55166,7 +58724,9 @@ VALUES (20454, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20454, 13, True)
      , (20454, 11, True)
-     , (20454, 14, True);
+     , (20454, 14, True)
+     , (20454, 19, True)
+     , (20454, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20443, 'scrollflamevolley7');
@@ -55197,7 +58757,9 @@ VALUES (20443, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20443, 13, True)
      , (20443, 11, True)
-     , (20443, 14, True);
+     , (20443, 14, True)
+     , (20443, 19, True)
+     , (20443, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1773, 'scrollenfeeble');
@@ -55228,7 +58790,9 @@ VALUES (1773, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1773, 13, True)
      , (1773, 11, True)
-     , (1773, 14, True);
+     , (1773, 14, True)
+     , (1773, 19, True)
+     , (1773, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1708, 'scrollitemignorance');
@@ -55259,7 +58823,9 @@ VALUES (1708, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1708, 13, True)
      , (1708, 11, True)
-     , (1708, 14, True);
+     , (1708, 14, True)
+     , (1708, 19, True)
+     , (1708, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8920, 'scrollflamestreak');
@@ -55290,7 +58856,9 @@ VALUES (8920, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8920, 13, True)
      , (8920, 11, True)
-     , (8920, 14, True);
+     , (8920, 14, True)
+     , (8920, 19, True)
+     , (8920, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9653, 'scrollstaminatohealthself5');
@@ -55321,7 +58889,9 @@ VALUES (9653, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9653, 13, True)
      , (9653, 11, True)
-     , (9653, 14, True);
+     , (9653, 14, True)
+     , (9653, 19, True)
+     , (9653, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2742, 'scrollstrengthself2');
@@ -55352,7 +58922,9 @@ VALUES (2742, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2742, 13, True)
      , (2742, 11, True)
-     , (2742, 14, True);
+     , (2742, 14, True)
+     , (2742, 19, True)
+     , (2742, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5493, 'scrollacidblast3');
@@ -55383,7 +58955,9 @@ VALUES (5493, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5493, 13, True)
      , (5493, 11, True)
-     , (5493, 14, True);
+     , (5493, 14, True)
+     , (5493, 19, True)
+     , (5493, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2132, 'scrollbladeblast3');
@@ -55414,7 +58988,9 @@ VALUES (2132, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2132, 13, True)
      , (2132, 11, True)
-     , (2132, 14, True);
+     , (2132, 14, True)
+     , (2132, 19, True)
+     , (2132, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5492, 'scrollflameblast3');
@@ -55445,7 +59021,9 @@ VALUES (5492, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5492, 13, True)
      , (5492, 11, True)
-     , (5492, 14, True);
+     , (5492, 14, True)
+     , (5492, 19, True)
+     , (5492, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43302, 'ace43302-scrollofnetherarc');
@@ -55476,7 +59054,9 @@ VALUES (43302, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43302, 13, True)
      , (43302, 11, True)
-     , (43302, 14, True);
+     , (43302, 14, True)
+     , (43302, 19, True)
+     , (43302, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1753, 'scrollweaponexpertiseother');
@@ -55507,7 +59087,9 @@ VALUES (1753, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1753, 13, True)
      , (1753, 11, True)
-     , (1753, 14, True);
+     , (1753, 14, True)
+     , (1753, 19, True)
+     , (1753, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43355, 'ace43355-scrollofvoidmagicineptitude');
@@ -55538,7 +59120,9 @@ VALUES (43355, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43355, 13, True)
      , (43355, 11, True)
-     , (43355, 14, True);
+     , (43355, 14, True)
+     , (43355, 19, True)
+     , (43355, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3566, 'scrollwarmagicineptitude5');
@@ -55569,7 +59153,9 @@ VALUES (3566, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3566, 13, True)
      , (3566, 11, True)
-     , (3566, 14, True);
+     , (3566, 14, True)
+     , (3566, 19, True)
+     , (3566, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3036, 'scrollfireprotectionother5');
@@ -55600,7 +59186,9 @@ VALUES (3036, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3036, 13, True)
      , (3036, 11, True)
-     , (3036, 14, True);
+     , (3036, 14, True)
+     , (3036, 19, True)
+     , (3036, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41298, 'ace41298-scrolloftwohandedweaponmasteryotheriii');
@@ -55631,7 +59219,9 @@ VALUES (41298, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41298, 13, True)
      , (41298, 11, True)
-     , (41298, 14, True);
+     , (41298, 14, True)
+     , (41298, 19, True)
+     , (41298, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1663, 'scrollimpregnabilityother');
@@ -55662,7 +59252,9 @@ VALUES (1663, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1663, 13, True)
      , (1663, 11, True)
-     , (1663, 14, True);
+     , (1663, 14, True)
+     , (1663, 19, True)
+     , (1663, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3729, 'scrolldrainstamina5');
@@ -55693,7 +59285,9 @@ VALUES (3729, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3729, 13, True)
      , (3729, 11, True)
-     , (3729, 14, True);
+     , (3729, 14, True)
+     , (3729, 19, True)
+     , (3729, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2734, 'scrollslowness4');
@@ -55724,7 +59318,9 @@ VALUES (2734, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2734, 13, True)
      , (2734, 11, True)
-     , (2734, 14, True);
+     , (2734, 14, True)
+     , (2734, 19, True)
+     , (2734, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21095, 'scrollhealthbolt');
@@ -55755,7 +59351,9 @@ VALUES (21095, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21095, 13, True)
      , (21095, 11, True)
-     , (21095, 14, True);
+     , (21095, 14, True)
+     , (21095, 19, True)
+     , (21095, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49452, 'ace49452-scrollofsummoningineptitudeother');
@@ -55786,7 +59384,9 @@ VALUES (49452, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49452, 13, True)
      , (49452, 11, True)
-     , (49452, 14, True);
+     , (49452, 14, True)
+     , (49452, 19, True)
+     , (49452, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1751, 'scrollwarmagicmasteryother');
@@ -55817,7 +59417,9 @@ VALUES (1751, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1751, 13, True)
      , (1751, 11, True)
-     , (1751, 14, True);
+     , (1751, 14, True)
+     , (1751, 19, True)
+     , (1751, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20325, 'scrolldispelcreatureneutralself2');
@@ -55848,7 +59450,9 @@ VALUES (20325, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20325, 13, True)
      , (20325, 11, True)
-     , (20325, 14, True);
+     , (20325, 14, True)
+     , (20325, 19, True)
+     , (20325, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49453, 'ace49453-scrollofsummoningmasteryother');
@@ -55879,7 +59483,9 @@ VALUES (49453, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49453, 13, True)
      , (49453, 11, True)
-     , (49453, 14, True);
+     , (49453, 14, True)
+     , (49453, 19, True)
+     , (49453, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3557, 'scrollunarmedmasteryself6');
@@ -55910,7 +59516,9 @@ VALUES (3557, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3557, 13, True)
      , (3557, 11, True)
-     , (3557, 14, True);
+     , (3557, 14, True)
+     , (3557, 19, True)
+     , (3557, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2695, 'scrollhealother5');
@@ -55941,7 +59549,9 @@ VALUES (2695, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2695, 13, True)
      , (2695, 11, True)
-     , (2695, 14, True);
+     , (2695, 14, True)
+     , (2695, 19, True)
+     , (2695, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2960, 'scrollshockblast4');
@@ -55972,7 +59582,9 @@ VALUES (2960, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2960, 13, True)
      , (2960, 11, True)
-     , (2960, 14, True);
+     , (2960, 14, True)
+     , (2960, 19, True)
+     , (2960, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1705, 'scrollitemenchantmentmasteryself');
@@ -56003,7 +59615,9 @@ VALUES (1705, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1705, 13, True)
      , (1705, 11, True)
-     , (1705, 14, True);
+     , (1705, 14, True)
+     , (1705, 19, True)
+     , (1705, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1690, 'scrollcreatureenchantmentself');
@@ -56034,7 +59648,9 @@ VALUES (1690, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1690, 13, True)
      , (1690, 11, True)
-     , (1690, 14, True);
+     , (1690, 14, True)
+     , (1690, 19, True)
+     , (1690, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43310, 'ace43310-scrollofnetherbolt');
@@ -56065,7 +59681,9 @@ VALUES (43310, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43310, 13, True)
      , (43310, 11, True)
-     , (43310, 14, True);
+     , (43310, 14, True)
+     , (43310, 19, True)
+     , (43310, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1697, 'scrollfaithlessness');
@@ -56096,5 +59714,7 @@ VALUES (1697, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1697, 13, True)
      , (1697, 11, True)
-     , (1697, 14, True);
+     , (1697, 14, True)
+     , (1697, 19, True)
+     , (1697, 22, True);
 

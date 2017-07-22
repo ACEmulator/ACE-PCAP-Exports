@@ -23,7 +23,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (720, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (720, 12, True);
+VALUES (720, 12, True)
+     , (720, 19, True)
+     , (720, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1148, 'gardoubledoor');
@@ -50,7 +52,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (1148, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1148, 12, True);
+VALUES (1148, 12, True)
+     , (1148, 19, True)
+     , (1148, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (568, 'doorprison');
@@ -78,7 +82,9 @@ VALUES (568, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (568, 12, True)
-     , (568, 11, True);
+     , (568, 11, True)
+     , (568, 19, True)
+     , (568, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1289, 'doordungeonlockedpoor');
@@ -106,7 +112,9 @@ VALUES (1289, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1289, 12, True)
-     , (1289, 11, True);
+     , (1289, 11, True)
+     , (1289, 19, True)
+     , (1289, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16919, 'doorpedestal');
@@ -134,7 +142,9 @@ VALUES (16919, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (16919, 12, True)
-     , (16919, 11, True);
+     , (16919, 11, True)
+     , (16919, 19, True)
+     , (16919, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (721, 'doorsholeft');
@@ -161,7 +171,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (721, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (721, 12, True);
+VALUES (721, 12, True)
+     , (721, 19, True)
+     , (721, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (722, 'doorshoright');
@@ -188,7 +200,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (722, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (722, 12, True);
+VALUES (722, 12, True)
+     , (722, 19, True)
+     , (722, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (278, 'door');
@@ -216,7 +230,9 @@ VALUES (278, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (278, 12, True)
-     , (278, 11, True);
+     , (278, 11, True)
+     , (278, 19, True)
+     , (278, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30938, 'doorviamontianhouse');
@@ -243,7 +259,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (30938, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30938, 12, True);
+VALUES (30938, 12, True)
+     , (30938, 19, True)
+     , (30938, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1302, 'doorprisonlockedimpregnable');
@@ -271,7 +289,9 @@ VALUES (1302, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1302, 12, True)
-     , (1302, 11, True);
+     , (1302, 11, True)
+     , (1302, 19, True)
+     , (1302, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5625, 'doorprison-ai');
@@ -298,7 +318,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (5625, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (5625, 12, True);
+VALUES (5625, 12, True)
+     , (5625, 19, True)
+     , (5625, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22916, 'dooraerbax1');
@@ -326,7 +348,9 @@ VALUES (22916, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (22916, 12, True)
-     , (22916, 11, True);
+     , (22916, 11, True)
+     , (22916, 19, True)
+     , (22916, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22917, 'dooraerbax2');
@@ -354,7 +378,9 @@ VALUES (22917, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (22917, 12, True)
-     , (22917, 11, True);
+     , (22917, 11, True)
+     , (22917, 19, True)
+     , (22917, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2179, 'doorprisonactivated');
@@ -382,7 +408,9 @@ VALUES (2179, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2179, 12, True)
-     , (2179, 11, True);
+     , (2179, 11, True)
+     , (2179, 19, True)
+     , (2179, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4454, 'doormetalcaveactivated');
@@ -410,7 +438,9 @@ VALUES (4454, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4454, 12, True)
-     , (4454, 11, True);
+     , (4454, 11, True)
+     , (4454, 19, True)
+     , (4454, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22918, 'dooraerbax3');
@@ -438,7 +468,9 @@ VALUES (22918, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (22918, 12, True)
-     , (22918, 11, True);
+     , (22918, 11, True)
+     , (22918, 19, True)
+     , (22918, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1301, 'doorprisonlockedbrilliant');
@@ -466,7 +498,9 @@ VALUES (1301, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1301, 12, True)
-     , (1301, 11, True);
+     , (1301, 11, True)
+     , (1301, 19, True)
+     , (1301, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1300, 'doorprisonlockedexcellent');
@@ -494,7 +528,9 @@ VALUES (1300, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1300, 12, True)
-     , (1300, 11, True);
+     , (1300, 11, True)
+     , (1300, 19, True)
+     , (1300, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5624, 'doordungeon-ai');
@@ -521,7 +557,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (5624, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (5624, 12, True);
+VALUES (5624, 12, True)
+     , (5624, 19, True)
+     , (5624, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4139, 'doordungeonactivatedfast');
@@ -549,7 +587,9 @@ VALUES (4139, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4139, 12, True)
-     , (4139, 11, True);
+     , (4139, 11, True)
+     , (4139, 19, True)
+     , (4139, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4145, 'doorprisonactivatedfast');
@@ -577,7 +617,9 @@ VALUES (4145, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4145, 12, True)
-     , (4145, 11, True);
+     , (4145, 11, True)
+     , (4145, 19, True)
+     , (4145, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5626, 'doormetalcave-ai');
@@ -604,7 +646,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (5626, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (5626, 12, True);
+VALUES (5626, 12, True)
+     , (5626, 19, True)
+     , (5626, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5627, 'doorolthoi-ai');
@@ -631,7 +675,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (5627, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (5627, 12, True);
+VALUES (5627, 12, True)
+     , (5627, 19, True)
+     , (5627, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4455, 'doormetalcaveactivatedfast');
@@ -659,7 +705,9 @@ VALUES (4455, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4455, 12, True)
-     , (4455, 11, True);
+     , (4455, 11, True)
+     , (4455, 19, True)
+     , (4455, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4460, 'doormetalcavelockedimpregnable');
@@ -687,7 +735,9 @@ VALUES (4460, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4460, 12, True)
-     , (4460, 11, True);
+     , (4460, 11, True)
+     , (4460, 19, True)
+     , (4460, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24571, 'doorportcullis');
@@ -715,7 +765,9 @@ VALUES (24571, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24571, 12, True)
-     , (24571, 11, True);
+     , (24571, 11, True)
+     , (24571, 19, True)
+     , (24571, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1286, 'dooraluvianlockedexcellent');
@@ -743,7 +795,9 @@ VALUES (1286, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1286, 12, True)
-     , (1286, 11, True);
+     , (1286, 11, True)
+     , (1286, 19, True)
+     , (1286, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11700, 'gatetumerokhouse');
@@ -770,7 +824,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (11700, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (11700, 12, True);
+VALUES (11700, 12, True)
+     , (11700, 19, True)
+     , (11700, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2181, 'dooraluvianactivated');
@@ -798,7 +854,9 @@ VALUES (2181, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2181, 12, True)
-     , (2181, 11, True);
+     , (2181, 11, True)
+     , (2181, 19, True)
+     , (2181, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2243, 'doorprisondryreach');
@@ -825,7 +883,9 @@ VALUES (2243, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2243, 12, True)
-     , (2243, 11, True);
+     , (2243, 11, True)
+     , (2243, 19, True)
+     , (2243, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6881, 'doordryreachwatchtower');
@@ -853,7 +913,9 @@ VALUES (6881, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (6881, 12, True)
-     , (6881, 11, True);
+     , (6881, 11, True)
+     , (6881, 19, True)
+     , (6881, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4453, 'doormetalcave');
@@ -881,7 +943,9 @@ VALUES (4453, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4453, 12, True)
-     , (4453, 11, True);
+     , (4453, 11, True)
+     , (4453, 19, True)
+     , (4453, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5629, 'doorgharun-ai');
@@ -908,7 +972,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (5629, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (5629, 12, True);
+VALUES (5629, 12, True)
+     , (5629, 19, True)
+     , (5629, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1296, 'doorprisonlockedpoor');
@@ -936,7 +1002,9 @@ VALUES (1296, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1296, 12, True)
-     , (1296, 11, True);
+     , (1296, 11, True)
+     , (1296, 19, True)
+     , (1296, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4452, 'doorwoodcave');
@@ -964,7 +1032,9 @@ VALUES (4452, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4452, 12, True)
-     , (4452, 11, True);
+     , (4452, 11, True)
+     , (4452, 19, True)
+     , (4452, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4458, 'doormetalcavelockedfair');
@@ -992,7 +1062,9 @@ VALUES (4458, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4458, 12, True)
-     , (4458, 11, True);
+     , (4458, 11, True)
+     , (4458, 19, True)
+     , (4458, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1291, 'doordungeonlockedgood');
@@ -1020,7 +1092,9 @@ VALUES (1291, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1291, 12, True)
-     , (1291, 11, True);
+     , (1291, 11, True)
+     , (1291, 19, True)
+     , (1291, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41020, 'ace41020-door');
@@ -1048,7 +1122,10 @@ VALUES (41020, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41020, 12, True)
-     , (41020, 11, True);
+     , (41020, 11, True)
+     , (41020, 19, True)
+     , (41020, 1, True)
+     , (41020, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40854, 'ace40854-door');
@@ -1076,7 +1153,9 @@ VALUES (40854, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (40854, 12, True)
-     , (40854, 11, True);
+     , (40854, 11, True)
+     , (40854, 19, True)
+     , (40854, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12705, 'dooracademya');
@@ -1104,7 +1183,9 @@ VALUES (12705, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12705, 12, True)
-     , (12705, 11, True);
+     , (12705, 11, True)
+     , (12705, 19, True)
+     , (12705, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29329, 'doornewbieacademypracticearea');
@@ -1132,7 +1213,9 @@ VALUES (29329, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29329, 12, True)
-     , (29329, 11, True);
+     , (29329, 11, True)
+     , (29329, 19, True)
+     , (29329, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30998, 'doornewbieacademylibrary');
@@ -1160,7 +1243,9 @@ VALUES (30998, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30998, 12, True)
-     , (30998, 11, True);
+     , (30998, 11, True)
+     , (30998, 19, True)
+     , (30998, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4451, 'doorolthoi');
@@ -1187,7 +1272,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (4451, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (4451, 12, True);
+VALUES (4451, 12, True)
+     , (4451, 19, True)
+     , (4451, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (576, 'doorprison9');
@@ -1215,7 +1302,9 @@ VALUES (576, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (576, 12, True)
-     , (576, 11, True);
+     , (576, 11, True)
+     , (576, 19, True)
+     , (576, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2180, 'doordungeonactivated');
@@ -1243,7 +1332,9 @@ VALUES (2180, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2180, 12, True)
-     , (2180, 11, True);
+     , (2180, 11, True)
+     , (2180, 19, True)
+     , (2180, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35587, 'ace35587-cavedoor');
@@ -1271,7 +1362,9 @@ VALUES (35587, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (35587, 12, True)
-     , (35587, 11, True);
+     , (35587, 11, True)
+     , (35587, 19, True)
+     , (35587, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5623, 'dooraluvianhouse-ai');
@@ -1298,7 +1391,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (5623, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (5623, 12, True);
+VALUES (5623, 12, True)
+     , (5623, 19, True)
+     , (5623, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1276, 'doorbanditprison');
@@ -1326,7 +1421,9 @@ VALUES (1276, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1276, 12, True)
-     , (1276, 11, True);
+     , (1276, 11, True)
+     , (1276, 19, True)
+     , (1276, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1274, 'doorbanditprison3');
@@ -1354,7 +1451,9 @@ VALUES (1274, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1274, 12, True)
-     , (1274, 11, True);
+     , (1274, 11, True)
+     , (1274, 19, True)
+     , (1274, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5843, 'banditcastledungeondoor');
@@ -1382,7 +1481,9 @@ VALUES (5843, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5843, 12, True)
-     , (5843, 11, True);
+     , (5843, 11, True)
+     , (5843, 19, True)
+     , (5843, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1299, 'doorprisonlockedintricate');
@@ -1410,7 +1511,9 @@ VALUES (1299, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1299, 12, True)
-     , (1299, 11, True);
+     , (1299, 11, True)
+     , (1299, 19, True)
+     , (1299, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1275, 'doorbanditprison2');
@@ -1438,7 +1541,9 @@ VALUES (1275, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1275, 12, True)
-     , (1275, 11, True);
+     , (1275, 11, True)
+     , (1275, 19, True)
+     , (1275, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1298, 'doorprisonlockedgood');
@@ -1466,7 +1571,9 @@ VALUES (1298, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1298, 12, True)
-     , (1298, 11, True);
+     , (1298, 11, True)
+     , (1298, 19, True)
+     , (1298, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1297, 'doorprisonlockedfair');
@@ -1494,7 +1601,9 @@ VALUES (1297, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1297, 12, True)
-     , (1297, 11, True);
+     , (1297, 11, True)
+     , (1297, 19, True)
+     , (1297, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1290, 'doordungeonlockedfair');
@@ -1522,7 +1631,9 @@ VALUES (1290, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1290, 12, True)
-     , (1290, 11, True);
+     , (1290, 11, True)
+     , (1290, 19, True)
+     , (1290, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2615, 'doorcarvedcave');
@@ -1550,7 +1661,9 @@ VALUES (2615, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2615, 12, True)
-     , (2615, 11, True);
+     , (2615, 11, True)
+     , (2615, 19, True)
+     , (2615, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2616, 'doorcarvedroom');
@@ -1578,7 +1691,9 @@ VALUES (2616, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2616, 12, True)
-     , (2616, 11, True);
+     , (2616, 11, True)
+     , (2616, 19, True)
+     , (2616, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1416, 'doorlostlightyaraq');
@@ -1606,7 +1721,9 @@ VALUES (1416, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1416, 12, True)
-     , (1416, 11, True);
+     , (1416, 11, True)
+     , (1416, 19, True)
+     , (1416, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1413, 'doorlostlightsamsur');
@@ -1634,7 +1751,9 @@ VALUES (1413, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1413, 12, True)
-     , (1413, 11, True);
+     , (1413, 11, True)
+     , (1413, 19, True)
+     , (1413, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1411, 'doorlostlightholtburg');
@@ -1662,7 +1781,9 @@ VALUES (1411, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1411, 12, True)
-     , (1411, 11, True);
+     , (1411, 11, True)
+     , (1411, 19, True)
+     , (1411, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1415, 'doorlostlightyanshi');
@@ -1690,7 +1811,9 @@ VALUES (1415, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1415, 12, True)
-     , (1415, 11, True);
+     , (1415, 11, True)
+     , (1415, 19, True)
+     , (1415, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1414, 'doorlostlightshoushi');
@@ -1718,7 +1841,9 @@ VALUES (1414, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1414, 12, True)
-     , (1414, 11, True);
+     , (1414, 11, True)
+     , (1414, 19, True)
+     , (1414, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1412, 'doorlostlightrithwic');
@@ -1746,7 +1871,9 @@ VALUES (1412, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1412, 12, True)
-     , (1412, 11, True);
+     , (1412, 11, True)
+     , (1412, 19, True)
+     , (1412, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3611, 'doorseventhkey');
@@ -1774,7 +1901,9 @@ VALUES (3611, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3611, 12, True)
-     , (3611, 11, True);
+     , (3611, 11, True)
+     , (3611, 19, True)
+     , (3611, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4463, 'doorolthoiactivated');
@@ -1802,7 +1931,9 @@ VALUES (4463, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4463, 12, True)
-     , (4463, 11, True);
+     , (4463, 11, True)
+     , (4463, 19, True)
+     , (4463, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8418, 'doororganic-ai');
@@ -1830,7 +1961,9 @@ VALUES (8418, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8418, 13, True)
-     , (8418, 12, True);
+     , (8418, 12, True)
+     , (8418, 19, True)
+     , (8418, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8408, 'doororganic');
@@ -1857,7 +1990,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (8408, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8408, 12, True);
+VALUES (8408, 12, True)
+     , (8408, 19, True)
+     , (8408, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4456, 'doormetalcavelockedbrilliant');
@@ -1885,7 +2020,9 @@ VALUES (4456, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4456, 12, True)
-     , (4456, 11, True);
+     , (4456, 11, True)
+     , (4456, 19, True)
+     , (4456, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8410, 'doororganicactivatedfast');
@@ -1913,7 +2050,9 @@ VALUES (8410, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8410, 12, True)
-     , (8410, 11, True);
+     , (8410, 11, True)
+     , (8410, 19, True)
+     , (8410, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43515, 'ace43515-door');
@@ -1941,7 +2080,9 @@ VALUES (43515, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43515, 12, True)
-     , (43515, 11, True);
+     , (43515, 11, True)
+     , (43515, 19, True)
+     , (43515, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1294, 'doordungeonlockedbrilliant');
@@ -1969,7 +2110,9 @@ VALUES (1294, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1294, 12, True)
-     , (1294, 11, True);
+     , (1294, 11, True)
+     , (1294, 19, True)
+     , (1294, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14467, 'doorfireplace');
@@ -1997,7 +2140,9 @@ VALUES (14467, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14467, 12, True)
-     , (14467, 11, True);
+     , (14467, 11, True)
+     , (14467, 19, True)
+     , (14467, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52009, 'ace52009-surface');
@@ -2026,7 +2171,9 @@ VALUES (52009, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52009, 12, True)
      , (52009, 11, True)
-     , (52009, 15, True);
+     , (52009, 15, True)
+     , (52009, 19, True)
+     , (52009, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1295, 'doordungeonlockedimpregnable');
@@ -2054,7 +2201,9 @@ VALUES (1295, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1295, 12, True)
-     , (1295, 11, True);
+     , (1295, 11, True)
+     , (1295, 19, True)
+     , (1295, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1284, 'dooraluvianlockedgood');
@@ -2082,7 +2231,9 @@ VALUES (1284, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1284, 12, True)
-     , (1284, 11, True);
+     , (1284, 11, True)
+     , (1284, 19, True)
+     , (1284, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23887, 'doorulgrimsdungeon');
@@ -2110,7 +2261,9 @@ VALUES (23887, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (23887, 12, True)
-     , (23887, 11, True);
+     , (23887, 11, True)
+     , (23887, 19, True)
+     , (23887, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2192, 'doortrothyrsrest');
@@ -2138,7 +2291,9 @@ VALUES (2192, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2192, 12, True)
-     , (2192, 11, True);
+     , (2192, 11, True)
+     , (2192, 19, True)
+     , (2192, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4462, 'doormetalcavelockedpoor');
@@ -2166,7 +2321,9 @@ VALUES (4462, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4462, 12, True)
-     , (4462, 11, True);
+     , (4462, 11, True)
+     , (4462, 19, True)
+     , (4462, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1292, 'doordungeonlockedintricate');
@@ -2194,7 +2351,9 @@ VALUES (1292, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1292, 12, True)
-     , (1292, 11, True);
+     , (1292, 11, True)
+     , (1292, 19, True)
+     , (1292, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2492, 'doortumerokone');
@@ -2222,7 +2381,9 @@ VALUES (2492, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2492, 12, True)
-     , (2492, 11, True);
+     , (2492, 11, True)
+     , (2492, 19, True)
+     , (2492, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42672, 'ace42672-door');
@@ -2250,7 +2411,9 @@ VALUES (42672, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (42672, 12, True)
-     , (42672, 11, True);
+     , (42672, 11, True)
+     , (42672, 19, True)
+     , (42672, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27562, 'doorarchall');
@@ -2278,7 +2441,9 @@ VALUES (27562, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27562, 12, True)
-     , (27562, 11, True);
+     , (27562, 11, True)
+     , (27562, 19, True)
+     , (27562, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27291, 'doorshadowchildpandemic');
@@ -2306,7 +2471,9 @@ VALUES (27291, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27291, 12, True)
-     , (27291, 11, True);
+     , (27291, 11, True)
+     , (27291, 19, True)
+     , (27291, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4473, 'doorwoodcaveactivatedfast');
@@ -2334,7 +2501,9 @@ VALUES (4473, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4473, 12, True)
-     , (4473, 11, True);
+     , (4473, 11, True)
+     , (4473, 19, True)
+     , (4473, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8513, 'dooralaidain');
@@ -2362,7 +2531,9 @@ VALUES (8513, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8513, 12, True)
-     , (8513, 11, True);
+     , (8513, 11, True)
+     , (8513, 19, True)
+     , (8513, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4474, 'doorwoodcavelockedbrilliant');
@@ -2390,7 +2561,9 @@ VALUES (4474, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4474, 12, True)
-     , (4474, 11, True);
+     , (4474, 11, True)
+     , (4474, 19, True)
+     , (4474, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2211, 'doortumerokc');
@@ -2418,7 +2591,9 @@ VALUES (2211, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2211, 12, True)
-     , (2211, 11, True);
+     , (2211, 11, True)
+     , (2211, 19, True)
+     , (2211, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27292, 'doorshadowchildwretched');
@@ -2446,7 +2621,9 @@ VALUES (27292, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27292, 12, True)
-     , (27292, 11, True);
+     , (27292, 11, True)
+     , (27292, 19, True)
+     , (27292, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33762, 'ace33762-shadowvault');
@@ -2474,7 +2651,9 @@ VALUES (33762, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (33762, 12, True)
-     , (33762, 11, True);
+     , (33762, 11, True)
+     , (33762, 19, True)
+     , (33762, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4457, 'doormetalcavelockedexcellent');
@@ -2502,7 +2681,9 @@ VALUES (4457, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4457, 12, True)
-     , (4457, 11, True);
+     , (4457, 11, True)
+     , (4457, 19, True)
+     , (4457, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2217, 'doorcragstonegrave');
@@ -2530,7 +2711,9 @@ VALUES (2217, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2217, 12, True)
-     , (2217, 11, True);
+     , (2217, 11, True)
+     , (2217, 19, True)
+     , (2217, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5367, 'doorcovecrypt');
@@ -2558,7 +2741,9 @@ VALUES (5367, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5367, 12, True)
-     , (5367, 11, True);
+     , (5367, 11, True)
+     , (5367, 19, True)
+     , (5367, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1262, 'doorgreenmireresist58');
@@ -2586,7 +2771,9 @@ VALUES (1262, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1262, 12, True)
-     , (1262, 11, True);
+     , (1262, 11, True)
+     , (1262, 19, True)
+     , (1262, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1260, 'doorgreenmireprison');
@@ -2614,7 +2801,9 @@ VALUES (1260, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1260, 12, True)
-     , (1260, 11, True);
+     , (1260, 11, True)
+     , (1260, 19, True)
+     , (1260, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1261, 'doorgreenmireresist54');
@@ -2642,7 +2831,9 @@ VALUES (1261, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1261, 12, True)
-     , (1261, 11, True);
+     , (1261, 11, True)
+     , (1261, 19, True)
+     , (1261, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45004, 'ace45004-door');
@@ -2670,7 +2861,9 @@ VALUES (45004, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45004, 12, True)
-     , (45004, 11, True);
+     , (45004, 11, True)
+     , (45004, 19, True)
+     , (45004, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45007, 'ace45007-reinforceddoor');
@@ -2698,7 +2891,9 @@ VALUES (45007, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45007, 12, True)
-     , (45007, 11, True);
+     , (45007, 11, True)
+     , (45007, 19, True)
+     , (45007, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45006, 'ace45006-door');
@@ -2726,7 +2921,9 @@ VALUES (45006, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45006, 12, True)
-     , (45006, 11, True);
+     , (45006, 11, True)
+     , (45006, 19, True)
+     , (45006, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1244, 'doorglenden');
@@ -2754,7 +2951,9 @@ VALUES (1244, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1244, 12, True)
-     , (1244, 11, True);
+     , (1244, 11, True)
+     , (1244, 19, True)
+     , (1244, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1246, 'doorglendenprison2');
@@ -2782,7 +2981,9 @@ VALUES (1246, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1246, 12, True)
-     , (1246, 11, True);
+     , (1246, 11, True)
+     , (1246, 19, True)
+     , (1246, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1245, 'doorglendenprison');
@@ -2810,7 +3011,9 @@ VALUES (1245, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1245, 12, True)
-     , (1245, 11, True);
+     , (1245, 11, True)
+     , (1245, 19, True)
+     , (1245, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25704, 'doornoir1');
@@ -2838,7 +3041,9 @@ VALUES (25704, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (25704, 12, True)
-     , (25704, 11, True);
+     , (25704, 11, True)
+     , (25704, 19, True)
+     , (25704, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38380, 'ace38380-vaultdoor');
@@ -2866,7 +3071,9 @@ VALUES (38380, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (38380, 12, True)
-     , (38380, 11, True);
+     , (38380, 11, True)
+     , (38380, 19, True)
+     , (38380, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38379, 'ace38379-armorydoor');
@@ -2894,7 +3101,9 @@ VALUES (38379, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (38379, 12, True)
-     , (38379, 11, True);
+     , (38379, 11, True)
+     , (38379, 19, True)
+     , (38379, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38391, 'ace38391-lockeddoor');
@@ -2922,7 +3131,9 @@ VALUES (38391, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (38391, 12, True)
-     , (38391, 11, True);
+     , (38391, 11, True)
+     , (38391, 19, True)
+     , (38391, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30287, 'doorarchall-activated');
@@ -2950,7 +3161,9 @@ VALUES (30287, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30287, 12, True)
-     , (30287, 11, True);
+     , (30287, 11, True)
+     , (30287, 19, True)
+     , (30287, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51647, 'ace51647-surface');
@@ -2979,7 +3192,9 @@ VALUES (51647, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (51647, 12, True)
      , (51647, 11, True)
-     , (51647, 15, True);
+     , (51647, 15, True)
+     , (51647, 19, True)
+     , (51647, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29940, 'doorsturdyironkey');
@@ -3007,7 +3222,9 @@ VALUES (29940, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29940, 12, True)
-     , (29940, 11, True);
+     , (29940, 11, True)
+     , (29940, 19, True)
+     , (29940, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28104, 'doorstatuetemple15');
@@ -3035,7 +3252,10 @@ VALUES (28104, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28104, 12, True)
-     , (28104, 11, True);
+     , (28104, 11, True)
+     , (28104, 19, True)
+     , (28104, 1, True)
+     , (28104, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5018, 'doorfolthidcellar');
@@ -3063,7 +3283,9 @@ VALUES (5018, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5018, 12, True)
-     , (5018, 11, True);
+     , (5018, 11, True)
+     , (5018, 19, True)
+     , (5018, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1293, 'doordungeonlockedexcellent');
@@ -3091,7 +3313,9 @@ VALUES (1293, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1293, 12, True)
-     , (1293, 11, True);
+     , (1293, 11, True)
+     , (1293, 19, True)
+     , (1293, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5628, 'doorwoodcave-ai');
@@ -3118,7 +3342,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (5628, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (5628, 12, True);
+VALUES (5628, 12, True)
+     , (5628, 19, True)
+     , (5628, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22086, 'doorhauntedmansionlocked');
@@ -3146,7 +3372,9 @@ VALUES (22086, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (22086, 12, True)
-     , (22086, 11, True);
+     , (22086, 11, True)
+     , (22086, 19, True)
+     , (22086, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42275, 'ace42275-door');
@@ -3174,7 +3402,9 @@ VALUES (42275, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (42275, 12, True)
-     , (42275, 11, True);
+     , (42275, 11, True)
+     , (42275, 19, True)
+     , (42275, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42278, 'ace42278-maindoor');
@@ -3202,7 +3432,9 @@ VALUES (42278, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (42278, 12, True)
-     , (42278, 11, True);
+     , (42278, 11, True)
+     , (42278, 19, True)
+     , (42278, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42277, 'ace42277-reinforceddoor');
@@ -3230,7 +3462,9 @@ VALUES (42277, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (42277, 12, True)
-     , (42277, 11, True);
+     , (42277, 11, True)
+     , (42277, 19, True)
+     , (42277, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42279, 'ace42279-reinforceddoor');
@@ -3258,7 +3492,9 @@ VALUES (42279, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (42279, 12, True)
-     , (42279, 11, True);
+     , (42279, 11, True)
+     , (42279, 19, True)
+     , (42279, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42276, 'ace42276-reinforceddoor');
@@ -3286,7 +3522,9 @@ VALUES (42276, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (42276, 12, True)
-     , (42276, 11, True);
+     , (42276, 11, True)
+     , (42276, 19, True)
+     , (42276, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25510, 'doorprisonlocked600');
@@ -3314,7 +3552,9 @@ VALUES (25510, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (25510, 12, True)
-     , (25510, 11, True);
+     , (25510, 11, True)
+     , (25510, 19, True)
+     , (25510, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2506, 'doorswampdirelands');
@@ -3342,7 +3582,9 @@ VALUES (2506, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2506, 12, True)
-     , (2506, 11, True);
+     , (2506, 11, True)
+     , (2506, 19, True)
+     , (2506, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31223, 'ace31223-door');
@@ -3370,7 +3612,9 @@ VALUES (31223, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (31223, 12, True)
-     , (31223, 11, True);
+     , (31223, 11, True)
+     , (31223, 19, True)
+     , (31223, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7885, 'doorcolier');
@@ -3398,7 +3642,9 @@ VALUES (7885, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7885, 12, True)
-     , (7885, 11, True);
+     , (7885, 11, True)
+     , (7885, 19, True)
+     , (7885, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1526, 'doorcolierdeep');
@@ -3426,7 +3672,9 @@ VALUES (1526, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1526, 12, True)
-     , (1526, 11, True);
+     , (1526, 11, True)
+     , (1526, 19, True)
+     , (1526, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1525, 'doorcoliercell');
@@ -3454,7 +3702,9 @@ VALUES (1525, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1525, 12, True)
-     , (1525, 11, True);
+     , (1525, 11, True)
+     , (1525, 19, True)
+     , (1525, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5019, 'doorfolthidexit');
@@ -3482,7 +3732,9 @@ VALUES (5019, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5019, 12, True)
-     , (5019, 11, True);
+     , (5019, 11, True)
+     , (5019, 19, True)
+     , (5019, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2199, 'doorwitshire');
@@ -3510,7 +3762,9 @@ VALUES (2199, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2199, 12, True)
-     , (2199, 11, True);
+     , (2199, 11, True)
+     , (2199, 19, True)
+     , (2199, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14432, 'doorfortwitshire');
@@ -3538,7 +3792,9 @@ VALUES (14432, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14432, 12, True)
-     , (14432, 11, True);
+     , (14432, 11, True)
+     , (14432, 19, True)
+     , (14432, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40500, 'ace40500-barracksdoor');
@@ -3566,7 +3822,9 @@ VALUES (40500, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (40500, 12, True)
-     , (40500, 11, True);
+     , (40500, 11, True)
+     , (40500, 19, True)
+     , (40500, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40501, 'ace40501-headquartersdoor');
@@ -3594,7 +3852,9 @@ VALUES (40501, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (40501, 12, True)
-     , (40501, 11, True);
+     , (40501, 11, True)
+     , (40501, 19, True)
+     , (40501, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41194, 'ace41194-excavationmasterslaboratory');
@@ -3622,7 +3882,9 @@ VALUES (41194, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41194, 12, True)
-     , (41194, 11, True);
+     , (41194, 11, True)
+     , (41194, 19, True)
+     , (41194, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40806, 'ace40806-aetheriumvault');
@@ -3650,7 +3912,9 @@ VALUES (40806, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (40806, 12, True)
-     , (40806, 11, True);
+     , (40806, 11, True)
+     , (40806, 19, True)
+     , (40806, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38639, 'ace38639-silverlockeddoor');
@@ -3678,7 +3942,9 @@ VALUES (38639, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (38639, 12, True)
-     , (38639, 11, True);
+     , (38639, 11, True)
+     , (38639, 19, True)
+     , (38639, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38637, 'ace38637-goldlockeddoor');
@@ -3706,7 +3972,9 @@ VALUES (38637, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (38637, 12, True)
-     , (38637, 11, True);
+     , (38637, 11, True)
+     , (38637, 19, True)
+     , (38637, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38638, 'ace38638-copperlockeddoor');
@@ -3734,7 +4002,9 @@ VALUES (38638, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (38638, 12, True)
-     , (38638, 11, True);
+     , (38638, 11, True)
+     , (38638, 19, True)
+     , (38638, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28767, 'doordericostruinhalaetan');
@@ -3762,7 +4032,9 @@ VALUES (28767, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28767, 12, True)
-     , (28767, 11, True);
+     , (28767, 11, True)
+     , (28767, 19, True)
+     , (28767, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45736, 'ace45736-door');
@@ -3791,7 +4063,9 @@ VALUES (45736, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45736, 13, True)
      , (45736, 12, True)
-     , (45736, 11, True);
+     , (45736, 11, True)
+     , (45736, 19, True)
+     , (45736, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9027, 'doorseacaveactivatedfast');
@@ -3819,7 +4093,9 @@ VALUES (9027, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9027, 12, True)
-     , (9027, 11, True);
+     , (9027, 11, True)
+     , (9027, 19, True)
+     , (9027, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9029, 'doortestlow');
@@ -3847,7 +4123,9 @@ VALUES (9029, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9029, 12, True)
-     , (9029, 11, True);
+     , (9029, 11, True)
+     , (9029, 19, True)
+     , (9029, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9030, 'doortestmed');
@@ -3875,7 +4153,9 @@ VALUES (9030, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9030, 12, True)
-     , (9030, 11, True);
+     , (9030, 11, True)
+     , (9030, 19, True)
+     , (9030, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9028, 'doortesthigh');
@@ -3903,7 +4183,9 @@ VALUES (9028, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9028, 12, True)
-     , (9028, 11, True);
+     , (9028, 11, True)
+     , (9028, 19, True)
+     , (9028, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36602, 'ace36602-labdoor');
@@ -3931,7 +4213,9 @@ VALUES (36602, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (36602, 12, True)
-     , (36602, 11, True);
+     , (36602, 11, True)
+     , (36602, 19, True)
+     , (36602, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48798, 'ace48798-door');
@@ -3959,7 +4243,9 @@ VALUES (48798, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48798, 12, True)
-     , (48798, 11, True);
+     , (48798, 11, True)
+     , (48798, 19, True)
+     , (48798, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48799, 'ace48799-door');
@@ -3987,7 +4273,9 @@ VALUES (48799, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48799, 12, True)
-     , (48799, 11, True);
+     , (48799, 11, True)
+     , (48799, 19, True)
+     , (48799, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48771, 'ace48771-phainorschamber');
@@ -4015,7 +4303,9 @@ VALUES (48771, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48771, 12, True)
-     , (48771, 11, True);
+     , (48771, 11, True)
+     , (48771, 19, True)
+     , (48771, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48776, 'ace48776-door');
@@ -4043,7 +4333,9 @@ VALUES (48776, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48776, 12, True)
-     , (48776, 11, True);
+     , (48776, 11, True)
+     , (48776, 19, True)
+     , (48776, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39477, 'ace39477-bettingcagedoor');
@@ -4071,7 +4363,9 @@ VALUES (39477, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (39477, 12, True)
-     , (39477, 11, True);
+     , (39477, 11, True)
+     , (39477, 19, True)
+     , (39477, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45764, 'ace45764-door');
@@ -4099,7 +4393,9 @@ VALUES (45764, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45764, 12, True)
-     , (45764, 11, True);
+     , (45764, 11, True)
+     , (45764, 19, True)
+     , (45764, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45765, 'ace45765-door');
@@ -4127,7 +4423,9 @@ VALUES (45765, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45765, 12, True)
-     , (45765, 11, True);
+     , (45765, 11, True)
+     , (45765, 19, True)
+     , (45765, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45766, 'ace45766-door');
@@ -4155,7 +4453,9 @@ VALUES (45766, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45766, 12, True)
-     , (45766, 11, True);
+     , (45766, 11, True)
+     , (45766, 19, True)
+     , (45766, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45767, 'ace45767-door');
@@ -4183,7 +4483,9 @@ VALUES (45767, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45767, 12, True)
-     , (45767, 11, True);
+     , (45767, 11, True)
+     , (45767, 19, True)
+     , (45767, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45768, 'ace45768-door');
@@ -4211,7 +4513,9 @@ VALUES (45768, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45768, 12, True)
-     , (45768, 11, True);
+     , (45768, 11, True)
+     , (45768, 19, True)
+     , (45768, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15301, 'doorbookcasesliding');
@@ -4239,7 +4543,9 @@ VALUES (15301, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15301, 12, True)
-     , (15301, 11, True);
+     , (15301, 11, True)
+     , (15301, 19, True)
+     , (15301, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52095, 'ace52095-doorii');
@@ -4267,7 +4573,9 @@ VALUES (52095, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52095, 12, True)
-     , (52095, 11, True);
+     , (52095, 11, True)
+     , (52095, 19, True)
+     , (52095, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52094, 'ace52094-doori');
@@ -4295,7 +4603,9 @@ VALUES (52094, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52094, 12, True)
-     , (52094, 11, True);
+     , (52094, 11, True)
+     , (52094, 19, True)
+     , (52094, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52096, 'ace52096-dooriii');
@@ -4323,7 +4633,9 @@ VALUES (52096, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52096, 12, True)
-     , (52096, 11, True);
+     , (52096, 11, True)
+     , (52096, 19, True)
+     , (52096, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51919, 'ace51919-commanderpreskstreasury');
@@ -4351,7 +4663,9 @@ VALUES (51919, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (51919, 12, True)
-     , (51919, 11, True);
+     , (51919, 11, True)
+     , (51919, 19, True)
+     , (51919, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51917, 'ace51917-reinforceddoor');
@@ -4379,7 +4693,9 @@ VALUES (51917, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (51917, 12, True)
-     , (51917, 11, True);
+     , (51917, 11, True)
+     , (51917, 19, True)
+     , (51917, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51664, 'ace51664-door');
@@ -4407,7 +4723,9 @@ VALUES (51664, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (51664, 12, True)
-     , (51664, 11, True);
+     , (51664, 11, True)
+     , (51664, 19, True)
+     , (51664, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51673, 'ace51673-door');
@@ -4435,7 +4753,9 @@ VALUES (51673, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (51673, 12, True)
-     , (51673, 11, True);
+     , (51673, 11, True)
+     , (51673, 19, True)
+     , (51673, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30652, 'blackdrudgedoor');
@@ -4463,7 +4783,9 @@ VALUES (30652, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30652, 12, True)
-     , (30652, 11, True);
+     , (30652, 11, True)
+     , (30652, 19, True)
+     , (30652, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30651, 'whitedrudgedoor');
@@ -4491,7 +4813,9 @@ VALUES (30651, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30651, 12, True)
-     , (30651, 11, True);
+     , (30651, 11, True)
+     , (30651, 19, True)
+     , (30651, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30650, 'reddrudgedoor');
@@ -4519,7 +4843,9 @@ VALUES (30650, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30650, 12, True)
-     , (30650, 11, True);
+     , (30650, 11, True)
+     , (30650, 19, True)
+     , (30650, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30653, 'warroomdoor');
@@ -4547,7 +4873,9 @@ VALUES (30653, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30653, 12, True)
-     , (30653, 11, True);
+     , (30653, 11, True)
+     , (30653, 19, True)
+     , (30653, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45011, 'ace45011-door');
@@ -4575,7 +4903,9 @@ VALUES (45011, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45011, 12, True)
-     , (45011, 11, True);
+     , (45011, 11, True)
+     , (45011, 19, True)
+     , (45011, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45013, 'ace45013-door');
@@ -4603,7 +4933,9 @@ VALUES (45013, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45013, 12, True)
-     , (45013, 11, True);
+     , (45013, 11, True)
+     , (45013, 19, True)
+     , (45013, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45015, 'ace45015-door');
@@ -4631,7 +4963,9 @@ VALUES (45015, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45015, 12, True)
-     , (45015, 11, True);
+     , (45015, 11, True)
+     , (45015, 19, True)
+     , (45015, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40270, 'ace40270-reinforceddoor');
@@ -4659,7 +4993,9 @@ VALUES (40270, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (40270, 12, True)
-     , (40270, 11, True);
+     , (40270, 11, True)
+     , (40270, 19, True)
+     , (40270, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46310, 'ace46310-door');
@@ -4687,7 +5023,10 @@ VALUES (46310, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (46310, 12, True)
-     , (46310, 11, True);
+     , (46310, 11, True)
+     , (46310, 19, True)
+     , (46310, 1, True)
+     , (46310, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46312, 'ace46312-door');
@@ -4715,7 +5054,9 @@ VALUES (46312, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (46312, 12, True)
-     , (46312, 11, True);
+     , (46312, 11, True)
+     , (46312, 19, True)
+     , (46312, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46311, 'ace46311-door');
@@ -4743,7 +5084,10 @@ VALUES (46311, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (46311, 12, True)
-     , (46311, 11, True);
+     , (46311, 11, True)
+     , (46311, 19, True)
+     , (46311, 1, True)
+     , (46311, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46575, 'ace46575-door');
@@ -4771,7 +5115,9 @@ VALUES (46575, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (46575, 12, True)
-     , (46575, 11, True);
+     , (46575, 11, True)
+     , (46575, 19, True)
+     , (46575, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29938, 'doorstatuetemple-jungcit');
@@ -4799,7 +5145,10 @@ VALUES (29938, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29938, 12, True)
-     , (29938, 11, True);
+     , (29938, 11, True)
+     , (29938, 19, True)
+     , (29938, 1, True)
+     , (29938, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29939, 'doorstatuetemple-light');
@@ -4827,7 +5176,10 @@ VALUES (29939, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29939, 12, True)
-     , (29939, 11, True);
+     , (29939, 11, True)
+     , (29939, 19, True)
+     , (29939, 1, True)
+     , (29939, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35001, 'ace35001-lowercatacombprisondoor');
@@ -4855,7 +5207,9 @@ VALUES (35001, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (35001, 12, True)
-     , (35001, 11, True);
+     , (35001, 11, True)
+     , (35001, 19, True)
+     , (35001, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35023, 'ace35023-1stlockedgate');
@@ -4883,7 +5237,9 @@ VALUES (35023, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (35023, 12, True)
-     , (35023, 11, True);
+     , (35023, 11, True)
+     , (35023, 19, True)
+     , (35023, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35024, 'ace35024-2ndlockedgate');
@@ -4911,7 +5267,9 @@ VALUES (35024, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (35024, 12, True)
-     , (35024, 11, True);
+     , (35024, 11, True)
+     , (35024, 19, True)
+     , (35024, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35025, 'ace35025-3rdlockedgate');
@@ -4939,7 +5297,9 @@ VALUES (35025, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (35025, 12, True)
-     , (35025, 11, True);
+     , (35025, 11, True)
+     , (35025, 19, True)
+     , (35025, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35026, 'ace35026-4thlockedgate');
@@ -4967,7 +5327,9 @@ VALUES (35026, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (35026, 12, True)
-     , (35026, 11, True);
+     , (35026, 11, True)
+     , (35026, 19, True)
+     , (35026, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35027, 'ace35027-5thlockedgate');
@@ -4995,7 +5357,9 @@ VALUES (35027, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (35027, 12, True)
-     , (35027, 11, True);
+     , (35027, 11, True)
+     , (35027, 19, True)
+     , (35027, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28766, 'doorviamontiantorturechamber');
@@ -5023,7 +5387,9 @@ VALUES (28766, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28766, 12, True)
-     , (28766, 11, True);
+     , (28766, 11, True)
+     , (28766, 19, True)
+     , (28766, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40158, 'ace40158-door');
@@ -5051,7 +5417,9 @@ VALUES (40158, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (40158, 12, True)
-     , (40158, 11, True);
+     , (40158, 11, True)
+     , (40158, 19, True)
+     , (40158, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43882, 'ace43882-door');
@@ -5079,7 +5447,9 @@ VALUES (43882, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43882, 12, True)
-     , (43882, 11, True);
+     , (43882, 11, True)
+     , (43882, 19, True)
+     , (43882, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43883, 'ace43883-door');
@@ -5107,7 +5477,9 @@ VALUES (43883, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43883, 12, True)
-     , (43883, 11, True);
+     , (43883, 11, True)
+     , (43883, 19, True)
+     , (43883, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14598, 'doorhightechred');
@@ -5135,7 +5507,9 @@ VALUES (14598, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14598, 12, True)
-     , (14598, 11, True);
+     , (14598, 11, True)
+     , (14598, 19, True)
+     , (14598, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14596, 'doorhightechgreen');
@@ -5163,7 +5537,9 @@ VALUES (14596, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14596, 12, True)
-     , (14596, 11, True);
+     , (14596, 11, True)
+     , (14596, 19, True)
+     , (14596, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14564, 'doorhightech');
@@ -5191,7 +5567,9 @@ VALUES (14564, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14564, 12, True)
-     , (14564, 11, True);
+     , (14564, 11, True)
+     , (14564, 19, True)
+     , (14564, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14595, 'doorhightechblue');
@@ -5219,7 +5597,9 @@ VALUES (14595, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14595, 12, True)
-     , (14595, 11, True);
+     , (14595, 11, True)
+     , (14595, 19, True)
+     , (14595, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40868, 'ace40868-southernfacilitygate');
@@ -5247,7 +5627,9 @@ VALUES (40868, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (40868, 12, True)
-     , (40868, 11, True);
+     , (40868, 11, True)
+     , (40868, 19, True)
+     , (40868, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40869, 'ace40869-westernfacilitygate');
@@ -5275,7 +5657,9 @@ VALUES (40869, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (40869, 12, True)
-     , (40869, 11, True);
+     , (40869, 11, True)
+     , (40869, 19, True)
+     , (40869, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40865, 'ace40865-easternfacilitygate');
@@ -5303,7 +5687,9 @@ VALUES (40865, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (40865, 12, True)
-     , (40865, 11, True);
+     , (40865, 11, True)
+     , (40865, 19, True)
+     , (40865, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40867, 'ace40867-northernfacilitygate');
@@ -5331,7 +5717,9 @@ VALUES (40867, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (40867, 12, True)
-     , (40867, 11, True);
+     , (40867, 11, True)
+     , (40867, 19, True)
+     , (40867, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25970, 'doordecrepittower');
@@ -5359,7 +5747,9 @@ VALUES (25970, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (25970, 12, True)
-     , (25970, 11, True);
+     , (25970, 11, True)
+     , (25970, 19, True)
+     , (25970, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45868, 'ace45868-door');
@@ -5387,7 +5777,9 @@ VALUES (45868, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45868, 12, True)
-     , (45868, 11, True);
+     , (45868, 11, True)
+     , (45868, 19, True)
+     , (45868, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45903, 'ace45903-celldoor');
@@ -5415,7 +5807,9 @@ VALUES (45903, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45903, 12, True)
-     , (45903, 11, True);
+     , (45903, 11, True)
+     , (45903, 19, True)
+     , (45903, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45904, 'ace45904-celldoor');
@@ -5443,7 +5837,9 @@ VALUES (45904, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45904, 12, True)
-     , (45904, 11, True);
+     , (45904, 11, True)
+     , (45904, 19, True)
+     , (45904, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45869, 'ace45869-door');
@@ -5471,7 +5867,9 @@ VALUES (45869, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45869, 12, True)
-     , (45869, 11, True);
+     , (45869, 11, True)
+     , (45869, 19, True)
+     , (45869, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45870, 'ace45870-door');
@@ -5499,7 +5897,9 @@ VALUES (45870, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45870, 12, True)
-     , (45870, 11, True);
+     , (45870, 11, True)
+     , (45870, 19, True)
+     , (45870, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45905, 'ace45905-celldoor');
@@ -5527,7 +5927,9 @@ VALUES (45905, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45905, 12, True)
-     , (45905, 11, True);
+     , (45905, 11, True)
+     , (45905, 19, True)
+     , (45905, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45867, 'ace45867-virindiresearchcenter');
@@ -5555,7 +5957,9 @@ VALUES (45867, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45867, 12, True)
-     , (45867, 11, True);
+     , (45867, 11, True)
+     , (45867, 19, True)
+     , (45867, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41232, 'ace41232-arrivalchamber');
@@ -5583,7 +5987,9 @@ VALUES (41232, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41232, 12, True)
-     , (41232, 11, True);
+     , (41232, 11, True)
+     , (41232, 19, True)
+     , (41232, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47207, 'ace47207-door');
@@ -5612,7 +6018,9 @@ VALUES (47207, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (47207, 13, True)
      , (47207, 12, True)
-     , (47207, 11, True);
+     , (47207, 11, True)
+     , (47207, 19, True)
+     , (47207, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47200, 'ace47200-door');
@@ -5640,7 +6048,9 @@ VALUES (47200, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (47200, 12, True)
-     , (47200, 11, True);
+     , (47200, 11, True)
+     , (47200, 19, True)
+     , (47200, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47211, 'ace47211-door');
@@ -5669,7 +6079,9 @@ VALUES (47211, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (47211, 13, True)
      , (47211, 12, True)
-     , (47211, 11, True);
+     , (47211, 11, True)
+     , (47211, 19, True)
+     , (47211, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47201, 'ace47201-door');
@@ -5697,7 +6109,9 @@ VALUES (47201, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (47201, 12, True)
-     , (47201, 11, True);
+     , (47201, 11, True)
+     , (47201, 19, True)
+     , (47201, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43760, 'ace43760-door');
@@ -5725,7 +6139,9 @@ VALUES (43760, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43760, 12, True)
-     , (43760, 11, True);
+     , (43760, 11, True)
+     , (43760, 19, True)
+     , (43760, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43780, 'ace43780-door');
@@ -5753,7 +6169,10 @@ VALUES (43780, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43780, 12, True)
-     , (43780, 11, True);
+     , (43780, 11, True)
+     , (43780, 19, True)
+     , (43780, 1, True)
+     , (43780, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5030, 'dooralabree');
@@ -5781,7 +6200,9 @@ VALUES (5030, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5030, 12, True)
-     , (5030, 11, True);
+     , (5030, 11, True)
+     , (5030, 19, True)
+     , (5030, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1318, 'dooreasthamsewer');
@@ -5809,7 +6230,9 @@ VALUES (1318, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1318, 12, True)
-     , (1318, 11, True);
+     , (1318, 11, True)
+     , (1318, 19, True)
+     , (1318, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5031, 'doorworcer');
@@ -5837,7 +6260,9 @@ VALUES (5031, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5031, 12, True)
-     , (5031, 11, True);
+     , (5031, 11, True)
+     , (5031, 19, True)
+     , (5031, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5359, 'doorflinrala');
@@ -5865,7 +6290,9 @@ VALUES (5359, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5359, 12, True)
-     , (5359, 11, True);
+     , (5359, 11, True)
+     , (5359, 19, True)
+     , (5359, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25509, 'doorprisonlocked525');
@@ -5893,7 +6320,9 @@ VALUES (25509, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (25509, 12, True)
-     , (25509, 11, True);
+     , (25509, 11, True)
+     , (25509, 19, True)
+     , (25509, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29935, 'doormetalgrate10x10');
@@ -5921,7 +6350,10 @@ VALUES (29935, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29935, 12, True)
-     , (29935, 11, True);
+     , (29935, 11, True)
+     , (29935, 19, True)
+     , (29935, 1, True)
+     , (29935, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4472, 'doorwoodcaveactivated');
@@ -5950,7 +6382,9 @@ VALUES (4472, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4472, 13, True)
      , (4472, 12, True)
-     , (4472, 11, True);
+     , (4472, 11, True)
+     , (4472, 19, True)
+     , (4472, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41819, 'ace41819-door');
@@ -5978,7 +6412,9 @@ VALUES (41819, 54, 0.5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41819, 12, True)
-     , (41819, 11, True);
+     , (41819, 11, True)
+     , (41819, 19, True)
+     , (41819, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41821, 'ace41821-door');
@@ -6006,7 +6442,9 @@ VALUES (41821, 54, 0.5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41821, 12, True)
-     , (41821, 11, True);
+     , (41821, 11, True)
+     , (41821, 19, True)
+     , (41821, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31227, 'ace31227-door');
@@ -6034,7 +6472,9 @@ VALUES (31227, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (31227, 12, True)
-     , (31227, 11, True);
+     , (31227, 11, True)
+     , (31227, 19, True)
+     , (31227, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23083, 'doorsylsfearruby');
@@ -6062,7 +6502,9 @@ VALUES (23083, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (23083, 12, True)
-     , (23083, 11, True);
+     , (23083, 11, True)
+     , (23083, 19, True)
+     , (23083, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1360, 'doortricksylsfear');
@@ -6090,7 +6532,9 @@ VALUES (1360, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1360, 12, True)
-     , (1360, 11, True);
+     , (1360, 11, True)
+     , (1360, 19, True)
+     , (1360, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1359, 'doorsylsfear');
@@ -6118,7 +6562,9 @@ VALUES (1359, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1359, 12, True)
-     , (1359, 11, True);
+     , (1359, 11, True)
+     , (1359, 19, True)
+     , (1359, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45693, 'ace45693-door');
@@ -6147,7 +6593,9 @@ VALUES (45693, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45693, 13, True)
      , (45693, 12, True)
-     , (45693, 11, True);
+     , (45693, 11, True)
+     , (45693, 19, True)
+     , (45693, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45701, 'ace45701-door');
@@ -6176,7 +6624,9 @@ VALUES (45701, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45701, 13, True)
      , (45701, 12, True)
-     , (45701, 11, True);
+     , (45701, 11, True)
+     , (45701, 19, True)
+     , (45701, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49607, 'ace49607-door');
@@ -6204,7 +6654,9 @@ VALUES (49607, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49607, 12, True)
-     , (49607, 11, True);
+     , (49607, 11, True)
+     , (49607, 19, True)
+     , (49607, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48895, 'ace48895-door');
@@ -6232,7 +6684,9 @@ VALUES (48895, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48895, 12, True)
-     , (48895, 11, True);
+     , (48895, 11, True)
+     , (48895, 19, True)
+     , (48895, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48896, 'ace48896-door');
@@ -6260,7 +6714,9 @@ VALUES (48896, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48896, 12, True)
-     , (48896, 11, True);
+     , (48896, 11, True)
+     , (48896, 19, True)
+     , (48896, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14597, 'doorhightechorange');
@@ -6288,7 +6744,9 @@ VALUES (14597, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14597, 12, True)
-     , (14597, 11, True);
+     , (14597, 11, True)
+     , (14597, 19, True)
+     , (14597, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14600, 'doorhightechyellow');
@@ -6316,7 +6774,9 @@ VALUES (14600, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14600, 12, True)
-     , (14600, 11, True);
+     , (14600, 11, True)
+     , (14600, 19, True)
+     , (14600, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37573, 'ace37573-armorydoor');
@@ -6344,7 +6804,9 @@ VALUES (37573, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (37573, 12, True)
-     , (37573, 11, True);
+     , (37573, 11, True)
+     , (37573, 19, True)
+     , (37573, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5057, 'doordesertedruin');
@@ -6372,7 +6834,9 @@ VALUES (5057, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5057, 12, True)
-     , (5057, 11, True);
+     , (5057, 11, True)
+     , (5057, 19, True)
+     , (5057, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6035, 'doorempyreanfoundry');
@@ -6400,7 +6864,9 @@ VALUES (6035, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (6035, 12, True)
-     , (6035, 11, True);
+     , (6035, 11, True)
+     , (6035, 19, True)
+     , (6035, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6034, 'doorhamud');
@@ -6428,7 +6894,9 @@ VALUES (6034, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (6034, 12, True)
-     , (6034, 11, True);
+     , (6034, 11, True)
+     , (6034, 19, True)
+     , (6034, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47054, 'ace47054-door');
@@ -6456,7 +6924,9 @@ VALUES (47054, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (47054, 12, True)
-     , (47054, 11, True);
+     , (47054, 11, True)
+     , (47054, 19, True)
+     , (47054, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47051, 'ace47051-door');
@@ -6484,7 +6954,9 @@ VALUES (47051, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (47051, 12, True)
-     , (47051, 11, True);
+     , (47051, 11, True)
+     , (47051, 19, True)
+     , (47051, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47050, 'ace47050-door');
@@ -6512,7 +6984,9 @@ VALUES (47050, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (47050, 12, True)
-     , (47050, 11, True);
+     , (47050, 11, True)
+     , (47050, 19, True)
+     , (47050, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46292, 'ace46292-door');
@@ -6540,7 +7014,9 @@ VALUES (46292, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (46292, 12, True)
-     , (46292, 11, True);
+     , (46292, 11, True)
+     , (46292, 19, True)
+     , (46292, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46321, 'ace46321-securitydoor');
@@ -6568,7 +7044,9 @@ VALUES (46321, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (46321, 12, True)
-     , (46321, 11, True);
+     , (46321, 11, True)
+     , (46321, 19, True)
+     , (46321, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29963, 'doortomblightfalatacot');
@@ -6596,7 +7074,9 @@ VALUES (29963, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29963, 12, True)
-     , (29963, 11, True);
+     , (29963, 11, True)
+     , (29963, 19, True)
+     , (29963, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25465, 'doorolthoirot1');
@@ -6624,7 +7104,9 @@ VALUES (25465, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (25465, 12, True)
-     , (25465, 11, True);
+     , (25465, 11, True)
+     , (25465, 19, True)
+     , (25465, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25464, 'doorolthoimatronrot1');
@@ -6652,7 +7134,9 @@ VALUES (25464, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (25464, 12, True)
-     , (25464, 11, True);
+     , (25464, 11, True)
+     , (25464, 19, True)
+     , (25464, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2210, 'doortumerokb');
@@ -6680,7 +7164,9 @@ VALUES (2210, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2210, 12, True)
-     , (2210, 11, True);
+     , (2210, 11, True)
+     , (2210, 19, True)
+     , (2210, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41820, 'ace41820-door');
@@ -6708,7 +7194,9 @@ VALUES (41820, 54, 0.5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41820, 12, True)
-     , (41820, 11, True);
+     , (41820, 11, True)
+     , (41820, 19, True)
+     , (41820, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2209, 'doortumeroka');
@@ -6736,7 +7224,9 @@ VALUES (2209, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2209, 12, True)
-     , (2209, 11, True);
+     , (2209, 11, True)
+     , (2209, 19, True)
+     , (2209, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1357, 'dooralfreth');
@@ -6764,7 +7254,9 @@ VALUES (1357, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1357, 12, True)
-     , (1357, 11, True);
+     , (1357, 11, True)
+     , (1357, 19, True)
+     , (1357, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38378, 'ace38378-skithkiritschambers');
@@ -6792,7 +7284,9 @@ VALUES (38378, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (38378, 12, True)
-     , (38378, 11, True);
+     , (38378, 11, True)
+     , (38378, 19, True)
+     , (38378, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25669, 'doorsecretcultist');
@@ -6820,7 +7314,9 @@ VALUES (25669, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (25669, 12, True)
-     , (25669, 11, True);
+     , (25669, 11, True)
+     , (25669, 19, True)
+     , (25669, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25670, 'doorsecretcultistpit');
@@ -6848,7 +7344,9 @@ VALUES (25670, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (25670, 12, True)
-     , (25670, 11, True);
+     , (25670, 11, True)
+     , (25670, 19, True)
+     , (25670, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2214, 'doortumerokf');
@@ -6876,7 +7374,9 @@ VALUES (2214, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2214, 12, True)
-     , (2214, 11, True);
+     , (2214, 11, True)
+     , (2214, 19, True)
+     , (2214, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5156, 'doorjilsaya');
@@ -6904,7 +7404,9 @@ VALUES (5156, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5156, 12, True)
-     , (5156, 11, True);
+     , (5156, 11, True)
+     , (5156, 19, True)
+     , (5156, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5133, 'doorsamsurlibrary');
@@ -6932,7 +7434,9 @@ VALUES (5133, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5133, 12, True)
-     , (5133, 11, True);
+     , (5133, 11, True)
+     , (5133, 19, True)
+     , (5133, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2545, 'researchwing');
@@ -6960,7 +7464,9 @@ VALUES (2545, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2545, 12, True)
-     , (2545, 11, True);
+     , (2545, 11, True)
+     , (2545, 19, True)
+     , (2545, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4477, 'doorwoodcavelockedgood');
@@ -6988,7 +7494,9 @@ VALUES (4477, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4477, 12, True)
-     , (4477, 11, True);
+     , (4477, 11, True)
+     , (4477, 19, True)
+     , (4477, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15816, 'gatethorstenarmor');
@@ -7017,7 +7525,9 @@ VALUES (15816, 54, 2)
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15816, 12, True)
-     , (15816, 11, True);
+     , (15816, 11, True)
+     , (15816, 19, True)
+     , (15816, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8212, 'doorxara');
@@ -7045,7 +7555,9 @@ VALUES (8212, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8212, 12, True)
-     , (8212, 11, True);
+     , (8212, 11, True)
+     , (8212, 19, True)
+     , (8212, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5615, 'doordespairentrance');
@@ -7074,7 +7586,9 @@ VALUES (5615, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5615, 13, True)
      , (5615, 12, True)
-     , (5615, 11, True);
+     , (5615, 11, True)
+     , (5615, 19, True)
+     , (5615, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4459, 'doormetalcavelockedgood');
@@ -7102,7 +7616,9 @@ VALUES (4459, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4459, 12, True)
-     , (4459, 11, True);
+     , (4459, 11, True)
+     , (4459, 19, True)
+     , (4459, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49587, 'ace49587-door');
@@ -7130,7 +7646,9 @@ VALUES (49587, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49587, 12, True)
-     , (49587, 11, True);
+     , (49587, 11, True)
+     , (49587, 19, True)
+     , (49587, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49588, 'ace49588-door');
@@ -7158,7 +7676,9 @@ VALUES (49588, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49588, 12, True)
-     , (49588, 11, True);
+     , (49588, 11, True)
+     , (49588, 19, True)
+     , (49588, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49589, 'ace49589-door');
@@ -7186,7 +7706,9 @@ VALUES (49589, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49589, 12, True)
-     , (49589, 11, True);
+     , (49589, 11, True)
+     , (49589, 19, True)
+     , (49589, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52229, 'ace52229-door');
@@ -7215,7 +7737,9 @@ VALUES (52229, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52229, 13, True)
      , (52229, 12, True)
-     , (52229, 11, True);
+     , (52229, 11, True)
+     , (52229, 19, True)
+     , (52229, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52227, 'ace52227-door');
@@ -7244,7 +7768,9 @@ VALUES (52227, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52227, 13, True)
      , (52227, 12, True)
-     , (52227, 11, True);
+     , (52227, 11, True)
+     , (52227, 19, True)
+     , (52227, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52242, 'ace52242-door');
@@ -7272,7 +7798,9 @@ VALUES (52242, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52242, 12, True)
-     , (52242, 11, True);
+     , (52242, 11, True)
+     , (52242, 19, True)
+     , (52242, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52243, 'ace52243-door');
@@ -7300,7 +7828,9 @@ VALUES (52243, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52243, 12, True)
-     , (52243, 11, True);
+     , (52243, 11, True)
+     , (52243, 19, True)
+     , (52243, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52228, 'ace52228-door');
@@ -7329,7 +7859,9 @@ VALUES (52228, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52228, 13, True)
      , (52228, 12, True)
-     , (52228, 11, True);
+     , (52228, 11, True)
+     , (52228, 19, True)
+     , (52228, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52230, 'ace52230-door');
@@ -7358,7 +7890,9 @@ VALUES (52230, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52230, 13, True)
      , (52230, 12, True)
-     , (52230, 11, True);
+     , (52230, 11, True)
+     , (52230, 19, True)
+     , (52230, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52251, 'ace52251-door');
@@ -7386,7 +7920,9 @@ VALUES (52251, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52251, 12, True)
-     , (52251, 11, True);
+     , (52251, 11, True)
+     , (52251, 19, True)
+     , (52251, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52252, 'ace52252-door');
@@ -7414,7 +7950,9 @@ VALUES (52252, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52252, 12, True)
-     , (52252, 11, True);
+     , (52252, 11, True)
+     , (52252, 19, True)
+     , (52252, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49585, 'ace49585-door');
@@ -7443,7 +7981,9 @@ VALUES (49585, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (49585, 13, True)
      , (49585, 12, True)
-     , (49585, 11, True);
+     , (49585, 11, True)
+     , (49585, 19, True)
+     , (49585, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52258, 'ace52258-door');
@@ -7471,7 +8011,9 @@ VALUES (52258, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52258, 12, True)
-     , (52258, 11, True);
+     , (52258, 11, True)
+     , (52258, 19, True)
+     , (52258, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52257, 'ace52257-door');
@@ -7499,7 +8041,9 @@ VALUES (52257, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52257, 12, True)
-     , (52257, 11, True);
+     , (52257, 11, True)
+     , (52257, 19, True)
+     , (52257, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28769, 'doorsmallempvault');
@@ -7527,7 +8071,9 @@ VALUES (28769, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28769, 12, True)
-     , (28769, 11, True);
+     , (28769, 11, True)
+     , (28769, 19, True)
+     , (28769, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31947, 'ace31947-door');
@@ -7555,7 +8101,9 @@ VALUES (31947, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (31947, 12, True)
-     , (31947, 11, True);
+     , (31947, 11, True)
+     , (31947, 19, True)
+     , (31947, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33540, 'ace33540-lockedgate');
@@ -7583,7 +8131,9 @@ VALUES (33540, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (33540, 12, True)
-     , (33540, 11, True);
+     , (33540, 11, True)
+     , (33540, 19, True)
+     , (33540, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51415, 'ace51415-restricted');
@@ -7611,7 +8161,9 @@ VALUES (51415, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (51415, 12, True)
-     , (51415, 11, True);
+     , (51415, 11, True)
+     , (51415, 19, True)
+     , (51415, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51416, 'ace51416-restricted');
@@ -7639,7 +8191,9 @@ VALUES (51416, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (51416, 12, True)
-     , (51416, 11, True);
+     , (51416, 11, True)
+     , (51416, 19, True)
+     , (51416, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51401, 'ace51401-privatechamber');
@@ -7667,7 +8221,9 @@ VALUES (51401, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (51401, 12, True)
-     , (51401, 11, True);
+     , (51401, 11, True)
+     , (51401, 19, True)
+     , (51401, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51559, 'ace51559-door');
@@ -7695,7 +8251,9 @@ VALUES (51559, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (51559, 12, True)
-     , (51559, 11, True);
+     , (51559, 11, True)
+     , (51559, 19, True)
+     , (51559, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51560, 'ace51560-door');
@@ -7723,7 +8281,9 @@ VALUES (51560, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (51560, 12, True)
-     , (51560, 11, True);
+     , (51560, 11, True)
+     , (51560, 19, True)
+     , (51560, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44061, 'ace44061-door');
@@ -7750,7 +8310,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (44061, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44061, 12, True);
+VALUES (44061, 12, True)
+     , (44061, 19, True)
+     , (44061, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44062, 'ace44062-door');
@@ -7778,7 +8340,9 @@ VALUES (44062, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44062, 13, True)
-     , (44062, 12, True);
+     , (44062, 12, True)
+     , (44062, 19, True)
+     , (44062, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44063, 'ace44063-door');
@@ -7806,7 +8370,9 @@ VALUES (44063, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44063, 12, True)
-     , (44063, 11, True);
+     , (44063, 11, True)
+     , (44063, 19, True)
+     , (44063, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44065, 'ace44065-door');
@@ -7834,7 +8400,10 @@ VALUES (44065, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44065, 12, True)
-     , (44065, 11, True);
+     , (44065, 11, True)
+     , (44065, 19, True)
+     , (44065, 1, True)
+     , (44065, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44067, 'ace44067-door');
@@ -7863,7 +8432,9 @@ VALUES (44067, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44067, 13, True)
      , (44067, 12, True)
-     , (44067, 11, True);
+     , (44067, 11, True)
+     , (44067, 19, True)
+     , (44067, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44066, 'ace44066-door');
@@ -7891,7 +8462,9 @@ VALUES (44066, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44066, 12, True)
-     , (44066, 11, True);
+     , (44066, 11, True)
+     , (44066, 19, True)
+     , (44066, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48923, 'ace48923-irondoor');
@@ -7919,7 +8492,9 @@ VALUES (48923, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48923, 12, True)
-     , (48923, 11, True);
+     , (48923, 11, True)
+     , (48923, 19, True)
+     , (48923, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51629, 'ace51629-door');
@@ -7947,7 +8522,9 @@ VALUES (51629, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (51629, 12, True)
-     , (51629, 11, True);
+     , (51629, 11, True)
+     , (51629, 19, True)
+     , (51629, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51641, 'ace51641-door');
@@ -7975,7 +8552,9 @@ VALUES (51641, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (51641, 12, True)
-     , (51641, 11, True);
+     , (51641, 11, True)
+     , (51641, 19, True)
+     , (51641, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51313, 'ace51313-sealeddoor');
@@ -8003,7 +8582,9 @@ VALUES (51313, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (51313, 12, True)
-     , (51313, 11, True);
+     , (51313, 11, True)
+     , (51313, 19, True)
+     , (51313, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51284, 'ace51284-sealeddoor');
@@ -8031,7 +8612,9 @@ VALUES (51284, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (51284, 12, True)
-     , (51284, 11, True);
+     , (51284, 11, True)
+     , (51284, 19, True)
+     , (51284, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5164, 'doorlubziklanpie');
@@ -8059,7 +8642,9 @@ VALUES (5164, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5164, 12, True)
-     , (5164, 11, True);
+     , (5164, 11, True)
+     , (5164, 19, True)
+     , (5164, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5662, 'doormageacademylv3');
@@ -8087,7 +8672,9 @@ VALUES (5662, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5662, 12, True)
-     , (5662, 11, True);
+     , (5662, 11, True)
+     , (5662, 19, True)
+     , (5662, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32957, 'ace32957-stonedoors');
@@ -8115,7 +8702,9 @@ VALUES (32957, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (32957, 12, True)
-     , (32957, 11, True);
+     , (32957, 11, True)
+     , (32957, 19, True)
+     , (32957, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2215, 'doortumerokg');
@@ -8143,7 +8732,9 @@ VALUES (2215, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2215, 12, True)
-     , (2215, 11, True);
+     , (2215, 11, True)
+     , (2215, 19, True)
+     , (2215, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4893, 'doordistillery');
@@ -8171,7 +8762,9 @@ VALUES (4893, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4893, 12, True)
-     , (4893, 11, True);
+     , (4893, 11, True)
+     , (4893, 19, True)
+     , (4893, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32351, 'ace32351-gate');
@@ -8199,7 +8792,9 @@ VALUES (32351, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (32351, 12, True)
-     , (32351, 11, True);
+     , (32351, 11, True)
+     , (32351, 19, True)
+     , (32351, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52111, 'ace52111-door');
@@ -8227,7 +8822,9 @@ VALUES (52111, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52111, 12, True)
-     , (52111, 11, True);
+     , (52111, 11, True)
+     , (52111, 19, True)
+     , (52111, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51582, 'ace51582-door');
@@ -8255,7 +8852,9 @@ VALUES (51582, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (51582, 12, True)
-     , (51582, 11, True);
+     , (51582, 11, True)
+     , (51582, 19, True)
+     , (51582, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4479, 'doorwoodcavelockedintricate');
@@ -8283,7 +8882,9 @@ VALUES (4479, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4479, 12, True)
-     , (4479, 11, True);
+     , (4479, 11, True)
+     , (4479, 19, True)
+     , (4479, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29373, 'doorinvaderkeepsilver');
@@ -8311,7 +8912,9 @@ VALUES (29373, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29373, 12, True)
-     , (29373, 11, True);
+     , (29373, 11, True)
+     , (29373, 19, True)
+     , (29373, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4465, 'doorolthoilockedbrilliant');
@@ -8340,7 +8943,9 @@ VALUES (4465, 54, 2);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4465, 13, True)
      , (4465, 12, True)
-     , (4465, 11, True);
+     , (4465, 11, True)
+     , (4465, 19, True)
+     , (4465, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5188, 'doorstonecathedral');
@@ -8368,7 +8973,9 @@ VALUES (5188, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5188, 12, True)
-     , (5188, 11, True);
+     , (5188, 11, True)
+     , (5188, 19, True)
+     , (5188, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8902, 'doordespairfinal');
@@ -8396,7 +9003,9 @@ VALUES (8902, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8902, 12, True)
-     , (8902, 11, True);
+     , (8902, 11, True)
+     , (8902, 19, True)
+     , (8902, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9108, 'doorprisonlockedimpossible');
@@ -8424,7 +9033,9 @@ VALUES (9108, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9108, 12, True)
-     , (9108, 11, True);
+     , (9108, 11, True)
+     , (9108, 19, True)
+     , (9108, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5132, 'doorbanewell');
@@ -8452,7 +9063,9 @@ VALUES (5132, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5132, 12, True)
-     , (5132, 11, True);
+     , (5132, 11, True)
+     , (5132, 19, True)
+     , (5132, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5899, 'dooricecave');
@@ -8480,7 +9093,9 @@ VALUES (5899, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5899, 12, True)
-     , (5899, 11, True);
+     , (5899, 11, True)
+     , (5899, 19, True)
+     , (5899, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2188, 'doorswamptemple');
@@ -8508,7 +9123,9 @@ VALUES (2188, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2188, 12, True)
-     , (2188, 11, True);
+     , (2188, 11, True)
+     , (2188, 19, True)
+     , (2188, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33148, 'ace33148-outerlockedgate');
@@ -8536,7 +9153,9 @@ VALUES (33148, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (33148, 12, True)
-     , (33148, 11, True);
+     , (33148, 11, True)
+     , (33148, 19, True)
+     , (33148, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2493, 'doortumeroktwo');
@@ -8564,5 +9183,7 @@ VALUES (2493, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2493, 12, True)
-     , (2493, 11, True);
+     , (2493, 11, True)
+     , (2493, 19, True)
+     , (2493, 1, True);
 

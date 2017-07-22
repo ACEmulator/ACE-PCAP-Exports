@@ -24,7 +24,10 @@ VALUES (8510, 54, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8510, 11, True)
-     , (8510, 14, True);
+     , (8510, 14, True)
+     , (8510, 19, True)
+     , (8510, 22, True)
+     , (8510, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (855, 'npkswitch');
@@ -52,5 +55,7 @@ VALUES (855, 54, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (855, 11, True)
-     , (855, 14, True);
+     , (855, 14, True)
+     , (855, 19, True)
+     , (855, 1, True);
 

@@ -29,7 +29,9 @@ VALUES (5864, 54, 1);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5864, 12, True)
      , (5864, 11, True)
-     , (5864, 14, True);
+     , (5864, 14, True)
+     , (5864, 19, True)
+     , (5864, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5865, 'monolithfrore2');
@@ -61,7 +63,9 @@ VALUES (5865, 54, 1);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5865, 12, True)
      , (5865, 11, True)
-     , (5865, 14, True);
+     , (5865, 14, True)
+     , (5865, 19, True)
+     , (5865, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5866, 'monolithfrore3');
@@ -93,5 +97,7 @@ VALUES (5866, 54, 1);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5866, 12, True)
      , (5866, 11, True)
-     , (5866, 14, True);
+     , (5866, 14, True)
+     , (5866, 19, True)
+     , (5866, 1, True);
 

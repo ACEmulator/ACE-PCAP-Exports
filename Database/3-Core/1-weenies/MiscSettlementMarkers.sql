@@ -21,7 +21,9 @@ VALUES (15204, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15204, 12, True)
      , (15204, 11, True)
-     , (15204, 14, True);
+     , (15204, 14, True)
+     , (15204, 19, True)
+     , (15204, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12580, 'arqasantisign');
@@ -46,7 +48,9 @@ VALUES (12580, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12580, 12, True)
      , (12580, 11, True)
-     , (12580, 14, True);
+     , (12580, 14, True)
+     , (12580, 19, True)
+     , (12580, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14703, 'hamudcottagessign');
@@ -71,7 +75,9 @@ VALUES (14703, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14703, 12, True)
      , (14703, 11, True)
-     , (14703, 14, True);
+     , (14703, 14, True)
+     , (14703, 19, True)
+     , (14703, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14702, 'firedewsign');
@@ -96,7 +102,9 @@ VALUES (14702, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14702, 12, True)
      , (14702, 11, True)
-     , (14702, 14, True);
+     , (14702, 14, True)
+     , (14702, 19, True)
+     , (14702, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13159, 'frostydalecottagessign');
@@ -121,7 +129,9 @@ VALUES (13159, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13159, 12, True)
      , (13159, 11, True)
-     , (13159, 14, True);
+     , (13159, 14, True)
+     , (13159, 19, True)
+     , (13159, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12615, 'lakeblessedcottagessign');
@@ -146,7 +156,9 @@ VALUES (12615, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12615, 12, True)
      , (12615, 11, True)
-     , (12615, 14, True);
+     , (12615, 14, True)
+     , (12615, 19, True)
+     , (12615, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15263, 'tialehhomesteadsign');
@@ -171,7 +183,9 @@ VALUES (15263, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15263, 12, True)
      , (15263, 11, True)
-     , (15263, 14, True);
+     , (15263, 14, True)
+     , (15263, 19, True)
+     , (15263, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14743, 'tarnvinaravillassign');
@@ -196,7 +210,9 @@ VALUES (14743, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14743, 12, True)
      , (14743, 11, True)
-     , (14743, 14, True);
+     , (14743, 14, True)
+     , (14743, 19, True)
+     , (14743, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14695, 'embarasign');
@@ -221,7 +237,9 @@ VALUES (14695, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14695, 12, True)
      , (14695, 11, True)
-     , (14695, 14, True);
+     , (14695, 14, True)
+     , (14695, 19, True)
+     , (14695, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15242, 'nalibcavanasettlementsign');
@@ -246,7 +264,9 @@ VALUES (15242, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15242, 12, True)
      , (15242, 11, True)
-     , (15242, 14, True);
+     , (15242, 14, True)
+     , (15242, 19, True)
+     , (15242, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15262, 'thyrinncantcottagessign');
@@ -271,7 +291,9 @@ VALUES (15262, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15262, 12, True)
      , (15262, 11, True)
-     , (15262, 14, True);
+     , (15262, 14, True)
+     , (15262, 19, True)
+     , (15262, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15233, 'ladymailaestatessign');
@@ -296,7 +318,9 @@ VALUES (15233, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15233, 12, True)
      , (15233, 11, True)
-     , (15233, 14, True);
+     , (15233, 14, True)
+     , (15233, 19, True)
+     , (15233, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12628, 'mosswartplacecottagessign');
@@ -321,7 +345,9 @@ VALUES (12628, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12628, 12, True)
      , (12628, 11, True)
-     , (12628, 14, True);
+     , (12628, 14, True)
+     , (12628, 19, True)
+     , (12628, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12655, 'southeastarwicsettlementsign');
@@ -346,7 +372,9 @@ VALUES (12655, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12655, 12, True)
      , (12655, 11, True)
-     , (12655, 14, True);
+     , (12655, 14, True)
+     , (12655, 19, True)
+     , (12655, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12663, 'strathelarswatchcottagessign');
@@ -371,7 +399,9 @@ VALUES (12663, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12663, 12, True)
      , (12663, 11, True)
-     , (12663, 14, True);
+     , (12663, 14, True)
+     , (12663, 19, True)
+     , (12663, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14332, 'tatteredridgesign');
@@ -396,7 +426,9 @@ VALUES (14332, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14332, 12, True)
      , (14332, 11, True)
-     , (14332, 14, True);
+     , (14332, 14, True)
+     , (14332, 19, True)
+     , (14332, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13194, 'wisplakecottagessign');
@@ -421,7 +453,9 @@ VALUES (13194, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13194, 12, True)
      , (13194, 11, True)
-     , (13194, 14, True);
+     , (13194, 14, True)
+     , (13194, 19, True)
+     , (13194, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15705, 'patronshonorcottagessign');
@@ -446,7 +480,9 @@ VALUES (15705, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15705, 12, True)
      , (15705, 11, True)
-     , (15705, 14, True);
+     , (15705, 14, True)
+     , (15705, 19, True)
+     , (15705, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12595, 'eastespervalleysign');
@@ -471,7 +507,9 @@ VALUES (12595, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12595, 12, True)
      , (12595, 11, True)
-     , (12595, 14, True);
+     , (12595, 14, True)
+     , (12595, 19, True)
+     , (12595, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12623, 'maitlandsign');
@@ -496,7 +534,9 @@ VALUES (12623, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12623, 12, True)
      , (12623, 11, True)
-     , (12623, 14, True);
+     , (12623, 14, True)
+     , (12623, 19, True)
+     , (12623, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12634, 'newsuntiksign');
@@ -521,7 +561,9 @@ VALUES (12634, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12634, 12, True)
      , (12634, 11, True)
-     , (12634, 14, True);
+     , (12634, 14, True)
+     , (12634, 19, True)
+     , (12634, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19175, 'handonswordcottagessign');
@@ -546,7 +588,9 @@ VALUES (19175, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (19175, 12, True)
      , (19175, 11, True)
-     , (19175, 14, True);
+     , (19175, 14, True)
+     , (19175, 19, True)
+     , (19175, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13157, 'farclawvillassign');
@@ -571,7 +615,9 @@ VALUES (13157, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13157, 12, True)
      , (13157, 11, True)
-     , (13157, 14, True);
+     , (13157, 14, True)
+     , (13157, 19, True)
+     , (13157, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12671, 'wibadlandssettlementsign');
@@ -596,7 +642,9 @@ VALUES (12671, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12671, 12, True)
      , (12671, 11, True)
-     , (12671, 14, True);
+     , (12671, 14, True)
+     , (12671, 19, True)
+     , (12671, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13188, 'stonetriaddellsign');
@@ -621,7 +669,9 @@ VALUES (13188, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13188, 12, True)
      , (13188, 11, True)
-     , (13188, 14, True);
+     , (13188, 14, True)
+     , (13188, 19, True)
+     , (13188, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14317, 'midsongcottagessign');
@@ -646,7 +696,9 @@ VALUES (14317, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14317, 12, True)
      , (14317, 11, True)
-     , (14317, 14, True);
+     , (14317, 14, True)
+     , (14317, 19, True)
+     , (14317, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13151, 'diresedgesign');
@@ -671,7 +723,9 @@ VALUES (13151, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13151, 12, True)
      , (13151, 11, True)
-     , (13151, 14, True);
+     , (13151, 14, True)
+     , (13151, 19, True)
+     , (13151, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13183, 'snowyvalleysign');
@@ -696,7 +750,9 @@ VALUES (13183, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13183, 12, True)
      , (13183, 11, True)
-     , (13183, 14, True);
+     , (13183, 14, True)
+     , (13183, 19, True)
+     , (13183, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12635, 'neydisavillagesign');
@@ -721,7 +777,9 @@ VALUES (12635, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12635, 12, True)
      , (12635, 11, True)
-     , (12635, 14, True);
+     , (12635, 14, True)
+     , (12635, 19, True)
+     , (12635, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13144, 'banditroadvillassign');
@@ -746,7 +804,9 @@ VALUES (13144, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13144, 12, True)
      , (13144, 11, True)
-     , (13144, 14, True);
+     , (13144, 14, True)
+     , (13144, 19, True)
+     , (13144, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12600, 'eavesoftioforsettlementsign');
@@ -771,7 +831,9 @@ VALUES (12600, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12600, 12, True)
      , (12600, 11, True)
-     , (12600, 14, True);
+     , (12600, 14, True)
+     , (12600, 19, True)
+     , (12600, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12624, 'majestichillcottagessign');
@@ -796,7 +858,9 @@ VALUES (12624, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12624, 12, True)
      , (12624, 11, True)
-     , (12624, 14, True);
+     , (12624, 14, True)
+     , (12624, 19, True)
+     , (12624, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12605, 'fourtowerssettlementsign');
@@ -821,7 +885,9 @@ VALUES (12605, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12605, 12, True)
      , (12605, 11, True)
-     , (12605, 14, True);
+     , (12605, 14, True)
+     , (12605, 19, True)
+     , (12605, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12631, 'musansaynsign');
@@ -846,7 +912,9 @@ VALUES (12631, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12631, 12, True)
      , (12631, 11, True)
-     , (12631, 14, True);
+     , (12631, 14, True)
+     , (12631, 19, True)
+     , (12631, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13166, 'naqutdreamsvillassign');
@@ -871,7 +939,9 @@ VALUES (13166, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13166, 12, True)
      , (13166, 11, True)
-     , (13166, 14, True);
+     , (13166, 14, True)
+     , (13166, 19, True)
+     , (13166, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12613, 'janaaridgesettlementsign');
@@ -896,7 +966,9 @@ VALUES (12613, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12613, 12, True)
      , (12613, 11, True)
-     , (12613, 14, True);
+     , (12613, 14, True)
+     , (12613, 19, True)
+     , (12613, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12676, 'yushadridgecottagessign');
@@ -921,7 +993,9 @@ VALUES (12676, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12676, 12, True)
      , (12676, 11, True)
-     , (12676, 14, True);
+     , (12676, 14, True)
+     , (12676, 19, True)
+     , (12676, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12669, 'westuzizsettlementsign');
@@ -946,7 +1020,9 @@ VALUES (12669, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12669, 12, True)
      , (12669, 11, True)
-     , (12669, 14, True);
+     , (12669, 14, True)
+     , (12669, 19, True)
+     , (12669, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14738, 'southuzisvillassign');
@@ -971,7 +1047,9 @@ VALUES (14738, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14738, 12, True)
      , (14738, 11, True)
-     , (14738, 14, True);
+     , (14738, 14, True)
+     , (14738, 19, True)
+     , (14738, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13146, 'bhahdhahvillassign');
@@ -996,7 +1074,9 @@ VALUES (13146, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13146, 12, True)
      , (13146, 11, True)
-     , (13146, 14, True);
+     , (13146, 14, True)
+     , (13146, 19, True)
+     , (13146, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12657, 'southkhayyabancottagessign');
@@ -1021,7 +1101,9 @@ VALUES (12657, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12657, 12, True)
      , (12657, 11, True)
-     , (12657, 14, True);
+     , (12657, 14, True)
+     , (12657, 19, True)
+     , (12657, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13147, 'brigandsandscottagessign');
@@ -1046,7 +1128,9 @@ VALUES (13147, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13147, 12, True)
      , (13147, 11, True)
-     , (13147, 14, True);
+     , (13147, 14, True)
+     , (13147, 19, True)
+     , (13147, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13173, 'qalabarseasidevillassign');
@@ -1071,7 +1155,9 @@ VALUES (13173, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13173, 12, True)
      , (13173, 11, True)
-     , (13173, 14, True);
+     , (13173, 14, True)
+     , (13173, 19, True)
+     , (13173, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13181, 'simdarvillassign');
@@ -1096,7 +1182,9 @@ VALUES (13181, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13181, 12, True)
      , (13181, 11, True)
-     , (13181, 14, True);
+     , (13181, 14, True)
+     , (13181, 19, True)
+     , (13181, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14712, 'landbridgevillassign');
@@ -1121,7 +1209,9 @@ VALUES (14712, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14712, 12, True)
      , (14712, 11, True)
-     , (14712, 14, True);
+     , (14712, 14, True)
+     , (14712, 19, True)
+     , (14712, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12667, 'toutoupenninsulacottagessign');
@@ -1146,7 +1236,9 @@ VALUES (12667, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12667, 12, True)
      , (12667, 11, True)
-     , (12667, 14, True);
+     , (12667, 14, True)
+     , (12667, 19, True)
+     , (12667, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13190, 'toutoroadvillassign');
@@ -1171,7 +1263,9 @@ VALUES (13190, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13190, 12, True)
      , (13190, 11, True)
-     , (13190, 14, True);
+     , (13190, 14, True)
+     , (13190, 19, True)
+     , (13190, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12660, 'southwesthebiantosettlementsign');
@@ -1196,7 +1290,9 @@ VALUES (12660, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12660, 12, True)
      , (12660, 11, True)
-     , (12660, 14, True);
+     , (12660, 14, True)
+     , (12660, 19, True)
+     , (12660, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12656, 'southhebiantocottagessign');
@@ -1221,7 +1317,9 @@ VALUES (12656, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12656, 12, True)
      , (12656, 11, True)
-     , (12656, 14, True);
+     , (12656, 14, True)
+     , (12656, 19, True)
+     , (12656, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13180, 'shouzinsign');
@@ -1246,7 +1344,9 @@ VALUES (13180, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13180, 12, True)
      , (13180, 11, True)
-     , (13180, 14, True);
+     , (13180, 14, True)
+     , (13180, 19, True)
+     , (13180, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12590, 'chizoucottagessign');
@@ -1271,7 +1371,9 @@ VALUES (12590, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12590, 12, True)
      , (12590, 11, True)
-     , (12590, 14, True);
+     , (12590, 14, True)
+     , (12590, 19, True)
+     , (12590, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12597, 'eastsawatocottagessign');
@@ -1296,7 +1398,9 @@ VALUES (12597, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12597, 12, True)
      , (12597, 11, True)
-     , (12597, 14, True);
+     , (12597, 14, True)
+     , (12597, 19, True)
+     , (12597, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12583, 'blackmireedgecottagessign');
@@ -1321,7 +1425,9 @@ VALUES (12583, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12583, 12, True)
      , (12583, 11, True)
-     , (12583, 14, True);
+     , (12583, 14, True)
+     , (12583, 19, True)
+     , (12583, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12664, 'swamptempleplacesign');
@@ -1346,7 +1452,9 @@ VALUES (12664, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12664, 12, True)
      , (12664, 11, True)
-     , (12664, 14, True);
+     , (12664, 14, True)
+     , (12664, 19, True)
+     , (12664, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12674, 'yanshinamoonnorthsign');
@@ -1371,7 +1479,9 @@ VALUES (12674, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12674, 12, True)
      , (12674, 11, True)
-     , (12674, 14, True);
+     , (12674, 14, True)
+     , (12674, 19, True)
+     , (12674, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12602, 'faranarfoothillssign');
@@ -1396,7 +1506,9 @@ VALUES (12602, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12602, 12, True)
      , (12602, 11, True)
-     , (12602, 14, True);
+     , (12602, 14, True)
+     , (12602, 19, True)
+     , (12602, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12587, 'brokenswordbethelsettlementsign');
@@ -1421,7 +1533,9 @@ VALUES (12587, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12587, 12, True)
      , (12587, 11, True)
-     , (12587, 14, True);
+     , (12587, 14, True)
+     , (12587, 19, True)
+     , (12587, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12632, 'narzizcottagessign');
@@ -1446,7 +1560,9 @@ VALUES (12632, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12632, 12, True)
      , (12632, 11, True)
-     , (12632, 14, True);
+     , (12632, 14, True)
+     , (12632, 19, True)
+     , (12632, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12640, 'northuzizsettlementsign');
@@ -1471,7 +1587,9 @@ VALUES (12640, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12640, 12, True)
      , (12640, 11, True)
-     , (12640, 14, True);
+     , (12640, 14, True)
+     , (12640, 19, True)
+     , (12640, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12652, 'siegeroadsettlementsign');
@@ -1496,7 +1614,9 @@ VALUES (12652, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12652, 12, True)
      , (12652, 11, True)
-     , (12652, 14, True);
+     , (12652, 14, True)
+     , (12652, 19, True)
+     , (12652, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14327, 'siegeroadvillassign');
@@ -1521,7 +1641,9 @@ VALUES (14327, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14327, 12, True)
      , (14327, 11, True)
-     , (14327, 14, True);
+     , (14327, 14, True)
+     , (14327, 19, True)
+     , (14327, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12606, 'gaerweledgesettlementsign');
@@ -1546,7 +1668,9 @@ VALUES (12606, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12606, 12, True)
      , (12606, 11, True)
-     , (12606, 14, True);
+     , (12606, 14, True)
+     , (12606, 19, True)
+     , (12606, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12626, 'meridiancottagessign');
@@ -1571,7 +1695,9 @@ VALUES (12626, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12626, 12, True)
      , (12626, 11, True)
-     , (12626, 14, True);
+     , (12626, 14, True)
+     , (12626, 19, True)
+     , (12626, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12617, 'leafdawningsettlementsign');
@@ -1596,7 +1722,9 @@ VALUES (12617, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12617, 12, True)
      , (12617, 11, True)
-     , (12617, 14, True);
+     , (12617, 14, True)
+     , (12617, 19, True)
+     , (12617, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12659, 'southvictoryharborsign');
@@ -1621,7 +1749,9 @@ VALUES (12659, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12659, 12, True)
      , (12659, 11, True)
-     , (12659, 14, True);
+     , (12659, 14, True)
+     , (12659, 19, True)
+     , (12659, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12591, 'cragstonefarmssign');
@@ -1646,7 +1776,9 @@ VALUES (12591, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12591, 12, True)
      , (12591, 11, True)
-     , (12591, 14, True);
+     , (12591, 14, True)
+     , (12591, 19, True)
+     , (12591, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13162, 'iceeahillsestatessign');
@@ -1671,7 +1803,9 @@ VALUES (13162, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13162, 12, True)
      , (13162, 11, True)
-     , (13162, 14, True);
+     , (13162, 14, True)
+     , (13162, 19, True)
+     , (13162, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12603, 'filosfontcottagessign');
@@ -1696,7 +1830,9 @@ VALUES (12603, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12603, 12, True)
      , (12603, 11, True)
-     , (12603, 14, True);
+     , (12603, 14, True)
+     , (12603, 19, True)
+     , (12603, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12599, 'eastspanwaysettlementsign');
@@ -1721,7 +1857,9 @@ VALUES (12599, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12599, 12, True)
      , (12599, 11, True)
-     , (12599, 14, True);
+     , (12599, 14, True)
+     , (12599, 19, True)
+     , (12599, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13161, 'highlandmanorssign');
@@ -1746,7 +1884,9 @@ VALUES (13161, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13161, 12, True)
      , (13161, 11, True)
-     , (13161, 14, True);
+     , (13161, 14, True)
+     , (13161, 19, True)
+     , (13161, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13179, 'sharvalesign');
@@ -1771,7 +1911,9 @@ VALUES (13179, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13179, 12, True)
      , (13179, 11, True)
-     , (13179, 14, True);
+     , (13179, 14, True)
+     , (13179, 19, True)
+     , (13179, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12592, 'desolationbeachsign');
@@ -1796,7 +1938,9 @@ VALUES (12592, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12592, 12, True)
      , (12592, 11, True)
-     , (12592, 14, True);
+     , (12592, 14, True)
+     , (12592, 19, True)
+     , (12592, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15699, 'farhorizoncottagessign');
@@ -1821,7 +1965,9 @@ VALUES (15699, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15699, 12, True)
      , (15699, 11, True)
-     , (15699, 14, True);
+     , (15699, 14, True)
+     , (15699, 19, True)
+     , (15699, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12620, 'lithaeneancottagessign');
@@ -1846,7 +1992,9 @@ VALUES (12620, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12620, 12, True)
      , (12620, 11, True)
-     , (12620, 14, True);
+     , (12620, 14, True)
+     , (12620, 19, True)
+     , (12620, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15208, 'asbeldomainsign');
@@ -1871,7 +2019,9 @@ VALUES (15208, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15208, 12, True)
      , (15208, 11, True)
-     , (15208, 14, True);
+     , (15208, 14, True)
+     , (15208, 19, True)
+     , (15208, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14308, 'halianasign');
@@ -1896,7 +2046,9 @@ VALUES (14308, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14308, 12, True)
      , (14308, 11, True)
-     , (14308, 14, True);
+     , (14308, 14, True)
+     , (14308, 19, True)
+     , (14308, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12636, 'norsteadsign');
@@ -1921,7 +2073,9 @@ VALUES (12636, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12636, 12, True)
      , (12636, 11, True)
-     , (12636, 14, True);
+     , (12636, 14, True)
+     , (12636, 19, True)
+     , (12636, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14335, 'westnorsteadsign');
@@ -1946,7 +2100,9 @@ VALUES (14335, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14335, 12, True)
      , (14335, 11, True)
-     , (14335, 14, True);
+     , (14335, 14, True)
+     , (14335, 19, True)
+     , (14335, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14723, 'northreachsign');
@@ -1971,7 +2127,9 @@ VALUES (14723, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14723, 12, True)
      , (14723, 11, True)
-     , (14723, 14, True);
+     , (14723, 14, True)
+     , (14723, 19, True)
+     , (14723, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12589, 'celdisethsbeachsettlementsign');
@@ -1996,7 +2154,9 @@ VALUES (12589, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12589, 12, True)
      , (12589, 11, True)
-     , (12589, 14, True);
+     , (12589, 14, True)
+     , (12589, 19, True)
+     , (12589, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14686, 'celcyndcottagessign');
@@ -2021,7 +2181,9 @@ VALUES (14686, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14686, 12, True)
      , (14686, 11, True)
-     , (14686, 14, True);
+     , (14686, 14, True)
+     , (14686, 19, True)
+     , (14686, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14728, 'pointtremblantsign');
@@ -2046,7 +2208,9 @@ VALUES (14728, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14728, 12, True)
      , (14728, 11, True)
-     , (14728, 14, True);
+     , (14728, 14, True)
+     , (14728, 19, True)
+     , (14728, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13170, 'northwatercottagessign');
@@ -2071,7 +2235,9 @@ VALUES (13170, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13170, 12, True)
      , (13170, 11, True)
-     , (13170, 14, True);
+     , (13170, 14, True)
+     , (13170, 19, True)
+     , (13170, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14697, 'empyreanshorevillassign');
@@ -2096,7 +2262,9 @@ VALUES (14697, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14697, 12, True)
      , (14697, 11, True)
-     , (14697, 14, True);
+     , (14697, 14, True)
+     , (14697, 19, True)
+     , (14697, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12572, 'adamsbeachsign');
@@ -2121,7 +2289,9 @@ VALUES (12572, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12572, 12, True)
      , (12572, 11, True)
-     , (12572, 14, True);
+     , (12572, 14, True)
+     , (12572, 19, True)
+     , (12572, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13176, 'rivermouthvillassign');
@@ -2146,7 +2316,9 @@ VALUES (13176, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13176, 12, True)
      , (13176, 11, True)
-     , (13176, 14, True);
+     , (13176, 14, True)
+     , (13176, 19, True)
+     , (13176, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12585, 'brigandsbaysettlementsign');
@@ -2171,7 +2343,9 @@ VALUES (12585, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12585, 12, True)
      , (12585, 11, True)
-     , (12585, 14, True);
+     , (12585, 14, True)
+     , (12585, 19, True)
+     , (12585, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13187, 'stoneportvillassign');
@@ -2196,7 +2370,9 @@ VALUES (13187, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13187, 12, True)
      , (13187, 11, True)
-     , (13187, 14, True);
+     , (13187, 14, True)
+     , (13187, 19, True)
+     , (13187, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12584, 'bluewatercottagessign');
@@ -2221,7 +2397,9 @@ VALUES (12584, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12584, 12, True)
      , (12584, 11, True)
-     , (12584, 14, True);
+     , (12584, 14, True)
+     , (12584, 19, True)
+     , (12584, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14331, 'tarallasign');
@@ -2246,7 +2424,9 @@ VALUES (14331, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14331, 12, True)
      , (14331, 11, True)
-     , (14331, 14, True);
+     , (14331, 14, True)
+     , (14331, 19, True)
+     , (14331, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15689, 'ardentrealmsign');
@@ -2271,7 +2451,9 @@ VALUES (15689, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15689, 12, True)
      , (15689, 11, True)
-     , (15689, 14, True);
+     , (15689, 14, True)
+     , (15689, 19, True)
+     , (15689, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14696, 'empyreanfieldscottagessign');
@@ -2296,7 +2478,9 @@ VALUES (14696, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14696, 12, True)
      , (14696, 11, True)
-     , (14696, 14, True);
+     , (14696, 14, True)
+     , (14696, 19, True)
+     , (14696, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13155, 'eastrithwicestatessign');
@@ -2321,7 +2505,9 @@ VALUES (13155, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13155, 12, True)
      , (13155, 11, True)
-     , (13155, 14, True);
+     , (13155, 14, True)
+     , (13155, 19, True)
+     , (13155, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15246, 'osriccottagessign');
@@ -2346,7 +2532,9 @@ VALUES (15246, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15246, 12, True)
      , (15246, 11, True)
-     , (15246, 14, True);
+     , (15246, 14, True)
+     , (15246, 19, True)
+     , (15246, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12629, 'mountainkeepcottagessign');
@@ -2371,7 +2559,9 @@ VALUES (12629, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12629, 12, True)
      , (12629, 11, True)
-     , (12629, 14, True);
+     , (12629, 14, True)
+     , (12629, 19, True)
+     , (12629, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15214, 'daggervalesign');
@@ -2396,7 +2586,9 @@ VALUES (15214, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15214, 12, True)
      , (15214, 11, True)
-     , (15214, 14, True);
+     , (15214, 14, True)
+     , (15214, 19, True)
+     , (15214, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14698, 'eotensfangcottagessign');
@@ -2421,7 +2613,9 @@ VALUES (14698, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14698, 12, True)
      , (14698, 11, True)
-     , (14698, 14, True);
+     , (14698, 14, True)
+     , (14698, 19, True)
+     , (14698, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14720, 'lostwishcottagessign');
@@ -2446,7 +2640,9 @@ VALUES (14720, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14720, 12, True)
      , (14720, 11, True)
-     , (14720, 14, True);
+     , (14720, 14, True)
+     , (14720, 19, True)
+     , (14720, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14747, 'westzaikhalfreeholdsign');
@@ -2471,7 +2667,9 @@ VALUES (14747, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14747, 12, True)
      , (14747, 11, True)
-     , (14747, 14, True);
+     , (14747, 14, True)
+     , (14747, 19, True)
+     , (14747, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15700, 'gharunvictoryvillassign');
@@ -2496,7 +2694,9 @@ VALUES (15700, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15700, 12, True)
      , (15700, 11, True)
-     , (15700, 14, True);
+     , (15700, 14, True)
+     , (15700, 19, True)
+     , (15700, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12647, 'sanaisign');
@@ -2521,7 +2721,9 @@ VALUES (12647, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12647, 12, True)
      , (12647, 11, True)
-     , (12647, 14, True);
+     , (12647, 14, True)
+     , (12647, 19, True)
+     , (12647, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15691, 'artificecottagessign');
@@ -2546,7 +2748,9 @@ VALUES (15691, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15691, 12, True)
      , (15691, 11, True)
-     , (15691, 14, True);
+     , (15691, 14, True)
+     , (15691, 19, True)
+     , (15691, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14732, 'sanchinsign');
@@ -2571,7 +2775,9 @@ VALUES (14732, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14732, 12, True)
      , (14732, 11, True)
-     , (14732, 14, True);
+     , (14732, 14, True)
+     , (14732, 19, True)
+     , (14732, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14714, 'linvaktukalfoothillssettlementsign');
@@ -2596,7 +2802,9 @@ VALUES (14714, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14714, 12, True)
      , (14714, 11, True)
-     , (14714, 14, True);
+     , (14714, 14, True)
+     , (14714, 19, True)
+     , (14714, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14318, 'mirehillsign');
@@ -2621,7 +2829,9 @@ VALUES (14318, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14318, 12, True)
      , (14318, 11, True)
-     , (14318, 14, True);
+     , (14318, 14, True)
+     , (14318, 19, True)
+     , (14318, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14334, 'villalabarsign');
@@ -2646,7 +2856,9 @@ VALUES (14334, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14334, 12, True)
      , (14334, 11, True)
-     , (14334, 14, True);
+     , (14334, 14, True)
+     , (14334, 19, True)
+     , (14334, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14339, 'zatarasign');
@@ -2671,7 +2883,9 @@ VALUES (14339, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14339, 12, True)
      , (14339, 11, True)
-     , (14339, 14, True);
+     , (14339, 14, True)
+     , (14339, 19, True)
+     , (14339, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15231, 'kelnenvillagesign');
@@ -2696,7 +2910,9 @@ VALUES (15231, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15231, 12, True)
      , (15231, 11, True)
-     , (15231, 14, True);
+     , (15231, 14, True)
+     , (15231, 19, True)
+     , (15231, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12616, 'lakenemuelsettlementsign');
@@ -2721,7 +2937,9 @@ VALUES (12616, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12616, 12, True)
      , (12616, 11, True)
-     , (12616, 14, True);
+     , (12616, 14, True)
+     , (12616, 19, True)
+     , (12616, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14740, 'stonefaceoasisvillassign');
@@ -2746,7 +2964,9 @@ VALUES (14740, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14740, 12, True)
      , (14740, 11, True)
-     , (14740, 14, True);
+     , (14740, 14, True)
+     , (14740, 19, True)
+     , (14740, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12649, 'sennonvalleyretreatsign');
@@ -2771,7 +2991,9 @@ VALUES (12649, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12649, 12, True)
      , (12649, 11, True)
-     , (12649, 14, True);
+     , (12649, 14, True)
+     , (12649, 19, True)
+     , (12649, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15224, 'glystaenecottagessign');
@@ -2796,7 +3018,9 @@ VALUES (15224, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15224, 12, True)
      , (15224, 11, True)
-     , (15224, 14, True);
+     , (15224, 14, True)
+     , (15224, 19, True)
+     , (15224, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13143, 'southbeachpassvillassign');
@@ -2821,7 +3045,9 @@ VALUES (13143, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13143, 12, True)
      , (13143, 11, True)
-     , (13143, 14, True);
+     , (13143, 14, True)
+     , (13143, 19, True)
+     , (13143, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12582, 'bayofsandssign');
@@ -2846,7 +3072,9 @@ VALUES (12582, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12582, 12, True)
      , (12582, 11, True)
-     , (12582, 14, True);
+     , (12582, 14, True)
+     , (12582, 19, True)
+     , (12582, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12637, 'northadjamaercottagessign');
@@ -2871,7 +3099,9 @@ VALUES (12637, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12637, 12, True)
      , (12637, 11, True)
-     , (12637, 14, True);
+     , (12637, 14, True)
+     , (12637, 19, True)
+     , (12637, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15240, 'midhillcottagessign');
@@ -2896,7 +3126,9 @@ VALUES (15240, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15240, 12, True)
      , (15240, 11, True)
-     , (15240, 14, True);
+     , (15240, 14, True)
+     , (15240, 19, True)
+     , (15240, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12610, 'ijaniyasign');
@@ -2921,7 +3153,9 @@ VALUES (12610, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12610, 12, True)
      , (12610, 11, True)
-     , (12610, 14, True);
+     , (12610, 14, True)
+     , (12610, 19, True)
+     , (12610, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14690, 'djebelalnarcottagessign');
@@ -2946,7 +3180,9 @@ VALUES (14690, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14690, 12, True)
      , (14690, 11, True)
-     , (14690, 14, True);
+     , (14690, 14, True)
+     , (14690, 19, True)
+     , (14690, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14705, 'hiddenvalleysign');
@@ -2971,7 +3207,9 @@ VALUES (14705, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14705, 12, True)
      , (14705, 11, True)
-     , (14705, 14, True);
+     , (14705, 14, True)
+     , (14705, 19, True)
+     , (14705, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19168, 'dametolanivillassign');
@@ -2996,7 +3234,9 @@ VALUES (19168, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (19168, 12, True)
      , (19168, 11, True)
-     , (19168, 14, True);
+     , (19168, 14, True)
+     , (19168, 19, True)
+     , (19168, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15712, 'wilominevillassign');
@@ -3021,7 +3261,9 @@ VALUES (15712, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15712, 12, True)
      , (15712, 11, True)
-     , (15712, 14, True);
+     , (15712, 14, True)
+     , (15712, 19, True)
+     , (15712, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14709, 'kingpwyllsquaresign');
@@ -3046,7 +3288,9 @@ VALUES (14709, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14709, 12, True)
      , (14709, 11, True)
-     , (14709, 14, True);
+     , (14709, 14, True)
+     , (14709, 19, True)
+     , (14709, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14311, 'ispanhillsign');
@@ -3071,7 +3315,9 @@ VALUES (14311, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14311, 12, True)
      , (14311, 11, True)
-     , (14311, 14, True);
+     , (14311, 14, True)
+     , (14311, 19, True)
+     , (14311, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15704, 'nidaltaraqvillassign');
@@ -3096,7 +3342,9 @@ VALUES (15704, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15704, 12, True)
      , (15704, 11, True)
-     , (15704, 14, True);
+     , (15704, 14, True)
+     , (15704, 19, True)
+     , (15704, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15237, 'mattekarslopescottagessign');
@@ -3121,7 +3369,9 @@ VALUES (15237, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15237, 12, True)
      , (15237, 11, True)
-     , (15237, 14, True);
+     , (15237, 14, True)
+     , (15237, 19, True)
+     , (15237, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14745, 'vultureseyevillassign');
@@ -3146,7 +3396,9 @@ VALUES (14745, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14745, 12, True)
      , (14745, 11, True)
-     , (14745, 14, True);
+     , (14745, 14, True)
+     , (14745, 19, True)
+     , (14745, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15248, 'prnelleacressign');
@@ -3171,7 +3423,9 @@ VALUES (15248, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15248, 12, True)
      , (15248, 11, True)
-     , (15248, 14, True);
+     , (15248, 14, True)
+     , (15248, 19, True)
+     , (15248, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15695, 'brokenhaftvalesign');
@@ -3196,7 +3450,9 @@ VALUES (15695, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15695, 12, True)
      , (15695, 11, True)
-     , (15695, 14, True);
+     , (15695, 14, True)
+     , (15695, 19, True)
+     , (15695, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14724, 'norvalesign');
@@ -3221,7 +3477,9 @@ VALUES (14724, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14724, 12, True)
      , (14724, 11, True)
-     , (14724, 14, True);
+     , (14724, 14, True)
+     , (14724, 19, True)
+     , (14724, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15698, 'demonsbanecottagessign');
@@ -3246,7 +3504,9 @@ VALUES (15698, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15698, 12, True)
      , (15698, 11, True)
-     , (15698, 14, True);
+     , (15698, 14, True)
+     , (15698, 19, True)
+     , (15698, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14691, 'djinayawindcottagessign');
@@ -3271,7 +3531,9 @@ VALUES (14691, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14691, 12, True)
      , (14691, 11, True)
-     , (14691, 14, True);
+     , (14691, 14, True)
+     , (14691, 19, True)
+     , (14691, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14307, 'greenswathsign');
@@ -3296,7 +3558,9 @@ VALUES (14307, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14307, 12, True)
      , (14307, 11, True)
-     , (14307, 14, True);
+     , (14307, 14, True)
+     , (14307, 19, True)
+     , (14307, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14336, 'westyanshinamoonsign');
@@ -3321,7 +3585,9 @@ VALUES (14336, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14336, 12, True)
      , (14336, 11, True)
-     , (14336, 14, True);
+     , (14336, 14, True)
+     , (14336, 19, True)
+     , (14336, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14324, 'ronansign');
@@ -3346,7 +3612,9 @@ VALUES (14324, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14324, 12, True)
      , (14324, 11, True)
-     , (14324, 14, True);
+     , (14324, 14, True)
+     , (14324, 19, True)
+     , (14324, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19174, 'gredalinevillassign');
@@ -3371,7 +3639,9 @@ VALUES (19174, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (19174, 12, True)
      , (19174, 11, True)
-     , (19174, 14, True);
+     , (19174, 14, True)
+     , (19174, 19, True)
+     , (19174, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15251, 'returnofmumiyahcottagessign');
@@ -3396,7 +3666,9 @@ VALUES (15251, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15251, 12, True)
      , (15251, 11, True)
-     , (15251, 14, True);
+     , (15251, 14, True)
+     , (15251, 19, True)
+     , (15251, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14731, 'rhynntalcottagessign');
@@ -3421,7 +3693,9 @@ VALUES (14731, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14731, 12, True)
      , (14731, 11, True)
-     , (14731, 14, True);
+     , (14731, 14, True)
+     , (14731, 19, True)
+     , (14731, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14734, 'sandsoftheskullcottagessign');
@@ -3446,7 +3720,9 @@ VALUES (14734, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14734, 12, True)
      , (14734, 11, True)
-     , (14734, 14, True);
+     , (14734, 14, True)
+     , (14734, 19, True)
+     , (14734, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12588, 'capefeirgardcottagessign');
@@ -3471,7 +3747,9 @@ VALUES (12588, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12588, 12, True)
      , (12588, 11, True)
-     , (12588, 14, True);
+     , (12588, 14, True)
+     , (12588, 19, True)
+     , (12588, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13156, 'enchantersmeadowsign');
@@ -3496,7 +3774,9 @@ VALUES (13156, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13156, 12, True)
      , (13156, 11, True)
-     , (13156, 14, True);
+     , (13156, 14, True)
+     , (13156, 19, True)
+     , (13156, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14725, 'onghauvillagesign');
@@ -3521,7 +3801,9 @@ VALUES (14725, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14725, 12, True)
      , (14725, 11, True)
-     , (14725, 14, True);
+     , (14725, 14, True)
+     , (14725, 19, True)
+     , (14725, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15258, 'southsiegevillassign');
@@ -3546,7 +3828,9 @@ VALUES (15258, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15258, 12, True)
      , (15258, 11, True)
-     , (15258, 14, True);
+     , (15258, 14, True)
+     , (15258, 19, True)
+     , (15258, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12627, 'monumentsandssettlementsign');
@@ -3571,7 +3855,9 @@ VALUES (12627, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12627, 12, True)
      , (12627, 11, True)
-     , (12627, 14, True);
+     , (12627, 14, True)
+     , (12627, 19, True)
+     , (12627, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15260, 'tharesunsign');
@@ -3596,7 +3882,9 @@ VALUES (15260, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15260, 12, True)
      , (15260, 11, True)
-     , (15260, 14, True);
+     , (15260, 14, True)
+     , (15260, 19, True)
+     , (15260, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15264, 'tinkeloholdvillassign');
@@ -3621,7 +3909,9 @@ VALUES (15264, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15264, 12, True)
      , (15264, 11, True)
-     , (15264, 14, True);
+     , (15264, 14, True)
+     , (15264, 19, True)
+     , (15264, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12639, 'northeasthammeadowsign');
@@ -3646,7 +3936,9 @@ VALUES (12639, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12639, 12, True)
      , (12639, 11, True)
-     , (12639, 14, True);
+     , (12639, 14, True)
+     , (12639, 19, True)
+     , (12639, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12611, 'imuthmaercottagessign');
@@ -3671,7 +3963,9 @@ VALUES (12611, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12611, 12, True)
      , (12611, 11, True)
-     , (12611, 14, True);
+     , (12611, 14, True)
+     , (12611, 19, True)
+     , (12611, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12662, 'spirehillssettlementsign');
@@ -3696,7 +3990,9 @@ VALUES (12662, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12662, 12, True)
      , (12662, 11, True)
-     , (12662, 14, True);
+     , (12662, 14, True)
+     , (12662, 19, True)
+     , (12662, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13172, 'qalabaroasissettlementsign');
@@ -3721,7 +4017,9 @@ VALUES (13172, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13172, 12, True)
      , (13172, 11, True)
-     , (13172, 14, True);
+     , (13172, 14, True)
+     , (13172, 19, True)
+     , (13172, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19177, 'isparianflameestatessign');
@@ -3746,7 +4044,9 @@ VALUES (19177, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (19177, 12, True)
      , (19177, 11, True)
-     , (19177, 14, True);
+     , (19177, 14, True)
+     , (19177, 19, True)
+     , (19177, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15245, 'northfireestatessign');
@@ -3771,7 +4071,9 @@ VALUES (15245, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15245, 12, True)
      , (15245, 11, True)
-     , (15245, 14, True);
+     , (15245, 14, True)
+     , (15245, 19, True)
+     , (15245, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12608, 'glendenhillsnorthsettlementsign');
@@ -3796,7 +4098,9 @@ VALUES (12608, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12608, 12, True)
      , (12608, 11, True)
-     , (12608, 14, True);
+     , (12608, 14, True)
+     , (12608, 19, True)
+     , (12608, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14312, 'jackcatcanyonsign');
@@ -3821,7 +4125,9 @@ VALUES (14312, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14312, 12, True)
      , (14312, 11, True)
-     , (14312, 14, True);
+     , (14312, 14, True)
+     , (14312, 19, True)
+     , (14312, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12581, 'ayntayansign');
@@ -3846,7 +4152,9 @@ VALUES (12581, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12581, 12, True)
      , (12581, 11, True)
-     , (12581, 14, True);
+     , (12581, 14, True)
+     , (12581, 19, True)
+     , (12581, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15203, 'ahrzonasign');
@@ -3871,7 +4179,9 @@ VALUES (15203, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15203, 12, True)
      , (15203, 11, True)
-     , (15203, 14, True);
+     , (15203, 14, True)
+     , (15203, 19, True)
+     , (15203, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12633, 'newcoliersign');
@@ -3896,7 +4206,9 @@ VALUES (12633, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12633, 12, True)
      , (12633, 11, True)
-     , (12633, 14, True);
+     , (12633, 14, True)
+     , (12633, 19, True)
+     , (12633, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12675, 'yukikazesign');
@@ -3921,7 +4233,9 @@ VALUES (12675, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12675, 12, True)
      , (12675, 11, True)
-     , (12675, 14, True);
+     , (12675, 14, True)
+     , (12675, 19, True)
+     , (12675, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14711, 'lakethrasylcottagessign');
@@ -3946,7 +4260,9 @@ VALUES (14711, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14711, 12, True)
      , (14711, 11, True)
-     , (14711, 14, True);
+     , (14711, 14, True)
+     , (14711, 19, True)
+     , (14711, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12593, 'dryreachbeachcottagessign');
@@ -3971,7 +4287,9 @@ VALUES (12593, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12593, 12, True)
      , (12593, 11, True)
-     , (12593, 14, True);
+     , (12593, 14, True)
+     , (12593, 19, True)
+     , (12593, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12574, 'aimaruplainscottagessign');
@@ -3996,7 +4314,9 @@ VALUES (12574, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12574, 12, True)
      , (12574, 11, True)
-     , (12574, 14, True);
+     , (12574, 14, True)
+     , (12574, 19, True)
+     , (12574, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15209, 'avataniacottagessign');
@@ -4021,7 +4341,9 @@ VALUES (15209, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15209, 12, True)
      , (15209, 11, True)
-     , (15209, 14, True);
+     , (15209, 14, True)
+     , (15209, 19, True)
+     , (15209, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15210, 'azarothcottagessign');
@@ -4046,7 +4368,9 @@ VALUES (15210, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15210, 12, True)
      , (15210, 11, True)
-     , (15210, 14, True);
+     , (15210, 14, True)
+     , (15210, 19, True)
+     , (15210, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14299, 'aurallasettlementsign');
@@ -4071,7 +4395,9 @@ VALUES (14299, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14299, 12, True)
      , (14299, 11, True)
-     , (14299, 14, True);
+     , (14299, 14, True)
+     , (14299, 19, True)
+     , (14299, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19183, 'rendingtaloncottagessign');
@@ -4096,7 +4422,9 @@ VALUES (19183, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (19183, 12, True)
      , (19183, 11, True)
-     , (19183, 14, True);
+     , (19183, 14, True)
+     , (19183, 19, True)
+     , (19183, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12677, 'zabooloverlooksettlementsign');
@@ -4121,7 +4449,9 @@ VALUES (12677, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12677, 12, True)
      , (12677, 11, True)
-     , (12677, 14, True);
+     , (12677, 14, True)
+     , (12677, 19, True)
+     , (12677, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13174, 'ringofcrystalsestatessign');
@@ -4146,7 +4476,9 @@ VALUES (13174, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13174, 12, True)
      , (13174, 11, True)
-     , (13174, 14, True);
+     , (13174, 14, True)
+     , (13174, 19, True)
+     , (13174, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19193, 'unifiedheartvillassign');
@@ -4171,7 +4503,9 @@ VALUES (19193, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (19193, 12, True)
      , (19193, 11, True)
-     , (19193, 14, True);
+     , (19193, 14, True)
+     , (19193, 19, True)
+     , (19193, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14296, 'alfrethridgecottagessign');
@@ -4196,7 +4530,9 @@ VALUES (14296, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14296, 12, True)
      , (14296, 11, True)
-     , (14296, 14, True);
+     , (14296, 14, True)
+     , (14296, 19, True)
+     , (14296, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14306, 'eastbaishisettlementsign');
@@ -4221,7 +4557,9 @@ VALUES (14306, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14306, 12, True)
      , (14306, 11, True)
-     , (14306, 14, True);
+     , (14306, 14, True)
+     , (14306, 19, True)
+     , (14306, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12621, 'lugianmeadowssettlementsign');
@@ -4246,7 +4584,9 @@ VALUES (12621, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12621, 12, True)
      , (12621, 11, True)
-     , (12621, 14, True);
+     , (12621, 14, True)
+     , (12621, 19, True)
+     , (12621, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15249, 'reginacottagessign');
@@ -4271,7 +4611,9 @@ VALUES (15249, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15249, 12, True)
      , (15249, 11, True)
-     , (15249, 14, True);
+     , (15249, 14, True)
+     , (15249, 19, True)
+     , (15249, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14742, 'stormbrowsign');
@@ -4296,7 +4638,9 @@ VALUES (14742, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14742, 12, True)
      , (14742, 11, True)
-     , (14742, 14, True);
+     , (14742, 14, True)
+     , (14742, 19, True)
+     , (14742, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14320, 'nalwadicottagessign');
@@ -4321,7 +4665,9 @@ VALUES (14320, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14320, 12, True)
      , (14320, 11, True)
-     , (14320, 14, True);
+     , (14320, 14, True)
+     , (14320, 19, True)
+     , (14320, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12646, 'samsurbuttecottagessign');
@@ -4346,7 +4692,9 @@ VALUES (12646, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12646, 12, True)
      , (12646, 11, True)
-     , (12646, 14, True);
+     , (12646, 14, True)
+     , (12646, 19, True)
+     , (12646, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14297, 'alvadorsign');
@@ -4371,7 +4719,9 @@ VALUES (14297, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14297, 12, True)
      , (14297, 11, True)
-     , (14297, 14, True);
+     , (14297, 14, True)
+     , (14297, 19, True)
+     , (14297, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14685, 'bretslefcottagessign');
@@ -4396,7 +4746,9 @@ VALUES (14685, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14685, 12, True)
      , (14685, 11, True)
-     , (14685, 14, True);
+     , (14685, 14, True)
+     , (14685, 19, True)
+     , (14685, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14706, 'iannasign');
@@ -4421,7 +4773,9 @@ VALUES (14706, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14706, 12, True)
      , (14706, 11, True)
-     , (14706, 14, True);
+     , (14706, 14, True)
+     , (14706, 19, True)
+     , (14706, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15703, 'mountainretreatcottagessign');
@@ -4446,7 +4800,9 @@ VALUES (15703, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15703, 12, True)
      , (15703, 11, True)
-     , (15703, 14, True);
+     , (15703, 14, True)
+     , (15703, 19, True)
+     , (15703, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19170, 'defiantpreycottagessign');
@@ -4471,7 +4827,9 @@ VALUES (19170, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (19170, 12, True)
      , (19170, 11, True)
-     , (19170, 14, True);
+     , (19170, 14, True)
+     , (19170, 19, True)
+     , (19170, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12609, 'holtburgwildernesssettlementsign');
@@ -4496,7 +4854,9 @@ VALUES (12609, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12609, 12, True)
      , (12609, 11, True)
-     , (12609, 14, True);
+     , (12609, 14, True)
+     , (12609, 19, True)
+     , (12609, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13150, 'diresdoorestatessign');
@@ -4521,7 +4881,9 @@ VALUES (13150, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13150, 12, True)
      , (13150, 11, True)
-     , (13150, 14, True);
+     , (13150, 14, True)
+     , (13150, 19, True)
+     , (13150, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15218, 'dovetailvalleyvillassign');
@@ -4546,7 +4908,9 @@ VALUES (15218, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15218, 12, True)
      , (15218, 11, True)
-     , (15218, 14, True);
+     , (15218, 14, True)
+     , (15218, 19, True)
+     , (15218, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12607, 'glendenhillseastsettlementsign');
@@ -4571,7 +4935,9 @@ VALUES (12607, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12607, 12, True)
      , (12607, 11, True)
-     , (12607, 14, True);
+     , (12607, 14, True)
+     , (12607, 19, True)
+     , (12607, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14338, 'yinarsign');
@@ -4596,7 +4962,9 @@ VALUES (14338, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14338, 12, True)
      , (14338, 11, True)
-     , (14338, 14, True);
+     , (14338, 14, True)
+     , (14338, 19, True)
+     , (14338, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15692, 'axefallglensign');
@@ -4621,7 +4989,9 @@ VALUES (15692, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15692, 12, True)
      , (15692, 11, True)
-     , (15692, 14, True);
+     , (15692, 14, True)
+     , (15692, 19, True)
+     , (15692, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14681, 'alnosajsign');
@@ -4646,7 +5016,9 @@ VALUES (14681, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14681, 12, True)
      , (14681, 11, True)
-     , (14681, 14, True);
+     , (14681, 14, True)
+     , (14681, 19, True)
+     , (14681, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15252, 'sandshallowcottagessign');
@@ -4671,7 +5043,9 @@ VALUES (15252, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15252, 12, True)
      , (15252, 11, True)
-     , (15252, 14, True);
+     , (15252, 14, True)
+     , (15252, 19, True)
+     , (15252, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12673, 'woodshorecottagessign');
@@ -4696,7 +5070,9 @@ VALUES (12673, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12673, 12, True)
      , (12673, 11, True)
-     , (12673, 14, True);
+     , (12673, 14, True)
+     , (12673, 19, True)
+     , (12673, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15696, 'colierviewhillsign');
@@ -4721,7 +5097,9 @@ VALUES (15696, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15696, 12, True)
      , (15696, 11, True)
-     , (15696, 14, True);
+     , (15696, 14, True)
+     , (15696, 19, True)
+     , (15696, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19169, 'darasavillassign');
@@ -4746,7 +5124,9 @@ VALUES (19169, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (19169, 12, True)
      , (19169, 11, True)
-     , (19169, 14, True);
+     , (19169, 14, True)
+     , (19169, 19, True)
+     , (19169, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19166, 'amarandvillassign');
@@ -4771,7 +5151,9 @@ VALUES (19166, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (19166, 12, True)
      , (19166, 11, True)
-     , (19166, 14, True);
+     , (19166, 14, True)
+     , (19166, 19, True)
+     , (19166, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14683, 'bleachedskullwastessettlementsign');
@@ -4796,7 +5178,9 @@ VALUES (14683, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14683, 12, True)
      , (14683, 11, True)
-     , (14683, 14, True);
+     , (14683, 14, True)
+     , (14683, 19, True)
+     , (14683, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14300, 'cactusacressign');
@@ -4821,7 +5205,9 @@ VALUES (14300, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14300, 12, True)
      , (14300, 11, True)
-     , (14300, 14, True);
+     , (14300, 14, True)
+     , (14300, 19, True)
+     , (14300, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12577, 'aqalahsign');
@@ -4846,7 +5232,9 @@ VALUES (12577, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12577, 12, True)
      , (12577, 11, True)
-     , (12577, 14, True);
+     , (12577, 14, True)
+     , (12577, 19, True)
+     , (12577, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13189, 'tanshisign');
@@ -4871,7 +5259,9 @@ VALUES (13189, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13189, 12, True)
      , (13189, 11, True)
-     , (13189, 14, True);
+     , (13189, 14, True)
+     , (13189, 19, True)
+     , (13189, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15220, 'durglensign');
@@ -4896,7 +5286,9 @@ VALUES (15220, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15220, 12, True)
      , (15220, 11, True)
-     , (15220, 14, True);
+     , (15220, 14, True)
+     , (15220, 19, True)
+     , (15220, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12596, 'eastlytelthorpesettlementsign');
@@ -4921,7 +5313,9 @@ VALUES (12596, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12596, 12, True)
      , (12596, 11, True)
-     , (12596, 14, True);
+     , (12596, 14, True)
+     , (12596, 19, True)
+     , (12596, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15206, 'anadilsign');
@@ -4946,7 +5340,9 @@ VALUES (15206, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15206, 12, True)
      , (15206, 11, True)
-     , (15206, 14, True);
+     , (15206, 14, True)
+     , (15206, 19, True)
+     , (15206, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14715, 'lipocottagessign');
@@ -4971,7 +5367,9 @@ VALUES (14715, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14715, 12, True)
      , (14715, 11, True)
-     , (14715, 14, True);
+     , (14715, 14, True)
+     , (14715, 19, True)
+     , (14715, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19188, 'stonerunecottagessign');
@@ -4996,7 +5394,9 @@ VALUES (19188, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (19188, 12, True)
      , (19188, 11, True)
-     , (19188, 14, True);
+     , (19188, 14, True)
+     , (19188, 19, True)
+     , (19188, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12650, 'serpenthillssettlementsign');
@@ -5021,7 +5421,9 @@ VALUES (12650, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12650, 12, True)
      , (12650, 11, True)
-     , (12650, 14, True);
+     , (12650, 14, True)
+     , (12650, 19, True)
+     , (12650, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12670, 'whisperingpinescottagessign');
@@ -5046,7 +5448,9 @@ VALUES (12670, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12670, 12, True)
      , (12670, 11, True)
-     , (12670, 14, True);
+     , (12670, 14, True)
+     , (12670, 19, True)
+     , (12670, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13175, 'riverbendcottagessign');
@@ -5071,7 +5475,9 @@ VALUES (13175, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13175, 12, True)
      , (13175, 11, True)
-     , (13175, 14, True);
+     , (13175, 14, True)
+     , (13175, 19, True)
+     , (13175, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14727, 'pinehillocksettlementsign');
@@ -5096,7 +5502,9 @@ VALUES (14727, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14727, 12, True)
      , (14727, 11, True)
-     , (14727, 14, True);
+     , (14727, 14, True)
+     , (14727, 19, True)
+     , (14727, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19171, 'ebbingtidevillassign');
@@ -5121,7 +5529,9 @@ VALUES (19171, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (19171, 12, True)
      , (19171, 11, True)
-     , (19171, 14, True);
+     , (19171, 14, True)
+     , (19171, 19, True)
+     , (19171, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14737, 'southernparksign');
@@ -5146,7 +5556,9 @@ VALUES (14737, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14737, 12, True)
      , (14737, 11, True)
-     , (14737, 14, True);
+     , (14737, 14, True)
+     , (14737, 19, True)
+     , (14737, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14733, 'sandkingscottagessign');
@@ -5171,7 +5583,9 @@ VALUES (14733, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14733, 12, True)
      , (14733, 11, True)
-     , (14733, 14, True);
+     , (14733, 14, True)
+     , (14733, 19, True)
+     , (14733, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12579, 'aridabuttesign');
@@ -5196,7 +5610,9 @@ VALUES (12579, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12579, 12, True)
      , (12579, 11, True)
-     , (12579, 14, True);
+     , (12579, 14, True)
+     , (12579, 19, True)
+     , (12579, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13191, 'westholtburgvillassign');
@@ -5221,7 +5637,9 @@ VALUES (13191, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13191, 12, True)
      , (13191, 11, True)
-     , (13191, 14, True);
+     , (13191, 14, True)
+     , (13191, 19, True)
+     , (13191, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12601, 'evensongsettlementsign');
@@ -5246,7 +5664,9 @@ VALUES (12601, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12601, 12, True)
      , (12601, 11, True)
-     , (12601, 14, True);
+     , (12601, 14, True)
+     , (12601, 19, True)
+     , (12601, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12658, 'southlytelthorpesign');
@@ -5271,7 +5691,9 @@ VALUES (12658, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12658, 12, True)
      , (12658, 11, True)
-     , (12658, 14, True);
+     , (12658, 14, True)
+     , (12658, 19, True)
+     , (12658, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15243, 'newcannthalosign');
@@ -5296,7 +5718,9 @@ VALUES (15243, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15243, 12, True)
      , (15243, 11, True)
-     , (15243, 14, True);
+     , (15243, 14, True)
+     , (15243, 19, True)
+     , (15243, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13193, 'westrithwicestatessign');
@@ -5321,7 +5745,9 @@ VALUES (13193, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13193, 12, True)
      , (13193, 11, True)
-     , (13193, 14, True);
+     , (13193, 14, True)
+     , (13193, 19, True)
+     , (13193, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15693, 'baronsdomainsign');
@@ -5346,7 +5772,9 @@ VALUES (15693, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15693, 12, True)
      , (15693, 11, True)
-     , (15693, 14, True);
+     , (15693, 14, True)
+     , (15693, 19, True)
+     , (15693, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12598, 'eastsawatosettlementsign');
@@ -5371,7 +5799,9 @@ VALUES (12598, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12598, 12, True)
      , (12598, 11, True)
-     , (12598, 14, True);
+     , (12598, 14, True)
+     , (12598, 19, True)
+     , (12598, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14700, 'fadsahilsettlementsign');
@@ -5396,7 +5826,9 @@ VALUES (14700, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14700, 12, True)
      , (14700, 11, True)
-     , (14700, 14, True);
+     , (14700, 14, True)
+     , (14700, 19, True)
+     , (14700, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14726, 'pinedeepsign');
@@ -5421,7 +5853,9 @@ VALUES (14726, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14726, 12, True)
      , (14726, 11, True)
-     , (14726, 14, True);
+     , (14726, 14, True)
+     , (14726, 19, True)
+     , (14726, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13178, 'seaviewridgecottagessign');
@@ -5446,7 +5880,9 @@ VALUES (13178, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13178, 12, True)
      , (13178, 11, True)
-     , (13178, 14, True);
+     , (13178, 14, True)
+     , (13178, 19, True)
+     , (13178, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12619, 'lilyglencottagessign');
@@ -5471,7 +5907,9 @@ VALUES (12619, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12619, 12, True)
      , (12619, 11, True)
-     , (12619, 14, True);
+     , (12619, 14, True)
+     , (12619, 19, True)
+     , (12619, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12645, 'prosperriverheadwaterssign');
@@ -5496,7 +5934,9 @@ VALUES (12645, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12645, 12, True)
      , (12645, 11, True)
-     , (12645, 14, True);
+     , (12645, 14, True)
+     , (12645, 19, True)
+     , (12645, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15234, 'laststopbeforediresvillassign');
@@ -5521,7 +5961,9 @@ VALUES (15234, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15234, 12, True)
      , (15234, 11, True)
-     , (15234, 14, True);
+     , (15234, 14, True)
+     , (15234, 19, True)
+     , (15234, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15255, 'sliverofbluecottagessign');
@@ -5546,7 +5988,9 @@ VALUES (15255, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15255, 12, True)
      , (15255, 11, True)
-     , (15255, 14, True);
+     , (15255, 14, True)
+     , (15255, 19, True)
+     , (15255, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15707, 'rytherandalesign');
@@ -5571,7 +6015,9 @@ VALUES (15707, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15707, 12, True)
      , (15707, 11, True)
-     , (15707, 14, True);
+     , (15707, 14, True)
+     , (15707, 19, True)
+     , (15707, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15230, 'jinlaistrongholdsign');
@@ -5596,7 +6042,9 @@ VALUES (15230, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15230, 12, True)
      , (15230, 11, True)
-     , (15230, 14, True);
+     , (15230, 14, True)
+     , (15230, 19, True)
+     , (15230, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13148, 'bucolicvillassign');
@@ -5621,7 +6069,9 @@ VALUES (13148, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13148, 12, True)
      , (13148, 11, True)
-     , (13148, 14, True);
+     , (13148, 14, True)
+     , (13148, 19, True)
+     , (13148, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15221, 'eastaljalimavillassign');
@@ -5646,7 +6096,9 @@ VALUES (15221, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15221, 12, True)
      , (15221, 11, True)
-     , (15221, 14, True);
+     , (15221, 14, True)
+     , (15221, 19, True)
+     , (15221, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15708, 'shieldofisparvillassign');
@@ -5671,7 +6123,9 @@ VALUES (15708, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15708, 12, True)
      , (15708, 11, True)
-     , (15708, 14, True);
+     , (15708, 14, True)
+     , (15708, 19, True)
+     , (15708, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12642, 'oborosign');
@@ -5696,7 +6150,9 @@ VALUES (12642, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12642, 12, True)
      , (12642, 11, True)
-     , (12642, 14, True);
+     , (12642, 14, True)
+     , (12642, 19, True)
+     , (12642, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14710, 'laitisvillasign');
@@ -5721,7 +6177,9 @@ VALUES (14710, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14710, 12, True)
      , (14710, 11, True)
-     , (14710, 14, True);
+     , (14710, 14, True)
+     , (14710, 19, True)
+     , (14710, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15212, 'brightbladecottagessign');
@@ -5746,7 +6204,9 @@ VALUES (15212, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15212, 12, True)
      , (15212, 11, True)
-     , (15212, 14, True);
+     , (15212, 14, True)
+     , (15212, 19, True)
+     , (15212, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15241, 'mimianavillassign');
@@ -5771,7 +6231,9 @@ VALUES (15241, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15241, 12, True)
      , (15241, 11, True)
-     , (15241, 14, True);
+     , (15241, 14, True)
+     , (15241, 19, True)
+     , (15241, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14718, 'loredanevillassign');
@@ -5796,7 +6258,9 @@ VALUES (14718, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14718, 12, True)
      , (14718, 11, True)
-     , (14718, 14, True);
+     , (14718, 14, True)
+     , (14718, 19, True)
+     , (14718, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14736, 'solsticehillsign');
@@ -5821,7 +6285,9 @@ VALUES (14736, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14736, 12, True)
      , (14736, 11, True)
-     , (14736, 14, True);
+     , (14736, 14, True)
+     , (14736, 19, True)
+     , (14736, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13167, 'neugerzvillassign');
@@ -5846,7 +6312,9 @@ VALUES (13167, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13167, 12, True)
      , (13167, 11, True)
-     , (13167, 14, True);
+     , (13167, 14, True)
+     , (13167, 19, True)
+     , (13167, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15690, 'arrowdalecottagessign');
@@ -5871,7 +6339,9 @@ VALUES (15690, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15690, 12, True)
      , (15690, 11, True)
-     , (15690, 14, True);
+     , (15690, 14, True)
+     , (15690, 19, True)
+     , (15690, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19172, 'explorersvillassign');
@@ -5896,7 +6366,9 @@ VALUES (19172, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (19172, 12, True)
      , (19172, 11, True)
-     , (19172, 14, True);
+     , (19172, 14, True)
+     , (19172, 19, True)
+     , (19172, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13192, 'westmayoiimountainvillassign');
@@ -5921,7 +6393,9 @@ VALUES (13192, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13192, 12, True)
      , (13192, 11, True)
-     , (13192, 14, True);
+     , (13192, 14, True)
+     , (13192, 19, True)
+     , (13192, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14729, 'rahvardsquaresign');
@@ -5946,7 +6420,9 @@ VALUES (14729, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14729, 12, True)
      , (14729, 11, True)
-     , (14729, 14, True);
+     , (14729, 14, True)
+     , (14729, 19, True)
+     , (14729, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15247, 'palmofstonevillassign');
@@ -5971,7 +6447,9 @@ VALUES (15247, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15247, 12, True)
      , (15247, 11, True)
-     , (15247, 14, True);
+     , (15247, 14, True)
+     , (15247, 19, True)
+     , (15247, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15702, 'herosvalesign');
@@ -5996,7 +6474,9 @@ VALUES (15702, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15702, 12, True)
      , (15702, 11, True)
-     , (15702, 14, True);
+     , (15702, 14, True)
+     , (15702, 19, True)
+     , (15702, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19180, 'majesticsaddlecottagessign');
@@ -6021,7 +6501,9 @@ VALUES (19180, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (19180, 12, True)
      , (19180, 11, True)
-     , (19180, 14, True);
+     , (19180, 14, True)
+     , (19180, 19, True)
+     , (19180, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14337, 'xinhsign');
@@ -6046,7 +6528,9 @@ VALUES (14337, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14337, 12, True)
      , (14337, 11, True)
-     , (14337, 14, True);
+     , (14337, 14, True)
+     , (14337, 19, True)
+     , (14337, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14316, 'magespasssign');
@@ -6071,7 +6555,9 @@ VALUES (14316, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14316, 12, True)
      , (14316, 11, True)
-     , (14316, 14, True);
+     , (14316, 14, True)
+     , (14316, 19, True)
+     , (14316, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12648, 'sawatofoothillssettlementsign');
@@ -6096,7 +6582,9 @@ VALUES (12648, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12648, 12, True)
      , (12648, 11, True)
-     , (12648, 14, True);
+     , (12648, 14, True)
+     , (12648, 19, True)
+     , (12648, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13158, 'fontalpasign');
@@ -6121,7 +6609,9 @@ VALUES (13158, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13158, 12, True)
      , (13158, 11, True)
-     , (13158, 14, True);
+     , (13158, 14, True)
+     , (13158, 19, True)
+     , (13158, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15265, 'villagequansign');
@@ -6146,7 +6636,9 @@ VALUES (15265, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15265, 12, True)
      , (15265, 11, True)
-     , (15265, 14, True);
+     , (15265, 14, True)
+     , (15265, 19, True)
+     , (15265, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12586, 'broadacrecottagessign');
@@ -6171,7 +6663,9 @@ VALUES (12586, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12586, 12, True)
      , (12586, 11, True)
-     , (12586, 14, True);
+     , (12586, 14, True)
+     , (12586, 19, True)
+     , (12586, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15219, 'drytreesettlementsign');
@@ -6196,7 +6690,9 @@ VALUES (15219, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15219, 12, True)
      , (15219, 11, True)
-     , (15219, 14, True);
+     , (15219, 14, True)
+     , (15219, 19, True)
+     , (15219, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14313, 'jaitandalesign');
@@ -6221,7 +6717,9 @@ VALUES (14313, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14313, 12, True)
      , (14313, 11, True)
-     , (14313, 14, True);
+     , (14313, 14, True)
+     , (14313, 19, True)
+     , (14313, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13153, 'dryreachbeachmanorssign');
@@ -6246,7 +6744,9 @@ VALUES (13153, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13153, 12, True)
      , (13153, 11, True)
-     , (13153, 14, True);
+     , (13153, 14, True)
+     , (13153, 19, True)
+     , (13153, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13165, 'nanzarisign');
@@ -6271,7 +6771,9 @@ VALUES (13165, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13165, 12, True)
      , (13165, 11, True)
-     , (13165, 14, True);
+     , (13165, 14, True)
+     , (13165, 19, True)
+     , (13165, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15213, 'caerlincottagessign');
@@ -6296,7 +6798,9 @@ VALUES (15213, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15213, 12, True)
      , (15213, 11, True)
-     , (15213, 14, True);
+     , (15213, 14, True)
+     , (15213, 19, True)
+     , (15213, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14746, 'westshorecottagessign');
@@ -6321,7 +6825,9 @@ VALUES (14746, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14746, 12, True)
      , (14746, 11, True)
-     , (14746, 14, True);
+     , (14746, 14, True)
+     , (14746, 19, True)
+     , (14746, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15254, 'shorevistacottagessign');
@@ -6346,7 +6852,9 @@ VALUES (15254, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15254, 12, True)
      , (15254, 11, True)
-     , (15254, 14, True);
+     , (15254, 14, True)
+     , (15254, 19, True)
+     , (15254, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14687, 'desertboundarycottagessign');
@@ -6371,7 +6879,9 @@ VALUES (14687, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14687, 12, True)
      , (14687, 11, True)
-     , (14687, 14, True);
+     , (14687, 14, True)
+     , (14687, 19, True)
+     , (14687, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14680, 'alarqascottagessign');
@@ -6396,7 +6906,9 @@ VALUES (14680, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14680, 12, True)
      , (14680, 11, True)
-     , (14680, 14, True);
+     , (14680, 14, True)
+     , (14680, 19, True)
+     , (14680, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13171, 'northyaraqvillassign');
@@ -6421,7 +6933,9 @@ VALUES (13171, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13171, 12, True)
      , (13171, 11, True)
-     , (13171, 14, True);
+     , (13171, 14, True)
+     , (13171, 19, True)
+     , (13171, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12661, 'southyaraqcottagessign');
@@ -6446,7 +6960,9 @@ VALUES (12661, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (12661, 12, True)
      , (12661, 11, True)
-     , (12661, 14, True);
+     , (12661, 14, True)
+     , (12661, 19, True)
+     , (12661, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14322, 'pillarsontheseacottagessign');
@@ -6471,7 +6987,9 @@ VALUES (14322, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14322, 12, True)
      , (14322, 11, True)
-     , (14322, 14, True);
+     , (14322, 14, True)
+     , (14322, 19, True)
+     , (14322, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13160, 'greenvalesettlementsign');
@@ -6496,7 +7014,9 @@ VALUES (13160, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13160, 12, True)
      , (13160, 11, True)
-     , (13160, 14, True);
+     , (13160, 14, True)
+     , (13160, 19, True)
+     , (13160, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14684, 'bleakvalleysign');
@@ -6521,7 +7041,9 @@ VALUES (14684, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14684, 12, True)
      , (14684, 11, True)
-     , (14684, 14, True);
+     , (14684, 14, True)
+     , (14684, 19, True)
+     , (14684, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19178, 'jeweledthornestatessign');
@@ -6546,5 +7068,7 @@ VALUES (19178, 1, 128)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (19178, 12, True)
      , (19178, 11, True)
-     , (19178, 14, True);
+     , (19178, 14, True)
+     , (19178, 19, True)
+     , (19178, 1, True);
 

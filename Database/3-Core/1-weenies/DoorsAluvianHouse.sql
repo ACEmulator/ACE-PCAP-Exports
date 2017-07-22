@@ -23,5 +23,7 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (412, 54, 2);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (412, 12, True);
+VALUES (412, 12, True)
+     , (412, 19, True)
+     , (412, 1, True);
 

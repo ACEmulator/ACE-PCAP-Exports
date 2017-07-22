@@ -28,7 +28,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4180, 13, True)
      , (4180, 12, True)
      , (4180, 11, True)
-     , (4180, 14, True);
+     , (4180, 14, True)
+     , (4180, 19, True)
+     , (4180, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25957, 'rottingcorpsezharalim');
@@ -60,7 +62,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (25957, 13, True)
      , (25957, 12, True)
      , (25957, 11, True)
-     , (25957, 14, True);
+     , (25957, 14, True)
+     , (25957, 19, True)
+     , (25957, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32199, 'ace32199-pumpkinfollower');
@@ -92,7 +96,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (32199, 13, True)
      , (32199, 12, True)
      , (32199, 11, True)
-     , (32199, 14, True);
+     , (32199, 14, True)
+     , (32199, 19, True)
+     , (32199, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4381, 'rottingcorpse2');
@@ -124,7 +130,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4381, 13, True)
      , (4381, 12, True)
      , (4381, 11, True)
-     , (4381, 14, True);
+     , (4381, 14, True)
+     , (4381, 19, True)
+     , (4381, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (137, 'basket');
@@ -156,7 +164,9 @@ VALUES (137, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (137, 13, True)
      , (137, 11, True)
-     , (137, 14, True);
+     , (137, 14, True)
+     , (137, 19, True)
+     , (137, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4382, 'rottingcorpse3');
@@ -188,7 +198,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4382, 13, True)
      , (4382, 12, True)
      , (4382, 11, True)
-     , (4382, 14, True);
+     , (4382, 14, True)
+     , (4382, 19, True)
+     , (4382, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41807, 'ace41807-corpse');
@@ -220,7 +232,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41807, 13, True)
      , (41807, 12, True)
      , (41807, 11, True)
-     , (41807, 14, True);
+     , (41807, 14, True)
+     , (41807, 19, True)
+     , (41807, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41806, 'ace41806-corpse');
@@ -252,7 +266,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41806, 13, True)
      , (41806, 12, True)
      , (41806, 11, True)
-     , (41806, 14, True);
+     , (41806, 14, True)
+     , (41806, 19, True)
+     , (41806, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41808, 'ace41808-corpse');
@@ -284,5 +300,7 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (41808, 13, True)
      , (41808, 12, True)
      , (41808, 11, True)
-     , (41808, 14, True);
+     , (41808, 14, True)
+     , (41808, 19, True)
+     , (41808, 1, True);
 
