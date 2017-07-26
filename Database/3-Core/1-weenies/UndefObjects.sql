@@ -17,7 +17,8 @@ VALUES (1635, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1635, 1, 0)
-     , (1635, 93, 166728);
+     , (1635, 93, 166728)
+     , (1635, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1635, 77, 1)
@@ -52,7 +53,8 @@ VALUES (1499, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1499, 1, 0)
-     , (1499, 93, 166728);
+     , (1499, 93, 166728)
+     , (1499, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1499, 77, 1)
@@ -87,7 +89,8 @@ VALUES (1503, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1503, 1, 0)
-     , (1503, 93, 166728);
+     , (1503, 93, 166728)
+     , (1503, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1503, 77, 1)
@@ -123,7 +126,8 @@ VALUES (1667, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1667, 1, 0)
-     , (1667, 93, 166728);
+     , (1667, 93, 166728)
+     , (1667, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1667, 77, 1)
@@ -159,7 +163,8 @@ VALUES (1634, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1634, 1, 0)
-     , (1634, 93, 166728);
+     , (1634, 93, 166728)
+     , (1634, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1634, 77, 1)
@@ -194,7 +199,8 @@ VALUES (1636, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1636, 1, 0)
-     , (1636, 93, 166472);
+     , (1636, 93, 166472)
+     , (1636, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1636, 77, 1)
@@ -230,7 +236,8 @@ VALUES (1633, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1633, 1, 0)
-     , (1633, 93, 166728);
+     , (1633, 93, 166728)
+     , (1633, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1633, 77, 1)
@@ -266,7 +273,8 @@ VALUES (7263, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7263, 1, 0)
-     , (7263, 93, 166728);
+     , (7263, 93, 166728)
+     , (7263, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7263, 77, 1)
@@ -301,7 +309,8 @@ VALUES (43344, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43344, 1, 0)
-     , (43344, 93, 166728);
+     , (43344, 93, 166728)
+     , (43344, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (43344, 77, 1)
@@ -336,7 +345,8 @@ VALUES (43231, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43231, 1, 0)
-     , (43231, 93, 167752);
+     , (43231, 93, 167752)
+     , (43231, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (43231, 77, 1)
@@ -372,7 +382,8 @@ VALUES (7262, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7262, 1, 0)
-     , (7262, 93, 166728);
+     , (7262, 93, 166728)
+     , (7262, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7262, 77, 1)
@@ -408,7 +419,8 @@ VALUES (7267, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7267, 1, 0)
-     , (7267, 93, 166728);
+     , (7267, 93, 166728)
+     , (7267, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7267, 77, 1)
@@ -443,7 +455,8 @@ VALUES (20978, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20978, 1, 0)
-     , (20978, 93, 167752);
+     , (20978, 93, 167752)
+     , (20978, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (20978, 77, 1)
@@ -479,7 +492,8 @@ VALUES (20973, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20973, 1, 0)
-     , (20973, 93, 167752);
+     , (20973, 93, 167752)
+     , (20973, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (20973, 77, 1)
@@ -516,7 +530,8 @@ VALUES (20979, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20979, 1, 0)
-     , (20979, 93, 167496);
+     , (20979, 93, 167496)
+     , (20979, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (20979, 77, 1)
@@ -553,7 +568,8 @@ VALUES (7266, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7266, 1, 0)
-     , (7266, 93, 166728);
+     , (7266, 93, 166728)
+     , (7266, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7266, 77, 1)
@@ -588,7 +604,8 @@ VALUES (7268, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7268, 1, 0)
-     , (7268, 93, 166472);
+     , (7268, 93, 166472)
+     , (7268, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7268, 77, 1)
@@ -624,7 +641,8 @@ VALUES (7264, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7264, 1, 0)
-     , (7264, 93, 166728);
+     , (7264, 93, 166728)
+     , (7264, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7264, 77, 1)
@@ -659,7 +677,8 @@ VALUES (8607, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8607, 1, 0)
-     , (8607, 93, 166728);
+     , (8607, 93, 166728)
+     , (8607, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (8607, 77, 1)
@@ -694,7 +713,8 @@ VALUES (20977, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20977, 1, 0)
-     , (20977, 93, 167752);
+     , (20977, 93, 167752)
+     , (20977, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (20977, 77, 1)
@@ -730,7 +750,8 @@ VALUES (20974, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20974, 1, 0)
-     , (20974, 93, 167752);
+     , (20974, 93, 167752)
+     , (20974, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (20974, 77, 1)
@@ -764,7 +785,8 @@ VALUES (7275, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7275, 1, 0)
-     , (7275, 93, 133960);
+     , (7275, 93, 133960)
+     , (7275, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7275, 79, 0)
@@ -796,7 +818,8 @@ VALUES (7270, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7270, 1, 0)
-     , (7270, 93, 133960);
+     , (7270, 93, 133960)
+     , (7270, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7270, 79, 0)
@@ -829,7 +852,8 @@ VALUES (43232, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43232, 1, 0)
-     , (43232, 93, 166728);
+     , (43232, 93, 166728)
+     , (43232, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (43232, 77, 1)
@@ -862,7 +886,8 @@ VALUES (7272, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7272, 1, 0)
-     , (7272, 93, 133960);
+     , (7272, 93, 133960)
+     , (7272, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7272, 79, 0)
@@ -896,7 +921,8 @@ VALUES (20976, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20976, 1, 0)
-     , (20976, 93, 167752);
+     , (20976, 93, 167752)
+     , (20976, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (20976, 77, 1)
@@ -931,7 +957,8 @@ VALUES (7282, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7282, 1, 0)
-     , (7282, 93, 133960);
+     , (7282, 93, 133960)
+     , (7282, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7282, 79, 0)
@@ -965,7 +992,8 @@ VALUES (20975, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20975, 1, 0)
-     , (20975, 93, 167752);
+     , (20975, 93, 167752)
+     , (20975, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (20975, 77, 1)
@@ -1000,7 +1028,8 @@ VALUES (7278, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7278, 1, 0)
-     , (7278, 93, 133960);
+     , (7278, 93, 133960)
+     , (7278, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7278, 79, 0)
@@ -1033,7 +1062,8 @@ VALUES (7265, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7265, 1, 0)
-     , (7265, 93, 166728);
+     , (7265, 93, 166728)
+     , (7265, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7265, 77, 1)
@@ -1069,7 +1099,8 @@ VALUES (7277, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7277, 1, 0)
-     , (7277, 93, 166728);
+     , (7277, 93, 166728)
+     , (7277, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7277, 77, 1)
@@ -1104,7 +1135,8 @@ VALUES (8603, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8603, 1, 0)
-     , (8603, 93, 166728);
+     , (8603, 93, 166728)
+     , (8603, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (8603, 77, 1)
@@ -1137,7 +1169,8 @@ VALUES (7274, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7274, 1, 0)
-     , (7274, 93, 133960);
+     , (7274, 93, 133960)
+     , (7274, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7274, 79, 0)
@@ -1170,7 +1203,8 @@ VALUES (43230, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43230, 1, 0)
-     , (43230, 93, 1212468);
+     , (43230, 93, 1212468)
+     , (43230, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (43230, 77, 1)
@@ -1212,7 +1246,8 @@ VALUES (30928, 53, 101)
      , (30928, 12, 1)
      , (30928, 94, 8192)
      , (30928, 16, 524296)
-     , (30928, 93, 1044);
+     , (30928, 93, 1044)
+     , (30928, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30928, 13, True)
@@ -1238,7 +1273,8 @@ VALUES (23144, 8, 100673815)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23144, 1, 0)
-     , (23144, 93, 133960);
+     , (23144, 93, 133960)
+     , (23144, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (23144, 79, 0)
@@ -1271,7 +1307,8 @@ VALUES (35569, 8, 100669005)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35569, 1, 0)
-     , (35569, 93, 166728);
+     , (35569, 93, 166728)
+     , (35569, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (35569, 77, 1)
@@ -1307,7 +1344,8 @@ VALUES (35570, 8, 100669701)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35570, 1, 0)
-     , (35570, 93, 166472);
+     , (35570, 93, 166472)
+     , (35570, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (35570, 77, 1)
@@ -1351,7 +1389,8 @@ VALUES (43812, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43812, 1, 0)
-     , (43812, 93, 166728);
+     , (43812, 93, 166728)
+     , (43812, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (43812, 77, 1)
@@ -1386,7 +1425,8 @@ VALUES (7279, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7279, 1, 0)
-     , (7279, 93, 166728);
+     , (7279, 93, 166728)
+     , (7279, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7279, 77, 1)
@@ -1422,7 +1462,8 @@ VALUES (43811, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43811, 1, 0)
-     , (43811, 93, 166728);
+     , (43811, 93, 166728)
+     , (43811, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (43811, 77, 1)
@@ -1456,7 +1497,8 @@ VALUES (7273, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7273, 1, 0)
-     , (7273, 93, 133960);
+     , (7273, 93, 133960)
+     , (7273, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7273, 79, 0)
@@ -1489,7 +1531,8 @@ VALUES (36454, 8, 100689679)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36454, 1, 0)
-     , (36454, 93, 166728);
+     , (36454, 93, 166728)
+     , (36454, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (36454, 77, 1)
@@ -1524,7 +1567,8 @@ VALUES (31662, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31662, 1, 0)
-     , (31662, 93, 166728);
+     , (31662, 93, 166728)
+     , (31662, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (31662, 77, 1)
@@ -1558,7 +1602,8 @@ VALUES (35960, 8, 100673809)
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35960, 53, 52)
      , (35960, 1, 0)
-     , (35960, 93, 133704);
+     , (35960, 93, 133704)
+     , (35960, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (35960, 79, 0)
@@ -1591,7 +1636,8 @@ VALUES (35961, 8, 100673809)
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35961, 53, 52)
      , (35961, 1, 0)
-     , (35961, 93, 134728);
+     , (35961, 93, 134728)
+     , (35961, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (35961, 79, 0)
@@ -1624,7 +1670,8 @@ VALUES (35980, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35980, 1, 0)
-     , (35980, 93, 133960);
+     , (35980, 93, 133960)
+     , (35980, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (35980, 79, 0)
@@ -1655,7 +1702,8 @@ VALUES (33264, 8, 100668442)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33264, 1, 0)
-     , (33264, 93, 131912);
+     , (33264, 93, 131912)
+     , (33264, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33264, 79, 0)
@@ -1685,7 +1733,8 @@ VALUES (7269, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7269, 1, 0)
-     , (7269, 93, 133960);
+     , (7269, 93, 133960)
+     , (7269, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7269, 79, 0)
@@ -1717,7 +1766,8 @@ VALUES (43233, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43233, 1, 0)
-     , (43233, 93, 133960);
+     , (43233, 93, 133960)
+     , (43233, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (43233, 79, 0)
@@ -1751,7 +1801,8 @@ VALUES (33040, 8, 100669116)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33040, 1, 0)
-     , (33040, 93, 166728);
+     , (33040, 93, 166728)
+     , (33040, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33040, 77, 1)
@@ -1820,7 +1871,8 @@ VALUES (33041, 8, 100670704)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33041, 1, 0)
-     , (33041, 93, 133960);
+     , (33041, 93, 133960)
+     , (33041, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33041, 79, 0)
@@ -1853,7 +1905,8 @@ VALUES (33039, 8, 100667460)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33039, 1, 0)
-     , (33039, 93, 167496);
+     , (33039, 93, 167496)
+     , (33039, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33039, 77, 1)
@@ -1891,7 +1944,8 @@ VALUES (14570, 8, 100672508)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14570, 1, 0)
-     , (14570, 93, 166728);
+     , (14570, 93, 166728)
+     , (14570, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (14570, 77, 1)
@@ -1930,7 +1984,8 @@ VALUES (20649, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20649, 1, 0)
-     , (20649, 93, 166472);
+     , (20649, 93, 166472)
+     , (20649, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (20649, 77, 1)
@@ -1966,7 +2021,8 @@ VALUES (7276, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7276, 1, 0)
-     , (7276, 93, 166728);
+     , (7276, 93, 166728)
+     , (7276, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7276, 77, 1)
@@ -2001,7 +2057,8 @@ VALUES (7280, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7280, 1, 0)
-     , (7280, 93, 166728);
+     , (7280, 93, 166728)
+     , (7280, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7280, 77, 1)
@@ -2036,7 +2093,8 @@ VALUES (33526, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33526, 1, 0)
-     , (33526, 93, 166728);
+     , (33526, 93, 166728)
+     , (33526, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33526, 77, 1)
@@ -2069,7 +2127,8 @@ VALUES (33846, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33846, 1, 0)
-     , (33846, 93, 1179700);
+     , (33846, 93, 1179700)
+     , (33846, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33846, 79, 0)
@@ -2105,7 +2164,8 @@ VALUES (21919, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (21919, 1, 0)
-     , (21919, 93, 166728);
+     , (21919, 93, 166728)
+     , (21919, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (21919, 77, 1)
@@ -2145,7 +2205,8 @@ VALUES (7271, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7271, 1, 0)
-     , (7271, 93, 133960);
+     , (7271, 93, 133960)
+     , (7271, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7271, 79, 0)
@@ -2176,7 +2237,8 @@ VALUES (7281, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7281, 1, 0)
-     , (7281, 93, 133960);
+     , (7281, 93, 133960)
+     , (7281, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7281, 79, 0)
@@ -2210,7 +2272,8 @@ VALUES (21918, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (21918, 1, 0)
-     , (21918, 93, 166728);
+     , (21918, 93, 166728)
+     , (21918, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (21918, 77, 1)
@@ -2253,7 +2316,8 @@ VALUES (21917, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (21917, 1, 0)
-     , (21917, 93, 166728);
+     , (21917, 93, 166728)
+     , (21917, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (21917, 77, 1)
@@ -2296,7 +2360,8 @@ VALUES (21916, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (21916, 1, 0)
-     , (21916, 93, 166728);
+     , (21916, 93, 166728)
+     , (21916, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (21916, 77, 1)
@@ -2338,7 +2403,8 @@ VALUES (7304, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7304, 1, 0)
-     , (7304, 93, 166728);
+     , (7304, 93, 166728)
+     , (7304, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7304, 77, 1)
@@ -2374,7 +2440,8 @@ VALUES (33527, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33527, 1, 0)
-     , (33527, 93, 166728);
+     , (33527, 93, 166728)
+     , (33527, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33527, 77, 1)
@@ -2407,7 +2474,8 @@ VALUES (33729, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33729, 1, 0)
-     , (33729, 93, 133960);
+     , (33729, 93, 133960)
+     , (33729, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33729, 79, 0)
@@ -2438,7 +2506,8 @@ VALUES (33724, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33724, 1, 0)
-     , (33724, 93, 133960);
+     , (33724, 93, 133960)
+     , (33724, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33724, 79, 0)
@@ -2471,7 +2540,8 @@ VALUES (46033, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46033, 1, 0)
-     , (46033, 93, 166728);
+     , (46033, 93, 166728)
+     , (46033, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (46033, 77, 1)
@@ -2504,7 +2574,8 @@ VALUES (46032, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46032, 1, 0)
-     , (46032, 93, 133960);
+     , (46032, 93, 133960)
+     , (46032, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (46032, 79, 0)
@@ -2537,7 +2608,8 @@ VALUES (8604, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8604, 1, 0)
-     , (8604, 93, 166728);
+     , (8604, 93, 166728)
+     , (8604, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (8604, 77, 1)
@@ -2572,7 +2644,8 @@ VALUES (46034, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46034, 1, 0)
-     , (46034, 93, 167752);
+     , (46034, 93, 167752)
+     , (46034, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (46034, 77, 1)
@@ -2608,7 +2681,8 @@ VALUES (8610, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8610, 1, 0)
-     , (8610, 93, 166728);
+     , (8610, 93, 166728)
+     , (8610, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (8610, 77, 1)
@@ -2643,7 +2717,8 @@ VALUES (8608, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8608, 1, 0)
-     , (8608, 93, 166728);
+     , (8608, 93, 166728)
+     , (8608, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (8608, 77, 1)
@@ -2678,7 +2753,8 @@ VALUES (7301, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7301, 1, 0)
-     , (7301, 93, 166728);
+     , (7301, 93, 166728)
+     , (7301, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7301, 77, 1)
@@ -2714,7 +2790,8 @@ VALUES (8635, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8635, 1, 0)
-     , (8635, 93, 166728);
+     , (8635, 93, 166728)
+     , (8635, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (8635, 77, 1)
@@ -2750,7 +2827,8 @@ VALUES (8602, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8602, 1, 0)
-     , (8602, 93, 166728);
+     , (8602, 93, 166728)
+     , (8602, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (8602, 77, 1)
@@ -2785,7 +2863,8 @@ VALUES (8605, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8605, 1, 0)
-     , (8605, 93, 166728);
+     , (8605, 93, 166728)
+     , (8605, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (8605, 77, 1)
@@ -2818,7 +2897,8 @@ VALUES (35179, 8, 100667460)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35179, 1, 0)
-     , (35179, 93, 133960);
+     , (35179, 93, 133960)
+     , (35179, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (35179, 79, 0)
@@ -2852,7 +2932,8 @@ VALUES (2619, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2619, 1, 0)
-     , (2619, 93, 167752);
+     , (2619, 93, 167752)
+     , (2619, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (2619, 77, 1)
@@ -2894,7 +2975,8 @@ VALUES (32274, 53, 101)
      , (32274, 12, 10)
      , (32274, 94, 4194336)
      , (32274, 16, 524296)
-     , (32274, 93, 1044);
+     , (32274, 93, 1044)
+     , (32274, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (32274, 39, 0.5);
@@ -2932,7 +3014,8 @@ VALUES (7303, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7303, 1, 0)
-     , (7303, 93, 166728);
+     , (7303, 93, 166728)
+     , (7303, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7303, 77, 1)
@@ -2968,7 +3051,8 @@ VALUES (33843, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33843, 1, 0)
-     , (33843, 93, 165704);
+     , (33843, 93, 165704)
+     , (33843, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33843, 77, 1)
@@ -3002,7 +3086,8 @@ VALUES (33853, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33853, 1, 0)
-     , (33853, 93, 133960);
+     , (33853, 93, 133960)
+     , (33853, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33853, 79, 0)
@@ -3033,7 +3118,8 @@ VALUES (33728, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33728, 1, 0)
-     , (33728, 93, 134984);
+     , (33728, 93, 134984)
+     , (33728, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33728, 79, 0)
@@ -3065,7 +3151,8 @@ VALUES (33498, 8, 100668442)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33498, 1, 0)
-     , (33498, 93, 131912);
+     , (33498, 93, 131912)
+     , (33498, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33498, 79, 0)
@@ -3097,7 +3184,8 @@ VALUES (7305, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7305, 1, 0)
-     , (7305, 93, 166728);
+     , (7305, 93, 166728)
+     , (7305, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7305, 77, 1)
@@ -3131,7 +3219,8 @@ VALUES (33867, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33867, 1, 0)
-     , (33867, 93, 133960);
+     , (33867, 93, 133960)
+     , (33867, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33867, 79, 0)
@@ -3164,7 +3253,8 @@ VALUES (41980, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41980, 1, 0)
-     , (41980, 93, 166728);
+     , (41980, 93, 166728)
+     , (41980, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (41980, 77, 1)
@@ -3198,7 +3288,8 @@ VALUES (37376, 8, 100689841)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37376, 1, 0)
-     , (37376, 93, 131912);
+     , (37376, 93, 131912)
+     , (37376, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (37376, 79, 0)
@@ -3230,7 +3321,8 @@ VALUES (37159, 8, 100689841)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37159, 1, 0)
-     , (37159, 93, 166472);
+     , (37159, 93, 166472)
+     , (37159, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (37159, 77, 1)
@@ -3266,7 +3358,8 @@ VALUES (26529, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (26529, 1, 0)
-     , (26529, 93, 166728);
+     , (26529, 93, 166728)
+     , (26529, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (26529, 77, 1)
@@ -3309,7 +3402,8 @@ VALUES (8549, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8549, 1, 0)
-     , (8549, 93, 133960);
+     , (8549, 93, 133960)
+     , (8549, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (8549, 79, 0)
@@ -3342,7 +3436,8 @@ VALUES (29029, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29029, 1, 0)
-     , (29029, 93, 166728);
+     , (29029, 93, 166728)
+     , (29029, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (29029, 77, 1)
@@ -3378,7 +3473,8 @@ VALUES (29031, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29031, 1, 0)
-     , (29031, 93, 166728);
+     , (29031, 93, 166728)
+     , (29031, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (29031, 77, 1)
@@ -3414,7 +3510,8 @@ VALUES (9520, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9520, 1, 0)
-     , (9520, 93, 166728);
+     , (9520, 93, 166728)
+     , (9520, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (9520, 77, 1)
@@ -3447,7 +3544,8 @@ VALUES (33847, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33847, 1, 0)
-     , (33847, 93, 133960);
+     , (33847, 93, 133960)
+     , (33847, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33847, 79, 0)
@@ -3478,7 +3576,8 @@ VALUES (33861, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33861, 1, 0)
-     , (33861, 93, 133960);
+     , (33861, 93, 133960)
+     , (33861, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33861, 79, 0)
@@ -3509,7 +3608,8 @@ VALUES (33851, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33851, 1, 0)
-     , (33851, 93, 1179700);
+     , (33851, 93, 1179700)
+     , (33851, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33851, 79, 0)
@@ -3542,7 +3642,8 @@ VALUES (33866, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33866, 1, 0)
-     , (33866, 93, 1179700);
+     , (33866, 93, 1179700)
+     , (33866, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33866, 79, 0)
@@ -3575,7 +3676,8 @@ VALUES (33863, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33863, 1, 0)
-     , (33863, 93, 133960);
+     , (33863, 93, 133960)
+     , (33863, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33863, 79, 0)
@@ -3606,7 +3708,8 @@ VALUES (33864, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33864, 1, 0)
-     , (33864, 93, 1179700);
+     , (33864, 93, 1179700)
+     , (33864, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33864, 79, 0)
@@ -3639,7 +3742,8 @@ VALUES (33865, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33865, 1, 0)
-     , (33865, 93, 1179700);
+     , (33865, 93, 1179700)
+     , (33865, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33865, 79, 0)
@@ -3672,7 +3776,8 @@ VALUES (33862, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33862, 1, 0)
-     , (33862, 93, 1179700);
+     , (33862, 93, 1179700)
+     , (33862, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33862, 79, 0)
@@ -3707,7 +3812,8 @@ VALUES (35461, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35461, 1, 0)
-     , (35461, 93, 166728);
+     , (35461, 93, 166728)
+     , (35461, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (35461, 77, 1)
@@ -3742,7 +3848,8 @@ VALUES (52492, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52492, 1, 0)
-     , (52492, 93, 166728);
+     , (52492, 93, 166728)
+     , (52492, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (52492, 77, 1)
@@ -3778,7 +3885,8 @@ VALUES (52621, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52621, 1, 0)
-     , (52621, 93, 167752);
+     , (52621, 93, 167752)
+     , (52621, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (52621, 77, 1)
@@ -3812,7 +3920,8 @@ VALUES (53358, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53358, 1, 0)
-     , (53358, 93, 133960);
+     , (53358, 93, 133960)
+     , (53358, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (53358, 79, 0)
@@ -3845,7 +3954,8 @@ VALUES (52622, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52622, 1, 0)
-     , (52622, 93, 166728);
+     , (52622, 93, 166728)
+     , (52622, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (52622, 77, 1)
@@ -3878,7 +3988,8 @@ VALUES (51894, 8, 100667500)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51894, 1, 0)
-     , (51894, 93, 133960);
+     , (51894, 93, 133960)
+     , (51894, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (51894, 79, 0)
@@ -3911,7 +4022,8 @@ VALUES (29030, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29030, 1, 0)
-     , (29030, 93, 166728);
+     , (29030, 93, 166728)
+     , (29030, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (29030, 77, 1)
@@ -3947,7 +4059,8 @@ VALUES (29033, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29033, 1, 0)
-     , (29033, 93, 166728);
+     , (29033, 93, 166728)
+     , (29033, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (29033, 77, 1)
@@ -3981,7 +4094,8 @@ VALUES (33845, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33845, 1, 0)
-     , (33845, 93, 1179700);
+     , (33845, 93, 1179700)
+     , (33845, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33845, 79, 0)
@@ -4014,7 +4128,8 @@ VALUES (33849, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33849, 1, 0)
-     , (33849, 93, 133960);
+     , (33849, 93, 133960)
+     , (33849, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33849, 79, 0)
@@ -4047,7 +4162,8 @@ VALUES (43754, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43754, 1, 0)
-     , (43754, 93, 165704);
+     , (43754, 93, 165704)
+     , (43754, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (43754, 77, 1)
@@ -4081,7 +4197,8 @@ VALUES (33848, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33848, 1, 0)
-     , (33848, 93, 1179700);
+     , (33848, 93, 1179700)
+     , (33848, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33848, 79, 0)
@@ -4114,7 +4231,8 @@ VALUES (33525, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33525, 1, 0)
-     , (33525, 93, 133960);
+     , (33525, 93, 133960)
+     , (33525, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33525, 79, 0)
@@ -4148,7 +4266,8 @@ VALUES (34434, 8, 100670277)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34434, 1, 0)
-     , (34434, 93, 166472);
+     , (34434, 93, 166472)
+     , (34434, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (34434, 77, 1)
@@ -4191,7 +4310,8 @@ VALUES (20181, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20181, 1, 0)
-     , (20181, 93, 133960);
+     , (20181, 93, 133960)
+     , (20181, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (20181, 79, 0)
@@ -4222,7 +4342,8 @@ VALUES (20182, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20182, 1, 0)
-     , (20182, 93, 133960);
+     , (20182, 93, 133960)
+     , (20182, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (20182, 79, 0)
@@ -4253,7 +4374,8 @@ VALUES (33726, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33726, 1, 0)
-     , (33726, 93, 133960);
+     , (33726, 93, 133960)
+     , (33726, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33726, 79, 0)
@@ -4284,7 +4406,8 @@ VALUES (53357, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53357, 1, 0)
-     , (53357, 93, 133960);
+     , (53357, 93, 133960)
+     , (53357, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (53357, 79, 0)
@@ -4315,7 +4438,8 @@ VALUES (33722, 8, 100667494)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33722, 1, 0)
-     , (33722, 93, 133960);
+     , (33722, 93, 133960)
+     , (33722, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33722, 79, 0)
@@ -4346,7 +4470,8 @@ VALUES (52513, 8, 100670704)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52513, 1, 0)
-     , (52513, 93, 133960);
+     , (52513, 93, 133960)
+     , (52513, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (52513, 79, 0)
@@ -4379,7 +4504,8 @@ VALUES (22079, 8, 100672174)
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22079, 1, 0)
-     , (22079, 93, 166728);
+     , (22079, 93, 166728)
+     , (22079, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (22079, 77, 1)

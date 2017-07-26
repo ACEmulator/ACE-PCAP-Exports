@@ -22,7 +22,8 @@ VALUES (8128, 1, 16)
      , (8128, 6, 255)
      , (8128, 133, 4)
      , (8128, 16, 1)
-     , (8128, 93, 2098184);
+     , (8128, 93, 2098184)
+     , (8128, 9007, 10);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (8128, 39, 5);
@@ -60,7 +61,8 @@ VALUES (8129, 1, 16)
      , (8129, 6, 255)
      , (8129, 133, 4)
      , (8129, 16, 1)
-     , (8129, 93, 2098184);
+     , (8129, 93, 2098184)
+     , (8129, 9007, 10);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (8129, 39, 8);

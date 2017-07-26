@@ -20,7 +20,8 @@ VALUES (20017, 1, 16)
      , (20017, 6, 255)
      , (20017, 133, 4)
      , (20017, 16, 1)
-     , (20017, 93, 2098200);
+     , (20017, 93, 2098200)
+     , (20017, 9007, 10);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (20017, 54, 3);
@@ -55,7 +56,8 @@ VALUES (10924, 1, 16)
      , (10924, 6, 255)
      , (10924, 133, 4)
      , (10924, 16, 32)
-     , (10924, 93, 6292504);
+     , (10924, 93, 6292504)
+     , (10924, 9007, 10);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (10924, 54, 3)

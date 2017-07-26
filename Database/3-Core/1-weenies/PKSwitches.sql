@@ -17,7 +17,8 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (854, 1, 128)
      , (854, 5, 50)
      , (854, 16, 32)
-     , (854, 93, 66576);
+     , (854, 93, 66576)
+     , (854, 9007, 27);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (854, 54, 5);
@@ -47,7 +48,8 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (29034, 1, 128)
      , (29034, 5, 50)
      , (29034, 16, 32)
-     , (29034, 93, 1040);
+     , (29034, 93, 1040)
+     , (29034, 9007, 27);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (29034, 54, 5);

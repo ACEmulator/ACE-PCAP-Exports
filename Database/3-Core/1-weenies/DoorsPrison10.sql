@@ -17,7 +17,8 @@ VALUES (577, 8, 100668434)
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (577, 1, 128)
      , (577, 16, 32)
-     , (577, 93, 65560);
+     , (577, 93, 65560)
+     , (577, 9007, 19);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (577, 54, 2);
