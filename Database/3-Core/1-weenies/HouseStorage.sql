@@ -21,7 +21,8 @@ VALUES (9687, 1, 512)
      , (9687, 6, 26)
      , (9687, 16, 48)
      , (9687, 19, 200)
-     , (9687, 93, 1048);
+     , (9687, 93, 1048)
+     , (9687, 9007, 57);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (9687, 54, 1);

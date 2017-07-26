@@ -22,7 +22,8 @@ VALUES (32754, 53, 1)
      , (32754, 16, 1)
      , (32754, 9, 1048576)
      , (32754, 52, 1)
-     , (32754, 93, 1044);
+     , (32754, 93, 1044)
+     , (32754, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (32754, 39, 0.8);
@@ -58,7 +59,8 @@ VALUES (25521, 53, 1)
      , (25521, 9, 16777216)
      , (25521, 19, 1)
      , (25521, 52, 1)
-     , (25521, 93, 1044);
+     , (25521, 93, 1044)
+     , (25521, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (25521, 13, True)

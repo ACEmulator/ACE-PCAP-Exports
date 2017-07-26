@@ -16,7 +16,8 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (7934, 1, 65536)
      , (7934, 133, 4)
      , (7934, 16, 32)
-     , (7934, 93, 3084);
+     , (7934, 93, 3084)
+     , (7934, 9007, 7);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7934, 54, -0.1);
