@@ -29,7 +29,8 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (20017, 12, True)
      , (20017, 11, True)
      , (20017, 14, True)
-     , (20017, 41, True);
+     , (20017, 41, True)
+     , (20017, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10924, 'boygrubpetgrub-xp');
@@ -65,7 +66,8 @@ VALUES (10924, 12, True)
      , (10924, 11, True)
      , (10924, 14, True)
      , (10924, 41, True)
-     , (10924, 42, True);
+     , (10924, 42, True)
+     , (10924, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (10924, 67114230, 0, 0);

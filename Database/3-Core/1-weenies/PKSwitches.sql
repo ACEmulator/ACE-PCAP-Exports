@@ -24,7 +24,9 @@ VALUES (854, 54, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (854, 11, True)
-     , (854, 14, True);
+     , (854, 14, True)
+     , (854, 19, True)
+     , (854, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29034, 'altarfalatacotpk');
@@ -52,5 +54,7 @@ VALUES (29034, 54, 5);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29034, 11, True)
-     , (29034, 14, True);
+     , (29034, 14, True)
+     , (29034, 19, True)
+     , (29034, 1, True);
 

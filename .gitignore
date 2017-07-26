@@ -1,8 +1,10 @@
 #################
 ## ACE-World Specific
 #################
+Database/compiled/*.sql
 Database/combined/*.sql
-Database/5-Overwrites/dereth-museum/combined/*.sql
+Database/3-Core/combined/*.sql
+Database/10-Overwrites/dereth-museum/combined/*.sql
 
 #################
 ## Eclipse

@@ -26,7 +26,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (9071, 13, True)
      , (9071, 12, True)
      , (9071, 14, True)
-     , (9071, 15, True);
+     , (9071, 15, True)
+     , (9071, 19, True)
+     , (9071, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9071, 67111849, 1, 255);

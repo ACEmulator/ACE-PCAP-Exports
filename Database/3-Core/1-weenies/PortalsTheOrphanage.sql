@@ -25,5 +25,7 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (27298, 13, True)
      , (27298, 12, True)
      , (27298, 14, True)
-     , (27298, 15, True);
+     , (27298, 15, True)
+     , (27298, 19, True)
+     , (27298, 1, True);
 

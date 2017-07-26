@@ -25,7 +25,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665289, 13, True)
      , (2095665289, 12, True)
      , (2095665289, 14, True)
-     , (2095665289, 15, True);
+     , (2095665289, 15, True)
+     , (2095665289, 19, True)
+     , (2095665289, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2136313873, 262164, 43067, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -54,7 +56,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2136313873, 13, True)
      , (2136313873, 12, True)
      , (2136313873, 14, True)
-     , (2136313873, 15, True);
+     , (2136313873, 15, True)
+     , (2136313873, 19, True)
+     , (2136313873, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2120470595, 262164, 43067, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -83,7 +87,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120470595, 13, True)
      , (2120470595, 12, True)
      , (2120470595, 14, True)
-     , (2120470595, 15, True);
+     , (2120470595, 15, True)
+     , (2120470595, 19, True)
+     , (2120470595, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2094272620, 262164, 43067, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -112,7 +118,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272620, 13, True)
      , (2094272620, 12, True)
      , (2094272620, 14, True)
-     , (2094272620, 15, True);
+     , (2094272620, 15, True)
+     , (2094272620, 19, True)
+     , (2094272620, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2068250680, 262164, 43067, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -141,7 +149,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250680, 13, True)
      , (2068250680, 12, True)
      , (2068250680, 14, True)
-     , (2068250680, 15, True);
+     , (2068250680, 15, True)
+     , (2068250680, 19, True)
+     , (2068250680, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2090184811, 262164, 43067, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -170,7 +180,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184811, 13, True)
      , (2090184811, 12, True)
      , (2090184811, 14, True)
-     , (2090184811, 15, True);
+     , (2090184811, 15, True)
+     , (2090184811, 19, True)
+     , (2090184811, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2132942882, 262164, 43067, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -199,7 +211,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2132942882, 13, True)
      , (2132942882, 12, True)
      , (2132942882, 14, True)
-     , (2132942882, 15, True);
+     , (2132942882, 15, True)
+     , (2132942882, 19, True)
+     , (2132942882, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2122457103, 262164, 43067, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -228,7 +242,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2122457103, 13, True)
      , (2122457103, 12, True)
      , (2122457103, 14, True)
-     , (2122457103, 15, True);
+     , (2122457103, 15, True)
+     , (2122457103, 19, True)
+     , (2122457103, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2074177587, 262164, 43067, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -257,7 +273,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2074177587, 13, True)
      , (2074177587, 12, True)
      , (2074177587, 14, True)
-     , (2074177587, 15, True);
+     , (2074177587, 15, True)
+     , (2074177587, 19, True)
+     , (2074177587, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2121588975, 262164, 43067, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -286,7 +304,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588975, 13, True)
      , (2121588975, 12, True)
      , (2121588975, 14, True)
-     , (2121588975, 15, True);
+     , (2121588975, 15, True)
+     , (2121588975, 19, True)
+     , (2121588975, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2107879481, 262164, 43067, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -315,7 +335,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107879481, 13, True)
      , (2107879481, 12, True)
      , (2107879481, 14, True)
-     , (2107879481, 15, True);
+     , (2107879481, 15, True)
+     , (2107879481, 19, True)
+     , (2107879481, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2120425503, 262164, 43067, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -344,7 +366,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120425503, 13, True)
      , (2120425503, 12, True)
      , (2120425503, 14, True)
-     , (2120425503, 15, True);
+     , (2120425503, 15, True)
+     , (2120425503, 19, True)
+     , (2120425503, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2107986068, 262164, 43067, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -373,7 +397,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107986068, 13, True)
      , (2107986068, 12, True)
      , (2107986068, 14, True)
-     , (2107986068, 15, True);
+     , (2107986068, 15, True)
+     , (2107986068, 19, True)
+     , (2107986068, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2087358580, 262164, 43065, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -402,7 +428,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358580, 13, True)
      , (2087358580, 12, True)
      , (2087358580, 14, True)
-     , (2087358580, 15, True);
+     , (2087358580, 15, True)
+     , (2087358580, 19, True)
+     , (2087358580, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1975107601, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -431,7 +459,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1975107601, 13, True)
      , (1975107601, 12, True)
      , (1975107601, 14, True)
-     , (1975107601, 15, True);
+     , (1975107601, 15, True)
+     , (1975107601, 19, True)
+     , (1975107601, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1920909367, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -460,7 +490,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1920909367, 13, True)
      , (1920909367, 12, True)
      , (1920909367, 14, True)
-     , (1920909367, 15, True);
+     , (1920909367, 15, True)
+     , (1920909367, 19, True)
+     , (1920909367, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1984778314, 262164, 43065, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -489,7 +521,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1984778314, 13, True)
      , (1984778314, 12, True)
      , (1984778314, 14, True)
-     , (1984778314, 15, True);
+     , (1984778314, 15, True)
+     , (1984778314, 19, True)
+     , (1984778314, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1924206668, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -518,7 +552,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924206668, 13, True)
      , (1924206668, 12, True)
      , (1924206668, 14, True)
-     , (1924206668, 15, True);
+     , (1924206668, 15, True)
+     , (1924206668, 19, True)
+     , (1924206668, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2030895117, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -547,7 +583,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030895117, 13, True)
      , (2030895117, 12, True)
      , (2030895117, 14, True)
-     , (2030895117, 15, True);
+     , (2030895117, 15, True)
+     , (2030895117, 19, True)
+     , (2030895117, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1932365911, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -576,7 +614,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365911, 13, True)
      , (1932365911, 12, True)
      , (1932365911, 14, True)
-     , (1932365911, 15, True);
+     , (1932365911, 15, True)
+     , (1932365911, 19, True)
+     , (1932365911, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1903894555, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -605,7 +645,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1903894555, 13, True)
      , (1903894555, 12, True)
      , (1903894555, 14, True)
-     , (1903894555, 15, True);
+     , (1903894555, 15, True)
+     , (1903894555, 19, True)
+     , (1903894555, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1914372133, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -634,7 +676,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1914372133, 13, True)
      , (1914372133, 12, True)
      , (1914372133, 14, True)
-     , (1914372133, 15, True);
+     , (1914372133, 15, True)
+     , (1914372133, 19, True)
+     , (1914372133, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1916641304, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -663,7 +707,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1916641304, 13, True)
      , (1916641304, 12, True)
      , (1916641304, 14, True)
-     , (1916641304, 15, True);
+     , (1916641304, 15, True)
+     , (1916641304, 19, True)
+     , (1916641304, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2049040401, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -692,7 +738,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049040401, 13, True)
      , (2049040401, 12, True)
      , (2049040401, 14, True)
-     , (2049040401, 15, True);
+     , (2049040401, 15, True)
+     , (2049040401, 19, True)
+     , (2049040401, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1956577305, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -721,7 +769,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956577305, 13, True)
      , (1956577305, 12, True)
      , (1956577305, 14, True)
-     , (1956577305, 15, True);
+     , (1956577305, 15, True)
+     , (1956577305, 19, True)
+     , (1956577305, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2137530392, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -750,7 +800,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2137530392, 13, True)
      , (2137530392, 12, True)
      , (2137530392, 14, True)
-     , (2137530392, 15, True);
+     , (2137530392, 15, True)
+     , (2137530392, 19, True)
+     , (2137530392, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1910202420, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -779,7 +831,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1910202420, 13, True)
      , (1910202420, 12, True)
      , (1910202420, 14, True)
-     , (1910202420, 15, True);
+     , (1910202420, 15, True)
+     , (1910202420, 19, True)
+     , (1910202420, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1938780178, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -808,7 +862,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1938780178, 13, True)
      , (1938780178, 12, True)
      , (1938780178, 14, True)
-     , (1938780178, 15, True);
+     , (1938780178, 15, True)
+     , (1938780178, 19, True)
+     , (1938780178, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2036162580, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -837,7 +893,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2036162580, 13, True)
      , (2036162580, 12, True)
      , (2036162580, 14, True)
-     , (2036162580, 15, True);
+     , (2036162580, 15, True)
+     , (2036162580, 19, True)
+     , (2036162580, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1894490131, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -866,7 +924,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1894490131, 13, True)
      , (1894490131, 12, True)
      , (1894490131, 14, True)
-     , (1894490131, 15, True);
+     , (1894490131, 15, True)
+     , (1894490131, 19, True)
+     , (1894490131, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1925926930, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -895,7 +955,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1925926930, 13, True)
      , (1925926930, 12, True)
      , (1925926930, 14, True)
-     , (1925926930, 15, True);
+     , (1925926930, 15, True)
+     , (1925926930, 19, True)
+     , (1925926930, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2056994944, 262164, 43065, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -924,7 +986,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994944, 13, True)
      , (2056994944, 12, True)
      , (2056994944, 14, True)
-     , (2056994944, 15, True);
+     , (2056994944, 15, True)
+     , (2056994944, 19, True)
+     , (2056994944, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2076831861, 262164, 43065, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -953,7 +1017,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2076831861, 13, True)
      , (2076831861, 12, True)
      , (2076831861, 14, True)
-     , (2076831861, 15, True);
+     , (2076831861, 15, True)
+     , (2076831861, 19, True)
+     , (2076831861, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2079850588, 262164, 43065, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -982,7 +1048,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850588, 13, True)
      , (2079850588, 12, True)
      , (2079850588, 14, True)
-     , (2079850588, 15, True);
+     , (2079850588, 15, True)
+     , (2079850588, 19, True)
+     , (2079850588, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2048540811, 262164, 43065, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1011,7 +1079,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2048540811, 13, True)
      , (2048540811, 12, True)
      , (2048540811, 14, True)
-     , (2048540811, 15, True);
+     , (2048540811, 15, True)
+     , (2048540811, 19, True)
+     , (2048540811, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1956339779, 262164, 43065, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1040,7 +1110,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956339779, 13, True)
      , (1956339779, 12, True)
      , (1956339779, 14, True)
-     , (1956339779, 15, True);
+     , (1956339779, 15, True)
+     , (1956339779, 19, True)
+     , (1956339779, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1918373963, 262164, 43065, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1069,7 +1141,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1918373963, 13, True)
      , (1918373963, 12, True)
      , (1918373963, 14, True)
-     , (1918373963, 15, True);
+     , (1918373963, 15, True)
+     , (1918373963, 19, True)
+     , (1918373963, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2108117056, 262164, 43065, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1098,7 +1172,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108117056, 13, True)
      , (2108117056, 12, True)
      , (2108117056, 14, True)
-     , (2108117056, 15, True);
+     , (2108117056, 15, True)
+     , (2108117056, 19, True)
+     , (2108117056, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2089336934, 262164, 43065, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1127,7 +1203,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089336934, 13, True)
      , (2089336934, 12, True)
      , (2089336934, 14, True)
-     , (2089336934, 15, True);
+     , (2089336934, 15, True)
+     , (2089336934, 19, True)
+     , (2089336934, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2010529898, 262164, 43066, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1156,7 +1234,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529898, 13, True)
      , (2010529898, 12, True)
      , (2010529898, 14, True)
-     , (2010529898, 15, True);
+     , (2010529898, 15, True)
+     , (2010529898, 19, True)
+     , (2010529898, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2030403637, 262164, 43066, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1185,7 +1265,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030403637, 13, True)
      , (2030403637, 12, True)
      , (2030403637, 14, True)
-     , (2030403637, 15, True);
+     , (2030403637, 15, True)
+     , (2030403637, 19, True)
+     , (2030403637, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2044997685, 262164, 43066, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1214,7 +1296,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2044997685, 13, True)
      , (2044997685, 12, True)
      , (2044997685, 14, True)
-     , (2044997685, 15, True);
+     , (2044997685, 15, True)
+     , (2044997685, 19, True)
+     , (2044997685, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2049310754, 262164, 43066, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1243,7 +1327,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049310754, 13, True)
      , (2049310754, 12, True)
      , (2049310754, 14, True)
-     , (2049310754, 15, True);
+     , (2049310754, 15, True)
+     , (2049310754, 19, True)
+     , (2049310754, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2019999779, 262164, 43066, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1272,7 +1358,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2019999779, 13, True)
      , (2019999779, 12, True)
      , (2019999779, 14, True)
-     , (2019999779, 15, True);
+     , (2019999779, 15, True)
+     , (2019999779, 19, True)
+     , (2019999779, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2019065936, 262164, 43066, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1301,7 +1389,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2019065936, 13, True)
      , (2019065936, 12, True)
      , (2019065936, 14, True)
-     , (2019065936, 15, True);
+     , (2019065936, 15, True)
+     , (2019065936, 19, True)
+     , (2019065936, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2013855872, 262164, 43066, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1330,7 +1420,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855872, 13, True)
      , (2013855872, 12, True)
      , (2013855872, 14, True)
-     , (2013855872, 15, True);
+     , (2013855872, 15, True)
+     , (2013855872, 19, True)
+     , (2013855872, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2033496187, 262164, 43066, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1359,7 +1451,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2033496187, 13, True)
      , (2033496187, 12, True)
      , (2033496187, 14, True)
-     , (2033496187, 15, True);
+     , (2033496187, 15, True)
+     , (2033496187, 19, True)
+     , (2033496187, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2037522513, 262164, 43066, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1388,7 +1482,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522513, 13, True)
      , (2037522513, 12, True)
      , (2037522513, 14, True)
-     , (2037522513, 15, True);
+     , (2037522513, 15, True)
+     , (2037522513, 19, True)
+     , (2037522513, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2037887054, 262164, 43066, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1417,7 +1513,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037887054, 13, True)
      , (2037887054, 12, True)
      , (2037887054, 14, True)
-     , (2037887054, 15, True);
+     , (2037887054, 15, True)
+     , (2037887054, 19, True)
+     , (2037887054, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1897087085, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1446,7 +1544,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1897087085, 13, True)
      , (1897087085, 12, True)
      , (1897087085, 14, True)
-     , (1897087085, 15, True);
+     , (1897087085, 15, True)
+     , (1897087085, 19, True)
+     , (1897087085, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2078089238, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1475,7 +1575,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2078089238, 13, True)
      , (2078089238, 12, True)
      , (2078089238, 14, True)
-     , (2078089238, 15, True);
+     , (2078089238, 15, True)
+     , (2078089238, 19, True)
+     , (2078089238, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1945309213, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1504,7 +1606,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1945309213, 13, True)
      , (1945309213, 12, True)
      , (1945309213, 14, True)
-     , (1945309213, 15, True);
+     , (1945309213, 15, True)
+     , (1945309213, 19, True)
+     , (1945309213, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1880801295, 262164, 42852, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -1533,5 +1637,7 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1880801295, 13, True)
      , (1880801295, 12, True)
      , (1880801295, 14, True)
-     , (1880801295, 15, True);
+     , (1880801295, 15, True)
+     , (1880801295, 19, True)
+     , (1880801295, 1, True);
 

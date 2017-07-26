@@ -30,7 +30,9 @@ VALUES (21, 54, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21, 13, True)
      , (21, 11, True)
-     , (21, 14, True);
+     , (21, 14, True)
+     , (21, 19, True)
+     , (21, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (21, 67111956, 0, 0);

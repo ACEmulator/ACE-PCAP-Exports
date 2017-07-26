@@ -27,7 +27,9 @@ VALUES (12678, 54, 50)
      , (12678, 39, 0.7);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (12678, 11, True);
+VALUES (12678, 11, True)
+     , (12678, 19, True)
+     , (12678, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12679, 'hook-yard');
@@ -59,7 +61,9 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (12679, 54, 10);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (12679, 11, True);
+VALUES (12679, 11, True)
+     , (12679, 19, True)
+     , (12679, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11697, 'hook-floor');
@@ -91,7 +95,9 @@ VALUES (11697, 54, 10)
      , (11697, 39, 0.7);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (11697, 11, True);
+VALUES (11697, 11, True)
+     , (11697, 19, True)
+     , (11697, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9686, 'hook');
@@ -124,7 +130,10 @@ VALUES (9686, 54, 10)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9686, 13, True)
      , (9686, 11, True)
-     , (9686, 71, True);
+     , (9686, 71, True)
+     , (9686, 19, True)
+     , (9686, 1, True)
+     , (9686, 24, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11698, 'hook-ceiling');
@@ -155,5 +164,7 @@ INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pro
 VALUES (11698, 54, 10);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (11698, 11, True);
+VALUES (11698, 11, True)
+     , (11698, 19, True)
+     , (11698, 1, True);
 

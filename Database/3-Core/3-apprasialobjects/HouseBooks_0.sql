@@ -5,12 +5,6 @@ VALUES (2136313874, 19, 125)
      , (2136313874, 175, 1);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12774, 19, 125)
-     , (12774, 5, 9000)
-     , (12774, 174, 1)
-     , (12774, 175, 1);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1986879492, 19, 125)
      , (1986879492, 5, 9000)
      , (1986879492, 174, 1)
@@ -39,12 +33,6 @@ VALUES (1969610764, 19, 125)
      , (1969610764, 5, 9000)
      , (1969610764, 174, 1)
      , (1969610764, 175, 1);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (16908, 19, 125)
-     , (16908, 5, 9000)
-     , (16908, 174, 1)
-     , (16908, 175, 1);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2018009091, 19, 125)

@@ -29,7 +29,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109968389, 12, True)
      , (2109968389, 11, True)
      , (2109968389, 14, True)
-     , (2109968389, 41, True);
+     , (2109968389, 41, True)
+     , (2109968389, 1, True)
+     , (2109968389, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109968389, 67110057, 0, 24)
@@ -112,7 +114,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2033496172, 12, True)
      , (2033496172, 11, True)
      , (2033496172, 14, True)
-     , (2033496172, 41, True);
+     , (2033496172, 41, True)
+     , (2033496172, 1, True)
+     , (2033496172, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2033496172, 67109556, 0, 24)
@@ -192,7 +196,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2033496163, 12, True)
      , (2033496163, 11, True)
      , (2033496163, 14, True)
-     , (2033496163, 41, True);
+     , (2033496163, 41, True)
+     , (2033496163, 1, True)
+     , (2033496163, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2033496163, 67109560, 0, 24)
@@ -273,7 +279,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2033496164, 12, True)
      , (2033496164, 11, True)
      , (2033496164, 14, True)
-     , (2033496164, 41, True);
+     , (2033496164, 41, True)
+     , (2033496164, 1, True)
+     , (2033496164, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2033496164, 67109552, 0, 24)
@@ -354,7 +362,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2031452165, 12, True)
      , (2031452165, 11, True)
      , (2031452165, 14, True)
-     , (2031452165, 41, True);
+     , (2031452165, 41, True)
+     , (2031452165, 1, True)
+     , (2031452165, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2031452165, 67109555, 0, 24)
@@ -441,7 +451,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2031452163, 12, True)
      , (2031452163, 11, True)
      , (2031452163, 14, True)
-     , (2031452163, 41, True);
+     , (2031452163, 41, True)
+     , (2031452163, 1, True)
+     , (2031452163, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2031452163, 67109550, 0, 24)
@@ -529,7 +541,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2033709060, 12, True)
      , (2033709060, 11, True)
      , (2033709060, 14, True)
-     , (2033709060, 41, True);
+     , (2033709060, 41, True)
+     , (2033709060, 1, True)
+     , (2033709060, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2033709060, 67109555, 0, 24)
@@ -612,7 +626,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095661061, 12, True)
      , (2095661061, 11, True)
      , (2095661061, 14, True)
-     , (2095661061, 41, True);
+     , (2095661061, 41, True)
+     , (2095661061, 1, True)
+     , (2095661061, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095661061, 67109558, 0, 24)
@@ -697,7 +713,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665184, 12, True)
      , (2095665184, 11, True)
      , (2095665184, 14, True)
-     , (2095665184, 41, True);
+     , (2095665184, 41, True)
+     , (2095665184, 1, True)
+     , (2095665184, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095665184, 67109559, 0, 24)
@@ -780,7 +798,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665190, 12, True)
      , (2095665190, 11, True)
      , (2095665190, 14, True)
-     , (2095665190, 41, True);
+     , (2095665190, 41, True)
+     , (2095665190, 1, True)
+     , (2095665190, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095665190, 67109561, 0, 24)
@@ -865,7 +885,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665188, 12, True)
      , (2095665188, 11, True)
      , (2095665188, 14, True)
-     , (2095665188, 41, True);
+     , (2095665188, 41, True)
+     , (2095665188, 1, True)
+     , (2095665188, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095665188, 67110055, 0, 24)
@@ -951,7 +973,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665204, 12, True)
      , (2095665204, 11, True)
      , (2095665204, 14, True)
-     , (2095665204, 41, True);
+     , (2095665204, 41, True)
+     , (2095665204, 1, True)
+     , (2095665204, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095665204, 67109560, 0, 24)
@@ -1034,7 +1058,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665181, 12, True)
      , (2095665181, 11, True)
      , (2095665181, 14, True)
-     , (2095665181, 41, True);
+     , (2095665181, 41, True)
+     , (2095665181, 1, True)
+     , (2095665181, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095665181, 67109558, 0, 24)
@@ -1115,7 +1141,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665186, 12, True)
      , (2095665186, 11, True)
      , (2095665186, 14, True)
-     , (2095665186, 41, True);
+     , (2095665186, 41, True)
+     , (2095665186, 1, True)
+     , (2095665186, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095665186, 67109560, 0, 24)
@@ -1196,7 +1224,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665185, 12, True)
      , (2095665185, 11, True)
      , (2095665185, 14, True)
-     , (2095665185, 41, True);
+     , (2095665185, 41, True)
+     , (2095665185, 1, True)
+     , (2095665185, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095665185, 67109558, 0, 24)
@@ -1284,7 +1314,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665187, 12, True)
      , (2095665187, 11, True)
      , (2095665187, 14, True)
-     , (2095665187, 41, True);
+     , (2095665187, 41, True)
+     , (2095665187, 1, True)
+     , (2095665187, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095665187, 67109559, 0, 24)
@@ -1372,7 +1404,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665182, 12, True)
      , (2095665182, 11, True)
      , (2095665182, 14, True)
-     , (2095665182, 41, True);
+     , (2095665182, 41, True)
+     , (2095665182, 1, True)
+     , (2095665182, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095665182, 67109562, 0, 24)
@@ -1453,7 +1487,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665183, 12, True)
      , (2095665183, 11, True)
      , (2095665183, 14, True)
-     , (2095665183, 41, True);
+     , (2095665183, 41, True)
+     , (2095665183, 1, True)
+     , (2095665183, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095665183, 67109558, 0, 24)
@@ -1532,7 +1568,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665189, 12, True)
      , (2095665189, 11, True)
      , (2095665189, 14, True)
-     , (2095665189, 41, True);
+     , (2095665189, 41, True)
+     , (2095665189, 1, True)
+     , (2095665189, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095665189, 67109562, 0, 24)
@@ -1615,7 +1653,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665236, 12, True)
      , (2095665236, 11, True)
      , (2095665236, 14, True)
-     , (2095665236, 41, True);
+     , (2095665236, 41, True)
+     , (2095665236, 1, True)
+     , (2095665236, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095665236, 67109562, 0, 24)
@@ -1696,7 +1736,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665235, 12, True)
      , (2095665235, 11, True)
      , (2095665235, 14, True)
-     , (2095665235, 41, True);
+     , (2095665235, 41, True)
+     , (2095665235, 1, True)
+     , (2095665235, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095665235, 67109561, 0, 24)
@@ -1777,7 +1819,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665234, 12, True)
      , (2095665234, 11, True)
      , (2095665234, 14, True)
-     , (2095665234, 41, True);
+     , (2095665234, 41, True)
+     , (2095665234, 1, True)
+     , (2095665234, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095665234, 67109552, 0, 24)
@@ -1858,7 +1902,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095665233, 12, True)
      , (2095665233, 11, True)
      , (2095665233, 14, True)
-     , (2095665233, 41, True);
+     , (2095665233, 41, True)
+     , (2095665233, 1, True)
+     , (2095665233, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095665233, 67110061, 0, 24)
@@ -1939,7 +1985,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879076947, 12, True)
      , (1879076947, 11, True)
      , (1879076947, 14, True)
-     , (1879076947, 41, True);
+     , (1879076947, 41, True)
+     , (1879076947, 1, True)
+     , (1879076947, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879076947, 67109558, 0, 24)
@@ -2019,7 +2067,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879076946, 12, True)
      , (1879076946, 11, True)
      , (1879076946, 14, True)
-     , (1879076946, 41, True);
+     , (1879076946, 41, True)
+     , (1879076946, 1, True)
+     , (1879076946, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879076946, 67109560, 0, 24)
@@ -2099,7 +2149,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879076945, 12, True)
      , (1879076945, 11, True)
      , (1879076945, 14, True)
-     , (1879076945, 41, True);
+     , (1879076945, 41, True)
+     , (1879076945, 1, True)
+     , (1879076945, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879076945, 67109558, 0, 24)
@@ -2179,7 +2231,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879076879, 12, True)
      , (1879076879, 11, True)
      , (1879076879, 14, True)
-     , (1879076879, 41, True);
+     , (1879076879, 41, True)
+     , (1879076879, 1, True)
+     , (1879076879, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879076879, 67109557, 0, 24)
@@ -2260,7 +2314,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879076878, 12, True)
      , (1879076878, 11, True)
      , (1879076878, 14, True)
-     , (1879076878, 41, True);
+     , (1879076878, 41, True)
+     , (1879076878, 1, True)
+     , (1879076878, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879076878, 67109551, 0, 24)
@@ -2341,7 +2397,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879076880, 12, True)
      , (1879076880, 11, True)
      , (1879076880, 14, True)
-     , (1879076880, 41, True);
+     , (1879076880, 41, True)
+     , (1879076880, 1, True)
+     , (1879076880, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879076880, 67109557, 0, 24)
@@ -2422,7 +2480,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879077019, 12, True)
      , (1879077019, 11, True)
      , (1879077019, 14, True)
-     , (1879077019, 41, True);
+     , (1879077019, 41, True)
+     , (1879077019, 1, True)
+     , (1879077019, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879077019, 67110048, 0, 24)
@@ -2509,7 +2569,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879077018, 12, True)
      , (1879077018, 11, True)
      , (1879077018, 14, True)
-     , (1879077018, 41, True);
+     , (1879077018, 41, True)
+     , (1879077018, 1, True)
+     , (1879077018, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879077018, 67110045, 0, 24)
@@ -2592,7 +2654,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879077017, 12, True)
      , (1879077017, 11, True)
      , (1879077017, 14, True)
-     , (1879077017, 41, True);
+     , (1879077017, 41, True)
+     , (1879077017, 1, True)
+     , (1879077017, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879077017, 67110055, 0, 24)
@@ -2675,7 +2739,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879076953, 12, True)
      , (1879076953, 11, True)
      , (1879076953, 14, True)
-     , (1879076953, 41, True);
+     , (1879076953, 41, True)
+     , (1879076953, 1, True)
+     , (1879076953, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879076953, 67115902, 0, 24)
@@ -2756,7 +2822,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879076952, 12, True)
      , (1879076952, 11, True)
      , (1879076952, 14, True)
-     , (1879076952, 41, True);
+     , (1879076952, 41, True)
+     , (1879076952, 1, True)
+     , (1879076952, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879076952, 67115907, 0, 24)
@@ -2838,7 +2906,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879076951, 12, True)
      , (1879076951, 11, True)
      , (1879076951, 14, True)
-     , (1879076951, 41, True);
+     , (1879076951, 41, True)
+     , (1879076951, 1, True)
+     , (1879076951, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879076951, 67115906, 0, 24)
@@ -2919,7 +2989,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2119421958, 12, True)
      , (2119421958, 11, True)
      , (2119421958, 14, True)
-     , (2119421958, 41, True);
+     , (2119421958, 41, True)
+     , (2119421958, 1, True)
+     , (2119421958, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2119421958, 67110048, 0, 24)
@@ -3006,7 +3078,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2119426057, 12, True)
      , (2119426057, 11, True)
      , (2119426057, 14, True)
-     , (2119426057, 41, True);
+     , (2119426057, 41, True)
+     , (2119426057, 1, True)
+     , (2119426057, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2119426057, 67110057, 0, 24)
@@ -3093,7 +3167,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120470551, 12, True)
      , (2120470551, 11, True)
      , (2120470551, 14, True)
-     , (2120470551, 41, True);
+     , (2120470551, 41, True)
+     , (2120470551, 1, True)
+     , (2120470551, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120470551, 67110050, 0, 24)
@@ -3174,7 +3250,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120470557, 12, True)
      , (2120470557, 11, True)
      , (2120470557, 14, True)
-     , (2120470557, 41, True);
+     , (2120470557, 41, True)
+     , (2120470557, 1, True)
+     , (2120470557, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120470557, 67110057, 0, 24)
@@ -3257,7 +3335,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2119421960, 12, True)
      , (2119421960, 11, True)
      , (2119421960, 14, True)
-     , (2119421960, 41, True);
+     , (2119421960, 41, True)
+     , (2119421960, 1, True)
+     , (2119421960, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2119421960, 67110061, 0, 24)
@@ -3340,7 +3420,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2119426059, 12, True)
      , (2119426059, 11, True)
      , (2119426059, 14, True)
-     , (2119426059, 41, True);
+     , (2119426059, 41, True)
+     , (2119426059, 1, True)
+     , (2119426059, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2119426059, 67110054, 0, 24)
@@ -3423,7 +3505,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2119426058, 12, True)
      , (2119426058, 11, True)
      , (2119426058, 14, True)
-     , (2119426058, 41, True);
+     , (2119426058, 41, True)
+     , (2119426058, 1, True)
+     , (2119426058, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2119426058, 67110052, 0, 24)
@@ -3504,7 +3588,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120470548, 12, True)
      , (2120470548, 11, True)
      , (2120470548, 14, True)
-     , (2120470548, 41, True);
+     , (2120470548, 41, True)
+     , (2120470548, 1, True)
+     , (2120470548, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120470548, 67110050, 0, 24)
@@ -3591,7 +3677,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120470547, 12, True)
      , (2120470547, 11, True)
      , (2120470547, 14, True)
-     , (2120470547, 41, True);
+     , (2120470547, 41, True)
+     , (2120470547, 1, True)
+     , (2120470547, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120470547, 67110050, 0, 24)
@@ -3672,7 +3760,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120470555, 12, True)
      , (2120470555, 11, True)
      , (2120470555, 14, True)
-     , (2120470555, 41, True);
+     , (2120470555, 41, True)
+     , (2120470555, 1, True)
+     , (2120470555, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120470555, 67110059, 0, 24)
@@ -3755,7 +3845,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120470568, 12, True)
      , (2120470568, 11, True)
      , (2120470568, 14, True)
-     , (2120470568, 41, True);
+     , (2120470568, 41, True)
+     , (2120470568, 1, True)
+     , (2120470568, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120470568, 67110045, 0, 24)
@@ -3836,7 +3928,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120470585, 12, True)
      , (2120470585, 11, True)
      , (2120470585, 14, True)
-     , (2120470585, 41, True);
+     , (2120470585, 41, True)
+     , (2120470585, 1, True)
+     , (2120470585, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120470585, 67110047, 0, 24)
@@ -3917,7 +4011,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120470584, 12, True)
      , (2120470584, 11, True)
      , (2120470584, 14, True)
-     , (2120470584, 41, True);
+     , (2120470584, 41, True)
+     , (2120470584, 1, True)
+     , (2120470584, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120470584, 67109553, 0, 24)
@@ -3998,7 +4094,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120470587, 12, True)
      , (2120470587, 11, True)
      , (2120470587, 14, True)
-     , (2120470587, 41, True);
+     , (2120470587, 41, True)
+     , (2120470587, 1, True)
+     , (2120470587, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120470587, 67109551, 0, 24)
@@ -4079,7 +4177,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120470586, 12, True)
      , (2120470586, 11, True)
      , (2120470586, 14, True)
-     , (2120470586, 41, True);
+     , (2120470586, 41, True)
+     , (2120470586, 1, True)
+     , (2120470586, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120470586, 67109556, 0, 24)
@@ -4160,7 +4260,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272547, 12, True)
      , (2094272547, 11, True)
      , (2094272547, 14, True)
-     , (2094272547, 41, True);
+     , (2094272547, 41, True)
+     , (2094272547, 1, True)
+     , (2094272547, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094272547, 67110061, 0, 24)
@@ -4243,7 +4345,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272553, 12, True)
      , (2094272553, 11, True)
      , (2094272553, 14, True)
-     , (2094272553, 41, True);
+     , (2094272553, 41, True)
+     , (2094272553, 1, True)
+     , (2094272553, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094272553, 67110054, 0, 24)
@@ -4328,7 +4432,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272560, 12, True)
      , (2094272560, 11, True)
      , (2094272560, 14, True)
-     , (2094272560, 41, True);
+     , (2094272560, 41, True)
+     , (2094272560, 1, True)
+     , (2094272560, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094272560, 67110055, 0, 24)
@@ -4411,7 +4517,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272552, 12, True)
      , (2094272552, 11, True)
      , (2094272552, 14, True)
-     , (2094272552, 41, True);
+     , (2094272552, 41, True)
+     , (2094272552, 1, True)
+     , (2094272552, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094272552, 67110061, 0, 24)
@@ -4498,7 +4606,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272541, 12, True)
      , (2094272541, 11, True)
      , (2094272541, 14, True)
-     , (2094272541, 41, True);
+     , (2094272541, 41, True)
+     , (2094272541, 1, True)
+     , (2094272541, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094272541, 67110061, 0, 24)
@@ -4583,7 +4693,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272555, 12, True)
      , (2094272555, 11, True)
      , (2094272555, 14, True)
-     , (2094272555, 41, True);
+     , (2094272555, 41, True)
+     , (2094272555, 1, True)
+     , (2094272555, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094272555, 67110050, 0, 24)
@@ -4662,7 +4774,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272549, 12, True)
      , (2094272549, 11, True)
      , (2094272549, 14, True)
-     , (2094272549, 41, True);
+     , (2094272549, 41, True)
+     , (2094272549, 1, True)
+     , (2094272549, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094272549, 67110055, 0, 24)
@@ -4747,7 +4861,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272564, 12, True)
      , (2094272564, 11, True)
      , (2094272564, 14, True)
-     , (2094272564, 41, True);
+     , (2094272564, 41, True)
+     , (2094272564, 1, True)
+     , (2094272564, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094272564, 67110055, 0, 24)
@@ -4832,7 +4948,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272557, 12, True)
      , (2094272557, 11, True)
      , (2094272557, 14, True)
-     , (2094272557, 41, True);
+     , (2094272557, 41, True)
+     , (2094272557, 1, True)
+     , (2094272557, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094272557, 67110045, 0, 24)
@@ -4917,7 +5035,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272545, 12, True)
      , (2094272545, 11, True)
      , (2094272545, 14, True)
-     , (2094272545, 41, True);
+     , (2094272545, 41, True)
+     , (2094272545, 1, True)
+     , (2094272545, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094272545, 67110047, 0, 24)
@@ -4998,7 +5118,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272544, 12, True)
      , (2094272544, 11, True)
      , (2094272544, 14, True)
-     , (2094272544, 41, True);
+     , (2094272544, 41, True)
+     , (2094272544, 1, True)
+     , (2094272544, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094272544, 67110049, 0, 24)
@@ -5077,7 +5199,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272610, 12, True)
      , (2094272610, 11, True)
      , (2094272610, 14, True)
-     , (2094272610, 41, True);
+     , (2094272610, 41, True)
+     , (2094272610, 1, True)
+     , (2094272610, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094272610, 67110052, 0, 24)
@@ -5158,7 +5282,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272609, 12, True)
      , (2094272609, 11, True)
      , (2094272609, 14, True)
-     , (2094272609, 41, True);
+     , (2094272609, 41, True)
+     , (2094272609, 1, True)
+     , (2094272609, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094272609, 67109559, 0, 24)
@@ -5239,7 +5365,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272607, 12, True)
      , (2094272607, 11, True)
      , (2094272607, 14, True)
-     , (2094272607, 41, True);
+     , (2094272607, 41, True)
+     , (2094272607, 1, True)
+     , (2094272607, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094272607, 67109560, 0, 24)
@@ -5320,7 +5448,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094272608, 12, True)
      , (2094272608, 11, True)
      , (2094272608, 14, True)
-     , (2094272608, 41, True);
+     , (2094272608, 41, True)
+     , (2094272608, 1, True)
+     , (2094272608, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094272608, 67109554, 0, 24)
@@ -5401,7 +5531,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2094268422, 12, True)
      , (2094268422, 11, True)
      , (2094268422, 14, True)
-     , (2094268422, 41, True);
+     , (2094268422, 41, True)
+     , (2094268422, 1, True)
+     , (2094268422, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2094268422, 67110057, 0, 24)
@@ -5488,7 +5620,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068246533, 12, True)
      , (2068246533, 11, True)
      , (2068246533, 14, True)
-     , (2068246533, 41, True);
+     , (2068246533, 41, True)
+     , (2068246533, 1, True)
+     , (2068246533, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068246533, 67110047, 0, 24)
@@ -5571,7 +5705,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250655, 12, True)
      , (2068250655, 11, True)
      , (2068250655, 14, True)
-     , (2068250655, 41, True);
+     , (2068250655, 41, True)
+     , (2068250655, 1, True)
+     , (2068250655, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250655, 67110047, 0, 24)
@@ -5652,7 +5788,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250657, 12, True)
      , (2068250657, 11, True)
      , (2068250657, 14, True)
-     , (2068250657, 41, True);
+     , (2068250657, 41, True)
+     , (2068250657, 1, True)
+     , (2068250657, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250657, 67110059, 0, 24)
@@ -5735,7 +5873,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250656, 12, True)
      , (2068250656, 11, True)
      , (2068250656, 14, True)
-     , (2068250656, 41, True);
+     , (2068250656, 41, True)
+     , (2068250656, 1, True)
+     , (2068250656, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250656, 67110059, 0, 24)
@@ -5822,7 +5962,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250650, 12, True)
      , (2068250650, 11, True)
      , (2068250650, 14, True)
-     , (2068250650, 41, True);
+     , (2068250650, 41, True)
+     , (2068250650, 1, True)
+     , (2068250650, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250650, 67110054, 0, 24)
@@ -5905,7 +6047,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250649, 12, True)
      , (2068250649, 11, True)
      , (2068250649, 14, True)
-     , (2068250649, 41, True);
+     , (2068250649, 41, True)
+     , (2068250649, 1, True)
+     , (2068250649, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250649, 67110047, 0, 24)
@@ -5992,7 +6136,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250669, 12, True)
      , (2068250669, 11, True)
      , (2068250669, 14, True)
-     , (2068250669, 41, True);
+     , (2068250669, 41, True)
+     , (2068250669, 1, True)
+     , (2068250669, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250669, 67110059, 0, 24)
@@ -6073,7 +6219,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250654, 12, True)
      , (2068250654, 11, True)
      , (2068250654, 14, True)
-     , (2068250654, 41, True);
+     , (2068250654, 41, True)
+     , (2068250654, 1, True)
+     , (2068250654, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250654, 67110052, 0, 24)
@@ -6159,7 +6307,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250675, 12, True)
      , (2068250675, 11, True)
      , (2068250675, 14, True)
-     , (2068250675, 41, True);
+     , (2068250675, 41, True)
+     , (2068250675, 1, True)
+     , (2068250675, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250675, 67110049, 0, 24)
@@ -6240,7 +6390,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250658, 12, True)
      , (2068250658, 11, True)
      , (2068250658, 14, True)
-     , (2068250658, 41, True);
+     , (2068250658, 41, True)
+     , (2068250658, 1, True)
+     , (2068250658, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250658, 67110059, 0, 24)
@@ -6327,7 +6479,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250664, 12, True)
      , (2068250664, 11, True)
      , (2068250664, 14, True)
-     , (2068250664, 41, True);
+     , (2068250664, 41, True)
+     , (2068250664, 1, True)
+     , (2068250664, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250664, 67109556, 0, 24)
@@ -6408,7 +6562,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250663, 12, True)
      , (2068250663, 11, True)
      , (2068250663, 14, True)
-     , (2068250663, 41, True);
+     , (2068250663, 41, True)
+     , (2068250663, 1, True)
+     , (2068250663, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250663, 67109553, 0, 24)
@@ -6489,7 +6645,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250662, 12, True)
      , (2068250662, 11, True)
      , (2068250662, 14, True)
-     , (2068250662, 41, True);
+     , (2068250662, 41, True)
+     , (2068250662, 1, True)
+     , (2068250662, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250662, 67110047, 0, 24)
@@ -6570,7 +6728,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250661, 12, True)
      , (2068250661, 11, True)
      , (2068250661, 14, True)
-     , (2068250661, 41, True);
+     , (2068250661, 41, True)
+     , (2068250661, 1, True)
+     , (2068250661, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250661, 67109553, 0, 24)
@@ -6651,7 +6811,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250652, 12, True)
      , (2068250652, 11, True)
      , (2068250652, 14, True)
-     , (2068250652, 41, True);
+     , (2068250652, 41, True)
+     , (2068250652, 1, True)
+     , (2068250652, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250652, 67110052, 0, 24)
@@ -6736,7 +6898,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250651, 12, True)
      , (2068250651, 11, True)
      , (2068250651, 14, True)
-     , (2068250651, 41, True);
+     , (2068250651, 41, True)
+     , (2068250651, 1, True)
+     , (2068250651, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250651, 67110049, 0, 24)
@@ -6817,7 +6981,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2068250668, 12, True)
      , (2068250668, 11, True)
      , (2068250668, 14, True)
-     , (2068250668, 41, True);
+     , (2068250668, 41, True)
+     , (2068250668, 1, True)
+     , (2068250668, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2068250668, 67110054, 0, 24)
@@ -6898,7 +7064,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2069291011, 12, True)
      , (2069291011, 11, True)
      , (2069291011, 14, True)
-     , (2069291011, 41, True);
+     , (2069291011, 41, True)
+     , (2069291011, 1, True)
+     , (2069291011, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2069291011, 67110057, 0, 24)
@@ -6985,7 +7153,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2072440844, 12, True)
      , (2072440844, 11, True)
      , (2072440844, 14, True)
-     , (2072440844, 41, True);
+     , (2072440844, 41, True)
+     , (2072440844, 1, True)
+     , (2072440844, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2072440844, 67110049, 0, 24)
@@ -7064,7 +7234,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2074542084, 12, True)
      , (2074542084, 11, True)
      , (2074542084, 14, True)
-     , (2074542084, 41, True);
+     , (2074542084, 41, True)
+     , (2074542084, 1, True)
+     , (2074542084, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2074542084, 67110061, 0, 24)
@@ -7147,7 +7319,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184730, 12, True)
      , (2090184730, 11, True)
      , (2090184730, 14, True)
-     , (2090184730, 41, True);
+     , (2090184730, 41, True)
+     , (2090184730, 1, True)
+     , (2090184730, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090184730, 67110055, 0, 24)
@@ -7230,7 +7404,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184726, 12, True)
      , (2090184726, 11, True)
      , (2090184726, 14, True)
-     , (2090184726, 41, True);
+     , (2090184726, 41, True)
+     , (2090184726, 1, True)
+     , (2090184726, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090184726, 67110045, 0, 24)
@@ -7317,7 +7493,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184729, 12, True)
      , (2090184729, 11, True)
      , (2090184729, 14, True)
-     , (2090184729, 41, True);
+     , (2090184729, 41, True)
+     , (2090184729, 1, True)
+     , (2090184729, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090184729, 67110057, 0, 24)
@@ -7404,7 +7582,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184725, 12, True)
      , (2090184725, 11, True)
      , (2090184725, 14, True)
-     , (2090184725, 41, True);
+     , (2090184725, 41, True)
+     , (2090184725, 1, True)
+     , (2090184725, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090184725, 67110049, 0, 24)
@@ -7489,7 +7669,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184734, 12, True)
      , (2090184734, 11, True)
      , (2090184734, 14, True)
-     , (2090184734, 41, True);
+     , (2090184734, 41, True)
+     , (2090184734, 1, True)
+     , (2090184734, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090184734, 67110049, 0, 24)
@@ -7571,7 +7753,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184733, 12, True)
      , (2090184733, 11, True)
      , (2090184733, 14, True)
-     , (2090184733, 41, True);
+     , (2090184733, 41, True)
+     , (2090184733, 1, True)
+     , (2090184733, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090184733, 67110055, 0, 24)
@@ -7652,7 +7836,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184732, 12, True)
      , (2090184732, 11, True)
      , (2090184732, 14, True)
-     , (2090184732, 41, True);
+     , (2090184732, 41, True)
+     , (2090184732, 1, True)
+     , (2090184732, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090184732, 67110055, 0, 24)
@@ -7737,7 +7923,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184728, 12, True)
      , (2090184728, 11, True)
      , (2090184728, 14, True)
-     , (2090184728, 41, True);
+     , (2090184728, 41, True)
+     , (2090184728, 1, True)
+     , (2090184728, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090184728, 67110055, 0, 24)
@@ -7820,7 +8008,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184731, 12, True)
      , (2090184731, 11, True)
      , (2090184731, 14, True)
-     , (2090184731, 41, True);
+     , (2090184731, 41, True)
+     , (2090184731, 1, True)
+     , (2090184731, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090184731, 67110045, 0, 24)
@@ -7899,7 +8089,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184723, 12, True)
      , (2090184723, 11, True)
      , (2090184723, 14, True)
-     , (2090184723, 41, True);
+     , (2090184723, 41, True)
+     , (2090184723, 1, True)
+     , (2090184723, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090184723, 67110049, 0, 24)
@@ -7984,7 +8176,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184727, 12, True)
      , (2090184727, 11, True)
      , (2090184727, 14, True)
-     , (2090184727, 41, True);
+     , (2090184727, 41, True)
+     , (2090184727, 1, True)
+     , (2090184727, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090184727, 67110056, 0, 24)
@@ -8071,7 +8265,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184786, 12, True)
      , (2090184786, 11, True)
      , (2090184786, 14, True)
-     , (2090184786, 41, True);
+     , (2090184786, 41, True)
+     , (2090184786, 1, True)
+     , (2090184786, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090184786, 67109561, 0, 24)
@@ -8152,7 +8348,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184785, 12, True)
      , (2090184785, 11, True)
      , (2090184785, 14, True)
-     , (2090184785, 41, True);
+     , (2090184785, 41, True)
+     , (2090184785, 1, True)
+     , (2090184785, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090184785, 67109552, 0, 24)
@@ -8233,7 +8431,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184788, 12, True)
      , (2090184788, 11, True)
      , (2090184788, 14, True)
-     , (2090184788, 41, True);
+     , (2090184788, 41, True)
+     , (2090184788, 1, True)
+     , (2090184788, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090184788, 67110057, 0, 24)
@@ -8314,7 +8514,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090184787, 12, True)
      , (2090184787, 11, True)
      , (2090184787, 14, True)
-     , (2090184787, 41, True);
+     , (2090184787, 41, True)
+     , (2090184787, 1, True)
+     , (2090184787, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090184787, 67109562, 0, 24)
@@ -8395,7 +8597,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2132942857, 12, True)
      , (2132942857, 11, True)
      , (2132942857, 14, True)
-     , (2132942857, 41, True);
+     , (2132942857, 41, True)
+     , (2132942857, 1, True)
+     , (2132942857, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2132942857, 67110047, 0, 24)
@@ -8483,7 +8687,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2132942856, 12, True)
      , (2132942856, 11, True)
      , (2132942856, 14, True)
-     , (2132942856, 41, True);
+     , (2132942856, 41, True)
+     , (2132942856, 1, True)
+     , (2132942856, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2132942856, 67109561, 0, 24)
@@ -8566,7 +8772,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2132942859, 12, True)
      , (2132942859, 11, True)
      , (2132942859, 14, True)
-     , (2132942859, 41, True);
+     , (2132942859, 41, True)
+     , (2132942859, 1, True)
+     , (2132942859, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2132942859, 67109558, 0, 24)
@@ -8657,7 +8865,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2132942858, 12, True)
      , (2132942858, 11, True)
      , (2132942858, 14, True)
-     , (2132942858, 41, True);
+     , (2132942858, 41, True)
+     , (2132942858, 1, True)
+     , (2132942858, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2132942858, 67109558, 0, 24)
@@ -8745,7 +8955,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2133991428, 12, True)
      , (2133991428, 11, True)
      , (2133991428, 14, True)
-     , (2133991428, 41, True);
+     , (2133991428, 41, True)
+     , (2133991428, 1, True)
+     , (2133991428, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2133991428, 67110061, 0, 24)
@@ -8832,7 +9044,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2123505681, 12, True)
      , (2123505681, 11, True)
      , (2123505681, 14, True)
-     , (2123505681, 41, True);
+     , (2123505681, 41, True)
+     , (2123505681, 1, True)
+     , (2123505681, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2123505681, 67109553, 0, 24)
@@ -8909,7 +9123,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2122457094, 12, True)
      , (2122457094, 11, True)
      , (2122457094, 14, True)
-     , (2122457094, 41, True);
+     , (2122457094, 41, True)
+     , (2122457094, 1, True)
+     , (2122457094, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2122457094, 67109559, 0, 24)
@@ -8989,7 +9205,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2123505682, 12, True)
      , (2123505682, 11, True)
      , (2123505682, 14, True)
-     , (2123505682, 41, True);
+     , (2123505682, 41, True)
+     , (2123505682, 1, True)
+     , (2123505682, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2123505682, 67110056, 0, 24)
@@ -9070,7 +9288,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2122457101, 12, True)
      , (2122457101, 11, True)
      , (2122457101, 14, True)
-     , (2122457101, 41, True);
+     , (2122457101, 41, True)
+     , (2122457101, 1, True)
+     , (2122457101, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2122457101, 67109560, 0, 24)
@@ -9153,7 +9373,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2123505685, 12, True)
      , (2123505685, 11, True)
      , (2123505685, 14, True)
-     , (2123505685, 41, True);
+     , (2123505685, 41, True)
+     , (2123505685, 1, True)
+     , (2123505685, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2123505685, 67109557, 0, 24)
@@ -9241,7 +9463,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2122457096, 12, True)
      , (2122457096, 11, True)
      , (2122457096, 14, True)
-     , (2122457096, 41, True);
+     , (2122457096, 41, True)
+     , (2122457096, 1, True)
+     , (2122457096, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2122457096, 67110055, 0, 24)
@@ -9324,7 +9548,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2123505678, 12, True)
      , (2123505678, 11, True)
      , (2123505678, 14, True)
-     , (2123505678, 41, True);
+     , (2123505678, 41, True)
+     , (2123505678, 1, True)
+     , (2123505678, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2123505678, 67109558, 0, 24)
@@ -9412,7 +9638,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2123505687, 12, True)
      , (2123505687, 11, True)
      , (2123505687, 14, True)
-     , (2123505687, 41, True);
+     , (2123505687, 41, True)
+     , (2123505687, 1, True)
+     , (2123505687, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2123505687, 67110053, 0, 24)
@@ -9491,7 +9719,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2123505686, 12, True)
      , (2123505686, 11, True)
      , (2123505686, 14, True)
-     , (2123505686, 41, True);
+     , (2123505686, 41, True)
+     , (2123505686, 1, True)
+     , (2123505686, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2123505686, 67109559, 0, 24)
@@ -9572,7 +9802,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2074177584, 12, True)
      , (2074177584, 11, True)
      , (2074177584, 14, True)
-     , (2074177584, 41, True);
+     , (2074177584, 41, True)
+     , (2074177584, 1, True)
+     , (2074177584, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2074177584, 67110053, 0, 24)
@@ -9659,7 +9891,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2074177577, 12, True)
      , (2074177577, 11, True)
      , (2074177577, 14, True)
-     , (2074177577, 41, True);
+     , (2074177577, 41, True)
+     , (2074177577, 1, True)
+     , (2074177577, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2074177577, 67109554, 0, 24)
@@ -9740,7 +9974,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2074177549, 12, True)
      , (2074177549, 11, True)
      , (2074177549, 14, True)
-     , (2074177549, 41, True);
+     , (2074177549, 41, True)
+     , (2074177549, 1, True)
+     , (2074177549, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2074177549, 67110053, 0, 24)
@@ -9821,7 +10057,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2074177578, 12, True)
      , (2074177578, 11, True)
      , (2074177578, 14, True)
-     , (2074177578, 41, True);
+     , (2074177578, 41, True)
+     , (2074177578, 1, True)
+     , (2074177578, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2074177578, 67109554, 0, 24)
@@ -9902,7 +10140,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2074177579, 12, True)
      , (2074177579, 11, True)
      , (2074177579, 14, True)
-     , (2074177579, 41, True);
+     , (2074177579, 41, True)
+     , (2074177579, 1, True)
+     , (2074177579, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2074177579, 67110053, 0, 24)
@@ -9983,7 +10223,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2074177580, 12, True)
      , (2074177580, 11, True)
      , (2074177580, 14, True)
-     , (2074177580, 41, True);
+     , (2074177580, 41, True)
+     , (2074177580, 1, True)
+     , (2074177580, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2074177580, 67109561, 0, 24)
@@ -10064,7 +10306,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2074177583, 12, True)
      , (2074177583, 11, True)
      , (2074177583, 14, True)
-     , (2074177583, 41, True);
+     , (2074177583, 41, True)
+     , (2074177583, 1, True)
+     , (2074177583, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2074177583, 67110053, 0, 24)
@@ -10144,7 +10388,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2074177553, 12, True)
      , (2074177553, 11, True)
      , (2074177553, 14, True)
-     , (2074177553, 41, True);
+     , (2074177553, 41, True)
+     , (2074177553, 1, True)
+     , (2074177553, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2074177553, 67110054, 0, 24)
@@ -10225,7 +10471,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2074177556, 12, True)
      , (2074177556, 11, True)
      , (2074177556, 14, True)
-     , (2074177556, 41, True);
+     , (2074177556, 41, True)
+     , (2074177556, 1, True)
+     , (2074177556, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2074177556, 67110049, 0, 24)
@@ -10306,7 +10554,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2074177550, 12, True)
      , (2074177550, 11, True)
      , (2074177550, 14, True)
-     , (2074177550, 41, True);
+     , (2074177550, 41, True)
+     , (2074177550, 1, True)
+     , (2074177550, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2074177550, 67110048, 0, 24)
@@ -10391,7 +10641,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120540167, 12, True)
      , (2120540167, 11, True)
      , (2120540167, 14, True)
-     , (2120540167, 41, True);
+     , (2120540167, 41, True)
+     , (2120540167, 1, True)
+     , (2120540167, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120540167, 67110049, 0, 24)
@@ -10474,7 +10726,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588777, 12, True)
      , (2121588777, 11, True)
      , (2121588777, 14, True)
-     , (2121588777, 41, True);
+     , (2121588777, 41, True)
+     , (2121588777, 1, True)
+     , (2121588777, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588777, 67110054, 0, 24)
@@ -10559,7 +10813,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2119491595, 12, True)
      , (2119491595, 11, True)
      , (2119491595, 14, True)
-     , (2119491595, 41, True);
+     , (2119491595, 41, True)
+     , (2119491595, 1, True)
+     , (2119491595, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2119491595, 67110048, 0, 24)
@@ -10640,7 +10896,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588776, 12, True)
      , (2121588776, 11, True)
      , (2121588776, 14, True)
-     , (2121588776, 41, True);
+     , (2121588776, 41, True)
+     , (2121588776, 1, True)
+     , (2121588776, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588776, 67110053, 0, 24)
@@ -10721,7 +10979,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588786, 12, True)
      , (2121588786, 11, True)
      , (2121588786, 14, True)
-     , (2121588786, 41, True);
+     , (2121588786, 41, True)
+     , (2121588786, 1, True)
+     , (2121588786, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588786, 67110052, 0, 24)
@@ -10808,7 +11068,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588784, 12, True)
      , (2121588784, 11, True)
      , (2121588784, 14, True)
-     , (2121588784, 41, True);
+     , (2121588784, 41, True)
+     , (2121588784, 1, True)
+     , (2121588784, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588784, 67110056, 0, 24)
@@ -10895,7 +11157,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588778, 12, True)
      , (2121588778, 11, True)
      , (2121588778, 14, True)
-     , (2121588778, 41, True);
+     , (2121588778, 41, True)
+     , (2121588778, 1, True)
+     , (2121588778, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588778, 67110049, 0, 24)
@@ -10978,7 +11242,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588782, 12, True)
      , (2121588782, 11, True)
      , (2121588782, 14, True)
-     , (2121588782, 41, True);
+     , (2121588782, 41, True)
+     , (2121588782, 1, True)
+     , (2121588782, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588782, 67110047, 0, 24)
@@ -11061,7 +11327,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588781, 12, True)
      , (2121588781, 11, True)
      , (2121588781, 14, True)
-     , (2121588781, 41, True);
+     , (2121588781, 41, True)
+     , (2121588781, 1, True)
+     , (2121588781, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588781, 67110053, 0, 24)
@@ -11142,7 +11410,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588789, 12, True)
      , (2121588789, 11, True)
      , (2121588789, 14, True)
-     , (2121588789, 41, True);
+     , (2121588789, 41, True)
+     , (2121588789, 1, True)
+     , (2121588789, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588789, 67110050, 0, 24)
@@ -11221,7 +11491,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588788, 12, True)
      , (2121588788, 11, True)
      , (2121588788, 14, True)
-     , (2121588788, 41, True);
+     , (2121588788, 41, True)
+     , (2121588788, 1, True)
+     , (2121588788, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588788, 67110057, 0, 24)
@@ -11302,7 +11574,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588785, 12, True)
      , (2121588785, 11, True)
      , (2121588785, 14, True)
-     , (2121588785, 41, True);
+     , (2121588785, 41, True)
+     , (2121588785, 1, True)
+     , (2121588785, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588785, 67109562, 0, 24)
@@ -11385,7 +11659,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588775, 12, True)
      , (2121588775, 11, True)
      , (2121588775, 14, True)
-     , (2121588775, 41, True);
+     , (2121588775, 41, True)
+     , (2121588775, 1, True)
+     , (2121588775, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588775, 67110052, 0, 24)
@@ -11466,7 +11742,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588787, 12, True)
      , (2121588787, 11, True)
      , (2121588787, 14, True)
-     , (2121588787, 41, True);
+     , (2121588787, 41, True)
+     , (2121588787, 1, True)
+     , (2121588787, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588787, 67109553, 0, 24)
@@ -11551,7 +11829,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588780, 12, True)
      , (2121588780, 11, True)
      , (2121588780, 14, True)
-     , (2121588780, 41, True);
+     , (2121588780, 41, True)
+     , (2121588780, 1, True)
+     , (2121588780, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588780, 67110052, 0, 24)
@@ -11632,7 +11912,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588791, 12, True)
      , (2121588791, 11, True)
      , (2121588791, 14, True)
-     , (2121588791, 41, True);
+     , (2121588791, 41, True)
+     , (2121588791, 1, True)
+     , (2121588791, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588791, 67110048, 0, 24)
@@ -11718,7 +12000,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588849, 12, True)
      , (2121588849, 11, True)
      , (2121588849, 14, True)
-     , (2121588849, 41, True);
+     , (2121588849, 41, True)
+     , (2121588849, 1, True)
+     , (2121588849, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588849, 67109560, 0, 24)
@@ -11799,7 +12083,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588843, 12, True)
      , (2121588843, 11, True)
      , (2121588843, 14, True)
-     , (2121588843, 41, True);
+     , (2121588843, 41, True)
+     , (2121588843, 1, True)
+     , (2121588843, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588843, 67109555, 0, 24)
@@ -11880,7 +12166,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588844, 12, True)
      , (2121588844, 11, True)
      , (2121588844, 14, True)
-     , (2121588844, 41, True);
+     , (2121588844, 41, True)
+     , (2121588844, 1, True)
+     , (2121588844, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588844, 67109558, 0, 24)
@@ -11961,7 +12249,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588845, 12, True)
      , (2121588845, 11, True)
      , (2121588845, 14, True)
-     , (2121588845, 41, True);
+     , (2121588845, 41, True)
+     , (2121588845, 1, True)
+     , (2121588845, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588845, 67109554, 0, 24)
@@ -12042,7 +12332,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588846, 12, True)
      , (2121588846, 11, True)
      , (2121588846, 14, True)
-     , (2121588846, 41, True);
+     , (2121588846, 41, True)
+     , (2121588846, 1, True)
+     , (2121588846, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588846, 67109551, 0, 24)
@@ -12123,7 +12415,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588851, 12, True)
      , (2121588851, 11, True)
      , (2121588851, 14, True)
-     , (2121588851, 41, True);
+     , (2121588851, 41, True)
+     , (2121588851, 1, True)
+     , (2121588851, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588851, 67110047, 0, 24)
@@ -12204,7 +12498,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588852, 12, True)
      , (2121588852, 11, True)
      , (2121588852, 14, True)
-     , (2121588852, 41, True);
+     , (2121588852, 41, True)
+     , (2121588852, 1, True)
+     , (2121588852, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588852, 67110045, 0, 24)
@@ -12285,7 +12581,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588841, 12, True)
      , (2121588841, 11, True)
      , (2121588841, 14, True)
-     , (2121588841, 41, True);
+     , (2121588841, 41, True)
+     , (2121588841, 1, True)
+     , (2121588841, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588841, 67109557, 0, 24)
@@ -12366,7 +12664,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588842, 12, True)
      , (2121588842, 11, True)
      , (2121588842, 14, True)
-     , (2121588842, 41, True);
+     , (2121588842, 41, True)
+     , (2121588842, 1, True)
+     , (2121588842, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588842, 67110054, 0, 24)
@@ -12447,7 +12747,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588837, 12, True)
      , (2121588837, 11, True)
      , (2121588837, 14, True)
-     , (2121588837, 41, True);
+     , (2121588837, 41, True)
+     , (2121588837, 1, True)
+     , (2121588837, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588837, 67109554, 0, 24)
@@ -12528,7 +12830,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588838, 12, True)
      , (2121588838, 11, True)
      , (2121588838, 14, True)
-     , (2121588838, 41, True);
+     , (2121588838, 41, True)
+     , (2121588838, 1, True)
+     , (2121588838, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588838, 67109558, 0, 24)
@@ -12609,7 +12913,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588839, 12, True)
      , (2121588839, 11, True)
      , (2121588839, 14, True)
-     , (2121588839, 41, True);
+     , (2121588839, 41, True)
+     , (2121588839, 1, True)
+     , (2121588839, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588839, 67110057, 0, 24)
@@ -12690,7 +12996,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588840, 12, True)
      , (2121588840, 11, True)
      , (2121588840, 14, True)
-     , (2121588840, 41, True);
+     , (2121588840, 41, True)
+     , (2121588840, 1, True)
+     , (2121588840, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588840, 67109556, 0, 24)
@@ -12771,7 +13079,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121588850, 12, True)
      , (2121588850, 11, True)
      , (2121588850, 14, True)
-     , (2121588850, 41, True);
+     , (2121588850, 41, True)
+     , (2121588850, 1, True)
+     , (2121588850, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121588850, 67109557, 0, 24)
@@ -12852,7 +13162,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109980672, 12, True)
      , (2109980672, 11, True)
      , (2109980672, 14, True)
-     , (2109980672, 41, True);
+     , (2109980672, 41, True)
+     , (2109980672, 1, True)
+     , (2109980672, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109980672, 67110057, 0, 24)
@@ -12939,7 +13251,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108928012, 12, True)
      , (2108928012, 11, True)
      , (2108928012, 14, True)
-     , (2108928012, 41, True);
+     , (2108928012, 41, True)
+     , (2108928012, 1, True)
+     , (2108928012, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108928012, 67110057, 0, 24)
@@ -13020,7 +13334,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108928009, 12, True)
      , (2108928009, 11, True)
      , (2108928009, 14, True)
-     , (2108928009, 41, True);
+     , (2108928009, 41, True)
+     , (2108928009, 1, True)
+     , (2108928009, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108928009, 67110056, 0, 24)
@@ -13107,7 +13423,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108928030, 12, True)
      , (2108928030, 11, True)
      , (2108928030, 14, True)
-     , (2108928030, 41, True);
+     , (2108928030, 41, True)
+     , (2108928030, 1, True)
+     , (2108928030, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108928030, 67109561, 0, 24)
@@ -13188,7 +13506,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108928029, 12, True)
      , (2108928029, 11, True)
      , (2108928029, 14, True)
-     , (2108928029, 41, True);
+     , (2108928029, 41, True)
+     , (2108928029, 1, True)
+     , (2108928029, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108928029, 67110056, 0, 24)
@@ -13269,7 +13589,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108928027, 12, True)
      , (2108928027, 11, True)
      , (2108928027, 14, True)
-     , (2108928027, 41, True);
+     , (2108928027, 41, True)
+     , (2108928027, 1, True)
+     , (2108928027, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108928027, 67109560, 0, 24)
@@ -13350,7 +13672,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108928028, 12, True)
      , (2108928028, 11, True)
      , (2108928028, 14, True)
-     , (2108928028, 41, True);
+     , (2108928028, 41, True)
+     , (2108928028, 1, True)
+     , (2108928028, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108928028, 67109554, 0, 24)
@@ -13431,7 +13755,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107879448, 12, True)
      , (2107879448, 11, True)
      , (2107879448, 14, True)
-     , (2107879448, 41, True);
+     , (2107879448, 41, True)
+     , (2107879448, 1, True)
+     , (2107879448, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107879448, 67110048, 0, 24)
@@ -13516,7 +13842,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107879443, 12, True)
      , (2107879443, 11, True)
      , (2107879443, 14, True)
-     , (2107879443, 41, True);
+     , (2107879443, 41, True)
+     , (2107879443, 1, True)
+     , (2107879443, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107879443, 67110055, 0, 24)
@@ -13597,7 +13925,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107879442, 12, True)
      , (2107879442, 11, True)
      , (2107879442, 14, True)
-     , (2107879442, 41, True);
+     , (2107879442, 41, True)
+     , (2107879442, 1, True)
+     , (2107879442, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107879442, 67110061, 0, 24)
@@ -13684,7 +14014,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107879439, 12, True)
      , (2107879439, 11, True)
      , (2107879439, 14, True)
-     , (2107879439, 41, True);
+     , (2107879439, 41, True)
+     , (2107879439, 1, True)
+     , (2107879439, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107879439, 67110049, 0, 24)
@@ -13763,7 +14095,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107879440, 12, True)
      , (2107879440, 11, True)
      , (2107879440, 14, True)
-     , (2107879440, 41, True);
+     , (2107879440, 41, True)
+     , (2107879440, 1, True)
+     , (2107879440, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107879440, 67110053, 0, 24)
@@ -13846,7 +14180,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107879436, 12, True)
      , (2107879436, 11, True)
      , (2107879436, 14, True)
-     , (2107879436, 41, True);
+     , (2107879436, 41, True)
+     , (2107879436, 1, True)
+     , (2107879436, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107879436, 67110053, 0, 24)
@@ -13929,7 +14265,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120425487, 12, True)
      , (2120425487, 11, True)
      , (2120425487, 14, True)
-     , (2120425487, 41, True);
+     , (2120425487, 41, True)
+     , (2120425487, 1, True)
+     , (2120425487, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120425487, 67110056, 0, 24)
@@ -14010,7 +14348,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120425486, 12, True)
      , (2120425486, 11, True)
      , (2120425486, 14, True)
-     , (2120425486, 41, True);
+     , (2120425486, 41, True)
+     , (2120425486, 1, True)
+     , (2120425486, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120425486, 67110055, 0, 24)
@@ -14097,7 +14437,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120425488, 12, True)
      , (2120425488, 11, True)
      , (2120425488, 14, True)
-     , (2120425488, 41, True);
+     , (2120425488, 41, True)
+     , (2120425488, 1, True)
+     , (2120425488, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120425488, 67110061, 0, 24)
@@ -14176,7 +14518,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120425491, 12, True)
      , (2120425491, 11, True)
      , (2120425491, 14, True)
-     , (2120425491, 41, True);
+     , (2120425491, 41, True)
+     , (2120425491, 1, True)
+     , (2120425491, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120425491, 67110056, 0, 24)
@@ -14255,7 +14599,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120425495, 12, True)
      , (2120425495, 11, True)
      , (2120425495, 14, True)
-     , (2120425495, 41, True);
+     , (2120425495, 41, True)
+     , (2120425495, 1, True)
+     , (2120425495, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120425495, 67109553, 0, 24)
@@ -14336,7 +14682,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120425496, 12, True)
      , (2120425496, 11, True)
      , (2120425496, 14, True)
-     , (2120425496, 41, True);
+     , (2120425496, 41, True)
+     , (2120425496, 1, True)
+     , (2120425496, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120425496, 67109559, 0, 24)
@@ -14417,7 +14765,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120425493, 12, True)
      , (2120425493, 11, True)
      , (2120425493, 14, True)
-     , (2120425493, 41, True);
+     , (2120425493, 41, True)
+     , (2120425493, 1, True)
+     , (2120425493, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120425493, 67110055, 0, 24)
@@ -14498,7 +14848,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2120425494, 12, True)
      , (2120425494, 11, True)
      , (2120425494, 14, True)
-     , (2120425494, 41, True);
+     , (2120425494, 41, True)
+     , (2120425494, 1, True)
+     , (2120425494, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2120425494, 67109561, 0, 24)
@@ -14579,7 +14931,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2119376907, 12, True)
      , (2119376907, 11, True)
      , (2119376907, 14, True)
-     , (2119376907, 41, True);
+     , (2119376907, 41, True)
+     , (2119376907, 1, True)
+     , (2119376907, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2119376907, 67110052, 0, 24)
@@ -14662,7 +15016,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2119376906, 12, True)
      , (2119376906, 11, True)
      , (2119376906, 14, True)
-     , (2119376906, 41, True);
+     , (2119376906, 41, True)
+     , (2119376906, 1, True)
+     , (2119376906, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2119376906, 67110053, 0, 24)
@@ -14741,7 +15097,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2119376905, 12, True)
      , (2119376905, 11, True)
      , (2119376905, 14, True)
-     , (2119376905, 41, True);
+     , (2119376905, 41, True)
+     , (2119376905, 1, True)
+     , (2119376905, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2119376905, 67110056, 0, 24)
@@ -14826,7 +15184,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2119376913, 12, True)
      , (2119376913, 11, True)
      , (2119376913, 14, True)
-     , (2119376913, 41, True);
+     , (2119376913, 41, True)
+     , (2119376913, 1, True)
+     , (2119376913, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2119376913, 67110057, 0, 24)
@@ -14909,7 +15269,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2119376908, 12, True)
      , (2119376908, 11, True)
      , (2119376908, 14, True)
-     , (2119376908, 41, True);
+     , (2119376908, 41, True)
+     , (2119376908, 1, True)
+     , (2119376908, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2119376908, 67110047, 0, 24)
@@ -14990,7 +15352,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107986013, 12, True)
      , (2107986013, 11, True)
      , (2107986013, 14, True)
-     , (2107986013, 41, True);
+     , (2107986013, 41, True)
+     , (2107986013, 1, True)
+     , (2107986013, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107986013, 67113162, 0, 0);
@@ -15046,7 +15410,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107985964, 12, True)
      , (2107985964, 11, True)
      , (2107985964, 14, True)
-     , (2107985964, 41, True);
+     , (2107985964, 41, True)
+     , (2107985964, 1, True)
+     , (2107985964, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107985964, 67110052, 0, 24)
@@ -15135,7 +15501,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107985973, 12, True)
      , (2107985973, 11, True)
      , (2107985973, 14, True)
-     , (2107985973, 41, True);
+     , (2107985973, 41, True)
+     , (2107985973, 1, True)
+     , (2107985973, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107985973, 67110057, 0, 24)
@@ -15214,7 +15582,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107985963, 12, True)
      , (2107985963, 11, True)
      , (2107985963, 14, True)
-     , (2107985963, 41, True);
+     , (2107985963, 41, True)
+     , (2107985963, 1, True)
+     , (2107985963, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107985963, 67110057, 0, 24)
@@ -15299,7 +15669,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107985967, 12, True)
      , (2107985967, 11, True)
      , (2107985967, 14, True)
-     , (2107985967, 41, True);
+     , (2107985967, 41, True)
+     , (2107985967, 1, True)
+     , (2107985967, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107985967, 67110057, 0, 24)
@@ -15384,7 +15756,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107985969, 12, True)
      , (2107985969, 11, True)
      , (2107985969, 14, True)
-     , (2107985969, 41, True);
+     , (2107985969, 41, True)
+     , (2107985969, 1, True)
+     , (2107985969, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107985969, 67110045, 0, 24)
@@ -15465,7 +15839,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107985974, 12, True)
      , (2107985974, 11, True)
      , (2107985974, 14, True)
-     , (2107985974, 41, True);
+     , (2107985974, 41, True)
+     , (2107985974, 1, True)
+     , (2107985974, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107985974, 67110050, 0, 24)
@@ -15548,7 +15924,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107985971, 12, True)
      , (2107985971, 11, True)
      , (2107985971, 14, True)
-     , (2107985971, 41, True);
+     , (2107985971, 41, True)
+     , (2107985971, 1, True)
+     , (2107985971, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107985971, 67110061, 0, 24)
@@ -15639,7 +16017,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107986075, 12, True)
      , (2107986075, 11, True)
      , (2107986075, 14, True)
-     , (2107986075, 41, True);
+     , (2107986075, 41, True)
+     , (2107986075, 1, True)
+     , (2107986075, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107986075, 67114023, 40, 40)
@@ -15730,7 +16110,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107986070, 12, True)
      , (2107986070, 11, True)
      , (2107986070, 14, True)
-     , (2107986070, 41, True);
+     , (2107986070, 41, True)
+     , (2107986070, 1, True)
+     , (2107986070, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107986070, 67109554, 0, 24)
@@ -15815,7 +16197,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107985966, 12, True)
      , (2107985966, 11, True)
      , (2107985966, 14, True)
-     , (2107985966, 41, True);
+     , (2107985966, 41, True)
+     , (2107985966, 1, True)
+     , (2107985966, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107985966, 67110056, 0, 24)
@@ -15902,7 +16286,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107985965, 12, True)
      , (2107985965, 11, True)
      , (2107985965, 14, True)
-     , (2107985965, 41, True);
+     , (2107985965, 41, True)
+     , (2107985965, 1, True)
+     , (2107985965, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107985965, 67110050, 0, 24)
@@ -15986,7 +16372,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107985970, 12, True)
      , (2107985970, 11, True)
      , (2107985970, 14, True)
-     , (2107985970, 41, True);
+     , (2107985970, 41, True)
+     , (2107985970, 1, True)
+     , (2107985970, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107985970, 67110047, 0, 24)
@@ -16067,7 +16455,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107986065, 12, True)
      , (2107986065, 11, True)
      , (2107986065, 14, True)
-     , (2107986065, 41, True);
+     , (2107986065, 41, True)
+     , (2107986065, 1, True)
+     , (2107986065, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107986065, 67110049, 0, 24)
@@ -16147,7 +16537,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107985972, 12, True)
      , (2107985972, 11, True)
      , (2107985972, 14, True)
-     , (2107985972, 41, True);
+     , (2107985972, 41, True)
+     , (2107985972, 1, True)
+     , (2107985972, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107985972, 67110055, 0, 24)
@@ -16230,7 +16622,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107990020, 12, True)
      , (2107990020, 11, True)
      , (2107990020, 14, True)
-     , (2107990020, 41, True);
+     , (2107990020, 41, True)
+     , (2107990020, 1, True)
+     , (2107990020, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107990020, 67110053, 0, 24)
@@ -16311,7 +16705,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109034512, 12, True)
      , (2109034512, 11, True)
      , (2109034512, 14, True)
-     , (2109034512, 41, True);
+     , (2109034512, 41, True)
+     , (2109034512, 1, True)
+     , (2109034512, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109034512, 67109556, 0, 24)
@@ -16392,7 +16788,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109034513, 12, True)
      , (2109034513, 11, True)
      , (2109034513, 14, True)
-     , (2109034513, 41, True);
+     , (2109034513, 41, True)
+     , (2109034513, 1, True)
+     , (2109034513, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109034513, 67109553, 0, 24)
@@ -16473,7 +16871,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109034514, 12, True)
      , (2109034514, 11, True)
      , (2109034514, 14, True)
-     , (2109034514, 41, True);
+     , (2109034514, 41, True)
+     , (2109034514, 1, True)
+     , (2109034514, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109034514, 67109551, 0, 24)
@@ -16554,7 +16954,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109034515, 12, True)
      , (2109034515, 11, True)
      , (2109034515, 14, True)
-     , (2109034515, 41, True);
+     , (2109034515, 41, True)
+     , (2109034515, 1, True)
+     , (2109034515, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109034515, 67109562, 0, 24)
@@ -16635,7 +17037,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109034516, 12, True)
      , (2109034516, 11, True)
      , (2109034516, 14, True)
-     , (2109034516, 41, True);
+     , (2109034516, 41, True)
+     , (2109034516, 1, True)
+     , (2109034516, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109034516, 67109555, 0, 24)
@@ -16716,7 +17120,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109034517, 12, True)
      , (2109034517, 11, True)
      , (2109034517, 14, True)
-     , (2109034517, 41, True);
+     , (2109034517, 41, True)
+     , (2109034517, 1, True)
+     , (2109034517, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109034517, 67109559, 0, 24)
@@ -16797,7 +17203,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109034501, 12, True)
      , (2109034501, 11, True)
      , (2109034501, 14, True)
-     , (2109034501, 41, True);
+     , (2109034501, 41, True)
+     , (2109034501, 1, True)
+     , (2109034501, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109034501, 67109553, 0, 24)
@@ -16878,7 +17286,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109034502, 12, True)
      , (2109034502, 11, True)
      , (2109034502, 14, True)
-     , (2109034502, 41, True);
+     , (2109034502, 41, True)
+     , (2109034502, 1, True)
+     , (2109034502, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109034502, 67109556, 0, 24)
@@ -16959,7 +17369,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109034503, 12, True)
      , (2109034503, 11, True)
      , (2109034503, 14, True)
-     , (2109034503, 41, True);
+     , (2109034503, 41, True)
+     , (2109034503, 1, True)
+     , (2109034503, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109034503, 67109554, 0, 24)
@@ -17040,7 +17452,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109034510, 12, True)
      , (2109034510, 11, True)
      , (2109034510, 14, True)
-     , (2109034510, 41, True);
+     , (2109034510, 41, True)
+     , (2109034510, 1, True)
+     , (2109034510, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109034510, 67110055, 0, 24)
@@ -17121,7 +17535,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109034511, 12, True)
      , (2109034511, 11, True)
      , (2109034511, 14, True)
-     , (2109034511, 41, True);
+     , (2109034511, 41, True)
+     , (2109034511, 1, True)
+     , (2109034511, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109034511, 67110056, 0, 24)
@@ -17202,7 +17618,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109034504, 12, True)
      , (2109034504, 11, True)
      , (2109034504, 14, True)
-     , (2109034504, 41, True);
+     , (2109034504, 41, True)
+     , (2109034504, 1, True)
+     , (2109034504, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109034504, 67110059, 0, 24)
@@ -17283,7 +17701,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109034505, 12, True)
      , (2109034505, 11, True)
      , (2109034505, 14, True)
-     , (2109034505, 41, True);
+     , (2109034505, 41, True)
+     , (2109034505, 1, True)
+     , (2109034505, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109034505, 67110045, 0, 24)
@@ -17364,7 +17784,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109034506, 12, True)
      , (2109034506, 11, True)
      , (2109034506, 14, True)
-     , (2109034506, 41, True);
+     , (2109034506, 41, True)
+     , (2109034506, 1, True)
+     , (2109034506, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109034506, 67109559, 0, 24)
@@ -17445,7 +17867,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109034509, 12, True)
      , (2109034509, 11, True)
      , (2109034509, 14, True)
-     , (2109034509, 41, True);
+     , (2109034509, 41, True)
+     , (2109034509, 1, True)
+     , (2109034509, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109034509, 67116847, 0, 24)
@@ -17518,7 +17942,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109030414, 12, True)
      , (2109030414, 11, True)
      , (2109030414, 14, True)
-     , (2109030414, 41, True);
+     , (2109030414, 41, True)
+     , (2109030414, 1, True)
+     , (2109030414, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109030414, 67109561, 0, 24)
@@ -17603,7 +18029,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2109030413, 12, True)
      , (2109030413, 11, True)
      , (2109030413, 14, True)
-     , (2109030413, 41, True);
+     , (2109030413, 41, True)
+     , (2109030413, 1, True)
+     , (2109030413, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2109030413, 67110045, 0, 24)
@@ -17690,7 +18118,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2112163843, 12, True)
      , (2112163843, 11, True)
      , (2112163843, 14, True)
-     , (2112163843, 41, True);
+     , (2112163843, 41, True)
+     , (2112163843, 1, True)
+     , (2112163843, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2112163843, 67110055, 0, 24)
@@ -17775,7 +18205,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087354374, 12, True)
      , (2087354374, 11, True)
      , (2087354374, 14, True)
-     , (2087354374, 41, True);
+     , (2087354374, 41, True)
+     , (2087354374, 1, True)
+     , (2087354374, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087354374, 67109560, 0, 24)
@@ -17858,7 +18290,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2086305795, 12, True)
      , (2086305795, 11, True)
      , (2086305795, 14, True)
-     , (2086305795, 41, True);
+     , (2086305795, 41, True)
+     , (2086305795, 1, True)
+     , (2086305795, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2086305795, 67109559, 0, 24)
@@ -17939,7 +18373,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358525, 12, True)
      , (2087358525, 11, True)
      , (2087358525, 14, True)
-     , (2087358525, 41, True);
+     , (2087358525, 41, True)
+     , (2087358525, 1, True)
+     , (2087358525, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087358525, 67109558, 0, 24)
@@ -18021,7 +18457,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358517, 12, True)
      , (2087358517, 11, True)
      , (2087358517, 14, True)
-     , (2087358517, 41, True);
+     , (2087358517, 41, True)
+     , (2087358517, 1, True)
+     , (2087358517, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087358517, 67109560, 0, 24)
@@ -18104,7 +18542,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358512, 12, True)
      , (2087358512, 11, True)
      , (2087358512, 14, True)
-     , (2087358512, 41, True);
+     , (2087358512, 41, True)
+     , (2087358512, 1, True)
+     , (2087358512, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087358512, 67109560, 0, 24)
@@ -18187,7 +18627,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358503, 12, True)
      , (2087358503, 11, True)
      , (2087358503, 14, True)
-     , (2087358503, 41, True);
+     , (2087358503, 41, True)
+     , (2087358503, 1, True)
+     , (2087358503, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087358503, 67109560, 0, 24)
@@ -18265,7 +18707,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358502, 12, True)
      , (2087358502, 11, True)
      , (2087358502, 14, True)
-     , (2087358502, 41, True);
+     , (2087358502, 41, True)
+     , (2087358502, 1, True)
+     , (2087358502, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087358502, 67109559, 0, 24)
@@ -18345,7 +18789,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358516, 12, True)
      , (2087358516, 11, True)
      , (2087358516, 14, True)
-     , (2087358516, 41, True);
+     , (2087358516, 41, True)
+     , (2087358516, 1, True)
+     , (2087358516, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087358516, 67109561, 0, 24)
@@ -18428,7 +18874,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358515, 12, True)
      , (2087358515, 11, True)
      , (2087358515, 14, True)
-     , (2087358515, 41, True);
+     , (2087358515, 41, True)
+     , (2087358515, 1, True)
+     , (2087358515, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087358515, 67109560, 0, 24)
@@ -18515,7 +18963,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358514, 12, True)
      , (2087358514, 11, True)
      , (2087358514, 14, True)
-     , (2087358514, 41, True);
+     , (2087358514, 41, True)
+     , (2087358514, 1, True)
+     , (2087358514, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087358514, 67109562, 0, 24)
@@ -18601,7 +19051,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358513, 12, True)
      , (2087358513, 11, True)
      , (2087358513, 14, True)
-     , (2087358513, 41, True);
+     , (2087358513, 41, True)
+     , (2087358513, 1, True)
+     , (2087358513, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087358513, 67109562, 0, 24)
@@ -18684,7 +19136,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358505, 12, True)
      , (2087358505, 11, True)
      , (2087358505, 14, True)
-     , (2087358505, 41, True);
+     , (2087358505, 41, True)
+     , (2087358505, 1, True)
+     , (2087358505, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087358505, 67109560, 0, 24)
@@ -18765,7 +19219,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358507, 12, True)
      , (2087358507, 11, True)
      , (2087358507, 14, True)
-     , (2087358507, 41, True);
+     , (2087358507, 41, True)
+     , (2087358507, 1, True)
+     , (2087358507, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087358507, 67109560, 0, 24)
@@ -18846,7 +19302,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358506, 12, True)
      , (2087358506, 11, True)
      , (2087358506, 14, True)
-     , (2087358506, 41, True);
+     , (2087358506, 41, True)
+     , (2087358506, 1, True)
+     , (2087358506, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087358506, 67110048, 0, 24)
@@ -18927,7 +19385,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358504, 12, True)
      , (2087358504, 11, True)
      , (2087358504, 14, True)
-     , (2087358504, 41, True);
+     , (2087358504, 41, True)
+     , (2087358504, 1, True)
+     , (2087358504, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087358504, 67109550, 0, 24)
@@ -19009,7 +19469,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358603, 12, True)
      , (2087358603, 11, True)
      , (2087358603, 14, True)
-     , (2087358603, 41, True);
+     , (2087358603, 41, True)
+     , (2087358603, 1, True)
+     , (2087358603, 51, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2087358603, 0, 83894477, 83892492)
@@ -19084,7 +19546,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358602, 12, True)
      , (2087358602, 11, True)
      , (2087358602, 14, True)
-     , (2087358602, 41, True);
+     , (2087358602, 41, True)
+     , (2087358602, 1, True)
+     , (2087358602, 51, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2087358602, 0, 83894477, 83892492)
@@ -19159,7 +19623,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358606, 12, True)
      , (2087358606, 11, True)
      , (2087358606, 14, True)
-     , (2087358606, 41, True);
+     , (2087358606, 41, True)
+     , (2087358606, 1, True)
+     , (2087358606, 51, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2087358606, 0, 83894477, 83892492)
@@ -19233,7 +19699,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358574, 12, True)
      , (2087358574, 11, True)
      , (2087358574, 14, True)
-     , (2087358574, 41, True);
+     , (2087358574, 41, True)
+     , (2087358574, 1, True)
+     , (2087358574, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087358574, 67109556, 0, 24)
@@ -19318,7 +19786,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087358608, 12, True)
      , (2087358608, 11, True)
      , (2087358608, 14, True)
-     , (2087358608, 41, True);
+     , (2087358608, 41, True)
+     , (2087358608, 1, True)
+     , (2087358608, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087358608, 67109550, 0, 24)
@@ -19413,7 +19883,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1975107600, 12, True)
      , (1975107600, 11, True)
      , (1975107600, 14, True)
-     , (1975107600, 41, True);
+     , (1975107600, 41, True)
+     , (1975107600, 1, True)
+     , (1975107600, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1975107600, 67109560, 0, 24)
@@ -19496,7 +19968,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1975107586, 12, True)
      , (1975107586, 11, True)
      , (1975107586, 14, True)
-     , (1975107586, 41, True);
+     , (1975107586, 41, True)
+     , (1975107586, 1, True)
+     , (1975107586, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1975107586, 67110055, 0, 24)
@@ -19581,7 +20055,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1975107596, 12, True)
      , (1975107596, 11, True)
      , (1975107596, 14, True)
-     , (1975107596, 41, True);
+     , (1975107596, 41, True)
+     , (1975107596, 1, True)
+     , (1975107596, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1975107596, 67109560, 0, 24)
@@ -19666,7 +20142,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1975107585, 12, True)
      , (1975107585, 11, True)
      , (1975107585, 14, True)
-     , (1975107585, 41, True);
+     , (1975107585, 41, True)
+     , (1975107585, 1, True)
+     , (1975107585, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1975107585, 67109562, 0, 24)
@@ -19751,7 +20229,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1975107584, 12, True)
      , (1975107584, 11, True)
      , (1975107584, 14, True)
-     , (1975107584, 41, True);
+     , (1975107584, 41, True)
+     , (1975107584, 1, True)
+     , (1975107584, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1975107584, 67109555, 0, 24)
@@ -19838,7 +20318,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1920909328, 12, True)
      , (1920909328, 11, True)
      , (1920909328, 14, True)
-     , (1920909328, 41, True);
+     , (1920909328, 41, True)
+     , (1920909328, 1, True)
+     , (1920909328, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1920909328, 67115903, 0, 24)
@@ -19908,7 +20390,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1920909325, 12, True)
      , (1920909325, 11, True)
      , (1920909325, 14, True)
-     , (1920909325, 41, True);
+     , (1920909325, 41, True)
+     , (1920909325, 1, True)
+     , (1920909325, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1920909325, 67115907, 0, 24)
@@ -19991,7 +20475,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1920909345, 12, True)
      , (1920909345, 11, True)
      , (1920909345, 14, True)
-     , (1920909345, 41, True);
+     , (1920909345, 41, True)
+     , (1920909345, 1, True)
+     , (1920909345, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1920909345, 67115901, 0, 24)
@@ -20061,7 +20547,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1920909337, 12, True)
      , (1920909337, 11, True)
      , (1920909337, 14, True)
-     , (1920909337, 41, True);
+     , (1920909337, 41, True)
+     , (1920909337, 1, True)
+     , (1920909337, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1920909337, 67115906, 0, 24)
@@ -20143,7 +20631,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1920909322, 12, True)
      , (1920909322, 11, True)
      , (1920909322, 14, True)
-     , (1920909322, 41, True);
+     , (1920909322, 41, True)
+     , (1920909322, 1, True)
+     , (1920909322, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1920909322, 67115908, 0, 24)
@@ -20222,7 +20712,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1920909357, 12, True)
      , (1920909357, 11, True)
      , (1920909357, 14, True)
-     , (1920909357, 41, True);
+     , (1920909357, 41, True)
+     , (1920909357, 1, True)
+     , (1920909357, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1920909357, 67115908, 0, 24)
@@ -20301,7 +20793,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1920909320, 12, True)
      , (1920909320, 11, True)
      , (1920909320, 14, True)
-     , (1920909320, 41, True);
+     , (1920909320, 41, True)
+     , (1920909320, 1, True)
+     , (1920909320, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1920909320, 67115901, 0, 24)
@@ -20379,7 +20873,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1920909323, 12, True)
      , (1920909323, 11, True)
      , (1920909323, 14, True)
-     , (1920909323, 41, True);
+     , (1920909323, 41, True)
+     , (1920909323, 1, True)
+     , (1920909323, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1920909323, 67115906, 0, 24)
@@ -20463,7 +20959,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1920909321, 12, True)
      , (1920909321, 11, True)
      , (1920909321, 14, True)
-     , (1920909321, 41, True);
+     , (1920909321, 41, True)
+     , (1920909321, 1, True)
+     , (1920909321, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1920909321, 67115901, 0, 24)
@@ -20548,7 +21046,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1984778254, 12, True)
      , (1984778254, 11, True)
      , (1984778254, 14, True)
-     , (1984778254, 41, True);
+     , (1984778254, 41, True)
+     , (1984778254, 1, True)
+     , (1984778254, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1984778254, 67109561, 0, 24)
@@ -20627,7 +21127,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1984778258, 12, True)
      , (1984778258, 11, True)
      , (1984778258, 14, True)
-     , (1984778258, 41, True);
+     , (1984778258, 41, True)
+     , (1984778258, 1, True)
+     , (1984778258, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1984778258, 67109561, 0, 24)
@@ -20707,7 +21209,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1984778255, 12, True)
      , (1984778255, 11, True)
      , (1984778255, 14, True)
-     , (1984778255, 41, True);
+     , (1984778255, 41, True)
+     , (1984778255, 1, True)
+     , (1984778255, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1984778255, 67109561, 0, 24)
@@ -20791,7 +21295,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1984778257, 12, True)
      , (1984778257, 11, True)
      , (1984778257, 14, True)
-     , (1984778257, 41, True);
+     , (1984778257, 41, True)
+     , (1984778257, 1, True)
+     , (1984778257, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1984778257, 67109558, 0, 24)
@@ -20876,7 +21382,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1984778265, 12, True)
      , (1984778265, 11, True)
      , (1984778265, 14, True)
-     , (1984778265, 41, True);
+     , (1984778265, 41, True)
+     , (1984778265, 1, True)
+     , (1984778265, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1984778265, 67109558, 0, 24)
@@ -20959,7 +21467,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1984778300, 12, True)
      , (1984778300, 11, True)
      , (1984778300, 14, True)
-     , (1984778300, 41, True);
+     , (1984778300, 41, True)
+     , (1984778300, 1, True)
+     , (1984778300, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1984778300, 67109557, 0, 24)
@@ -21040,7 +21550,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1984778301, 12, True)
      , (1984778301, 11, True)
      , (1984778301, 14, True)
-     , (1984778301, 41, True);
+     , (1984778301, 41, True)
+     , (1984778301, 1, True)
+     , (1984778301, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1984778301, 67109559, 0, 24)
@@ -21121,7 +21633,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1984778299, 12, True)
      , (1984778299, 11, True)
      , (1984778299, 14, True)
-     , (1984778299, 41, True);
+     , (1984778299, 41, True)
+     , (1984778299, 1, True)
+     , (1984778299, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1984778299, 67110055, 0, 24)
@@ -21202,7 +21716,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1984778302, 12, True)
      , (1984778302, 11, True)
      , (1984778302, 14, True)
-     , (1984778302, 41, True);
+     , (1984778302, 41, True)
+     , (1984778302, 1, True)
+     , (1984778302, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1984778302, 67109556, 0, 24)
@@ -21283,7 +21799,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1984778292, 12, True)
      , (1984778292, 11, True)
      , (1984778292, 14, True)
-     , (1984778292, 41, True);
+     , (1984778292, 41, True)
+     , (1984778292, 1, True)
+     , (1984778292, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1984778292, 67109561, 0, 24)
@@ -21368,7 +21886,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924210730, 12, True)
      , (1924210730, 11, True)
      , (1924210730, 14, True)
-     , (1924210730, 41, True);
+     , (1924210730, 41, True)
+     , (1924210730, 1, True)
+     , (1924210730, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924210730, 67109550, 0, 24)
@@ -21451,7 +21971,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924210729, 12, True)
      , (1924210729, 11, True)
      , (1924210729, 14, True)
-     , (1924210729, 41, True);
+     , (1924210729, 41, True)
+     , (1924210729, 1, True)
+     , (1924210729, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924210729, 67114245, 0, 0);
@@ -21510,7 +22032,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924206626, 12, True)
      , (1924206626, 11, True)
      , (1924206626, 14, True)
-     , (1924206626, 41, True);
+     , (1924206626, 41, True)
+     , (1924206626, 1, True)
+     , (1924206626, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924206626, 67113169, 0, 0);
@@ -21566,7 +22090,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924210708, 12, True)
      , (1924210708, 11, True)
      , (1924210708, 14, True)
-     , (1924210708, 41, True);
+     , (1924210708, 41, True)
+     , (1924210708, 1, True)
+     , (1924210708, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924210708, 67109557, 0, 24)
@@ -21657,7 +22183,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924210707, 12, True)
      , (1924210707, 11, True)
      , (1924210707, 14, True)
-     , (1924210707, 41, True);
+     , (1924210707, 41, True)
+     , (1924210707, 1, True)
+     , (1924210707, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924210707, 67113367, 0, 0);
@@ -21694,7 +22222,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924210706, 12, True)
      , (1924210706, 11, True)
      , (1924210706, 14, True)
-     , (1924210706, 41, True);
+     , (1924210706, 41, True)
+     , (1924210706, 1, True)
+     , (1924210706, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924210706, 67113160, 0, 0);
@@ -21754,7 +22284,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924210727, 12, True)
      , (1924210727, 11, True)
      , (1924210727, 14, True)
-     , (1924210727, 41, True);
+     , (1924210727, 41, True)
+     , (1924210727, 1, True)
+     , (1924210727, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924210727, 67113367, 0, 0);
@@ -21791,7 +22323,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924210726, 12, True)
      , (1924210726, 11, True)
      , (1924210726, 14, True)
-     , (1924210726, 41, True);
+     , (1924210726, 41, True)
+     , (1924210726, 1, True)
+     , (1924210726, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924210726, 67113366, 0, 0);
@@ -21827,7 +22361,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924206664, 12, True)
      , (1924206664, 11, True)
      , (1924206664, 14, True)
-     , (1924206664, 41, True);
+     , (1924206664, 41, True)
+     , (1924206664, 1, True)
+     , (1924206664, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924206664, 67110055, 0, 24)
@@ -21910,7 +22446,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924210719, 12, True)
      , (1924210719, 11, True)
      , (1924210719, 14, True)
-     , (1924210719, 41, True);
+     , (1924210719, 41, True)
+     , (1924210719, 1, True)
+     , (1924210719, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924210719, 67109557, 0, 24)
@@ -21991,7 +22529,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924210721, 12, True)
      , (1924210721, 11, True)
      , (1924210721, 14, True)
-     , (1924210721, 41, True);
+     , (1924210721, 41, True)
+     , (1924210721, 1, True)
+     , (1924210721, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924210721, 67109560, 0, 24)
@@ -22072,7 +22612,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924210720, 12, True)
      , (1924210720, 11, True)
      , (1924210720, 14, True)
-     , (1924210720, 41, True);
+     , (1924210720, 41, True)
+     , (1924210720, 1, True)
+     , (1924210720, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924210720, 67109554, 0, 24)
@@ -22153,7 +22695,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924210722, 12, True)
      , (1924210722, 11, True)
      , (1924210722, 14, True)
-     , (1924210722, 41, True);
+     , (1924210722, 41, True)
+     , (1924210722, 1, True)
+     , (1924210722, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924210722, 67110057, 0, 24)
@@ -22234,7 +22778,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3689943598, 12, True)
      , (3689943598, 11, True)
      , (3689943598, 14, True)
-     , (3689943598, 41, True);
+     , (3689943598, 41, True)
+     , (3689943598, 1, True)
+     , (3689943598, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3689943598, 67109557, 0, 24)
@@ -22313,7 +22859,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1880969222, 12, True)
      , (1880969222, 11, True)
      , (1880969222, 14, True)
-     , (1880969222, 41, True);
+     , (1880969222, 41, True)
+     , (1880969222, 1, True)
+     , (1880969222, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1880969222, 67109559, 0, 24)
@@ -22398,7 +22946,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030895115, 12, True)
      , (2030895115, 11, True)
      , (2030895115, 14, True)
-     , (2030895115, 41, True);
+     , (2030895115, 41, True)
+     , (2030895115, 1, True)
+     , (2030895115, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030895115, 67109560, 0, 24)
@@ -22481,7 +23031,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030895109, 12, True)
      , (2030895109, 11, True)
      , (2030895109, 14, True)
-     , (2030895109, 41, True);
+     , (2030895109, 41, True)
+     , (2030895109, 1, True)
+     , (2030895109, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030895109, 67109562, 0, 24)
@@ -22564,7 +23116,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030895108, 12, True)
      , (2030895108, 11, True)
      , (2030895108, 14, True)
-     , (2030895108, 41, True);
+     , (2030895108, 41, True)
+     , (2030895108, 1, True)
+     , (2030895108, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030895108, 67109558, 0, 24)
@@ -22645,7 +23199,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030895107, 12, True)
      , (2030895107, 11, True)
      , (2030895107, 14, True)
-     , (2030895107, 41, True);
+     , (2030895107, 41, True)
+     , (2030895107, 1, True)
+     , (2030895107, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030895107, 67109552, 0, 24)
@@ -22724,7 +23280,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924210713, 12, True)
      , (1924210713, 11, True)
      , (1924210713, 14, True)
-     , (1924210713, 41, True);
+     , (1924210713, 41, True)
+     , (1924210713, 1, True)
+     , (1924210713, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924210713, 67109559, 0, 24)
@@ -22804,7 +23362,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1949163522, 12, True)
      , (1949163522, 11, True)
      , (1949163522, 14, True)
-     , (1949163522, 41, True);
+     , (1949163522, 41, True)
+     , (1949163522, 1, True)
+     , (1949163522, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1949163522, 67109560, 0, 24)
@@ -22889,7 +23449,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1949163523, 12, True)
      , (1949163523, 11, True)
      , (1949163523, 14, True)
-     , (1949163523, 41, True);
+     , (1949163523, 41, True)
+     , (1949163523, 1, True)
+     , (1949163523, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1949163523, 67109562, 0, 24)
@@ -22976,7 +23538,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1949163520, 12, True)
      , (1949163520, 11, True)
      , (1949163520, 14, True)
-     , (1949163520, 41, True);
+     , (1949163520, 41, True)
+     , (1949163520, 1, True)
+     , (1949163520, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1949163520, 67110048, 0, 24)
@@ -23055,7 +23619,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1949163521, 12, True)
      , (1949163521, 11, True)
      , (1949163521, 14, True)
-     , (1949163521, 41, True);
+     , (1949163521, 41, True)
+     , (1949163521, 1, True)
+     , (1949163521, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1949163521, 67109561, 0, 24)
@@ -23138,7 +23704,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1933414412, 12, True)
      , (1933414412, 11, True)
      , (1933414412, 14, True)
-     , (1933414412, 41, True);
+     , (1933414412, 41, True)
+     , (1933414412, 1, True)
+     , (1933414412, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1933414412, 67115907, 0, 24)
@@ -23225,7 +23793,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1933414413, 12, True)
      , (1933414413, 11, True)
      , (1933414413, 14, True)
-     , (1933414413, 41, True);
+     , (1933414413, 41, True)
+     , (1933414413, 1, True)
+     , (1933414413, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1933414413, 67115907, 0, 24)
@@ -23312,7 +23882,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1933414416, 12, True)
      , (1933414416, 11, True)
      , (1933414416, 14, True)
-     , (1933414416, 41, True);
+     , (1933414416, 41, True)
+     , (1933414416, 1, True)
+     , (1933414416, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1933414416, 67115908, 0, 24)
@@ -23393,7 +23965,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1933414464, 12, True)
      , (1933414464, 11, True)
      , (1933414464, 14, True)
-     , (1933414464, 41, True);
+     , (1933414464, 41, True)
+     , (1933414464, 1, True)
+     , (1933414464, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1933414464, 67115908, 0, 24)
@@ -23472,7 +24046,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365888, 12, True)
      , (1932365888, 11, True)
      , (1932365888, 14, True)
-     , (1932365888, 41, True);
+     , (1932365888, 41, True)
+     , (1932365888, 1, True)
+     , (1932365888, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1933414415, 516, 30034, 8388662, 'AAA9AAAAAAA=', 100355);
@@ -23505,7 +24081,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1933414415, 12, True)
      , (1933414415, 11, True)
      , (1933414415, 14, True)
-     , (1933414415, 41, True);
+     , (1933414415, 41, True)
+     , (1933414415, 1, True)
+     , (1933414415, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1933414415, 67115908, 0, 24)
@@ -23590,7 +24168,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365844, 12, True)
      , (1932365844, 11, True)
      , (1932365844, 14, True)
-     , (1932365844, 41, True);
+     , (1932365844, 41, True)
+     , (1932365844, 1, True)
+     , (1932365844, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365844, 67110052, 0, 24)
@@ -23679,7 +24259,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365912, 12, True)
      , (1932365912, 11, True)
      , (1932365912, 14, True)
-     , (1932365912, 41, True);
+     , (1932365912, 41, True)
+     , (1932365912, 1, True)
+     , (1932365912, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365912, 67116850, 0, 24)
@@ -23752,7 +24334,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365849, 12, True)
      , (1932365849, 11, True)
      , (1932365849, 14, True)
-     , (1932365849, 41, True);
+     , (1932365849, 41, True)
+     , (1932365849, 1, True)
+     , (1932365849, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1933414409, 516, 30035, 8388662, 'AAA9AAAAAAA=', 100419);
@@ -23785,7 +24369,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1933414409, 12, True)
      , (1933414409, 11, True)
      , (1933414409, 14, True)
-     , (1933414409, 41, True);
+     , (1933414409, 41, True)
+     , (1933414409, 1, True)
+     , (1933414409, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1933414409, 67115907, 0, 24)
@@ -23867,7 +24453,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365848, 12, True)
      , (1932365848, 11, True)
      , (1932365848, 14, True)
-     , (1932365848, 41, True);
+     , (1932365848, 41, True)
+     , (1932365848, 1, True)
+     , (1932365848, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365848, 67115907, 0, 24)
@@ -23937,7 +24525,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365846, 12, True)
      , (1932365846, 11, True)
      , (1932365846, 14, True)
-     , (1932365846, 41, True);
+     , (1932365846, 41, True)
+     , (1932365846, 1, True)
+     , (1932365846, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365846, 67115902, 0, 24)
@@ -24007,7 +24597,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365842, 12, True)
      , (1932365842, 11, True)
      , (1932365842, 14, True)
-     , (1932365842, 41, True);
+     , (1932365842, 41, True)
+     , (1932365842, 1, True)
+     , (1932365842, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365842, 67115902, 0, 24)
@@ -24077,7 +24669,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365913, 12, True)
      , (1932365913, 11, True)
      , (1932365913, 14, True)
-     , (1932365913, 41, True);
+     , (1932365913, 41, True)
+     , (1932365913, 1, True)
+     , (1932365913, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365913, 67109554, 0, 24)
@@ -24158,7 +24752,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365914, 12, True)
      , (1932365914, 11, True)
      , (1932365914, 14, True)
-     , (1932365914, 41, True);
+     , (1932365914, 41, True)
+     , (1932365914, 1, True)
+     , (1932365914, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365914, 67109559, 0, 24)
@@ -24239,7 +24835,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365840, 12, True)
      , (1932365840, 11, True)
      , (1932365840, 14, True)
-     , (1932365840, 41, True);
+     , (1932365840, 41, True)
+     , (1932365840, 1, True)
+     , (1932365840, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1932365841, 516, 30029, 8388662, 'AAA9AAAAAAA=', 100355);
@@ -24272,7 +24870,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365841, 12, True)
      , (1932365841, 11, True)
      , (1932365841, 14, True)
-     , (1932365841, 41, True);
+     , (1932365841, 41, True)
+     , (1932365841, 1, True)
+     , (1932365841, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365841, 67109559, 0, 24)
@@ -24357,7 +24957,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365843, 12, True)
      , (1932365843, 11, True)
      , (1932365843, 14, True)
-     , (1932365843, 41, True);
+     , (1932365843, 41, True)
+     , (1932365843, 1, True)
+     , (1932365843, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365843, 67110053, 0, 24)
@@ -24427,7 +25029,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365855, 12, True)
      , (1932365855, 11, True)
      , (1932365855, 14, True)
-     , (1932365855, 41, True);
+     , (1932365855, 41, True)
+     , (1932365855, 1, True)
+     , (1932365855, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365855, 67115902, 0, 24)
@@ -24497,7 +25101,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365851, 12, True)
      , (1932365851, 11, True)
      , (1932365851, 14, True)
-     , (1932365851, 41, True);
+     , (1932365851, 41, True)
+     , (1932365851, 1, True)
+     , (1932365851, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365851, 67115902, 0, 24)
@@ -24571,7 +25177,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365917, 12, True)
      , (1932365917, 11, True)
      , (1932365917, 14, True)
-     , (1932365917, 41, True);
+     , (1932365917, 41, True)
+     , (1932365917, 1, True)
+     , (1932365917, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365917, 67116814, 40, 40)
@@ -24662,7 +25270,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365854, 12, True)
      , (1932365854, 11, True)
      , (1932365854, 14, True)
-     , (1932365854, 41, True);
+     , (1932365854, 41, True)
+     , (1932365854, 1, True)
+     , (1932365854, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365854, 67115902, 0, 24)
@@ -24733,7 +25343,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1933414408, 12, True)
      , (1933414408, 11, True)
      , (1933414408, 14, True)
-     , (1933414408, 41, True);
+     , (1933414408, 41, True)
+     , (1933414408, 1, True)
+     , (1933414408, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1933414408, 67115901, 0, 24)
@@ -24818,7 +25430,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1933414469, 12, True)
      , (1933414469, 11, True)
      , (1933414469, 14, True)
-     , (1933414469, 41, True);
+     , (1933414469, 41, True)
+     , (1933414469, 1, True)
+     , (1933414469, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1933414469, 67109556, 0, 24)
@@ -24903,7 +25517,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365884, 12, True)
      , (1932365884, 11, True)
      , (1932365884, 14, True)
-     , (1932365884, 41, True);
+     , (1932365884, 41, True)
+     , (1932365884, 1, True)
+     , (1932365884, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365884, 67115903, 0, 24)
@@ -24984,7 +25600,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365847, 12, True)
      , (1932365847, 11, True)
      , (1932365847, 14, True)
-     , (1932365847, 41, True);
+     , (1932365847, 41, True)
+     , (1932365847, 1, True)
+     , (1932365847, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365847, 67115903, 0, 24)
@@ -25054,7 +25672,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365915, 12, True)
      , (1932365915, 11, True)
      , (1932365915, 14, True)
-     , (1932365915, 41, True);
+     , (1932365915, 41, True)
+     , (1932365915, 1, True)
+     , (1932365915, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365915, 67109561, 0, 24)
@@ -25135,7 +25755,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932365916, 12, True)
      , (1932365916, 11, True)
      , (1932365916, 14, True)
-     , (1932365916, 41, True);
+     , (1932365916, 41, True)
+     , (1932365916, 1, True)
+     , (1932365916, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932365916, 67110054, 0, 24)
@@ -25216,7 +25838,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1931304974, 12, True)
      , (1931304974, 11, True)
      , (1931304974, 14, True)
-     , (1931304974, 41, True);
+     , (1931304974, 41, True)
+     , (1931304974, 1, True)
+     , (1931304974, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1931304976, 516, 30016, 8388662, 'AAA9AAAAAAA=', 100355);
@@ -25249,7 +25873,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1931304976, 12, True)
      , (1931304976, 11, True)
      , (1931304976, 14, True)
-     , (1931304976, 41, True);
+     , (1931304976, 41, True)
+     , (1931304976, 1, True)
+     , (1931304976, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1931304976, 67115905, 0, 24)
@@ -25319,7 +25945,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1931304975, 12, True)
      , (1931304975, 11, True)
      , (1931304975, 14, True)
-     , (1931304975, 41, True);
+     , (1931304975, 41, True)
+     , (1931304975, 1, True)
+     , (1931304975, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1931304975, 67109555, 0, 24)
@@ -25389,7 +26017,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1931304973, 12, True)
      , (1931304973, 11, True)
      , (1931304973, 14, True)
-     , (1931304973, 41, True);
+     , (1931304973, 41, True)
+     , (1931304973, 1, True)
+     , (1931304973, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1903894530, 516, 11395, 8388662, 'AAA9AAAAAAA=', 100355);
@@ -25422,7 +26052,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1903894530, 12, True)
      , (1903894530, 11, True)
      , (1903894530, 14, True)
-     , (1903894530, 41, True);
+     , (1903894530, 41, True)
+     , (1903894530, 1, True)
+     , (1903894530, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1903894530, 67109559, 0, 24)
@@ -25505,7 +26137,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1903894534, 12, True)
      , (1903894534, 11, True)
      , (1903894534, 14, True)
-     , (1903894534, 41, True);
+     , (1903894534, 41, True)
+     , (1903894534, 1, True)
+     , (1903894534, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1903894534, 67110059, 0, 24)
@@ -25592,7 +26226,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1903894533, 12, True)
      , (1903894533, 11, True)
      , (1903894533, 14, True)
-     , (1903894533, 41, True);
+     , (1903894533, 41, True)
+     , (1903894533, 1, True)
+     , (1903894533, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1903894533, 67109559, 0, 24)
@@ -25680,7 +26316,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1903894537, 12, True)
      , (1903894537, 11, True)
      , (1903894537, 14, True)
-     , (1903894537, 41, True);
+     , (1903894537, 41, True)
+     , (1903894537, 1, True)
+     , (1903894537, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1903894537, 67110047, 0, 24)
@@ -25763,7 +26401,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1903894536, 12, True)
      , (1903894536, 11, True)
      , (1903894536, 14, True)
-     , (1903894536, 41, True);
+     , (1903894536, 41, True)
+     , (1903894536, 1, True)
+     , (1903894536, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1903894536, 67109559, 0, 24)
@@ -25842,7 +26482,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1903894546, 12, True)
      , (1903894546, 11, True)
      , (1903894546, 14, True)
-     , (1903894546, 41, True);
+     , (1903894546, 41, True)
+     , (1903894546, 1, True)
+     , (1903894546, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1903894546, 67115907, 0, 24)
@@ -25924,7 +26566,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1914372118, 12, True)
      , (1914372118, 11, True)
      , (1914372118, 14, True)
-     , (1914372118, 41, True);
+     , (1914372118, 41, True)
+     , (1914372118, 1, True)
+     , (1914372118, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1914372118, 67109561, 0, 24)
@@ -26007,7 +26651,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1914372105, 12, True)
      , (1914372105, 11, True)
      , (1914372105, 14, True)
-     , (1914372105, 41, True);
+     , (1914372105, 41, True)
+     , (1914372105, 1, True)
+     , (1914372105, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1914372105, 67109552, 0, 24)
@@ -26094,7 +26740,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1914372114, 12, True)
      , (1914372114, 11, True)
      , (1914372114, 14, True)
-     , (1914372114, 41, True);
+     , (1914372114, 41, True)
+     , (1914372114, 1, True)
+     , (1914372114, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1914372114, 67109555, 0, 24)
@@ -26175,7 +26823,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1914372107, 12, True)
      , (1914372107, 11, True)
      , (1914372107, 14, True)
-     , (1914372107, 41, True);
+     , (1914372107, 41, True)
+     , (1914372107, 1, True)
+     , (1914372107, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1914372107, 67109561, 0, 24)
@@ -26258,7 +26908,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1914372126, 12, True)
      , (1914372126, 11, True)
      , (1914372126, 14, True)
-     , (1914372126, 41, True);
+     , (1914372126, 41, True)
+     , (1914372126, 1, True)
+     , (1914372126, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1914372126, 67115902, 0, 24)
@@ -26339,7 +26991,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1914372109, 12, True)
      , (1914372109, 11, True)
      , (1914372109, 14, True)
-     , (1914372109, 41, True);
+     , (1914372109, 41, True)
+     , (1914372109, 1, True)
+     , (1914372109, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1914372109, 67110047, 0, 24)
@@ -26420,7 +27074,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1914372108, 12, True)
      , (1914372108, 11, True)
      , (1914372108, 14, True)
-     , (1914372108, 41, True);
+     , (1914372108, 41, True)
+     , (1914372108, 1, True)
+     , (1914372108, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1914372108, 67109559, 0, 24)
@@ -26507,7 +27163,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1916641281, 12, True)
      , (1916641281, 11, True)
      , (1916641281, 14, True)
-     , (1916641281, 41, True);
+     , (1916641281, 41, True)
+     , (1916641281, 1, True)
+     , (1916641281, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1916641281, 67115901, 0, 24)
@@ -26588,7 +27246,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1916641283, 12, True)
      , (1916641283, 11, True)
      , (1916641283, 14, True)
-     , (1916641283, 41, True);
+     , (1916641283, 41, True)
+     , (1916641283, 1, True)
+     , (1916641283, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1916641283, 67115904, 0, 24)
@@ -26670,7 +27330,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1916641282, 12, True)
      , (1916641282, 11, True)
      , (1916641282, 14, True)
-     , (1916641282, 41, True);
+     , (1916641282, 41, True)
+     , (1916641282, 1, True)
+     , (1916641282, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1916641282, 67115902, 0, 24)
@@ -26749,7 +27411,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1916641300, 12, True)
      , (1916641300, 11, True)
      , (1916641300, 14, True)
-     , (1916641300, 41, True);
+     , (1916641300, 41, True)
+     , (1916641300, 1, True)
+     , (1916641300, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1916641300, 67115905, 0, 24)
@@ -26819,7 +27483,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1916641301, 12, True)
      , (1916641301, 11, True)
      , (1916641301, 14, True)
-     , (1916641301, 41, True);
+     , (1916641301, 41, True)
+     , (1916641301, 1, True)
+     , (1916641301, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1916641301, 67115904, 0, 24)
@@ -26889,7 +27555,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1916641302, 12, True)
      , (1916641302, 11, True)
      , (1916641302, 14, True)
-     , (1916641302, 41, True);
+     , (1916641302, 41, True)
+     , (1916641302, 1, True)
+     , (1916641302, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1916641302, 67109557, 0, 24)
@@ -26959,7 +27627,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1916641303, 12, True)
      , (1916641303, 11, True)
      , (1916641303, 14, True)
-     , (1916641303, 41, True);
+     , (1916641303, 41, True)
+     , (1916641303, 1, True)
+     , (1916641303, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1916641303, 67110057, 0, 24)
@@ -27029,7 +27699,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1916641284, 12, True)
      , (1916641284, 11, True)
      , (1916641284, 14, True)
-     , (1916641284, 41, True);
+     , (1916641284, 41, True)
+     , (1916641284, 1, True)
+     , (1916641284, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1916641284, 67115901, 0, 24)
@@ -27105,7 +27777,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049040393, 12, True)
      , (2049040393, 11, True)
      , (2049040393, 14, True)
-     , (2049040393, 41, True);
+     , (2049040393, 41, True)
+     , (2049040393, 1, True)
+     , (2049040393, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049040393, 67113166, 0, 0);
@@ -27163,7 +27837,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049040388, 12, True)
      , (2049040388, 11, True)
      , (2049040388, 14, True)
-     , (2049040388, 41, True);
+     , (2049040388, 41, True)
+     , (2049040388, 1, True)
+     , (2049040388, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049040388, 67113167, 0, 0);
@@ -27221,7 +27897,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049040389, 12, True)
      , (2049040389, 11, True)
      , (2049040389, 14, True)
-     , (2049040389, 41, True);
+     , (2049040389, 41, True)
+     , (2049040389, 1, True)
+     , (2049040389, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049040389, 67113171, 0, 0);
@@ -27279,7 +27957,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049040387, 12, True)
      , (2049040387, 11, True)
      , (2049040387, 14, True)
-     , (2049040387, 41, True);
+     , (2049040387, 41, True)
+     , (2049040387, 1, True)
+     , (2049040387, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049040387, 67113169, 0, 0);
@@ -27337,7 +28017,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049040392, 12, True)
      , (2049040392, 11, True)
      , (2049040392, 14, True)
-     , (2049040392, 41, True);
+     , (2049040392, 41, True)
+     , (2049040392, 1, True)
+     , (2049040392, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049040392, 67113168, 0, 0);
@@ -27395,7 +28077,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956577303, 12, True)
      , (1956577303, 11, True)
      , (1956577303, 14, True)
-     , (1956577303, 41, True);
+     , (1956577303, 41, True)
+     , (1956577303, 1, True)
+     , (1956577303, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956577303, 67115905, 0, 24)
@@ -27465,7 +28149,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956577285, 12, True)
      , (1956577285, 11, True)
      , (1956577285, 14, True)
-     , (1956577285, 41, True);
+     , (1956577285, 41, True)
+     , (1956577285, 1, True)
+     , (1956577285, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956577285, 67115902, 0, 24)
@@ -27541,7 +28227,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956577284, 12, True)
      , (1956577284, 11, True)
      , (1956577284, 14, True)
-     , (1956577284, 41, True);
+     , (1956577284, 41, True)
+     , (1956577284, 1, True)
+     , (1956577284, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956577284, 67115908, 0, 24)
@@ -27620,7 +28308,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956577283, 12, True)
      , (1956577283, 11, True)
      , (1956577283, 14, True)
-     , (1956577283, 41, True);
+     , (1956577283, 41, True)
+     , (1956577283, 1, True)
+     , (1956577283, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956577283, 67115901, 0, 24)
@@ -27701,7 +28391,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956577282, 12, True)
      , (1956577282, 11, True)
      , (1956577282, 14, True)
-     , (1956577282, 41, True);
+     , (1956577282, 41, True)
+     , (1956577282, 1, True)
+     , (1956577282, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956577282, 67115903, 0, 24)
@@ -27783,7 +28475,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956577300, 12, True)
      , (1956577300, 11, True)
      , (1956577300, 14, True)
-     , (1956577300, 41, True);
+     , (1956577300, 41, True)
+     , (1956577300, 1, True)
+     , (1956577300, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956577300, 67115906, 0, 24)
@@ -27853,7 +28547,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956577302, 12, True)
      , (1956577302, 11, True)
      , (1956577302, 14, True)
-     , (1956577302, 41, True);
+     , (1956577302, 41, True)
+     , (1956577302, 1, True)
+     , (1956577302, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956577302, 67109555, 0, 24)
@@ -27923,7 +28619,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956577301, 12, True)
      , (1956577301, 11, True)
      , (1956577301, 14, True)
-     , (1956577301, 41, True);
+     , (1956577301, 41, True)
+     , (1956577301, 1, True)
+     , (1956577301, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956577301, 67110053, 0, 24)
@@ -27993,7 +28691,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2137530378, 12, True)
      , (2137530378, 11, True)
      , (2137530378, 14, True)
-     , (2137530378, 41, True);
+     , (2137530378, 41, True)
+     , (2137530378, 1, True)
+     , (2137530378, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2137530378, 67110052, 0, 24)
@@ -28062,7 +28762,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2137530374, 12, True)
      , (2137530374, 11, True)
      , (2137530374, 14, True)
-     , (2137530374, 41, True);
+     , (2137530374, 41, True)
+     , (2137530374, 1, True)
+     , (2137530374, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2137530374, 67110047, 0, 24)
@@ -28131,7 +28833,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2137530377, 12, True)
      , (2137530377, 11, True)
      , (2137530377, 14, True)
-     , (2137530377, 41, True);
+     , (2137530377, 41, True)
+     , (2137530377, 1, True)
+     , (2137530377, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2137530377, 67109551, 0, 24)
@@ -28200,7 +28904,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2137530375, 12, True)
      , (2137530375, 11, True)
      , (2137530375, 14, True)
-     , (2137530375, 41, True);
+     , (2137530375, 41, True)
+     , (2137530375, 1, True)
+     , (2137530375, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2137530375, 67110049, 0, 24)
@@ -28269,7 +28975,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2137530376, 12, True)
      , (2137530376, 11, True)
      , (2137530376, 14, True)
-     , (2137530376, 41, True);
+     , (2137530376, 41, True)
+     , (2137530376, 1, True)
+     , (2137530376, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2137530376, 67109553, 0, 24)
@@ -28338,7 +29046,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2137526272, 12, True)
      , (2137526272, 11, True)
      , (2137526272, 14, True)
-     , (2137526272, 41, True);
+     , (2137526272, 41, True)
+     , (2137526272, 1, True)
+     , (2137526272, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2137526272, 67109551, 0, 24)
@@ -28407,7 +29117,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2138587338, 12, True)
      , (2138587338, 11, True)
      , (2138587338, 14, True)
-     , (2138587338, 41, True);
+     , (2138587338, 41, True)
+     , (2138587338, 1, True)
+     , (2138587338, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2138587338, 67109561, 0, 24)
@@ -28495,7 +29207,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1910202394, 12, True)
      , (1910202394, 11, True)
      , (1910202394, 14, True)
-     , (1910202394, 41, True);
+     , (1910202394, 41, True)
+     , (1910202394, 1, True)
+     , (1910202394, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1910202394, 67113367, 0, 0);
@@ -28532,7 +29246,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3691191610, 12, True)
      , (3691191610, 11, True)
      , (3691191610, 14, True)
-     , (3691191610, 41, True);
+     , (3691191610, 41, True)
+     , (3691191610, 1, True)
+     , (3691191610, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691191610, 67113368, 0, 0);
@@ -28569,7 +29285,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1910202397, 12, True)
      , (1910202397, 11, True)
      , (1910202397, 14, True)
-     , (1910202397, 41, True);
+     , (1910202397, 41, True)
+     , (1910202397, 1, True)
+     , (1910202397, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1910202397, 67113368, 0, 0);
@@ -28606,7 +29324,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1910202396, 12, True)
      , (1910202396, 11, True)
      , (1910202396, 14, True)
-     , (1910202396, 41, True);
+     , (1910202396, 41, True)
+     , (1910202396, 1, True)
+     , (1910202396, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1910202396, 67113367, 0, 0);
@@ -28643,7 +29363,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1910202399, 12, True)
      , (1910202399, 11, True)
      , (1910202399, 14, True)
-     , (1910202399, 41, True);
+     , (1910202399, 41, True)
+     , (1910202399, 1, True)
+     , (1910202399, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1910202399, 67113369, 0, 0);
@@ -28680,7 +29402,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1911250964, 12, True)
      , (1911250964, 11, True)
      , (1911250964, 14, True)
-     , (1911250964, 41, True);
+     , (1911250964, 41, True)
+     , (1911250964, 1, True)
+     , (1911250964, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1911250964, 67113366, 0, 0);
@@ -28717,7 +29441,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1911250963, 12, True)
      , (1911250963, 11, True)
      , (1911250963, 14, True)
-     , (1911250963, 41, True);
+     , (1911250963, 41, True)
+     , (1911250963, 1, True)
+     , (1911250963, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1911250963, 67113369, 0, 0);
@@ -28753,7 +29479,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1938780162, 12, True)
      , (1938780162, 11, True)
      , (1938780162, 14, True)
-     , (1938780162, 41, True);
+     , (1938780162, 41, True)
+     , (1938780162, 1, True)
+     , (1938780162, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1938780162, 67116338, 0, 0);
@@ -28827,7 +29555,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1938780164, 12, True)
      , (1938780164, 11, True)
      , (1938780164, 14, True)
-     , (1938780164, 41, True);
+     , (1938780164, 41, True)
+     , (1938780164, 1, True)
+     , (1938780164, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1938780164, 67116344, 0, 0);
@@ -28863,7 +29593,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1938780163, 12, True)
      , (1938780163, 11, True)
      , (1938780163, 14, True)
-     , (1938780163, 41, True);
+     , (1938780163, 41, True)
+     , (1938780163, 1, True)
+     , (1938780163, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1938780163, 67115466, 0, 0);
@@ -28899,7 +29631,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1938780161, 12, True)
      , (1938780161, 11, True)
      , (1938780161, 14, True)
-     , (1938780161, 41, True);
+     , (1938780161, 41, True)
+     , (1938780161, 1, True)
+     , (1938780161, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1938780161, 67116347, 0, 0);
@@ -28935,7 +29669,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2036162569, 12, True)
      , (2036162569, 11, True)
      , (2036162569, 14, True)
-     , (2036162569, 41, True);
+     , (2036162569, 41, True)
+     , (2036162569, 1, True)
+     , (2036162569, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2036162569, 67109560, 0, 24)
@@ -29015,7 +29751,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2036162567, 12, True)
      , (2036162567, 11, True)
      , (2036162567, 14, True)
-     , (2036162567, 41, True);
+     , (2036162567, 41, True)
+     , (2036162567, 1, True)
+     , (2036162567, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2036162567, 67109554, 0, 24)
@@ -29103,7 +29841,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2036162564, 12, True)
      , (2036162564, 11, True)
      , (2036162564, 14, True)
-     , (2036162564, 41, True);
+     , (2036162564, 41, True)
+     , (2036162564, 1, True)
+     , (2036162564, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2036162564, 67109562, 0, 24)
@@ -29188,7 +29928,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2036162568, 12, True)
      , (2036162568, 11, True)
      , (2036162568, 14, True)
-     , (2036162568, 41, True);
+     , (2036162568, 41, True)
+     , (2036162568, 1, True)
+     , (2036162568, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2036162568, 67109561, 0, 24)
@@ -29276,7 +30018,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2036162574, 12, True)
      , (2036162574, 11, True)
      , (2036162574, 14, True)
-     , (2036162574, 41, True);
+     , (2036162574, 41, True)
+     , (2036162574, 1, True)
+     , (2036162574, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2036162574, 67109558, 0, 24)
@@ -29361,7 +30105,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1894490118, 12, True)
      , (1894490118, 11, True)
      , (1894490118, 14, True)
-     , (1894490118, 41, True);
+     , (1894490118, 41, True)
+     , (1894490118, 1, True)
+     , (1894490118, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1894490118, 67116650, 1, 48)
@@ -29402,7 +30148,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1894490116, 12, True)
      , (1894490116, 11, True)
      , (1894490116, 14, True)
-     , (1894490116, 41, True);
+     , (1894490116, 41, True)
+     , (1894490116, 1, True)
+     , (1894490116, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1894490116, 67116650, 1, 48)
@@ -29443,7 +30191,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1894490117, 12, True)
      , (1894490117, 11, True)
      , (1894490117, 14, True)
-     , (1894490117, 41, True);
+     , (1894490117, 41, True)
+     , (1894490117, 1, True)
+     , (1894490117, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1894490117, 67116643, 1, 48)
@@ -29484,7 +30234,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1894490114, 12, True)
      , (1894490114, 11, True)
      , (1894490114, 14, True)
-     , (1894490114, 41, True);
+     , (1894490114, 41, True)
+     , (1894490114, 1, True)
+     , (1894490114, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1894490114, 67116628, 1, 48)
@@ -29525,7 +30277,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1894490121, 12, True)
      , (1894490121, 11, True)
      , (1894490121, 14, True)
-     , (1894490121, 41, True);
+     , (1894490121, 41, True)
+     , (1894490121, 1, True)
+     , (1894490121, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1894490121, 67116628, 1, 48)
@@ -29566,7 +30320,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1894490119, 12, True)
      , (1894490119, 11, True)
      , (1894490119, 14, True)
-     , (1894490119, 41, True);
+     , (1894490119, 41, True)
+     , (1894490119, 1, True)
+     , (1894490119, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1894490119, 67116650, 1, 48)
@@ -29607,7 +30363,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3691258977, 12, True)
      , (3691258977, 11, True)
      , (3691258977, 14, True)
-     , (3691258977, 41, True);
+     , (3691258977, 41, True)
+     , (3691258977, 1, True)
+     , (3691258977, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691258977, 67116650, 1, 48)
@@ -29648,7 +30406,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924878341, 12, True)
      , (1924878341, 11, True)
      , (1924878341, 14, True)
-     , (1924878341, 41, True);
+     , (1924878341, 41, True)
+     , (1924878341, 1, True)
+     , (1924878341, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924878341, 67110047, 0, 24)
@@ -29729,7 +30489,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1925926917, 12, True)
      , (1925926917, 11, True)
      , (1925926917, 14, True)
-     , (1925926917, 41, True);
+     , (1925926917, 41, True)
+     , (1925926917, 1, True)
+     , (1925926917, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1925926917, 67109554, 0, 24)
@@ -29812,7 +30574,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924878339, 12, True)
      , (1924878339, 11, True)
      , (1924878339, 14, True)
-     , (1924878339, 41, True);
+     , (1924878339, 41, True)
+     , (1924878339, 1, True)
+     , (1924878339, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924878339, 67109556, 0, 24)
@@ -29893,7 +30657,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924878340, 12, True)
      , (1924878340, 11, True)
      , (1924878340, 14, True)
-     , (1924878340, 41, True);
+     , (1924878340, 41, True)
+     , (1924878340, 1, True)
+     , (1924878340, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924878340, 67109562, 0, 24)
@@ -29976,7 +30742,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1924878342, 12, True)
      , (1924878342, 11, True)
      , (1924878342, 14, True)
-     , (1924878342, 41, True);
+     , (1924878342, 41, True)
+     , (1924878342, 1, True)
+     , (1924878342, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1924878342, 67109559, 0, 24)
@@ -30063,7 +30831,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2103791623, 12, True)
      , (2103791623, 11, True)
      , (2103791623, 14, True)
-     , (2103791623, 41, True);
+     , (2103791623, 41, True)
+     , (2103791623, 1, True)
+     , (2103791623, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2103791623, 67110057, 0, 24)
@@ -30148,7 +30918,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2106953731, 12, True)
      , (2106953731, 11, True)
      , (2106953731, 14, True)
-     , (2106953731, 41, True);
+     , (2106953731, 41, True)
+     , (2106953731, 1, True)
+     , (2106953731, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2106953731, 67110048, 0, 24)
@@ -30229,7 +31001,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994854, 12, True)
      , (2056994854, 11, True)
      , (2056994854, 14, True)
-     , (2056994854, 41, True);
+     , (2056994854, 41, True)
+     , (2056994854, 1, True)
+     , (2056994854, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056994854, 67109559, 0, 24)
@@ -30308,7 +31082,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056990744, 12, True)
      , (2056990744, 11, True)
      , (2056990744, 14, True)
-     , (2056990744, 41, True);
+     , (2056990744, 41, True)
+     , (2056990744, 1, True)
+     , (2056990744, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056990744, 67109558, 0, 24)
@@ -30389,7 +31165,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056990728, 12, True)
      , (2056990728, 11, True)
      , (2056990728, 14, True)
-     , (2056990728, 41, True);
+     , (2056990728, 41, True)
+     , (2056990728, 1, True)
+     , (2056990728, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056990728, 67109554, 0, 24)
@@ -30470,7 +31248,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056990729, 12, True)
      , (2056990729, 11, True)
      , (2056990729, 14, True)
-     , (2056990729, 41, True);
+     , (2056990729, 41, True)
+     , (2056990729, 1, True)
+     , (2056990729, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056990729, 67109552, 0, 24)
@@ -30551,7 +31331,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056990739, 12, True)
      , (2056990739, 11, True)
      , (2056990739, 14, True)
-     , (2056990739, 41, True);
+     , (2056990739, 41, True)
+     , (2056990739, 1, True)
+     , (2056990739, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056990739, 67116848, 0, 24)
@@ -30624,7 +31406,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056990745, 12, True)
      , (2056990745, 11, True)
      , (2056990745, 14, True)
-     , (2056990745, 41, True);
+     , (2056990745, 41, True)
+     , (2056990745, 1, True)
+     , (2056990745, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056990745, 67109555, 0, 24)
@@ -30705,7 +31489,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056990730, 12, True)
      , (2056990730, 11, True)
      , (2056990730, 14, True)
-     , (2056990730, 41, True);
+     , (2056990730, 41, True)
+     , (2056990730, 1, True)
+     , (2056990730, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056990730, 67109556, 0, 24)
@@ -30786,7 +31572,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056990740, 12, True)
      , (2056990740, 11, True)
      , (2056990740, 14, True)
-     , (2056990740, 41, True);
+     , (2056990740, 41, True)
+     , (2056990740, 1, True)
+     , (2056990740, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056990740, 67109555, 0, 24)
@@ -30867,7 +31655,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056990732, 12, True)
      , (2056990732, 11, True)
      , (2056990732, 14, True)
-     , (2056990732, 41, True);
+     , (2056990732, 41, True)
+     , (2056990732, 1, True)
+     , (2056990732, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056990732, 67110045, 0, 24)
@@ -30948,7 +31738,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056990742, 12, True)
      , (2056990742, 11, True)
      , (2056990742, 14, True)
-     , (2056990742, 41, True);
+     , (2056990742, 41, True)
+     , (2056990742, 1, True)
+     , (2056990742, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056990742, 67109551, 0, 24)
@@ -31029,7 +31821,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056990743, 12, True)
      , (2056990743, 11, True)
      , (2056990743, 14, True)
-     , (2056990743, 41, True);
+     , (2056990743, 41, True)
+     , (2056990743, 1, True)
+     , (2056990743, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056990743, 67109552, 0, 24)
@@ -31110,7 +31904,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056990731, 12, True)
      , (2056990731, 11, True)
      , (2056990731, 14, True)
-     , (2056990731, 41, True);
+     , (2056990731, 41, True)
+     , (2056990731, 1, True)
+     , (2056990731, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056990731, 67110048, 0, 24)
@@ -31191,7 +31987,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994855, 12, True)
      , (2056994855, 11, True)
      , (2056994855, 14, True)
-     , (2056994855, 41, True);
+     , (2056994855, 41, True)
+     , (2056994855, 1, True)
+     , (2056994855, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056994855, 67109561, 0, 24)
@@ -31274,7 +32072,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994848, 12, True)
      , (2056994848, 11, True)
      , (2056994848, 14, True)
-     , (2056994848, 41, True);
+     , (2056994848, 41, True)
+     , (2056994848, 1, True)
+     , (2056994848, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056994848, 67109560, 0, 24)
@@ -31355,7 +32155,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994867, 12, True)
      , (2056994867, 11, True)
      , (2056994867, 14, True)
-     , (2056994867, 41, True);
+     , (2056994867, 41, True)
+     , (2056994867, 1, True)
+     , (2056994867, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056994867, 67109560, 0, 24)
@@ -31440,7 +32242,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994950, 12, True)
      , (2056994950, 11, True)
      , (2056994950, 14, True)
-     , (2056994950, 41, True);
+     , (2056994950, 41, True)
+     , (2056994950, 1, True)
+     , (2056994950, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056994950, 67116957, 40, 40)
@@ -31531,7 +32335,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994856, 12, True)
      , (2056994856, 11, True)
      , (2056994856, 14, True)
-     , (2056994856, 41, True);
+     , (2056994856, 41, True)
+     , (2056994856, 1, True)
+     , (2056994856, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056994856, 67109561, 0, 24)
@@ -31614,7 +32420,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994941, 12, True)
      , (2056994941, 11, True)
      , (2056994941, 14, True)
-     , (2056994941, 41, True);
+     , (2056994941, 41, True)
+     , (2056994941, 1, True)
+     , (2056994941, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056994941, 67109560, 0, 24)
@@ -31694,7 +32502,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994853, 12, True)
      , (2056994853, 11, True)
      , (2056994853, 14, True)
-     , (2056994853, 41, True);
+     , (2056994853, 41, True)
+     , (2056994853, 1, True)
+     , (2056994853, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056994853, 67109558, 0, 24)
@@ -31782,7 +32592,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994851, 12, True)
      , (2056994851, 11, True)
      , (2056994851, 14, True)
-     , (2056994851, 41, True);
+     , (2056994851, 41, True)
+     , (2056994851, 1, True)
+     , (2056994851, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056994851, 67109560, 0, 24)
@@ -31865,7 +32677,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994849, 12, True)
      , (2056994849, 11, True)
      , (2056994849, 14, True)
-     , (2056994849, 41, True);
+     , (2056994849, 41, True)
+     , (2056994849, 1, True)
+     , (2056994849, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056994849, 67109560, 0, 24)
@@ -31950,7 +32764,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994850, 12, True)
      , (2056994850, 11, True)
      , (2056994850, 14, True)
-     , (2056994850, 41, True);
+     , (2056994850, 41, True)
+     , (2056994850, 1, True)
+     , (2056994850, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056994850, 67109558, 0, 24)
@@ -32030,7 +32846,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994947, 12, True)
      , (2056994947, 11, True)
      , (2056994947, 14, True)
-     , (2056994947, 41, True);
+     , (2056994947, 41, True)
+     , (2056994947, 1, True)
+     , (2056994947, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056994947, 67109551, 0, 24)
@@ -32115,7 +32933,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994852, 12, True)
      , (2056994852, 11, True)
      , (2056994852, 14, True)
-     , (2056994852, 41, True);
+     , (2056994852, 41, True)
+     , (2056994852, 1, True)
+     , (2056994852, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056994852, 67109558, 0, 24)
@@ -32202,7 +33022,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994881, 12, True)
      , (2056994881, 11, True)
      , (2056994881, 14, True)
-     , (2056994881, 41, True);
+     , (2056994881, 41, True)
+     , (2056994881, 1, True)
+     , (2056994881, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056994881, 67110055, 0, 24)
@@ -32283,7 +33105,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056994894, 12, True)
      , (2056994894, 11, True)
      , (2056994894, 14, True)
-     , (2056994894, 41, True);
+     , (2056994894, 41, True)
+     , (2056994894, 1, True)
+     , (2056994894, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056994894, 67113162, 0, 0);
@@ -32339,7 +33163,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056986643, 12, True)
      , (2056986643, 11, True)
      , (2056986643, 14, True)
-     , (2056986643, 41, True);
+     , (2056986643, 41, True)
+     , (2056986643, 1, True)
+     , (2056986643, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056986643, 67109561, 0, 24)
@@ -32424,7 +33250,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056986641, 12, True)
      , (2056986641, 11, True)
      , (2056986641, 14, True)
-     , (2056986641, 41, True);
+     , (2056986641, 41, True)
+     , (2056986641, 1, True)
+     , (2056986641, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056986641, 67109561, 0, 24)
@@ -32509,7 +33337,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056990746, 12, True)
      , (2056990746, 11, True)
      , (2056990746, 14, True)
-     , (2056990746, 41, True);
+     , (2056990746, 41, True)
+     , (2056990746, 1, True)
+     , (2056990746, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056990746, 67110047, 0, 24)
@@ -32590,7 +33420,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056990747, 12, True)
      , (2056990747, 11, True)
      , (2056990747, 14, True)
-     , (2056990747, 41, True);
+     , (2056990747, 41, True)
+     , (2056990747, 1, True)
+     , (2056990747, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056990747, 67110045, 0, 24)
@@ -32671,7 +33503,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056990733, 12, True)
      , (2056990733, 11, True)
      , (2056990733, 14, True)
-     , (2056990733, 41, True);
+     , (2056990733, 41, True)
+     , (2056990733, 1, True)
+     , (2056990733, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056990733, 67109560, 0, 24)
@@ -32752,7 +33586,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2059087875, 12, True)
      , (2059087875, 11, True)
      , (2059087875, 14, True)
-     , (2059087875, 41, True);
+     , (2059087875, 41, True)
+     , (2059087875, 1, True)
+     , (2059087875, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2059087875, 67109559, 0, 24)
@@ -32836,7 +33672,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056978436, 12, True)
      , (2056978436, 11, True)
      , (2056978436, 14, True)
-     , (2056978436, 41, True);
+     , (2056978436, 41, True)
+     , (2056978436, 1, True)
+     , (2056978436, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056978436, 67109558, 0, 24)
@@ -32921,7 +33759,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2074734594, 12, True)
      , (2074734594, 11, True)
      , (2074734594, 14, True)
-     , (2074734594, 41, True);
+     , (2074734594, 41, True)
+     , (2074734594, 1, True)
+     , (2074734594, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2074734594, 67109561, 0, 24)
@@ -33006,7 +33846,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2076831773, 12, True)
      , (2076831773, 11, True)
      , (2076831773, 14, True)
-     , (2076831773, 41, True);
+     , (2076831773, 41, True)
+     , (2076831773, 1, True)
+     , (2076831773, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2076831773, 67109559, 0, 24)
@@ -33091,7 +33933,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2076831774, 12, True)
      , (2076831774, 11, True)
      , (2076831774, 14, True)
-     , (2076831774, 41, True);
+     , (2076831774, 41, True)
+     , (2076831774, 1, True)
+     , (2076831774, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2076831774, 67109560, 0, 24)
@@ -33174,7 +34018,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2076831777, 12, True)
      , (2076831777, 11, True)
      , (2076831777, 14, True)
-     , (2076831777, 41, True);
+     , (2076831777, 41, True)
+     , (2076831777, 1, True)
+     , (2076831777, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2076831777, 67109558, 0, 24)
@@ -33255,7 +34101,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2076831791, 12, True)
      , (2076831791, 11, True)
      , (2076831791, 14, True)
-     , (2076831791, 41, True);
+     , (2076831791, 41, True)
+     , (2076831791, 1, True)
+     , (2076831791, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2076831791, 67109560, 0, 24)
@@ -33336,7 +34184,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2076831779, 12, True)
      , (2076831779, 11, True)
      , (2076831779, 14, True)
-     , (2076831779, 41, True);
+     , (2076831779, 41, True)
+     , (2076831779, 1, True)
+     , (2076831779, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2076831779, 67109560, 0, 24)
@@ -33419,7 +34269,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2076831776, 12, True)
      , (2076831776, 11, True)
      , (2076831776, 14, True)
-     , (2076831776, 41, True);
+     , (2076831776, 41, True)
+     , (2076831776, 1, True)
+     , (2076831776, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2076831776, 67109561, 0, 24)
@@ -33504,7 +34356,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2076831775, 12, True)
      , (2076831775, 11, True)
      , (2076831775, 14, True)
-     , (2076831775, 41, True);
+     , (2076831775, 41, True)
+     , (2076831775, 1, True)
+     , (2076831775, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2076831775, 67109561, 0, 24)
@@ -33585,7 +34439,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2076831785, 12, True)
      , (2076831785, 11, True)
      , (2076831785, 14, True)
-     , (2076831785, 41, True);
+     , (2076831785, 41, True)
+     , (2076831785, 1, True)
+     , (2076831785, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2076831785, 67109557, 0, 24)
@@ -33671,7 +34527,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2075783183, 12, True)
      , (2075783183, 11, True)
      , (2075783183, 14, True)
-     , (2075783183, 41, True);
+     , (2075783183, 41, True)
+     , (2075783183, 1, True)
+     , (2075783183, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2075783183, 67109552, 0, 24)
@@ -33753,7 +34611,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077880323, 12, True)
      , (2077880323, 11, True)
      , (2077880323, 14, True)
-     , (2077880323, 41, True);
+     , (2077880323, 41, True)
+     , (2077880323, 1, True)
+     , (2077880323, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2077880323, 67109561, 0, 24)
@@ -33838,7 +34698,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077880334, 12, True)
      , (2077880334, 11, True)
      , (2077880334, 14, True)
-     , (2077880334, 41, True);
+     , (2077880334, 41, True)
+     , (2077880334, 1, True)
+     , (2077880334, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2077880334, 67109551, 0, 24)
@@ -33919,7 +34781,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077880336, 12, True)
      , (2077880336, 11, True)
      , (2077880336, 14, True)
-     , (2077880336, 41, True);
+     , (2077880336, 41, True)
+     , (2077880336, 1, True)
+     , (2077880336, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2077880336, 67109550, 0, 24)
@@ -34000,7 +34864,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077880335, 12, True)
      , (2077880335, 11, True)
      , (2077880335, 14, True)
-     , (2077880335, 41, True);
+     , (2077880335, 41, True)
+     , (2077880335, 1, True)
+     , (2077880335, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2077880335, 67109554, 0, 24)
@@ -34081,7 +34947,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077880338, 12, True)
      , (2077880338, 11, True)
      , (2077880338, 14, True)
-     , (2077880338, 41, True);
+     , (2077880338, 41, True)
+     , (2077880338, 1, True)
+     , (2077880338, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2077880338, 67110053, 0, 24)
@@ -34162,7 +35030,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077880337, 12, True)
      , (2077880337, 11, True)
      , (2077880337, 14, True)
-     , (2077880337, 41, True);
+     , (2077880337, 41, True)
+     , (2077880337, 1, True)
+     , (2077880337, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2077880337, 67110057, 0, 24)
@@ -34243,7 +35113,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077880340, 12, True)
      , (2077880340, 11, True)
      , (2077880340, 14, True)
-     , (2077880340, 41, True);
+     , (2077880340, 41, True)
+     , (2077880340, 1, True)
+     , (2077880340, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2077880340, 67109552, 0, 24)
@@ -34324,7 +35196,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077880341, 12, True)
      , (2077880341, 11, True)
      , (2077880341, 14, True)
-     , (2077880341, 41, True);
+     , (2077880341, 41, True)
+     , (2077880341, 1, True)
+     , (2077880341, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2077880341, 67109553, 0, 24)
@@ -34405,7 +35279,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077880342, 12, True)
      , (2077880342, 11, True)
      , (2077880342, 14, True)
-     , (2077880342, 41, True);
+     , (2077880342, 41, True)
+     , (2077880342, 1, True)
+     , (2077880342, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2077880342, 67109551, 0, 24)
@@ -34486,7 +35362,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077880343, 12, True)
      , (2077880343, 11, True)
      , (2077880343, 14, True)
-     , (2077880343, 41, True);
+     , (2077880343, 41, True)
+     , (2077880343, 1, True)
+     , (2077880343, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2077880343, 67110056, 0, 24)
@@ -34567,7 +35445,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077880347, 12, True)
      , (2077880347, 11, True)
      , (2077880347, 14, True)
-     , (2077880347, 41, True);
+     , (2077880347, 41, True)
+     , (2077880347, 1, True)
+     , (2077880347, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2077880347, 67109558, 0, 24)
@@ -34648,7 +35528,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077880344, 12, True)
      , (2077880344, 11, True)
      , (2077880344, 14, True)
-     , (2077880344, 41, True);
+     , (2077880344, 41, True)
+     , (2077880344, 1, True)
+     , (2077880344, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2077880344, 67110048, 0, 24)
@@ -34729,7 +35611,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077880345, 12, True)
      , (2077880345, 11, True)
      , (2077880345, 14, True)
-     , (2077880345, 41, True);
+     , (2077880345, 41, True)
+     , (2077880345, 1, True)
+     , (2077880345, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2077880345, 67109556, 0, 24)
@@ -34810,7 +35694,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077880346, 12, True)
      , (2077880346, 11, True)
      , (2077880346, 14, True)
-     , (2077880346, 41, True);
+     , (2077880346, 41, True)
+     , (2077880346, 1, True)
+     , (2077880346, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2077880346, 67109558, 0, 24)
@@ -34891,7 +35777,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2077880339, 12, True)
      , (2077880339, 11, True)
      , (2077880339, 14, True)
-     , (2077880339, 41, True);
+     , (2077880339, 41, True)
+     , (2077880339, 1, True)
+     , (2077880339, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2077880339, 67109560, 0, 24)
@@ -34972,7 +35860,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2074730504, 12, True)
      , (2074730504, 11, True)
      , (2074730504, 14, True)
-     , (2074730504, 41, True);
+     , (2074730504, 41, True)
+     , (2074730504, 1, True)
+     , (2074730504, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2074730504, 67109558, 0, 24)
@@ -35055,7 +35945,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850523, 12, True)
      , (2079850523, 11, True)
      , (2079850523, 14, True)
-     , (2079850523, 41, True);
+     , (2079850523, 41, True)
+     , (2079850523, 1, True)
+     , (2079850523, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079850523, 67109560, 0, 24)
@@ -35140,7 +36032,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850530, 12, True)
      , (2079850530, 11, True)
      , (2079850530, 14, True)
-     , (2079850530, 41, True);
+     , (2079850530, 41, True)
+     , (2079850530, 1, True)
+     , (2079850530, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079850530, 67109559, 0, 24)
@@ -35225,7 +36119,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850528, 12, True)
      , (2079850528, 11, True)
      , (2079850528, 14, True)
-     , (2079850528, 41, True);
+     , (2079850528, 41, True)
+     , (2079850528, 1, True)
+     , (2079850528, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079850528, 67109561, 0, 24)
@@ -35306,7 +36202,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850529, 12, True)
      , (2079850529, 11, True)
      , (2079850529, 14, True)
-     , (2079850529, 41, True);
+     , (2079850529, 41, True)
+     , (2079850529, 1, True)
+     , (2079850529, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079850529, 67109558, 0, 24)
@@ -35387,7 +36285,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850527, 12, True)
      , (2079850527, 11, True)
      , (2079850527, 14, True)
-     , (2079850527, 41, True);
+     , (2079850527, 41, True)
+     , (2079850527, 1, True)
+     , (2079850527, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079850527, 67109560, 0, 24)
@@ -35468,7 +36368,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850525, 12, True)
      , (2079850525, 11, True)
      , (2079850525, 14, True)
-     , (2079850525, 41, True);
+     , (2079850525, 41, True)
+     , (2079850525, 1, True)
+     , (2079850525, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079850525, 67109558, 0, 24)
@@ -35553,7 +36455,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850526, 12, True)
      , (2079850526, 11, True)
      , (2079850526, 14, True)
-     , (2079850526, 41, True);
+     , (2079850526, 41, True)
+     , (2079850526, 1, True)
+     , (2079850526, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079850526, 67109562, 0, 24)
@@ -35638,7 +36542,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850522, 12, True)
      , (2079850522, 11, True)
      , (2079850522, 14, True)
-     , (2079850522, 41, True);
+     , (2079850522, 41, True)
+     , (2079850522, 1, True)
+     , (2079850522, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079850522, 67109560, 0, 24)
@@ -35723,7 +36629,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850524, 12, True)
      , (2079850524, 11, True)
      , (2079850524, 14, True)
-     , (2079850524, 41, True);
+     , (2079850524, 41, True)
+     , (2079850524, 1, True)
+     , (2079850524, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079850524, 67109559, 0, 24)
@@ -35804,7 +36712,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850533, 12, True)
      , (2079850533, 11, True)
      , (2079850533, 14, True)
-     , (2079850533, 41, True);
+     , (2079850533, 41, True)
+     , (2079850533, 1, True)
+     , (2079850533, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079850533, 67109560, 0, 24)
@@ -35889,7 +36799,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850571, 12, True)
      , (2079850571, 11, True)
      , (2079850571, 14, True)
-     , (2079850571, 41, True);
+     , (2079850571, 41, True)
+     , (2079850571, 1, True)
+     , (2079850571, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079850571, 67109551, 0, 24)
@@ -35970,7 +36882,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850570, 12, True)
      , (2079850570, 11, True)
      , (2079850570, 14, True)
-     , (2079850570, 41, True);
+     , (2079850570, 41, True)
+     , (2079850570, 1, True)
+     , (2079850570, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079850570, 67109555, 0, 24)
@@ -36051,7 +36965,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850573, 12, True)
      , (2079850573, 11, True)
      , (2079850573, 14, True)
-     , (2079850573, 41, True);
+     , (2079850573, 41, True)
+     , (2079850573, 1, True)
+     , (2079850573, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079850573, 67110045, 0, 24)
@@ -36132,7 +37048,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850572, 12, True)
      , (2079850572, 11, True)
      , (2079850572, 14, True)
-     , (2079850572, 41, True);
+     , (2079850572, 41, True)
+     , (2079850572, 1, True)
+     , (2079850572, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079850572, 67109552, 0, 24)
@@ -36213,7 +37131,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2078801926, 12, True)
      , (2078801926, 11, True)
      , (2078801926, 14, True)
-     , (2078801926, 41, True);
+     , (2078801926, 41, True)
+     , (2078801926, 1, True)
+     , (2078801926, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2078801926, 67110059, 0, 24)
@@ -36294,7 +37214,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079850532, 12, True)
      , (2079850532, 11, True)
      , (2079850532, 14, True)
-     , (2079850532, 41, True);
+     , (2079850532, 41, True)
+     , (2079850532, 1, True)
+     , (2079850532, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079850532, 67110054, 0, 24)
@@ -36379,7 +37301,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2046443526, 12, True)
      , (2046443526, 11, True)
      , (2046443526, 14, True)
-     , (2046443526, 41, True);
+     , (2046443526, 41, True)
+     , (2046443526, 1, True)
+     , (2046443526, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2046443526, 67109558, 0, 24)
@@ -36460,7 +37384,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2046443533, 12, True)
      , (2046443533, 11, True)
      , (2046443533, 14, True)
-     , (2046443533, 41, True);
+     , (2046443533, 41, True)
+     , (2046443533, 1, True)
+     , (2046443533, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2046443533, 67109559, 0, 24)
@@ -36541,7 +37467,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2048540699, 12, True)
      , (2048540699, 11, True)
      , (2048540699, 14, True)
-     , (2048540699, 41, True);
+     , (2048540699, 41, True)
+     , (2048540699, 1, True)
+     , (2048540699, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2048540699, 67109560, 0, 24)
@@ -36624,7 +37552,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2048540702, 12, True)
      , (2048540702, 11, True)
      , (2048540702, 14, True)
-     , (2048540702, 41, True);
+     , (2048540702, 41, True)
+     , (2048540702, 1, True)
+     , (2048540702, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2048540702, 67109559, 0, 24)
@@ -36712,7 +37642,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2046443525, 12, True)
      , (2046443525, 11, True)
      , (2046443525, 14, True)
-     , (2046443525, 41, True);
+     , (2046443525, 41, True)
+     , (2046443525, 1, True)
+     , (2046443525, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2046443525, 67109561, 0, 24)
@@ -36797,7 +37729,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2048540701, 12, True)
      , (2048540701, 11, True)
      , (2048540701, 14, True)
-     , (2048540701, 41, True);
+     , (2048540701, 41, True)
+     , (2048540701, 1, True)
+     , (2048540701, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2048540701, 67109562, 0, 24)
@@ -36882,7 +37816,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2048540703, 12, True)
      , (2048540703, 11, True)
      , (2048540703, 14, True)
-     , (2048540703, 41, True);
+     , (2048540703, 41, True)
+     , (2048540703, 1, True)
+     , (2048540703, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2048540703, 67109561, 0, 24)
@@ -36967,7 +37903,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2046443528, 12, True)
      , (2046443528, 11, True)
      , (2046443528, 14, True)
-     , (2046443528, 41, True);
+     , (2046443528, 41, True)
+     , (2046443528, 1, True)
+     , (2046443528, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2046443528, 67109561, 0, 24)
@@ -37055,7 +37993,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2048540717, 12, True)
      , (2048540717, 11, True)
      , (2048540717, 14, True)
-     , (2048540717, 41, True);
+     , (2048540717, 41, True)
+     , (2048540717, 1, True)
+     , (2048540717, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2048540717, 67109562, 0, 24)
@@ -37138,7 +38078,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2048540696, 12, True)
      , (2048540696, 11, True)
      , (2048540696, 14, True)
-     , (2048540696, 41, True);
+     , (2048540696, 41, True)
+     , (2048540696, 1, True)
+     , (2048540696, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2048540696, 67109560, 0, 24)
@@ -37221,7 +38163,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2048540705, 12, True)
      , (2048540705, 11, True)
      , (2048540705, 14, True)
-     , (2048540705, 41, True);
+     , (2048540705, 41, True)
+     , (2048540705, 1, True)
+     , (2048540705, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2048540705, 67109561, 0, 24)
@@ -37308,7 +38252,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2048540704, 12, True)
      , (2048540704, 11, True)
      , (2048540704, 14, True)
-     , (2048540704, 41, True);
+     , (2048540704, 41, True)
+     , (2048540704, 1, True)
+     , (2048540704, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2048540704, 67109559, 0, 24)
@@ -37391,7 +38337,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2048540698, 12, True)
      , (2048540698, 11, True)
      , (2048540698, 14, True)
-     , (2048540698, 41, True);
+     , (2048540698, 41, True)
+     , (2048540698, 1, True)
+     , (2048540698, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2048540698, 67109562, 0, 24)
@@ -37474,7 +38422,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2050637831, 12, True)
      , (2050637831, 11, True)
      , (2050637831, 14, True)
-     , (2050637831, 41, True);
+     , (2050637831, 41, True)
+     , (2050637831, 1, True)
+     , (2050637831, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2050637831, 67109558, 0, 24)
@@ -37558,7 +38508,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2050637841, 12, True)
      , (2050637841, 11, True)
      , (2050637841, 14, True)
-     , (2050637841, 41, True);
+     , (2050637841, 41, True)
+     , (2050637841, 1, True)
+     , (2050637841, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2050637841, 67109559, 0, 24)
@@ -37643,7 +38595,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2050637833, 12, True)
      , (2050637833, 11, True)
      , (2050637833, 14, True)
-     , (2050637833, 41, True);
+     , (2050637833, 41, True)
+     , (2050637833, 1, True)
+     , (2050637833, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2050637833, 67109560, 0, 24)
@@ -37726,7 +38680,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2048536576, 12, True)
      , (2048536576, 11, True)
      , (2048536576, 14, True)
-     , (2048536576, 41, True);
+     , (2048536576, 41, True)
+     , (2048536576, 1, True)
+     , (2048536576, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2048536576, 67109561, 0, 24)
@@ -37811,7 +38767,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956339738, 12, True)
      , (1956339738, 11, True)
      , (1956339738, 14, True)
-     , (1956339738, 41, True);
+     , (1956339738, 41, True)
+     , (1956339738, 1, True)
+     , (1956339738, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956339738, 67109555, 0, 24)
@@ -37897,7 +38855,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956339730, 12, True)
      , (1956339730, 11, True)
      , (1956339730, 14, True)
-     , (1956339730, 41, True);
+     , (1956339730, 41, True)
+     , (1956339730, 1, True)
+     , (1956339730, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956339730, 67109560, 0, 24)
@@ -37980,7 +38940,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956339732, 12, True)
      , (1956339732, 11, True)
      , (1956339732, 14, True)
-     , (1956339732, 41, True);
+     , (1956339732, 41, True)
+     , (1956339732, 1, True)
+     , (1956339732, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956339732, 67109559, 0, 24)
@@ -38067,7 +39029,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956339731, 12, True)
      , (1956339731, 11, True)
      , (1956339731, 14, True)
-     , (1956339731, 41, True);
+     , (1956339731, 41, True)
+     , (1956339731, 1, True)
+     , (1956339731, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956339731, 67109559, 0, 24)
@@ -38150,7 +39114,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956339766, 12, True)
      , (1956339766, 11, True)
      , (1956339766, 14, True)
-     , (1956339766, 41, True);
+     , (1956339766, 41, True)
+     , (1956339766, 1, True)
+     , (1956339766, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956339766, 67109560, 0, 24)
@@ -38231,7 +39197,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956339765, 12, True)
      , (1956339765, 11, True)
      , (1956339765, 14, True)
-     , (1956339765, 41, True);
+     , (1956339765, 41, True)
+     , (1956339765, 1, True)
+     , (1956339765, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956339765, 67110055, 0, 24)
@@ -38312,7 +39280,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956339767, 12, True)
      , (1956339767, 11, True)
      , (1956339767, 14, True)
-     , (1956339767, 41, True);
+     , (1956339767, 41, True)
+     , (1956339767, 1, True)
+     , (1956339767, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956339767, 67109558, 0, 24)
@@ -38393,7 +39363,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1956339768, 12, True)
      , (1956339768, 11, True)
      , (1956339768, 14, True)
-     , (1956339768, 41, True);
+     , (1956339768, 41, True)
+     , (1956339768, 1, True)
+     , (1956339768, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1956339768, 67110057, 0, 24)
@@ -38474,7 +39446,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1918373905, 12, True)
      , (1918373905, 11, True)
      , (1918373905, 14, True)
-     , (1918373905, 41, True);
+     , (1918373905, 41, True)
+     , (1918373905, 1, True)
+     , (1918373905, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1918373905, 67109560, 0, 24)
@@ -38556,7 +39530,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1918373904, 12, True)
      , (1918373904, 11, True)
      , (1918373904, 14, True)
-     , (1918373904, 41, True);
+     , (1918373904, 41, True)
+     , (1918373904, 1, True)
+     , (1918373904, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1918373904, 67110050, 0, 24)
@@ -38637,7 +39613,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1918373906, 12, True)
      , (1918373906, 11, True)
      , (1918373906, 14, True)
-     , (1918373906, 41, True);
+     , (1918373906, 41, True)
+     , (1918373906, 1, True)
+     , (1918373906, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1918373906, 67109562, 0, 24)
@@ -38720,7 +39698,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1918373942, 12, True)
      , (1918373942, 11, True)
      , (1918373942, 14, True)
-     , (1918373942, 41, True);
+     , (1918373942, 41, True)
+     , (1918373942, 1, True)
+     , (1918373942, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1918373942, 67109560, 0, 24)
@@ -38801,7 +39781,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1918373939, 12, True)
      , (1918373939, 11, True)
      , (1918373939, 14, True)
-     , (1918373939, 41, True);
+     , (1918373939, 41, True)
+     , (1918373939, 1, True)
+     , (1918373939, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1918373939, 67109557, 0, 24)
@@ -38882,7 +39864,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1918373938, 12, True)
      , (1918373938, 11, True)
      , (1918373938, 14, True)
-     , (1918373938, 41, True);
+     , (1918373938, 41, True)
+     , (1918373938, 1, True)
+     , (1918373938, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1918373938, 67110061, 0, 24)
@@ -38963,7 +39947,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1918373941, 12, True)
      , (1918373941, 11, True)
      , (1918373941, 14, True)
-     , (1918373941, 41, True);
+     , (1918373941, 41, True)
+     , (1918373941, 1, True)
+     , (1918373941, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1918373941, 67109554, 0, 24)
@@ -39044,7 +40030,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1917325313, 12, True)
      , (1917325313, 11, True)
      , (1917325313, 14, True)
-     , (1917325313, 41, True);
+     , (1917325313, 41, True)
+     , (1917325313, 1, True)
+     , (1917325313, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1917325313, 67109555, 0, 24)
@@ -39129,7 +40117,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108117023, 12, True)
      , (2108117023, 11, True)
      , (2108117023, 14, True)
-     , (2108117023, 41, True);
+     , (2108117023, 41, True)
+     , (2108117023, 1, True)
+     , (2108117023, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108117023, 67109561, 0, 24)
@@ -39212,7 +40202,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108117024, 12, True)
      , (2108117024, 11, True)
      , (2108117024, 14, True)
-     , (2108117024, 41, True);
+     , (2108117024, 41, True)
+     , (2108117024, 1, True)
+     , (2108117024, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108117024, 67109558, 0, 24)
@@ -39293,7 +40285,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108117025, 12, True)
      , (2108117025, 11, True)
      , (2108117025, 14, True)
-     , (2108117025, 41, True);
+     , (2108117025, 41, True)
+     , (2108117025, 1, True)
+     , (2108117025, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108117025, 67109562, 0, 24)
@@ -39379,7 +40373,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108117018, 12, True)
      , (2108117018, 11, True)
      , (2108117018, 14, True)
-     , (2108117018, 41, True);
+     , (2108117018, 41, True)
+     , (2108117018, 1, True)
+     , (2108117018, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108117018, 67109560, 0, 24)
@@ -39458,7 +40454,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108117017, 12, True)
      , (2108117017, 11, True)
      , (2108117017, 14, True)
-     , (2108117017, 41, True);
+     , (2108117017, 41, True)
+     , (2108117017, 1, True)
+     , (2108117017, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108117017, 67109558, 0, 24)
@@ -39544,7 +40542,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108117021, 12, True)
      , (2108117021, 11, True)
      , (2108117021, 14, True)
-     , (2108117021, 41, True);
+     , (2108117021, 41, True)
+     , (2108117021, 1, True)
+     , (2108117021, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108117021, 67109559, 0, 24)
@@ -39627,7 +40627,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108117029, 12, True)
      , (2108117029, 11, True)
      , (2108117029, 14, True)
-     , (2108117029, 41, True);
+     , (2108117029, 41, True)
+     , (2108117029, 1, True)
+     , (2108117029, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108117029, 67109562, 0, 24)
@@ -39714,7 +40716,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108117027, 12, True)
      , (2108117027, 11, True)
      , (2108117027, 14, True)
-     , (2108117027, 41, True);
+     , (2108117027, 41, True)
+     , (2108117027, 1, True)
+     , (2108117027, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108117027, 67109562, 0, 24)
@@ -39799,7 +40803,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108117028, 12, True)
      , (2108117028, 11, True)
      , (2108117028, 14, True)
-     , (2108117028, 41, True);
+     , (2108117028, 41, True)
+     , (2108117028, 1, True)
+     , (2108117028, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108117028, 67109561, 0, 24)
@@ -39880,7 +40886,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108117040, 12, True)
      , (2108117040, 11, True)
      , (2108117040, 14, True)
-     , (2108117040, 41, True);
+     , (2108117040, 41, True)
+     , (2108117040, 1, True)
+     , (2108117040, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108117040, 67109560, 0, 24)
@@ -39961,7 +40969,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108117045, 12, True)
      , (2108117045, 11, True)
      , (2108117045, 14, True)
-     , (2108117045, 41, True);
+     , (2108117045, 41, True)
+     , (2108117045, 1, True)
+     , (2108117045, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108117045, 67110049, 0, 24)
@@ -40042,7 +41052,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108117046, 12, True)
      , (2108117046, 11, True)
      , (2108117046, 14, True)
-     , (2108117046, 41, True);
+     , (2108117046, 41, True)
+     , (2108117046, 1, True)
+     , (2108117046, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108117046, 67109561, 0, 24)
@@ -40123,7 +41135,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108117039, 12, True)
      , (2108117039, 11, True)
      , (2108117039, 14, True)
-     , (2108117039, 41, True);
+     , (2108117039, 41, True)
+     , (2108117039, 1, True)
+     , (2108117039, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108117039, 67110056, 0, 24)
@@ -40204,7 +41218,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2108117030, 12, True)
      , (2108117030, 11, True)
      , (2108117030, 14, True)
-     , (2108117030, 41, True);
+     , (2108117030, 41, True)
+     , (2108117030, 1, True)
+     , (2108117030, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2108117030, 67109562, 0, 24)
@@ -40285,7 +41301,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090385429, 12, True)
      , (2090385429, 11, True)
      , (2090385429, 14, True)
-     , (2090385429, 41, True);
+     , (2090385429, 41, True)
+     , (2090385429, 1, True)
+     , (2090385429, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090385429, 67109561, 0, 24)
@@ -40368,7 +41386,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089336869, 12, True)
      , (2089336869, 11, True)
      , (2089336869, 14, True)
-     , (2089336869, 41, True);
+     , (2089336869, 41, True)
+     , (2089336869, 1, True)
+     , (2089336869, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089336869, 67109562, 0, 24)
@@ -40453,7 +41473,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090385424, 12, True)
      , (2090385424, 11, True)
      , (2090385424, 14, True)
-     , (2090385424, 41, True);
+     , (2090385424, 41, True)
+     , (2090385424, 1, True)
+     , (2090385424, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090385424, 67109562, 0, 24)
@@ -40541,7 +41563,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089332742, 12, True)
      , (2089332742, 11, True)
      , (2089332742, 14, True)
-     , (2089332742, 41, True);
+     , (2089332742, 41, True)
+     , (2089332742, 1, True)
+     , (2089332742, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089332742, 67110054, 0, 24)
@@ -40622,7 +41646,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089336871, 12, True)
      , (2089336871, 11, True)
      , (2089336871, 14, True)
-     , (2089336871, 41, True);
+     , (2089336871, 41, True)
+     , (2089336871, 1, True)
+     , (2089336871, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089336871, 67109562, 0, 24)
@@ -40710,7 +41736,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089336880, 12, True)
      , (2089336880, 11, True)
      , (2089336880, 14, True)
-     , (2089336880, 41, True);
+     , (2089336880, 41, True)
+     , (2089336880, 1, True)
+     , (2089336880, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089336880, 67109562, 0, 24)
@@ -40793,7 +41821,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090385423, 12, True)
      , (2090385423, 11, True)
      , (2090385423, 14, True)
-     , (2090385423, 41, True);
+     , (2090385423, 41, True)
+     , (2090385423, 1, True)
+     , (2090385423, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090385423, 67109560, 0, 24)
@@ -40874,7 +41904,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089336867, 12, True)
      , (2089336867, 11, True)
      , (2089336867, 14, True)
-     , (2089336867, 41, True);
+     , (2089336867, 41, True)
+     , (2089336867, 1, True)
+     , (2089336867, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089336867, 67109558, 0, 24)
@@ -40953,7 +41985,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090385425, 12, True)
      , (2090385425, 11, True)
      , (2090385425, 14, True)
-     , (2090385425, 41, True);
+     , (2090385425, 41, True)
+     , (2090385425, 1, True)
+     , (2090385425, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090385425, 67110061, 0, 24)
@@ -41034,7 +42068,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089336870, 12, True)
      , (2089336870, 11, True)
      , (2089336870, 14, True)
-     , (2089336870, 41, True);
+     , (2089336870, 41, True)
+     , (2089336870, 1, True)
+     , (2089336870, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089336870, 67109561, 0, 24)
@@ -41118,7 +42154,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089336866, 12, True)
      , (2089336866, 11, True)
      , (2089336866, 14, True)
-     , (2089336866, 41, True);
+     , (2089336866, 41, True)
+     , (2089336866, 1, True)
+     , (2089336866, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089336866, 67109562, 0, 24)
@@ -41203,7 +42241,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089336874, 12, True)
      , (2089336874, 11, True)
      , (2089336874, 14, True)
-     , (2089336874, 41, True);
+     , (2089336874, 41, True)
+     , (2089336874, 1, True)
+     , (2089336874, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089336874, 67110052, 0, 24)
@@ -41288,7 +42328,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089336868, 12, True)
      , (2089336868, 11, True)
      , (2089336868, 14, True)
-     , (2089336868, 41, True);
+     , (2089336868, 41, True)
+     , (2089336868, 1, True)
+     , (2089336868, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089336868, 67109559, 0, 24)
@@ -41369,7 +42411,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089336873, 12, True)
      , (2089336873, 11, True)
      , (2089336873, 14, True)
-     , (2089336873, 41, True);
+     , (2089336873, 41, True)
+     , (2089336873, 1, True)
+     , (2089336873, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089336873, 67109558, 0, 24)
@@ -41455,7 +42499,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089336913, 12, True)
      , (2089336913, 11, True)
      , (2089336913, 14, True)
-     , (2089336913, 41, True);
+     , (2089336913, 41, True)
+     , (2089336913, 1, True)
+     , (2089336913, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089336913, 67110047, 0, 24)
@@ -41536,7 +42582,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089336912, 12, True)
      , (2089336912, 11, True)
      , (2089336912, 14, True)
-     , (2089336912, 41, True);
+     , (2089336912, 41, True)
+     , (2089336912, 1, True)
+     , (2089336912, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089336912, 67109550, 0, 24)
@@ -41617,7 +42665,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089336915, 12, True)
      , (2089336915, 11, True)
      , (2089336915, 14, True)
-     , (2089336915, 41, True);
+     , (2089336915, 41, True)
+     , (2089336915, 1, True)
+     , (2089336915, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089336915, 67109557, 0, 24)
@@ -41698,7 +42748,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089336914, 12, True)
      , (2089336914, 11, True)
      , (2089336914, 14, True)
-     , (2089336914, 41, True);
+     , (2089336914, 41, True)
+     , (2089336914, 1, True)
+     , (2089336914, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089336914, 67109557, 0, 24)
@@ -41779,7 +42831,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089332736, 12, True)
      , (2089332736, 11, True)
      , (2089332736, 14, True)
-     , (2089332736, 41, True);
+     , (2089332736, 41, True)
+     , (2089332736, 1, True)
+     , (2089332736, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089332736, 67109562, 0, 24)
@@ -41866,7 +42920,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2089320455, 12, True)
      , (2089320455, 11, True)
      , (2089320455, 14, True)
-     , (2089320455, 41, True);
+     , (2089320455, 41, True)
+     , (2089320455, 1, True)
+     , (2089320455, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2089320455, 67109560, 0, 24)
@@ -41951,7 +43007,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2093531141, 12, True)
      , (2093531141, 11, True)
      , (2093531141, 14, True)
-     , (2093531141, 41, True);
+     , (2093531141, 41, True)
+     , (2093531141, 1, True)
+     , (2093531141, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2093531141, 67109561, 0, 24)
@@ -42036,7 +43094,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2086297642, 12, True)
      , (2086297642, 11, True)
      , (2086297642, 14, True)
-     , (2086297642, 41, True);
+     , (2086297642, 41, True)
+     , (2086297642, 1, True)
+     , (2086297642, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2086297642, 67109553, 0, 24)
@@ -42123,7 +43183,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2085257218, 12, True)
      , (2085257218, 11, True)
      , (2085257218, 14, True)
-     , (2085257218, 41, True);
+     , (2085257218, 41, True)
+     , (2085257218, 1, True)
+     , (2085257218, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2085257218, 67109561, 0, 24)
@@ -42208,7 +43270,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529807, 12, True)
      , (2010529807, 11, True)
      , (2010529807, 14, True)
-     , (2010529807, 41, True);
+     , (2010529807, 41, True)
+     , (2010529807, 1, True)
+     , (2010529807, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529807, 67109557, 0, 24)
@@ -42292,7 +43356,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529806, 12, True)
      , (2010529806, 11, True)
      , (2010529806, 14, True)
-     , (2010529806, 41, True);
+     , (2010529806, 41, True)
+     , (2010529806, 1, True)
+     , (2010529806, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529806, 67109556, 0, 24)
@@ -42374,7 +43440,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529804, 12, True)
      , (2010529804, 11, True)
      , (2010529804, 14, True)
-     , (2010529804, 41, True);
+     , (2010529804, 41, True)
+     , (2010529804, 1, True)
+     , (2010529804, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529804, 67109555, 0, 24)
@@ -42458,7 +43526,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529894, 12, True)
      , (2010529894, 11, True)
      , (2010529894, 14, True)
-     , (2010529894, 41, True);
+     , (2010529894, 41, True)
+     , (2010529894, 1, True)
+     , (2010529894, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529894, 67109557, 0, 24)
@@ -42538,7 +43608,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529803, 12, True)
      , (2010529803, 11, True)
      , (2010529803, 14, True)
-     , (2010529803, 41, True);
+     , (2010529803, 41, True)
+     , (2010529803, 1, True)
+     , (2010529803, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529803, 67109551, 0, 24)
@@ -42625,7 +43697,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2011578381, 12, True)
      , (2011578381, 11, True)
      , (2011578381, 14, True)
-     , (2011578381, 41, True);
+     , (2011578381, 41, True)
+     , (2011578381, 1, True)
+     , (2011578381, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2011578381, 67109558, 0, 24)
@@ -42710,7 +43784,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2011578382, 12, True)
      , (2011578382, 11, True)
      , (2011578382, 14, True)
-     , (2011578382, 41, True);
+     , (2011578382, 41, True)
+     , (2011578382, 1, True)
+     , (2011578382, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2011578382, 67109555, 0, 24)
@@ -42796,7 +43872,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529808, 12, True)
      , (2010529808, 11, True)
      , (2010529808, 14, True)
-     , (2010529808, 41, True);
+     , (2010529808, 41, True)
+     , (2010529808, 1, True)
+     , (2010529808, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529808, 67109553, 0, 24)
@@ -42882,7 +43960,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529913, 12, True)
      , (2010529913, 11, True)
      , (2010529913, 14, True)
-     , (2010529913, 41, True);
+     , (2010529913, 41, True)
+     , (2010529913, 1, True)
+     , (2010529913, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529913, 67116956, 40, 40)
@@ -42973,7 +44053,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529815, 12, True)
      , (2010529815, 11, True)
      , (2010529815, 14, True)
-     , (2010529815, 41, True);
+     , (2010529815, 41, True)
+     , (2010529815, 1, True)
+     , (2010529815, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529815, 67109552, 0, 24)
@@ -43056,7 +44138,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529810, 12, True)
      , (2010529810, 11, True)
      , (2010529810, 14, True)
-     , (2010529810, 41, True);
+     , (2010529810, 41, True)
+     , (2010529810, 1, True)
+     , (2010529810, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529810, 67109552, 0, 24)
@@ -43144,7 +44228,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529809, 12, True)
      , (2010529809, 11, True)
      , (2010529809, 14, True)
-     , (2010529809, 41, True);
+     , (2010529809, 41, True)
+     , (2010529809, 1, True)
+     , (2010529809, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529809, 67109555, 0, 24)
@@ -43229,7 +44315,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529811, 12, True)
      , (2010529811, 11, True)
      , (2010529811, 14, True)
-     , (2010529811, 41, True);
+     , (2010529811, 41, True)
+     , (2010529811, 1, True)
+     , (2010529811, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529811, 67109555, 0, 24)
@@ -43310,7 +44398,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529834, 12, True)
      , (2010529834, 11, True)
      , (2010529834, 14, True)
-     , (2010529834, 41, True);
+     , (2010529834, 41, True)
+     , (2010529834, 1, True)
+     , (2010529834, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529834, 67110050, 0, 24)
@@ -43391,7 +44481,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529904, 12, True)
      , (2010529904, 11, True)
      , (2010529904, 14, True)
-     , (2010529904, 41, True);
+     , (2010529904, 41, True)
+     , (2010529904, 1, True)
+     , (2010529904, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529904, 67109555, 0, 24)
@@ -43472,7 +44564,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529905, 12, True)
      , (2010529905, 11, True)
      , (2010529905, 14, True)
-     , (2010529905, 41, True);
+     , (2010529905, 41, True)
+     , (2010529905, 1, True)
+     , (2010529905, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529905, 67109553, 0, 24)
@@ -43553,7 +44647,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529845, 12, True)
      , (2010529845, 11, True)
      , (2010529845, 14, True)
-     , (2010529845, 41, True);
+     , (2010529845, 41, True)
+     , (2010529845, 1, True)
+     , (2010529845, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529845, 67109553, 0, 24)
@@ -43634,7 +44730,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529848, 12, True)
      , (2010529848, 11, True)
      , (2010529848, 14, True)
-     , (2010529848, 41, True);
+     , (2010529848, 41, True)
+     , (2010529848, 1, True)
+     , (2010529848, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529848, 67110050, 0, 24)
@@ -43715,7 +44813,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529847, 12, True)
      , (2010529847, 11, True)
      , (2010529847, 14, True)
-     , (2010529847, 41, True);
+     , (2010529847, 41, True)
+     , (2010529847, 1, True)
+     , (2010529847, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529847, 67109551, 0, 24)
@@ -43796,7 +44896,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529850, 12, True)
      , (2010529850, 11, True)
      , (2010529850, 14, True)
-     , (2010529850, 41, True);
+     , (2010529850, 41, True)
+     , (2010529850, 1, True)
+     , (2010529850, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529850, 67109559, 0, 24)
@@ -43877,7 +44979,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529903, 12, True)
      , (2010529903, 11, True)
      , (2010529903, 14, True)
-     , (2010529903, 41, True);
+     , (2010529903, 41, True)
+     , (2010529903, 1, True)
+     , (2010529903, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529903, 67109561, 0, 24)
@@ -43958,7 +45062,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529902, 12, True)
      , (2010529902, 11, True)
      , (2010529902, 14, True)
-     , (2010529902, 41, True);
+     , (2010529902, 41, True)
+     , (2010529902, 1, True)
+     , (2010529902, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529902, 67109557, 0, 24)
@@ -44039,7 +45145,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529901, 12, True)
      , (2010529901, 11, True)
      , (2010529901, 14, True)
-     , (2010529901, 41, True);
+     , (2010529901, 41, True)
+     , (2010529901, 1, True)
+     , (2010529901, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529901, 67110053, 0, 24)
@@ -44120,7 +45228,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529900, 12, True)
      , (2010529900, 11, True)
      , (2010529900, 14, True)
-     , (2010529900, 41, True);
+     , (2010529900, 41, True)
+     , (2010529900, 1, True)
+     , (2010529900, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529900, 67110053, 0, 24)
@@ -44201,7 +45311,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529846, 12, True)
      , (2010529846, 11, True)
      , (2010529846, 14, True)
-     , (2010529846, 41, True);
+     , (2010529846, 41, True)
+     , (2010529846, 1, True)
+     , (2010529846, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529846, 67109557, 0, 24)
@@ -44282,7 +45394,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529849, 12, True)
      , (2010529849, 11, True)
      , (2010529849, 14, True)
-     , (2010529849, 41, True);
+     , (2010529849, 41, True)
+     , (2010529849, 1, True)
+     , (2010529849, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529849, 67110055, 0, 24)
@@ -44363,7 +45477,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529805, 12, True)
      , (2010529805, 11, True)
      , (2010529805, 14, True)
-     , (2010529805, 41, True);
+     , (2010529805, 41, True)
+     , (2010529805, 1, True)
+     , (2010529805, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529805, 67109550, 0, 24)
@@ -44450,7 +45566,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529822, 12, True)
      , (2010529822, 11, True)
      , (2010529822, 14, True)
-     , (2010529822, 41, True);
+     , (2010529822, 41, True)
+     , (2010529822, 1, True)
+     , (2010529822, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529822, 67113162, 0, 0);
@@ -44506,7 +45624,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529910, 12, True)
      , (2010529910, 11, True)
      , (2010529910, 14, True)
-     , (2010529910, 41, True);
+     , (2010529910, 41, True)
+     , (2010529910, 1, True)
+     , (2010529910, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529910, 67109557, 0, 24)
@@ -44591,7 +45711,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529908, 12, True)
      , (2010529908, 11, True)
      , (2010529908, 14, True)
-     , (2010529908, 41, True);
+     , (2010529908, 41, True)
+     , (2010529908, 1, True)
+     , (2010529908, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529908, 67109560, 0, 24)
@@ -44672,7 +45794,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529907, 12, True)
      , (2010529907, 11, True)
      , (2010529907, 14, True)
-     , (2010529907, 41, True);
+     , (2010529907, 41, True)
+     , (2010529907, 1, True)
+     , (2010529907, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529907, 67109553, 0, 24)
@@ -44753,7 +45877,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010529906, 12, True)
      , (2010529906, 11, True)
      , (2010529906, 14, True)
-     , (2010529906, 41, True);
+     , (2010529906, 41, True)
+     , (2010529906, 1, True)
+     , (2010529906, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010529906, 67116848, 0, 24)
@@ -44826,7 +45952,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030399492, 12, True)
      , (2030399492, 11, True)
      , (2030399492, 14, True)
-     , (2030399492, 41, True);
+     , (2030399492, 41, True)
+     , (2030399492, 1, True)
+     , (2030399492, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030399492, 67110059, 0, 24)
@@ -44907,7 +46035,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030403592, 12, True)
      , (2030403592, 11, True)
      , (2030403592, 14, True)
-     , (2030403592, 41, True);
+     , (2030403592, 41, True)
+     , (2030403592, 1, True)
+     , (2030403592, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030403592, 67109556, 0, 24)
@@ -44995,7 +46125,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030403593, 12, True)
      , (2030403593, 11, True)
      , (2030403593, 14, True)
-     , (2030403593, 41, True);
+     , (2030403593, 41, True)
+     , (2030403593, 1, True)
+     , (2030403593, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030403593, 67109550, 0, 24)
@@ -45081,7 +46213,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030403594, 12, True)
      , (2030403594, 11, True)
      , (2030403594, 14, True)
-     , (2030403594, 41, True);
+     , (2030403594, 41, True)
+     , (2030403594, 1, True)
+     , (2030403594, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030403594, 67109555, 0, 24)
@@ -45164,7 +46298,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030403591, 12, True)
      , (2030403591, 11, True)
      , (2030403591, 14, True)
-     , (2030403591, 41, True);
+     , (2030403591, 41, True)
+     , (2030403591, 1, True)
+     , (2030403591, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030403591, 67109556, 0, 24)
@@ -45252,7 +46388,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030403597, 12, True)
      , (2030403597, 11, True)
      , (2030403597, 14, True)
-     , (2030403597, 41, True);
+     , (2030403597, 41, True)
+     , (2030403597, 1, True)
+     , (2030403597, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030403597, 67109552, 0, 24)
@@ -45335,7 +46473,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030403600, 12, True)
      , (2030403600, 11, True)
      , (2030403600, 14, True)
-     , (2030403600, 41, True);
+     , (2030403600, 41, True)
+     , (2030403600, 1, True)
+     , (2030403600, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030403600, 67109552, 0, 24)
@@ -45420,7 +46560,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030403596, 12, True)
      , (2030403596, 11, True)
      , (2030403596, 14, True)
-     , (2030403596, 41, True);
+     , (2030403596, 41, True)
+     , (2030403596, 1, True)
+     , (2030403596, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030403596, 67109557, 0, 24)
@@ -45503,7 +46645,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030403602, 12, True)
      , (2030403602, 11, True)
      , (2030403602, 14, True)
-     , (2030403602, 41, True);
+     , (2030403602, 41, True)
+     , (2030403602, 1, True)
+     , (2030403602, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030403602, 67109554, 0, 24)
@@ -45587,7 +46731,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030403626, 12, True)
      , (2030403626, 11, True)
      , (2030403626, 14, True)
-     , (2030403626, 41, True);
+     , (2030403626, 41, True)
+     , (2030403626, 1, True)
+     , (2030403626, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030403626, 67109554, 0, 24)
@@ -45668,7 +46814,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030403625, 12, True)
      , (2030403625, 11, True)
      , (2030403625, 14, True)
-     , (2030403625, 41, True);
+     , (2030403625, 41, True)
+     , (2030403625, 1, True)
+     , (2030403625, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030403625, 67109555, 0, 24)
@@ -45749,7 +46897,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030403627, 12, True)
      , (2030403627, 11, True)
      , (2030403627, 14, True)
-     , (2030403627, 41, True);
+     , (2030403627, 41, True)
+     , (2030403627, 1, True)
+     , (2030403627, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030403627, 67109557, 0, 24)
@@ -45830,7 +46980,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030403628, 12, True)
      , (2030403628, 11, True)
      , (2030403628, 14, True)
-     , (2030403628, 41, True);
+     , (2030403628, 41, True)
+     , (2030403628, 1, True)
+     , (2030403628, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030403628, 67110057, 0, 24)
@@ -45911,7 +47063,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2045001734, 12, True)
      , (2045001734, 11, True)
      , (2045001734, 14, True)
-     , (2045001734, 41, True);
+     , (2045001734, 41, True)
+     , (2045001734, 1, True)
+     , (2045001734, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2045001734, 67109552, 0, 24)
@@ -45996,7 +47150,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2044997636, 12, True)
      , (2044997636, 11, True)
      , (2044997636, 14, True)
-     , (2044997636, 41, True);
+     , (2044997636, 41, True)
+     , (2044997636, 1, True)
+     , (2044997636, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2044997636, 67109551, 0, 24)
@@ -46081,7 +47237,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2045001738, 12, True)
      , (2045001738, 11, True)
      , (2045001738, 14, True)
-     , (2045001738, 41, True);
+     , (2045001738, 41, True)
+     , (2045001738, 1, True)
+     , (2045001738, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2045001738, 67109550, 0, 24)
@@ -46166,7 +47324,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2044997638, 12, True)
      , (2044997638, 11, True)
      , (2044997638, 14, True)
-     , (2044997638, 41, True);
+     , (2044997638, 41, True)
+     , (2044997638, 1, True)
+     , (2044997638, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2044997638, 67109550, 0, 24)
@@ -46254,7 +47414,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2045001737, 12, True)
      , (2045001737, 11, True)
      , (2045001737, 14, True)
-     , (2045001737, 41, True);
+     , (2045001737, 41, True)
+     , (2045001737, 1, True)
+     , (2045001737, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2045001737, 67109553, 0, 24)
@@ -46336,7 +47498,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2045001740, 12, True)
      , (2045001740, 11, True)
      , (2045001740, 14, True)
-     , (2045001740, 41, True);
+     , (2045001740, 41, True)
+     , (2045001740, 1, True)
+     , (2045001740, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2045001740, 67109557, 0, 24)
@@ -46417,7 +47581,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2045001735, 12, True)
      , (2045001735, 11, True)
      , (2045001735, 14, True)
-     , (2045001735, 41, True);
+     , (2045001735, 41, True)
+     , (2045001735, 1, True)
+     , (2045001735, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2045001735, 67109555, 0, 24)
@@ -46496,7 +47662,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2044997637, 12, True)
      , (2044997637, 11, True)
      , (2044997637, 14, True)
-     , (2044997637, 41, True);
+     , (2044997637, 41, True)
+     , (2044997637, 1, True)
+     , (2044997637, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2044997637, 67109550, 0, 24)
@@ -46579,7 +47747,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2044997640, 12, True)
      , (2044997640, 11, True)
      , (2044997640, 14, True)
-     , (2044997640, 41, True);
+     , (2044997640, 41, True)
+     , (2044997640, 1, True)
+     , (2044997640, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2044997640, 67109557, 0, 24)
@@ -46667,7 +47837,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2045001736, 12, True)
      , (2045001736, 11, True)
      , (2045001736, 14, True)
-     , (2045001736, 41, True);
+     , (2045001736, 41, True)
+     , (2045001736, 1, True)
+     , (2045001736, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2045001736, 67109551, 0, 24)
@@ -46754,7 +47926,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2045001739, 12, True)
      , (2045001739, 11, True)
      , (2045001739, 14, True)
-     , (2045001739, 41, True);
+     , (2045001739, 41, True)
+     , (2045001739, 1, True)
+     , (2045001739, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2045001739, 67109552, 0, 24)
@@ -46839,7 +48013,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2045001747, 12, True)
      , (2045001747, 11, True)
      , (2045001747, 14, True)
-     , (2045001747, 41, True);
+     , (2045001747, 41, True)
+     , (2045001747, 1, True)
+     , (2045001747, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2045001747, 67109561, 0, 24)
@@ -46920,7 +48096,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2045001748, 12, True)
      , (2045001748, 11, True)
      , (2045001748, 14, True)
-     , (2045001748, 41, True);
+     , (2045001748, 41, True)
+     , (2045001748, 1, True)
+     , (2045001748, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2045001748, 67109551, 0, 24)
@@ -47001,7 +48179,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2045001752, 12, True)
      , (2045001752, 11, True)
      , (2045001752, 14, True)
-     , (2045001752, 41, True);
+     , (2045001752, 41, True)
+     , (2045001752, 1, True)
+     , (2045001752, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2045001752, 67110055, 0, 24)
@@ -47082,7 +48262,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2045001753, 12, True)
      , (2045001753, 11, True)
      , (2045001753, 14, True)
-     , (2045001753, 41, True);
+     , (2045001753, 41, True)
+     , (2045001753, 1, True)
+     , (2045001753, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2045001753, 67109562, 0, 24)
@@ -47164,7 +48346,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049310726, 12, True)
      , (2049310726, 11, True)
      , (2049310726, 14, True)
-     , (2049310726, 41, True);
+     , (2049310726, 41, True)
+     , (2049310726, 1, True)
+     , (2049310726, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049310726, 67109554, 0, 24)
@@ -47252,7 +48436,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049306640, 12, True)
      , (2049306640, 11, True)
      , (2049306640, 14, True)
-     , (2049306640, 41, True);
+     , (2049306640, 41, True)
+     , (2049306640, 1, True)
+     , (2049306640, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049306640, 67109553, 0, 24)
@@ -47338,7 +48524,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049306635, 12, True)
      , (2049306635, 11, True)
      , (2049306635, 14, True)
-     , (2049306635, 41, True);
+     , (2049306635, 41, True)
+     , (2049306635, 1, True)
+     , (2049306635, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049306635, 67109553, 0, 24)
@@ -47424,7 +48612,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049306639, 12, True)
      , (2049306639, 11, True)
      , (2049306639, 14, True)
-     , (2049306639, 41, True);
+     , (2049306639, 41, True)
+     , (2049306639, 1, True)
+     , (2049306639, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049306639, 67109556, 0, 24)
@@ -47513,7 +48703,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049306634, 12, True)
      , (2049306634, 11, True)
      , (2049306634, 14, True)
-     , (2049306634, 41, True);
+     , (2049306634, 41, True)
+     , (2049306634, 1, True)
+     , (2049306634, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049306634, 67109551, 0, 24)
@@ -47602,7 +48794,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049306642, 12, True)
      , (2049306642, 11, True)
      , (2049306642, 14, True)
-     , (2049306642, 41, True);
+     , (2049306642, 41, True)
+     , (2049306642, 1, True)
+     , (2049306642, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049306642, 67109558, 0, 24)
@@ -47686,7 +48880,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049306631, 12, True)
      , (2049306631, 11, True)
      , (2049306631, 14, True)
-     , (2049306631, 41, True);
+     , (2049306631, 41, True)
+     , (2049306631, 1, True)
+     , (2049306631, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049306631, 67109554, 0, 24)
@@ -47767,7 +48963,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049306632, 12, True)
      , (2049306632, 11, True)
      , (2049306632, 14, True)
-     , (2049306632, 41, True);
+     , (2049306632, 41, True)
+     , (2049306632, 1, True)
+     , (2049306632, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049306632, 67109550, 0, 24)
@@ -47847,7 +49045,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049306638, 12, True)
      , (2049306638, 11, True)
      , (2049306638, 14, True)
-     , (2049306638, 41, True);
+     , (2049306638, 41, True)
+     , (2049306638, 1, True)
+     , (2049306638, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049306638, 67109557, 0, 24)
@@ -47933,7 +49133,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049306647, 12, True)
      , (2049306647, 11, True)
      , (2049306647, 14, True)
-     , (2049306647, 41, True);
+     , (2049306647, 41, True)
+     , (2049306647, 1, True)
+     , (2049306647, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049306647, 67109554, 0, 24)
@@ -48018,7 +49220,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049306643, 12, True)
      , (2049306643, 11, True)
      , (2049306643, 14, True)
-     , (2049306643, 41, True);
+     , (2049306643, 41, True)
+     , (2049306643, 1, True)
+     , (2049306643, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049306643, 67109556, 0, 24)
@@ -48101,7 +49305,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049306668, 12, True)
      , (2049306668, 11, True)
      , (2049306668, 14, True)
-     , (2049306668, 41, True);
+     , (2049306668, 41, True)
+     , (2049306668, 1, True)
+     , (2049306668, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049306668, 67109558, 0, 24)
@@ -48183,7 +49389,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049306671, 12, True)
      , (2049306671, 11, True)
      , (2049306671, 14, True)
-     , (2049306671, 41, True);
+     , (2049306671, 41, True)
+     , (2049306671, 1, True)
+     , (2049306671, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049306671, 67109558, 0, 24)
@@ -48265,7 +49473,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049306669, 12, True)
      , (2049306669, 11, True)
      , (2049306669, 14, True)
-     , (2049306669, 41, True);
+     , (2049306669, 41, True)
+     , (2049306669, 1, True)
+     , (2049306669, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049306669, 67110059, 0, 24)
@@ -48347,7 +49557,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049306670, 12, True)
      , (2049306670, 11, True)
      , (2049306670, 14, True)
-     , (2049306670, 41, True);
+     , (2049306670, 41, True)
+     , (2049306670, 1, True)
+     , (2049306670, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049306670, 67109551, 0, 24)
@@ -48428,7 +49640,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2020003840, 12, True)
      , (2020003840, 11, True)
      , (2020003840, 14, True)
-     , (2020003840, 41, True);
+     , (2020003840, 41, True)
+     , (2020003840, 1, True)
+     , (2020003840, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2020003840, 67109550, 0, 24)
@@ -48508,7 +49722,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021052417, 12, True)
      , (2021052417, 11, True)
      , (2021052417, 14, True)
-     , (2021052417, 41, True);
+     , (2021052417, 41, True)
+     , (2021052417, 1, True)
+     , (2021052417, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021052417, 67109552, 0, 24)
@@ -48594,7 +49810,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2019999748, 12, True)
      , (2019999748, 11, True)
      , (2019999748, 14, True)
-     , (2019999748, 41, True);
+     , (2019999748, 41, True)
+     , (2019999748, 1, True)
+     , (2019999748, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2019999748, 67109554, 0, 24)
@@ -48680,7 +49898,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2019999745, 12, True)
      , (2019999745, 11, True)
      , (2019999745, 14, True)
-     , (2019999745, 41, True);
+     , (2019999745, 41, True)
+     , (2019999745, 1, True)
+     , (2019999745, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2019999745, 67109553, 0, 24)
@@ -48765,7 +49985,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2019999744, 12, True)
      , (2019999744, 11, True)
      , (2019999744, 14, True)
-     , (2019999744, 41, True);
+     , (2019999744, 41, True)
+     , (2019999744, 1, True)
+     , (2019999744, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2019999744, 67109556, 0, 24)
@@ -48852,7 +50074,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2018959364, 12, True)
      , (2018959364, 11, True)
      , (2018959364, 14, True)
-     , (2018959364, 41, True);
+     , (2018959364, 41, True)
+     , (2018959364, 1, True)
+     , (2018959364, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2018959364, 67109553, 0, 24)
@@ -48937,7 +50161,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2018959365, 12, True)
      , (2018959365, 11, True)
      , (2018959365, 14, True)
-     , (2018959365, 41, True);
+     , (2018959365, 41, True)
+     , (2018959365, 1, True)
+     , (2018959365, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2018959365, 67109550, 0, 24)
@@ -49021,7 +50247,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2020007937, 12, True)
      , (2020007937, 11, True)
      , (2020007937, 14, True)
-     , (2020007937, 41, True);
+     , (2020007937, 41, True)
+     , (2020007937, 1, True)
+     , (2020007937, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2020007937, 67109550, 0, 24)
@@ -49106,7 +50334,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2020007938, 12, True)
      , (2020007938, 11, True)
      , (2020007938, 14, True)
-     , (2020007938, 41, True);
+     , (2020007938, 41, True)
+     , (2020007938, 1, True)
+     , (2020007938, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2020007938, 67109552, 0, 24)
@@ -49194,7 +50424,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2017906690, 12, True)
      , (2017906690, 11, True)
      , (2017906690, 14, True)
-     , (2017906690, 41, True);
+     , (2017906690, 41, True)
+     , (2017906690, 1, True)
+     , (2017906690, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2017906690, 67110049, 0, 24)
@@ -49275,7 +50507,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2017906692, 12, True)
      , (2017906692, 11, True)
      , (2017906692, 14, True)
-     , (2017906692, 41, True);
+     , (2017906692, 41, True)
+     , (2017906692, 1, True)
+     , (2017906692, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2017906692, 67109551, 0, 24)
@@ -49356,7 +50590,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2017906691, 12, True)
      , (2017906691, 11, True)
      , (2017906691, 14, True)
-     , (2017906691, 41, True);
+     , (2017906691, 41, True)
+     , (2017906691, 1, True)
+     , (2017906691, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2017906691, 67109557, 0, 24)
@@ -49437,7 +50673,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2017906693, 12, True)
      , (2017906693, 11, True)
      , (2017906693, 14, True)
-     , (2017906693, 41, True);
+     , (2017906693, 41, True)
+     , (2017906693, 1, True)
+     , (2017906693, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2017906693, 67109550, 0, 24)
@@ -49518,7 +50756,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2017902593, 12, True)
      , (2017902593, 11, True)
      , (2017902593, 14, True)
-     , (2017902593, 41, True);
+     , (2017902593, 41, True)
+     , (2017902593, 1, True)
+     , (2017902593, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2017902593, 67109555, 0, 24)
@@ -49606,7 +50846,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3692404052, 12, True)
      , (3692404052, 11, True)
      , (3692404052, 14, True)
-     , (3692404052, 41, True);
+     , (3692404052, 41, True)
+     , (3692404052, 1, True)
+     , (3692404052, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692404052, 67109550, 0, 24)
@@ -49689,7 +50931,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3692404046, 12, True)
      , (3692404046, 11, True)
      , (3692404046, 14, True)
-     , (3692404046, 41, True);
+     , (3692404046, 41, True)
+     , (3692404046, 1, True)
+     , (3692404046, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692404046, 67109555, 0, 24)
@@ -49776,7 +51020,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3692404065, 12, True)
      , (3692404065, 11, True)
      , (3692404065, 14, True)
-     , (3692404065, 41, True);
+     , (3692404065, 41, True)
+     , (3692404065, 1, True)
+     , (3692404065, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692404065, 67109554, 0, 24)
@@ -49861,7 +51107,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3692404076, 12, True)
      , (3692404076, 11, True)
      , (3692404076, 14, True)
-     , (3692404076, 41, True);
+     , (3692404076, 41, True)
+     , (3692404076, 1, True)
+     , (3692404076, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692404076, 67109555, 0, 24)
@@ -49944,7 +51192,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3692404091, 12, True)
      , (3692404091, 11, True)
      , (3692404091, 14, True)
-     , (3692404091, 41, True);
+     , (3692404091, 41, True)
+     , (3692404091, 1, True)
+     , (3692404091, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692404091, 67109555, 0, 24)
@@ -50027,7 +51277,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3692020538, 12, True)
      , (3692020538, 11, True)
      , (3692020538, 14, True)
-     , (3692020538, 41, True);
+     , (3692020538, 41, True)
+     , (3692020538, 1, True)
+     , (3692020538, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692020538, 67109550, 0, 24)
@@ -50112,7 +51364,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3692404118, 12, True)
      , (3692404118, 11, True)
      , (3692404118, 14, True)
-     , (3692404118, 41, True);
+     , (3692404118, 41, True)
+     , (3692404118, 1, True)
+     , (3692404118, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692404118, 67109560, 0, 24)
@@ -50193,7 +51447,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3692404123, 12, True)
      , (3692404123, 11, True)
      , (3692404123, 14, True)
-     , (3692404123, 41, True);
+     , (3692404123, 41, True)
+     , (3692404123, 1, True)
+     , (3692404123, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692404123, 67109555, 0, 24)
@@ -50274,7 +51530,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3692404128, 12, True)
      , (3692404128, 11, True)
      , (3692404128, 14, True)
-     , (3692404128, 41, True);
+     , (3692404128, 41, True)
+     , (3692404128, 1, True)
+     , (3692404128, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692404128, 67110056, 0, 24)
@@ -50355,7 +51613,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3692404133, 12, True)
      , (3692404133, 11, True)
      , (3692404133, 14, True)
-     , (3692404133, 41, True);
+     , (3692404133, 41, True)
+     , (3692404133, 1, True)
+     , (3692404133, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692404133, 67109561, 0, 24)
@@ -50436,7 +51696,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855765, 12, True)
      , (2013855765, 11, True)
      , (2013855765, 14, True)
-     , (2013855765, 41, True);
+     , (2013855765, 41, True)
+     , (2013855765, 1, True)
+     , (2013855765, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855765, 67109555, 0, 24)
@@ -50521,7 +51783,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855764, 12, True)
      , (2013855764, 11, True)
      , (2013855764, 14, True)
-     , (2013855764, 41, True);
+     , (2013855764, 41, True)
+     , (2013855764, 1, True)
+     , (2013855764, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855764, 67109557, 0, 24)
@@ -50603,7 +51867,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855762, 12, True)
      , (2013855762, 11, True)
      , (2013855762, 14, True)
-     , (2013855762, 41, True);
+     , (2013855762, 41, True)
+     , (2013855762, 1, True)
+     , (2013855762, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855762, 67109555, 0, 24)
@@ -50688,7 +51954,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855763, 12, True)
      , (2013855763, 11, True)
      , (2013855763, 14, True)
-     , (2013855763, 41, True);
+     , (2013855763, 41, True)
+     , (2013855763, 1, True)
+     , (2013855763, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855763, 67109555, 0, 24)
@@ -50772,7 +52040,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855758, 12, True)
      , (2013855758, 11, True)
      , (2013855758, 14, True)
-     , (2013855758, 41, True);
+     , (2013855758, 41, True)
+     , (2013855758, 1, True)
+     , (2013855758, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855758, 67109557, 0, 24)
@@ -50857,7 +52127,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855759, 12, True)
      , (2013855759, 11, True)
      , (2013855759, 14, True)
-     , (2013855759, 41, True);
+     , (2013855759, 41, True)
+     , (2013855759, 1, True)
+     , (2013855759, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855759, 67109554, 0, 24)
@@ -50945,7 +52217,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855760, 12, True)
      , (2013855760, 11, True)
      , (2013855760, 14, True)
-     , (2013855760, 41, True);
+     , (2013855760, 41, True)
+     , (2013855760, 1, True)
+     , (2013855760, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855760, 67109555, 0, 24)
@@ -51030,7 +52304,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855798, 12, True)
      , (2013855798, 11, True)
      , (2013855798, 14, True)
-     , (2013855798, 41, True);
+     , (2013855798, 41, True)
+     , (2013855798, 1, True)
+     , (2013855798, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855798, 67109550, 0, 24)
@@ -51111,7 +52387,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855799, 12, True)
      , (2013855799, 11, True)
      , (2013855799, 14, True)
-     , (2013855799, 41, True);
+     , (2013855799, 41, True)
+     , (2013855799, 1, True)
+     , (2013855799, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855799, 67109562, 0, 24)
@@ -51192,7 +52470,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855804, 12, True)
      , (2013855804, 11, True)
      , (2013855804, 14, True)
-     , (2013855804, 41, True);
+     , (2013855804, 41, True)
+     , (2013855804, 1, True)
+     , (2013855804, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855804, 67109550, 0, 24)
@@ -51273,7 +52553,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855805, 12, True)
      , (2013855805, 11, True)
      , (2013855805, 14, True)
-     , (2013855805, 41, True);
+     , (2013855805, 41, True)
+     , (2013855805, 1, True)
+     , (2013855805, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855805, 67109561, 0, 24)
@@ -51354,7 +52636,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855802, 12, True)
      , (2013855802, 11, True)
      , (2013855802, 14, True)
-     , (2013855802, 41, True);
+     , (2013855802, 41, True)
+     , (2013855802, 1, True)
+     , (2013855802, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855802, 67109553, 0, 24)
@@ -51435,7 +52719,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855803, 12, True)
      , (2013855803, 11, True)
      , (2013855803, 14, True)
-     , (2013855803, 41, True);
+     , (2013855803, 41, True)
+     , (2013855803, 1, True)
+     , (2013855803, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855803, 67110056, 0, 24)
@@ -51516,7 +52802,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855808, 12, True)
      , (2013855808, 11, True)
      , (2013855808, 14, True)
-     , (2013855808, 41, True);
+     , (2013855808, 41, True)
+     , (2013855808, 1, True)
+     , (2013855808, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855808, 67109550, 0, 24)
@@ -51597,7 +52885,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855809, 12, True)
      , (2013855809, 11, True)
      , (2013855809, 14, True)
-     , (2013855809, 41, True);
+     , (2013855809, 41, True)
+     , (2013855809, 1, True)
+     , (2013855809, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855809, 67109562, 0, 24)
@@ -51678,7 +52968,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855810, 12, True)
      , (2013855810, 11, True)
      , (2013855810, 14, True)
-     , (2013855810, 41, True);
+     , (2013855810, 41, True)
+     , (2013855810, 1, True)
+     , (2013855810, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855810, 67110053, 0, 24)
@@ -51759,7 +53051,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855811, 12, True)
      , (2013855811, 11, True)
      , (2013855811, 14, True)
-     , (2013855811, 41, True);
+     , (2013855811, 41, True)
+     , (2013855811, 1, True)
+     , (2013855811, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855811, 67110054, 0, 24)
@@ -51840,7 +53134,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855800, 12, True)
      , (2013855800, 11, True)
      , (2013855800, 14, True)
-     , (2013855800, 41, True);
+     , (2013855800, 41, True)
+     , (2013855800, 1, True)
+     , (2013855800, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855800, 67109557, 0, 24)
@@ -51921,7 +53217,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855801, 12, True)
      , (2013855801, 11, True)
      , (2013855801, 14, True)
-     , (2013855801, 41, True);
+     , (2013855801, 41, True)
+     , (2013855801, 1, True)
+     , (2013855801, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855801, 67110056, 0, 24)
@@ -52002,7 +53300,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855806, 12, True)
      , (2013855806, 11, True)
      , (2013855806, 14, True)
-     , (2013855806, 41, True);
+     , (2013855806, 41, True)
+     , (2013855806, 1, True)
+     , (2013855806, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855806, 67109552, 0, 24)
@@ -52083,7 +53383,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855807, 12, True)
      , (2013855807, 11, True)
      , (2013855807, 14, True)
-     , (2013855807, 41, True);
+     , (2013855807, 41, True)
+     , (2013855807, 1, True)
+     , (2013855807, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855807, 67109556, 0, 24)
@@ -52164,7 +53466,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013855838, 12, True)
      , (2013855838, 11, True)
      , (2013855838, 14, True)
-     , (2013855838, 41, True);
+     , (2013855838, 41, True)
+     , (2013855838, 1, True)
+     , (2013855838, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013855838, 67109552, 0, 24)
@@ -52246,7 +53550,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2012803090, 12, True)
      , (2012803090, 11, True)
      , (2012803090, 14, True)
-     , (2012803090, 41, True);
+     , (2012803090, 41, True)
+     , (2012803090, 1, True)
+     , (2012803090, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2012803090, 67109556, 0, 24)
@@ -52341,7 +53647,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2012807168, 12, True)
      , (2012807168, 11, True)
      , (2012807168, 14, True)
-     , (2012807168, 41, True);
+     , (2012807168, 41, True)
+     , (2012807168, 1, True)
+     , (2012807168, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2012807168, 67109554, 0, 24)
@@ -52426,7 +53734,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2012807170, 12, True)
      , (2012807170, 11, True)
      , (2012807170, 14, True)
-     , (2012807170, 41, True);
+     , (2012807170, 41, True)
+     , (2012807170, 1, True)
+     , (2012807170, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2012807170, 67109556, 0, 24)
@@ -52513,7 +53823,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2012807171, 12, True)
      , (2012807171, 11, True)
      , (2012807171, 14, True)
-     , (2012807171, 41, True);
+     , (2012807171, 41, True)
+     , (2012807171, 1, True)
+     , (2012807171, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2012807171, 67109556, 0, 24)
@@ -52598,7 +53910,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2012807169, 12, True)
      , (2012807169, 11, True)
      , (2012807169, 14, True)
-     , (2012807169, 41, True);
+     , (2012807169, 41, True)
+     , (2012807169, 1, True)
+     , (2012807169, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2012807169, 67109556, 0, 24)
@@ -52682,7 +53996,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2012803084, 12, True)
      , (2012803084, 11, True)
      , (2012803084, 14, True)
-     , (2012803084, 41, True);
+     , (2012803084, 41, True)
+     , (2012803084, 1, True)
+     , (2012803084, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2012803084, 67109550, 0, 24)
@@ -52765,7 +54081,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2012803091, 12, True)
      , (2012803091, 11, True)
      , (2012803091, 14, True)
-     , (2012803091, 41, True);
+     , (2012803091, 41, True)
+     , (2012803091, 1, True)
+     , (2012803091, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2012803091, 67109558, 0, 24)
@@ -52844,7 +54162,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2033496165, 12, True)
      , (2033496165, 11, True)
      , (2033496165, 14, True)
-     , (2033496165, 41, True);
+     , (2033496165, 41, True)
+     , (2033496165, 1, True)
+     , (2033496165, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2033496165, 67109560, 0, 24)
@@ -52925,7 +54245,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2033496166, 12, True)
      , (2033496166, 11, True)
      , (2033496166, 14, True)
-     , (2033496166, 41, True);
+     , (2033496166, 41, True)
+     , (2033496166, 1, True)
+     , (2033496166, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2033496166, 67110056, 0, 24)
@@ -53006,7 +54328,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2033496139, 12, True)
      , (2033496139, 11, True)
      , (2033496139, 14, True)
-     , (2033496139, 41, True);
+     , (2033496139, 41, True)
+     , (2033496139, 1, True)
+     , (2033496139, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2033496139, 67109550, 0, 24)
@@ -53085,7 +54409,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2033496146, 12, True)
      , (2033496146, 11, True)
      , (2033496146, 14, True)
-     , (2033496146, 41, True);
+     , (2033496146, 41, True)
+     , (2033496146, 1, True)
+     , (2033496146, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2033496146, 67109550, 0, 24)
@@ -53170,7 +54496,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2033496134, 12, True)
      , (2033496134, 11, True)
      , (2033496134, 14, True)
-     , (2033496134, 41, True);
+     , (2033496134, 41, True)
+     , (2033496134, 1, True)
+     , (2033496134, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2033496134, 67109552, 0, 24)
@@ -53253,7 +54581,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2033496154, 12, True)
      , (2033496154, 11, True)
      , (2033496154, 14, True)
-     , (2033496154, 41, True);
+     , (2033496154, 41, True)
+     , (2033496154, 1, True)
+     , (2033496154, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2033496154, 67109551, 0, 24)
@@ -53336,7 +54666,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2033496129, 12, True)
      , (2033496129, 11, True)
      , (2033496129, 14, True)
-     , (2033496129, 41, True);
+     , (2033496129, 41, True)
+     , (2033496129, 1, True)
+     , (2033496129, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2033496129, 67109552, 0, 24)
@@ -53422,7 +54754,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2033496124, 12, True)
      , (2033496124, 11, True)
      , (2033496124, 14, True)
-     , (2033496124, 41, True);
+     , (2033496124, 41, True)
+     , (2033496124, 1, True)
+     , (2033496124, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2033496124, 67109560, 0, 24)
@@ -53505,7 +54839,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2033496130, 12, True)
      , (2033496130, 11, True)
      , (2033496130, 14, True)
-     , (2033496130, 41, True);
+     , (2033496130, 41, True)
+     , (2033496130, 1, True)
+     , (2033496130, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2033496130, 67109553, 0, 24)
@@ -53588,7 +54924,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522454, 12, True)
      , (2037522454, 11, True)
      , (2037522454, 14, True)
-     , (2037522454, 41, True);
+     , (2037522454, 41, True)
+     , (2037522454, 1, True)
+     , (2037522454, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522454, 67109556, 0, 24)
@@ -53675,7 +55013,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522453, 12, True)
      , (2037522453, 11, True)
      , (2037522453, 14, True)
-     , (2037522453, 41, True);
+     , (2037522453, 41, True)
+     , (2037522453, 1, True)
+     , (2037522453, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522453, 67109550, 0, 24)
@@ -53761,7 +55101,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522447, 12, True)
      , (2037522447, 11, True)
      , (2037522447, 14, True)
-     , (2037522447, 41, True);
+     , (2037522447, 41, True)
+     , (2037522447, 1, True)
+     , (2037522447, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522447, 67109550, 0, 24)
@@ -53844,7 +55186,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522449, 12, True)
      , (2037522449, 11, True)
      , (2037522449, 14, True)
-     , (2037522449, 41, True);
+     , (2037522449, 41, True)
+     , (2037522449, 1, True)
+     , (2037522449, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522449, 67109550, 0, 24)
@@ -53930,7 +55274,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522448, 12, True)
      , (2037522448, 11, True)
      , (2037522448, 14, True)
-     , (2037522448, 41, True);
+     , (2037522448, 41, True)
+     , (2037522448, 1, True)
+     , (2037522448, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522448, 67109557, 0, 24)
@@ -54014,7 +55360,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522450, 12, True)
      , (2037522450, 11, True)
      , (2037522450, 14, True)
-     , (2037522450, 41, True);
+     , (2037522450, 41, True)
+     , (2037522450, 1, True)
+     , (2037522450, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522450, 67109552, 0, 24)
@@ -54099,7 +55447,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522451, 12, True)
      , (2037522451, 11, True)
      , (2037522451, 14, True)
-     , (2037522451, 41, True);
+     , (2037522451, 41, True)
+     , (2037522451, 1, True)
+     , (2037522451, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522451, 67109551, 0, 24)
@@ -54182,7 +55532,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522452, 12, True)
      , (2037522452, 11, True)
      , (2037522452, 14, True)
-     , (2037522452, 41, True);
+     , (2037522452, 41, True)
+     , (2037522452, 1, True)
+     , (2037522452, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522452, 67109557, 0, 24)
@@ -54270,7 +55622,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522455, 12, True)
      , (2037522455, 11, True)
      , (2037522455, 14, True)
-     , (2037522455, 41, True);
+     , (2037522455, 41, True)
+     , (2037522455, 1, True)
+     , (2037522455, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522455, 67109552, 0, 24)
@@ -54357,7 +55711,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522456, 12, True)
      , (2037522456, 11, True)
      , (2037522456, 14, True)
-     , (2037522456, 41, True);
+     , (2037522456, 41, True)
+     , (2037522456, 1, True)
+     , (2037522456, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522456, 67109562, 0, 24)
@@ -54440,7 +55796,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522445, 12, True)
      , (2037522445, 11, True)
      , (2037522445, 14, True)
-     , (2037522445, 41, True);
+     , (2037522445, 41, True)
+     , (2037522445, 1, True)
+     , (2037522445, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522445, 67109556, 0, 24)
@@ -54527,7 +55885,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522507, 12, True)
      , (2037522507, 11, True)
      , (2037522507, 14, True)
-     , (2037522507, 41, True);
+     , (2037522507, 41, True)
+     , (2037522507, 1, True)
+     , (2037522507, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522507, 67109560, 0, 24)
@@ -54608,7 +55968,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522514, 12, True)
      , (2037522514, 11, True)
      , (2037522514, 14, True)
-     , (2037522514, 41, True);
+     , (2037522514, 41, True)
+     , (2037522514, 1, True)
+     , (2037522514, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522514, 67116850, 0, 24)
@@ -54689,7 +56051,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522505, 12, True)
      , (2037522505, 11, True)
      , (2037522505, 14, True)
-     , (2037522505, 41, True);
+     , (2037522505, 41, True)
+     , (2037522505, 1, True)
+     , (2037522505, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522505, 67110047, 0, 24)
@@ -54770,7 +56134,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522506, 12, True)
      , (2037522506, 11, True)
      , (2037522506, 14, True)
-     , (2037522506, 41, True);
+     , (2037522506, 41, True)
+     , (2037522506, 1, True)
+     , (2037522506, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522506, 67109558, 0, 24)
@@ -54851,7 +56217,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037522508, 12, True)
      , (2037522508, 11, True)
      , (2037522508, 14, True)
-     , (2037522508, 41, True);
+     , (2037522508, 41, True)
+     , (2037522508, 1, True)
+     , (2037522508, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037522508, 67110055, 0, 24)
@@ -54932,7 +56300,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037526532, 12, True)
      , (2037526532, 11, True)
      , (2037526532, 14, True)
-     , (2037526532, 41, True);
+     , (2037526532, 41, True)
+     , (2037526532, 1, True)
+     , (2037526532, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037526532, 67109553, 0, 24)
@@ -55020,7 +56390,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037886994, 12, True)
      , (2037886994, 11, True)
      , (2037886994, 14, True)
-     , (2037886994, 41, True);
+     , (2037886994, 41, True)
+     , (2037886994, 1, True)
+     , (2037886994, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037886994, 67109557, 0, 24)
@@ -55104,7 +56476,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037886993, 12, True)
      , (2037886993, 11, True)
      , (2037886993, 14, True)
-     , (2037886993, 41, True);
+     , (2037886993, 41, True)
+     , (2037886993, 1, True)
+     , (2037886993, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037886993, 67109557, 0, 24)
@@ -55187,7 +56561,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037886992, 12, True)
      , (2037886992, 11, True)
      , (2037886992, 14, True)
-     , (2037886992, 41, True);
+     , (2037886992, 41, True)
+     , (2037886992, 1, True)
+     , (2037886992, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037886992, 67109552, 0, 24)
@@ -55275,7 +56651,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037886990, 12, True)
      , (2037886990, 11, True)
      , (2037886990, 14, True)
-     , (2037886990, 41, True);
+     , (2037886990, 41, True)
+     , (2037886990, 1, True)
+     , (2037886990, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037886990, 67109557, 0, 24)
@@ -55359,7 +56737,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037886991, 12, True)
      , (2037886991, 11, True)
      , (2037886991, 14, True)
-     , (2037886991, 41, True);
+     , (2037886991, 41, True)
+     , (2037886991, 1, True)
+     , (2037886991, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037886991, 67109556, 0, 24)
@@ -55444,7 +56824,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037886989, 12, True)
      , (2037886989, 11, True)
      , (2037886989, 14, True)
-     , (2037886989, 41, True);
+     , (2037886989, 41, True)
+     , (2037886989, 1, True)
+     , (2037886989, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037886989, 67109556, 0, 24)
@@ -55527,7 +56909,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037886997, 12, True)
      , (2037886997, 11, True)
      , (2037886997, 14, True)
-     , (2037886997, 41, True);
+     , (2037886997, 41, True)
+     , (2037886997, 1, True)
+     , (2037886997, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037886997, 67109550, 0, 24)
@@ -55610,7 +56994,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037886996, 12, True)
      , (2037886996, 11, True)
      , (2037886996, 14, True)
-     , (2037886996, 41, True);
+     , (2037886996, 41, True)
+     , (2037886996, 1, True)
+     , (2037886996, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037886996, 67109550, 0, 24)
@@ -55692,7 +57078,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037886995, 12, True)
      , (2037886995, 11, True)
      , (2037886995, 14, True)
-     , (2037886995, 41, True);
+     , (2037886995, 41, True)
+     , (2037886995, 1, True)
+     , (2037886995, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037886995, 67109555, 0, 24)
@@ -55779,7 +57167,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037886999, 12, True)
      , (2037886999, 11, True)
      , (2037886999, 14, True)
-     , (2037886999, 41, True);
+     , (2037886999, 41, True)
+     , (2037886999, 1, True)
+     , (2037886999, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037886999, 67109555, 0, 24)
@@ -55864,7 +57254,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037886998, 12, True)
      , (2037886998, 11, True)
      , (2037886998, 14, True)
-     , (2037886998, 41, True);
+     , (2037886998, 41, True)
+     , (2037886998, 1, True)
+     , (2037886998, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037886998, 67109555, 0, 24)
@@ -55952,7 +57344,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037887020, 12, True)
      , (2037887020, 11, True)
      , (2037887020, 14, True)
-     , (2037887020, 41, True);
+     , (2037887020, 41, True)
+     , (2037887020, 1, True)
+     , (2037887020, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037887020, 67110049, 0, 24)
@@ -56033,7 +57427,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037887041, 12, True)
      , (2037887041, 11, True)
      , (2037887041, 14, True)
-     , (2037887041, 41, True);
+     , (2037887041, 41, True)
+     , (2037887041, 1, True)
+     , (2037887041, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037887041, 67109554, 0, 24)
@@ -56114,7 +57510,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037887044, 12, True)
      , (2037887044, 11, True)
      , (2037887044, 14, True)
-     , (2037887044, 41, True);
+     , (2037887044, 41, True)
+     , (2037887044, 1, True)
+     , (2037887044, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037887044, 67110050, 0, 24)
@@ -56195,7 +57593,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037887043, 12, True)
      , (2037887043, 11, True)
      , (2037887043, 14, True)
-     , (2037887043, 41, True);
+     , (2037887043, 41, True)
+     , (2037887043, 1, True)
+     , (2037887043, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037887043, 67109555, 0, 24)
@@ -56276,7 +57676,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037887042, 12, True)
      , (2037887042, 11, True)
      , (2037887042, 14, True)
-     , (2037887042, 41, True);
+     , (2037887042, 41, True)
+     , (2037887042, 1, True)
+     , (2037887042, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037887042, 67109556, 0, 24)
@@ -56357,7 +57759,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2037887050, 12, True)
      , (2037887050, 11, True)
      , (2037887050, 14, True)
-     , (2037887050, 41, True);
+     , (2037887050, 41, True)
+     , (2037887050, 1, True)
+     , (2037887050, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2037887050, 67109550, 0, 24)
@@ -56442,7 +57846,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2124611589, 12, True)
      , (2124611589, 11, True)
      , (2124611589, 14, True)
-     , (2124611589, 41, True);
+     , (2124611589, 41, True)
+     , (2124611589, 1, True)
+     , (2124611589, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2124611589, 67110053, 0, 24)
@@ -56521,7 +57927,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3691069467, 12, True)
      , (3691069467, 11, True)
      , (3691069467, 14, True)
-     , (3691069467, 41, True);
+     , (3691069467, 41, True)
+     , (3691069467, 1, True)
+     , (3691069467, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691069467, 67110047, 0, 24)
@@ -56605,7 +58013,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3691034013, 12, True)
      , (3691034013, 11, True)
      , (3691034013, 14, True)
-     , (3691034013, 41, True);
+     , (3691034013, 41, True)
+     , (3691034013, 1, True)
+     , (3691034013, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691034013, 67110055, 0, 24)
@@ -56687,7 +58097,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3691069437, 12, True)
      , (3691069437, 11, True)
      , (3691069437, 14, True)
-     , (3691069437, 41, True);
+     , (3691069437, 41, True)
+     , (3691069437, 1, True)
+     , (3691069437, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691069437, 67109555, 0, 24)
@@ -56768,7 +58180,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3691069463, 12, True)
      , (3691069463, 11, True)
      , (3691069463, 14, True)
-     , (3691069463, 41, True);
+     , (3691069463, 41, True)
+     , (3691069463, 1, True)
+     , (3691069463, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691069463, 67109551, 0, 24)
@@ -56850,7 +58264,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3691069458, 12, True)
      , (3691069458, 11, True)
      , (3691069458, 14, True)
-     , (3691069458, 41, True);
+     , (3691069458, 41, True)
+     , (3691069458, 1, True)
+     , (3691069458, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691069458, 67109559, 0, 24)
@@ -56932,7 +58348,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1897087029, 12, True)
      , (1897087029, 11, True)
      , (1897087029, 14, True)
-     , (1897087029, 41, True);
+     , (1897087029, 41, True)
+     , (1897087029, 1, True)
+     , (1897087029, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1897087029, 67109553, 0, 24)
@@ -57013,7 +58431,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1897087032, 12, True)
      , (1897087032, 11, True)
      , (1897087032, 14, True)
-     , (1897087032, 41, True);
+     , (1897087032, 41, True)
+     , (1897087032, 1, True)
+     , (1897087032, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1897087032, 67110053, 0, 24)
@@ -57094,7 +58514,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3691069426, 12, True)
      , (3691069426, 11, True)
      , (3691069426, 14, True)
-     , (3691069426, 41, True);
+     , (3691069426, 41, True)
+     , (3691069426, 1, True)
+     , (3691069426, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691069426, 67109560, 0, 24)
@@ -57181,7 +58603,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3691033900, 12, True)
      , (3691033900, 11, True)
      , (3691033900, 14, True)
-     , (3691033900, 41, True);
+     , (3691033900, 41, True)
+     , (3691033900, 1, True)
+     , (3691033900, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691033900, 67113396, 0, 0);
@@ -57223,7 +58647,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1897087031, 12, True)
      , (1897087031, 11, True)
      , (1897087031, 14, True)
-     , (1897087031, 41, True);
+     , (1897087031, 41, True)
+     , (1897087031, 1, True)
+     , (1897087031, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1897087031, 67109561, 0, 24)
@@ -57304,7 +58730,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1897087030, 12, True)
      , (1897087030, 11, True)
      , (1897087030, 14, True)
-     , (1897087030, 41, True);
+     , (1897087030, 41, True)
+     , (1897087030, 1, True)
+     , (1897087030, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1897087030, 67109552, 0, 24)
@@ -57385,7 +58813,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1897087087, 12, True)
      , (1897087087, 11, True)
      , (1897087087, 14, True)
-     , (1897087087, 41, True);
+     , (1897087087, 41, True)
+     , (1897087087, 1, True)
+     , (1897087087, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1897087087, 67116849, 0, 24)
@@ -57458,7 +58888,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3691069421, 12, True)
      , (3691069421, 11, True)
      , (3691069421, 14, True)
-     , (3691069421, 41, True);
+     , (3691069421, 41, True)
+     , (3691069421, 1, True)
+     , (3691069421, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691069421, 67109562, 0, 24)
@@ -57539,7 +58971,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3691069476, 12, True)
      , (3691069476, 11, True)
      , (3691069476, 14, True)
-     , (3691069476, 41, True);
+     , (3691069476, 41, True)
+     , (3691069476, 1, True)
+     , (3691069476, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691069476, 67109555, 0, 24)
@@ -57626,7 +59060,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2019569747, 12, True)
      , (2019569747, 11, True)
      , (2019569747, 14, True)
-     , (2019569747, 41, True);
+     , (2019569747, 41, True)
+     , (2019569747, 1, True)
+     , (2019569747, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2019569747, 67109562, 0, 24)
@@ -57713,7 +59149,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2019569759, 12, True)
      , (2019569759, 11, True)
      , (2019569759, 14, True)
-     , (2019569759, 41, True);
+     , (2019569759, 41, True)
+     , (2019569759, 1, True)
+     , (2019569759, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2019569759, 67109551, 0, 24)
@@ -57801,7 +59239,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2095693829, 12, True)
      , (2095693829, 11, True)
      , (2095693829, 14, True)
-     , (2095693829, 41, True);
+     , (2095693829, 41, True)
+     , (2095693829, 1, True)
+     , (2095693829, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2095693829, 67110053, 0, 24)
@@ -57880,7 +59320,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2096758789, 12, True)
      , (2096758789, 11, True)
      , (2096758789, 14, True)
-     , (2096758789, 41, True);
+     , (2096758789, 41, True)
+     , (2096758789, 1, True)
+     , (2096758789, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2096758789, 67109562, 0, 24)
@@ -57964,7 +59406,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879765128, 12, True)
      , (1879765128, 11, True)
      , (1879765128, 14, True)
-     , (1879765128, 41, True);
+     , (1879765128, 41, True)
+     , (1879765128, 1, True)
+     , (1879765128, 51, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (1879765128, 0, 83894477, 83892431)
@@ -58040,7 +59484,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2073505797, 12, True)
      , (2073505797, 11, True)
      , (2073505797, 14, True)
-     , (2073505797, 41, True);
+     , (2073505797, 41, True)
+     , (2073505797, 1, True)
+     , (2073505797, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2073505797, 67110050, 0, 24)
@@ -58125,7 +59571,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2087223303, 12, True)
      , (2087223303, 11, True)
      , (2087223303, 14, True)
-     , (2087223303, 41, True);
+     , (2087223303, 41, True)
+     , (2087223303, 1, True)
+     , (2087223303, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2087223303, 67109561, 0, 24)
@@ -58212,7 +59660,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2041491457, 12, True)
      , (2041491457, 11, True)
      , (2041491457, 14, True)
-     , (2041491457, 41, True);
+     , (2041491457, 41, True)
+     , (2041491457, 1, True)
+     , (2041491457, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2041491457, 67109559, 0, 24)
@@ -58293,7 +59743,9 @@ VALUES (2124857359, 12, True)
      , (2124857359, 11, True)
      , (2124857359, 14, True)
      , (2124857359, 41, True)
-     , (2124857359, 42, True);
+     , (2124857359, 42, True)
+     , (2124857359, 1, True)
+     , (2124857359, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2124857362, 516, 35948, 1048630, 'AAA9AAAAAAA=', 104579);
@@ -58328,7 +59780,9 @@ VALUES (2124857362, 12, True)
      , (2124857362, 11, True)
      , (2124857362, 14, True)
      , (2124857362, 41, True)
-     , (2124857362, 42, True);
+     , (2124857362, 42, True)
+     , (2124857362, 1, True)
+     , (2124857362, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2054897667, 516, 1392, 8388662, 'AAA9AAAAAAA=', 100355);
@@ -58361,7 +59815,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2054897667, 12, True)
      , (2054897667, 11, True)
      , (2054897667, 14, True)
-     , (2054897667, 41, True);
+     , (2054897667, 41, True)
+     , (2054897667, 1, True)
+     , (2054897667, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2054897667, 67110048, 0, 24)
@@ -58442,7 +59898,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2054897666, 12, True)
      , (2054897666, 11, True)
      , (2054897666, 14, True)
-     , (2054897666, 41, True);
+     , (2054897666, 41, True)
+     , (2054897666, 1, True)
+     , (2054897666, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2054897666, 67109559, 0, 24)
@@ -58525,7 +59983,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2078089217, 12, True)
      , (2078089217, 11, True)
      , (2078089217, 14, True)
-     , (2078089217, 41, True);
+     , (2078089217, 41, True)
+     , (2078089217, 1, True)
+     , (2078089217, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2078089217, 67109562, 0, 24)
@@ -58610,7 +60070,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2078089219, 12, True)
      , (2078089219, 11, True)
      , (2078089219, 14, True)
-     , (2078089219, 41, True);
+     , (2078089219, 41, True)
+     , (2078089219, 1, True)
+     , (2078089219, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2078089219, 67109558, 0, 24)
@@ -58695,7 +60157,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2078089224, 12, True)
      , (2078089224, 11, True)
      , (2078089224, 14, True)
-     , (2078089224, 41, True);
+     , (2078089224, 41, True)
+     , (2078089224, 1, True)
+     , (2078089224, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2078089224, 67110061, 0, 24)
@@ -58782,7 +60246,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2078089221, 12, True)
      , (2078089221, 11, True)
      , (2078089221, 14, True)
-     , (2078089221, 41, True);
+     , (2078089221, 41, True)
+     , (2078089221, 1, True)
+     , (2078089221, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2078089221, 67109561, 0, 24)
@@ -58868,7 +60334,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056998912, 12, True)
      , (2056998912, 11, True)
      , (2056998912, 14, True)
-     , (2056998912, 41, True);
+     , (2056998912, 41, True)
+     , (2056998912, 1, True)
+     , (2056998912, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056998912, 67109561, 0, 24)
@@ -58953,7 +60421,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1881047047, 12, True)
      , (1881047047, 11, True)
      , (1881047047, 14, True)
-     , (1881047047, 41, True);
+     , (1881047047, 41, True)
+     , (1881047047, 1, True)
+     , (1881047047, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1881047047, 67109561, 0, 24)
@@ -59040,7 +60510,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2086346754, 12, True)
      , (2086346754, 11, True)
      , (2086346754, 14, True)
-     , (2086346754, 41, True);
+     , (2086346754, 41, True)
+     , (2086346754, 1, True)
+     , (2086346754, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2086346754, 67109561, 0, 24)
@@ -59127,7 +60599,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2086346755, 12, True)
      , (2086346755, 11, True)
      , (2086346755, 14, True)
-     , (2086346755, 41, True);
+     , (2086346755, 41, True)
+     , (2086346755, 1, True)
+     , (2086346755, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2086346755, 67109560, 0, 24)
@@ -59210,7 +60684,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2085314568, 12, True)
      , (2085314568, 11, True)
      , (2085314568, 14, True)
-     , (2085314568, 41, True);
+     , (2085314568, 41, True)
+     , (2085314568, 1, True)
+     , (2085314568, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2085314568, 67109554, 0, 24)
@@ -59289,7 +60765,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021011461, 12, True)
      , (2021011461, 11, True)
      , (2021011461, 14, True)
-     , (2021011461, 41, True);
+     , (2021011461, 41, True)
+     , (2021011461, 1, True)
+     , (2021011461, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021011461, 67116894, 64, 8)
@@ -59374,7 +60852,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3704313987, 12, True)
      , (3704313987, 11, True)
      , (3704313987, 14, True)
-     , (3704313987, 41, True);
+     , (3704313987, 41, True)
+     , (3704313987, 1, True)
+     , (3704313987, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3704313987, 67110059, 0, 24)
@@ -59470,7 +60950,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1998680067, 12, True)
      , (1998680067, 11, True)
      , (1998680067, 14, True)
-     , (1998680067, 41, True);
+     , (1998680067, 41, True)
+     , (1998680067, 1, True)
+     , (1998680067, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1998680067, 67110056, 0, 24)
@@ -59549,7 +61031,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1969618962, 12, True)
      , (1969618962, 11, True)
      , (1969618962, 14, True)
-     , (1969618962, 41, True);
+     , (1969618962, 41, True)
+     , (1969618962, 1, True)
+     , (1969618962, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1969618962, 67110045, 0, 24)
@@ -59630,7 +61114,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1969618959, 12, True)
      , (1969618959, 11, True)
      , (1969618959, 14, True)
-     , (1969618959, 41, True);
+     , (1969618959, 41, True)
+     , (1969618959, 1, True)
+     , (1969618959, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1969618959, 67109558, 0, 24)
@@ -59712,7 +61198,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1969618958, 12, True)
      , (1969618958, 11, True)
      , (1969618958, 14, True)
-     , (1969618958, 41, True);
+     , (1969618958, 41, True)
+     , (1969618958, 1, True)
+     , (1969618958, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1969618958, 67110048, 0, 24)
@@ -59791,7 +61279,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2039111682, 12, True)
      , (2039111682, 11, True)
      , (2039111682, 14, True)
-     , (2039111682, 41, True);
+     , (2039111682, 41, True)
+     , (2039111682, 1, True)
+     , (2039111682, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2039111682, 67109562, 0, 24)
@@ -59878,7 +61368,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2111111185, 12, True)
      , (2111111185, 11, True)
      , (2111111185, 14, True)
-     , (2111111185, 41, True);
+     , (2111111185, 41, True)
+     , (2111111185, 1, True)
+     , (2111111185, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2111111185, 67110054, 0, 24)
@@ -59959,7 +61451,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1914109965, 12, True)
      , (1914109965, 11, True)
      , (1914109965, 14, True)
-     , (1914109965, 41, True);
+     , (1914109965, 41, True)
+     , (1914109965, 1, True)
+     , (1914109965, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1945313289, 516, 2543, 8388662, 'AAA9AAAAAAA=', 100355);
@@ -59992,7 +61486,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1945313289, 12, True)
      , (1945313289, 11, True)
      , (1945313289, 14, True)
-     , (1945313289, 41, True);
+     , (1945313289, 41, True)
+     , (1945313289, 1, True)
+     , (1945313289, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1945313289, 67110049, 0, 24)
@@ -60073,7 +61569,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1945309206, 12, True)
      , (1945309206, 11, True)
      , (1945309206, 14, True)
-     , (1945309206, 41, True);
+     , (1945309206, 41, True)
+     , (1945309206, 1, True)
+     , (1945309206, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1945309206, 67109553, 0, 24)
@@ -60154,7 +61652,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1945309205, 12, True)
      , (1945309205, 11, True)
      , (1945309205, 14, True)
-     , (1945309205, 41, True);
+     , (1945309205, 41, True)
+     , (1945309205, 1, True)
+     , (1945309205, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1945309205, 67109556, 0, 24)
@@ -60235,7 +61735,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1945309207, 12, True)
      , (1945309207, 11, True)
      , (1945309207, 14, True)
-     , (1945309207, 41, True);
+     , (1945309207, 41, True)
+     , (1945309207, 1, True)
+     , (1945309207, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1945309207, 67109561, 0, 24)
@@ -60316,7 +61818,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1945309204, 12, True)
      , (1945309204, 11, True)
      , (1945309204, 14, True)
-     , (1945309204, 41, True);
+     , (1945309204, 41, True)
+     , (1945309204, 1, True)
+     , (1945309204, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1945309204, 67110048, 0, 24)
@@ -60397,7 +61901,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1945313304, 12, True)
      , (1945313304, 11, True)
      , (1945313304, 14, True)
-     , (1945313304, 41, True);
+     , (1945313304, 41, True)
+     , (1945313304, 1, True)
+     , (1945313304, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1945313304, 67110052, 0, 24)
@@ -60480,7 +61986,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1945313305, 12, True)
      , (1945313305, 11, True)
      , (1945313305, 14, True)
-     , (1945313305, 41, True);
+     , (1945313305, 41, True)
+     , (1945313305, 1, True)
+     , (1945313305, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1945313305, 67110050, 0, 24)
@@ -60561,7 +62069,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1945313308, 12, True)
      , (1945313308, 11, True)
      , (1945313308, 14, True)
-     , (1945313308, 41, True);
+     , (1945313308, 41, True)
+     , (1945313308, 1, True)
+     , (1945313308, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1945313308, 67110059, 0, 24)
@@ -60642,7 +62152,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1945313306, 12, True)
      , (1945313306, 11, True)
      , (1945313306, 14, True)
-     , (1945313306, 41, True);
+     , (1945313306, 41, True)
+     , (1945313306, 1, True)
+     , (1945313306, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1945313306, 67110059, 0, 24)
@@ -60721,7 +62233,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1945313307, 12, True)
      , (1945313307, 11, True)
      , (1945313307, 14, True)
-     , (1945313307, 41, True);
+     , (1945313307, 41, True)
+     , (1945313307, 1, True)
+     , (1945313307, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1945313307, 67110053, 0, 24)
@@ -60803,7 +62317,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1945313302, 12, True)
      , (1945313302, 11, True)
      , (1945313302, 14, True)
-     , (1945313302, 41, True);
+     , (1945313302, 41, True)
+     , (1945313302, 1, True)
+     , (1945313302, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1945313302, 67109557, 0, 24)
@@ -60882,7 +62398,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2062389251, 12, True)
      , (2062389251, 11, True)
      , (2062389251, 14, True)
-     , (2062389251, 41, True);
+     , (2062389251, 41, True)
+     , (2062389251, 1, True)
+     , (2062389251, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2062389251, 67109560, 0, 24)
@@ -60963,7 +62481,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2062389254, 12, True)
      , (2062389254, 11, True)
      , (2062389254, 14, True)
-     , (2062389254, 41, True);
+     , (2062389254, 41, True)
+     , (2062389254, 1, True)
+     , (2062389254, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2062389254, 67110050, 0, 24)
@@ -61042,7 +62562,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056990741, 12, True)
      , (2056990741, 11, True)
      , (2056990741, 14, True)
-     , (2056990741, 41, True);
+     , (2056990741, 41, True)
+     , (2056990741, 1, True)
+     , (2056990741, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056990741, 67109559, 0, 24)
@@ -61123,7 +62645,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2052800522, 12, True)
      , (2052800522, 11, True)
      , (2052800522, 14, True)
-     , (2052800522, 41, True);
+     , (2052800522, 41, True)
+     , (2052800522, 1, True)
+     , (2052800522, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2052800522, 67109562, 0, 24)
@@ -61208,7 +62732,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2052780034, 12, True)
      , (2052780034, 11, True)
      , (2052780034, 14, True)
-     , (2052780034, 41, True);
+     , (2052780034, 41, True)
+     , (2052780034, 1, True)
+     , (2052780034, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2052780034, 67109558, 0, 24)
@@ -61293,7 +62819,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2047504387, 12, True)
      , (2047504387, 11, True)
      , (2047504387, 14, True)
-     , (2047504387, 41, True);
+     , (2047504387, 41, True)
+     , (2047504387, 1, True)
+     , (2047504387, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2047504387, 67109562, 0, 24)
@@ -61378,7 +62906,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2020147201, 12, True)
      , (2020147201, 11, True)
      , (2020147201, 14, True)
-     , (2020147201, 41, True);
+     , (2020147201, 41, True)
+     , (2020147201, 1, True)
+     , (2020147201, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2020147201, 67109557, 0, 24)
@@ -61475,7 +63005,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2024312833, 12, True)
      , (2024312833, 11, True)
      , (2024312833, 14, True)
-     , (2024312833, 41, True);
+     , (2024312833, 41, True)
+     , (2024312833, 1, True)
+     , (2024312833, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2024312833, 67109555, 0, 24)
@@ -61569,7 +63101,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2029551620, 12, True)
      , (2029551620, 11, True)
      , (2029551620, 14, True)
-     , (2029551620, 41, True);
+     , (2029551620, 41, True)
+     , (2029551620, 1, True)
+     , (2029551620, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2029551620, 67109550, 0, 24)
@@ -61662,7 +63196,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2042081284, 12, True)
      , (2042081284, 11, True)
      , (2042081284, 14, True)
-     , (2042081284, 41, True);
+     , (2042081284, 41, True)
+     , (2042081284, 1, True)
+     , (2042081284, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2042081284, 67109554, 0, 24)
@@ -61745,7 +63281,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2043121665, 12, True)
      , (2043121665, 11, True)
      , (2043121665, 14, True)
-     , (2043121665, 41, True);
+     , (2043121665, 41, True)
+     , (2043121665, 1, True)
+     , (2043121665, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2043121665, 67109557, 0, 24)
@@ -61828,7 +63366,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2038538241, 12, True)
      , (2038538241, 11, True)
      , (2038538241, 14, True)
-     , (2038538241, 41, True);
+     , (2038538241, 41, True)
+     , (2038538241, 1, True)
+     , (2038538241, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2038538241, 67109556, 0, 24)
@@ -61909,7 +63449,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2038538240, 12, True)
      , (2038538240, 11, True)
      , (2038538240, 14, True)
-     , (2038538240, 41, True);
+     , (2038538240, 41, True)
+     , (2038538240, 1, True)
+     , (2038538240, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2038538240, 67109555, 0, 24)
@@ -61992,7 +63534,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2019635201, 12, True)
      , (2019635201, 11, True)
      , (2019635201, 14, True)
-     , (2019635201, 41, True);
+     , (2019635201, 41, True)
+     , (2019635201, 1, True)
+     , (2019635201, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2019635201, 67109556, 0, 24)
@@ -62071,7 +63615,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2019635202, 12, True)
      , (2019635202, 11, True)
      , (2019635202, 14, True)
-     , (2019635202, 41, True);
+     , (2019635202, 41, True)
+     , (2019635202, 1, True)
+     , (2019635202, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2019635202, 67109550, 0, 24)
@@ -62154,7 +63700,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2119442439, 12, True)
      , (2119442439, 11, True)
      , (2119442439, 14, True)
-     , (2119442439, 41, True);
+     , (2119442439, 41, True)
+     , (2119442439, 1, True)
+     , (2119442439, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2119442439, 67110059, 0, 24)
@@ -62239,7 +63787,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2117300230, 12, True)
      , (2117300230, 11, True)
      , (2117300230, 14, True)
-     , (2117300230, 41, True);
+     , (2117300230, 41, True)
+     , (2117300230, 1, True)
+     , (2117300230, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2117300230, 67110054, 0, 24)
@@ -62320,7 +63870,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2117300229, 12, True)
      , (2117300229, 11, True)
      , (2117300229, 14, True)
-     , (2117300229, 41, True);
+     , (2117300229, 41, True)
+     , (2117300229, 1, True)
+     , (2117300229, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2117300229, 67110056, 0, 24)
@@ -62405,7 +63957,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2117300228, 12, True)
      , (2117300228, 11, True)
      , (2117300228, 14, True)
-     , (2117300228, 41, True);
+     , (2117300228, 41, True)
+     , (2117300228, 1, True)
+     , (2117300228, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2117300228, 67110048, 0, 24)
@@ -62488,7 +64042,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2101669893, 12, True)
      , (2101669893, 11, True)
      , (2101669893, 14, True)
-     , (2101669893, 41, True);
+     , (2101669893, 41, True)
+     , (2101669893, 1, True)
+     , (2101669893, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2101669893, 67110053, 0, 24)
@@ -62571,7 +64127,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2101723140, 12, True)
      , (2101723140, 11, True)
      , (2101723140, 14, True)
-     , (2101723140, 41, True);
+     , (2101723140, 41, True)
+     , (2101723140, 1, True)
+     , (2101723140, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2101723140, 67110045, 0, 24)
@@ -62652,7 +64210,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2097537025, 12, True)
      , (2097537025, 11, True)
      , (2097537025, 14, True)
-     , (2097537025, 41, True);
+     , (2097537025, 41, True)
+     , (2097537025, 1, True)
+     , (2097537025, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2097537025, 67110055, 0, 24)
@@ -62735,7 +64295,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2070302729, 12, True)
      , (2070302729, 11, True)
      , (2070302729, 14, True)
-     , (2070302729, 41, True);
+     , (2070302729, 41, True)
+     , (2070302729, 1, True)
+     , (2070302729, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2070302729, 67110055, 0, 24)
@@ -62820,7 +64382,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2070302725, 12, True)
      , (2070302725, 11, True)
      , (2070302725, 14, True)
-     , (2070302725, 41, True);
+     , (2070302725, 41, True)
+     , (2070302725, 1, True)
+     , (2070302725, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2070302725, 67110054, 0, 24)
@@ -62904,7 +64468,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2070302726, 12, True)
      , (2070302726, 11, True)
      , (2070302726, 14, True)
-     , (2070302726, 41, True);
+     , (2070302726, 41, True)
+     , (2070302726, 1, True)
+     , (2070302726, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2070302726, 67110055, 0, 24)
@@ -62989,7 +64555,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2070302728, 12, True)
      , (2070302728, 11, True)
      , (2070302728, 14, True)
-     , (2070302728, 41, True);
+     , (2070302728, 41, True)
+     , (2070302728, 1, True)
+     , (2070302728, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2070302728, 67110061, 0, 24)
@@ -63074,7 +64642,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2073473031, 12, True)
      , (2073473031, 11, True)
      , (2073473031, 14, True)
-     , (2073473031, 41, True);
+     , (2073473031, 41, True)
+     , (2073473031, 1, True)
+     , (2073473031, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2073473031, 67110045, 0, 24)
@@ -63159,7 +64729,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2084044809, 12, True)
      , (2084044809, 11, True)
      , (2084044809, 14, True)
-     , (2084044809, 41, True);
+     , (2084044809, 41, True)
+     , (2084044809, 1, True)
+     , (2084044809, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2084044809, 67109561, 0, 24)
@@ -63244,7 +64816,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2075656196, 12, True)
      , (2075656196, 11, True)
      , (2075656196, 14, True)
-     , (2075656196, 41, True);
+     , (2075656196, 41, True)
+     , (2075656196, 1, True)
+     , (2075656196, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2075656196, 67109562, 0, 24)
@@ -63329,7 +64903,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2086195200, 12, True)
      , (2086195200, 11, True)
      , (2086195200, 14, True)
-     , (2086195200, 41, True);
+     , (2086195200, 41, True)
+     , (2086195200, 1, True)
+     , (2086195200, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2086195200, 67109561, 0, 24)
@@ -63410,7 +64986,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2083045385, 12, True)
      , (2083045385, 11, True)
      , (2083045385, 14, True)
-     , (2083045385, 41, True);
+     , (2083045385, 41, True)
+     , (2083045385, 1, True)
+     , (2083045385, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2083045385, 67109562, 0, 24)
@@ -63491,7 +65069,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2083045381, 12, True)
      , (2083045381, 11, True)
      , (2083045381, 14, True)
-     , (2083045381, 41, True);
+     , (2083045381, 41, True)
+     , (2083045381, 1, True)
+     , (2083045381, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2083045381, 67109559, 0, 24)
@@ -63576,7 +65156,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2078867458, 12, True)
      , (2078867458, 11, True)
      , (2078867458, 14, True)
-     , (2078867458, 41, True);
+     , (2078867458, 41, True)
+     , (2078867458, 1, True)
+     , (2078867458, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2078867458, 67110056, 0, 24)
@@ -63659,7 +65241,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2075729923, 12, True)
      , (2075729923, 11, True)
      , (2075729923, 14, True)
-     , (2075729923, 41, True);
+     , (2075729923, 41, True)
+     , (2075729923, 1, True)
+     , (2075729923, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2075729923, 67110059, 0, 24)
@@ -63742,7 +65326,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2075729924, 12, True)
      , (2075729924, 11, True)
      , (2075729924, 14, True)
-     , (2075729924, 41, True);
+     , (2075729924, 41, True)
+     , (2075729924, 1, True)
+     , (2075729924, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2075729924, 67109559, 0, 24)
@@ -63827,7 +65413,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2070523905, 12, True)
      , (2070523905, 11, True)
      , (2070523905, 14, True)
-     , (2070523905, 41, True);
+     , (2070523905, 41, True)
+     , (2070523905, 1, True)
+     , (2070523905, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2070523905, 67109552, 0, 24)
@@ -63906,7 +65494,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2070523904, 12, True)
      , (2070523904, 11, True)
      , (2070523904, 14, True)
-     , (2070523904, 41, True);
+     , (2070523904, 41, True)
+     , (2070523904, 1, True)
+     , (2070523904, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2070523904, 67109557, 0, 24)
@@ -63991,7 +65581,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2073673733, 12, True)
      , (2073673733, 11, True)
      , (2073673733, 14, True)
-     , (2073673733, 41, True);
+     , (2073673733, 41, True)
+     , (2073673733, 1, True)
+     , (2073673733, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2073673733, 67109559, 0, 24)
@@ -64072,7 +65664,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2073673735, 12, True)
      , (2073673735, 11, True)
      , (2073673735, 14, True)
-     , (2073673735, 41, True);
+     , (2073673735, 41, True)
+     , (2073673735, 1, True)
+     , (2073673735, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2073673735, 67109561, 0, 24)
@@ -64157,7 +65751,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2093588483, 12, True)
      , (2093588483, 11, True)
      , (2093588483, 14, True)
-     , (2093588483, 41, True);
+     , (2093588483, 41, True)
+     , (2093588483, 1, True)
+     , (2093588483, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2093588483, 67109562, 0, 24)
@@ -64242,7 +65838,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2061180929, 12, True)
      , (2061180929, 11, True)
      , (2061180929, 14, True)
-     , (2061180929, 41, True);
+     , (2061180929, 41, True)
+     , (2061180929, 1, True)
+     , (2061180929, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2061180929, 67109559, 0, 24)
@@ -64329,7 +65927,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1881116673, 12, True)
      , (1881116673, 11, True)
      , (1881116673, 14, True)
-     , (1881116673, 41, True);
+     , (1881116673, 41, True)
+     , (1881116673, 1, True)
+     , (1881116673, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1881116673, 67109556, 0, 24)
@@ -64410,7 +66010,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1881116794, 12, True)
      , (1881116794, 11, True)
      , (1881116794, 14, True)
-     , (1881116794, 41, True);
+     , (1881116794, 41, True)
+     , (1881116794, 1, True)
+     , (1881116794, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1881116794, 67110054, 0, 24)
@@ -64491,7 +66093,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1881112667, 12, True)
      , (1881112667, 11, True)
      , (1881112667, 14, True)
-     , (1881112667, 41, True);
+     , (1881112667, 41, True)
+     , (1881112667, 1, True)
+     , (1881112667, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1881112667, 67109560, 0, 24)
@@ -64576,7 +66180,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1967226882, 12, True)
      , (1967226882, 11, True)
      , (1967226882, 14, True)
-     , (1967226882, 41, True);
+     , (1967226882, 41, True)
+     , (1967226882, 1, True)
+     , (1967226882, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1967226882, 67110048, 0, 24)
@@ -64657,7 +66263,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2014724100, 12, True)
      , (2014724100, 11, True)
      , (2014724100, 14, True)
-     , (2014724100, 41, True);
+     , (2014724100, 41, True)
+     , (2014724100, 1, True)
+     , (2014724100, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2014724100, 67109552, 0, 24)
@@ -64741,7 +66349,10 @@ VALUES (3681076719, 54, 3)
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3681076719, 12, True)
-     , (3681076719, 14, True);
+     , (3681076719, 14, True)
+     , (3681076719, 19, True)
+     , (3681076719, 1, True)
+     , (3681076719, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3681018237, 516, 9023, 8388662, 'AAA9AAAAAAA=', 100419);
@@ -64774,7 +66385,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3681018237, 12, True)
      , (3681018237, 11, True)
      , (3681018237, 14, True)
-     , (3681018237, 41, True);
+     , (3681018237, 41, True)
+     , (3681018237, 1, True)
+     , (3681018237, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3681018237, 67109558, 0, 24)
@@ -64867,7 +66480,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3681036504, 12, True)
      , (3681036504, 11, True)
      , (3681036504, 14, True)
-     , (3681036504, 41, True);
+     , (3681036504, 41, True)
+     , (3681036504, 1, True)
+     , (3681036504, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3681036504, 67109561, 0, 24)
@@ -64960,7 +66575,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3681379655, 12, True)
      , (3681379655, 11, True)
      , (3681379655, 14, True)
-     , (3681379655, 41, True);
+     , (3681379655, 41, True)
+     , (3681379655, 1, True)
+     , (3681379655, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3681379655, 67109559, 0, 24)
@@ -65053,7 +66670,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1955778560, 12, True)
      , (1955778560, 11, True)
      , (1955778560, 14, True)
-     , (1955778560, 41, True);
+     , (1955778560, 41, True)
+     , (1955778560, 1, True)
+     , (1955778560, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1955778560, 67109559, 0, 24)
@@ -65133,7 +66752,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2071887872, 12, True)
      , (2071887872, 11, True)
      , (2071887872, 14, True)
-     , (2071887872, 41, True);
+     , (2071887872, 41, True)
+     , (2071887872, 1, True)
+     , (2071887872, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2071887872, 67110056, 0, 24)
@@ -65226,7 +66847,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121084935, 12, True)
      , (2121084935, 11, True)
      , (2121084935, 14, True)
-     , (2121084935, 41, True);
+     , (2121084935, 41, True)
+     , (2121084935, 1, True)
+     , (2121084935, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121084935, 67114410, 0, 0);
@@ -65266,7 +66889,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2121084934, 12, True)
      , (2121084934, 11, True)
      , (2121084934, 14, True)
-     , (2121084934, 41, True);
+     , (2121084934, 41, True)
+     , (2121084934, 1, True)
+     , (2121084934, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2121084934, 67114424, 0, 0);
@@ -65302,7 +66927,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879797828, 12, True)
      , (1879797828, 11, True)
      , (1879797828, 14, True)
-     , (1879797828, 41, True);
+     , (1879797828, 41, True)
+     , (1879797828, 1, True)
+     , (1879797828, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879797828, 67109552, 0, 24)
@@ -65386,7 +67013,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879797826, 12, True)
      , (1879797826, 11, True)
      , (1879797826, 14, True)
-     , (1879797826, 41, True);
+     , (1879797826, 41, True)
+     , (1879797826, 1, True)
+     , (1879797826, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879797826, 67109555, 0, 24)
@@ -65465,7 +67094,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879797827, 12, True)
      , (1879797827, 11, True)
      , (1879797827, 14, True)
-     , (1879797827, 41, True);
+     , (1879797827, 41, True)
+     , (1879797827, 1, True)
+     , (1879797827, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879797827, 67110052, 0, 24)
@@ -65549,7 +67180,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879687168, 12, True)
      , (1879687168, 11, True)
      , (1879687168, 14, True)
-     , (1879687168, 41, True);
+     , (1879687168, 41, True)
+     , (1879687168, 1, True)
+     , (1879687168, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879687168, 67109558, 0, 24)
@@ -65628,7 +67261,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879687169, 12, True)
      , (1879687169, 11, True)
      , (1879687169, 14, True)
-     , (1879687169, 41, True);
+     , (1879687169, 41, True)
+     , (1879687169, 1, True)
+     , (1879687169, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879687169, 67114919, 0, 0);
@@ -65664,7 +67299,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1881051178, 12, True)
      , (1881051178, 11, True)
      , (1881051178, 14, True)
-     , (1881051178, 41, True);
+     , (1881051178, 41, True)
+     , (1881051178, 1, True)
+     , (1881051178, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1881051178, 67109557, 0, 24)
@@ -65747,7 +67384,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1881051164, 12, True)
      , (1881051164, 11, True)
      , (1881051164, 14, True)
-     , (1881051164, 41, True);
+     , (1881051164, 41, True)
+     , (1881051164, 1, True)
+     , (1881051164, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1881051164, 67109558, 0, 24)
@@ -65828,7 +67467,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1881051243, 12, True)
      , (1881051243, 11, True)
      , (1881051243, 14, True)
-     , (1881051243, 41, True);
+     , (1881051243, 41, True)
+     , (1881051243, 1, True)
+     , (1881051243, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1881051243, 67109561, 0, 24)
@@ -65913,7 +67554,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1881051237, 12, True)
      , (1881051237, 11, True)
      , (1881051237, 14, True)
-     , (1881051237, 41, True);
+     , (1881051237, 41, True)
+     , (1881051237, 1, True)
+     , (1881051237, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1881051237, 67110056, 0, 24)
@@ -65998,7 +67641,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1881051171, 12, True)
      , (1881051171, 11, True)
      , (1881051171, 14, True)
-     , (1881051171, 41, True);
+     , (1881051171, 41, True)
+     , (1881051171, 1, True)
+     , (1881051171, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1881051171, 67109559, 0, 24)
@@ -66084,7 +67729,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1881051169, 12, True)
      , (1881051169, 11, True)
      , (1881051169, 14, True)
-     , (1881051169, 41, True);
+     , (1881051169, 41, True)
+     , (1881051169, 1, True)
+     , (1881051169, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1881051169, 67109560, 0, 24)
@@ -66169,7 +67816,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1881051175, 12, True)
      , (1881051175, 11, True)
      , (1881051175, 14, True)
-     , (1881051175, 41, True);
+     , (1881051175, 41, True)
+     , (1881051175, 1, True)
+     , (1881051175, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1881051175, 67109552, 0, 24)
@@ -66261,7 +67910,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3361160795, 12, True)
      , (3361160795, 11, True)
      , (3361160795, 14, True)
-     , (3361160795, 41, True);
+     , (3361160795, 41, True)
+     , (3361160795, 1, True)
+     , (3361160795, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3361160795, 67109551, 0, 24)
@@ -66340,7 +67991,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2023702531, 12, True)
      , (2023702531, 11, True)
      , (2023702531, 14, True)
-     , (2023702531, 41, True);
+     , (2023702531, 41, True)
+     , (2023702531, 1, True)
+     , (2023702531, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2023702531, 67109559, 0, 24)
@@ -66421,7 +68074,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2023702530, 12, True)
      , (2023702530, 11, True)
      , (2023702530, 14, True)
-     , (2023702530, 41, True);
+     , (2023702530, 41, True)
+     , (2023702530, 1, True)
+     , (2023702530, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2023702530, 67110048, 0, 24)
@@ -66506,7 +68161,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2023702529, 12, True)
      , (2023702529, 11, True)
      , (2023702529, 14, True)
-     , (2023702529, 41, True);
+     , (2023702529, 41, True)
+     , (2023702529, 1, True)
+     , (2023702529, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2023702529, 67110054, 0, 24)
@@ -66589,7 +68246,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1976475648, 12, True)
      , (1976475648, 11, True)
      , (1976475648, 14, True)
-     , (1976475648, 41, True);
+     , (1976475648, 41, True)
+     , (1976475648, 1, True)
+     , (1976475648, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1976475648, 67109561, 0, 24)
@@ -66670,7 +68329,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1944932362, 12, True)
      , (1944932362, 11, True)
      , (1944932362, 14, True)
-     , (1944932362, 41, True);
+     , (1944932362, 41, True)
+     , (1944932362, 1, True)
+     , (1944932362, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1944932362, 67109562, 0, 24)
@@ -66751,7 +68412,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1944932364, 12, True)
      , (1944932364, 11, True)
      , (1944932364, 14, True)
-     , (1944932364, 41, True);
+     , (1944932364, 41, True)
+     , (1944932364, 1, True)
+     , (1944932364, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1944932364, 67109560, 0, 24)
@@ -66838,7 +68501,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1944932359, 12, True)
      , (1944932359, 11, True)
      , (1944932359, 14, True)
-     , (1944932359, 41, True);
+     , (1944932359, 41, True)
+     , (1944932359, 1, True)
+     , (1944932359, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1944932359, 67109558, 0, 24)
@@ -66923,7 +68588,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1944866820, 12, True)
      , (1944866820, 11, True)
      , (1944866820, 14, True)
-     , (1944866820, 41, True);
+     , (1944866820, 41, True)
+     , (1944866820, 1, True)
+     , (1944866820, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1944866820, 67109562, 0, 24)
@@ -67004,7 +68671,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1944866819, 12, True)
      , (1944866819, 11, True)
      , (1944866819, 14, True)
-     , (1944866819, 41, True);
+     , (1944866819, 41, True)
+     , (1944866819, 1, True)
+     , (1944866819, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1944866819, 67109557, 0, 24)
@@ -67083,7 +68752,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1962684416, 12, True)
      , (1962684416, 11, True)
      , (1962684416, 14, True)
-     , (1962684416, 41, True);
+     , (1962684416, 41, True)
+     , (1962684416, 1, True)
+     , (1962684416, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1962684416, 67109559, 0, 24)
@@ -67166,7 +68837,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1962684417, 12, True)
      , (1962684417, 11, True)
      , (1962684417, 14, True)
-     , (1962684417, 41, True);
+     , (1962684417, 41, True)
+     , (1962684417, 1, True)
+     , (1962684417, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1962684417, 67110054, 0, 24)
@@ -67245,7 +68918,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1944731653, 12, True)
      , (1944731653, 11, True)
      , (1944731653, 14, True)
-     , (1944731653, 41, True);
+     , (1944731653, 41, True)
+     , (1944731653, 1, True)
+     , (1944731653, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1944731653, 67110053, 0, 24)
@@ -67326,7 +69001,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3361983874, 12, True)
      , (3361983874, 11, True)
      , (3361983874, 14, True)
-     , (3361983874, 41, True);
+     , (3361983874, 41, True)
+     , (3361983874, 1, True)
+     , (3361983874, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3361983874, 67110052, 0, 24)
@@ -67422,7 +69099,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3362059857, 12, True)
      , (3362059857, 11, True)
      , (3362059857, 14, True)
-     , (3362059857, 41, True);
+     , (3362059857, 41, True)
+     , (3362059857, 1, True)
+     , (3362059857, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3362059857, 67110053, 0, 24)
@@ -67518,7 +69197,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2096201729, 12, True)
      , (2096201729, 11, True)
      , (2096201729, 14, True)
-     , (2096201729, 41, True);
+     , (2096201729, 41, True)
+     , (2096201729, 1, True)
+     , (2096201729, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2096201729, 67110054, 0, 24)
@@ -67603,7 +69284,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2096201732, 12, True)
      , (2096201732, 11, True)
      , (2096201732, 14, True)
-     , (2096201732, 41, True);
+     , (2096201732, 41, True)
+     , (2096201732, 1, True)
+     , (2096201732, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2096201732, 67110049, 0, 24)
@@ -67684,7 +69367,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2088103938, 12, True)
      , (2088103938, 11, True)
      , (2088103938, 14, True)
-     , (2088103938, 41, True);
+     , (2088103938, 41, True)
+     , (2088103938, 1, True)
+     , (2088103938, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2088103938, 67110061, 0, 24)
@@ -67763,7 +69448,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2928408347, 12, True)
      , (2928408347, 11, True)
      , (2928408347, 14, True)
-     , (2928408347, 41, True);
+     , (2928408347, 41, True)
+     , (2928408347, 1, True)
+     , (2928408347, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2928408347, 67109554, 0, 24)
@@ -67842,7 +69529,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879576611, 12, True)
      , (1879576611, 11, True)
      , (1879576611, 14, True)
-     , (1879576611, 41, True);
+     , (1879576611, 41, True)
+     , (1879576611, 1, True)
+     , (1879576611, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879576611, 67109556, 0, 24)
@@ -67926,7 +69615,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879576587, 12, True)
      , (1879576587, 11, True)
      , (1879576587, 14, True)
-     , (1879576587, 41, True);
+     , (1879576587, 41, True)
+     , (1879576587, 1, True)
+     , (1879576587, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879576587, 67109559, 0, 24)
@@ -68007,7 +69698,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879576588, 12, True)
      , (1879576588, 11, True)
      , (1879576588, 14, True)
-     , (1879576588, 41, True);
+     , (1879576588, 41, True)
+     , (1879576588, 1, True)
+     , (1879576588, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879576588, 67110059, 0, 24)
@@ -68089,7 +69782,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879576584, 12, True)
      , (1879576584, 11, True)
      , (1879576584, 14, True)
-     , (1879576584, 41, True);
+     , (1879576584, 41, True)
+     , (1879576584, 1, True)
+     , (1879576584, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879576584, 67109552, 0, 24)
@@ -68168,7 +69863,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879801914, 12, True)
      , (1879801914, 11, True)
      , (1879801914, 14, True)
-     , (1879801914, 41, True);
+     , (1879801914, 41, True)
+     , (1879801914, 1, True)
+     , (1879801914, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879801914, 67109555, 0, 24)
@@ -68252,7 +69949,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879801921, 12, True)
      , (1879801921, 11, True)
      , (1879801921, 14, True)
-     , (1879801921, 41, True);
+     , (1879801921, 41, True)
+     , (1879801921, 1, True)
+     , (1879801921, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879801921, 67109562, 0, 24)
@@ -68331,7 +70030,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879801922, 12, True)
      , (1879801922, 11, True)
      , (1879801922, 14, True)
-     , (1879801922, 41, True);
+     , (1879801922, 41, True)
+     , (1879801922, 1, True)
+     , (1879801922, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879801922, 67109560, 0, 24)
@@ -68417,7 +70118,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2921659852, 12, True)
      , (2921659852, 11, True)
      , (2921659852, 14, True)
-     , (2921659852, 41, True);
+     , (2921659852, 41, True)
+     , (2921659852, 1, True)
+     , (2921659852, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2921659852, 67116822, 0, 24)
@@ -68504,7 +70207,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1972809769, 12, True)
      , (1972809769, 11, True)
      , (1972809769, 14, True)
-     , (1972809769, 41, True);
+     , (1972809769, 41, True)
+     , (1972809769, 1, True)
+     , (1972809769, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1972809769, 67116966, 0, 24)
@@ -68588,7 +70293,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1972809770, 12, True)
      , (1972809770, 11, True)
      , (1972809770, 14, True)
-     , (1972809770, 41, True);
+     , (1972809770, 41, True)
+     , (1972809770, 1, True)
+     , (1972809770, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1972809770, 67109560, 0, 24)
@@ -68672,7 +70379,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013278297, 12, True)
      , (2013278297, 11, True)
      , (2013278297, 14, True)
-     , (2013278297, 41, True);
+     , (2013278297, 41, True)
+     , (2013278297, 1, True)
+     , (2013278297, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013278297, 67109560, 0, 24)
@@ -68759,7 +70468,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2013278308, 12, True)
      , (2013278308, 11, True)
      , (2013278308, 14, True)
-     , (2013278308, 41, True);
+     , (2013278308, 41, True)
+     , (2013278308, 1, True)
+     , (2013278308, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2013278308, 67109553, 0, 24)
@@ -68847,7 +70558,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1992171523, 12, True)
      , (1992171523, 11, True)
      , (1992171523, 14, True)
-     , (1992171523, 41, True);
+     , (1992171523, 41, True)
+     , (1992171523, 1, True)
+     , (1992171523, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1992171523, 67109559, 0, 24)
@@ -68928,7 +70641,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1992171522, 12, True)
      , (1992171522, 11, True)
      , (1992171522, 14, True)
-     , (1992171522, 41, True);
+     , (1992171522, 41, True)
+     , (1992171522, 1, True)
+     , (1992171522, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1992171522, 67110054, 0, 24)
@@ -69013,7 +70728,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090741768, 12, True)
      , (2090741768, 11, True)
      , (2090741768, 14, True)
-     , (2090741768, 41, True);
+     , (2090741768, 41, True)
+     , (2090741768, 1, True)
+     , (2090741768, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090741768, 67113355, 0, 0);
@@ -69049,7 +70766,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090741765, 12, True)
      , (2090741765, 11, True)
      , (2090741765, 14, True)
-     , (2090741765, 41, True);
+     , (2090741765, 41, True)
+     , (2090741765, 1, True)
+     , (2090741765, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090741765, 67113355, 0, 0);
@@ -69085,7 +70804,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932595201, 12, True)
      , (1932595201, 11, True)
      , (1932595201, 14, True)
-     , (1932595201, 41, True);
+     , (1932595201, 41, True)
+     , (1932595201, 1, True)
+     , (1932595201, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932595201, 67109552, 0, 24)
@@ -69168,7 +70889,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932595200, 12, True)
      , (1932595200, 11, True)
      , (1932595200, 14, True)
-     , (1932595200, 41, True);
+     , (1932595200, 41, True)
+     , (1932595200, 1, True)
+     , (1932595200, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932595200, 67110054, 0, 24)
@@ -69253,7 +70976,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1999646809, 12, True)
      , (1999646809, 11, True)
      , (1999646809, 14, True)
-     , (1999646809, 41, True);
+     , (1999646809, 41, True)
+     , (1999646809, 1, True)
+     , (1999646809, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1999646809, 67109560, 0, 24)
@@ -69340,7 +71065,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1999646820, 12, True)
      , (1999646820, 11, True)
      , (1999646820, 14, True)
-     , (1999646820, 41, True);
+     , (1999646820, 41, True)
+     , (1999646820, 1, True)
+     , (1999646820, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1999646820, 67109555, 0, 24)
@@ -69428,7 +71155,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1990029312, 12, True)
      , (1990029312, 11, True)
      , (1990029312, 14, True)
-     , (1990029312, 41, True);
+     , (1990029312, 41, True)
+     , (1990029312, 1, True)
+     , (1990029312, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1990029312, 67110057, 0, 24)
@@ -69507,7 +71236,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2027212800, 12, True)
      , (2027212800, 11, True)
      , (2027212800, 14, True)
-     , (2027212800, 41, True);
+     , (2027212800, 41, True)
+     , (2027212800, 1, True)
+     , (2027212800, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2027212800, 67109557, 0, 24)
@@ -69586,7 +71317,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2019565657, 12, True)
      , (2019565657, 11, True)
      , (2019565657, 14, True)
-     , (2019565657, 41, True);
+     , (2019565657, 41, True)
+     , (2019565657, 1, True)
+     , (2019565657, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2019565657, 67109558, 0, 24)
@@ -69673,7 +71406,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879805999, 12, True)
      , (1879805999, 11, True)
      , (1879805999, 14, True)
-     , (1879805999, 41, True);
+     , (1879805999, 41, True)
+     , (1879805999, 1, True)
+     , (1879805999, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879805999, 67109554, 0, 24)
@@ -69757,7 +71492,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879806007, 12, True)
      , (1879806007, 11, True)
      , (1879806007, 14, True)
-     , (1879806007, 41, True);
+     , (1879806007, 41, True)
+     , (1879806007, 1, True)
+     , (1879806007, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879806007, 67115903, 0, 24)
@@ -69841,7 +71578,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1879806006, 12, True)
      , (1879806006, 11, True)
      , (1879806006, 14, True)
-     , (1879806006, 41, True);
+     , (1879806006, 41, True)
+     , (1879806006, 1, True)
+     , (1879806006, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1879806006, 67109558, 0, 24)
@@ -69920,7 +71659,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2061086725, 12, True)
      , (2061086725, 11, True)
      , (2061086725, 14, True)
-     , (2061086725, 41, True);
+     , (2061086725, 41, True)
+     , (2061086725, 1, True)
+     , (2061086725, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2061086725, 67109560, 0, 24)
@@ -70005,7 +71746,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2048536584, 12, True)
      , (2048536584, 11, True)
      , (2048536584, 14, True)
-     , (2048536584, 41, True);
+     , (2048536584, 41, True)
+     , (2048536584, 1, True)
+     , (2048536584, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2048536584, 67109559, 0, 24)
@@ -70095,7 +71838,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2622417782, 12, True)
      , (2622417782, 11, True)
      , (2622417782, 14, True)
-     , (2622417782, 41, True);
+     , (2622417782, 41, True)
+     , (2622417782, 1, True)
+     , (2622417782, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2622417782, 67109558, 0, 24)
@@ -70188,7 +71933,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2060152835, 12, True)
      , (2060152835, 11, True)
      , (2060152835, 14, True)
-     , (2060152835, 41, True);
+     , (2060152835, 41, True)
+     , (2060152835, 1, True)
+     , (2060152835, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2060152835, 67109558, 0, 24)
@@ -70271,7 +72018,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3352018284, 12, True)
      , (3352018284, 11, True)
      , (3352018284, 14, True)
-     , (3352018284, 41, True);
+     , (3352018284, 41, True)
+     , (3352018284, 1, True)
+     , (3352018284, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3352018284, 67110055, 0, 24)
@@ -70367,7 +72116,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2780077779, 12, True)
      , (2780077779, 11, True)
      , (2780077779, 14, True)
-     , (2780077779, 41, True);
+     , (2780077779, 41, True)
+     , (2780077779, 1, True)
+     , (2780077779, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2780077779, 67110057, 0, 24)
@@ -70463,7 +72214,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2780082910, 12, True)
      , (2780082910, 11, True)
      , (2780082910, 14, True)
-     , (2780082910, 41, True);
+     , (2780082910, 41, True)
+     , (2780082910, 1, True)
+     , (2780082910, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2780082910, 67109550, 0, 24)
@@ -70542,7 +72295,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2779990575, 12, True)
      , (2779990575, 11, True)
      , (2779990575, 14, True)
-     , (2779990575, 41, True);
+     , (2779990575, 41, True)
+     , (2779990575, 1, True)
+     , (2779990575, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2779990575, 67110061, 0, 24)
@@ -70638,7 +72393,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2040668170, 12, True)
      , (2040668170, 11, True)
      , (2040668170, 14, True)
-     , (2040668170, 41, True);
+     , (2040668170, 41, True)
+     , (2040668170, 1, True)
+     , (2040668170, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2040668170, 67109557, 0, 24)
@@ -70719,7 +72476,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2040668168, 12, True)
      , (2040668168, 11, True)
      , (2040668168, 14, True)
-     , (2040668168, 41, True);
+     , (2040668168, 41, True)
+     , (2040668168, 1, True)
+     , (2040668168, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2040668168, 67109554, 0, 24)
@@ -70802,7 +72561,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049093633, 12, True)
      , (2049093633, 11, True)
      , (2049093633, 14, True)
-     , (2049093633, 41, True);
+     , (2049093633, 41, True)
+     , (2049093633, 1, True)
+     , (2049093633, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049093633, 67110050, 0, 24)
@@ -70885,7 +72646,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049093634, 12, True)
      , (2049093634, 11, True)
      , (2049093634, 14, True)
-     , (2049093634, 41, True);
+     , (2049093634, 41, True)
+     , (2049093634, 1, True)
+     , (2049093634, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049093634, 67109551, 0, 24)
@@ -70970,7 +72733,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1880690711, 12, True)
      , (1880690711, 11, True)
      , (1880690711, 14, True)
-     , (1880690711, 41, True);
+     , (1880690711, 41, True)
+     , (1880690711, 1, True)
+     , (1880690711, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1880690711, 67110045, 0, 24)
@@ -71051,7 +72816,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1880690710, 12, True)
      , (1880690710, 11, True)
      , (1880690710, 14, True)
-     , (1880690710, 41, True);
+     , (1880690710, 41, True)
+     , (1880690710, 1, True)
+     , (1880690710, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1880690710, 67110045, 0, 24)
@@ -71136,7 +72903,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1880690694, 12, True)
      , (1880690694, 11, True)
      , (1880690694, 14, True)
-     , (1880690694, 41, True);
+     , (1880690694, 41, True)
+     , (1880690694, 1, True)
+     , (1880690694, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1880690694, 67109550, 0, 24)
@@ -71219,7 +72988,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1938194433, 12, True)
      , (1938194433, 11, True)
      , (1938194433, 14, True)
-     , (1938194433, 41, True);
+     , (1938194433, 41, True)
+     , (1938194433, 1, True)
+     , (1938194433, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1938194433, 67109551, 0, 24)
@@ -71302,7 +73073,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1918316555, 12, True)
      , (1918316555, 11, True)
      , (1918316555, 14, True)
-     , (1918316555, 41, True);
+     , (1918316555, 41, True)
+     , (1918316555, 1, True)
+     , (1918316555, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1918316555, 67109555, 0, 24)
@@ -71383,7 +73156,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1918316557, 12, True)
      , (1918316557, 11, True)
      , (1918316557, 14, True)
-     , (1918316557, 41, True);
+     , (1918316557, 41, True)
+     , (1918316557, 1, True)
+     , (1918316557, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1918316557, 67109553, 0, 24)
@@ -71468,7 +73243,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2778087540, 12, True)
      , (2778087540, 11, True)
      , (2778087540, 14, True)
-     , (2778087540, 41, True);
+     , (2778087540, 41, True)
+     , (2778087540, 1, True)
+     , (2778087540, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2778087540, 67110052, 0, 24)
@@ -71564,7 +73341,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2930146834, 12, True)
      , (2930146834, 11, True)
      , (2930146834, 14, True)
-     , (2930146834, 41, True);
+     , (2930146834, 41, True)
+     , (2930146834, 1, True)
+     , (2930146834, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2930146834, 67109562, 0, 24)
@@ -71658,7 +73437,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1991094273, 12, True)
      , (1991094273, 11, True)
      , (1991094273, 14, True)
-     , (1991094273, 41, True);
+     , (1991094273, 41, True)
+     , (1991094273, 1, True)
+     , (1991094273, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2780939226, 532, 5765, 8388662, 'AAA9AAAAAAA=', 104643);
@@ -71690,7 +73471,10 @@ VALUES (2780939226, 54, 3)
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2780939226, 12, True)
-     , (2780939226, 14, True);
+     , (2780939226, 14, True)
+     , (2780939226, 19, True)
+     , (2780939226, 1, True)
+     , (2780939226, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1920040962, 516, 1378, 8388662, 'AAA9AAAAAAA=', 100419);
@@ -71723,7 +73507,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1920040962, 12, True)
      , (1920040962, 11, True)
      , (1920040962, 14, True)
-     , (1920040962, 41, True);
+     , (1920040962, 41, True)
+     , (1920040962, 1, True)
+     , (1920040962, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1920040962, 67109562, 0, 24)
@@ -71804,7 +73590,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1920040961, 12, True)
      , (1920040961, 11, True)
      , (1920040961, 14, True)
-     , (1920040961, 41, True);
+     , (1920040961, 41, True)
+     , (1920040961, 1, True)
+     , (1920040961, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1920040961, 67109560, 0, 24)
@@ -71889,7 +73677,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1882140773, 12, True)
      , (1882140773, 11, True)
      , (1882140773, 14, True)
-     , (1882140773, 41, True);
+     , (1882140773, 41, True)
+     , (1882140773, 1, True)
+     , (1882140773, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2070073344, 516, 7883, 8388662, 'AAA9AAAAAAA=', 104579);
@@ -71923,7 +73713,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2070073344, 12, True)
      , (2070073344, 11, True)
      , (2070073344, 14, True)
-     , (2070073344, 41, True);
+     , (2070073344, 41, True)
+     , (2070073344, 1, True)
+     , (2070073344, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2117423104, 516, 1371, 8388662, 'AAA9AAAAAAA=', 100355);
@@ -71956,7 +73748,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2117423104, 12, True)
      , (2117423104, 11, True)
      , (2117423104, 14, True)
-     , (2117423104, 41, True);
+     , (2117423104, 41, True)
+     , (2117423104, 1, True)
+     , (2117423104, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2117423104, 67110055, 0, 24)
@@ -72041,7 +73835,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1932374019, 12, True)
      , (1932374019, 11, True)
      , (1932374019, 14, True)
-     , (1932374019, 41, True);
+     , (1932374019, 41, True)
+     , (1932374019, 1, True)
+     , (1932374019, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1932374019, 67115906, 0, 24)
@@ -72128,7 +73924,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2035904513, 12, True)
      , (2035904513, 11, True)
      , (2035904513, 14, True)
-     , (2035904513, 41, True);
+     , (2035904513, 41, True)
+     , (2035904513, 1, True)
+     , (2035904513, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2035904513, 67109550, 0, 24)
@@ -72214,7 +74012,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1972809796, 12, True)
      , (1972809796, 11, True)
      , (1972809796, 14, True)
-     , (1972809796, 41, True);
+     , (1972809796, 41, True)
+     , (1972809796, 1, True)
+     , (1972809796, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1972809796, 67109562, 0, 24)
@@ -72299,7 +74099,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1972809797, 12, True)
      , (1972809797, 11, True)
      , (1972809797, 14, True)
-     , (1972809797, 41, True);
+     , (1972809797, 41, True)
+     , (1972809797, 1, True)
+     , (1972809797, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1972809797, 67109560, 0, 24)
@@ -72383,7 +74185,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3699109257, 12, True)
      , (3699109257, 11, True)
      , (3699109257, 14, True)
-     , (3699109257, 41, True);
+     , (3699109257, 41, True)
+     , (3699109257, 1, True)
+     , (3699109257, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3699109257, 67110057, 0, 24)
@@ -72479,7 +74283,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1958420480, 12, True)
      , (1958420480, 11, True)
      , (1958420480, 14, True)
-     , (1958420480, 41, True);
+     , (1958420480, 41, True)
+     , (1958420480, 1, True)
+     , (1958420480, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1958420480, 67110045, 0, 24)
@@ -72566,7 +74372,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2020954121, 12, True)
      , (2020954121, 11, True)
      , (2020954121, 14, True)
-     , (2020954121, 41, True);
+     , (2020954121, 41, True)
+     , (2020954121, 1, True)
+     , (2020954121, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2020954121, 67109560, 0, 24)
@@ -72646,7 +74454,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1954689026, 12, True)
      , (1954689026, 11, True)
      , (1954689026, 14, True)
-     , (1954689026, 41, True);
+     , (1954689026, 41, True)
+     , (1954689026, 1, True)
+     , (1954689026, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1954689026, 67109561, 0, 24)
@@ -72732,7 +74542,10 @@ VALUES (3710235609, 54, 3)
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3710235609, 12, True)
-     , (3710235609, 14, True);
+     , (3710235609, 14, True)
+     , (3710235609, 19, True)
+     , (3710235609, 1, True)
+     , (3710235609, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2107101185, 516, 1381, 8388662, 'AAA9AAAAAAA=', 100355);
@@ -72765,7 +74578,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2107101185, 12, True)
      , (2107101185, 11, True)
      , (2107101185, 14, True)
-     , (2107101185, 41, True);
+     , (2107101185, 41, True)
+     , (2107101185, 1, True)
+     , (2107101185, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2107101185, 67109562, 0, 24)
@@ -72850,7 +74665,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2044469250, 12, True)
      , (2044469250, 11, True)
      , (2044469250, 14, True)
-     , (2044469250, 41, True);
+     , (2044469250, 41, True)
+     , (2044469250, 1, True)
+     , (2044469250, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2044469250, 67109559, 0, 24)
@@ -72937,7 +74754,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1881120892, 12, True)
      , (1881120892, 11, True)
      , (1881120892, 14, True)
-     , (1881120892, 41, True);
+     , (1881120892, 41, True)
+     , (1881120892, 1, True)
+     , (1881120892, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1881120892, 67110057, 0, 24)
@@ -73024,7 +74843,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1881120868, 12, True)
      , (1881120868, 11, True)
      , (1881120868, 14, True)
-     , (1881120868, 41, True);
+     , (1881120868, 41, True)
+     , (1881120868, 1, True)
+     , (1881120868, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1881120868, 67109552, 0, 24)
@@ -73112,7 +74933,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2046963712, 12, True)
      , (2046963712, 11, True)
      , (2046963712, 14, True)
-     , (2046963712, 41, True);
+     , (2046963712, 41, True)
+     , (2046963712, 1, True)
+     , (2046963712, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3710596310, 516, 9020, 8388662, 'AAA9AAAAAAA=', 100419);
@@ -73145,7 +74968,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3710596310, 12, True)
      , (3710596310, 11, True)
      , (3710596310, 14, True)
-     , (3710596310, 41, True);
+     , (3710596310, 41, True)
+     , (3710596310, 1, True)
+     , (3710596310, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3710596310, 67110055, 0, 24)
@@ -73241,7 +75066,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3710766658, 12, True)
      , (3710766658, 11, True)
      , (3710766658, 14, True)
-     , (3710766658, 41, True);
+     , (3710766658, 41, True)
+     , (3710766658, 1, True)
+     , (3710766658, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3710766658, 67109551, 0, 24)
@@ -73320,7 +75147,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3710776859, 12, True)
      , (3710776859, 11, True)
      , (3710776859, 14, True)
-     , (3710776859, 41, True);
+     , (3710776859, 41, True)
+     , (3710776859, 1, True)
+     , (3710776859, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3710776859, 67110057, 0, 24)
@@ -73416,7 +75245,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2016772096, 12, True)
      , (2016772096, 11, True)
      , (2016772096, 14, True)
-     , (2016772096, 41, True);
+     , (2016772096, 41, True)
+     , (2016772096, 1, True)
+     , (2016772096, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2016772096, 67109557, 0, 24)
@@ -73501,7 +75332,10 @@ VALUES (3708687882, 54, 3)
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3708687882, 12, True)
-     , (3708687882, 14, True);
+     , (3708687882, 14, True)
+     , (3708687882, 19, True)
+     , (3708687882, 1, True)
+     , (3708687882, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3708687882, 67111341, 0, 0);
@@ -73537,7 +75371,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2060812290, 12, True)
      , (2060812290, 11, True)
      , (2060812290, 14, True)
-     , (2060812290, 41, True);
+     , (2060812290, 41, True)
+     , (2060812290, 1, True)
+     , (2060812290, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2060812290, 67110049, 0, 24)
@@ -73622,7 +75458,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2026209285, 12, True)
      , (2026209285, 11, True)
      , (2026209285, 14, True)
-     , (2026209285, 41, True);
+     , (2026209285, 41, True)
+     , (2026209285, 1, True)
+     , (2026209285, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2026209285, 67109553, 0, 24)
@@ -73704,7 +75542,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2629612424, 12, True)
      , (2629612424, 11, True)
      , (2629612424, 14, True)
-     , (2629612424, 41, True);
+     , (2629612424, 41, True)
+     , (2629612424, 1, True)
+     , (2629612424, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2629612424, 67110057, 0, 24)
@@ -73800,7 +75640,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2010546178, 12, True)
      , (2010546178, 11, True)
      , (2010546178, 14, True)
-     , (2010546178, 41, True);
+     , (2010546178, 41, True)
+     , (2010546178, 1, True)
+     , (2010546178, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2010546178, 67109551, 0, 24)
@@ -73883,7 +75725,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3353892387, 12, True)
      , (3353892387, 11, True)
      , (3353892387, 14, True)
-     , (3353892387, 41, True);
+     , (3353892387, 41, True)
+     , (3353892387, 1, True)
+     , (3353892387, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3353892387, 67109556, 0, 24)
@@ -73962,7 +75806,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1881075861, 12, True)
      , (1881075861, 11, True)
      , (1881075861, 14, True)
-     , (1881075861, 41, True);
+     , (1881075861, 41, True)
+     , (1881075861, 1, True)
+     , (1881075861, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1881075861, 67109560, 0, 24)
@@ -74041,7 +75887,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2031435776, 12, True)
      , (2031435776, 11, True)
      , (2031435776, 14, True)
-     , (2031435776, 41, True);
+     , (2031435776, 41, True)
+     , (2031435776, 1, True)
+     , (2031435776, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2031435776, 67109551, 0, 24)
@@ -74120,7 +75968,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2448321181, 12, True)
      , (2448321181, 11, True)
      , (2448321181, 14, True)
-     , (2448321181, 41, True);
+     , (2448321181, 41, True)
+     , (2448321181, 1, True)
+     , (2448321181, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2448321181, 67109551, 0, 24)
@@ -74199,7 +76049,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2448275263, 12, True)
      , (2448275263, 11, True)
      , (2448275263, 14, True)
-     , (2448275263, 41, True);
+     , (2448275263, 41, True)
+     , (2448275263, 1, True)
+     , (2448275263, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2448275263, 67109552, 0, 24)
@@ -74278,7 +76130,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2448353548, 12, True)
      , (2448353548, 11, True)
      , (2448353548, 14, True)
-     , (2448353548, 41, True);
+     , (2448353548, 41, True)
+     , (2448353548, 1, True)
+     , (2448353548, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2448353548, 67109550, 0, 24)
@@ -74357,7 +76211,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2448268157, 12, True)
      , (2448268157, 11, True)
      , (2448268157, 14, True)
-     , (2448268157, 41, True);
+     , (2448268157, 41, True)
+     , (2448268157, 1, True)
+     , (2448268157, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2448268157, 67110052, 0, 24)
@@ -74453,7 +76309,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2064871434, 12, True)
      , (2064871434, 11, True)
      , (2064871434, 14, True)
-     , (2064871434, 41, True);
+     , (2064871434, 41, True)
+     , (2064871434, 1, True)
+     , (2064871434, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2064871434, 67110045, 0, 24)
@@ -74534,7 +76392,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2448356503, 12, True)
      , (2448356503, 11, True)
      , (2448356503, 14, True)
-     , (2448356503, 41, True);
+     , (2448356503, 41, True)
+     , (2448356503, 1, True)
+     , (2448356503, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2448356503, 67110050, 0, 24)
@@ -74630,7 +76490,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2047012865, 12, True)
      , (2047012865, 11, True)
      , (2047012865, 14, True)
-     , (2047012865, 41, True);
+     , (2047012865, 41, True)
+     , (2047012865, 1, True)
+     , (2047012865, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2047012865, 67110054, 0, 24)
@@ -74713,7 +76575,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3675214003, 12, True)
      , (3675214003, 11, True)
      , (3675214003, 14, True)
-     , (3675214003, 41, True);
+     , (3675214003, 41, True)
+     , (3675214003, 1, True)
+     , (3675214003, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3675214003, 67116822, 0, 24)
@@ -74799,7 +76663,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2118438913, 12, True)
      , (2118438913, 11, True)
      , (2118438913, 14, True)
-     , (2118438913, 41, True);
+     , (2118438913, 41, True)
+     , (2118438913, 1, True)
+     , (2118438913, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2118438913, 67109550, 0, 24)
@@ -74881,7 +76747,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2091204611, 12, True)
      , (2091204611, 11, True)
      , (2091204611, 14, True)
-     , (2091204611, 41, True);
+     , (2091204611, 41, True)
+     , (2091204611, 1, True)
+     , (2091204611, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2091204611, 67110053, 0, 24)
@@ -74964,7 +76832,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090741770, 12, True)
      , (2090741770, 11, True)
      , (2090741770, 14, True)
-     , (2090741770, 41, True);
+     , (2090741770, 41, True)
+     , (2090741770, 1, True)
+     , (2090741770, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090741770, 67113355, 0, 0);
@@ -75000,7 +76870,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090741767, 12, True)
      , (2090741767, 11, True)
      , (2090741767, 14, True)
-     , (2090741767, 41, True);
+     , (2090741767, 41, True)
+     , (2090741767, 1, True)
+     , (2090741767, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090741767, 67113355, 0, 0);
@@ -75036,7 +76908,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2090741766, 12, True)
      , (2090741766, 11, True)
      , (2090741766, 14, True)
-     , (2090741766, 41, True);
+     , (2090741766, 41, True)
+     , (2090741766, 1, True)
+     , (2090741766, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2090741766, 67113355, 0, 0);
@@ -75072,7 +76946,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2019573849, 12, True)
      , (2019573849, 11, True)
      , (2019573849, 14, True)
-     , (2019573849, 41, True);
+     , (2019573849, 41, True)
+     , (2019573849, 1, True)
+     , (2019573849, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2019573849, 67109559, 0, 24)
@@ -75159,7 +77035,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2019573860, 12, True)
      , (2019573860, 11, True)
      , (2019573860, 14, True)
-     , (2019573860, 41, True);
+     , (2019573860, 41, True)
+     , (2019573860, 1, True)
+     , (2019573860, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2019573860, 67109552, 0, 24)
@@ -75246,7 +77124,10 @@ VALUES (2879615865, 54, 3)
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2879615865, 12, True)
-     , (2879615865, 14, True);
+     , (2879615865, 14, True)
+     , (2879615865, 19, True)
+     , (2879615865, 1, True)
+     , (2879615865, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2080784385, 516, 1380, 8388662, 'AAA9AAAAAAA=', 100419);
@@ -75279,7 +77160,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2080784385, 12, True)
      , (2080784385, 11, True)
      , (2080784385, 14, True)
-     , (2080784385, 41, True);
+     , (2080784385, 41, True)
+     , (2080784385, 1, True)
+     , (2080784385, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2080784385, 67110057, 0, 24)
@@ -75366,7 +77249,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2091130884, 12, True)
      , (2091130884, 11, True)
      , (2091130884, 14, True)
-     , (2091130884, 41, True);
+     , (2091130884, 41, True)
+     , (2091130884, 1, True)
+     , (2091130884, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2091130884, 67109554, 0, 24)
@@ -75449,7 +77334,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2091130883, 12, True)
      , (2091130883, 11, True)
      , (2091130883, 14, True)
-     , (2091130883, 41, True);
+     , (2091130883, 41, True)
+     , (2091130883, 1, True)
+     , (2091130883, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2091130883, 67110055, 0, 24)
@@ -75528,7 +77415,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2079580160, 12, True)
      , (2079580160, 11, True)
      , (2079580160, 14, True)
-     , (2079580160, 41, True);
+     , (2079580160, 41, True)
+     , (2079580160, 1, True)
+     , (2079580160, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2079580160, 67110057, 0, 24)
@@ -75613,7 +77502,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2875866816, 12, True)
      , (2875866816, 11, True)
      , (2875866816, 14, True)
-     , (2875866816, 41, True);
+     , (2875866816, 41, True)
+     , (2875866816, 1, True)
+     , (2875866816, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2875866816, 67109550, 0, 24)
@@ -75692,7 +77583,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2876000367, 12, True)
      , (2876000367, 11, True)
      , (2876000367, 14, True)
-     , (2876000367, 41, True);
+     , (2876000367, 41, True)
+     , (2876000367, 1, True)
+     , (2876000367, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2876000367, 67109553, 0, 24)
@@ -75771,7 +77664,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3335825170, 12, True)
      , (3335825170, 11, True)
      , (3335825170, 14, True)
-     , (3335825170, 41, True);
+     , (3335825170, 41, True)
+     , (3335825170, 1, True)
+     , (3335825170, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3335825170, 67109558, 0, 24)
@@ -75864,7 +77759,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3331556440, 12, True)
      , (3331556440, 11, True)
      , (3331556440, 14, True)
-     , (3331556440, 41, True);
+     , (3331556440, 41, True)
+     , (3331556440, 1, True)
+     , (3331556440, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3331556440, 67109555, 0, 24)
@@ -75943,7 +77840,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1972809773, 12, True)
      , (1972809773, 11, True)
      , (1972809773, 14, True)
-     , (1972809773, 41, True);
+     , (1972809773, 41, True)
+     , (1972809773, 1, True)
+     , (1972809773, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1972809773, 67109561, 0, 24)
@@ -76028,7 +77927,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1972809774, 12, True)
      , (1972809774, 11, True)
      , (1972809774, 14, True)
-     , (1972809774, 41, True);
+     , (1972809774, 41, True)
+     , (1972809774, 1, True)
+     , (1972809774, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1972809774, 67116965, 0, 24)
@@ -76112,7 +78013,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3333663791, 12, True)
      , (3333663791, 11, True)
      , (3333663791, 14, True)
-     , (3333663791, 41, True);
+     , (3333663791, 41, True)
+     , (3333663791, 1, True)
+     , (3333663791, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3333663791, 67109561, 0, 24)
@@ -76205,7 +78108,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3332190236, 12, True)
      , (3332190236, 11, True)
      , (3332190236, 14, True)
-     , (3332190236, 41, True);
+     , (3332190236, 41, True)
+     , (3332190236, 1, True)
+     , (3332190236, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3332190236, 67109562, 0, 24)
@@ -76298,7 +78203,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2007801858, 12, True)
      , (2007801858, 11, True)
      , (2007801858, 14, True)
-     , (2007801858, 41, True);
+     , (2007801858, 41, True)
+     , (2007801858, 1, True)
+     , (2007801858, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2007801858, 67109560, 0, 24)
@@ -76382,7 +78289,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2007801859, 12, True)
      , (2007801859, 11, True)
      , (2007801859, 14, True)
-     , (2007801859, 41, True);
+     , (2007801859, 41, True)
+     , (2007801859, 1, True)
+     , (2007801859, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2007801859, 67109555, 0, 24)
@@ -76461,7 +78370,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2007801860, 12, True)
      , (2007801860, 11, True)
      , (2007801860, 14, True)
-     , (2007801860, 41, True);
+     , (2007801860, 41, True)
+     , (2007801860, 1, True)
+     , (2007801860, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2007801860, 67110045, 0, 24)
@@ -76547,7 +78458,10 @@ VALUES (3333036980, 54, 3)
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3333036980, 12, True)
-     , (3333036980, 14, True);
+     , (3333036980, 14, True)
+     , (3333036980, 19, True)
+     , (3333036980, 1, True)
+     , (3333036980, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1999454209, 516, 1378, 8388662, 'AAA9AAAAAAA=', 100419);
@@ -76580,7 +78494,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1999454209, 12, True)
      , (1999454209, 11, True)
      , (1999454209, 14, True)
-     , (1999454209, 41, True);
+     , (1999454209, 41, True)
+     , (1999454209, 1, True)
+     , (1999454209, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1999454209, 67109560, 0, 24)
@@ -76661,7 +78577,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1930272771, 12, True)
      , (1930272771, 11, True)
      , (1930272771, 14, True)
-     , (1930272771, 41, True);
+     , (1930272771, 41, True)
+     , (1930272771, 1, True)
+     , (1930272771, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1930272771, 67115907, 0, 24)
@@ -76748,7 +78666,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2870419248, 12, True)
      , (2870419248, 11, True)
      , (2870419248, 14, True)
-     , (2870419248, 41, True);
+     , (2870419248, 41, True)
+     , (2870419248, 1, True)
+     , (2870419248, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2870419248, 67109556, 0, 24)
@@ -76827,7 +78747,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671041, 12, True)
      , (2021671041, 11, True)
      , (2021671041, 14, True)
-     , (2021671041, 41, True);
+     , (2021671041, 41, True)
+     , (2021671041, 1, True)
+     , (2021671041, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671041, 67109561, 0, 24)
@@ -76910,7 +78832,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671057, 12, True)
      , (2021671057, 11, True)
      , (2021671057, 14, True)
-     , (2021671057, 41, True);
+     , (2021671057, 41, True)
+     , (2021671057, 1, True)
+     , (2021671057, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671057, 67109552, 0, 24)
@@ -76993,7 +78917,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671046, 12, True)
      , (2021671046, 11, True)
      , (2021671046, 14, True)
-     , (2021671046, 41, True);
+     , (2021671046, 41, True)
+     , (2021671046, 1, True)
+     , (2021671046, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671046, 67109556, 0, 24)
@@ -77076,7 +79002,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671047, 12, True)
      , (2021671047, 11, True)
      , (2021671047, 14, True)
-     , (2021671047, 41, True);
+     , (2021671047, 41, True)
+     , (2021671047, 1, True)
+     , (2021671047, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671047, 67109552, 0, 24)
@@ -77159,7 +79087,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671031, 12, True)
      , (2021671031, 11, True)
      , (2021671031, 14, True)
-     , (2021671031, 41, True);
+     , (2021671031, 41, True)
+     , (2021671031, 1, True)
+     , (2021671031, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671031, 67109552, 0, 24)
@@ -77239,7 +79169,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671053, 12, True)
      , (2021671053, 11, True)
      , (2021671053, 14, True)
-     , (2021671053, 41, True);
+     , (2021671053, 41, True)
+     , (2021671053, 1, True)
+     , (2021671053, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671053, 67109550, 0, 24)
@@ -77324,7 +79256,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671044, 12, True)
      , (2021671044, 11, True)
      , (2021671044, 14, True)
-     , (2021671044, 41, True);
+     , (2021671044, 41, True)
+     , (2021671044, 1, True)
+     , (2021671044, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671044, 67109551, 0, 24)
@@ -77403,7 +79337,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2630360366, 12, True)
      , (2630360366, 11, True)
      , (2630360366, 14, True)
-     , (2630360366, 41, True);
+     , (2630360366, 41, True)
+     , (2630360366, 1, True)
+     , (2630360366, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2630360366, 67109561, 0, 24)
@@ -77496,7 +79432,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3621428793, 12, True)
      , (3621428793, 11, True)
      , (3621428793, 14, True)
-     , (3621428793, 41, True);
+     , (3621428793, 41, True)
+     , (3621428793, 1, True)
+     , (3621428793, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3621428793, 67109555, 0, 24)
@@ -77575,7 +79513,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3627972608, 12, True)
      , (3627972608, 11, True)
      , (3627972608, 14, True)
-     , (3627972608, 41, True);
+     , (3627972608, 41, True)
+     , (3627972608, 1, True)
+     , (3627972608, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3627972608, 67109559, 0, 24)
@@ -77668,7 +79608,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2002485251, 12, True)
      , (2002485251, 11, True)
      , (2002485251, 14, True)
-     , (2002485251, 41, True);
+     , (2002485251, 41, True)
+     , (2002485251, 1, True)
+     , (2002485251, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2002485251, 67110055, 0, 24)
@@ -77747,7 +79689,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3698256452, 12, True)
      , (3698256452, 11, True)
      , (3698256452, 14, True)
-     , (3698256452, 41, True);
+     , (3698256452, 41, True)
+     , (3698256452, 1, True)
+     , (3698256452, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3698256452, 67110061, 0, 24)
@@ -77843,7 +79787,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2882407253, 12, True)
      , (2882407253, 11, True)
      , (2882407253, 14, True)
-     , (2882407253, 41, True);
+     , (2882407253, 41, True)
+     , (2882407253, 1, True)
+     , (2882407253, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2882407253, 67109558, 0, 24)
@@ -77936,7 +79882,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3361145466, 12, True)
      , (3361145466, 11, True)
      , (3361145466, 14, True)
-     , (3361145466, 41, True);
+     , (3361145466, 41, True)
+     , (3361145466, 1, True)
+     , (3361145466, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3361145466, 67109556, 0, 24)
@@ -78015,7 +79963,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2012229721, 12, True)
      , (2012229721, 11, True)
      , (2012229721, 14, True)
-     , (2012229721, 41, True);
+     , (2012229721, 41, True)
+     , (2012229721, 1, True)
+     , (2012229721, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2012229721, 67109562, 0, 24)
@@ -78102,7 +80052,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2012229732, 12, True)
      , (2012229732, 11, True)
      , (2012229732, 14, True)
-     , (2012229732, 41, True);
+     , (2012229732, 41, True)
+     , (2012229732, 1, True)
+     , (2012229732, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2012229732, 67109555, 0, 24)
@@ -78190,7 +80142,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2124664839, 12, True)
      , (2124664839, 11, True)
      , (2124664839, 14, True)
-     , (2124664839, 41, True);
+     , (2124664839, 41, True)
+     , (2124664839, 1, True)
+     , (2124664839, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2124664839, 67110055, 0, 24)
@@ -78275,7 +80229,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2876520044, 12, True)
      , (2876520044, 11, True)
      , (2876520044, 14, True)
-     , (2876520044, 41, True);
+     , (2876520044, 41, True)
+     , (2876520044, 1, True)
+     , (2876520044, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2876520044, 67110056, 0, 24)
@@ -78371,7 +80327,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2876521969, 12, True)
      , (2876521969, 11, True)
      , (2876521969, 14, True)
-     , (2876521969, 41, True);
+     , (2876521969, 41, True)
+     , (2876521969, 1, True)
+     , (2876521969, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2876521969, 67110055, 0, 24)
@@ -78467,7 +80425,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2876500957, 12, True)
      , (2876500957, 11, True)
      , (2876500957, 14, True)
-     , (2876500957, 41, True);
+     , (2876500957, 41, True)
+     , (2876500957, 1, True)
+     , (2876500957, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2876500957, 67110056, 0, 24)
@@ -78563,7 +80523,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2876378128, 12, True)
      , (2876378128, 11, True)
      , (2876378128, 14, True)
-     , (2876378128, 41, True);
+     , (2876378128, 41, True)
+     , (2876378128, 1, True)
+     , (2876378128, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2876378128, 67110049, 0, 24)
@@ -78659,7 +80621,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2876804112, 12, True)
      , (2876804112, 11, True)
      , (2876804112, 14, True)
-     , (2876804112, 41, True);
+     , (2876804112, 41, True)
+     , (2876804112, 1, True)
+     , (2876804112, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2876804112, 67110050, 0, 24)
@@ -78755,7 +80719,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2876764375, 12, True)
      , (2876764375, 11, True)
      , (2876764375, 14, True)
-     , (2876764375, 41, True);
+     , (2876764375, 41, True)
+     , (2876764375, 1, True)
+     , (2876764375, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2876764375, 67110059, 0, 24)
@@ -78851,7 +80817,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1975218178, 12, True)
      , (1975218178, 11, True)
      , (1975218178, 14, True)
-     , (1975218178, 41, True);
+     , (1975218178, 41, True)
+     , (1975218178, 1, True)
+     , (1975218178, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1975218178, 67109562, 0, 24)
@@ -78938,7 +80906,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2885094377, 12, True)
      , (2885094377, 11, True)
      , (2885094377, 14, True)
-     , (2885094377, 41, True);
+     , (2885094377, 41, True)
+     , (2885094377, 1, True)
+     , (2885094377, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2885094377, 67109558, 0, 24)
@@ -79031,7 +81001,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2027954263, 12, True)
      , (2027954263, 11, True)
      , (2027954263, 14, True)
-     , (2027954263, 41, True);
+     , (2027954263, 41, True)
+     , (2027954263, 1, True)
+     , (2027954263, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2027954263, 67109559, 0, 24)
@@ -79118,7 +81090,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2027954275, 12, True)
      , (2027954275, 11, True)
      , (2027954275, 14, True)
-     , (2027954275, 41, True);
+     , (2027954275, 41, True)
+     , (2027954275, 1, True)
+     , (2027954275, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2027954275, 67109557, 0, 24)
@@ -79206,7 +81180,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021670992, 12, True)
      , (2021670992, 11, True)
      , (2021670992, 14, True)
-     , (2021670992, 41, True);
+     , (2021670992, 41, True)
+     , (2021670992, 1, True)
+     , (2021670992, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021670992, 67109559, 0, 24)
@@ -79289,7 +81265,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671010, 12, True)
      , (2021671010, 11, True)
      , (2021671010, 14, True)
-     , (2021671010, 41, True);
+     , (2021671010, 41, True)
+     , (2021671010, 1, True)
+     , (2021671010, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671010, 67109552, 0, 24)
@@ -79372,7 +81350,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021670998, 12, True)
      , (2021670998, 11, True)
      , (2021670998, 14, True)
-     , (2021670998, 41, True);
+     , (2021670998, 41, True)
+     , (2021670998, 1, True)
+     , (2021670998, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021670998, 67109557, 0, 24)
@@ -79455,7 +81435,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021670997, 12, True)
      , (2021670997, 11, True)
      , (2021670997, 14, True)
-     , (2021670997, 41, True);
+     , (2021670997, 41, True)
+     , (2021670997, 1, True)
+     , (2021670997, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021670997, 67109555, 0, 24)
@@ -79538,7 +81520,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021670982, 12, True)
      , (2021670982, 11, True)
      , (2021670982, 14, True)
-     , (2021670982, 41, True);
+     , (2021670982, 41, True)
+     , (2021670982, 1, True)
+     , (2021670982, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021670982, 67109551, 0, 24)
@@ -79618,7 +81602,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671006, 12, True)
      , (2021671006, 11, True)
      , (2021671006, 14, True)
-     , (2021671006, 41, True);
+     , (2021671006, 41, True)
+     , (2021671006, 1, True)
+     , (2021671006, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671006, 67109551, 0, 24)
@@ -79703,7 +81689,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021670995, 12, True)
      , (2021670995, 11, True)
      , (2021670995, 14, True)
-     , (2021670995, 41, True);
+     , (2021670995, 41, True)
+     , (2021670995, 1, True)
+     , (2021670995, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021670995, 67109557, 0, 24)
@@ -79782,7 +81770,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021670943, 12, True)
      , (2021670943, 11, True)
      , (2021670943, 14, True)
-     , (2021670943, 41, True);
+     , (2021670943, 41, True)
+     , (2021670943, 1, True)
+     , (2021670943, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021670943, 67109558, 0, 24)
@@ -79865,7 +81855,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021670961, 12, True)
      , (2021670961, 11, True)
      , (2021670961, 14, True)
-     , (2021670961, 41, True);
+     , (2021670961, 41, True)
+     , (2021670961, 1, True)
+     , (2021670961, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021670961, 67109553, 0, 24)
@@ -79948,7 +81940,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021670948, 12, True)
      , (2021670948, 11, True)
      , (2021670948, 14, True)
-     , (2021670948, 41, True);
+     , (2021670948, 41, True)
+     , (2021670948, 1, True)
+     , (2021670948, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021670948, 67109556, 0, 24)
@@ -80031,7 +82025,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021670949, 12, True)
      , (2021670949, 11, True)
      , (2021670949, 14, True)
-     , (2021670949, 41, True);
+     , (2021670949, 41, True)
+     , (2021670949, 1, True)
+     , (2021670949, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021670949, 67109557, 0, 24)
@@ -80114,7 +82110,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021670933, 12, True)
      , (2021670933, 11, True)
      , (2021670933, 14, True)
-     , (2021670933, 41, True);
+     , (2021670933, 41, True)
+     , (2021670933, 1, True)
+     , (2021670933, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021670933, 67109553, 0, 24)
@@ -80194,7 +82192,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021670957, 12, True)
      , (2021670957, 11, True)
      , (2021670957, 14, True)
-     , (2021670957, 41, True);
+     , (2021670957, 41, True)
+     , (2021670957, 1, True)
+     , (2021670957, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021670957, 67109555, 0, 24)
@@ -80279,7 +82279,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021670946, 12, True)
      , (2021670946, 11, True)
      , (2021670946, 14, True)
-     , (2021670946, 41, True);
+     , (2021670946, 41, True)
+     , (2021670946, 1, True)
+     , (2021670946, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021670946, 67109550, 0, 24)
@@ -80358,7 +82360,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671089, 12, True)
      , (2021671089, 11, True)
      , (2021671089, 14, True)
-     , (2021671089, 41, True);
+     , (2021671089, 41, True)
+     , (2021671089, 1, True)
+     , (2021671089, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671089, 67109559, 0, 24)
@@ -80441,7 +82445,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671107, 12, True)
      , (2021671107, 11, True)
      , (2021671107, 14, True)
-     , (2021671107, 41, True);
+     , (2021671107, 41, True)
+     , (2021671107, 1, True)
+     , (2021671107, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671107, 67109551, 0, 24)
@@ -80524,7 +82530,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671095, 12, True)
      , (2021671095, 11, True)
      , (2021671095, 14, True)
-     , (2021671095, 41, True);
+     , (2021671095, 41, True)
+     , (2021671095, 1, True)
+     , (2021671095, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671095, 67109552, 0, 24)
@@ -80607,7 +82615,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671094, 12, True)
      , (2021671094, 11, True)
      , (2021671094, 14, True)
-     , (2021671094, 41, True);
+     , (2021671094, 41, True)
+     , (2021671094, 1, True)
+     , (2021671094, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671094, 67109550, 0, 24)
@@ -80690,7 +82700,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671079, 12, True)
      , (2021671079, 11, True)
      , (2021671079, 14, True)
-     , (2021671079, 41, True);
+     , (2021671079, 41, True)
+     , (2021671079, 1, True)
+     , (2021671079, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671079, 67109554, 0, 24)
@@ -80770,7 +82782,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671103, 12, True)
      , (2021671103, 11, True)
      , (2021671103, 14, True)
-     , (2021671103, 41, True);
+     , (2021671103, 41, True)
+     , (2021671103, 1, True)
+     , (2021671103, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671103, 67109555, 0, 24)
@@ -80855,7 +82869,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2021671092, 12, True)
      , (2021671092, 11, True)
      , (2021671092, 14, True)
-     , (2021671092, 41, True);
+     , (2021671092, 41, True)
+     , (2021671092, 1, True)
+     , (2021671092, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2021671092, 67109556, 0, 24)
@@ -80934,7 +82950,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2931791848, 12, True)
      , (2931791848, 11, True)
      , (2931791848, 14, True)
-     , (2931791848, 41, True);
+     , (2931791848, 41, True)
+     , (2931791848, 1, True)
+     , (2931791848, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2931791848, 67109558, 0, 24)
@@ -81027,7 +83045,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2026754056, 12, True)
      , (2026754056, 11, True)
      , (2026754056, 14, True)
-     , (2026754056, 41, True);
+     , (2026754056, 41, True)
+     , (2026754056, 1, True)
+     , (2026754056, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2026754056, 67109559, 0, 24)
@@ -81111,7 +83131,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2026754053, 12, True)
      , (2026754053, 11, True)
      , (2026754053, 14, True)
-     , (2026754053, 41, True);
+     , (2026754053, 41, True)
+     , (2026754053, 1, True)
+     , (2026754053, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2026754053, 67109561, 0, 24)
@@ -81194,7 +83216,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2026754054, 12, True)
      , (2026754054, 11, True)
      , (2026754054, 14, True)
-     , (2026754054, 41, True);
+     , (2026754054, 41, True)
+     , (2026754054, 1, True)
+     , (2026754054, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2026754054, 67110054, 0, 24)
@@ -81273,7 +83297,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1998598233, 12, True)
      , (1998598233, 11, True)
      , (1998598233, 14, True)
-     , (1998598233, 41, True);
+     , (1998598233, 41, True)
+     , (1998598233, 1, True)
+     , (1998598233, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1998598233, 67109562, 0, 24)
@@ -81360,7 +83386,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1998598244, 12, True)
      , (1998598244, 11, True)
      , (1998598244, 14, True)
-     , (1998598244, 41, True);
+     , (1998598244, 41, True)
+     , (1998598244, 1, True)
+     , (1998598244, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1998598244, 67109557, 0, 24)
@@ -81448,7 +83476,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1927127042, 12, True)
      , (1927127042, 11, True)
      , (1927127042, 14, True)
-     , (1927127042, 41, True);
+     , (1927127042, 41, True)
+     , (1927127042, 1, True)
+     , (1927127042, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1927127042, 67115902, 0, 24)
@@ -81535,7 +83565,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2020614233, 12, True)
      , (2020614233, 11, True)
      , (2020614233, 14, True)
-     , (2020614233, 41, True);
+     , (2020614233, 41, True)
+     , (2020614233, 1, True)
+     , (2020614233, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2020614233, 67109561, 0, 24)
@@ -81622,7 +83654,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2020614244, 12, True)
      , (2020614244, 11, True)
      , (2020614244, 14, True)
-     , (2020614244, 41, True);
+     , (2020614244, 41, True)
+     , (2020614244, 1, True)
+     , (2020614244, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2020614244, 67109553, 0, 24)
@@ -81709,7 +83743,10 @@ VALUES (2927607248, 54, 3)
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2927607248, 12, True)
-     , (2927607248, 14, True);
+     , (2927607248, 14, True)
+     , (2927607248, 19, True)
+     , (2927607248, 1, True)
+     , (2927607248, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2025865305, 516, 30997, 8388662, 'AAA9AAAAAAA=', 100355);
@@ -81742,7 +83779,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2025865305, 12, True)
      , (2025865305, 11, True)
      , (2025865305, 14, True)
-     , (2025865305, 41, True);
+     , (2025865305, 41, True)
+     , (2025865305, 1, True)
+     , (2025865305, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2025865305, 67109558, 0, 24)
@@ -81829,7 +83868,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2025865316, 12, True)
      , (2025865316, 11, True)
      , (2025865316, 14, True)
-     , (2025865316, 41, True);
+     , (2025865316, 41, True)
+     , (2025865316, 1, True)
+     , (2025865316, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2025865316, 67109552, 0, 24)
@@ -81917,7 +83958,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2026905689, 12, True)
      , (2026905689, 11, True)
      , (2026905689, 14, True)
-     , (2026905689, 41, True);
+     , (2026905689, 41, True)
+     , (2026905689, 1, True)
+     , (2026905689, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2026905689, 67109560, 0, 24)
@@ -82004,7 +84047,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2026905700, 12, True)
      , (2026905700, 11, True)
      , (2026905700, 14, True)
-     , (2026905700, 41, True);
+     , (2026905700, 41, True)
+     , (2026905700, 1, True)
+     , (2026905700, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2026905700, 67109553, 0, 24)
@@ -82092,7 +84137,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2009542656, 12, True)
      , (2009542656, 11, True)
      , (2009542656, 14, True)
-     , (2009542656, 41, True);
+     , (2009542656, 41, True)
+     , (2009542656, 1, True)
+     , (2009542656, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2009542656, 67109551, 0, 24)
@@ -82171,7 +84218,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2008518656, 12, True)
      , (2008518656, 11, True)
      , (2008518656, 14, True)
-     , (2008518656, 41, True);
+     , (2008518656, 41, True)
+     , (2008518656, 1, True)
+     , (2008518656, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2008518656, 67109554, 0, 24)
@@ -82256,7 +84305,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2881584245, 12, True)
      , (2881584245, 11, True)
      , (2881584245, 14, True)
-     , (2881584245, 41, True);
+     , (2881584245, 41, True)
+     , (2881584245, 1, True)
+     , (2881584245, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2881584245, 67110059, 0, 24)
@@ -82352,7 +84403,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2928524619, 12, True)
      , (2928524619, 11, True)
      , (2928524619, 14, True)
-     , (2928524619, 41, True);
+     , (2928524619, 41, True)
+     , (2928524619, 1, True)
+     , (2928524619, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2928524619, 67110055, 0, 24)
@@ -82448,7 +84501,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2928524470, 12, True)
      , (2928524470, 11, True)
      , (2928524470, 14, True)
-     , (2928524470, 41, True);
+     , (2928524470, 41, True)
+     , (2928524470, 1, True)
+     , (2928524470, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2928524470, 67110057, 0, 24)
@@ -82544,7 +84599,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2928539296, 12, True)
      , (2928539296, 11, True)
      , (2928539296, 14, True)
-     , (2928539296, 41, True);
+     , (2928539296, 41, True)
+     , (2928539296, 1, True)
+     , (2928539296, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2928539296, 67110047, 0, 24)
@@ -82640,7 +84697,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2056347652, 12, True)
      , (2056347652, 11, True)
      , (2056347652, 14, True)
-     , (2056347652, 41, True);
+     , (2056347652, 41, True)
+     , (2056347652, 1, True)
+     , (2056347652, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2056347652, 67110050, 0, 24)
@@ -82723,7 +84782,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2076393477, 12, True)
      , (2076393477, 11, True)
      , (2076393477, 14, True)
-     , (2076393477, 41, True);
+     , (2076393477, 41, True)
+     , (2076393477, 1, True)
+     , (2076393477, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2076393477, 67110047, 0, 24)
@@ -82804,7 +84865,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2882326006, 12, True)
      , (2882326006, 11, True)
      , (2882326006, 14, True)
-     , (2882326006, 41, True);
+     , (2882326006, 41, True)
+     , (2882326006, 1, True)
+     , (2882326006, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2882326006, 67110052, 0, 24)
@@ -82900,7 +84963,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2882354895, 12, True)
      , (2882354895, 11, True)
      , (2882354895, 14, True)
-     , (2882354895, 41, True);
+     , (2882354895, 41, True)
+     , (2882354895, 1, True)
+     , (2882354895, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2882354895, 67110061, 0, 24)
@@ -82996,7 +85061,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2882361736, 12, True)
      , (2882361736, 11, True)
      , (2882361736, 14, True)
-     , (2882361736, 41, True);
+     , (2882361736, 41, True)
+     , (2882361736, 1, True)
+     , (2882361736, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2882361736, 67110052, 0, 24)
@@ -83092,7 +85159,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1917345792, 12, True)
      , (1917345792, 11, True)
      , (1917345792, 14, True)
-     , (1917345792, 41, True);
+     , (1917345792, 41, True)
+     , (1917345792, 1, True)
+     , (1917345792, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1917345792, 67109559, 0, 24)
@@ -83175,7 +85244,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2883429933, 12, True)
      , (2883429933, 11, True)
      , (2883429933, 14, True)
-     , (2883429933, 41, True);
+     , (2883429933, 41, True)
+     , (2883429933, 1, True)
+     , (2883429933, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2883429933, 67109561, 0, 24)
@@ -83268,7 +85339,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2883634633, 12, True)
      , (2883634633, 11, True)
      , (2883634633, 14, True)
-     , (2883634633, 41, True);
+     , (2883634633, 41, True)
+     , (2883634633, 1, True)
+     , (2883634633, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2883634633, 67109558, 0, 24)
@@ -83361,7 +85434,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2883634684, 12, True)
      , (2883634684, 11, True)
      , (2883634684, 14, True)
-     , (2883634684, 41, True);
+     , (2883634684, 41, True)
+     , (2883634684, 1, True)
+     , (2883634684, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2883634684, 67109561, 0, 24)
@@ -83454,7 +85529,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2030419972, 12, True)
      , (2030419972, 11, True)
      , (2030419972, 14, True)
-     , (2030419972, 41, True);
+     , (2030419972, 41, True)
+     , (2030419972, 1, True)
+     , (2030419972, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2030419972, 67109553, 0, 24)
@@ -83537,7 +85614,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2884892184, 12, True)
      , (2884892184, 11, True)
      , (2884892184, 14, True)
-     , (2884892184, 41, True);
+     , (2884892184, 41, True)
+     , (2884892184, 1, True)
+     , (2884892184, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2884892184, 67109561, 0, 24)
@@ -83630,7 +85709,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3701804847, 12, True)
      , (3701804847, 11, True)
      , (3701804847, 14, True)
-     , (3701804847, 41, True);
+     , (3701804847, 41, True)
+     , (3701804847, 1, True)
+     , (3701804847, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3701804847, 67109560, 0, 24)
@@ -83723,7 +85804,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2105032709, 12, True)
      , (2105032709, 11, True)
      , (2105032709, 14, True)
-     , (2105032709, 41, True);
+     , (2105032709, 41, True)
+     , (2105032709, 1, True)
+     , (2105032709, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2105032709, 67110052, 0, 24)
@@ -83810,7 +85893,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2105032708, 12, True)
      , (2105032708, 11, True)
      , (2105032708, 14, True)
-     , (2105032708, 41, True);
+     , (2105032708, 41, True)
+     , (2105032708, 1, True)
+     , (2105032708, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2105032708, 67109561, 0, 24)
@@ -83895,7 +85980,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3710399993, 12, True)
      , (3710399993, 11, True)
      , (3710399993, 14, True)
-     , (3710399993, 41, True);
+     , (3710399993, 41, True)
+     , (3710399993, 1, True)
+     , (3710399993, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3710399993, 67110047, 0, 24)
@@ -83991,7 +86078,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3710408329, 12, True)
      , (3710408329, 11, True)
      , (3710408329, 14, True)
-     , (3710408329, 41, True);
+     , (3710408329, 41, True)
+     , (3710408329, 1, True)
+     , (3710408329, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3710408329, 67110047, 0, 24)
@@ -84087,7 +86176,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3710410912, 12, True)
      , (3710410912, 11, True)
      , (3710410912, 14, True)
-     , (3710410912, 41, True);
+     , (3710410912, 41, True)
+     , (3710410912, 1, True)
+     , (3710410912, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3710410912, 67110057, 0, 24)
@@ -84183,7 +86274,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3709902169, 12, True)
      , (3709902169, 11, True)
      , (3709902169, 14, True)
-     , (3709902169, 41, True);
+     , (3709902169, 41, True)
+     , (3709902169, 1, True)
+     , (3709902169, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3709902169, 67109558, 0, 24)
@@ -84277,7 +86370,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1881727214, 12, True)
      , (1881727214, 11, True)
      , (1881727214, 14, True)
-     , (1881727214, 41, True);
+     , (1881727214, 41, True)
+     , (1881727214, 1, True)
+     , (1881727214, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1881727214, 67113369, 0, 0);
@@ -84313,7 +86408,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2002370561, 12, True)
      , (2002370561, 11, True)
      , (2002370561, 14, True)
-     , (2002370561, 41, True);
+     , (2002370561, 41, True)
+     , (2002370561, 1, True)
+     , (2002370561, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2002370561, 67109551, 0, 24)
@@ -84396,7 +86493,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3331031770, 12, True)
      , (3331031770, 11, True)
      , (3331031770, 14, True)
-     , (3331031770, 41, True);
+     , (3331031770, 41, True)
+     , (3331031770, 1, True)
+     , (3331031770, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3331031770, 67110055, 0, 24)
@@ -84492,7 +86591,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1882832943, 12, True)
      , (1882832943, 11, True)
      , (1882832943, 14, True)
-     , (1882832943, 41, True);
+     , (1882832943, 41, True)
+     , (1882832943, 1, True)
+     , (1882832943, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1882832943, 67109555, 0, 24)
@@ -84571,7 +86672,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2119000080, 12, True)
      , (2119000080, 11, True)
      , (2119000080, 14, True)
-     , (2119000080, 41, True);
+     , (2119000080, 41, True)
+     , (2119000080, 1, True)
+     , (2119000080, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2119000080, 67109554, 0, 24)
@@ -84672,7 +86775,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1943400449, 12, True)
      , (1943400449, 11, True)
      , (1943400449, 14, True)
-     , (1943400449, 41, True);
+     , (1943400449, 41, True)
+     , (1943400449, 1, True)
+     , (1943400449, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1943400449, 67109558, 0, 24)
@@ -84753,7 +86858,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2879226402, 12, True)
      , (2879226402, 11, True)
      , (2879226402, 14, True)
-     , (2879226402, 41, True);
+     , (2879226402, 41, True)
+     , (2879226402, 1, True)
+     , (2879226402, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2879226402, 67109556, 0, 24)
@@ -84831,7 +86938,10 @@ VALUES (2884601801, 54, 3)
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2884601801, 12, True)
-     , (2884601801, 14, True);
+     , (2884601801, 14, True)
+     , (2884601801, 19, True)
+     , (2884601801, 1, True)
+     , (2884601801, 51, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2883595846, 516, 9020, 8388662, 'AAA9AAAAAAA=', 100419);
@@ -84864,7 +86974,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2883595846, 12, True)
      , (2883595846, 11, True)
      , (2883595846, 14, True)
-     , (2883595846, 41, True);
+     , (2883595846, 41, True)
+     , (2883595846, 1, True)
+     , (2883595846, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2883595846, 67110061, 0, 24)
@@ -84960,7 +87072,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2883538464, 12, True)
      , (2883538464, 11, True)
      , (2883538464, 14, True)
-     , (2883538464, 41, True);
+     , (2883538464, 41, True)
+     , (2883538464, 1, True)
+     , (2883538464, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2883538464, 67109557, 0, 24)
@@ -85039,7 +87153,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2883543879, 12, True)
      , (2883543879, 11, True)
      , (2883543879, 14, True)
-     , (2883543879, 41, True);
+     , (2883543879, 41, True)
+     , (2883543879, 1, True)
+     , (2883543879, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2883543879, 67109552, 0, 24)
@@ -85118,7 +87234,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2883752888, 12, True)
      , (2883752888, 11, True)
      , (2883752888, 14, True)
-     , (2883752888, 41, True);
+     , (2883752888, 41, True)
+     , (2883752888, 1, True)
+     , (2883752888, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2883752888, 67109560, 0, 24)
@@ -85211,7 +87329,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2884629950, 12, True)
      , (2884629950, 11, True)
      , (2884629950, 14, True)
-     , (2884629950, 41, True);
+     , (2884629950, 41, True)
+     , (2884629950, 1, True)
+     , (2884629950, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2884629950, 67110056, 0, 24)
@@ -85307,7 +87427,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2884308272, 12, True)
      , (2884308272, 11, True)
      , (2884308272, 14, True)
-     , (2884308272, 41, True);
+     , (2884308272, 41, True)
+     , (2884308272, 1, True)
+     , (2884308272, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2884308272, 67109557, 0, 24)
@@ -85386,7 +87508,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2078720000, 12, True)
      , (2078720000, 11, True)
      , (2078720000, 14, True)
-     , (2078720000, 41, True);
+     , (2078720000, 41, True)
+     , (2078720000, 1, True)
+     , (2078720000, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2078720000, 67110050, 0, 24)
@@ -85469,7 +87593,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2877208681, 12, True)
      , (2877208681, 11, True)
      , (2877208681, 14, True)
-     , (2877208681, 41, True);
+     , (2877208681, 41, True)
+     , (2877208681, 1, True)
+     , (2877208681, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2877208681, 67109562, 0, 24)
@@ -85562,7 +87688,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2877580746, 12, True)
      , (2877580746, 11, True)
      , (2877580746, 14, True)
-     , (2877580746, 41, True);
+     , (2877580746, 41, True)
+     , (2877580746, 1, True)
+     , (2877580746, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2877580746, 67109562, 0, 24)
@@ -85655,7 +87783,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2877963491, 12, True)
      , (2877963491, 11, True)
      , (2877963491, 14, True)
-     , (2877963491, 41, True);
+     , (2877963491, 41, True)
+     , (2877963491, 1, True)
+     , (2877963491, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2877963491, 67110052, 0, 24)
@@ -85751,7 +87881,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2878015024, 12, True)
      , (2878015024, 11, True)
      , (2878015024, 14, True)
-     , (2878015024, 41, True);
+     , (2878015024, 41, True)
+     , (2878015024, 1, True)
+     , (2878015024, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2878015024, 67109554, 0, 24)
@@ -85830,7 +87962,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2878025720, 12, True)
      , (2878025720, 11, True)
      , (2878025720, 14, True)
-     , (2878025720, 41, True);
+     , (2878025720, 41, True)
+     , (2878025720, 1, True)
+     , (2878025720, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2878025720, 67109553, 0, 24)
@@ -85909,7 +88043,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2880776935, 12, True)
      , (2880776935, 11, True)
      , (2880776935, 14, True)
-     , (2880776935, 41, True);
+     , (2880776935, 41, True)
+     , (2880776935, 1, True)
+     , (2880776935, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2880776935, 67110053, 0, 24)
@@ -86005,7 +88141,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2879764235, 12, True)
      , (2879764235, 11, True)
      , (2879764235, 14, True)
-     , (2879764235, 41, True);
+     , (2879764235, 41, True)
+     , (2879764235, 1, True)
+     , (2879764235, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2879764235, 67110053, 0, 24)
@@ -86101,7 +88239,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2880276286, 12, True)
      , (2880276286, 11, True)
      , (2880276286, 14, True)
-     , (2880276286, 41, True);
+     , (2880276286, 41, True)
+     , (2880276286, 1, True)
+     , (2880276286, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2880276286, 67110047, 0, 24)
@@ -86197,7 +88337,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1965174785, 12, True)
      , (1965174785, 11, True)
      , (1965174785, 14, True)
-     , (1965174785, 41, True);
+     , (1965174785, 41, True)
+     , (1965174785, 1, True)
+     , (1965174785, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1965174785, 67110054, 0, 24)
@@ -86278,7 +88420,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3309149470, 12, True)
      , (3309149470, 11, True)
      , (3309149470, 14, True)
-     , (3309149470, 41, True);
+     , (3309149470, 41, True)
+     , (3309149470, 1, True)
+     , (3309149470, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3309149470, 67110056, 0, 24)
@@ -86374,7 +88518,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3309529774, 12, True)
      , (3309529774, 11, True)
      , (3309529774, 14, True)
-     , (3309529774, 41, True);
+     , (3309529774, 41, True)
+     , (3309529774, 1, True)
+     , (3309529774, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3309529774, 67110057, 0, 24)
@@ -86470,7 +88616,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3630452764, 12, True)
      , (3630452764, 11, True)
      , (3630452764, 14, True)
-     , (3630452764, 41, True);
+     , (3630452764, 41, True)
+     , (3630452764, 1, True)
+     , (3630452764, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3630452764, 67109554, 0, 24)
@@ -86549,7 +88697,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3630469167, 12, True)
      , (3630469167, 11, True)
      , (3630469167, 14, True)
-     , (3630469167, 41, True);
+     , (3630469167, 41, True)
+     , (3630469167, 1, True)
+     , (3630469167, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3630469167, 67110050, 0, 24)
@@ -86645,7 +88795,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3630464866, 12, True)
      , (3630464866, 11, True)
      , (3630464866, 14, True)
-     , (3630464866, 41, True);
+     , (3630464866, 41, True)
+     , (3630464866, 1, True)
+     , (3630464866, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3630464866, 67109551, 0, 24)
@@ -86724,7 +88876,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (3631889394, 12, True)
      , (3631889394, 11, True)
      , (3631889394, 14, True)
-     , (3631889394, 41, True);
+     , (3631889394, 41, True)
+     , (3631889394, 1, True)
+     , (3631889394, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3631889394, 67110061, 0, 24)
@@ -86820,7 +88974,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2931727275, 12, True)
      , (2931727275, 11, True)
      , (2931727275, 14, True)
-     , (2931727275, 41, True);
+     , (2931727275, 41, True)
+     , (2931727275, 1, True)
+     , (2931727275, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2931727275, 67109553, 0, 24)

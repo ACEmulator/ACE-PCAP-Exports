@@ -25,7 +25,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8190, 13, True)
      , (8190, 12, True)
      , (8190, 14, True)
-     , (8190, 15, True);
+     , (8190, 15, True)
+     , (8190, 19, True)
+     , (8190, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8196, 'portalfloatingcityf');
@@ -54,7 +56,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8196, 13, True)
      , (8196, 12, True)
      , (8196, 14, True)
-     , (8196, 15, True);
+     , (8196, 15, True)
+     , (8196, 19, True)
+     , (8196, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8198, 'portalfloatingcityg');
@@ -83,7 +87,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8198, 13, True)
      , (8198, 12, True)
      , (8198, 14, True)
-     , (8198, 15, True);
+     , (8198, 15, True)
+     , (8198, 19, True)
+     , (8198, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8197, 'portalfloatingcityfexit');
@@ -112,7 +118,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8197, 13, True)
      , (8197, 12, True)
      , (8197, 14, True)
-     , (8197, 15, True);
+     , (8197, 15, True)
+     , (8197, 19, True)
+     , (8197, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8191, 'portalfloatingcityb');
@@ -141,7 +149,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8191, 13, True)
      , (8191, 12, True)
      , (8191, 14, True)
-     , (8191, 15, True);
+     , (8191, 15, True)
+     , (8191, 19, True)
+     , (8191, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8192, 'portalfloatingcityc');
@@ -170,7 +180,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8192, 13, True)
      , (8192, 12, True)
      , (8192, 14, True)
-     , (8192, 15, True);
+     , (8192, 15, True)
+     , (8192, 19, True)
+     , (8192, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8199, 'portalfloatingcitygexit');
@@ -199,7 +211,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8199, 13, True)
      , (8199, 12, True)
      , (8199, 14, True)
-     , (8199, 15, True);
+     , (8199, 15, True)
+     , (8199, 19, True)
+     , (8199, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8193, 'portalfloatingcityd');
@@ -228,7 +242,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8193, 13, True)
      , (8193, 12, True)
      , (8193, 14, True)
-     , (8193, 15, True);
+     , (8193, 15, True)
+     , (8193, 19, True)
+     , (8193, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8194, 'portalfloatingcitydexit');
@@ -257,7 +273,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8194, 13, True)
      , (8194, 12, True)
      , (8194, 14, True)
-     , (8194, 15, True);
+     , (8194, 15, True)
+     , (8194, 19, True)
+     , (8194, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7935, 'portalgolemsanctumexit');
@@ -286,7 +304,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (7935, 13, True)
      , (7935, 12, True)
      , (7935, 14, True)
-     , (7935, 15, True);
+     , (7935, 15, True)
+     , (7935, 19, True)
+     , (7935, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8195, 'portalfloatingcitye');
@@ -315,5 +335,7 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8195, 13, True)
      , (8195, 12, True)
      , (8195, 14, True)
-     , (8195, 15, True);
+     , (8195, 15, True)
+     , (8195, 19, True)
+     , (8195, 1, True);
 

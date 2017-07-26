@@ -31,7 +31,9 @@ VALUES (41752, 12, True)
      , (41752, 11, True)
      , (41752, 14, True)
      , (41752, 41, True)
-     , (41752, 42, True);
+     , (41752, 42, True)
+     , (41752, 1, True)
+     , (41752, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41752, 67109551, 0, 24)
@@ -114,7 +116,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2048, 12, True)
      , (2048, 11, True)
      , (2048, 14, True)
-     , (2048, 41, True);
+     , (2048, 41, True)
+     , (2048, 1, True)
+     , (2048, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2048, 67109562, 0, 24)
@@ -201,7 +205,9 @@ VALUES (51154, 12, True)
      , (51154, 11, True)
      , (51154, 14, True)
      , (51154, 41, True)
-     , (51154, 42, True);
+     , (51154, 42, True)
+     , (51154, 1, True)
+     , (51154, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (51154, 67109561, 0, 24)
@@ -276,7 +282,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2049, 12, True)
      , (2049, 11, True)
      , (2049, 14, True)
-     , (2049, 41, True);
+     , (2049, 41, True)
+     , (2049, 1, True)
+     , (2049, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2049, 67109562, 0, 24)
@@ -362,7 +370,9 @@ VALUES (51156, 12, True)
      , (51156, 11, True)
      , (51156, 14, True)
      , (51156, 41, True)
-     , (51156, 42, True);
+     , (51156, 42, True)
+     , (51156, 1, True)
+     , (51156, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (51156, 67109552, 0, 24)
@@ -438,7 +448,9 @@ VALUES (51155, 12, True)
      , (51155, 11, True)
      , (51155, 14, True)
      , (51155, 41, True)
-     , (51155, 42, True);
+     , (51155, 42, True)
+     , (51155, 1, True)
+     , (51155, 51, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (51155, 67110053, 0, 24)

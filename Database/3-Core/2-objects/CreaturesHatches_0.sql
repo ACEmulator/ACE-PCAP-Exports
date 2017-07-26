@@ -31,7 +31,8 @@ VALUES (3685971145, 12, True)
      , (3685971145, 11, True)
      , (3685971145, 14, True)
      , (3685971145, 41, True)
-     , (3685971145, 42, True);
+     , (3685971145, 42, True)
+     , (3685971145, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3707809465, 4, 48857, 1048630, 'AAA9AAAAAAA=', 104579);
@@ -66,7 +67,8 @@ VALUES (3707809465, 12, True)
      , (3707809465, 11, True)
      , (3707809465, 14, True)
      , (3707809465, 41, True)
-     , (3707809465, 42, True);
+     , (3707809465, 42, True)
+     , (3707809465, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3708045988, 4, 48858, 1048630, 'AAA9AAAAAAA=', 104579);
@@ -101,7 +103,8 @@ VALUES (3708045988, 12, True)
      , (3708045988, 11, True)
      , (3708045988, 14, True)
      , (3708045988, 41, True)
-     , (3708045988, 42, True);
+     , (3708045988, 42, True)
+     , (3708045988, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3708106049, 4, 48859, 1048630, 'AAA9AAAAAAA=', 104579);
@@ -136,7 +139,8 @@ VALUES (3708106049, 12, True)
      , (3708106049, 11, True)
      , (3708106049, 14, True)
      , (3708106049, 41, True)
-     , (3708106049, 42, True);
+     , (3708106049, 42, True)
+     , (3708106049, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3707855832, 4, 48875, 1048630, 'AAA9AAAAAAA=', 104583);
@@ -171,5 +175,6 @@ VALUES (3707855832, 12, True)
      , (3707855832, 11, True)
      , (3707855832, 14, True)
      , (3707855832, 41, True)
-     , (3707855832, 42, True);
+     , (3707855832, 42, True)
+     , (3707855832, 1, True);
 

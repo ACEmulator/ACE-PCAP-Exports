@@ -30,7 +30,9 @@ VALUES (32754, 39, 0.8);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (32754, 13, True)
      , (32754, 11, True)
-     , (32754, 14, True);
+     , (32754, 14, True)
+     , (32754, 19, True)
+     , (32754, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25521, 'scroll-npcwield');
@@ -61,5 +63,8 @@ VALUES (25521, 53, 1)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (25521, 13, True)
      , (25521, 11, True)
-     , (25521, 14, True);
+     , (25521, 14, True)
+     , (25521, 19, True)
+     , (25521, 22, True)
+     , (25521, 24, True);
 

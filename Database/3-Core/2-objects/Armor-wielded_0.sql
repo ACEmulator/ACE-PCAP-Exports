@@ -32,7 +32,9 @@ VALUES (3685982535, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685982535, 13, True)
      , (3685982535, 11, True)
-     , (3685982535, 14, True);
+     , (3685982535, 14, True)
+     , (3685982535, 19, True)
+     , (3685982535, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3685982507, 18, 42717, 2327192, NULL, 38945);
@@ -68,7 +70,9 @@ VALUES (3685982507, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685982507, 13, True)
      , (3685982507, 11, True)
-     , (3685982507, 14, True);
+     , (3685982507, 14, True)
+     , (3685982507, 19, True)
+     , (3685982507, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3685982502, 18, 42717, 2327192, NULL, 38945);
@@ -104,7 +108,9 @@ VALUES (3685982502, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685982502, 13, True)
      , (3685982502, 11, True)
-     , (3685982502, 14, True);
+     , (3685982502, 14, True)
+     , (3685982502, 19, True)
+     , (3685982502, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3685982490, 18, 33106, 270762520, NULL, 38945);
@@ -140,7 +146,9 @@ VALUES (3685982490, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685982490, 13, True)
      , (3685982490, 11, True)
-     , (3685982490, 14, True);
+     , (3685982490, 14, True)
+     , (3685982490, 19, True)
+     , (3685982490, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685982490, 0, 83897484, 83897484);
@@ -182,7 +190,9 @@ VALUES (3685982521, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685982521, 13, True)
      , (3685982521, 11, True)
-     , (3685982521, 14, True);
+     , (3685982521, 14, True)
+     , (3685982521, 19, True)
+     , (3685982521, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3685982467, 18, 33106, 270762520, NULL, 38945);
@@ -218,7 +228,9 @@ VALUES (3685982467, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685982467, 13, True)
      , (3685982467, 11, True)
-     , (3685982467, 14, True);
+     , (3685982467, 14, True)
+     , (3685982467, 19, True)
+     , (3685982467, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685982467, 0, 83897484, 83897484);
@@ -261,7 +273,9 @@ VALUES (3685062767, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685062767, 13, True)
      , (3685062767, 11, True)
-     , (3685062767, 14, True);
+     , (3685062767, 14, True)
+     , (3685062767, 19, True)
+     , (3685062767, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685062767, 0, 83897388, 83897388)
@@ -304,7 +318,9 @@ VALUES (3685035330, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685035330, 13, True)
      , (3685035330, 11, True)
-     , (3685035330, 14, True);
+     , (3685035330, 14, True)
+     , (3685035330, 19, True)
+     , (3685035330, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685035330, 0, 83897393, 83897393)
@@ -347,7 +363,9 @@ VALUES (3685525935, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685525935, 13, True)
      , (3685525935, 11, True)
-     , (3685525935, 14, True);
+     , (3685525935, 14, True)
+     , (3685525935, 19, True)
+     , (3685525935, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685525935, 0, 83897393, 83897393)
@@ -390,7 +408,9 @@ VALUES (3685060573, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685060573, 13, True)
      , (3685060573, 11, True)
-     , (3685060573, 14, True);
+     , (3685060573, 14, True)
+     , (3685060573, 19, True)
+     , (3685060573, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685060573, 0, 83897393, 83897393)
@@ -433,7 +453,9 @@ VALUES (3685105091, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685105091, 13, True)
      , (3685105091, 11, True)
-     , (3685105091, 14, True);
+     , (3685105091, 14, True)
+     , (3685105091, 19, True)
+     , (3685105091, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685105091, 0, 83897393, 83897393)
@@ -476,7 +498,9 @@ VALUES (3684940891, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3684940891, 13, True)
      , (3684940891, 11, True)
-     , (3684940891, 14, True);
+     , (3684940891, 14, True)
+     , (3684940891, 19, True)
+     , (3684940891, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684940891, 0, 83897393, 83897393)
@@ -519,7 +543,9 @@ VALUES (3684939035, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3684939035, 13, True)
      , (3684939035, 11, True)
-     , (3684939035, 14, True);
+     , (3684939035, 14, True)
+     , (3684939035, 19, True)
+     , (3684939035, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684939035, 0, 83897393, 83897393)
@@ -562,7 +588,9 @@ VALUES (3685398683, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685398683, 13, True)
      , (3685398683, 11, True)
-     , (3685398683, 14, True);
+     , (3685398683, 14, True)
+     , (3685398683, 19, True)
+     , (3685398683, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685398683, 0, 83897393, 83897393)
@@ -605,7 +633,9 @@ VALUES (3684940008, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3684940008, 13, True)
      , (3684940008, 11, True)
-     , (3684940008, 14, True);
+     , (3684940008, 14, True)
+     , (3684940008, 19, True)
+     , (3684940008, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684940008, 0, 83897393, 83897393)
@@ -648,7 +678,9 @@ VALUES (3685106531, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685106531, 13, True)
      , (3685106531, 11, True)
-     , (3685106531, 14, True);
+     , (3685106531, 14, True)
+     , (3685106531, 19, True)
+     , (3685106531, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685106531, 0, 83897393, 83897393)
@@ -691,7 +723,9 @@ VALUES (3685103614, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685103614, 13, True)
      , (3685103614, 11, True)
-     , (3685103614, 14, True);
+     , (3685103614, 14, True)
+     , (3685103614, 19, True)
+     , (3685103614, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685103614, 0, 83897393, 83897393)
@@ -735,7 +769,9 @@ VALUES (3684813682, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3684813682, 13, True)
      , (3684813682, 11, True)
-     , (3684813682, 14, True);
+     , (3684813682, 14, True)
+     , (3684813682, 19, True)
+     , (3684813682, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3684813682, 67114593, 0, 0);
@@ -782,7 +818,9 @@ VALUES (3685097650, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685097650, 13, True)
      , (3685097650, 11, True)
-     , (3685097650, 14, True);
+     , (3685097650, 14, True)
+     , (3685097650, 19, True)
+     , (3685097650, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3685162984, 18, 32698, 270762520, NULL, 38945);
@@ -818,7 +856,9 @@ VALUES (3685162984, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685162984, 13, True)
      , (3685162984, 11, True)
-     , (3685162984, 14, True);
+     , (3685162984, 14, True)
+     , (3685162984, 19, True)
+     , (3685162984, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685162984, 0, 83897393, 83897393)
@@ -861,7 +901,9 @@ VALUES (3684939570, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3684939570, 13, True)
      , (3684939570, 11, True)
-     , (3684939570, 14, True);
+     , (3684939570, 14, True)
+     , (3684939570, 19, True)
+     , (3684939570, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684939570, 0, 83897393, 83897393)
@@ -904,7 +946,9 @@ VALUES (3684939361, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3684939361, 13, True)
      , (3684939361, 11, True)
-     , (3684939361, 14, True);
+     , (3684939361, 14, True)
+     , (3684939361, 19, True)
+     , (3684939361, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684939361, 0, 83897393, 83897393)
@@ -947,7 +991,9 @@ VALUES (3684939874, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3684939874, 13, True)
      , (3684939874, 11, True)
-     , (3684939874, 14, True);
+     , (3684939874, 14, True)
+     , (3684939874, 19, True)
+     , (3684939874, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684939874, 0, 83897393, 83897393)
@@ -990,7 +1036,9 @@ VALUES (3685102583, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685102583, 13, True)
      , (3685102583, 11, True)
-     , (3685102583, 14, True);
+     , (3685102583, 14, True)
+     , (3685102583, 19, True)
+     , (3685102583, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685102583, 0, 83897393, 83897393)
@@ -1033,7 +1081,9 @@ VALUES (3685106350, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685106350, 13, True)
      , (3685106350, 11, True)
-     , (3685106350, 14, True);
+     , (3685106350, 14, True)
+     , (3685106350, 19, True)
+     , (3685106350, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685106350, 0, 83897393, 83897393)
@@ -1076,7 +1126,9 @@ VALUES (3685105612, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685105612, 13, True)
      , (3685105612, 11, True)
-     , (3685105612, 14, True);
+     , (3685105612, 14, True)
+     , (3685105612, 19, True)
+     , (3685105612, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3685105612, 0, 83897393, 83897393)
@@ -1119,7 +1171,9 @@ VALUES (3684900494, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3684900494, 13, True)
      , (3684900494, 11, True)
-     , (3684900494, 14, True);
+     , (3684900494, 14, True)
+     , (3684900494, 19, True)
+     , (3684900494, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3684900464, 18, 33106, 270762520, NULL, 38945);
@@ -1155,7 +1209,9 @@ VALUES (3684900464, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3684900464, 13, True)
      , (3684900464, 11, True)
-     , (3684900464, 14, True);
+     , (3684900464, 14, True)
+     , (3684900464, 19, True)
+     , (3684900464, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3684900464, 0, 83897484, 83897484);
@@ -1197,7 +1253,9 @@ VALUES (3684900496, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3684900496, 13, True)
      , (3684900496, 11, True)
-     , (3684900496, 14, True);
+     , (3684900496, 14, True)
+     , (3684900496, 19, True)
+     , (3684900496, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3684900388, 18, 11971, 2327064, NULL, 170145);
@@ -1236,7 +1294,9 @@ VALUES (3684900388, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3684900388, 13, True)
      , (3684900388, 11, True)
-     , (3684900388, 14, True);
+     , (3684900388, 14, True)
+     , (3684900388, 19, True)
+     , (3684900388, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3685632441, 18, 11971, 2327064, NULL, 170145);
@@ -1275,7 +1335,9 @@ VALUES (3685632441, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3685632441, 13, True)
      , (3685632441, 11, True)
-     , (3685632441, 14, True);
+     , (3685632441, 14, True)
+     , (3685632441, 19, True)
+     , (3685632441, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3684900508, 18, 42717, 2327192, NULL, 38945);
@@ -1311,7 +1373,9 @@ VALUES (3684900508, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3684900508, 13, True)
      , (3684900508, 11, True)
-     , (3684900508, 14, True);
+     , (3684900508, 14, True)
+     , (3684900508, 19, True)
+     , (3684900508, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3684900522, 18, 42717, 2327192, NULL, 38945);
@@ -1347,7 +1411,9 @@ VALUES (3684900522, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3684900522, 13, True)
      , (3684900522, 11, True)
-     , (3684900522, 14, True);
+     , (3684900522, 14, True)
+     , (3684900522, 19, True)
+     , (3684900522, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3684900536, 18, 42717, 2327192, NULL, 38945);
@@ -1383,7 +1449,9 @@ VALUES (3684900536, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3684900536, 13, True)
      , (3684900536, 11, True)
-     , (3684900536, 14, True);
+     , (3684900536, 14, True)
+     , (3684900536, 19, True)
+     , (3684900536, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3684900296, 18, 23356, 270762512, NULL, 38945);
@@ -1419,7 +1487,9 @@ VALUES (3684900296, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3684900296, 13, True)
      , (3684900296, 11, True)
-     , (3684900296, 14, True);
+     , (3684900296, 14, True)
+     , (3684900296, 19, True)
+     , (3684900296, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3684900296, 67111919, 0, 0);
@@ -1469,7 +1539,9 @@ VALUES (3688217484, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3688217484, 13, True)
      , (3688217484, 11, True)
-     , (3688217484, 14, True);
+     , (3688217484, 14, True)
+     , (3688217484, 19, True)
+     , (3688217484, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3688217484, 0, 83897427, 83897427);
@@ -1514,7 +1586,9 @@ VALUES (2155136736, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2155136736, 13, True)
      , (2155136736, 11, True)
-     , (2155136736, 14, True);
+     , (2155136736, 14, True)
+     , (2155136736, 19, True)
+     , (2155136736, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3688978198, 18, 32698, 270762520, NULL, 38945);
@@ -1550,7 +1624,9 @@ VALUES (3688978198, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3688978198, 13, True)
      , (3688978198, 11, True)
-     , (3688978198, 14, True);
+     , (3688978198, 14, True)
+     , (3688978198, 19, True)
+     , (3688978198, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3688978198, 0, 83897393, 83897393)
@@ -1593,7 +1669,9 @@ VALUES (3691064859, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3691064859, 13, True)
      , (3691064859, 11, True)
-     , (3691064859, 14, True);
+     , (3691064859, 14, True)
+     , (3691064859, 19, True)
+     , (3691064859, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691064859, 0, 83897393, 83897393)
@@ -1637,7 +1715,9 @@ VALUES (3691225939, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3691225939, 13, True)
      , (3691225939, 11, True)
-     , (3691225939, 14, True);
+     , (3691225939, 14, True)
+     , (3691225939, 19, True)
+     , (3691225939, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691225939, 67111920, 0, 0);
@@ -1686,7 +1766,9 @@ VALUES (3691225930, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3691225930, 13, True)
      , (3691225930, 11, True)
-     , (3691225930, 14, True);
+     , (3691225930, 14, True)
+     , (3691225930, 19, True)
+     , (3691225930, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691225930, 0, 83897426, 83897426);
@@ -1731,7 +1813,9 @@ VALUES (3691187444, 39, 0.8);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3691187444, 13, True)
      , (3691187444, 11, True)
-     , (3691187444, 14, True);
+     , (3691187444, 14, True)
+     , (3691187444, 19, True)
+     , (3691187444, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691187444, 0, 83897045, 83897045);
@@ -1776,7 +1860,9 @@ VALUES (3691224560, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3691224560, 13, True)
      , (3691224560, 11, True)
-     , (3691224560, 14, True);
+     , (3691224560, 14, True)
+     , (3691224560, 19, True)
+     , (3691224560, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3691224564, 18, 11971, 2327064, NULL, 170145);
@@ -1815,7 +1901,9 @@ VALUES (3691224564, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3691224564, 13, True)
      , (3691224564, 11, True)
-     , (3691224564, 14, True);
+     , (3691224564, 14, True)
+     , (3691224564, 19, True)
+     , (3691224564, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3690948755, 18, 11971, 2327064, NULL, 170145);
@@ -1854,7 +1942,9 @@ VALUES (3690948755, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3690948755, 13, True)
      , (3690948755, 11, True)
-     , (3690948755, 14, True);
+     , (3690948755, 14, True)
+     , (3690948755, 19, True)
+     , (3690948755, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2155241917, 18, 11971, 2327064, NULL, 170145);
@@ -1893,7 +1983,9 @@ VALUES (2155241917, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2155241917, 13, True)
      , (2155241917, 11, True)
-     , (2155241917, 14, True);
+     , (2155241917, 14, True)
+     , (2155241917, 19, True)
+     , (2155241917, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3688292628, 18, 91, 270762520, NULL, 39073);
@@ -1933,7 +2025,9 @@ VALUES (3688292628, 39, 0.75);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3688292628, 13, True)
      , (3688292628, 11, True)
-     , (3688292628, 14, True);
+     , (3688292628, 14, True)
+     , (3688292628, 19, True)
+     , (3688292628, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3688292628, 67111927, 0, 0);
@@ -1978,7 +2072,9 @@ VALUES (3691830569, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3691830569, 13, True)
      , (3691830569, 11, True)
-     , (3691830569, 14, True);
+     , (3691830569, 14, True)
+     , (3691830569, 19, True)
+     , (3691830569, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691830569, 0, 83897393, 83897393)
@@ -2025,7 +2121,9 @@ VALUES (3691781796, 39, 0.75);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3691781796, 13, True)
      , (3691781796, 11, True)
-     , (3691781796, 14, True);
+     , (3691781796, 14, True)
+     , (3691781796, 19, True)
+     , (3691781796, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691781796, 67111927, 0, 0);
@@ -2070,7 +2168,9 @@ VALUES (3691826061, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3691826061, 13, True)
      , (3691826061, 11, True)
-     , (3691826061, 14, True);
+     , (3691826061, 14, True)
+     , (3691826061, 19, True)
+     , (3691826061, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3692192901, 18, 35295, 270762648, NULL, 38945);
@@ -2107,7 +2207,9 @@ VALUES (3692192901, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3692192901, 13, True)
      , (3692192901, 11, True)
-     , (3692192901, 14, True);
+     , (3692192901, 14, True)
+     , (3692192901, 19, True)
+     , (3692192901, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692192901, 0, 83897695, 83897695);
@@ -2153,7 +2255,9 @@ VALUES (3692285958, 39, 0.75);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3692285958, 13, True)
      , (3692285958, 11, True)
-     , (3692285958, 14, True);
+     , (3692285958, 14, True)
+     , (3692285958, 19, True)
+     , (3692285958, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692285958, 67111919, 0, 0);
@@ -2198,7 +2302,9 @@ VALUES (3692283357, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3692283357, 13, True)
      , (3692283357, 11, True)
-     , (3692283357, 14, True);
+     , (3692283357, 14, True)
+     , (3692283357, 19, True)
+     , (3692283357, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3692270502, 18, 8030, 270762648, NULL, 301217);
@@ -2240,7 +2346,9 @@ VALUES (3692270502, 39, 1.25)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3692270502, 13, True)
      , (3692270502, 11, True)
-     , (3692270502, 14, True);
+     , (3692270502, 14, True)
+     , (3692270502, 19, True)
+     , (3692270502, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3692270502, 67111923, 0, 0);
@@ -2288,7 +2396,8 @@ VALUES (3692413332, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3692413332, 13, True)
      , (3692413332, 11, True)
-     , (3692413332, 14, True);
+     , (3692413332, 14, True)
+     , (3692413332, 19, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3692421350, 18, 32698, 270762520, NULL, 38945);
@@ -2324,7 +2433,9 @@ VALUES (3692421350, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3692421350, 13, True)
      , (3692421350, 11, True)
-     , (3692421350, 14, True);
+     , (3692421350, 14, True)
+     , (3692421350, 19, True)
+     , (3692421350, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3692421350, 0, 83897393, 83897393)
@@ -2368,7 +2479,9 @@ VALUES (2155410588, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2155410588, 13, True)
      , (2155410588, 11, True)
-     , (2155410588, 14, True);
+     , (2155410588, 14, True)
+     , (2155410588, 19, True)
+     , (2155410588, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2155410588, 67111919, 0, 0);
@@ -2414,7 +2527,9 @@ VALUES (3691069408, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3691069408, 13, True)
      , (3691069408, 11, True)
-     , (3691069408, 14, True);
+     , (3691069408, 14, True)
+     , (3691069408, 19, True)
+     , (3691069408, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3691069408, 67114593, 0, 0);
@@ -2461,7 +2576,9 @@ VALUES (3691069363, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3691069363, 13, True)
      , (3691069363, 11, True)
-     , (3691069363, 14, True);
+     , (3691069363, 14, True)
+     , (3691069363, 19, True)
+     , (3691069363, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3691069363, 0, 83897393, 83897393)
@@ -2505,7 +2622,9 @@ VALUES (3690949373, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3690949373, 13, True)
      , (3690949373, 11, True)
-     , (3690949373, 14, True);
+     , (3690949373, 14, True)
+     , (3690949373, 19, True)
+     , (3690949373, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3690949373, 67114593, 0, 0);
@@ -2552,7 +2671,9 @@ VALUES (3700660347, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3700660347, 13, True)
      , (3700660347, 11, True)
-     , (3700660347, 14, True);
+     , (3700660347, 14, True)
+     , (3700660347, 19, True)
+     , (3700660347, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3700660347, 0, 83897484, 83897484);
@@ -2595,7 +2716,9 @@ VALUES (3700660382, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3700660382, 13, True)
      , (3700660382, 11, True)
-     , (3700660382, 14, True);
+     , (3700660382, 14, True)
+     , (3700660382, 19, True)
+     , (3700660382, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3700660382, 67111920, 0, 0);
@@ -2640,7 +2763,9 @@ VALUES (3701495621, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3701495621, 13, True)
      , (3701495621, 11, True)
-     , (3701495621, 14, True);
+     , (3701495621, 14, True)
+     , (3701495621, 19, True)
+     , (3701495621, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3701495621, 0, 83897393, 83897393)
@@ -2683,7 +2808,9 @@ VALUES (3701495635, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3701495635, 13, True)
      , (3701495635, 11, True)
-     , (3701495635, 14, True);
+     , (3701495635, 14, True)
+     , (3701495635, 19, True)
+     , (3701495635, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3701495635, 0, 83897393, 83897393)
@@ -2727,7 +2854,9 @@ VALUES (3701495963, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3701495963, 13, True)
      , (3701495963, 11, True)
-     , (3701495963, 14, True);
+     , (3701495963, 14, True)
+     , (3701495963, 19, True)
+     , (3701495963, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3701495963, 67114593, 0, 0);
@@ -2775,7 +2904,9 @@ VALUES (3701495879, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3701495879, 13, True)
      , (3701495879, 11, True)
-     , (3701495879, 14, True);
+     , (3701495879, 14, True)
+     , (3701495879, 19, True)
+     , (3701495879, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3701495879, 67114593, 0, 0);
@@ -2823,7 +2954,9 @@ VALUES (3701495887, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3701495887, 13, True)
      , (3701495887, 11, True)
-     , (3701495887, 14, True);
+     , (3701495887, 14, True)
+     , (3701495887, 19, True)
+     , (3701495887, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3701495887, 67114593, 0, 0);
@@ -2870,7 +3003,9 @@ VALUES (3701727993, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3701727993, 13, True)
      , (3701727993, 11, True)
-     , (3701727993, 14, True);
+     , (3701727993, 14, True)
+     , (3701727993, 19, True)
+     , (3701727993, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3701727993, 0, 83897393, 83897393)
@@ -2915,7 +3050,9 @@ VALUES (3701495955, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3701495955, 13, True)
      , (3701495955, 11, True)
-     , (3701495955, 14, True);
+     , (3701495955, 14, True)
+     , (3701495955, 19, True)
+     , (3701495955, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3701495955, 67116828, 0, 0);
@@ -2962,7 +3099,9 @@ VALUES (3706479145, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3706479145, 13, True)
      , (3706479145, 11, True)
-     , (3706479145, 14, True);
+     , (3706479145, 14, True)
+     , (3706479145, 19, True)
+     , (3706479145, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3706479145, 0, 83897393, 83897393)
@@ -3005,7 +3144,9 @@ VALUES (3706483121, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3706483121, 13, True)
      , (3706483121, 11, True)
-     , (3706483121, 14, True);
+     , (3706483121, 14, True)
+     , (3706483121, 19, True)
+     , (3706483121, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3706483121, 0, 83897393, 83897393)
@@ -3048,7 +3189,9 @@ VALUES (3706483200, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3706483200, 13, True)
      , (3706483200, 11, True)
-     , (3706483200, 14, True);
+     , (3706483200, 14, True)
+     , (3706483200, 19, True)
+     , (3706483200, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3706483200, 0, 83897393, 83897393)
@@ -3094,7 +3237,9 @@ VALUES (3707887715, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3707887715, 13, True)
      , (3707887715, 11, True)
-     , (3707887715, 14, True);
+     , (3707887715, 14, True)
+     , (3707887715, 19, True)
+     , (3707887715, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3707766145, 18, 32698, 270762520, NULL, 38945);
@@ -3130,7 +3275,9 @@ VALUES (3707766145, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3707766145, 13, True)
      , (3707766145, 11, True)
-     , (3707766145, 14, True);
+     , (3707766145, 14, True)
+     , (3707766145, 19, True)
+     , (3707766145, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3707766145, 0, 83897393, 83897393)
@@ -3173,7 +3320,9 @@ VALUES (3710999072, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3710999072, 13, True)
      , (3710999072, 11, True)
-     , (3710999072, 14, True);
+     , (3710999072, 14, True)
+     , (3710999072, 19, True)
+     , (3710999072, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3676920877, 18, 33105, 2327056, NULL, 38945);
@@ -3207,7 +3356,9 @@ VALUES (3676920877, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3676920877, 13, True)
      , (3676920877, 11, True)
-     , (3676920877, 14, True);
+     , (3676920877, 14, True)
+     , (3676920877, 19, True)
+     , (3676920877, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3681272937, 18, 42717, 2327192, NULL, 38945);
@@ -3243,7 +3394,9 @@ VALUES (3681272937, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3681272937, 13, True)
      , (3681272937, 11, True)
-     , (3681272937, 14, True);
+     , (3681272937, 14, True)
+     , (3681272937, 19, True)
+     , (3681272937, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3681040212, 18, 11971, 2327064, NULL, 170145);
@@ -3282,7 +3435,9 @@ VALUES (3681040212, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3681040212, 13, True)
      , (3681040212, 11, True)
-     , (3681040212, 14, True);
+     , (3681040212, 14, True)
+     , (3681040212, 19, True)
+     , (3681040212, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2930022626, 18, 11971, 2327064, NULL, 170145);
@@ -3321,7 +3476,9 @@ VALUES (2930022626, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2930022626, 13, True)
      , (2930022626, 11, True)
-     , (2930022626, 14, True);
+     , (2930022626, 14, True)
+     , (2930022626, 19, True)
+     , (2930022626, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2151988145, 18, 11971, 2327064, NULL, 170145);
@@ -3360,7 +3517,9 @@ VALUES (2151988145, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2151988145, 13, True)
      , (2151988145, 11, True)
-     , (2151988145, 14, True);
+     , (2151988145, 14, True)
+     , (2151988145, 19, True)
+     , (2151988145, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3358401924, 18, 33105, 2327056, NULL, 38945);
@@ -3394,7 +3553,9 @@ VALUES (3358401924, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3358401924, 13, True)
      , (3358401924, 11, True)
-     , (3358401924, 14, True);
+     , (3358401924, 14, True)
+     , (3358401924, 19, True)
+     , (3358401924, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3360207719, 18, 42717, 2327192, NULL, 38945);
@@ -3430,7 +3591,9 @@ VALUES (3360207719, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3360207719, 13, True)
      , (3360207719, 11, True)
-     , (3360207719, 14, True);
+     , (3360207719, 14, True)
+     , (3360207719, 19, True)
+     , (3360207719, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3360207698, 18, 42717, 2327192, NULL, 38945);
@@ -3466,7 +3629,9 @@ VALUES (3360207698, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3360207698, 13, True)
      , (3360207698, 11, True)
-     , (3360207698, 14, True);
+     , (3360207698, 14, True)
+     , (3360207698, 19, True)
+     , (3360207698, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3360207835, 18, 42717, 2327192, NULL, 38945);
@@ -3502,7 +3667,9 @@ VALUES (3360207835, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3360207835, 13, True)
      , (3360207835, 11, True)
-     , (3360207835, 14, True);
+     , (3360207835, 14, True)
+     , (3360207835, 19, True)
+     , (3360207835, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3360207841, 18, 42717, 2327192, NULL, 38945);
@@ -3538,7 +3705,9 @@ VALUES (3360207841, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3360207841, 13, True)
      , (3360207841, 11, True)
-     , (3360207841, 14, True);
+     , (3360207841, 14, True)
+     , (3360207841, 19, True)
+     , (3360207841, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3360207947, 18, 32698, 270762520, NULL, 38945);
@@ -3574,7 +3743,9 @@ VALUES (3360207947, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3360207947, 13, True)
      , (3360207947, 11, True)
-     , (3360207947, 14, True);
+     , (3360207947, 14, True)
+     , (3360207947, 19, True)
+     , (3360207947, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3360207947, 0, 83897393, 83897393)
@@ -3617,7 +3788,9 @@ VALUES (3360207964, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3360207964, 13, True)
      , (3360207964, 11, True)
-     , (3360207964, 14, True);
+     , (3360207964, 14, True)
+     , (3360207964, 19, True)
+     , (3360207964, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3360207993, 18, 42717, 2327192, NULL, 38945);
@@ -3653,7 +3826,9 @@ VALUES (3360207993, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3360207993, 13, True)
      , (3360207993, 11, True)
-     , (3360207993, 14, True);
+     , (3360207993, 14, True)
+     , (3360207993, 19, True)
+     , (3360207993, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3360318712, 18, 15402, 2327064, NULL, 39073);
@@ -3692,7 +3867,9 @@ VALUES (3360318712, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3360318712, 13, True)
      , (3360318712, 11, True)
-     , (3360318712, 14, True);
+     , (3360318712, 14, True)
+     , (3360318712, 19, True)
+     , (3360318712, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3360318712, 67113836, 0, 0);
@@ -3740,7 +3917,9 @@ VALUES (3359863813, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3359863813, 13, True)
      , (3359863813, 11, True)
-     , (3359863813, 14, True);
+     , (3359863813, 14, True)
+     , (3359863813, 19, True)
+     , (3359863813, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3359863813, 67113836, 0, 0);
@@ -3788,7 +3967,9 @@ VALUES (3360318747, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3360318747, 13, True)
      , (3360318747, 11, True)
-     , (3360318747, 14, True);
+     , (3360318747, 14, True)
+     , (3360318747, 19, True)
+     , (3360318747, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3360318747, 67113836, 0, 0);
@@ -3836,7 +4017,9 @@ VALUES (3360076207, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3360076207, 13, True)
      , (3360076207, 11, True)
-     , (3360076207, 14, True);
+     , (3360076207, 14, True)
+     , (3360076207, 19, True)
+     , (3360076207, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3360076207, 67113836, 0, 0);
@@ -3881,7 +4064,9 @@ VALUES (3360207976, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3360207976, 13, True)
      , (3360207976, 11, True)
-     , (3360207976, 14, True);
+     , (3360207976, 14, True)
+     , (3360207976, 19, True)
+     , (3360207976, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3360207976, 0, 83897393, 83897393)
@@ -3927,7 +4112,9 @@ VALUES (2150889689, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2150889689, 13, True)
      , (2150889689, 11, True)
-     , (2150889689, 14, True);
+     , (2150889689, 14, True)
+     , (2150889689, 19, True)
+     , (2150889689, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2622384964, 18, 11971, 2327064, NULL, 170145);
@@ -3966,7 +4153,9 @@ VALUES (2622384964, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2622384964, 13, True)
      , (2622384964, 11, True)
-     , (2622384964, 14, True);
+     , (2622384964, 14, True)
+     , (2622384964, 19, True)
+     , (2622384964, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2622398100, 18, 11971, 2327064, NULL, 170145);
@@ -4005,7 +4194,9 @@ VALUES (2622398100, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2622398100, 13, True)
      , (2622398100, 11, True)
-     , (2622398100, 14, True);
+     , (2622398100, 14, True)
+     , (2622398100, 19, True)
+     , (2622398100, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2879384241, 18, 42717, 2327192, NULL, 38945);
@@ -4041,7 +4232,9 @@ VALUES (2879384241, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2879384241, 13, True)
      , (2879384241, 11, True)
-     , (2879384241, 14, True);
+     , (2879384241, 14, True)
+     , (2879384241, 19, True)
+     , (2879384241, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2879286552, 18, 42717, 2327192, NULL, 38945);
@@ -4077,7 +4270,9 @@ VALUES (2879286552, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2879286552, 13, True)
      , (2879286552, 11, True)
-     , (2879286552, 14, True);
+     , (2879286552, 14, True)
+     , (2879286552, 19, True)
+     , (2879286552, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2879286512, 18, 42717, 2327192, NULL, 38945);
@@ -4113,7 +4308,9 @@ VALUES (2879286512, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2879286512, 13, True)
      , (2879286512, 11, True)
-     , (2879286512, 14, True);
+     , (2879286512, 14, True)
+     , (2879286512, 19, True)
+     , (2879286512, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2879286540, 18, 42717, 2327192, NULL, 38945);
@@ -4149,7 +4346,9 @@ VALUES (2879286540, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2879286540, 13, True)
      , (2879286540, 11, True)
-     , (2879286540, 14, True);
+     , (2879286540, 14, True)
+     , (2879286540, 19, True)
+     , (2879286540, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2879286576, 18, 42717, 2327192, NULL, 38945);
@@ -4185,7 +4384,9 @@ VALUES (2879286576, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2879286576, 13, True)
      , (2879286576, 11, True)
-     , (2879286576, 14, True);
+     , (2879286576, 14, True)
+     , (2879286576, 19, True)
+     , (2879286576, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2879384353, 18, 42717, 2327192, NULL, 38945);
@@ -4221,7 +4422,9 @@ VALUES (2879384353, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2879384353, 13, True)
      , (2879384353, 11, True)
-     , (2879384353, 14, True);
+     , (2879384353, 14, True)
+     , (2879384353, 19, True)
+     , (2879384353, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3682370120, 18, 35395, 270762520, NULL, 39073);
@@ -4260,7 +4463,9 @@ VALUES (3682370120, 39, 1.3);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3682370120, 13, True)
      , (3682370120, 11, True)
-     , (3682370120, 14, True);
+     , (3682370120, 14, True)
+     , (3682370120, 19, True)
+     , (3682370120, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3695064368, 18, 44264, 2327064, NULL, 38945);
@@ -4296,7 +4501,9 @@ VALUES (3695064368, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3695064368, 13, True)
      , (3695064368, 11, True)
-     , (3695064368, 14, True);
+     , (3695064368, 14, True)
+     , (3695064368, 19, True)
+     , (3695064368, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3695064368, 67111927, 0, 0);
@@ -4342,7 +4549,9 @@ VALUES (3695064414, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3695064414, 13, True)
      , (3695064414, 11, True)
-     , (3695064414, 14, True);
+     , (3695064414, 14, True)
+     , (3695064414, 19, True)
+     , (3695064414, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3695064414, 67111927, 0, 0);
@@ -4388,7 +4597,9 @@ VALUES (3694751363, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3694751363, 13, True)
      , (3694751363, 11, True)
-     , (3694751363, 14, True);
+     , (3694751363, 14, True)
+     , (3694751363, 19, True)
+     , (3694751363, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3694751363, 67111927, 0, 0);
@@ -4434,7 +4645,9 @@ VALUES (3694689105, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3694689105, 13, True)
      , (3694689105, 11, True)
-     , (3694689105, 14, True);
+     , (3694689105, 14, True)
+     , (3694689105, 19, True)
+     , (3694689105, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3694689105, 67111927, 0, 0);
@@ -4480,7 +4693,9 @@ VALUES (3695194256, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3695194256, 13, True)
      , (3695194256, 11, True)
-     , (3695194256, 14, True);
+     , (3695194256, 14, True)
+     , (3695194256, 19, True)
+     , (3695194256, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3695194256, 67111927, 0, 0);
@@ -4526,7 +4741,9 @@ VALUES (3695056069, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3695056069, 13, True)
      , (3695056069, 11, True)
-     , (3695056069, 14, True);
+     , (3695056069, 14, True)
+     , (3695056069, 19, True)
+     , (3695056069, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3695056069, 67111927, 0, 0);
@@ -4572,7 +4789,9 @@ VALUES (3696339259, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3696339259, 13, True)
      , (3696339259, 11, True)
-     , (3696339259, 14, True);
+     , (3696339259, 14, True)
+     , (3696339259, 19, True)
+     , (3696339259, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3696339259, 67111927, 0, 0);
@@ -4618,7 +4837,9 @@ VALUES (3695058387, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3695058387, 13, True)
      , (3695058387, 11, True)
-     , (3695058387, 14, True);
+     , (3695058387, 14, True)
+     , (3695058387, 19, True)
+     , (3695058387, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3695058387, 67111927, 0, 0);
@@ -4664,7 +4885,9 @@ VALUES (3695140568, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3695140568, 13, True)
      , (3695140568, 11, True)
-     , (3695140568, 14, True);
+     , (3695140568, 14, True)
+     , (3695140568, 19, True)
+     , (3695140568, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3695140568, 67111927, 0, 0);
@@ -4710,7 +4933,9 @@ VALUES (3709162182, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3709162182, 13, True)
      , (3709162182, 11, True)
-     , (3709162182, 14, True);
+     , (3709162182, 14, True)
+     , (3709162182, 19, True)
+     , (3709162182, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3709162182, 0, 83897393, 83897393)
@@ -4753,7 +4978,9 @@ VALUES (3709162169, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3709162169, 13, True)
      , (3709162169, 11, True)
-     , (3709162169, 14, True);
+     , (3709162169, 14, True)
+     , (3709162169, 19, True)
+     , (3709162169, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3709162169, 0, 83897393, 83897393)
@@ -4796,7 +5023,9 @@ VALUES (3709162205, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3709162205, 13, True)
      , (3709162205, 11, True)
-     , (3709162205, 14, True);
+     , (3709162205, 14, True)
+     , (3709162205, 19, True)
+     , (3709162205, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3709162205, 0, 83897393, 83897393)
@@ -4839,7 +5068,9 @@ VALUES (3709162102, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3709162102, 13, True)
      , (3709162102, 11, True)
-     , (3709162102, 14, True);
+     , (3709162102, 14, True)
+     , (3709162102, 19, True)
+     , (3709162102, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3709162102, 0, 83897393, 83897393)
@@ -4885,7 +5116,9 @@ VALUES (3706657387, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3706657387, 13, True)
      , (3706657387, 11, True)
-     , (3706657387, 14, True);
+     , (3706657387, 14, True)
+     , (3706657387, 19, True)
+     , (3706657387, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2780654558, 18, 15402, 2327064, NULL, 39073);
@@ -4924,7 +5157,9 @@ VALUES (2780654558, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2780654558, 13, True)
      , (2780654558, 11, True)
-     , (2780654558, 14, True);
+     , (2780654558, 14, True)
+     , (2780654558, 19, True)
+     , (2780654558, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2780654558, 67113836, 0, 0);
@@ -4972,7 +5207,9 @@ VALUES (2148765460, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2148765460, 13, True)
      , (2148765460, 11, True)
-     , (2148765460, 14, True);
+     , (2148765460, 14, True)
+     , (2148765460, 19, True)
+     , (2148765460, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2446211293, 16, 38853, 270762512, NULL, 39073);
@@ -5010,7 +5247,8 @@ VALUES (2446211293, 39, 1.3);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2446211293, 13, True)
      , (2446211293, 11, True)
-     , (2446211293, 14, True);
+     , (2446211293, 14, True)
+     , (2446211293, 19, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2447882254, 16, 38852, 270762512, NULL, 39073);
@@ -5048,7 +5286,8 @@ VALUES (2447882254, 39, 1.3);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2447882254, 13, True)
      , (2447882254, 11, True)
-     , (2447882254, 14, True);
+     , (2447882254, 14, True)
+     , (2447882254, 19, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2884152118, 18, 33257, 270762648, NULL, 39073);
@@ -5088,7 +5327,9 @@ VALUES (2884152118, 39, 1.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2884152118, 13, True)
      , (2884152118, 11, True)
-     , (2884152118, 14, True);
+     , (2884152118, 14, True)
+     , (2884152118, 19, True)
+     , (2884152118, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2884152118, 0, 83898704, 83898705);
@@ -5133,7 +5374,9 @@ VALUES (3683495481, 39, 1.3);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3683495481, 13, True)
      , (3683495481, 11, True)
-     , (3683495481, 14, True);
+     , (3683495481, 14, True)
+     , (3683495481, 19, True)
+     , (3683495481, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3683495527, 18, 35395, 270762520, NULL, 39073);
@@ -5172,7 +5415,9 @@ VALUES (3683495527, 39, 1.3);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3683495527, 13, True)
      , (3683495527, 11, True)
-     , (3683495527, 14, True);
+     , (3683495527, 14, True)
+     , (3683495527, 19, True)
+     , (3683495527, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3683495556, 18, 35395, 270762520, NULL, 39073);
@@ -5211,7 +5456,9 @@ VALUES (3683495556, 39, 1.3);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3683495556, 13, True)
      , (3683495556, 11, True)
-     , (3683495556, 14, True);
+     , (3683495556, 14, True)
+     , (3683495556, 19, True)
+     , (3683495556, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2780394620, 18, 32698, 270762520, NULL, 38945);
@@ -5247,7 +5494,9 @@ VALUES (2780394620, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2780394620, 13, True)
      , (2780394620, 11, True)
-     , (2780394620, 14, True);
+     , (2780394620, 14, True)
+     , (2780394620, 19, True)
+     , (2780394620, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2780394620, 0, 83897393, 83897393)
@@ -5290,7 +5539,9 @@ VALUES (2780398932, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2780398932, 13, True)
      , (2780398932, 11, True)
-     , (2780398932, 14, True);
+     , (2780398932, 14, True)
+     , (2780398932, 19, True)
+     , (2780398932, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2780398932, 0, 83897393, 83897393)
@@ -5334,7 +5585,9 @@ VALUES (3708875358, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3708875358, 13, True)
      , (3708875358, 11, True)
-     , (3708875358, 14, True);
+     , (3708875358, 14, True)
+     , (3708875358, 19, True)
+     , (3708875358, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3708875358, 67111919, 0, 0);
@@ -5382,7 +5635,9 @@ VALUES (3704105253, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3704105253, 13, True)
      , (3704105253, 11, True)
-     , (3704105253, 14, True);
+     , (3704105253, 14, True)
+     , (3704105253, 19, True)
+     , (3704105253, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3704105253, 67113836, 0, 0);
@@ -5430,7 +5685,9 @@ VALUES (3704124278, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3704124278, 13, True)
      , (3704124278, 11, True)
-     , (3704124278, 14, True);
+     , (3704124278, 14, True)
+     , (3704124278, 19, True)
+     , (3704124278, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3704124278, 67113836, 0, 0);
@@ -5477,7 +5734,8 @@ VALUES (3631171532, 39, 1.3);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3631171532, 13, True)
      , (3631171532, 11, True)
-     , (3631171532, 14, True);
+     , (3631171532, 14, True)
+     , (3631171532, 19, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3359726482, 18, 32698, 270762520, NULL, 38945);
@@ -5513,7 +5771,9 @@ VALUES (3359726482, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3359726482, 13, True)
      , (3359726482, 11, True)
-     , (3359726482, 14, True);
+     , (3359726482, 14, True)
+     , (3359726482, 19, True)
+     , (3359726482, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3359726482, 0, 83897393, 83897393)
@@ -5556,7 +5816,9 @@ VALUES (3359726541, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3359726541, 13, True)
      , (3359726541, 11, True)
-     , (3359726541, 14, True);
+     , (3359726541, 14, True)
+     , (3359726541, 19, True)
+     , (3359726541, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3359726541, 0, 83897393, 83897393)
@@ -5599,7 +5861,9 @@ VALUES (3359726789, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3359726789, 13, True)
      , (3359726789, 11, True)
-     , (3359726789, 14, True);
+     , (3359726789, 14, True)
+     , (3359726789, 19, True)
+     , (3359726789, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3359726789, 0, 83897393, 83897393)
@@ -5645,7 +5909,9 @@ VALUES (3333668648, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3333668648, 13, True)
      , (3333668648, 11, True)
-     , (3333668648, 14, True);
+     , (3333668648, 14, True)
+     , (3333668648, 19, True)
+     , (3333668648, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3333668648, 67113836, 0, 0);
@@ -5693,7 +5959,9 @@ VALUES (3333668595, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3333668595, 13, True)
      , (3333668595, 11, True)
-     , (3333668595, 14, True);
+     , (3333668595, 14, True)
+     , (3333668595, 19, True)
+     , (3333668595, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3333668595, 67113836, 0, 0);
@@ -5741,7 +6009,9 @@ VALUES (3333668343, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3333668343, 13, True)
      , (3333668343, 11, True)
-     , (3333668343, 14, True);
+     , (3333668343, 14, True)
+     , (3333668343, 19, True)
+     , (3333668343, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3333668343, 67113836, 0, 0);
@@ -5789,7 +6059,9 @@ VALUES (3333668476, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3333668476, 13, True)
      , (3333668476, 11, True)
-     , (3333668476, 14, True);
+     , (3333668476, 14, True)
+     , (3333668476, 19, True)
+     , (3333668476, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3333668476, 67113836, 0, 0);
@@ -5837,7 +6109,9 @@ VALUES (3333665923, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3333665923, 13, True)
      , (3333665923, 11, True)
-     , (3333665923, 14, True);
+     , (3333665923, 14, True)
+     , (3333665923, 19, True)
+     , (3333665923, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3333665923, 67113836, 0, 0);
@@ -5885,7 +6159,9 @@ VALUES (3333667956, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3333667956, 13, True)
      , (3333667956, 11, True)
-     , (3333667956, 14, True);
+     , (3333667956, 14, True)
+     , (3333667956, 19, True)
+     , (3333667956, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3333667956, 67113836, 0, 0);
@@ -5933,7 +6209,9 @@ VALUES (3333667922, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3333667922, 13, True)
      , (3333667922, 11, True)
-     , (3333667922, 14, True);
+     , (3333667922, 14, True)
+     , (3333667922, 19, True)
+     , (3333667922, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3333667922, 67113836, 0, 0);
@@ -5981,7 +6259,9 @@ VALUES (3333667948, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3333667948, 13, True)
      , (3333667948, 11, True)
-     , (3333667948, 14, True);
+     , (3333667948, 14, True)
+     , (3333667948, 19, True)
+     , (3333667948, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3333667948, 67113836, 0, 0);
@@ -6029,7 +6309,9 @@ VALUES (3333667964, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3333667964, 13, True)
      , (3333667964, 11, True)
-     , (3333667964, 14, True);
+     , (3333667964, 14, True)
+     , (3333667964, 19, True)
+     , (3333667964, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3333667964, 67113836, 0, 0);
@@ -6077,7 +6359,9 @@ VALUES (3333623601, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3333623601, 13, True)
      , (3333623601, 11, True)
-     , (3333623601, 14, True);
+     , (3333623601, 14, True)
+     , (3333623601, 19, True)
+     , (3333623601, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3333623601, 67113836, 0, 0);
@@ -6125,7 +6409,9 @@ VALUES (3333668454, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3333668454, 13, True)
      , (3333668454, 11, True)
-     , (3333668454, 14, True);
+     , (3333668454, 14, True)
+     , (3333668454, 19, True)
+     , (3333668454, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3333668454, 67113836, 0, 0);
@@ -6173,7 +6459,9 @@ VALUES (3333687437, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3333687437, 13, True)
      , (3333687437, 11, True)
-     , (3333687437, 14, True);
+     , (3333687437, 14, True)
+     , (3333687437, 19, True)
+     , (3333687437, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3333687437, 67113836, 0, 0);
@@ -6221,7 +6509,9 @@ VALUES (3333737853, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3333737853, 13, True)
      , (3333737853, 11, True)
-     , (3333737853, 14, True);
+     , (3333737853, 14, True)
+     , (3333737853, 19, True)
+     , (3333737853, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3333737853, 67113836, 0, 0);
@@ -6269,7 +6559,9 @@ VALUES (2150574706, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2150574706, 13, True)
      , (2150574706, 11, True)
-     , (2150574706, 14, True);
+     , (2150574706, 14, True)
+     , (2150574706, 19, True)
+     , (2150574706, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2870680097, 18, 15402, 2327064, NULL, 39073);
@@ -6308,7 +6600,9 @@ VALUES (2870680097, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2870680097, 13, True)
      , (2870680097, 11, True)
-     , (2870680097, 14, True);
+     , (2870680097, 14, True)
+     , (2870680097, 19, True)
+     , (2870680097, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2870680097, 67113836, 0, 0);
@@ -6356,7 +6650,9 @@ VALUES (2871013743, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2871013743, 13, True)
      , (2871013743, 11, True)
-     , (2871013743, 14, True);
+     , (2871013743, 14, True)
+     , (2871013743, 19, True)
+     , (2871013743, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2871013743, 67113836, 0, 0);
@@ -6404,7 +6700,9 @@ VALUES (2871014584, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2871014584, 13, True)
      , (2871014584, 11, True)
-     , (2871014584, 14, True);
+     , (2871014584, 14, True)
+     , (2871014584, 19, True)
+     , (2871014584, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2871014584, 67113836, 0, 0);
@@ -6452,7 +6750,9 @@ VALUES (2871014461, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2871014461, 13, True)
      , (2871014461, 11, True)
-     , (2871014461, 14, True);
+     , (2871014461, 14, True)
+     , (2871014461, 19, True)
+     , (2871014461, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2871014461, 67113836, 0, 0);
@@ -6500,7 +6800,9 @@ VALUES (2871014425, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2871014425, 13, True)
      , (2871014425, 11, True)
-     , (2871014425, 14, True);
+     , (2871014425, 14, True)
+     , (2871014425, 19, True)
+     , (2871014425, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2871014425, 67113836, 0, 0);
@@ -6548,7 +6850,9 @@ VALUES (2871014424, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2871014424, 13, True)
      , (2871014424, 11, True)
-     , (2871014424, 14, True);
+     , (2871014424, 14, True)
+     , (2871014424, 19, True)
+     , (2871014424, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2871014424, 67113836, 0, 0);
@@ -6596,7 +6900,9 @@ VALUES (2871014590, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2871014590, 13, True)
      , (2871014590, 11, True)
-     , (2871014590, 14, True);
+     , (2871014590, 14, True)
+     , (2871014590, 19, True)
+     , (2871014590, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2871014590, 67113836, 0, 0);
@@ -6644,7 +6950,9 @@ VALUES (2870911737, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2870911737, 13, True)
      , (2870911737, 11, True)
-     , (2870911737, 14, True);
+     , (2870911737, 14, True)
+     , (2870911737, 19, True)
+     , (2870911737, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2870911737, 67113836, 0, 0);
@@ -6692,7 +7000,9 @@ VALUES (2871083431, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2871083431, 13, True)
      , (2871083431, 11, True)
-     , (2871083431, 14, True);
+     , (2871083431, 14, True)
+     , (2871083431, 19, True)
+     , (2871083431, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2871083431, 67113836, 0, 0);
@@ -6740,7 +7050,9 @@ VALUES (2871083433, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2871083433, 13, True)
      , (2871083433, 11, True)
-     , (2871083433, 14, True);
+     , (2871083433, 14, True)
+     , (2871083433, 19, True)
+     , (2871083433, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2871083433, 67113836, 0, 0);
@@ -6788,7 +7100,9 @@ VALUES (2871083128, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2871083128, 13, True)
      , (2871083128, 11, True)
-     , (2871083128, 14, True);
+     , (2871083128, 14, True)
+     , (2871083128, 19, True)
+     , (2871083128, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2871083128, 67113836, 0, 0);
@@ -6836,7 +7150,9 @@ VALUES (2870920963, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2870920963, 13, True)
      , (2870920963, 11, True)
-     , (2870920963, 14, True);
+     , (2870920963, 14, True)
+     , (2870920963, 19, True)
+     , (2870920963, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2870920963, 67113836, 0, 0);
@@ -6881,7 +7197,9 @@ VALUES (2447666483, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2447666483, 13, True)
      , (2447666483, 11, True)
-     , (2447666483, 14, True);
+     , (2447666483, 14, True)
+     , (2447666483, 19, True)
+     , (2447666483, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2447666483, 67111927, 0, 0);
@@ -6931,7 +7249,9 @@ VALUES (3704817687, 39, 0.75);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3704817687, 13, True)
      , (3704817687, 11, True)
-     , (3704817687, 14, True);
+     , (3704817687, 14, True)
+     , (3704817687, 19, True)
+     , (3704817687, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3704817687, 67111919, 0, 0);
@@ -6979,7 +7299,9 @@ VALUES (2881900418, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2881900418, 13, True)
      , (2881900418, 11, True)
-     , (2881900418, 14, True);
+     , (2881900418, 14, True)
+     , (2881900418, 19, True)
+     , (2881900418, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2881900418, 67113836, 0, 0);
@@ -7027,7 +7349,9 @@ VALUES (2881900651, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2881900651, 13, True)
      , (2881900651, 11, True)
-     , (2881900651, 14, True);
+     , (2881900651, 14, True)
+     , (2881900651, 19, True)
+     , (2881900651, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2881900651, 67113836, 0, 0);
@@ -7075,7 +7399,9 @@ VALUES (2881748148, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2881748148, 13, True)
      , (2881748148, 11, True)
-     , (2881748148, 14, True);
+     , (2881748148, 14, True)
+     , (2881748148, 19, True)
+     , (2881748148, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2881748148, 67113836, 0, 0);
@@ -7123,7 +7449,9 @@ VALUES (2881722060, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2881722060, 13, True)
      , (2881722060, 11, True)
-     , (2881722060, 14, True);
+     , (2881722060, 14, True)
+     , (2881722060, 19, True)
+     , (2881722060, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2881722060, 67113836, 0, 0);
@@ -7171,7 +7499,9 @@ VALUES (2881721983, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2881721983, 13, True)
      , (2881721983, 11, True)
-     , (2881721983, 14, True);
+     , (2881721983, 14, True)
+     , (2881721983, 19, True)
+     , (2881721983, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2881721983, 67113836, 0, 0);
@@ -7216,7 +7546,9 @@ VALUES (2883669671, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2883669671, 13, True)
      , (2883669671, 11, True)
-     , (2883669671, 14, True);
+     , (2883669671, 14, True)
+     , (2883669671, 19, True)
+     , (2883669671, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2883669671, 0, 83897393, 83897393)
@@ -7263,7 +7595,9 @@ VALUES (2883618571, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2883618571, 13, True)
      , (2883618571, 11, True)
-     , (2883618571, 14, True);
+     , (2883618571, 14, True)
+     , (2883618571, 19, True)
+     , (2883618571, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2883618571, 0, 83897426, 83897426);
@@ -7305,7 +7639,9 @@ VALUES (2885670875, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2885670875, 13, True)
      , (2885670875, 11, True)
-     , (2885670875, 14, True);
+     , (2885670875, 14, True)
+     , (2885670875, 19, True)
+     , (2885670875, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2885670875, 0, 83897484, 83897484);
@@ -7350,7 +7686,9 @@ VALUES (3629789110, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3629789110, 13, True)
      , (3629789110, 11, True)
-     , (3629789110, 14, True);
+     , (3629789110, 14, True)
+     , (3629789110, 19, True)
+     , (3629789110, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3330130285, 18, 15402, 2327064, NULL, 39073);
@@ -7389,7 +7727,9 @@ VALUES (3330130285, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3330130285, 13, True)
      , (3330130285, 11, True)
-     , (3330130285, 14, True);
+     , (3330130285, 14, True)
+     , (3330130285, 19, True)
+     , (3330130285, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3330130285, 67113836, 0, 0);
@@ -7437,7 +7777,9 @@ VALUES (3330139686, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3330139686, 13, True)
      , (3330139686, 11, True)
-     , (3330139686, 14, True);
+     , (3330139686, 14, True)
+     , (3330139686, 19, True)
+     , (3330139686, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3330139686, 67113836, 0, 0);
@@ -7482,7 +7824,9 @@ VALUES (3704624352, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3704624352, 13, True)
      , (3704624352, 11, True)
-     , (3704624352, 14, True);
+     , (3704624352, 14, True)
+     , (3704624352, 19, True)
+     , (3704624352, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3704624352, 0, 83897393, 83897393)
@@ -7528,7 +7872,9 @@ VALUES (3711525158, 39, 0.9);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3711525158, 13, True)
      , (3711525158, 11, True)
-     , (3711525158, 14, True);
+     , (3711525158, 14, True)
+     , (3711525158, 19, True)
+     , (3711525158, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3331760051, 18, 15402, 2327064, NULL, 39073);
@@ -7567,7 +7913,9 @@ VALUES (3331760051, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3331760051, 13, True)
      , (3331760051, 11, True)
-     , (3331760051, 14, True);
+     , (3331760051, 14, True)
+     , (3331760051, 19, True)
+     , (3331760051, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3331760051, 67113836, 0, 0);
@@ -7615,7 +7963,9 @@ VALUES (3331759829, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3331759829, 13, True)
      , (3331759829, 11, True)
-     , (3331759829, 14, True);
+     , (3331759829, 14, True)
+     , (3331759829, 19, True)
+     , (3331759829, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3331759829, 67113836, 0, 0);
@@ -7663,7 +8013,9 @@ VALUES (3331760311, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3331760311, 13, True)
      , (3331760311, 11, True)
-     , (3331760311, 14, True);
+     , (3331760311, 14, True)
+     , (3331760311, 19, True)
+     , (3331760311, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3331760311, 67113836, 0, 0);
@@ -7711,7 +8063,9 @@ VALUES (3331759834, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3331759834, 13, True)
      , (3331759834, 11, True)
-     , (3331759834, 14, True);
+     , (3331759834, 14, True)
+     , (3331759834, 19, True)
+     , (3331759834, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3331759834, 67113836, 0, 0);
@@ -7759,7 +8113,9 @@ VALUES (3331759757, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3331759757, 13, True)
      , (3331759757, 11, True)
-     , (3331759757, 14, True);
+     , (3331759757, 14, True)
+     , (3331759757, 19, True)
+     , (3331759757, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3331759757, 67113836, 0, 0);
@@ -7807,7 +8163,9 @@ VALUES (3331760099, 39, 2.5);
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3331760099, 13, True)
      , (3331760099, 11, True)
-     , (3331760099, 14, True);
+     , (3331760099, 14, True)
+     , (3331760099, 19, True)
+     , (3331760099, 22, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3331760099, 67113836, 0, 0);
@@ -7852,7 +8210,9 @@ VALUES (3331840606, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3331840606, 13, True)
      , (3331840606, 11, True)
-     , (3331840606, 14, True);
+     , (3331840606, 14, True)
+     , (3331840606, 19, True)
+     , (3331840606, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3331840606, 0, 83897393, 83897393)
@@ -7895,7 +8255,9 @@ VALUES (3331882287, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3331882287, 13, True)
      , (3331882287, 11, True)
-     , (3331882287, 14, True);
+     , (3331882287, 14, True)
+     , (3331882287, 19, True)
+     , (3331882287, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3331882287, 0, 83897393, 83897393)
@@ -7938,7 +8300,9 @@ VALUES (3331698918, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3331698918, 13, True)
      , (3331698918, 11, True)
-     , (3331698918, 14, True);
+     , (3331698918, 14, True)
+     , (3331698918, 19, True)
+     , (3331698918, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (3331698918, 0, 83897393, 83897393)
@@ -7981,7 +8345,9 @@ VALUES (2881090267, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2881090267, 13, True)
      , (2881090267, 11, True)
-     , (2881090267, 14, True);
+     , (2881090267, 14, True)
+     , (2881090267, 19, True)
+     , (2881090267, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2881090267, 0, 83897393, 83897393)
@@ -8024,7 +8390,9 @@ VALUES (2881090280, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2881090280, 13, True)
      , (2881090280, 11, True)
-     , (2881090280, 14, True);
+     , (2881090280, 14, True)
+     , (2881090280, 19, True)
+     , (2881090280, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2881090280, 0, 83897393, 83897393)
@@ -8067,7 +8435,9 @@ VALUES (2881090042, 1, 2)
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2881090042, 13, True)
      , (2881090042, 11, True)
-     , (2881090042, 14, True);
+     , (2881090042, 14, True)
+     , (2881090042, 19, True)
+     , (2881090042, 22, True);
 
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (2881090042, 0, 83897393, 83897393)
