@@ -27636,6 +27636,35 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (12225, 0, 16787385);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (30737, 'newyearsgiftyardballoon');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30737, 18, 30737, 270549000, NULL, 131073);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30737, 1, 'Yard Balloons');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (30737, 8, 100677404)
+     , (30737, 1, 33559223);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30737, 53, 101)
+     , (30737, 1, 128)
+     , (30737, 5, 5)
+     , (30737, 151, 25)
+     , (30737, 19, 1000)
+     , (30737, 93, 1044)
+     , (30737, 9007, 1);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30737, 13, True)
+     , (30737, 11, True)
+     , (30737, 14, True)
+     , (30737, 19, True)
+     , (30737, 22, True);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25899, 'mitecolossallegbone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
