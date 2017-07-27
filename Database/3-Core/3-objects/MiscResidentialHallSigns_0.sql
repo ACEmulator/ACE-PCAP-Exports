@@ -1784,35 +1784,6 @@ VALUES (1966506175, 12, True)
      , (1966506175, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2215730409, 18, 30737, 270532616, NULL, 163841);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2215730409, 1, 19202318, 29.45369, -27.40989, -1.862645E-09, 0.9998121, 0, 0, -0.0193835);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2215730409, 1, 'Yard Balloons');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (2215730409, 8, 100677404)
-     , (2215730409, 1, 33559223);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2215730409, 53, 101)
-     , (2215730409, 1, 128)
-     , (2215730409, 5, 5)
-     , (2215730409, 151, 25)
-     , (2215730409, 19, 1000)
-     , (2215730409, 93, 1044)
-     , (2215730409, 9007, 8);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2215730409, 13, True)
-     , (2215730409, 11, True)
-     , (2215730409, 14, True)
-     , (2215730409, 19, True)
-     , (2215730409, 22, True);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (1966493857, 20, 16899, 2097176, NULL, 32769);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
