@@ -17,7 +17,8 @@ VALUES (412, 8, 100668183)
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (412, 1, 128)
      , (412, 16, 32)
-     , (412, 93, 65544);
+     , (412, 93, 65544)
+     , (412, 9007, 19);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (412, 54, 2);

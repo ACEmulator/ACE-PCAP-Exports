@@ -19,7 +19,8 @@ VALUES (27547, 1, 268435456)
      , (27547, 95, 1)
      , (27547, 133, 4)
      , (27547, 16, 32)
-     , (27547, 93, 1040);
+     , (27547, 93, 1040)
+     , (27547, 9007, 65);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (27547, 54, 2);

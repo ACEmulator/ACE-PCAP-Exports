@@ -21,7 +21,8 @@ VALUES (4, 1, 16)
      , (4, 6, 102)
      , (4, 133, 4)
      , (4, 16, 1)
-     , (4, 93, 4195336);
+     , (4, 93, 4195336)
+     , (4, 9007, 11);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4, 12, True)
