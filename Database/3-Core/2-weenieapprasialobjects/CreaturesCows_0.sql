@@ -54,11 +54,3 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (34611, 2, 0)
      , (34611, 1, 10500);
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46278, 2, 39)
-     , (46278, 25, 105);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46278, 2, 460)
-     , (46278, 1, 460);
-

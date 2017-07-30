@@ -186,38 +186,3 @@ VALUES (34611, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34611, 67116738, 0, 0);
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (46278, 'ace46278-cowardlysnowman');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (46278, 20, 46278, 8388630, 'AAA9AAAAAAA=', 104643);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46278, 1, 'Cowardly Snowman');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (46278, 8, 100669125)
-     , (46278, 1, 33556222)
-     , (46278, 3, 536871000)
-     , (46278, 2, 150995088)
-     , (46278, 22, 872415346);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46278, 1, 16)
-     , (46278, 7, 255)
-     , (46278, 6, 255)
-     , (46278, 133, 2)
-     , (46278, 16, 1)
-     , (46278, 93, 4195336)
-     , (46278, 9007, 15);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (46278, 39, 0.9);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (46278, 12, True)
-     , (46278, 14, True)
-     , (46278, 42, True)
-     , (46278, 19, True)
-     , (46278, 1, True);
-

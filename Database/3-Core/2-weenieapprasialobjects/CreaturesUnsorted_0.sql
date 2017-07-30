@@ -19317,6 +19317,14 @@ VALUES (42338, 2, 0)
      , (42338, 1, 1700);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46278, 2, 39)
+     , (46278, 25, 105);
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (46278, 2, 460)
+     , (46278, 1, 460);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32005, 2, 14)
      , (32005, 25, 160);
 

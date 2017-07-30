@@ -1,7 +1,7 @@
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9549, 16, 'Bought by Khaotika, Gaerlan Slayer on Morningthaw 19, 204 P.Y. at Darktide
+VALUES (9549, 16, 'Bought by Ripley, Life Adept on Leafdawning 14, 195 P.Y. at Gloaming-and-Half
 
-Purchased at 25.8N, 1.0W
+Purchased at 16.1N, 57.9E
 
 ');
 
