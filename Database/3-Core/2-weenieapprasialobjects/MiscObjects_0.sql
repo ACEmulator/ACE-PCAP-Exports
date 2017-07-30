@@ -74,19 +74,6 @@ VALUES (38222, 33, 1)
      , (38222, 5, 5);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9549, 16, 'Bought by Ripley, Life Adept on Leafdawning 14, 195 P.Y. at Gloaming-and-Half
-
-Purchased at 16.1N, 57.9E
-
-');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9549, 33, 1)
-     , (9549, 114, 2)
-     , (9549, 19, 10)
-     , (9549, 5, 25);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9314, 16, 'A Mnemosyne, invented by Tennar Portheran, used by the Dericost to preserve their heritage after the chaos wrought by the Fourth Sending.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
