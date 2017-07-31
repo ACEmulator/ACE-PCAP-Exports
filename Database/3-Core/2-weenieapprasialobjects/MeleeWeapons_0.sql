@@ -18032,8 +18032,7 @@ VALUES (48594, 2, 78)
      , (48594, 25, 115);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (48594, 2, 460)
-     , (48594, 1, 460);
+VALUES (48594, 64, 460);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48986, 14, 'Use this essence to summon or dismiss your Lightning Phyntos Wasp.');
@@ -19029,8 +19028,7 @@ VALUES (35345, 2, 1)
      , (35345, 25, 100);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (35345, 2, 410)
-     , (35345, 1, 410);
+VALUES (35345, 64, 410);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27593, 16, 'A small, flimsy looking blade for precision slicing. It appears to be made of pure diamond. As you peer at it, a swathe of tiny, three-dimensional geometric shapes briefly flash violet within the hilt, and a hollow voice in your mind intones, "Puppet, this reconfiguration has been specially prepared and left for your use. Use on captured meat beings to peel their artificial exoskeletons away."');

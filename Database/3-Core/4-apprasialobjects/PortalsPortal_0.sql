@@ -5021,8 +5021,7 @@ VALUES (3708343093, 2, 44)
      , (3708343093, 25, 200);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3708343093, 2, 1370)
-     , (3708343093, 1, 1370);
+VALUES (3708343093, 64, 1370);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1880825856, 16, 'This portal goes to Mayoi, a coastal settlement renowned for Shoyanen Kenchu, the master mage of the Sho people, who lives in a spire on the outskirts of town. This is a good town for characters over level 30.')

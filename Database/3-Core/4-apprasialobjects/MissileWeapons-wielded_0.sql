@@ -342,17 +342,14 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (2447694075, 1, 480)
      , (2447694075, 2, 600)
      , (2447694075, 4, 400)
-     , (2447694075, 3, 340)
-     , (2447694075, 5, 120)
-     , (2447694075, 6, 180);
+     , (2447694075, 8, 340)
+     , (2447694075, 16, 120)
+     , (2447694075, 32, 180);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2447694075, 2, 500)
-     , (2447694075, 4, 1100)
-     , (2447694075, 6, 180)
-     , (2447694075, 1, 500)
-     , (2447694075, 3, 1100)
-     , (2447694075, 5, 180);
+VALUES (2447694075, 64, 500)
+     , (2447694075, 128, 1100)
+     , (2447694075, 256, 180);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2447888154, 2, 1)
@@ -362,17 +359,14 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (2447888154, 1, 380)
      , (2447888154, 2, 380)
      , (2447888154, 4, 280)
-     , (2447888154, 3, 240)
-     , (2447888154, 5, 160)
-     , (2447888154, 6, 160);
+     , (2447888154, 8, 240)
+     , (2447888154, 16, 160)
+     , (2447888154, 32, 160);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2447888154, 2, 3690)
-     , (2447888154, 4, 9000)
-     , (2447888154, 6, 160)
-     , (2447888154, 1, 3690)
-     , (2447888154, 3, 9000)
-     , (2447888154, 5, 160);
+VALUES (2447888154, 64, 3690)
+     , (2447888154, 128, 9000)
+     , (2447888154, 256, 160);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2448345443, 16, 'A glowing ball of Coalesced Aetheria.');

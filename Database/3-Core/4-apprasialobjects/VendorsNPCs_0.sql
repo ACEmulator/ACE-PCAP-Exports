@@ -20,17 +20,14 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (3692305043, 1, 35)
      , (3692305043, 2, 30)
      , (3692305043, 4, 40)
-     , (3692305043, 3, 35)
-     , (3692305043, 5, 10)
-     , (3692305043, 6, 10);
+     , (3692305043, 8, 35)
+     , (3692305043, 16, 10)
+     , (3692305043, 32, 10);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3692305043, 2, 45)
-     , (3692305043, 4, 75)
-     , (3692305043, 6, 15)
-     , (3692305043, 1, 45)
-     , (3692305043, 3, 75)
-     , (3692305043, 5, 15);
+VALUES (3692305043, 64, 45)
+     , (3692305043, 128, 75)
+     , (3692305043, 256, 15);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2033496175, 5, 'Arcanum Tinkerer');
@@ -54,17 +51,14 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (2033496175, 1, 290)
      , (2033496175, 2, 200)
      , (2033496175, 4, 290)
-     , (2033496175, 3, 260)
-     , (2033496175, 5, 290)
-     , (2033496175, 6, 200);
+     , (2033496175, 8, 260)
+     , (2033496175, 16, 290)
+     , (2033496175, 32, 200);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2033496175, 2, 296)
-     , (2033496175, 4, 396)
-     , (2033496175, 6, 396)
-     , (2033496175, 1, 296)
-     , (2033496175, 3, 396)
-     , (2033496175, 5, 396);
+VALUES (2033496175, 64, 296)
+     , (2033496175, 128, 396)
+     , (2033496175, 256, 396);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2094620679, 5, 'Master Armorer');
@@ -88,17 +82,14 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (2094620679, 1, 220)
      , (2094620679, 2, 200)
      , (2094620679, 4, 220)
-     , (2094620679, 3, 170)
-     , (2094620679, 5, 150)
-     , (2094620679, 6, 150);
+     , (2094620679, 8, 170)
+     , (2094620679, 16, 150)
+     , (2094620679, 32, 150);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2094620679, 2, 250)
-     , (2094620679, 4, 435)
-     , (2094620679, 6, 300)
-     , (2094620679, 1, 250)
-     , (2094620679, 3, 435)
-     , (2094620679, 5, 300);
+VALUES (2094620679, 64, 250)
+     , (2094620679, 128, 435)
+     , (2094620679, 256, 300);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3706113473, 5, 'Peddler');
@@ -119,8 +110,7 @@ VALUES (3706113473, 113, 1)
      , (3706113473, 188, 1);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3706113473, 2, 43)
-     , (3706113473, 1, 43);
+VALUES (3706113473, 64, 43);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2072080388, 5, 'Master Armorer');
@@ -144,17 +134,14 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (2072080388, 1, 220)
      , (2072080388, 2, 200)
      , (2072080388, 4, 220)
-     , (2072080388, 3, 170)
-     , (2072080388, 5, 150)
-     , (2072080388, 6, 150);
+     , (2072080388, 8, 170)
+     , (2072080388, 16, 150)
+     , (2072080388, 32, 150);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2072080388, 2, 250)
-     , (2072080388, 4, 435)
-     , (2072080388, 6, 300)
-     , (2072080388, 1, 250)
-     , (2072080388, 3, 435)
-     , (2072080388, 5, 300);
+VALUES (2072080388, 64, 250)
+     , (2072080388, 128, 435)
+     , (2072080388, 256, 300);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2016968709, 5, 'Master Armorer');
@@ -178,17 +165,14 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (2016968709, 1, 220)
      , (2016968709, 2, 200)
      , (2016968709, 4, 220)
-     , (2016968709, 3, 170)
-     , (2016968709, 5, 150)
-     , (2016968709, 6, 150);
+     , (2016968709, 8, 170)
+     , (2016968709, 16, 150)
+     , (2016968709, 32, 150);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2016968709, 2, 250)
-     , (2016968709, 4, 435)
-     , (2016968709, 6, 300)
-     , (2016968709, 1, 250)
-     , (2016968709, 3, 435)
-     , (2016968709, 5, 300);
+VALUES (2016968709, 64, 250)
+     , (2016968709, 128, 435)
+     , (2016968709, 256, 300);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3684910881, 5, 'Peddler');
@@ -209,6 +193,5 @@ VALUES (3684910881, 113, 1)
      , (3684910881, 188, 1);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3684910881, 2, 43)
-     , (3684910881, 1, 43);
+VALUES (3684910881, 64, 43);
 

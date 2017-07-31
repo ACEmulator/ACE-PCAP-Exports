@@ -7005,17 +7005,14 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (2447687365, 1, 465)
      , (2447687365, 2, 415)
      , (2447687365, 4, 405)
-     , (2447687365, 3, 370)
-     , (2447687365, 5, 85)
-     , (2447687365, 6, 85);
+     , (2447687365, 8, 370)
+     , (2447687365, 16, 85)
+     , (2447687365, 32, 85);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2447687365, 2, 808)
-     , (2447687365, 4, 1413)
-     , (2447687365, 6, 85)
-     , (2447687365, 1, 808)
-     , (2447687365, 3, 1415)
-     , (2447687365, 5, 85);
+VALUES (2447687365, 64, 808)
+     , (2447687365, 128, 1415)
+     , (2447687365, 256, 85);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2447688039, 38, 'Arena 17');
@@ -7290,16 +7287,14 @@ VALUES (3703503981, 113, 1)
      , (3703503981, 188, 4);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3703503981, 2, 480)
-     , (3703503981, 1, 480);
+VALUES (3703503981, 64, 480);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3703503992, 2, 83)
      , (3703503992, 25, 115);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3703503992, 2, 468)
-     , (3703503992, 1, 468);
+VALUES (3703503992, 64, 468);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3703944323, 16, 'Killed by Mag-five.');
@@ -7325,8 +7320,7 @@ VALUES (3703507787, 2, 13)
      , (3703507787, 25, 185);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3703507787, 2, 935)
-     , (3703507787, 1, 935);
+VALUES (3703507787, 64, 935);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3703727006, 16, 'Gem');
@@ -7545,25 +7539,21 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (3703612928, 1, 210)
      , (3703612928, 2, 300)
      , (3703612928, 4, 200)
-     , (3703612928, 3, 180)
-     , (3703612928, 5, 70)
-     , (3703612928, 6, 60);
+     , (3703612928, 8, 180)
+     , (3703612928, 16, 70)
+     , (3703612928, 32, 60);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3703612928, 2, 400)
-     , (3703612928, 4, 599)
-     , (3703612928, 6, 60)
-     , (3703612928, 1, 400)
-     , (3703612928, 3, 600)
-     , (3703612928, 5, 60);
+VALUES (3703612928, 64, 400)
+     , (3703612928, 128, 600)
+     , (3703612928, 256, 60);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3703950412, 2, 8)
      , (3703950412, 25, 80);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3703950412, 2, 400)
-     , (3703950412, 1, 400);
+VALUES (3703950412, 64, 400);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3703617029, 14, 'Use on a magic item to destroy that item and drain its Mana.');
@@ -7582,8 +7572,7 @@ VALUES (3703727021, 2, 8)
      , (3703727021, 25, 80);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3703727021, 2, 400)
-     , (3703727021, 1, 400);
+VALUES (3703727021, 64, 400);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3703728886, 15, 'A bright red piece of paper with some writing on it.');
@@ -7701,8 +7690,7 @@ VALUES (3703616751, 2, 8)
      , (3703616751, 25, 80);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3703616751, 2, 400)
-     , (3703616751, 1, 400);
+VALUES (3703616751, 64, 400);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3703964548, 16, 'Bandana of Magic Item Expertise');
@@ -7814,8 +7802,7 @@ VALUES (3703964881, 2, 8)
      , (3703964881, 25, 80);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3703964881, 2, 400)
-     , (3703964881, 1, 400);
+VALUES (3703964881, 64, 400);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3703947850, 16, 'Killed by Fquicker.');

@@ -574,6 +574,5 @@ VALUES (14790, 2, 75)
      , (14790, 25, 50);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (14790, 2, 250)
-     , (14790, 1, 250);
+VALUES (14790, 64, 250);
 

@@ -19483,8 +19483,7 @@ VALUES (2447666496, 2, 14)
      , (2447666496, 25, 240);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2447666496, 2, 4600)
-     , (2447666496, 1, 4600);
+VALUES (2447666496, 64, 4600);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2448340007, 16, 'Acid Dagger of Blooddrinker');
@@ -19697,17 +19696,14 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (2448362329, 1, 280)
      , (2448362329, 2, 190)
      , (2448362329, 4, 230)
-     , (2448362329, 3, 280)
-     , (2448362329, 5, 170)
-     , (2448362329, 6, 220);
+     , (2448362329, 8, 280)
+     , (2448362329, 16, 170)
+     , (2448362329, 32, 220);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2448362329, 2, 1173)
-     , (2448362329, 4, 1189)
-     , (2448362329, 6, 1113)
-     , (2448362329, 1, 1495)
-     , (2448362329, 3, 1190)
-     , (2448362329, 5, 1120);
+VALUES (2448362329, 64, 1495)
+     , (2448362329, 128, 1190)
+     , (2448362329, 256, 1120);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2448835658, 14, 'Use this item to open it and see its contents.');

@@ -4845,8 +4845,7 @@ VALUES (46634, 2, 44)
      , (46634, 25, 200);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46634, 2, 1370)
-     , (46634, 1, 1370);
+VALUES (46634, 64, 1370);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24551, 160, 230)
