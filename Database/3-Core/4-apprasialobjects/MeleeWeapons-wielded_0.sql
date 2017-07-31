@@ -32,17 +32,14 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (2447685216, 1, 395)
      , (2447685216, 2, 360)
      , (2447685216, 4, 340)
-     , (2447685216, 3, 320)
-     , (2447685216, 5, 80)
-     , (2447685216, 6, 80);
+     , (2447685216, 8, 320)
+     , (2447685216, 16, 80)
+     , (2447685216, 32, 80);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2447685216, 2, 680)
-     , (2447685216, 4, 910)
-     , (2447685216, 6, 80)
-     , (2447685216, 1, 680)
-     , (2447685216, 3, 910)
-     , (2447685216, 5, 80);
+VALUES (2447685216, 64, 680)
+     , (2447685216, 128, 910)
+     , (2447685216, 256, 80);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2447687072, 15, 'This key appears to have been a light marble once, but the years have dulled the color to a deep grey. With some clever locksmithing, and perhaps an intricate carving tool, you may be able to clean it up.');
@@ -261,17 +258,14 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (2447693308, 1, 370)
      , (2447693308, 2, 370)
      , (2447693308, 4, 350)
-     , (2447693308, 3, 330)
-     , (2447693308, 5, 440)
-     , (2447693308, 6, 490);
+     , (2447693308, 8, 330)
+     , (2447693308, 16, 440)
+     , (2447693308, 32, 490);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2447693308, 2, 620)
-     , (2447693308, 4, 870)
-     , (2447693308, 6, 1490)
-     , (2447693308, 1, 620)
-     , (2447693308, 3, 870)
-     , (2447693308, 5, 1490);
+VALUES (2447693308, 64, 620)
+     , (2447693308, 128, 870)
+     , (2447693308, 256, 1490);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2447684101, 2, 83)
@@ -282,17 +276,14 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (2447684101, 1, 395)
      , (2447684101, 2, 360)
      , (2447684101, 4, 340)
-     , (2447684101, 3, 320)
-     , (2447684101, 5, 80)
-     , (2447684101, 6, 80);
+     , (2447684101, 8, 320)
+     , (2447684101, 16, 80)
+     , (2447684101, 32, 80);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2447684101, 2, 680)
-     , (2447684101, 4, 910)
-     , (2447684101, 6, 80)
-     , (2447684101, 1, 680)
-     , (2447684101, 3, 910)
-     , (2447684101, 5, 80);
+VALUES (2447684101, 64, 680)
+     , (2447684101, 128, 910)
+     , (2447684101, 256, 80);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2447687492, 16, 'Killed by Mag-nine.');

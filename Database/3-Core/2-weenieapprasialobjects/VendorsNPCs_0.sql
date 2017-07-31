@@ -17,8 +17,7 @@ VALUES (2048, 113, 1)
      , (2048, 188, 1);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2048, 2, 43)
-     , (2048, 1, 43);
+VALUES (2048, 64, 43);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51154, 5, 'Master Armorer');
@@ -39,8 +38,7 @@ VALUES (51154, 113, 1)
      , (51154, 188, 1);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51154, 2, 250)
-     , (51154, 1, 250);
+VALUES (51154, 64, 250);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2049, 5, 'Peddler');
@@ -64,17 +62,14 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (2049, 1, 35)
      , (2049, 2, 30)
      , (2049, 4, 40)
-     , (2049, 3, 35)
-     , (2049, 5, 10)
-     , (2049, 6, 10);
+     , (2049, 8, 35)
+     , (2049, 16, 10)
+     , (2049, 32, 10);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2049, 2, 45)
-     , (2049, 4, 75)
-     , (2049, 6, 15)
-     , (2049, 1, 45)
-     , (2049, 3, 75)
-     , (2049, 5, 15);
+VALUES (2049, 64, 45)
+     , (2049, 128, 75)
+     , (2049, 256, 15);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51156, 5, 'Master Armorer');
@@ -95,8 +90,7 @@ VALUES (51156, 113, 1)
      , (51156, 188, 2);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51156, 2, 250)
-     , (51156, 1, 250);
+VALUES (51156, 64, 250);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41752, 5, 'Arcanum Tinkerer');
@@ -117,8 +111,7 @@ VALUES (41752, 113, 1)
      , (41752, 188, 2);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (41752, 2, 296)
-     , (41752, 1, 296);
+VALUES (41752, 64, 296);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51155, 5, 'Master Armorer');
@@ -139,6 +132,5 @@ VALUES (51155, 113, 1)
      , (51155, 188, 3);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51155, 2, 250)
-     , (51155, 1, 250);
+VALUES (51155, 64, 250);
 
