@@ -9,6 +9,43 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (1943, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22907, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22907, 19, 0)
+     , (22907, 5, 11698)
+     , (22907, 38, 5000)
+     , (22907, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22907, 2, 0)
+     , (22907, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48743, 16, 'A chest containing the highest quality items. ')
+     , (48743, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48743, 19, 2500)
+     , (48743, 5, 10291)
+     , (48743, 38, 9999)
+     , (48743, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (48743, 2, 0)
+     , (48743, 3, 1);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (145, 19, 200)
+     , (145, 5, 6000)
+     , (145, 38, 50)
+     , (145, 173, 100);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (145, 2, 0)
+     , (145, 3, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (143, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -134,6 +171,101 @@ VALUES (9460, 2, 0)
      , (9460, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38447, 16, 'A chest with a higher chance of containing an even mix of weapons and armor. ')
+     , (38447, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38447, 19, 2500)
+     , (38447, 5, 10843)
+     , (38447, 38, 9999)
+     , (38447, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38447, 2, 1)
+     , (38447, 3, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38443, 16, 'A chest with a higher chance of containing an even mix of items. ')
+     , (38443, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38443, 19, 2500)
+     , (38443, 5, 11796)
+     , (38443, 38, 9999)
+     , (38443, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38443, 2, 0)
+     , (38443, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38445, 16, 'A chest with a higher chance of containing items useful to a Mage. ')
+     , (38445, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38445, 19, 2500)
+     , (38445, 5, 9542)
+     , (38445, 38, 9999)
+     , (38445, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38445, 2, 0)
+     , (38445, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38444, 16, 'A chest with a higher chance of containing mostly armor. ')
+     , (38444, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38444, 19, 2500)
+     , (38444, 5, 12125)
+     , (38444, 38, 9999)
+     , (38444, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38444, 2, 0)
+     , (38444, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38446, 16, 'A chest with a higher chance of containing mostly weapons. ')
+     , (38446, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38446, 19, 2500)
+     , (38446, 5, 11646)
+     , (38446, 38, 9999)
+     , (38446, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38446, 2, 0)
+     , (38446, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38457, 16, 'A chest with a higher chance of containing mostly weapons. ')
+     , (38457, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38457, 19, 2500)
+     , (38457, 5, 11015)
+     , (38457, 38, 9999)
+     , (38457, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38457, 2, 0)
+     , (38457, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22571, 16, 'A heavy iron chest. There are strange runes carved around the lid.')
+     , (22571, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22571, 19, 2500)
+     , (22571, 5, 16483);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22571, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24552, 14, 'Use this item to open it and see its contents.')
      , (24552, 15, 'A chest');
 
@@ -155,6 +287,16 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (31445, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1929, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1929, 19, 2500)
+     , (1929, 5, 9070);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1929, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22207, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -168,18 +310,15 @@ VALUES (22207, 2, 0)
      , (22207, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48743, 16, 'A chest containing the highest quality items. ')
-     , (48743, 14, 'Use this item to open it and see its contents.');
+VALUES (22576, 16, 'A heavy iron chest. There are strange runes carved around the lid.')
+     , (22576, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48743, 19, 2500)
-     , (48743, 5, 10161)
-     , (48743, 38, 9999)
-     , (48743, 173, 0);
+VALUES (22576, 19, 2500)
+     , (22576, 5, 13266);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (48743, 2, 0)
-     , (48743, 3, 1);
+VALUES (22576, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33610, 14, 'Use this item to open it and see its contents.');
@@ -256,6 +395,20 @@ VALUES (3971, 2, 0)
      , (3971, 3, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22570, 16, 'A heavy iron chest. There are strange runes carved around the lid.')
+     , (22570, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22570, 19, 2500)
+     , (22570, 5, 11269)
+     , (22570, 38, 200)
+     , (22570, 173, 100);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22570, 2, 0)
+     , (22570, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23601, 16, 'A heavy iron chest. There are strange runes carved around the lid.')
      , (23601, 14, 'Use this item to open it and see its contents.');
 
@@ -269,15 +422,13 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (23601, 2, 0)
      , (23601, 3, 1);
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (145, 19, 200)
-     , (145, 5, 6000)
-     , (145, 38, 50)
-     , (145, 173, 100);
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8864, 14, 'Use this item to open it and see its contents.')
+     , (8864, 15, 'This shelf houses free public copies of the history of Dereth.');
 
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (145, 2, 0)
-     , (145, 3, 0);
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8864, 19, 0)
+     , (8864, 5, 1010);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1946, 14, 'Use this item to open it and see its contents.');
@@ -313,6 +464,20 @@ VALUES (3990, 2, 0)
      , (3990, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22567, 16, 'A heavy iron chest. There are strange runes carved around the lid.')
+     , (22567, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22567, 19, 2500)
+     , (22567, 5, 14470)
+     , (22567, 38, 300)
+     , (22567, 173, 98);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22567, 2, 0)
+     , (22567, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8514, 16, 'A chest inscribed with arcane glyphs. There appear to be some inscriptions in a cuneiform language along the lid. There is a suspicious glow near the lock.')
      , (8514, 14, 'Use this item to open it and see its contents.');
 
@@ -329,6 +494,20 @@ VALUES (8514, 2, 0)
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (8514, 1432);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30796, 16, 'A disturbing reliquary, charred black by the devastation of the Singularity Caul.')
+     , (30796, 14, 'Use a Black Marrow Key to unlock this cache.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30796, 19, 2500)
+     , (30796, 5, 11113)
+     , (30796, 38, 9999)
+     , (30796, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30796, 2, 0)
+     , (30796, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29470, 14, 'Use this item to open it and see its contents.')
@@ -357,6 +536,16 @@ VALUES (37412, 19, 2500)
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (37412, 2, 0)
      , (37412, 3, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31443, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31443, 19, 2500)
+     , (31443, 5, 9050);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31443, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30989, 14, 'Double-click this item to open it and see its contents.');
@@ -441,6 +630,31 @@ VALUES (34608, 2, 0)
      , (34608, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22572, 16, 'A heavy iron chest. There are strange runes carved around the lid.')
+     , (22572, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22572, 19, 2500)
+     , (22572, 5, 11862);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22572, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22568, 16, 'A heavy iron chest. There are strange runes carved around the lid.')
+     , (22568, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22568, 19, 2500)
+     , (22568, 5, 12412)
+     , (22568, 38, 100)
+     , (22568, 173, 100);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22568, 2, 0)
+     , (22568, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23085, 16, 'A chest carved from mahogany and reinforced with steel and iron bands.')
      , (23085, 14, 'Use this item to open it and see its contents.');
 
@@ -463,6 +677,34 @@ VALUES (1945, 19, 2500)
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1945, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22566, 16, 'A heavy iron chest. There are strange runes carved around the lid.')
+     , (22566, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22566, 19, 2500)
+     , (22566, 5, 12122)
+     , (22566, 38, 400)
+     , (22566, 173, 82);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22566, 2, 0)
+     , (22566, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9286, 16, 'A Virindi cache lies here.')
+     , (9286, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9286, 19, 2500)
+     , (9286, 5, 9000)
+     , (9286, 38, 5000)
+     , (9286, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9286, 2, 0)
+     , (9286, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8865, 16, 'The tomb of the Sand King Anadil. A small inscription on the lid reads, "Last of the high desert''s mighty, fallen at last. Honor is yours on this world chieftain. Serve the gods with distinction in the next."')
@@ -508,6 +750,20 @@ VALUES (9288, 19, 2500)
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9288, 2, 0)
      , (9288, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24476, 16, 'This chest appears to have a sturdy steel lock, of the kind used to protect very valuable treasure. Unfortunately, it looks nearly impossible to pick.')
+     , (24476, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24476, 19, 2500)
+     , (24476, 5, 11447)
+     , (24476, 38, 7500)
+     , (24476, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24476, 2, 0)
+     , (24476, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3965, 14, 'Use this item to open it and see its contents.');
@@ -589,13 +845,13 @@ VALUES (4874, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (4874, 19, 200)
-     , (4874, 5, 6417)
+     , (4874, 5, 7336)
      , (4874, 38, 20)
      , (4874, 173, 100);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4874, 2, 0)
-     , (4874, 3, 0);
+     , (4874, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4855, 14, 'Use this item to open it and see its contents.');
@@ -718,6 +974,26 @@ VALUES (1915, 19, 2500)
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1915, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1922, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1922, 19, 2500)
+     , (1922, 5, 9200);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1922, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1918, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1918, 19, 2500)
+     , (1918, 5, 9115);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1918, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1924, 14, 'Use this item to open it and see its contents.');
@@ -906,6 +1182,20 @@ VALUES (20907, 2, 0)
      , (20907, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48742, 16, 'A chest containing the highest quality magic items. ')
+     , (48742, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48742, 19, 2500)
+     , (48742, 5, 9469)
+     , (48742, 38, 9999)
+     , (48742, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (48742, 2, 0)
+     , (48742, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48741, 16, 'A chest containing the highest quality armor. ')
      , (48741, 14, 'Use this item to open it and see its contents.');
 
@@ -920,26 +1210,12 @@ VALUES (48741, 2, 0)
      , (48741, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48742, 16, 'A chest containing the highest quality magic items. ')
-     , (48742, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48742, 19, 2500)
-     , (48742, 5, 9411)
-     , (48742, 38, 9999)
-     , (48742, 173, 0);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (48742, 2, 0)
-     , (48742, 3, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48744, 16, 'A chest containing the highest quality weapons. ')
      , (48744, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (48744, 19, 2500)
-     , (48744, 5, 11225)
+     , (48744, 5, 12323)
      , (48744, 38, 9999)
      , (48744, 173, 0);
 
@@ -1026,6 +1302,10 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (1215, 2, 0)
      , (1215, 3, 1);
 
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1115, 19, 0)
+     , (1115, 5, 900);
+
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3984, 14, 'Use this item to open it and see its contents.');
 
@@ -1061,14 +1341,6 @@ VALUES (3981, 19, 2500)
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3981, 2, 0)
      , (3981, 3, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8864, 14, 'Use this item to open it and see its contents.')
-     , (8864, 15, 'This shelf houses free public copies of the history of Dereth.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8864, 19, 0)
-     , (8864, 5, 1010);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33828, 16, 'An old footlocker intrusted to Sergeant Huang of Sawato.')
@@ -1234,7 +1506,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (33818, 14, 'Use the Shadow Chest Key to unlock this cache.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33818, 5, 10430);
+VALUES (33818, 5, 13006);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (33818, 2, 0)
@@ -1447,6 +1719,20 @@ VALUES (38505, 2, 0)
      , (38505, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3991, 16, 'This chest appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick.')
+     , (3991, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3991, 19, 2500)
+     , (3991, 5, 9222)
+     , (3991, 38, 5000)
+     , (3991, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3991, 2, 0)
+     , (3991, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2143, 16, 'Though plain, this tomb radiates an aura of power and majesty.  Surely Thorsten Cragstone''s presence can be felt here.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -1498,6 +1784,16 @@ VALUES (4818, 19, 200)
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4818, 2, 0)
      , (4818, 3, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1930, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1930, 19, 2500)
+     , (1930, 5, 9120);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1930, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27245, 14, 'Use this item to open it and see its contents.');
@@ -1799,30 +2095,6 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (24675, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1929, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1929, 19, 2500)
-     , (1929, 5, 9225);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1929, 2, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24476, 16, 'This chest appears to have a sturdy steel lock, of the kind used to protect very valuable treasure. Unfortunately, it looks nearly impossible to pick.')
-     , (24476, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24476, 19, 2500)
-     , (24476, 5, 13569)
-     , (24476, 38, 7500)
-     , (24476, 173, 0);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (24476, 2, 0)
-     , (24476, 3, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31512, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -1831,6 +2103,16 @@ VALUES (31512, 19, 200)
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (31512, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1913, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1913, 19, 2500)
+     , (1913, 5, 9172);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1913, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22083, 16, 'A chest belonging to Frest Greelving')
@@ -1878,10 +2160,6 @@ VALUES (37413, 19, 2500)
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (37413, 2, 0)
      , (37413, 3, 1);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1115, 19, 0)
-     , (1115, 5, 900);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23033, 16, 'A chest in which rare crystals have been stored')
@@ -1975,6 +2253,16 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (4825, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3970, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3970, 5, 9020);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3970, 2, 0)
+     , (3970, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7808, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -1995,6 +2283,86 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (7809, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3967, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3967, 5, 9125);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3967, 2, 0)
+     , (3967, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7889, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7889, 19, 2500)
+     , (7889, 5, 9040)
+     , (7889, 38, 9999)
+     , (7889, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7889, 2, 0)
+     , (7889, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7887, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7887, 19, 2500)
+     , (7887, 5, 9489)
+     , (7887, 38, 9999)
+     , (7887, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7887, 2, 0)
+     , (7887, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7811, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7811, 19, 2500)
+     , (7811, 5, 9075)
+     , (7811, 38, 9999)
+     , (7811, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7811, 2, 0)
+     , (7811, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1917, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1917, 19, 2500)
+     , (1917, 5, 9120);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1917, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3960, 14, 'Use this item to open it and see its contents.')
+     , (3960, 15, 'This chest appears to have a sturdy iron lock. Unfortunately, it looks nearly impossible to pick.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3960, 5, 9300);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3960, 2, 0)
+     , (3960, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1932, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1932, 19, 2500)
+     , (1932, 5, 9105);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1932, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3982, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -2005,14 +2373,14 @@ VALUES (3982, 2, 0)
      , (3982, 3, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3970, 14, 'Use this item to open it and see its contents.');
+VALUES (1927, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3970, 5, 9110);
+VALUES (1927, 19, 2500)
+     , (1927, 5, 9136);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3970, 2, 0)
-     , (3970, 3, 1);
+VALUES (1927, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7784, 14, 'Use this item to open it and see its contents.');
@@ -2023,19 +2391,29 @@ VALUES (7784, 5, 9015);
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7784, 2, 0);
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1314, 19, 0)
-     , (1314, 5, 925);
-
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1928, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1928, 19, 2500)
-     , (1928, 5, 9260);
+     , (1928, 5, 9145);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1928, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1938, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1938, 19, 2500)
+     , (1938, 5, 9145);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1938, 2, 0);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1314, 19, 0)
+     , (1314, 5, 925);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1935, 14, 'Use this item to open it and see its contents.');
@@ -2098,19 +2476,6 @@ VALUES (9103, 2, 0)
      , (9103, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3967, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3967, 19, 2500)
-     , (3967, 5, 9170)
-     , (3967, 38, 20)
-     , (3967, 173, 100);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3967, 2, 0)
-     , (3967, 3, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24672, 16, 'A heavy iron chest. There are strange runes carved around the lid.')
      , (24672, 14, 'Use this item to open it and see its contents.');
 
@@ -2125,20 +2490,6 @@ VALUES (24672, 2, 0)
      , (24672, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3991, 16, 'This chest appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick.')
-     , (3991, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3991, 19, 2500)
-     , (3991, 5, 10372)
-     , (3991, 38, 5000)
-     , (3991, 173, 0);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3991, 2, 0)
-     , (3991, 3, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48773, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -2151,6 +2502,48 @@ VALUES (48773, 19, 2500)
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48773, 2, 0)
      , (48773, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52793, 16, 'A chest containing the highest quality magic items. ')
+     , (52793, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52793, 19, 2500)
+     , (52793, 5, 9343)
+     , (52793, 38, 9999)
+     , (52793, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52793, 2, 0)
+     , (52793, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52792, 16, 'A chest containing the highest quality weapons. ')
+     , (52792, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52792, 19, 2500)
+     , (52792, 5, 12555)
+     , (52792, 38, 9999)
+     , (52792, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52792, 2, 0)
+     , (52792, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52791, 16, 'A chest containing the highest quality armor. ')
+     , (52791, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52791, 19, 2500)
+     , (52791, 5, 14154)
+     , (52791, 38, 9999)
+     , (52791, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52791, 2, 0)
+     , (52791, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48757, 14, 'Use this item to open it and see its contents.');
@@ -2318,6 +2711,16 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (24677, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1923, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1923, 19, 2500)
+     , (1923, 5, 9050);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1923, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7785, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -2338,16 +2741,6 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (24681, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1938, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1938, 19, 2500)
-     , (1938, 5, 9764);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1938, 2, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7779, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -2359,6 +2752,19 @@ VALUES (7779, 19, 200)
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7779, 2, 0)
      , (7779, 3, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3993, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3993, 19, 2500)
+     , (3993, 5, 9833)
+     , (3993, 38, 80)
+     , (3993, 173, 100);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3993, 2, 0)
+     , (3993, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4806, 14, 'Use this item to open it and see its contents.');
@@ -2413,6 +2819,16 @@ VALUES (26628, 19, 2500)
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (26628, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1941, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1941, 19, 2500)
+     , (1941, 5, 9288);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1941, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3961, 14, 'Use this item to open it and see its contents.');
@@ -2487,6 +2903,19 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (22574, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3962, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3962, 19, 2500)
+     , (3962, 5, 9518)
+     , (3962, 38, 80)
+     , (3962, 173, 100);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3962, 2, 0)
+     , (3962, 3, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1316, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -2531,6 +2960,16 @@ VALUES (5036, 19, 3000)
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5036, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1944, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1944, 19, 2500)
+     , (1944, 5, 9164);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1944, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23610, 16, 'A heavy iron chest. There are strange runes carved around the lid.')
@@ -2899,6 +3338,16 @@ VALUES (4844, 2, 0)
      , (4844, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1934, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1934, 19, 2500)
+     , (1934, 5, 9210);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1934, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32078, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -2907,6 +3356,19 @@ VALUES (32078, 19, 2500)
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (32078, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3963, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3963, 19, 2500)
+     , (3963, 5, 9168)
+     , (3963, 38, 140)
+     , (3963, 173, 97);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3963, 2, 0)
+     , (3963, 3, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24665, 16, 'A heavy iron chest. There are strange runes carved around the lid.')
@@ -2945,6 +3407,20 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (26618, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3985, 16, 'This chest appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick.')
+     , (3985, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3985, 19, 2500)
+     , (3985, 5, 10599)
+     , (3985, 38, 5000)
+     , (3985, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3985, 2, 0)
+     , (3985, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5185, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -2963,48 +3439,6 @@ VALUES (5189, 19, 2500)
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5189, 2, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52793, 16, 'A chest containing the highest quality magic items. ')
-     , (52793, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52793, 19, 2500)
-     , (52793, 5, 9377)
-     , (52793, 38, 9999)
-     , (52793, 173, 0);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (52793, 2, 0)
-     , (52793, 3, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52791, 16, 'A chest containing the highest quality armor. ')
-     , (52791, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52791, 19, 2500)
-     , (52791, 5, 11234)
-     , (52791, 38, 9999)
-     , (52791, 173, 0);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (52791, 2, 0)
-     , (52791, 3, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52792, 16, 'A chest containing the highest quality weapons. ')
-     , (52792, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52792, 19, 2500)
-     , (52792, 5, 11521)
-     , (52792, 38, 9999)
-     , (52792, 173, 0);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (52792, 2, 0)
-     , (52792, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38509, 16, 'A Society Reward Chest, containing a randomly enchanted set of Eldrytch Web Sollerets.');
@@ -3124,6 +3558,20 @@ VALUES (38503, 2, 0)
      , (38503, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35047, 16, 'A reliquary made of the skeletal remnants of the victims of Falatacot sacrifices.')
+     , (35047, 14, 'Use a Skeletal Falatacot Key to unlock this cache.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35047, 19, 2500)
+     , (35047, 5, 12888)
+     , (35047, 38, 9999)
+     , (35047, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35047, 2, 0)
+     , (35047, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3974, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -3192,6 +3640,16 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (4790, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1940, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1940, 19, 2500)
+     , (1940, 5, 11038);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1940, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22244, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -3202,7 +3660,7 @@ VALUES (22244, 19, 200)
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (22244, 2, 0)
-     , (22244, 3, 1);
+     , (22244, 3, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4886, 14, 'Use this item to open it and see its contents.');
@@ -3226,16 +3684,6 @@ VALUES (5756, 19, 2500)
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5756, 2, 0)
      , (5756, 3, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1944, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1944, 19, 2500)
-     , (1944, 5, 9751);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1944, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4810, 16, 'This coffin appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick.')
@@ -3405,16 +3853,6 @@ VALUES (167, 2, 0)
      , (167, 3, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1913, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1913, 19, 2500)
-     , (1913, 5, 9095);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1913, 2, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1238, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -3454,16 +3892,6 @@ VALUES (1239, 2, 0)
      , (1239, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1940, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1940, 19, 2500)
-     , (1940, 5, 9450);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1940, 2, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7493, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -3485,6 +3913,32 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (22575, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3977, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3977, 19, 2500)
+     , (3977, 5, 9190)
+     , (3977, 38, 80)
+     , (3977, 173, 100);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3977, 2, 0)
+     , (3977, 3, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3978, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3978, 19, 2500)
+     , (3978, 5, 9752)
+     , (3978, 38, 20)
+     , (3978, 173, 100);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3978, 2, 0)
+     , (3978, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (26619, 16, 'A heavy iron chest. There are strange runes carved around the lid.')
      , (26619, 14, 'Use this item to open it and see its contents.');
 
@@ -3494,20 +3948,6 @@ VALUES (26619, 19, 2500)
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (26619, 2, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3985, 16, 'This chest appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick.')
-     , (3985, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3985, 19, 2500)
-     , (3985, 5, 9769)
-     , (3985, 38, 5000)
-     , (3985, 173, 0);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3985, 2, 0)
-     , (3985, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3994, 16, 'This chest appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick.')
@@ -3554,13 +3994,27 @@ VALUES (44081, 16, 'A chest containing mostly armor. ')
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44081, 19, 2500)
-     , (44081, 5, 6550)
+     , (44081, 5, 5170)
      , (44081, 38, 9999)
      , (44081, 173, 0);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44081, 2, 0)
      , (44081, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44082, 16, 'A chest containing mostly items useful to a Mage. ')
+     , (44082, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44082, 19, 2500)
+     , (44082, 5, 3426)
+     , (44082, 38, 9999)
+     , (44082, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44082, 2, 0)
+     , (44082, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48913, 14, 'Use this item to open it and see its contents.');
@@ -3585,16 +4039,6 @@ VALUES (3959, 5, 10395);
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3959, 2, 0)
      , (3959, 3, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1917, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1917, 19, 2500)
-     , (1917, 5, 9205);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1917, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29060, 16, 'This chest appears to have a sturdy iron lock, of the kind used to protect valuable treasure.')
@@ -3647,19 +4091,6 @@ VALUES (23597, 19, 2500)
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (23597, 2, 0)
      , (23597, 3, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3993, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3993, 19, 2500)
-     , (3993, 5, 10507)
-     , (3993, 38, 80)
-     , (3993, 173, 49);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3993, 2, 0)
-     , (3993, 3, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23608, 16, 'A heavy iron chest. There are strange runes carved around the lid.')
@@ -3745,6 +4176,20 @@ VALUES (4828, 2, 0)
      , (4828, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3988, 16, 'This chest appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick.')
+     , (3988, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3988, 19, 2500)
+     , (3988, 5, 9769)
+     , (3988, 38, 5000)
+     , (3988, 173, 0);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3988, 2, 0)
+     , (3988, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23600, 16, 'A heavy iron chest. There are strange runes carved around the lid.')
      , (23600, 14, 'Use this item to open it and see its contents.');
 
@@ -3781,6 +4226,26 @@ VALUES (5054, 2, 0)
      , (5054, 3, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1949, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1949, 19, 2500)
+     , (1949, 5, 9596);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1949, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3958, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3958, 5, 10351);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3958, 2, 1)
+     , (3958, 3, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3995, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -3789,6 +4254,19 @@ VALUES (3995, 5, 10471);
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3995, 2, 0)
      , (3995, 3, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3976, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3976, 19, 2500)
+     , (3976, 5, 9075)
+     , (3976, 38, 20)
+     , (3976, 173, 39);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3976, 2, 0)
+     , (3976, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1950, 14, 'Use this item to open it and see its contents.');
@@ -3900,20 +4378,6 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (11318, 2, 0)
      , (11318, 3, 1);
 
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3988, 16, 'This chest appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick.')
-     , (3988, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3988, 19, 2500)
-     , (3988, 5, 9500)
-     , (3988, 38, 5000)
-     , (3988, 173, 0);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3988, 2, 0)
-     , (3988, 3, 1);
-
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31753, 19, 0)
      , (31753, 5, 910);
@@ -3927,6 +4391,16 @@ VALUES (4888, 19, 2500)
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4888, 2, 0);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27656, 14, 'Use this item to open it and see its contents.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27656, 5, 6875);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27656, 2, 0)
+     , (27656, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11014, 16, 'A chest.')
@@ -4101,26 +4575,6 @@ VALUES (26607, 2, 0)
      , (26607, 3, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3962, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3962, 5, 9352);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3962, 2, 0)
-     , (3962, 3, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1923, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1923, 19, 2500)
-     , (1923, 5, 9546);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1923, 2, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37411, 16, 'A treasure chest encrusted by coral, appearing as it had been lost at sea for a long, long time...')
      , (37411, 14, 'Use this item to open it and see its contents.');
 
@@ -4139,7 +4593,7 @@ VALUES (14871, 14, 'Use this item to open it and see its contents.')
      , (14871, 15, 'A trove belonging to Martine lies here.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14871, 5, 13727);
+VALUES (14871, 5, 13508);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14871, 2, 0)
@@ -4156,16 +4610,6 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (23594, 2, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1922, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1922, 19, 2500)
-     , (1922, 5, 9638);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1922, 2, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5053, 14, 'Use this item to open it and see its contents.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -4176,14 +4620,4 @@ VALUES (5053, 19, 2500)
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5053, 2, 0)
      , (5053, 3, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1930, 14, 'Use this item to open it and see its contents.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1930, 19, 2500)
-     , (1930, 5, 9130);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1930, 2, 0);
 

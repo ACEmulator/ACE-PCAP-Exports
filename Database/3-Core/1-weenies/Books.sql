@@ -2675,7 +2675,7 @@ VALUES (43808, 13, True)
      , (43808, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (43534, 'ace43534-luminance,andthepathsoftheempyrean');
+VALUES (43534, 'ace43534-luminanceandthepathsoftheempyrean');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (43534, 272, 43534, 2113560, NULL, 137345);

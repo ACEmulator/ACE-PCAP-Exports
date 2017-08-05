@@ -1,10 +1,10 @@
 CREATE DATABASE  IF NOT EXISTS `ace_world` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `ace_world`;
--- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
 -- Host: localhost    Database: ace_world
 -- ------------------------------------------------------
--- Server version	5.7.17-log
+-- Server version	5.7.19-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -206,6 +206,37 @@ CREATE TABLE `ace_object_properties_bigint` (
 LOCK TABLES `ace_object_properties_bigint` WRITE;
 /*!40000 ALTER TABLE `ace_object_properties_bigint` DISABLE KEYS */;
 /*!40000 ALTER TABLE `ace_object_properties_bigint` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `ace_object_properties_book`
+--
+
+DROP TABLE IF EXISTS `ace_object_properties_book`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ace_object_properties_book` (
+  `aceObjectId` int(10) unsigned NOT NULL DEFAULT '0',
+  `page` int(10) unsigned NOT NULL DEFAULT '0',
+  `authorName` varchar(255) NOT NULL,
+  `authorAccount` varchar(255) NOT NULL,
+  `authorId` int(10) unsigned NOT NULL DEFAULT '0',
+  `ignoreAuthor` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `pageText` text NOT NULL,
+  PRIMARY KEY (`aceObjectId`,`page`),
+  UNIQUE KEY `ace_object__property_book_id` (`aceObjectId`,`page`),
+  KEY `aceObjectId` (`aceObjectId`),
+  CONSTRAINT `fk_Prop_Book_AceObject` FOREIGN KEY (`aceObjectId`) REFERENCES `ace_object` (`aceObjectId`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `ace_object_properties_book`
+--
+
+LOCK TABLES `ace_object_properties_book` WRITE;
+/*!40000 ALTER TABLE `ace_object_properties_book` DISABLE KEYS */;
+/*!40000 ALTER TABLE `ace_object_properties_book` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -638,4 +669,4 @@ SET character_set_client = @saved_cs_client;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-07-10 23:50:40
+-- Dump completed on 2017-08-05 19:16:23
