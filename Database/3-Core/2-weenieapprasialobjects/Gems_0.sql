@@ -4859,17 +4859,14 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (51875, 1, 210)
      , (51875, 2, 240)
      , (51875, 4, 160)
-     , (51875, 3, 250)
-     , (51875, 5, 170)
-     , (51875, 6, 170);
+     , (51875, 8, 250)
+     , (51875, 16, 170)
+     , (51875, 32, 170);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51875, 2, 1370)
-     , (51875, 4, 1734)
-     , (51875, 6, 1070)
-     , (51875, 1, 1370)
-     , (51875, 3, 1740)
-     , (51875, 5, 1070);
+VALUES (51875, 64, 1370)
+     , (51875, 128, 1740)
+     , (51875, 256, 1070);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44294, 16, 'An ancient contract with instructions to enter a Catacomb containing a crystal sword. (Recommended Levels 180+)');
@@ -5013,8 +5010,7 @@ VALUES (32746, 2, 86)
      , (32746, 25, 200);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32746, 2, 1370)
-     , (32746, 1, 1370);
+VALUES (32746, 64, 1370);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42729, 16, 'A magically created gem, attuned to the essence of Hoshino Kei''s Haindmaiden, Ayaname Chiyoko.  Using this in an area near where she has been in the recent past will cause it to glow, and if there is an obscured path to her nearby, it will appear.')

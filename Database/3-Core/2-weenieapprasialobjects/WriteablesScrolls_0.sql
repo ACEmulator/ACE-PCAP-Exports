@@ -11031,8 +11031,7 @@ VALUES (2692, 2, 1)
      , (2692, 25, 80);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2692, 2, 275)
-     , (2692, 1, 275);
+VALUES (2692, 64, 275);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49453, 16, 'Inscribed spell: Summoning Mastery Other I
@@ -11110,8 +11109,7 @@ VALUES (2728, 2, 3)
      , (2728, 25, 8);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2728, 2, 36)
-     , (2728, 1, 36);
+VALUES (2728, 64, 36);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1690, 16, 'Inscribed spell: Creature Enchantment Mastery Self I

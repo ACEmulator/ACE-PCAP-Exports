@@ -55,18 +55,18 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (11960, 111, 49);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (10982, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.')
-     , (10982, 38, 'Destroyed Ahurenga Portal (46.1N, 89.8W).');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10982, 111, 49);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11954, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.')
      , (11954, 38, 'Destroyed Portal to Greenspire (43.2N, 66.8W).');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11954, 111, 49);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10982, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.')
+     , (10982, 38, 'Destroyed Ahurenga Portal (46.1N, 89.8W).');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10982, 111, 49);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1018, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.')
@@ -111,6 +111,13 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (4567, 111, 49);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4572, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.')
+     , (4572, 38, 'Destroyed Portal to Khayyaban (47.4S, 25.5E).');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4572, 111, 49);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4036, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.')
      , (4036, 38, 'Destroyed Uziz Portal (24.8S, 28.4E).');
 
@@ -139,13 +146,6 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (1032, 111, 49);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4572, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.')
-     , (4572, 38, 'Destroyed Portal to Khayyaban (47.4S, 25.5E).');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4572, 111, 49);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4042, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.')
      , (4042, 38, 'Destroyed Plateau Portal (44.5N, 43.1W).');
 
@@ -172,6 +172,13 @@ VALUES (4571, 16, 'This portal was destroyed by Asheron''s foray into opening a 
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (4571, 111, 49);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4044, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.')
+     , (4044, 38, 'Destroyed Stonehold Portal (68.7N, 21.8W).');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4044, 111, 49);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8554, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.')
@@ -228,13 +235,6 @@ VALUES (1022, 16, 'This portal was destroyed by Asheron''s foray into opening a 
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1022, 111, 49);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4044, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.')
-     , (4044, 38, 'Destroyed Stonehold Portal (68.7N, 21.8W).');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4044, 111, 49);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4043, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.')

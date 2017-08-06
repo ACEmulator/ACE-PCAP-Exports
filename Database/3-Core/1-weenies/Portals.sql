@@ -25251,7 +25251,7 @@ VALUES (34828, 13, True)
      , (34828, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (35801, 'ace35801-templeofthethree,ritualchambers');
+VALUES (35801, 'ace35801-templeofthethreeritualchambers');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (35801, 262164, 35801, 8388656, 'AAA9AAAAAAA=', 98307);
@@ -25475,7 +25475,7 @@ VALUES (35484, 13, True)
      , (35484, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36698, 'ace36698-trialsofthearm,mindandheart');
+VALUES (36698, 'ace36698-trialsofthearmmindandheart');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (36698, 262164, 36698, 8388656, 'AAA9AAAAAAA=', 98307);
