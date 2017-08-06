@@ -17245,8 +17245,7 @@ VALUES (40683, 2, 13)
      , (40683, 25, 125);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (40683, 2, 818)
-     , (40683, 1, 870);
+VALUES (40683, 64, 870);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52201, 16, 'A hollowed out pumpkin that, oddly enough, fits right over your head!');

@@ -34,15 +34,12 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (1, 1, 285)
      , (1, 2, 296)
      , (1, 4, 245)
-     , (1, 3, 245)
-     , (1, 5, 335)
-     , (1, 6, 335);
+     , (1, 8, 245)
+     , (1, 16, 335)
+     , (1, 32, 335);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1, 2, 345)
-     , (1, 4, 368)
-     , (1, 6, 361)
-     , (1, 1, 345)
-     , (1, 3, 497)
-     , (1, 5, 536);
+VALUES (1, 64, 345)
+     , (1, 128, 497)
+     , (1, 256, 536);
 

@@ -10358,8 +10358,7 @@ VALUES (49263, 2, 1)
      , (49263, 25, 185);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (49263, 2, 2300)
-     , (49263, 1, 2300);
+VALUES (49263, 64, 2300);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45504, 16, 'A magical gem containing a bag of Foolproof Black Opal.');
@@ -11737,17 +11736,14 @@ REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `a
 VALUES (28198, 1, 120)
      , (28198, 2, 145)
      , (28198, 4, 175)
-     , (28198, 3, 175)
-     , (28198, 5, 125)
-     , (28198, 6, 105);
+     , (28198, 8, 175)
+     , (28198, 16, 125)
+     , (28198, 32, 105);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28198, 2, 238)
-     , (28198, 4, 355)
-     , (28198, 6, 265)
-     , (28198, 1, 238)
-     , (28198, 3, 355)
-     , (28198, 5, 265);
+VALUES (28198, 64, 238)
+     , (28198, 128, 355)
+     , (28198, 256, 265);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36053, 16, 'Killed by Mag-nus.');

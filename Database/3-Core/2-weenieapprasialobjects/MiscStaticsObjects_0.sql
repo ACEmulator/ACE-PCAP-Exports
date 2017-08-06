@@ -1,4 +1,11 @@
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22717, 16, 'Only a short way to the Tusker Emporium of Deadly Doom! (tm)');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22717, 19, 125)
+     , (22717, 5, 9000);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (475, 16, 'Rest ye, weary traveler, and welcome.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -877,13 +884,6 @@ VALUES (22713, 19, 125)
      , (22713, 5, 9000);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22717, 16, 'Only a short way to the Tusker Emporium of Deadly Doom! (tm)');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22717, 19, 125)
-     , (22717, 5, 9000);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22715, 16, 'North Tusker Forest, the really tough types live there. -Brighteyes, the Tailor. ');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -898,8 +898,16 @@ VALUES (22714, 19, 125)
      , (22714, 5, 9000);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7471, 19, 1)
+     , (7471, 5, 1);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7472, 19, 1)
      , (7472, 5, 1);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7473, 19, 1)
+     , (7473, 5, 1);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5399, 19, 5)
@@ -947,6 +955,10 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (913, 19, 125)
      , (913, 5, 9000);
 
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5148, 19, 5)
+     , (5148, 5, 10);
+
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5622, 16, 'Welcome to Dryreach');
 
@@ -981,6 +993,18 @@ VALUES (4431, 16, 'This way to Rithwic!');
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (4431, 19, 125)
      , (4431, 5, 9000);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4179, 19, 5)
+     , (4179, 5, 10);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4980, 19, 5)
+     , (4980, 5, 10);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4979, 19, 5)
+     , (4979, 5, 10);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (463, 16, 'Welcome to the village of Arwic  ');
@@ -1018,6 +1042,10 @@ VALUES (35744, 19, 0)
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6122, 19, 1)
      , (6122, 5, 1);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5489, 19, 1)
+     , (5489, 5, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4668, 16, 'Welcome to the town of Khayyaban.');
@@ -1190,12 +1218,12 @@ VALUES (7506, 19, 0)
      , (7506, 5, 900);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7504, 19, 0)
-     , (7504, 5, 900);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7505, 19, 0)
      , (7505, 5, 900);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7504, 19, 0)
+     , (7504, 5, 900);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35929, 19, 1)
@@ -1216,6 +1244,10 @@ VALUES (8516, 19, 1)
      , (8516, 5, 1);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7786, 19, 5)
+     , (7786, 5, 10);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14805, 19, 1)
      , (14805, 5, 1);
 
@@ -1226,14 +1258,6 @@ VALUES (14804, 19, 1)
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (21915, 19, 0)
      , (21915, 5, 0);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5148, 19, 5)
-     , (5148, 5, 10);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5489, 19, 1)
-     , (5489, 5, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14468, 15, 'This candle is firmly mounted into the wall.');
@@ -1249,6 +1273,10 @@ VALUES (7197, 19, 0)
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35114, 19, 1)
      , (35114, 5, 1);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30764, 19, 1)
+     , (30764, 5, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24221, 16, 'Welcome to the swamp town of Wai Jhou. A restful place of enlightenment.');
@@ -1272,6 +1300,13 @@ VALUES (4535, 19, 125)
      , (4535, 5, 9000);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (917, 16, 'Welcome to the city of Hebian-to.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (917, 19, 125)
+     , (917, 5, 9000);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4524, 16, 'This way to Nanto!');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -1284,13 +1319,6 @@ VALUES (4504, 16, 'Welcome to the forest town of Lin. Enjoy your stay.');
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (4504, 19, 125)
      , (4504, 5, 9000);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (917, 16, 'Welcome to the city of Hebian-to.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (917, 19, 125)
-     , (917, 5, 9000);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2289, 16, 'Welcome to the town of Sawato.');
@@ -1333,16 +1361,20 @@ VALUES (32029, 19, 1)
      , (32029, 5, 1);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7482, 19, 1)
+     , (7482, 5, 1);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6425, 19, 1)
      , (6425, 5, 1);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22245, 19, 0)
-     , (22245, 5, 2000);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22221, 19, 3226)
      , (22221, 5, 50);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22245, 19, 0)
+     , (22245, 5, 2000);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7474, 19, 1)
@@ -1373,6 +1405,14 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (9075, 19, 10000)
      , (9075, 5, 6000);
 
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51434, 19, 200)
+     , (51434, 5, 6000);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51678, 19, 3226)
+     , (51678, 5, 50);
+
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15755, 16, 'A lever, mounted on the floor. Pulling this lever will abandon Nuhmudira to her fate.');
 
@@ -1380,11 +1420,29 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (15756, 16, 'A lever, mounted on the floor, decorated with a skull. Pulling this lever will sacrifice some of your life force to aid Nuhmudira.');
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4676, 16, 'This way to Yaraq!');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4676, 19, 125)
+     , (4676, 5, 9000);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4129, 19, 200)
+     , (4129, 5, 6000);
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (4129, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4648, 16, 'This way to Al-Arqas!');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (4648, 19, 125)
      , (4648, 5, 9000);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (160, 19, 200)
+     , (160, 5, 6000);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23886, 16, 'A keg of delicious stout.');
@@ -1405,16 +1463,12 @@ VALUES (12266, 19, 200)
      , (12266, 5, 6000);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35267, 19, 5000)
+     , (35267, 5, 2000);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3644, 19, 7)
      , (3644, 5, 50);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7786, 19, 5)
-     , (7786, 5, 10);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7482, 19, 1)
-     , (7482, 5, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23885, 16, 'A keg of delicious stout.');
@@ -1426,12 +1480,16 @@ VALUES (23885, 19, 200)
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (23885, 1208);
 
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48720, 19, 0)
+     , (48720, 5, 6660);
+
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4676, 16, 'This way to Yaraq!');
+VALUES (30042, 16, 'Follow the road this way to Sanamar.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4676, 19, 125)
-     , (4676, 5, 9000);
+VALUES (30042, 19, 125)
+     , (30042, 5, 9000);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (144, 19, 65)
@@ -1464,28 +1522,16 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (15820, 19, 0)
      , (15820, 5, 60000);
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51678, 19, 3226)
-     , (51678, 5, 50);
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14450, 15, 'Bound and tortured in the Hollow Minions'' device, this poor, emaciated captive is paralyzed with agony.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4129, 19, 200)
-     , (4129, 5, 6000);
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (4129, 1);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4980, 19, 5)
-     , (4980, 5, 10);
+VALUES (14450, 19, 0)
+     , (14450, 5, 9000);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52128, 19, 1)
      , (52128, 5, 1);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51434, 19, 200)
-     , (51434, 5, 6000);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51410, 16, 'A cage of shifting portal energy.');
@@ -1501,13 +1547,6 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (8907, 19, 0)
      , (8907, 5, 0);
 
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14450, 15, 'Bound and tortured in the Hollow Minions'' device, this poor, emaciated captive is paralyzed with agony.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14450, 19, 0)
-     , (14450, 5, 9000);
-
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11735, 19, 0)
      , (11735, 5, 5000);
@@ -1522,10 +1561,6 @@ VALUES (8452, 16, 'Welcome to the village of Kryst.');
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8452, 19, 125)
      , (8452, 5, 9000);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4979, 19, 5)
-     , (4979, 5, 10);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8564, 16, '[This sign is too weathered and rotted to read.]');
