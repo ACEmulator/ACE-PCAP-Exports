@@ -1,3 +1,6 @@
+08/06/2017 
+Added script 03-FixBasePacks.sql to set the correct burden for packs.
+
 6/25/2017
 --------
 - Updated 01-ClothingBase - 976 to 1143 records
