@@ -18,7 +18,7 @@ VALUES (2095665198, 53, 101)
      , (2095665198, 16, 1)
      , (2095665198, 19, 125)
      , (2095665198, 93, 1048)
-     , (2095665198, 9007, 8);
+     , (2095665198, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2095665198, 12, True)
@@ -53,7 +53,7 @@ VALUES (2095665193, 53, 101)
      , (2095665193, 16, 1)
      , (2095665193, 19, 125)
      , (2095665193, 93, 1048)
-     , (2095665193, 9007, 8);
+     , (2095665193, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2095665193, 12, True)
@@ -88,7 +88,7 @@ VALUES (2095665192, 53, 101)
      , (2095665192, 16, 1)
      , (2095665192, 19, 125)
      , (2095665192, 93, 1048)
-     , (2095665192, 9007, 8);
+     , (2095665192, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2095665192, 12, True)
@@ -123,7 +123,7 @@ VALUES (2095665195, 53, 101)
      , (2095665195, 16, 1)
      , (2095665195, 19, 125)
      , (2095665195, 93, 1048)
-     , (2095665195, 9007, 8);
+     , (2095665195, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2095665195, 12, True)
@@ -158,7 +158,7 @@ VALUES (2095665194, 53, 101)
      , (2095665194, 16, 1)
      , (2095665194, 19, 125)
      , (2095665194, 93, 1048)
-     , (2095665194, 9007, 8);
+     , (2095665194, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2095665194, 12, True)
@@ -193,7 +193,7 @@ VALUES (2095665196, 53, 101)
      , (2095665196, 16, 1)
      , (2095665196, 19, 125)
      , (2095665196, 93, 1048)
-     , (2095665196, 9007, 8);
+     , (2095665196, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2095665196, 12, True)
@@ -228,7 +228,7 @@ VALUES (2095665197, 53, 101)
      , (2095665197, 16, 1)
      , (2095665197, 19, 125)
      , (2095665197, 93, 1048)
-     , (2095665197, 9007, 8);
+     , (2095665197, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2095665197, 12, True)
@@ -262,7 +262,7 @@ VALUES (2120470556, 1, 128)
      , (2120470556, 16, 1)
      , (2120470556, 19, 125)
      , (2120470556, 93, 66584)
-     , (2120470556, 9007, 8);
+     , (2120470556, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2120470556, 12, True)
@@ -296,7 +296,7 @@ VALUES (2120470553, 1, 128)
      , (2120470553, 16, 1)
      , (2120470553, 19, 125)
      , (2120470553, 93, 66584)
-     , (2120470553, 9007, 8);
+     , (2120470553, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2120470553, 12, True)
@@ -330,7 +330,7 @@ VALUES (2120470554, 1, 128)
      , (2120470554, 16, 1)
      , (2120470554, 19, 125)
      , (2120470554, 93, 66584)
-     , (2120470554, 9007, 8);
+     , (2120470554, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2120470554, 12, True)
@@ -364,7 +364,7 @@ VALUES (2120470550, 1, 128)
      , (2120470550, 16, 1)
      , (2120470550, 19, 125)
      , (2120470550, 93, 66584)
-     , (2120470550, 9007, 8);
+     , (2120470550, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2120470550, 12, True)
@@ -398,7 +398,7 @@ VALUES (2120470549, 1, 128)
      , (2120470549, 16, 1)
      , (2120470549, 19, 125)
      , (2120470549, 93, 66584)
-     , (2120470549, 9007, 8);
+     , (2120470549, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2120470549, 12, True)
@@ -432,7 +432,7 @@ VALUES (2120470562, 1, 128)
      , (2120470562, 16, 1)
      , (2120470562, 19, 125)
      , (2120470562, 93, 1048)
-     , (2120470562, 9007, 8);
+     , (2120470562, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2120470562, 12, True)
@@ -460,7 +460,7 @@ VALUES (2119421961, 1, 128)
      , (2119421961, 16, 1)
      , (2119421961, 19, 125)
      , (2119421961, 93, 66584)
-     , (2119421961, 9007, 8);
+     , (2119421961, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2119421961, 12, True)
@@ -488,7 +488,7 @@ VALUES (2119421959, 1, 128)
      , (2119421959, 16, 1)
      , (2119421959, 19, 125)
      , (2119421959, 93, 66584)
-     , (2119421959, 9007, 8);
+     , (2119421959, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2119421959, 12, True)
@@ -522,7 +522,7 @@ VALUES (2119426060, 1, 128)
      , (2119426060, 16, 1)
      , (2119426060, 19, 125)
      , (2119426060, 93, 66584)
-     , (2119426060, 9007, 8);
+     , (2119426060, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2119426060, 12, True)
@@ -556,7 +556,7 @@ VALUES (2119426061, 1, 128)
      , (2119426061, 16, 1)
      , (2119426061, 19, 125)
      , (2119426061, 93, 66584)
-     , (2119426061, 9007, 8);
+     , (2119426061, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2119426061, 12, True)
@@ -590,7 +590,7 @@ VALUES (2119426063, 1, 128)
      , (2119426063, 16, 1)
      , (2119426063, 19, 125)
      , (2119426063, 93, 66584)
-     , (2119426063, 9007, 8);
+     , (2119426063, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2119426063, 12, True)
@@ -619,7 +619,7 @@ VALUES (2094272546, 53, 101)
      , (2094272546, 16, 1)
      , (2094272546, 19, 125)
      , (2094272546, 93, 1048)
-     , (2094272546, 9007, 8);
+     , (2094272546, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2094272546, 12, True)
@@ -654,7 +654,7 @@ VALUES (2094272556, 53, 101)
      , (2094272556, 16, 1)
      , (2094272556, 19, 125)
      , (2094272556, 93, 1048)
-     , (2094272556, 9007, 8);
+     , (2094272556, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2094272556, 12, True)
@@ -689,7 +689,7 @@ VALUES (2094272558, 53, 101)
      , (2094272558, 16, 1)
      , (2094272558, 19, 125)
      , (2094272558, 93, 1048)
-     , (2094272558, 9007, 8);
+     , (2094272558, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2094272558, 12, True)
@@ -724,7 +724,7 @@ VALUES (2094272559, 53, 101)
      , (2094272559, 16, 1)
      , (2094272559, 19, 125)
      , (2094272559, 93, 1048)
-     , (2094272559, 9007, 8);
+     , (2094272559, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2094272559, 12, True)
@@ -759,7 +759,7 @@ VALUES (2094272550, 53, 101)
      , (2094272550, 16, 1)
      , (2094272550, 19, 125)
      , (2094272550, 93, 1048)
-     , (2094272550, 9007, 8);
+     , (2094272550, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2094272550, 12, True)
@@ -793,7 +793,7 @@ VALUES (2094272572, 1, 128)
      , (2094272572, 16, 1)
      , (2094272572, 19, 125)
      , (2094272572, 93, 1048)
-     , (2094272572, 9007, 8);
+     , (2094272572, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2094272572, 12, True)
@@ -822,7 +822,7 @@ VALUES (2094272551, 53, 101)
      , (2094272551, 16, 1)
      , (2094272551, 19, 125)
      , (2094272551, 93, 1048)
-     , (2094272551, 9007, 8);
+     , (2094272551, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2094272551, 12, True)
@@ -857,7 +857,7 @@ VALUES (2094272543, 53, 101)
      , (2094272543, 16, 1)
      , (2094272543, 19, 125)
      , (2094272543, 93, 1048)
-     , (2094272543, 9007, 8);
+     , (2094272543, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2094272543, 12, True)
@@ -892,7 +892,7 @@ VALUES (2094272554, 53, 101)
      , (2094272554, 16, 1)
      , (2094272554, 19, 125)
      , (2094272554, 93, 1048)
-     , (2094272554, 9007, 8);
+     , (2094272554, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2094272554, 12, True)
@@ -927,7 +927,7 @@ VALUES (2094272542, 53, 101)
      , (2094272542, 16, 1)
      , (2094272542, 19, 125)
      , (2094272542, 93, 1048)
-     , (2094272542, 9007, 8);
+     , (2094272542, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2094272542, 12, True)
@@ -961,7 +961,7 @@ VALUES (2090184757, 1, 128)
      , (2090184757, 16, 1)
      , (2090184757, 19, 125)
      , (2090184757, 93, 1048)
-     , (2090184757, 9007, 8);
+     , (2090184757, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2090184757, 12, True)
@@ -989,7 +989,7 @@ VALUES (2090184742, 1, 128)
      , (2090184742, 16, 1)
      , (2090184742, 19, 125)
      , (2090184742, 93, 66584)
-     , (2090184742, 9007, 8);
+     , (2090184742, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2090184742, 12, True)
@@ -1023,7 +1023,7 @@ VALUES (2090184736, 1, 128)
      , (2090184736, 16, 1)
      , (2090184736, 19, 125)
      , (2090184736, 93, 66584)
-     , (2090184736, 9007, 8);
+     , (2090184736, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2090184736, 12, True)
@@ -1057,7 +1057,7 @@ VALUES (2090184740, 1, 128)
      , (2090184740, 16, 1)
      , (2090184740, 19, 125)
      , (2090184740, 93, 66584)
-     , (2090184740, 9007, 8);
+     , (2090184740, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2090184740, 12, True)
@@ -1091,7 +1091,7 @@ VALUES (2090184735, 1, 128)
      , (2090184735, 16, 1)
      , (2090184735, 19, 125)
      , (2090184735, 93, 66584)
-     , (2090184735, 9007, 8);
+     , (2090184735, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2090184735, 12, True)
@@ -1125,7 +1125,7 @@ VALUES (2090184739, 1, 128)
      , (2090184739, 16, 1)
      , (2090184739, 19, 125)
      , (2090184739, 93, 66584)
-     , (2090184739, 9007, 8);
+     , (2090184739, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2090184739, 12, True)
@@ -1159,7 +1159,7 @@ VALUES (2090184737, 1, 128)
      , (2090184737, 16, 1)
      , (2090184737, 19, 125)
      , (2090184737, 93, 66584)
-     , (2090184737, 9007, 8);
+     , (2090184737, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2090184737, 12, True)
@@ -1193,7 +1193,7 @@ VALUES (2090184738, 1, 128)
      , (2090184738, 16, 1)
      , (2090184738, 19, 125)
      , (2090184738, 93, 66584)
-     , (2090184738, 9007, 8);
+     , (2090184738, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2090184738, 12, True)
@@ -1227,7 +1227,7 @@ VALUES (2090184741, 1, 128)
      , (2090184741, 16, 1)
      , (2090184741, 19, 125)
      , (2090184741, 93, 66584)
-     , (2090184741, 9007, 8);
+     , (2090184741, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2090184741, 12, True)
@@ -1255,7 +1255,7 @@ VALUES (2132946951, 1, 128)
      , (2132946951, 16, 1)
      , (2132946951, 19, 125)
      , (2132946951, 93, 1048)
-     , (2132946951, 9007, 8);
+     , (2132946951, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2132946951, 12, True)
@@ -1283,7 +1283,7 @@ VALUES (2122457099, 1, 128)
      , (2122457099, 16, 1)
      , (2122457099, 19, 125)
      , (2122457099, 93, 66584)
-     , (2122457099, 9007, 8);
+     , (2122457099, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2122457099, 12, True)
@@ -1311,7 +1311,7 @@ VALUES (2122452995, 1, 128)
      , (2122452995, 16, 1)
      , (2122452995, 19, 125)
      , (2122452995, 93, 1048)
-     , (2122452995, 9007, 8);
+     , (2122452995, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2122452995, 12, True)
@@ -1339,7 +1339,7 @@ VALUES (2122457098, 1, 128)
      , (2122457098, 16, 1)
      , (2122457098, 19, 125)
      , (2122457098, 93, 66584)
-     , (2122457098, 9007, 8);
+     , (2122457098, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2122457098, 12, True)
@@ -1373,7 +1373,7 @@ VALUES (2122457097, 1, 128)
      , (2122457097, 16, 1)
      , (2122457097, 19, 125)
      , (2122457097, 93, 66584)
-     , (2122457097, 9007, 8);
+     , (2122457097, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2122457097, 12, True)
@@ -1407,7 +1407,7 @@ VALUES (2123505676, 1, 128)
      , (2123505676, 16, 1)
      , (2123505676, 19, 125)
      , (2123505676, 93, 66584)
-     , (2123505676, 9007, 8);
+     , (2123505676, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2123505676, 12, True)
@@ -1441,7 +1441,7 @@ VALUES (2123505683, 1, 128)
      , (2123505683, 16, 1)
      , (2123505683, 19, 125)
      , (2123505683, 93, 66584)
-     , (2123505683, 9007, 8);
+     , (2123505683, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2123505683, 12, True)
@@ -1475,7 +1475,7 @@ VALUES (2123505679, 1, 128)
      , (2123505679, 16, 1)
      , (2123505679, 19, 125)
      , (2123505679, 93, 66584)
-     , (2123505679, 9007, 8);
+     , (2123505679, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2123505679, 12, True)
@@ -1509,7 +1509,7 @@ VALUES (2123505680, 1, 128)
      , (2123505680, 16, 1)
      , (2123505680, 19, 125)
      , (2123505680, 93, 66584)
-     , (2123505680, 9007, 8);
+     , (2123505680, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2123505680, 12, True)
@@ -1543,7 +1543,7 @@ VALUES (2123505684, 1, 128)
      , (2123505684, 16, 1)
      , (2123505684, 19, 125)
      , (2123505684, 93, 66584)
-     , (2123505684, 9007, 8);
+     , (2123505684, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2123505684, 12, True)
@@ -1578,7 +1578,7 @@ VALUES (2074177555, 53, 101)
      , (2074177555, 16, 1)
      , (2074177555, 19, 125)
      , (2074177555, 93, 1048)
-     , (2074177555, 9007, 8);
+     , (2074177555, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2074177555, 12, True)
@@ -1606,7 +1606,7 @@ VALUES (2074177563, 1, 128)
      , (2074177563, 16, 1)
      , (2074177563, 19, 125)
      , (2074177563, 93, 1048)
-     , (2074177563, 9007, 8);
+     , (2074177563, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2074177563, 12, True)
@@ -1634,7 +1634,7 @@ VALUES (2121588773, 1, 128)
      , (2121588773, 16, 1)
      , (2121588773, 19, 125)
      , (2121588773, 93, 66584)
-     , (2121588773, 9007, 8);
+     , (2121588773, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2121588773, 12, True)
@@ -1662,7 +1662,7 @@ VALUES (2121588793, 1, 128)
      , (2121588793, 16, 1)
      , (2121588793, 19, 125)
      , (2121588793, 93, 66584)
-     , (2121588793, 9007, 8);
+     , (2121588793, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2121588793, 12, True)
@@ -1696,7 +1696,7 @@ VALUES (2121588797, 1, 128)
      , (2121588797, 16, 1)
      , (2121588797, 19, 125)
      , (2121588797, 93, 66584)
-     , (2121588797, 9007, 8);
+     , (2121588797, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2121588797, 12, True)
@@ -1730,7 +1730,7 @@ VALUES (2121588800, 1, 128)
      , (2121588800, 16, 1)
      , (2121588800, 19, 125)
      , (2121588800, 93, 66584)
-     , (2121588800, 9007, 8);
+     , (2121588800, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2121588800, 12, True)
@@ -1758,7 +1758,7 @@ VALUES (2121588795, 1, 128)
      , (2121588795, 16, 1)
      , (2121588795, 19, 125)
      , (2121588795, 93, 66584)
-     , (2121588795, 9007, 8);
+     , (2121588795, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2121588795, 12, True)
@@ -1792,7 +1792,7 @@ VALUES (2121588794, 1, 128)
      , (2121588794, 16, 1)
      , (2121588794, 19, 125)
      , (2121588794, 93, 66584)
-     , (2121588794, 9007, 8);
+     , (2121588794, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2121588794, 12, True)
@@ -1826,7 +1826,7 @@ VALUES (2121588796, 1, 128)
      , (2121588796, 16, 1)
      , (2121588796, 19, 125)
      , (2121588796, 93, 66584)
-     , (2121588796, 9007, 8);
+     , (2121588796, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2121588796, 12, True)
@@ -1860,7 +1860,7 @@ VALUES (2121588799, 1, 128)
      , (2121588799, 16, 1)
      , (2121588799, 19, 125)
      , (2121588799, 93, 66584)
-     , (2121588799, 9007, 8);
+     , (2121588799, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2121588799, 12, True)
@@ -1894,7 +1894,7 @@ VALUES (2121588792, 1, 128)
      , (2121588792, 16, 1)
      , (2121588792, 19, 125)
      , (2121588792, 93, 66584)
-     , (2121588792, 9007, 8);
+     , (2121588792, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2121588792, 12, True)
@@ -1928,7 +1928,7 @@ VALUES (2121588801, 1, 128)
      , (2121588801, 16, 1)
      , (2121588801, 19, 125)
      , (2121588801, 93, 66584)
-     , (2121588801, 9007, 8);
+     , (2121588801, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2121588801, 12, True)
@@ -1962,7 +1962,7 @@ VALUES (2121588790, 1, 128)
      , (2121588790, 16, 1)
      , (2121588790, 19, 125)
      , (2121588790, 93, 66584)
-     , (2121588790, 9007, 8);
+     , (2121588790, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2121588790, 12, True)
@@ -1996,7 +1996,7 @@ VALUES (2121588798, 1, 128)
      , (2121588798, 16, 1)
      , (2121588798, 19, 125)
      , (2121588798, 93, 66584)
-     , (2121588798, 9007, 8);
+     , (2121588798, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2121588798, 12, True)
@@ -2030,7 +2030,7 @@ VALUES (2121588802, 1, 128)
      , (2121588802, 16, 1)
      , (2121588802, 19, 125)
      , (2121588802, 93, 66584)
-     , (2121588802, 9007, 8);
+     , (2121588802, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2121588802, 12, True)
@@ -2064,7 +2064,7 @@ VALUES (2120540170, 1, 128)
      , (2120540170, 16, 1)
      , (2120540170, 19, 125)
      , (2120540170, 93, 1048)
-     , (2120540170, 9007, 8);
+     , (2120540170, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2120540170, 12, True)
@@ -2092,7 +2092,7 @@ VALUES (2108928013, 1, 128)
      , (2108928013, 16, 1)
      , (2108928013, 19, 125)
      , (2108928013, 93, 66584)
-     , (2108928013, 9007, 8);
+     , (2108928013, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2108928013, 12, True)
@@ -2126,7 +2126,7 @@ VALUES (2108928010, 1, 128)
      , (2108928010, 16, 1)
      , (2108928010, 19, 125)
      , (2108928010, 93, 66584)
-     , (2108928010, 9007, 8);
+     , (2108928010, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2108928010, 12, True)
@@ -2160,7 +2160,7 @@ VALUES (2108928018, 1, 128)
      , (2108928018, 16, 1)
      , (2108928018, 19, 125)
      , (2108928018, 93, 1048)
-     , (2108928018, 9007, 8);
+     , (2108928018, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2108928018, 12, True)
@@ -2188,7 +2188,7 @@ VALUES (2107879446, 1, 128)
      , (2107879446, 16, 1)
      , (2107879446, 19, 125)
      , (2107879446, 93, 66584)
-     , (2107879446, 9007, 8);
+     , (2107879446, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107879446, 12, True)
@@ -2222,7 +2222,7 @@ VALUES (2107879447, 1, 128)
      , (2107879447, 16, 1)
      , (2107879447, 19, 125)
      , (2107879447, 93, 66584)
-     , (2107879447, 9007, 8);
+     , (2107879447, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107879447, 12, True)
@@ -2256,7 +2256,7 @@ VALUES (2107879441, 1, 128)
      , (2107879441, 16, 1)
      , (2107879441, 19, 125)
      , (2107879441, 93, 66584)
-     , (2107879441, 9007, 8);
+     , (2107879441, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107879441, 12, True)
@@ -2290,7 +2290,7 @@ VALUES (2107879449, 1, 128)
      , (2107879449, 16, 1)
      , (2107879449, 19, 125)
      , (2107879449, 93, 66584)
-     , (2107879449, 9007, 8);
+     , (2107879449, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107879449, 12, True)
@@ -2325,7 +2325,7 @@ VALUES (2119376912, 53, 101)
      , (2119376912, 16, 1)
      , (2119376912, 19, 125)
      , (2119376912, 93, 1048)
-     , (2119376912, 9007, 8);
+     , (2119376912, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2119376912, 12, True)
@@ -2360,7 +2360,7 @@ VALUES (2119376911, 53, 101)
      , (2119376911, 16, 1)
      , (2119376911, 19, 125)
      , (2119376911, 93, 1048)
-     , (2119376911, 9007, 8);
+     , (2119376911, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2119376911, 12, True)
@@ -2395,7 +2395,7 @@ VALUES (2119376910, 53, 101)
      , (2119376910, 16, 1)
      , (2119376910, 19, 125)
      , (2119376910, 93, 1048)
-     , (2119376910, 9007, 8);
+     , (2119376910, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2119376910, 12, True)
@@ -2430,7 +2430,7 @@ VALUES (2119376909, 53, 101)
      , (2119376909, 16, 1)
      , (2119376909, 19, 125)
      , (2119376909, 93, 1048)
-     , (2119376909, 9007, 8);
+     , (2119376909, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2119376909, 12, True)
@@ -2464,7 +2464,7 @@ VALUES (2119376921, 1, 128)
      , (2119376921, 16, 1)
      , (2119376921, 19, 125)
      , (2119376921, 93, 1048)
-     , (2119376921, 9007, 8);
+     , (2119376921, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2119376921, 12, True)
@@ -2493,7 +2493,7 @@ VALUES (2120425489, 53, 101)
      , (2120425489, 16, 1)
      , (2120425489, 19, 125)
      , (2120425489, 93, 1048)
-     , (2120425489, 9007, 8);
+     , (2120425489, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2120425489, 12, True)
@@ -2527,7 +2527,7 @@ VALUES (2107985977, 1, 128)
      , (2107985977, 16, 1)
      , (2107985977, 19, 125)
      , (2107985977, 93, 66584)
-     , (2107985977, 9007, 8);
+     , (2107985977, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107985977, 12, True)
@@ -2555,7 +2555,7 @@ VALUES (2107985980, 1, 128)
      , (2107985980, 16, 1)
      , (2107985980, 19, 125)
      , (2107985980, 93, 66584)
-     , (2107985980, 9007, 8);
+     , (2107985980, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107985980, 12, True)
@@ -2589,7 +2589,7 @@ VALUES (2107985982, 1, 128)
      , (2107985982, 16, 1)
      , (2107985982, 19, 125)
      , (2107985982, 93, 66584)
-     , (2107985982, 9007, 8);
+     , (2107985982, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107985982, 12, True)
@@ -2623,7 +2623,7 @@ VALUES (2107985984, 1, 128)
      , (2107985984, 16, 1)
      , (2107985984, 19, 125)
      , (2107985984, 93, 66584)
-     , (2107985984, 9007, 8);
+     , (2107985984, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107985984, 12, True)
@@ -2657,7 +2657,7 @@ VALUES (2107985976, 1, 128)
      , (2107985976, 16, 1)
      , (2107985976, 19, 125)
      , (2107985976, 93, 66584)
-     , (2107985976, 9007, 8);
+     , (2107985976, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107985976, 12, True)
@@ -2691,7 +2691,7 @@ VALUES (2107985985, 1, 128)
      , (2107985985, 16, 1)
      , (2107985985, 19, 125)
      , (2107985985, 93, 66584)
-     , (2107985985, 9007, 8);
+     , (2107985985, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107985985, 12, True)
@@ -2725,7 +2725,7 @@ VALUES (2107985978, 1, 128)
      , (2107985978, 16, 1)
      , (2107985978, 19, 125)
      , (2107985978, 93, 66584)
-     , (2107985978, 9007, 8);
+     , (2107985978, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107985978, 12, True)
@@ -2759,7 +2759,7 @@ VALUES (2107985979, 1, 128)
      , (2107985979, 16, 1)
      , (2107985979, 19, 125)
      , (2107985979, 93, 66584)
-     , (2107985979, 9007, 8);
+     , (2107985979, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107985979, 12, True)
@@ -2793,7 +2793,7 @@ VALUES (2107985981, 1, 128)
      , (2107985981, 16, 1)
      , (2107985981, 19, 125)
      , (2107985981, 93, 66584)
-     , (2107985981, 9007, 8);
+     , (2107985981, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107985981, 12, True)
@@ -2827,7 +2827,7 @@ VALUES (2107985983, 1, 128)
      , (2107985983, 16, 1)
      , (2107985983, 19, 125)
      , (2107985983, 93, 66584)
-     , (2107985983, 9007, 8);
+     , (2107985983, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107985983, 12, True)
@@ -2861,7 +2861,7 @@ VALUES (2107985988, 1, 128)
      , (2107985988, 16, 1)
      , (2107985988, 19, 125)
      , (2107985988, 93, 66584)
-     , (2107985988, 9007, 8);
+     , (2107985988, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107985988, 12, True)
@@ -2895,7 +2895,7 @@ VALUES (2107985989, 1, 128)
      , (2107985989, 16, 1)
      , (2107985989, 19, 125)
      , (2107985989, 93, 66584)
-     , (2107985989, 9007, 8);
+     , (2107985989, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107985989, 12, True)
@@ -2923,7 +2923,7 @@ VALUES (2107990019, 1, 128)
      , (2107990019, 16, 1)
      , (2107990019, 19, 125)
      , (2107990019, 93, 1048)
-     , (2107990019, 9007, 8);
+     , (2107990019, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107990019, 12, True)
@@ -2952,7 +2952,7 @@ VALUES (2094268421, 53, 101)
      , (2094268421, 16, 1)
      , (2094268421, 19, 125)
      , (2094268421, 93, 1048)
-     , (2094268421, 9007, 8);
+     , (2094268421, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2094268421, 12, True)
@@ -2987,7 +2987,7 @@ VALUES (1999667209, 53, 101)
      , (1999667209, 16, 1)
      , (1999667209, 19, 125)
      , (1999667209, 93, 1048)
-     , (1999667209, 9007, 8);
+     , (1999667209, 9007, 1);
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1999667209, 54, 3);
@@ -3024,7 +3024,7 @@ VALUES (2087358501, 1, 128)
      , (2087358501, 16, 1)
      , (2087358501, 19, 125)
      , (2087358501, 93, 1048)
-     , (2087358501, 9007, 8);
+     , (2087358501, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2087358501, 12, True)
@@ -3053,7 +3053,7 @@ VALUES (1975107590, 53, 101)
      , (1975107590, 16, 1)
      , (1975107590, 19, 125)
      , (1975107590, 93, 1048)
-     , (1975107590, 9007, 8);
+     , (1975107590, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1975107590, 12, True)
@@ -3087,7 +3087,7 @@ VALUES (1984778274, 1, 128)
      , (1984778274, 16, 1)
      , (1984778274, 19, 125)
      , (1984778274, 93, 1048)
-     , (1984778274, 9007, 8);
+     , (1984778274, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1984778274, 12, True)
@@ -3116,7 +3116,7 @@ VALUES (1984778256, 53, 101)
      , (1984778256, 16, 1)
      , (1984778256, 19, 125)
      , (1984778256, 93, 1048)
-     , (1984778256, 9007, 8);
+     , (1984778256, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1984778256, 12, True)
@@ -3145,7 +3145,7 @@ VALUES (1924210725, 53, 101)
      , (1924210725, 16, 1)
      , (1924210725, 19, 125)
      , (1924210725, 93, 1048)
-     , (1924210725, 9007, 8);
+     , (1924210725, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1924210725, 12, True)
@@ -3180,7 +3180,7 @@ VALUES (1924210724, 53, 101)
      , (1924210724, 16, 1)
      , (1924210724, 19, 125)
      , (1924210724, 93, 1048)
-     , (1924210724, 9007, 8);
+     , (1924210724, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1924210724, 12, True)
@@ -3214,7 +3214,7 @@ VALUES (1924210723, 1, 128)
      , (1924210723, 16, 1)
      , (1924210723, 19, 125)
      , (1924210723, 93, 1048)
-     , (1924210723, 9007, 8);
+     , (1924210723, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1924210723, 12, True)
@@ -3243,7 +3243,7 @@ VALUES (1924206642, 53, 101)
      , (1924206642, 16, 1)
      , (1924206642, 19, 125)
      , (1924206642, 93, 1048)
-     , (1924206642, 9007, 8);
+     , (1924206642, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1924206642, 12, True)
@@ -3272,7 +3272,7 @@ VALUES (1924210731, 53, 101)
      , (1924210731, 16, 1)
      , (1924210731, 19, 125)
      , (1924210731, 93, 1048)
-     , (1924210731, 9007, 8);
+     , (1924210731, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1924210731, 12, True)
@@ -3306,7 +3306,7 @@ VALUES (1924210733, 1, 128)
      , (1924210733, 16, 1)
      , (1924210733, 19, 125)
      , (1924210733, 93, 24)
-     , (1924210733, 9007, 8);
+     , (1924210733, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1924210733, 12, True)
@@ -3340,7 +3340,7 @@ VALUES (1924206624, 53, 101)
      , (1924206624, 16, 1)
      , (1924206624, 19, 125)
      , (1924206624, 93, 1048)
-     , (1924206624, 9007, 8);
+     , (1924206624, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1924206624, 12, True)
@@ -3375,7 +3375,7 @@ VALUES (1924206625, 53, 101)
      , (1924206625, 16, 1)
      , (1924206625, 19, 125)
      , (1924206625, 93, 1048)
-     , (1924206625, 9007, 8);
+     , (1924206625, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1924206625, 12, True)
@@ -3409,7 +3409,7 @@ VALUES (2095665216, 1, 128)
      , (2095665216, 16, 1)
      , (2095665216, 19, 125)
      , (2095665216, 93, 1048)
-     , (2095665216, 9007, 8);
+     , (2095665216, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2095665216, 12, True)
@@ -3438,7 +3438,7 @@ VALUES (2045939721, 53, 101)
      , (2045939721, 16, 1)
      , (2045939721, 19, 125)
      , (2045939721, 93, 1048)
-     , (2045939721, 9007, 8);
+     , (2045939721, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2045939721, 12, True)
@@ -3467,7 +3467,7 @@ VALUES (1880969216, 53, 101)
      , (1880969216, 16, 1)
      , (1880969216, 19, 125)
      , (1880969216, 93, 1048)
-     , (1880969216, 9007, 8);
+     , (1880969216, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1880969216, 12, True)
@@ -3496,7 +3496,7 @@ VALUES (1916641298, 53, 101)
      , (1916641298, 16, 1)
      , (1916641298, 19, 125)
      , (1916641298, 93, 24)
-     , (1916641298, 9007, 8);
+     , (1916641298, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1916641298, 12, True)
@@ -3524,7 +3524,7 @@ VALUES (1916641297, 53, 101)
      , (1916641297, 16, 1)
      , (1916641297, 19, 125)
      , (1916641297, 93, 24)
-     , (1916641297, 9007, 8);
+     , (1916641297, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1916641297, 12, True)
@@ -3552,7 +3552,7 @@ VALUES (1956577287, 53, 101)
      , (1956577287, 16, 1)
      , (1956577287, 19, 125)
      , (1956577287, 93, 24)
-     , (1956577287, 9007, 8);
+     , (1956577287, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1956577287, 12, True)
@@ -3580,7 +3580,7 @@ VALUES (2138587342, 53, 101)
      , (2138587342, 16, 1)
      , (2138587342, 19, 125)
      , (2138587342, 93, 24)
-     , (2138587342, 9007, 8);
+     , (2138587342, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2138587342, 12, True)
@@ -3608,7 +3608,7 @@ VALUES (2103791622, 53, 101)
      , (2103791622, 16, 1)
      , (2103791622, 19, 125)
      , (2103791622, 93, 24)
-     , (2103791622, 9007, 8);
+     , (2103791622, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2103791622, 12, True)
@@ -3635,7 +3635,7 @@ VALUES (2056994875, 1, 128)
      , (2056994875, 16, 1)
      , (2056994875, 19, 125)
      , (2056994875, 93, 1048)
-     , (2056994875, 9007, 8);
+     , (2056994875, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2056994875, 12, True)
@@ -3664,7 +3664,7 @@ VALUES (2056994859, 53, 101)
      , (2056994859, 16, 1)
      , (2056994859, 19, 125)
      , (2056994859, 93, 1048)
-     , (2056994859, 9007, 8);
+     , (2056994859, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2056994859, 12, True)
@@ -3699,7 +3699,7 @@ VALUES (2056994861, 53, 101)
      , (2056994861, 16, 1)
      , (2056994861, 19, 125)
      , (2056994861, 93, 1048)
-     , (2056994861, 9007, 8);
+     , (2056994861, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2056994861, 12, True)
@@ -3734,7 +3734,7 @@ VALUES (2056994858, 53, 101)
      , (2056994858, 16, 1)
      , (2056994858, 19, 125)
      , (2056994858, 93, 1048)
-     , (2056994858, 9007, 8);
+     , (2056994858, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2056994858, 12, True)
@@ -3769,7 +3769,7 @@ VALUES (2056994860, 53, 101)
      , (2056994860, 16, 1)
      , (2056994860, 19, 125)
      , (2056994860, 93, 1048)
-     , (2056994860, 9007, 8);
+     , (2056994860, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2056994860, 12, True)
@@ -3804,7 +3804,7 @@ VALUES (2056994857, 53, 101)
      , (2056994857, 16, 1)
      , (2056994857, 19, 125)
      , (2056994857, 93, 1048)
-     , (2056994857, 9007, 8);
+     , (2056994857, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2056994857, 12, True)
@@ -3839,7 +3839,7 @@ VALUES (2056994862, 53, 101)
      , (2056994862, 16, 1)
      , (2056994862, 19, 125)
      , (2056994862, 93, 1048)
-     , (2056994862, 9007, 8);
+     , (2056994862, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2056994862, 12, True)
@@ -3874,7 +3874,7 @@ VALUES (2056978448, 53, 101)
      , (2056978448, 16, 1)
      , (2056978448, 19, 125)
      , (2056978448, 93, 24)
-     , (2056978448, 9007, 8);
+     , (2056978448, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2056978448, 12, True)
@@ -3902,7 +3902,7 @@ VALUES (2076831782, 53, 101)
      , (2076831782, 16, 1)
      , (2076831782, 19, 125)
      , (2076831782, 93, 1048)
-     , (2076831782, 9007, 8);
+     , (2076831782, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2076831782, 12, True)
@@ -3937,7 +3937,7 @@ VALUES (2076831781, 53, 101)
      , (2076831781, 16, 1)
      , (2076831781, 19, 125)
      , (2076831781, 93, 1048)
-     , (2076831781, 9007, 8);
+     , (2076831781, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2076831781, 12, True)
@@ -3972,7 +3972,7 @@ VALUES (2076831787, 53, 101)
      , (2076831787, 16, 1)
      , (2076831787, 19, 125)
      , (2076831787, 93, 1048)
-     , (2076831787, 9007, 8);
+     , (2076831787, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2076831787, 12, True)
@@ -4007,7 +4007,7 @@ VALUES (2076831786, 53, 101)
      , (2076831786, 16, 1)
      , (2076831786, 19, 125)
      , (2076831786, 93, 1048)
-     , (2076831786, 9007, 8);
+     , (2076831786, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2076831786, 12, True)
@@ -4042,7 +4042,7 @@ VALUES (2076831780, 53, 101)
      , (2076831780, 16, 1)
      , (2076831780, 19, 125)
      , (2076831780, 93, 1048)
-     , (2076831780, 9007, 8);
+     , (2076831780, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2076831780, 12, True)
@@ -4077,7 +4077,7 @@ VALUES (2077880324, 53, 101)
      , (2077880324, 16, 1)
      , (2077880324, 19, 125)
      , (2077880324, 93, 1048)
-     , (2077880324, 9007, 8);
+     , (2077880324, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2077880324, 12, True)
@@ -4112,7 +4112,7 @@ VALUES (2076831784, 53, 101)
      , (2076831784, 16, 1)
      , (2076831784, 19, 125)
      , (2076831784, 93, 1048)
-     , (2076831784, 9007, 8);
+     , (2076831784, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2076831784, 12, True)
@@ -4147,7 +4147,7 @@ VALUES (2076831783, 53, 101)
      , (2076831783, 16, 1)
      , (2076831783, 19, 125)
      , (2076831783, 93, 1048)
-     , (2076831783, 9007, 8);
+     , (2076831783, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2076831783, 12, True)
@@ -4182,7 +4182,7 @@ VALUES (2079850546, 53, 101)
      , (2079850546, 16, 1)
      , (2079850546, 19, 125)
      , (2079850546, 93, 1048)
-     , (2079850546, 9007, 8);
+     , (2079850546, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2079850546, 12, True)
@@ -4217,7 +4217,7 @@ VALUES (2079850537, 53, 101)
      , (2079850537, 16, 1)
      , (2079850537, 19, 125)
      , (2079850537, 93, 1048)
-     , (2079850537, 9007, 8);
+     , (2079850537, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2079850537, 12, True)
@@ -4252,7 +4252,7 @@ VALUES (2079850543, 53, 101)
      , (2079850543, 16, 1)
      , (2079850543, 19, 125)
      , (2079850543, 93, 1048)
-     , (2079850543, 9007, 8);
+     , (2079850543, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2079850543, 12, True)
@@ -4287,7 +4287,7 @@ VALUES (2079850542, 53, 101)
      , (2079850542, 16, 1)
      , (2079850542, 19, 125)
      , (2079850542, 93, 1048)
-     , (2079850542, 9007, 8);
+     , (2079850542, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2079850542, 12, True)
@@ -4322,7 +4322,7 @@ VALUES (2079850539, 53, 101)
      , (2079850539, 16, 1)
      , (2079850539, 19, 125)
      , (2079850539, 93, 1048)
-     , (2079850539, 9007, 8);
+     , (2079850539, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2079850539, 12, True)
@@ -4357,7 +4357,7 @@ VALUES (2079850541, 53, 101)
      , (2079850541, 16, 1)
      , (2079850541, 19, 125)
      , (2079850541, 93, 1048)
-     , (2079850541, 9007, 8);
+     , (2079850541, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2079850541, 12, True)
@@ -4392,7 +4392,7 @@ VALUES (2079850534, 53, 101)
      , (2079850534, 16, 1)
      , (2079850534, 19, 125)
      , (2079850534, 93, 1048)
-     , (2079850534, 9007, 8);
+     , (2079850534, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2079850534, 12, True)
@@ -4426,7 +4426,7 @@ VALUES (2078801925, 1, 128)
      , (2078801925, 16, 1)
      , (2078801925, 19, 125)
      , (2078801925, 93, 1048)
-     , (2078801925, 9007, 8);
+     , (2078801925, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2078801925, 12, True)
@@ -4455,7 +4455,7 @@ VALUES (2048540708, 53, 101)
      , (2048540708, 16, 1)
      , (2048540708, 19, 125)
      , (2048540708, 93, 1048)
-     , (2048540708, 9007, 8);
+     , (2048540708, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2048540708, 12, True)
@@ -4490,7 +4490,7 @@ VALUES (2048540709, 53, 101)
      , (2048540709, 16, 1)
      , (2048540709, 19, 125)
      , (2048540709, 93, 1048)
-     , (2048540709, 9007, 8);
+     , (2048540709, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2048540709, 12, True)
@@ -4525,7 +4525,7 @@ VALUES (2048540710, 53, 101)
      , (2048540710, 16, 1)
      , (2048540710, 19, 125)
      , (2048540710, 93, 1048)
-     , (2048540710, 9007, 8);
+     , (2048540710, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2048540710, 12, True)
@@ -4560,7 +4560,7 @@ VALUES (2048540711, 53, 101)
      , (2048540711, 16, 1)
      , (2048540711, 19, 125)
      , (2048540711, 93, 1048)
-     , (2048540711, 9007, 8);
+     , (2048540711, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2048540711, 12, True)
@@ -4595,7 +4595,7 @@ VALUES (2048540712, 53, 101)
      , (2048540712, 16, 1)
      , (2048540712, 19, 125)
      , (2048540712, 93, 1048)
-     , (2048540712, 9007, 8);
+     , (2048540712, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2048540712, 12, True)
@@ -4629,7 +4629,7 @@ VALUES (2049589252, 1, 128)
      , (2049589252, 16, 1)
      , (2049589252, 19, 125)
      , (2049589252, 93, 1048)
-     , (2049589252, 9007, 8);
+     , (2049589252, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2049589252, 12, True)
@@ -4658,7 +4658,7 @@ VALUES (2048540714, 53, 101)
      , (2048540714, 16, 1)
      , (2048540714, 19, 125)
      , (2048540714, 93, 1048)
-     , (2048540714, 9007, 8);
+     , (2048540714, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2048540714, 12, True)
@@ -4693,7 +4693,7 @@ VALUES (2048540713, 53, 101)
      , (2048540713, 16, 1)
      , (2048540713, 19, 125)
      , (2048540713, 93, 1048)
-     , (2048540713, 9007, 8);
+     , (2048540713, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2048540713, 12, True)
@@ -4727,7 +4727,7 @@ VALUES (1956339745, 1, 128)
      , (1956339745, 16, 1)
      , (1956339745, 19, 125)
      , (1956339745, 93, 1048)
-     , (1956339745, 9007, 8);
+     , (1956339745, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1956339745, 12, True)
@@ -4756,7 +4756,7 @@ VALUES (1918373910, 53, 101)
      , (1918373910, 16, 1)
      , (1918373910, 19, 125)
      , (1918373910, 93, 1048)
-     , (1918373910, 9007, 8);
+     , (1918373910, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1918373910, 12, True)
@@ -4785,7 +4785,7 @@ VALUES (1918373909, 53, 101)
      , (1918373909, 16, 1)
      , (1918373909, 19, 125)
      , (1918373909, 93, 1048)
-     , (1918373909, 9007, 8);
+     , (1918373909, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1918373909, 12, True)
@@ -4820,7 +4820,7 @@ VALUES (1918373911, 53, 101)
      , (1918373911, 16, 1)
      , (1918373911, 19, 125)
      , (1918373911, 93, 1048)
-     , (1918373911, 9007, 8);
+     , (1918373911, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1918373911, 12, True)
@@ -4849,7 +4849,7 @@ VALUES (1918373908, 53, 101)
      , (1918373908, 16, 1)
      , (1918373908, 19, 125)
      , (1918373908, 93, 1048)
-     , (1918373908, 9007, 8);
+     , (1918373908, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1918373908, 12, True)
@@ -4884,7 +4884,7 @@ VALUES (1918373907, 53, 101)
      , (1918373907, 16, 1)
      , (1918373907, 19, 125)
      , (1918373907, 93, 1048)
-     , (1918373907, 9007, 8);
+     , (1918373907, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1918373907, 12, True)
@@ -4919,7 +4919,7 @@ VALUES (2108117016, 53, 101)
      , (2108117016, 16, 1)
      , (2108117016, 19, 125)
      , (2108117016, 93, 1048)
-     , (2108117016, 9007, 8);
+     , (2108117016, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2108117016, 12, True)
@@ -4954,7 +4954,7 @@ VALUES (2108117019, 53, 101)
      , (2108117019, 16, 1)
      , (2108117019, 19, 125)
      , (2108117019, 93, 1048)
-     , (2108117019, 9007, 8);
+     , (2108117019, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2108117019, 12, True)
@@ -4989,7 +4989,7 @@ VALUES (2108117026, 53, 101)
      , (2108117026, 16, 1)
      , (2108117026, 19, 125)
      , (2108117026, 93, 1048)
-     , (2108117026, 9007, 8);
+     , (2108117026, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2108117026, 12, True)
@@ -5024,7 +5024,7 @@ VALUES (2108117022, 53, 101)
      , (2108117022, 16, 1)
      , (2108117022, 19, 125)
      , (2108117022, 93, 1048)
-     , (2108117022, 9007, 8);
+     , (2108117022, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2108117022, 12, True)
@@ -5059,7 +5059,7 @@ VALUES (2090385426, 53, 101)
      , (2090385426, 16, 1)
      , (2090385426, 19, 125)
      , (2090385426, 93, 1048)
-     , (2090385426, 9007, 8);
+     , (2090385426, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2090385426, 12, True)
@@ -5094,7 +5094,7 @@ VALUES (2090385427, 53, 101)
      , (2090385427, 16, 1)
      , (2090385427, 19, 125)
      , (2090385427, 93, 1048)
-     , (2090385427, 9007, 8);
+     , (2090385427, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2090385427, 12, True)
@@ -5129,7 +5129,7 @@ VALUES (2090385428, 53, 101)
      , (2090385428, 16, 1)
      , (2090385428, 19, 125)
      , (2090385428, 93, 1048)
-     , (2090385428, 9007, 8);
+     , (2090385428, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2090385428, 12, True)
@@ -5164,7 +5164,7 @@ VALUES (2089336885, 53, 101)
      , (2089336885, 16, 1)
      , (2089336885, 19, 125)
      , (2089336885, 93, 1048)
-     , (2089336885, 9007, 8);
+     , (2089336885, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2089336885, 12, True)
@@ -5199,7 +5199,7 @@ VALUES (2089336876, 53, 101)
      , (2089336876, 16, 1)
      , (2089336876, 19, 125)
      , (2089336876, 93, 1048)
-     , (2089336876, 9007, 8);
+     , (2089336876, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2089336876, 12, True)
@@ -5234,7 +5234,7 @@ VALUES (2089336884, 53, 101)
      , (2089336884, 16, 1)
      , (2089336884, 19, 125)
      , (2089336884, 93, 1048)
-     , (2089336884, 9007, 8);
+     , (2089336884, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2089336884, 12, True)
@@ -5269,7 +5269,7 @@ VALUES (2089336877, 53, 101)
      , (2089336877, 16, 1)
      , (2089336877, 19, 125)
      , (2089336877, 93, 1048)
-     , (2089336877, 9007, 8);
+     , (2089336877, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2089336877, 12, True)
@@ -5304,7 +5304,7 @@ VALUES (2089336879, 53, 101)
      , (2089336879, 16, 1)
      , (2089336879, 19, 125)
      , (2089336879, 93, 1048)
-     , (2089336879, 9007, 8);
+     , (2089336879, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2089336879, 12, True)
@@ -5339,7 +5339,7 @@ VALUES (2089336878, 53, 101)
      , (2089336878, 16, 1)
      , (2089336878, 19, 125)
      , (2089336878, 93, 1048)
-     , (2089336878, 9007, 8);
+     , (2089336878, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2089336878, 12, True)
@@ -5373,7 +5373,7 @@ VALUES (2089332741, 1, 128)
      , (2089332741, 16, 1)
      , (2089332741, 19, 125)
      , (2089332741, 93, 1048)
-     , (2089332741, 9007, 8);
+     , (2089332741, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2089332741, 12, True)
@@ -5402,7 +5402,7 @@ VALUES (2089320463, 53, 101)
      , (2089320463, 16, 1)
      , (2089320463, 19, 125)
      , (2089320463, 93, 24)
-     , (2089320463, 9007, 8);
+     , (2089320463, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2089320463, 12, True)
@@ -5430,7 +5430,7 @@ VALUES (2093531150, 53, 101)
      , (2093531150, 16, 1)
      , (2093531150, 19, 125)
      , (2093531150, 93, 24)
-     , (2093531150, 9007, 8);
+     , (2093531150, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2093531150, 12, True)
@@ -5457,7 +5457,7 @@ VALUES (2010529813, 1, 128)
      , (2010529813, 16, 1)
      , (2010529813, 19, 125)
      , (2010529813, 93, 24)
-     , (2010529813, 9007, 8);
+     , (2010529813, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2010529813, 12, True)
@@ -5490,7 +5490,7 @@ VALUES (2010529814, 1, 128)
      , (2010529814, 16, 1)
      , (2010529814, 19, 125)
      , (2010529814, 93, 24)
-     , (2010529814, 9007, 8);
+     , (2010529814, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2010529814, 12, True)
@@ -5523,7 +5523,7 @@ VALUES (2010529812, 1, 128)
      , (2010529812, 16, 1)
      , (2010529812, 19, 125)
      , (2010529812, 93, 24)
-     , (2010529812, 9007, 8);
+     , (2010529812, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2010529812, 12, True)
@@ -5556,7 +5556,7 @@ VALUES (2010529828, 1, 128)
      , (2010529828, 16, 1)
      , (2010529828, 19, 125)
      , (2010529828, 93, 1048)
-     , (2010529828, 9007, 8);
+     , (2010529828, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2010529828, 12, True)
@@ -5584,7 +5584,7 @@ VALUES (2030403595, 1, 128)
      , (2030403595, 16, 1)
      , (2030403595, 19, 125)
      , (2030403595, 93, 24)
-     , (2030403595, 9007, 8);
+     , (2030403595, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2030403595, 12, True)
@@ -5617,7 +5617,7 @@ VALUES (2030399491, 1, 128)
      , (2030399491, 16, 1)
      , (2030399491, 19, 125)
      , (2030399491, 93, 1048)
-     , (2030399491, 9007, 8);
+     , (2030399491, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2030399491, 12, True)
@@ -5645,7 +5645,7 @@ VALUES (2030403601, 1, 128)
      , (2030403601, 16, 1)
      , (2030403601, 19, 125)
      , (2030403601, 93, 24)
-     , (2030403601, 9007, 8);
+     , (2030403601, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2030403601, 12, True)
@@ -5678,7 +5678,7 @@ VALUES (2030403599, 1, 128)
      , (2030403599, 16, 1)
      , (2030403599, 19, 125)
      , (2030403599, 93, 24)
-     , (2030403599, 9007, 8);
+     , (2030403599, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2030403599, 12, True)
@@ -5711,7 +5711,7 @@ VALUES (2030403590, 1, 128)
      , (2030403590, 16, 1)
      , (2030403590, 19, 125)
      , (2030403590, 93, 24)
-     , (2030403590, 9007, 8);
+     , (2030403590, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2030403590, 12, True)
@@ -5744,7 +5744,7 @@ VALUES (2031452166, 1, 128)
      , (2031452166, 16, 1)
      , (2031452166, 19, 125)
      , (2031452166, 93, 24)
-     , (2031452166, 9007, 8);
+     , (2031452166, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2031452166, 12, True)
@@ -5777,7 +5777,7 @@ VALUES (2031452164, 1, 128)
      , (2031452164, 16, 1)
      , (2031452164, 19, 125)
      , (2031452164, 93, 24)
-     , (2031452164, 9007, 8);
+     , (2031452164, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2031452164, 12, True)
@@ -5810,7 +5810,7 @@ VALUES (2045001742, 1, 128)
      , (2045001742, 16, 1)
      , (2045001742, 19, 125)
      , (2045001742, 93, 24)
-     , (2045001742, 9007, 8);
+     , (2045001742, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2045001742, 12, True)
@@ -5843,7 +5843,7 @@ VALUES (2045001743, 1, 128)
      , (2045001743, 16, 1)
      , (2045001743, 19, 125)
      , (2045001743, 93, 24)
-     , (2045001743, 9007, 8);
+     , (2045001743, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2045001743, 12, True)
@@ -5876,7 +5876,7 @@ VALUES (2045001741, 1, 128)
      , (2045001741, 16, 1)
      , (2045001741, 19, 125)
      , (2045001741, 93, 24)
-     , (2045001741, 9007, 8);
+     , (2045001741, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2045001741, 12, True)
@@ -5909,7 +5909,7 @@ VALUES (2044997644, 1, 128)
      , (2044997644, 16, 1)
      , (2044997644, 19, 125)
      , (2044997644, 93, 24)
-     , (2044997644, 9007, 8);
+     , (2044997644, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2044997644, 12, True)
@@ -5942,7 +5942,7 @@ VALUES (2045001744, 1, 128)
      , (2045001744, 16, 1)
      , (2045001744, 19, 125)
      , (2045001744, 93, 24)
-     , (2045001744, 9007, 8);
+     , (2045001744, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2045001744, 12, True)
@@ -5975,7 +5975,7 @@ VALUES (2044997642, 1, 128)
      , (2044997642, 16, 1)
      , (2044997642, 19, 125)
      , (2044997642, 93, 24)
-     , (2044997642, 9007, 8);
+     , (2044997642, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2044997642, 12, True)
@@ -6008,7 +6008,7 @@ VALUES (2044997641, 1, 128)
      , (2044997641, 16, 1)
      , (2044997641, 19, 125)
      , (2044997641, 93, 24)
-     , (2044997641, 9007, 8);
+     , (2044997641, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2044997641, 12, True)
@@ -6041,7 +6041,7 @@ VALUES (2044997653, 1, 128)
      , (2044997653, 16, 1)
      , (2044997653, 19, 125)
      , (2044997653, 93, 1048)
-     , (2044997653, 9007, 8);
+     , (2044997653, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2044997653, 12, True)
@@ -6069,7 +6069,7 @@ VALUES (2049310727, 1, 128)
      , (2049310727, 16, 1)
      , (2049310727, 19, 125)
      , (2049310727, 93, 24)
-     , (2049310727, 9007, 8);
+     , (2049310727, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2049310727, 12, True)
@@ -6102,7 +6102,7 @@ VALUES (2049310735, 1, 128)
      , (2049310735, 16, 1)
      , (2049310735, 19, 125)
      , (2049310735, 93, 1048)
-     , (2049310735, 9007, 8);
+     , (2049310735, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2049310735, 12, True)
@@ -6130,7 +6130,7 @@ VALUES (2049306644, 1, 128)
      , (2049306644, 16, 1)
      , (2049306644, 19, 125)
      , (2049306644, 93, 24)
-     , (2049306644, 9007, 8);
+     , (2049306644, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2049306644, 12, True)
@@ -6163,7 +6163,7 @@ VALUES (2049306645, 1, 128)
      , (2049306645, 16, 1)
      , (2049306645, 19, 125)
      , (2049306645, 93, 24)
-     , (2049306645, 9007, 8);
+     , (2049306645, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2049306645, 12, True)
@@ -6196,7 +6196,7 @@ VALUES (2049306649, 1, 128)
      , (2049306649, 16, 1)
      , (2049306649, 19, 125)
      , (2049306649, 93, 24)
-     , (2049306649, 9007, 8);
+     , (2049306649, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2049306649, 12, True)
@@ -6229,7 +6229,7 @@ VALUES (2049306646, 1, 128)
      , (2049306646, 16, 1)
      , (2049306646, 19, 125)
      , (2049306646, 93, 24)
-     , (2049306646, 9007, 8);
+     , (2049306646, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2049306646, 12, True)
@@ -6262,7 +6262,7 @@ VALUES (2049306648, 1, 128)
      , (2049306648, 16, 1)
      , (2049306648, 19, 125)
      , (2049306648, 93, 24)
-     , (2049306648, 9007, 8);
+     , (2049306648, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2049306648, 12, True)
@@ -6295,7 +6295,7 @@ VALUES (2049306650, 1, 128)
      , (2049306650, 16, 1)
      , (2049306650, 19, 125)
      , (2049306650, 93, 24)
-     , (2049306650, 9007, 8);
+     , (2049306650, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2049306650, 12, True)
@@ -6328,7 +6328,7 @@ VALUES (2049306637, 1, 128)
      , (2049306637, 16, 1)
      , (2049306637, 19, 125)
      , (2049306637, 93, 24)
-     , (2049306637, 9007, 8);
+     , (2049306637, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2049306637, 12, True)
@@ -6361,7 +6361,7 @@ VALUES (2019999749, 1, 128)
      , (2019999749, 16, 1)
      , (2019999749, 19, 125)
      , (2019999749, 93, 24)
-     , (2019999749, 9007, 8);
+     , (2019999749, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2019999749, 12, True)
@@ -6394,7 +6394,7 @@ VALUES (2019999747, 1, 128)
      , (2019999747, 16, 1)
      , (2019999747, 19, 125)
      , (2019999747, 93, 24)
-     , (2019999747, 9007, 8);
+     , (2019999747, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2019999747, 12, True)
@@ -6427,7 +6427,7 @@ VALUES (2021052416, 1, 128)
      , (2021052416, 16, 1)
      , (2021052416, 19, 125)
      , (2021052416, 93, 24)
-     , (2021052416, 9007, 8);
+     , (2021052416, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2021052416, 12, True)
@@ -6460,7 +6460,7 @@ VALUES (2019999758, 1, 128)
      , (2019999758, 16, 1)
      , (2019999758, 19, 125)
      , (2019999758, 93, 1048)
-     , (2019999758, 9007, 8);
+     , (2019999758, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2019999758, 12, True)
@@ -6488,7 +6488,7 @@ VALUES (2020003841, 1, 128)
      , (2020003841, 16, 1)
      , (2020003841, 19, 125)
      , (2020003841, 93, 24)
-     , (2020003841, 9007, 8);
+     , (2020003841, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2020003841, 12, True)
@@ -6521,7 +6521,7 @@ VALUES (2018959366, 1, 128)
      , (2018959366, 16, 1)
      , (2018959366, 19, 125)
      , (2018959366, 93, 24)
-     , (2018959366, 9007, 8);
+     , (2018959366, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2018959366, 12, True)
@@ -6554,7 +6554,7 @@ VALUES (2017902592, 1, 128)
      , (2017902592, 16, 1)
      , (2017902592, 19, 125)
      , (2017902592, 93, 24)
-     , (2017902592, 9007, 8);
+     , (2017902592, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2017902592, 12, True)
@@ -6587,7 +6587,7 @@ VALUES (2019999750, 1, 128)
      , (2019999750, 16, 1)
      , (2019999750, 19, 125)
      , (2019999750, 93, 24)
-     , (2019999750, 9007, 8);
+     , (2019999750, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2019999750, 12, True)
@@ -6620,7 +6620,7 @@ VALUES (2019065871, 1, 128)
      , (2019065871, 16, 1)
      , (2019065871, 19, 125)
      , (2019065871, 93, 24)
-     , (2019065871, 9007, 8);
+     , (2019065871, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2019065871, 12, True)
@@ -6653,7 +6653,7 @@ VALUES (2019065870, 1, 128)
      , (2019065870, 16, 1)
      , (2019065870, 19, 125)
      , (2019065870, 93, 24)
-     , (2019065870, 9007, 8);
+     , (2019065870, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2019065870, 12, True)
@@ -6686,7 +6686,7 @@ VALUES (2019065885, 1, 128)
      , (2019065885, 16, 1)
      , (2019065885, 19, 125)
      , (2019065885, 93, 1048)
-     , (2019065885, 9007, 8);
+     , (2019065885, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2019065885, 12, True)
@@ -6714,7 +6714,7 @@ VALUES (2019065868, 1, 128)
      , (2019065868, 16, 1)
      , (2019065868, 19, 125)
      , (2019065868, 93, 24)
-     , (2019065868, 9007, 8);
+     , (2019065868, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2019065868, 12, True)
@@ -6747,7 +6747,7 @@ VALUES (2019065869, 1, 128)
      , (2019065869, 16, 1)
      , (2019065869, 19, 125)
      , (2019065869, 93, 24)
-     , (2019065869, 9007, 8);
+     , (2019065869, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2019065869, 12, True)
@@ -6780,7 +6780,7 @@ VALUES (2013855769, 1, 128)
      , (2013855769, 16, 1)
      , (2013855769, 19, 125)
      , (2013855769, 93, 24)
-     , (2013855769, 9007, 8);
+     , (2013855769, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2013855769, 12, True)
@@ -6813,7 +6813,7 @@ VALUES (2013855768, 1, 128)
      , (2013855768, 16, 1)
      , (2013855768, 19, 125)
      , (2013855768, 93, 24)
-     , (2013855768, 9007, 8);
+     , (2013855768, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2013855768, 12, True)
@@ -6846,7 +6846,7 @@ VALUES (2013855773, 1, 128)
      , (2013855773, 16, 1)
      , (2013855773, 19, 125)
      , (2013855773, 93, 24)
-     , (2013855773, 9007, 8);
+     , (2013855773, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2013855773, 12, True)
@@ -6879,7 +6879,7 @@ VALUES (2013855766, 1, 128)
      , (2013855766, 16, 1)
      , (2013855766, 19, 125)
      , (2013855766, 93, 24)
-     , (2013855766, 9007, 8);
+     , (2013855766, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2013855766, 12, True)
@@ -6912,7 +6912,7 @@ VALUES (2013855767, 1, 128)
      , (2013855767, 16, 1)
      , (2013855767, 19, 125)
      , (2013855767, 93, 24)
-     , (2013855767, 9007, 8);
+     , (2013855767, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2013855767, 12, True)
@@ -6945,7 +6945,7 @@ VALUES (2012803087, 1, 128)
      , (2012803087, 16, 1)
      , (2012803087, 19, 125)
      , (2012803087, 93, 1048)
-     , (2012803087, 9007, 8);
+     , (2012803087, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2012803087, 12, True)
@@ -6973,7 +6973,7 @@ VALUES (2033496137, 1, 128)
      , (2033496137, 16, 1)
      , (2033496137, 19, 125)
      , (2033496137, 93, 24)
-     , (2033496137, 9007, 8);
+     , (2033496137, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2033496137, 12, True)
@@ -7006,7 +7006,7 @@ VALUES (2033496152, 1, 128)
      , (2033496152, 16, 1)
      , (2033496152, 19, 125)
      , (2033496152, 93, 24)
-     , (2033496152, 9007, 8);
+     , (2033496152, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2033496152, 12, True)
@@ -7039,7 +7039,7 @@ VALUES (2033496127, 1, 128)
      , (2033496127, 16, 1)
      , (2033496127, 19, 125)
      , (2033496127, 93, 24)
-     , (2033496127, 9007, 8);
+     , (2033496127, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2033496127, 12, True)
@@ -7072,7 +7072,7 @@ VALUES (2037522462, 1, 128)
      , (2037522462, 16, 1)
      , (2037522462, 19, 125)
      , (2037522462, 93, 24)
-     , (2037522462, 9007, 8);
+     , (2037522462, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2037522462, 12, True)
@@ -7105,7 +7105,7 @@ VALUES (2037522461, 1, 128)
      , (2037522461, 16, 1)
      , (2037522461, 19, 125)
      , (2037522461, 93, 24)
-     , (2037522461, 9007, 8);
+     , (2037522461, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2037522461, 12, True)
@@ -7138,7 +7138,7 @@ VALUES (2037522460, 1, 128)
      , (2037522460, 16, 1)
      , (2037522460, 19, 125)
      , (2037522460, 93, 24)
-     , (2037522460, 9007, 8);
+     , (2037522460, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2037522460, 12, True)
@@ -7171,7 +7171,7 @@ VALUES (2037522472, 1, 128)
      , (2037522472, 16, 1)
      , (2037522472, 19, 125)
      , (2037522472, 93, 1048)
-     , (2037522472, 9007, 8);
+     , (2037522472, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2037522472, 12, True)
@@ -7199,7 +7199,7 @@ VALUES (2037522459, 1, 128)
      , (2037522459, 16, 1)
      , (2037522459, 19, 125)
      , (2037522459, 93, 24)
-     , (2037522459, 9007, 8);
+     , (2037522459, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2037522459, 12, True)
@@ -7232,7 +7232,7 @@ VALUES (2037887016, 1, 128)
      , (2037887016, 16, 1)
      , (2037887016, 19, 125)
      , (2037887016, 93, 1048)
-     , (2037887016, 9007, 8);
+     , (2037887016, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2037887016, 12, True)
@@ -7260,7 +7260,7 @@ VALUES (2037887000, 1, 128)
      , (2037887000, 16, 1)
      , (2037887000, 19, 125)
      , (2037887000, 93, 24)
-     , (2037887000, 9007, 8);
+     , (2037887000, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2037887000, 12, True)
@@ -7294,7 +7294,7 @@ VALUES (2037887007, 53, 101)
      , (2037887007, 16, 1)
      , (2037887007, 19, 125)
      , (2037887007, 93, 1048)
-     , (2037887007, 9007, 8);
+     , (2037887007, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2037887007, 12, True)
@@ -7328,7 +7328,7 @@ VALUES (2037887001, 1, 128)
      , (2037887001, 16, 1)
      , (2037887001, 19, 125)
      , (2037887001, 93, 24)
-     , (2037887001, 9007, 8);
+     , (2037887001, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2037887001, 12, True)
@@ -7361,7 +7361,7 @@ VALUES (2037887002, 1, 128)
      , (2037887002, 16, 1)
      , (2037887002, 19, 125)
      , (2037887002, 93, 24)
-     , (2037887002, 9007, 8);
+     , (2037887002, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2037887002, 12, True)
@@ -7394,7 +7394,7 @@ VALUES (2037887003, 1, 128)
      , (2037887003, 16, 1)
      , (2037887003, 19, 125)
      , (2037887003, 93, 24)
-     , (2037887003, 9007, 8);
+     , (2037887003, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2037887003, 12, True)
@@ -7428,7 +7428,7 @@ VALUES (2120425490, 53, 101)
      , (2120425490, 16, 1)
      , (2120425490, 19, 125)
      , (2120425490, 93, 1048)
-     , (2120425490, 9007, 8);
+     , (2120425490, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2120425490, 12, True)
@@ -7462,7 +7462,7 @@ VALUES (1897086997, 1, 128)
      , (1897086997, 16, 1)
      , (1897086997, 19, 125)
      , (1897086997, 93, 24)
-     , (1897086997, 9007, 8);
+     , (1897086997, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1897086997, 12, True)
@@ -7495,7 +7495,7 @@ VALUES (1897086994, 1, 128)
      , (1897086994, 16, 1)
      , (1897086994, 19, 125)
      , (1897086994, 93, 24)
-     , (1897086994, 9007, 8);
+     , (1897086994, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1897086994, 12, True)
@@ -7528,7 +7528,7 @@ VALUES (1897086996, 1, 128)
      , (1897086996, 16, 1)
      , (1897086996, 19, 125)
      , (1897086996, 93, 24)
-     , (1897086996, 9007, 8);
+     , (1897086996, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1897086996, 12, True)
@@ -7561,7 +7561,7 @@ VALUES (1897086989, 1, 128)
      , (1897086989, 16, 1)
      , (1897086989, 19, 125)
      , (1897086989, 93, 24)
-     , (1897086989, 9007, 8);
+     , (1897086989, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1897086989, 12, True)
@@ -7594,7 +7594,7 @@ VALUES (1897087012, 1, 128)
      , (1897087012, 16, 1)
      , (1897087012, 19, 125)
      , (1897087012, 93, 1048)
-     , (1897087012, 9007, 8);
+     , (1897087012, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1897087012, 12, True)
@@ -7622,7 +7622,7 @@ VALUES (1897086995, 1, 128)
      , (1897086995, 16, 1)
      , (1897086995, 19, 125)
      , (1897086995, 93, 24)
-     , (1897086995, 9007, 8);
+     , (1897086995, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1897086995, 12, True)
@@ -7655,7 +7655,7 @@ VALUES (1897091073, 1, 128)
      , (1897091073, 16, 1)
      , (1897091073, 19, 125)
      , (1897091073, 93, 24)
-     , (1897091073, 9007, 8);
+     , (1897091073, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1897091073, 12, True)
@@ -7689,7 +7689,7 @@ VALUES (1881018468, 53, 101)
      , (1881018468, 16, 1)
      , (1881018468, 19, 125)
      , (1881018468, 93, 1048)
-     , (1881018468, 9007, 8);
+     , (1881018468, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1881018468, 12, True)
@@ -7718,7 +7718,7 @@ VALUES (1881018466, 53, 101)
      , (1881018466, 16, 1)
      , (1881018466, 19, 125)
      , (1881018466, 93, 1048)
-     , (1881018466, 9007, 8);
+     , (1881018466, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1881018466, 12, True)
@@ -7747,7 +7747,7 @@ VALUES (1881018471, 53, 101)
      , (1881018471, 16, 1)
      , (1881018471, 19, 125)
      , (1881018471, 93, 1048)
-     , (1881018471, 9007, 8);
+     , (1881018471, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1881018471, 12, True)
@@ -7776,7 +7776,7 @@ VALUES (1881018484, 53, 101)
      , (1881018484, 16, 1)
      , (1881018484, 19, 125)
      , (1881018484, 93, 1048)
-     , (1881018484, 9007, 8);
+     , (1881018484, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1881018484, 12, True)
@@ -7805,7 +7805,7 @@ VALUES (2096758791, 53, 101)
      , (2096758791, 16, 1)
      , (2096758791, 19, 125)
      , (2096758791, 93, 1048)
-     , (2096758791, 9007, 8);
+     , (2096758791, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2096758791, 12, True)
@@ -7834,7 +7834,7 @@ VALUES (2096758792, 53, 101)
      , (2096758792, 16, 1)
      , (2096758792, 19, 125)
      , (2096758792, 93, 1048)
-     , (2096758792, 9007, 8);
+     , (2096758792, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2096758792, 12, True)
@@ -7863,7 +7863,7 @@ VALUES (2073505804, 53, 101)
      , (2073505804, 16, 1)
      , (2073505804, 19, 125)
      , (2073505804, 93, 24)
-     , (2073505804, 9007, 8);
+     , (2073505804, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2073505804, 12, True)
@@ -7891,7 +7891,7 @@ VALUES (1881022592, 53, 101)
      , (1881022592, 16, 1)
      , (1881022592, 19, 125)
      , (1881022592, 93, 1048)
-     , (1881022592, 9007, 8);
+     , (1881022592, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1881022592, 12, True)
@@ -7920,7 +7920,7 @@ VALUES (1881104456, 53, 101)
      , (1881104456, 16, 1)
      , (1881104456, 19, 125)
      , (1881104456, 93, 1048)
-     , (1881104456, 9007, 8);
+     , (1881104456, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1881104456, 12, True)
@@ -7949,7 +7949,7 @@ VALUES (1881104460, 53, 101)
      , (1881104460, 16, 1)
      , (1881104460, 19, 125)
      , (1881104460, 93, 1048)
-     , (1881104460, 9007, 8);
+     , (1881104460, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1881104460, 12, True)
@@ -7978,7 +7978,7 @@ VALUES (2052800528, 53, 101)
      , (2052800528, 16, 1)
      , (2052800528, 19, 125)
      , (2052800528, 93, 24)
-     , (2052800528, 9007, 8);
+     , (2052800528, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2052800528, 12, True)
@@ -8006,7 +8006,7 @@ VALUES (2055933953, 53, 101)
      , (2055933953, 16, 1)
      , (2055933953, 19, 130)
      , (2055933953, 93, 1048)
-     , (2055933953, 9007, 8);
+     , (2055933953, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2055933953, 12, True)
@@ -8035,7 +8035,7 @@ VALUES (2033709067, 53, 101)
      , (2033709067, 16, 1)
      , (2033709067, 19, 125)
      , (2033709067, 93, 24)
-     , (2033709067, 9007, 8);
+     , (2033709067, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2033709067, 12, True)
@@ -8063,7 +8063,7 @@ VALUES (2042081292, 53, 101)
      , (2042081292, 16, 1)
      , (2042081292, 19, 125)
      , (2042081292, 93, 24)
-     , (2042081292, 9007, 8);
+     , (2042081292, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2042081292, 12, True)
@@ -8091,7 +8091,7 @@ VALUES (2119442437, 53, 101)
      , (2119442437, 16, 1)
      , (2119442437, 19, 125)
      , (2119442437, 93, 24)
-     , (2119442437, 9007, 8);
+     , (2119442437, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2119442437, 12, True)
@@ -8119,7 +8119,7 @@ VALUES (2112163849, 53, 101)
      , (2112163849, 16, 1)
      , (2112163849, 19, 125)
      , (2112163849, 93, 24)
-     , (2112163849, 9007, 8);
+     , (2112163849, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2112163849, 12, True)
@@ -8147,7 +8147,7 @@ VALUES (2084044819, 53, 101)
      , (2084044819, 16, 1)
      , (2084044819, 19, 125)
      , (2084044819, 93, 24)
-     , (2084044819, 9007, 8);
+     , (2084044819, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2084044819, 12, True)
@@ -8175,7 +8175,7 @@ VALUES (2075656210, 53, 101)
      , (2075656210, 16, 1)
      , (2075656210, 19, 125)
      , (2075656210, 93, 24)
-     , (2075656210, 9007, 8);
+     , (2075656210, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2075656210, 12, True)
@@ -8202,7 +8202,7 @@ VALUES (2074730506, 1, 128)
      , (2074730506, 16, 1)
      , (2074730506, 19, 125)
      , (2074730506, 93, 1048)
-     , (2074730506, 9007, 8);
+     , (2074730506, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2074730506, 12, True)
@@ -8231,7 +8231,7 @@ VALUES (1880383611, 53, 101)
      , (1880383611, 16, 1)
      , (1880383611, 19, 125)
      , (1880383611, 93, 1048)
-     , (1880383611, 9007, 8);
+     , (1880383611, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1880383611, 12, True)
@@ -8260,7 +8260,7 @@ VALUES (2080186371, 53, 101)
      , (2080186371, 16, 1)
      , (2080186371, 19, 125)
      , (2080186371, 93, 1048)
-     , (2080186371, 9007, 8);
+     , (2080186371, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2080186371, 12, True)
@@ -8288,7 +8288,7 @@ VALUES (2107879444, 1, 128)
      , (2107879444, 16, 1)
      , (2107879444, 19, 125)
      , (2107879444, 93, 66584)
-     , (2107879444, 9007, 8);
+     , (2107879444, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2107879444, 12, True)
@@ -8323,7 +8323,7 @@ VALUES (2097496080, 53, 101)
      , (2097496080, 16, 1)
      , (2097496080, 19, 125)
      , (2097496080, 93, 1048)
-     , (2097496080, 9007, 8);
+     , (2097496080, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2097496080, 12, True)
@@ -8352,7 +8352,7 @@ VALUES (2009485313, 53, 101)
      , (2009485313, 16, 1)
      , (2009485313, 19, 130)
      , (2009485313, 93, 1048)
-     , (2009485313, 9007, 8);
+     , (2009485313, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2009485313, 12, True)
@@ -8381,7 +8381,7 @@ VALUES (2058031105, 53, 101)
      , (2058031105, 16, 1)
      , (2058031105, 19, 125)
      , (2058031105, 93, 1048)
-     , (2058031105, 9007, 8);
+     , (2058031105, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2058031105, 12, True)
@@ -8410,7 +8410,7 @@ VALUES (2091261953, 53, 101)
      , (2091261953, 16, 1)
      , (2091261953, 19, 125)
      , (2091261953, 93, 1048)
-     , (2091261953, 9007, 8);
+     , (2091261953, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2091261953, 12, True)
@@ -8439,7 +8439,7 @@ VALUES (2014724103, 53, 101)
      , (2014724103, 16, 1)
      , (2014724103, 19, 125)
      , (2014724103, 93, 24)
-     , (2014724103, 9007, 8);
+     , (2014724103, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2014724103, 12, True)
@@ -8467,7 +8467,7 @@ VALUES (2032406529, 53, 101)
      , (2032406529, 16, 1)
      , (2032406529, 19, 125)
      , (2032406529, 93, 1048)
-     , (2032406529, 9007, 8);
+     , (2032406529, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2032406529, 12, True)
@@ -8496,7 +8496,7 @@ VALUES (2026209292, 53, 101)
      , (2026209292, 16, 1)
      , (2026209292, 19, 125)
      , (2026209292, 93, 24)
-     , (2026209292, 9007, 8);
+     , (2026209292, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2026209292, 12, True)
@@ -8524,7 +8524,7 @@ VALUES (2010546182, 53, 101)
      , (2010546182, 16, 1)
      , (2010546182, 19, 125)
      , (2010546182, 93, 24)
-     , (2010546182, 9007, 8);
+     , (2010546182, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2010546182, 12, True)
@@ -8552,7 +8552,7 @@ VALUES (1880829962, 53, 101)
      , (1880829962, 16, 1)
      , (1880829962, 19, 125)
      , (1880829962, 93, 1048)
-     , (1880829962, 9007, 8);
+     , (1880829962, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1880829962, 12, True)
@@ -8581,7 +8581,7 @@ VALUES (2077757441, 53, 101)
      , (2077757441, 16, 1)
      , (2077757441, 19, 125)
      , (2077757441, 93, 1048)
-     , (2077757441, 9007, 8);
+     , (2077757441, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2077757441, 12, True)
@@ -8610,7 +8610,7 @@ VALUES (2030190595, 53, 101)
      , (2030190595, 16, 1)
      , (2030190595, 19, 125)
      , (2030190595, 93, 1048)
-     , (2030190595, 9007, 8);
+     , (2030190595, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2030190595, 12, True)
@@ -8639,7 +8639,7 @@ VALUES (2030190594, 53, 101)
      , (2030190594, 16, 1)
      , (2030190594, 19, 125)
      , (2030190594, 93, 1048)
-     , (2030190594, 9007, 8);
+     , (2030190594, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2030190594, 12, True)
@@ -8668,7 +8668,7 @@ VALUES (1880977514, 53, 101)
      , (1880977514, 16, 1)
      , (1880977514, 19, 125)
      , (1880977514, 93, 1048)
-     , (1880977514, 9007, 8);
+     , (1880977514, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1880977514, 12, True)
@@ -8697,7 +8697,7 @@ VALUES (2073473038, 53, 101)
      , (2073473038, 16, 1)
      , (2073473038, 19, 125)
      , (2073473038, 93, 24)
-     , (2073473038, 9007, 8);
+     , (2073473038, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2073473038, 12, True)
@@ -8725,7 +8725,7 @@ VALUES (1880633398, 53, 101)
      , (1880633398, 16, 1)
      , (1880633398, 19, 125)
      , (1880633398, 93, 1048)
-     , (1880633398, 9007, 8);
+     , (1880633398, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1880633398, 12, True)
@@ -8754,7 +8754,7 @@ VALUES (2040954883, 53, 101)
      , (2040954883, 16, 1)
      , (2040954883, 19, 125)
      , (2040954883, 93, 1048)
-     , (2040954883, 9007, 8);
+     , (2040954883, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2040954883, 12, True)
@@ -8783,7 +8783,7 @@ VALUES (2040954915, 53, 101)
      , (2040954915, 16, 1)
      , (2040954915, 19, 125)
      , (2040954915, 93, 1048)
-     , (2040954915, 9007, 8);
+     , (2040954915, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2040954915, 12, True)
@@ -8812,7 +8812,7 @@ VALUES (2124664849, 53, 101)
      , (2124664849, 16, 1)
      , (2124664849, 19, 125)
      , (2124664849, 93, 24)
-     , (2124664849, 9007, 8);
+     , (2124664849, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2124664849, 12, True)
@@ -8840,7 +8840,7 @@ VALUES (2011701251, 53, 101)
      , (2011701251, 16, 1)
      , (2011701251, 19, 125)
      , (2011701251, 93, 1048)
-     , (2011701251, 9007, 8);
+     , (2011701251, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2011701251, 12, True)
@@ -8869,7 +8869,7 @@ VALUES (1880506389, 53, 101)
      , (1880506389, 16, 1)
      , (1880506389, 19, 125)
      , (1880506389, 93, 1048)
-     , (1880506389, 9007, 8);
+     , (1880506389, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1880506389, 12, True)
@@ -8898,7 +8898,7 @@ VALUES (2084782081, 53, 101)
      , (2084782081, 16, 1)
      , (2084782081, 19, 125)
      , (2084782081, 93, 1048)
-     , (2084782081, 9007, 8);
+     , (2084782081, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2084782081, 12, True)
@@ -8927,7 +8927,7 @@ VALUES (2023350272, 53, 101)
      , (2023350272, 16, 1)
      , (2023350272, 19, 125)
      , (2023350272, 93, 1048)
-     , (2023350272, 9007, 8);
+     , (2023350272, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2023350272, 12, True)
@@ -8956,7 +8956,7 @@ VALUES (1880760392, 53, 101)
      , (1880760392, 16, 1)
      , (1880760392, 19, 125)
      , (1880760392, 93, 1048)
-     , (1880760392, 9007, 8);
+     , (1880760392, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1880760392, 12, True)
@@ -8985,7 +8985,7 @@ VALUES (1880760399, 53, 101)
      , (1880760399, 16, 1)
      , (1880760399, 19, 125)
      , (1880760399, 93, 1048)
-     , (1880760399, 9007, 8);
+     , (1880760399, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1880760399, 12, True)
@@ -9014,7 +9014,7 @@ VALUES (2116268033, 53, 101)
      , (2116268033, 16, 1)
      , (2116268033, 19, 130)
      , (2116268033, 93, 1048)
-     , (2116268033, 9007, 8);
+     , (2116268033, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2116268033, 12, True)
@@ -9043,7 +9043,7 @@ VALUES (2116268032, 53, 101)
      , (2116268032, 16, 1)
      , (2116268032, 19, 130)
      , (2116268032, 93, 1048)
-     , (2116268032, 9007, 8);
+     , (2116268032, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2116268032, 12, True)
@@ -9072,7 +9072,7 @@ VALUES (2030419971, 53, 101)
      , (2030419971, 16, 1)
      , (2030419971, 19, 125)
      , (2030419971, 93, 24)
-     , (2030419971, 9007, 8);
+     , (2030419971, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2030419971, 12, True)
@@ -9100,7 +9100,7 @@ VALUES (1880629335, 53, 101)
      , (1880629335, 16, 1)
      , (1880629335, 19, 125)
      , (1880629335, 93, 1048)
-     , (1880629335, 9007, 8);
+     , (1880629335, 9007, 1);
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1880629335, 12, True)
