@@ -78,7 +78,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14425, 0, 16778367);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33926, 'ace33926-lettertorenaldtheeldest,fromlarinnekerendova');
+VALUES (33926, 'ace33926-lettertorenaldtheeldestfromlarinnekerendova');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (33926, 18, 33926, 2113552, NULL, 137345);
@@ -111,7 +111,7 @@ VALUES (33926, 13, True)
      , (33926, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33928, 'ace33928-lettertonenai,fromlarinnekerendova');
+VALUES (33928, 'ace33928-lettertonenaifromlarinnekerendova');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (33928, 18, 33928, 2113552, NULL, 137345);
@@ -270,7 +270,7 @@ VALUES (41614, 13, True)
      , (41614, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33929, 'ace33929-lettertomayadibnibsar,fromlarinnekerendova');
+VALUES (33929, 'ace33929-lettertomayadibnibsarfromlarinnekerendova');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (33929, 18, 33929, 2113552, NULL, 137345);
@@ -303,7 +303,7 @@ VALUES (33929, 13, True)
      , (33929, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (33927, 'ace33927-lettertoturiendifurza,fromlarinnekerendova');
+VALUES (33927, 'ace33927-lettertoturiendifurzafromlarinnekerendova');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (33927, 18, 33927, 2113552, NULL, 137345);

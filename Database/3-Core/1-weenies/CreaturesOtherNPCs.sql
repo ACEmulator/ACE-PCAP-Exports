@@ -667,7 +667,7 @@ VALUES (30466, 12, True)
      , (30466, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36012, 'ace36012-statueofbaelzharon,thehopeslayer');
+VALUES (36012, 'ace36012-statueofbaelzharonthehopeslayer');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (36012, 4, 36012, 1048630, 'AAA9AAAAAAA=', 104451);
@@ -13010,7 +13010,7 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (43788, 67111849, 1, 255);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (36007, 'ace36007-statueofbaelzharon,thehopeslayer');
+VALUES (36007, 'ace36007-statueofbaelzharonthehopeslayer');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (36007, 4, 36007, 1048630, 'AAA9AAAAAAA=', 104451);
@@ -13258,7 +13258,7 @@ VALUES (38264, 12, True)
      , (38264, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (38261, 'ace38261-shrineofthespearofbaalforth,theslayer');
+VALUES (38261, 'ace38261-shrineofthespearofbaalforththeslayer');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (38261, 4, 38261, 1048630, 'AAA9AAAAAAA=', 104451);

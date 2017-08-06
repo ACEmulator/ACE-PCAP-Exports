@@ -30,6 +30,27 @@ VALUES (5777, 64, 55)
      , (5777, 256, 115);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5772, 5, 'Herald');
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (5772, 16, 67109566)
+     , (5772, 9, 83890279)
+     , (5772, 17, 67109560)
+     , (5772, 10, 83890317)
+     , (5772, 11, 83890330)
+     , (5772, 15, 67116986);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5772, 113, 2)
+     , (5772, 2, 31)
+     , (5772, 134, 16)
+     , (5772, 25, 30)
+     , (5772, 188, 1);
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (5772, 64, 70);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5776, 5, 'Herald');
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
@@ -124,25 +145,37 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (30064, 64, 65);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5775, 5, 'Herald');
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (5775, 16, 67109567)
-     , (5775, 9, 83890475)
-     , (5775, 17, 67109555)
-     , (5775, 10, 83890538)
-     , (5775, 11, 83890576)
-     , (5775, 15, 67117001);
+VALUES (22643, 5, 'Ooo oo aaa');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5775, 113, 1)
-     , (5775, 2, 31)
-     , (5775, 134, 16)
-     , (5775, 25, 30)
-     , (5775, 188, 2);
+VALUES (22643, 2, 8)
+     , (22643, 134, 16)
+     , (22643, 25, 16);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5775, 64, 65);
+VALUES (22643, 64, 100);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5775, 353, 10)
+     , (5775, 386, 0)
+     , (5775, 307, 5)
+     , (5775, 5, 23)
+     , (5775, 313, 0)
+     , (5775, 314, 0)
+     , (5775, 45, 0)
+     , (5775, 49, 4294967295)
+     , (5775, 48, 47)
+     , (5775, 44, 4294967295);
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (5775, 29, 1)
+     , (5775, 149, 0)
+     , (5775, 150, 0)
+     , (5775, 22, 0.25)
+     , (5775, 63, 1)
+     , (5775, 21, 0)
+     , (5775, 26, 0)
+     , (5775, 62, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5774, 5, 'Herald');
