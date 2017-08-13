@@ -24,4 +24,4 @@ WHERE intPropertyId = 5
     , 52734
     , 52735
     , 52736
-  )
+  );
