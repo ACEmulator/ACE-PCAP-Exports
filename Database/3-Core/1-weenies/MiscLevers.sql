@@ -1,44 +1,4 @@
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (293, 'torch');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (293, 18, 293, 270762520, NULL, 170145);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (293, 1, 'Torch');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (293, 8, 100667506)
-     , (293, 1, 33555887)
-     , (293, 3, 536870932)
-     , (293, 22, 872415275);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (293, 53, 1)
-     , (293, 1, 128)
-     , (293, 5, 10)
-     , (293, 51, 1)
-     , (293, 151, 2)
-     , (293, 10, 1048576)
-     , (293, 16, 1)
-     , (293, 9, 1048576)
-     , (293, 19, 10)
-     , (293, 52, 1)
-     , (293, 93, 3092)
-     , (293, 9007, 26);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (293, 39, 1.25);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (293, 13, True)
-     , (293, 11, True)
-     , (293, 14, True)
-     , (293, 15, True)
-     , (293, 19, True)
-     , (293, 22, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14565, 'leverhightech');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
@@ -346,69 +306,6 @@ VALUES (15755, 13, True)
      , (15755, 1, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (34089, 'ace34089-floatingcandle');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (34089, 18, 34089, 270532632, NULL, 38913);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34089, 1, 'Floating Candle');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (34089, 8, 100667477)
-     , (34089, 1, 33560114)
-     , (34089, 3, 536870932)
-     , (34089, 22, 872415275);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34089, 1, 128)
-     , (34089, 5, 5)
-     , (34089, 151, 9)
-     , (34089, 16, 1)
-     , (34089, 19, 10)
-     , (34089, 93, 1052)
-     , (34089, 9007, 26);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (34089, 13, True)
-     , (34089, 12, True)
-     , (34089, 11, True)
-     , (34089, 14, True)
-     , (34089, 19, True)
-     , (34089, 22, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30484, 'candlestickholtburgredoubt');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30484, 18, 30484, 2097168, NULL, 163969);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30484, 1, 'Bronze Candlestick');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (30484, 8, 100668158)
-     , (30484, 1, 33554694);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30484, 53, 101)
-     , (30484, 1, 128)
-     , (30484, 5, 10)
-     , (30484, 16, 1)
-     , (30484, 93, 1044)
-     , (30484, 9007, 26);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30484, 39, 2);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30484, 13, True)
-     , (30484, 11, True)
-     , (30484, 14, True)
-     , (30484, 19, True)
-     , (30484, 22, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49594, 'ace49594-lever');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
@@ -499,38 +396,6 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46293, 11, True)
      , (46293, 19, True)
      , (46293, 1, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (31757, 'ace31757-fertilizedpitcherplant');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (31757, 18, 31757, 270532632, NULL, 169985);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31757, 1, 'Fertilized Pitcher Plant');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31757, 8, 100687922)
-     , (31757, 1, 33559604)
-     , (31757, 3, 536870932)
-     , (31757, 22, 872415275);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31757, 53, 101)
-     , (31757, 1, 128)
-     , (31757, 5, 100)
-     , (31757, 151, 9)
-     , (31757, 16, 32)
-     , (31757, 19, 100)
-     , (31757, 93, 1044)
-     , (31757, 9007, 26);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (31757, 13, True)
-     , (31757, 11, True)
-     , (31757, 14, True)
-     , (31757, 19, True)
-     , (31757, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49590, 'ace49590-lever');
