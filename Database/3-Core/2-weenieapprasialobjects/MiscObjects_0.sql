@@ -2699,23 +2699,6 @@ VALUES (41614, 33, 0)
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41614, 69, 0);
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (293, 353, 4)
-     , (293, 19, 10)
-     , (293, 5, 10)
-     , (293, 47, 4)
-     , (293, 45, 16)
-     , (293, 49, 40)
-     , (293, 48, 45)
-     , (293, 44, 2);
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (293, 22, 0.5)
-     , (293, 63, 1)
-     , (293, 21, 0)
-     , (293, 26, 0)
-     , (293, 62, 1);
-
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22256, 8, 'Ripley')
      , (22256, 14, 'Wield the fishing pole and use a fishing hole to catch fish.')
@@ -9519,20 +9502,6 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (46599, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46601, 14, 'Combine this with the upper key portion.')
-     , (46601, 15, 'The lower and middle portion of a broken key.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46601, 98, 1485730315)
-     , (46601, 19, 0)
-     , (46601, 5, 100)
-     , (46601, 267, 3600)
-     , (46601, 268, 3599);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (46601, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46448, 16, 'An ancient skull and arm bone taken from the Venerable Mausoleum. You notice a large groove chiseled inside of the skull. The bones are extremely old and brittle. They clearly will not last for long inside of your packs.')
      , (46448, 14, 'You may be able to use this item on the correct sized bone.');
 
@@ -10607,15 +10576,6 @@ VALUES (43417, 33, 1)
      , (43417, 114, 1)
      , (43417, 19, 500)
      , (43417, 5, 500);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30484, 16, 'A bronze candlestick, found in the Holtburg Redoubt. This candlestick belonged to Hardunna''s mother, Hope, before she was slain by Tumeroks in the Holtburg Redoubt.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30484, 33, 1)
-     , (30484, 114, 1)
-     , (30484, 19, 0)
-     , (30484, 5, 10);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30481, 16, 'A fine porcelain bowl, painted with delicate Sho designs in indigo. This bowl belonged to Worcer''s mother, June, before she was slain by Tumeroks in the Holtburg Redoubt.');
@@ -12447,13 +12407,6 @@ VALUES (25773, 16, 'A table set for dinner guests.')
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (25773, 19, 6000)
      , (25773, 5, 300);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31757, 15, 'A *MONSTER* Pitcher Plant. It twitches gently as you watch it, but it seems ... sated. Thank goodness for that -- it could eat you whole!');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31757, 19, 100)
-     , (31757, 5, 100);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35889, 16, 'The plaque-mounted head of the Paradox-touched Olthoi Queen, given to you by Ethan Wintermaine for the slaying of said Paradox-touched Olthoi Queen.');

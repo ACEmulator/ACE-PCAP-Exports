@@ -186,13 +186,6 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (39201, 19, 7)
      , (39201, 5, 50);
 
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14341, 16, 'Use this item to play a game.
-
-This game board can be used to play Chess.
-
-');
-
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37081, 19, 0)
      , (37081, 5, 1);

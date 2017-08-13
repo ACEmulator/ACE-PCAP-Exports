@@ -1901,13 +1901,6 @@ REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (1980342297, 1183);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2040668174, 16, 'Use this item to play a game.
-
-This game board can be used to play Chess.
-
-');
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2063360009, 14, 'Use an empty flask on the well to fill it with water.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -2692,13 +2685,6 @@ REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (1880842277, 1183);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2056986625, 16, 'Use this item to play a game.
-
-This game board can be used to play Chess.
-
-');
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1880854538, 14, 'Use an empty flask on the font to fill it with water.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -2841,13 +2827,6 @@ VALUES (1880784918, 19, 200)
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (1880784918, 1183);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2054897673, 16, 'Use this item to play a game.
-
-This game board can be used to play Chess.
-
-');
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2041311236, 14, 'Use an empty flask on the well to fill it with water.');
@@ -3316,11 +3295,4 @@ VALUES (2030419973, 19, 200)
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (2030419973, 1183);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2105888778, 16, 'Use this item to play a game.
-
-This game board can be used to play Chess.
-
-');
 

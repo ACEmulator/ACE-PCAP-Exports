@@ -30450,6 +30450,52 @@ VALUES (2883145925, 0, 16779360)
      , (2883145925, 4, 16779357);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2883553511, 20, 23747, 2339352, NULL, 170785);
+
+INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2883553511, 1, 3329163307, 135.9702, 60.2859, 37.83, 0.6532815, 0.6532815, -0.2705981, -0.2705981);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2883553511, 1, 'Rock');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (2883553511, 8, 100667500)
+     , (2883553511, 1, 33555863)
+     , (2883553511, 3, 536871003)
+     , (2883553511, 22, 872415275);
+
+INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
+VALUES (2883553511, 3, 2883394568)
+     , (2883553511, 1, 2883394568);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2883553511, 53, 1)
+     , (2883553511, 1, 256)
+     , (2883553511, 5, 500)
+     , (2883553511, 51, 2)
+     , (2883553511, 10, 4194304)
+     , (2883553511, 11, 30)
+     , (2883553511, 12, 1)
+     , (2883553511, 16, 1)
+     , (2883553511, 9, 4194304)
+     , (2883553511, 19, 1)
+     , (2883553511, 52, 1)
+     , (2883553511, 93, 132116)
+     , (2883553511, 9007, 3);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2883553511, 79, 0)
+     , (2883553511, 78, 1);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2883553511, 13, True)
+     , (2883553511, 11, True)
+     , (2883553511, 14, True)
+     , (2883553511, 17, True)
+     , (2883553511, 19, True)
+     , (2883553511, 1, True);
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2883714988, 18, 34345, 2327320, NULL, 170145);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
