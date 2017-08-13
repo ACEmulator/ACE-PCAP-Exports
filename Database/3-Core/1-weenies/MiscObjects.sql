@@ -62268,39 +62268,6 @@ VALUES (46599, 13, True)
      , (46599, 22, True);
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (46601, 'ace46601-brokenlever');
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (46601, 18, 46601, 2650128, NULL, 137217);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46601, 1, 'Broken Lever');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (46601, 8, 100670626)
-     , (46601, 1, 33554784)
-     , (46601, 3, 536870932)
-     , (46601, 22, 872415275);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46601, 53, 101)
-     , (46601, 1, 128)
-     , (46601, 5, 100)
-     , (46601, 11, 1)
-     , (46601, 12, 1)
-     , (46601, 94, 128)
-     , (46601, 16, 524296)
-     , (46601, 93, 1044)
-     , (46601, 9007, 1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (46601, 13, True)
-     , (46601, 11, True)
-     , (46601, 14, True)
-     , (46601, 19, True)
-     , (46601, 22, True);
-
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46427, 'ace46427-ancientskull');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)

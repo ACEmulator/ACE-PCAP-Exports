@@ -9519,20 +9519,6 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (46599, 69, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46601, 14, 'Combine this with the upper key portion.')
-     , (46601, 15, 'The lower and middle portion of a broken key.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46601, 98, 1485730315)
-     , (46601, 19, 0)
-     , (46601, 5, 100)
-     , (46601, 267, 3600)
-     , (46601, 268, 3599);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (46601, 69, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46448, 16, 'An ancient skull and arm bone taken from the Venerable Mausoleum. You notice a large groove chiseled inside of the skull. The bones are extremely old and brittle. They clearly will not last for long inside of your packs.')
      , (46448, 14, 'You may be able to use this item on the correct sized bone.');
 
