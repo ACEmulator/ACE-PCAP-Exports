@@ -23,47 +23,6 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (2447687303, 19, 0)
      , (2447687303, 5, 6035);
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2447685216, 2, 83)
-     , (2447685216, 307, 5)
-     , (2447685216, 25, 135);
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (2447685216, 1, 395)
-     , (2447685216, 2, 360)
-     , (2447685216, 4, 340)
-     , (2447685216, 8, 320)
-     , (2447685216, 16, 80)
-     , (2447685216, 32, 80);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2447685216, 64, 680)
-     , (2447685216, 128, 910)
-     , (2447685216, 256, 80);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2447687072, 15, 'This key appears to have been a light marble once, but the years have dulled the color to a deep grey. With some clever locksmithing, and perhaps an intricate carving tool, you may be able to clean it up.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2447687072, 33, 0)
-     , (2447687072, 114, 0)
-     , (2447687072, 19, 0)
-     , (2447687072, 5, 10);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2447689911, 16, 'Killed by Mag-two.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2447689911, 19, 0)
-     , (2447689911, 5, 6305);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2447689370, 16, 'Killed by Mag-eight.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2447689370, 19, 0)
-     , (2447689370, 5, 6005);
-
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2447687956, 16, 'Shoes of Light Weapon Mastery');
 
@@ -102,6 +61,55 @@ VALUES (2447687956, 1486)
      , (2447687956, 1498)
      , (2447687956, 303)
      , (2447687956, 2559);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2447689370, 2, 19)
+     , (2447689370, 25, 200);
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (2447689370, 1, 320)
+     , (2447689370, 2, 270)
+     , (2447689370, 4, 370)
+     , (2447689370, 8, 360)
+     , (2447689370, 16, 400)
+     , (2447689370, 32, 400);
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (2447689370, 64, 5000)
+     , (2447689370, 128, 5000)
+     , (2447689370, 256, 4000);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2447685216, 2, 83)
+     , (2447685216, 307, 5)
+     , (2447685216, 25, 135);
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (2447685216, 1, 395)
+     , (2447685216, 2, 360)
+     , (2447685216, 4, 340)
+     , (2447685216, 8, 320)
+     , (2447685216, 16, 80)
+     , (2447685216, 32, 80);
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (2447685216, 64, 680)
+     , (2447685216, 128, 910)
+     , (2447685216, 256, 80);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2447687072, 16, 'Killed by Mag-three.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2447687072, 19, 0)
+     , (2447687072, 5, 6430);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2447689911, 16, 'Killed by Mag-two.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2447689911, 19, 0)
+     , (2447689911, 5, 6305);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2447687305, 16, 'Gem');
@@ -192,49 +200,29 @@ VALUES (2447686379, 1768)
      , (2447686379, 1720);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3705067935, 16, 'Studded Leather Pauldrons');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3705067935, 176, 6)
-     , (3705067935, 19, 9423)
-     , (3705067935, 131, 54)
-     , (3705067935, 115, 225)
-     , (3705067935, 5, 281)
-     , (3705067935, 105, 7)
-     , (3705067935, 106, 205)
-     , (3705067935, 107, 917)
-     , (3705067935, 28, 263)
-     , (3705067935, 108, 917)
-     , (3705067935, 172, 1)
-     , (3705067935, 109, 92)
-     , (3705067935, 110, 0);
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3705067935, 5, -0.04166667)
-     , (3705067935, 13, 1.2)
-     , (3705067935, 14, 1.1)
-     , (3705067935, 15, 1)
-     , (3705067935, 16, 0.4)
-     , (3705067935, 17, 0.7)
-     , (3705067935, 18, 0.3)
-     , (3705067935, 19, 0.8551148)
-     , (3705067935, 165, 1);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3705067935, 100, 1);
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3705067935, 1485)
-     , (3705067935, 1497)
-     , (3705067935, 1527);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3704823148, 16, 'A concentrated copper pea.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3704823148, 33, 1)
      , (3704823148, 19, 5000)
      , (3704823148, 5, 10);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2447693308, 2, 13)
+     , (2447693308, 25, 100);
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (2447693308, 1, 300)
+     , (2447693308, 2, 200)
+     , (2447693308, 4, 300)
+     , (2447693308, 8, 300)
+     , (2447693308, 16, 210)
+     , (2447693308, 32, 210);
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (2447693308, 64, 350)
+     , (2447693308, 128, 250)
+     , (2447693308, 256, 220);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2447687413, 16, 'Killed by Mag-one.');
@@ -244,28 +232,23 @@ VALUES (2447687413, 19, 0)
      , (2447687413, 5, 7204);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2447687492, 16, 'Inscribed spell: Shield Ineptitude Other VII
+Decreases the target''s Shield skill by 40 points.')
+     , (2447687492, 14, 'Use this item to attempt to learn its spell.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2447687492, 19, 2000)
+     , (2447687492, 5, 30);
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2447687492, 5841);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2447688459, 16, 'Killed by Mag-one.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2447688459, 19, 0)
      , (2447688459, 5, 6842);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2447693308, 2, 45)
-     , (2447693308, 25, 200);
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (2447693308, 1, 370)
-     , (2447693308, 2, 370)
-     , (2447693308, 4, 350)
-     , (2447693308, 8, 330)
-     , (2447693308, 16, 440)
-     , (2447693308, 32, 490);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2447693308, 64, 620)
-     , (2447693308, 128, 870)
-     , (2447693308, 256, 1490);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2447684101, 2, 83)
@@ -284,13 +267,6 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (2447684101, 64, 680)
      , (2447684101, 128, 910)
      , (2447684101, 256, 80);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2447687492, 16, 'Killed by Mag-nine.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2447687492, 19, 0)
-     , (2447687492, 5, 6057);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2447885546, 16, 'Blunt Compound Bow');

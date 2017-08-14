@@ -4236,12 +4236,6 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (1348, 111, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4158, 38, 'Daiklos Dungeon');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4158, 111, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2071, 38, 'Surface (43.3N, 37.1E).');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -4254,23 +4248,10 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (1095, 111, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1323, 38, 'Eastham Sewer');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1323, 86, 50)
-     , (1323, 111, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4936, 38, 'Surface (40.4N, 34.4E).');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (4936, 111, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2084, 38, 'Lakeside Lair');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2084, 111, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2085, 38, 'Surface (19.0N, 48.5E).');
@@ -4395,6 +4376,13 @@ VALUES (32584, 16, 'Shadow Stone Repository')
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32584, 86, 125)
      , (32584, 111, 49);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1323, 38, 'Eastham Sewer');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1323, 86, 50)
+     , (1323, 111, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35563, 38, 'Archive');
@@ -4816,12 +4804,6 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (4928, 111, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2077, 38, 'Surface (10.7N, 56.8E).');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2077, 111, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1336, 38, 'Surface (11.0N, 57.5E).');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -5235,6 +5217,12 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (11323, 111, 49);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4158, 38, 'Daiklos Dungeon');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4158, 111, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1311, 38, 'North Glenden Prison');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -5413,23 +5401,6 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (34523, 111, 49);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34526, 16, 'Killed by Mag-two.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34526, 19, 0)
-     , (34526, 5, 6130);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (34526, 2, 0);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34527, 16, 'Killed by Mag-seven.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34527, 19, 0)
-     , (34527, 5, 6005);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34524, 38, 'Arena 9');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -5440,6 +5411,18 @@ VALUES (34525, 38, 'Arena 10');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34525, 111, 49);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34526, 38, 'Arena 11');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34526, 111, 49);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34527, 38, 'Arena 12');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34527, 111, 49);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34528, 38, 'Arena 13');
@@ -5465,23 +5448,11 @@ VALUES (34531, 38, 'Arena 16');
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34531, 111, 49);
 
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34532, 38, 'Arena 17');
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34532, 2, 83)
-     , (34532, 307, 5)
-     , (34532, 25, 185);
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (34532, 1, 465)
-     , (34532, 2, 415)
-     , (34532, 4, 405)
-     , (34532, 8, 370)
-     , (34532, 16, 85)
-     , (34532, 32, 85);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (34532, 64, 808)
-     , (34532, 128, 1415)
-     , (34532, 256, 85);
+VALUES (34532, 111, 49);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34533, 38, 'Arena 18');
@@ -5871,6 +5842,12 @@ VALUES (33544, 38, 'Surface (80.9N, 59.3E).');
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33544, 86, 150)
      , (33544, 111, 49);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2077, 38, 'Surface (10.7N, 56.8E).');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2077, 111, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8587, 38, 'Surface (71.7S, 87.6E).');
@@ -6701,13 +6678,6 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (2342, 111, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22676, 38, 'Tusker Grotto');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22676, 86, 12)
-     , (22676, 111, 49);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22677, 38, 'Surface (0.9S, 98.4E).');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -6869,13 +6839,6 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (22670, 111, 49);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22672, 38, 'Tusker Freehold');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22672, 86, 25)
-     , (22672, 111, 49);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22673, 38, 'Surface (1.6S, 95.5E).');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -6888,10 +6851,18 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (22707, 111, 49);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25494, 38, 'Crystal Mine');
+VALUES (22676, 38, 'Tusker Grotto');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25494, 111, 49);
+VALUES (22676, 86, 12)
+     , (22676, 111, 49);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22672, 38, 'Tusker Freehold');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22672, 86, 25)
+     , (22672, 111, 49);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25511, 38, 'Surface (49.3S, 17.9E).');
@@ -6928,12 +6899,6 @@ VALUES (5531, 38, 'Surface (53.6S, 76.6E).');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5531, 111, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9199, 38, 'Sand Shallow');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9199, 111, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9200, 38, 'Surface (11.5S, 0.7E).');

@@ -4636,12 +4636,6 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (7617, 111, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7206, 38, 'Nor''s Folly Portal');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7206, 111, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7207, 38, 'Surface Portal (32.5S, 11.9E).');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -4652,13 +4646,6 @@ VALUES (7209, 38, 'Surface Portal (2.8N, 53.4E).');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7209, 111, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5513, 38, 'Thieves'' Galleries Portal');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5513, 86, 5)
-     , (5513, 111, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5514, 38, 'Surface Portal (57.7S, 74.1E).');

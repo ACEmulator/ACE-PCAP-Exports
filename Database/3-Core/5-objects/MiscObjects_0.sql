@@ -40,47 +40,6 @@ VALUES (3684988255, 13, True)
      , (3684988255, 22, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (3699733785, 18, 32754, 2327056, NULL, 170145);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3699733785, 1, 1227685911, 66.36787, 150.1601, 29.50446, 0.7071068, 0.7071068, 0, 0);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3699733785, 1, 'Sack');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (3699733785, 8, 100667436)
-     , (3699733785, 1, 33559837)
-     , (3699733785, 3, 536870932)
-     , (3699733785, 22, 872415275);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (3699733785, 3, 3695189023)
-     , (3699733785, 1, 3695189023);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3699733785, 53, 1)
-     , (3699733785, 1, 128)
-     , (3699733785, 5, 15)
-     , (3699733785, 51, 1)
-     , (3699733785, 10, 1048576)
-     , (3699733785, 16, 1)
-     , (3699733785, 9, 1048576)
-     , (3699733785, 52, 1)
-     , (3699733785, 93, 1044)
-     , (3699733785, 9007, 1);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3699733785, 39, 0.8);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3699733785, 13, True)
-     , (3699733785, 11, True)
-     , (3699733785, 14, True)
-     , (3699733785, 19, True)
-     , (3699733785, 22, True);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3704183046, 18, 32754, 2327056, NULL, 170145);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)

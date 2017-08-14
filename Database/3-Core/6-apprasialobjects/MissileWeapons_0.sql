@@ -287,13 +287,6 @@ VALUES (2447690129, 13, 1.4)
      , (2447690129, 165, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3705064307, 16, 'Killed by Mag-nus.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3705064307, 19, 0)
-     , (3705064307, 5, 6005);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3704819853, 16, 'War Axe of Blood Drinker');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -334,6 +327,28 @@ REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (3704819853, 1615)
      , (3704819853, 1626);
 
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3705064307, 16, 'Bracelet of Willpower');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3705064307, 19, 2889)
+     , (3705064307, 131, 57)
+     , (3705064307, 115, 0)
+     , (3705064307, 5, 60)
+     , (3705064307, 105, 6)
+     , (3705064307, 106, 161)
+     , (3705064307, 107, 1323)
+     , (3705064307, 108, 1323)
+     , (3705064307, 172, 1)
+     , (3705064307, 109, 161)
+     , (3705064307, 110, 0);
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3705064307, 5, -0.04166667);
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3705064307, 1448);
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2447694075, 2, 8)
      , (2447694075, 25, 235);
@@ -352,21 +367,22 @@ VALUES (2447694075, 64, 500)
      , (2447694075, 256, 180);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2447888154, 2, 1)
-     , (2447888154, 25, 185);
+VALUES (2447888154, 2, 83)
+     , (2447888154, 307, 5)
+     , (2447888154, 25, 135);
 
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (2447888154, 1, 380)
-     , (2447888154, 2, 380)
-     , (2447888154, 4, 280)
-     , (2447888154, 8, 240)
-     , (2447888154, 16, 160)
-     , (2447888154, 32, 160);
+VALUES (2447888154, 1, 395)
+     , (2447888154, 2, 360)
+     , (2447888154, 4, 340)
+     , (2447888154, 8, 320)
+     , (2447888154, 16, 80)
+     , (2447888154, 32, 80);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2447888154, 64, 3690)
-     , (2447888154, 128, 9000)
-     , (2447888154, 256, 160);
+VALUES (2447888154, 64, 680)
+     , (2447888154, 128, 910)
+     , (2447888154, 256, 80);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2448345443, 16, 'A glowing ball of Coalesced Aetheria.');

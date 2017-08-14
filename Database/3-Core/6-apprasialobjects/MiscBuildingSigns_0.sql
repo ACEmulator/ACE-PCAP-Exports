@@ -1945,20 +1945,6 @@ VALUES (2122457098, 19, 125)
      , (2122457098, 5, 9000);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2116268032, 16, 'Adventurers take heed: Many rats infest this dungeon. Attacking low is the only way to defend against these vermin.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2116268032, 19, 130)
-     , (2116268032, 5, 9000);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2116268033, 16, 'Adventurers take heed: Many rats infest this dungeon. Attacking low is the only way to defend against these vermin.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2116268033, 19, 130)
-     , (2116268033, 5, 9000);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2030419971, 16, 'Welcome to the North Al-Arqas Outpost');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

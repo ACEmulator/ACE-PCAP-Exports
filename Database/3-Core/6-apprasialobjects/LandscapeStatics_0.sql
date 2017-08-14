@@ -2410,16 +2410,6 @@ REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (1881006117, 1183);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1880805380, 14, 'Use an empty flask on the font to fill it with water.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1880805380, 19, 200)
-     , (1880805380, 5, 6000);
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (1880805380, 1183);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1986871297, 14, 'Use an empty flask on the vat to fill it with water.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -3031,6 +3021,16 @@ VALUES (1880821780, 19, 200)
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (1880821780, 1183);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1880805380, 14, 'Use an empty flask on the font to fill it with water.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1880805380, 19, 200)
+     , (1880805380, 5, 6000);
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (1880805380, 1183);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1880432654, 14, 'Use an empty flask on the pool to fill it with water.');

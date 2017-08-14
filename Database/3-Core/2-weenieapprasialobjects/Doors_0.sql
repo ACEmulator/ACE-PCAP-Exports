@@ -1638,19 +1638,6 @@ VALUES (40270, 2, 0)
      , (40270, 3, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25970, 16, 'A sturdy wooden door.')
-     , (25970, 14, 'You don''t have a clue how to open this thing.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25970, 19, 0)
-     , (25970, 38, 9999)
-     , (25970, 173, 0);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25970, 2, 0)
-     , (25970, 3, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45905, 14, 'Use this item to close it.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

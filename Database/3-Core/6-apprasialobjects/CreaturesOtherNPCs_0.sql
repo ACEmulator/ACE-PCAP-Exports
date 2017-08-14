@@ -12907,27 +12907,6 @@ VALUES (2878788185, 384, 0)
      , (2878788185, 383, 0);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881724992, 2, 63)
-     , (2881724992, 25, 40);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881724992, 64, 190);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881724678, 2, 63)
-     , (2881724678, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881724678, 64, 235);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881724759, 2, 63)
-     , (2881724759, 25, 40);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881724759, 64, 180);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2881724711, 2, 63)
      , (2881724711, 25, 50);
 
@@ -12956,130 +12935,11 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (2881724872, 64, 210);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881724560, 2, 63)
-     , (2881724560, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881724560, 64, 255);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881724713, 2, 63)
-     , (2881724713, 25, 40);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881724713, 64, 180);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881724680, 2, 63)
-     , (2881724680, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881724680, 64, 255);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2881589924, 2, 63)
      , (2881589924, 25, 50);
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (2881589924, 64, 235);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881900447, 2, 63)
-     , (2881900447, 25, 40);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881900447, 64, 180);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881829046, 2, 63)
-     , (2881829046, 25, 40);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881829046, 64, 190);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881900566, 2, 63)
-     , (2881900566, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881900566, 64, 235);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881749901, 2, 63)
-     , (2881749901, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881749901, 64, 235);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881829019, 2, 63)
-     , (2881829019, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881829019, 64, 245);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881900400, 2, 63)
-     , (2881900400, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881900400, 64, 255);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881343257, 2, 63)
-     , (2881343257, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881343257, 64, 255);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881378523, 2, 63)
-     , (2881378523, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881378523, 64, 210);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881831078, 2, 63)
-     , (2881831078, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881831078, 64, 235);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881529691, 2, 63)
-     , (2881529691, 25, 40);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881529691, 64, 190);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881830563, 2, 63)
-     , (2881830563, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881830563, 64, 210);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881830569, 2, 63)
-     , (2881830569, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881830569, 64, 255);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881830467, 2, 63)
-     , (2881830467, 25, 40);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881830467, 64, 180);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881824270, 2, 63)
-     , (2881824270, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881824270, 64, 245);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2881900440, 2, 63)
@@ -13098,41 +12958,6 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (2881900440, 64, 245)
      , (2881900440, 128, 370)
      , (2881900440, 256, 140);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881831394, 2, 63)
-     , (2881831394, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881831394, 64, 210);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881900430, 2, 63)
-     , (2881900430, 25, 40);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881900430, 64, 190);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881722054, 2, 63)
-     , (2881722054, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881722054, 64, 245);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881722027, 2, 63)
-     , (2881722027, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881722027, 64, 255);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881721923, 2, 63)
-     , (2881721923, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2881721923, 64, 245);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2881943503, 2, 16)
@@ -15502,24 +15327,6 @@ VALUES (3332735184, 384, 0)
      , (3332735184, 383, 0);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3331502318, 2, 63)
-     , (3331502318, 307, 5)
-     , (3331502318, 25, 50);
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (3331502318, 1, 210)
-     , (3331502318, 2, 150)
-     , (3331502318, 4, 210)
-     , (3331502318, 8, 210)
-     , (3331502318, 16, 180)
-     , (3331502318, 32, 180);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3331502318, 64, 235)
-     , (3331502318, 128, 330)
-     , (3331502318, 256, 180);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3331759761, 2, 63)
      , (3331759761, 307, 5)
      , (3331759761, 25, 50);
@@ -15554,6 +15361,24 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (3331759778, 64, 245)
      , (3331759778, 128, 370)
      , (3331759778, 256, 140);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3331502318, 2, 63)
+     , (3331502318, 307, 5)
+     , (3331502318, 25, 50);
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (3331502318, 1, 210)
+     , (3331502318, 2, 150)
+     , (3331502318, 4, 210)
+     , (3331502318, 8, 210)
+     , (3331502318, 16, 180)
+     , (3331502318, 32, 180);
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (3331502318, 64, 235)
+     , (3331502318, 128, 330)
+     , (3331502318, 256, 180);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3331759820, 2, 63)
@@ -15592,24 +15417,6 @@ VALUES (3331846583, 64, 245)
      , (3331846583, 256, 140);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3331759781, 2, 63)
-     , (3331759781, 307, 5)
-     , (3331759781, 25, 40);
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (3331759781, 1, 150)
-     , (3331759781, 2, 150)
-     , (3331759781, 4, 110)
-     , (3331759781, 8, 110)
-     , (3331759781, 16, 100)
-     , (3331759781, 32, 100);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3331759781, 64, 180)
-     , (3331759781, 128, 250)
-     , (3331759781, 256, 150);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3331759898, 2, 63)
      , (3331759898, 307, 5)
      , (3331759898, 25, 50);
@@ -15626,6 +15433,24 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (3331759898, 64, 245)
      , (3331759898, 128, 370)
      , (3331759898, 256, 140);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3331759781, 2, 63)
+     , (3331759781, 307, 5)
+     , (3331759781, 25, 40);
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (3331759781, 1, 150)
+     , (3331759781, 2, 150)
+     , (3331759781, 4, 110)
+     , (3331759781, 8, 110)
+     , (3331759781, 16, 100)
+     , (3331759781, 32, 100);
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (3331759781, 64, 180)
+     , (3331759781, 128, 250)
+     , (3331759781, 256, 150);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3331759871, 2, 63)
@@ -15712,13 +15537,6 @@ VALUES (3331759642, 2, 63)
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (3331759642, 64, 210);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3332207216, 2, 63)
-     , (3332207216, 25, 115);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3332207216, 64, 265);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3332207263, 2, 63)
