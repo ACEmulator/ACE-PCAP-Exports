@@ -1,3 +1,6 @@
+8/13/2017
+- Added items and missing data derived from MagTools Inventory logs
+
 6/25/2017
 --------
 - Updated 01-ClothingBase - 976 to 1143 records
