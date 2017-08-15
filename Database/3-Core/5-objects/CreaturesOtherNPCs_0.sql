@@ -8603,50 +8603,6 @@ VALUES (3706878036, 67116650, 1, 48)
      , (3706878036, 67116641, 208, 48);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (3706878041, 18, 11892, 2327320, NULL, 170145);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3706878041, 1, 381026344, 100.6861, 173.896, 24.03456, -0.5324169, 0, 0, -0.8464823);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3706878041, 1, 'Balister of the Quiddity');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (3706878041, 8, 100671701)
-     , (3706878041, 1, 33557112)
-     , (3706878041, 3, 536870932)
-     , (3706878041, 22, 872415275);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (3706878041, 3, 3706878036)
-     , (3706878041, 1, 3706878036);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3706878041, 53, 3)
-     , (3706878041, 1, 256)
-     , (3706878041, 50, 2)
-     , (3706878041, 5, 650)
-     , (3706878041, 51, 2)
-     , (3706878041, 10, 4194304)
-     , (3706878041, 16, 1)
-     , (3706878041, 9, 4194304)
-     , (3706878041, 19, 2000)
-     , (3706878041, 52, 2)
-     , (3706878041, 93, 3092)
-     , (3706878041, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3706878041, 39, 1.25);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3706878041, 13, True)
-     , (3706878041, 11, True)
-     , (3706878041, 14, True)
-     , (3706878041, 15, True)
-     , (3706878041, 19, True)
-     , (3706878041, 22, True);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3243844538, 20, 11524, 8388630, 'AAA9AAAAAAA=', 104643);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -39149,67 +39105,6 @@ VALUES (2875626694, 12, True)
      , (2875626694, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2875873357, 18, 34345, 2327320, NULL, 170145);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2875873357, 1, 2937061387, 27.98609, 70.94226, 103.3921, 0.7118897, 0, 0, -0.7022913);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2875873357, 1, 'Yumi');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (2875873357, 8, 100668816)
-     , (2875873357, 1, 33554728)
-     , (2875873357, 3, 536870932)
-     , (2875873357, 22, 872415275)
-     , (2875873357, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (2875873357, 3, 2875626694)
-     , (2875873357, 1, 2875626694);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2875873357, 53, 3)
-     , (2875873357, 1, 256)
-     , (2875873357, 50, 1)
-     , (2875873357, 5, 980)
-     , (2875873357, 51, 2)
-     , (2875873357, 10, 4194304)
-     , (2875873357, 16, 1)
-     , (2875873357, 9, 4194304)
-     , (2875873357, 19, 400)
-     , (2875873357, 52, 2)
-     , (2875873357, 93, 1044)
-     , (2875873357, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2875873357, 39, 1.1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2875873357, 13, True)
-     , (2875873357, 11, True)
-     , (2875873357, 14, True)
-     , (2875873357, 19, True)
-     , (2875873357, 22, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2875873357, 67111920, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (2875873357, 0, 83886740, 83886740)
-     , (2875873357, 1, 83888778, 83888778)
-     , (2875873357, 2, 83886736, 83886736)
-     , (2875873357, 3, 83888778, 83888778)
-     , (2875873357, 4, 83886740, 83886740);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (2875873357, 0, 16779360)
-     , (2875873357, 1, 16779361)
-     , (2875873357, 2, 16779358)
-     , (2875873357, 3, 16779362)
-     , (2875873357, 4, 16779357);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3334078127, 4, 22641, 1048630, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -42369,60 +42264,6 @@ VALUES (2871014219, 0, 83889233, 83889233)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2871014219, 0, 16787488);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2871014285, 16, 15280, 270775064, NULL, 170785);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2871014285, 1, 1415119184, 104.8819, -80.01852, -0.0645, 0.5091672, 0.5091672, 0.4906615, 0.4906615);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2871014285, 1, 'Armor Piercing Atlatl Dart');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (2871014285, 8, 100672580)
-     , (2871014285, 1, 33557434)
-     , (2871014285, 3, 536870932)
-     , (2871014285, 22, 872415275)
-     , (2871014285, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (2871014285, 3, 2870877788)
-     , (2871014285, 1, 2870877788);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2871014285, 53, 1)
-     , (2871014285, 1, 256)
-     , (2871014285, 50, 4)
-     , (2871014285, 5, 100)
-     , (2871014285, 51, 3)
-     , (2871014285, 151, 2)
-     , (2871014285, 10, 8388608)
-     , (2871014285, 11, 1000)
-     , (2871014285, 12, 20)
-     , (2871014285, 16, 1)
-     , (2871014285, 9, 8388608)
-     , (2871014285, 19, 80)
-     , (2871014285, 52, 1)
-     , (2871014285, 93, 132116)
-     , (2871014285, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2871014285, 79, 0)
-     , (2871014285, 78, 1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2871014285, 13, True)
-     , (2871014285, 11, True)
-     , (2871014285, 14, True)
-     , (2871014285, 17, True)
-     , (2871014285, 19, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2871014285, 67111924, 0, 0);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (2871014285, 0, 16787489);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2871014245, 20, 19309, 8388630, 'AAA9AAAAAAA=', 104643);
@@ -49007,62 +48848,6 @@ VALUES (2881724955, 0, 16779360)
      , (2881724955, 4, 16779357);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2881724926, 16, 5306, 270775192, NULL, 170913);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2881724926, 1, 1415119187, 99.9952, -106.7112, -0.076, 0.7071068, 0.7071068, -3.090863E-08, -3.090863E-08);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2881724926, 1, 'Greater Acid Arrow');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (2881724926, 8, 100670186)
-     , (2881724926, 1, 33555787)
-     , (2881724926, 3, 536870932)
-     , (2881724926, 22, 872415275)
-     , (2881724926, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (2881724926, 3, 2881724992)
-     , (2881724926, 1, 2881724992);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881724926, 53, 1)
-     , (2881724926, 1, 256)
-     , (2881724926, 50, 1)
-     , (2881724926, 5, 100)
-     , (2881724926, 51, 3)
-     , (2881724926, 18, 256)
-     , (2881724926, 151, 2)
-     , (2881724926, 10, 8388608)
-     , (2881724926, 11, 1000)
-     , (2881724926, 12, 20)
-     , (2881724926, 16, 1)
-     , (2881724926, 9, 8388608)
-     , (2881724926, 19, 220)
-     , (2881724926, 52, 1)
-     , (2881724926, 93, 132116)
-     , (2881724926, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2881724926, 79, 0)
-     , (2881724926, 78, 1)
-     , (2881724926, 39, 1.1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2881724926, 13, True)
-     , (2881724926, 11, True)
-     , (2881724926, 14, True)
-     , (2881724926, 17, True)
-     , (2881724926, 19, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2881724926, 67111922, 0, 0);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (2881724926, 0, 16777887);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2881724678, 20, 19303, 8388630, 'AAA9AEAAAAAAAMA/', 104643);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -49492,61 +49277,6 @@ VALUES (2881724692, 0, 16779360)
      , (2881724692, 4, 16779357);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2881724659, 16, 5309, 270775064, NULL, 170913);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2881724659, 1, 1415119116, 172.557, -19.31231, -6.0645, 0.2095136, 0.2095136, -0.6753548, -0.6753548);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2881724659, 1, 'Greater Armor Piercing Arrow');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (2881724659, 8, 100670198)
-     , (2881724659, 1, 33554724)
-     , (2881724659, 3, 536870932)
-     , (2881724659, 22, 872415275)
-     , (2881724659, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (2881724659, 3, 2881724560)
-     , (2881724659, 1, 2881724560);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881724659, 53, 1)
-     , (2881724659, 1, 256)
-     , (2881724659, 50, 1)
-     , (2881724659, 5, 95)
-     , (2881724659, 51, 3)
-     , (2881724659, 151, 2)
-     , (2881724659, 10, 8388608)
-     , (2881724659, 11, 1000)
-     , (2881724659, 12, 19)
-     , (2881724659, 16, 1)
-     , (2881724659, 9, 8388608)
-     , (2881724659, 19, 171)
-     , (2881724659, 52, 1)
-     , (2881724659, 93, 132116)
-     , (2881724659, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2881724659, 79, 0)
-     , (2881724659, 78, 1)
-     , (2881724659, 39, 1.1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2881724659, 13, True)
-     , (2881724659, 11, True)
-     , (2881724659, 14, True)
-     , (2881724659, 17, True)
-     , (2881724659, 19, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2881724659, 67111924, 0, 0);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (2881724659, 0, 16777887);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2881724680, 20, 19315, 8388630, 'BwA8AAoBWVTBqilDgZVTwMuhv8AP7gkfAAAAAAAAAAD//39/AACAPwAAcEEAAAAADeUlQA==', 104579);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -49684,61 +49414,6 @@ VALUES (2881724798, 0, 16779360)
      , (2881724798, 2, 16779358)
      , (2881724798, 3, 16779362)
      , (2881724798, 4, 16779357);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2881724799, 16, 5309, 270775064, NULL, 170913);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2881724799, 1, 1415119114, 169.6406, -3.296297, -6.0645, 0.04529937, 0.04529937, -0.7056543, -0.7056543);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2881724799, 1, 'Greater Armor Piercing Arrow');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (2881724799, 8, 100670198)
-     , (2881724799, 1, 33554724)
-     , (2881724799, 3, 536870932)
-     , (2881724799, 22, 872415275)
-     , (2881724799, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (2881724799, 3, 2881724680)
-     , (2881724799, 1, 2881724680);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881724799, 53, 1)
-     , (2881724799, 1, 256)
-     , (2881724799, 50, 1)
-     , (2881724799, 5, 105)
-     , (2881724799, 51, 3)
-     , (2881724799, 151, 2)
-     , (2881724799, 10, 8388608)
-     , (2881724799, 11, 1000)
-     , (2881724799, 12, 21)
-     , (2881724799, 16, 1)
-     , (2881724799, 9, 8388608)
-     , (2881724799, 19, 189)
-     , (2881724799, 52, 1)
-     , (2881724799, 93, 132116)
-     , (2881724799, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2881724799, 79, 0)
-     , (2881724799, 78, 1)
-     , (2881724799, 39, 1.1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2881724799, 13, True)
-     , (2881724799, 11, True)
-     , (2881724799, 14, True)
-     , (2881724799, 17, True)
-     , (2881724799, 19, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2881724799, 67111924, 0, 0);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (2881724799, 0, 16777887);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2881724713, 20, 19300, 8388630, 'BgA+AJilC1CNAllUjN9mQxH0qcL2KMBA8O8JH5c4sUDNzMw9AADIQgAAgD8AAHBBAAAAACIiEkA=', 104643);
@@ -49970,62 +49645,6 @@ VALUES (2881900495, 0, 16779360)
      , (2881900495, 2, 16779358)
      , (2881900495, 3, 16779362)
      , (2881900495, 4, 16779357);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2881749899, 16, 5305, 270775192, NULL, 170913);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2881749899, 1, 1415119211, 152.2186, -70.84395, -0.0645, -0.03976061, -0.03976061, -0.705988, -0.705988);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2881749899, 1, 'Greater Fire Arrow');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (2881749899, 8, 100670166)
-     , (2881749899, 1, 33555406)
-     , (2881749899, 3, 536870932)
-     , (2881749899, 22, 872415275)
-     , (2881749899, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (2881749899, 3, 2881900400)
-     , (2881749899, 1, 2881900400);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881749899, 53, 1)
-     , (2881749899, 1, 256)
-     , (2881749899, 50, 1)
-     , (2881749899, 5, 95)
-     , (2881749899, 51, 3)
-     , (2881749899, 18, 32)
-     , (2881749899, 151, 2)
-     , (2881749899, 10, 8388608)
-     , (2881749899, 11, 1000)
-     , (2881749899, 12, 19)
-     , (2881749899, 16, 1)
-     , (2881749899, 9, 8388608)
-     , (2881749899, 19, 209)
-     , (2881749899, 52, 1)
-     , (2881749899, 93, 132116)
-     , (2881749899, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2881749899, 79, 0)
-     , (2881749899, 78, 1)
-     , (2881749899, 39, 1.1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2881749899, 13, True)
-     , (2881749899, 11, True)
-     , (2881749899, 14, True)
-     , (2881749899, 17, True)
-     , (2881749899, 19, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2881749899, 67111921, 0, 0);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (2881749899, 0, 16777887);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2881829019, 20, 19312, 8388630, 'BgBAAJilC1BKAVlUmlyNQh7+KsIA16M78O9BAGeRXUDNzMw9AADIQgAAgD8AAHBBAAAAAPv6KkA=', 104643);
@@ -50310,62 +49929,6 @@ VALUES (2881497474, 0, 16779360)
      , (2881497474, 2, 16779358)
      , (2881497474, 3, 16779362)
      , (2881497474, 4, 16779357);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2881750062, 16, 5306, 270775192, NULL, 170913);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2881750062, 1, 1415119209, 139.814, -106.56, -0.076, -0.7066889, -0.7066889, 0.02430538, 0.02430538);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2881750062, 1, 'Greater Acid Arrow');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (2881750062, 8, 100670186)
-     , (2881750062, 1, 33555787)
-     , (2881750062, 3, 536870932)
-     , (2881750062, 22, 872415275)
-     , (2881750062, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (2881750062, 3, 2881829046)
-     , (2881750062, 1, 2881829046);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881750062, 53, 1)
-     , (2881750062, 1, 256)
-     , (2881750062, 50, 1)
-     , (2881750062, 5, 100)
-     , (2881750062, 51, 3)
-     , (2881750062, 18, 256)
-     , (2881750062, 151, 2)
-     , (2881750062, 10, 8388608)
-     , (2881750062, 11, 1000)
-     , (2881750062, 12, 20)
-     , (2881750062, 16, 1)
-     , (2881750062, 9, 8388608)
-     , (2881750062, 19, 220)
-     , (2881750062, 52, 1)
-     , (2881750062, 93, 132116)
-     , (2881750062, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2881750062, 79, 0)
-     , (2881750062, 78, 1)
-     , (2881750062, 39, 1.1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2881750062, 13, True)
-     , (2881750062, 11, True)
-     , (2881750062, 14, True)
-     , (2881750062, 17, True)
-     , (2881750062, 19, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2881750062, 67111922, 0, 0);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (2881750062, 0, 16777887);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2881900447, 20, 19300, 8388630, 'BwA+AGMBWVR7FAxD8OdUwgArhzwP7kEAAAAAAAAAAAD//39/AACAPwAAcEEAAAAAIiISQA==', 104643);
@@ -50849,61 +50412,6 @@ VALUES (2881829043, 0, 16779360)
      , (2881829043, 2, 16779358)
      , (2881829043, 3, 16779362)
      , (2881829043, 4, 16779357);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2881900456, 16, 5304, 270775064, NULL, 170913);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2881900456, 1, 1415119137, 179.9749, -49.98719, -6.0645, -0.002972677, -0.002972677, 0.7071005, 0.7071005);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2881900456, 1, 'Greater Arrow');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (2881900456, 8, 100670200)
-     , (2881900456, 1, 33554724)
-     , (2881900456, 3, 536870932)
-     , (2881900456, 22, 872415275)
-     , (2881900456, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (2881900456, 3, 2881343257)
-     , (2881900456, 1, 2881343257);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881900456, 53, 1)
-     , (2881900456, 1, 256)
-     , (2881900456, 50, 1)
-     , (2881900456, 5, 105)
-     , (2881900456, 51, 3)
-     , (2881900456, 151, 2)
-     , (2881900456, 10, 8388608)
-     , (2881900456, 11, 1000)
-     , (2881900456, 12, 21)
-     , (2881900456, 16, 1)
-     , (2881900456, 9, 8388608)
-     , (2881900456, 19, 105)
-     , (2881900456, 52, 1)
-     , (2881900456, 93, 132116)
-     , (2881900456, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2881900456, 79, 0)
-     , (2881900456, 78, 1)
-     , (2881900456, 39, 1.1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2881900456, 13, True)
-     , (2881900456, 11, True)
-     , (2881900456, 14, True)
-     , (2881900456, 17, True)
-     , (2881900456, 19, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2881900456, 67111919, 0, 0);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (2881900456, 0, 16777887);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2881900440, 20, 19312, 8388630, 'BgBAAJilC1AFAllUOUTIQnNcKcL2KMBA8O9BANu5r0DNzMw9AADIQgAAgD8AAHBBAAAAAPv6KkA=', 104643);
@@ -52077,62 +51585,6 @@ VALUES (2881900383, 0, 16779360)
      , (2881900383, 4, 16779357);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2881900382, 16, 5307, 270775192, NULL, 170913);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2881900382, 1, 1415119516, 239.9796, -105.1434, 5.924, -0.5512968, -0.5512968, -0.4428, -0.4428);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2881900382, 1, 'Greater Frost Arrow');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (2881900382, 8, 100670167)
-     , (2881900382, 1, 33555689)
-     , (2881900382, 3, 536870932)
-     , (2881900382, 22, 872415275)
-     , (2881900382, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (2881900382, 3, 2881900430)
-     , (2881900382, 1, 2881900430);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881900382, 53, 1)
-     , (2881900382, 1, 256)
-     , (2881900382, 50, 1)
-     , (2881900382, 5, 105)
-     , (2881900382, 51, 3)
-     , (2881900382, 18, 128)
-     , (2881900382, 151, 2)
-     , (2881900382, 10, 8388608)
-     , (2881900382, 11, 1000)
-     , (2881900382, 12, 21)
-     , (2881900382, 16, 1)
-     , (2881900382, 9, 8388608)
-     , (2881900382, 19, 231)
-     , (2881900382, 52, 1)
-     , (2881900382, 93, 132116)
-     , (2881900382, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2881900382, 79, 0)
-     , (2881900382, 78, 1)
-     , (2881900382, 39, 1.1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2881900382, 13, True)
-     , (2881900382, 11, True)
-     , (2881900382, 14, True)
-     , (2881900382, 17, True)
-     , (2881900382, 19, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2881900382, 67111927, 0, 0);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (2881900382, 0, 16777887);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2881378523, 20, 19309, 8388630, 'AAA9AAQAAAAAAABA', 104643);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -52230,62 +51682,6 @@ VALUES (2881751464, 0, 16779360)
      , (2881751464, 2, 16779358)
      , (2881751464, 3, 16779362)
      , (2881751464, 4, 16779357);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2881208258, 16, 5306, 270775192, NULL, 170913);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2881208258, 1, 1415119395, 119.9053, -126.0247, 5.929, 0.6772384, 0.6772384, -0.2033424, -0.2033424);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2881208258, 1, 'Greater Acid Arrow');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (2881208258, 8, 100670186)
-     , (2881208258, 1, 33555787)
-     , (2881208258, 3, 536870932)
-     , (2881208258, 22, 872415275)
-     , (2881208258, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (2881208258, 3, 2881378523)
-     , (2881208258, 1, 2881378523);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881208258, 53, 1)
-     , (2881208258, 1, 256)
-     , (2881208258, 50, 1)
-     , (2881208258, 5, 95)
-     , (2881208258, 51, 3)
-     , (2881208258, 18, 256)
-     , (2881208258, 151, 2)
-     , (2881208258, 10, 8388608)
-     , (2881208258, 11, 1000)
-     , (2881208258, 12, 19)
-     , (2881208258, 16, 1)
-     , (2881208258, 9, 8388608)
-     , (2881208258, 19, 209)
-     , (2881208258, 52, 1)
-     , (2881208258, 93, 132116)
-     , (2881208258, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2881208258, 79, 0)
-     , (2881208258, 78, 1)
-     , (2881208258, 39, 1.1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2881208258, 13, True)
-     , (2881208258, 11, True)
-     , (2881208258, 14, True)
-     , (2881208258, 17, True)
-     , (2881208258, 19, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2881208258, 67111922, 0, 0);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (2881208258, 0, 16777887);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2881722027, 20, 19315, 8388630, 'BgA8AJilC1BhAllUe0IqRNWVmkT2KMBA8O8JH7/hakDNzMw9AADIQgAAgD8AAHBBAAAAAA3lJUA=', 104579);
@@ -52419,60 +51815,6 @@ VALUES (2881721966, 0, 83889233, 83889233)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2881721966, 0, 16787488);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2881722034, 16, 15280, 270775064, NULL, 170785);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2881722034, 1, 1415119211, 152.2172, -70.8569, -0.0645, -0.03976061, -0.03976061, -0.705988, -0.705988);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2881722034, 1, 'Armor Piercing Atlatl Dart');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (2881722034, 8, 100672580)
-     , (2881722034, 1, 33557434)
-     , (2881722034, 3, 536870932)
-     , (2881722034, 22, 872415275)
-     , (2881722034, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (2881722034, 3, 2881722027)
-     , (2881722034, 1, 2881722027);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2881722034, 53, 1)
-     , (2881722034, 1, 256)
-     , (2881722034, 50, 4)
-     , (2881722034, 5, 100)
-     , (2881722034, 51, 3)
-     , (2881722034, 151, 2)
-     , (2881722034, 10, 8388608)
-     , (2881722034, 11, 1000)
-     , (2881722034, 12, 20)
-     , (2881722034, 16, 1)
-     , (2881722034, 9, 8388608)
-     , (2881722034, 19, 80)
-     , (2881722034, 52, 1)
-     , (2881722034, 93, 132116)
-     , (2881722034, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2881722034, 79, 0)
-     , (2881722034, 78, 1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2881722034, 13, True)
-     , (2881722034, 11, True)
-     , (2881722034, 14, True)
-     , (2881722034, 17, True)
-     , (2881722034, 19, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2881722034, 67111924, 0, 0);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (2881722034, 0, 16787489);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2881721923, 20, 19312, 8388630, 'AAA9AEAAAAAAAMA/', 104643);
@@ -55037,55 +54379,6 @@ VALUES (2885546485, 13, True)
      , (2885546485, 1, True);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2885606184, 18, 48997, 2327192, NULL, 38945);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2885606184, 1, 3135766557, 85.46974, 103.4704, 25.929, 0.6861133, 0.6861133, -0.1710222, -0.1710222);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2885606184, 1, 'Frost Hatchet');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (2885606184, 8, 100686914)
-     , (2885606184, 1, 33559450)
-     , (2885606184, 3, 536870932)
-     , (2885606184, 22, 872415275)
-     , (2885606184, 6, 67115558);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (2885606184, 3, 2885546485)
-     , (2885606184, 1, 2885546485);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2885606184, 1, 1)
-     , (2885606184, 5, 450)
-     , (2885606184, 51, 1)
-     , (2885606184, 18, 128)
-     , (2885606184, 10, 1048576)
-     , (2885606184, 16, 1)
-     , (2885606184, 9, 1048576)
-     , (2885606184, 19, 130)
-     , (2885606184, 52, 1)
-     , (2885606184, 93, 1044)
-     , (2885606184, 9007, 10);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2885606184, 13, True)
-     , (2885606184, 11, True)
-     , (2885606184, 14, True)
-     , (2885606184, 19, True)
-     , (2885606184, 22, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2885606184, 67116377, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (2885606184, 0, 83896665, 83896665);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (2885606184, 0, 16792134);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2885573909, 4, 53116, 9437238, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -56713,123 +56006,6 @@ VALUES (3330387702, 0, 16783894)
      , (3330387702, 16, 16787671);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (3330387740, 18, 15873, 2327320, NULL, 170145);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3330387740, 1, 1415119312, 40.64454, -95.22188, 5.9365, 0.8254139, 0, 0, 0.5645279);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3330387740, 1, 'Bronze Longbow');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (3330387740, 8, 100672768)
-     , (3330387740, 1, 33554728)
-     , (3330387740, 3, 536870932)
-     , (3330387740, 22, 872415275)
-     , (3330387740, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (3330387740, 3, 3330387702)
-     , (3330387740, 1, 3330387702);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3330387740, 53, 3)
-     , (3330387740, 1, 256)
-     , (3330387740, 50, 1)
-     , (3330387740, 5, 980)
-     , (3330387740, 51, 2)
-     , (3330387740, 10, 4194304)
-     , (3330387740, 16, 1)
-     , (3330387740, 9, 4194304)
-     , (3330387740, 19, 350)
-     , (3330387740, 52, 2)
-     , (3330387740, 93, 1044)
-     , (3330387740, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3330387740, 39, 2.5);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3330387740, 13, True)
-     , (3330387740, 11, True)
-     , (3330387740, 14, True)
-     , (3330387740, 19, True)
-     , (3330387740, 22, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (3330387740, 67113836, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (3330387740, 0, 83886740, 83886740)
-     , (3330387740, 1, 83888778, 83888778)
-     , (3330387740, 2, 83886736, 83886736)
-     , (3330387740, 3, 83888778, 83888778)
-     , (3330387740, 4, 83886740, 83886740);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (3330387740, 0, 16779360)
-     , (3330387740, 1, 16779361)
-     , (3330387740, 2, 16779358)
-     , (3330387740, 3, 16779362)
-     , (3330387740, 4, 16779357);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (3330387741, 16, 5307, 270775192, NULL, 170913);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3330387741, 1, 1415119312, 40.67882, -95.18049, 5.9355, 0.5836558, 0.5836558, 0.3991815, 0.3991815);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3330387741, 1, 'Greater Frost Arrow');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (3330387741, 8, 100670167)
-     , (3330387741, 1, 33555689)
-     , (3330387741, 3, 536870932)
-     , (3330387741, 22, 872415275)
-     , (3330387741, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (3330387741, 3, 3330387702)
-     , (3330387741, 1, 3330387702);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3330387741, 53, 1)
-     , (3330387741, 1, 256)
-     , (3330387741, 50, 1)
-     , (3330387741, 5, 100)
-     , (3330387741, 51, 3)
-     , (3330387741, 18, 128)
-     , (3330387741, 151, 2)
-     , (3330387741, 10, 8388608)
-     , (3330387741, 11, 1000)
-     , (3330387741, 12, 20)
-     , (3330387741, 16, 1)
-     , (3330387741, 9, 8388608)
-     , (3330387741, 19, 220)
-     , (3330387741, 52, 1)
-     , (3330387741, 93, 132116)
-     , (3330387741, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3330387741, 79, 0)
-     , (3330387741, 78, 1)
-     , (3330387741, 39, 1.1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3330387741, 13, True)
-     , (3330387741, 11, True)
-     , (3330387741, 14, True)
-     , (3330387741, 17, True)
-     , (3330387741, 19, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (3330387741, 67111927, 0, 0);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (3330387741, 0, 16777887);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3330185579, 20, 19312, 8388630, 'AAA9AEAAAAAAAMC/', 104643);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -57406,62 +56582,6 @@ VALUES (3330180460, 0, 16779360)
      , (3330180460, 4, 16779357);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (3330139714, 16, 5305, 270775192, NULL, 170913);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3330139714, 1, 1415119172, 67.91586, -79.72404, -0.0645, -0.4948997, -0.4948997, -0.5050488, -0.5050488);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3330139714, 1, 'Greater Fire Arrow');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (3330139714, 8, 100670166)
-     , (3330139714, 1, 33555406)
-     , (3330139714, 3, 536870932)
-     , (3330139714, 22, 872415275)
-     , (3330139714, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (3330139714, 3, 3330044921)
-     , (3330139714, 1, 3330044921);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3330139714, 53, 1)
-     , (3330139714, 1, 256)
-     , (3330139714, 50, 1)
-     , (3330139714, 5, 95)
-     , (3330139714, 51, 3)
-     , (3330139714, 18, 32)
-     , (3330139714, 151, 2)
-     , (3330139714, 10, 8388608)
-     , (3330139714, 11, 1000)
-     , (3330139714, 12, 19)
-     , (3330139714, 16, 1)
-     , (3330139714, 9, 8388608)
-     , (3330139714, 19, 209)
-     , (3330139714, 52, 1)
-     , (3330139714, 93, 132116)
-     , (3330139714, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3330139714, 79, 0)
-     , (3330139714, 78, 1)
-     , (3330139714, 39, 1.1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3330139714, 13, True)
-     , (3330139714, 11, True)
-     , (3330139714, 14, True)
-     , (3330139714, 17, True)
-     , (3330139714, 19, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (3330139714, 67111921, 0, 0);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (3330139714, 0, 16777887);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3330139673, 20, 19309, 8388630, 'BgA8AE2fBFBaAVlUOF2ZQmMt5cMA16M78O8JH/hFVUDNzMw9AADIQgAAgD8AAHBBAAAAAAAAGEA=', 104579);
 
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -57559,62 +56679,6 @@ VALUES (3330139663, 0, 16779360)
      , (3330139663, 2, 16779358)
      , (3330139663, 3, 16779362)
      , (3330139663, 4, 16779357);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (3330140035, 16, 5308, 270775192, NULL, 170913);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (3330140035, 1, 1415119192, 106.7512, -100.1333, -0.071, -0.506649, -0.506649, -0.4932614, -0.4932614);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3330140035, 1, 'Greater Lightning Arrow');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (3330140035, 8, 100670206)
-     , (3330140035, 1, 33555709)
-     , (3330140035, 3, 536870932)
-     , (3330140035, 22, 872415275)
-     , (3330140035, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (3330140035, 3, 3330139673)
-     , (3330140035, 1, 3330139673);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3330140035, 53, 1)
-     , (3330140035, 1, 256)
-     , (3330140035, 50, 1)
-     , (3330140035, 5, 95)
-     , (3330140035, 51, 3)
-     , (3330140035, 18, 64)
-     , (3330140035, 151, 2)
-     , (3330140035, 10, 8388608)
-     , (3330140035, 11, 1000)
-     , (3330140035, 12, 19)
-     , (3330140035, 16, 1)
-     , (3330140035, 9, 8388608)
-     , (3330140035, 19, 209)
-     , (3330140035, 52, 1)
-     , (3330140035, 93, 132116)
-     , (3330140035, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3330140035, 79, 0)
-     , (3330140035, 78, 1)
-     , (3330140035, 39, 1.1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3330140035, 13, True)
-     , (3330140035, 11, True)
-     , (3330140035, 14, True)
-     , (3330140035, 17, True)
-     , (3330140035, 19, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (3330140035, 67111923, 0, 0);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (3330140035, 0, 16777887);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (3330185419, 20, 19312, 8388630, 'BgBAAE2fBFBgAVlU5fz5wV/XqsIA16M78O8JH3WRpEDNzMw9AADIQgAAgD8AAHBBAAAAAPv6KkA=', 104643);
@@ -66443,67 +65507,6 @@ VALUES (2877957331, 12, True)
      , (2877957331, 14, True)
      , (2877957331, 19, True)
      , (2877957331, 1, True);
-
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2877957380, 18, 34345, 2327320, NULL, 170145);
-
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (2877957380, 1, 3189178369, 10.16998, 0.2008592, 79.14508, -0.9612729, 0, 0, -0.2755984);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2877957380, 1, 'Yumi');
-
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (2877957380, 8, 100668816)
-     , (2877957380, 1, 33554728)
-     , (2877957380, 3, 536870932)
-     , (2877957380, 22, 872415275)
-     , (2877957380, 6, 67111919);
-
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
-VALUES (2877957380, 3, 2877957331)
-     , (2877957380, 1, 2877957331);
-
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2877957380, 53, 3)
-     , (2877957380, 1, 256)
-     , (2877957380, 50, 1)
-     , (2877957380, 5, 980)
-     , (2877957380, 51, 2)
-     , (2877957380, 10, 4194304)
-     , (2877957380, 16, 1)
-     , (2877957380, 9, 4194304)
-     , (2877957380, 19, 400)
-     , (2877957380, 52, 2)
-     , (2877957380, 93, 1044)
-     , (2877957380, 9007, 10);
-
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2877957380, 39, 1.1);
-
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2877957380, 13, True)
-     , (2877957380, 11, True)
-     , (2877957380, 14, True)
-     , (2877957380, 19, True)
-     , (2877957380, 22, True);
-
-INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
-VALUES (2877957380, 67111920, 0, 0);
-
-INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
-VALUES (2877957380, 0, 83886740, 83886740)
-     , (2877957380, 1, 83888778, 83888778)
-     , (2877957380, 2, 83886736, 83886736)
-     , (2877957380, 3, 83888778, 83888778)
-     , (2877957380, 4, 83886740, 83886740);
-
-INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
-VALUES (2877957380, 0, 16779360)
-     , (2877957380, 1, 16779361)
-     , (2877957380, 2, 16779358)
-     , (2877957380, 3, 16779362)
-     , (2877957380, 4, 16779357);
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
 VALUES (2878008911, 20, 34297, 8388630, 'AAA9AAAAAAA=', 104451);
