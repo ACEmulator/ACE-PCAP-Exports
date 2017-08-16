@@ -15,24 +15,6 @@ VALUES (2155136671, 29, 1)
      , (2155136671, 26, 27.3)
      , (2155136671, 62, 1);
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3360318657, 353, 10)
-     , (3360318657, 33, 4294967294)
-     , (3360318657, 114, 1)
-     , (3360318657, 5, 500)
-     , (3360318657, 45, 0)
-     , (3360318657, 49, 4294967295)
-     , (3360318657, 48, 47)
-     , (3360318657, 44, 4294967295);
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3360318657, 29, 1)
-     , (3360318657, 22, 0.25)
-     , (3360318657, 63, 1)
-     , (3360318657, 21, 0)
-     , (3360318657, 26, 0)
-     , (3360318657, 62, 1);
-
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3710235634, 16, 'A ball made of densely packed snow, once partially melted and then re-frozen to form a hard ball of ice, then given a boost.');
 
