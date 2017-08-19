@@ -5006,13 +5006,6 @@ REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (2691, 1176);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41301, 16, 'Killed by Husband V.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41301, 19, 0)
-     , (41301, 5, 6573);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20423, 16, 'Inscribed spell: Archer''s Bane
 Increases a shield or piece of armor''s resistance to piercing damage by 170%. Target yourself to cast this spell on all of your equipped armor.')
      , (20423, 14, 'Use this item to attempt to learn its spell.');
@@ -5169,40 +5162,6 @@ REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (6002, 85);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2831, 16, 'Platemail Gauntlets');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2831, 19, 13014)
-     , (2831, 131, 60)
-     , (2831, 115, 0)
-     , (2831, 5, 765)
-     , (2831, 105, 7)
-     , (2831, 106, 257)
-     , (2831, 107, 901)
-     , (2831, 28, 270)
-     , (2831, 108, 901)
-     , (2831, 172, 1)
-     , (2831, 109, 257)
-     , (2831, 110, 0);
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2831, 5, -0.05)
-     , (2831, 13, 1.3)
-     , (2831, 14, 1)
-     , (2831, 15, 1)
-     , (2831, 16, 0.4)
-     , (2831, 17, 0.4)
-     , (2831, 18, 0.6)
-     , (2831, 19, 0.4)
-     , (2831, 165, 1);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2831, 100, 1);
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2831, 1486);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2681, 16, 'Inscribed spell: Focus Self VI
 Increases the caster''s Focus by 35 points.')
      , (2681, 14, 'Use this item to attempt to learn its spell.');
@@ -5273,13 +5232,6 @@ VALUES (2821, 19, 1000)
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (2821, 1546);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41262, 16, 'Killed by Husband V.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41262, 19, 0)
-     , (41262, 5, 6055);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3067, 16, 'Inscribed spell: Piercing Protection Other VI
@@ -5402,6 +5354,18 @@ REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (8940, 1813);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41301, 16, 'Inscribed spell: Two Handed Combat Mastery Other VI
+Increases the target''s Two Handed Combat skill by 35 points.')
+     , (41301, 14, 'Use this item to attempt to learn its spell.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41301, 19, 1000)
+     , (41301, 5, 30);
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41301, 5096);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20237, 16, 'Inscribed spell: Perseverance
 Increases the caster''s Endurance by 40 points.')
      , (20237, 14, 'Use this item to attempt to learn its spell.');
@@ -5426,13 +5390,6 @@ REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (3282, 879);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2776, 16, 'Killed by Husband V.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2776, 19, 0)
-     , (2776, 5, 6715);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2648, 16, 'Inscribed spell: Coordination Other VI
 Increases the target''s Coordination by 35 points.')
      , (2648, 14, 'Use this item to attempt to learn its spell.');
@@ -5443,6 +5400,30 @@ VALUES (2648, 19, 1000)
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (2648, 1384);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2831, 16, 'Inscribed spell: Frost Lure VI
+Decreases a shield or piece of armor''s resistance to cold damage by 150%.')
+     , (2831, 14, 'Use this item to attempt to learn its spell.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2831, 19, 1000)
+     , (2831, 5, 30);
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2831, 1522);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41262, 16, 'Inscribed spell: Blessing of T''ing
+Increases the caster''s Two Handed Combat skill by 40 points.')
+     , (41262, 14, 'Use this item to attempt to learn its spell.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41262, 19, 2000)
+     , (41262, 5, 30);
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41262, 5105);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5967, 16, 'Inscribed spell: Fletching Ineptitude Other VI
@@ -5503,6 +5484,18 @@ VALUES (45265, 19, 1000)
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (45265, 5792);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2776, 16, 'Inscribed spell: Blade Bane VI
+Increases a shield or piece of armor''s resistance to slashing damage by 150%. Target yourself to cast this spell on all of your equipped armor.')
+     , (2776, 14, 'Use this item to attempt to learn its spell.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2776, 19, 1000)
+     , (2776, 5, 30);
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2776, 1562);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3342, 16, 'Inscribed spell: Jumping Mastery Self VI
@@ -9790,13 +9783,6 @@ REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (45246, 5773);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3336, 16, 'Killed by Mag-nus.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3336, 19, 0)
-     , (3336, 5, 7201);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45336, 16, 'Inscribed spell: Sneak Attack Ineptitude Other V
 Decreases the target''s Sneak Attack skill by 30 points.')
      , (45336, 14, 'Use this item to attempt to learn its spell.');
@@ -9833,20 +9819,6 @@ REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (3285, 253);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3461, 16, 'Killed by Mag-nus.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3461, 19, 0)
-     , (3461, 5, 6100);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3081, 16, 'Killed by Mag-nus.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3081, 19, 0)
-     , (3081, 5, 6664);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2974, 16, 'Inscribed spell: Acid Protection Other III
 Reduces damage the target takes from acid by 33%.')
      , (2974, 14, 'Use this item to attempt to learn its spell.');
@@ -9857,6 +9829,18 @@ VALUES (2974, 19, 20)
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (2974, 511);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3081, 16, 'Inscribed spell: Exhaustion Other V
+Decreases the rate at which the target regains Stamina by 41%.')
+     , (3081, 14, 'Use this item to attempt to learn its spell.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3081, 19, 200)
+     , (3081, 5, 30);
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3081, 198);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45344, 16, 'Inscribed spell: Sneak Attack Mastery Other V
@@ -9883,26 +9867,6 @@ REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (3220, 331);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2755, 16, 'Gem of Bludgeon Protection');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2755, 19, 774)
-     , (2755, 131, 44)
-     , (2755, 115, 0)
-     , (2755, 5, 5)
-     , (2755, 117, 250)
-     , (2755, 105, 5)
-     , (2755, 106, 150)
-     , (2755, 107, 362)
-     , (2755, 108, 362)
-     , (2755, 172, 1)
-     , (2755, 109, 0)
-     , (2755, 110, 0);
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2755, 1021);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3086, 16, 'Inscribed spell: Fester Other V
 Decrease target''s natural healing rate by 41%.')
      , (3086, 14, 'Use this item to attempt to learn its spell.');
@@ -9925,6 +9889,42 @@ VALUES (43361, 19, 200)
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (43361, 5423);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3336, 16, 'Inscribed spell: Jumping Mastery Other V
+Increases the target''s Jump skill by 30 points.')
+     , (3336, 14, 'Use this item to attempt to learn its spell.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3336, 19, 200)
+     , (3336, 5, 30);
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3336, 980);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2755, 16, 'Inscribed spell: Willpower Other V
+Increases the target''s Self by 30 points.')
+     , (2755, 14, 'Use this item to attempt to learn its spell.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2755, 19, 200)
+     , (2755, 5, 30);
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2755, 1455);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3461, 16, 'Inscribed spell: Person Unfamiliarity Other V
+Decreases the target''s Assess Person skill by 30 points.')
+     , (3461, 14, 'Use this item to attempt to learn its spell.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3461, 19, 200)
+     , (3461, 5, 30);
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3461, 847);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2790, 16, 'Inscribed spell: Blood Loather V
@@ -9961,10 +9961,6 @@ VALUES (3231, 19, 200)
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (3231, 326);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3096, 19, 406)
-     , (3096, 5, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3136, 16, 'Inscribed spell: Arcane Enlightenment Other V
@@ -10049,6 +10045,18 @@ VALUES (28944, 19, 200)
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (28944, 3510);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3096, 16, 'Inscribed spell: Mana Depletion Other V
+Decreases target''s natural mana rate by 41%.')
+     , (3096, 14, 'Use this item to attempt to learn its spell.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3096, 19, 200)
+     , (3096, 5, 30);
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3096, 222);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45288, 16, 'Inscribed spell: Recklessness Ineptitude Other V

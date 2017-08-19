@@ -3185,16 +3185,6 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (49303, 69, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (49331, 16, 'Amulet');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49331, 19, 131)
-     , (49331, 131, 63)
-     , (49331, 5, 100)
-     , (49331, 105, 5)
-     , (49331, 172, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49240, 14, 'Use this essence to summon or dismiss your Lightning Zombie.');
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -3265,6 +3255,29 @@ VALUES (48944, 167, 45);
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48944, 69, 1);
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49331, 14, 'Use this essence to summon or dismiss your Frost Wisp.');
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49331, 33, 0)
+     , (49331, 369, 40)
+     , (49331, 114, 0)
+     , (49331, 19, 4000)
+     , (49331, 5, 50)
+     , (49331, 374, 16)
+     , (49331, 280, 213)
+     , (49331, 105, 5)
+     , (49331, 91, 50)
+     , (49331, 92, 50)
+     , (49331, 366, 54)
+     , (49331, 367, 310);
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (49331, 167, 45);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49331, 69, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19477, 16, 'The femur bone of a departed undead.')
@@ -11715,21 +11728,8 @@ VALUES (36050, 1614)
      , (36050, 5883);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28198, 2, 9)
-     , (28198, 25, 80);
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (28198, 1, 120)
-     , (28198, 2, 145)
-     , (28198, 4, 175)
-     , (28198, 8, 175)
-     , (28198, 16, 125)
-     , (28198, 32, 105);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28198, 64, 238)
-     , (28198, 128, 355)
-     , (28198, 256, 265);
+VALUES (28198, 19, 1500)
+     , (28198, 5, 150);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36053, 16, 'Killed by Mag-nus.');

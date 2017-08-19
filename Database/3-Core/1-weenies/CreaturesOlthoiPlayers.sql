@@ -32,7 +32,6 @@ VALUES (43480, 12, True)
      , (43480, 14, True)
      , (43480, 42, True)
      , (43480, 19, True)
-     , (43480, 28, True)
      , (43480, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
@@ -109,7 +108,6 @@ VALUES (43481, 11, True)
      , (43481, 18, True)
      , (43481, 42, True)
      , (43481, 19, True)
-     , (43481, 28, True)
      , (43481, 1, True);
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
