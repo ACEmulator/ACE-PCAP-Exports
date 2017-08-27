@@ -1,8 +1,8 @@
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1383, 'farmersho');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1383, 516, 1383, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1383, 516, 1383, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1383, 1, 'Farmer');
@@ -86,8 +86,8 @@ VALUES (1383, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35730, 'ace35730-janieralevv');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (35730, 516, 35730, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (35730, 516, 35730, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35730, 1, 'Janier al-Evv');
@@ -168,8 +168,8 @@ VALUES (35730, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20222, 'scrivenerlifeouter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20222, 516, 20222, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20222, 516, 20222, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20222, 1, 'Scrivener of Life Magic');
@@ -251,8 +251,8 @@ VALUES (20222, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20210, 'scrivenercreatureouter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20210, 516, 20210, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20210, 516, 20210, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20210, 1, 'Scrivener of Creature Magic');
@@ -334,8 +334,8 @@ VALUES (20210, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4678, 'alarqasbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4678, 516, 4678, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4678, 516, 4678, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4678, 1, 'Itir ibn Ativ the Barkeep');
@@ -423,8 +423,8 @@ VALUES (4678, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4685, 'alarqasshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4685, 516, 4685, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4685, 516, 4685, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4685, 1, 'Shopkeep Qufar ibn Ijtalwa');
@@ -513,8 +513,8 @@ VALUES (4685, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4706, 'samsurnorthwestoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4706, 516, 4706, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4706, 516, 4706, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4706, 1, 'Nu''nifiba the Shopkeeper');
@@ -598,8 +598,8 @@ VALUES (4706, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9615, 'bestowervendoralu');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9615, 516, 9615, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9615, 516, 9615, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9615, 1, 'Caranis the Dependable');
@@ -685,8 +685,8 @@ VALUES (9615, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (651, 'easthambowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (651, 516, 651, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (651, 516, 651, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (651, 1, 'Bowyer Bronwin');
@@ -770,8 +770,8 @@ VALUES (651, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (655, 'easthamjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (655, 516, 655, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (655, 516, 655, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (655, 1, 'Aderma the Lapidary');
@@ -857,8 +857,8 @@ VALUES (655, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (653, 'easthamhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (653, 516, 653, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (653, 516, 653, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (653, 1, 'Sodyla Thurmad the Healer');
@@ -945,8 +945,8 @@ VALUES (653, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2302, 'easthamarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2302, 516, 2302, 8388662, 'AAA9AEAAAAAAAIC/', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2302, 516, 2302, 8388662, NULL, 'AAA9AEAAAAAAAIC/', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2302, 1, 'Belbeca the Archmage');
@@ -1030,8 +1030,8 @@ VALUES (2302, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (648, 'easthambarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (648, 516, 648, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (648, 516, 648, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (648, 1, 'Byrdara the Barkeeper');
@@ -1113,8 +1113,8 @@ VALUES (648, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (658, 'easthamtailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (658, 516, 658, 8388662, 'AAA9AEAAAAAAAIC/', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (658, 516, 658, 8388662, NULL, 'AAA9AEAAAAAAAIC/', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (658, 1, 'Cynsela the Tailor');
@@ -1196,8 +1196,8 @@ VALUES (658, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (652, 'easthamgrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (652, 516, 652, 8388662, 'AAA9AEAAAAAAAIC/', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (652, 516, 652, 8388662, NULL, 'AAA9AEAAAAAAAIC/', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (652, 1, 'Grocer Parsal');
@@ -1286,8 +1286,8 @@ VALUES (652, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (654, 'easthamscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (654, 516, 654, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (654, 516, 654, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (654, 1, 'Degel Parson the Scrivener');
@@ -1376,8 +1376,8 @@ VALUES (654, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (649, 'easthamblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (649, 516, 649, 8388662, 'AAA9AEAAAAAAAIC/', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (649, 516, 649, 8388662, NULL, 'AAA9AEAAAAAAAIC/', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (649, 1, 'Getram the Armorer');
@@ -1459,8 +1459,8 @@ VALUES (649, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (650, 'easthamblacksmith2');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (650, 516, 650, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (650, 516, 650, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (650, 1, 'Rundiscar the Weaponsmith');
@@ -1540,8 +1540,8 @@ VALUES (650, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (656, 'easthamshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (656, 516, 656, 8388662, 'AAA9AEAAAAAAAIC/', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (656, 516, 656, 8388662, NULL, 'AAA9AEAAAAAAAIC/', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (656, 1, 'Farnum the Provisioner');
@@ -1625,8 +1625,8 @@ VALUES (656, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20226, 'scrivenerwarouter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20226, 516, 20226, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20226, 516, 20226, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20226, 1, 'Scrivener of War Magic');
@@ -1708,8 +1708,8 @@ VALUES (20226, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20214, 'scriveneritemouter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20214, 516, 20214, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20214, 516, 20214, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20214, 1, 'Scrivener of Item Magic');
@@ -1791,8 +1791,8 @@ VALUES (20214, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42801, 'ace42801-barkeepercreighton');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42801, 516, 42801, 8388662, 'AAA9AEAAAAAAAIC/', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42801, 516, 42801, 8388662, NULL, 'AAA9AEAAAAAAAIC/', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42801, 1, 'Barkeeper Creighton');
@@ -1873,8 +1873,8 @@ VALUES (42801, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42800, 'ace42800-barkeeperedsel');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42800, 516, 42800, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42800, 516, 42800, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42800, 1, 'Barkeeper Edsel');
@@ -1955,8 +1955,8 @@ VALUES (42800, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42799, 'ace42799-barkeeperamberjill');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42799, 516, 42799, 8388662, 'AAA9AEAAAAAAAIC/', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42799, 516, 42799, 8388662, NULL, 'AAA9AEAAAAAAAIC/', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42799, 1, 'Barkeeper AmberJill');
@@ -2037,8 +2037,8 @@ VALUES (42799, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42803, 'ace42803-barkeepdevra');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42803, 516, 42803, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42803, 516, 42803, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42803, 1, 'Barkeep Devra');
@@ -2120,8 +2120,8 @@ VALUES (42803, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42802, 'ace42802-barkeephosaam');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42802, 516, 42802, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42802, 516, 42802, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42802, 1, 'Barkeep Hosaam');
@@ -2203,8 +2203,8 @@ VALUES (42802, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42804, 'ace42804-barkeepjauhar');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42804, 516, 42804, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42804, 516, 42804, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42804, 1, 'Barkeep Jauhar');
@@ -2286,8 +2286,8 @@ VALUES (42804, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42810, 'ace42810-xiaohongthebarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42810, 516, 42810, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42810, 516, 42810, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42810, 1, 'Xiao Hong the Barkeeper');
@@ -2375,8 +2375,8 @@ VALUES (42810, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42809, 'ace42809-junjiethebarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42809, 516, 42809, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42809, 516, 42809, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42809, 1, 'Junjie the Barkeeper');
@@ -2460,8 +2460,8 @@ VALUES (42809, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42808, 'ace42808-hanadithebarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42808, 516, 42808, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42808, 516, 42808, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42808, 1, 'Hanadi the Barkeeper');
@@ -2545,8 +2545,8 @@ VALUES (42808, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42807, 'ace42807-barkeeperrafaele');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42807, 516, 42807, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42807, 516, 42807, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42807, 1, 'Barkeeper Rafaele');
@@ -2628,8 +2628,8 @@ VALUES (42807, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42806, 'ace42806-barkeeperbenedetta');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42806, 516, 42806, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42806, 516, 42806, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42806, 1, 'Barkeeper Benedetta');
@@ -2712,8 +2712,8 @@ VALUES (42806, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42805, 'ace42805-barkeeperlazzaro');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42805, 516, 42805, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42805, 516, 42805, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42805, 1, 'Barkeeper Lazzaro');
@@ -2795,8 +2795,8 @@ VALUES (42805, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4548, 'nantobarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4548, 516, 4548, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4548, 516, 4548, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4548, 1, 'Wah Chon the Barkeep');
@@ -2884,8 +2884,8 @@ VALUES (4548, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4547, 'nantoarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4547, 516, 4547, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4547, 516, 4547, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4547, 1, 'Archmage Jo Ji-Shen');
@@ -2973,8 +2973,8 @@ VALUES (4547, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4550, 'nantobowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4550, 516, 4550, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4550, 516, 4550, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4550, 1, 'Ye Te the Bowyer');
@@ -3056,8 +3056,8 @@ VALUES (4550, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4551, 'nantogrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4551, 516, 4551, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4551, 516, 4551, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4551, 1, 'Jo Gau the Grocer');
@@ -3141,8 +3141,8 @@ VALUES (4551, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4555, 'nantoshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4555, 516, 4555, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4555, 516, 4555, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4555, 1, 'Wuo Ha the Provisioner');
@@ -3226,8 +3226,8 @@ VALUES (4555, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4554, 'nantoscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4554, 516, 4554, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4554, 516, 4554, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4554, 1, 'Scribe Lashi Oi');
@@ -3311,8 +3311,8 @@ VALUES (4554, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4552, 'nantohealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4552, 516, 4552, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4552, 516, 4552, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4552, 1, 'Le Ben the Healer');
@@ -3394,8 +3394,8 @@ VALUES (4552, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4556, 'nantotailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4556, 516, 4556, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4556, 516, 4556, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4556, 1, 'Tailor Yajyi San');
@@ -3483,8 +3483,8 @@ VALUES (4556, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4553, 'nantojeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4553, 516, 4553, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4553, 516, 4553, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4553, 1, 'Nun Hong the Jeweler');
@@ -3566,8 +3566,8 @@ VALUES (4553, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4549, 'nantoblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4549, 516, 4549, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4549, 516, 4549, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4549, 1, 'Blacksmith Ton Wing');
@@ -3651,8 +3651,8 @@ VALUES (4549, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14930, 'plannerwedding');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (14930, 516, 14930, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (14930, 516, 14930, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14930, 1, 'Wedding Planner');
@@ -3734,8 +3734,8 @@ VALUES (14930, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20213, 'scriveneriteminner');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20213, 516, 20213, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20213, 516, 20213, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20213, 1, 'Journeyman Scrivener of Item Magic');
@@ -3817,8 +3817,8 @@ VALUES (20213, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20225, 'scrivenerwarinner');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20225, 516, 20225, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20225, 516, 20225, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20225, 1, 'Journeyman Scrivener of War Magic');
@@ -3900,8 +3900,8 @@ VALUES (20225, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20221, 'scrivenerlifeinner');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20221, 516, 20221, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20221, 516, 20221, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20221, 1, 'Journeyman Scrivener of Life Magic');
@@ -3983,8 +3983,8 @@ VALUES (20221, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20209, 'scrivenercreatureinner');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20209, 516, 20209, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20209, 516, 20209, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20209, 1, 'Journeyman Scrivener of Creature Magic');
@@ -4066,8 +4066,8 @@ VALUES (20209, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2252, 'baishibarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2252, 516, 2252, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2252, 516, 2252, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2252, 1, 'Kiun Baicho the Barkeeper');
@@ -4151,8 +4151,8 @@ VALUES (2252, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2259, 'baishishopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2259, 516, 2259, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2259, 516, 2259, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2259, 1, 'Shopkeep Ginan Wah');
@@ -4238,8 +4238,8 @@ VALUES (2259, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2256, 'baishihealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2256, 516, 2256, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2256, 516, 2256, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2256, 1, 'Healer Fan Lun-Kou');
@@ -4323,8 +4323,8 @@ VALUES (2256, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2260, 'baishitailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2260, 516, 2260, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2260, 516, 2260, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2260, 1, 'Tailor Zhoyong Wa-son');
@@ -4412,8 +4412,8 @@ VALUES (2260, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2257, 'baishijeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2257, 516, 2257, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2257, 516, 2257, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2257, 1, 'Nuru Misho the Jeweler');
@@ -4499,8 +4499,8 @@ VALUES (2257, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2254, 'baishibowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2254, 516, 2254, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2254, 516, 2254, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2254, 1, 'Bowyer Jyi Zhente');
@@ -4580,8 +4580,8 @@ VALUES (2254, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2258, 'baishiscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2258, 516, 2258, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2258, 516, 2258, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2258, 1, 'Denki Sokuto the Scribe');
@@ -4667,8 +4667,8 @@ VALUES (2258, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6082, 'baishispicemerchant');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (6082, 516, 6082, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (6082, 516, 6082, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6082, 1, 'Spice Merchant Chiani');
@@ -4754,8 +4754,8 @@ VALUES (6082, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2255, 'baishigrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2255, 516, 2255, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2255, 516, 2255, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2255, 1, 'Muoyen Han the Grocer');
@@ -4841,8 +4841,8 @@ VALUES (2255, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2251, 'baishiarmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2251, 516, 2251, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2251, 516, 2251, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2251, 1, 'Lobu Shui the Armorer');
@@ -4924,8 +4924,8 @@ VALUES (2251, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2261, 'baishiweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2261, 516, 2261, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2261, 516, 2261, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2261, 1, 'Shen Ai-Shen the Weaponsmith');
@@ -5005,8 +5005,8 @@ VALUES (2261, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2250, 'baishiarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2250, 516, 2250, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2250, 516, 2250, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2250, 1, 'Magus Ku Min');
@@ -5094,8 +5094,8 @@ VALUES (2250, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (816, 'yanshihealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (816, 516, 816, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (816, 516, 816, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (816, 1, 'Healer Kai Tonweh');
@@ -5177,8 +5177,8 @@ VALUES (816, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (819, 'yanshiscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (819, 516, 819, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (819, 516, 819, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (819, 1, 'Kai Go-Sou the Scribe');
@@ -5262,8 +5262,8 @@ VALUES (819, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (809, 'yanshiarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (809, 516, 809, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (809, 516, 809, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (809, 1, 'Master Sonji Pan, Archmage');
@@ -5351,8 +5351,8 @@ VALUES (809, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (815, 'yanshigrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (815, 516, 815, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (815, 516, 815, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (815, 1, 'Grocer Nan-Yu-Yenbuto');
@@ -5436,8 +5436,8 @@ VALUES (815, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (820, 'yanshishopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (820, 516, 820, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (820, 516, 820, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (820, 1, 'Shin Ou-Ye the Shopkeep');
@@ -5525,8 +5525,8 @@ VALUES (820, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (817, 'yanshijeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (817, 516, 817, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (817, 516, 817, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (817, 1, 'Jeweler Ryuhan Wu');
@@ -5608,8 +5608,8 @@ VALUES (817, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (821, 'yanshitailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (821, 516, 821, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (821, 516, 821, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (821, 1, 'Zan Wa-Shabu the Tailor');
@@ -5696,8 +5696,8 @@ VALUES (821, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21340, 'plannerweddingyanshidestroyed');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (21340, 516, 21340, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (21340, 516, 21340, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21340, 1, 'Wedding Planner');
@@ -5779,8 +5779,8 @@ VALUES (21340, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (810, 'yanshibarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (810, 516, 810, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (810, 516, 810, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (810, 1, 'Barkeep Bai Yao Feng');
@@ -5868,8 +5868,8 @@ VALUES (810, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (813, 'yanshiblacksmith2');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (813, 516, 813, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (813, 516, 813, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (813, 1, 'Nu Sha the Weaponsmith');
@@ -5955,8 +5955,8 @@ VALUES (813, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (812, 'yanshiblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (812, 516, 812, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (812, 516, 812, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (812, 1, 'Wah Fo-Za the Armorer');
@@ -6038,8 +6038,8 @@ VALUES (812, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (814, 'yanshibowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (814, 516, 814, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (814, 516, 814, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (814, 1, 'Ribusha Sennei the Bowyer');
@@ -6121,8 +6121,8 @@ VALUES (814, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1380, 'bowyersho');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1380, 516, 1380, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1380, 516, 1380, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1380, 1, 'Wandering Bowyer');
@@ -6210,8 +6210,8 @@ VALUES (1380, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33249, 'ace33249-beldinthegemdealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (33249, 516, 33249, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (33249, 516, 33249, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33249, 1, 'Beldin the Gem Dealer');
@@ -6291,8 +6291,8 @@ VALUES (33249, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2295, 'sawatobowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2295, 516, 2295, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2295, 516, 2295, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2295, 1, 'Bukai Fu-ya the Bowyer');
@@ -6376,8 +6376,8 @@ VALUES (2295, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2296, 'sawatogrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2296, 516, 2296, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2296, 516, 2296, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2296, 1, 'Grocer Pon Hau-jo');
@@ -6465,8 +6465,8 @@ VALUES (2296, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2301, 'sawatotailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2301, 516, 2301, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2301, 516, 2301, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2301, 1, 'To-ping Ra the Tailor');
@@ -6554,8 +6554,8 @@ VALUES (2301, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2291, 'sawatobarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2291, 516, 2291, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2291, 516, 2291, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2291, 1, 'Ite Kenzen the Barkeeper');
@@ -6641,8 +6641,8 @@ VALUES (2291, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2294, 'sawatoblacksmith2');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2294, 516, 2294, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2294, 516, 2294, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2294, 1, 'Son Jaiken the Armorer');
@@ -6725,8 +6725,8 @@ VALUES (2294, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2293, 'sawatoblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2293, 516, 2293, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2293, 516, 2293, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2293, 1, 'Tong La-chin the Weaponsmith');
@@ -6808,8 +6808,8 @@ VALUES (2293, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2290, 'sawatoarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2290, 516, 2290, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2290, 516, 2290, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2290, 1, 'Archmage Tawa Matema');
@@ -6895,8 +6895,8 @@ VALUES (2290, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2299, 'sawatoscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2299, 516, 2299, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2299, 516, 2299, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2299, 1, 'Hiruhi Fensen the Scribe');
@@ -6980,8 +6980,8 @@ VALUES (2299, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2297, 'sawatohealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2297, 516, 2297, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2297, 516, 2297, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2297, 1, 'Healer Xidan Fensen');
@@ -7061,8 +7061,8 @@ VALUES (2297, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2300, 'sawatoshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2300, 516, 2300, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2300, 516, 2300, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2300, 1, 'Shopkeep Yunen Ye');
@@ -7148,8 +7148,8 @@ VALUES (2300, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2298, 'sawatojeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2298, 516, 2298, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2298, 516, 2298, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2298, 1, 'Chueh Kaigin the Jeweler');
@@ -7237,8 +7237,8 @@ VALUES (2298, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8494, 'freeholdbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8494, 516, 8494, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8494, 516, 8494, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8494, 1, 'Lin Hanza the Bowyer');
@@ -7327,8 +7327,8 @@ VALUES (8494, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8496, 'freeholdweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8496, 516, 8496, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8496, 516, 8496, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8496, 1, 'Weaponsmith Bornak the Crookblade');
@@ -7412,8 +7412,8 @@ VALUES (8496, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8495, 'freeholdshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8495, 516, 8495, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8495, 516, 8495, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8495, 1, 'Provisioner Warster the Handy');
@@ -7505,8 +7505,8 @@ VALUES (8495, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8493, 'freeholdbarkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8493, 516, 8493, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8493, 516, 8493, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8493, 1, 'Jesren the Jolly Barkeep');
@@ -7595,8 +7595,8 @@ VALUES (8493, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8492, 'freeholdarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8492, 516, 8492, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8492, 516, 8492, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8492, 1, 'Kaza Nijina the Archmage');
@@ -7684,8 +7684,8 @@ VALUES (8492, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8440, 'krystweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8440, 516, 8440, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8440, 516, 8440, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8440, 1, 'Weaponsmith Illic Ibn''Abulfiq');
@@ -7763,8 +7763,8 @@ VALUES (8440, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8432, 'krystarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8432, 516, 8432, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8432, 516, 8432, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8432, 1, 'Vanten the Archmage');
@@ -7845,8 +7845,8 @@ VALUES (8432, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8433, 'krystarmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8433, 516, 8433, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8433, 516, 8433, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8433, 1, 'Armorer Padira Yukinara');
@@ -7928,8 +7928,8 @@ VALUES (8433, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8434, 'krystbarkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8434, 516, 8434, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8434, 516, 8434, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8434, 1, 'Barkeep Brita the Boisterous');
@@ -8013,8 +8013,8 @@ VALUES (8434, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8437, 'krystjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8437, 516, 8437, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8437, 516, 8437, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8437, 1, 'Jeweler Imad Nedjim');
@@ -8103,8 +8103,8 @@ VALUES (8437, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8438, 'krystprovisioner');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8438, 516, 8438, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8438, 516, 8438, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8438, 1, 'Kamira Mohonoko the Provisioner');
@@ -8188,8 +8188,8 @@ VALUES (8438, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8435, 'krystbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8435, 516, 8435, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8435, 516, 8435, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8435, 1, 'Sharon the Skilled, Bowyer');
@@ -8278,8 +8278,8 @@ VALUES (8435, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8436, 'krysthealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8436, 516, 8436, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8436, 516, 8436, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8436, 1, 'Healer Sanami Siohiro');
@@ -8359,8 +8359,8 @@ VALUES (8436, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8439, 'krystscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8439, 516, 8439, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8439, 516, 8439, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8439, 1, 'Natalie the Scribe');
@@ -8442,8 +8442,8 @@ VALUES (8439, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27247, 'karabowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (27247, 516, 27247, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (27247, 516, 27247, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27247, 1, 'Tatuso of Kara');
@@ -8531,8 +8531,8 @@ VALUES (27247, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20224, 'scrivenerwarextreme');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20224, 516, 20224, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20224, 516, 20224, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20224, 1, 'Grand Master Scrivener of War Magic');
@@ -8614,8 +8614,8 @@ VALUES (20224, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2537, 'karaarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2537, 516, 2537, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2537, 516, 2537, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2537, 1, 'Archmage Kiko of Kara ');
@@ -8697,8 +8697,8 @@ VALUES (2537, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20208, 'scrivenercreatureextreme');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20208, 516, 20208, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20208, 516, 20208, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20208, 1, 'Grand Master Scrivener of Creature Magic');
@@ -8780,8 +8780,8 @@ VALUES (20208, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20220, 'scrivenerlifeextreme');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20220, 516, 20220, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20220, 516, 20220, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20220, 1, 'Grand Master Scrivener of Life Magic');
@@ -8863,8 +8863,8 @@ VALUES (20220, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20212, 'scriveneritemextreme');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20212, 516, 20212, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20212, 516, 20212, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20212, 1, 'Grand Master Scrivener of Item Magic');
@@ -8946,8 +8946,8 @@ VALUES (20212, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27246, 'karaarmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (27246, 516, 27246, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (27246, 516, 27246, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27246, 1, 'Kuhira of Kara');
@@ -9028,8 +9028,8 @@ VALUES (27246, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2538, 'karahealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2538, 516, 2538, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2538, 516, 2538, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2538, 1, 'Healer Kana of Kara');
@@ -9111,8 +9111,8 @@ VALUES (2538, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2536, 'karashopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2536, 516, 2536, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2536, 516, 2536, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2536, 1, 'Shopkeep Kuro of Kara ');
@@ -9194,8 +9194,8 @@ VALUES (2536, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2539, 'karafarmer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2539, 516, 2539, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2539, 516, 2539, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2539, 1, 'Koro of Kara, Farmer');
@@ -9281,8 +9281,8 @@ VALUES (2539, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12243, 'furniturevendorsho');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (12243, 516, 12243, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (12243, 516, 12243, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12243, 1, 'Jubei''s Apprentice Craftsman');
@@ -9366,8 +9366,8 @@ VALUES (12243, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (857, 'hebianarchmage2');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (857, 516, 857, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (857, 516, 857, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (857, 1, 'Archmage Anyao Zai');
@@ -9453,8 +9453,8 @@ VALUES (857, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2044, 'hebianlibrarian');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2044, 516, 2044, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2044, 516, 2044, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2044, 1, 'Ran Le the Librarian');
@@ -9536,8 +9536,8 @@ VALUES (2044, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (856, 'hebianarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (856, 516, 856, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (856, 516, 856, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (856, 1, 'Archmage Shikiru Nohon');
@@ -9619,8 +9619,8 @@ VALUES (856, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (868, 'hebianjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (868, 516, 868, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (868, 516, 868, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (868, 1, 'Muozhen Wa the Jeweler');
@@ -9708,8 +9708,8 @@ VALUES (868, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (870, 'hebiantailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (870, 516, 870, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (870, 516, 870, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (870, 1, 'Tailor Chueh Jian');
@@ -9797,8 +9797,8 @@ VALUES (870, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (859, 'hebianbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (859, 516, 859, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (859, 516, 859, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (859, 1, 'Barkeeper Fo Ya-Un');
@@ -9882,8 +9882,8 @@ VALUES (859, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (866, 'hebiangrocer2');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (866, 516, 866, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (866, 516, 866, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (866, 1, 'Kento Do the Grocer');
@@ -9967,8 +9967,8 @@ VALUES (866, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (865, 'hebiangrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (865, 516, 865, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (865, 516, 865, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (865, 1, 'Goro Yu-Ban the Provisioner');
@@ -10050,8 +10050,8 @@ VALUES (865, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (862, 'hebianblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (862, 516, 862, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (862, 516, 862, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (862, 1, 'Lai Konsho the Armorsmith');
@@ -10131,8 +10131,8 @@ VALUES (862, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (869, 'hebianscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (869, 516, 869, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (869, 516, 869, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (869, 1, 'Fenza Tan the Scribe');
@@ -10214,8 +10214,8 @@ VALUES (869, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (871, 'hebianweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (871, 516, 871, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (871, 516, 871, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (871, 1, 'Aldera Brunall Weaponsmith');
@@ -10299,8 +10299,8 @@ VALUES (871, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (860, 'hebianbarkeeper2');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (860, 516, 860, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (860, 516, 860, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (860, 1, 'Barkeeper Chon Nuo');
@@ -10382,8 +10382,8 @@ VALUES (860, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (858, 'hebianarmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (858, 516, 858, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (858, 516, 858, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (858, 1, 'Rayyib al-Afij the Armorer');
@@ -10469,8 +10469,8 @@ VALUES (858, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (867, 'hebianhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (867, 516, 867, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (867, 516, 867, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (867, 1, 'Kouxao Ei the Healer');
@@ -10552,8 +10552,8 @@ VALUES (867, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (864, 'hebianbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (864, 516, 864, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (864, 516, 864, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (864, 1, 'Yatenyu Zhuong the Bowyer');
@@ -10640,8 +10640,8 @@ VALUES (864, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20217, 'scrivenerlife1starter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20217, 516, 20217, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20217, 516, 20217, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20217, 1, 'Apprentice Scrivener of Life Magic');
@@ -10723,8 +10723,8 @@ VALUES (20217, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20218, 'scrivenerlife2starter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20218, 516, 20218, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20218, 516, 20218, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20218, 1, 'Apprentice Scrivener of Life Magic');
@@ -10806,8 +10806,8 @@ VALUES (20218, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20215, 'scriveneritemwar1starter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20215, 516, 20215, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20215, 516, 20215, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20215, 1, 'Apprentice Scrivener of Item and War Magic');
@@ -10889,8 +10889,8 @@ VALUES (20215, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20216, 'scriveneritemwar2starter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20216, 516, 20216, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20216, 516, 20216, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20216, 1, 'Apprentice Scrivener of Item and War Magic');
@@ -10972,8 +10972,8 @@ VALUES (20216, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20206, 'scrivenercreature2starter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20206, 516, 20206, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20206, 516, 20206, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20206, 1, 'Apprentice Scrivener of Creature Magic');
@@ -11055,8 +11055,8 @@ VALUES (20206, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20205, 'scrivenercreature1starter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20205, 516, 20205, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20205, 516, 20205, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20205, 1, 'Apprentice Scrivener of Creature Magic');
@@ -11138,8 +11138,8 @@ VALUES (20205, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9617, 'bestowervendorsho');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9617, 516, 9617, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9617, 516, 9617, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9617, 1, 'Naba Ko-Zin');
@@ -11227,8 +11227,8 @@ VALUES (9617, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4543, 'linhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4543, 516, 4543, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4543, 516, 4543, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4543, 1, 'Healer Kai Kou');
@@ -11310,8 +11310,8 @@ VALUES (4543, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4539, 'linarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4539, 516, 4539, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4539, 516, 4539, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4539, 1, 'Archmage Ta Ban-Yu');
@@ -11399,8 +11399,8 @@ VALUES (4539, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4542, 'linbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4542, 516, 4542, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4542, 516, 4542, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4542, 1, 'Ri-Gau Ro the Bowyer');
@@ -11486,8 +11486,8 @@ VALUES (4542, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4545, 'linscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4545, 516, 4545, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4545, 516, 4545, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4545, 1, 'Tekai Shou the Scribe');
@@ -11569,8 +11569,8 @@ VALUES (4545, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4544, 'linjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4544, 516, 4544, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4544, 516, 4544, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4544, 1, 'Lo Ma the Jeweler');
@@ -11658,8 +11658,8 @@ VALUES (4544, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4540, 'linarmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4540, 516, 4540, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4540, 516, 4540, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4540, 1, 'Bu-Chi Long the Armorer');
@@ -11739,8 +11739,8 @@ VALUES (4540, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4546, 'linweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4546, 516, 4546, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4546, 516, 4546, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4546, 1, 'To Za-I the Weaponsmith');
@@ -11824,8 +11824,8 @@ VALUES (4546, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4541, 'linbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4541, 516, 4541, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4541, 516, 4541, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4541, 1, 'Vuo Nin the Barkeep');
@@ -11909,8 +11909,8 @@ VALUES (4541, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (795, 'mayoiarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (795, 516, 795, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (795, 516, 795, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (795, 1, 'Archmage Yuzai Zhen');
@@ -11992,8 +11992,8 @@ VALUES (795, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (801, 'mayoijeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (801, 516, 801, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (801, 516, 801, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (801, 1, 'Jeweler Liman Pon');
@@ -12081,8 +12081,8 @@ VALUES (801, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (802, 'mayoiweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (802, 516, 802, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (802, 516, 802, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (802, 1, 'Xi Hau-Lai the Weaponsmith');
@@ -12162,8 +12162,8 @@ VALUES (802, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1146, 'mayoiarmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1146, 516, 1146, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1146, 516, 1146, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1146, 1, 'Fen Hau-Lai the Armorer');
@@ -12243,8 +12243,8 @@ VALUES (1146, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (798, 'mayoibowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (798, 516, 798, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (798, 516, 798, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (798, 1, 'Shui Tentou the Bowyer');
@@ -12328,8 +12328,8 @@ VALUES (798, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (799, 'mayoigrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (799, 516, 799, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (799, 516, 799, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (799, 1, 'Grocer Riku Ryu');
@@ -12409,8 +12409,8 @@ VALUES (799, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1145, 'mayoitailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1145, 516, 1145, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1145, 516, 1145, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1145, 1, 'Tailor Ka Shen-Ku');
@@ -12496,8 +12496,8 @@ VALUES (1145, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (796, 'mayoibarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (796, 516, 796, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (796, 516, 796, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (796, 1, 'Te Kenten the Barkeep');
@@ -12581,8 +12581,8 @@ VALUES (796, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (800, 'mayoihealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (800, 516, 800, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (800, 516, 800, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (800, 1, 'Healer Tonsho Ha');
@@ -12664,8 +12664,8 @@ VALUES (800, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9422, 'nantolugiangemseller');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9422, 516, 9422, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9422, 516, 9422, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9422, 1, 'Oneros the Gem Seller');
@@ -12722,8 +12722,8 @@ VALUES (9422, 0, 16785699)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (843, 'shoushitailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (843, 516, 843, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (843, 516, 843, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (843, 1, 'Tailor Ma Shih');
@@ -12813,8 +12813,8 @@ VALUES (843, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (835, 'shoushiblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (835, 516, 835, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (835, 516, 835, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (835, 1, 'Ven Ounan the Blacksmith');
@@ -12894,8 +12894,8 @@ VALUES (835, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (839, 'shoushijeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (839, 516, 839, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (839, 516, 839, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (839, 1, 'Ai Konaji the Jeweler');
@@ -12981,8 +12981,8 @@ VALUES (839, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (840, 'shoushiscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (840, 516, 840, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (840, 516, 840, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (840, 1, 'Brother Gonun the Scribe');
@@ -13068,8 +13068,8 @@ VALUES (840, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (838, 'shoushihealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (838, 516, 838, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (838, 516, 838, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (838, 1, 'Yaohan Tong the Healer');
@@ -13151,8 +13151,8 @@ VALUES (838, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (836, 'shoushibowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (836, 516, 836, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (836, 516, 836, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (836, 1, 'Zhofon No the Bowyer');
@@ -13236,8 +13236,8 @@ VALUES (836, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (831, 'shoushiarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (831, 516, 831, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (831, 516, 831, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (831, 1, 'Archmage Chen Wah-Ji');
@@ -13327,8 +13327,8 @@ VALUES (831, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49520, 'ace49520-sacmisi');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (49520, 516, 49520, 8388662, 'AAA9AAAAAAA=', 104579);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (49520, 516, 49520, 8388662, NULL, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49520, 1, 'Sacmisi');
@@ -13422,8 +13422,8 @@ VALUES (49520, 0, 16783897)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44187, 'ace44187-contractbroker');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (44187, 516, 44187, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (44187, 516, 44187, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44187, 1, 'Contract Broker');
@@ -13509,8 +13509,8 @@ VALUES (44187, 9, 16795213)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (832, 'shoushibarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (832, 516, 832, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (832, 516, 832, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (832, 1, 'Nin Hong the Barkeeper');
@@ -13598,8 +13598,8 @@ VALUES (832, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (837, 'shoushigrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (837, 516, 837, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (837, 516, 837, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (837, 1, 'Hau Ji Tan the Grocer');
@@ -13684,8 +13684,8 @@ VALUES (837, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (842, 'shoushishopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (842, 516, 842, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (842, 516, 842, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (842, 1, 'Shopkeeper Gonjoku Ryumi');
@@ -13767,8 +13767,8 @@ VALUES (842, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42430, 'ace42430-qing');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42430, 516, 42430, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42430, 516, 42430, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42430, 1, 'Qing');
@@ -13849,8 +13849,8 @@ VALUES (42430, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (834, 'shoushibarkeeper3');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (834, 516, 834, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (834, 516, 834, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (834, 1, 'Jaikite Sanzen the Barkeeper');
@@ -13934,8 +13934,8 @@ VALUES (834, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43354, 'ace43354-scrivenerofvoidmagic');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (43354, 516, 43354, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (43354, 516, 43354, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43354, 1, 'Scrivener of Void Magic');
@@ -14009,8 +14009,8 @@ VALUES (43354, 1, 16777708)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12308, 'gamblerpawnshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (12308, 516, 12308, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (12308, 516, 12308, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12308, 1, 'Pawn Shopkeep');
@@ -14096,8 +14096,8 @@ VALUES (12308, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9506, 'gamblercashiersho');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9506, 516, 9506, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9506, 516, 9506, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9506, 1, 'Haya Su Ka');
@@ -14185,8 +14185,8 @@ VALUES (9506, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4559, 'shoushisoutheastoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4559, 516, 4559, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4559, 516, 4559, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4559, 1, 'Oi Ra the Shopkeeper');
@@ -14272,8 +14272,8 @@ VALUES (4559, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (692, 'arwicarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (692, 516, 692, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (692, 516, 692, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (692, 1, 'Magus Guthima the Wise');
@@ -14357,8 +14357,8 @@ VALUES (692, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (403, 'arwicbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (403, 516, 403, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (403, 516, 403, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (403, 1, 'Harald the Fletcher');
@@ -14440,8 +14440,8 @@ VALUES (403, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (694, 'arwicbarkeeper2');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (694, 516, 694, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (694, 516, 694, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (694, 1, 'Barkeep Lienne');
@@ -14524,8 +14524,8 @@ VALUES (694, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (693, 'arwicbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (693, 516, 693, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (693, 516, 693, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (693, 1, 'Barkeep Mae Lilidag');
@@ -14609,8 +14609,8 @@ VALUES (693, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (698, 'arwicjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (698, 516, 698, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (698, 516, 698, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (698, 1, 'Belthew Shearstone the Jeweler');
@@ -14694,8 +14694,8 @@ VALUES (698, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (400, 'arwicblacksmith2');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (400, 516, 400, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (400, 516, 400, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (400, 1, 'Carsith the Weaponsmith');
@@ -14774,8 +14774,8 @@ VALUES (400, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (695, 'arwicblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (695, 516, 695, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (695, 516, 695, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (695, 1, 'Cateril Carsmad the Armorer');
@@ -14856,8 +14856,8 @@ VALUES (695, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (697, 'arwichealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (697, 516, 697, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (697, 516, 697, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (697, 1, 'Healer Dragando the Leech');
@@ -14941,8 +14941,8 @@ VALUES (697, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (696, 'arwicgrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (696, 516, 696, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (696, 516, 696, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (696, 1, 'Grocer Rodega Tyning');
@@ -15030,8 +15030,8 @@ VALUES (696, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (703, 'arwictailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (703, 516, 703, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (703, 516, 703, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (703, 1, 'Davis the Tailor');
@@ -15118,8 +15118,8 @@ VALUES (703, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (702, 'arwicshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (702, 516, 702, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (702, 516, 702, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (702, 1, 'Shopkeep Mirinda');
@@ -15203,8 +15203,8 @@ VALUES (702, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45501, 'ace45501-weaponimbuevendor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (45501, 516, 45501, 8388662, 'AAA9AEAAAAAAAIC/', 104579);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (45501, 516, 45501, 8388662, NULL, 'AAA9AEAAAAAAAIC/', 104579);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45501, 1, 'Weapon Imbue Vendor');
@@ -15280,8 +15280,8 @@ VALUES (45501, 0, 16788885)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45489, 'ace45489-freeweaponvendor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (45489, 516, 45489, 8388662, 'AAA9AAAAAAA=', 104579);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (45489, 516, 45489, 8388662, NULL, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45489, 1, 'Free Weapon Vendor');
@@ -15357,8 +15357,8 @@ VALUES (45489, 0, 16788885)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45485, 'ace45485-meleerarevendor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (45485, 516, 45485, 8388662, 'AAA9AAAAAAA=', 104579);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (45485, 516, 45485, 8388662, NULL, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45485, 1, 'Melee Rare Vendor');
@@ -15434,8 +15434,8 @@ VALUES (45485, 0, 16788885)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35811, 'ace35811-peviloibndjimin');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (35811, 516, 35811, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (35811, 516, 35811, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35811, 1, 'Pevilo ibn Djimin');
@@ -15521,8 +15521,8 @@ VALUES (35811, 3, 16777292)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46425, 'ace46425-marid');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (46425, 516, 46425, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (46425, 516, 46425, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46425, 1, 'Marid');
@@ -15618,8 +15618,8 @@ VALUES (46425, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40521, 'ace40521-barkeepaliecelandlig');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40521, 516, 40521, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40521, 516, 40521, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40521, 1, 'Barkeep Aliece Landlig');
@@ -15703,8 +15703,8 @@ VALUES (40521, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9679, 'danbyweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9679, 516, 9679, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9679, 516, 9679, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9679, 1, 'Weaponsmith Hideo Sasaki');
@@ -15790,8 +15790,8 @@ VALUES (9679, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27555, 'danbyhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (27555, 516, 27555, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (27555, 516, 27555, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27555, 1, 'Pricilla the Healer');
@@ -15877,8 +15877,8 @@ VALUES (27555, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9677, 'danbybowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9677, 516, 9677, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9677, 516, 9677, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9677, 1, 'Greta Danby the Bowyer');
@@ -15964,8 +15964,8 @@ VALUES (9677, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9678, 'danbyarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9678, 516, 9678, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9678, 516, 9678, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9678, 1, 'Abia bint Huda the Archmage');
@@ -16053,8 +16053,8 @@ VALUES (9678, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30072, 'silyunhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30072, 516, 30072, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30072, 516, 30072, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30072, 1, 'Benedetta du Lucrezza the Healer');
@@ -16125,8 +16125,8 @@ VALUES (30072, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30067, 'silyunscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30067, 516, 30067, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30067, 516, 30067, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30067, 1, 'Scribe Copiara Parolinnis');
@@ -16210,8 +16210,8 @@ VALUES (30067, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30071, 'silyunarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30071, 516, 30071, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30071, 516, 30071, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30071, 1, 'Archmage Pazzescorios di Frodenci');
@@ -16282,8 +16282,8 @@ VALUES (30071, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30068, 'silyunjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30068, 516, 30068, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30068, 516, 30068, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30068, 1, 'Aldonti di Soludatis the Jeweler');
@@ -16366,8 +16366,8 @@ VALUES (30068, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30069, 'silyuntailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30069, 516, 30069, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30069, 516, 30069, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30069, 1, 'Agonno Filleteppe the Tailor');
@@ -16447,8 +16447,8 @@ VALUES (30069, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31295, 'ace31295-barkeepermalliaquios');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (31295, 516, 31295, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (31295, 516, 31295, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31295, 1, 'Barkeeper Mallia Quios');
@@ -16528,8 +16528,8 @@ VALUES (31295, 0, 16783897)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30070, 'silyunshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30070, 516, 30070, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30070, 516, 30070, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30070, 1, 'Calvinne Sporgenzenni the Shopkeeper');
@@ -16608,8 +16608,8 @@ VALUES (30070, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30066, 'silyunfletcher');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30066, 516, 30066, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30066, 516, 30066, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30066, 1, 'Bowyer Cecili Blocconda');
@@ -16694,8 +16694,8 @@ VALUES (30066, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30065, 'silyunweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30065, 516, 30065, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30065, 516, 30065, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30065, 1, 'Aidanan Ignarias the Blacksmith');
@@ -16781,8 +16781,8 @@ VALUES (30065, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5435, 'stoneholdarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5435, 516, 5435, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5435, 516, 5435, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5435, 1, 'Archmage Ta Ri ');
@@ -16862,8 +16862,8 @@ VALUES (5435, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2533, 'stoneholdbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2533, 516, 2533, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2533, 516, 2533, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2533, 1, 'Gerhi, Bowyer of Stonehold ');
@@ -16944,8 +16944,8 @@ VALUES (2533, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2535, 'stoneholdhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2535, 516, 2535, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2535, 516, 2535, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2535, 1, 'Healer of Stonehold');
@@ -17030,8 +17030,8 @@ VALUES (2535, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1381, 'farmeraluvian');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1381, 516, 1381, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1381, 516, 1381, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1381, 1, 'Farmer');
@@ -17117,8 +17117,8 @@ VALUES (1381, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2534, 'stoneholdshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2534, 516, 2534, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2534, 516, 2534, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2534, 1, 'Vivaina, Shopkeep of Stonehold ');
@@ -17202,8 +17202,8 @@ VALUES (2534, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27248, 'stoneholdfarmer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (27248, 516, 27248, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (27248, 516, 27248, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27248, 1, 'Corin of Stonehold');
@@ -17289,8 +17289,8 @@ VALUES (27248, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24597, 'candethkeepweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (24597, 516, 24597, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (24597, 516, 24597, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24597, 1, 'Ry''zir al-Nabit');
@@ -17374,8 +17374,8 @@ VALUES (24597, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24589, 'candethkeeparmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (24589, 516, 24589, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (24589, 516, 24589, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24589, 1, 'Rkos the Armorer');
@@ -17434,8 +17434,8 @@ VALUES (24589, 0, 16785699)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24590, 'candethkeepbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (24590, 516, 24590, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (24590, 516, 24590, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24590, 1, 'Odvik the Inn Keeper');
@@ -17493,8 +17493,8 @@ VALUES (24590, 0, 16785699)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24595, 'candethkeeptreetradesman');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (24595, 516, 24595, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (24595, 516, 24595, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24595, 1, 'Thimrin Woodsetter');
@@ -17585,8 +17585,8 @@ VALUES (24595, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24594, 'candethkeeptreearchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (24594, 516, 24594, 8388662, 'AAA9AAAAAAA=', 100547);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (24594, 516, 24594, 8388662, NULL, 'AAA9AAAAAAA=', 100547);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24594, 1, 'Aun Amanaualuan the Elder Shaman');
@@ -17624,8 +17624,8 @@ VALUES (24594, 67113367, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24596, 'candethkeeptreewarrior');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (24596, 516, 24596, 8388662, 'AAA9AAAAAAA=', 100547);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (24596, 516, 24596, 8388662, NULL, 'AAA9AAAAAAA=', 100547);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24596, 1, 'Tunlok Weapons Master');
@@ -17686,8 +17686,8 @@ VALUES (24596, 0, 16785699)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24593, 'candethkeephealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (24593, 516, 24593, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (24593, 516, 24593, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24593, 1, 'Aun Oreilauri the Healer');
@@ -17725,8 +17725,8 @@ VALUES (24593, 67113367, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24591, 'candethkeepbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (24591, 516, 24591, 8388662, 'AAA9AAAAAAA=', 100547);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (24591, 516, 24591, 8388662, NULL, 'AAA9AAAAAAA=', 100547);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24591, 1, 'Aun Gunditealuan the Marksman');
@@ -17764,8 +17764,8 @@ VALUES (24591, 67113366, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24592, 'candethkeepgrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (24592, 516, 24592, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (24592, 516, 24592, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24592, 1, 'Tyokai Renjiro the Grocer');
@@ -17849,8 +17849,8 @@ VALUES (24592, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42220, 'ace42220-masterenchanter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42220, 516, 42220, 8388662, 'AAA9AEAAAAAAAIC/', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42220, 516, 42220, 8388662, NULL, 'AAA9AEAAAAAAAIC/', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42220, 1, 'Master Enchanter');
@@ -17930,8 +17930,8 @@ VALUES (42220, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1354, 'syliphtowerblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1354, 516, 1354, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1354, 516, 1354, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1354, 1, 'Gemm the Smith');
@@ -18017,8 +18017,8 @@ VALUES (1354, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27554, 'craterlakehealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (27554, 516, 27554, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (27554, 516, 27554, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27554, 1, 'Caleb Jinor the Healer');
@@ -18102,8 +18102,8 @@ VALUES (27554, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2497, 'craterlakejeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2497, 516, 2497, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2497, 516, 2497, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2497, 1, 'Weldub Finol the Jeweler');
@@ -18187,8 +18187,8 @@ VALUES (2497, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2499, 'craterlakeweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2499, 516, 2499, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2499, 516, 2499, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2499, 1, 'Geldeb Finol the Weaponsmith');
@@ -18270,8 +18270,8 @@ VALUES (2499, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2498, 'craterlakearchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2498, 516, 2498, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2498, 516, 2498, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2498, 1, 'Silencia the Archmage');
@@ -18351,8 +18351,8 @@ VALUES (2498, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24588, 'candethkeeparchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (24588, 516, 24588, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (24588, 516, 24588, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24588, 1, 'Gilly');
@@ -18433,8 +18433,8 @@ VALUES (24588, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1393, 'weaponsmithaluvian');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1393, 516, 1393, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1393, 516, 1393, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1393, 1, 'Weaponsmith');
@@ -18520,8 +18520,8 @@ VALUES (1393, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1390, 'peddleraluvian');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1390, 516, 1390, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1390, 516, 1390, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1390, 1, 'Peddler');
@@ -18609,8 +18609,8 @@ VALUES (1390, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1369, 'archmagealuvian');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1369, 516, 1369, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1369, 516, 1369, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1369, 1, 'Archmage');
@@ -18690,8 +18690,8 @@ VALUES (1369, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1384, 'healeraluvian');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1384, 516, 1384, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1384, 516, 1384, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1384, 1, 'Healer');
@@ -18775,8 +18775,8 @@ VALUES (1384, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30036, 'sanamargrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30036, 516, 30036, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30036, 516, 30036, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30036, 1, 'Grocer Jaffres Dini');
@@ -18864,8 +18864,8 @@ VALUES (30036, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30037, 'sanamarshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30037, 516, 30037, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30037, 516, 30037, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30037, 1, 'Shopkeeper Tod Burgni');
@@ -18953,8 +18953,8 @@ VALUES (30037, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30033, 'sanamarjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30033, 516, 30033, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30033, 516, 30033, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30033, 1, 'Jeweler Susana Arlean');
@@ -19036,8 +19036,8 @@ VALUES (30033, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42431, 'ace42431-ciriaco');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42431, 516, 42431, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42431, 516, 42431, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42431, 1, 'Ciriaco');
@@ -19118,8 +19118,8 @@ VALUES (42431, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30010, 'viascriveneritemwar2starter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30010, 516, 30010, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30010, 516, 30010, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30010, 1, 'Apprentice Scrivener of Item and War Magic');
@@ -19152,8 +19152,8 @@ VALUES (30010, 12, True)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30034, 'sanamartailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30034, 516, 30034, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30034, 516, 30034, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30034, 1, 'Tailor Monique du Bressa');
@@ -19239,8 +19239,8 @@ VALUES (30034, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30009, 'viascriveneritemwar1starter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30009, 516, 30009, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30009, 516, 30009, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30009, 1, 'Apprentice Scrivener of Item and War Magic');
@@ -19330,8 +19330,8 @@ VALUES (30009, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30012, 'viascrivenerlife2starter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30012, 516, 30012, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30012, 516, 30012, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30012, 1, 'Apprentice Scrivener of Life Magic');
@@ -19365,8 +19365,8 @@ VALUES (30012, 12, True)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30035, 'sanamarbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30035, 516, 30035, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30035, 516, 30035, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30035, 1, 'Barkeeper Jean Vaden');
@@ -19449,8 +19449,8 @@ VALUES (30035, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30011, 'viascrivenerlife1starter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30011, 516, 30011, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30011, 516, 30011, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30011, 1, 'Apprentice Scrivener of Life Magic');
@@ -19521,8 +19521,8 @@ VALUES (30011, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30021, 'viascrivenercreature1starter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30021, 516, 30021, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30021, 516, 30021, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30021, 1, 'Apprentice Scrivener of Creature Magic');
@@ -19593,8 +19593,8 @@ VALUES (30021, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30019, 'viascrivenerwarinner');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30019, 516, 30019, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30019, 516, 30019, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30019, 1, 'Journeyman Scrivener of War Magic');
@@ -19665,8 +19665,8 @@ VALUES (30019, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30025, 'viascrivenercreatureinner');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30025, 516, 30025, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30025, 516, 30025, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30025, 1, 'Journeyman Scrivener of Creature Magic');
@@ -19700,8 +19700,8 @@ VALUES (30025, 12, True)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30029, 'viascriveneriteminner');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30029, 516, 30029, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30029, 516, 30029, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30029, 1, 'Journeyman Scrivener of Item Magic');
@@ -19787,8 +19787,8 @@ VALUES (30029, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30015, 'viascrivenerlifeinner');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30015, 516, 30015, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30015, 516, 30015, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30015, 1, 'Journeyman Scrivener of Life Magic');
@@ -19859,8 +19859,8 @@ VALUES (30015, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30039, 'sanamarhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30039, 516, 30039, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30039, 516, 30039, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30039, 1, 'Healer Deme du Laur');
@@ -19931,8 +19931,8 @@ VALUES (30039, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30032, 'sanamarscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30032, 516, 30032, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30032, 516, 30032, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30032, 1, 'Scribe Benno di Hergeaux');
@@ -20005,8 +20005,8 @@ VALUES (30032, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49519, 'ace49519-keminub');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (49519, 516, 49519, 8388662, 'AAA9AAAAAAA=', 104579);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (49519, 516, 49519, 8388662, NULL, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49519, 1, 'Keminub');
@@ -20100,8 +20100,8 @@ VALUES (49519, 0, 16783897)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30038, 'sanamararchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30038, 516, 30038, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30038, 516, 30038, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30038, 1, 'Archmage Luchessa du Lamiere');
@@ -20173,8 +20173,8 @@ VALUES (30038, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30031, 'sanamarfletcher');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30031, 516, 30031, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30031, 516, 30031, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30031, 1, 'Fletcher Mikael di Suinn');
@@ -20260,8 +20260,8 @@ VALUES (30031, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44188, 'ace44188-contractbroker');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (44188, 516, 44188, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (44188, 516, 44188, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44188, 1, 'Contract Broker');
@@ -20347,8 +20347,8 @@ VALUES (44188, 9, 16795213)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30040, 'sanamarweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30040, 516, 30040, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30040, 516, 30040, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30040, 1, 'Blacksmith Karlus Loc');
@@ -20430,8 +20430,8 @@ VALUES (30040, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30022, 'viascrivenercreature2starter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30022, 516, 30022, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30022, 516, 30022, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30022, 1, 'Apprentice Scrivener of Creature Magic');
@@ -20502,8 +20502,8 @@ VALUES (30022, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30020, 'viascrivenerwarouter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30020, 516, 30020, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30020, 516, 30020, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30020, 1, 'Scrivener of War Magic');
@@ -20537,8 +20537,8 @@ VALUES (30020, 12, True)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30016, 'viascrivenerlifeouter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30016, 516, 30016, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30016, 516, 30016, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30016, 1, 'Scrivener of Life Magic');
@@ -20609,8 +20609,8 @@ VALUES (30016, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30030, 'viascriveneritemouter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30030, 516, 30030, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30030, 516, 30030, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30030, 1, 'Scrivener of Item Magic');
@@ -20681,8 +20681,8 @@ VALUES (30030, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30026, 'viascrivenercreatureouter');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30026, 516, 30026, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30026, 516, 30026, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30026, 1, 'Scrivener of Creature Magic');
@@ -20716,8 +20716,8 @@ VALUES (30026, 12, True)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11395, 'redspirebarkeep-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11395, 516, 11395, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11395, 516, 11395, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11395, 1, 'Micon Stuvis the Barkeep');
@@ -20801,8 +20801,8 @@ VALUES (11395, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11396, 'redspirejeweler-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11396, 516, 11396, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11396, 516, 11396, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11396, 1, 'Lam Yi the Jeweler');
@@ -20890,8 +20890,8 @@ VALUES (11396, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11399, 'redspiretailor-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11399, 516, 11399, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11399, 516, 11399, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11399, 1, 'Leyrale Shalorn the Tailor');
@@ -20980,8 +20980,8 @@ VALUES (11399, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11394, 'redspirearmorer-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11394, 516, 11394, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11394, 516, 11394, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11394, 1, 'Ton Ai Yen the Armorer');
@@ -21065,8 +21065,8 @@ VALUES (11394, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11397, 'redspiremage-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11397, 516, 11397, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11397, 516, 11397, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11397, 1, 'Milanna Russmad the Mage');
@@ -21146,8 +21146,8 @@ VALUES (11397, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31955, 'ace31955-janusromatheshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (31955, 516, 31955, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (31955, 516, 31955, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31955, 1, 'Janus Roma the Shopkeep');
@@ -21230,8 +21230,8 @@ VALUES (31955, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11384, 'bluespirebarkeep-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11384, 516, 11384, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11384, 516, 11384, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11384, 1, 'Lark Grifanna the Barkeep');
@@ -21315,8 +21315,8 @@ VALUES (11384, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11387, 'bluespiremage-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11387, 516, 11387, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11387, 516, 11387, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11387, 1, 'Wahnaqa bint Fayat the Mage');
@@ -21404,8 +21404,8 @@ VALUES (11387, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11385, 'bluespiregrocer-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11385, 516, 11385, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11385, 516, 11385, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11385, 1, 'Yusnar ibn Lomaq the Grocer');
@@ -21487,8 +21487,8 @@ VALUES (11385, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11382, 'bluespirearmorer2-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11382, 516, 11382, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11382, 516, 11382, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11382, 1, 'Dorlan the Armorer');
@@ -21572,8 +21572,8 @@ VALUES (11382, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31956, 'ace31956-lucarusmallonithearmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (31956, 516, 31956, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (31956, 516, 31956, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31956, 1, 'Lucarus Malloni the Armorer');
@@ -21655,8 +21655,8 @@ VALUES (31956, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11388, 'bluespirescribeprovisionerhealer-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11388, 516, 11388, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11388, 516, 11388, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11388, 1, 'Brother Ku-Xao Sutan the Monk');
@@ -21738,8 +21738,8 @@ VALUES (11388, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11386, 'bluespirejeweler-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11386, 516, 11386, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11386, 516, 11386, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11386, 1, 'Nathious Agoren the Jeweler');
@@ -21827,8 +21827,8 @@ VALUES (11386, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30053, 'viaarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30053, 516, 30053, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30053, 516, 30053, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30053, 1, 'Archmage');
@@ -21910,8 +21910,8 @@ VALUES (30053, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30054, 'viahealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30054, 516, 30054, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30054, 516, 30054, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30054, 1, 'Healer');
@@ -21994,8 +21994,8 @@ VALUES (30054, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30051, 'viashopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30051, 516, 30051, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30051, 516, 30051, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30051, 1, 'Shopkeeper');
@@ -22075,8 +22075,8 @@ VALUES (30051, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30023, 'viascrivenercreaturedistant');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30023, 516, 30023, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30023, 516, 30023, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30023, 1, 'Master Scrivener of Creature Magic');
@@ -22147,8 +22147,8 @@ VALUES (30023, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30013, 'viascrivenerlifedistant');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30013, 516, 30013, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30013, 516, 30013, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30013, 1, 'Master Scrivener of Life Magic');
@@ -22219,8 +22219,8 @@ VALUES (30013, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30017, 'viascrivenerwardistant');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30017, 516, 30017, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30017, 516, 30017, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30017, 1, 'Master Scrivener of War Magic');
@@ -22291,8 +22291,8 @@ VALUES (30017, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30027, 'viascriveneritemdistant');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30027, 516, 30027, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30027, 516, 30027, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30027, 1, 'Master Scrivener of Item Magic');
@@ -22363,8 +22363,8 @@ VALUES (30027, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30052, 'viaweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30052, 516, 30052, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30052, 516, 30052, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30052, 1, 'Blacksmith');
@@ -22441,8 +22441,8 @@ VALUES (30052, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9417, 'linvaktukalhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9417, 516, 9417, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9417, 516, 9417, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9417, 1, 'Myrlat the Physician');
@@ -22501,8 +22501,8 @@ VALUES (9417, 0, 16785699)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9415, 'linvaktukalblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9415, 516, 9415, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9415, 516, 9415, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9415, 1, 'Krage the Blacksmith');
@@ -22561,8 +22561,8 @@ VALUES (9415, 0, 16785699)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9414, 'linvaktukalarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9414, 516, 9414, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9414, 516, 9414, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9414, 1, 'Kifandal the Imbuer');
@@ -22621,8 +22621,8 @@ VALUES (9414, 0, 16785699)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9418, 'linvaktukalshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9418, 516, 9418, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9418, 516, 9418, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9418, 1, 'Lubrik the Resupplier');
@@ -22681,8 +22681,8 @@ VALUES (9418, 0, 16785699)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9416, 'linvaktukalbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9416, 516, 9416, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9416, 516, 9416, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9416, 1, 'Omerik the Bowyer');
@@ -22741,8 +22741,8 @@ VALUES (9416, 0, 16785699)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30028, 'viascriveneritemextreme');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30028, 516, 30028, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30028, 516, 30028, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30028, 1, 'Grand Master Scrivener of Item Magic');
@@ -22813,8 +22813,8 @@ VALUES (30028, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30024, 'viascrivenercreatureextreme');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30024, 516, 30024, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30024, 516, 30024, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30024, 1, 'Grand Master Scrivener of Creature Magic');
@@ -22885,8 +22885,8 @@ VALUES (30024, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30018, 'viascrivenerwarextreme');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30018, 516, 30018, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30018, 516, 30018, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30018, 1, 'Grand Master Scrivener of War Magic');
@@ -22957,8 +22957,8 @@ VALUES (30018, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30014, 'viascrivenerlifeextreme');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30014, 516, 30014, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30014, 516, 30014, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30014, 1, 'Grand Master Scrivener of Life Magic');
@@ -23029,8 +23029,8 @@ VALUES (30014, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22723, 'oolutangabowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22723, 516, 22723, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (22723, 516, 22723, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22723, 1, 'Bowyer');
@@ -23100,8 +23100,8 @@ VALUES (22723, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22722, 'oolutangablacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22722, 516, 22722, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (22722, 516, 22722, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22722, 1, 'Blacksmith');
@@ -23171,8 +23171,8 @@ VALUES (22722, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22721, 'oolutangaarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22721, 516, 22721, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (22721, 516, 22721, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22721, 1, 'Mage');
@@ -23242,8 +23242,8 @@ VALUES (22721, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22724, 'oolutangagrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22724, 516, 22724, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (22724, 516, 22724, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22724, 1, 'Grocer');
@@ -23313,8 +23313,8 @@ VALUES (22724, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22726, 'oolutangajeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22726, 516, 22726, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (22726, 516, 22726, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22726, 1, 'Jeweler');
@@ -23384,8 +23384,8 @@ VALUES (22726, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22725, 'oolutangahealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22725, 516, 22725, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (22725, 516, 22725, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22725, 1, 'Healer');
@@ -23455,8 +23455,8 @@ VALUES (22725, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22720, 'ketnan-tuskerisland');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22720, 516, 22720, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (22720, 516, 22720, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22720, 1, 'Ketnan');
@@ -23544,8 +23544,8 @@ VALUES (22720, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11400, 'timaruarchmage-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11400, 516, 11400, 8388662, 'AAA9AAAAAAA=', 100547);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11400, 516, 11400, 8388662, NULL, 'AAA9AAAAAAA=', 100547);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11400, 1, 'Aun Dreganaua the Elder Shaman');
@@ -23583,8 +23583,8 @@ VALUES (11400, 67113367, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11407, 'timarushopkeep-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11407, 516, 11407, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11407, 516, 11407, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11407, 1, 'Aun Mireona the Shopkeep');
@@ -23622,8 +23622,8 @@ VALUES (11407, 67113368, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11405, 'timarujeweler-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11405, 516, 11405, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11405, 516, 11405, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11405, 1, 'Aun Ngaiona the Jeweler');
@@ -23661,8 +23661,8 @@ VALUES (11405, 67113368, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11404, 'timaruhealer-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11404, 516, 11404, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11404, 516, 11404, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11404, 1, 'Aun Taguauri the Healer');
@@ -23700,8 +23700,8 @@ VALUES (11404, 67113367, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11402, 'timarubarkeep-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11402, 516, 11402, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11402, 516, 11402, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11402, 1, 'Aun Laranawa the Barkeep');
@@ -23739,8 +23739,8 @@ VALUES (11402, 67113369, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11403, 'timarubowyer-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11403, 516, 11403, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11403, 516, 11403, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11403, 1, 'Aun Paikitea the Bowyer');
@@ -23778,8 +23778,8 @@ VALUES (11403, 67113366, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11401, 'timaruarmorer-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11401, 516, 11401, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11401, 516, 11401, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11401, 1, 'Aun Maanuawa the Armorer');
@@ -23817,8 +23817,8 @@ VALUES (11401, 67113369, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30049, 'fiunarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30049, 516, 30049, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30049, 516, 30049, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30049, 1, 'Fiun Archmage');
@@ -23893,8 +23893,8 @@ VALUES (30049, 0, 16791126)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30050, 'fiunshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30050, 516, 30050, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30050, 516, 30050, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30050, 1, 'Fiun Shopkeeper');
@@ -23931,8 +23931,8 @@ VALUES (30050, 67116344, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30048, 'fiunweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30048, 516, 30048, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30048, 516, 30048, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30048, 1, 'Fiun Blacksmith');
@@ -23969,8 +23969,8 @@ VALUES (30048, 67115466, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30047, 'fiunhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30047, 516, 30047, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30047, 516, 30047, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30047, 1, 'Fiun Healer');
@@ -24007,8 +24007,8 @@ VALUES (30047, 67116347, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5647, 'neydisacastlehealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5647, 516, 5647, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5647, 516, 5647, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5647, 1, 'Brother Jarviso');
@@ -24089,8 +24089,8 @@ VALUES (5647, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5646, 'neydisacastlearchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5646, 516, 5646, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5646, 516, 5646, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5646, 1, 'Archmage Philomon');
@@ -24179,8 +24179,8 @@ VALUES (5646, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5649, 'neydisacastlebowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5649, 516, 5649, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5649, 516, 5649, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5649, 1, 'Lisatha the Bowyer');
@@ -24266,8 +24266,8 @@ VALUES (5649, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5648, 'neydisacastleweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5648, 516, 5648, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5648, 516, 5648, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5648, 1, 'Viamasa the Weaponsmith');
@@ -24356,8 +24356,8 @@ VALUES (5648, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5861, 'neydisacastlebarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5861, 516, 5861, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5861, 516, 5861, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5861, 1, 'Nelvaine the Brewer');
@@ -24443,8 +24443,8 @@ VALUES (5861, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11377, 'ahurengabarkeep-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11377, 516, 11377, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11377, 516, 11377, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11377, 1, 'Hea Camauri the Barkeep');
@@ -24486,8 +24486,8 @@ VALUES (11377, 67116650, 1, 48)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11376, 'ahurengaarmorer-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11376, 516, 11376, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11376, 516, 11376, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11376, 1, 'Hea Nyrinua the Armorer');
@@ -24529,8 +24529,8 @@ VALUES (11376, 67116650, 1, 48)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11378, 'ahurengabowyer-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11378, 516, 11378, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11378, 516, 11378, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11378, 1, 'Hea Timitea the Bowyer');
@@ -24572,8 +24572,8 @@ VALUES (11378, 67116643, 1, 48)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11375, 'ahurengaarchmage-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11375, 516, 11375, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11375, 516, 11375, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11375, 1, 'Hea Rangaua the Elder Shaman');
@@ -24615,8 +24615,8 @@ VALUES (11375, 67116628, 1, 48)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11380, 'ahurengajeweler-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11380, 516, 11380, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11380, 516, 11380, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11380, 1, 'Hea Palagura the Jeweler');
@@ -24658,8 +24658,8 @@ VALUES (11380, 67116628, 1, 48)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11379, 'ahurengahealer-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11379, 516, 11379, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11379, 516, 11379, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11379, 1, 'Hea Nyrenauri the Healer');
@@ -24701,8 +24701,8 @@ VALUES (11379, 67116650, 1, 48)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11381, 'ahurengashopkeep-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11381, 516, 11381, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11381, 516, 11381, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11381, 1, 'Hea Kiriona the Shopkeep');
@@ -24744,8 +24744,8 @@ VALUES (11381, 67116650, 1, 48)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11392, 'greenspiremage-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11392, 516, 11392, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11392, 516, 11392, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11392, 1, 'Yen Loc Anh the Mage');
@@ -24827,8 +24827,8 @@ VALUES (11392, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11390, 'greenspirebarkeep-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11390, 516, 11390, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11390, 516, 11390, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11390, 1, 'Kasin ibn Sayrak the Barkeep');
@@ -24912,8 +24912,8 @@ VALUES (11390, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11393, 'greenspirescribeprovisionerhealer-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11393, 516, 11393, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11393, 516, 11393, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11393, 1, 'Brother Samir ibn Lomaq the Monk');
@@ -24995,8 +24995,8 @@ VALUES (11393, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11389, 'greenspirearmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11389, 516, 11389, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11389, 516, 11389, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11389, 1, 'Greygor Stillwise the Armorer');
@@ -25080,8 +25080,8 @@ VALUES (11389, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11391, 'greenspirejeweler-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11391, 516, 11391, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11391, 516, 11391, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11391, 1, 'Misha the Jeweler');
@@ -25169,8 +25169,8 @@ VALUES (11391, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4560, 'shoushiwestoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4560, 516, 4560, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4560, 516, 4560, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4560, 1, 'Nen Gou the Shopkeeper');
@@ -25256,8 +25256,8 @@ VALUES (4560, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1389, 'merchantsho');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1389, 516, 1389, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1389, 516, 1389, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1389, 1, 'Merchant');
@@ -25339,8 +25339,8 @@ VALUES (1389, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (712, 'holtburgblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (712, 516, 712, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (712, 516, 712, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (712, 1, 'Sedor Wystan the Blacksmith');
@@ -25420,8 +25420,8 @@ VALUES (712, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (715, 'holtburghealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (715, 516, 715, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (715, 516, 715, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (715, 1, 'Thelnoth Cort the Healer');
@@ -25505,8 +25505,8 @@ VALUES (715, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (716, 'holtburgjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (716, 516, 716, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (716, 516, 716, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (716, 1, 'Monyra the Jeweler');
@@ -25588,8 +25588,8 @@ VALUES (716, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2304, 'holtburgarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2304, 516, 2304, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2304, 516, 2304, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2304, 1, 'Archmage Cindrue');
@@ -25673,8 +25673,8 @@ VALUES (2304, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49518, 'ace49518-asenala');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (49518, 516, 49518, 8388662, 'AAA9AAAAAAA=', 104579);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (49518, 516, 49518, 8388662, NULL, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49518, 1, 'Asenala');
@@ -25768,8 +25768,8 @@ VALUES (49518, 0, 16783897)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (713, 'holtburgbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (713, 516, 713, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (713, 516, 713, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (713, 1, 'Sontella Dagroff the Bowyer');
@@ -25853,8 +25853,8 @@ VALUES (713, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42428, 'ace42428-ianto');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42428, 516, 42428, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42428, 516, 42428, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42428, 1, 'Ianto');
@@ -25935,8 +25935,8 @@ VALUES (42428, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (719, 'holtburgtailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (719, 516, 719, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (719, 516, 719, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (719, 1, 'Ecutha the Tailor');
@@ -26025,8 +26025,8 @@ VALUES (719, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (717, 'holtburgscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (717, 516, 717, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (717, 516, 717, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (717, 1, 'Scribe Renald the Younger');
@@ -26110,8 +26110,8 @@ VALUES (717, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (718, 'holtburgshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (718, 516, 718, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (718, 516, 718, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (718, 1, 'Shopkeeper Renald the Elder');
@@ -26197,8 +26197,8 @@ VALUES (718, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (710, 'holtburgbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (710, 516, 710, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (710, 516, 710, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (710, 1, 'Barkeeper Wilomine');
@@ -26279,8 +26279,8 @@ VALUES (710, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44186, 'ace44186-contractbroker');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (44186, 516, 44186, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (44186, 516, 44186, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44186, 1, 'Contract Broker');
@@ -26366,8 +26366,8 @@ VALUES (44186, 9, 16795213)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (714, 'holtburggrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (714, 516, 714, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (714, 516, 714, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (714, 1, 'Fispur Ansel the Grocer');
@@ -26455,8 +26455,8 @@ VALUES (714, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9423, 'rithwiclugiangemseller');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9423, 516, 9423, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9423, 516, 9423, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9423, 1, 'Novedion the Gem Seller');
@@ -26513,8 +26513,8 @@ VALUES (9423, 0, 16785699)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9504, 'gamblercashieralu');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9504, 516, 9504, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9504, 516, 9504, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9504, 1, 'Boddry the Chancy');
@@ -26600,8 +26600,8 @@ VALUES (9504, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1387, 'merchantaluvian');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1387, 516, 1387, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1387, 516, 1387, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1387, 1, 'Merchant');
@@ -26686,8 +26686,8 @@ VALUES (1387, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4433, 'holtburgsouthoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4433, 516, 4433, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4433, 516, 4433, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4433, 1, 'Hudriffa the Shopkeeper');
@@ -26773,8 +26773,8 @@ VALUES (4433, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2041, 'cragstonelibrarian');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2041, 516, 2041, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2041, 516, 2041, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2041, 1, 'Minthada the Librarian');
@@ -26860,8 +26860,8 @@ VALUES (2041, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (673, 'cragstonehealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (673, 516, 673, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (673, 516, 673, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (673, 1, 'Avalenne Hilmad the Healer');
@@ -26947,8 +26947,8 @@ VALUES (673, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (672, 'cragstonegrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (672, 516, 672, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (672, 516, 672, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (672, 1, 'Acina Hilmad the Grocer');
@@ -27032,8 +27032,8 @@ VALUES (672, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (671, 'cragstonebowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (671, 516, 671, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (671, 516, 671, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (671, 1, 'Scildith Dyrson the Bowyer');
@@ -27115,8 +27115,8 @@ VALUES (671, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (676, 'cragstoneshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (676, 516, 676, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (676, 516, 676, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (676, 1, 'Merchant Ledine');
@@ -27198,8 +27198,8 @@ VALUES (676, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (669, 'cragstonebarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (669, 516, 669, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (669, 516, 669, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (669, 1, 'Magrom the Red, Barkeeper');
@@ -27283,8 +27283,8 @@ VALUES (669, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (678, 'cragstonearmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (678, 516, 678, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (678, 516, 678, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (678, 1, 'Culthea Ironshaper');
@@ -27370,8 +27370,8 @@ VALUES (678, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (677, 'cragstoneweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (677, 516, 677, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (677, 516, 677, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (677, 1, 'Estorl the Ox, Weaponsmith');
@@ -27453,8 +27453,8 @@ VALUES (677, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (674, 'cragstonejeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (674, 516, 674, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (674, 516, 674, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (674, 1, 'Jeweler Suya bint Habil');
@@ -27541,8 +27541,8 @@ VALUES (674, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38460, 'ace38460-arcanumbroker');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38460, 516, 38460, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (38460, 516, 38460, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38460, 1, 'Arcanum Broker');
@@ -27625,8 +27625,8 @@ VALUES (38460, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (675, 'cragstonescribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (675, 516, 675, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (675, 516, 675, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (675, 1, 'Magus Gondibyr Langarl');
@@ -27712,8 +27712,8 @@ VALUES (675, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12241, 'furniturevendoralu');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (12241, 516, 12241, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (12241, 516, 12241, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12241, 1, 'Steiner''s Apprentice Craftsman');
@@ -27797,8 +27797,8 @@ VALUES (12241, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4439, 'lytelthorpebowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4439, 516, 4439, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4439, 516, 4439, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4439, 1, 'Taryla the Bowyer');
@@ -27884,8 +27884,8 @@ VALUES (4439, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4445, 'lytelthorpetailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4445, 516, 4445, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4445, 516, 4445, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4445, 1, 'Dafrida the Tailor');
@@ -27971,8 +27971,8 @@ VALUES (4445, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4437, 'lytelthorpeblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4437, 516, 4437, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4437, 516, 4437, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4437, 1, 'Sitrath the Smith');
@@ -28054,8 +28054,8 @@ VALUES (4437, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4438, 'lytelthorpeblacksmith2');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4438, 516, 4438, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4438, 516, 4438, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4438, 1, 'Smith Baltiff');
@@ -28137,8 +28137,8 @@ VALUES (4438, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4441, 'lytelthorpehealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4441, 516, 4441, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4441, 516, 4441, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4441, 1, 'Healer Beysta');
@@ -28220,8 +28220,8 @@ VALUES (4441, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4444, 'lytelthorpeshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4444, 516, 4444, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4444, 516, 4444, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4444, 1, 'Cemcera the Shopkeeper');
@@ -28307,8 +28307,8 @@ VALUES (4444, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4436, 'lytelthorpebarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4436, 516, 4436, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4436, 516, 4436, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4436, 1, 'Selflora the Barkeep');
@@ -28394,8 +28394,8 @@ VALUES (4436, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4442, 'lytelthorpejeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4442, 516, 4442, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4442, 516, 4442, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4442, 1, 'Sathagg the Jeweler');
@@ -28481,8 +28481,8 @@ VALUES (4442, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4440, 'lytelthorpegrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4440, 516, 4440, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4440, 516, 4440, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4440, 1, 'Grocer Cortarn');
@@ -28564,8 +28564,8 @@ VALUES (4440, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4443, 'lytelthorpescribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4443, 516, 4443, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4443, 516, 4443, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4443, 1, 'Gylfolma the Scribe');
@@ -28651,8 +28651,8 @@ VALUES (4443, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4435, 'lytelthorpearchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4435, 516, 4435, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4435, 516, 4435, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4435, 1, 'Archmage Den Ou');
@@ -28738,8 +28738,8 @@ VALUES (4435, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5428, 'glendenwestoutpostweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5428, 516, 5428, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5428, 516, 5428, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5428, 1, 'Belbeca the Weaponsmith ');
@@ -28821,8 +28821,8 @@ VALUES (5428, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5426, 'glendenwestoutpostarmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5426, 516, 5426, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5426, 516, 5426, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5426, 1, 'Pondenn the Armorer');
@@ -28904,8 +28904,8 @@ VALUES (5426, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (739, 'glendenweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (739, 516, 739, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (739, 516, 739, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (739, 1, 'Fyrdina Ellic the Weaponsmith');
@@ -28989,8 +28989,8 @@ VALUES (739, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (735, 'glendenhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (735, 516, 735, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (735, 516, 735, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (735, 1, 'Danifa Gondmad the Healer ');
@@ -29079,8 +29079,8 @@ VALUES (735, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5425, 'glendenwestoutpostarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5425, 516, 5425, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5425, 516, 5425, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5425, 1, 'Archmage Cortorl');
@@ -29166,8 +29166,8 @@ VALUES (5425, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (737, 'glendenshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (737, 516, 737, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (737, 516, 737, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (737, 1, 'Arsitha Trell the Grocer');
@@ -29253,8 +29253,8 @@ VALUES (737, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (736, 'glendenjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (736, 516, 736, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (736, 516, 736, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (736, 1, 'Ortun Trell the Jeweler');
@@ -29340,8 +29340,8 @@ VALUES (736, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5427, 'glendenwestoutposthealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5427, 516, 5427, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5427, 516, 5427, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5427, 1, 'Healer Fridroth');
@@ -29430,8 +29430,8 @@ VALUES (5427, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2303, 'glendenarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2303, 516, 2303, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2303, 516, 2303, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2303, 1, 'Singud Trell the Archmage');
@@ -29515,8 +29515,8 @@ VALUES (2303, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (731, 'glendenbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (731, 516, 731, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (731, 516, 731, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (731, 1, 'Ystig Marson the Barkeeper');
@@ -29600,8 +29600,8 @@ VALUES (731, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (738, 'glendentailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (738, 516, 738, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (738, 516, 738, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (738, 1, 'Idenne Sulmad the Seamstress');
@@ -29689,8 +29689,8 @@ VALUES (738, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (734, 'glendengrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (734, 516, 734, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (734, 516, 734, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (734, 1, 'Hunderth the Provisioner');
@@ -29774,8 +29774,8 @@ VALUES (734, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (733, 'glendenbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (733, 516, 733, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (733, 516, 733, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (733, 1, 'Fletcher Peldin Yewbender');
@@ -29859,8 +29859,8 @@ VALUES (733, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5424, 'glendeneastoutposthealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5424, 516, 5424, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5424, 516, 5424, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5424, 1, 'Fertroth the Healer');
@@ -29945,8 +29945,8 @@ VALUES (5424, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5422, 'glendeneastoutpostarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5422, 516, 5422, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5422, 516, 5422, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5422, 1, 'Archmage Geltruma');
@@ -30032,8 +30032,8 @@ VALUES (5422, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5423, 'glendeneastoutpostbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5423, 516, 5423, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5423, 516, 5423, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5423, 1, 'Bowyer Brondig');
@@ -30117,8 +30117,8 @@ VALUES (5423, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13227, 'glendenwoodsman');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (13227, 516, 13227, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (13227, 516, 13227, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13227, 1, 'Jacque the Woodsman');
@@ -30204,8 +30204,8 @@ VALUES (13227, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6113, 'plateauspicemerchant');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (6113, 516, 6113, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (6113, 516, 6113, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6113, 1, 'Plateau Spice Merchant');
@@ -30292,8 +30292,8 @@ VALUES (6113, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2500, 'plateaushopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2500, 516, 2500, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2500, 516, 2500, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2500, 1, 'Avorgild the Shopkeeper');
@@ -30377,8 +30377,8 @@ VALUES (2500, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2501, 'plateauscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2501, 516, 2501, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2501, 516, 2501, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2501, 1, 'Scribe Finaver');
@@ -30466,8 +30466,8 @@ VALUES (2501, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2503, 'plateaujeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2503, 516, 2503, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2503, 516, 2503, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2503, 1, 'Brenica the Jeweler');
@@ -30551,8 +30551,8 @@ VALUES (2503, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20207, 'scrivenercreaturedistant');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20207, 516, 20207, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20207, 516, 20207, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20207, 1, 'Master Scrivener of Creature Magic');
@@ -30634,8 +30634,8 @@ VALUES (20207, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20219, 'scrivenerlifedistant');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20219, 516, 20219, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20219, 516, 20219, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20219, 1, 'Master Scrivener of Life Magic');
@@ -30717,8 +30717,8 @@ VALUES (20219, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20211, 'scriveneritemdistant');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20211, 516, 20211, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20211, 516, 20211, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20211, 1, 'Master Scrivener of Item Magic');
@@ -30800,8 +30800,8 @@ VALUES (20211, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20223, 'scrivenerwardistant');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20223, 516, 20223, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20223, 516, 20223, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20223, 1, 'Master Scrivener of War Magic');
@@ -30883,8 +30883,8 @@ VALUES (20223, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2316, 'forttethanabowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2316, 516, 2316, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2316, 516, 2316, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2316, 1, 'Mothdor the Bowyer');
@@ -30967,8 +30967,8 @@ VALUES (2316, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2317, 'forttethanashopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2317, 516, 2317, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2317, 516, 2317, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2317, 1, 'Shopkeeper Yoshi Deshi');
@@ -31050,8 +31050,8 @@ VALUES (2317, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2315, 'forttethanablacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2315, 516, 2315, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2315, 516, 2315, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2315, 1, 'Blacksmith Magarith');
@@ -31135,8 +31135,8 @@ VALUES (2315, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2314, 'forttethanaarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2314, 516, 2314, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2314, 516, 2314, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2314, 1, 'Zisaha bint Jaidka the Mage');
@@ -31222,8 +31222,8 @@ VALUES (2314, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2228, 'dryreachgrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2228, 516, 2228, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2228, 516, 2228, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2228, 1, 'Helford Beldryn the Grocer');
@@ -31307,8 +31307,8 @@ VALUES (2228, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2233, 'dryreachtailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2233, 516, 2233, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2233, 516, 2233, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2233, 1, 'Tilutha Beldryn the Tailor');
@@ -31390,8 +31390,8 @@ VALUES (2233, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2231, 'dryreachscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2231, 516, 2231, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2231, 516, 2231, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2231, 1, 'Old Wylfed the Scribe');
@@ -31478,8 +31478,8 @@ VALUES (2231, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2226, 'dryreachblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2226, 516, 2226, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2226, 516, 2226, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2226, 1, 'Sordan Edelson the Smithy');
@@ -31559,8 +31559,8 @@ VALUES (2226, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2227, 'dryreachbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2227, 516, 2227, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2227, 516, 2227, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2227, 1, 'Esteca the Bowyer');
@@ -31647,8 +31647,8 @@ VALUES (2227, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2221, 'dryreachbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2221, 516, 2221, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2221, 516, 2221, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2221, 1, 'Barkeep Mordmor');
@@ -31732,8 +31732,8 @@ VALUES (2221, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2220, 'dryreacharchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2220, 516, 2220, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2220, 516, 2220, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2220, 1, 'Archmage Bendrew Efrith');
@@ -31821,8 +31821,8 @@ VALUES (2220, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2232, 'dryreachshoopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2232, 516, 2232, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2232, 516, 2232, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2232, 1, 'Rindelle the Shopkeeper');
@@ -31908,8 +31908,8 @@ VALUES (2232, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2230, 'dryreachjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2230, 516, 2230, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2230, 516, 2230, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2230, 1, 'Landeth Colson the Jeweler');
@@ -31991,8 +31991,8 @@ VALUES (2230, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2229, 'dryreachhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2229, 516, 2229, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2229, 516, 2229, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2229, 1, 'Ludora the Healer');
@@ -32074,8 +32074,8 @@ VALUES (2229, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2305, 'rithwicarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2305, 516, 2305, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2305, 516, 2305, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2305, 1, 'Archmage Nulsymber');
@@ -32159,8 +32159,8 @@ VALUES (2305, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (663, 'rithwicgrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (663, 516, 663, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (663, 516, 663, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (663, 1, 'Ynarre the Grocer');
@@ -32246,8 +32246,8 @@ VALUES (663, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1081, 'eastrithwicjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1081, 516, 1081, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1081, 516, 1081, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1081, 1, 'Soldona Wotmad the Jeweler');
@@ -32336,8 +32336,8 @@ VALUES (1081, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (665, 'rithwicjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (665, 516, 665, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (665, 516, 665, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (665, 1, 'Urnolt the Jeweler');
@@ -32426,8 +32426,8 @@ VALUES (665, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (666, 'rithwicscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (666, 516, 666, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (666, 516, 666, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (666, 1, 'Wylreda the Scribe');
@@ -32511,8 +32511,8 @@ VALUES (666, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1082, 'eastrithwicbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1082, 516, 1082, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1082, 516, 1082, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1082, 1, 'Erludd the Cur the Barkeeper');
@@ -32594,8 +32594,8 @@ VALUES (1082, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (661, 'rithwicblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (661, 516, 661, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (661, 516, 661, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (661, 1, 'Luthin the Smith');
@@ -32675,8 +32675,8 @@ VALUES (661, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1080, 'eastrithwictailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1080, 516, 1080, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1080, 516, 1080, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1080, 1, 'Ji Tenxien the Tailor');
@@ -32758,8 +32758,8 @@ VALUES (1080, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (664, 'rithwichealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (664, 516, 664, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (664, 516, 664, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (664, 1, 'Brisin the Healer');
@@ -32844,8 +32844,8 @@ VALUES (664, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (659, 'rithwicbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (659, 516, 659, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (659, 516, 659, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (659, 1, 'Barkeep Ricetha');
@@ -32931,8 +32931,8 @@ VALUES (659, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (668, 'rithwicweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (668, 516, 668, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (668, 516, 668, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (668, 1, 'Weaponsmith Baizai En');
@@ -33018,8 +33018,8 @@ VALUES (668, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (662, 'rithwicbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (662, 516, 662, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (662, 516, 662, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (662, 1, 'Trothyd Fletcher');
@@ -33101,8 +33101,8 @@ VALUES (662, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (667, 'rithwictailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (667, 516, 667, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (667, 516, 667, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (667, 1, 'Dortold the Tailor');
@@ -33189,8 +33189,8 @@ VALUES (667, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4449, 'rithwicsouthoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4449, 516, 4449, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4449, 516, 4449, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4449, 1, 'Girdweld the Shopkeeper');
@@ -33276,8 +33276,8 @@ VALUES (4449, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4448, 'rithwiceastoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4448, 516, 4448, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4448, 516, 4448, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4448, 1, 'Hydeatha the Shopkeeper');
@@ -33363,8 +33363,8 @@ VALUES (4448, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (701, 'arwicscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (701, 516, 701, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (701, 516, 701, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (701, 1, 'Laqisha the Scribe');
@@ -33452,8 +33452,8 @@ VALUES (701, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1039, 'yaraqbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1039, 516, 1039, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1039, 516, 1039, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1039, 1, 'Ladim al-Faji the Bowyer');
@@ -33538,8 +33538,8 @@ VALUES (1039, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1038, 'yaraqblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1038, 516, 1038, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1038, 516, 1038, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1038, 1, 'Buray ibn Tamsa the Blacksmith');
@@ -33622,8 +33622,8 @@ VALUES (1038, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1047, 'yaraqtailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1047, 516, 1047, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1047, 516, 1047, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1047, 1, 'Arlad ibn Mulud the Tailor');
@@ -33708,8 +33708,8 @@ VALUES (1047, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42429, 'ace42429-iqbal');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (42429, 516, 42429, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (42429, 516, 42429, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42429, 1, 'Iqbal');
@@ -33790,8 +33790,8 @@ VALUES (42429, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1040, 'yaraqgrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1040, 516, 1040, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1040, 516, 1040, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1040, 1, 'Nuya bint Mulud the Grocer');
@@ -33879,8 +33879,8 @@ VALUES (1040, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9505, 'gamblercashiergha');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9505, 516, 9505, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9505, 516, 9505, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9505, 1, 'Ashadi bint Samaq');
@@ -33967,8 +33967,8 @@ VALUES (9505, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1045, 'yaraqshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1045, 516, 1045, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1045, 516, 1045, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1045, 1, 'Rahira bint Hisan the Shopkeeper');
@@ -34053,8 +34053,8 @@ VALUES (1045, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49517, 'ace49517-iaret');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (49517, 516, 49517, 8388662, 'AAA9AAAAAAA=', 104579);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (49517, 516, 49517, 8388662, NULL, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49517, 1, 'Iaret');
@@ -34148,8 +34148,8 @@ VALUES (49517, 0, 16783897)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2307, 'yaraqarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2307, 516, 2307, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2307, 516, 2307, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2307, 1, 'Archmage Inyamkaya bint Ruz');
@@ -34233,8 +34233,8 @@ VALUES (2307, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1042, 'yaraqjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1042, 516, 1042, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1042, 516, 1042, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1042, 1, 'Tariqana bint Hin the Jeweler');
@@ -34323,8 +34323,8 @@ VALUES (1042, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1044, 'yaraqscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1044, 516, 1044, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1044, 516, 1044, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1044, 1, 'Wasifa al-Kani the Scribe');
@@ -34410,8 +34410,8 @@ VALUES (1044, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1034, 'yaraqbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1034, 516, 1034, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1034, 516, 1034, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1034, 1, 'Barkeep Jubal al-Baljad');
@@ -34493,8 +34493,8 @@ VALUES (1034, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1041, 'yaraqhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1041, 516, 1041, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1041, 516, 1041, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1041, 1, 'Mulud al-Iyar the Healer');
@@ -34582,8 +34582,8 @@ VALUES (1041, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9424, 'yaraqlugiangemseller');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9424, 516, 9424, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9424, 516, 9424, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9424, 1, 'Drawohan the Gem Seller');
@@ -34640,8 +34640,8 @@ VALUES (9424, 0, 16785699)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44189, 'ace44189-contractbroker');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (44189, 516, 44189, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (44189, 516, 44189, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44189, 1, 'Contract Broker');
@@ -34727,8 +34727,8 @@ VALUES (44189, 9, 16795213)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4686, 'alarqastailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4686, 516, 4686, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4686, 516, 4686, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4686, 1, 'Tailor Najsun');
@@ -34817,8 +34817,8 @@ VALUES (4686, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4684, 'alarqasscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4684, 516, 4684, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4684, 516, 4684, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4684, 1, 'Bashkiya the Scribe');
@@ -34905,8 +34905,8 @@ VALUES (4684, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4677, 'alarqasarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4677, 516, 4677, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4677, 516, 4677, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4677, 1, 'Archmage Jiz ibn Ijfai');
@@ -34990,8 +34990,8 @@ VALUES (4677, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4681, 'alarqasgrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4681, 516, 4681, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4681, 516, 4681, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4681, 1, 'Sidzika the Grocer');
@@ -35080,8 +35080,8 @@ VALUES (4681, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4679, 'alarqasblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4679, 516, 4679, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4679, 516, 4679, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4679, 1, 'Smith Dah bint Nas');
@@ -35165,8 +35165,8 @@ VALUES (4679, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4680, 'alarqasbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4680, 516, 4680, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4680, 516, 4680, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4680, 1, 'Muta al-Mai the Bowyer');
@@ -35252,8 +35252,8 @@ VALUES (4680, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4683, 'alarqasjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4683, 516, 4683, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4683, 516, 4683, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4683, 1, 'Hinnabqiq the Jeweler');
@@ -35337,8 +35337,8 @@ VALUES (4683, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4682, 'alarqashealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4682, 516, 4682, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4682, 516, 4682, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4682, 1, 'Healer Sunwi');
@@ -35423,8 +35423,8 @@ VALUES (4682, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4702, 'khayyabanshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4702, 516, 4702, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4702, 516, 4702, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4702, 1, 'Najsuf al-Afan the Shopkeeper');
@@ -35510,8 +35510,8 @@ VALUES (4702, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4696, 'khayyabanbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4696, 516, 4696, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4696, 516, 4696, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4696, 1, 'Barkeep Mausin ibn Hi');
@@ -35597,8 +35597,8 @@ VALUES (4696, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4700, 'khayyabanjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4700, 516, 4700, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4700, 516, 4700, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4700, 1, 'Jeweler Hawtala bint Arsha');
@@ -35684,8 +35684,8 @@ VALUES (4700, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4703, 'khayyabantailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4703, 516, 4703, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4703, 516, 4703, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4703, 1, 'Tailor Zayjah');
@@ -35774,8 +35774,8 @@ VALUES (4703, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4701, 'khayyabanscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4701, 516, 4701, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4701, 516, 4701, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4701, 1, 'Scribe Tashwi ibn Sayat');
@@ -35858,8 +35858,8 @@ VALUES (4701, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4695, 'khayyabanarmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4695, 516, 4695, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4695, 516, 4695, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4695, 1, 'Armorer Hinfiya bint Ju');
@@ -35941,8 +35941,8 @@ VALUES (4695, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4704, 'khayyabanweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4704, 516, 4704, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4704, 516, 4704, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4704, 1, 'Weaponsmith Mura bint Mu''ja');
@@ -36022,8 +36022,8 @@ VALUES (4704, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4699, 'khayyabanhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4699, 516, 4699, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4699, 516, 4699, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4699, 1, 'Tumina the Healer');
@@ -36107,8 +36107,8 @@ VALUES (4699, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4698, 'khayyabangrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4698, 516, 4698, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4698, 516, 4698, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4698, 1, 'Grocer Sina bint Idnun');
@@ -36197,8 +36197,8 @@ VALUES (4698, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4694, 'khayyabanarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4694, 516, 4694, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4694, 516, 4694, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4694, 1, 'Najmima the Archmage');
@@ -36286,8 +36286,8 @@ VALUES (4694, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4697, 'khayyabanbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4697, 516, 4697, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4697, 516, 4697, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4697, 1, 'Bowyer Safruya bint Bilak');
@@ -36373,8 +36373,8 @@ VALUES (4697, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1824, 'uzizarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1824, 516, 1824, 8388662, 'AAA9AAAAAAA=', 104451);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1824, 516, 1824, 8388662, NULL, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1824, 1, 'Archmage Sammam al-Ashiz');
@@ -36463,8 +36463,8 @@ VALUES (1824, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1828, 'uzizbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1828, 516, 1828, 8388662, 'AAA9AAAAAAA=', 104515);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1828, 516, 1828, 8388662, NULL, 'AAA9AAAAAAA=', 104515);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1828, 1, 'Yahr ibn Ajaj the Bowyer');
@@ -36551,8 +36551,8 @@ VALUES (1828, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1826, 'uzizbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1826, 516, 1826, 8388662, 'AAA9AAAAAAA=', 104451);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1826, 516, 1826, 8388662, NULL, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1826, 1, 'Maryata bint Daris the Barkeep');
@@ -36639,8 +36639,8 @@ VALUES (1826, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1829, 'uzizgrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1829, 516, 1829, 8388662, 'AAA9AAAAAAA=', 104451);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1829, 516, 1829, 8388662, NULL, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1829, 1, 'Ziya bint Balun the Grocer');
@@ -36730,8 +36730,8 @@ VALUES (1829, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1834, 'uziztailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1834, 516, 1834, 8388662, 'AAA9AAAAAAA=', 104451);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1834, 516, 1834, 8388662, NULL, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1834, 1, 'Tailor Istima al-Mahat');
@@ -36821,8 +36821,8 @@ VALUES (1834, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1830, 'uzizhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1830, 516, 1830, 8388662, 'AAA9AAAAAAA=', 104451);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1830, 516, 1830, 8388662, NULL, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1830, 1, 'Nashima al-Haruq the Healer');
@@ -36907,8 +36907,8 @@ VALUES (1830, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1825, 'uzizarmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1825, 516, 1825, 8388662, 'AAA9AAAAAAA=', 104451);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1825, 516, 1825, 8388662, NULL, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1825, 1, 'Ruza bint Tinun the Armorer');
@@ -36990,8 +36990,8 @@ VALUES (1825, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1835, 'uzizweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1835, 516, 1835, 8388662, 'AAA9AAAAAAA=', 104515);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1835, 516, 1835, 8388662, NULL, 'AAA9AAAAAAA=', 104515);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1835, 1, 'Ulib ibn Ghunir the Weaponsmith');
@@ -37072,8 +37072,8 @@ VALUES (1835, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1831, 'uzizjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1831, 516, 1831, 8388662, 'AAA9AAAAAAA=', 104451);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1831, 516, 1831, 8388662, NULL, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1831, 1, 'Adraha bint Safsan the Appraiser');
@@ -37160,8 +37160,8 @@ VALUES (1831, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1833, 'uzizshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1833, 516, 1833, 8388662, 'AAA9AAAAAAA=', 104451);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1833, 516, 1833, 8388662, NULL, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1833, 1, 'Waham ibn Fadyat the Shopkeeper');
@@ -37247,8 +37247,8 @@ VALUES (1833, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1832, 'uzizscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1832, 516, 1832, 8388662, 'AAA9AAAAAAA=', 104451);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1832, 516, 1832, 8388662, NULL, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1832, 1, 'Barshid al-Juhir the Scribe');
@@ -37332,8 +37332,8 @@ VALUES (1832, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49597, 'ace49597-scriveneroflifemagic');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (49597, 516, 49597, 8388662, 'AAA9AAAAAAA=', 104451);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (49597, 516, 49597, 8388662, NULL, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49597, 1, 'Scrivener of Life Magic');
@@ -37416,8 +37416,8 @@ VALUES (49597, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49596, 'ace49596-scrivenerofwarmagic');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (49596, 516, 49596, 8388662, 'AAA9AAAAAAA=', 104451);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (49596, 516, 49596, 8388662, NULL, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49596, 1, 'Scrivener of War Magic');
@@ -37500,8 +37500,8 @@ VALUES (49596, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49599, 'ace49599-scrivenerofitemmagic');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (49599, 516, 49599, 8388662, 'AAA9AAAAAAA=', 104451);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (49599, 516, 49599, 8388662, NULL, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49599, 1, 'Scrivener of Item Magic');
@@ -37584,8 +37584,8 @@ VALUES (49599, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49598, 'ace49598-scrivenerofcreaturemagic');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (49598, 516, 49598, 8388662, 'AAA9AAAAAAA=', 104451);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (49598, 516, 49598, 8388662, NULL, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49598, 1, 'Scrivener of Creature Magic');
@@ -37668,8 +37668,8 @@ VALUES (49598, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1817, 'tufabowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1817, 516, 1817, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1817, 516, 1817, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1817, 1, 'Bowyer Shurida bint Zaud');
@@ -37750,8 +37750,8 @@ VALUES (1817, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1819, 'tufahealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1819, 516, 1819, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1819, 516, 1819, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1819, 1, 'Healer Jilrisi ibn Makhur');
@@ -37838,8 +37838,8 @@ VALUES (1819, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1823, 'tufatailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1823, 516, 1823, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1823, 516, 1823, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1823, 1, 'Tailor Fadnuj ibn Samil');
@@ -37926,8 +37926,8 @@ VALUES (1823, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1818, 'tufagrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1818, 516, 1818, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1818, 516, 1818, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1818, 1, 'Grocer Tashhir ibn Najrak');
@@ -38013,8 +38013,8 @@ VALUES (1818, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1812, 'tufaarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1812, 516, 1812, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1812, 516, 1812, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1812, 1, 'Archmage Dakila bint Ma''liz');
@@ -38102,8 +38102,8 @@ VALUES (1812, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1815, 'tufablacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1815, 516, 1815, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1815, 516, 1815, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1815, 1, 'Maqura al-Waryah the Blacksmith');
@@ -38189,8 +38189,8 @@ VALUES (1815, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1816, 'tufablacksmith2');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1816, 516, 1816, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1816, 516, 1816, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1816, 1, 'Djuyat ibn Fisa the Armorer');
@@ -38275,8 +38275,8 @@ VALUES (1816, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1813, 'tufabarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1813, 516, 1813, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1813, 516, 1813, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1813, 1, 'Afsan ibn Kusain the Barkeep');
@@ -38362,8 +38362,8 @@ VALUES (1813, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1820, 'tufajeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1820, 516, 1820, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1820, 516, 1820, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1820, 1, 'Lalid al-Jasi the Jeweler');
@@ -38452,8 +38452,8 @@ VALUES (1820, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1822, 'tufashopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1822, 516, 1822, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1822, 516, 1822, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1822, 1, 'Shopkeep Bubtil al-Taywi');
@@ -38542,8 +38542,8 @@ VALUES (1822, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4692, 'aljalimahealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4692, 516, 4692, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4692, 516, 4692, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4692, 1, 'Healer Hansur al-Hirwak');
@@ -38627,8 +38627,8 @@ VALUES (4692, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4689, 'aljalimaarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4689, 516, 4689, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4689, 516, 4689, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4689, 1, 'Archmage Marnai ibn Ayyar');
@@ -38716,8 +38716,8 @@ VALUES (4689, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4691, 'aljalimabowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4691, 516, 4691, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4691, 516, 4691, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4691, 1, 'Rah bint Khurdig the Bowyer');
@@ -38803,8 +38803,8 @@ VALUES (4691, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4690, 'aljalimablacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4690, 516, 4690, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4690, 516, 4690, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4690, 1, 'Busbawasa the Smith');
@@ -38888,8 +38888,8 @@ VALUES (4690, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4693, 'aljalimashopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4693, 516, 4693, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4693, 516, 4693, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4693, 1, 'Su''nah bint Arfiz the Shopkeeper');
@@ -38973,8 +38973,8 @@ VALUES (4693, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6083, 'aljalimaspicemerchant');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (6083, 516, 6083, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (6083, 516, 6083, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6083, 1, 'Al-Jalima Spice Merchant');
@@ -39060,8 +39060,8 @@ VALUES (6083, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (994, 'zaikhaltailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (994, 516, 994, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (994, 516, 994, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (994, 1, 'Muda bint Qalakh the Tailor');
@@ -39147,8 +39147,8 @@ VALUES (994, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (989, 'zaikhalgrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (989, 516, 989, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (989, 516, 989, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (989, 1, 'Zubid ibn Ifi the Grocer');
@@ -39231,8 +39231,8 @@ VALUES (989, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (987, 'zaikhalblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (987, 516, 987, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (987, 516, 987, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (987, 1, 'Qufana al-Khurti the Blacksmith');
@@ -39318,8 +39318,8 @@ VALUES (987, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (988, 'zaikhalbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (988, 516, 988, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (988, 516, 988, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (988, 1, 'Maftaltub al-Sur the Bowyer');
@@ -39404,8 +39404,8 @@ VALUES (988, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (991, 'zaikhaljeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (991, 516, 991, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (991, 516, 991, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (991, 1, 'Djusufa bint Huqis the Jeweler');
@@ -39491,8 +39491,8 @@ VALUES (991, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (993, 'zaikhalshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (993, 516, 993, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (993, 516, 993, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (993, 1, 'Shopkeep Yudi ibn Zayrim');
@@ -39581,8 +39581,8 @@ VALUES (993, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (985, 'zaikhalbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (985, 516, 985, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (985, 516, 985, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (985, 1, 'Barkeeper Ghazi al-Barbasin');
@@ -39668,8 +39668,8 @@ VALUES (985, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43910, 'ace43910-absalomsarraf');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (43910, 516, 43910, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (43910, 516, 43910, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43910, 1, 'Absalom Sarraf');
@@ -39765,8 +39765,8 @@ VALUES (43910, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (990, 'zaikhalhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (990, 516, 990, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (990, 516, 990, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (990, 1, 'Healer Hisuf ibn Shudir');
@@ -39852,8 +39852,8 @@ VALUES (990, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (984, 'zaikhalarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (984, 516, 984, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (984, 516, 984, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (984, 1, 'Archmage Asaina al-Arqis');
@@ -39941,8 +39941,8 @@ VALUES (984, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2045, 'zaikhallibrarian');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2045, 516, 2045, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2045, 516, 2045, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2045, 1, 'Suma bint Nayn the Librarian');
@@ -40028,8 +40028,8 @@ VALUES (2045, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (992, 'zaikhalscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (992, 516, 992, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (992, 516, 992, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (992, 1, 'Jizal al-Nurla the Scribe');
@@ -40114,8 +40114,8 @@ VALUES (992, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12242, 'furniturevendorgha');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (12242, 516, 12242, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (12242, 516, 12242, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12242, 1, 'Jordan''s Apprentice Craftsman');
@@ -40199,8 +40199,8 @@ VALUES (12242, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43940, 'ace43940-carlylewolnoth');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (43940, 516, 43940, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (43940, 516, 43940, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43940, 1, 'Carlyle Wolnoth');
@@ -40280,8 +40280,8 @@ VALUES (43940, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8224, 'xaraarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8224, 516, 8224, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8224, 516, 8224, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8224, 1, 'Archmage Zarri ibn Khaybi');
@@ -40361,8 +40361,8 @@ VALUES (8224, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8230, 'xaragrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8230, 516, 8230, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8230, 516, 8230, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8230, 1, 'Farmer Khurah al-Rujarkir');
@@ -40448,8 +40448,8 @@ VALUES (8230, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8226, 'xarablacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8226, 516, 8226, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8226, 516, 8226, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8226, 1, 'Smith Ashaira bint Maisa');
@@ -40533,8 +40533,8 @@ VALUES (8226, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8227, 'xarabowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8227, 516, 8227, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8227, 516, 8227, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8227, 1, 'Bowyer Hanra ibn Zarib');
@@ -40618,8 +40618,8 @@ VALUES (8227, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1821, 'tufascribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1821, 516, 1821, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1821, 516, 1821, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1821, 1, 'Sifida bint Naril the Scribe');
@@ -40706,8 +40706,8 @@ VALUES (1821, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8225, 'xarabarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8225, 516, 8225, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8225, 516, 8225, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8225, 1, 'Barkeep Anarn');
@@ -40791,8 +40791,8 @@ VALUES (8225, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8231, 'xarajeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8231, 516, 8231, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8231, 516, 8231, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8231, 1, 'Jeweler Jurraf al-Djiqidh');
@@ -40876,8 +40876,8 @@ VALUES (8231, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1058, 'qalabartailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1058, 516, 1058, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1058, 516, 1058, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1058, 1, 'Fazlim ibn Masay the Tailor');
@@ -40965,8 +40965,8 @@ VALUES (1058, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1053, 'qalabargrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1053, 516, 1053, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1053, 516, 1053, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1053, 1, 'Gharuya al-Dhul the Grocer');
@@ -41053,8 +41053,8 @@ VALUES (1053, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1055, 'qalabarjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1055, 516, 1055, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1055, 516, 1055, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1055, 1, 'Kuyalal al-A''ma the Jeweler');
@@ -41138,8 +41138,8 @@ VALUES (1055, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1057, 'qalabarshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1057, 516, 1057, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1057, 516, 1057, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1057, 1, 'Suntar al-Tashqat the Shopkeep');
@@ -41226,8 +41226,8 @@ VALUES (1057, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1056, 'qalabarscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1056, 516, 1056, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1056, 516, 1056, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1056, 1, 'Uthab ibn Yafij the Scribe');
@@ -41312,8 +41312,8 @@ VALUES (1056, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1049, 'qalabararmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1049, 516, 1049, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1049, 516, 1049, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1049, 1, 'Tamara bint Atwab the Armorer');
@@ -41399,8 +41399,8 @@ VALUES (1049, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1059, 'qalabarweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1059, 516, 1059, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1059, 516, 1059, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1059, 1, 'Almina bint Atwab the Weaponsmith');
@@ -41484,8 +41484,8 @@ VALUES (1059, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1052, 'qalabarbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1052, 516, 1052, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1052, 516, 1052, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1052, 1, 'Miya bint Atwab the Bowyer');
@@ -41574,8 +41574,8 @@ VALUES (1052, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1048, 'qalabararchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1048, 516, 1048, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1048, 516, 1048, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1048, 1, 'Jumzik al-Budim the Archmage');
@@ -41663,8 +41663,8 @@ VALUES (1048, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1054, 'qalabarhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1054, 516, 1054, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1054, 516, 1054, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1054, 1, 'Healer Windotha Sofyld');
@@ -41748,8 +41748,8 @@ VALUES (1054, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1050, 'qalabarbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1050, 516, 1050, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1050, 516, 1050, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1050, 1, 'Iquba al-Julmud the Barkeeper');
@@ -41837,8 +41837,8 @@ VALUES (1050, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43352, 'ace43352-masterscrivenerofvoidmagic');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (43352, 516, 43352, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (43352, 516, 43352, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43352, 1, 'Master Scrivener of Void Magic');
@@ -41920,8 +41920,8 @@ VALUES (43352, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9616, 'bestowervendorgha');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9616, 516, 9616, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9616, 516, 9616, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9616, 1, 'Nerezi ibn Risad');
@@ -42010,8 +42010,8 @@ VALUES (9616, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (979, 'samsurhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (979, 516, 979, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (979, 516, 979, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (979, 1, 'Healer Burah bint Fathlan');
@@ -42096,8 +42096,8 @@ VALUES (979, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (980, 'samsurjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (980, 516, 980, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (980, 516, 980, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (980, 1, 'Jeweler Fathlan ibn Nuril');
@@ -42181,8 +42181,8 @@ VALUES (980, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (983, 'samsurtailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (983, 516, 983, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (983, 516, 983, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (983, 1, 'Nasruya al-Khanjan the Tailor');
@@ -42271,8 +42271,8 @@ VALUES (983, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (978, 'samsurgrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (978, 516, 978, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (978, 516, 978, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (978, 1, 'Ushad al-Fasam the Grocer');
@@ -42357,8 +42357,8 @@ VALUES (978, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (981, 'samsurscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (981, 516, 981, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (981, 516, 981, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (981, 1, 'Sutaiya bint Yil the Scribe');
@@ -42444,8 +42444,8 @@ VALUES (981, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2306, 'samsurarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2306, 516, 2306, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2306, 516, 2306, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2306, 1, 'Da''hir ibn Khayzur the Archmage');
@@ -42529,8 +42529,8 @@ VALUES (2306, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (975, 'samsurblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (975, 516, 975, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (975, 516, 975, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (975, 1, 'Armorer Talam ibn Tarish');
@@ -42614,8 +42614,8 @@ VALUES (975, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (976, 'samsurblacksmith2');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (976, 516, 976, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (976, 516, 976, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (976, 1, 'Weaponsmith Ayiz ibn Khayt');
@@ -42698,8 +42698,8 @@ VALUES (976, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (973, 'samsurbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (973, 516, 973, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (973, 516, 973, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (973, 1, 'Mishiya al-Abdi the Barkeeper');
@@ -42787,8 +42787,8 @@ VALUES (973, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (977, 'samsurbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (977, 516, 977, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (977, 516, 977, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (977, 1, 'Thawasa al-La''ud the Bowyer');
@@ -42874,8 +42874,8 @@ VALUES (977, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (982, 'samsurshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (982, 516, 982, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (982, 516, 982, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (982, 1, 'Shopkeep Julsama bint Sakim');
@@ -42964,8 +42964,8 @@ VALUES (982, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37538, 'ace37538-royalquartermaster');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (37538, 516, 37538, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (37538, 516, 37538, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37538, 1, 'Royal Quartermaster');
@@ -43051,8 +43051,8 @@ VALUES (37538, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2249, 'mastershoarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2249, 516, 2249, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2249, 516, 2249, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2249, 1, 'Master Shoyanen Kenchu the Archmage');
@@ -43132,8 +43132,8 @@ VALUES (2249, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6855, 'ayanbaqurarmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (6855, 516, 6855, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (6855, 516, 6855, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6855, 1, 'Sung Wenxio the Armorer');
@@ -43218,8 +43218,8 @@ VALUES (6855, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6862, 'ayanbaqurweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (6862, 516, 6862, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (6862, 516, 6862, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6862, 1, 'Sang Nen-Kai the Weaponsmith');
@@ -43302,8 +43302,8 @@ VALUES (6862, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6861, 'ayanbaqurscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (6861, 516, 6861, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (6861, 516, 6861, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6861, 1, 'Scribe Muhiza bint Murqidh ');
@@ -43385,8 +43385,8 @@ VALUES (6861, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6858, 'ayanbaqurgrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (6858, 516, 6858, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (6858, 516, 6858, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6858, 1, 'Grocer Nihara bint Umar');
@@ -43469,8 +43469,8 @@ VALUES (6858, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6856, 'ayanbaqurbarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (6856, 516, 6856, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (6856, 516, 6856, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6856, 1, 'Berkholt the Burly Barkeep');
@@ -43553,8 +43553,8 @@ VALUES (6856, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6857, 'ayanbaqurbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (6857, 516, 6857, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (6857, 516, 6857, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6857, 1, 'Thiuda the Sharp-Eyed Bowyer');
@@ -43642,8 +43642,8 @@ VALUES (6857, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6854, 'ayanbaqurarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (6854, 516, 6854, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (6854, 516, 6854, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6854, 1, 'Claude the Archmage');
@@ -43686,8 +43686,8 @@ VALUES (6854, 9, 16780702);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43353, 'ace43353-grandmasterscrivenerofvoidmagic');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (43353, 516, 43353, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (43353, 516, 43353, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43353, 1, 'Grand Master Scrivener of Void Magic');
@@ -43761,8 +43761,8 @@ VALUES (43353, 1, 16777708)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6859, 'ayanbaqurhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (6859, 516, 6859, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (6859, 516, 6859, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6859, 1, 'Ellimar Jorning the Healer');
@@ -43844,8 +43844,8 @@ VALUES (6859, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6860, 'ayanbaqurjeweler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (6860, 516, 6860, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (6860, 516, 6860, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6860, 1, 'Jeweler Daryam ibn Zubed');
@@ -43933,8 +43933,8 @@ VALUES (6860, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30997, 'academyresearcher');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (30997, 516, 30997, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (30997, 516, 30997, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30997, 1, 'Academy Researcher');
@@ -44022,8 +44022,8 @@ VALUES (30997, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12718, 'academyprovisioner');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (12718, 516, 12718, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (12718, 516, 12718, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12718, 1, 'Academy Shopkeep');
@@ -44112,8 +44112,8 @@ VALUES (12718, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36519, 'ace36519-colosseumcoincollector');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (36519, 516, 36519, 8388662, 'AAA9AEAAAAAAAIC/', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (36519, 516, 36519, 8388662, NULL, 'AAA9AEAAAAAAAIC/', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36519, 1, 'Colosseum Coin Collector');
@@ -44190,8 +44190,8 @@ VALUES (36519, 0, 16788885)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4565, 'yanshinorthoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4565, 516, 4565, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4565, 516, 4565, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4565, 1, 'Dou In the Shopkeeper');
@@ -44277,8 +44277,8 @@ VALUES (4565, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2246, 'masteraluvianarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2246, 516, 2246, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2246, 516, 2246, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2246, 1, 'Master Celdiseth the Archmage');
@@ -44358,8 +44358,8 @@ VALUES (2246, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35948, 'ace35948-darktuskershrine');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (35948, 516, 35948, 1048630, 'AAA9AAAAAAA=', 104579);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (35948, 516, 35948, 1048630, NULL, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35948, 1, 'Dark Tusker Shrine');
@@ -44395,8 +44395,8 @@ VALUES (35948, 12, True)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1392, 'peddlersho');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1392, 516, 1392, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1392, 516, 1392, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1392, 1, 'Peddler');
@@ -44478,8 +44478,8 @@ VALUES (1392, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5834, 'banditcastlearchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5834, 516, 5834, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5834, 516, 5834, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5834, 1, 'Melia Thorn the Archmage');
@@ -44565,8 +44565,8 @@ VALUES (5834, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5832, 'banditcastlebarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5832, 516, 5832, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5832, 516, 5832, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5832, 1, 'Barkeep Gorth');
@@ -44652,8 +44652,8 @@ VALUES (5832, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5833, 'banditcastlearmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5833, 516, 5833, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5833, 516, 5833, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5833, 1, 'Shi Ki-Yong the Armorer');
@@ -44741,8 +44741,8 @@ VALUES (5833, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5835, 'banditcastleshopkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5835, 516, 5835, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5835, 516, 5835, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5835, 1, 'Provisioner Murdo');
@@ -44829,8 +44829,8 @@ VALUES (5835, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13223, 'vendorwoodsman');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (13223, 516, 13223, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (13223, 516, 13223, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13223, 1, 'Woodsman');
@@ -44916,8 +44916,8 @@ VALUES (13223, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (966, 'dungeonmanorhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (966, 516, 966, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (966, 516, 966, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (966, 1, 'Grawalda the Peddler');
@@ -45005,8 +45005,8 @@ VALUES (966, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5877, 'lostwishpeddler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5877, 516, 5877, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5877, 516, 5877, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5877, 1, 'Surnad the Peddler');
@@ -45094,8 +45094,8 @@ VALUES (5877, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5876, 'lostwishhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5876, 516, 5876, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5876, 516, 5876, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5876, 1, 'Denterra the Healer');
@@ -45179,8 +45179,8 @@ VALUES (5876, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36378, 'ace36378-hishamalevv');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (36378, 516, 36378, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (36378, 516, 36378, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36378, 1, 'Hisham al-Evv');
@@ -45260,8 +45260,8 @@ VALUES (36378, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44241, 'ace44241-panhsj');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (44241, 516, 44241, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (44241, 516, 44241, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44241, 1, 'Panhsj');
@@ -45347,8 +45347,8 @@ VALUES (44241, 0, 16795526)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9020, 'blacksmithwanderingsdires');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9020, 516, 9020, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9020, 516, 9020, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9020, 1, 'Zairente Ra-Yao');
@@ -45445,8 +45445,8 @@ VALUES (9020, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20926, 'retreatgeneral');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20926, 516, 20926, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20926, 516, 20926, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20926, 1, 'Ichi Ji');
@@ -45528,8 +45528,8 @@ VALUES (20926, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20924, 'retreatbowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20924, 516, 20924, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20924, 516, 20924, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20924, 1, 'Riseldor the Bowyer');
@@ -45612,8 +45612,8 @@ VALUES (20924, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20923, 'retreatarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (20923, 516, 20923, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (20923, 516, 20923, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20923, 1, 'Sialla Jiro');
@@ -45693,8 +45693,8 @@ VALUES (20923, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14411, 'banditreformedshoushi');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (14411, 516, 14411, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (14411, 516, 14411, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14411, 1, 'Ostentatious Farmer');
@@ -45776,8 +45776,8 @@ VALUES (14411, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43144, 'ace43144-lintareal');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (43144, 516, 43144, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (43144, 516, 43144, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43144, 1, 'Lintareal');
@@ -45811,8 +45811,8 @@ VALUES (43144, 12, True)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2543, 'waijhouarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2543, 516, 2543, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2543, 516, 2543, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2543, 1, 'Archmage Dou Ran');
@@ -45894,8 +45894,8 @@ VALUES (2543, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24217, 'waijhoubarkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (24217, 516, 24217, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (24217, 516, 24217, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24217, 1, 'Goku Bai-Akane the Barkeep');
@@ -45979,8 +45979,8 @@ VALUES (24217, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24219, 'waijhoushopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (24219, 516, 24219, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (24219, 516, 24219, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24219, 1, 'Nakoro Eshii-Shinjo the Provisioner');
@@ -46062,8 +46062,8 @@ VALUES (24219, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2542, 'waijhouhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2542, 516, 2542, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2542, 516, 2542, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2542, 1, 'Kan Chi Gai the Healer');
@@ -46145,8 +46145,8 @@ VALUES (2542, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2541, 'waijhoublacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2541, 516, 2541, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2541, 516, 2541, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2541, 1, 'Ximi Nu the Blacksmith');
@@ -46226,8 +46226,8 @@ VALUES (2541, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24220, 'waijhouweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (24220, 516, 24220, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (24220, 516, 24220, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24220, 1, 'Pang Sin-Xiang the Weaponsmith');
@@ -46310,8 +46310,8 @@ VALUES (24220, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24218, 'waijhoubowyer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (24218, 516, 24218, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (24218, 516, 24218, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24218, 1, 'Bowyer Xana Bin-Xara');
@@ -46391,8 +46391,8 @@ VALUES (24218, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1378, 'bowyeraluvian');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1378, 516, 1378, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1378, 516, 1378, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1378, 1, 'Roaming Bowyer');
@@ -46474,8 +46474,8 @@ VALUES (1378, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4434, 'holtburgwestoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4434, 516, 4434, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4434, 516, 4434, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4434, 1, 'Wantorth the Shopkeeper');
@@ -46561,8 +46561,8 @@ VALUES (4434, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28532, 'aljalimamerchantlonely');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (28532, 516, 28532, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (28532, 516, 28532, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28532, 1, 'Lonely Merchant');
@@ -46660,8 +46660,8 @@ VALUES (28532, 0, 16783897)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28531, 'aljalimaarchmagelonely');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (28531, 516, 28531, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (28531, 516, 28531, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28531, 1, 'Lonely Archmage');
@@ -46756,8 +46756,8 @@ VALUES (28531, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28533, 'aljalimaweaponsmithlonely');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (28533, 516, 28533, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (28533, 516, 28533, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28533, 1, 'Lonely Weaponsmith');
@@ -46851,8 +46851,8 @@ VALUES (28533, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4705, 'samsureastoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4705, 516, 4705, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4705, 516, 4705, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4705, 1, 'Ashqa the Shopkeeper');
@@ -46936,8 +46936,8 @@ VALUES (4705, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1388, 'merchantgaron');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1388, 516, 1388, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1388, 516, 1388, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1388, 1, 'Merchant');
@@ -47021,8 +47021,8 @@ VALUES (1388, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1385, 'healergaron');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1385, 516, 1385, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1385, 516, 1385, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1385, 1, 'Healer');
@@ -47104,8 +47104,8 @@ VALUES (1385, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1370, 'archmagegaron');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1370, 516, 1370, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1370, 516, 1370, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1370, 1, 'Archmage');
@@ -47185,8 +47185,8 @@ VALUES (1370, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1394, 'weaponsmithgaron');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1394, 516, 1394, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1394, 516, 1394, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1394, 1, 'Weaponsmith');
@@ -47270,8 +47270,8 @@ VALUES (1394, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4558, 'nantonorthoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4558, 516, 4558, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4558, 516, 4558, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4558, 1, 'Yao Lun the Shopkeeper');
@@ -47357,8 +47357,8 @@ VALUES (4558, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1371, 'archmagesho');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1371, 516, 1371, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1371, 516, 1371, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1371, 1, 'Archmage');
@@ -47444,8 +47444,8 @@ VALUES (1371, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1386, 'healersho');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1386, 516, 1386, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1386, 516, 1386, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1386, 1, 'Healer');
@@ -47529,8 +47529,8 @@ VALUES (1386, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5641, 'yanshisouthwestoutpostweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5641, 516, 5641, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5641, 516, 5641, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5641, 1, 'Weaponsmith Lun Dou');
@@ -47616,8 +47616,8 @@ VALUES (5641, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5640, 'yanshisouthwestoutpostgrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5640, 516, 5640, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5640, 516, 5640, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5640, 1, 'Farmer Ri Na');
@@ -47702,8 +47702,8 @@ VALUES (5640, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5638, 'yanshisouthwestoutposthealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5638, 516, 5638, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5638, 516, 5638, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5638, 1, 'Ru Shaha the Healer');
@@ -47789,8 +47789,8 @@ VALUES (5638, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5639, 'yanshisouthwestoutpostarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5639, 516, 5639, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5639, 516, 5639, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5639, 1, 'Archmage Le-Ai Ren');
@@ -47876,8 +47876,8 @@ VALUES (5639, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4566, 'yanshisouthoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4566, 516, 4566, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4566, 516, 4566, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4566, 1, 'Ru Chi the Shopkeeper');
@@ -47963,8 +47963,8 @@ VALUES (4566, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4446, 'lytelthorpeeastoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4446, 516, 4446, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4446, 516, 4446, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4446, 1, 'Riflyffa the Shopkeeper');
@@ -48050,8 +48050,8 @@ VALUES (4446, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4447, 'lytelthorpewestoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4447, 516, 4447, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4447, 516, 4447, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4447, 1, 'Tromylda the Shopkeeper');
@@ -48137,8 +48137,8 @@ VALUES (4447, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2047, 'vendorappleseller');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2047, 516, 2047, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2047, 516, 2047, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2047, 1, 'Ringoshu the Apple Seller');
@@ -48222,8 +48222,8 @@ VALUES (2047, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1391, 'peddlergaron');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1391, 516, 1391, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1391, 516, 1391, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1391, 1, 'Peddler');
@@ -48309,8 +48309,8 @@ VALUES (1391, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2042, 'farmerpogget');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2042, 516, 2042, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2042, 516, 2042, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2042, 1, 'Farmer Pogget');
@@ -48396,8 +48396,8 @@ VALUES (2042, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1078, 'accursedhallsblacksmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1078, 516, 1078, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1078, 516, 1078, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1078, 1, 'Rushiya bint Anruq');
@@ -48479,8 +48479,8 @@ VALUES (1078, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22082, 'mitemazealianew');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (22082, 516, 22082, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (22082, 516, 22082, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22082, 1, 'Alia Dunolmad');
@@ -48566,8 +48566,8 @@ VALUES (22082, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4707, 'yaraqeastoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4707, 516, 4707, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4707, 516, 4707, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4707, 1, 'Lu''zura the Shopkeeper');
@@ -48653,8 +48653,8 @@ VALUES (4707, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5765, 'snowmanhappygiant');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5765, 532, 5765, 8388662, 'AAA9AAAAAAA=', 104643);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5765, 532, 5765, 8388662, NULL, 'AAA9AAAAAAA=', 104643);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5765, 1, 'Snowman');
@@ -48688,8 +48688,8 @@ VALUES (5765, 12, True)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9023, 'bowyerwanderingtiofor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9023, 516, 9023, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9023, 516, 9023, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9023, 1, 'Spertat the Ursuin Hunter');
@@ -48783,8 +48783,8 @@ VALUES (9023, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35488, 'ace35488-skettekthewanderer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (35488, 516, 35488, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (35488, 516, 35488, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35488, 1, 'Skettek the Wanderer');
@@ -48865,8 +48865,8 @@ VALUES (35488, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7427, 'aerlinthevendor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (7427, 516, 7427, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (7427, 516, 7427, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7427, 1, 'Jhen Gau the Souvenir Hawker');
@@ -48956,8 +48956,8 @@ VALUES (7427, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43632, 'ace43632-olthoimatron');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (43632, 516, 43632, 8388662, 'AAA9AAAAAAA=', 129155);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (43632, 516, 43632, 8388662, NULL, 'AAA9AAAAAAA=', 129155);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43632, 1, 'Olthoi Matron');
@@ -48998,8 +48998,8 @@ VALUES (43632, 67114410, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43490, 'ace43490-olthoimatron');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (43490, 516, 43490, 8388662, 'AAA9AAAAAAA=', 129155);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (43490, 516, 43490, 8388662, NULL, 'AAA9AAAAAAA=', 129155);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43490, 1, 'Olthoi Matron');
@@ -49040,8 +49040,8 @@ VALUES (43490, 67114424, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38574, 'ace38574-celestialhandquartermaster');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38574, 516, 38574, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (38574, 516, 38574, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38574, 1, 'Celestial Hand Quartermaster');
@@ -49126,8 +49126,8 @@ VALUES (38574, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38687, 'ace38687-farnorthearchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38687, 516, 38687, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (38687, 516, 38687, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38687, 1, 'Farnor the Archmage');
@@ -49207,8 +49207,8 @@ VALUES (38687, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38688, 'ace38688-shopkeeperpolly');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38688, 516, 38688, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (38688, 516, 38688, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38688, 1, 'Shopkeeper Polly');
@@ -49293,8 +49293,8 @@ VALUES (38688, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34839, 'ace34839-dobblar');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (34839, 516, 34839, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (34839, 516, 34839, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34839, 1, 'Dobblar');
@@ -49374,8 +49374,8 @@ VALUES (34839, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34840, 'ace34840-brozuu');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (34840, 516, 34840, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (34840, 516, 34840, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34840, 1, 'Brozuu');
@@ -49412,8 +49412,8 @@ VALUES (34840, 67114919, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (970, 'undercityscribe');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (970, 516, 970, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (970, 516, 970, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (970, 1, 'Gailadu the Scribe');
@@ -49497,8 +49497,8 @@ VALUES (970, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (967, 'undercityarmorer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (967, 516, 967, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (967, 516, 967, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (967, 1, 'Arina of the Arms');
@@ -49580,8 +49580,8 @@ VALUES (967, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (969, 'undercityhealer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (969, 516, 969, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (969, 516, 969, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (969, 1, 'Healer Lithinia of Chiran');
@@ -49667,8 +49667,8 @@ VALUES (969, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (972, 'undercityweaponsmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (972, 516, 972, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (972, 516, 972, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (972, 1, 'Shunju Shinjin the Weaponsmith');
@@ -49754,8 +49754,8 @@ VALUES (972, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (968, 'undercitygrocer');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (968, 516, 968, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (968, 516, 968, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (968, 1, 'Henrid the Grocer');
@@ -49842,8 +49842,8 @@ VALUES (968, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (971, 'undercityshady');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (971, 516, 971, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (971, 516, 971, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (971, 1, 'Grethoric of all Trades');
@@ -49929,8 +49929,8 @@ VALUES (971, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5490, 'undercityarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5490, 516, 5490, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5490, 516, 5490, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5490, 1, 'Archmage Mah bint Dirid');
@@ -50023,8 +50023,8 @@ VALUES (5490, 16, 16795641)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9018, 'archmagewanderingamun');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (9018, 516, 9018, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (9018, 516, 9018, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9018, 1, 'Hasina bint Rira');
@@ -50104,8 +50104,8 @@ VALUES (9018, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1375, 'blacksmithaluvian');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1375, 516, 1375, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1375, 516, 1375, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1375, 1, 'Blacksmith');
@@ -50187,8 +50187,8 @@ VALUES (1375, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41731, 'ace41731-whisperingbladequartermaster');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (41731, 516, 41731, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (41731, 516, 41731, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41731, 1, 'Whispering Blade Quartermaster');
@@ -50273,8 +50273,8 @@ VALUES (41731, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33002, 'ace33002-bortromthethrifty');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (33002, 516, 33002, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (33002, 516, 33002, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33002, 1, 'Bortrom the Thrifty');
@@ -50356,8 +50356,8 @@ VALUES (33002, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33001, 'ace33001-koachaila');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (33001, 516, 33001, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (33001, 516, 33001, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33001, 1, 'Koa Chai-La');
@@ -50440,8 +50440,8 @@ VALUES (33001, 11, 16778429)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33000, 'ace33000-mudrisibnhadram');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (33000, 516, 33000, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (33000, 516, 33000, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33000, 1, 'Mudris ibn Hadram');
@@ -50521,8 +50521,8 @@ VALUES (33000, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38575, 'ace38575-eldrytchwebquartermaster');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38575, 516, 38575, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (38575, 516, 38575, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38575, 1, 'Eldrytch Web Quartermaster');
@@ -50607,8 +50607,8 @@ VALUES (38575, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38689, 'ace38689-raenholmthearchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38689, 516, 38689, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (38689, 516, 38689, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38689, 1, 'Raenholm the Archmage');
@@ -50688,8 +50688,8 @@ VALUES (38689, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38690, 'ace38690-shopkeepgunderson');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38690, 516, 38690, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (38690, 516, 38690, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38690, 1, 'Shopkeep Gunderson');
@@ -50774,8 +50774,8 @@ VALUES (38690, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35487, 'ace35487-hurnmelthesmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (35487, 516, 35487, 8388662, 'AAA9AAAAAAA=', 362691);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (35487, 516, 35487, 8388662, NULL, 'AAA9AAAAAAA=', 362691);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35487, 1, 'Hurnmel the Smith');
@@ -50864,8 +50864,8 @@ VALUES (35487, 0, 16781835)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52707, 'ace52707-zabien');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (52707, 516, 52707, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (52707, 516, 52707, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52707, 1, 'Zabien');
@@ -50951,8 +50951,8 @@ VALUES (52707, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52858, 'ace52858-gauntletticketvendor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (52858, 516, 52858, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (52858, 516, 52858, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52858, 1, 'Gauntlet Ticket Vendor');
@@ -51037,8 +51037,8 @@ VALUES (52858, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32056, 'ace32056-archmagemoldurg');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (32056, 516, 32056, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (32056, 516, 32056, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32056, 1, 'Archmage Moldurg');
@@ -51075,8 +51075,8 @@ VALUES (32056, 67113355, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32053, 'ace32053-healerhargurg');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (32053, 516, 32053, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (32053, 516, 32053, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32053, 1, 'Healer Hargurg');
@@ -51113,8 +51113,8 @@ VALUES (32053, 67113355, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2247, 'mastergharundimarchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2247, 516, 2247, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2247, 516, 2247, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2247, 1, 'Fadsahil al-Tashbi the Master Archmage');
@@ -51194,8 +51194,8 @@ VALUES (2247, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38576, 'ace38576-radiantbloodquartermaster');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38576, 516, 38576, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (38576, 516, 38576, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38576, 1, 'Radiant Blood Quartermaster');
@@ -51280,8 +51280,8 @@ VALUES (38576, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38692, 'ace38692-shopkeeperlazlo');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38692, 516, 38692, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (38692, 516, 38692, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38692, 1, 'Shopkeeper Lazlo');
@@ -51366,8 +51366,8 @@ VALUES (38692, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38691, 'ace38691-vermiliathearchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (38691, 516, 38691, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (38691, 516, 38691, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38691, 1, 'Vermilia the Archmage');
@@ -51447,8 +51447,8 @@ VALUES (38691, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44076, 'ace44076-laurana');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (44076, 516, 44076, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (44076, 516, 44076, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44076, 1, 'Laurana');
@@ -51539,8 +51539,8 @@ VALUES (44076, 9, 16795213)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1379, 'bowyergaron');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1379, 516, 1379, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1379, 516, 1379, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1379, 1, 'Roaming Bowyer');
@@ -51622,8 +51622,8 @@ VALUES (1379, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1382, 'farmergaron');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1382, 516, 1382, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1382, 516, 1382, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1382, 1, 'Farmer');
@@ -51707,8 +51707,8 @@ VALUES (1382, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7883, 'snowmanjollygiant');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (7883, 516, 7883, 8388662, 'AAA9AAAAAAA=', 104579);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (7883, 516, 7883, 8388662, NULL, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7883, 1, 'Jolly Snowman');
@@ -51743,8 +51743,8 @@ VALUES (7883, 12, True)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1372, 'armoreraluvian');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1372, 516, 1372, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1372, 516, 1372, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1372, 1, 'Armorer');
@@ -51830,8 +51830,8 @@ VALUES (1372, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34915, 'ace34915-sigilkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (34915, 516, 34915, 8388662, 'AAA9AAAAAAA=', 104451);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (34915, 516, 34915, 8388662, NULL, 'AAA9AAAAAAA=', 104451);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34915, 1, 'Sigil Keeper');
@@ -51865,8 +51865,8 @@ VALUES (34915, 12, True)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31224, 'ace31224-shopkeeper');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (31224, 516, 31224, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (31224, 516, 31224, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31224, 1, 'Shopkeeper');
@@ -51954,8 +51954,8 @@ VALUES (31224, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1355, 'zalphoosshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1355, 516, 1355, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1355, 516, 1355, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1355, 1, 'Zalphoos the Shopkeeper');
@@ -52042,8 +52042,8 @@ VALUES (1355, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52856, 'ace52856-gauntletticketvendor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (52856, 516, 52856, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (52856, 516, 52856, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52856, 1, 'Gauntlet Ticket Vendor');
@@ -52128,8 +52128,8 @@ VALUES (52856, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52705, 'ace52705-wreen');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (52705, 516, 52705, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (52705, 516, 52705, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52705, 1, 'Wreen');
@@ -52215,8 +52215,8 @@ VALUES (52705, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2502, 'plateautailor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2502, 516, 2502, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2502, 516, 2502, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2502, 1, 'Ka Ku-To the Tailor');
@@ -52304,8 +52304,8 @@ VALUES (2502, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41612, 'ace41612-missive');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (41612, 516, 41612, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (41612, 516, 41612, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41612, 1, 'Missive');
@@ -52386,8 +52386,8 @@ VALUES (41612, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40591, 'ace40591-creed');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40591, 516, 40591, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40591, 516, 40591, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40591, 1, 'Creed');
@@ -52475,8 +52475,8 @@ VALUES (40591, 16, 16795662)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5767, 'snowmanunhappygiant');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (5767, 532, 5767, 8388662, 'AAA9AAAAAAA=', 104643);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (5767, 532, 5767, 8388662, NULL, 'AAA9AAAAAAA=', 104643);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5767, 1, 'Giant Snowman');
@@ -52510,8 +52510,8 @@ VALUES (5767, 12, True)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1079, 'ashentearspeddler');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1079, 516, 1079, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1079, 516, 1079, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1079, 1, 'Shihinden Ran');
@@ -52599,8 +52599,8 @@ VALUES (1079, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (411, 'jeweler-gharundim');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (411, 516, 411, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (411, 516, 411, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (411, 1, 'Fisana the Jeweler');
@@ -52688,8 +52688,8 @@ VALUES (411, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2540, 'licharchmage');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (2540, 532, 2540, 8388662, 'AAA9AAAAAAA=', 104579);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (2540, 532, 2540, 8388662, NULL, 'AAA9AAAAAAA=', 104579);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2540, 1, 'Lich Archmage');
@@ -52727,8 +52727,8 @@ VALUES (2540, 67111341, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4688, 'alarqaswestoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4688, 516, 4688, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4688, 516, 4688, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4688, 1, 'Shopkeeper Tirua');
@@ -52811,8 +52811,8 @@ VALUES (4688, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4708, 'yaraqnorthoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4708, 516, 4708, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4708, 516, 4708, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4708, 1, 'Atqur the Shopkeeper');
@@ -52896,8 +52896,8 @@ VALUES (4708, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (405, 'peddler-aluvian');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (405, 516, 405, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (405, 516, 405, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (405, 1, 'Elthina the Shady');
@@ -52977,8 +52977,8 @@ VALUES (405, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37477, 'ace37477-hurnmelthesmith');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (37477, 516, 37477, 8388662, 'AAA9AAAAAAA=', 362691);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (37477, 516, 37477, 8388662, NULL, 'AAA9AAAAAAA=', 362691);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37477, 1, 'Hurnmel the Smith');
@@ -53067,8 +53067,8 @@ VALUES (37477, 0, 16781835)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32299, 'ace32299-barkeepguzglurg');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (32299, 516, 32299, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (32299, 516, 32299, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32299, 1, 'Barkeep Guzglurg');
@@ -53105,8 +53105,8 @@ VALUES (32299, 67113355, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32054, 'ace32054-shopkeeperhulmurg');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (32054, 516, 32054, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (32054, 516, 32054, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32054, 1, 'Shopkeeper Hulmurg');
@@ -53143,8 +53143,8 @@ VALUES (32054, 67113355, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32055, 'ace32055-blacksmithbulidurg');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (32055, 516, 32055, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (32055, 516, 32055, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32055, 1, 'Blacksmith Bulidurg');
@@ -53181,8 +53181,8 @@ VALUES (32055, 67113355, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1377, 'blacksmithsho');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (1377, 516, 1377, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (1377, 516, 1377, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1377, 1, 'Blacksmith');
@@ -53262,8 +53262,8 @@ VALUES (1377, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39687, 'ace39687-towerdistributor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39687, 516, 39687, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39687, 516, 39687, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39687, 1, 'Tower Distributor');
@@ -53343,8 +53343,8 @@ VALUES (39687, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52857, 'ace52857-gauntletticketvendor');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (52857, 516, 52857, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (52857, 516, 52857, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52857, 1, 'Gauntlet Ticket Vendor');
@@ -53429,8 +53429,8 @@ VALUES (52857, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52706, 'ace52706-vellum');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (52706, 516, 52706, 8388662, 'AAA9AAAAAAA=', 100483);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (52706, 516, 52706, 8388662, NULL, 'AAA9AAAAAAA=', 100483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52706, 1, 'Vellum');
@@ -53516,8 +53516,8 @@ VALUES (52706, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40970, 'ace40970-barkeeprubin');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40970, 516, 40970, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40970, 516, 40970, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40970, 1, 'Barkeep Rubin');
@@ -53601,8 +53601,8 @@ VALUES (40970, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40975, 'ace40975-jewelerjurrafaldjiqidh');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40975, 516, 40975, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40975, 516, 40975, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40975, 1, 'Jeweler Jurraf al-Djiqidh');
@@ -53686,8 +53686,8 @@ VALUES (40975, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40972, 'ace40972-smithaishabintkaral');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40972, 516, 40972, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40972, 516, 40972, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40972, 1, 'Smith Aisha bint Karal');
@@ -53771,8 +53771,8 @@ VALUES (40972, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40973, 'ace40973-bowyeraliibnmahir');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40973, 516, 40973, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40973, 516, 40973, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40973, 1, 'Bowyer Ali ibn Mahir');
@@ -53856,8 +53856,8 @@ VALUES (40973, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40966, 'ace40966-jinmialevv');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40966, 516, 40966, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40966, 516, 40966, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40966, 1, 'Jinmi al-Evv');
@@ -53938,8 +53938,8 @@ VALUES (40966, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40974, 'ace40974-grocerkhamalalrachard');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40974, 516, 40974, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40974, 516, 40974, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40974, 1, 'Grocer Khamal al-Rachard');
@@ -54025,8 +54025,8 @@ VALUES (40974, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40971, 'ace40971-archmagemalakibnhern');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40971, 516, 40971, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40971, 516, 40971, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40971, 1, 'Archmage Malak ibn Hern');
@@ -54106,8 +54106,8 @@ VALUES (40971, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4557, 'nantoeastoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4557, 516, 4557, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4557, 516, 4557, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4557, 1, 'Hon Fo the Shopkeeper');
@@ -54193,8 +54193,8 @@ VALUES (4557, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40958, 'ace40958-barkeeprubin');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40958, 516, 40958, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40958, 516, 40958, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40958, 1, 'Barkeep Rubin');
@@ -54278,8 +54278,8 @@ VALUES (40958, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40965, 'ace40965-jewelerjurrafaldjiqidh');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40965, 516, 40965, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40965, 516, 40965, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40965, 1, 'Jeweler Jurraf al-Djiqidh');
@@ -54363,8 +54363,8 @@ VALUES (40965, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40961, 'ace40961-bowyeraliibnmahir');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40961, 516, 40961, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40961, 516, 40961, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40961, 1, 'Bowyer Ali ibn Mahir');
@@ -54448,8 +54448,8 @@ VALUES (40961, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40960, 'ace40960-smithaishabintkaral');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40960, 516, 40960, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40960, 516, 40960, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40960, 1, 'Smith Aisha bint Karal');
@@ -54533,8 +54533,8 @@ VALUES (40960, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40954, 'ace40954-jinmialevv');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40954, 516, 40954, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40954, 516, 40954, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40954, 1, 'Jinmi al-Evv');
@@ -54615,8 +54615,8 @@ VALUES (40954, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40964, 'ace40964-grocerkhamalalrachard');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40964, 516, 40964, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40964, 516, 40964, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40964, 1, 'Grocer Khamal al-Rachard');
@@ -54702,8 +54702,8 @@ VALUES (40964, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40959, 'ace40959-archmagemalakibnhern');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40959, 516, 40959, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40959, 516, 40959, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40959, 1, 'Archmage Malak ibn Hern');
@@ -54783,8 +54783,8 @@ VALUES (40959, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40946, 'ace40946-barkeeprubin');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40946, 516, 40946, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40946, 516, 40946, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40946, 1, 'Barkeep Rubin');
@@ -54868,8 +54868,8 @@ VALUES (40946, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40953, 'ace40953-jewelerjurrafaldjiqidh');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40953, 516, 40953, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40953, 516, 40953, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40953, 1, 'Jeweler Jurraf al-Djiqidh');
@@ -54953,8 +54953,8 @@ VALUES (40953, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40948, 'ace40948-smithaishabintkaral');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40948, 516, 40948, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40948, 516, 40948, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40948, 1, 'Smith Aisha bint Karal');
@@ -55038,8 +55038,8 @@ VALUES (40948, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40949, 'ace40949-bowyeraliibnmahir');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40949, 516, 40949, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40949, 516, 40949, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40949, 1, 'Bowyer Ali ibn Mahir');
@@ -55123,8 +55123,8 @@ VALUES (40949, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40942, 'ace40942-jinmialevv');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40942, 516, 40942, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40942, 516, 40942, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40942, 1, 'Jinmi al-Evv');
@@ -55205,8 +55205,8 @@ VALUES (40942, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40952, 'ace40952-grocerkhamalalrachard');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40952, 516, 40952, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40952, 516, 40952, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40952, 1, 'Grocer Khamal al-Rachard');
@@ -55292,8 +55292,8 @@ VALUES (40952, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40947, 'ace40947-archmagemalakibnhern');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40947, 516, 40947, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40947, 516, 40947, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40947, 1, 'Archmage Malak ibn Hern');
@@ -55373,8 +55373,8 @@ VALUES (40947, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40981, 'ace40981-barkeeprubin');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40981, 516, 40981, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40981, 516, 40981, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40981, 1, 'Barkeep Rubin');
@@ -55458,8 +55458,8 @@ VALUES (40981, 2, 16777293)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40988, 'ace40988-jewelerjurrafaldjiqidh');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40988, 516, 40988, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40988, 516, 40988, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40988, 1, 'Jeweler Jurraf al-Djiqidh');
@@ -55543,8 +55543,8 @@ VALUES (40988, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40984, 'ace40984-bowyeraliibnmahir');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40984, 516, 40984, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40984, 516, 40984, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40984, 1, 'Bowyer Ali ibn Mahir');
@@ -55628,8 +55628,8 @@ VALUES (40984, 11, 16777302)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40983, 'ace40983-smithaishabintkaral');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40983, 516, 40983, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40983, 516, 40983, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40983, 1, 'Smith Aisha bint Karal');
@@ -55713,8 +55713,8 @@ VALUES (40983, 10, 16778431)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40977, 'ace40977-jinmialevv');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40977, 516, 40977, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40977, 516, 40977, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40977, 1, 'Jinmi al-Evv');
@@ -55795,8 +55795,8 @@ VALUES (40977, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40987, 'ace40987-grocerkhamalalrachard');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40987, 516, 40987, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40987, 516, 40987, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40987, 1, 'Grocer Khamal al-Rachard');
@@ -55882,8 +55882,8 @@ VALUES (40987, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40982, 'ace40982-archmagemalakibnhern');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (40982, 516, 40982, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (40982, 516, 40982, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40982, 1, 'Archmage Malak ibn Hern');
@@ -55963,8 +55963,8 @@ VALUES (40982, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31731, 'ace31731-merchant');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (31731, 516, 31731, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (31731, 516, 31731, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31731, 1, 'Merchant');
@@ -56049,8 +56049,8 @@ VALUES (31731, 12, 16778423)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31863, 'ace31863-randallthesponge');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (31863, 516, 31863, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (31863, 516, 31863, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31863, 1, 'Randall the Sponge');
@@ -56134,8 +56134,8 @@ VALUES (31863, 10, 16777301)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4687, 'alarqasnorthoutpostshopkeep');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (4687, 516, 4687, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (4687, 516, 4687, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4687, 1, 'Shopkeeper Yasiya');
@@ -56219,8 +56219,8 @@ VALUES (4687, 2, 16778436)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11409, 'palenqualkerehanua-xp');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11409, 516, 11409, 8388662, 'AAA9AAAAAAA=', 100547);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11409, 516, 11409, 8388662, NULL, 'AAA9AAAAAAA=', 100547);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11409, 1, 'Aun Kerehanua');
@@ -56258,8 +56258,8 @@ VALUES (11409, 67113369, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12687, 'furniturevendorarcanumspecial');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (12687, 516, 12687, 8388662, 'AAA9AAAAAAA=', 100355);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (12687, 516, 12687, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12687, 1, 'Jasin of the Arcanum');
@@ -56339,8 +56339,8 @@ VALUES (12687, 12, 16777304)
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43752, 'ace43752-kanethalevv');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (43752, 516, 43752, 8388662, 'AAA9AAAAAAA=', 100419);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (43752, 516, 43752, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43752, 1, 'Kaneth al-Evv');

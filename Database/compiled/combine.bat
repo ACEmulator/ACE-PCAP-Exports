@@ -15,10 +15,18 @@ copy /b ACE-World.sql + ..\3-Core\4-weeniepagedata\*.sql ACE-World.sql
 echo. >> ACE-World.sql
 copy /b ACE-World.sql + ..\3-Core\5-weenievendordata\*.sql ACE-World.sql
 echo. >> ACE-World.sql
+copy /b ACE-World.sql + ..\3-Core\6-landblocks\*.sql ACE-World.sql
+echo. >> ACE-World.sql
+copy /b ACE-World.sql + ..\3-Core\7-parentdata\*.sql ACE-World.sql
+echo. >> ACE-World.sql
+copy /b ACE-World.sql + ..\3-Core\8-vendordata\*.sql ACE-World.sql
+echo. >> ACE-World.sql
 copy /b ACE-World.sql + ..\3-Core\000-PrepDatabase.sql ACE-World.sql
 echo. >> ACE-World.sql
 copy /b ACE-World.sql + ..\6-Generators\*.sql ACE-World.sql
 echo. >> ACE-World.sql
+REM copy /b ACE-World.sql + ..\3-Core\001-SpawnInstances.sql ACE-World.sql
+REM echo. >> ACE-World.sql
 copy /b ACE-World.sql + ..\3-Core\6-objects\*.sql ACE-World.sql
 echo. >> ACE-World.sql
 copy /b ACE-World.sql + ..\3-Core\7-apprasialobjects\*.sql ACE-World.sql

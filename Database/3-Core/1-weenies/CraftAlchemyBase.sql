@@ -1,8 +1,8 @@
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39329, 'ace39329-enchantedmanaphialpea');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39329, 16, 39329, 552985, NULL, 137345);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39329, 16, 39329, 552985, NULL, NULL, 137345);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39329, 1, 'Enchanted Mana Phial Pea')
@@ -47,8 +47,8 @@ VALUES (39329, 0, 16793601);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11474, 'plantspringpurplecrushed');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11474, 16, 11474, 2125849, NULL, 6273);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11474, 16, 11474, 2125849, NULL, NULL, 6273);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11474, 1, 'Crushed Relanim Plant')
@@ -86,8 +86,8 @@ VALUES (11474, 67111923, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39328, 'ace39328-bundleofenchantedmanaphial');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (39328, 16, 39328, 552985, NULL, 137345);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (39328, 16, 39328, 552985, NULL, NULL, 137345);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39328, 1, 'Bundle of Enchanted Mana Phial')
@@ -132,8 +132,8 @@ VALUES (39328, 0, 16793601);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35716, 'ace35716-bundleofempoweredplatinumphial');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (35716, 16, 35716, 553113, NULL, 137345);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (35716, 16, 35716, 553113, NULL, NULL, 137345);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35716, 1, 'Bundle of Empowered Platinum Phial')
@@ -179,8 +179,8 @@ VALUES (35716, 0, 16793601);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8038, 'plantdarkgreencrushed');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8038, 16, 8038, 2125849, NULL, 6273);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8038, 16, 8038, 2125849, NULL, NULL, 6273);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8038, 1, 'Crushed Verdalim Plant')
@@ -218,8 +218,8 @@ VALUES (8038, 67111922, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8647, 'plantwintergreencrushed');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8647, 16, 8647, 2125849, NULL, 6273);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8647, 16, 8647, 2125849, NULL, NULL, 6273);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8647, 1, 'Crushed Minalim Plant')
@@ -257,8 +257,8 @@ VALUES (8647, 67111926, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8645, 'plantwinterbluecrushed');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8645, 16, 8645, 2125849, NULL, 6273);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8645, 16, 8645, 2125849, NULL, NULL, 6273);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8645, 1, 'Crushed Lapyan Plant')
@@ -296,8 +296,8 @@ VALUES (8645, 67111926, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8649, 'plantwintersilvercrushed');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8649, 16, 8649, 2125849, NULL, 6273);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8649, 16, 8649, 2125849, NULL, NULL, 6273);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8649, 1, 'Crushed Argenory Plant')
@@ -335,8 +335,8 @@ VALUES (8649, 67111925, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35718, 'ace35718-bundleofenchantedsilverphial');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (35718, 16, 35718, 552985, NULL, 137345);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (35718, 16, 35718, 552985, NULL, NULL, 137345);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35718, 1, 'Bundle of Enchanted Silver Phial')
@@ -381,8 +381,8 @@ VALUES (35718, 0, 16793601);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35713, 'ace35713-bundleofenchantedcopperphials');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (35713, 16, 35713, 552985, NULL, 137345);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (35713, 16, 35713, 552985, NULL, NULL, 137345);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35713, 1, 'Bundle of Enchanted Copper Phials')
@@ -427,8 +427,8 @@ VALUES (35713, 0, 16793601);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36729, 'ace36729-enchantedcopperphialpea');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (36729, 16, 36729, 552985, NULL, 137345);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (36729, 16, 36729, 552985, NULL, NULL, 137345);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36729, 1, 'Enchanted Copper Phial Pea')
@@ -473,8 +473,8 @@ VALUES (36729, 0, 16793601);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36735, 'ace36735-enchantedsilverphialpea');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (36735, 16, 36735, 552985, NULL, 137345);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (36735, 16, 36735, 552985, NULL, NULL, 137345);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36735, 1, 'Enchanted Silver Phial Pea')
@@ -519,8 +519,8 @@ VALUES (36735, 0, 16793601);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8040, 'plantdarkredcrushed');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8040, 16, 8040, 2125849, NULL, 6273);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8040, 16, 8040, 2125849, NULL, NULL, 6273);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8040, 1, 'Crushed Hennacin Plant')
@@ -558,8 +558,8 @@ VALUES (8040, 67111920, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11473, 'plantspringbluecrushed');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (11473, 16, 11473, 2125849, NULL, 6273);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11473, 16, 11473, 2125849, NULL, NULL, 6273);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11473, 1, 'Crushed Colban Plant')
@@ -597,8 +597,8 @@ VALUES (11473, 67111918, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8042, 'plantdarkyellowcrushed');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (8042, 16, 8042, 2125849, NULL, 6273);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (8042, 16, 8042, 2125849, NULL, NULL, 6273);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8042, 1, 'Crushed Berimphur Plant')
@@ -636,8 +636,8 @@ VALUES (8042, 67111921, 0, 0);
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23361, 'choriziteformula');
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `currentMotionState`, `physicsDescriptionFlag`)
-VALUES (23361, 18, 23361, 2650136, NULL, 137217);
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (23361, 18, 23361, 2650136, NULL, NULL, 137217);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23361, 1, 'Chorizite Formula');
@@ -677,4 +677,419 @@ VALUES (23361, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23361, 0, 16783325);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (36731, 'ace36731-enchantedironphialpea');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (36731, 16, 36731, 552985, NULL, NULL, 137345);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36731, 1, 'Enchanted Iron Phial Pea')
+     , (36731, 20, 'Enchanted Iron Phial Peas');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (36731, 8, 100689706)
+     , (36731, 1, 33556223)
+     , (36731, 3, 536870932)
+     , (36731, 22, 872415275)
+     , (36731, 6, 67111928);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36731, 53, 101)
+     , (36731, 1, 8388608)
+     , (36731, 11, 100)
+     , (36731, 12, 1)
+     , (36731, 94, 67108864)
+     , (36731, 16, 524296)
+     , (36731, 19, 1000)
+     , (36731, 93, 1044)
+     , (36731, 9007, 1);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (36731, 39, 0.8);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36731, 13, True)
+     , (36731, 11, True)
+     , (36731, 14, True)
+     , (36731, 19, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (36731, 67112642, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (36731, 0, 83888861, 83892342);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (36731, 0, 16778862);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (36730, 'ace36730-enchantedgoldphialpea');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (36730, 16, 36730, 552985, NULL, NULL, 137345);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36730, 1, 'Enchanted Gold Phial Pea')
+     , (36730, 20, 'Enchanted Gold Phial Peas');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (36730, 8, 100689702)
+     , (36730, 1, 33556223)
+     , (36730, 3, 536870932)
+     , (36730, 22, 872415275)
+     , (36730, 6, 67111928);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36730, 53, 101)
+     , (36730, 1, 8388608)
+     , (36730, 11, 100)
+     , (36730, 12, 1)
+     , (36730, 94, 67108864)
+     , (36730, 16, 524296)
+     , (36730, 19, 10000)
+     , (36730, 93, 1044)
+     , (36730, 9007, 1);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (36730, 39, 0.8);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36730, 13, True)
+     , (36730, 11, True)
+     , (36730, 14, True)
+     , (36730, 19, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (36730, 67112642, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (36730, 0, 83888861, 83892342);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (36730, 0, 16778862);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (36734, 'ace36734-enchantedpyrealphialpea');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (36734, 16, 36734, 552985, NULL, NULL, 137345);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36734, 1, 'Enchanted Pyreal Phial Pea')
+     , (36734, 20, 'Enchanted Pyreal Phial Peas');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (36734, 8, 100689703)
+     , (36734, 1, 33556223)
+     , (36734, 3, 536870932)
+     , (36734, 22, 872415275)
+     , (36734, 6, 67111928);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36734, 53, 101)
+     , (36734, 1, 8388608)
+     , (36734, 11, 100)
+     , (36734, 12, 1)
+     , (36734, 94, 67108864)
+     , (36734, 16, 524296)
+     , (36734, 19, 20000)
+     , (36734, 93, 1044)
+     , (36734, 9007, 1);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (36734, 39, 0.8);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36734, 13, True)
+     , (36734, 11, True)
+     , (36734, 14, True)
+     , (36734, 19, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (36734, 67112642, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (36734, 0, 83888861, 83892342);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (36734, 0, 16778862);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (36732, 'ace36732-enchantedplatinumphialpea');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (36732, 16, 36732, 552985, NULL, NULL, 137345);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36732, 1, 'Enchanted Platinum Phial Pea')
+     , (36732, 20, 'Enchanted Platinum Phial Peas');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (36732, 8, 100689708)
+     , (36732, 1, 33556223)
+     , (36732, 3, 536870932)
+     , (36732, 22, 872415275)
+     , (36732, 6, 67111928);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36732, 53, 101)
+     , (36732, 1, 8388608)
+     , (36732, 11, 100)
+     , (36732, 12, 1)
+     , (36732, 94, 67108864)
+     , (36732, 16, 524296)
+     , (36732, 19, 50000)
+     , (36732, 93, 1044)
+     , (36732, 9007, 1);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (36732, 39, 0.8);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36732, 13, True)
+     , (36732, 11, True)
+     , (36732, 14, True)
+     , (36732, 19, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (36732, 67112642, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (36732, 0, 83888861, 83892342);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (36732, 0, 16778862);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (36733, 'ace36733-empoweredplatinumphialpea');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (36733, 16, 36733, 553113, NULL, NULL, 137345);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36733, 1, 'Empowered Platinum Phial Pea')
+     , (36733, 20, 'Empowered Platinum Phial Peas');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (36733, 8, 100689708)
+     , (36733, 1, 33556223)
+     , (36733, 3, 536870932)
+     , (36733, 22, 872415275)
+     , (36733, 6, 67111928);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36733, 53, 101)
+     , (36733, 1, 8388608)
+     , (36733, 18, 1)
+     , (36733, 11, 100)
+     , (36733, 12, 1)
+     , (36733, 94, 67108864)
+     , (36733, 16, 524296)
+     , (36733, 19, 125000)
+     , (36733, 93, 1044)
+     , (36733, 9007, 1);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (36733, 39, 0.8);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36733, 13, True)
+     , (36733, 11, True)
+     , (36733, 14, True)
+     , (36733, 19, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (36733, 67112642, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (36733, 0, 83888861, 83892342);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (36733, 0, 16778862);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (35712, 'ace35712-bundleofenchantedironphial');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (35712, 16, 35712, 552985, NULL, NULL, 137345);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35712, 1, 'Bundle of Enchanted Iron Phial')
+     , (35712, 20, 'Bundles of Enchanted Iron Phials');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (35712, 8, 100689522)
+     , (35712, 1, 33556223)
+     , (35712, 3, 536870932)
+     , (35712, 22, 872415275)
+     , (35712, 6, 67111928);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35712, 53, 101)
+     , (35712, 1, 8388608)
+     , (35712, 11, 50)
+     , (35712, 12, 1)
+     , (35712, 94, 67108864)
+     , (35712, 16, 524296)
+     , (35712, 19, 20)
+     , (35712, 93, 1044)
+     , (35712, 9007, 1);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35712, 39, 0.8);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35712, 13, True)
+     , (35712, 11, True)
+     , (35712, 14, True)
+     , (35712, 19, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (35712, 67112642, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (35712, 0, 83888861, 83892342);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (35712, 0, 16778862);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (35714, 'ace35714-bundleofenchantedgoldphial');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (35714, 16, 35714, 552985, NULL, NULL, 137345);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35714, 1, 'Bundle of Enchanted Gold Phial')
+     , (35714, 20, 'Bundles of Enchanted Gold Phials');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (35714, 8, 100689526)
+     , (35714, 1, 33556223)
+     , (35714, 3, 536870932)
+     , (35714, 22, 872415275)
+     , (35714, 6, 67111928);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35714, 53, 101)
+     , (35714, 1, 8388608)
+     , (35714, 11, 50)
+     , (35714, 12, 1)
+     , (35714, 94, 67108864)
+     , (35714, 16, 524296)
+     , (35714, 19, 200)
+     , (35714, 93, 1044)
+     , (35714, 9007, 1);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35714, 39, 0.8);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35714, 13, True)
+     , (35714, 11, True)
+     , (35714, 14, True)
+     , (35714, 19, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (35714, 67112642, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (35714, 0, 83888861, 83892342);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (35714, 0, 16778862);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (35717, 'ace35717-bundleofenchantedpyrealphial');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (35717, 16, 35717, 552985, NULL, NULL, 137345);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35717, 1, 'Bundle of Enchanted Pyreal Phial')
+     , (35717, 20, 'Bundles of Enchanted Pyreal Phials');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (35717, 8, 100689529)
+     , (35717, 1, 33556223)
+     , (35717, 3, 536870932)
+     , (35717, 22, 872415275)
+     , (35717, 6, 67111928);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35717, 53, 101)
+     , (35717, 1, 8388608)
+     , (35717, 11, 50)
+     , (35717, 12, 1)
+     , (35717, 94, 67108864)
+     , (35717, 16, 524296)
+     , (35717, 19, 400)
+     , (35717, 93, 1044)
+     , (35717, 9007, 1);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35717, 39, 0.8);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35717, 13, True)
+     , (35717, 11, True)
+     , (35717, 14, True)
+     , (35717, 19, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (35717, 67112642, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (35717, 0, 83888861, 83892342);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (35717, 0, 16778862);
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (35715, 'ace35715-bundleofenchantedplatinumphial');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (35715, 16, 35715, 552985, NULL, NULL, 137345);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35715, 1, 'Bundle of Enchanted Platinum Phial')
+     , (35715, 20, 'Bundles of Enchanted Platinum Phials');
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (35715, 8, 100689528)
+     , (35715, 1, 33556223)
+     , (35715, 3, 536870932)
+     , (35715, 22, 872415275)
+     , (35715, 6, 67111928);
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35715, 53, 101)
+     , (35715, 1, 8388608)
+     , (35715, 11, 50)
+     , (35715, 12, 1)
+     , (35715, 94, 67108864)
+     , (35715, 16, 524296)
+     , (35715, 19, 1000)
+     , (35715, 93, 1044)
+     , (35715, 9007, 1);
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35715, 39, 0.8);
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35715, 13, True)
+     , (35715, 11, True)
+     , (35715, 14, True)
+     , (35715, 19, True);
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (35715, 67112642, 0, 0);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (35715, 0, 83888861, 83892342);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (35715, 0, 16778862);
 

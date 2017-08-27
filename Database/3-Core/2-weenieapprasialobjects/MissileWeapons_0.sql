@@ -1696,23 +1696,6 @@ VALUES (34138, 29, 1.2)
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34138, 69, 0);
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (306, 353, 8)
-     , (306, 19, 350)
-     , (306, 5, 980)
-     , (306, 45, 0)
-     , (306, 49, 45)
-     , (306, 48, 47)
-     , (306, 44, 0);
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (306, 29, 1)
-     , (306, 22, 0)
-     , (306, 63, 1.5)
-     , (306, 21, 0)
-     , (306, 26, 27.3)
-     , (306, 62, 1);
-
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41785, 16, 'A Mana Phial, filled with an alchemical mixture designed to temporarily weaken the health regeneration of those coated in the fluid.');
 
@@ -4172,26 +4155,6 @@ VALUES (34585, 29, 1)
      , (34585, 21, 0)
      , (34585, 26, 0)
      , (34585, 62, 1);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5770, 16, 'A ball made of densely packed snow, once partially melted and then re-frozen to form a hard ball of ice, then given a boost.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5770, 353, 10)
-     , (5770, 19, 100)
-     , (5770, 5, 250)
-     , (5770, 45, 8)
-     , (5770, 49, 20)
-     , (5770, 48, 47)
-     , (5770, 44, 9);
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (5770, 29, 0.8)
-     , (5770, 22, 0.25)
-     , (5770, 63, 1)
-     , (5770, 21, 0)
-     , (5770, 26, 15)
-     , (5770, 62, 1);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34140, 16, 'A superbly crafted jack o'' lantern, made with a carving knife.');
