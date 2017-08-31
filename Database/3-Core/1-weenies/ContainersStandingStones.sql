@@ -1,3 +1,6 @@
+/* Weenie - ContainersStandingStones - Standing Stone (5864) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5864;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5864, 'monolithfrore1');
 
@@ -34,6 +37,9 @@ VALUES (5864, 12, True)
      , (5864, 19, True)
      , (5864, 1, True);
 
+/* Weenie - ContainersStandingStones - Standing Stone (5865) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5865;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5865, 'monolithfrore2');
 
@@ -68,6 +74,9 @@ VALUES (5865, 12, True)
      , (5865, 14, True)
      , (5865, 19, True)
      , (5865, 1, True);
+
+/* Weenie - ContainersStandingStones - Standing Stone (5866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5866;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5866, 'monolithfrore3');

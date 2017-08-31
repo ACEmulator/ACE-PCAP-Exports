@@ -1,3 +1,6 @@
+/* Weenie - FoodObjects - Carrot (5758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5758;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5758, 'carrot');
 
@@ -32,6 +35,9 @@ VALUES (5758, 13, True)
      , (5758, 14, True)
      , (5758, 19, True);
 
+/* Weenie - FoodObjects - Wah Chon's Winter Lager (23126) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23126;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23126, 'lagerwinter');
 
@@ -64,6 +70,9 @@ VALUES (23126, 13, True)
      , (23126, 11, True)
      , (23126, 14, True)
      , (23126, 19, True);
+
+/* Weenie - FoodObjects - Bunch of Nanners (22578) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22578;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22578, 'nannerbunch');
@@ -98,6 +107,9 @@ VALUES (22578, 13, True)
      , (22578, 11, True)
      , (22578, 14, True)
      , (22578, 19, True);
+
+/* Weenie - FoodObjects - Hangover Cure (23924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23924;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23924, 'hangoverpotion');
@@ -143,6 +155,9 @@ VALUES (23924, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23924, 0, 16778735);
 
+/* Weenie - FoodObjects - Ulgrim's Home Brew (23773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23773;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23773, 'stoutulgrim');
 
@@ -176,6 +191,9 @@ VALUES (23773, 13, True)
      , (23773, 11, True)
      , (23773, 19, True)
      , (23773, 22, True);
+
+/* Weenie - FoodObjects - Potion of Healing (377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 377;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (377, 'healthpotion');
@@ -222,6 +240,9 @@ VALUES (377, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (377, 0, 16778735);
 
+/* Weenie - FoodObjects - Fried Mushroom (4731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4731;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4731, 'friedmushroom');
 
@@ -255,6 +276,9 @@ VALUES (4731, 13, True)
      , (4731, 14, True)
      , (4731, 19, True);
 
+/* Weenie - FoodObjects - Apple (258) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 258;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (258, 'apple');
 
@@ -286,6 +310,9 @@ VALUES (258, 13, True)
      , (258, 11, True)
      , (258, 14, True)
      , (258, 19, True);
+
+/* Weenie - FoodObjects - Stout (2471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2471;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2471, 'stout');
@@ -320,6 +347,9 @@ VALUES (2471, 13, True)
      , (2471, 14, True)
      , (2471, 19, True);
 
+/* Weenie - FoodObjects - Egg (546) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 546;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (546, 'egg');
 
@@ -352,6 +382,9 @@ VALUES (546, 13, True)
      , (546, 11, True)
      , (546, 14, True)
      , (546, 19, True);
+
+/* Weenie - FoodObjects - Health Tonic (27320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27320;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27320, 'healthtonic');
@@ -397,6 +430,9 @@ VALUES (27320, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27320, 0, 16778735);
 
+/* Weenie - FoodObjects - Stamina Elixir (2470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2470;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2470, 'staminaelixir');
 
@@ -440,6 +476,9 @@ VALUES (2470, 0, 83889126, 83889126)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2470, 0, 16778735);
+
+/* Weenie - FoodObjects - Health Tincture (27319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27319;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27319, 'healthtincture');
@@ -485,6 +524,9 @@ VALUES (27319, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27319, 0, 16778735);
 
+/* Weenie - FoodObjects - Health Elixir (2458) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2458;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2458, 'healthelixir');
 
@@ -528,6 +570,9 @@ VALUES (2458, 0, 83889126, 83889126)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2458, 0, 16778735);
+
+/* Weenie - FoodObjects - Mana Potion (379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 379;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (379, 'manapotion');
@@ -573,6 +618,9 @@ VALUES (379, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (379, 0, 16778735);
 
+/* Weenie - FoodObjects - Mana Elixir (2461) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2461;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2461, 'manaelixir');
 
@@ -616,6 +664,9 @@ VALUES (2461, 0, 83889126, 83889126)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2461, 0, 16778735);
+
+/* Weenie - FoodObjects - Healing Tonic (5491) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5491;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5491, 'healingtonic');
@@ -661,6 +712,9 @@ VALUES (5491, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5491, 0, 16778735);
 
+/* Weenie - FoodObjects - Bread (259) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 259;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (259, 'bread');
 
@@ -693,6 +747,9 @@ VALUES (259, 13, True)
      , (259, 11, True)
      , (259, 14, True)
      , (259, 19, True);
+
+/* Weenie - FoodObjects - Meat (265) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 265;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (265, 'meat');
@@ -727,6 +784,9 @@ VALUES (265, 13, True)
      , (265, 14, True)
      , (265, 19, True);
 
+/* Weenie - FoodObjects - Brimstone-cap Mushroom (547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 547;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (547, 'mushroom');
 
@@ -758,6 +818,9 @@ VALUES (547, 13, True)
      , (547, 11, True)
      , (547, 14, True)
      , (547, 19, True);
+
+/* Weenie - FoodObjects - Mana Tincture (27322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27322;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27322, 'manatincture');
@@ -803,6 +866,9 @@ VALUES (27322, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27322, 0, 16778735);
 
+/* Weenie - FoodObjects - Health Philtre (27318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27318;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27318, 'healthphiltre');
 
@@ -847,6 +913,9 @@ VALUES (27318, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27318, 0, 16778735);
 
+/* Weenie - FoodObjects - Cheese (261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 261;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (261, 'cheese');
 
@@ -881,6 +950,9 @@ VALUES (261, 13, True)
      , (261, 14, True)
      , (261, 19, True);
 
+/* Weenie - FoodObjects - Royal Cabbage (1449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1449;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1449, 'cabbageroyal');
 
@@ -912,6 +984,9 @@ VALUES (1449, 13, True)
      , (1449, 11, True)
      , (1449, 14, True)
      , (1449, 19, True);
+
+/* Weenie - FoodObjects - Stamina Potion (378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 378;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (378, 'staminapotion');
@@ -957,6 +1032,9 @@ VALUES (378, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (378, 0, 16778735);
 
+/* Weenie - FoodObjects - Stamina Brew (27324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27324;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27324, 'staminabrew');
 
@@ -1001,6 +1079,9 @@ VALUES (27324, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27324, 0, 16778735);
 
+/* Weenie - FoodObjects - Fish (263) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 263;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (263, 'fish');
 
@@ -1035,6 +1116,9 @@ VALUES (263, 13, True)
      , (263, 14, True)
      , (263, 19, True);
 
+/* Weenie - FoodObjects - Cabbage (260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 260;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (260, 'cabbage');
 
@@ -1066,6 +1150,9 @@ VALUES (260, 13, True)
      , (260, 11, True)
      , (260, 14, True)
      , (260, 19, True);
+
+/* Weenie - FoodObjects - Steak (4742) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4742;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4742, 'steak');
@@ -1100,6 +1187,9 @@ VALUES (4742, 13, True)
      , (4742, 14, True)
      , (4742, 19, True);
 
+/* Weenie - FoodObjects - Bruised Apple (5090) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5090;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5090, 'bruisedapple');
 
@@ -1130,6 +1220,9 @@ VALUES (5090, 13, True)
      , (5090, 11, True)
      , (5090, 14, True)
      , (5090, 19, True);
+
+/* Weenie - FoodObjects - Filled Beer Stein (8391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8391;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8391, 'beersteinfull');
@@ -1163,6 +1256,9 @@ VALUES (8391, 13, True)
      , (8391, 11, True)
      , (8391, 14, True)
      , (8391, 19, True);
+
+/* Weenie - FoodObjects - Mana Potion (31196) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31196;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31196, 'ace31196-manapotion');
@@ -1207,6 +1303,9 @@ VALUES (31196, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31196, 0, 16778735);
 
+/* Weenie - FoodObjects - Stamina Potion (31197) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31197;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31197, 'ace31197-staminapotion');
 
@@ -1249,6 +1348,9 @@ VALUES (31197, 0, 83889126, 83889126)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31197, 0, 16778735);
+
+/* Weenie - FoodObjects - Potion of Healing (31198) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31198;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31198, 'ace31198-potionofhealing');
@@ -1294,6 +1396,9 @@ VALUES (31198, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31198, 0, 16778735);
 
+/* Weenie - FoodObjects - Grapes (264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 264;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (264, 'grapes');
 
@@ -1327,6 +1432,9 @@ VALUES (264, 13, True)
      , (264, 11, True)
      , (264, 14, True)
      , (264, 19, True);
+
+/* Weenie - FoodObjects - Mana Philtre (27321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27321;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27321, 'manaphiltre');
@@ -1372,6 +1480,9 @@ VALUES (27321, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27321, 0, 16778735);
 
+/* Weenie - FoodObjects - Sake (2468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2468;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2468, 'sake');
 
@@ -1404,6 +1515,9 @@ VALUES (2468, 13, True)
      , (2468, 11, True)
      , (2468, 14, True)
      , (2468, 19, True);
+
+/* Weenie - FoodObjects - Stamina Tonic (27327) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27327;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27327, 'staminatonic');
@@ -1449,6 +1563,9 @@ VALUES (27327, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27327, 0, 16778735);
 
+/* Weenie - FoodObjects - Mana Tonic (27323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27323;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27323, 'manatonic');
 
@@ -1493,6 +1610,9 @@ VALUES (27323, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27323, 0, 16778735);
 
+/* Weenie - FoodObjects - Water (4746) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4746;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4746, 'water');
 
@@ -1536,6 +1656,9 @@ VALUES (4746, 0, 83888789, 83888789)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4746, 0, 16778735);
+
+/* Weenie - FoodObjects - Academy Stamina Potion (13231) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13231;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13231, 'staminapotionacademy');
@@ -1582,6 +1705,9 @@ VALUES (13231, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (13231, 0, 16778735);
 
+/* Weenie - FoodObjects - Academy Mana Potion (13230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13230;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13230, 'manapotionacademy');
 
@@ -1627,6 +1753,9 @@ VALUES (13230, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (13230, 0, 16778735);
 
+/* Weenie - FoodObjects - Chicken (262) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 262;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (262, 'chicken');
 
@@ -1658,6 +1787,9 @@ VALUES (262, 13, True)
      , (262, 11, True)
      , (262, 14, True)
      , (262, 19, True);
+
+/* Weenie - FoodObjects - Academy Healing Potion (13229) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13229;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13229, 'healthpotionacademy');
@@ -1704,6 +1836,9 @@ VALUES (13229, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (13229, 0, 16778735);
 
+/* Weenie - FoodObjects - Stamina Philtre (27325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27325;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27325, 'staminaphiltre');
 
@@ -1748,6 +1883,9 @@ VALUES (27325, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27325, 0, 16778735);
 
+/* Weenie - FoodObjects - Wedding Cake (14910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14910;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14910, 'cakewedding');
 
@@ -1781,6 +1919,9 @@ VALUES (14910, 13, True)
      , (14910, 11, True)
      , (14910, 14, True)
      , (14910, 19, True);
+
+/* Weenie - FoodObjects - Bottle of Champagne (14912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14912;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14912, 'champagne');
@@ -1825,6 +1966,9 @@ VALUES (14912, 0, 83889356, 83893927);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14912, 0, 16778843);
 
+/* Weenie - FoodObjects - Pizza (4741) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4741;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4741, 'pizza');
 
@@ -1857,6 +2001,9 @@ VALUES (4741, 13, True)
      , (4741, 11, True)
      , (4741, 14, True)
      , (4741, 19, True);
+
+/* Weenie - FoodObjects - Mana Draught (2460) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2460;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2460, 'manadraught');
@@ -1902,6 +2049,9 @@ VALUES (2460, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2460, 0, 16778735);
 
+/* Weenie - FoodObjects - Bowl of Rice (548) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 548;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (548, 'rice');
 
@@ -1934,6 +2084,9 @@ VALUES (548, 13, True)
      , (548, 11, True)
      , (548, 14, True)
      , (548, 19, True);
+
+/* Weenie - FoodObjects - Health Draught (2457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2457;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2457, 'healthdraught');
@@ -1979,6 +2132,9 @@ VALUES (2457, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2457, 0, 16778735);
 
+/* Weenie - FoodObjects - Stamina Tincture (27326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27326, 'staminatincture');
 
@@ -2023,6 +2179,9 @@ VALUES (27326, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27326, 0, 16778735);
 
+/* Weenie - FoodObjects - Salmon (1450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1450;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1450, 'salmonmagic');
 
@@ -2056,6 +2215,9 @@ VALUES (1450, 13, True)
      , (1450, 14, True)
      , (1450, 19, True);
 
+/* Weenie - FoodObjects - Tart Apple (1447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1447;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1447, 'appletart');
 
@@ -2087,6 +2249,9 @@ VALUES (1447, 13, True)
      , (1447, 11, True)
      , (1447, 14, True)
      , (1447, 19, True);
+
+/* Weenie - FoodObjects - Wheat Bread (1448) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1448;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1448, 'breadwheat');
@@ -2121,6 +2286,9 @@ VALUES (1448, 13, True)
      , (1448, 14, True)
      , (1448, 19, True);
 
+/* Weenie - FoodObjects - Distillery Dew (4890) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4890;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4890, 'distillerydew');
 
@@ -2153,6 +2321,9 @@ VALUES (4890, 13, True)
      , (4890, 14, True)
      , (4890, 19, True)
      , (4890, 22, True);
+
+/* Weenie - FoodObjects - Ale (2451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2451;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2451, 'ale');
@@ -2187,6 +2358,9 @@ VALUES (2451, 13, True)
      , (2451, 14, True)
      , (2451, 19, True);
 
+/* Weenie - FoodObjects - Small Beer (2469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2469;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2469, 'smallbeer');
 
@@ -2219,6 +2393,9 @@ VALUES (2469, 13, True)
      , (2469, 11, True)
      , (2469, 14, True)
      , (2469, 19, True);
+
+/* Weenie - FoodObjects - Hearty Healing Fish Stew (5278) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5278;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5278, 'heartyhealingfishstew');
@@ -2254,6 +2431,9 @@ VALUES (5278, 13, True)
      , (5278, 14, True)
      , (5278, 19, True);
 
+/* Weenie - FoodObjects - Fresh Fish (1445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1445;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1445, 'fishfresh');
 
@@ -2286,6 +2466,9 @@ VALUES (1445, 13, True)
      , (1445, 11, True)
      , (1445, 14, True)
      , (1445, 19, True);
+
+/* Weenie - FoodObjects - Tiriun Stalk Jerky (34864) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34864;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34864, 'ace34864-tiriunstalkjerky');
@@ -2320,6 +2503,9 @@ VALUES (34864, 13, True)
      , (34864, 14, True)
      , (34864, 19, True);
 
+/* Weenie - FoodObjects - Potion of Black Fire (3722) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3722;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3722, 'potionblackfire');
 
@@ -2352,6 +2538,9 @@ VALUES (3722, 13, True)
      , (3722, 14, True)
      , (3722, 19, True);
 
+/* Weenie - FoodObjects - Olthoi Egg (11140) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11140;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11140, 'eggolthoi-xp');
 
@@ -2383,6 +2572,9 @@ VALUES (11140, 13, True)
      , (11140, 11, True)
      , (11140, 14, True)
      , (11140, 19, True);
+
+/* Weenie - FoodObjects - Peppermint Chocolate Cookie (14864) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14864;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14864, 'cookiechocolatepeppermint');
@@ -2423,6 +2615,9 @@ VALUES (14864, 0, 83892239, 83888868);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14864, 0, 16783589);
 
+/* Weenie - FoodObjects - Cookie (4721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4721;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4721, 'cookie');
 
@@ -2455,6 +2650,9 @@ VALUES (4721, 13, True)
      , (4721, 11, True)
      , (4721, 14, True)
      , (4721, 19, True);
+
+/* Weenie - FoodObjects - Dark Chocolate Candy Bar (12233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12233;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12233, 'candychocolatedark');
@@ -2502,6 +2700,9 @@ VALUES (12233, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12233, 0, 16782860);
 
+/* Weenie - FoodObjects - Marshmallow Ghost (34081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34081;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34081, 'ace34081-marshmallowghost');
 
@@ -2534,6 +2735,9 @@ VALUES (34081, 13, True)
      , (34081, 11, True)
      , (34081, 14, True)
      , (34081, 19, True);
+
+/* Weenie - FoodObjects - Ginger Bread Man (14762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14762;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14762, 'cookiegingerman');
@@ -2568,6 +2772,9 @@ VALUES (14762, 13, True)
      , (14762, 11, True)
      , (14762, 14, True)
      , (14762, 19, True);
+
+/* Weenie - FoodObjects - Bar of Milk Chocolate (7832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7832;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7832, 'chocolatebarmilk');
@@ -2615,6 +2822,9 @@ VALUES (7832, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7832, 0, 16782860);
 
+/* Weenie - FoodObjects - Ginger Bread Lugian (14761) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14761;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14761, 'cookiegingerlugian');
 
@@ -2648,6 +2858,9 @@ VALUES (14761, 13, True)
      , (14761, 11, True)
      , (14761, 14, True)
      , (14761, 19, True);
+
+/* Weenie - FoodObjects - Peppermint Chocolate Bar (14758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14758;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14758, 'chocolatebarpeppermint');
@@ -2695,6 +2908,9 @@ VALUES (14758, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14758, 0, 16782860);
 
+/* Weenie - FoodObjects - Marshmallow Pumpkin (32209) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32209;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32209, 'ace32209-marshmallowpumpkin');
 
@@ -2727,6 +2943,9 @@ VALUES (32209, 13, True)
      , (32209, 11, True)
      , (32209, 14, True)
      , (32209, 19, True);
+
+/* Weenie - FoodObjects - Chocolate Cookie (14759) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14759;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14759, 'cookiechocolate');
@@ -2767,6 +2986,9 @@ VALUES (14759, 0, 83892239, 83888868);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14759, 0, 16783589);
 
+/* Weenie - FoodObjects - Marshmallow Bat (32208) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32208;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32208, 'ace32208-marshmallowbat');
 
@@ -2803,6 +3025,9 @@ VALUES (32208, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32208, 67115481, 0, 0);
+
+/* Weenie - FoodObjects - Bar of Dark Chocolate (7830) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7830;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7830, 'chocolatebardark');
@@ -2850,6 +3075,9 @@ VALUES (7830, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7830, 0, 16782860);
 
+/* Weenie - FoodObjects - Ginger Bread Drudge (14760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14760;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14760, 'cookiegingerdrudge');
 
@@ -2884,6 +3112,9 @@ VALUES (14760, 13, True)
      , (14760, 14, True)
      , (14760, 19, True);
 
+/* Weenie - FoodObjects - Ginger Bread Pumpkin (32210) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32210;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32210, 'ace32210-gingerbreadpumpkin');
 
@@ -2916,6 +3147,9 @@ VALUES (32210, 13, True)
      , (32210, 11, True)
      , (32210, 14, True)
      , (32210, 19, True);
+
+/* Weenie - FoodObjects - Milk Chocolate Candy Bar (12234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12234;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12234, 'candychocolatemilk');
@@ -2963,6 +3197,9 @@ VALUES (12234, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12234, 0, 16782860);
 
+/* Weenie - FoodObjects - Peppermint Cookie (14763) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14763;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14763, 'cookiepeppermint');
 
@@ -2996,6 +3233,9 @@ VALUES (14763, 13, True)
      , (14763, 14, True)
      , (14763, 19, True);
 
+/* Weenie - FoodObjects - Elaborate Field Rations (23328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23328;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23328, 'rationsfieldelaborate');
 
@@ -3027,6 +3267,9 @@ VALUES (23328, 13, True)
      , (23328, 11, True)
      , (23328, 14, True)
      , (23328, 19, True);
+
+/* Weenie - FoodObjects - Elaborate Field Health Rations (29224) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29224;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29224, 'rationsfieldelaboratehealth');
@@ -3061,6 +3304,9 @@ VALUES (29224, 13, True)
      , (29224, 14, True)
      , (29224, 19, True);
 
+/* Weenie - FoodObjects - Elaborate Field Mana Rations (29228) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29228;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29228, 'rationsfieldelaboratemana');
 
@@ -3093,6 +3339,9 @@ VALUES (29228, 13, True)
      , (29228, 11, True)
      , (29228, 14, True)
      , (29228, 19, True);
+
+/* Weenie - FoodObjects - Tasty Amber Ale (29216) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29216;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29216, 'aleambertasty');
@@ -3128,6 +3377,9 @@ VALUES (29216, 13, True)
      , (29216, 14, True)
      , (29216, 19, True);
 
+/* Weenie - FoodObjects - Fire Auroch Meat (1446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1446;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1446, 'meatfireauroch');
 
@@ -3160,6 +3412,9 @@ VALUES (1446, 13, True)
      , (1446, 11, True)
      , (1446, 14, True)
      , (1446, 19, True);
+
+/* Weenie - FoodObjects - Trade Health Elixir (12248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12248;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12248, 'healthelixirtrade');
@@ -3208,6 +3463,9 @@ VALUES (12248, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12248, 0, 16778735);
 
+/* Weenie - FoodObjects - Cider (2453) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2453;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2453, 'cider');
 
@@ -3240,6 +3498,9 @@ VALUES (2453, 13, True)
      , (2453, 11, True)
      , (2453, 14, True)
      , (2453, 19, True);
+
+/* Weenie - FoodObjects - Peppermint Monougat Chew (14772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14772;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14772, 'monougatpeppermint');
@@ -3279,6 +3540,9 @@ VALUES (14772, 0, 83892151, 83888861);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14772, 0, 16783329);
+
+/* Weenie - FoodObjects - Acidic Infusion (43634) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43634;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43634, 'ace43634-acidicinfusion');
@@ -3324,6 +3588,9 @@ VALUES (43634, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43634, 0, 16778735);
 
+/* Weenie - FoodObjects - Fish Filet (4722) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4722;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4722, 'fishfilet');
 
@@ -3356,6 +3623,9 @@ VALUES (4722, 13, True)
      , (4722, 11, True)
      , (4722, 14, True)
      , (4722, 19, True);
+
+/* Weenie - FoodObjects - Nanner Split (22616) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22616;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22616, 'icecreamnannersplit');
@@ -3395,6 +3665,9 @@ VALUES (22616, 0, 83888884, 83894376);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22616, 0, 16778859);
 
+/* Weenie - FoodObjects - Tiriun Cap Wafer (34860) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34860;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34860, 'ace34860-tiriuncapwafer');
 
@@ -3427,6 +3700,9 @@ VALUES (34860, 13, True)
      , (34860, 11, True)
      , (34860, 14, True)
      , (34860, 19, True);
+
+/* Weenie - FoodObjects - Fruitcake (5759) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5759;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5759, 'fruitcake');
@@ -3469,6 +3745,9 @@ VALUES (5759, 0, 83888869, 83888868)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5759, 0, 16778864);
 
+/* Weenie - FoodObjects - Tumerok Salted Meat (27669) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27669;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27669, 'beefjerkyrenegade');
 
@@ -3500,6 +3779,9 @@ VALUES (27669, 13, True)
      , (27669, 11, True)
      , (27669, 14, True)
      , (27669, 19, True);
+
+/* Weenie - FoodObjects - Enhanced Mana Elixir (37516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37516;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37516, 'ace37516-enhancedmanaelixir');
@@ -3550,6 +3832,9 @@ VALUES (37516, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37516, 0, 16778735);
 
+/* Weenie - FoodObjects - Purple Marshmallow Eep (9540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9540;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9540, 'marshmalloweeppurple');
 
@@ -3591,6 +3876,9 @@ VALUES (9540, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9540, 67113187, 0, 0);
 
+/* Weenie - FoodObjects - Slice of Wedding Cake (14911) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14911;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14911, 'cakeweddingslice');
 
@@ -3631,6 +3919,9 @@ VALUES (14911, 0, 83888869, 83888869)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14911, 0, 16778864);
 
+/* Weenie - FoodObjects - Carol's Carrot Soup (5819) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5819;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5819, 'carolscarrotsoup');
 
@@ -3664,6 +3955,9 @@ VALUES (5819, 13, True)
      , (5819, 14, True)
      , (5819, 19, True);
 
+/* Weenie - FoodObjects - Viamont Toast (4745) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4745;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4745, 'viamonttoast');
 
@@ -3696,6 +3990,9 @@ VALUES (4745, 13, True)
      , (4745, 11, True)
      , (4745, 14, True)
      , (4745, 19, True);
+
+/* Weenie - FoodObjects - Chocolate Covered Nanners (22619) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22619;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22619, 'nannerchocolate');
@@ -3735,6 +4032,9 @@ VALUES (22619, 0, 83892151, 83888868);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22619, 0, 16783329);
 
+/* Weenie - FoodObjects - Mana Applesauce (7868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7868;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7868, 'manaapplesauce');
 
@@ -3768,6 +4068,9 @@ VALUES (7868, 13, True)
      , (7868, 11, True)
      , (7868, 14, True)
      , (7868, 19, True);
+
+/* Weenie - FoodObjects - Pumpkin Soup (8249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8249;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8249, 'pumpkinsoup');
@@ -3808,6 +4111,9 @@ VALUES (8249, 0, 83888884, 83892725);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8249, 0, 16778859);
 
+/* Weenie - FoodObjects - Candied Apple (12227) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12227;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12227, 'applecandy');
 
@@ -3839,6 +4145,9 @@ VALUES (12227, 13, True)
      , (12227, 11, True)
      , (12227, 14, True)
      , (12227, 19, True);
+
+/* Weenie - FoodObjects - Super Cheese (1452) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1452;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1452, 'cheesesuper');
@@ -3872,6 +4181,9 @@ VALUES (1452, 13, True)
      , (1452, 11, True)
      , (1452, 14, True)
      , (1452, 19, True);
+
+/* Weenie - FoodObjects - Pumpkin Pie (8248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8248;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8248, 'pumpkinpie');
@@ -3911,6 +4223,9 @@ VALUES (8248, 0, 83892147, 83892725);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8248, 0, 16783343);
 
+/* Weenie - FoodObjects - Special Cheese (1451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1451;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1451, 'cheesespecial');
 
@@ -3943,6 +4258,9 @@ VALUES (1451, 13, True)
      , (1451, 11, True)
      , (1451, 14, True)
      , (1451, 19, True);
+
+/* Weenie - FoodObjects - Coffee (2454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2454;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2454, 'coffee');
@@ -3977,6 +4295,9 @@ VALUES (2454, 13, True)
      , (2454, 14, True)
      , (2454, 19, True);
 
+/* Weenie - FoodObjects - Palm Wine (2465) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2465;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2465, 'palmwine');
 
@@ -4010,6 +4331,9 @@ VALUES (2465, 13, True)
      , (2465, 14, True)
      , (2465, 19, True);
 
+/* Weenie - FoodObjects - Refreshing Umbrella Drink (22637) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22637;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22637, 'umbrelladrink');
 
@@ -4041,6 +4365,9 @@ VALUES (22637, 13, True)
      , (22637, 11, True)
      , (22637, 14, True)
      , (22637, 19, True);
+
+/* Weenie - FoodObjects - Nanner Bread (22617) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22617;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22617, 'nannerbread');
@@ -4080,6 +4407,9 @@ VALUES (22617, 0, 83888864, 83894376);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22617, 0, 16778971);
+
+/* Weenie - FoodObjects - Black Market Health Elixir (38794) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38794;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38794, 'ace38794-blackmarkethealthelixir');
@@ -4130,6 +4460,9 @@ VALUES (38794, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38794, 0, 16778735);
 
+/* Weenie - FoodObjects - Trade Mana Elixir (12251) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12251;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12251, 'manaelixirtrade');
 
@@ -4177,6 +4510,9 @@ VALUES (12251, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12251, 0, 16778735);
 
+/* Weenie - FoodObjects - Mara's Healing Pie (5174) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5174;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5174, 'maraapplepie');
 
@@ -4210,6 +4546,9 @@ VALUES (5174, 13, True)
      , (5174, 14, True)
      , (5174, 19, True);
 
+/* Weenie - FoodObjects - Side of Beef (4753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4753;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4753, 'beefside');
 
@@ -4242,6 +4581,9 @@ VALUES (4753, 13, True)
      , (4753, 11, True)
      , (4753, 14, True)
      , (4753, 19, True);
+
+/* Weenie - FoodObjects - Milk (2463) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2463;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2463, 'milk');
@@ -4286,6 +4628,9 @@ VALUES (2463, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2463, 0, 16778729);
 
+/* Weenie - FoodObjects - Cake (620) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 620;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (620, 'cake');
 
@@ -4318,6 +4663,9 @@ VALUES (620, 13, True)
      , (620, 11, True)
      , (620, 14, True)
      , (620, 19, True);
+
+/* Weenie - FoodObjects - Pickled Egg (4739) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4739;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4739, 'pickledegg');
@@ -4352,6 +4700,9 @@ VALUES (4739, 13, True)
      , (4739, 14, True)
      , (4739, 19, True);
 
+/* Weenie - FoodObjects - Chicken Pie (4716) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4716;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4716, 'chickenpie');
 
@@ -4384,6 +4735,9 @@ VALUES (4716, 13, True)
      , (4716, 11, True)
      , (4716, 14, True)
      , (4716, 19, True);
+
+/* Weenie - FoodObjects - Red Wine (2467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2467;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2467, 'redwine');
@@ -4418,6 +4772,9 @@ VALUES (2467, 13, True)
      , (2467, 14, True)
      , (2467, 19, True);
 
+/* Weenie - FoodObjects - Kimchi (4733) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4733;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4733, 'kimchi');
 
@@ -4451,6 +4808,9 @@ VALUES (4733, 13, True)
      , (4733, 14, True)
      , (4733, 19, True);
 
+/* Weenie - FoodObjects - Pickled Fish (4740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4740;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4740, 'pickledfish');
 
@@ -4483,6 +4843,9 @@ VALUES (4740, 13, True)
      , (4740, 11, True)
      , (4740, 14, True)
      , (4740, 19, True);
+
+/* Weenie - FoodObjects - Apple Juice (2452) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2452;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2452, 'applejuice');
@@ -4527,6 +4890,9 @@ VALUES (2452, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2452, 0, 16778729);
 
+/* Weenie - FoodObjects - Fried Chicken (4728) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4728;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4728, 'friedchicken');
 
@@ -4559,6 +4925,9 @@ VALUES (4728, 13, True)
      , (4728, 11, True)
      , (4728, 14, True)
      , (4728, 19, True);
+
+/* Weenie - FoodObjects - Applesauce (7866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7866;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7866, 'applesauce');
@@ -4593,6 +4962,9 @@ VALUES (7866, 13, True)
      , (7866, 14, True)
      , (7866, 19, True);
 
+/* Weenie - FoodObjects - Chicken Piece (4717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4717;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4717, 'chickenpiece');
 
@@ -4625,6 +4997,9 @@ VALUES (4717, 13, True)
      , (4717, 11, True)
      , (4717, 14, True)
      , (4717, 19, True);
+
+/* Weenie - FoodObjects - Fried Steak (4732) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4732;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4732, 'friedsteak');
@@ -4659,6 +5034,9 @@ VALUES (4732, 13, True)
      , (4732, 14, True)
      , (4732, 19, True);
 
+/* Weenie - FoodObjects - Apple Pie (4709) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4709;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4709, 'applepie');
 
@@ -4691,6 +5069,9 @@ VALUES (4709, 13, True)
      , (4709, 11, True)
      , (4709, 14, True)
      , (4709, 19, True);
+
+/* Weenie - FoodObjects - Coleslaw (4720) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4720;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4720, 'coleslaw');
@@ -4725,6 +5106,9 @@ VALUES (4720, 13, True)
      , (4720, 14, True)
      , (4720, 19, True);
 
+/* Weenie - FoodObjects - Old Nectar (34550) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34550;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34550, 'ace34550-oldnectar');
 
@@ -4758,6 +5142,9 @@ VALUES (34550, 13, True)
      , (34550, 14, True)
      , (34550, 19, True)
      , (34550, 22, True);
+
+/* Weenie - FoodObjects - Saliva Invigorator (43635) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43635;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43635, 'ace43635-salivainvigorator');
@@ -4803,6 +5190,9 @@ VALUES (43635, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43635, 0, 16778735);
 
+/* Weenie - FoodObjects - Hearty Holtburger (7863) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7863;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7863, 'heartyholtburger');
 
@@ -4840,6 +5230,9 @@ VALUES (7863, 13, True)
      , (7863, 14, True)
      , (7863, 19, True);
 
+/* Weenie - FoodObjects - Simple Field Rations (23329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23329, 'rationsfieldsimple');
 
@@ -4871,6 +5264,9 @@ VALUES (23329, 13, True)
      , (23329, 11, True)
      , (23329, 14, True)
      , (23329, 19, True);
+
+/* Weenie - FoodObjects - Enhanced Health Elixir (37517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37517;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37517, 'ace37517-enhancedhealthelixir');
@@ -4921,6 +5317,9 @@ VALUES (37517, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37517, 0, 16778735);
 
+/* Weenie - FoodObjects - Distilled Mana Potion (27670) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27670;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27670, 'manafluterenegade');
 
@@ -4965,6 +5364,9 @@ VALUES (27670, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27670, 0, 16778735);
 
+/* Weenie - FoodObjects - Hearty Healing Green Tea Ice Cream (7849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7849;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7849, 'heartyhealingicecreamgreentea');
 
@@ -5005,6 +5407,9 @@ VALUES (7849, 0, 83888884, 83888879);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7849, 0, 16778859);
 
+/* Weenie - FoodObjects - Glorious Amber Ale (29213) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29213;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29213, 'aleamberglorious');
 
@@ -5037,6 +5442,9 @@ VALUES (29213, 13, True)
      , (29213, 11, True)
      , (29213, 14, True)
      , (29213, 19, True);
+
+/* Weenie - FoodObjects - Green Marshmallow Eep (9539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9539;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9539, 'marshmalloweepgreen');
@@ -5079,6 +5487,9 @@ VALUES (9539, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9539, 67113184, 0, 0);
 
+/* Weenie - FoodObjects - Hearty Famous Pizza (5807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5807;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5807, 'heartyfamouspizza');
 
@@ -5112,6 +5523,9 @@ VALUES (5807, 13, True)
      , (5807, 11, True)
      , (5807, 14, True)
      , (5807, 19, True);
+
+/* Weenie - FoodObjects - Miraculous Elixir (30108) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30108;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30108, 'potionrarevolatilemana');
@@ -5158,6 +5572,9 @@ VALUES (30108, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30108, 0, 16778735);
 
+/* Weenie - FoodObjects - Rabbit Carcass (5633) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5633;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5633, 'rabbitcarcass');
 
@@ -5189,6 +5606,9 @@ VALUES (5633, 13, True)
      , (5633, 11, True)
      , (5633, 14, True)
      , (5633, 19, True);
+
+/* Weenie - FoodObjects - Tusker Pus (29108) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29108;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29108, 'aletuskerpus');
@@ -5224,6 +5644,9 @@ VALUES (29108, 13, True)
      , (29108, 11, True)
      , (29108, 14, True)
      , (29108, 19, True);
+
+/* Weenie - FoodObjects - Hearty Green Tea Ice Cream (7848) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7848;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7848, 'heartyicecreamgreentea');
@@ -5264,6 +5687,9 @@ VALUES (7848, 0, 83888884, 83888879);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7848, 0, 16778859);
+
+/* Weenie - FoodObjects - Refreshing Elixir (30107) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30107;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30107, 'potionrarevolatilehealth');
@@ -5310,6 +5736,9 @@ VALUES (30107, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30107, 0, 16778735);
 
+/* Weenie - FoodObjects - Hearty Mana Green Tea Ice Cream (7850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7850;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7850, 'heartymanaicecreamgreentea');
 
@@ -5349,6 +5778,9 @@ VALUES (7850, 0, 83888884, 83888879);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7850, 0, 16778859);
+
+/* Weenie - FoodObjects - Green Guppy (23264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23264;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23264, 'guppygreen');
@@ -5396,6 +5828,9 @@ VALUES (23264, 0, 83894506, 83894506);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23264, 0, 16788968);
 
+/* Weenie - FoodObjects - Purple Guppy (23267) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23267;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23267, 'guppypurple');
 
@@ -5441,6 +5876,9 @@ VALUES (23267, 0, 83894506, 83894506);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23267, 0, 16788968);
+
+/* Weenie - FoodObjects - Aqua Guppy (23259) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23259;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23259, 'guppyaqua');
@@ -5488,6 +5926,9 @@ VALUES (23259, 0, 83894506, 83894506);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23259, 0, 16788968);
 
+/* Weenie - FoodObjects - Silver Guppy (23269) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23269;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23269, 'guppysilver');
 
@@ -5533,6 +5974,9 @@ VALUES (23269, 0, 83894506, 83894506);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23269, 0, 16788968);
+
+/* Weenie - FoodObjects - Pink Guppy (23266) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23266;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23266, 'guppypink');
@@ -5580,6 +6024,9 @@ VALUES (23266, 0, 83894506, 83894506);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23266, 0, 16788968);
 
+/* Weenie - FoodObjects - White Guppy (23271) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23271;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23271, 'guppywhite');
 
@@ -5625,6 +6072,9 @@ VALUES (23271, 0, 83894506, 83894506);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23271, 0, 16788968);
+
+/* Weenie - FoodObjects - Blue Guppy (23261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23261;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23261, 'guppyblue');
@@ -5672,6 +6122,9 @@ VALUES (23261, 0, 83894506, 83894506);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23261, 0, 16788968);
 
+/* Weenie - FoodObjects - Red Guppy (23268) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23268;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23268, 'guppyred');
 
@@ -5718,6 +6171,9 @@ VALUES (23268, 0, 83894506, 83894506);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23268, 0, 16788968);
 
+/* Weenie - FoodObjects - Draught of Revitalization (43504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43504;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43504, 'ace43504-draughtofrevitalization');
 
@@ -5762,6 +6218,9 @@ VALUES (43504, 0, 83889126, 83889126)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43504, 0, 16778735);
+
+/* Weenie - FoodObjects - Invigorating Elixir (30109) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30109;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30109, 'potionrarevolatilestamina');
@@ -5808,6 +6267,9 @@ VALUES (30109, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30109, 0, 16778735);
 
+/* Weenie - FoodObjects - Milk Chocolate Bunny (35360) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35360;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35360, 'ace35360-milkchocolatebunny');
 
@@ -5847,6 +6309,9 @@ VALUES (35360, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35360, 67111659, 0, 0);
 
+/* Weenie - FoodObjects - Mead (2462) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2462;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2462, 'mead');
 
@@ -5879,6 +6344,9 @@ VALUES (2462, 13, True)
      , (2462, 11, True)
      , (2462, 14, True)
      , (2462, 19, True);
+
+/* Weenie - FoodObjects - Simple Field Health Rations (29223) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29223;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29223, 'rationsfieldsimplehealth');
@@ -5913,6 +6381,9 @@ VALUES (29223, 13, True)
      , (29223, 14, True)
      , (29223, 19, True);
 
+/* Weenie - FoodObjects - Nelvaine's Olde Ispar Stout (5831) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5831;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5831, 'neydisacastleisparstout');
 
@@ -5946,6 +6417,9 @@ VALUES (5831, 13, True)
      , (5831, 14, True)
      , (5831, 19, True);
 
+/* Weenie - FoodObjects - Grub Bite (24225) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24225;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24225, 'grubbite');
 
@@ -5978,6 +6452,9 @@ VALUES (24225, 13, True)
      , (24225, 11, True)
      , (24225, 14, True)
      , (24225, 19, True);
+
+/* Weenie - FoodObjects - Golden Egg (34610) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34610;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34610, 'ace34610-goldenegg');
@@ -6016,6 +6493,9 @@ VALUES (34610, 13, True)
      , (34610, 19, True)
      , (34610, 22, True);
 
+/* Weenie - FoodObjects - Healing Holtburger (7861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7861;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7861, 'healingholtburger');
 
@@ -6053,6 +6533,9 @@ VALUES (7861, 13, True)
      , (7861, 14, True)
      , (7861, 19, True);
 
+/* Weenie - FoodObjects - Mana Apple Pie (5616) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5616;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5616, 'manaapplepie');
 
@@ -6087,6 +6570,9 @@ VALUES (5616, 13, True)
      , (5616, 14, True)
      , (5616, 19, True);
 
+/* Weenie - FoodObjects - Pouch of Dried Meat (10958) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10958;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10958, 'boxoftreats-xp');
 
@@ -6119,6 +6605,9 @@ VALUES (10958, 13, True)
      , (10958, 14, True)
      , (10958, 19, True)
      , (10958, 22, True);
+
+/* Weenie - FoodObjects - Hearty Healing Apple Pie (5268) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5268;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5268, 'heartyhealingapplepie');
@@ -6154,6 +6643,9 @@ VALUES (5268, 13, True)
      , (5268, 14, True)
      , (5268, 19, True);
 
+/* Weenie - FoodObjects - Hot Chocolate (14769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14769;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14769, 'hotchocolate');
 
@@ -6186,6 +6678,9 @@ VALUES (14769, 13, True)
      , (14769, 11, True)
      , (14769, 14, True)
      , (14769, 19, True);
+
+/* Weenie - FoodObjects - Hearty Healing Holtburger (7864) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7864;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7864, 'heartyhealingholtburger');
@@ -6224,6 +6719,9 @@ VALUES (7864, 13, True)
      , (7864, 14, True)
      , (7864, 19, True);
 
+/* Weenie - FoodObjects - Hearty Mana Chicken Pie (5292) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5292;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5292, 'heartymanachickenpie');
 
@@ -6257,6 +6755,9 @@ VALUES (5292, 13, True)
      , (5292, 11, True)
      , (5292, 14, True)
      , (5292, 19, True);
+
+/* Weenie - FoodObjects - Hearty Healing Chicken Pie (5274) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5274;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5274, 'heartyhealingchickenpie');
@@ -6292,6 +6793,9 @@ VALUES (5274, 13, True)
      , (5274, 14, True)
      , (5274, 19, True);
 
+/* Weenie - FoodObjects - Hearty Healing Rabbit Pie (5284) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5284;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5284, 'heartyhealingrabbitpie');
 
@@ -6326,6 +6830,9 @@ VALUES (5284, 13, True)
      , (5284, 14, True)
      , (5284, 19, True);
 
+/* Weenie - FoodObjects - Rabbit Piece (5212) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5212;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5212, 'rabbitpiece');
 
@@ -6358,6 +6865,9 @@ VALUES (5212, 13, True)
      , (5212, 11, True)
      , (5212, 14, True)
      , (5212, 19, True);
+
+/* Weenie - FoodObjects - Large White Fish (23245) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23245;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23245, 'fishlargewhite');
@@ -6405,6 +6915,9 @@ VALUES (23245, 0, 83894505, 83894505);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23245, 0, 16778976);
 
+/* Weenie - FoodObjects - Peppermint Pumpkin Pie (14774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14774;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14774, 'pumpkinpiepeppermint');
 
@@ -6444,6 +6957,9 @@ VALUES (14774, 0, 83892147, 83888861);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14774, 0, 16783343);
 
+/* Weenie - FoodObjects - Green Tea (2456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2456;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2456, 'greentea');
 
@@ -6476,6 +6992,9 @@ VALUES (2456, 13, True)
      , (2456, 11, True)
      , (2456, 14, True)
      , (2456, 19, True);
+
+/* Weenie - FoodObjects - Peppermint Ice Cream (14771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14771;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14771, 'icecreampeppermint');
@@ -6516,6 +7035,9 @@ VALUES (14771, 0, 83888884, 83888879);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14771, 0, 16778859);
 
+/* Weenie - FoodObjects - Chocolate Ice Cream (7843) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7843;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7843, 'icecreamchocolate');
 
@@ -6555,6 +7077,9 @@ VALUES (7843, 0, 83888884, 83888865);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7843, 0, 16778859);
 
+/* Weenie - FoodObjects - Stuffed Grape Leaf (4743) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4743;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4743, 'stuffedgrapeleaf');
 
@@ -6587,6 +7112,9 @@ VALUES (4743, 13, True)
      , (4743, 11, True)
      , (4743, 14, True)
      , (4743, 19, True);
+
+/* Weenie - FoodObjects - Ice Cream (7837) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7837;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7837, 'icecream');
@@ -6627,6 +7155,9 @@ VALUES (7837, 0, 83888884, 83888864);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7837, 0, 16778859);
 
+/* Weenie - FoodObjects - Mushroom Kebab (4735) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4735;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4735, 'mushroomkebab');
 
@@ -6659,6 +7190,9 @@ VALUES (4735, 13, True)
      , (4735, 11, True)
      , (4735, 14, True)
      , (4735, 19, True);
+
+/* Weenie - FoodObjects - Peppermint Hot Chocolate (14770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14770;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14770, 'hotchocolatepeppermint');
@@ -6693,6 +7227,9 @@ VALUES (14770, 13, True)
      , (14770, 14, True)
      , (14770, 19, True);
 
+/* Weenie - FoodObjects - Eggnog (14765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14765;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14765, 'eggnog');
 
@@ -6725,6 +7262,9 @@ VALUES (14765, 13, True)
      , (14765, 11, True)
      , (14765, 14, True)
      , (14765, 19, True);
+
+/* Weenie - FoodObjects - Hot Chocolate with Marshmallows (22820) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22820;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22820, 'hotchocolatemarshmallows');
@@ -6759,6 +7299,9 @@ VALUES (22820, 13, True)
      , (22820, 14, True)
      , (22820, 19, True);
 
+/* Weenie - FoodObjects - Spiced Apple Pie (5783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5783;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5783, 'spicedapplepie');
 
@@ -6791,6 +7334,9 @@ VALUES (5783, 13, True)
      , (5783, 11, True)
      , (5783, 14, True)
      , (5783, 19, True);
+
+/* Weenie - FoodObjects - Carrot Cake (5811) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5811;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5811, 'carrotcake');
@@ -6832,6 +7378,9 @@ VALUES (5811, 0, 83888869, 83888882)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5811, 0, 16778864);
 
+/* Weenie - FoodObjects - Carrot Cake Soup (14752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14752;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14752, 'carrotcakesoup');
 
@@ -6871,6 +7420,9 @@ VALUES (14752, 0, 83888884, 83888864);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14752, 0, 16778859);
 
+/* Weenie - FoodObjects - Holtburger (7860) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7860;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7860, 'holtburger');
 
@@ -6906,6 +7458,9 @@ VALUES (7860, 13, True)
      , (7860, 11, True)
      , (7860, 14, True)
      , (7860, 19, True);
+
+/* Weenie - FoodObjects - Drudge Gut Sausage (7881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7881;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7881, 'sausagedrudgegut');
@@ -6943,6 +7498,9 @@ VALUES (7881, 13, True)
      , (7881, 14, True)
      , (7881, 19, True);
 
+/* Weenie - FoodObjects - Cragstonanoff (14764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14764;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14764, 'cragstonanoff');
 
@@ -6975,6 +7533,9 @@ VALUES (14764, 13, True)
      , (14764, 11, True)
      , (14764, 14, True)
      , (14764, 19, True);
+
+/* Weenie - FoodObjects - Chicken Kebab (4714) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4714;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4714, 'chickenkebab');
@@ -7009,6 +7570,9 @@ VALUES (4714, 13, True)
      , (4714, 14, True)
      , (4714, 19, True);
 
+/* Weenie - FoodObjects - Hearty Mana Hot Kimchi (5801) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5801;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5801, 'heartymanahotkimchi');
 
@@ -7042,6 +7606,9 @@ VALUES (5801, 13, True)
      , (5801, 11, True)
      , (5801, 14, True)
      , (5801, 19, True);
+
+/* Weenie - FoodObjects - Sausage (7878) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7878;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7878, 'sausage');
@@ -7079,6 +7646,9 @@ VALUES (7878, 13, True)
      , (7878, 14, True)
      , (7878, 19, True);
 
+/* Weenie - FoodObjects - Glorious Stout (29119) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29119;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29119, 'stoutglorious');
 
@@ -7112,6 +7682,9 @@ VALUES (29119, 13, True)
      , (29119, 11, True)
      , (29119, 14, True)
      , (29119, 19, True);
+
+/* Weenie - FoodObjects - Pink Marshmallow Eep (9541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9541;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9541, 'marshmalloweeppink');
@@ -7154,6 +7727,9 @@ VALUES (9541, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9541, 67113186, 0, 0);
 
+/* Weenie - FoodObjects - Hearty Healing Cake (5272) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5272;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5272, 'heartyhealingcake');
 
@@ -7188,6 +7764,9 @@ VALUES (5272, 13, True)
      , (5272, 14, True)
      , (5272, 19, True);
 
+/* Weenie - FoodObjects - Bowl of Stew (549) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 549;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (549, 'stew');
 
@@ -7221,6 +7800,9 @@ VALUES (549, 13, True)
      , (549, 14, True)
      , (549, 19, True);
 
+/* Weenie - FoodObjects - Fish Dumplings (14767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14767;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14767, 'fishdumplings');
 
@@ -7252,6 +7834,9 @@ VALUES (14767, 13, True)
      , (14767, 11, True)
      , (14767, 14, True)
      , (14767, 19, True);
+
+/* Weenie - FoodObjects - Mushroom Noodle (4736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4736;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4736, 'mushroomnoodle');
@@ -7285,6 +7870,9 @@ VALUES (4736, 13, True)
      , (4736, 11, True)
      , (4736, 14, True)
      , (4736, 19, True);
+
+/* Weenie - FoodObjects - Chocolate Cake (7858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7858;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7858, 'cakechocolate');
@@ -7326,6 +7914,9 @@ VALUES (7858, 0, 83888869, 83888868)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7858, 0, 16778864);
 
+/* Weenie - FoodObjects - Chicken Stew (4719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4719;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4719, 'chickenstew');
 
@@ -7358,6 +7949,9 @@ VALUES (4719, 13, True)
      , (4719, 11, True)
      , (4719, 14, True)
      , (4719, 19, True);
+
+/* Weenie - FoodObjects - Sushi (4744) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4744;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4744, 'sushi');
@@ -7392,6 +7986,9 @@ VALUES (4744, 13, True)
      , (4744, 14, True)
      , (4744, 19, True);
 
+/* Weenie - FoodObjects - Fried Fish Filet (4730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4730;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4730, 'friedfishfilet');
 
@@ -7425,6 +8022,9 @@ VALUES (4730, 13, True)
      , (4730, 14, True)
      , (4730, 19, True);
 
+/* Weenie - FoodObjects - Distillery Ambrosia (4889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4889;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4889, 'distilleryambrosia');
 
@@ -7457,6 +8057,9 @@ VALUES (4889, 13, True)
      , (4889, 14, True)
      , (4889, 19, True)
      , (4889, 22, True);
+
+/* Weenie - FoodObjects - Expired Stamina Draught (27756) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27756;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27756, 'staminadraughtexpired');
@@ -7501,6 +8104,9 @@ VALUES (27756, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27756, 0, 16778735);
 
+/* Weenie - FoodObjects - Expired Mana Draught (27753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27753;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27753, 'manadraughtexpired');
 
@@ -7543,6 +8149,9 @@ VALUES (27753, 0, 83889126, 83889126)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27753, 0, 16778735);
+
+/* Weenie - FoodObjects - Expired Health Draught (27750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27750;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27750, 'healthdraughtexpired');
@@ -7587,6 +8196,9 @@ VALUES (27750, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27750, 0, 16778735);
 
+/* Weenie - FoodObjects - Expired Mana Tincture (27755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27755;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27755, 'manatinctureexpired');
 
@@ -7629,6 +8241,9 @@ VALUES (27755, 0, 83889126, 83889126)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27755, 0, 16778735);
+
+/* Weenie - FoodObjects - Expired Health Tincture (27752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27752;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27752, 'healthtinctureexpired');
@@ -7673,6 +8288,9 @@ VALUES (27752, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27752, 0, 16778735);
 
+/* Weenie - FoodObjects - Expired Stamina Potion (27757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27757;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27757, 'staminapotionexpired');
 
@@ -7715,6 +8333,9 @@ VALUES (27757, 0, 83889126, 83889126)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27757, 0, 16778735);
+
+/* Weenie - FoodObjects - Expired Health Potion (27751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27751;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27751, 'healthpotionexpired');
@@ -7759,6 +8380,9 @@ VALUES (27751, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27751, 0, 16778735);
 
+/* Weenie - FoodObjects - Expired Mana Potion (27754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27754;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27754, 'manapotionexpired');
 
@@ -7802,6 +8426,9 @@ VALUES (27754, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27754, 0, 16778735);
 
+/* Weenie - FoodObjects - Chicken Rice (4718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4718;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4718, 'chickenrice');
 
@@ -7835,6 +8462,9 @@ VALUES (4718, 13, True)
      , (4718, 14, True)
      , (4718, 19, True);
 
+/* Weenie - FoodObjects - Drugged Meat (47807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47807;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47807, 'ace47807-druggedmeat');
 
@@ -7865,6 +8495,9 @@ VALUES (47807, 13, True)
      , (47807, 11, True)
      , (47807, 14, True)
      , (47807, 19, True);
+
+/* Weenie - FoodObjects - Fish Pie (4725) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4725;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4725, 'fishpie');
@@ -7898,6 +8531,9 @@ VALUES (4725, 13, True)
      , (4725, 11, True)
      , (4725, 14, True)
      , (4725, 19, True);
+
+/* Weenie - FoodObjects - Large Green Fish (23239) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23239;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23239, 'fishlargegreen');
@@ -7945,6 +8581,9 @@ VALUES (23239, 0, 83894505, 83894505);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23239, 0, 16778976);
 
+/* Weenie - FoodObjects - Tiriun Spore Powder (34862) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34862;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34862, 'ace34862-tiriunsporepowder');
 
@@ -7978,6 +8617,9 @@ VALUES (34862, 13, True)
      , (34862, 14, True)
      , (34862, 19, True);
 
+/* Weenie - FoodObjects - Cove Apple (5161) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5161;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5161, 'applecove');
 
@@ -8008,6 +8650,9 @@ VALUES (5161, 13, True)
      , (5161, 11, True)
      , (5161, 14, True)
      , (5161, 19, True);
+
+/* Weenie - FoodObjects - Mana Beef Stew (5235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5235;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5235, 'manabeefstew');
@@ -8043,6 +8688,9 @@ VALUES (5235, 13, True)
      , (5235, 14, True)
      , (5235, 19, True);
 
+/* Weenie - FoodObjects - Healing Beef Stew (5218) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5218;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5218, 'healingbeefstew');
 
@@ -8077,6 +8725,9 @@ VALUES (5218, 13, True)
      , (5218, 14, True)
      , (5218, 19, True);
 
+/* Weenie - FoodObjects - Distillery Nectar (4891) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4891;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4891, 'distillerynectar');
 
@@ -8109,6 +8760,9 @@ VALUES (4891, 13, True)
      , (4891, 14, True)
      , (4891, 19, True)
      , (4891, 22, True);
+
+/* Weenie - FoodObjects - Hearty Mana Carrot Cake (5816) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5816;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5816, 'heartymanacarrotcake');
@@ -8151,6 +8805,9 @@ VALUES (5816, 0, 83888869, 83888882)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5816, 0, 16778864);
 
+/* Weenie - FoodObjects - Hearty Healing Rabbit Stew (5285) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5285;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5285, 'heartyhealingrabbitstew');
 
@@ -8184,6 +8841,9 @@ VALUES (5285, 13, True)
      , (5285, 11, True)
      , (5285, 14, True)
      , (5285, 19, True);
+
+/* Weenie - FoodObjects - Glorious Lager (29112) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29112;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29112, 'lagerglorious');
@@ -8219,6 +8879,9 @@ VALUES (29112, 13, True)
      , (29112, 14, True)
      , (29112, 19, True);
 
+/* Weenie - FoodObjects - Warm Apple Pie (5176) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5176;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5176, 'warmapplepie');
 
@@ -8250,6 +8913,9 @@ VALUES (5176, 13, True)
      , (5176, 11, True)
      , (5176, 14, True)
      , (5176, 19, True);
+
+/* Weenie - FoodObjects - Distillery Ambrosia (45877) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45877;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45877, 'ace45877-distilleryambrosia');
@@ -8284,6 +8950,9 @@ VALUES (45877, 13, True)
      , (45877, 19, True)
      , (45877, 22, True);
 
+/* Weenie - FoodObjects - Bottle of Water (5126) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5126;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5126, 'nantowaterbottle');
 
@@ -8315,6 +8984,9 @@ VALUES (5126, 13, True)
      , (5126, 14, True)
      , (5126, 19, True)
      , (5126, 22, True);
+
+/* Weenie - FoodObjects - Hearty Healing Applesauce (7870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7870;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7870, 'heartyhealingapplesauce');
@@ -8350,6 +9022,9 @@ VALUES (7870, 13, True)
      , (7870, 14, True)
      , (7870, 19, True);
 
+/* Weenie - FoodObjects - Hearty Mana Applesauce (7871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7871;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7871, 'heartymanaapplesauce');
 
@@ -8384,6 +9059,9 @@ VALUES (7871, 13, True)
      , (7871, 14, True)
      , (7871, 19, True);
 
+/* Weenie - FoodObjects - Flask of Well Water (5139) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5139;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5139, 'waterbanewell');
 
@@ -8416,6 +9094,9 @@ VALUES (5139, 13, True)
      , (5139, 14, True)
      , (5139, 19, True)
      , (5139, 22, True);
+
+/* Weenie - FoodObjects - Stamina Draught (5634) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5634;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5634, 'staminadraught');
@@ -8461,6 +9142,9 @@ VALUES (5634, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5634, 0, 16778735);
 
+/* Weenie - FoodObjects - Hearty Mana Famous Pizza (5809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5809;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5809, 'heartymanafamouspizza');
 
@@ -8495,6 +9179,9 @@ VALUES (5809, 13, True)
      , (5809, 14, True)
      , (5809, 19, True);
 
+/* Weenie - FoodObjects - Fried Egg (4729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4729;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4729, 'friedegg');
 
@@ -8527,6 +9214,9 @@ VALUES (4729, 13, True)
      , (4729, 11, True)
      , (4729, 14, True)
      , (4729, 19, True);
+
+/* Weenie - FoodObjects - Mushroom Rice (4738) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4738;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4738, 'mushroomrice');
@@ -8561,6 +9251,9 @@ VALUES (4738, 13, True)
      , (4738, 14, True)
      , (4738, 19, True);
 
+/* Weenie - FoodObjects - Meat Pie (4734) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4734;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4734, 'meatpie');
 
@@ -8593,6 +9286,9 @@ VALUES (4734, 13, True)
      , (4734, 11, True)
      , (4734, 14, True)
      , (4734, 19, True);
+
+/* Weenie - FoodObjects - Beef Stew (4713) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4713;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4713, 'beefstew');
@@ -8627,6 +9323,9 @@ VALUES (4713, 13, True)
      , (4713, 14, True)
      , (4713, 19, True);
 
+/* Weenie - FoodObjects - Cove Apple Cider (5136) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5136;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5136, 'coveapplecider');
 
@@ -8659,6 +9358,9 @@ VALUES (5136, 13, True)
      , (5136, 11, True)
      , (5136, 14, True)
      , (5136, 19, True);
+
+/* Weenie - FoodObjects - Kumiss (2459) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2459;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2459, 'kumiss');
@@ -8693,6 +9395,9 @@ VALUES (2459, 13, True)
      , (2459, 14, True)
      , (2459, 19, True);
 
+/* Weenie - FoodObjects - Fish Kebab (4723) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4723;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4723, 'fishkebab');
 
@@ -8725,6 +9430,9 @@ VALUES (4723, 13, True)
      , (4723, 11, True)
      , (4723, 14, True)
      , (4723, 19, True);
+
+/* Weenie - FoodObjects - Fish Stew (4726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4726;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4726, 'fishstew');
@@ -8759,6 +9467,9 @@ VALUES (4726, 13, True)
      , (4726, 14, True)
      , (4726, 19, True);
 
+/* Weenie - FoodObjects - Grape Juice (2455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2455;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2455, 'grapejuice');
 
@@ -8791,6 +9502,9 @@ VALUES (2455, 13, True)
      , (2455, 11, True)
      , (2455, 14, True)
      , (2455, 19, True);
+
+/* Weenie - FoodObjects - Bowl of Black-Eyed Peas (30734) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30734;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30734, 'blackeyedpeas');
@@ -8825,6 +9539,9 @@ VALUES (30734, 13, True)
      , (30734, 14, True)
      , (30734, 19, True);
 
+/* Weenie - FoodObjects - Beef Noodle (4711) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4711;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4711, 'beefnoodle');
 
@@ -8857,6 +9574,9 @@ VALUES (4711, 13, True)
      , (4711, 11, True)
      , (4711, 14, True)
      , (4711, 19, True);
+
+/* Weenie - FoodObjects - Mushroom Pie (4737) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4737;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4737, 'mushroompie');
@@ -8891,6 +9611,9 @@ VALUES (4737, 13, True)
      , (4737, 14, True)
      , (4737, 19, True);
 
+/* Weenie - FoodObjects - Acidic Rejuvenation (43633) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43633;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43633, 'ace43633-acidicrejuvenation');
 
@@ -8923,6 +9646,9 @@ VALUES (43633, 13, True)
      , (43633, 11, True)
      , (43633, 14, True)
      , (43633, 19, True);
+
+/* Weenie - FoodObjects - Red Tea (2466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2466;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2466, 'redtea');
@@ -8957,6 +9683,9 @@ VALUES (2466, 13, True)
      , (2466, 14, True)
      , (2466, 19, True);
 
+/* Weenie - FoodObjects - Beef Rice (4712) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4712;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4712, 'beefrice');
 
@@ -8989,6 +9718,9 @@ VALUES (4712, 13, True)
      , (4712, 11, True)
      , (4712, 14, True)
      , (4712, 19, True);
+
+/* Weenie - FoodObjects - Orange Juice (2464) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2464;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2464, 'orangejuice');
@@ -9023,6 +9755,9 @@ VALUES (2464, 13, True)
      , (2464, 14, True)
      , (2464, 19, True);
 
+/* Weenie - FoodObjects - Old Cheese (5089) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5089;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5089, 'oldcheese');
 
@@ -9054,6 +9789,9 @@ VALUES (5089, 13, True)
      , (5089, 11, True)
      , (5089, 14, True)
      , (5089, 19, True);
+
+/* Weenie - FoodObjects - Stale Bread (5088) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5088;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5088, 'stalebread');
@@ -9087,6 +9825,9 @@ VALUES (5088, 13, True)
      , (5088, 14, True)
      , (5088, 19, True);
 
+/* Weenie - FoodObjects - Beef Kebab (4710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4710;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4710, 'beefkebab');
 
@@ -9119,6 +9860,9 @@ VALUES (4710, 13, True)
      , (4710, 11, True)
      , (4710, 14, True)
      , (4710, 19, True);
+
+/* Weenie - FoodObjects - Flat Bread (4727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4727;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4727, 'flatbread');

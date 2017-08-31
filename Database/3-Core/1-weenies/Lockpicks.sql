@@ -1,3 +1,6 @@
+/* Weenie - Lockpicks - Reliable Lockpick (545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 545;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (545, 'lockpickreliable');
 
@@ -32,6 +35,9 @@ VALUES (545, 13, True)
      , (545, 14, True)
      , (545, 19, True)
      , (545, 22, True);
+
+/* Weenie - Lockpicks - Superb Lockpick (515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 515;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (515, 'lockpicksuperb');
@@ -68,6 +74,9 @@ VALUES (515, 13, True)
      , (515, 19, True)
      , (515, 22, True);
 
+/* Weenie - Lockpicks - Excellent Lockpick (514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 514;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (514, 'lockpickexcell');
 
@@ -102,6 +111,9 @@ VALUES (514, 13, True)
      , (514, 14, True)
      , (514, 19, True)
      , (514, 22, True);
+
+/* Weenie - Lockpicks - Good Lockpick (512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 512;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (512, 'lockpickgood');
@@ -138,6 +150,9 @@ VALUES (512, 13, True)
      , (512, 19, True)
      , (512, 22, True);
 
+/* Weenie - Lockpicks - Crude Lockpick (511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 511;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (511, 'lockpickcrude');
 
@@ -172,6 +187,9 @@ VALUES (511, 13, True)
      , (511, 14, True)
      , (511, 19, True)
      , (511, 22, True);
+
+/* Weenie - Lockpicks - Plain Lockpick (513) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 513;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (513, 'lockpickplain');
@@ -208,6 +226,9 @@ VALUES (513, 13, True)
      , (513, 19, True)
      , (513, 22, True);
 
+/* Weenie - Lockpicks - Peerless Lockpick (516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 516;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (516, 'lockpickpeer');
 
@@ -243,6 +264,9 @@ VALUES (516, 13, True)
      , (516, 19, True)
      , (516, 22, True);
 
+/* Weenie - Lockpicks - Carved Gemstone Lockpicks (27672) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27672;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27672, 'lockpickrenegade');
 
@@ -277,6 +301,9 @@ VALUES (27672, 13, True)
      , (27672, 14, True)
      , (27672, 19, True)
      , (27672, 22, True);
+
+/* Weenie - Lockpicks - Flimsy Lockpick (510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 510;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (510, 'lockpickflimsy');

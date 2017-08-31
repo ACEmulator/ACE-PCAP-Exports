@@ -1,3 +1,6 @@
+/* Weenie - HousePortals - House Portal (11730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11730;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11730, 'houseportal');
 

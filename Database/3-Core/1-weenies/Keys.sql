@@ -1,3 +1,6 @@
+/* Weenie - Keys - Copy of Witshire's Key (2200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2200;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2200, 'keywitshire');
 
@@ -30,6 +33,9 @@ VALUES (2200, 13, True)
      , (2200, 14, True)
      , (2200, 19, True)
      , (2200, 22, True);
+
+/* Weenie - Keys - A Bronze Key (15813) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15813;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15813, 'keythorstenarmor');
@@ -71,6 +77,9 @@ VALUES (15813, 0, 83888936, 83886763);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15813, 0, 16778599);
 
+/* Weenie - Keys - Portal Chamber Key (22087) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22087;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22087, 'hauntedmansionkey');
 
@@ -104,6 +113,9 @@ VALUES (22087, 13, True)
      , (22087, 14, True)
      , (22087, 19, True)
      , (22087, 22, True);
+
+/* Weenie - Keys - Sturdy Iron Key (6876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6876;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6876, 'keychesthigh');
@@ -139,6 +151,9 @@ VALUES (6876, 13, True)
      , (6876, 19, True)
      , (6876, 22, True);
 
+/* Weenie - Keys - Carved Key (2617) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2617;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2617, 'keycarvedcave');
 
@@ -171,6 +186,9 @@ VALUES (2617, 13, True)
      , (2617, 14, True)
      , (2617, 19, True)
      , (2617, 22, True);
+
+/* Weenie - Keys - Key (5021) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5021;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5021, 'keyfolthidcellar');
@@ -206,6 +224,9 @@ VALUES (5021, 13, True)
      , (5021, 19, True)
      , (5021, 22, True);
 
+/* Weenie - Keys - A silvery, mysterious key (3610) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3610;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3610, 'keyseventhkey');
 
@@ -239,6 +260,9 @@ VALUES (3610, 13, True)
      , (3610, 14, True)
      , (3610, 19, True)
      , (3610, 22, True);
+
+/* Weenie - Keys - Seal (5873) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5873;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5873, 'sealdericost');
@@ -288,6 +312,9 @@ VALUES (5873, 0, 83888956, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5873, 0, 16778506);
 
+/* Weenie - Keys - Asylum Chest Key (22922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22922;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22922, 'keyaerbaxchest1');
 
@@ -329,6 +356,9 @@ VALUES (22922, 67113157, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22922, 9, 16785620);
 
+/* Weenie - Keys - Hammer of Lightning (14511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14511;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14511, 'keyhammerempyreanlightning');
 
@@ -367,6 +397,9 @@ VALUES (14511, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (14511, 67111923, 0, 0);
 
+/* Weenie - Keys - Aged Legendary Key (48746) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48746;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48746, 'ace48746-agedlegendarykey');
 
@@ -401,6 +434,9 @@ VALUES (48746, 13, True)
      , (48746, 14, True)
      , (48746, 19, True)
      , (48746, 22, True);
+
+/* Weenie - Keys - Braced Mana Forge Key (38917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38917;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38917, 'ace38917-bracedmanaforgekey');
@@ -437,6 +473,9 @@ VALUES (38917, 13, True)
      , (38917, 19, True)
      , (38917, 22, True);
 
+/* Weenie - Keys - Mana Forge Key (38456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38456;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38456, 'ace38456-manaforgekey');
 
@@ -471,6 +510,9 @@ VALUES (38456, 13, True)
      , (38456, 14, True)
      , (38456, 19, True)
      , (38456, 22, True);
+
+/* Weenie - Keys - Asylum Chest Key (22923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22923;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22923, 'keyaerbaxchest2');
@@ -513,6 +555,9 @@ VALUES (22923, 67113796, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22923, 9, 16785620);
 
+/* Weenie - Keys - Worcer's Key (5039) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5039;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5039, 'keyworcer');
 
@@ -545,6 +590,9 @@ VALUES (5039, 13, True)
      , (5039, 14, True)
      , (5039, 19, True)
      , (5039, 22, True);
+
+/* Weenie - Keys - Durable Legendary Key (51954) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51954;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51954, 'ace51954-durablelegendarykey');
@@ -581,6 +629,9 @@ VALUES (51954, 13, True)
      , (51954, 19, True)
      , (51954, 22, True);
 
+/* Weenie - Keys - Prison Warden's Key (29480) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29480;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29480, 'keyoswaldprison');
 
@@ -613,6 +664,9 @@ VALUES (29480, 13, True)
      , (29480, 14, True)
      , (29480, 19, True)
      , (29480, 22, True);
+
+/* Weenie - Keys - Academy Library Key (30999) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30999;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30999, 'keydoornewbieacademylibrary');
@@ -647,6 +701,9 @@ VALUES (30999, 13, True)
      , (30999, 19, True)
      , (30999, 22, True);
 
+/* Weenie - Keys - Pathwarden Supply Key (33608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33608;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33608, 'ace33608-pathwardensupplykey');
 
@@ -679,6 +736,9 @@ VALUES (33608, 13, True)
      , (33608, 14, True)
      , (33608, 19, True)
      , (33608, 22, True);
+
+/* Weenie - Keys - Strong Iron Key (27685) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27685;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27685, 'keyrenegadebeefjerky');
@@ -713,6 +773,9 @@ VALUES (27685, 13, True)
      , (27685, 19, True)
      , (27685, 22, True);
 
+/* Weenie - Keys - Greeter's Key (12708) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12708;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12708, 'keydooracademya');
 
@@ -746,6 +809,9 @@ VALUES (12708, 13, True)
      , (12708, 19, True)
      , (12708, 22, True);
 
+/* Weenie - Keys - Quartermaster's Workshop Key (12707) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12707;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12707, 'keydooracademyb');
 
@@ -778,6 +844,9 @@ VALUES (12707, 13, True)
      , (12707, 14, True)
      , (12707, 19, True)
      , (12707, 22, True);
+
+/* Weenie - Keys - Key (1264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1264;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1264, 'keygreenmirechest2');
@@ -813,6 +882,9 @@ VALUES (1264, 13, True)
      , (1264, 19, True)
      , (1264, 22, True);
 
+/* Weenie - Keys - The Baron's Key (1532) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1532;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1532, 'keycolierdeep');
 
@@ -846,6 +918,9 @@ VALUES (1532, 13, True)
      , (1532, 14, True)
      , (1532, 19, True)
      , (1532, 22, True);
+
+/* Weenie - Keys - Small Rusted Key (1533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1533;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1533, 'keycoliermine');
@@ -881,6 +956,9 @@ VALUES (1533, 13, True)
      , (1533, 19, True)
      , (1533, 22, True);
 
+/* Weenie - Keys - Cell Key (1531) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1531;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1531, 'keycoliercell');
 
@@ -914,6 +992,9 @@ VALUES (1531, 13, True)
      , (1531, 14, True)
      , (1531, 19, True)
      , (1531, 22, True);
+
+/* Weenie - Keys - Singularity Key (9294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9294;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9294, 'keysingularity');
@@ -956,6 +1037,9 @@ VALUES (9294, 67113156, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9294, 9, 16785620);
 
+/* Weenie - Keys - Rabbit Hutch Key (32934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32934;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32934, 'ace32934-rabbithutchkey');
 
@@ -989,6 +1073,9 @@ VALUES (32934, 13, True)
      , (32934, 14, True)
      , (32934, 19, True)
      , (32934, 22, True);
+
+/* Weenie - Keys - Key (1278) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1278;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1278, 'keybanditprison');
@@ -1024,6 +1111,9 @@ VALUES (1278, 13, True)
      , (1278, 19, True)
      , (1278, 22, True);
 
+/* Weenie - Keys - Key (1279) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1279;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1279, 'keybanditprison2');
 
@@ -1057,6 +1147,9 @@ VALUES (1279, 13, True)
      , (1279, 14, True)
      , (1279, 19, True)
      , (1279, 22, True);
+
+/* Weenie - Keys - Key (1280) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1280;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1280, 'keybanditprison3');
@@ -1092,6 +1185,9 @@ VALUES (1280, 13, True)
      , (1280, 19, True)
      , (1280, 22, True);
 
+/* Weenie - Keys - Silver Key (1277) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1277;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1277, 'keybanditchestarmor');
 
@@ -1125,6 +1221,9 @@ VALUES (1277, 13, True)
      , (1277, 14, True)
      , (1277, 19, True)
      , (1277, 22, True);
+
+/* Weenie - Keys - Worn Small Key (1421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1421;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1421, 'keylostlightholtburg');
@@ -1160,6 +1259,9 @@ VALUES (1421, 13, True)
      , (1421, 19, True)
      , (1421, 22, True);
 
+/* Weenie - Keys - Worn Strange Key (1426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1426;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1426, 'keylostlightyaraq');
 
@@ -1193,6 +1295,9 @@ VALUES (1426, 13, True)
      , (1426, 14, True)
      , (1426, 19, True)
      , (1426, 22, True);
+
+/* Weenie - Keys - Worn Plain Key (1425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1425;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1425, 'keylostlightyanshi');
@@ -1228,6 +1333,9 @@ VALUES (1425, 13, True)
      , (1425, 19, True)
      , (1425, 22, True);
 
+/* Weenie - Keys - Worn Old Key (1424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1424;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1424, 'keylostlightshoushi');
 
@@ -1261,6 +1369,9 @@ VALUES (1424, 13, True)
      , (1424, 14, True)
      , (1424, 19, True)
      , (1424, 22, True);
+
+/* Weenie - Keys - Worn Rusty Key (1423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1423;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1423, 'keylostlightsamsur');
@@ -1296,6 +1407,9 @@ VALUES (1423, 13, True)
      , (1423, 19, True)
      , (1423, 22, True);
 
+/* Weenie - Keys - Worn Odd Key (1422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1422;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1422, 'keylostlightrithwic');
 
@@ -1330,6 +1444,9 @@ VALUES (1422, 13, True)
      , (1422, 19, True)
      , (1422, 22, True);
 
+/* Weenie - Keys - Small Carved Key (2618) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2618;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2618, 'keycarvedroom');
 
@@ -1362,6 +1479,9 @@ VALUES (2618, 13, True)
      , (2618, 14, True)
      , (2618, 19, True)
      , (2618, 22, True);
+
+/* Weenie - Keys - Legendary Key (48748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48748;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48748, 'ace48748-legendarykey');
@@ -1398,6 +1518,9 @@ VALUES (48748, 13, True)
      , (48748, 19, True)
      , (48748, 22, True);
 
+/* Weenie - Keys - Ornate Ashen Key (28057) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28057;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28057, 'keyaerfalleuber');
 
@@ -1432,6 +1555,9 @@ VALUES (28057, 13, True)
      , (28057, 19, True)
      , (28057, 22, True);
 
+/* Weenie - Keys - Skeleton Key (25972) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25972;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25972, 'keydecrepittower');
 
@@ -1464,6 +1590,9 @@ VALUES (25972, 13, True)
      , (25972, 14, True)
      , (25972, 19, True)
      , (25972, 22, True);
+
+/* Weenie - Keys - Strengthened Mana Forge Key (38918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38918;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38918, 'ace38918-strengthenedmanaforgekey');
@@ -1500,6 +1629,9 @@ VALUES (38918, 13, True)
      , (38918, 19, True)
      , (38918, 22, True);
 
+/* Weenie - Keys - Legendary Key (52010) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52010;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52010, 'ace52010-legendarykey');
 
@@ -1535,6 +1667,9 @@ VALUES (52010, 13, True)
      , (52010, 19, True)
      , (52010, 22, True);
 
+/* Weenie - Keys - Granite Key (23094) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23094;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23094, 'keychestvodhigh');
 
@@ -1568,6 +1703,9 @@ VALUES (23094, 13, True)
      , (23094, 19, True)
      , (23094, 22, True);
 
+/* Weenie - Keys - Black Marrow Key (30814) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30814;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30814, 'keyblackmarrow');
 
@@ -1600,6 +1738,9 @@ VALUES (30814, 13, True)
      , (30814, 14, True)
      , (30814, 19, True)
      , (30814, 22, True);
+
+/* Weenie - Keys - Sturdy Steel Key (24477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24477;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24477, 'keychestextreme');
@@ -1635,6 +1776,9 @@ VALUES (24477, 13, True)
      , (24477, 19, True)
      , (24477, 22, True);
 
+/* Weenie - Keys - Ashen Key (7409) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7409;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7409, 'keyaerfalle');
 
@@ -1668,6 +1812,9 @@ VALUES (7409, 13, True)
      , (7409, 14, True)
      , (7409, 19, True)
      , (7409, 22, True);
+
+/* Weenie - Keys - Shimmering Skeleton Key (30258) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30258;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30258, 'keyrarevolatileuniversal');
@@ -1704,6 +1851,9 @@ VALUES (30258, 13, True)
      , (30258, 19, True)
      , (30258, 22, True);
 
+/* Weenie - Keys - Gelidite Treasure Key (5903) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5903;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5903, 'keyultimatefrore');
 
@@ -1736,6 +1886,9 @@ VALUES (5903, 13, True)
      , (5903, 14, True)
      , (5903, 19, True)
      , (5903, 22, True);
+
+/* Weenie - Keys - Marble Key (23095) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23095;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23095, 'keychestvodlow');
@@ -1770,6 +1923,9 @@ VALUES (23095, 13, True)
      , (23095, 19, True)
      , (23095, 22, True);
 
+/* Weenie - Keys - Colosseum Vault Key (34448) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34448;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34448, 'ace34448-colosseumvaultkey');
 
@@ -1802,6 +1958,9 @@ VALUES (34448, 13, True)
      , (34448, 14, True)
      , (34448, 19, True)
      , (34448, 22, True);
+
+/* Weenie - Keys - Grand Casino Key (38992) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38992;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38992, 'ace38992-grandcasinokey');
@@ -1839,6 +1998,9 @@ VALUES (38992, 13, True)
      , (38992, 19, True)
      , (38992, 22, True);
 
+/* Weenie - Keys - Bone Key (25566) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25566;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25566, 'keybanderlingbonevod');
 
@@ -1871,6 +2033,9 @@ VALUES (25566, 13, True)
      , (25566, 14, True)
      , (25566, 19, True)
      , (25566, 22, True);
+
+/* Weenie - Keys - Fortified Mana Forge Key (38919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38919;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38919, 'ace38919-fortifiedmanaforgekey');
@@ -1906,6 +2071,9 @@ VALUES (38919, 13, True)
      , (38919, 14, True)
      , (38919, 19, True)
      , (38919, 22, True);
+
+/* Weenie - Keys - Golden Key (39287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39287;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39287, 'ace39287-goldenkey');
@@ -1943,6 +2111,9 @@ VALUES (39287, 13, True)
      , (39287, 19, True)
      , (39287, 22, True);
 
+/* Weenie - Keys - Key (1267) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1267;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1267, 'keygreenmireresist54');
 
@@ -1976,6 +2147,9 @@ VALUES (1267, 13, True)
      , (1267, 14, True)
      , (1267, 19, True)
      , (1267, 22, True);
+
+/* Weenie - Keys - Key (1266) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1266;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1266, 'keygreenmireprison');
@@ -2011,6 +2185,9 @@ VALUES (1266, 13, True)
      , (1266, 19, True)
      , (1266, 22, True);
 
+/* Weenie - Keys - Key (1265) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1265;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1265, 'keygreenmirechest3');
 
@@ -2044,6 +2221,9 @@ VALUES (1265, 13, True)
      , (1265, 14, True)
      , (1265, 19, True)
      , (1265, 22, True);
+
+/* Weenie - Keys - Key (1263) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1263;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1263, 'keygreenmirechest');
@@ -2079,6 +2259,9 @@ VALUES (1263, 13, True)
      , (1263, 19, True)
      , (1263, 22, True);
 
+/* Weenie - Keys - Key (1268) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1268;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1268, 'keygreenmireresist58');
 
@@ -2112,6 +2295,9 @@ VALUES (1268, 13, True)
      , (1268, 14, True)
      , (1268, 19, True)
      , (1268, 22, True);
+
+/* Weenie - Keys - Dryreach Key (2244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2244;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2244, 'keydryreach');
@@ -2147,6 +2333,9 @@ VALUES (2244, 13, True)
      , (2244, 19, True)
      , (2244, 22, True);
 
+/* Weenie - Keys - Door Key (44425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44425;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44425, 'ace44425-doorkey');
 
@@ -2181,6 +2370,9 @@ VALUES (44425, 13, True)
      , (44425, 19, True)
      , (44425, 22, True);
 
+/* Weenie - Keys - Torture Chamber Key (28772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28772;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28772, 'keyviamontiantorturechamber');
 
@@ -2213,6 +2405,9 @@ VALUES (28772, 13, True)
      , (28772, 14, True)
      , (28772, 19, True)
      , (28772, 22, True);
+
+/* Weenie - Keys - Key (5022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5022;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5022, 'keyfolthidexit');
@@ -2248,6 +2443,9 @@ VALUES (5022, 13, True)
      , (5022, 19, True)
      , (5022, 22, True);
 
+/* Weenie - Keys - Key (1247) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1247;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1247, 'keyglendenchest');
 
@@ -2282,6 +2480,9 @@ VALUES (1247, 13, True)
      , (1247, 19, True)
      , (1247, 22, True);
 
+/* Weenie - Keys - Golden Key (5614) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5614;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5614, 'keydespairentrance');
 
@@ -2315,6 +2516,9 @@ VALUES (5614, 13, True)
      , (5614, 14, True)
      , (5614, 19, True)
      , (5614, 22, True);
+
+/* Weenie - Keys - Le-Ai Rea's Key (8905) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8905;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8905, 'keydespairfinal');
@@ -2351,6 +2555,9 @@ VALUES (8905, 13, True)
      , (8905, 19, True)
      , (8905, 22, True);
 
+/* Weenie - Keys - Depraved Key (27294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27294;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27294, 'keyshadowchilddepraved');
 
@@ -2384,6 +2591,9 @@ VALUES (27294, 13, True)
      , (27294, 19, True)
      , (27294, 22, True);
 
+/* Weenie - Keys - Wretched Key (27296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27296;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27296, 'keyshadowchildwretched');
 
@@ -2416,6 +2626,9 @@ VALUES (27296, 13, True)
      , (27296, 14, True)
      , (27296, 19, True)
      , (27296, 22, True);
+
+/* Weenie - Keys - Grand Casino Golden Keyring (37620) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37620;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37620, 'ace37620-grandcasinogoldenkeyring');
@@ -2451,6 +2664,9 @@ VALUES (37620, 13, True)
      , (37620, 19, True)
      , (37620, 22, True);
 
+/* Weenie - Keys - Grand Casino Golden Keyring (37621) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37621;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37621, 'ace37621-grandcasinogoldenkeyring');
 
@@ -2485,6 +2701,9 @@ VALUES (37621, 13, True)
      , (37621, 19, True)
      , (37621, 22, True);
 
+/* Weenie - Keys - Grand Casino Golden Keyring (37622) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37622;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37622, 'ace37622-grandcasinogoldenkeyring');
 
@@ -2518,6 +2737,9 @@ VALUES (37622, 13, True)
      , (37622, 14, True)
      , (37622, 19, True)
      , (37622, 22, True);
+
+/* Weenie - Keys - Directive Key (9289) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9289;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9289, 'keydirective');
@@ -2560,6 +2782,9 @@ VALUES (9289, 67113155, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9289, 9, 16785620);
 
+/* Weenie - Keys - Skeletal Falatacot Key (34961) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34961;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34961, 'ace34961-skeletalfalatacotkey');
 
@@ -2592,6 +2817,9 @@ VALUES (34961, 13, True)
      , (34961, 14, True)
      , (34961, 19, True)
      , (34961, 22, True);
+
+/* Weenie - Keys - Master Key (9293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9293;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9293, 'keymaster');
@@ -2634,6 +2862,9 @@ VALUES (9293, 67113157, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9293, 9, 16785620);
 
+/* Weenie - Keys - Shadow Vault Key (33758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33758;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33758, 'ace33758-shadowvaultkey');
 
@@ -2667,6 +2898,9 @@ VALUES (33758, 13, True)
      , (33758, 19, True)
      , (33758, 22, True);
 
+/* Weenie - Keys - Shadow Chest Key (33757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33757;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33757, 'ace33757-shadowchestkey');
 
@@ -2699,6 +2933,9 @@ VALUES (33757, 13, True)
      , (33757, 14, True)
      , (33757, 19, True)
      , (33757, 22, True);
+
+/* Weenie - Keys - Beautiful key (2218) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2218;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2218, 'keycragstonegrave');
@@ -2734,6 +2971,9 @@ VALUES (2218, 13, True)
      , (2218, 19, True)
      , (2218, 22, True);
 
+/* Weenie - Keys - Door Key (45022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45022;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45022, 'ace45022-doorkey');
 
@@ -2767,6 +3007,9 @@ VALUES (45022, 13, True)
      , (45022, 14, True)
      , (45022, 19, True)
      , (45022, 22, True);
+
+/* Weenie - Keys - Door Key (45023) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45023;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45023, 'ace45023-doorkey');
@@ -2802,6 +3045,9 @@ VALUES (45023, 13, True)
      , (45023, 19, True)
      , (45023, 22, True);
 
+/* Weenie - Keys - Gauntlet Treasure Key (52782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52782;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52782, 'ace52782-gauntlettreasurekey');
 
@@ -2836,6 +3082,9 @@ VALUES (52782, 13, True)
      , (52782, 19, True)
      , (52782, 22, True);
 
+/* Weenie - Keys - Lord Cynreft Mhoire's Key (35402) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35402;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35402, 'ace35402-lordcynreftmhoireskey');
 
@@ -2867,6 +3116,9 @@ VALUES (35402, 13, True)
      , (35402, 14, True)
      , (35402, 19, True)
      , (35402, 22, True);
+
+/* Weenie - Keys - Key (1248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1248;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1248, 'keyglendendoor');
@@ -2902,6 +3154,9 @@ VALUES (1248, 13, True)
      , (1248, 19, True)
      , (1248, 22, True);
 
+/* Weenie - Keys - Key (1249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1249;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1249, 'keyglendenprison');
 
@@ -2935,6 +3190,9 @@ VALUES (1249, 13, True)
      , (1249, 14, True)
      , (1249, 19, True)
      , (1249, 22, True);
+
+/* Weenie - Keys - Key (1250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1250;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1250, 'keyglendenprison2');
@@ -2970,6 +3228,9 @@ VALUES (1250, 13, True)
      , (1250, 19, True)
      , (1250, 22, True);
 
+/* Weenie - Keys - Gate Key (25710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25710;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25710, 'keynoir1');
 
@@ -3002,6 +3263,9 @@ VALUES (25710, 13, True)
      , (25710, 14, True)
      , (25710, 19, True)
      , (25710, 22, True);
+
+/* Weenie - Keys - Armory Key (38382) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38382;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38382, 'ace38382-armorykey');
@@ -3036,6 +3300,9 @@ VALUES (38382, 13, True)
      , (38382, 19, True)
      , (38382, 22, True);
 
+/* Weenie - Keys - Vault Key (38383) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38383;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38383, 'ace38383-vaultkey');
 
@@ -3068,6 +3335,9 @@ VALUES (38383, 13, True)
      , (38383, 14, True)
      , (38383, 19, True)
      , (38383, 22, True);
+
+/* Weenie - Keys - Skith'Kirit's Key (38381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38381;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38381, 'ace38381-skithkiritskey');
@@ -3102,6 +3372,9 @@ VALUES (38381, 13, True)
      , (38381, 19, True)
      , (38381, 22, True);
 
+/* Weenie - Keys - Master's Treasure Key (38318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38318;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38318, 'ace38318-masterstreasurekey');
 
@@ -3133,6 +3406,9 @@ VALUES (38318, 13, True)
      , (38318, 14, True)
      , (38318, 19, True)
      , (38318, 22, True);
+
+/* Weenie - Keys - Banderling Holy Symbol (30640) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30640;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30640, 'holysymbolbanderlingkey');
@@ -3166,6 +3442,9 @@ VALUES (30640, 13, True)
      , (30640, 14, True)
      , (30640, 19, True)
      , (30640, 22, True);
+
+/* Weenie - Keys - Exquisite Casino Key (52033) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52033;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52033, 'ace52033-exquisitecasinokey');
@@ -3203,6 +3482,9 @@ VALUES (52033, 13, True)
      , (52033, 19, True)
      , (52033, 22, True);
 
+/* Weenie - Keys - Adept's Treasure Key (38315) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38315;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38315, 'ace38315-adeptstreasurekey');
 
@@ -3234,6 +3516,9 @@ VALUES (38315, 13, True)
      , (38315, 14, True)
      , (38315, 19, True)
      , (38315, 22, True);
+
+/* Weenie - Keys - Knight's Treasure Key (38316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38316;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38316, 'ace38316-knightstreasurekey');
@@ -3267,6 +3552,9 @@ VALUES (38316, 13, True)
      , (38316, 19, True)
      , (38316, 22, True);
 
+/* Weenie - Keys - Mhoire Castle Treasury Key (41957) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41957;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41957, 'ace41957-mhoirecastletreasurykey');
 
@@ -3298,6 +3586,9 @@ VALUES (41957, 13, True)
      , (41957, 14, True)
      , (41957, 19, True)
      , (41957, 22, True);
+
+/* Weenie - Keys - Embossed Ashen Key (40929) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40929;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40929, 'ace40929-embossedashenkey');
@@ -3332,6 +3623,9 @@ VALUES (40929, 13, True)
      , (40929, 14, True)
      , (40929, 19, True)
      , (40929, 22, True);
+
+/* Weenie - Keys - Legendary Key (51648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51648;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51648, 'ace51648-legendarykey');
@@ -3368,6 +3662,9 @@ VALUES (51648, 13, True)
      , (51648, 19, True)
      , (51648, 22, True);
 
+/* Weenie - Keys - Lord's Treasure Key (38317) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38317;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38317, 'ace38317-lordstreasurekey');
 
@@ -3399,6 +3696,9 @@ VALUES (38317, 13, True)
      , (38317, 14, True)
      , (38317, 19, True)
      , (38317, 22, True);
+
+/* Weenie - Keys - Casino Exquisite Keyring (52034) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52034;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52034, 'ace52034-casinoexquisitekeyring');
@@ -3435,6 +3735,9 @@ VALUES (52034, 13, True)
      , (52034, 19, True)
      , (52034, 22, True);
 
+/* Weenie - Keys - Scratched Key (1538) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1538;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1538, 'keycolierminechest');
 
@@ -3468,6 +3771,9 @@ VALUES (1538, 13, True)
      , (1538, 14, True)
      , (1538, 19, True)
      , (1538, 22, True);
+
+/* Weenie - Keys - Supply Room Key (42311) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42311;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42311, 'ace42311-supplyroomkey');
@@ -3503,6 +3809,9 @@ VALUES (42311, 13, True)
      , (42311, 19, True)
      , (42311, 22, True);
 
+/* Weenie - Keys - Main Key (42312) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42312;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42312, 'ace42312-mainkey');
 
@@ -3536,6 +3845,9 @@ VALUES (42312, 13, True)
      , (42312, 14, True)
      , (42312, 19, True)
      , (42312, 22, True);
+
+/* Weenie - Keys - Prison Key (42313) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42313;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42313, 'ace42313-prisonkey');
@@ -3571,6 +3883,9 @@ VALUES (42313, 13, True)
      , (42313, 19, True)
      , (42313, 22, True);
 
+/* Weenie - Keys - Inner Chamber Key (32666) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32666;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32666, 'ace32666-innerchamberkey');
 
@@ -3602,6 +3917,9 @@ VALUES (32666, 13, True)
      , (32666, 14, True)
      , (32666, 19, True)
      , (32666, 22, True);
+
+/* Weenie - Keys - Trothyr's Rest Key (2193) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2193;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2193, 'keytrothyrsrest');
@@ -3637,6 +3955,9 @@ VALUES (2193, 13, True)
      , (2193, 19, True)
      , (2193, 22, True);
 
+/* Weenie - Keys - Treasure Chest Key (1537) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1537;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1537, 'keycolierminegold');
 
@@ -3670,6 +3991,9 @@ VALUES (1537, 13, True)
      , (1537, 14, True)
      , (1537, 19, True)
      , (1537, 22, True);
+
+/* Weenie - Keys - Weathered Red Key (23084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23084;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23084, 'keysylsfearruby');
@@ -3705,6 +4029,9 @@ VALUES (23084, 13, True)
      , (23084, 19, True)
      , (23084, 22, True);
 
+/* Weenie - Keys - Bone Engraved Key (6880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6880;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6880, 'keydryreachwatchtower');
 
@@ -3737,6 +4064,9 @@ VALUES (6880, 13, True)
      , (6880, 14, True)
      , (6880, 19, True)
      , (6880, 22, True);
+
+/* Weenie - Keys - Golden Key (44718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44718;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44718, 'ace44718-goldenkey');
@@ -3773,6 +4103,9 @@ VALUES (44718, 13, True)
      , (44718, 14, True)
      , (44718, 19, True)
      , (44718, 22, True);
+
+/* Weenie - Keys - A Bright Silver Key (15859) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15859;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15859, 'keygaerlanreward');
@@ -3814,6 +4147,9 @@ VALUES (15859, 0, 83888936, 83886763);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15859, 0, 16778599);
 
+/* Weenie - Keys - K'nath Key (31222) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31222;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31222, 'ace31222-knathkey');
 
@@ -3846,6 +4182,9 @@ VALUES (31222, 13, True)
      , (31222, 14, True)
      , (31222, 19, True)
      , (31222, 22, True);
+
+/* Weenie - Keys - Small Empyrean Key (28770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28770;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28770, 'keysmallempvault');
@@ -3881,6 +4220,9 @@ VALUES (28770, 13, True)
      , (28770, 19, True)
      , (28770, 22, True);
 
+/* Weenie - Keys - Drudge Key (30657) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30657;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30657, 'drudgekeywarroom');
 
@@ -3915,6 +4257,9 @@ VALUES (30657, 13, True)
      , (30657, 19, True)
      , (30657, 22, True);
 
+/* Weenie - Keys - Glittering Key (25567) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25567;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25567, 'keydrudgeglittervod');
 
@@ -3947,6 +4292,9 @@ VALUES (25567, 13, True)
      , (25567, 14, True)
      , (25567, 19, True)
      , (25567, 22, True);
+
+/* Weenie - Keys - Karenua's Key (10968) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10968;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10968, 'keykarenua-xp');
@@ -3989,6 +4337,9 @@ VALUES (10968, 67113157, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10968, 9, 16785620);
 
+/* Weenie - Keys - Yucky Key (7810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7810;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7810, 'keysoulfearingvestry');
 
@@ -4023,6 +4374,9 @@ VALUES (7810, 13, True)
      , (7810, 19, True)
      , (7810, 22, True);
 
+/* Weenie - Keys - Leatherworking Chest Key (31700) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31700;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31700, 'ace31700-leatherworkingchestkey');
 
@@ -4055,6 +4409,9 @@ VALUES (31700, 13, True)
      , (31700, 11, True)
      , (31700, 14, True)
      , (31700, 19, True);
+
+/* Weenie - Keys - Blacksmithing Chest Key (31701) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31701;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31701, 'ace31701-blacksmithingchestkey');
@@ -4089,6 +4446,9 @@ VALUES (31701, 13, True)
      , (31701, 14, True)
      , (31701, 19, True);
 
+/* Weenie - Keys - Ruschk Iceberg Key (28771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28771;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28771, 'keyruschkiceberg');
 
@@ -4121,6 +4481,9 @@ VALUES (28771, 13, True)
      , (28771, 14, True)
      , (28771, 19, True)
      , (28771, 22, True);
+
+/* Weenie - Keys - Hardunna's Key (5038) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5038;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5038, 'keyhardunna');
@@ -4155,6 +4518,9 @@ VALUES (5038, 13, True)
      , (5038, 19, True)
      , (5038, 22, True);
 
+/* Weenie - Keys - Key (5757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5757;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5757, 'keywatertemple');
 
@@ -4188,6 +4554,9 @@ VALUES (5757, 13, True)
      , (5757, 19, True)
      , (5757, 22, True);
 
+/* Weenie - Keys - Falatacot Vault Key (33761) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33761;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33761, 'ace33761-falatacotvaultkey');
 
@@ -4220,6 +4589,9 @@ VALUES (33761, 13, True)
      , (33761, 14, True)
      , (33761, 19, True)
      , (33761, 22, True);
+
+/* Weenie - Keys - Ancient Key (8511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8511;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8511, 'keyadja');
@@ -4255,6 +4627,9 @@ VALUES (8511, 13, True)
      , (8511, 19, True)
      , (8511, 22, True);
 
+/* Weenie - Keys - Tumerok Key (5368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5368;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5368, 'keycovecrypt');
 
@@ -4288,6 +4663,9 @@ VALUES (5368, 13, True)
      , (5368, 19, True)
      , (5368, 22, True);
 
+/* Weenie - Keys - Strong Iron Key (27687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27687;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27687, 'keyrenegadehealingkits');
 
@@ -4320,6 +4698,9 @@ VALUES (27687, 13, True)
      , (27687, 14, True)
      , (27687, 19, True)
      , (27687, 22, True);
+
+/* Weenie - Keys - Storage Key (14437) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14437;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14437, 'keyregicide2');
@@ -4361,6 +4742,9 @@ VALUES (14437, 0, 83888936, 83893868);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14437, 0, 16778599);
 
+/* Weenie - Keys - Storage Key (14436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14436;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14436, 'keyregicide1');
 
@@ -4400,6 +4784,9 @@ VALUES (14436, 0, 83888936, 83893868);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14436, 0, 16778599);
+
+/* Weenie - Keys - Gate Key (15814) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15814;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15814, 'keythorstenarmorfreebron');
@@ -4441,6 +4828,9 @@ VALUES (15814, 0, 83888936, 83886763);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15814, 0, 16778599);
 
+/* Weenie - Keys - Key to Hamud's Chambers (6037) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6037;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6037, 'keyhamud');
 
@@ -4473,6 +4863,9 @@ VALUES (6037, 13, True)
      , (6037, 14, True)
      , (6037, 19, True)
      , (6037, 22, True);
+
+/* Weenie - Keys - Key to Jaleh's Chest (24182) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24182;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24182, 'keyjaleh');
@@ -4508,6 +4901,9 @@ VALUES (24182, 13, True)
      , (24182, 19, True)
      , (24182, 22, True);
 
+/* Weenie - Keys - Ishaq's Lost Key (29233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29233;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29233, 'keyishaqslostkey');
 
@@ -4540,6 +4936,9 @@ VALUES (29233, 13, True)
      , (29233, 14, True)
      , (29233, 19, True)
      , (29233, 22, True);
+
+/* Weenie - Keys - Apostate Citadel Barracks Key (40494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40494;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40494, 'ace40494-apostatecitadelbarrackskey');
@@ -4574,6 +4973,9 @@ VALUES (40494, 13, True)
      , (40494, 19, True)
      , (40494, 22, True);
 
+/* Weenie - Keys - Apostate Citadel Headquarters Key (40497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40497;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40497, 'ace40497-apostatecitadelheadquarterskey');
 
@@ -4606,6 +5008,9 @@ VALUES (40497, 13, True)
      , (40497, 14, True)
      , (40497, 19, True)
      , (40497, 22, True);
+
+/* Weenie - Keys - Apostate Excavation Laboratory Key (41192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41192;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41192, 'ace41192-apostateexcavationlaboratorykey');
@@ -4640,6 +5045,9 @@ VALUES (41192, 13, True)
      , (41192, 19, True)
      , (41192, 22, True);
 
+/* Weenie - Keys - Aetherium Vault Key (40805) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40805;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40805, 'ace40805-aetheriumvaultkey');
 
@@ -4672,6 +5080,9 @@ VALUES (40805, 13, True)
      , (40805, 14, True)
      , (40805, 19, True)
      , (40805, 22, True);
+
+/* Weenie - Keys - Joroshi's Key (38641) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38641;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38641, 'ace38641-joroshiskey');
@@ -4706,6 +5117,9 @@ VALUES (38641, 13, True)
      , (38641, 19, True)
      , (38641, 22, True);
 
+/* Weenie - Keys - Donnarion's Key (38642) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38642;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38642, 'ace38642-donnarionskey');
 
@@ -4739,6 +5153,9 @@ VALUES (38642, 13, True)
      , (38642, 19, True)
      , (38642, 22, True);
 
+/* Weenie - Keys - Haroush's Key (38640) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38640;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38640, 'ace38640-haroushskey');
 
@@ -4771,6 +5188,9 @@ VALUES (38640, 13, True)
      , (38640, 14, True)
      , (38640, 19, True)
      , (38640, 22, True);
+
+/* Weenie - Keys - Silvery Key (2546) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2546;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2546, 'keyresearchwing');
@@ -4806,6 +5226,9 @@ VALUES (2546, 13, True)
      , (2546, 19, True)
      , (2546, 22, True);
 
+/* Weenie - Keys - Foundry Key (6036) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6036;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6036, 'keyempyreanfoundry');
 
@@ -4839,6 +5262,9 @@ VALUES (6036, 13, True)
      , (6036, 19, True)
      , (6036, 22, True);
 
+/* Weenie - Keys - Initiate's Treasure Key (38314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38314;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38314, 'ace38314-initiatestreasurekey');
 
@@ -4870,6 +5296,9 @@ VALUES (38314, 13, True)
      , (38314, 14, True)
      , (38314, 19, True)
      , (38314, 22, True);
+
+/* Weenie - Keys - Grand Casino Golden Keyring (30257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30257;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30257, 'keyrarevolatilegoldensho');
@@ -4906,6 +5335,9 @@ VALUES (30257, 13, True)
      , (30257, 19, True)
      , (30257, 22, True);
 
+/* Weenie - Keys - Entryway Key (43519) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43519;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43519, 'ace43519-entrywaykey');
 
@@ -4939,6 +5371,9 @@ VALUES (43519, 13, True)
      , (43519, 14, True)
      , (43519, 19, True)
      , (43519, 22, True);
+
+/* Weenie - Keys - Asylum Key (22924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22924;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22924, 'keyaerbaxdoor1');
@@ -4981,6 +5416,9 @@ VALUES (22924, 67113157, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22924, 9, 16785620);
 
+/* Weenie - Keys - Cellar Key (43521) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43521;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43521, 'ace43521-cellarkey');
 
@@ -5015,6 +5453,9 @@ VALUES (43521, 13, True)
      , (43521, 19, True)
      , (43521, 22, True);
 
+/* Weenie - Keys - Dericost Ruin Key (28773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28773;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28773, 'keydericostruinhalaetan');
 
@@ -5047,6 +5488,9 @@ VALUES (28773, 13, True)
      , (28773, 14, True)
      , (28773, 19, True)
      , (28773, 22, True);
+
+/* Weenie - Keys - Door Key (40576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40576;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40576, 'ace40576-doorkey');
@@ -5082,6 +5526,9 @@ VALUES (40576, 13, True)
      , (40576, 19, True)
      , (40576, 22, True);
 
+/* Weenie - Keys - Gold Key (1320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1320;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1320, 'keysewerdoor');
 
@@ -5114,6 +5561,9 @@ VALUES (1320, 13, True)
      , (1320, 14, True)
      , (1320, 19, True)
      , (1320, 22, True);
+
+/* Weenie - Keys - Final Gate Key (46460) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46460;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46460, 'ace46460-finalgatekey');
@@ -5150,6 +5600,9 @@ VALUES (46460, 13, True)
      , (46460, 19, True)
      , (46460, 22, True);
 
+/* Weenie - Keys - Middle Gate Key (46461) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46461;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46461, 'ace46461-middlegatekey');
 
@@ -5185,6 +5638,9 @@ VALUES (46461, 13, True)
      , (46461, 19, True)
      , (46461, 22, True);
 
+/* Weenie - Keys - Trunk Key (9105) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9105;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9105, 'keysasalia');
 
@@ -5218,6 +5674,9 @@ VALUES (9105, 13, True)
      , (9105, 14, True)
      , (9105, 19, True)
      , (9105, 22, True);
+
+/* Weenie - Keys - Legendary Key (51963) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51963;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51963, 'ace51963-legendarykey');
@@ -5254,6 +5713,9 @@ VALUES (51963, 13, True)
      , (51963, 19, True)
      , (51963, 22, True);
 
+/* Weenie - Keys - Jilsaya's Key (5157) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5157;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5157, 'keyjilsaya');
 
@@ -5287,6 +5749,9 @@ VALUES (5157, 13, True)
      , (5157, 19, True)
      , (5157, 22, True);
 
+/* Weenie - Keys - Library Key (5135) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5135;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5135, 'keysamsurlibrary');
 
@@ -5319,6 +5784,9 @@ VALUES (5135, 13, True)
      , (5135, 14, True)
      , (5135, 19, True)
      , (5135, 22, True);
+
+/* Weenie - Keys - Worn Key (1358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1358;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1358, 'sylsfearkey');
@@ -5354,6 +5822,9 @@ VALUES (1358, 13, True)
      , (1358, 19, True)
      , (1358, 22, True);
 
+/* Weenie - Keys - Zalphoos' Key (1352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1352;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1352, 'zalphooskey');
 
@@ -5388,6 +5859,9 @@ VALUES (1352, 13, True)
      , (1352, 19, True)
      , (1352, 22, True);
 
+/* Weenie - Keys - Karwin's Key (5895) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5895;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5895, 'banditcastlekarwinkey');
 
@@ -5421,6 +5895,9 @@ VALUES (5895, 13, True)
      , (5895, 14, True)
      , (5895, 19, True)
      , (5895, 22, True);
+
+/* Weenie - Keys - Legendary Key (51586) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51586;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51586, 'ace51586-legendarykey');
@@ -5457,6 +5934,9 @@ VALUES (51586, 13, True)
      , (51586, 19, True)
      , (51586, 22, True);
 
+/* Weenie - Keys - West Armory Key (37568) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37568;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37568, 'ace37568-westarmorykey');
 
@@ -5491,6 +5971,9 @@ VALUES (37568, 13, True)
      , (37568, 19, True)
      , (37568, 22, True);
 
+/* Weenie - Keys - Phainor's Chamber Key (48772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48772;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48772, 'ace48772-phainorschamberkey');
 
@@ -5523,6 +6006,9 @@ VALUES (48772, 13, True)
      , (48772, 14, True)
      , (48772, 19, True)
      , (48772, 22, True);
+
+/* Weenie - Keys - Legendary Key (48747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48747;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48747, 'ace48747-legendarykey');
@@ -5559,6 +6045,9 @@ VALUES (48747, 13, True)
      , (48747, 19, True)
      , (48747, 22, True);
 
+/* Weenie - Keys - Key to the Elder Cache (23994) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23994;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23994, 'keyknorrelder');
 
@@ -5591,6 +6080,9 @@ VALUES (23994, 13, True)
      , (23994, 14, True)
      , (23994, 19, True)
      , (23994, 22, True);
+
+/* Weenie - Keys - Key to the Sentinel Cache (23995) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23995;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23995, 'keyknorrsentinel');
@@ -5625,6 +6117,9 @@ VALUES (23995, 13, True)
      , (23995, 19, True)
      , (23995, 22, True);
 
+/* Weenie - Keys - Key to the Defender Cache (23993) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23993;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23993, 'keyknorrdefender');
 
@@ -5658,6 +6153,9 @@ VALUES (23993, 13, True)
      , (23993, 14, True)
      , (23993, 19, True)
      , (23993, 22, True);
+
+/* Weenie - Keys - Gauntlet Treasure Key (52783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52783;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52783, 'ace52783-gauntlettreasurekey');
@@ -5694,6 +6192,9 @@ VALUES (52783, 13, True)
      , (52783, 19, True)
      , (52783, 22, True);
 
+/* Weenie - Keys - Drudge Key (30654) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30654;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30654, 'reddrudgekey');
 
@@ -5727,6 +6228,9 @@ VALUES (30654, 13, True)
      , (30654, 14, True)
      , (30654, 19, True)
      , (30654, 22, True);
+
+/* Weenie - Keys - Drudge Key (30655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30655;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30655, 'whitedrudgekey');
@@ -5762,6 +6266,9 @@ VALUES (30655, 13, True)
      , (30655, 19, True)
      , (30655, 22, True);
 
+/* Weenie - Keys - Drudge Key (30656) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30656;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30656, 'blackdrudgekey');
 
@@ -5795,6 +6302,9 @@ VALUES (30656, 13, True)
      , (30656, 14, True)
      , (30656, 19, True)
      , (30656, 22, True);
+
+/* Weenie - Keys - Door Key (45024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45024;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45024, 'ace45024-doorkey');
@@ -5830,6 +6340,9 @@ VALUES (45024, 13, True)
      , (45024, 19, True)
      , (45024, 22, True);
 
+/* Weenie - Keys - Door Key (45017) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45017;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45017, 'ace45017-doorkey');
 
@@ -5863,6 +6376,9 @@ VALUES (45017, 13, True)
      , (45017, 14, True)
      , (45017, 19, True)
      , (45017, 22, True);
+
+/* Weenie - Keys - Door Key (45025) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45025;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45025, 'ace45025-doorkey');
@@ -5898,6 +6414,9 @@ VALUES (45025, 13, True)
      , (45025, 19, True)
      , (45025, 22, True);
 
+/* Weenie - Keys - Door Key (45018) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45018;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45018, 'ace45018-doorkey');
 
@@ -5931,6 +6450,9 @@ VALUES (45018, 13, True)
      , (45018, 14, True)
      , (45018, 19, True)
      , (45018, 22, True);
+
+/* Weenie - Keys - Gaerlan's Key (20910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20910;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20910, 'keysingularitygaerlan');
@@ -5972,6 +6494,9 @@ VALUES (20910, 67113868, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20910, 9, 16785620);
 
+/* Weenie - Keys - Reinforced Door Key (40269) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40269;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40269, 'ace40269-reinforceddoorkey');
 
@@ -6004,6 +6529,9 @@ VALUES (40269, 13, True)
      , (40269, 14, True)
      , (40269, 19, True)
      , (40269, 22, True);
+
+/* Weenie - Keys - Main Gate Key (46459) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46459;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46459, 'ace46459-maingatekey');
@@ -6040,6 +6568,9 @@ VALUES (46459, 13, True)
      , (46459, 19, True)
      , (46459, 22, True);
 
+/* Weenie - Keys - Reward Key (28470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28470;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28470, 'keymorgluukreward');
 
@@ -6072,6 +6603,9 @@ VALUES (28470, 13, True)
      , (28470, 14, True)
      , (28470, 19, True)
      , (28470, 22, True);
+
+/* Weenie - Keys - Lower Catacomb Prison Key (35002) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35002;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35002, 'ace35002-lowercatacombprisonkey');
@@ -6112,6 +6646,9 @@ VALUES (35002, 0, 83888936, 83893868);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35002, 0, 16778599);
 
+/* Weenie - Keys - 1st Locked Gate Key (35014) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35014;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35014, 'ace35014-1stlockedgatekey');
 
@@ -6144,6 +6681,9 @@ VALUES (35014, 13, True)
      , (35014, 14, True)
      , (35014, 19, True)
      , (35014, 22, True);
+
+/* Weenie - Keys - 2nd Locked Gate Key (35016) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35016;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35016, 'ace35016-2ndlockedgatekey');
@@ -6178,6 +6718,9 @@ VALUES (35016, 13, True)
      , (35016, 19, True)
      , (35016, 22, True);
 
+/* Weenie - Keys - 3rd Locked Gate Key (35018) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35018;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35018, 'ace35018-3rdlockedgatekey');
 
@@ -6210,6 +6753,9 @@ VALUES (35018, 13, True)
      , (35018, 14, True)
      , (35018, 19, True)
      , (35018, 22, True);
+
+/* Weenie - Keys - 4th Locked Gate Key (35020) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35020;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35020, 'ace35020-4thlockedgatekey');
@@ -6244,6 +6790,9 @@ VALUES (35020, 13, True)
      , (35020, 19, True)
      , (35020, 22, True);
 
+/* Weenie - Keys - 5th Locked Gate Key (35022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35022;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35022, 'ace35022-5thlockedgatekey');
 
@@ -6276,6 +6825,9 @@ VALUES (35022, 13, True)
      , (35022, 14, True)
      , (35022, 19, True)
      , (35022, 22, True);
+
+/* Weenie - Keys - Eastern Gate Key (40870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40870;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40870, 'ace40870-easterngatekey');
@@ -6310,6 +6862,9 @@ VALUES (40870, 13, True)
      , (40870, 19, True)
      , (40870, 22, True);
 
+/* Weenie - Keys - Southern Gate Key (40872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40872;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40872, 'ace40872-southerngatekey');
 
@@ -6342,6 +6897,9 @@ VALUES (40872, 13, True)
      , (40872, 14, True)
      , (40872, 19, True)
      , (40872, 22, True);
+
+/* Weenie - Keys - Western Gate Key (40873) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40873;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40873, 'ace40873-westerngatekey');
@@ -6376,6 +6934,9 @@ VALUES (40873, 13, True)
      , (40873, 19, True)
      , (40873, 22, True);
 
+/* Weenie - Keys - Northern Gate Key (40871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40871;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40871, 'ace40871-northerngatekey');
 
@@ -6408,6 +6969,9 @@ VALUES (40871, 13, True)
      , (40871, 14, True)
      , (40871, 19, True)
      , (40871, 22, True);
+
+/* Weenie - Keys - Reinforced Mana Forge Key (38920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38920;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38920, 'ace38920-reinforcedmanaforgekey');
@@ -6444,6 +7008,9 @@ VALUES (38920, 13, True)
      , (38920, 19, True)
      , (38920, 22, True);
 
+/* Weenie - Keys - Virindi Research Center Key (45857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45857;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45857, 'ace45857-virindiresearchcenterkey');
 
@@ -6477,6 +7044,9 @@ VALUES (45857, 13, True)
      , (45857, 19, True)
      , (45857, 22, True);
 
+/* Weenie - Keys - Arrival Chamber Key (41230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41230;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41230, 'ace41230-arrivalchamberkey');
 
@@ -6509,6 +7079,9 @@ VALUES (41230, 13, True)
      , (41230, 14, True)
      , (41230, 19, True)
      , (41230, 22, True);
+
+/* Weenie - Keys - Gilded Tumerok Key (2208) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2208;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2208, 'keytumerokh');
@@ -6544,6 +7117,9 @@ VALUES (2208, 13, True)
      , (2208, 19, True)
      , (2208, 22, True);
 
+/* Weenie - Keys - Tumerok Priest's Key (2201) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2201;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2201, 'keytumeroka');
 
@@ -6577,6 +7153,9 @@ VALUES (2201, 13, True)
      , (2201, 14, True)
      , (2201, 19, True)
      , (2201, 22, True);
+
+/* Weenie - Keys - Engraved Ashen Key (43032) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43032;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43032, 'ace43032-engravedashenkey');
@@ -6612,6 +7191,9 @@ VALUES (43032, 13, True)
      , (43032, 19, True)
      , (43032, 22, True);
 
+/* Weenie - Keys - Stone Key (5664) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5664;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5664, 'keymageacademylv3');
 
@@ -6646,6 +7228,9 @@ VALUES (5664, 13, True)
      , (5664, 19, True)
      , (5664, 22, True);
 
+/* Weenie - Keys - Gauntlet Vault Key (52784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52784;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52784, 'ace52784-gauntletvaultkey');
 
@@ -6677,6 +7262,9 @@ VALUES (52784, 13, True)
      , (52784, 14, True)
      , (52784, 19, True)
      , (52784, 22, True);
+
+/* Weenie - Keys - Celestial Hand Breastplate Key (38517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38517;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38517, 'ace38517-celestialhandbreastplatekey');
@@ -6710,6 +7298,9 @@ VALUES (38517, 13, True)
      , (38517, 19, True)
      , (38517, 22, True);
 
+/* Weenie - Keys - Lady Tairla Mhoire's Key (35403) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35403;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35403, 'ace35403-ladytairlamhoireskey');
 
@@ -6741,6 +7332,9 @@ VALUES (35403, 13, True)
      , (35403, 14, True)
      , (35403, 19, True)
      , (35403, 22, True);
+
+/* Weenie - Keys - Wine Cellar Key (28774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28774;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28774, 'keylubziklanwine');
@@ -6775,6 +7369,9 @@ VALUES (28774, 13, True)
      , (28774, 19, True)
      , (28774, 22, True);
 
+/* Weenie - Keys - Key from Aleval (4894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4894;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4894, 'keyaleval');
 
@@ -6808,6 +7405,9 @@ VALUES (4894, 13, True)
      , (4894, 19, True)
      , (4894, 22, True);
 
+/* Weenie - Keys - Te Ven's Key (5058) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5058;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5058, 'keydesertedruin');
 
@@ -6840,6 +7440,9 @@ VALUES (5058, 13, True)
      , (5058, 14, True)
      , (5058, 19, True)
      , (5058, 22, True);
+
+/* Weenie - Keys - Ulgrim's Golden Key (23888) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23888;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23888, 'keyulgrimsdungeon');
@@ -6875,6 +7478,9 @@ VALUES (23888, 13, True)
      , (23888, 19, True)
      , (23888, 22, True);
 
+/* Weenie - Keys - Disgusting Sea Invasion Key (39010) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39010;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39010, 'ace39010-disgustingseainvasionkey');
 
@@ -6906,6 +7512,9 @@ VALUES (39010, 13, True)
      , (39010, 14, True)
      , (39010, 19, True)
      , (39010, 22, True);
+
+/* Weenie - Keys - Gan-Zo's Golden Key (9479) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9479;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9479, 'keygoldensho');
@@ -6943,6 +7552,9 @@ VALUES (9479, 13, True)
      , (9479, 19, True)
      , (9479, 22, True);
 
+/* Weenie - Keys - Grand Casino Golden Keyring (30256) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30256;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30256, 'keyrarevolatilegoldengha');
 
@@ -6978,6 +7590,9 @@ VALUES (30256, 13, True)
      , (30256, 19, True)
      , (30256, 22, True);
 
+/* Weenie - Keys - Key (1319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1319;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1319, 'keysewerchest');
 
@@ -7010,6 +7625,9 @@ VALUES (1319, 13, True)
      , (1319, 14, True)
      , (1319, 19, True)
      , (1319, 22, True);
+
+/* Weenie - Keys - Key (603) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 603;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (603, 'dungeonkey4');
@@ -7045,6 +7663,9 @@ VALUES (603, 13, True)
      , (603, 19, True)
      , (603, 22, True);
 
+/* Weenie - Keys - Abyssal Key (27293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27293;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27293, 'keyshadowchildabyssal');
 
@@ -7078,6 +7699,9 @@ VALUES (27293, 13, True)
      , (27293, 19, True)
      , (27293, 22, True);
 
+/* Weenie - Keys - Pandemic Key (27295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27295;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27295, 'keyshadowchildpandemic');
 
@@ -7110,6 +7734,9 @@ VALUES (27295, 13, True)
      , (27295, 14, True)
      , (27295, 19, True)
      , (27295, 22, True);
+
+/* Weenie - Keys - Inner Dungeon Key (2505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2505;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2505, 'keyinnerdungeon');
@@ -7145,6 +7772,9 @@ VALUES (2505, 13, True)
      , (2505, 19, True)
      , (2505, 22, True);
 
+/* Weenie - Keys - MacDugal's Key (5842) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5842;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5842, 'banditcastledungeonkey');
 
@@ -7178,6 +7808,9 @@ VALUES (5842, 13, True)
      , (5842, 14, True)
      , (5842, 19, True)
      , (5842, 22, True);
+
+/* Weenie - Keys - Augmented Tumerok's Key (2205) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2205;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2205, 'keytumeroke');
@@ -7213,6 +7846,9 @@ VALUES (2205, 13, True)
      , (2205, 19, True)
      , (2205, 22, True);
 
+/* Weenie - Keys - Tumerok Taskmaster's Key (2204) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2204;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2204, 'keytumerokd');
 
@@ -7246,6 +7882,9 @@ VALUES (2204, 13, True)
      , (2204, 14, True)
      , (2204, 19, True)
      , (2204, 22, True);
+
+/* Weenie - Keys - Athenaeum Key (22925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22925;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22925, 'keyaerbaxdoor2');
@@ -7288,6 +7927,9 @@ VALUES (22925, 67113155, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22925, 9, 16785620);
 
+/* Weenie - Keys - Diviner Pheraion's Key (33189) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33189;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33189, 'ace33189-divinerpheraionskey');
 
@@ -7320,6 +7962,9 @@ VALUES (33189, 13, True)
      , (33189, 14, True)
      , (33189, 19, True)
      , (33189, 22, True);
+
+/* Weenie - Keys - Carved Key (2190) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2190;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2190, 'keyswamptemple');
@@ -7355,6 +8000,9 @@ VALUES (2190, 13, True)
      , (2190, 19, True)
      , (2190, 22, True);
 
+/* Weenie - Keys - Worn Key (1361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1361;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1361, 'sylsfeartrickkey');
 
@@ -7388,6 +8036,9 @@ VALUES (1361, 13, True)
      , (1361, 14, True)
      , (1361, 19, True)
      , (1361, 22, True);
+
+/* Weenie - Keys - Laboratory Key (7398) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7398;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7398, 'keysylsfearchestmagichigh');
@@ -7423,6 +8074,9 @@ VALUES (7398, 13, True)
      , (7398, 19, True)
      , (7398, 22, True);
 
+/* Weenie - Keys - Rank Sea Invasion Key (39018) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39018;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39018, 'ace39018-rankseainvasionkey');
 
@@ -7454,6 +8108,9 @@ VALUES (39018, 13, True)
      , (39018, 14, True)
      , (39018, 19, True)
      , (39018, 22, True);
+
+/* Weenie - Keys - Forge Vault Key (37589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37589;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37589, 'ace37589-forgevaultkey');
@@ -7488,6 +8145,9 @@ VALUES (37589, 13, True)
      , (37589, 14, True)
      , (37589, 19, True)
      , (37589, 22, True);
+
+/* Weenie - Keys - Hammer of Acid (14508) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14508;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14508, 'keyhammerempyreanacid');
@@ -7527,6 +8187,9 @@ VALUES (14508, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (14508, 67111922, 0, 0);
 
+/* Weenie - Keys - Hammer of Fire (14509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14509;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14509, 'keyhammerempyreanfire');
 
@@ -7564,6 +8227,9 @@ VALUES (14509, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (14509, 67111921, 0, 0);
+
+/* Weenie - Keys - Hammer of Ice (14510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14510;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14510, 'keyhammerempyreanice');
@@ -7603,6 +8269,9 @@ VALUES (14510, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (14510, 67111924, 0, 0);
 
+/* Weenie - Keys - Cave Door Key (35591) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35591;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35591, 'ace35591-cavedoorkey');
 
@@ -7635,6 +8304,9 @@ VALUES (35591, 13, True)
      , (35591, 14, True)
      , (35591, 19, True)
      , (35591, 22, True);
+
+/* Weenie - Keys - Legendary Key (48914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48914;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48914, 'ace48914-legendarykey');
@@ -7671,6 +8343,9 @@ VALUES (48914, 13, True)
      , (48914, 19, True)
      , (48914, 22, True);
 
+/* Weenie - Keys - Tiny's Head (46288) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46288;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46288, 'ace46288-tinyshead');
 
@@ -7699,6 +8374,9 @@ VALUES (46288, 13, True)
      , (46288, 14, True)
      , (46288, 19, True)
      , (46288, 22, True);
+
+/* Weenie - Keys - Aurulent Key (32014) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32014;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32014, 'ace32014-aurulentkey');
@@ -7733,6 +8411,9 @@ VALUES (32014, 13, True)
      , (32014, 19, True)
      , (32014, 22, True);
 
+/* Weenie - Keys - Strong Iron Key (27686) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27686;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27686, 'keyrenegadechorizite');
 
@@ -7765,6 +8446,9 @@ VALUES (27686, 13, True)
      , (27686, 14, True)
      , (27686, 19, True)
      , (27686, 22, True);
+
+/* Weenie - Keys - Smelly Olthoi Gland (25482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25482;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25482, 'keyolthoirot1');
@@ -7809,6 +8493,9 @@ VALUES (25482, 0, 83888868, 83892604);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25482, 0, 16783934);
 
+/* Weenie - Keys - Chipped Key (48897) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48897;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48897, 'ace48897-chippedkey');
 
@@ -7842,6 +8529,9 @@ VALUES (48897, 13, True)
      , (48897, 19, True)
      , (48897, 22, True);
 
+/* Weenie - Keys - Cracked Key (48898) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48898;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48898, 'ace48898-crackedkey');
 
@@ -7874,6 +8564,9 @@ VALUES (48898, 13, True)
      , (48898, 14, True)
      , (48898, 19, True)
      , (48898, 22, True);
+
+/* Weenie - Keys - Tumerok Gladiator's Key (2203) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2203;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2203, 'keytumerokc');
@@ -7909,6 +8602,9 @@ VALUES (2203, 13, True)
      , (2203, 19, True)
      , (2203, 22, True);
 
+/* Weenie - Keys - Gauntlet Treasure Key (52781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52781;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52781, 'ace52781-gauntlettreasurekey');
 
@@ -7943,6 +8639,9 @@ VALUES (52781, 13, True)
      , (52781, 19, True)
      , (52781, 22, True);
 
+/* Weenie - Keys - Key to the Chest of Darayavaush (34008) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34008;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34008, 'ace34008-keytothechestofdarayavaush');
 
@@ -7975,6 +8674,9 @@ VALUES (34008, 13, True)
      , (34008, 14, True)
      , (34008, 19, True)
      , (34008, 22, True);
+
+/* Weenie - Keys - Martinate Trove Key (14881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14881;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14881, 'keymartinatesingularity');
@@ -8017,6 +8719,9 @@ VALUES (14881, 67113796, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14881, 9, 16785620);
 
+/* Weenie - Keys - Old Footlocker Key (33827) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33827;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33827, 'ace33827-oldfootlockerkey');
 
@@ -8048,6 +8753,9 @@ VALUES (33827, 13, True)
      , (33827, 14, True)
      , (33827, 19, True)
      , (33827, 22, True);
+
+/* Weenie - Keys - Brentsella's Key (4793) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4793;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4793, 'keybrentsella');
@@ -8082,6 +8790,9 @@ VALUES (4793, 13, True)
      , (4793, 19, True)
      , (4793, 22, True);
 
+/* Weenie - Keys - Viamont Staging Area Key (32358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32358;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32358, 'ace32358-viamontstagingareakey');
 
@@ -8113,6 +8824,9 @@ VALUES (32358, 13, True)
      , (32358, 14, True)
      , (32358, 19, True)
      , (32358, 22, True);
+
+/* Weenie - Keys - Grand Casino Golden Keyring (30255) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30255;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30255, 'keyrarevolatilegoldenalu');
@@ -8149,6 +8863,9 @@ VALUES (30255, 13, True)
      , (30255, 19, True)
      , (30255, 22, True);
 
+/* Weenie - Keys - Door Key (45622) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45622;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45622, 'ace45622-doorkey');
 
@@ -8183,6 +8900,9 @@ VALUES (45622, 13, True)
      , (45622, 19, True)
      , (45622, 22, True);
 
+/* Weenie - Keys - Iron Key (5134) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5134;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5134, 'keybanewell');
 
@@ -8215,6 +8935,9 @@ VALUES (5134, 13, True)
      , (5134, 14, True)
      , (5134, 19, True)
      , (5134, 22, True);
+
+/* Weenie - Keys - Guard Post Key (8214) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8214;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8214, 'keyxara');
@@ -8250,6 +8973,9 @@ VALUES (8214, 13, True)
      , (8214, 19, True)
      , (8214, 22, True);
 
+/* Weenie - Keys - Door Key (49644) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49644;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49644, 'ace49644-doorkey');
 
@@ -8283,6 +9009,9 @@ VALUES (49644, 13, True)
      , (49644, 19, True)
      , (49644, 22, True);
 
+/* Weenie - Keys - Chilled Key (52241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52241;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52241, 'ace52241-chilledkey');
 
@@ -8315,6 +9044,9 @@ VALUES (52241, 13, True)
      , (52241, 14, True)
      , (52241, 19, True)
      , (52241, 22, True);
+
+/* Weenie - Keys - Legendary Key (48749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48749;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48749, 'ace48749-legendarykey');
@@ -8351,6 +9083,9 @@ VALUES (48749, 13, True)
      , (48749, 19, True)
      , (48749, 22, True);
 
+/* Weenie - Keys - Locked Gate Key (33541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33541;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33541, 'ace33541-lockedgatekey');
 
@@ -8383,6 +9118,9 @@ VALUES (33541, 13, True)
      , (33541, 14, True)
      , (33541, 19, True)
      , (33541, 22, True);
+
+/* Weenie - Keys - Ancient Crest (36495) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36495;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36495, 'ace36495-ancientcrest');
@@ -8428,6 +9166,9 @@ VALUES (36495, 0, 83888956, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36495, 0, 16778506);
 
+/* Weenie - Keys - Legendary Key (51558) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51558;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51558, 'ace51558-legendarykey');
 
@@ -8462,6 +9203,9 @@ VALUES (51558, 13, True)
      , (51558, 14, True)
      , (51558, 19, True)
      , (51558, 22, True);
+
+/* Weenie - Keys - Sandstone Mixed Key (44123) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44123;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44123, 'ace44123-sandstonemixedkey');
@@ -8498,6 +9242,9 @@ VALUES (44123, 13, True)
      , (44123, 19, True)
      , (44123, 22, True);
 
+/* Weenie - Keys - Sandstone Weapon Key (44124) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44124;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44124, 'ace44124-sandstoneweaponkey');
 
@@ -8532,6 +9279,9 @@ VALUES (44124, 13, True)
      , (44124, 14, True)
      , (44124, 19, True)
      , (44124, 22, True);
+
+/* Weenie - Keys - Sandstone Magic Key (44122) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44122;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44122, 'ace44122-sandstonemagickey');
@@ -8568,6 +9318,9 @@ VALUES (44122, 13, True)
      , (44122, 19, True)
      , (44122, 22, True);
 
+/* Weenie - Keys - Sandstone Armor Key (44121) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44121;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44121, 'ace44121-sandstonearmorkey');
 
@@ -8602,6 +9355,9 @@ VALUES (44121, 13, True)
      , (44121, 14, True)
      , (44121, 19, True)
      , (44121, 22, True);
+
+/* Weenie - Keys - Legendary Key (48750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48750;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48750, 'ace48750-legendarykey');
@@ -8638,6 +9394,9 @@ VALUES (48750, 13, True)
      , (48750, 19, True)
      , (48750, 22, True);
 
+/* Weenie - Keys - Desolation Sea Invasion Key (39008) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39008;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39008, 'ace39008-desolationseainvasionkey');
 
@@ -8669,6 +9428,9 @@ VALUES (39008, 13, True)
      , (39008, 14, True)
      , (39008, 19, True)
      , (39008, 22, True);
+
+/* Weenie - Keys - Society Treasure Key (38722) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38722;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38722, 'ace38722-societytreasurekey');
@@ -8702,6 +9464,9 @@ VALUES (38722, 13, True)
      , (38722, 19, True)
      , (38722, 22, True);
 
+/* Weenie - Keys - Steward's Key (32953) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32953;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32953, 'ace32953-stewardskey');
 
@@ -8734,6 +9499,9 @@ VALUES (32953, 13, True)
      , (32953, 14, True)
      , (32953, 19, True)
      , (32953, 22, True);
+
+/* Weenie - Keys - Key (22926) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22926;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22926, 'keyaerbaxdoor3');
@@ -8776,6 +9544,9 @@ VALUES (22926, 67113156, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22926, 9, 16785620);
 
+/* Weenie - Keys - Simple Tumerok Key (2473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2473;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2473, 'keytumerokone');
 
@@ -8810,6 +9581,9 @@ VALUES (2473, 13, True)
      , (2473, 19, True)
      , (2473, 22, True);
 
+/* Weenie - Keys - Tumerok Key (5037) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5037;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5037, 'keyalabree');
 
@@ -8842,6 +9616,9 @@ VALUES (5037, 13, True)
      , (5037, 14, True)
      , (5037, 19, True)
      , (5037, 22, True);
+
+/* Weenie - Keys - Flinrala's Key (5358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5358;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5358, 'keyflinrala');
@@ -8876,6 +9653,9 @@ VALUES (5358, 13, True)
      , (5358, 19, True)
      , (5358, 22, True);
 
+/* Weenie - Keys - Lugian-Forged Key (27474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27474;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27474, 'keycontact');
 
@@ -8908,6 +9688,9 @@ VALUES (27474, 13, True)
      , (27474, 14, True)
      , (27474, 19, True)
      , (27474, 22, True);
+
+/* Weenie - Keys - Key to Yaruldi's Hoard (27297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27297;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27297, 'keyyaruldi');
@@ -8942,6 +9725,9 @@ VALUES (27297, 13, True)
      , (27297, 19, True)
      , (27297, 22, True);
 
+/* Weenie - Keys - Treasury Key (51918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51918;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51918, 'ace51918-treasurykey');
 
@@ -8974,6 +9760,9 @@ VALUES (51918, 13, True)
      , (51918, 14, True)
      , (51918, 19, True)
      , (51918, 22, True);
+
+/* Weenie - Keys - Key III (52099) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52099;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52099, 'ace52099-keyiii');
@@ -9008,6 +9797,9 @@ VALUES (52099, 13, True)
      , (52099, 19, True)
      , (52099, 22, True);
 
+/* Weenie - Keys - Key II (52098) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52098;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52098, 'ace52098-keyii');
 
@@ -9040,6 +9832,9 @@ VALUES (52098, 13, True)
      , (52098, 14, True)
      , (52098, 19, True)
      , (52098, 22, True);
+
+/* Weenie - Keys - Key I (52097) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52097;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52097, 'ace52097-keyi');
@@ -9074,6 +9869,9 @@ VALUES (52097, 13, True)
      , (52097, 19, True)
      , (52097, 22, True);
 
+/* Weenie - Keys - Iron Key (48922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48922;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48922, 'ace48922-ironkey');
 
@@ -9107,6 +9905,9 @@ VALUES (48922, 13, True)
      , (48922, 19, True)
      , (48922, 22, True);
 
+/* Weenie - Keys - Silver Legion Door Key (29379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29379;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29379, 'keyinvaderkeepsilver');
 
@@ -9139,6 +9940,9 @@ VALUES (29379, 13, True)
      , (29379, 14, True)
      , (29379, 19, True)
      , (29379, 22, True);
+
+/* Weenie - Keys - Overlord's Key (8985) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8985;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8985, 'keyoverlord');
@@ -9174,6 +9978,9 @@ VALUES (8985, 13, True)
      , (8985, 19, True)
      , (8985, 22, True);
 
+/* Weenie - Keys - Grotesquely Carved Key (2507) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2507;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2507, 'keyswampdirelands');
 
@@ -9208,6 +10015,9 @@ VALUES (2507, 13, True)
      , (2507, 19, True)
      , (2507, 22, True);
 
+/* Weenie - Keys - Vault Key (11320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11320;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11320, 'keytanuafigurine-xp');
 
@@ -9240,6 +10050,9 @@ VALUES (11320, 13, True)
      , (11320, 14, True)
      , (11320, 19, True)
      , (11320, 22, True);
+
+/* Weenie - Keys - Vault Key (11321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11321;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11321, 'keytanuaspear-xp');
@@ -9274,6 +10087,9 @@ VALUES (11321, 13, True)
      , (11321, 19, True)
      , (11321, 22, True);
 
+/* Weenie - Keys - Radiant Blood Gauntlets Key (38522) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38522;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38522, 'ace38522-radiantbloodgauntletskey');
 
@@ -9305,6 +10121,9 @@ VALUES (38522, 13, True)
      , (38522, 14, True)
      , (38522, 19, True)
      , (38522, 22, True);
+
+/* Weenie - Keys - Putrid Sea Invasion Key (39016) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39016;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39016, 'ace39016-putridseainvasionkey');
@@ -9338,6 +10157,9 @@ VALUES (39016, 13, True)
      , (39016, 19, True)
      , (39016, 22, True);
 
+/* Weenie - Keys - Grimy Sea Invasion Key (39012) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39012;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39012, 'ace39012-grimyseainvasionkey');
 
@@ -9370,6 +10192,9 @@ VALUES (39012, 13, True)
      , (39012, 19, True)
      , (39012, 22, True);
 
+/* Weenie - Keys - Pallid Sea Invasion Key (39014) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39014;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39014, 'ace39014-pallidseainvasionkey');
 
@@ -9401,6 +10226,9 @@ VALUES (39014, 13, True)
      , (39014, 14, True)
      , (39014, 19, True)
      , (39014, 22, True);
+
+/* Weenie - Keys - Exquisite Casino Key (52745) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52745;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52745, 'ace52745-exquisitecasinokey');

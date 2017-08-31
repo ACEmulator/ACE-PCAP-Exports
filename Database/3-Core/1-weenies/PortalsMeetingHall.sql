@@ -1,3 +1,6 @@
+/* Weenie - PortalsMeetingHall - Eastham Meeting Hall Portal (6093) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6093;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6093, 'portalallegiancehalleastham');
 
@@ -29,6 +32,9 @@ VALUES (6093, 13, True)
      , (6093, 15, True)
      , (6093, 19, True)
      , (6093, 1, True);
+
+/* Weenie - PortalsMeetingHall - Nanto Meeting Hall Portal (6101) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6101;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6101, 'portalallegiancehallnanto');
@@ -62,6 +68,9 @@ VALUES (6101, 13, True)
      , (6101, 19, True)
      , (6101, 1, True);
 
+/* Weenie - PortalsMeetingHall - Baishi Meeting Hall Portal (6091) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6091;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6091, 'portalallegiancehallbaishi');
 
@@ -93,6 +102,9 @@ VALUES (6091, 13, True)
      , (6091, 15, True)
      , (6091, 19, True)
      , (6091, 1, True);
+
+/* Weenie - PortalsMeetingHall - Yanshi Meeting Hall Portal (6110) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6110;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6110, 'portalallegiancehallyanshi');
@@ -126,6 +138,9 @@ VALUES (6110, 13, True)
      , (6110, 19, True)
      , (6110, 1, True);
 
+/* Weenie - PortalsMeetingHall - Sawato Meeting Hall Portal (6105) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6105;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6105, 'portalallegiancehallsawato');
 
@@ -157,6 +172,9 @@ VALUES (6105, 13, True)
      , (6105, 15, True)
      , (6105, 19, True)
      , (6105, 1, True);
+
+/* Weenie - PortalsMeetingHall - Hebian-to Meeting Hall Portal (6095) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6095;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6095, 'portalallegiancehallhebian');
@@ -190,6 +208,9 @@ VALUES (6095, 13, True)
      , (6095, 19, True)
      , (6095, 1, True);
 
+/* Weenie - PortalsMeetingHall - Lin Meeting Hall Portal (6098) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6098;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6098, 'portalallegiancehalllin');
 
@@ -221,6 +242,9 @@ VALUES (6098, 13, True)
      , (6098, 15, True)
      , (6098, 19, True)
      , (6098, 1, True);
+
+/* Weenie - PortalsMeetingHall - Mayoi Meeting Hall Portal (6100) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6100;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6100, 'portalallegiancehallmayoi');
@@ -254,6 +278,9 @@ VALUES (6100, 13, True)
      , (6100, 19, True)
      , (6100, 1, True);
 
+/* Weenie - PortalsMeetingHall - Shoushi Meeting Hall Portal (6106) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6106;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6106, 'portalallegiancehallshoushi');
 
@@ -285,6 +312,9 @@ VALUES (6106, 13, True)
      , (6106, 15, True)
      , (6106, 19, True)
      , (6106, 1, True);
+
+/* Weenie - PortalsMeetingHall - Arwic Meeting Hall Portal (6090) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6090;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6090, 'portalallegiancehallarwic');
@@ -318,6 +348,9 @@ VALUES (6090, 13, True)
      , (6090, 19, True)
      , (6090, 1, True);
 
+/* Weenie - PortalsMeetingHall - Holtburg Meeting Hall Portal (6096) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6096;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6096, 'portalallegiancehallholtburg');
 
@@ -349,6 +382,9 @@ VALUES (6096, 13, True)
      , (6096, 15, True)
      , (6096, 19, True)
      , (6096, 1, True);
+
+/* Weenie - PortalsMeetingHall - Cragstone Meeting Hall Portal (6092) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6092;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6092, 'portalallegiancehallcragstone');
@@ -382,6 +418,9 @@ VALUES (6092, 13, True)
      , (6092, 19, True)
      , (6092, 1, True);
 
+/* Weenie - PortalsMeetingHall - Lytelthorpe Meeting Hall Portal (6099) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6099;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6099, 'portalallegiancehalllytelthorpe');
 
@@ -413,6 +452,9 @@ VALUES (6099, 13, True)
      , (6099, 15, True)
      , (6099, 19, True)
      , (6099, 1, True);
+
+/* Weenie - PortalsMeetingHall - Glenden Wood Meeting Hall Portal (6094) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6094;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6094, 'portalallegiancehallglenden');
@@ -446,6 +488,9 @@ VALUES (6094, 13, True)
      , (6094, 19, True)
      , (6094, 1, True);
 
+/* Weenie - PortalsMeetingHall - Rithwic Meeting Hall Portal (6103) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6103;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6103, 'portalallegiancehallrithwic');
 
@@ -477,6 +522,9 @@ VALUES (6103, 13, True)
      , (6103, 15, True)
      , (6103, 19, True)
      , (6103, 1, True);
+
+/* Weenie - PortalsMeetingHall - Yaraq Meeting Hall Portal (6111) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6111;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6111, 'portalallegiancehallyaraq');
@@ -510,6 +558,9 @@ VALUES (6111, 13, True)
      , (6111, 19, True)
      , (6111, 1, True);
 
+/* Weenie - PortalsMeetingHall - Al-Arqas Meeting Hall Portal (6088) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6088;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6088, 'portalallegiancehallalarqas');
 
@@ -541,6 +592,9 @@ VALUES (6088, 13, True)
      , (6088, 15, True)
      , (6088, 19, True)
      , (6088, 1, True);
+
+/* Weenie - PortalsMeetingHall - Khayyaban Meeting Hall Portal (6097) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6097;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6097, 'portalallegiancehallkhayyaban');
@@ -574,6 +628,9 @@ VALUES (6097, 13, True)
      , (6097, 19, True)
      , (6097, 1, True);
 
+/* Weenie - PortalsMeetingHall - Uziz Meeting Hall Portal (6109) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6109;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6109, 'portalallegiancehalluziz');
 
@@ -605,6 +662,9 @@ VALUES (6109, 13, True)
      , (6109, 15, True)
      , (6109, 19, True)
      , (6109, 1, True);
+
+/* Weenie - PortalsMeetingHall - Tufa Meeting Hall Portal (6108) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6108;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6108, 'portalallegiancehalltufa');
@@ -638,6 +698,9 @@ VALUES (6108, 13, True)
      , (6108, 19, True)
      , (6108, 1, True);
 
+/* Weenie - PortalsMeetingHall - Al-Jalima Meeting Hall Portal (6089) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6089;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6089, 'portalallegiancehallaljalima');
 
@@ -669,6 +732,9 @@ VALUES (6089, 13, True)
      , (6089, 15, True)
      , (6089, 19, True)
      , (6089, 1, True);
+
+/* Weenie - PortalsMeetingHall - Zaikhal Meeting Hall Portal (6112) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6112;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6112, 'portalallegiancehallzaikhal');
@@ -702,6 +768,9 @@ VALUES (6112, 13, True)
      , (6112, 19, True)
      , (6112, 1, True);
 
+/* Weenie - PortalsMeetingHall - Qalaba'r Meeting Hall Portal (6102) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6102;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6102, 'portalallegiancehallqalabar');
 
@@ -733,6 +802,9 @@ VALUES (6102, 13, True)
      , (6102, 15, True)
      , (6102, 19, True)
      , (6102, 1, True);
+
+/* Weenie - PortalsMeetingHall - Samsur Meeting Hall Portal (6104) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6104;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6104, 'portalallegiancehallsamsur');

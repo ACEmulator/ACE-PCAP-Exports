@@ -1,3 +1,6 @@
+/* Weenie - PortalsSummoned - Gateway (1955) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1955;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1955, 'portalgateway');
 

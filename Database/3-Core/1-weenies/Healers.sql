@@ -1,3 +1,6 @@
+/* Weenie - Healers - Plentiful Healing Kit (22449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22449;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22449, 'healingkitplentiful');
 
@@ -37,6 +40,9 @@ VALUES (22449, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22449, 0, 16779994);
 
+/* Weenie - Healers - Adept Healing Kit (629) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 629;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (629, 'healingkitplain');
 
@@ -68,6 +74,9 @@ VALUES (629, 13, True)
      , (629, 14, True)
      , (629, 19, True)
      , (629, 22, True);
+
+/* Weenie - Healers - Excellent Healing Kit (631) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 631;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (631, 'healingkitexcellent');
@@ -101,6 +110,9 @@ VALUES (631, 13, True)
      , (631, 19, True)
      , (631, 22, True);
 
+/* Weenie - Healers - Peerless Healing Kit (632) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 632;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (632, 'healingkitpeerless');
 
@@ -132,6 +144,9 @@ VALUES (632, 13, True)
      , (632, 14, True)
      , (632, 19, True)
      , (632, 22, True);
+
+/* Weenie - Healers - Gifted Healing Kit (630) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 630;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (630, 'healingkitgood');
@@ -165,6 +180,9 @@ VALUES (630, 13, True)
      , (630, 19, True)
      , (630, 22, True);
 
+/* Weenie - Healers - Plain Healing Kit (13233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13233;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13233, 'healingkitacademy');
 
@@ -196,6 +214,9 @@ VALUES (13233, 13, True)
      , (13233, 14, True)
      , (13233, 19, True)
      , (13233, 22, True);
+
+/* Weenie - Healers - Handy Healing Kit (628) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 628;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (628, 'healingkitcrude');
@@ -229,6 +250,9 @@ VALUES (628, 13, True)
      , (628, 19, True)
      , (628, 22, True);
 
+/* Weenie - Healers - Treated Healing Kit (9229) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9229;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9229, 'healingkittreated');
 
@@ -260,6 +284,9 @@ VALUES (9229, 13, True)
      , (9229, 14, True)
      , (9229, 19, True)
      , (9229, 22, True);
+
+/* Weenie - Healers - Greater Mana Kit (44712) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44712;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44712, 'ace44712-greatermanakit');
@@ -300,6 +327,9 @@ VALUES (44712, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44712, 0, 16779994);
 
+/* Weenie - Healers - Greater Stamina Kit (44714) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44714;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44714, 'ace44714-greaterstaminakit');
 
@@ -339,6 +369,9 @@ VALUES (44714, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44714, 0, 16779994);
 
+/* Weenie - Healers - Renegade Herbal Kit (27671) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27671;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27671, 'healingkitrenegade');
 
@@ -370,6 +403,9 @@ VALUES (27671, 13, True)
      , (27671, 14, True)
      , (27671, 19, True)
      , (27671, 22, True);
+
+/* Weenie - Healers - Medicated Mana Kit (30251) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30251;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30251, 'healingkitrarevolatilemana');
@@ -411,6 +447,9 @@ VALUES (30251, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30251, 0, 16779994);
 
+/* Weenie - Healers - Olthoi Fibrous Healing Tissue (43701) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43701;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43701, 'ace43701-olthoifibroushealingtissue');
 
@@ -451,6 +490,9 @@ VALUES (43701, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43701, 0, 16779994);
 
+/* Weenie - Healers - Lesser Stamina Kit (44711) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44711;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44711, 'ace44711-lesserstaminakit');
 
@@ -482,6 +524,9 @@ VALUES (44711, 13, True)
      , (44711, 14, True)
      , (44711, 19, True)
      , (44711, 22, True);
+
+/* Weenie - Healers - Medicated Stamina Kit (30252) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30252;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30252, 'healingkitrarevolatilestamina');
@@ -523,6 +568,9 @@ VALUES (30252, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30252, 0, 16779994);
 
+/* Weenie - Healers - Lesser Mana Kit (44713) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44713;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44713, 'ace44713-lessermanakit');
 
@@ -554,6 +602,9 @@ VALUES (44713, 13, True)
      , (44713, 14, True)
      , (44713, 19, True)
      , (44713, 22, True);
+
+/* Weenie - Healers - Medicated Health Kit (30250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30250;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30250, 'healingkitrarevolatilehealth');
@@ -595,6 +646,9 @@ VALUES (30250, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30250, 0, 16779994);
 
+/* Weenie - Healers - Light Infused Healing Kit (43479) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43479;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43479, 'ace43479-lightinfusedhealingkit');
 
@@ -627,6 +681,9 @@ VALUES (43479, 13, True)
      , (43479, 14, True)
      , (43479, 19, True)
      , (43479, 22, True);
+
+/* Weenie - Healers - Gauntlet Health Kit (52737) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52737;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52737, 'ace52737-gauntlethealthkit');
@@ -668,6 +725,9 @@ VALUES (52737, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52737, 0, 16779994);
 
+/* Weenie - Healers - Gauntlet Stamina Kit (52739) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52739;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52739, 'ace52739-gauntletstaminakit');
 
@@ -707,6 +767,9 @@ VALUES (52739, 0, 83889681, 83894377)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52739, 0, 16779994);
+
+/* Weenie - Healers - Olthoi Coarse Healing Tissue (43819) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43819;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43819, 'ace43819-olthoicoarsehealingtissue');
@@ -748,6 +811,9 @@ VALUES (43819, 0, 83889681, 83894377)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43819, 0, 16779994);
+
+/* Weenie - Healers - Gauntlet Mana Kit (52738) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52738;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52738, 'ace52738-gauntletmanakit');

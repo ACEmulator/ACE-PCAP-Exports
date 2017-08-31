@@ -1,3 +1,6 @@
+/* Weenie - Containers - Corpse (4180) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4180;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4180, 'rottingcorpse');
 
@@ -32,6 +35,9 @@ VALUES (4180, 13, True)
      , (4180, 14, True)
      , (4180, 19, True)
      , (4180, 1, True);
+
+/* Weenie - Containers - Shreth-Gnawed Corpse (25957) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25957;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25957, 'rottingcorpsezharalim');
@@ -68,6 +74,9 @@ VALUES (25957, 13, True)
      , (25957, 19, True)
      , (25957, 1, True);
 
+/* Weenie - Containers - Pumpkin Follower (32199) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32199;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32199, 'ace32199-pumpkinfollower');
 
@@ -102,6 +111,9 @@ VALUES (32199, 13, True)
      , (32199, 14, True)
      , (32199, 19, True)
      , (32199, 1, True);
+
+/* Weenie - Containers - Corpse (4381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4381;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4381, 'rottingcorpse2');
@@ -138,6 +150,9 @@ VALUES (4381, 13, True)
      , (4381, 19, True)
      , (4381, 1, True);
 
+/* Weenie - Containers - Basket (137) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 137;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (137, 'basket');
 
@@ -172,6 +187,9 @@ VALUES (137, 13, True)
      , (137, 14, True)
      , (137, 19, True)
      , (137, 22, True);
+
+/* Weenie - Containers - Corpse (4382) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4382;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4382, 'rottingcorpse3');
@@ -208,6 +226,9 @@ VALUES (4382, 13, True)
      , (4382, 19, True)
      , (4382, 1, True);
 
+/* Weenie - Containers - Corpse (41807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41807;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41807, 'ace41807-corpse');
 
@@ -243,6 +264,9 @@ VALUES (41807, 13, True)
      , (41807, 19, True)
      , (41807, 1, True);
 
+/* Weenie - Containers - Corpse (41806) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41806;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41806, 'ace41806-corpse');
 
@@ -277,6 +301,9 @@ VALUES (41806, 13, True)
      , (41806, 14, True)
      , (41806, 19, True)
      , (41806, 1, True);
+
+/* Weenie - Containers - Corpse (41808) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41808;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41808, 'ace41808-corpse');

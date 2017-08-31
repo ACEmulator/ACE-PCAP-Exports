@@ -1,3 +1,6 @@
+/* Weenie - UndefStatics - Prismatic Crystal (21196) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21196;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21196, 'lightningelementalhighcampgen');
 
@@ -27,6 +30,9 @@ VALUES (21196, 13, True)
      , (21196, 19, True)
      , (21196, 1, True)
      , (21196, 24, True);
+
+/* Weenie - UndefStatics - Dark Sarcophagus (22215) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22215;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22215, 'mysterioussarcophagusgen');
@@ -68,6 +74,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (22215, 0, 16778667)
      , (22215, 1, 16778672);
 
+/* Weenie - UndefStatics - Prismatic Crystal (21188) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21188;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21188, 'acidelementalhighcampgen');
 
@@ -97,6 +106,9 @@ VALUES (21188, 13, True)
      , (21188, 19, True)
      , (21188, 1, True)
      , (21188, 24, True);
+
+/* Weenie - UndefStatics - Prismatic Crystal (21194) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21194;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21194, 'frostelementalhighcampgen');

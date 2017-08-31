@@ -1,3 +1,6 @@
+/* Weenie - ContainersStatics - Corpse (35736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35736;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35736, 'ace35736-corpse');
 
@@ -72,6 +75,9 @@ VALUES (35736, 0, 16793218)
      , (35736, 15, 16789333)
      , (35736, 16, 16789283);
 
+/* Weenie - ContainersStatics - Corpse (29472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29472;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29472, 'corpseoswaldpatsy1');
 
@@ -105,6 +111,9 @@ VALUES (29472, 12, True)
      , (29472, 14, True)
      , (29472, 19, True)
      , (29472, 1, True);
+
+/* Weenie - ContainersStatics - Corpse (29473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29473;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29473, 'corpseoswaldpatsy2');
@@ -140,6 +149,9 @@ VALUES (29473, 12, True)
      , (29473, 19, True)
      , (29473, 1, True);
 
+/* Weenie - ContainersStatics - Prison Guard's Corpse (29471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29471;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29471, 'corpseknightprisonguard');
 
@@ -173,6 +185,9 @@ VALUES (29471, 12, True)
      , (29471, 14, True)
      , (29471, 19, True)
      , (29471, 1, True);
+
+/* Weenie - ContainersStatics - Corpse of Gertarh (1211) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1211;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1211, 'thievesdenshady');
@@ -209,6 +224,9 @@ VALUES (1211, 12, True)
      , (1211, 19, True)
      , (1211, 1, True);
 
+/* Weenie - ContainersStatics - Corpse (1217) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1217;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1217, 'undeadcorpse');
 
@@ -242,6 +260,9 @@ VALUES (1217, 12, True)
      , (1217, 14, True)
      , (1217, 19, True)
      , (1217, 1, True);
+
+/* Weenie - ContainersStatics - Rabbit Hutch (32928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32928;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32928, 'ace32928-rabbithutch');
@@ -279,6 +300,9 @@ VALUES (32928, 12, True)
      , (32928, 14, True)
      , (32928, 19, True)
      , (32928, 1, True);
+
+/* Weenie - ContainersStatics - Remnants of Ilservian (9000) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9000;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9000, 'chestlosthope');
@@ -324,6 +348,9 @@ VALUES (9000, 16, 83889159, 83892984);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9000, 16, 16779246);
 
+/* Weenie - ContainersStatics - Corpse (43518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43518;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43518, 'ace43518-corpse');
 
@@ -358,6 +385,9 @@ VALUES (43518, 13, True)
      , (43518, 14, True)
      , (43518, 19, True)
      , (43518, 1, True);
+
+/* Weenie - ContainersStatics - Lock Box (23922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23922;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23922, 'cheststorageulgrimring');
@@ -395,6 +425,9 @@ VALUES (23922, 12, True)
      , (23922, 19, True)
      , (23922, 1, True);
 
+/* Weenie - ContainersStatics - Pool of Lethe (5499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5499;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5499, 'pooloflethe');
 
@@ -430,6 +463,9 @@ VALUES (5499, 12, True)
      , (5499, 14, True)
      , (5499, 19, True)
      , (5499, 1, True);
+
+/* Weenie - ContainersStatics - Coffin (146) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 146;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (146, 'coffin');
@@ -467,6 +503,9 @@ VALUES (146, 12, True)
      , (146, 19, True)
      , (146, 1, True);
 
+/* Weenie - ContainersStatics - Trunk (9104) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9104;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9104, 'chestsasalia');
 
@@ -502,6 +541,9 @@ VALUES (9104, 12, True)
      , (9104, 14, True)
      , (9104, 19, True)
      , (9104, 1, True);
+
+/* Weenie - ContainersStatics - Corpse (8050) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8050;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8050, 'rottingshadowcorpsefemale2');
@@ -543,6 +585,9 @@ VALUES (8050, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8050, 67112860, 0, 0);
 
+/* Weenie - ContainersStatics - Corpse (8046) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8046;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8046, 'rottingshadowcorpsemale1');
 
@@ -582,6 +627,9 @@ VALUES (8046, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8046, 67112860, 0, 0);
+
+/* Weenie - ContainersStatics - Corpse (8047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8047;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8047, 'rottingshadowcorpsemale2');
@@ -623,6 +671,9 @@ VALUES (8047, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8047, 67112860, 0, 0);
 
+/* Weenie - ContainersStatics - Corpse (8048) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8048;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8048, 'rottingshadowcorpsemale3');
 
@@ -662,6 +713,9 @@ VALUES (8048, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8048, 67112860, 0, 0);
+
+/* Weenie - ContainersStatics - Corpse (8051) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8051;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8051, 'rottingshadowcorpsefemale3');
@@ -703,6 +757,9 @@ VALUES (8051, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8051, 67112860, 0, 0);
 
+/* Weenie - ContainersStatics - Corpse (8049) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8049;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8049, 'rottingshadowcorpsefemale1');
 
@@ -743,6 +800,9 @@ VALUES (8049, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8049, 67112860, 0, 0);
 
+/* Weenie - ContainersStatics - Corpse of Phlynt (36641) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36641;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36641, 'ace36641-corpseofphlynt');
 
@@ -777,6 +837,9 @@ VALUES (36641, 13, True)
      , (36641, 14, True)
      , (36641, 19, True)
      , (36641, 1, True);
+
+/* Weenie - ContainersStatics - Yaruldi's Hoard (27281) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27281;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27281, 'chestorphanageyaruldi');
@@ -813,6 +876,9 @@ VALUES (27281, 12, True)
      , (27281, 14, True)
      , (27281, 19, True)
      , (27281, 1, True);
+
+/* Weenie - ContainersStatics - Xik Minru's Reserve (31986) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31986;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31986, 'ace31986-xikminrusreserve');
@@ -851,6 +917,9 @@ VALUES (31986, 12, True)
      , (31986, 19, True)
      , (31986, 1, True);
 
+/* Weenie - ContainersStatics - The skeleton of Lania Cartoth (15757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15757;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15757, 'corpselania');
 
@@ -885,6 +954,9 @@ VALUES (15757, 12, True)
      , (15757, 19, True)
      , (15757, 1, True);
 
+/* Weenie - ContainersStatics - Bookcase (51420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51420;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51420, 'ace51420-bookcase');
 
@@ -918,6 +990,9 @@ VALUES (51420, 11, True)
      , (51420, 19, True)
      , (51420, 1, True);
 
+/* Weenie - ContainersStatics - Bookcase (51421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51421;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51421, 'ace51421-bookcase');
 
@@ -950,6 +1025,9 @@ VALUES (51421, 11, True)
      , (51421, 14, True)
      , (51421, 19, True)
      , (51421, 1, True);
+
+/* Weenie - ContainersStatics - Corpse of Ainea Besu (34261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34261;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34261, 'ace34261-corpseofaineabesu');
@@ -1036,6 +1114,9 @@ VALUES (34261, 13, 16781879)
      , (34261, 7, 16777296)
      , (34261, 8, 16777298);
 
+/* Weenie - ContainersStatics - Corpse of Abmim ibn Ibsar (5360) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5360;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5360, 'corpsebloatedabmim');
 
@@ -1069,6 +1150,9 @@ VALUES (5360, 12, True)
      , (5360, 14, True)
      , (5360, 19, True)
      , (5360, 1, True);
+
+/* Weenie - ContainersStatics - An old chest (29079) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29079;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29079, 'chestthrungushumid1');
@@ -1106,6 +1190,9 @@ VALUES (29079, 12, True)
      , (29079, 19, True)
      , (29079, 1, True);
 
+/* Weenie - ContainersStatics - An old chest (29080) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29080;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29080, 'chestthrungushumid2');
 
@@ -1141,6 +1228,9 @@ VALUES (29080, 12, True)
      , (29080, 14, True)
      , (29080, 19, True)
      , (29080, 1, True);
+
+/* Weenie - ContainersStatics - An old chest (29083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29083;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29083, 'chestthrungusmoist1');
@@ -1178,6 +1268,9 @@ VALUES (29083, 12, True)
      , (29083, 19, True)
      , (29083, 1, True);
 
+/* Weenie - ContainersStatics - An old chest (29084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29084;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29084, 'chestthrungusmoist2');
 
@@ -1213,6 +1306,9 @@ VALUES (29084, 12, True)
      , (29084, 14, True)
      , (29084, 19, True)
      , (29084, 1, True);
+
+/* Weenie - ContainersStatics - An old chest (29082) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29082;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29082, 'chestthrungussteaming2');
@@ -1250,6 +1346,9 @@ VALUES (29082, 12, True)
      , (29082, 19, True)
      , (29082, 1, True);
 
+/* Weenie - ContainersStatics - An old chest (29081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29081;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29081, 'chestthrungussteaming1');
 
@@ -1286,6 +1385,9 @@ VALUES (29081, 12, True)
      , (29081, 19, True)
      , (29081, 1, True);
 
+/* Weenie - ContainersStatics - An old chest (29077) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29077;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29077, 'chestthrungussultry1');
 
@@ -1321,6 +1423,9 @@ VALUES (29077, 12, True)
      , (29077, 14, True)
      , (29077, 19, True)
      , (29077, 1, True);
+
+/* Weenie - ContainersStatics - An old chest (29078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29078;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29078, 'chestthrungussultry2');

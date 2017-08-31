@@ -1,3 +1,6 @@
+/* Weenie - CraftFletchingIntermediate - Pile of Long Sticks (6117) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6117;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6117, 'longsticks');
 
@@ -30,6 +33,9 @@ VALUES (6117, 13, True)
      , (6117, 11, True)
      , (6117, 14, True)
      , (6117, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Pile of Short Sticks (6118) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6118;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6118, 'shortsticks');
@@ -67,6 +73,9 @@ VALUES (6118, 13, True)
      , (6118, 14, True)
      , (6118, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Arrowheads (9359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9359;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9359, 'wrappedarrowhead');
 
@@ -100,6 +109,9 @@ VALUES (9359, 13, True)
      , (9359, 14, True)
      , (9359, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Quarrelshafts (5339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5339;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5339, 'quarrelshaft');
 
@@ -131,6 +143,9 @@ VALUES (5339, 13, True)
      , (5339, 14, True)
      , (5339, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Arrowshafts (9377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9377;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9377, 'wrappedarrowshaft');
 
@@ -161,6 +176,9 @@ VALUES (9377, 13, True)
      , (9377, 11, True)
      , (9377, 14, True)
      , (9377, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Deadly Blunt Arrowheads (15423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15423;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15423, 'wrappedarrowheaddeadlyblunt');
@@ -195,6 +213,9 @@ VALUES (15423, 13, True)
      , (15423, 14, True)
      , (15423, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Wrapped Spiketails (23858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23858;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23858, 'wrappedspiketail');
 
@@ -225,6 +246,9 @@ VALUES (23858, 13, True)
      , (23858, 11, True)
      , (23858, 14, True)
      , (23858, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Raider Lightning Arrowheads (38779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38779;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38779, 'ace38779-wrappedbundleofraiderlightningarrowheads');
@@ -260,6 +284,9 @@ VALUES (38779, 13, True)
      , (38779, 14, True)
      , (38779, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Prismatic Arrowheads (44073) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44073;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44073, 'ace44073-wrappedbundleofgreaterprismaticarrowheads');
 
@@ -293,6 +320,9 @@ VALUES (44073, 13, True)
      , (44073, 14, True)
      , (44073, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Quarrelshafts (9378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9378;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9378, 'wrappedquarrelshaft');
 
@@ -323,6 +353,9 @@ VALUES (9378, 13, True)
      , (9378, 11, True)
      , (9378, 14, True)
      , (9378, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Blunt Arrowheads (9362) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9362;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9362, 'wrappedarrowheadblunt');
@@ -357,6 +390,9 @@ VALUES (9362, 13, True)
      , (9362, 14, True)
      , (9362, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Deadly Fire Arrowheads (15426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15426;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15426, 'wrappedarrowheaddeadlyfire');
 
@@ -389,6 +425,9 @@ VALUES (15426, 13, True)
      , (15426, 11, True)
      , (15426, 14, True)
      , (15426, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Deadly Frog Crotch Arrowheads (15427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15427;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15427, 'wrappedarrowheaddeadlyfrogcrotch');
@@ -423,6 +462,9 @@ VALUES (15427, 13, True)
      , (15427, 14, True)
      , (15427, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Soulrender Arrowhead (9235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9235;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9235, 'arrowheadsoulrender');
 
@@ -455,6 +497,9 @@ VALUES (9235, 13, True)
      , (9235, 11, True)
      , (9235, 14, True)
      , (9235, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Bloodletter Arrowhead (9233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9233;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9233, 'arrowheadbloodletter');
@@ -489,6 +534,9 @@ VALUES (9233, 13, True)
      , (9233, 14, True)
      , (9233, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Deadly Armor Piercing Arrowheads (15422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15422;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15422, 'wrappedarrowheaddeadlyarmorpiercing');
 
@@ -521,6 +569,9 @@ VALUES (15422, 13, True)
      , (15422, 11, True)
      , (15422, 14, True)
      , (15422, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Deadly Acid Arrowheads (15421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15421;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15421, 'wrappedarrowheaddeadlyacid');
@@ -555,6 +606,9 @@ VALUES (15421, 13, True)
      , (15421, 14, True)
      , (15421, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Deadly Frost Arrowheads (15428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15428;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15428, 'wrappedarrowheaddeadlyfrost');
 
@@ -588,6 +642,9 @@ VALUES (15428, 13, True)
      , (15428, 14, True)
      , (15428, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Deadly Lightning Arrowheads (15425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15425;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15425, 'wrappedarrowheaddeadlyelectric');
 
@@ -620,6 +677,9 @@ VALUES (15425, 13, True)
      , (15425, 11, True)
      , (15425, 14, True)
      , (15425, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Burning Sands Arrowheads (44210) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44210;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44210, 'ace44210-wrappedbundleofburningsandsarrowheads');
@@ -655,6 +715,9 @@ VALUES (44210, 13, True)
      , (44210, 14, True)
      , (44210, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Olthoi Acid Arrowheads (36363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36363;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36363, 'ace36363-wrappedbundleofolthoiacidarrowheads');
 
@@ -689,6 +752,9 @@ VALUES (36363, 13, True)
      , (36363, 14, True)
      , (36363, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Arrowheads (4586) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4586;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4586, 'arrowhead');
 
@@ -722,6 +788,9 @@ VALUES (4586, 13, True)
      , (4586, 14, True)
      , (4586, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Atlatl Dart Shafts (15296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15296;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15296, 'atlatldartshaft');
 
@@ -752,6 +821,9 @@ VALUES (15296, 13, True)
      , (15296, 11, True)
      , (15296, 14, True)
      , (15296, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Armor Piercing Arrowheads (9361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9361;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9361, 'wrappedarrowheadarmorpiercing');
@@ -786,6 +858,9 @@ VALUES (9361, 13, True)
      , (9361, 14, True)
      , (9361, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Blunt Arrowheads (9371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9371;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9371, 'wrappedarrowheadgreaterblunt');
 
@@ -818,6 +893,9 @@ VALUES (9371, 13, True)
      , (9371, 11, True)
      , (9371, 14, True)
      , (9371, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Deadly Prismatic Arrowheads (44072) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44072;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44072, 'ace44072-wrappedbundleofdeadlyprismaticarrowheads');
@@ -852,6 +930,9 @@ VALUES (44072, 13, True)
      , (44072, 14, True)
      , (44072, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Chorizite Arrowheads (21999) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21999;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21999, 'wrappedarrowheadchorizite');
 
@@ -884,6 +965,9 @@ VALUES (21999, 13, True)
      , (21999, 11, True)
      , (21999, 14, True)
      , (21999, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Blue Blanket (32200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32200;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32200, 'ace32200-blueblanket');
@@ -918,6 +1002,9 @@ VALUES (32200, 13, True)
      , (32200, 19, True)
      , (32200, 22, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Prismatic Arrowheads (44071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44071;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44071, 'ace44071-wrappedbundleofprismaticarrowheads');
 
@@ -951,6 +1038,9 @@ VALUES (44071, 13, True)
      , (44071, 14, True)
      , (44071, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Atlatl Dartshafts (15298) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15298;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15298, 'wrappedatlatldartshaft');
 
@@ -982,6 +1072,9 @@ VALUES (15298, 13, True)
      , (15298, 14, True)
      , (15298, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Arrowshafts (4585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4585;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4585, 'arrowshaft');
 
@@ -1012,6 +1105,9 @@ VALUES (4585, 13, True)
      , (4585, 11, True)
      , (4585, 14, True)
      , (4585, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Broad Arrowheads (9363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9363;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9363, 'wrappedarrowheadbroad');
@@ -1046,6 +1142,9 @@ VALUES (9363, 13, True)
      , (9363, 14, True)
      , (9363, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Frog Crotch Arrowheads (9366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9366;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9366, 'wrappedarrowheadfrogcrotch');
 
@@ -1078,6 +1177,9 @@ VALUES (9366, 13, True)
      , (9366, 11, True)
      , (9366, 14, True)
      , (9366, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Gear Blade Slashing Arrowheads (43148) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43148;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43148, 'ace43148-wrappedbundleofgearbladeslashingarrowheads');
@@ -1113,6 +1215,9 @@ VALUES (43148, 13, True)
      , (43148, 14, True)
      , (43148, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Prismatic Arrowheads (44070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44070;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44070, 'ace44070-bundleofprismaticarrowheads');
 
@@ -1145,6 +1250,9 @@ VALUES (44070, 13, True)
      , (44070, 11, True)
      , (44070, 14, True)
      , (44070, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Bundle of Deadly Prismatic Arrowheads (44068) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44068;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44068, 'ace44068-bundleofdeadlyprismaticarrowheads');
@@ -1179,6 +1287,9 @@ VALUES (44068, 13, True)
      , (44068, 14, True)
      , (44068, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Deadly Chorizite Arrowheads (22000) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22000;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22000, 'wrappedarrowheadchorizitedeadly');
 
@@ -1211,6 +1322,9 @@ VALUES (22000, 13, True)
      , (22000, 11, True)
      , (22000, 14, True)
      , (22000, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Deadly Blunt Arrowheads (44224) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44224;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44224, 'ace44224-wrappedbundleofgreaterdeadlybluntarrowheads');
@@ -1246,6 +1360,9 @@ VALUES (44224, 13, True)
      , (44224, 14, True)
      , (44224, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Deadly Armor Piercing Arrowheads (44366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44366;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44366, 'ace44366-wrappedbundleofgreaterdeadlyarmorpiercingarrowheads');
 
@@ -1280,6 +1397,9 @@ VALUES (44366, 13, True)
      , (44366, 14, True)
      , (44366, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Deadly Fire Arrowheads (15417) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15417;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15417, 'arrowheaddeadlyfire');
 
@@ -1312,6 +1432,9 @@ VALUES (15417, 13, True)
      , (15417, 11, True)
      , (15417, 14, True)
      , (15417, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Bundle of Deadly Blunt Arrowheads (15414) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15414;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15414, 'arrowheaddeadlyblunt');
@@ -1346,6 +1469,9 @@ VALUES (15414, 13, True)
      , (15414, 14, True)
      , (15414, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Fire Arrowheads (9374) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9374;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9374, 'wrappedarrowheadgreaterfire');
 
@@ -1378,6 +1504,9 @@ VALUES (9374, 13, True)
      , (9374, 11, True)
      , (9374, 14, True)
      , (9374, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Bundle of Greater Fire Arrowheads (5350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5350;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5350, 'arrowheadgreaterfire');
@@ -1412,6 +1541,9 @@ VALUES (5350, 13, True)
      , (5350, 14, True)
      , (5350, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Fire Arrowheads (9365) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9365;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9365, 'wrappedarrowheadfire');
 
@@ -1445,6 +1577,9 @@ VALUES (9365, 13, True)
      , (9365, 14, True)
      , (9365, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Acid Arrowheads (9360) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9360;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9360, 'wrappedarrowheadacid');
 
@@ -1477,6 +1612,9 @@ VALUES (9360, 13, True)
      , (9360, 11, True)
      , (9360, 14, True)
      , (9360, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Deadly Frog Crotch Arrowheads (44367) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44367;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44367, 'ace44367-wrappedbundleofgreaterdeadlyfrogcrotcharrowheads');
@@ -1512,6 +1650,9 @@ VALUES (44367, 13, True)
      , (44367, 14, True)
      , (44367, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Arrowheads (9368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9368;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9368, 'wrappedarrowheadgreater');
 
@@ -1544,6 +1685,9 @@ VALUES (9368, 13, True)
      , (9368, 11, True)
      , (9368, 14, True)
      , (9368, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Frog Crotch Arrowheads (9375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9375;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9375, 'wrappedarrowheadgreaterfrogcrotch');
@@ -1578,6 +1722,9 @@ VALUES (9375, 13, True)
      , (9375, 14, True)
      , (9375, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Greater Prismatic Arrowheads (44069) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44069;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44069, 'ace44069-bundleofgreaterprismaticarrowheads');
 
@@ -1610,6 +1757,9 @@ VALUES (44069, 13, True)
      , (44069, 11, True)
      , (44069, 14, True)
      , (44069, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Frost Arrowheads (9376) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9376;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9376, 'wrappedarrowheadgreaterfrost');
@@ -1644,6 +1794,9 @@ VALUES (9376, 13, True)
      , (9376, 14, True)
      , (9376, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Lightning Arrowheads (9373) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9373;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9373, 'wrappedarrowheadgreaterelectric');
 
@@ -1676,6 +1829,9 @@ VALUES (9373, 13, True)
      , (9373, 11, True)
      , (9373, 14, True)
      , (9373, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Acid Arrowheads (9369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9369;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9369, 'wrappedarrowheadgreateracid');
@@ -1710,6 +1866,9 @@ VALUES (9369, 13, True)
      , (9369, 14, True)
      , (9369, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Deadly Arrowheads (15420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15420;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15420, 'wrappedarrowheaddeadly');
 
@@ -1742,6 +1901,9 @@ VALUES (15420, 13, True)
      , (15420, 11, True)
      , (15420, 14, True)
      , (15420, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Deadly Blunt Arrowheads (36497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36497;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36497, 'ace36497-wrappedbundleofgreaterdeadlybluntarrowheads');
@@ -1777,6 +1939,9 @@ VALUES (36497, 13, True)
      , (36497, 14, True)
      , (36497, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Deadly Acid Arrowheads (15412) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15412;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15412, 'arrowheaddeadlyacid');
 
@@ -1810,6 +1975,9 @@ VALUES (15412, 13, True)
      , (15412, 14, True)
      , (15412, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Armor Piercing Arrowheads (9370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9370;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9370, 'wrappedarrowheadgreaterarmorpiercing');
 
@@ -1842,6 +2010,9 @@ VALUES (9370, 13, True)
      , (9370, 11, True)
      , (9370, 14, True)
      , (9370, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Bundle of Greater Deadly Blunt Arrowheads (44360) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44360;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44360, 'ace44360-bundleofgreaterdeadlybluntarrowheads');
@@ -1877,6 +2048,9 @@ VALUES (44360, 13, True)
      , (44360, 14, True)
      , (44360, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Greater Deadly Broad Arrowheads (44361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44361;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44361, 'ace44361-bundleofgreaterdeadlybroadarrowheads');
 
@@ -1911,6 +2085,9 @@ VALUES (44361, 13, True)
      , (44361, 14, True)
      , (44361, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Greater Frog Crotch Arrowheads (5355) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5355;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5355, 'arrowheadgreaterfrogcrotch');
 
@@ -1943,6 +2120,9 @@ VALUES (5355, 13, True)
      , (5355, 11, True)
      , (5355, 14, True)
      , (5355, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Bundle of Greater Armor Piercing Arrowheads (5356) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5356;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5356, 'arrowheadgreaterarmorpiercing');
@@ -1977,6 +2157,9 @@ VALUES (5356, 13, True)
      , (5356, 14, True)
      , (5356, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Greater Blunt Arrowheads (5353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5353;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5353, 'arrowheadgreaterblunt');
 
@@ -2009,6 +2192,9 @@ VALUES (5353, 13, True)
      , (5353, 11, True)
      , (5353, 14, True)
      , (5353, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Bundle of Blunt Arrowheads (5344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5344;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5344, 'arrowheadblunt');
@@ -2043,6 +2229,9 @@ VALUES (5344, 13, True)
      , (5344, 14, True)
      , (5344, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Broad Arrowheads (9372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9372;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9372, 'wrappedarrowheadgreaterbroad');
 
@@ -2075,6 +2264,9 @@ VALUES (9372, 13, True)
      , (9372, 11, True)
      , (9372, 14, True)
      , (9372, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Deadly Broad Arrowheads (15424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15424;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15424, 'wrappedarrowheaddeadlybroad');
@@ -2109,6 +2301,9 @@ VALUES (15424, 13, True)
      , (15424, 14, True)
      , (15424, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Deadly Barbed Arrowheads (24545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24545;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24545, 'wrappedarrowheaddeadlybarbed');
 
@@ -2141,6 +2336,9 @@ VALUES (24545, 13, True)
      , (24545, 11, True)
      , (24545, 14, True)
      , (24545, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Bundle of Deadly Lightning Arrowheads (15416) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15416;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15416, 'arrowheaddeadlyelectric');
@@ -2175,6 +2373,9 @@ VALUES (15416, 13, True)
      , (15416, 14, True)
      , (15416, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Frog Crotch Arrowheads (5346) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5346;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5346, 'arrowheadfrogcrotch');
 
@@ -2207,6 +2408,9 @@ VALUES (5346, 13, True)
      , (5346, 11, True)
      , (5346, 14, True)
      , (5346, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Deadly Arrowheads (44364) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44364;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44364, 'ace44364-wrappedbundleofgreaterdeadlyarrowheads');
@@ -2242,6 +2446,9 @@ VALUES (44364, 13, True)
      , (44364, 14, True)
      , (44364, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Greater Lightning Arrowheads (5352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5352;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5352, 'arrowheadgreaterelectric');
 
@@ -2275,6 +2482,9 @@ VALUES (5352, 13, True)
      , (5352, 14, True)
      , (5352, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Frost Arrowheads (5342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5342;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5342, 'arrowheadfrost');
 
@@ -2307,6 +2517,9 @@ VALUES (5342, 13, True)
      , (5342, 11, True)
      , (5342, 14, True)
      , (5342, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Bundle of Greater Deadly Armor Piercing Arrowheads (44362) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44362;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44362, 'ace44362-bundleofgreaterdeadlyarmorpiercingarrowheads');
@@ -2342,6 +2555,9 @@ VALUES (44362, 13, True)
      , (44362, 14, True)
      , (44362, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Broad Arrowheads (5345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5345;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5345, 'arrowheadbroad');
 
@@ -2375,6 +2591,9 @@ VALUES (5345, 13, True)
      , (5345, 14, True)
      , (5345, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Crystal Arrowheads (7996) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7996;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7996, 'arrowheadcrystal');
 
@@ -2407,6 +2626,9 @@ VALUES (7996, 13, True)
      , (7996, 11, True)
      , (7996, 14, True)
      , (7996, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Wrapped Bundle of Greater Deadly Broad Arrowheads (44365) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44365;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44365, 'ace44365-wrappedbundleofgreaterdeadlybroadarrowheads');
@@ -2442,6 +2664,9 @@ VALUES (44365, 13, True)
      , (44365, 14, True)
      , (44365, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Greater Deadly Arrowheads (44359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44359;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44359, 'ace44359-bundleofgreaterdeadlyarrowheads');
 
@@ -2476,6 +2701,9 @@ VALUES (44359, 13, True)
      , (44359, 14, True)
      , (44359, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Deadly Frost Arrowheads (15419) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15419;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15419, 'arrowheaddeadlyfrost');
 
@@ -2509,6 +2737,9 @@ VALUES (15419, 13, True)
      , (15419, 14, True)
      , (15419, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Spiketails (23857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23857;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23857, 'spiketail');
 
@@ -2539,6 +2770,9 @@ VALUES (23857, 13, True)
      , (23857, 11, True)
      , (23857, 14, True)
      , (23857, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Bundle of Lightning Arrowheads (5343) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5343;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5343, 'arrowheadelectric');
@@ -2573,6 +2807,9 @@ VALUES (5343, 13, True)
      , (5343, 14, True)
      , (5343, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Armor Piercing Arrowheads (5347) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5347;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5347, 'arrowheadarmorpiercing');
 
@@ -2606,6 +2843,9 @@ VALUES (5347, 13, True)
      , (5347, 14, True)
      , (5347, 19, True);
 
+/* Weenie - CraftFletchingIntermediate - Bundle of Deadly Arrowheads (15411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15411;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15411, 'arrowheaddeadly');
 
@@ -2638,6 +2878,9 @@ VALUES (15411, 13, True)
      , (15411, 11, True)
      , (15411, 14, True)
      , (15411, 19, True);
+
+/* Weenie - CraftFletchingIntermediate - Bundle of Greater Deadly Frog Crotch Arrowheads (44363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44363;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44363, 'ace44363-bundleofgreaterdeadlyfrogcrotcharrowheads');

@@ -1,3 +1,6 @@
+/* Weenie - HouseDeeds - Deed (9549) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9549;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9549, 'deed');
 

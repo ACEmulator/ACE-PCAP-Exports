@@ -1,3 +1,6 @@
+/* Weenie - HouseHooks - Wall Hook (9686) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9686;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9686, 'hook');
 
@@ -34,6 +37,9 @@ VALUES (9686, 13, True)
      , (9686, 19, True)
      , (9686, 1, True)
      , (9686, 24, True);
+
+/* Weenie - HouseHooks - Ceiling Hook (11698) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11698;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11698, 'hook-ceiling');
@@ -72,6 +78,9 @@ VALUES (11698, 13, True)
      , (11698, 1, True)
      , (11698, 24, True);
 
+/* Weenie - HouseHooks - Floor Hook (11697) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11697;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11697, 'hook-floor');
 
@@ -109,6 +118,9 @@ VALUES (11697, 13, True)
      , (11697, 1, True)
      , (11697, 24, True);
 
+/* Weenie - HouseHooks - Yard Hook (12679) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12679;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12679, 'hook-yard');
 
@@ -143,6 +155,9 @@ VALUES (12679, 13, True)
      , (12679, 11, True)
      , (12679, 19, True)
      , (12679, 1, True);
+
+/* Weenie - HouseHooks - Roof Hook (12678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12678;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12678, 'hook-roof');

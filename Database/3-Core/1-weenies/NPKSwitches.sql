@@ -1,3 +1,6 @@
+/* Weenie - NPKSwitches - Adja's Memorial (8510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8510;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8510, 'npkswitch2');
 
@@ -29,6 +32,9 @@ VALUES (8510, 11, True)
      , (8510, 19, True)
      , (8510, 22, True)
      , (8510, 1, True);
+
+/* Weenie - NPKSwitches - Altar of Asheron (855) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 855;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (855, 'npkswitch');

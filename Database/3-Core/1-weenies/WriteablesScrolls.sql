@@ -1,3 +1,6 @@
+/* Weenie - WriteablesScrolls - Scroll of Cooking Mastery Self IV (5959) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5959;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5959, 'scrollcookingmasteryself4');
 
@@ -31,6 +34,9 @@ VALUES (5959, 13, True)
      , (5959, 14, True)
      , (5959, 19, True)
      , (5959, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Slowness Other VI (2736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2736;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2736, 'scrollslowness6');
@@ -66,6 +72,9 @@ VALUES (2736, 13, True)
      , (2736, 19, True)
      , (2736, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shock Wave Streak VI (8952) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8952;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8952, 'scrollshockwavestreak6');
 
@@ -99,6 +108,9 @@ VALUES (8952, 13, True)
      , (8952, 14, True)
      , (8952, 19, True)
      , (8952, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Bolt VI (2945) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2945;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2945, 'scrollfrostbolt6');
@@ -134,6 +146,9 @@ VALUES (2945, 13, True)
      , (2945, 19, True)
      , (2945, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Honed Control (20235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20235;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20235, 'scrollcoordinationself7');
 
@@ -167,6 +182,9 @@ VALUES (20235, 13, True)
      , (20235, 14, True)
      , (20235, 19, True)
      , (20235, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Ataxia (20233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20233;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20233, 'scrollclumsiness7');
@@ -202,6 +220,9 @@ VALUES (20233, 13, True)
      , (20233, 19, True)
      , (20233, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Person Attunement Other V (3451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3451;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3451, 'scrollpersonattunementother5');
 
@@ -235,6 +256,9 @@ VALUES (3451, 13, True)
      , (3451, 14, True)
      , (3451, 19, True)
      , (3451, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Might of the Lugians (20254) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20254;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20254, 'scrollstrengthself7');
@@ -270,6 +294,9 @@ VALUES (20254, 13, True)
      , (20254, 19, True)
      , (20254, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Other VII (20591) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20591;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20591, 'scrollunarmedmasteryother7');
 
@@ -303,6 +330,9 @@ VALUES (20591, 13, True)
      , (20591, 14, True)
      , (20591, 19, True)
      , (20591, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lilitha's Boon (20530) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20530;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20530, 'scrollfletchingmasteryother7');
@@ -338,6 +368,9 @@ VALUES (20530, 13, True)
      , (20530, 19, True)
      , (20530, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Jibril's Boon (20501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20501;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20501, 'scrollarmorexpertiseother7');
 
@@ -371,6 +404,9 @@ VALUES (20501, 13, True)
      , (20501, 14, True)
      , (20501, 19, True)
      , (20501, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Drain Stamina Other II (3726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3726;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3726, 'scrolldrainstamina2');
@@ -406,6 +442,9 @@ VALUES (3726, 13, True)
      , (3726, 19, True)
      , (3726, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Bane V (2825) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2825;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2825, 'scrollfrostbane5');
 
@@ -439,6 +478,9 @@ VALUES (2825, 13, True)
      , (2825, 14, True)
      , (2825, 19, True)
      , (2825, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Mastery Self III (43369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43369;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43369, 'ace43369-scrollofvoidmagicmasteryselfiii');
@@ -474,6 +516,9 @@ VALUES (43369, 13, True)
      , (43369, 19, True)
      , (43369, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Spirit Drinker Self IV (28005) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28005;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28005, 'scrollspiritdrinker4');
 
@@ -507,6 +552,9 @@ VALUES (28005, 13, True)
      , (28005, 14, True)
      , (28005, 19, True)
      , (28005, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Hermetic Link Self III (2888) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2888;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2888, 'scrolltruevalue3');
@@ -542,6 +590,9 @@ VALUES (2888, 13, True)
      , (2888, 19, True)
      , (2888, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Self Strength VI (2746) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2746;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2746, 'scrollstrengthself6');
 
@@ -575,6 +626,9 @@ VALUES (2746, 13, True)
      , (2746, 14, True)
      , (2746, 19, True)
      , (2746, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Aura of Defense (20538) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20538;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20538, 'scrollinvulnerabilityself7');
@@ -610,6 +664,9 @@ VALUES (20538, 13, True)
      , (20538, 19, True)
      , (20538, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Alset's Coil (20455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20455;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20455, 'scrolllightningbolt7');
 
@@ -643,6 +700,9 @@ VALUES (20455, 13, True)
      , (20455, 14, True)
      , (20455, 19, True)
      , (20455, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Revitalize Self VI (2731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2731;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2731, 'scrollrevitalizeself6');
@@ -678,6 +738,9 @@ VALUES (2731, 13, True)
      , (2731, 19, True)
      , (2731, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Caustic Boon (20465) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20465;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20465, 'scrollacidprotectionother7');
 
@@ -711,6 +774,9 @@ VALUES (20465, 13, True)
      , (20465, 14, True)
      , (20465, 19, True)
      , (20465, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Olthoi Bait (20403) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20403;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20403, 'scrollacidlure7');
@@ -746,6 +812,9 @@ VALUES (20403, 13, True)
      , (20403, 19, True)
      , (20403, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Avalenne's Boon (20533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20533;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20533, 'scrollhealingmasteryother7');
 
@@ -779,6 +848,9 @@ VALUES (20533, 13, True)
      , (20533, 14, True)
      , (20533, 19, True)
      , (20533, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Health to Mana Self VI (9634) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9634;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9634, 'scrollhealthtomanaself6');
@@ -814,6 +886,9 @@ VALUES (9634, 13, True)
      , (9634, 19, True)
      , (9634, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Defenselessness VI (3252) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3252;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3252, 'scrolldefenselessnessother6');
 
@@ -847,6 +922,9 @@ VALUES (3252, 13, True)
      , (3252, 14, True)
      , (3252, 19, True)
      , (3252, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Arc VI (21293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21293;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21293, 'scrollacidarc6');
@@ -882,6 +960,9 @@ VALUES (21293, 13, True)
      , (21293, 19, True)
      , (21293, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cooking Ineptitude Other VI (5949) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5949;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5949, 'scrollcookingineptitude6');
 
@@ -915,6 +996,9 @@ VALUES (5949, 13, True)
      , (5949, 14, True)
      , (5949, 19, True)
      , (5949, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Protection Other V (3051) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3051;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3051, 'scrolllightningprotectionother5');
@@ -950,6 +1034,9 @@ VALUES (3051, 13, True)
      , (3051, 19, True)
      , (3051, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Hermetic Void V (2840) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2840;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2840, 'scrollhidevalue5');
 
@@ -983,6 +1070,9 @@ VALUES (2840, 13, True)
      , (2840, 14, True)
      , (2840, 19, True)
      , (2840, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weakness Other VI (2751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2751;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2751, 'scrollweaknessother6');
@@ -1018,6 +1108,9 @@ VALUES (2751, 13, True)
      , (2751, 19, True)
      , (2751, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Harlune's Boon (20553) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20553;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20553, 'scrolllifemagicmasteryother7');
 
@@ -1051,6 +1144,9 @@ VALUES (20553, 13, True)
      , (20553, 14, True)
      , (20553, 19, True)
      , (20553, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Expertise Self VI (3587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3587;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3587, 'scrollweaponexpertiseself6');
@@ -1086,6 +1182,9 @@ VALUES (3587, 13, True)
      , (3587, 19, True)
      , (3587, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Mastery Self VI (3202) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3202;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3202, 'scrollcreatureenchantmentself6');
 
@@ -1119,6 +1218,9 @@ VALUES (3202, 13, True)
      , (3202, 14, True)
      , (3202, 19, True)
      , (3202, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Streak VI (8925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8925;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8925, 'scrollflamestreak6');
@@ -1154,6 +1256,9 @@ VALUES (8925, 13, True)
      , (8925, 19, True)
      , (8925, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Impenetrability VI (2846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2846;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2846, 'scrollimpenetrability6');
 
@@ -1187,6 +1292,9 @@ VALUES (2846, 13, True)
      , (2846, 14, True)
      , (2846, 19, True)
      , (2846, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Arc VI (21300) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21300;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21300, 'scrollbladearc6');
@@ -1222,6 +1330,9 @@ VALUES (21300, 13, True)
      , (21300, 19, True)
      , (21300, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Ineptitude Other VI (9613) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9613;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9613, 'scrollmanaineptitude6');
 
@@ -1255,6 +1366,9 @@ VALUES (9613, 13, True)
      , (9613, 14, True)
      , (9613, 19, True)
      , (9613, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Force Bolt V (2933) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2933;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2933, 'scrollforcebolt5');
@@ -1290,6 +1404,9 @@ VALUES (2933, 13, True)
      , (2933, 19, True)
      , (2933, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Turn Blade V (2896) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2896;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2896, 'scrollturnblade5');
 
@@ -1323,6 +1440,9 @@ VALUES (2896, 13, True)
      , (2896, 14, True)
      , (2896, 19, True)
      , (2896, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Mastery Self V (43363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43363;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43363, 'ace43363-scrollofvoidmagicmasteryselfv');
@@ -1358,6 +1478,9 @@ VALUES (43363, 13, True)
      , (43363, 19, True)
      , (43363, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Stamina to Mana Self VI (9659) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9659;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9659, 'scrollstaminatomanaself6');
 
@@ -1391,6 +1514,9 @@ VALUES (9659, 13, True)
      , (9659, 14, True)
      , (9659, 19, True)
      , (9659, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Arc VII (21329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21329;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21329, 'scrolllightningarc7');
@@ -1426,6 +1552,9 @@ VALUES (21329, 13, True)
      , (21329, 19, True)
      , (21329, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Storm's Blessing (20481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20481;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20481, 'scrolllightningprotectionself7');
 
@@ -1459,6 +1588,9 @@ VALUES (20481, 13, True)
      , (20481, 14, True)
      , (20481, 19, True)
      , (20481, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lhen's Flare (20456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20456;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20456, 'scrolllightningstreak7');
@@ -1494,6 +1626,9 @@ VALUES (20456, 13, True)
      , (20456, 19, True)
      , (20456, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weakening Curse VII (43336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43336;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43336, 'ace43336-scrollofweakeningcursevii');
 
@@ -1528,6 +1663,9 @@ VALUES (43336, 13, True)
      , (43336, 19, True)
      , (43336, 22, True);
 
+/* Weenie - WriteablesScrolls - Recall to the Singularity Caul (22932) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22932;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22932, 'scrollvirindiislandrecall');
 
@@ -1560,6 +1698,9 @@ VALUES (22932, 13, True)
      , (22932, 14, True)
      , (22932, 19, True)
      , (22932, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Expertise Other IV (3580) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3580;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3580, 'scrollweaponexpertiseother4');
@@ -1595,6 +1736,9 @@ VALUES (3580, 13, True)
      , (3580, 19, True)
      , (3580, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Renewal Other III (3099) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3099;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3099, 'scrollmanarenewalother3');
 
@@ -1628,6 +1772,9 @@ VALUES (3099, 13, True)
      , (3099, 14, True)
      , (3099, 19, True)
      , (3099, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Heartseeker Self VI (2836) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2836;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2836, 'scrollheartseeker6');
@@ -1663,6 +1810,9 @@ VALUES (2836, 13, True)
      , (2836, 19, True)
      , (2836, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Lure IV (2799) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2799;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2799, 'scrollbludgeonlure4');
 
@@ -1696,6 +1846,9 @@ VALUES (2799, 13, True)
      , (2799, 14, True)
      , (2799, 19, True)
      , (2799, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Hermetic Link Other VII (46884) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46884;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46884, 'ace46884-auraofhermeticlinkothervii');
@@ -1731,6 +1884,9 @@ VALUES (46884, 13, True)
      , (46884, 19, True)
      , (46884, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Mastery Other IV (45343) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45343;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45343, 'ace45343-scrollofsneakattackmasteryotheriv');
 
@@ -1764,6 +1920,9 @@ VALUES (45343, 13, True)
      , (45343, 14, True)
      , (45343, 19, True)
      , (45343, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Regenerate Self III (3114) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3114;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3114, 'scrollregenerateself3');
@@ -1799,6 +1958,9 @@ VALUES (3114, 13, True)
      , (3114, 19, True)
      , (3114, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Defender Other VI (46856) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46856;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46856, 'ace46856-auraofdefenderothervi');
 
@@ -1832,6 +1994,9 @@ VALUES (46856, 13, True)
      , (46856, 14, True)
      , (46856, 19, True)
      , (46856, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Anemia (20238) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20238;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20238, 'scrollenfeeble7');
@@ -1867,6 +2032,9 @@ VALUES (20238, 13, True)
      , (20238, 19, True)
      , (20238, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Web of Resistance (20574) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20574;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20574, 'scrollresistmagicother7');
 
@@ -1900,6 +2068,9 @@ VALUES (20574, 13, True)
      , (20574, 14, True)
      , (20574, 19, True)
      , (20574, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Unfortunate Appraisal (20544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20544;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20544, 'scrollitemignorance7');
@@ -1935,6 +2106,9 @@ VALUES (20544, 13, True)
      , (20544, 19, True)
      , (20544, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcanum Enlightenment VII (28946) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28946;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28946, 'scrollarcanumsalvagingother7');
 
@@ -1968,6 +2142,9 @@ VALUES (28946, 13, True)
      , (28946, 14, True)
      , (28946, 19, True)
      , (28946, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Jahannan's Boon (20546) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20546;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20546, 'scrolljumpmasteryother7');
@@ -2003,6 +2180,9 @@ VALUES (20546, 13, True)
      , (20546, 19, True)
      , (20546, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Swordsman Bait (20405) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20405;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20405, 'scrollbladelure7');
 
@@ -2036,6 +2216,9 @@ VALUES (20405, 13, True)
      , (20405, 14, True)
      , (20405, 19, True)
      , (20405, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Icy Torment (20450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20450;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20450, 'scrollfrostbolt7');
@@ -2071,6 +2254,9 @@ VALUES (20450, 13, True)
      , (20450, 19, True)
      , (20450, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Raven Fury (31383) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31383;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31383, 'ace31383-scrollofravenfury');
 
@@ -2103,6 +2289,9 @@ VALUES (31383, 13, True)
      , (31383, 14, True)
      , (31383, 19, True)
      , (31383, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Impregnability Self VI (3292) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3292;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3292, 'scrollimpregnabilityself6');
@@ -2138,6 +2327,9 @@ VALUES (3292, 13, True)
      , (3292, 19, True)
      , (3292, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Mastery Self IV (3435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3435, 'scrollmanaconvertmasteryself4');
 
@@ -2171,6 +2363,9 @@ VALUES (3435, 13, True)
      , (3435, 14, True)
      , (3435, 19, True)
      , (3435, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Strength Other VI (2741) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2741;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2741, 'scrollstrengthother6');
@@ -2206,6 +2401,9 @@ VALUES (2741, 13, True)
      , (2741, 19, True)
      , (2741, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Arc VII (21315) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21315;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21315, 'scrollforcearc7');
 
@@ -2239,6 +2437,9 @@ VALUES (21315, 13, True)
      , (21315, 14, True)
      , (21315, 19, True)
      , (21315, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Infuse Health VI (3735) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3735;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3735, 'scrollinfusehealth6');
@@ -2274,6 +2475,9 @@ VALUES (3735, 13, True)
      , (3735, 19, True)
      , (3735, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Ineptitude Other VI (3177) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3177;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3177, 'scrollbowineptitude6');
 
@@ -2307,6 +2511,9 @@ VALUES (3177, 13, True)
      , (3177, 14, True)
      , (3177, 19, True)
      , (3177, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cold Vulnerability Other III (3029) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3029;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3029, 'scrollcoldvulnerabilityother3');
@@ -2342,6 +2549,9 @@ VALUES (3029, 13, True)
      , (3029, 19, True)
      , (3029, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Regenerate Other V (3111) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3111;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3111, 'scrollregenerateother5');
 
@@ -2375,6 +2585,9 @@ VALUES (3111, 13, True)
      , (3111, 14, True)
      , (3111, 19, True)
      , (3111, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Executor's Boon (20230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20230;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20230, 'scrollarmorother7');
@@ -2410,6 +2623,9 @@ VALUES (20230, 13, True)
      , (20230, 19, True)
      , (20230, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Summoning Ineptitude Other II (49457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49457;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49457, 'ace49457-scrollofsummoningineptitudeotherii');
 
@@ -2443,6 +2659,9 @@ VALUES (49457, 13, True)
      , (49457, 14, True)
      , (49457, 19, True)
      , (49457, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Monster Unfamiliarity VI (3447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3447;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3447, 'scrollmonsterunfamiliarity6');
@@ -2478,6 +2697,9 @@ VALUES (3447, 13, True)
      , (3447, 19, True)
      , (3447, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Vulnerability Other VI (2987) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2987;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2987, 'scrollacidvulnerabilityother6');
 
@@ -2511,6 +2733,9 @@ VALUES (2987, 13, True)
      , (2987, 14, True)
      , (2987, 19, True)
      , (2987, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Depletion Other (1858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1858;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1858, 'scrollmanadepletion');
@@ -2546,6 +2771,9 @@ VALUES (1858, 13, True)
      , (1858, 19, True)
      , (1858, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Spirit Drinker Other VII (46882) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46882;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46882, 'ace46882-auraofspiritdrinkerothervii');
 
@@ -2579,6 +2807,9 @@ VALUES (46882, 13, True)
      , (46882, 14, True)
      , (46882, 19, True)
      , (46882, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Gelidite's Gift (20476) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20476;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20476, 'scrollcoldvulnerabilityother7');
@@ -2614,6 +2845,9 @@ VALUES (20476, 13, True)
      , (20476, 19, True)
      , (20476, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shock Wave VI (2967) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2967;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2967, 'scrollshockwave6');
 
@@ -2647,6 +2881,9 @@ VALUES (2967, 13, True)
      , (2967, 14, True)
      , (2967, 19, True)
      , (2967, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Summoning Ineptitude Other III (49458) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49458;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49458, 'ace49458-scrollofsummoningineptitudeotheriii');
@@ -2682,6 +2919,9 @@ VALUES (49458, 13, True)
      , (49458, 19, True)
      , (49458, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Slowness Other V (2735) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2735;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2735, 'scrollslowness5');
 
@@ -2715,6 +2955,9 @@ VALUES (2735, 13, True)
      , (2735, 14, True)
      , (2735, 19, True)
      , (2735, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Endurance Other VI (2658) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2658;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2658, 'scrollenduranceother6');
@@ -2750,6 +2993,9 @@ VALUES (2658, 13, True)
      , (2658, 19, True)
      , (2658, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Hermetic Link Other VI (46858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46858;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46858, 'ace46858-auraofhermeticlinkothervi');
 
@@ -2783,6 +3029,9 @@ VALUES (46858, 13, True)
      , (46858, 14, True)
      , (46858, 19, True)
      , (46858, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Renewal Other VI (3102) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3102;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3102, 'scrollmanarenewalother6');
@@ -2818,6 +3067,9 @@ VALUES (3102, 13, True)
      , (3102, 19, True)
      , (3102, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Tenaciousness (20493) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20493;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20493, 'scrollrejuvenateother7');
 
@@ -2851,6 +3103,9 @@ VALUES (20493, 13, True)
      , (20493, 14, True)
      , (20493, 19, True)
      , (20493, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Expertise Other VI (3582) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3582;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3582, 'scrollweaponexpertiseother6');
@@ -2886,6 +3141,9 @@ VALUES (3582, 13, True)
      , (3582, 19, True)
      , (3582, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Mastery Other VI (3197) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3197;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3197, 'scrollcreatureenchantmentother6');
 
@@ -2919,6 +3177,9 @@ VALUES (3197, 13, True)
      , (3197, 14, True)
      , (3197, 19, True)
      , (3197, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Lure VI (2771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2771;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2771, 'scrollacidlure6');
@@ -2954,6 +3215,9 @@ VALUES (2771, 13, True)
      , (2771, 19, True)
      , (2771, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Mastery Self VI (3232) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3232;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3232, 'scrolldaggermasteryself6');
 
@@ -2987,6 +3251,9 @@ VALUES (3232, 13, True)
      , (3232, 14, True)
      , (3232, 19, True)
      , (3232, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Expertise Self VI (3417) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3417;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3417, 'scrollmagicitemexpertiseself6');
@@ -3022,6 +3289,9 @@ VALUES (3417, 13, True)
      , (3417, 19, True)
      , (3417, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Corrosion IV (43281) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43281;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43281, 'ace43281-scrollofcorrosioniv');
 
@@ -3055,6 +3325,9 @@ VALUES (43281, 13, True)
      , (43281, 14, True)
      , (43281, 19, True)
      , (43281, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Mastery Self III (45350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45350;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45350, 'ace45350-scrollofsneakattackmasteryselfiii');
@@ -3090,6 +3363,9 @@ VALUES (45350, 13, True)
      , (45350, 19, True)
      , (45350, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Drain Health Other IV (4220) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4220;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4220, 'scrolldrainhealth4');
 
@@ -3123,6 +3399,9 @@ VALUES (4220, 13, True)
      , (4220, 14, True)
      , (4220, 19, True)
      , (4220, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sashi Mu's Kiss (20526) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20526;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20526, 'scrollfaithlessness7');
@@ -3158,6 +3437,9 @@ VALUES (20526, 13, True)
      , (20526, 19, True)
      , (20526, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Revitalize Other VI (2726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2726;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2726, 'scrollrevitalizeother6');
 
@@ -3191,6 +3473,9 @@ VALUES (2726, 13, True)
      , (2726, 14, True)
      , (2726, 19, True)
      , (2726, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Ineptitude Other VII (45290) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45290;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45290, 'ace45290-scrollofrecklessnessineptitudeothervii');
@@ -3226,6 +3511,9 @@ VALUES (45290, 13, True)
      , (45290, 19, True)
      , (45290, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nuhmudira's Blessing (20566) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20566;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20566, 'scrollmanaconvertmasteryself7');
 
@@ -3259,6 +3547,9 @@ VALUES (20566, 13, True)
      , (20566, 14, True)
      , (20566, 19, True)
      , (20566, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Expertise Self III (3414) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3414;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3414, 'scrollmagicitemexpertiseself3');
@@ -3294,6 +3585,9 @@ VALUES (3414, 13, True)
      , (3414, 19, True)
      , (3414, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Healing Ineptitude VI (3272) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3272;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3272, 'scrollhealingineptitude6');
 
@@ -3327,6 +3621,9 @@ VALUES (3272, 13, True)
      , (3272, 14, True)
      , (3272, 19, True)
      , (3272, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Energize Vitality (20611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20611;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20611, 'scrollmanatohealthself7');
@@ -3362,6 +3659,9 @@ VALUES (20611, 13, True)
      , (20611, 19, True)
      , (20611, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Ineptitude Other VI (3517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3517;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3517, 'scrollswordineptitude6');
 
@@ -3395,6 +3695,9 @@ VALUES (3517, 13, True)
      , (3517, 14, True)
      , (3517, 19, True)
      , (3517, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Other VI (3182) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3182;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3182, 'scrollbowmasteryother6');
@@ -3430,6 +3733,9 @@ VALUES (3182, 13, True)
      , (3182, 19, True)
      , (3182, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fire Vulnerability Other VI (3047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3047;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3047, 'scrollfirevulnerabilityother6');
 
@@ -3463,6 +3769,9 @@ VALUES (3047, 13, True)
      , (3047, 14, True)
      , (3047, 19, True)
      , (3047, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Arc VI (21321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21321;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21321, 'scrollfrostarc6');
@@ -3498,6 +3807,9 @@ VALUES (21321, 13, True)
      , (21321, 19, True)
      , (21321, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Boon of the Mace Turner (20471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20471;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20471, 'scrollbludgeonprotectionother7');
 
@@ -3531,6 +3843,9 @@ VALUES (20471, 13, True)
      , (20471, 14, True)
      , (20471, 19, True)
      , (20471, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Ineptitude VI (3367) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3367;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3367, 'scrolllifemagicineptitude6');
@@ -3566,6 +3881,9 @@ VALUES (3367, 13, True)
      , (3367, 19, True)
      , (3367, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Devour Creature Magic Self (20327) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20327;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20327, 'scrolldispelcreatureneutralself4');
 
@@ -3599,6 +3917,9 @@ VALUES (20327, 13, True)
      , (20327, 14, True)
      , (20327, 19, True)
      , (20327, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Corrosion VI (43283) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43283;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43283, 'ace43283-scrollofcorrosionvi');
@@ -3634,6 +3955,9 @@ VALUES (43283, 13, True)
      , (43283, 19, True)
      , (43283, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Blood Drinker Self IV (2784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2784;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2784, 'scrollblooddrinker4');
 
@@ -3667,6 +3991,9 @@ VALUES (2784, 13, True)
      , (2784, 14, True)
      , (2784, 19, True)
      , (2784, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Infuse Mana III (3737) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3737;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3737, 'scrollinfusemana3');
@@ -3702,6 +4029,9 @@ VALUES (3737, 13, True)
      , (3737, 19, True)
      , (3737, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Mastery Other VII (45346) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45346;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45346, 'ace45346-scrollofsneakattackmasteryothervii');
 
@@ -3735,6 +4065,9 @@ VALUES (45346, 13, True)
      , (45346, 14, True)
      , (45346, 19, True)
      , (45346, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Olthoi's Bane (20402) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20402;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20402, 'scrollacidbane7');
@@ -3770,6 +4103,9 @@ VALUES (20402, 13, True)
      , (20402, 19, True)
      , (20402, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Temeritous Touch (20236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20236;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20236, 'scrollenduranceother7');
 
@@ -3803,6 +4139,9 @@ VALUES (20236, 13, True)
      , (20236, 14, True)
      , (20236, 19, True)
      , (20236, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Arc VII (21294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21294;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21294, 'scrollacidarc7');
@@ -3838,6 +4177,9 @@ VALUES (21294, 13, True)
      , (21294, 19, True)
      , (21294, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sudden Frost (20451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20451;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20451, 'scrollfroststreak7');
 
@@ -3871,6 +4213,9 @@ VALUES (20451, 13, True)
      , (20451, 14, True)
      , (20451, 19, True)
      , (20451, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Meditative Trance (20617) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20617;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20617, 'scrollstaminatomanaself7');
@@ -3906,6 +4251,9 @@ VALUES (20617, 13, True)
      , (20617, 19, True)
      , (20617, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Ar-Pei's Blessing (20551) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20551;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20551, 'scrollleadershipmasteryself7');
 
@@ -3939,6 +4287,9 @@ VALUES (20551, 13, True)
      , (20551, 14, True)
      , (20551, 19, True)
      , (20551, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of War Magic Mastery Self VI (3577) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3577;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3577, 'scrollwarmagicmasteryself6');
@@ -3974,6 +4325,9 @@ VALUES (3577, 13, True)
      , (3577, 19, True)
      , (3577, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Caustic Blessing (20466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20466;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20466, 'scrollacidprotectionself7');
 
@@ -4007,6 +4361,9 @@ VALUES (20466, 13, True)
      , (20466, 14, True)
      , (20466, 19, True)
      , (20466, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Archer Bait (20424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20424;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20424, 'scrollpiercinglure7');
@@ -4042,6 +4399,9 @@ VALUES (20424, 13, True)
      , (20424, 19, True)
      , (20424, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Lure VI (2801) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2801;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2801, 'scrollbludgeonlure6');
 
@@ -4075,6 +4435,9 @@ VALUES (2801, 13, True)
      , (2801, 14, True)
      , (2801, 19, True)
      , (2801, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Elysa's Sight (20416) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20416;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20416, 'scrollheartseeker7');
@@ -4110,6 +4473,9 @@ VALUES (20416, 13, True)
      , (20416, 19, True)
      , (20416, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Protection Self V (3071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3071;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3071, 'scrollpierceprotectionself5');
 
@@ -4143,6 +4509,9 @@ VALUES (3071, 13, True)
      , (3071, 14, True)
      , (3071, 19, True)
      , (3071, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Deception Ineptitude V (3236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3236;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3236, 'scrolldeceptionineptitude5');
@@ -4178,6 +4547,9 @@ VALUES (3236, 13, True)
      , (3236, 19, True)
      , (3236, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Impregnability Other II (3283) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3283;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3283, 'scrollimpregnabilityother2');
 
@@ -4211,6 +4583,9 @@ VALUES (3283, 13, True)
      , (3283, 14, True)
      , (3283, 19, True)
      , (3283, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Adja's Blessing (20515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20515;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20515, 'scrollcreatureenchantmentself7');
@@ -4246,6 +4621,9 @@ VALUES (20515, 13, True)
      , (20515, 19, True)
      , (20515, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Avalenne's Blessing (20534) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20534;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20534, 'scrollhealingmasteryself7');
 
@@ -4279,6 +4657,9 @@ VALUES (20534, 13, True)
      , (20534, 14, True)
      , (20534, 19, True)
      , (20534, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Destructive Curse VII (43326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43326;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43326, 'ace43326-scrollofdestructivecursevii');
@@ -4314,6 +4695,9 @@ VALUES (43326, 13, True)
      , (43326, 19, True)
      , (43326, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Jibril's Vitae (20503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20503;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20503, 'scrollarmorignorance7');
 
@@ -4347,6 +4731,9 @@ VALUES (20503, 13, True)
      , (20503, 14, True)
      , (20503, 19, True)
      , (20503, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Astyrrian Bait (20421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20421;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20421, 'scrolllightninglure7');
@@ -4382,6 +4769,9 @@ VALUES (20421, 13, True)
      , (20421, 19, True)
      , (20421, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Spirit Pacification (28015) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28015;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28015, 'scrollspiritloather7');
 
@@ -4415,6 +4805,9 @@ VALUES (28015, 13, True)
      , (28015, 14, True)
      , (28015, 19, True)
      , (28015, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Ignorance V (3331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3331;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3331, 'scrollitemignorance5');
@@ -4450,6 +4843,9 @@ VALUES (3331, 13, True)
      , (3331, 19, True)
      , (3331, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Mastery Self IV (45303) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45303;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45303, 'ace45303-scrollofrecklessnessmasteryselfiv');
 
@@ -4483,6 +4879,9 @@ VALUES (45303, 13, True)
      , (45303, 14, True)
      , (45303, 19, True)
      , (45303, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Faithlessness II (3253) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3253;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3253, 'scrollfaithlessness2');
@@ -4518,6 +4917,9 @@ VALUES (3253, 13, True)
      , (3253, 19, True)
      , (3253, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Bolt (1569) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1569;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1569, 'scrollflamebolt');
 
@@ -4551,6 +4953,9 @@ VALUES (1569, 13, True)
      , (1569, 14, True)
      , (1569, 19, True)
      , (1569, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcanum Enlightenment II (28941) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28941;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28941, 'scrollarcanumsalvagingother2');
@@ -4586,6 +4991,9 @@ VALUES (28941, 13, True)
      , (28941, 19, True)
      , (28941, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Streak IV (8932) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8932;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8932, 'scrollforcestreak4');
 
@@ -4619,6 +5027,9 @@ VALUES (8932, 13, True)
      , (8932, 14, True)
      , (8932, 19, True)
      , (8932, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Spirit Drinker Other VI (46859) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46859;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46859, 'ace46859-auraofspiritdrinkerothervi');
@@ -4654,6 +5065,9 @@ VALUES (46859, 13, True)
      , (46859, 19, True)
      , (46859, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Arc III (21290) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21290;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21290, 'scrollacidarc3');
 
@@ -4687,6 +5101,9 @@ VALUES (21290, 13, True)
      , (21290, 14, True)
      , (21290, 19, True)
      , (21290, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nether Streak VII (43316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43316;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43316, 'ace43316-scrollofnetherstreakvii');
@@ -4722,6 +5139,9 @@ VALUES (43316, 13, True)
      , (43316, 19, True)
      , (43316, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shock Wave Streak III (8949) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8949;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8949, 'scrollshockwavestreak3');
 
@@ -4755,6 +5175,9 @@ VALUES (8949, 13, True)
      , (8949, 14, True)
      , (8949, 19, True)
      , (8949, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other VII (20504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20504;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20504, 'scrollaxeineptitudeother7');
@@ -4790,6 +5213,9 @@ VALUES (20504, 13, True)
      , (20504, 19, True)
      , (20504, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Lure III (2798) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2798;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2798, 'scrollbludgeonlure3');
 
@@ -4823,6 +5249,9 @@ VALUES (2798, 13, True)
      , (2798, 14, True)
      , (2798, 19, True)
      , (2798, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lilitha's Blessing (20531) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20531;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20531, 'scrollfletchingmasteryself7');
@@ -4858,6 +5287,9 @@ VALUES (20531, 13, True)
      , (20531, 19, True)
      , (20531, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self VI (3172) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3172;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3172, 'scrollaxemasteryself6');
 
@@ -4891,6 +5323,9 @@ VALUES (3172, 13, True)
      , (3172, 14, True)
      , (3172, 19, True)
      , (3172, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Self VII (20509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20509;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20509, 'scrollbowmasteryself7');
@@ -4926,6 +5361,9 @@ VALUES (20509, 13, True)
      , (20509, 19, True)
      , (20509, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Summoning Mastery Other VII (49469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49469;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49469, 'ace49469-scrollofsummoningmasteryothervii');
 
@@ -4959,6 +5397,9 @@ VALUES (49469, 13, True)
      , (49469, 14, True)
      , (49469, 19, True)
      , (49469, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Swordsman's Bane (20404) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20404;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20404, 'scrollbladebane7');
@@ -4994,6 +5435,9 @@ VALUES (20404, 13, True)
      , (20404, 19, True)
      , (20404, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Vitality Siphon (20600) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20600;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20600, 'scrolldrainhealth7');
 
@@ -5027,6 +5471,9 @@ VALUES (20600, 13, True)
      , (20600, 14, True)
      , (20600, 19, True)
      , (20600, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Energize Vigor (20613) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20613;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20613, 'scrollmanatostaminaself7');
@@ -5062,6 +5509,9 @@ VALUES (20613, 13, True)
      , (20613, 19, True)
      , (20613, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Icy Blessing (20475) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20475;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20475, 'scrollcoldprotectionself7');
 
@@ -5095,6 +5545,9 @@ VALUES (20475, 13, True)
      , (20475, 14, True)
      , (20475, 19, True)
      , (20475, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heart Rend (20243) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20243;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20243, 'scrollharmother7');
@@ -5130,6 +5583,9 @@ VALUES (20243, 13, True)
      , (20243, 19, True)
      , (20243, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fiery Blessing (20478) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20478;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20478, 'scrollfireprotectionself7');
 
@@ -5163,6 +5619,9 @@ VALUES (20478, 13, True)
      , (20478, 14, True)
      , (20478, 19, True)
      , (20478, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Challenger's Legacy (20510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20510;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20510, 'scrollcookingineptitude7');
@@ -5198,6 +5657,9 @@ VALUES (20510, 13, True)
      , (20510, 19, True)
      , (20510, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Belly of Lead (20252) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20252;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20252, 'scrollslowness7');
 
@@ -5231,6 +5693,9 @@ VALUES (20252, 13, True)
      , (20252, 14, True)
      , (20252, 19, True)
      , (20252, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Eradicate Creature Magic Other (27233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27233;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27233, 'scrolldispelcreatureneutralother7');
@@ -5266,6 +5731,9 @@ VALUES (27233, 13, True)
      , (27233, 19, True)
      , (27233, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Tenacity II (21110) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21110;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21110, 'scrollstaminabolt2');
 
@@ -5299,6 +5767,9 @@ VALUES (21110, 13, True)
      , (21110, 14, True)
      , (21110, 19, True)
      , (21110, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shield Ineptitude Other II (45309) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45309;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45309, 'ace45309-scrollofshieldineptitudeotherii');
@@ -5334,6 +5805,9 @@ VALUES (45309, 13, True)
      , (45309, 19, True)
      , (45309, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Kaluhc's Boon (20571) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20571;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20571, 'scrollpersonattunementother7');
 
@@ -5367,6 +5841,9 @@ VALUES (20571, 13, True)
      , (20571, 14, True)
      , (20571, 19, True)
      , (20571, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Ketnan's Blessing (20524) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20524;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20524, 'scrolldeceptionmasteryself7');
@@ -5402,6 +5879,9 @@ VALUES (20524, 13, True)
      , (20524, 19, True)
      , (20524, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Mastery Self VII (45306) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45306;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45306, 'ace45306-scrollofrecklessnessmasteryselfvii');
 
@@ -5435,6 +5915,9 @@ VALUES (45306, 13, True)
      , (45306, 14, True)
      , (45306, 19, True)
      , (45306, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Arc VII (21308) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21308;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21308, 'scrollflamearc7');
@@ -5470,6 +5953,9 @@ VALUES (21308, 13, True)
      , (21308, 19, True)
      , (21308, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Mastery Self VII (20586) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20586;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20586, 'scrollswordmasteryself7');
 
@@ -5503,6 +5989,9 @@ VALUES (20586, 13, True)
      , (20586, 14, True)
      , (20586, 19, True)
      , (20586, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Energy Flux (20488) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20488;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20488, 'scrollmanadepletion7');
@@ -5538,6 +6027,9 @@ VALUES (20488, 13, True)
      , (20488, 19, True)
      , (20488, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Monster Attunement Other IV (3440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3440;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3440, 'scrollmonsterattunementother4');
 
@@ -5571,6 +6063,9 @@ VALUES (3440, 13, True)
      , (3440, 14, True)
      , (3440, 19, True)
      , (3440, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Health to Stamina Self V (9638) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9638;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9638, 'scrollhealthtostaminaself5');
@@ -5606,6 +6101,9 @@ VALUES (9638, 13, True)
      , (9638, 19, True)
      , (9638, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bafflement Other V (2637) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2637;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2637, 'scrollbafflement5');
 
@@ -5639,6 +6137,9 @@ VALUES (2637, 13, True)
      , (2637, 14, True)
      , (2637, 19, True)
      , (2637, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nether Arc IV (43297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43297;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43297, 'ace43297-scrollofnetherarciv');
@@ -5674,6 +6175,9 @@ VALUES (43297, 13, True)
      , (43297, 19, True)
      , (43297, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Drain Stamina Other IV (3728) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3728;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3728, 'scrolldrainstamina4');
 
@@ -5707,6 +6211,9 @@ VALUES (3728, 13, True)
      , (3728, 14, True)
      , (3728, 19, True)
      , (3728, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Aura of Resistance (20575) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20575;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20575, 'scrollresistmagicself7');
@@ -5742,6 +6249,9 @@ VALUES (20575, 13, True)
      , (20575, 19, True)
      , (20575, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blessing of the Arrow Turner (20484) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20484;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20484, 'scrollpierceprotectionself7');
 
@@ -5775,6 +6285,9 @@ VALUES (20484, 13, True)
      , (20484, 14, True)
      , (20484, 19, True)
      , (20484, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Jibril's Blessing (20502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20502;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20502, 'scrollarmorexpertiseself7');
@@ -5810,6 +6323,9 @@ VALUES (20502, 13, True)
      , (20502, 19, True)
      , (20502, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Summoning Mastery Other VI (49468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49468;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49468, 'ace49468-scrollofsummoningmasteryothervi');
 
@@ -5843,6 +6359,9 @@ VALUES (49468, 13, True)
      , (49468, 14, True)
      , (49468, 19, True)
      , (49468, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bottle Breaker (20495) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20495;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20495, 'scrollalchemyineptitude7');
@@ -5878,6 +6397,9 @@ VALUES (20495, 13, True)
      , (20495, 19, True)
      , (20495, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Rending Wind (20464) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20464;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20464, 'scrollwhirlingbladestreak7');
 
@@ -5911,6 +6433,9 @@ VALUES (20464, 13, True)
      , (20464, 14, True)
      , (20464, 19, True)
      , (20464, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cold Vulnerability Other VI (3032) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3032;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3032, 'scrollcoldvulnerabilityother6');
@@ -5946,6 +6471,9 @@ VALUES (3032, 13, True)
      , (3032, 19, True)
      , (3032, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Yoshi's Boon (20542) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20542;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20542, 'scrollitemexpertiseother7');
 
@@ -5979,6 +6507,9 @@ VALUES (20542, 13, True)
      , (20542, 14, True)
      , (20542, 19, True)
      , (20542, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Hieromancer's Blessing (20596) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20596;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20596, 'scrollwarmagicmasteryself7');
@@ -6014,6 +6545,9 @@ VALUES (20596, 13, True)
      , (20596, 19, True)
      , (20596, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Essence Void (20601) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20601;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20601, 'scrolldrainmana7');
 
@@ -6047,6 +6581,9 @@ VALUES (20601, 13, True)
      , (20601, 14, True)
      , (20601, 19, True)
      , (20601, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Piercing Bane VI (2871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2871;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2871, 'scrollpiercingbane6');
@@ -6082,6 +6619,9 @@ VALUES (2871, 13, True)
      , (2871, 19, True)
      , (2871, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Protection Self VI (3012) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3012;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3012, 'scrollbludgeonprotectionself6');
 
@@ -6115,6 +6655,9 @@ VALUES (3012, 13, True)
      , (3012, 14, True)
      , (3012, 19, True)
      , (3012, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cannibalize (20604) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20604;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20604, 'scrollhealthtomanaself7');
@@ -6150,6 +6693,9 @@ VALUES (20604, 13, True)
      , (20604, 19, True)
      , (20604, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Ineptitude Other VI (5985) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5985;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5985, 'scrollalchemyineptitude6');
 
@@ -6183,6 +6729,9 @@ VALUES (5985, 13, True)
      , (5985, 14, True)
      , (5985, 19, True)
      , (5985, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Yoshi's Blessing (20543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20543;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20543, 'scrollitemexpertiseself7');
@@ -6218,6 +6767,9 @@ VALUES (20543, 13, True)
      , (20543, 19, True)
      , (20543, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Saladur's Blessing (20580) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20580;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20580, 'scrollsprintself7');
 
@@ -6251,6 +6803,9 @@ VALUES (20580, 13, True)
      , (20580, 14, True)
      , (20580, 19, True)
      , (20580, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Invulnerability Other VI (3297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3297;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3297, 'scrollinvulnerabilityother6');
@@ -6286,6 +6841,9 @@ VALUES (3297, 13, True)
      , (3297, 19, True)
      , (3297, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Expertise Self VI (3152) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3152;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3152, 'scrollarmorexpertiseself6');
 
@@ -6319,6 +6877,9 @@ VALUES (3152, 13, True)
      , (3152, 14, True)
      , (3152, 19, True)
      , (3152, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Mastery Other VI (5991) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5991;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5991, 'scrollalchemymasteryother6');
@@ -6354,6 +6915,9 @@ VALUES (5991, 13, True)
      , (5991, 19, True)
      , (5991, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Imperil Other VI (2706) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2706;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2706, 'scrollimperil6');
 
@@ -6387,6 +6951,9 @@ VALUES (2706, 13, True)
      , (2706, 14, True)
      , (2706, 19, True)
      , (2706, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cold Protection Self IV (3025) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3025;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3025, 'scrollcoldprotectionself4');
@@ -6422,6 +6989,9 @@ VALUES (3025, 13, True)
      , (3025, 19, True)
      , (3025, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Feat of Radaz (20545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20545;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20545, 'scrolljumpineptitude7');
 
@@ -6455,6 +7025,9 @@ VALUES (20545, 13, True)
      , (20545, 14, True)
      , (20545, 19, True)
      , (20545, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Monster Attunement Self VI (5547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5547;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5547, 'scrollmonsterattunementself6');
@@ -6490,6 +7063,9 @@ VALUES (5547, 13, True)
      , (5547, 19, True)
      , (5547, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Destructive Curse VI (43325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43325;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43325, 'ace43325-scrollofdestructivecursevi');
 
@@ -6523,6 +7099,9 @@ VALUES (43325, 13, True)
      , (43325, 14, True)
      , (43325, 19, True)
      , (43325, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Brittlemail VI (2806) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2806;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2806, 'scrollbrittlemail6');
@@ -6558,6 +7137,9 @@ VALUES (2806, 13, True)
      , (2806, 19, True)
      , (2806, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Senescence (20255) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20255;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20255, 'scrollweaknessother7');
 
@@ -6591,6 +7173,9 @@ VALUES (20255, 13, True)
      , (20255, 14, True)
      , (20255, 19, True)
      , (20255, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fire Protection Self VI (3042) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3042;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3042, 'scrollfireprotectionself6');
@@ -6626,6 +7211,9 @@ VALUES (3042, 13, True)
      , (3042, 19, True)
      , (3042, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Tusker's Gift (20473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20473;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20473, 'scrollbludgeonvulnerabilityother7');
 
@@ -6659,6 +7247,9 @@ VALUES (20473, 13, True)
      , (20473, 14, True)
      , (20473, 19, True)
      , (20473, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shock Arc VI (21335) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21335;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21335, 'scrollshockarc6');
@@ -6694,6 +7285,9 @@ VALUES (21335, 13, True)
      , (21335, 19, True)
      , (21335, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Ineptitude Other VII (20584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20584;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20584, 'scrollswordineptitude7');
 
@@ -6727,6 +7321,9 @@ VALUES (20584, 13, True)
      , (20584, 14, True)
      , (20584, 19, True)
      , (20584, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Drain Other V (2710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2710;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2710, 'scrollmanadrain5');
@@ -6762,6 +7359,9 @@ VALUES (2710, 13, True)
      , (2710, 19, True)
      , (2710, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cooking Mastery Self VI (5961) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5961;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5961, 'scrollcookingmasteryself6');
 
@@ -6795,6 +7395,9 @@ VALUES (5961, 13, True)
      , (5961, 14, True)
      , (5961, 19, True)
      , (5961, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcanum Salvaging VI (28938) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28938;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28938, 'scrollarcanumsalvaging6');
@@ -6830,6 +7433,9 @@ VALUES (28938, 13, True)
      , (28938, 19, True)
      , (28938, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Gravity Well (20593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20593;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20593, 'scrollvulnerabilityother7');
 
@@ -6863,6 +7469,9 @@ VALUES (20593, 13, True)
      , (20593, 14, True)
      , (20593, 19, True)
      , (20593, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Spirit Loather VI (28014) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28014;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28014, 'scrollspiritloather6');
@@ -6898,6 +7507,9 @@ VALUES (28014, 13, True)
      , (28014, 19, True)
      , (28014, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Jumping Ineptitude VI (9629) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9629;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9629, 'scrolljumpineptitude6');
 
@@ -6931,6 +7543,9 @@ VALUES (9629, 13, True)
      , (9629, 14, True)
      , (9629, 19, True)
      , (9629, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Ogfoot (20248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20248;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20248, 'scrollquicknessother7');
@@ -6966,6 +7581,9 @@ VALUES (20248, 13, True)
      , (20248, 19, True)
      , (20248, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Astyrrian's Bane (20420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20420;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20420, 'scrolllightningbane7');
 
@@ -6999,6 +7617,9 @@ VALUES (20420, 13, True)
      , (20420, 14, True)
      , (20420, 19, True)
      , (20420, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Corruption VII (43292) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43292;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43292, 'ace43292-scrollofcorruptionvii');
@@ -7034,6 +7655,9 @@ VALUES (43292, 13, True)
      , (43292, 19, True)
      , (43292, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Crushing Shame (20460) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20460;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20460, 'scrollshockwave7');
 
@@ -7067,6 +7691,9 @@ VALUES (20460, 13, True)
      , (20460, 14, True)
      , (20460, 19, True)
      , (20460, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Cragstone's Will (20411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20411;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20411, 'scrolldefender7');
@@ -7102,6 +7729,9 @@ VALUES (20411, 13, True)
      , (20411, 19, True)
      , (20411, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Boon of the Blade Turner (20468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20468;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20468, 'scrollbladeprotectionother7');
 
@@ -7135,6 +7765,9 @@ VALUES (20468, 13, True)
      , (20468, 14, True)
      , (20468, 19, True)
      , (20468, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Celdiseth's Boon (20561) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20561;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20561, 'scrollmagicitemexpertiseother7');
@@ -7170,6 +7803,9 @@ VALUES (20561, 13, True)
      , (20561, 19, True)
      , (20561, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Hydra's Head (20491) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20491;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20491, 'scrollregenerateother7');
 
@@ -7203,6 +7839,9 @@ VALUES (20491, 13, True)
      , (20491, 14, True)
      , (20491, 19, True)
      , (20491, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Wrath of Adja (20513) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20513;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20513, 'scrollcreatureenchantmentineptitude7');
@@ -7238,6 +7877,9 @@ VALUES (20513, 13, True)
      , (20513, 19, True)
      , (20513, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Ineptitude Other VII (45338) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45338;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45338, 'ace45338-scrollofsneakattackineptitudeothervii');
 
@@ -7271,6 +7913,9 @@ VALUES (45338, 13, True)
      , (45338, 14, True)
      , (45338, 19, True)
      , (45338, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Boon of the Arrow Turner (20483) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20483;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20483, 'scrollpierceprotectionother7');
@@ -7306,6 +7951,9 @@ VALUES (20483, 13, True)
      , (20483, 19, True)
      , (20483, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Arc VII (21301) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21301;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21301, 'scrollbladearc7');
 
@@ -7339,6 +7987,9 @@ VALUES (21301, 13, True)
      , (21301, 14, True)
      , (21301, 19, True)
      , (21301, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Wi's Folly (20422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20422;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20422, 'scrolllureblade7');
@@ -7374,6 +8025,9 @@ VALUES (20422, 13, True)
      , (20422, 19, True)
      , (20422, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Mastery Self (1721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1721;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1721, 'scrolllockpickmasteryself');
 
@@ -7407,6 +8061,9 @@ VALUES (1721, 13, True)
      , (1721, 14, True)
      , (1721, 19, True)
      , (1721, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Introversion (20573) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20573;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20573, 'scrollpersonunfamiliarity7');
@@ -7442,6 +8099,9 @@ VALUES (20573, 13, True)
      , (20573, 19, True)
      , (20573, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shield Mastery Other VII (45322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45322;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45322, 'ace45322-scrollofshieldmasteryothervii');
 
@@ -7475,6 +8135,9 @@ VALUES (45322, 13, True)
      , (45322, 14, True)
      , (45322, 19, True)
      , (45322, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Icy Boon (20474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20474;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20474, 'scrollcoldprotectionother7');
@@ -7510,6 +8173,9 @@ VALUES (20474, 13, True)
      , (20474, 19, True)
      , (20474, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Ring around the Rabbit (32935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32935;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32935, 'ace32935-scrollofringaroundtherabbit');
 
@@ -7543,6 +8209,9 @@ VALUES (32935, 13, True)
      , (32935, 14, True)
      , (32935, 19, True)
      , (32935, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Mystic's Blessing (20427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20427;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20427, 'scrolltruevalue7');
@@ -7578,6 +8247,9 @@ VALUES (20427, 13, True)
      , (20427, 19, True)
      , (20427, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Arc I (21302) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21302;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21302, 'scrollflamearc');
 
@@ -7611,6 +8283,9 @@ VALUES (21302, 13, True)
      , (21302, 14, True)
      , (21302, 19, True)
      , (21302, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Arc IV (21291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21291;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21291, 'scrollacidarc4');
@@ -7646,6 +8321,9 @@ VALUES (21291, 13, True)
      , (21291, 19, True)
      , (21291, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Mastery Other IV (3195) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3195;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3195, 'scrollcreatureenchantmentother4');
 
@@ -7679,6 +8357,9 @@ VALUES (3195, 13, True)
      , (3195, 14, True)
      , (3195, 19, True)
      , (3195, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Mastery Self IV (3375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3375;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3375, 'scrolllifemagicmasteryself4');
@@ -7714,6 +8395,9 @@ VALUES (3375, 13, True)
      , (3375, 19, True)
      , (3375, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Swift Killer Other V (46854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46854;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46854, 'ace46854-auraofswiftkillerotherv');
 
@@ -7747,6 +8431,9 @@ VALUES (46854, 13, True)
      , (46854, 14, True)
      , (46854, 19, True)
      , (46854, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other VI (3162) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3162;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3162, 'scrollaxeineptitudeother6');
@@ -7782,6 +8469,9 @@ VALUES (3162, 13, True)
      , (3162, 19, True)
      , (3162, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Strengthen Lock VI (2881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2881;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2881, 'scrollstrengthenlock6');
 
@@ -7815,6 +8505,9 @@ VALUES (2881, 13, True)
      , (2881, 14, True)
      , (2881, 19, True)
      , (2881, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Disintegration (20432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20432;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20432, 'scrollacidstream7');
@@ -7850,6 +8543,9 @@ VALUES (20432, 13, True)
      , (20432, 19, True)
      , (20432, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Robustify (20492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20492;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20492, 'scrollregenerateself7');
 
@@ -7883,6 +8579,9 @@ VALUES (20492, 13, True)
      , (20492, 14, True)
      , (20492, 19, True)
      , (20492, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Oswald's Boon (20556) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20556;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20556, 'scrolllockpickmasteryother7');
@@ -7918,6 +8617,9 @@ VALUES (20556, 13, True)
      , (20556, 19, True)
      , (20556, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Bane VI (2826) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2826;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2826, 'scrollfrostbane6');
 
@@ -7951,6 +8653,9 @@ VALUES (2826, 13, True)
      , (2826, 14, True)
      , (2826, 19, True)
      , (2826, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of War Magic Mastery Other VI (3572) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3572;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3572, 'scrollwarmagicmasteryother6');
@@ -7986,6 +8691,9 @@ VALUES (3572, 13, True)
      , (3572, 19, True)
      , (3572, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Self Loathing (20239) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20239;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20239, 'scrollfeeblemind7');
 
@@ -8019,6 +8727,9 @@ VALUES (20239, 13, True)
      , (20239, 14, True)
      , (20239, 19, True)
      , (20239, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Koga's Blessing (20598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20598;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20598, 'scrollweaponexpertiseself7');
@@ -8054,6 +8765,9 @@ VALUES (20598, 13, True)
      , (20598, 19, True)
      , (20598, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Leadership Ineptitude IV (3350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3350;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3350, 'scrollleadershipineptitude4');
 
@@ -8087,6 +8801,9 @@ VALUES (3350, 13, True)
      , (3350, 14, True)
      , (3350, 19, True)
      , (3350, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Inferno's Bane (20412) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20412;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20412, 'scrollflamebane7');
@@ -8122,6 +8839,9 @@ VALUES (20412, 13, True)
      , (20412, 19, True)
      , (20412, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Mastery Other V (3311) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3311;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3311, 'scrollitemenchantmentmasteryother5');
 
@@ -8155,6 +8875,9 @@ VALUES (3311, 13, True)
      , (3311, 14, True)
      , (3311, 19, True)
      , (3311, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Mastery Other VI (3312) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3312;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3312, 'scrollitemenchantmentmasteryother6');
@@ -8190,6 +8913,9 @@ VALUES (3312, 13, True)
      , (3312, 19, True)
      , (3312, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nether Streak VI (43315) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43315;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43315, 'ace43315-scrollofnetherstreakvi');
 
@@ -8223,6 +8949,9 @@ VALUES (43315, 13, True)
      , (43315, 14, True)
      , (43315, 19, True)
      , (43315, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Other VII (20505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20505;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20505, 'scrollaxemasteryother7');
@@ -8258,6 +8987,9 @@ VALUES (20505, 13, True)
      , (20505, 19, True)
      , (20505, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fletching Mastery Other VI (5973) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5973;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5973, 'scrollfletchingmasteryother6');
 
@@ -8291,6 +9023,9 @@ VALUES (5973, 13, True)
      , (5973, 14, True)
      , (5973, 19, True)
      , (5973, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Mastery Other VI (45273) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45273;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45273, 'ace45273-scrollofdualwieldmasteryothervi');
@@ -8326,6 +9061,9 @@ VALUES (45273, 13, True)
      , (45273, 19, True)
      , (45273, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frailty Other V (2685) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2685;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2685, 'scrollfrailty5');
 
@@ -8359,6 +9097,9 @@ VALUES (2685, 13, True)
      , (2685, 14, True)
      , (2685, 19, True)
      , (2685, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Protection Self IV (2980) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2980;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2980, 'scrollacidprotectionself4');
@@ -8394,6 +9135,9 @@ VALUES (2980, 13, True)
      , (2980, 19, True)
      , (2980, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Blight VII (21108) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21108;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21108, 'scrollmanabolt7');
 
@@ -8427,6 +9171,9 @@ VALUES (21108, 13, True)
      , (21108, 14, True)
      , (21108, 19, True)
      , (21108, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Mastery Other III (3384) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3384;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3384, 'scrolllockpickmasteryother3');
@@ -8462,6 +9209,9 @@ VALUES (3384, 13, True)
      , (3384, 19, True)
      , (3384, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Mastery Self III (3434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3434;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3434, 'scrollmanaconvertmasteryself3');
 
@@ -8495,6 +9245,9 @@ VALUES (3434, 13, True)
      , (3434, 14, True)
      , (3434, 19, True)
      , (3434, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Mastery Other III (45342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45342;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45342, 'ace45342-scrollofsneakattackmasteryotheriii');
@@ -8530,6 +9283,9 @@ VALUES (45342, 13, True)
      , (45342, 19, True)
      , (45342, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Leaden Feet (1712) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1712;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1712, 'scrollleadenfeet');
 
@@ -8563,6 +9319,9 @@ VALUES (1712, 13, True)
      , (1712, 14, True)
      , (1712, 19, True)
      , (1712, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heal Self (1556) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1556;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1556, 'scrollhealself');
@@ -8598,6 +9357,9 @@ VALUES (1556, 13, True)
      , (1556, 19, True)
      , (1556, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Mastery Self II (3228) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3228;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3228, 'scrolldaggermasteryself2');
 
@@ -8631,6 +9393,9 @@ VALUES (3228, 13, True)
      , (3228, 14, True)
      , (3228, 19, True)
      , (3228, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Depletion Other II (3093) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3093;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3093, 'scrollmanadepletion2');
@@ -8666,6 +9431,9 @@ VALUES (3093, 13, True)
      , (3093, 19, True)
      , (3093, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Festering Curse  (43329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43329, 'ace43329-scrolloffesteringcurse');
 
@@ -8699,6 +9467,9 @@ VALUES (43329, 13, True)
      , (43329, 14, True)
      , (43329, 19, True)
      , (43329, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heal Self IV (2699) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2699;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2699, 'scrollhealself4');
@@ -8734,6 +9505,9 @@ VALUES (2699, 13, True)
      , (2699, 19, True)
      , (2699, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Jumping Mastery Other (1710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1710;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1710, 'scrolljumpmasteryother');
 
@@ -8767,6 +9541,9 @@ VALUES (1710, 13, True)
      , (1710, 14, True)
      , (1710, 19, True)
      , (1710, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Leadership Mastery Other V (3356) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3356;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3356, 'scrollleadershipmasteryother5');
@@ -8802,6 +9579,9 @@ VALUES (3356, 13, True)
      , (3356, 19, True)
      , (3356, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Feeblemind Other III (2670) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2670;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2670, 'scrollfeeblemind3');
 
@@ -8835,6 +9615,9 @@ VALUES (2670, 13, True)
      , (2670, 14, True)
      , (2670, 19, True)
      , (2670, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Streak III (8937) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8937;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8937, 'scrollfroststreak3');
@@ -8870,6 +9653,9 @@ VALUES (8937, 13, True)
      , (8937, 19, True)
      , (8937, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Mastery Other III (3429) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3429;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3429, 'scrollmanaconvertmasteryother3');
 
@@ -8903,6 +9689,9 @@ VALUES (3429, 13, True)
      , (3429, 14, True)
      , (3429, 19, True)
      , (3429, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Force Bolt IV (2932) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2932;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2932, 'scrollforcebolt4');
@@ -8938,6 +9727,9 @@ VALUES (2932, 13, True)
      , (2932, 19, True)
      , (2932, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Heal Other III (2693) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2693;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2693, 'scrollhealother3');
 
@@ -8971,6 +9763,9 @@ VALUES (2693, 13, True)
      , (2693, 14, True)
      , (2693, 19, True)
      , (2693, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Purge Creature Magic Self (20328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20328;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20328, 'scrolldispelcreatureneutralself5');
@@ -9006,6 +9801,9 @@ VALUES (20328, 13, True)
      , (20328, 19, True)
      , (20328, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Ineptitude Other V (3516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3516;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3516, 'scrollswordineptitude5');
 
@@ -9039,6 +9837,9 @@ VALUES (3516, 13, True)
      , (3516, 14, True)
      , (3516, 19, True)
      , (3516, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Ineptitude Other VI (45241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45241;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45241, 'ace45241-scrollofdirtyfightingineptitudeothervi');
@@ -9074,6 +9875,9 @@ VALUES (45241, 13, True)
      , (45241, 19, True)
      , (45241, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Expertise Self V (3416) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3416;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3416, 'scrollmagicitemexpertiseself5');
 
@@ -9107,6 +9911,9 @@ VALUES (3416, 13, True)
      , (3416, 14, True)
      , (3416, 19, True)
      , (3416, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cooking Ineptitude Other III (5946) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5946;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5946, 'scrollcookingineptitude3');
@@ -9142,6 +9949,9 @@ VALUES (5946, 13, True)
      , (5946, 19, True)
      , (5946, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Other V (4388) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4388;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4388, 'scrollarmorother5');
 
@@ -9175,6 +9985,9 @@ VALUES (4388, 13, True)
      , (4388, 14, True)
      , (4388, 19, True)
      , (4388, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Mastery Other V (3521) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3521;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3521, 'scrollswordmasteryother5');
@@ -9210,6 +10023,9 @@ VALUES (3521, 13, True)
      , (3521, 19, True)
      , (3521, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Ineptitude III (43367) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43367;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43367, 'ace43367-scrollofvoidmagicineptitudeiii');
 
@@ -9243,6 +10059,9 @@ VALUES (43367, 13, True)
      , (43367, 14, True)
      , (43367, 19, True)
      , (43367, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Armor Self V (4393) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4393;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4393, 'scrollarmorself5');
@@ -9278,6 +10097,9 @@ VALUES (4393, 13, True)
      , (4393, 19, True)
      , (4393, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Eyes Clouded (20563) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20563;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20563, 'scrollmagicitemignorance7');
 
@@ -9311,6 +10133,9 @@ VALUES (20563, 13, True)
      , (20563, 14, True)
      , (20563, 19, True)
      , (20563, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Corrosive Flash (20431) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20431;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20431, 'scrollacidstreak7');
@@ -9346,6 +10171,9 @@ VALUES (20431, 13, True)
      , (20431, 19, True)
      , (20431, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self VII (20506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20506;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20506, 'scrollaxemasteryself7');
 
@@ -9379,6 +10207,9 @@ VALUES (20506, 13, True)
      , (20506, 14, True)
      , (20506, 19, True)
      , (20506, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Replenish (20250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20250;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20250, 'scrollrevitalizeother7');
@@ -9414,6 +10245,9 @@ VALUES (20250, 13, True)
      , (20250, 19, True)
      , (20250, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Twisted Digits (20529) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20529;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20529, 'scrollfletchingineptitude7');
 
@@ -9447,6 +10281,9 @@ VALUES (20529, 13, True)
      , (20529, 14, True)
      , (20529, 19, True)
      , (20529, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Aliester's Boon (20499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20499;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20499, 'scrollarcaneenlightenmentother7');
@@ -9482,6 +10319,9 @@ VALUES (20499, 13, True)
      , (20499, 19, True)
      , (20499, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Ineptitude VI (3192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3192;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3192, 'scrollcreatureenchantmentineptitude6');
 
@@ -9515,6 +10355,9 @@ VALUES (3192, 13, True)
      , (3192, 14, True)
      , (3192, 19, True)
      , (3192, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Depletion Other III (3094) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3094;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3094, 'scrollmanadepletion3');
@@ -9550,6 +10393,9 @@ VALUES (3094, 13, True)
      , (3094, 19, True)
      , (3094, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Purge Creature Magic Other (20322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20322;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20322, 'scrolldispelcreatureneutralother5');
 
@@ -9583,6 +10429,9 @@ VALUES (20322, 13, True)
      , (20322, 14, True)
      , (20322, 19, True)
      , (20322, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Hermetic Link Other III (46864) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46864;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46864, 'ace46864-auraofhermeticlinkotheriii');
@@ -9618,6 +10467,9 @@ VALUES (46864, 13, True)
      , (46864, 19, True)
      , (46864, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Stream III (2908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2908;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2908, 'scrollacidstream3');
 
@@ -9651,6 +10503,9 @@ VALUES (2908, 13, True)
      , (2908, 14, True)
      , (2908, 19, True)
      , (2908, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Inferno's Gift (20479) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20479;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20479, 'scrollfirevulnerabilityother7');
@@ -9686,6 +10541,9 @@ VALUES (20479, 13, True)
      , (20479, 19, True)
      , (20479, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Inferno Bait (20413) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20413;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20413, 'scrollflamelure7');
 
@@ -9719,6 +10577,9 @@ VALUES (20413, 13, True)
      , (20413, 14, True)
      , (20413, 19, True)
      , (20413, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Storm's Boon (20480) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20480;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20480, 'scrolllightningprotectionother7');
@@ -9754,6 +10615,9 @@ VALUES (20480, 13, True)
      , (20480, 19, True)
      , (20480, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Boon of T'ing (41302) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41302;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41302, 'ace41302-scrollofboonofting');
 
@@ -9787,6 +10651,9 @@ VALUES (41302, 13, True)
      , (41302, 14, True)
      , (41302, 19, True)
      , (41302, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Mastery Self VII (45282) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45282;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45282, 'ace45282-scrollofdualwieldmasteryselfvii');
@@ -9822,6 +10689,9 @@ VALUES (45282, 13, True)
      , (45282, 19, True)
      , (45282, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weaken Lock VI (2902) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2902;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2902, 'scrollweakenlock6');
 
@@ -9855,6 +10725,9 @@ VALUES (2902, 13, True)
      , (2902, 14, True)
      , (2902, 19, True)
      , (2902, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nether Bolt VII (43308) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43308;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43308, 'ace43308-scrollofnetherboltvii');
@@ -9890,6 +10763,9 @@ VALUES (43308, 13, True)
      , (43308, 19, True)
      , (43308, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Mastery Other VII (45274) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45274;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45274, 'ace45274-scrollofdualwieldmasteryothervii');
 
@@ -9923,6 +10799,9 @@ VALUES (45274, 13, True)
      , (45274, 14, True)
      , (45274, 19, True)
      , (45274, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Calming Gaze (20240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20240;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20240, 'scrollfocusother7');
@@ -9958,6 +10837,9 @@ VALUES (20240, 13, True)
      , (20240, 19, True)
      , (20240, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Eradicate Item Magic (27235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27235;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27235, 'scrolldispelitemneutralother7');
 
@@ -9991,6 +10873,9 @@ VALUES (27235, 13, True)
      , (27235, 14, True)
      , (27235, 19, True)
      , (27235, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Olthoi's Gift (20467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20467;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20467, 'scrollacidvulnerabilityother7');
@@ -10026,6 +10911,9 @@ VALUES (20467, 13, True)
      , (20467, 19, True)
      , (20467, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bolstered Will (20256) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20256;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20256, 'scrollwillpowerother7');
 
@@ -10059,6 +10947,9 @@ VALUES (20256, 13, True)
      , (20256, 14, True)
      , (20256, 19, True)
      , (20256, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Inner Calm (20241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20241;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20241, 'scrollfocusself7');
@@ -10094,6 +10985,9 @@ VALUES (20241, 13, True)
      , (20241, 19, True)
      , (20241, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Gelidite's Bane (20414) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20414;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20414, 'scrollfrostbane7');
 
@@ -10127,6 +11021,9 @@ VALUES (20414, 13, True)
      , (20414, 14, True)
      , (20414, 19, True)
      , (20414, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Celdiseth's Blessing (20562) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20562;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20562, 'scrollmagicitemexpertiseself7');
@@ -10162,6 +11059,9 @@ VALUES (20562, 13, True)
      , (20562, 19, True)
      , (20562, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Bolt VI (2959) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2959;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2959, 'scrolllightningbolt6');
 
@@ -10195,6 +11095,9 @@ VALUES (2959, 13, True)
      , (2959, 14, True)
      , (2959, 19, True)
      , (2959, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Devour Creature Magic Other (20321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20321;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20321, 'scrolldispelcreatureneutralother4');
@@ -10230,6 +11133,9 @@ VALUES (20321, 13, True)
      , (20321, 19, True)
      , (20321, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shield Ineptitude Other VII (45314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45314;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45314, 'ace45314-scrollofshieldineptitudeothervii');
 
@@ -10263,6 +11169,9 @@ VALUES (45314, 13, True)
      , (45314, 14, True)
      , (45314, 19, True)
      , (45314, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Ignorance VI (3422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3422;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3422, 'scrollmagicitemignorance6');
@@ -10298,6 +11207,9 @@ VALUES (3422, 13, True)
      , (3422, 19, True)
      , (3422, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Leaden Weapon IV (2849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2849;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2849, 'scrollleadenweapon4');
 
@@ -10331,6 +11243,9 @@ VALUES (2849, 13, True)
      , (2849, 14, True)
      , (2849, 19, True)
      , (2849, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Other VI (3167) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3167;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3167, 'scrollaxemasteryother6');
@@ -10366,6 +11281,9 @@ VALUES (3167, 13, True)
      , (3167, 19, True)
      , (3167, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Bane VI (2856) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2856;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2856, 'scrolllightningbane6');
 
@@ -10399,6 +11317,9 @@ VALUES (2856, 13, True)
      , (2856, 14, True)
      , (2856, 19, True)
      , (2856, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Protection Other VI (3007) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3007;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3007, 'scrollbludgeonprotectionother6');
@@ -10434,6 +11355,9 @@ VALUES (3007, 13, True)
      , (3007, 19, True)
      , (3007, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Ineptitude Other VII (45242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45242;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45242, 'ace45242-scrollofdirtyfightingineptitudeothervii');
 
@@ -10467,6 +11391,9 @@ VALUES (45242, 13, True)
      , (45242, 14, True)
      , (45242, 19, True)
      , (45242, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nullify Life Magic Self (20401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20401;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20401, 'scrolldispellifeneutralself6');
@@ -10502,6 +11429,9 @@ VALUES (20401, 13, True)
      , (20401, 19, True)
      , (20401, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Quickness Self VI (2721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2721;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2721, 'scrollquicknessself6');
 
@@ -10535,6 +11465,9 @@ VALUES (2721, 13, True)
      , (2721, 14, True)
      , (2721, 19, True)
      , (2721, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Coordination Self VI (2653) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2653;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2653, 'scrollcoordinationself6');
@@ -10570,6 +11503,9 @@ VALUES (2653, 13, True)
      , (2653, 19, True)
      , (2653, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Kwipetian Vision (20549) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20549;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20549, 'scrollleadershipineptitude7');
 
@@ -10603,6 +11539,9 @@ VALUES (20549, 13, True)
      , (20549, 14, True)
      , (20549, 19, True)
      , (20549, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Hieromancer's Boon (20595) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20595;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20595, 'scrollwarmagicmasteryother7');
@@ -10638,6 +11577,9 @@ VALUES (20595, 13, True)
      , (20595, 19, True)
      , (20595, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Summoning Ineptitude Other VI (49461) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49461;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49461, 'ace49461-scrollofsummoningineptitudeothervi');
 
@@ -10671,6 +11613,9 @@ VALUES (49461, 13, True)
      , (49461, 14, True)
      , (49461, 19, True)
      , (49461, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Tenacity VII (21115) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21115;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21115, 'scrollstaminabolt7');
@@ -10706,6 +11651,9 @@ VALUES (21115, 13, True)
      , (21115, 19, True)
      , (21115, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Monster Attunement Other VI (3442) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3442;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3442, 'scrollmonsterattunementother6');
 
@@ -10739,6 +11687,9 @@ VALUES (3442, 13, True)
      , (3442, 14, True)
      , (3442, 19, True)
      , (3442, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Hearts on Sleeves (20522) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20522;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20522, 'scrolldeceptionineptitude7');
@@ -10774,6 +11725,9 @@ VALUES (20522, 13, True)
      , (20522, 19, True)
      , (20522, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Spirit Drinker Self VI (28007) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28007;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28007, 'scrollspiritdrinker6');
 
@@ -10807,6 +11761,9 @@ VALUES (28007, 13, True)
      , (28007, 14, True)
      , (28007, 19, True)
      , (28007, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shield Ineptitude Other VI (45313) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45313;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45313, 'ace45313-scrollofshieldineptitudeothervi');
@@ -10842,6 +11799,9 @@ VALUES (45313, 13, True)
      , (45313, 19, True)
      , (45313, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Wrath of the Hieromancer (20594) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20594;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20594, 'scrollwarmagicineptitude7');
 
@@ -10875,6 +11835,9 @@ VALUES (20594, 13, True)
      , (20594, 14, True)
      , (20594, 19, True)
      , (20594, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Eradicate Life Magic Other (27236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27236;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27236, 'scrolldispellifeneutralother7');
@@ -10910,6 +11873,9 @@ VALUES (27236, 13, True)
      , (27236, 19, True)
      , (27236, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Enfeeble Other V (2667) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2667;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2667, 'scrollenfeeble5');
 
@@ -10943,6 +11909,9 @@ VALUES (2667, 13, True)
      , (2667, 14, True)
      , (2667, 19, True)
      , (2667, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Heartseeker Other V (46851) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46851;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46851, 'ace46851-auraofheartseekerotherv');
@@ -10978,6 +11947,9 @@ VALUES (46851, 13, True)
      , (46851, 19, True)
      , (46851, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Void Mastery Self VII (43377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43377;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43377, 'ace43377-scrollofvoidmasteryselfvii');
 
@@ -11011,6 +11983,9 @@ VALUES (43377, 13, True)
      , (43377, 14, True)
      , (43377, 19, True)
      , (43377, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Bane VI (2766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2766;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2766, 'scrollacidbane6');
@@ -11046,6 +12021,9 @@ VALUES (2766, 13, True)
      , (2766, 19, True)
      , (2766, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Other V (3166) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3166;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3166, 'scrollaxemasteryother5');
 
@@ -11079,6 +12057,9 @@ VALUES (3166, 13, True)
      , (3166, 14, True)
      , (3166, 19, True)
      , (3166, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Armor Other VI (4389) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4389;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4389, 'scrollarmorother6');
@@ -11114,6 +12095,9 @@ VALUES (4389, 13, True)
      , (4389, 19, True)
      , (4389, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Leaden Weapon VI (2851) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2851;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2851, 'scrollleadenweapon6');
 
@@ -11147,6 +12131,9 @@ VALUES (2851, 13, True)
      , (2851, 14, True)
      , (2851, 19, True)
      , (2851, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Summoning Mastery Self V (49474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49474;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49474, 'ace49474-scrollofsummoningmasteryselfv');
@@ -11182,6 +12169,9 @@ VALUES (49474, 13, True)
      , (49474, 19, True)
      , (49474, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Healing Mastery Self V (3281) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3281;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3281, 'scrollhealingmasteryself5');
 
@@ -11215,6 +12205,9 @@ VALUES (3281, 13, True)
      , (3281, 14, True)
      , (3281, 19, True)
      , (3281, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Broadside of a Barn (20525) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20525;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20525, 'scrolldefenselessnessother7');
@@ -11250,6 +12243,9 @@ VALUES (20525, 13, True)
      , (20525, 19, True)
      , (20525, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Morimoto's Blessing (20512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20512;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20512, 'scrollcookingmasteryself7');
 
@@ -11283,6 +12279,9 @@ VALUES (20512, 13, True)
      , (20512, 14, True)
      , (20512, 19, True)
      , (20512, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Battlemage's Boon (20489) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20489;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20489, 'scrollmanarenewalother7');
@@ -11318,6 +12317,9 @@ VALUES (20489, 13, True)
      , (20489, 19, True)
      , (20489, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Tusker Bait (20409) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20409;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20409, 'scrollbludgeonlure7');
 
@@ -11351,6 +12353,9 @@ VALUES (20409, 13, True)
      , (20409, 14, True)
      , (20409, 19, True)
      , (20409, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Executor's Blessing (20231) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20231;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20231, 'scrollarmorself7');
@@ -11386,6 +12391,9 @@ VALUES (20231, 13, True)
      , (20231, 19, True)
      , (20231, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Mastery Self VI (45353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45353;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45353, 'ace45353-scrollofsneakattackmasteryselfvi');
 
@@ -11419,6 +12427,9 @@ VALUES (45353, 13, True)
      , (45353, 14, True)
      , (45353, 19, True)
      , (45353, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Mastery Other VII (20585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20585;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20585, 'scrollswordmasteryother7');
@@ -11454,6 +12465,9 @@ VALUES (20585, 13, True)
      , (20585, 19, True)
      , (20585, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Ineptitude Other VII (43373) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43373;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43373, 'ace43373-scrollofvoidmagicineptitudeothervii');
 
@@ -11487,6 +12501,9 @@ VALUES (43373, 13, True)
      , (43373, 14, True)
      , (43373, 19, True)
      , (43373, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Ketnan's Boon (20523) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20523;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20523, 'scrolldeceptionmasteryother7');
@@ -11522,6 +12539,9 @@ VALUES (20523, 13, True)
      , (20523, 19, True)
      , (20523, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Adja's Gift (20244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20244;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20244, 'scrollhealother7');
 
@@ -11555,6 +12575,9 @@ VALUES (20244, 13, True)
      , (20244, 14, True)
      , (20244, 19, True)
      , (20244, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Streak VI (8919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8919;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8919, 'scrollacidstreak6');
@@ -11590,6 +12613,9 @@ VALUES (8919, 13, True)
      , (8919, 19, True)
      , (8919, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Aura of Deflection (20536) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20536;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20536, 'scrollimpregnabilityself7');
 
@@ -11623,6 +12649,9 @@ VALUES (20536, 13, True)
      , (20536, 14, True)
      , (20536, 19, True)
      , (20536, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Geledite Bait (20415) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20415;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20415, 'scrollfrostlure7');
@@ -11658,6 +12687,9 @@ VALUES (20415, 13, True)
      , (20415, 19, True)
      , (20415, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Gear Knight Invasion Area Camp Recall (43143) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43143;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43143, 'ace43143-scrollofgearknightinvasionareacamprecall');
 
@@ -11691,6 +12723,9 @@ VALUES (43143, 13, True)
      , (43143, 14, True)
      , (43143, 19, True)
      , (43143, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Odif's Blessing (20528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20528;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20528, 'scrollfealtyself7');
@@ -11726,6 +12761,9 @@ VALUES (20528, 13, True)
      , (20528, 19, True)
      , (20528, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Evisceration (20463) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20463;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20463, 'scrollwhirlingblade7');
 
@@ -11759,6 +12797,9 @@ VALUES (20463, 13, True)
      , (20463, 14, True)
      , (20463, 19, True)
      , (20463, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Gift of Vitality (20607) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20607;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20607, 'scrollinfusehealth7');
@@ -11794,6 +12835,9 @@ VALUES (20607, 13, True)
      , (20607, 19, True)
      , (20607, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcane Benightedness VI (3132) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3132;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3132, 'scrollarcanebenightedness6');
 
@@ -11827,6 +12871,9 @@ VALUES (3132, 13, True)
      , (3132, 14, True)
      , (3132, 19, True)
      , (3132, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weaken Lock III (2899) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2899;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2899, 'scrollweakenlock3');
@@ -11862,6 +12909,9 @@ VALUES (2899, 13, True)
      , (2899, 19, True)
      , (2899, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Wrath of Harlune (20552) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20552;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20552, 'scrolllifemagicineptitude7');
 
@@ -11895,6 +12945,9 @@ VALUES (20552, 13, True)
      , (20552, 14, True)
      , (20552, 19, True)
      , (20552, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Inefficient Investment (20567) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20567;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20567, 'scrollmanaineptitude7');
@@ -11930,6 +12983,9 @@ VALUES (20567, 13, True)
      , (20567, 19, True)
      , (20567, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Summoning Mastery Self VII (49476) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49476;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49476, 'ace49476-scrollofsummoningmasteryselfvii');
 
@@ -11963,6 +13019,9 @@ VALUES (49476, 13, True)
      , (49476, 14, True)
      , (49476, 19, True)
      , (49476, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fortified Lock (20425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20425;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20425, 'scrollstrengthenlock7');
@@ -11998,6 +13057,9 @@ VALUES (20425, 13, True)
      , (20425, 19, True)
      , (20425, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Renewal Self VI (3107) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3107;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3107, 'scrollmanarenewalself6');
 
@@ -12031,6 +13093,9 @@ VALUES (3107, 13, True)
      , (3107, 14, True)
      , (3107, 19, True)
      , (3107, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Topheron's Boon (20568) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20568;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20568, 'scrollmonsterattunementother7');
@@ -12066,6 +13131,9 @@ VALUES (20568, 13, True)
      , (20568, 19, True)
      , (20568, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fealty Self VI (3267) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3267;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3267, 'scrollfealtyself6');
 
@@ -12099,6 +13167,9 @@ VALUES (3267, 13, True)
      , (3267, 14, True)
      , (3267, 19, True)
      , (3267, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of War Magic Mastery Self V (3576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3576;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3576, 'scrollwarmagicmasteryself5');
@@ -12134,6 +13205,9 @@ VALUES (3576, 13, True)
      , (3576, 19, True)
      , (3576, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Heal Self VI (2701) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2701;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2701, 'scrollhealself6');
 
@@ -12167,6 +13241,9 @@ VALUES (2701, 13, True)
      , (2701, 14, True)
      , (2701, 19, True)
      , (2701, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sizzling Fury (20441) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20441;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20441, 'scrollflamestreak7');
@@ -12202,6 +13279,9 @@ VALUES (20441, 13, True)
      , (20441, 19, True)
      , (20441, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Eradicate Creature Magic Self (27234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27234;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27234, 'scrolldispelcreatureneutralself7');
 
@@ -12235,6 +13315,9 @@ VALUES (27234, 13, True)
      , (27234, 14, True)
      , (27234, 19, True)
      , (27234, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Lure II (2797) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2797;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2797, 'scrollbludgeonlure2');
@@ -12270,6 +13353,9 @@ VALUES (2797, 13, True)
      , (2797, 19, True)
      , (2797, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Bane V (2765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2765;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2765, 'scrollacidbane5');
 
@@ -12303,6 +13389,9 @@ VALUES (2765, 13, True)
      , (2765, 14, True)
      , (2765, 19, True)
      , (2765, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Vulnerability Other (1840) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1840;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1840, 'scrollacidvulnerabilityother');
@@ -12338,6 +13427,9 @@ VALUES (1840, 13, True)
      , (1840, 19, True)
      , (1840, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Odif's Boon (20527) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20527;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20527, 'scrollfealtyother7');
 
@@ -12371,6 +13463,9 @@ VALUES (20527, 13, True)
      , (20527, 14, True)
      , (20527, 19, True)
      , (20527, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Arc VII (21322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21322;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21322, 'scrollfrostarc7');
@@ -12406,6 +13501,9 @@ VALUES (21322, 13, True)
      , (21322, 19, True)
      , (21322, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Mastery Self VII (45258) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45258;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45258, 'ace45258-scrollofdirtyfightingmasteryselfvii');
 
@@ -12439,6 +13537,9 @@ VALUES (45258, 13, True)
      , (45258, 14, True)
      , (45258, 19, True)
      , (45258, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Protection Self V (2996) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2996;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2996, 'scrollbladeprotectionself5');
@@ -12474,6 +13575,9 @@ VALUES (2996, 13, True)
      , (2996, 19, True)
      , (2996, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shock Wave V (2966) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2966;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2966, 'scrollshockwave5');
 
@@ -12507,6 +13611,9 @@ VALUES (2966, 13, True)
      , (2966, 14, True)
      , (2966, 19, True)
      , (2966, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Bolt IV (2943) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2943;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2943, 'scrollfrostbolt4');
@@ -12542,6 +13649,9 @@ VALUES (2943, 13, True)
      , (2943, 19, True)
      , (2943, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Mastery Other IV (3385) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3385;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3385, 'scrolllockpickmasteryother4');
 
@@ -12575,6 +13685,9 @@ VALUES (3385, 13, True)
      , (3385, 14, True)
      , (3385, 19, True)
      , (3385, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Ignorance IV (3330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3330;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3330, 'scrollitemignorance4');
@@ -12610,6 +13723,9 @@ VALUES (3330, 13, True)
      , (3330, 19, True)
      , (3330, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Lure VI (2876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2876;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2876, 'scrollpiercinglure6');
 
@@ -12643,6 +13759,9 @@ VALUES (2876, 13, True)
      , (2876, 14, True)
      , (2876, 19, True)
      , (2876, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Infuse Mana VI (3740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3740;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3740, 'scrollinfusemana6');
@@ -12678,6 +13797,9 @@ VALUES (3740, 13, True)
      , (3740, 19, True)
      , (3740, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Tenacity V (21113) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21113;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21113, 'scrollstaminabolt5');
 
@@ -12711,6 +13833,9 @@ VALUES (21113, 13, True)
      , (21113, 14, True)
      , (21113, 19, True)
      , (21113, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Mastery Self VI (45281) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45281;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45281, 'ace45281-scrollofdualwieldmasteryselfvi');
@@ -12746,6 +13871,9 @@ VALUES (45281, 13, True)
      , (45281, 19, True)
      , (45281, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shield Mastery Self VII (45330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45330;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45330, 'ace45330-scrollofshieldmasteryselfvii');
 
@@ -12779,6 +13907,9 @@ VALUES (45330, 13, True)
      , (45330, 14, True)
      , (45330, 19, True)
      , (45330, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Drain Other VI (2711) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2711;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2711, 'scrollmanadrain6');
@@ -12814,6 +13945,9 @@ VALUES (2711, 13, True)
      , (2711, 19, True)
      , (2711, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Topheron's Blessing (20569) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20569;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20569, 'scrollmonsterattunementself7');
 
@@ -12847,6 +13981,9 @@ VALUES (20569, 13, True)
      , (20569, 14, True)
      , (20569, 19, True)
      , (20569, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nether Streak V (43314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43314;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43314, 'ace43314-scrollofnetherstreakv');
@@ -12882,6 +14019,9 @@ VALUES (43314, 13, True)
      , (43314, 19, True)
      , (43314, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Regenerate Self VI (3117) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3117;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3117, 'scrollregenerateself6');
 
@@ -12915,6 +14055,9 @@ VALUES (3117, 13, True)
      , (3117, 14, True)
      , (3117, 19, True)
      , (3117, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Jumping Mastery Other VI (3337) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3337;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3337, 'scrolljumpmasteryother6');
@@ -12950,6 +14093,9 @@ VALUES (3337, 13, True)
      , (3337, 19, True)
      , (3337, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Regenerate Other VI (3112) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3112;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3112, 'scrollregenerateother6');
 
@@ -12983,6 +14129,9 @@ VALUES (3112, 13, True)
      , (3112, 14, True)
      , (3112, 19, True)
      , (3112, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Robustification (20251) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20251;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20251, 'scrollrevitalizeself7');
@@ -13018,6 +14167,9 @@ VALUES (20251, 13, True)
      , (20251, 19, True)
      , (20251, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Decrepitude's Grasp (20487) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20487;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20487, 'scrollfester7');
 
@@ -13051,6 +14203,9 @@ VALUES (20487, 13, True)
      , (20487, 14, True)
      , (20487, 19, True)
      , (20487, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Heartseeker Other VI (46857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46857;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46857, 'ace46857-auraofheartseekerothervi');
@@ -13086,6 +14241,9 @@ VALUES (46857, 13, True)
      , (46857, 19, True)
      , (46857, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Tattercoat (20410) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20410;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20410, 'scrollbrittlemail7');
 
@@ -13119,6 +14277,9 @@ VALUES (20410, 13, True)
      , (20410, 14, True)
      , (20410, 19, True)
      , (20410, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fiery Boon (20477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20477;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20477, 'scrollfireprotectionother7');
@@ -13154,6 +14315,9 @@ VALUES (20477, 13, True)
      , (20477, 19, True)
      , (20477, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nether Bolt VI (43307) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43307;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43307, 'ace43307-scrollofnetherboltvi');
 
@@ -13187,6 +14351,9 @@ VALUES (43307, 13, True)
      , (43307, 14, True)
      , (43307, 19, True)
      , (43307, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Mastery Self VI (43366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43366;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43366, 'ace43366-scrollofvoidmagicmasteryselfvi');
@@ -13222,6 +14389,9 @@ VALUES (43366, 13, True)
      , (43366, 19, True)
      , (43366, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shield Mastery Self VI (45329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45329, 'ace45329-scrollofshieldmasteryselfvi');
 
@@ -13255,6 +14425,9 @@ VALUES (45329, 13, True)
      , (45329, 14, True)
      , (45329, 19, True)
      , (45329, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Silencia's Boon (20496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20496;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20496, 'scrollalchemymasteryother7');
@@ -13290,6 +14463,9 @@ VALUES (20496, 13, True)
      , (20496, 19, True)
      , (20496, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Jahannan's Blessing (20547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20547;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20547, 'scrolljumpmasteryself7');
 
@@ -13323,6 +14499,9 @@ VALUES (20547, 13, True)
      , (20547, 14, True)
      , (20547, 19, True)
      , (20547, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Rushed Recovery (20615) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20615;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20615, 'scrollstaminatohealthself7');
@@ -13358,6 +14537,9 @@ VALUES (20615, 13, True)
      , (20615, 19, True)
      , (20615, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcanum Enlightenment VI (28945) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28945;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28945, 'scrollarcanumsalvagingother6');
 
@@ -13391,6 +14573,9 @@ VALUES (28945, 13, True)
      , (28945, 14, True)
      , (28945, 19, True)
      , (28945, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Atlan's Alacrity (20426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20426;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20426, 'scrollswiftkiller7');
@@ -13426,6 +14611,9 @@ VALUES (20426, 13, True)
      , (20426, 19, True)
      , (20426, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Infuse Stamina IV (3743) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3743;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3743, 'scrollinfusestamina4');
 
@@ -13459,6 +14647,9 @@ VALUES (3743, 13, True)
      , (3743, 14, True)
      , (3743, 19, True)
      , (3743, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Piercing Lure IV (2874) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2874;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2874, 'scrollpiercinglure4');
@@ -13494,6 +14685,9 @@ VALUES (2874, 13, True)
      , (2874, 19, True)
      , (2874, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nullify Life Magic Other (20395) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20395;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20395, 'scrolldispellifeneutralother6');
 
@@ -13527,6 +14721,9 @@ VALUES (20395, 13, True)
      , (20395, 14, True)
      , (20395, 19, True)
      , (20395, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Person Attunement Other VI (3452) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3452;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3452, 'scrollpersonattunementother6');
@@ -13562,6 +14759,9 @@ VALUES (3452, 13, True)
      , (3452, 19, True)
      , (3452, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Depletion Other VI (3097) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3097;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3097, 'scrollmanadepletion6');
 
@@ -13595,6 +14795,9 @@ VALUES (3097, 13, True)
      , (3097, 14, True)
      , (3097, 19, True)
      , (3097, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heal Other VI (2696) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2696;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2696, 'scrollhealother6');
@@ -13630,6 +14833,9 @@ VALUES (2696, 13, True)
      , (2696, 19, True)
      , (2696, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Mastery Self IV (3315) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3315;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3315, 'scrollitemenchantmentmasteryself4');
 
@@ -13663,6 +14869,9 @@ VALUES (3315, 13, True)
      , (3315, 14, True)
      , (3315, 19, True)
      , (3315, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Vulnerability Other III (2999) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2999;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2999, 'scrollbladevulnerabilityother3');
@@ -13698,6 +14907,9 @@ VALUES (2999, 13, True)
      , (2999, 19, True)
      , (2999, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nether Arc VII (43300) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43300;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43300, 'ace43300-scrollofnetherarcvii');
 
@@ -13731,6 +14943,9 @@ VALUES (43300, 13, True)
      , (43300, 14, True)
      , (43300, 19, True)
      , (43300, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Celcynd's Blessing (20541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20541;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20541, 'scrollitemenchantmentmasteryself7');
@@ -13766,6 +14981,9 @@ VALUES (20541, 13, True)
      , (20541, 19, True)
      , (20541, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shock Arc VII (21336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21336;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21336, 'scrollshockarc7');
 
@@ -13799,6 +15017,9 @@ VALUES (21336, 13, True)
      , (21336, 14, True)
      , (21336, 19, True)
      , (21336, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Unsteady Hands (20532) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20532;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20532, 'scrollhealingineptitude7');
@@ -13834,6 +15055,9 @@ VALUES (20532, 13, True)
      , (20532, 19, True)
      , (20532, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Ineptitude Other VI (3222) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3222;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3222, 'scrolldaggerineptitudeother6');
 
@@ -13868,6 +15092,9 @@ VALUES (3222, 13, True)
      , (3222, 19, True)
      , (3222, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Rejuvenate Self VI (3127) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3127;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3127, 'scrollrejuvenateself6');
 
@@ -13900,6 +15127,9 @@ VALUES (3127, 13, True)
      , (3127, 14, True)
      , (3127, 19, True)
      , (3127, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Mastery Other V (45296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45296;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45296, 'ace45296-scrollofrecklessnessmasteryotherv');
@@ -13935,6 +15165,9 @@ VALUES (45296, 13, True)
      , (45296, 19, True)
      , (45296, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Blood Drinker Other VII (46879) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46879;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46879, 'ace46879-auraofblooddrinkerothervii');
 
@@ -13968,6 +15201,9 @@ VALUES (46879, 13, True)
      , (46879, 14, True)
      , (46879, 19, True)
      , (46879, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Festering Curse VI (43334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43334;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43334, 'ace43334-scrolloffesteringcursevi');
@@ -14003,6 +15239,9 @@ VALUES (43334, 13, True)
      , (43334, 19, True)
      , (43334, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Mastery Self VI (3377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3377;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3377, 'scrolllifemagicmasteryself6');
 
@@ -14036,6 +15275,9 @@ VALUES (3377, 13, True)
      , (3377, 14, True)
      , (3377, 19, True)
      , (3377, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Stream VI (2911) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2911;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2911, 'scrollacidstream6');
@@ -14071,6 +15313,9 @@ VALUES (2911, 13, True)
      , (2911, 19, True)
      , (2911, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Mastery Other VI (3227) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3227;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3227, 'scrolldaggermasteryother6');
 
@@ -14104,6 +15349,9 @@ VALUES (3227, 13, True)
      , (3227, 14, True)
      , (3227, 19, True)
      , (3227, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Bane VI (2796) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2796;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2796, 'scrollbludgeonbane6');
@@ -14139,6 +15387,9 @@ VALUES (2796, 13, True)
      , (2796, 19, True)
      , (2796, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Tenacity VI (21114) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21114;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21114, 'scrollstaminabolt6');
 
@@ -14172,6 +15423,9 @@ VALUES (21114, 13, True)
      , (21114, 14, True)
      , (21114, 19, True)
      , (21114, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Silencia's Blessing (20497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20497;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20497, 'scrollalchemymasteryself7');
@@ -14207,6 +15461,9 @@ VALUES (20497, 13, True)
      , (20497, 19, True)
      , (20497, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Protection Self VI (2997) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2997;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2997, 'scrollbladeprotectionself6');
 
@@ -14240,6 +15497,9 @@ VALUES (2997, 13, True)
      , (2997, 14, True)
      , (2997, 19, True)
      , (2997, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Drain Mana Other VI (9665) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9665;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9665, 'scrolldrainmana6');
@@ -14275,6 +15535,9 @@ VALUES (9665, 13, True)
      , (9665, 19, True)
      , (9665, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Gift of Vigor (20609) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20609;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20609, 'scrollinfusestamina7');
 
@@ -14308,6 +15571,9 @@ VALUES (20609, 13, True)
      , (20609, 14, True)
      , (20609, 19, True)
      , (20609, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Saladur's Boon (20579) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20579;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20579, 'scrollsprintother7');
@@ -14343,6 +15609,9 @@ VALUES (20579, 13, True)
      , (20579, 19, True)
      , (20579, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Web of Defense (20537) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20537;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20537, 'scrollinvulnerabilityother7');
 
@@ -14376,6 +15645,9 @@ VALUES (20537, 13, True)
      , (20537, 14, True)
      , (20537, 19, True)
      , (20537, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fletching Mastery Self VI (5979) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5979;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5979, 'scrollfletchingmasteryself6');
@@ -14411,6 +15683,9 @@ VALUES (5979, 13, True)
      , (5979, 19, True)
      , (5979, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Mastery Self V (45352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45352;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45352, 'ace45352-scrollofsneakattackmasteryselfv');
 
@@ -14444,6 +15719,9 @@ VALUES (45352, 13, True)
      , (45352, 14, True)
      , (45352, 19, True)
      , (45352, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Lure VI (2861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2861;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2861, 'scrolllightninglure6');
@@ -14479,6 +15757,9 @@ VALUES (2861, 13, True)
      , (2861, 19, True)
      , (2861, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Mastery Self V (45304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45304;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45304, 'ace45304-scrollofrecklessnessmasteryselfv');
 
@@ -14512,6 +15793,9 @@ VALUES (45304, 13, True)
      , (45304, 14, True)
      , (45304, 19, True)
      , (45304, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Battlemage's Blessing (20490) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20490;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20490, 'scrollmanarenewalself7');
@@ -14547,6 +15831,9 @@ VALUES (20490, 13, True)
      , (20490, 19, True)
      , (20490, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Pacification (20407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20407;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20407, 'scrollbloodloather7');
 
@@ -14580,6 +15867,9 @@ VALUES (20407, 13, True)
      , (20407, 14, True)
      , (20407, 19, True)
      , (20407, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cabalastic Ostracism (20417) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20417;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20417, 'scrollhidevalue7');
@@ -14615,6 +15905,9 @@ VALUES (20417, 13, True)
      , (20417, 19, True)
      , (20417, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Void's Call (20247) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20247;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20247, 'scrollmanadrain7');
 
@@ -14648,6 +15941,9 @@ VALUES (20247, 13, True)
      , (20247, 14, True)
      , (20247, 19, True)
      , (20247, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Rejuvenate Other IV (3120) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3120;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3120, 'scrollrejuvenateother4');
@@ -14683,6 +15979,9 @@ VALUES (3120, 13, True)
      , (3120, 19, True)
      , (3120, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shield Mastery Other IV (45319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45319;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45319, 'ace45319-scrollofshieldmasteryotheriv');
 
@@ -14716,6 +16015,9 @@ VALUES (45319, 13, True)
      , (45319, 14, True)
      , (45319, 19, True)
      , (45319, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fealty Self IV (3265) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3265;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3265, 'scrollfealtyself4');
@@ -14751,6 +16053,9 @@ VALUES (3265, 13, True)
      , (3265, 19, True)
      , (3265, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Bane IV (2814) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2814;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2814, 'scrollflamebane4');
 
@@ -14784,6 +16089,9 @@ VALUES (2814, 13, True)
      , (2814, 14, True)
      , (2814, 19, True)
      , (2814, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mount Lethe Recall (22078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22078;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22078, 'scrollletherecall');
@@ -14819,6 +16127,9 @@ VALUES (22078, 13, True)
      , (22078, 19, True)
      , (22078, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Defenselessness IV (3250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3250;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3250, 'scrolldefenselessnessother4');
 
@@ -14852,6 +16163,9 @@ VALUES (3250, 13, True)
      , (3250, 14, True)
      , (3250, 19, True)
      , (3250, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Koga's Boon (20597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20597;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20597, 'scrollweaponexpertiseother7');
@@ -14887,6 +16201,9 @@ VALUES (20597, 13, True)
      , (20597, 19, True)
      , (20597, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Enervation (20486) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20486;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20486, 'scrollexhaustion7');
 
@@ -14920,6 +16237,9 @@ VALUES (20486, 13, True)
      , (20486, 14, True)
      , (20486, 19, True)
      , (20486, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Ilservian's Flame (20440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20440;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20440, 'scrollflamebolt7');
@@ -14955,6 +16275,9 @@ VALUES (20440, 13, True)
      , (20440, 19, True)
      , (20440, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Ineptitude Other VII (45266) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45266;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45266, 'ace45266-scrollofdualwieldineptitudeothervii');
 
@@ -14988,6 +16311,9 @@ VALUES (45266, 13, True)
      , (45266, 14, True)
      , (45266, 19, True)
      , (45266, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Aliester's Blessing (20500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20500;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20500, 'scrollarcaneenlightenmentself7');
@@ -15023,6 +16349,9 @@ VALUES (20500, 13, True)
      , (20500, 19, True)
      , (20500, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Boon of Refinement (20234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20234;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20234, 'scrollcoordinationother7');
 
@@ -15056,6 +16385,9 @@ VALUES (20234, 13, True)
      , (20234, 14, True)
      , (20234, 19, True)
      , (20234, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Eye of the Grunt (20599) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20599;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20599, 'scrollweaponignorance7');
@@ -15091,6 +16423,9 @@ VALUES (20599, 13, True)
      , (20599, 19, True)
      , (20599, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Mastery Other III (45294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45294;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45294, 'ace45294-scrollofrecklessnessmasteryotheriii');
 
@@ -15124,6 +16459,9 @@ VALUES (45294, 13, True)
      , (45294, 14, True)
      , (45294, 19, True)
      , (45294, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Quickness Other IV (2714) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2714;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2714, 'scrollquicknessother4');
@@ -15159,6 +16497,9 @@ VALUES (2714, 13, True)
      , (2714, 19, True)
      , (2714, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fester Other IV (3085) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3085;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3085, 'scrollfester4');
 
@@ -15192,6 +16533,9 @@ VALUES (3085, 13, True)
      , (3085, 14, True)
      , (3085, 19, True)
      , (3085, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Lure IV (2819) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2819;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2819, 'scrollflamelure4');
@@ -15227,6 +16571,9 @@ VALUES (2819, 13, True)
      , (2819, 19, True)
      , (2819, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Coordination Other IV (2646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2646;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2646, 'scrollcoordinationother4');
 
@@ -15260,6 +16607,9 @@ VALUES (2646, 13, True)
      , (2646, 14, True)
      , (2646, 19, True)
      , (2646, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Mastery Self IV (45351) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45351;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45351, 'ace45351-scrollofsneakattackmasteryselfiv');
@@ -15295,6 +16645,9 @@ VALUES (45351, 13, True)
      , (45351, 19, True)
      , (45351, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Summoning Ineptitude Other VII (49462) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49462;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49462, 'ace49462-scrollofsummoningineptitudeothervii');
 
@@ -15328,6 +16681,9 @@ VALUES (49462, 13, True)
      , (49462, 14, True)
      , (49462, 19, True)
      , (49462, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Mastery Other VI (3432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3432;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3432, 'scrollmanaconvertmasteryother6');
@@ -15363,6 +16719,9 @@ VALUES (3432, 13, True)
      , (3432, 19, True)
      , (3432, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cooking Mastery Other VI (5955) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5955;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5955, 'scrollcookingmasteryother6');
 
@@ -15396,6 +16755,9 @@ VALUES (5955, 13, True)
      , (5955, 14, True)
      , (5955, 19, True)
      , (5955, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Invulnerability Self VI (3302) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3302;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3302, 'scrollinvulnerabilityself6');
@@ -15431,6 +16793,9 @@ VALUES (3302, 13, True)
      , (3302, 19, True)
      , (3302, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Eradicate Life Magic Self (27237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27237;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27237, 'scrolldispellifeneutralself7');
 
@@ -15464,6 +16829,9 @@ VALUES (27237, 13, True)
      , (27237, 14, True)
      , (27237, 19, True)
      , (27237, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fire Protection Self II (3038) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3038;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3038, 'scrollfireprotectionself2');
@@ -15499,6 +16867,9 @@ VALUES (3038, 13, True)
      , (3038, 19, True)
      , (3038, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Protection Other VI (2992) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2992;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2992, 'scrollbladeprotectionother6');
 
@@ -15532,6 +16903,9 @@ VALUES (2992, 13, True)
      , (2992, 14, True)
      , (2992, 19, True)
      , (2992, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcanum Salvaging VII (28939) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28939;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28939, 'scrollarcanumsalvaging7');
@@ -15567,6 +16941,9 @@ VALUES (28939, 13, True)
      , (28939, 19, True)
      , (28939, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Morimoto's Boon (20511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20511;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20511, 'scrollcookingmasteryother7');
 
@@ -15600,6 +16977,9 @@ VALUES (20511, 13, True)
      , (20511, 14, True)
      , (20511, 19, True)
      , (20511, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Other VII (20508) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20508;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20508, 'scrollbowmasteryother7');
@@ -15635,6 +17015,9 @@ VALUES (20508, 13, True)
      , (20508, 19, True)
      , (20508, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fealty Other VI (3262) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3262;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3262, 'scrollfealtyother6');
 
@@ -15668,6 +17051,9 @@ VALUES (3262, 13, True)
      , (3262, 14, True)
      , (3262, 19, True)
      , (3262, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Leadership Mastery Other VI (3357) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3357;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3357, 'scrollleadershipmasteryother6');
@@ -15703,6 +17089,9 @@ VALUES (3357, 13, True)
      , (3357, 19, True)
      , (3357, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lugian's Speed (20419) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20419;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20419, 'scrollleadenweapon7');
 
@@ -15736,6 +17125,9 @@ VALUES (20419, 13, True)
      , (20419, 14, True)
      , (20419, 19, True)
      , (20419, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Clumsiness Other VI (2643) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2643;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2643, 'scrollclumsiness6');
@@ -15771,6 +17163,9 @@ VALUES (2643, 13, True)
      , (2643, 19, True)
      , (2643, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of The Spike (20445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20445;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20445, 'scrollforcebolt7');
 
@@ -15804,6 +17199,9 @@ VALUES (20445, 13, True)
      , (20445, 14, True)
      , (20445, 19, True)
      , (20445, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapons Ineptitude VI (41293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41293;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41293, 'ace41293-scrolloftwohandedweaponsineptitudevi');
@@ -15839,6 +17237,9 @@ VALUES (41293, 13, True)
      , (41293, 19, True)
      , (41293, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self III (3169) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3169;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3169, 'scrollaxemasteryself3');
 
@@ -15872,6 +17273,9 @@ VALUES (3169, 13, True)
      , (3169, 14, True)
      , (3169, 19, True)
      , (3169, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Health to Mana Self V (9633) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9633;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9633, 'scrollhealthtomanaself5');
@@ -15907,6 +17311,9 @@ VALUES (9633, 13, True)
      , (9633, 19, True)
      , (9633, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Streak V (8945) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8945;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8945, 'scrolllightningstreak5');
 
@@ -15940,6 +17347,9 @@ VALUES (8945, 13, True)
      , (8945, 14, True)
      , (8945, 19, True)
      , (8945, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Enfeeble Other IV (2666) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2666;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2666, 'scrollenfeeble4');
@@ -15975,6 +17385,9 @@ VALUES (2666, 13, True)
      , (2666, 19, True)
      , (2666, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Magic Yield Other VI (3427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3427;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3427, 'scrollmagicyieldother6');
 
@@ -16008,6 +17421,9 @@ VALUES (3427, 13, True)
      , (3427, 14, True)
      , (3427, 19, True)
      , (3427, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Vulnerability VI (3562) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3562;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3562, 'scrollvulnerabilityother6');
@@ -16043,6 +17459,9 @@ VALUES (3562, 13, True)
      , (3562, 19, True)
      , (3562, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Mastery Other II (3428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3428;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3428, 'scrollmanaconvertmasteryother2');
 
@@ -16076,6 +17495,9 @@ VALUES (3428, 13, True)
      , (3428, 14, True)
      , (3428, 19, True)
      , (3428, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Corrosion VII (43284) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43284;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43284, 'ace43284-scrollofcorrosionvii');
@@ -16111,6 +17533,9 @@ VALUES (43284, 13, True)
      , (43284, 19, True)
      , (43284, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Adja's Boon (20514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20514;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20514, 'scrollcreatureenchantmentother7');
 
@@ -16144,6 +17569,9 @@ VALUES (20514, 13, True)
      , (20514, 14, True)
      , (20514, 19, True)
      , (20514, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lure Blade V (2865) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2865;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2865, 'scrolllureblade5');
@@ -16179,6 +17607,9 @@ VALUES (2865, 13, True)
      , (2865, 19, True)
      , (2865, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Evaporate Creature Magic Other (20318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20318;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20318, 'scrolldispelcreatureneutralother');
 
@@ -16212,6 +17643,9 @@ VALUES (20318, 13, True)
      , (20318, 14, True)
      , (20318, 19, True)
      , (20318, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Expertise Other V (3581) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3581;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3581, 'scrollweaponexpertiseother5');
@@ -16247,6 +17681,9 @@ VALUES (3581, 13, True)
      , (3581, 19, True)
      , (3581, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Web of Deflection (20535) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20535;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20535, 'scrollimpregnabilityother7');
 
@@ -16280,6 +17717,9 @@ VALUES (20535, 13, True)
      , (20535, 14, True)
      , (20535, 19, True)
      , (20535, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Protection Self VI (2982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2982;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2982, 'scrollacidprotectionself6');
@@ -16315,6 +17755,9 @@ VALUES (2982, 13, True)
      , (2982, 19, True)
      , (2982, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Mastery Other V (3431) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3431;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3431, 'scrollmanaconvertmasteryother5');
 
@@ -16348,6 +17791,9 @@ VALUES (3431, 13, True)
      , (3431, 14, True)
      , (3431, 19, True)
      , (3431, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Heartseeker Other II (46875) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46875;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46875, 'ace46875-auraofheartseekerotherii');
@@ -16383,6 +17829,9 @@ VALUES (46875, 13, True)
      , (46875, 19, True)
      , (46875, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Ineptitude Other II (5981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5981;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5981, 'scrollalchemyineptitude2');
 
@@ -16416,6 +17865,9 @@ VALUES (5981, 13, True)
      , (5981, 14, True)
      , (5981, 19, True)
      , (5981, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Outlander's Insolence (20446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20446;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20446, 'scrollforcestreak7');
@@ -16451,6 +17903,9 @@ VALUES (20446, 13, True)
      , (20446, 19, True)
      , (20446, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Wrath of Celcynd (20539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20539;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20539, 'scrollitemenchantmentineptitude7');
 
@@ -16484,6 +17939,9 @@ VALUES (20539, 13, True)
      , (20539, 14, True)
      , (20539, 19, True)
      , (20539, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Tusker's Bane (20408) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20408;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20408, 'scrollbludgeonbane7');
@@ -16519,6 +17977,9 @@ VALUES (20408, 13, True)
      , (20408, 19, True)
      , (20408, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cooking Mastery Self V (5960) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5960;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5960, 'scrollcookingmasteryself5');
 
@@ -16552,6 +18013,9 @@ VALUES (5960, 13, True)
      , (5960, 14, True)
      , (5960, 19, True)
      , (5960, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Hastening (20249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20249;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20249, 'scrollquicknessself7');
@@ -16587,6 +18051,9 @@ VALUES (20249, 13, True)
      , (20249, 19, True)
      , (20249, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Streak VI (8934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8934;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8934, 'scrollforcestreak6');
 
@@ -16620,6 +18087,9 @@ VALUES (8934, 13, True)
      , (8934, 14, True)
      , (8934, 19, True)
      , (8934, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcane Enlightenment VI (3137) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3137;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3137, 'scrollarcaneenlightenmentother6');
@@ -16655,6 +18125,9 @@ VALUES (3137, 13, True)
      , (3137, 19, True)
      , (3137, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Ineptitude VI (43364) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43364;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43364, 'ace43364-scrollofvoidmagicineptitudevi');
 
@@ -16688,6 +18161,9 @@ VALUES (43364, 13, True)
      , (43364, 14, True)
      , (43364, 19, True)
      , (43364, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Gift of Essence (20608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20608;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20608, 'scrollinfusemana7');
@@ -16723,6 +18199,9 @@ VALUES (20608, 13, True)
      , (20608, 19, True)
      , (20608, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Ignorance VI (3592) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3592;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3592, 'scrollweaponignorance6');
 
@@ -16756,6 +18235,9 @@ VALUES (3592, 13, True)
      , (3592, 14, True)
      , (3592, 19, True)
      , (3592, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Drain Health Other V (3935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3935;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3935, 'scrolldrainhealth5');
@@ -16791,6 +18273,9 @@ VALUES (3935, 13, True)
      , (3935, 19, True)
      , (3935, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Swift Killer Other VII (46883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46883;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46883, 'ace46883-auraofswiftkillerothervii');
 
@@ -16824,6 +18309,9 @@ VALUES (46883, 13, True)
      , (46883, 14, True)
      , (46883, 19, True)
      , (46883, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Swift Killer Other VI (46860) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46860;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46860, 'ace46860-auraofswiftkillerothervi');
@@ -16859,6 +18347,9 @@ VALUES (46860, 13, True)
      , (46860, 19, True)
      , (46860, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Mastery Other VII (45250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45250;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45250, 'ace45250-scrollofdirtyfightingmasteryothervii');
 
@@ -16892,6 +18383,9 @@ VALUES (45250, 13, True)
      , (45250, 14, True)
      , (45250, 19, True)
      , (45250, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Ineptitude Other VII (20507) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20507;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20507, 'scrollbowineptitude7');
@@ -16927,6 +18421,9 @@ VALUES (20507, 13, True)
      , (20507, 19, True)
      , (20507, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Bane III (2793) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2793;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2793, 'scrollbludgeonbane3');
 
@@ -16960,6 +18457,9 @@ VALUES (2793, 13, True)
      , (2793, 14, True)
      , (2793, 19, True)
      , (2793, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Piercing Vulnerability Other V (3076) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3076;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3076, 'scrollpiercevulnerabilityother5');
@@ -16995,6 +18495,9 @@ VALUES (3076, 13, True)
      , (3076, 19, True)
      , (3076, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nether Bolt V (43306) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43306;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43306, 'ace43306-scrollofnetherboltv');
 
@@ -17028,6 +18531,9 @@ VALUES (43306, 13, True)
      , (43306, 14, True)
      , (43306, 19, True)
      , (43306, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weaken Lock IV (2900) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2900;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2900, 'scrollweakenlock4');
@@ -17063,6 +18569,9 @@ VALUES (2900, 13, True)
      , (2900, 19, True)
      , (2900, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeoning Vulnerability Other VI (3017) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3017;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3017, 'scrollbludgeonvulnerabilityother6');
 
@@ -17096,6 +18605,9 @@ VALUES (3017, 13, True)
      , (3017, 14, True)
      , (3017, 19, True)
      , (3017, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fealty Other III (3259) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3259;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3259, 'scrollfealtyother3');
@@ -17131,6 +18643,9 @@ VALUES (3259, 13, True)
      , (3259, 19, True)
      , (3259, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Ineptitude VI (3307) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3307;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3307, 'scrollitemenchantmentineptitude6');
 
@@ -17164,6 +18679,9 @@ VALUES (3307, 13, True)
      , (3307, 14, True)
      , (3307, 19, True)
      , (3307, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of War Magic Mastery Self IV (3575) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3575;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3575, 'scrollwarmagicmasteryself4');
@@ -17199,6 +18717,9 @@ VALUES (3575, 13, True)
      , (3575, 19, True)
      , (3575, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Bolt IV (6000) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6000;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6000, 'scrollflamebolt4');
 
@@ -17232,6 +18753,9 @@ VALUES (6000, 13, True)
      , (6000, 14, True)
      , (6000, 19, True)
      , (6000, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana to Stamina Self V (9648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9648;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9648, 'scrollmanatostaminaself5');
@@ -17267,6 +18791,9 @@ VALUES (9648, 13, True)
      , (9648, 19, True)
      , (9648, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bafflement Other VI (2638) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2638;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2638, 'scrollbafflement6');
 
@@ -17300,6 +18827,9 @@ VALUES (2638, 13, True)
      , (2638, 14, True)
      , (2638, 19, True)
      , (2638, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nullify Item Magic (20359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20359;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20359, 'scrolldispelitemneutralother6');
@@ -17335,6 +18865,9 @@ VALUES (20359, 13, True)
      , (20359, 19, True)
      , (20359, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Mastery Self IV (3230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3230;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3230, 'scrolldaggermasteryself4');
 
@@ -17368,6 +18901,9 @@ VALUES (3230, 13, True)
      , (3230, 14, True)
      , (3230, 19, True)
      , (3230, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weakness Other V (2750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2750;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2750, 'scrollweaknessother5');
@@ -17403,6 +18939,9 @@ VALUES (2750, 13, True)
      , (2750, 19, True)
      , (2750, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Ignorance V (3421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3421;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3421, 'scrollmagicitemignorance5');
 
@@ -17436,6 +18975,9 @@ VALUES (3421, 13, True)
      , (3421, 14, True)
      , (3421, 19, True)
      , (3421, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Vigor Siphon (20602) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20602;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20602, 'scrolldrainstamina7');
@@ -17471,6 +19013,9 @@ VALUES (20602, 13, True)
      , (20602, 19, True)
      , (20602, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weaken Lock V (2901) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2901;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2901, 'scrollweakenlock5');
 
@@ -17504,6 +19049,9 @@ VALUES (2901, 13, True)
      , (2901, 14, True)
      , (2901, 19, True)
      , (2901, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other V (3161) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3161;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3161, 'scrollaxeineptitudeother5');
@@ -17539,6 +19087,9 @@ VALUES (3161, 13, True)
      , (3161, 19, True)
      , (3161, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Deception Mastery Self V (3246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3246;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3246, 'scrolldeceptionmasteryself5');
 
@@ -17572,6 +19123,9 @@ VALUES (3246, 13, True)
      , (3246, 14, True)
      , (3246, 19, True)
      , (3246, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fester Other VI (3087) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3087;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3087, 'scrollfester6');
@@ -17607,6 +19161,9 @@ VALUES (3087, 13, True)
      , (3087, 19, True)
      , (3087, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Glenden Wood Recall (32492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32492;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32492, 'ace32492-scrollofglendenwoodrecall');
 
@@ -17640,6 +19197,9 @@ VALUES (32492, 13, True)
      , (32492, 14, True)
      , (32492, 19, True)
      , (32492, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Clouded Motives (20428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20428;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20428, 'scrollturnblade7');
@@ -17675,6 +19235,9 @@ VALUES (20428, 13, True)
      , (20428, 19, True)
      , (20428, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Celcynd's Boon (20540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20540;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20540, 'scrollitemenchantmentmasteryother7');
 
@@ -17708,6 +19271,9 @@ VALUES (20540, 13, True)
      , (20540, 14, True)
      , (20540, 19, True)
      , (20540, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Mastery Other VII (20520) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20520;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20520, 'scrolldaggermasteryother7');
@@ -17743,6 +19309,9 @@ VALUES (20520, 13, True)
      , (20520, 19, True)
      , (20520, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Gears Unwound (20548) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20548;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20548, 'scrollleadenfeet7');
 
@@ -17776,6 +19345,9 @@ VALUES (20548, 13, True)
      , (20548, 14, True)
      , (20548, 19, True)
      , (20548, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Gossamer Flesh (20246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20246;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20246, 'scrollimperil7');
@@ -17811,6 +19383,9 @@ VALUES (20246, 13, True)
      , (20246, 19, True)
      , (20246, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blessing of the Mace Turner (20472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20472;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20472, 'scrollbludgeonprotectionself7');
 
@@ -17844,6 +19419,9 @@ VALUES (20472, 13, True)
      , (20472, 14, True)
      , (20472, 19, True)
      , (20472, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Vagabond's Gift (20429) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20429;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20429, 'scrollweakenlock7');
@@ -17879,6 +19457,9 @@ VALUES (20429, 13, True)
      , (20429, 19, True)
      , (20429, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Swordsman's Gift (20470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20470;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20470, 'scrollbladevulnerabilityother7');
 
@@ -17912,6 +19493,9 @@ VALUES (20470, 13, True)
      , (20470, 14, True)
      , (20470, 19, True)
      , (20470, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fat Fingers (20555) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20555;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20555, 'scrolllockpickineptitude7');
@@ -17947,6 +19531,9 @@ VALUES (20555, 13, True)
      , (20555, 19, True)
      , (20555, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Self Sacrifice (20606) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20606;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20606, 'scrollhealthtostaminaself7');
 
@@ -17980,6 +19567,9 @@ VALUES (20606, 13, True)
      , (20606, 14, True)
      , (20606, 19, True)
      , (20606, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Infected Caress (20406) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20406;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20406, 'scrollblooddrinker7');
@@ -18015,6 +19605,9 @@ VALUES (20406, 13, True)
      , (20406, 19, True)
      , (20406, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fire Protection Self IV (3040) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3040;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3040, 'scrollfireprotectionself4');
 
@@ -18048,6 +19641,9 @@ VALUES (3040, 13, True)
      , (3040, 14, True)
      , (3040, 19, True)
      , (3040, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Slowness Other III (2733) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2733;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2733, 'scrollslowness3');
@@ -18083,6 +19679,9 @@ VALUES (2733, 13, True)
      , (2733, 19, True)
      , (2733, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Hecatomb IV (21098) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21098;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21098, 'scrollhealthbolt4');
 
@@ -18116,6 +19715,9 @@ VALUES (21098, 13, True)
      , (21098, 14, True)
      , (21098, 19, True)
      , (21098, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Bane IV (2764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2764;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2764, 'scrollacidbane4');
@@ -18151,6 +19753,9 @@ VALUES (2764, 13, True)
      , (2764, 19, True)
      , (2764, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Leadership Mastery Other IV (3355) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3355;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3355, 'scrollleadershipmasteryother4');
 
@@ -18184,6 +19789,9 @@ VALUES (3355, 13, True)
      , (3355, 14, True)
      , (3355, 19, True)
      , (3355, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Swift Killer Self IV (2884) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2884;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2884, 'scrollswiftkiller4');
@@ -18219,6 +19827,9 @@ VALUES (2884, 13, True)
      , (2884, 19, True)
      , (2884, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Deception Mastery Other III (3239) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3239;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3239, 'scrolldeceptionmasteryother3');
 
@@ -18252,6 +19863,9 @@ VALUES (3239, 13, True)
      , (3239, 14, True)
      , (3239, 19, True)
      , (3239, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Impenetrability V (2845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2845;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2845, 'scrollimpenetrability5');
@@ -18287,6 +19901,9 @@ VALUES (2845, 13, True)
      , (2845, 19, True)
      , (2845, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Harm Other IV (2689) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2689;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2689, 'scrollharmother4');
 
@@ -18320,6 +19937,9 @@ VALUES (2689, 13, True)
      , (2689, 14, True)
      , (2689, 19, True)
      , (2689, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Healing Mastery Self IV (3280) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3280;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3280, 'scrollhealingmasteryself4');
@@ -18355,6 +19975,9 @@ VALUES (3280, 13, True)
      , (3280, 19, True)
      , (3280, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Streak V (8924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8924;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8924, 'scrollflamestreak5');
 
@@ -18388,6 +20011,9 @@ VALUES (8924, 13, True)
      , (8924, 14, True)
      , (8924, 19, True)
      , (8924, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Infuse Stamina VI (3745) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3745;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3745, 'scrollinfusestamina6');
@@ -18423,6 +20049,9 @@ VALUES (3745, 13, True)
      , (3745, 19, True)
      , (3745, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Streak VI (8946) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8946;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8946, 'scrolllightningstreak6');
 
@@ -18456,6 +20085,9 @@ VALUES (8946, 13, True)
      , (8946, 14, True)
      , (8946, 19, True)
      , (8946, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Vulnerability Other VI (3062) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3062;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3062, 'scrolllightningvulnerabilityother6');
@@ -18491,6 +20123,9 @@ VALUES (3062, 13, True)
      , (3062, 19, True)
      , (3062, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Mastery Other IV (3370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3370;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3370, 'scrolllifemagicmasteryother4');
 
@@ -18524,6 +20159,9 @@ VALUES (3370, 13, True)
      , (3370, 14, True)
      , (3370, 19, True)
      , (3370, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Focus Self V (2680) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2680;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2680, 'scrollfocusself5');
@@ -18559,6 +20197,9 @@ VALUES (2680, 13, True)
      , (2680, 19, True)
      , (2680, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fire Vulnerability Other IV (3045) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3045;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3045, 'scrollfirevulnerabilityother4');
 
@@ -18592,6 +20233,9 @@ VALUES (3045, 13, True)
      , (3045, 14, True)
      , (3045, 19, True)
      , (3045, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Hermetic Link Self V (2891) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2891;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2891, 'scrolltruevalue5');
@@ -18627,6 +20271,9 @@ VALUES (2891, 13, True)
      , (2891, 19, True)
      , (2891, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana to Health Self VI (9644) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9644;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9644, 'scrollmanatohealthself6');
 
@@ -18660,6 +20307,9 @@ VALUES (9644, 13, True)
      , (9644, 14, True)
      , (9644, 19, True)
      , (9644, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Mastery Other VI (45297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45297;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45297, 'ace45297-scrollofrecklessnessmasteryothervi');
@@ -18695,6 +20345,9 @@ VALUES (45297, 13, True)
      , (45297, 19, True)
      , (45297, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Ignorance's Bliss (20570) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20570;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20570, 'scrollmonsterunfamiliarity7');
 
@@ -18728,6 +20381,9 @@ VALUES (20570, 13, True)
      , (20570, 14, True)
      , (20570, 19, True)
      , (20570, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Spirit Loather (28009) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28009;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28009, 'scrollspiritloather');
@@ -18763,6 +20419,9 @@ VALUES (28009, 13, True)
      , (28009, 19, True)
      , (28009, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Hecatomb VII (21101) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21101;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21101, 'scrollhealthbolt7');
 
@@ -18796,6 +20455,9 @@ VALUES (21101, 13, True)
      , (21101, 14, True)
      , (21101, 19, True)
      , (21101, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Brittle Bones (20242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20242;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20242, 'scrollfrailty7');
@@ -18831,6 +20493,9 @@ VALUES (20242, 13, True)
      , (20242, 19, True)
      , (20242, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Might of the 5 Mules (20253) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20253;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20253, 'scrollstrengthother7');
 
@@ -18864,6 +20529,9 @@ VALUES (20253, 13, True)
      , (20253, 14, True)
      , (20253, 19, True)
      , (20253, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cameron's Curse (20461) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20461;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20461, 'scrollshockwavestreak7');
@@ -18899,6 +20567,9 @@ VALUES (20461, 13, True)
      , (20461, 19, True)
      , (20461, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Hermetic Link Self VI (2892) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2892;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2892, 'scrolltruevalue6');
 
@@ -18932,6 +20603,9 @@ VALUES (2892, 13, True)
      , (2892, 14, True)
      , (2892, 19, True)
      , (2892, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Infected Spirit Caress Scroll (28008) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28008;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28008, 'scrollspiritdrinker7');
@@ -18967,6 +20641,9 @@ VALUES (28008, 13, True)
      , (28008, 19, True)
      , (28008, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Heal Self (37809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37809;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37809, 'ace37809-inscriptionofhealself');
 
@@ -19000,6 +20677,9 @@ VALUES (37809, 13, True)
      , (37809, 14, True)
      , (37809, 19, True)
      , (37809, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Other VI (3482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3482;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3482, 'scrollspearmasteryother6');
@@ -19035,6 +20715,9 @@ VALUES (3482, 13, True)
      , (3482, 19, True)
      , (3482, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Mastery Self VI (3392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3392;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3392, 'scrolllockpickmasteryself6');
 
@@ -19068,6 +20751,9 @@ VALUES (3392, 13, True)
      , (3392, 14, True)
      , (3392, 19, True)
      , (3392, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Mastery Other VI (3522) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3522;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3522, 'scrollswordmasteryother6');
@@ -19103,6 +20789,9 @@ VALUES (3522, 13, True)
      , (3522, 19, True)
      , (3522, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cold Protection Other VI (3022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3022;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3022, 'scrollcoldprotectionother6');
 
@@ -19136,6 +20825,9 @@ VALUES (3022, 13, True)
      , (3022, 14, True)
      , (3022, 19, True)
      , (3022, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Focus Other VI (2678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2678;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2678, 'scrollfocusother6');
@@ -19171,6 +20863,9 @@ VALUES (2678, 13, True)
      , (2678, 19, True)
      , (2678, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Protection Other VI (2977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2977;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2977, 'scrollacidprotectionother6');
 
@@ -19204,6 +20899,9 @@ VALUES (2977, 13, True)
      , (2977, 14, True)
      , (2977, 19, True)
      , (2977, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Drain Stamina Other VI (3730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3730;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3730, 'scrolldrainstamina6');
@@ -19239,6 +20937,9 @@ VALUES (3730, 13, True)
      , (3730, 19, True)
      , (3730, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Drain Health Other VI (4221) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4221;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4221, 'scrolldrainhealth6');
 
@@ -19272,6 +20973,9 @@ VALUES (4221, 13, True)
      , (4221, 14, True)
      , (4221, 19, True)
      , (4221, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Expertise Other VI (3322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3322;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3322, 'scrollitemexpertiseother6');
@@ -19307,6 +21011,9 @@ VALUES (3322, 13, True)
      , (3322, 19, True)
      , (3322, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Foon-Ki's Glacial Floe (7520) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7520;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7520, 'scrollfrostwall');
 
@@ -19340,6 +21047,9 @@ VALUES (7520, 13, True)
      , (7520, 14, True)
      , (7520, 19, True)
      , (7520, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Yoshi's Boon (41278) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41278;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41278, 'ace41278-scrollofyoshisboon');
@@ -19375,6 +21085,9 @@ VALUES (41278, 13, True)
      , (41278, 19, True)
      , (41278, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Ineptitude Other VI (3532) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3532;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3532, 'scrollthrownineptitude6');
 
@@ -19408,6 +21121,9 @@ VALUES (3532, 13, True)
      , (3532, 14, True)
      , (3532, 19, True)
      , (3532, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Corrosion III (43280) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43280;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43280, 'ace43280-scrollofcorrosioniii');
@@ -19443,6 +21159,9 @@ VALUES (43280, 13, True)
      , (43280, 19, True)
      , (43280, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cold Protection Other II (3018) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3018;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3018, 'scrollcoldprotectionother2');
 
@@ -19476,6 +21195,9 @@ VALUES (3018, 13, True)
      , (3018, 14, True)
      , (3018, 19, True)
      , (3018, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weakening Curse II (43339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43339;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43339, 'ace43339-scrollofweakeningcurseii');
@@ -19511,6 +21233,9 @@ VALUES (43339, 13, True)
      , (43339, 19, True)
      , (43339, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Mastery Self II (3313) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3313;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3313, 'scrollitemenchantmentmasteryself2');
 
@@ -19544,6 +21269,9 @@ VALUES (3313, 13, True)
      , (3313, 14, True)
      , (3313, 19, True)
      , (3313, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Monster Attunement Self II (5543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5543;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5543, 'scrollmonsterattunementself2');
@@ -19579,6 +21307,9 @@ VALUES (5543, 13, True)
      , (5543, 19, True)
      , (5543, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Arc II (21289) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21289;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21289, 'scrollacidarc2');
 
@@ -19612,6 +21343,9 @@ VALUES (21289, 13, True)
      , (21289, 14, True)
      , (21289, 19, True)
      , (21289, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Turn Blade II (2893) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2893;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2893, 'scrollturnblade2');
@@ -19647,6 +21381,9 @@ VALUES (2893, 13, True)
      , (2893, 19, True)
      , (2893, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Arc II (21310) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21310;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21310, 'scrollforcearc2');
 
@@ -19680,6 +21417,9 @@ VALUES (21310, 13, True)
      , (21310, 14, True)
      , (21310, 19, True)
      , (21310, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shield Mastery Self II (45325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45325;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45325, 'ace45325-scrollofshieldmasteryselfii');
@@ -19715,6 +21455,9 @@ VALUES (45325, 13, True)
      , (45325, 19, True)
      , (45325, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Feeblemind Other (1774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1774;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1774, 'scrollfeeblemind');
 
@@ -19748,6 +21491,9 @@ VALUES (1774, 13, True)
      , (1774, 14, True)
      , (1774, 19, True)
      , (1774, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Spirit Drinker Other II (46877) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46877;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46877, 'ace46877-auraofspiritdrinkerotherii');
@@ -19783,6 +21529,9 @@ VALUES (46877, 13, True)
      , (46877, 19, True)
      , (46877, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Spirit Drinker Other III (46865) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46865;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46865, 'ace46865-auraofspiritdrinkerotheriii');
 
@@ -19816,6 +21565,9 @@ VALUES (46865, 13, True)
      , (46865, 14, True)
      , (46865, 19, True)
      , (46865, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Hermetic Void II (2837) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2837;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2837, 'scrollhidevalue2');
@@ -19851,6 +21603,9 @@ VALUES (2837, 13, True)
      , (2837, 19, True)
      , (2837, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Bolt (1573) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1573;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1573, 'scrollfrostbolt');
 
@@ -19884,6 +21639,9 @@ VALUES (1573, 13, True)
      , (1573, 14, True)
      , (1573, 19, True)
      , (1573, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Mastery Self (5992) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5992;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5992, 'scrollalchemymasteryself');
@@ -19919,6 +21677,9 @@ VALUES (5992, 13, True)
      , (5992, 19, True)
      , (5992, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Oswald's Blessing (20557) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20557;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20557, 'scrolllockpickmasteryself7');
 
@@ -19952,6 +21713,9 @@ VALUES (20557, 13, True)
      , (20557, 14, True)
      , (20557, 19, True)
      , (20557, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Brogard's Defiance (20418) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20418;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20418, 'scrollimpenetrability7');
@@ -19987,6 +21751,9 @@ VALUES (20418, 13, True)
      , (20418, 19, True)
      , (20418, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Kaluhc's Blessing (20572) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20572;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20572, 'scrollpersonattunementself7');
 
@@ -20020,6 +21787,9 @@ VALUES (20572, 13, True)
      , (20572, 14, True)
      , (20572, 19, True)
      , (20572, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Astyrrian's Gift (20482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20482;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20482, 'scrolllightningvulnerabilityother7');
@@ -20055,6 +21825,9 @@ VALUES (20482, 13, True)
      , (20482, 19, True)
      , (20482, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Futility (20564) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20564;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20564, 'scrollmagicyieldother7');
 
@@ -20088,6 +21861,9 @@ VALUES (20564, 13, True)
      , (20564, 14, True)
      , (20564, 19, True)
      , (20564, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blessing of the Blade Turner (20469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20469;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20469, 'scrollbladeprotectionself7');
@@ -20123,6 +21899,9 @@ VALUES (20469, 13, True)
      , (20469, 19, True)
      , (20469, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Festering Curse VII (43335) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43335;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43335, 'ace43335-scrolloffesteringcursevii');
 
@@ -20156,6 +21935,9 @@ VALUES (43335, 13, True)
      , (43335, 14, True)
      , (43335, 19, True)
      , (43335, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Ineptitude Other VII (20519) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20519;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20519, 'scrolldaggerineptitudeother7');
@@ -20191,6 +21973,9 @@ VALUES (20519, 13, True)
      , (20519, 19, True)
      , (20519, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shield Mastery Other VI (45321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45321;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45321, 'ace45321-scrollofshieldmasteryothervi');
 
@@ -20224,6 +22009,9 @@ VALUES (45321, 13, True)
      , (45321, 14, True)
      , (45321, 19, True)
      , (45321, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Resist Magic Other VI (3467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3467;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3467, 'scrollresistmagicother6');
@@ -20259,6 +22047,9 @@ VALUES (3467, 13, True)
      , (3467, 19, True)
      , (3467, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lure Blade VI (2866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2866;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2866, 'scrolllureblade6');
 
@@ -20292,6 +22083,9 @@ VALUES (2866, 13, True)
      , (2866, 14, True)
      , (2866, 19, True)
      , (2866, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weakening Curse V (43342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43342;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43342, 'ace43342-scrollofweakeningcursev');
@@ -20327,6 +22121,9 @@ VALUES (43342, 13, True)
      , (43342, 19, True)
      , (43342, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Ignorance IV (3590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3590;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3590, 'scrollweaponignorance4');
 
@@ -20360,6 +22157,9 @@ VALUES (3590, 13, True)
      , (3590, 14, True)
      , (3590, 19, True)
      , (3590, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Arc V (21292) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21292;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21292, 'scrollacidarc5');
@@ -20395,6 +22195,9 @@ VALUES (21292, 13, True)
      , (21292, 19, True)
      , (21292, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Bolt III (2931) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2931;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2931, 'scrollforcebolt3');
 
@@ -20428,6 +22231,9 @@ VALUES (2931, 13, True)
      , (2931, 14, True)
      , (2931, 19, True)
      , (2931, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Arc I (21295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21295;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21295, 'scrollbladearc');
@@ -20463,6 +22269,9 @@ VALUES (21295, 13, True)
      , (21295, 19, True)
      , (21295, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Mastery Other II (45269) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45269;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45269, 'ace45269-scrollofdualwieldmasteryotherii');
 
@@ -20496,6 +22305,9 @@ VALUES (45269, 13, True)
      , (45269, 14, True)
      , (45269, 19, True)
      , (45269, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Drain Stamina Other III (3727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3727;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3727, 'scrolldrainstamina3');
@@ -20531,6 +22343,9 @@ VALUES (3727, 13, True)
      , (3727, 19, True)
      , (3727, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Vulnerability Other II (3058) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3058;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3058, 'scrolllightningvulnerabilityother2');
 
@@ -20564,6 +22379,9 @@ VALUES (3058, 13, True)
      , (3058, 14, True)
      , (3058, 19, True)
      , (3058, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Expertise Other II (3318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3318;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3318, 'scrollitemexpertiseother2');
@@ -20599,6 +22417,9 @@ VALUES (3318, 13, True)
      , (3318, 19, True)
      , (3318, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Protection Other III (3064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3064;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3064, 'scrollpierceprotectionother3');
 
@@ -20632,6 +22453,9 @@ VALUES (3064, 13, True)
      , (3064, 14, True)
      , (3064, 19, True)
      , (3064, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fletching Mastery Other II (5969) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5969;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5969, 'scrollfletchingmasteryother2');
@@ -20667,6 +22491,9 @@ VALUES (5969, 13, True)
      , (5969, 19, True)
      , (5969, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Quickness Self III (2718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2718;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2718, 'scrollquicknessself3');
 
@@ -20700,6 +22527,9 @@ VALUES (2718, 13, True)
      , (2718, 14, True)
      , (2718, 19, True)
      , (2718, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Mastery Other III (45270) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45270;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45270, 'ace45270-scrollofdualwieldmasteryotheriii');
@@ -20735,6 +22565,9 @@ VALUES (45270, 13, True)
      , (45270, 19, True)
      , (45270, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fealty Self III (3264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3264;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3264, 'scrollfealtyself3');
 
@@ -20768,6 +22601,9 @@ VALUES (3264, 13, True)
      , (3264, 14, True)
      , (3264, 19, True)
      , (3264, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Arc III (21304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21304;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21304, 'scrollflamearc3');
@@ -20803,6 +22639,9 @@ VALUES (21304, 13, True)
      , (21304, 19, True)
      , (21304, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Other (1670) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1670;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1670, 'scrollaxemasteryother');
 
@@ -20836,6 +22675,9 @@ VALUES (1670, 13, True)
      , (1670, 14, True)
      , (1670, 19, True)
      , (1670, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Mastery Other II (45293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45293;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45293, 'ace45293-scrollofrecklessnessmasteryotherii');
@@ -20871,6 +22713,9 @@ VALUES (45293, 13, True)
      , (45293, 19, True)
      , (45293, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Person Unfamiliarity III (3459) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3459;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3459, 'scrollpersonunfamiliarity3');
 
@@ -20904,6 +22749,9 @@ VALUES (3459, 13, True)
      , (3459, 14, True)
      , (3459, 19, True)
      , (3459, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Vulnerability Other III (3059) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3059;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3059, 'scrolllightningvulnerabilityother3');
@@ -20939,6 +22787,9 @@ VALUES (3059, 13, True)
      , (3059, 19, True)
      , (3059, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Stamina to Mana Self (1874) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1874;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1874, 'scrollstaminatomanaself');
 
@@ -20972,6 +22823,9 @@ VALUES (1874, 13, True)
      , (1874, 14, True)
      , (1874, 19, True)
      , (1874, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Ignorance V (3591) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3591;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3591, 'scrollweaponignorance5');
@@ -21007,6 +22861,9 @@ VALUES (3591, 13, True)
      , (3591, 19, True)
      , (3591, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Bane III (2813) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2813;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2813, 'scrollflamebane3');
 
@@ -21040,6 +22897,9 @@ VALUES (2813, 13, True)
      , (2813, 14, True)
      , (2813, 19, True)
      , (2813, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Jumping Ineptitude (1709) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1709;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1709, 'scrolljumpineptitude');
@@ -21075,6 +22935,9 @@ VALUES (1709, 13, True)
      , (1709, 19, True)
      , (1709, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Mastery Other VII (43375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43375;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43375, 'ace43375-scrollofvoidmagicmasteryothervii');
 
@@ -21108,6 +22971,9 @@ VALUES (43375, 13, True)
      , (43375, 14, True)
      , (43375, 19, True)
      , (43375, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Summon Primary Portal I (2904) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2904;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2904, 'scrollsummonportal1');
@@ -21143,6 +23009,9 @@ VALUES (2904, 13, True)
      , (2904, 19, True)
      , (2904, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sprint Self VI (3497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3497;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3497, 'scrollsprintself6');
 
@@ -21176,6 +23045,9 @@ VALUES (3497, 13, True)
      , (3497, 14, True)
      , (3497, 19, True)
      , (3497, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Archer's Gift (20485) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20485;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20485, 'scrollpiercevulnerabilityother7');
@@ -21211,6 +23083,9 @@ VALUES (20485, 13, True)
      , (20485, 19, True)
      , (20485, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Greased Palms (41294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41294;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41294, 'ace41294-scrollofgreasedpalms');
 
@@ -21244,6 +23119,9 @@ VALUES (41294, 13, True)
      , (41294, 14, True)
      , (41294, 19, True)
      , (41294, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Force Arc IV (21312) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21312;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21312, 'scrollforcearc4');
@@ -21279,6 +23157,9 @@ VALUES (21312, 13, True)
      , (21312, 19, True)
      , (21312, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nuhmudira's Boon (20565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20565;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20565, 'scrollmanaconvertmasteryother7');
 
@@ -21312,6 +23193,9 @@ VALUES (20565, 13, True)
      , (20565, 14, True)
      , (20565, 19, True)
      , (20565, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapon Mastery Self (41264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41264;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41264, 'ace41264-scrolloftwohandedweaponmasteryself');
@@ -21347,6 +23231,9 @@ VALUES (41264, 13, True)
      , (41264, 19, True)
      , (41264, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Enfeeble Other III (2665) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2665;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2665, 'scrollenfeeble3');
 
@@ -21380,6 +23267,9 @@ VALUES (2665, 13, True)
      , (2665, 14, True)
      , (2665, 19, True)
      , (2665, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Protection Other (1838) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1838;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1838, 'scrollacidprotectionother');
@@ -21415,6 +23305,9 @@ VALUES (1838, 13, True)
      , (1838, 19, True)
      , (1838, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self IV (3170) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3170;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3170, 'scrollaxemasteryself4');
 
@@ -21448,6 +23341,9 @@ VALUES (3170, 13, True)
      , (3170, 14, True)
      , (3170, 19, True)
      , (3170, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weaken Lock (1898) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1898;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1898, 'scrollweakenlock');
@@ -21483,6 +23379,9 @@ VALUES (1898, 13, True)
      , (1898, 19, True)
      , (1898, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Other IV (4387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4387;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4387, 'scrollarmorother4');
 
@@ -21516,6 +23415,9 @@ VALUES (4387, 13, True)
      , (4387, 14, True)
      , (4387, 19, True)
      , (4387, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Renewal Self (1659) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1659;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1659, 'scrollmanarenewalself');
@@ -21551,6 +23453,9 @@ VALUES (1659, 13, True)
      , (1659, 19, True)
      , (1659, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Vulnerability Other (1855) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1855;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1855, 'scrollpiercevulnerabilityother');
 
@@ -21584,6 +23489,9 @@ VALUES (1855, 13, True)
      , (1855, 14, True)
      , (1855, 19, True)
      , (1855, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcane Enlightenment Self IV (3140) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3140;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3140, 'scrollarcaneenlightenmentself4');
@@ -21619,6 +23527,9 @@ VALUES (3140, 13, True)
      , (3140, 19, True)
      , (3140, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Mastery Self II (45253) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45253;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45253, 'ace45253-scrollofdirtyfightingmasteryselfii');
 
@@ -21652,6 +23563,9 @@ VALUES (45253, 13, True)
      , (45253, 14, True)
      , (45253, 19, True)
      , (45253, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Mastery Other V (43362) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43362;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43362, 'ace43362-scrollofvoidmagicmasteryotherv');
@@ -21687,6 +23601,9 @@ VALUES (43362, 13, True)
      , (43362, 19, True)
      , (43362, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Mastery Other (1689) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1689;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1689, 'scrollcreatureenchantmentother');
 
@@ -21720,6 +23637,9 @@ VALUES (1689, 13, True)
      , (1689, 14, True)
      , (1689, 19, True)
      , (1689, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blood Loather IV (2789) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2789;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2789, 'scrollbloodloather4');
@@ -21755,6 +23675,9 @@ VALUES (2789, 13, True)
      , (2789, 19, True)
      , (2789, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Person Attunement Other IV (3450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3450;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3450, 'scrollpersonattunementother4');
 
@@ -21788,6 +23711,9 @@ VALUES (3450, 13, True)
      , (3450, 14, True)
      , (3450, 19, True)
      , (3450, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Stream II (2907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2907;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2907, 'scrollacidstream2');
@@ -21823,6 +23749,9 @@ VALUES (2907, 13, True)
      , (2907, 19, True)
      , (2907, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Infuse Mana IV (3738) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3738;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3738, 'scrollinfusemana4');
 
@@ -21856,6 +23785,9 @@ VALUES (3738, 13, True)
      , (3738, 14, True)
      , (3738, 19, True)
      , (3738, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Resist Magic Self V (3471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3471;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3471, 'scrollresistmagicself5');
@@ -21891,6 +23823,9 @@ VALUES (3471, 13, True)
      , (3471, 19, True)
      , (3471, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Protection Self III (3069) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3069;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3069, 'scrollpierceprotectionself3');
 
@@ -21924,6 +23859,9 @@ VALUES (3069, 13, True)
      , (3069, 14, True)
      , (3069, 19, True)
      , (3069, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Mastery Self VII (20521) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20521;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20521, 'scrolldaggermasteryself7');
@@ -21959,6 +23897,9 @@ VALUES (20521, 13, True)
      , (20521, 19, True)
      , (20521, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Adja's Intervention (20245) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20245;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20245, 'scrollhealself7');
 
@@ -21992,6 +23933,9 @@ VALUES (20245, 13, True)
      , (20245, 14, True)
      , (20245, 19, True)
      , (20245, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Unflinching Persistence (20494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20494;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20494, 'scrollrejuvenateself7');
@@ -22027,6 +23971,9 @@ VALUES (20494, 13, True)
      , (20494, 19, True)
      , (20494, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Spike Strafe (7519) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7519;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7519, 'scrollforcewall');
 
@@ -22060,6 +24007,9 @@ VALUES (7519, 13, True)
      , (7519, 14, True)
      , (7519, 19, True)
      , (7519, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Os' Wall (7521) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7521;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7521, 'scrolllightningwall');
@@ -22095,6 +24045,9 @@ VALUES (7521, 13, True)
      , (7521, 19, True)
      , (7521, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Searing Disc (7509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7509;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7509, 'scrollacidring');
 
@@ -22128,6 +24081,9 @@ VALUES (7509, 13, True)
      , (7509, 14, True)
      , (7509, 19, True)
      , (7509, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Tusker Fists (36542) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36542;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36542, 'ace36542-scrolloftuskerfists');
@@ -22164,6 +24120,9 @@ VALUES (36542, 13, True)
      , (36542, 19, True)
      , (36542, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Tectonic Rifts (7515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7515;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7515, 'scrollshockwavering');
 
@@ -22197,6 +24156,9 @@ VALUES (7515, 13, True)
      , (7515, 14, True)
      , (7515, 19, True)
      , (7515, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Eye of the Storm (7514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7514;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7514, 'scrolllightningring');
@@ -22232,6 +24194,9 @@ VALUES (7514, 13, True)
      , (7514, 19, True)
      , (7514, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Slithering Flames (7518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7518;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7518, 'scrollflamewall');
 
@@ -22265,6 +24230,9 @@ VALUES (7518, 13, True)
      , (7518, 14, True)
      , (7518, 19, True)
      , (7518, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cassius' Ring of Fire (7511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7511;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7511, 'scrollflamering');
@@ -22300,6 +24268,9 @@ VALUES (7511, 13, True)
      , (7511, 19, True)
      , (7511, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Clouded Soul (43319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43319;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43319, 'ace43319-scrollofcloudedsoul');
 
@@ -22333,6 +24304,9 @@ VALUES (43319, 13, True)
      , (43319, 14, True)
      , (43319, 19, True)
      , (43319, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Hammering Crawler (7522) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7522;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7522, 'scrollshockwavewall');
@@ -22368,6 +24342,9 @@ VALUES (7522, 13, True)
      , (7522, 19, True)
      , (7522, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nuhmudira's Spines (7512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7512;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7512, 'scrollforcering');
 
@@ -22401,6 +24378,9 @@ VALUES (7512, 13, True)
      , (7512, 14, True)
      , (7512, 19, True)
      , (7512, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bed of Blades (7517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7517;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7517, 'scrollbladewall');
@@ -22436,6 +24416,9 @@ VALUES (7517, 13, True)
      , (7517, 19, True)
      , (7517, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Halo of Frost (7513) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7513;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7513, 'scrollfrostring');
 
@@ -22469,6 +24452,9 @@ VALUES (7513, 13, True)
      , (7513, 14, True)
      , (7513, 19, True)
      , (7513, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blistering Creeper (7516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7516;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7516, 'scrollacidwall');
@@ -22504,6 +24490,9 @@ VALUES (7516, 13, True)
      , (7516, 19, True)
      , (7516, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Horizon's Blades (7510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7510;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7510, 'scrollbladering');
 
@@ -22537,6 +24526,9 @@ VALUES (7510, 13, True)
      , (7510, 14, True)
      , (7510, 19, True)
      , (7510, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Fire Protection Self (37755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37755;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37755, 'ace37755-inscriptionoffireprotectionself');
@@ -22572,6 +24564,9 @@ VALUES (37755, 13, True)
      , (37755, 19, True)
      , (37755, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Acid Protection Self (37998) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37998;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37998, 'ace37998-inscriptionofacidprotectionself');
 
@@ -22605,6 +24600,9 @@ VALUES (37998, 13, True)
      , (37998, 14, True)
      , (37998, 19, True)
      , (37998, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Blade Protection Self (37661) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37661;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37661, 'ace37661-inscriptionofbladeprotectionself');
@@ -22640,6 +24638,9 @@ VALUES (37661, 13, True)
      , (37661, 19, True)
      , (37661, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Piercing Protection Self (38764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38764;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38764, 'ace38764-inscriptionofpiercingprotectionself');
 
@@ -22673,6 +24674,9 @@ VALUES (38764, 13, True)
      , (38764, 14, True)
      , (38764, 19, True)
      , (38764, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Cold Protection Self (37684) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37684;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37684, 'ace37684-inscriptionofcoldprotectionself');
@@ -22708,6 +24712,9 @@ VALUES (37684, 13, True)
      , (37684, 19, True)
      , (37684, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Lightning Protection Self (37861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37861;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37861, 'ace37861-inscriptionoflightningprotectionself');
 
@@ -22741,6 +24748,9 @@ VALUES (37861, 13, True)
      , (37861, 14, True)
      , (37861, 19, True)
      , (37861, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Bludgeoning Protection Self (37672) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37672;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37672, 'ace37672-inscriptionofbludgeoningprotectionself');
@@ -22776,6 +24786,9 @@ VALUES (37672, 13, True)
      , (37672, 19, True)
      , (37672, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Life Magic Mastery Self (37853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37853;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37853, 'ace37853-inscriptionoflifemagicmasteryself');
 
@@ -22809,6 +24822,9 @@ VALUES (37853, 13, True)
      , (37853, 14, True)
      , (37853, 19, True)
      , (37853, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Endurance Self (37740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37740;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37740, 'ace37740-inscriptionofenduranceself');
@@ -22844,6 +24860,9 @@ VALUES (37740, 13, True)
      , (37740, 19, True)
      , (37740, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Healing Mastery Self (37807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37807;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37807, 'ace37807-inscriptionofhealingmasteryself');
 
@@ -22877,6 +24896,9 @@ VALUES (37807, 13, True)
      , (37807, 14, True)
      , (37807, 19, True)
      , (37807, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Armor Self (37648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37648;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37648, 'ace37648-inscriptionofarmorself');
@@ -22912,6 +24934,9 @@ VALUES (37648, 13, True)
      , (37648, 19, True)
      , (37648, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Quickness Self (37922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37922;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37922, 'ace37922-inscriptionofquicknessself');
 
@@ -22945,6 +24970,9 @@ VALUES (37922, 13, True)
      , (37922, 14, True)
      , (37922, 19, True)
      , (37922, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Coordination Self (37693) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37693;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37693, 'ace37693-inscriptionofcoordinationself');
@@ -22980,6 +25008,9 @@ VALUES (37693, 13, True)
      , (37693, 19, True)
      , (37693, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Willpower Self (37991) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37991;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37991, 'ace37991-inscriptionofwillpowerself');
 
@@ -23013,6 +25044,9 @@ VALUES (37991, 13, True)
      , (37991, 14, True)
      , (37991, 19, True)
      , (37991, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Focus Self (37787) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37787;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37787, 'ace37787-inscriptionoffocusself');
@@ -23048,6 +25082,9 @@ VALUES (37787, 13, True)
      , (37787, 19, True)
      , (37787, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Summon Primary Portal II (2905) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2905;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2905, 'scrollsummonportal2');
 
@@ -23081,6 +25118,9 @@ VALUES (2905, 13, True)
      , (2905, 14, True)
      , (2905, 19, True)
      , (2905, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Summon Secondary Portal I (20622) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20622;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20622, 'scrollsummonsecondportal1');
@@ -23116,6 +25156,9 @@ VALUES (20622, 13, True)
      , (20622, 19, True)
      , (20622, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Chain (35594) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35594;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35594, 'ace35594-scrollofflamechain');
 
@@ -23149,6 +25192,9 @@ VALUES (35594, 13, True)
      , (35594, 14, True)
      , (35594, 19, True)
      , (35594, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Revitalize Self (1785) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1785;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1785, 'scrollrevitalizeself');
@@ -23184,6 +25230,9 @@ VALUES (1785, 13, True)
      , (1785, 19, True)
      , (1785, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Regenerate Self (1658) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1658;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1658, 'scrollregenerateself');
 
@@ -23218,6 +25267,9 @@ VALUES (1658, 13, True)
      , (1658, 19, True)
      , (1658, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Rejuvenate Self (1656) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1656;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1656, 'scrollrejuvenateself');
 
@@ -23250,6 +25302,9 @@ VALUES (1656, 13, True)
      , (1656, 14, True)
      , (1656, 19, True)
      , (1656, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Exhaustion Other (1856) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1856;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1856, 'scrollexhaustion');
@@ -23285,6 +25340,9 @@ VALUES (1856, 13, True)
      , (1856, 19, True)
      , (1856, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fester Other (1857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1857;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1857, 'scrollfester');
 
@@ -23318,6 +25376,9 @@ VALUES (1857, 13, True)
      , (1857, 14, True)
      , (1857, 19, True)
      , (1857, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Focus Other V (2677) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2677;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2677, 'scrollfocusother5');
@@ -23353,6 +25414,9 @@ VALUES (2677, 13, True)
      , (2677, 19, True)
      , (2677, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Healing Ineptitude III (3269) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3269;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3269, 'scrollhealingineptitude3');
 
@@ -23386,6 +25450,9 @@ VALUES (3269, 13, True)
      , (3269, 14, True)
      , (3269, 19, True)
      , (3269, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Jumping Mastery Self V (3341) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3341;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3341, 'scrolljumpmasteryself5');
@@ -23421,6 +25488,9 @@ VALUES (3341, 13, True)
      , (3341, 19, True)
      , (3341, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Summoning Mastery Self IV (49473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49473;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49473, 'ace49473-scrollofsummoningmasteryselfiv');
 
@@ -23454,6 +25524,9 @@ VALUES (49473, 13, True)
      , (49473, 14, True)
      , (49473, 19, True)
      , (49473, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Regenerate Other IV (3110) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3110;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3110, 'scrollregenerateother4');
@@ -23489,6 +25562,9 @@ VALUES (3110, 13, True)
      , (3110, 19, True)
      , (3110, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Blight III (21104) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21104;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21104, 'scrollmanabolt3');
 
@@ -23522,6 +25598,9 @@ VALUES (21104, 13, True)
      , (21104, 14, True)
      , (21104, 19, True)
      , (21104, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Mastery Self VII (45354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45354;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45354, 'ace45354-scrollofsneakattackmasteryselfvii');
@@ -23557,6 +25636,9 @@ VALUES (45354, 13, True)
      , (45354, 19, True)
      , (45354, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Rejuvenate Other VI (3122) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3122;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3122, 'scrollrejuvenateother6');
 
@@ -23590,6 +25672,9 @@ VALUES (3122, 13, True)
      , (3122, 14, True)
      , (3122, 19, True)
      , (3122, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cooking Mastery Other V (5954) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5954;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5954, 'scrollcookingmasteryother5');
@@ -23625,6 +25710,9 @@ VALUES (5954, 13, True)
      , (5954, 19, True)
      , (5954, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Health to Stamina Self VI (9639) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9639;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9639, 'scrollhealthtostaminaself6');
 
@@ -23658,6 +25746,9 @@ VALUES (9639, 13, True)
      , (9639, 14, True)
      , (9639, 19, True)
      , (9639, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Mastery Other VI (45345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45345;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45345, 'ace45345-scrollofsneakattackmasteryothervi');
@@ -23693,6 +25784,9 @@ VALUES (45345, 13, True)
      , (45345, 19, True)
      , (45345, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Self V (3186) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3186;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3186, 'scrollbowmasteryself5');
 
@@ -23726,6 +25820,9 @@ VALUES (3186, 13, True)
      , (3186, 14, True)
      , (3186, 19, True)
      , (3186, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Vulnerability Other V (2986) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2986;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2986, 'scrollacidvulnerabilityother5');
@@ -23761,6 +25858,9 @@ VALUES (2986, 13, True)
      , (2986, 19, True)
      , (2986, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Arc VI (21328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21328;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21328, 'scrolllightningarc6');
 
@@ -23794,6 +25894,9 @@ VALUES (21328, 13, True)
      , (21328, 14, True)
      , (21328, 19, True)
      , (21328, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nullify Creature Magic Other (20323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20323;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20323, 'scrolldispelcreatureneutralother6');
@@ -23829,6 +25932,9 @@ VALUES (20323, 13, True)
      , (20323, 19, True)
      , (20323, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Protection Other VI (3052) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3052;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3052, 'scrolllightningprotectionother6');
 
@@ -23862,6 +25968,9 @@ VALUES (3052, 13, True)
      , (3052, 14, True)
      , (3052, 19, True)
      , (3052, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Spirit Loather II (28010) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28010;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28010, 'scrollspiritloather2');
@@ -23897,6 +26006,9 @@ VALUES (28010, 13, True)
      , (28010, 19, True)
      , (28010, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Stamina to Health Self (1872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1872;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1872, 'scrollstaminatohealthself');
 
@@ -23930,6 +26042,9 @@ VALUES (1872, 13, True)
      , (1872, 14, True)
      , (1872, 19, True)
      , (1872, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Hermetic Link Self (1896) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1896;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1896, 'scrolltruevalue');
@@ -23965,6 +26080,9 @@ VALUES (1896, 13, True)
      , (1896, 19, True)
      , (1896, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Ineptitude Other III (9610) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9610;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9610, 'scrollmanaineptitude3');
 
@@ -23998,6 +26116,9 @@ VALUES (9610, 13, True)
      , (9610, 14, True)
      , (9610, 19, True)
      , (9610, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Rejuvenate Other II (3118) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3118;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3118, 'scrollrejuvenateother2');
@@ -24033,6 +26154,9 @@ VALUES (3118, 13, True)
      , (3118, 19, True)
      , (3118, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Focus Self III (1783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1783;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1783, 'scrollfocusself3');
 
@@ -24066,6 +26190,9 @@ VALUES (1783, 13, True)
      , (1783, 14, True)
      , (1783, 19, True)
      , (1783, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Protection Other II (2988) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2988;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2988, 'scrollbladeprotectionother2');
@@ -24101,6 +26228,9 @@ VALUES (2988, 13, True)
      , (2988, 19, True)
      , (2988, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Leadership Ineptitude II (3348) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3348;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3348, 'scrollleadershipineptitude2');
 
@@ -24134,6 +26264,9 @@ VALUES (3348, 13, True)
      , (3348, 14, True)
      , (3348, 19, True)
      , (3348, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Defender Other III (46862) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46862;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46862, 'ace46862-auraofdefenderotheriii');
@@ -24169,6 +26302,9 @@ VALUES (46862, 13, True)
      , (46862, 19, True)
      , (46862, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blood Loather III (2788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2788;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2788, 'scrollbloodloather3');
 
@@ -24202,6 +26338,9 @@ VALUES (2788, 13, True)
      , (2788, 14, True)
      , (2788, 19, True)
      , (2788, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Coordination Other V (2647) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2647;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2647, 'scrollcoordinationother5');
@@ -24237,6 +26376,9 @@ VALUES (2647, 13, True)
      , (2647, 19, True)
      , (2647, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Hermetic Void IV (2839) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2839;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2839, 'scrollhidevalue4');
 
@@ -24270,6 +26412,9 @@ VALUES (2839, 13, True)
      , (2839, 14, True)
      , (2839, 19, True)
      , (2839, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cooking Ineptitude Other (5944) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5944;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5944, 'scrollcookingineptitude');
@@ -24305,6 +26450,9 @@ VALUES (5944, 13, True)
      , (5944, 19, True)
      , (5944, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Ineptitude (1719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1719;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1719, 'scrolllockpickineptitude');
 
@@ -24338,6 +26486,9 @@ VALUES (1719, 13, True)
      , (1719, 14, True)
      , (1719, 19, True)
      , (1719, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of War Magic Mastery Other II (3568) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3568;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3568, 'scrollwarmagicmasteryother2');
@@ -24373,6 +26524,9 @@ VALUES (3568, 13, True)
      , (3568, 19, True)
      , (3568, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Summon Secondary Portal II (20623) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20623;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20623, 'scrollsummonsecondportal2');
 
@@ -24406,6 +26560,9 @@ VALUES (20623, 13, True)
      , (20623, 14, True)
      , (20623, 19, True)
      , (20623, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Summoning Mastery Other II (49464) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49464;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49464, 'ace49464-scrollofsummoningmasteryotherii');
@@ -24441,6 +26598,9 @@ VALUES (49464, 13, True)
      , (49464, 19, True)
      , (49464, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Festering Curse III (43331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43331;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43331, 'ace43331-scrolloffesteringcurseiii');
 
@@ -24474,6 +26634,9 @@ VALUES (43331, 13, True)
      , (43331, 14, True)
      , (43331, 19, True)
      , (43331, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Revitalize Self V (2730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2730;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2730, 'scrollrevitalizeself5');
@@ -24509,6 +26672,9 @@ VALUES (2730, 13, True)
      , (2730, 19, True)
      , (2730, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Imperil Other IV (2704) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2704;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2704, 'scrollimperil4');
 
@@ -24542,6 +26708,9 @@ VALUES (2704, 13, True)
      , (2704, 14, True)
      , (2704, 19, True)
      , (2704, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Feeblemind Other IV (2671) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2671;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2671, 'scrollfeeblemind4');
@@ -24577,6 +26746,9 @@ VALUES (2671, 13, True)
      , (2671, 19, True)
      , (2671, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cold Protection Self V (3026) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3026;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3026, 'scrollcoldprotectionself5');
 
@@ -24610,6 +26782,9 @@ VALUES (3026, 13, True)
      , (3026, 14, True)
      , (3026, 19, True)
      , (3026, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Whirling Blade V (2971) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2971;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2971, 'scrollwhirlingblade5');
@@ -24645,6 +26820,9 @@ VALUES (2971, 13, True)
      , (2971, 19, True)
      , (2971, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of War Magic Mastery Other IV (3570) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3570;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3570, 'scrollwarmagicmasteryother4');
 
@@ -24678,6 +26856,9 @@ VALUES (3570, 13, True)
      , (3570, 14, True)
      , (3570, 19, True)
      , (3570, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Renewal Other IV (3100) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3100;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3100, 'scrollmanarenewalother4');
@@ -24713,6 +26894,9 @@ VALUES (3100, 13, True)
      , (3100, 19, True)
      , (3100, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Bolt V (2958) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2958;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2958, 'scrolllightningbolt5');
 
@@ -24746,6 +26930,9 @@ VALUES (2958, 13, True)
      , (2958, 14, True)
      , (2958, 19, True)
      , (2958, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Strength Other III (2738) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2738;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2738, 'scrollstrengthother3');
@@ -24781,6 +26968,9 @@ VALUES (2738, 13, True)
      , (2738, 19, True)
      , (2738, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shield Mastery Self III (45326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45326, 'ace45326-scrollofshieldmasteryselfiii');
 
@@ -24814,6 +27004,9 @@ VALUES (45326, 13, True)
      , (45326, 14, True)
      , (45326, 19, True)
      , (45326, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Ineptitude Other IV (3515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3515;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3515, 'scrollswordineptitude4');
@@ -24849,6 +27042,9 @@ VALUES (3515, 13, True)
      , (3515, 19, True)
      , (3515, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Heartseeker Self V (2835) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2835;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2835, 'scrollheartseeker5');
 
@@ -24882,6 +27078,9 @@ VALUES (2835, 13, True)
      , (2835, 14, True)
      , (2835, 19, True)
      , (2835, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Leaden Feet III (3344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3344;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3344, 'scrollleadenfeet3');
@@ -24917,6 +27116,9 @@ VALUES (3344, 13, True)
      , (3344, 19, True)
      , (3344, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Protection Other III (3004) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3004;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3004, 'scrollbludgeonprotectionother3');
 
@@ -24950,6 +27152,9 @@ VALUES (3004, 13, True)
      , (3004, 14, True)
      , (3004, 19, True)
      , (3004, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Bane V (2775) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2775;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2775, 'scrollbladebane5');
@@ -24985,6 +27190,9 @@ VALUES (2775, 13, True)
      , (2775, 19, True)
      , (2775, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Leadership Mastery Self III (3359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3359;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3359, 'scrollleadershipmasteryself3');
 
@@ -25018,6 +27226,9 @@ VALUES (3359, 13, True)
      , (3359, 14, True)
      , (3359, 19, True)
      , (3359, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Mastery Other IV (45271) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45271;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45271, 'ace45271-scrollofdualwieldmasteryotheriv');
@@ -25053,6 +27264,9 @@ VALUES (45271, 13, True)
      , (45271, 19, True)
      , (45271, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Turn Blade IV (2895) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2895;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2895, 'scrollturnblade4');
 
@@ -25086,6 +27300,9 @@ VALUES (2895, 13, True)
      , (2895, 14, True)
      , (2895, 19, True)
      , (2895, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weakening Curse III (43340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43340;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43340, 'ace43340-scrollofweakeningcurseiii');
@@ -25121,6 +27338,9 @@ VALUES (43340, 13, True)
      , (43340, 19, True)
      , (43340, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Ineptitude IV (3190) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3190;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3190, 'scrollcreatureenchantmentineptitude4');
 
@@ -25154,6 +27374,9 @@ VALUES (3190, 13, True)
      , (3190, 14, True)
      , (3190, 19, True)
      , (3190, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Resist Magic Other V (3466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3466;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3466, 'scrollresistmagicother5');
@@ -25189,6 +27412,9 @@ VALUES (3466, 13, True)
      , (3466, 19, True)
      , (3466, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Ineptitude Other VI (45337) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45337;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45337, 'ace45337-scrollofsneakattackineptitudeothervi');
 
@@ -25222,6 +27448,9 @@ VALUES (45337, 13, True)
      , (45337, 14, True)
      , (45337, 19, True)
      , (45337, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Stamina to Mana Self II (9655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9655;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9655, 'scrollstaminatomanaself2');
@@ -25257,6 +27486,9 @@ VALUES (9655, 13, True)
      , (9655, 19, True)
      , (9655, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Regenerate Self IV (3115) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3115;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3115, 'scrollregenerateself4');
 
@@ -25290,6 +27522,9 @@ VALUES (3115, 13, True)
      , (3115, 14, True)
      , (3115, 19, True)
      , (3115, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapon Mastery Other IV (41299) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41299;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41299, 'ace41299-scrolloftwohandedweaponmasteryotheriv');
@@ -25325,6 +27560,9 @@ VALUES (41299, 13, True)
      , (41299, 19, True)
      , (41299, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Festering Curse IV (43332) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43332;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43332, 'ace43332-scrolloffesteringcurseiv');
 
@@ -25358,6 +27596,9 @@ VALUES (43332, 13, True)
      , (43332, 14, True)
      , (43332, 19, True)
      , (43332, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Lure IV (2769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2769;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2769, 'scrollacidlure4');
@@ -25393,6 +27634,9 @@ VALUES (2769, 13, True)
      , (2769, 19, True)
      , (2769, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Self IV (4392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4392;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4392, 'scrollarmorself4');
 
@@ -25426,6 +27670,9 @@ VALUES (4392, 13, True)
      , (4392, 14, True)
      , (4392, 19, True)
      , (4392, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fealty Other IV (3260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3260;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3260, 'scrollfealtyother4');
@@ -25461,6 +27708,9 @@ VALUES (3260, 13, True)
      , (3260, 19, True)
      , (3260, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Drain Mana Other IV (9663) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9663;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9663, 'scrolldrainmana4');
 
@@ -25494,6 +27744,9 @@ VALUES (9663, 13, True)
      , (9663, 14, True)
      , (9663, 19, True)
      , (9663, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Deception Ineptitude IV (3235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3235;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3235, 'scrolldeceptionineptitude4');
@@ -25529,6 +27782,9 @@ VALUES (3235, 13, True)
      , (3235, 19, True)
      , (3235, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Tenacity III (21111) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21111;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21111, 'scrollstaminabolt3');
 
@@ -25562,6 +27818,9 @@ VALUES (21111, 13, True)
      , (21111, 14, True)
      , (21111, 19, True)
      , (21111, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Drain Other III (2708) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2708;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2708, 'scrollmanadrain3');
@@ -25597,6 +27856,9 @@ VALUES (2708, 13, True)
      , (2708, 19, True)
      , (2708, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of War Magic Mastery Other III (3569) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3569;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3569, 'scrollwarmagicmasteryother3');
 
@@ -25630,6 +27892,9 @@ VALUES (3569, 13, True)
      , (3569, 14, True)
      , (3569, 19, True)
      , (3569, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Lure V (2860) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2860;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2860, 'scrolllightninglure5');
@@ -25665,6 +27930,9 @@ VALUES (2860, 13, True)
      , (2860, 19, True)
      , (2860, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Evaporate Life Magic Other (20390) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20390;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20390, 'scrolldispellifeneutralother');
 
@@ -25698,6 +27966,9 @@ VALUES (20390, 13, True)
      , (20390, 14, True)
      , (20390, 19, True)
      , (20390, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapon Mastery Other II (41297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41297;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41297, 'ace41297-scrolloftwohandedweaponmasteryotherii');
@@ -25733,6 +28004,9 @@ VALUES (41297, 13, True)
      , (41297, 19, True)
      , (41297, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shock Arc II (21331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21331;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21331, 'scrollshockarc2');
 
@@ -25766,6 +28040,9 @@ VALUES (21331, 13, True)
      , (21331, 14, True)
      , (21331, 19, True)
      , (21331, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Mastery Self II (3433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3433;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3433, 'scrollmanaconvertmasteryself2');
@@ -25801,6 +28078,9 @@ VALUES (3433, 13, True)
      , (3433, 19, True)
      , (3433, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Resist Magic Other (1661) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1661;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1661, 'scrollresistmagicother');
 
@@ -25834,6 +28114,9 @@ VALUES (1661, 13, True)
      , (1661, 14, True)
      , (1661, 19, True)
      , (1661, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Mastery Self III (45254) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45254;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45254, 'ace45254-scrollofdirtyfightingmasteryselfiii');
@@ -25869,6 +28152,9 @@ VALUES (45254, 13, True)
      , (45254, 19, True)
      , (45254, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Defender Other II (46874) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46874;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46874, 'ace46874-auraofdefenderotherii');
 
@@ -25902,6 +28188,9 @@ VALUES (46874, 13, True)
      , (46874, 14, True)
      , (46874, 19, True)
      , (46874, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Monster Attunement Other V (3441) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3441;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3441, 'scrollmonsterattunementother5');
@@ -25937,6 +28226,9 @@ VALUES (3441, 13, True)
      , (3441, 19, True)
      , (3441, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana to Stamina Self IV (9647) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9647;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9647, 'scrollmanatostaminaself4');
 
@@ -25970,6 +28262,9 @@ VALUES (9647, 13, True)
      , (9647, 14, True)
      , (9647, 19, True)
      , (9647, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Ineptitude IV (3365) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3365;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3365, 'scrolllifemagicineptitude4');
@@ -26005,6 +28300,9 @@ VALUES (3365, 13, True)
      , (3365, 19, True)
      , (3365, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Blight V (21106) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21106;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21106, 'scrollmanabolt5');
 
@@ -26038,6 +28336,9 @@ VALUES (21106, 13, True)
      , (21106, 14, True)
      , (21106, 19, True)
      , (21106, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Mastery Self VI (3527) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3527;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3527, 'scrollswordmasteryself6');
@@ -26073,6 +28374,9 @@ VALUES (3527, 13, True)
      , (3527, 19, True)
      , (3527, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Mastery Self VI (5997) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5997;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5997, 'scrollalchemymasteryself6');
 
@@ -26106,6 +28410,9 @@ VALUES (5997, 13, True)
      , (5997, 14, True)
      , (5997, 19, True)
      , (5997, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Extinguish Life Magic Self (20397) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20397;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20397, 'scrolldispellifeneutralself2');
@@ -26141,6 +28448,9 @@ VALUES (20397, 13, True)
      , (20397, 19, True)
      , (20397, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Mastery Other IV (3430) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3430;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3430, 'scrollmanaconvertmasteryother4');
 
@@ -26174,6 +28484,9 @@ VALUES (3430, 13, True)
      , (3430, 14, True)
      , (3430, 19, True)
      , (3430, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shock Arc IV (21333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21333;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21333, 'scrollshockarc4');
@@ -26209,6 +28522,9 @@ VALUES (21333, 13, True)
      , (21333, 19, True)
      , (21333, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeoning Vulnerability Other IV (3015) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3015;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3015, 'scrollbludgeonvulnerabilityother4');
 
@@ -26242,6 +28558,9 @@ VALUES (3015, 13, True)
      , (3015, 14, True)
      , (3015, 19, True)
      , (3015, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Expertise Other VI (3147) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3147;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3147, 'scrollarmorexpertiseother6');
@@ -26277,6 +28596,9 @@ VALUES (3147, 13, True)
      , (3147, 19, True)
      , (3147, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Hands of Chorizite (20498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20498;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20498, 'scrollarcanebenightedness7');
 
@@ -26310,6 +28632,9 @@ VALUES (20498, 13, True)
      , (20498, 14, True)
      , (20498, 19, True)
      , (20498, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fletching Mastery Other V (5972) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5972;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5972, 'scrollfletchingmasteryother5');
@@ -26345,6 +28670,9 @@ VALUES (5972, 13, True)
      , (5972, 19, True)
      , (5972, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Harlune's Blessing (20554) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20554;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20554, 'scrolllifemagicmasteryself7');
 
@@ -26378,6 +28706,9 @@ VALUES (20554, 13, True)
      , (20554, 14, True)
      , (20554, 19, True)
      , (20554, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Heartseeker Other VII (46881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46881;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46881, 'ace46881-auraofheartseekerothervii');
@@ -26413,6 +28744,9 @@ VALUES (46881, 13, True)
      , (46881, 19, True)
      , (46881, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Bane VI (2816) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2816;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2816, 'scrollflamebane6');
 
@@ -26446,6 +28780,9 @@ VALUES (2816, 13, True)
      , (2816, 14, True)
      , (2816, 19, True)
      , (2816, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Protection Self VI (3057) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3057;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3057, 'scrolllightningprotectionself6');
@@ -26481,6 +28818,9 @@ VALUES (3057, 13, True)
      , (3057, 19, True)
      , (3057, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fire Protection Other VI (3037) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3037;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3037, 'scrollfireprotectionother6');
 
@@ -26514,6 +28854,9 @@ VALUES (3037, 13, True)
      , (3037, 14, True)
      , (3037, 19, True)
      , (3037, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Armor Self VI (4394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4394;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4394, 'scrollarmorself6');
@@ -26549,6 +28892,9 @@ VALUES (4394, 13, True)
      , (4394, 19, True)
      , (4394, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Hermetic Void VI (2841) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2841;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2841, 'scrollhidevalue6');
 
@@ -26582,6 +28928,9 @@ VALUES (2841, 13, True)
      , (2841, 14, True)
      , (2841, 19, True)
      , (2841, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Spirit Drinker Self II (28003) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28003;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28003, 'scrollspiritdrinker2');
@@ -26617,6 +28966,9 @@ VALUES (28003, 13, True)
      , (28003, 19, True)
      , (28003, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frailty Other VI (2686) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2686;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2686, 'scrollfrailty6');
 
@@ -26650,6 +29002,9 @@ VALUES (2686, 13, True)
      , (2686, 14, True)
      , (2686, 19, True)
      , (2686, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Exhaustion Other VI (3082) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3082;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3082, 'scrollexhaustion6');
@@ -26685,6 +29040,9 @@ VALUES (3082, 13, True)
      , (3082, 19, True)
      , (3082, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Protection Self IV (3055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3055;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3055, 'scrolllightningprotectionself4');
 
@@ -26718,6 +29076,9 @@ VALUES (3055, 13, True)
      , (3055, 14, True)
      , (3055, 19, True)
      , (3055, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Ineptitude Other (1741) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1741;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1741, 'scrollswordineptitude');
@@ -26753,6 +29114,9 @@ VALUES (1741, 13, True)
      , (1741, 19, True)
      , (1741, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cooking Mastery Self III (5958) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5958;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5958, 'scrollcookingmasteryself3');
 
@@ -26786,6 +29150,9 @@ VALUES (5958, 13, True)
      , (5958, 14, True)
      , (5958, 19, True)
      , (5958, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Mastery Self II (3523) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3523;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3523, 'scrollswordmasteryself2');
@@ -26821,6 +29188,9 @@ VALUES (3523, 13, True)
      , (3523, 19, True)
      , (3523, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cooking Mastery Other II (5951) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5951;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5951, 'scrollcookingmasteryother2');
 
@@ -26854,6 +29224,9 @@ VALUES (5951, 13, True)
      , (5951, 14, True)
      , (5951, 19, True)
      , (5951, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Whirling Blade (1642) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1642;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1642, 'scrollwhirlingblade');
@@ -26889,6 +29262,9 @@ VALUES (1642, 13, True)
      , (1642, 19, True)
      , (1642, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Self II (3183) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3183;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3183, 'scrollbowmasteryself2');
 
@@ -26922,6 +29298,9 @@ VALUES (3183, 13, True)
      , (3183, 14, True)
      , (3183, 19, True)
      , (3183, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shock Wave II (2963) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2963;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2963, 'scrollshockwave2');
@@ -26957,6 +29336,9 @@ VALUES (2963, 13, True)
      , (2963, 19, True)
      , (2963, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Deception Mastery Self VI (3247) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3247;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3247, 'scrolldeceptionmasteryself6');
 
@@ -26990,6 +29372,9 @@ VALUES (3247, 13, True)
      , (3247, 14, True)
      , (3247, 19, True)
      , (3247, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Feeblemind Other VI (2673) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2673;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2673, 'scrollfeeblemind6');
@@ -27025,6 +29410,9 @@ VALUES (2673, 13, True)
      , (2673, 19, True)
      , (2673, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Harm Other VI (2691) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2691;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2691, 'scrollharmother6');
 
@@ -27058,6 +29446,9 @@ VALUES (2691, 13, True)
      , (2691, 14, True)
      , (2691, 19, True)
      , (2691, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Archer's Bane (20423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20423;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20423, 'scrollpiercingbane7');
@@ -27093,6 +29484,9 @@ VALUES (20423, 13, True)
      , (20423, 19, True)
      , (20423, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Defender Other VII (46880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46880;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46880, 'ace46880-auraofdefenderothervii');
 
@@ -27126,6 +29520,9 @@ VALUES (46880, 13, True)
      , (46880, 14, True)
      , (46880, 19, True)
      , (46880, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Leadership Ineptitude VI (3352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3352;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3352, 'scrollleadershipineptitude6');
@@ -27161,6 +29558,9 @@ VALUES (3352, 13, True)
      , (3352, 19, True)
      , (3352, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Ignorance VI (3332) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3332;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3332, 'scrollitemignorance6');
 
@@ -27194,6 +29594,9 @@ VALUES (3332, 13, True)
      , (3332, 14, True)
      , (3332, 19, True)
      , (3332, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mind Blossom (20257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20257;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20257, 'scrollwillpowerself7');
@@ -27229,6 +29632,9 @@ VALUES (20257, 13, True)
      , (20257, 19, True)
      , (20257, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Quickness Other VI (2716) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2716;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2716, 'scrollquicknessother6');
 
@@ -27262,6 +29668,9 @@ VALUES (2716, 13, True)
      , (2716, 14, True)
      , (2716, 19, True)
      , (2716, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cold Protection Self VI (3027) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3027;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3027, 'scrollcoldprotectionself6');
@@ -27297,6 +29706,9 @@ VALUES (3027, 13, True)
      , (3027, 19, True)
      , (3027, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Ar-Pei's Boon (20550) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20550;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20550, 'scrollleadershipmasteryother7');
 
@@ -27330,6 +29742,9 @@ VALUES (20550, 13, True)
      , (20550, 14, True)
      , (20550, 19, True)
      , (20550, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Turn Blade VI (2897) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2897;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2897, 'scrollturnblade6');
@@ -27365,6 +29780,9 @@ VALUES (2897, 13, True)
      , (2897, 19, True)
      , (2897, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Mastery Self VI (45305) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45305;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45305, 'ace45305-scrollofrecklessnessmasteryselfvi');
 
@@ -27398,6 +29816,9 @@ VALUES (45305, 13, True)
      , (45305, 14, True)
      , (45305, 19, True)
      , (45305, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Blood Drinker Other VI (46855) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46855;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46855, 'ace46855-auraofblooddrinkerothervi');
@@ -27433,6 +29854,9 @@ VALUES (46855, 13, True)
      , (46855, 19, True)
      , (46855, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Corruption VI (43291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43291;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43291, 'ace43291-scrollofcorruptionvi');
 
@@ -27466,6 +29890,9 @@ VALUES (43291, 13, True)
      , (43291, 14, True)
      , (43291, 19, True)
      , (43291, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Bolt VI (6002) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6002;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6002, 'scrollflamebolt6');
@@ -27501,6 +29928,9 @@ VALUES (6002, 13, True)
      , (6002, 19, True)
      , (6002, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Focus Self VI (2681) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2681;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2681, 'scrollfocusself6');
 
@@ -27534,6 +29964,9 @@ VALUES (2681, 13, True)
      , (2681, 14, True)
      , (2681, 19, True)
      , (2681, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Expertise Other VI (3412) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3412;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3412, 'scrollmagicitemexpertiseother6');
@@ -27569,6 +30002,9 @@ VALUES (3412, 13, True)
      , (3412, 19, True)
      , (3412, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sprint Other VI (3492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3492;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3492, 'scrollsprintother6');
 
@@ -27602,6 +30038,9 @@ VALUES (3492, 13, True)
      , (3492, 14, True)
      , (3492, 19, True)
      , (3492, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Mastery Other VII (45298) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45298;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45298, 'ace45298-scrollofrecklessnessmasteryothervii');
@@ -27637,6 +30076,9 @@ VALUES (45298, 13, True)
      , (45298, 19, True)
      , (45298, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Defender Self VI (2811) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2811;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2811, 'scrolldefender6');
 
@@ -27670,6 +30112,9 @@ VALUES (2811, 13, True)
      , (2811, 14, True)
      , (2811, 19, True)
      , (2811, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Lure VI (2821) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2821;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2821, 'scrollflamelure6');
@@ -27705,6 +30150,9 @@ VALUES (2821, 13, True)
      , (2821, 19, True)
      , (2821, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Protection Other VI (3067) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3067;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3067, 'scrollpierceprotectionother6');
 
@@ -27738,6 +30186,9 @@ VALUES (3067, 13, True)
      , (3067, 14, True)
      , (3067, 19, True)
      , (3067, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Whirling Blade VI (2972) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2972;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2972, 'scrollwhirlingblade6');
@@ -27773,6 +30224,9 @@ VALUES (2972, 13, True)
      , (2972, 19, True)
      , (2972, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Deception Mastery Other VI (3242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3242;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3242, 'scrolldeceptionmasteryother6');
 
@@ -27806,6 +30260,9 @@ VALUES (3242, 13, True)
      , (3242, 14, True)
      , (3242, 19, True)
      , (3242, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Deception Ineptitude VI (3237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3237;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3237, 'scrolldeceptionineptitude6');
@@ -27841,6 +30298,9 @@ VALUES (3237, 13, True)
      , (3237, 19, True)
      , (3237, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nether Arc VI (43299) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43299;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43299, 'ace43299-scrollofnetherarcvi');
 
@@ -27874,6 +30334,9 @@ VALUES (43299, 13, True)
      , (43299, 14, True)
      , (43299, 19, True)
      , (43299, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weakening Curse VI (43343) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43343;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43343, 'ace43343-scrollofweakeningcursevi');
@@ -27909,6 +30372,9 @@ VALUES (43343, 13, True)
      , (43343, 19, True)
      , (43343, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Person Attunement Self VI (3457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3457;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3457, 'scrollpersonattunementself6');
 
@@ -27942,6 +30408,9 @@ VALUES (3457, 13, True)
      , (3457, 14, True)
      , (3457, 19, True)
      , (3457, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Synaptic Misfire (20232) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20232;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20232, 'scrollbafflement7');
@@ -27977,6 +30446,9 @@ VALUES (20232, 13, True)
      , (20232, 19, True)
      , (20232, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Leaden Feet VI (3347) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3347;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3347, 'scrollleadenfeet6');
 
@@ -28010,6 +30482,9 @@ VALUES (3347, 13, True)
      , (3347, 14, True)
      , (3347, 19, True)
      , (3347, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Streak VI (8940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8940;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8940, 'scrollfroststreak6');
@@ -28045,6 +30520,9 @@ VALUES (8940, 13, True)
      , (8940, 19, True)
      , (8940, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapon Mastery Other VI (41301) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41301;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41301, 'ace41301-scrolloftwohandedweaponmasteryothervi');
 
@@ -28078,6 +30556,9 @@ VALUES (41301, 13, True)
      , (41301, 14, True)
      , (41301, 19, True)
      , (41301, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Perseverance (20237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20237;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20237, 'scrollenduranceself7');
@@ -28113,6 +30594,9 @@ VALUES (20237, 13, True)
      , (20237, 19, True)
      , (20237, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Healing Mastery Self VI (3282) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3282;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3282, 'scrollhealingmasteryself6');
 
@@ -28146,6 +30630,9 @@ VALUES (3282, 13, True)
      , (3282, 14, True)
      , (3282, 19, True)
      , (3282, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Coordination Other VI (2648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2648;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2648, 'scrollcoordinationother6');
@@ -28181,6 +30668,9 @@ VALUES (2648, 13, True)
      , (2648, 19, True)
      , (2648, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Lure VI (2831) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2831;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2831, 'scrollfrostlure6');
 
@@ -28214,6 +30704,9 @@ VALUES (2831, 13, True)
      , (2831, 14, True)
      , (2831, 19, True)
      , (2831, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blessing of T'ing (41262) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41262;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41262, 'ace41262-scrollofblessingofting');
@@ -28249,6 +30742,9 @@ VALUES (41262, 13, True)
      , (41262, 19, True)
      , (41262, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fletching Ineptitude Other VI (5967) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5967;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5967, 'scrollfletchingineptitude6');
 
@@ -28282,6 +30778,9 @@ VALUES (5967, 13, True)
      , (5967, 14, True)
      , (5967, 19, True)
      , (5967, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Blight VI (21107) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21107;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21107, 'scrollmanabolt6');
@@ -28317,6 +30816,9 @@ VALUES (21107, 13, True)
      , (21107, 19, True)
      , (21107, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Ineptitude VI (3382) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3382;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3382, 'scrolllockpickineptitude6');
 
@@ -28350,6 +30852,9 @@ VALUES (3382, 13, True)
      , (3382, 14, True)
      , (3382, 19, True)
      , (3382, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcane Enlightenment Self VI (3142) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3142;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3142, 'scrollarcaneenlightenmentself6');
@@ -28385,6 +30890,9 @@ VALUES (3142, 13, True)
      , (3142, 19, True)
      , (3142, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Ineptitude Other VI (45265) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45265;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45265, 'ace45265-scrollofdualwieldineptitudeothervi');
 
@@ -28418,6 +30926,9 @@ VALUES (45265, 13, True)
      , (45265, 14, True)
      , (45265, 19, True)
      , (45265, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Bane VI (2776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2776;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2776, 'scrollbladebane6');
@@ -28453,6 +30964,9 @@ VALUES (2776, 13, True)
      , (2776, 19, True)
      , (2776, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Jumping Mastery Self VI (3342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3342;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3342, 'scrolljumpmasteryself6');
 
@@ -28486,6 +31000,9 @@ VALUES (3342, 13, True)
      , (3342, 14, True)
      , (3342, 19, True)
      , (3342, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Clouded Soul II (53335) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53335;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53335, 'ace53335-scrollofcloudedsoulii');
@@ -28521,6 +31038,9 @@ VALUES (53335, 13, True)
      , (53335, 19, True)
      , (53335, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Lightning Arc (37854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37854;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37854, 'ace37854-inscriptionoflightningarc');
 
@@ -28554,6 +31074,9 @@ VALUES (37854, 13, True)
      , (37854, 14, True)
      , (37854, 19, True)
      , (37854, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Invulnerability Self (37828) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37828;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37828, 'ace37828-inscriptionofinvulnerabilityself');
@@ -28589,6 +31112,9 @@ VALUES (37828, 13, True)
      , (37828, 19, True)
      , (37828, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nuhmudira's Spines II (53339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53339;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53339, 'ace53339-scrollofnuhmudirasspinesii');
 
@@ -28622,6 +31148,9 @@ VALUES (53339, 13, True)
      , (53339, 14, True)
      , (53339, 19, True)
      , (53339, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Searing Disc II (53336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53336;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53336, 'ace53336-scrollofsearingdiscii');
@@ -28657,6 +31186,9 @@ VALUES (53336, 13, True)
      , (53336, 19, True)
      , (53336, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Halo of Frost II (53340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53340;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53340, 'ace53340-scrollofhalooffrostii');
 
@@ -28690,6 +31222,9 @@ VALUES (53340, 13, True)
      , (53340, 14, True)
      , (53340, 19, True)
      , (53340, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Tectonic Rifts II (53342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53342;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53342, 'ace53342-scrolloftectonicriftsii');
@@ -28725,6 +31260,9 @@ VALUES (53342, 13, True)
      , (53342, 19, True)
      , (53342, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Horizon's Blades II (53337) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53337;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53337, 'ace53337-scrollofhorizonsbladesii');
 
@@ -28758,6 +31296,9 @@ VALUES (53337, 13, True)
      , (53337, 14, True)
      , (53337, 19, True)
      , (53337, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lifestone Recall (2903) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2903;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2903, 'scrolllifestonerecall1');
@@ -28793,6 +31334,9 @@ VALUES (2903, 13, True)
      , (2903, 19, True)
      , (2903, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lifestone Tie (20618) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20618;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20618, 'scrolllifestonetie1');
 
@@ -28826,6 +31370,9 @@ VALUES (20618, 13, True)
      , (20618, 14, True)
      , (20618, 19, True)
      , (20618, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Portal Recall (1564) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1564;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1564, 'scrollportalrecall');
@@ -28861,6 +31408,9 @@ VALUES (1564, 13, True)
      , (1564, 19, True)
      , (1564, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Primary Portal Tie (1565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1565;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1565, 'scrollportaltie1');
 
@@ -28894,6 +31444,9 @@ VALUES (1565, 13, True)
      , (1565, 14, True)
      , (1565, 19, True)
      , (1565, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Secondary Portal Tie (20619) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20619;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20619, 'scrollportaltie2');
@@ -28929,6 +31482,9 @@ VALUES (20619, 13, True)
      , (20619, 19, True)
      , (20619, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Primary Portal Recall (20620) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20620;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20620, 'scrollportaltierecall1');
 
@@ -28962,6 +31518,9 @@ VALUES (20620, 13, True)
      , (20620, 14, True)
      , (20620, 19, True)
      , (20620, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Secondary Portal Recall (20621) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20621;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20621, 'scrollportaltierecall2');
@@ -28997,6 +31556,9 @@ VALUES (20621, 13, True)
      , (20621, 19, True)
      , (20621, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Healing Mastery Other III (3274) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3274;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3274, 'scrollhealingmasteryother3');
 
@@ -29030,6 +31592,9 @@ VALUES (3274, 13, True)
      , (3274, 14, True)
      , (3274, 19, True)
      , (3274, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapon Mastery Self IV (41259) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41259;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41259, 'ace41259-scrolloftwohandedweaponmasteryselfiv');
@@ -29065,6 +31630,9 @@ VALUES (41259, 13, True)
      , (41259, 19, True)
      , (41259, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weakening Curse IV (43341) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43341;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43341, 'ace43341-scrollofweakeningcurseiv');
 
@@ -29098,6 +31666,9 @@ VALUES (43341, 13, True)
      , (43341, 14, True)
      , (43341, 19, True)
      , (43341, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Monster Unfamiliarity II (3443) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3443;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3443, 'scrollmonsterunfamiliarity2');
@@ -29133,6 +31704,9 @@ VALUES (3443, 13, True)
      , (3443, 19, True)
      , (3443, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Protection Self III (3054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3054;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3054, 'scrolllightningprotectionself3');
 
@@ -29166,6 +31740,9 @@ VALUES (3054, 13, True)
      , (3054, 14, True)
      , (3054, 19, True)
      , (3054, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Willpower Other (1836) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1836;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1836, 'scrollwillpowerother');
@@ -29201,6 +31778,9 @@ VALUES (1836, 13, True)
      , (1836, 19, True)
      , (1836, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Willpower Other II (2752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2752;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2752, 'scrollwillpowerother2');
 
@@ -29234,6 +31814,9 @@ VALUES (2752, 13, True)
      , (2752, 14, True)
      , (2752, 19, True)
      , (2752, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Renewal Self II (3103) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3103;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3103, 'scrollmanarenewalself2');
@@ -29269,6 +31852,9 @@ VALUES (3103, 13, True)
      , (3103, 19, True)
      , (3103, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Bane II (2772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2772;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2772, 'scrollbladebane2');
 
@@ -29302,6 +31888,9 @@ VALUES (2772, 13, True)
      , (2772, 14, True)
      , (2772, 19, True)
      , (2772, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Protection Other II (2973) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2973;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2973, 'scrollacidprotectionother2');
@@ -29337,6 +31926,9 @@ VALUES (2973, 13, True)
      , (2973, 19, True)
      , (2973, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Mastery Other (1742) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1742;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1742, 'scrollswordmasteryother');
 
@@ -29370,6 +31962,9 @@ VALUES (1742, 13, True)
      , (1742, 14, True)
      , (1742, 19, True)
      , (1742, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Self (1687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1687;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1687, 'scrollbowmasteryself');
@@ -29405,6 +32000,9 @@ VALUES (1687, 13, True)
      , (1687, 19, True)
      , (1687, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Hecatomb III (21097) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21097;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21097, 'scrollhealthbolt3');
 
@@ -29438,6 +32036,9 @@ VALUES (21097, 13, True)
      , (21097, 14, True)
      , (21097, 19, True)
      , (21097, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Hermetic Link Other II (46876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46876;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46876, 'ace46876-auraofhermeticlinkotherii');
@@ -29473,6 +32074,9 @@ VALUES (46876, 13, True)
      , (46876, 19, True)
      , (46876, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcanum Enlightenment I (28940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28940;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28940, 'scrollarcanumsalvagingother');
 
@@ -29506,6 +32110,9 @@ VALUES (28940, 13, True)
      , (28940, 14, True)
      , (28940, 19, True)
      , (28940, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Healing Ineptitude II (3268) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3268;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3268, 'scrollhealingineptitude2');
@@ -29541,6 +32148,9 @@ VALUES (3268, 13, True)
      , (3268, 19, True)
      , (3268, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Vulnerability V (3561) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3561;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3561, 'scrollvulnerabilityother5');
 
@@ -29574,6 +32184,9 @@ VALUES (3561, 13, True)
      , (3561, 14, True)
      , (3561, 19, True)
      , (3561, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cooking Mastery Other (5950) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5950;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5950, 'scrollcookingmasteryother');
@@ -29609,6 +32222,9 @@ VALUES (5950, 13, True)
      , (5950, 19, True)
      , (5950, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of War Magic Mastery Self II (3573) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3573;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3573, 'scrollwarmagicmasteryself2');
 
@@ -29642,6 +32258,9 @@ VALUES (3573, 13, True)
      , (3573, 14, True)
      , (3573, 19, True)
      , (3573, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Expertise Other II (3143) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3143;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3143, 'scrollarmorexpertiseother2');
@@ -29677,6 +32296,9 @@ VALUES (3143, 13, True)
      , (3143, 19, True)
      , (3143, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Person Attunement Other II (3448) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3448;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3448, 'scrollpersonattunementother2');
 
@@ -29710,6 +32332,9 @@ VALUES (3448, 13, True)
      , (3448, 14, True)
      , (3448, 19, True)
      , (3448, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Revitalize Self II (2727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2727;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2727, 'scrollrevitalizeself2');
@@ -29745,6 +32370,9 @@ VALUES (2727, 13, True)
      , (2727, 19, True)
      , (2727, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Imperil Other III (2703) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2703;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2703, 'scrollimperil3');
 
@@ -29778,6 +32406,9 @@ VALUES (2703, 13, True)
      , (2703, 14, True)
      , (2703, 19, True)
      , (2703, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Defender Self III (2808) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2808;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2808, 'scrolldefender3');
@@ -29813,6 +32444,9 @@ VALUES (2808, 13, True)
      , (2808, 19, True)
      , (2808, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Expertise Other II (3408) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3408;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3408, 'scrollmagicitemexpertiseother2');
 
@@ -29846,6 +32480,9 @@ VALUES (3408, 13, True)
      , (3408, 14, True)
      , (3408, 19, True)
      , (3408, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Leadership Mastery Other III (3354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3354;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3354, 'scrollleadershipmasteryother3');
@@ -29881,6 +32518,9 @@ VALUES (3354, 13, True)
      , (3354, 19, True)
      , (3354, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Mastery Other III (3309) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3309;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3309, 'scrollitemenchantmentmasteryother3');
 
@@ -29914,6 +32554,9 @@ VALUES (3309, 13, True)
      , (3309, 14, True)
      , (3309, 19, True)
      , (3309, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Ineptitude (1688) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1688;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1688, 'scrollcreatureenchantmentineptitude');
@@ -29949,6 +32592,9 @@ VALUES (1688, 13, True)
      , (1688, 19, True)
      , (1688, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Infuse Mana II (3736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3736;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3736, 'scrollinfusemana2');
 
@@ -29982,6 +32628,9 @@ VALUES (3736, 13, True)
      , (3736, 14, True)
      , (3736, 19, True)
      , (3736, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cold Vulnerability Other II (3028) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3028;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3028, 'scrollcoldvulnerabilityother2');
@@ -30017,6 +32666,9 @@ VALUES (3028, 13, True)
      , (3028, 19, True)
      , (3028, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Ineptitude Other (1675) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1675;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1675, 'scrolldaggerineptitudeother');
 
@@ -30050,6 +32702,9 @@ VALUES (1675, 13, True)
      , (1675, 14, True)
      , (1675, 19, True)
      , (1675, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Invulnerability Self II (3298) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3298;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3298, 'scrollinvulnerabilityself2');
@@ -30085,6 +32740,9 @@ VALUES (3298, 13, True)
      , (3298, 19, True)
      , (3298, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sprint Other V (3491) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3491;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3491, 'scrollsprintother5');
 
@@ -30118,6 +32776,9 @@ VALUES (3491, 13, True)
      , (3491, 14, True)
      , (3491, 19, True)
      , (3491, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Leaden Weapon III (2848) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2848;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2848, 'scrollleadenweapon3');
@@ -30153,6 +32814,9 @@ VALUES (2848, 13, True)
      , (2848, 19, True)
      , (2848, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nether Bolt II (43303) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43303;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43303, 'ace43303-scrollofnetherboltii');
 
@@ -30186,6 +32850,9 @@ VALUES (43303, 13, True)
      , (43303, 14, True)
      , (43303, 19, True)
      , (43303, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cleanse Creature Magic Other (20320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20320;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20320, 'scrolldispelcreatureneutralother3');
@@ -30221,6 +32888,9 @@ VALUES (20320, 13, True)
      , (20320, 19, True)
      , (20320, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Mastery Other II (43359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43359;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43359, 'ace43359-scrollofvoidmagicmasteryotherii');
 
@@ -30254,6 +32924,9 @@ VALUES (43359, 13, True)
      , (43359, 14, True)
      , (43359, 19, True)
      , (43359, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Leadership Ineptitude (1713) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1713;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1713, 'scrollleadershipineptitude');
@@ -30289,6 +32962,9 @@ VALUES (1713, 13, True)
      , (1713, 19, True)
      , (1713, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blood Loather (1589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1589;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1589, 'scrollbloodloather');
 
@@ -30322,6 +32998,9 @@ VALUES (1589, 13, True)
      , (1589, 14, True)
      , (1589, 19, True)
      , (1589, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana to Health Self II (9640) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9640;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9640, 'scrollmanatohealthself2');
@@ -30357,6 +33036,9 @@ VALUES (9640, 13, True)
      , (9640, 19, True)
      , (9640, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Expertise Self III (3149) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3149;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3149, 'scrollarmorexpertiseself3');
 
@@ -30390,6 +33072,9 @@ VALUES (3149, 13, True)
      , (3149, 14, True)
      , (3149, 19, True)
      , (3149, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapons Ineptitude III (41290) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41290;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41290, 'ace41290-scrolloftwohandedweaponsineptitudeiii');
@@ -30425,6 +33110,9 @@ VALUES (41290, 13, True)
      , (41290, 19, True)
      , (41290, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Vulnerability Other (1843) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1843;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1843, 'scrollbladevulnerabilityother');
 
@@ -30458,6 +33146,9 @@ VALUES (1843, 13, True)
      , (1843, 14, True)
      , (1843, 19, True)
      , (1843, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Ineptitude Other II (45261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45261;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45261, 'ace45261-scrollofdualwieldineptitudeotherii');
@@ -30493,6 +33184,9 @@ VALUES (45261, 13, True)
      , (45261, 19, True)
      , (45261, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Mastery Other (1717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1717;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1717, 'scrolllifemagicmasteryother');
 
@@ -30526,6 +33220,9 @@ VALUES (1717, 13, True)
      , (1717, 14, True)
      , (1717, 19, True)
      , (1717, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Piercing Protection Self II (3068) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3068;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3068, 'scrollpierceprotectionself2');
@@ -30561,6 +33258,9 @@ VALUES (3068, 13, True)
      , (3068, 19, True)
      , (3068, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Expertise Other III (3579) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3579;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3579, 'scrollweaponexpertiseother3');
 
@@ -30594,6 +33294,9 @@ VALUES (3579, 13, True)
      , (3579, 14, True)
      , (3579, 19, True)
      , (3579, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Drain Stamina (1860) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1860;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1860, 'scrolldrainstamina');
@@ -30629,6 +33332,9 @@ VALUES (1860, 13, True)
      , (1860, 19, True)
      , (1860, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Jumping Mastery Other II (3333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3333;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3333, 'scrolljumpmasteryother2');
 
@@ -30662,6 +33368,9 @@ VALUES (3333, 13, True)
      , (3333, 14, True)
      , (3333, 19, True)
      , (3333, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Deception Mastery Other II (3238) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3238;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3238, 'scrolldeceptionmasteryother2');
@@ -30697,6 +33406,9 @@ VALUES (3238, 13, True)
      , (3238, 19, True)
      , (3238, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Deception Mastery Self (1696) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1696;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1696, 'scrolldeceptionmasteryself');
 
@@ -30730,6 +33442,9 @@ VALUES (1696, 13, True)
      , (1696, 14, True)
      , (1696, 19, True)
      , (1696, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Ineptitude IV (3380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3380;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3380, 'scrolllockpickineptitude4');
@@ -30765,6 +33480,9 @@ VALUES (3380, 13, True)
      , (3380, 19, True)
      , (3380, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Mastery Other III (43368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43368;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43368, 'ace43368-scrollofvoidmagicmasteryotheriii');
 
@@ -30798,6 +33516,9 @@ VALUES (43368, 13, True)
      , (43368, 14, True)
      , (43368, 19, True)
      , (43368, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Mastery Self V (3316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3316;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3316, 'scrollitemenchantmentmasteryself5');
@@ -30833,6 +33554,9 @@ VALUES (3316, 13, True)
      , (3316, 19, True)
      , (3316, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Ineptitude IV (43370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43370;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43370, 'ace43370-scrollofvoidmagicineptitudeiv');
 
@@ -30866,6 +33590,9 @@ VALUES (43370, 13, True)
      , (43370, 14, True)
      , (43370, 19, True)
      , (43370, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Bolt (1640) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1640;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1640, 'scrolllightningbolt');
@@ -30901,6 +33628,9 @@ VALUES (1640, 13, True)
      , (1640, 19, True)
      , (1640, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Summoning Mastery Self VI (49475) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49475;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49475, 'ace49475-scrollofsummoningmasteryselfvi');
 
@@ -30934,6 +33664,9 @@ VALUES (49475, 13, True)
      , (49475, 14, True)
      , (49475, 19, True)
      , (49475, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Vulnerability Other IV (2985) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2985;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2985, 'scrollacidvulnerabilityother4');
@@ -30969,6 +33702,9 @@ VALUES (2985, 13, True)
      , (2985, 19, True)
      , (2985, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fletching Mastery Self IV (5977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5977;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5977, 'scrollfletchingmasteryself4');
 
@@ -31002,6 +33738,9 @@ VALUES (5977, 13, True)
      , (5977, 14, True)
      , (5977, 19, True)
      , (5977, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Quickness Self IV (2719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2719;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2719, 'scrollquicknessself4');
@@ -31037,6 +33776,9 @@ VALUES (2719, 13, True)
      , (2719, 19, True)
      , (2719, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Mastery Self V (45256) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45256;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45256, 'ace45256-scrollofdirtyfightingmasteryselfv');
 
@@ -31070,6 +33812,9 @@ VALUES (45256, 13, True)
      , (45256, 14, True)
      , (45256, 19, True)
      , (45256, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Expertise Self IV (3585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3585;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3585, 'scrollweaponexpertiseself4');
@@ -31105,6 +33850,9 @@ VALUES (3585, 13, True)
      , (3585, 19, True)
      , (3585, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Other V (3181) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3181;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3181, 'scrollbowmasteryother5');
 
@@ -31138,6 +33886,9 @@ VALUES (3181, 13, True)
      , (3181, 14, True)
      , (3181, 19, True)
      , (3181, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana to Stamina Self III (9646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9646;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9646, 'scrollmanatostaminaself3');
@@ -31173,6 +33924,9 @@ VALUES (9646, 13, True)
      , (9646, 19, True)
      , (9646, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Lure III (2768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2768;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2768, 'scrollacidlure3');
 
@@ -31206,6 +33960,9 @@ VALUES (2768, 13, True)
      , (2768, 14, True)
      , (2768, 19, True)
      , (2768, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Magic Yield Other V (3426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3426;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3426, 'scrollmagicyieldother5');
@@ -31241,6 +33998,9 @@ VALUES (3426, 13, True)
      , (3426, 19, True)
      , (3426, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Impregnability Self III (3289) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3289;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3289, 'scrollimpregnabilityself3');
 
@@ -31274,6 +34034,9 @@ VALUES (3289, 13, True)
      , (3289, 14, True)
      , (3289, 19, True)
      , (3289, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Mastery Other IV (43371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43371;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43371, 'ace43371-scrollofvoidmagicmasteryotheriv');
@@ -31309,6 +34072,9 @@ VALUES (43371, 13, True)
      , (43371, 19, True)
      , (43371, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fire Protection Other II (3033) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3033;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3033, 'scrollfireprotectionother2');
 
@@ -31342,6 +34108,9 @@ VALUES (3033, 13, True)
      , (3033, 14, True)
      , (3033, 19, True)
      , (3033, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Clumsiness Other V (2642) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2642;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2642, 'scrollclumsiness5');
@@ -31377,6 +34146,9 @@ VALUES (2642, 13, True)
      , (2642, 19, True)
      , (2642, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Revitalize Self IV (2729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2729;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2729, 'scrollrevitalizeself4');
 
@@ -31410,6 +34182,9 @@ VALUES (2729, 13, True)
      , (2729, 14, True)
      , (2729, 19, True)
      , (2729, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Endurance Self VI (2663) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2663;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2663, 'scrollenduranceself6');
@@ -31445,6 +34220,9 @@ VALUES (2663, 13, True)
      , (2663, 19, True)
      , (2663, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shield Mastery Other II (45317) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45317;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45317, 'ace45317-scrollofshieldmasteryotherii');
 
@@ -31478,6 +34256,9 @@ VALUES (45317, 13, True)
      , (45317, 14, True)
      , (45317, 19, True)
      , (45317, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Bane III (2763) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2763;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2763, 'scrollacidbane3');
@@ -31513,6 +34294,9 @@ VALUES (2763, 13, True)
      , (2763, 19, True)
      , (2763, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcanum Enlightenment IV (28943) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28943;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28943, 'scrollarcanumsalvagingother4');
 
@@ -31546,6 +34330,9 @@ VALUES (28943, 13, True)
      , (28943, 14, True)
      , (28943, 19, True)
      , (28943, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Leadership Ineptitude III (3349) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3349;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3349, 'scrollleadershipineptitude3');
@@ -31581,6 +34368,9 @@ VALUES (3349, 13, True)
      , (3349, 19, True)
      , (3349, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Stream V (2910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2910;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2910, 'scrollacidstream5');
 
@@ -31614,6 +34404,9 @@ VALUES (2910, 13, True)
      , (2910, 14, True)
      , (2910, 19, True)
      , (2910, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Faithlessness III (3254) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3254;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3254, 'scrollfaithlessness3');
@@ -31649,6 +34442,9 @@ VALUES (3254, 13, True)
      , (3254, 19, True)
      , (3254, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Infuse Mana (1586) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1586;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1586, 'scrollinfusemana');
 
@@ -31682,6 +34478,9 @@ VALUES (1586, 13, True)
      , (1586, 14, True)
      , (1586, 19, True)
      , (1586, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Renewal Self III (3104) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3104;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3104, 'scrollmanarenewalself3');
@@ -31717,6 +34516,9 @@ VALUES (3104, 13, True)
      , (3104, 19, True)
      , (3104, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Health to Stamina Self II (9635) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9635;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9635, 'scrollhealthtostaminaself2');
 
@@ -31750,6 +34552,9 @@ VALUES (9635, 13, True)
      , (9635, 14, True)
      , (9635, 19, True)
      , (9635, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapons Ineptitude (41296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41296;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41296, 'ace41296-scrolloftwohandedweaponsineptitude');
@@ -31785,6 +34590,9 @@ VALUES (41296, 13, True)
      , (41296, 19, True)
      , (41296, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Jumping Mastery Other III (3334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3334;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3334, 'scrolljumpmasteryother3');
 
@@ -31818,6 +34626,9 @@ VALUES (3334, 13, True)
      , (3334, 14, True)
      , (3334, 19, True)
      , (3334, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Ineptitude Other III (3174) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3174;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3174, 'scrollbowineptitude3');
@@ -31853,6 +34664,9 @@ VALUES (3174, 13, True)
      , (3174, 19, True)
      , (3174, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Summoning Mastery Self II (49471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49471;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49471, 'ace49471-scrollofsummoningmasteryselfii');
 
@@ -31886,6 +34700,9 @@ VALUES (49471, 13, True)
      , (49471, 14, True)
      , (49471, 19, True)
      , (49471, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Arc V (21306) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21306;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21306, 'scrollflamearc5');
@@ -31921,6 +34738,9 @@ VALUES (21306, 13, True)
      , (21306, 19, True)
      , (21306, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Focus Self IV (2679) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2679;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2679, 'scrollfocusself4');
 
@@ -31954,6 +34774,9 @@ VALUES (2679, 13, True)
      , (2679, 14, True)
      , (2679, 19, True)
      , (2679, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Streak II (8915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8915;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8915, 'scrollacidstreak2');
@@ -31989,6 +34812,9 @@ VALUES (8915, 13, True)
      , (8915, 19, True)
      , (8915, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sprint Self V (3496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3496;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3496, 'scrollsprintself5');
 
@@ -32022,6 +34848,9 @@ VALUES (3496, 13, True)
      , (3496, 14, True)
      , (3496, 19, True)
      , (3496, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Spirit Loather III (28011) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28011;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28011, 'scrollspiritloather3');
@@ -32057,6 +34886,9 @@ VALUES (28011, 13, True)
      , (28011, 19, True)
      , (28011, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Rejuvenate Other (1655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1655;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1655, 'scrollrejuvenateother');
 
@@ -32090,6 +34922,9 @@ VALUES (1655, 13, True)
      , (1655, 14, True)
      , (1655, 19, True)
      , (1655, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cold Protection Self III (3024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3024;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3024, 'scrollcoldprotectionself3');
@@ -32125,6 +34960,9 @@ VALUES (3024, 13, True)
      , (3024, 19, True)
      , (3024, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Mastery Other II (3383) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3383;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3383, 'scrolllockpickmasteryother2');
 
@@ -32158,6 +34996,9 @@ VALUES (3383, 13, True)
      , (3383, 14, True)
      , (3383, 19, True)
      , (3383, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Mastery Other (45340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45340;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45340, 'ace45340-scrollofsneakattackmasteryother');
@@ -32193,6 +35034,9 @@ VALUES (45340, 13, True)
      , (45340, 19, True)
      , (45340, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Ineptitude III (3189) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3189;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3189, 'scrollcreatureenchantmentineptitude3');
 
@@ -32226,6 +35070,9 @@ VALUES (3189, 13, True)
      , (3189, 14, True)
      , (3189, 19, True)
      , (3189, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Lure II (2827) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2827;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2827, 'scrollfrostlure2');
@@ -32261,6 +35108,9 @@ VALUES (2827, 13, True)
      , (2827, 19, True)
      , (2827, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Whirling Blade IV (2970) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2970;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2970, 'scrollwhirlingblade4');
 
@@ -32294,6 +35144,9 @@ VALUES (2970, 13, True)
      , (2970, 14, True)
      , (2970, 19, True)
      , (2970, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shield Mastery Other III (45318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45318;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45318, 'ace45318-scrollofshieldmasteryotheriii');
@@ -32329,6 +35182,9 @@ VALUES (45318, 13, True)
      , (45318, 19, True)
      , (45318, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Whirling Blade Streak III (8955) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8955;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8955, 'scrollwhirlingbladestreak3');
 
@@ -32363,6 +35219,9 @@ VALUES (8955, 13, True)
      , (8955, 19, True)
      , (8955, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Rejuvenate Self II (3123) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3123;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3123, 'scrollrejuvenateself2');
 
@@ -32395,6 +35254,9 @@ VALUES (3123, 13, True)
      , (3123, 14, True)
      , (3123, 19, True)
      , (3123, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcane Benightedness III (3129) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3129;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3129, 'scrollarcanebenightedness3');
@@ -32430,6 +35292,9 @@ VALUES (3129, 13, True)
      , (3129, 19, True)
      , (3129, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Willpower Other III (2753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2753;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2753, 'scrollwillpowerother3');
 
@@ -32463,6 +35328,9 @@ VALUES (2753, 13, True)
      , (2753, 14, True)
      , (2753, 19, True)
      , (2753, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Mastery Self III (3524) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3524;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3524, 'scrollswordmasteryself3');
@@ -32498,6 +35366,9 @@ VALUES (3524, 13, True)
      , (3524, 19, True)
      , (3524, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Bane V (2870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2870;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2870, 'scrollpiercingbane5');
 
@@ -32531,6 +35402,9 @@ VALUES (2870, 13, True)
      , (2870, 14, True)
      , (2870, 19, True)
      , (2870, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sprint Other III (3489) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3489;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3489, 'scrollsprintother3');
@@ -32566,6 +35440,9 @@ VALUES (3489, 13, True)
      , (3489, 19, True)
      , (3489, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Monster Attunement Self V (5546) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5546;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5546, 'scrollmonsterattunementself5');
 
@@ -32599,6 +35476,9 @@ VALUES (5546, 13, True)
      , (5546, 14, True)
      , (5546, 19, True)
      , (5546, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Arc IV (21319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21319;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21319, 'scrollfrostarc4');
@@ -32634,6 +35514,9 @@ VALUES (21319, 13, True)
      , (21319, 19, True)
      , (21319, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Mastery Other V (3226) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3226;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3226, 'scrolldaggermasteryother5');
 
@@ -32667,6 +35550,9 @@ VALUES (3226, 13, True)
      , (3226, 14, True)
      , (3226, 19, True)
      , (3226, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Purge Item Magic (20358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20358;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20358, 'scrolldispelitemneutralother5');
@@ -32702,6 +35588,9 @@ VALUES (20358, 13, True)
      , (20358, 19, True)
      , (20358, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Ineptitude Other IV (3175) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3175;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3175, 'scrollbowineptitude4');
 
@@ -32735,6 +35624,9 @@ VALUES (3175, 13, True)
      , (3175, 14, True)
      , (3175, 19, True)
      , (3175, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of War Magic Mastery Self III (3574) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3574;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3574, 'scrollwarmagicmasteryself3');
@@ -32770,6 +35662,9 @@ VALUES (3574, 13, True)
      , (3574, 19, True)
      , (3574, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcane Benightedness IV (3130) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3130;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3130, 'scrollarcanebenightedness4');
 
@@ -32803,6 +35698,9 @@ VALUES (3130, 13, True)
      , (3130, 14, True)
      , (3130, 19, True)
      , (3130, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Jumping Mastery Self IV (3340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3340;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3340, 'scrolljumpmasteryself4');
@@ -32838,6 +35736,9 @@ VALUES (3340, 13, True)
      , (3340, 19, True)
      , (3340, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapon Mastery Self III (41306) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41306;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41306, 'ace41306-scrolloftwohandedweaponmasteryselfiii');
 
@@ -32871,6 +35772,9 @@ VALUES (41306, 13, True)
      , (41306, 14, True)
      , (41306, 19, True)
      , (41306, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cooking Ineptitude Other IV (5947) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5947;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5947, 'scrollcookingineptitude4');
@@ -32906,6 +35810,9 @@ VALUES (5947, 13, True)
      , (5947, 19, True)
      , (5947, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Protection Other II (3063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3063;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3063, 'scrollpierceprotectionother2');
 
@@ -32939,6 +35846,9 @@ VALUES (3063, 13, True)
      , (3063, 14, True)
      , (3063, 19, True)
      , (3063, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Person Attunement Other III (3449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3449;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3449, 'scrollpersonattunementother3');
@@ -32974,6 +35884,9 @@ VALUES (3449, 13, True)
      , (3449, 19, True)
      , (3449, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Lure III (2828) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2828;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2828, 'scrollfrostlure3');
 
@@ -33007,6 +35920,9 @@ VALUES (2828, 13, True)
      , (2828, 14, True)
      , (2828, 19, True)
      , (2828, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Resist Magic Self II (3468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3468;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3468, 'scrollresistmagicself2');
@@ -33042,6 +35958,9 @@ VALUES (3468, 13, True)
      , (3468, 19, True)
      , (3468, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cold Vulnerability Other (1849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1849;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1849, 'scrollcoldvulnerabilityother');
 
@@ -33075,6 +35994,9 @@ VALUES (1849, 13, True)
      , (1849, 14, True)
      , (1849, 19, True)
      , (1849, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Invulnerability Self (1585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1585;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1585, 'scrollinvulnerabilityself');
@@ -33110,6 +36032,9 @@ VALUES (1585, 13, True)
      , (1585, 19, True)
      , (1585, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Ignorance (1724) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1724;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1724, 'scrollmagicitemignorance');
 
@@ -33143,6 +36068,9 @@ VALUES (1724, 13, True)
      , (1724, 14, True)
      , (1724, 19, True)
      , (1724, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nether Streak III (43312) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43312;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43312, 'ace43312-scrollofnetherstreakiii');
@@ -33178,6 +36106,9 @@ VALUES (43312, 13, True)
      , (43312, 19, True)
      , (43312, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Health to Mana Self II (9630) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9630;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9630, 'scrollhealthtomanaself2');
 
@@ -33211,6 +36142,9 @@ VALUES (9630, 13, True)
      , (9630, 14, True)
      , (9630, 19, True)
      , (9630, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Impregnability Self IV (3290) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3290;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3290, 'scrollimpregnabilityself4');
@@ -33246,6 +36180,9 @@ VALUES (3290, 13, True)
      , (3290, 19, True)
      , (3290, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Mastery Self IV (43372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43372;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43372, 'ace43372-scrollofvoidmagicmasteryselfiv');
 
@@ -33279,6 +36216,9 @@ VALUES (43372, 13, True)
      , (43372, 14, True)
      , (43372, 19, True)
      , (43372, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heal Self V (2700) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2700;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2700, 'scrollhealself5');
@@ -33314,6 +36254,9 @@ VALUES (2700, 13, True)
      , (2700, 19, True)
      , (2700, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Ineptitude Other II (3173) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3173;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3173, 'scrollbowineptitude2');
 
@@ -33347,6 +36290,9 @@ VALUES (3173, 13, True)
      , (3173, 14, True)
      , (3173, 19, True)
      , (3173, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Healing Mastery Self (1702) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1702;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1702, 'scrollhealingmasteryself');
@@ -33382,6 +36328,9 @@ VALUES (1702, 13, True)
      , (1702, 19, True)
      , (1702, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fletching Mastery Other III (5970) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5970;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5970, 'scrollfletchingmasteryother3');
 
@@ -33415,6 +36364,9 @@ VALUES (5970, 13, True)
      , (5970, 14, True)
      , (5970, 19, True)
      , (5970, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shock Arc III (21332) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21332;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21332, 'scrollshockarc3');
@@ -33450,6 +36402,9 @@ VALUES (21332, 13, True)
      , (21332, 19, True)
      , (21332, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Deception Ineptitude II (3233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3233;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3233, 'scrolldeceptionineptitude2');
 
@@ -33483,6 +36438,9 @@ VALUES (3233, 13, True)
      , (3233, 14, True)
      , (3233, 19, True)
      , (3233, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Streak IV (8938) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8938;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8938, 'scrollfroststreak4');
@@ -33518,6 +36476,9 @@ VALUES (8938, 13, True)
      , (8938, 19, True)
      , (8938, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Arc IV (21326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21326, 'scrolllightningarc4');
 
@@ -33551,6 +36512,9 @@ VALUES (21326, 13, True)
      , (21326, 14, True)
      , (21326, 19, True)
      , (21326, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Deception Mastery Self III (3244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3244;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3244, 'scrolldeceptionmasteryself3');
@@ -33586,6 +36550,9 @@ VALUES (3244, 13, True)
      , (3244, 19, True)
      , (3244, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Spirit Loather V (28013) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28013;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28013, 'scrollspiritloather5');
 
@@ -33619,6 +36586,9 @@ VALUES (28013, 13, True)
      , (28013, 14, True)
      , (28013, 19, True)
      , (28013, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Defender Other V (46850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46850;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46850, 'ace46850-auraofdefenderotherv');
@@ -33654,6 +36624,9 @@ VALUES (46850, 13, True)
      , (46850, 19, True)
      , (46850, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Ineptitude Other III (45334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45334;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45334, 'ace45334-scrollofsneakattackineptitudeotheriii');
 
@@ -33687,6 +36660,9 @@ VALUES (45334, 13, True)
      , (45334, 14, True)
      , (45334, 19, True)
      , (45334, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nether Bolt IV (43305) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43305;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43305, 'ace43305-scrollofnetherboltiv');
@@ -33722,6 +36698,9 @@ VALUES (43305, 13, True)
      , (43305, 19, True)
      , (43305, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nullify Creature Magic Self (20329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20329, 'scrolldispelcreatureneutralself6');
 
@@ -33755,6 +36734,9 @@ VALUES (20329, 13, True)
      , (20329, 14, True)
      , (20329, 19, True)
      , (20329, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Devour Life Magic Other (20393) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20393;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20393, 'scrolldispellifeneutralother4');
@@ -33790,6 +36772,9 @@ VALUES (20393, 13, True)
      , (20393, 19, True)
      , (20393, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Streak IV (8917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8917;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8917, 'scrollacidstreak4');
 
@@ -33823,6 +36808,9 @@ VALUES (8917, 13, True)
      , (8917, 14, True)
      , (8917, 19, True)
      , (8917, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Protection Self III (3009) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3009;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3009, 'scrollbludgeonprotectionself3');
@@ -33858,6 +36846,9 @@ VALUES (3009, 13, True)
      , (3009, 19, True)
      , (3009, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Mastery Other IV (3225) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3225;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3225, 'scrolldaggermasteryother4');
 
@@ -33891,6 +36882,9 @@ VALUES (3225, 13, True)
      , (3225, 14, True)
      , (3225, 19, True)
      , (3225, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Ineptitude Other III (3514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3514;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3514, 'scrollswordineptitude3');
@@ -33926,6 +36920,9 @@ VALUES (3514, 13, True)
      , (3514, 19, True)
      , (3514, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fletching Ineptitude Other IV (5965) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5965;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5965, 'scrollfletchingineptitude4');
 
@@ -33959,6 +36956,9 @@ VALUES (5965, 13, True)
      , (5965, 14, True)
      , (5965, 19, True)
      , (5965, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Infuse Health IV (3733) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3733;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3733, 'scrollinfusehealth4');
@@ -33994,6 +36994,9 @@ VALUES (3733, 13, True)
      , (3733, 19, True)
      , (3733, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Purge Life Magic Other (20394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20394;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20394, 'scrolldispellifeneutralother5');
 
@@ -34027,6 +37030,9 @@ VALUES (20394, 13, True)
      , (20394, 14, True)
      , (20394, 19, True)
      , (20394, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Mastery Other III (3224) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3224;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3224, 'scrolldaggermasteryother3');
@@ -34062,6 +37068,9 @@ VALUES (3224, 13, True)
      , (3224, 19, True)
      , (3224, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Ignorance III (3329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3329, 'scrollitemignorance3');
 
@@ -34095,6 +37104,9 @@ VALUES (3329, 13, True)
      , (3329, 14, True)
      , (3329, 19, True)
      , (3329, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frailty Other III (2683) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2683;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2683, 'scrollfrailty3');
@@ -34130,6 +37142,9 @@ VALUES (2683, 13, True)
      , (2683, 19, True)
      , (2683, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana to Health Self III (9641) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9641;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9641, 'scrollmanatohealthself3');
 
@@ -34163,6 +37178,9 @@ VALUES (9641, 13, True)
      , (9641, 14, True)
      , (9641, 19, True)
      , (9641, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cooking Mastery Other III (5952) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5952;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5952, 'scrollcookingmasteryother3');
@@ -34198,6 +37216,9 @@ VALUES (5952, 13, True)
      , (5952, 19, True)
      , (5952, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Self Strength III (2743) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2743;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2743, 'scrollstrengthself3');
 
@@ -34231,6 +37252,9 @@ VALUES (2743, 13, True)
      , (2743, 14, True)
      , (2743, 19, True)
      , (2743, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Endurance Other V (2657) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2657;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2657, 'scrollenduranceother5');
@@ -34266,6 +37290,9 @@ VALUES (2657, 13, True)
      , (2657, 19, True)
      , (2657, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Infuse Mana V (3739) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3739;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3739, 'scrollinfusemana5');
 
@@ -34299,6 +37326,9 @@ VALUES (3739, 13, True)
      , (3739, 14, True)
      , (3739, 19, True)
      , (3739, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Lure III (2778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2778;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2778, 'scrollbladelure3');
@@ -34334,6 +37364,9 @@ VALUES (2778, 13, True)
      , (2778, 19, True)
      , (2778, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nether Arc V (43298) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43298;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43298, 'ace43298-scrollofnetherarcv');
 
@@ -34367,6 +37400,9 @@ VALUES (43298, 13, True)
      , (43298, 14, True)
      , (43298, 19, True)
      , (43298, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Protection Other IV (2990) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2990;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2990, 'scrollbladeprotectionother4');
@@ -34402,6 +37438,9 @@ VALUES (2990, 13, True)
      , (2990, 19, True)
      , (2990, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Resist Magic Other IV (3465) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3465;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3465, 'scrollresistmagicother4');
 
@@ -34435,6 +37474,9 @@ VALUES (3465, 13, True)
      , (3465, 14, True)
      , (3465, 19, True)
      , (3465, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Jumping Mastery Self III (3339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3339;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3339, 'scrolljumpmasteryself3');
@@ -34470,6 +37512,9 @@ VALUES (3339, 13, True)
      , (3339, 19, True)
      , (3339, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Devour Life Magic Self (20399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20399;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20399, 'scrolldispellifeneutralself4');
 
@@ -34504,6 +37549,9 @@ VALUES (20399, 13, True)
      , (20399, 19, True)
      , (20399, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Rejuvenate Self V (3126) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3126;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3126, 'scrollrejuvenateself5');
 
@@ -34536,6 +37584,9 @@ VALUES (3126, 13, True)
      , (3126, 14, True)
      , (3126, 19, True)
      , (3126, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fire Protection Self III (3039) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3039;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3039, 'scrollfireprotectionself3');
@@ -34571,6 +37622,9 @@ VALUES (3039, 13, True)
      , (3039, 19, True)
      , (3039, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Defender Self IV (2809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2809;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2809, 'scrolldefender4');
 
@@ -34604,6 +37658,9 @@ VALUES (2809, 13, True)
      , (2809, 14, True)
      , (2809, 19, True)
      , (2809, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Revitalize Other IV (2724) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2724;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2724, 'scrollrevitalizeother4');
@@ -34639,6 +37696,9 @@ VALUES (2724, 13, True)
      , (2724, 19, True)
      , (2724, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Corruption III (43288) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43288;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43288, 'ace43288-scrollofcorruptioniii');
 
@@ -34672,6 +37732,9 @@ VALUES (43288, 13, True)
      , (43288, 14, True)
      , (43288, 19, True)
      , (43288, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Lure IV (2859) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2859;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2859, 'scrolllightninglure4');
@@ -34707,6 +37770,9 @@ VALUES (2859, 13, True)
      , (2859, 19, True)
      , (2859, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cooking Mastery Other IV (5953) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5953;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5953, 'scrollcookingmasteryother4');
 
@@ -34740,6 +37806,9 @@ VALUES (5953, 13, True)
      , (5953, 14, True)
      , (5953, 19, True)
      , (5953, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Ineptitude V (3306) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3306;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3306, 'scrollitemenchantmentineptitude5');
@@ -34775,6 +37844,9 @@ VALUES (3306, 13, True)
      , (3306, 19, True)
      , (3306, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shock Arc I (21330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21330;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21330, 'scrollshockarc');
 
@@ -34808,6 +37880,9 @@ VALUES (21330, 13, True)
      , (21330, 14, True)
      , (21330, 19, True)
      , (21330, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Drain Other II (2707) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2707;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2707, 'scrollmanadrain2');
@@ -34843,6 +37918,9 @@ VALUES (2707, 13, True)
      , (2707, 19, True)
      , (2707, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of War Magic Ineptitude III (3564) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3564;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3564, 'scrollwarmagicineptitude3');
 
@@ -34876,6 +37954,9 @@ VALUES (3564, 13, True)
      , (3564, 14, True)
      , (3564, 19, True)
      , (3564, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nether Streak II (43311) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43311;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43311, 'ace43311-scrollofnetherstreakii');
@@ -34911,6 +37992,9 @@ VALUES (43311, 13, True)
      , (43311, 19, True)
      , (43311, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Streak III (8931) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8931;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8931, 'scrollforcestreak3');
 
@@ -34944,6 +38028,9 @@ VALUES (8931, 13, True)
      , (8931, 14, True)
      , (8931, 19, True)
      , (8931, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Protection Other IV (3005) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3005;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3005, 'scrollbludgeonprotectionother4');
@@ -34979,6 +38066,9 @@ VALUES (3005, 13, True)
      , (3005, 19, True)
      , (3005, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Streak V (8918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8918;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8918, 'scrollacidstreak5');
 
@@ -35012,6 +38102,9 @@ VALUES (8918, 13, True)
      , (8918, 14, True)
      , (8918, 19, True)
      , (8918, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Self IV (3185) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3185;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3185, 'scrollbowmasteryself4');
@@ -35047,6 +38140,9 @@ VALUES (3185, 13, True)
      , (3185, 19, True)
      , (3185, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other IV (3160) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3160;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3160, 'scrollaxeineptitudeother4');
 
@@ -35080,6 +38176,9 @@ VALUES (3160, 13, True)
      , (3160, 14, True)
      , (3160, 19, True)
      , (3160, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sprint Other II (3488) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3488;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3488, 'scrollsprintother2');
@@ -35115,6 +38214,9 @@ VALUES (3488, 13, True)
      , (3488, 19, True)
      , (3488, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Endurance Self V (2662) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2662;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2662, 'scrollenduranceself5');
 
@@ -35148,6 +38250,9 @@ VALUES (2662, 13, True)
      , (2662, 14, True)
      , (2662, 19, True)
      , (2662, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Mastery Other IV (5989) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5989;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5989, 'scrollalchemymasteryother4');
@@ -35183,6 +38288,9 @@ VALUES (5989, 13, True)
      , (5989, 19, True)
      , (5989, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Whirling Blade III (2969) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2969;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2969, 'scrollwhirlingblade3');
 
@@ -35216,6 +38324,9 @@ VALUES (2969, 13, True)
      , (2969, 14, True)
      , (2969, 19, True)
      , (2969, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Defender Other IV (46868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46868;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46868, 'ace46868-auraofdefenderotheriv');
@@ -35251,6 +38362,9 @@ VALUES (46868, 13, True)
      , (46868, 19, True)
      , (46868, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Hermetic Link Other V (46852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46852;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46852, 'ace46852-auraofhermeticlinkotherv');
 
@@ -35284,6 +38398,9 @@ VALUES (46852, 13, True)
      , (46852, 14, True)
      , (46852, 19, True)
      , (46852, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Lure V (2770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2770;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2770, 'scrollacidlure5');
@@ -35319,6 +38436,9 @@ VALUES (2770, 13, True)
      , (2770, 19, True)
      , (2770, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcane Benightedness V (3131) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3131;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3131, 'scrollarcanebenightedness5');
 
@@ -35352,6 +38472,9 @@ VALUES (3131, 13, True)
      , (3131, 14, True)
      , (3131, 19, True)
      , (3131, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Impregnability Other V (3286) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3286;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3286, 'scrollimpregnabilityother5');
@@ -35387,6 +38510,9 @@ VALUES (3286, 13, True)
      , (3286, 19, True)
      , (3286, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Bane IV (2794) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2794;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2794, 'scrollbludgeonbane4');
 
@@ -35420,6 +38546,9 @@ VALUES (2794, 13, True)
      , (2794, 14, True)
      , (2794, 19, True)
      , (2794, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Lure V (2820) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2820;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2820, 'scrollflamelure5');
@@ -35455,6 +38584,9 @@ VALUES (2820, 13, True)
      , (2820, 19, True)
      , (2820, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Coordination Self V (2652) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2652;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2652, 'scrollcoordinationself5');
 
@@ -35488,6 +38620,9 @@ VALUES (2652, 13, True)
      , (2652, 14, True)
      , (2652, 19, True)
      , (2652, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Harm Other V (2690) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2690;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2690, 'scrollharmother5');
@@ -35523,6 +38658,9 @@ VALUES (2690, 13, True)
      , (2690, 19, True)
      , (2690, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Leaden Feet II (3343) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3343;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3343, 'scrollleadenfeet2');
 
@@ -35556,6 +38694,9 @@ VALUES (3343, 13, True)
      , (3343, 14, True)
      , (3343, 19, True)
      , (3343, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bludgeoning Vulnerability Other V (3016) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3016;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3016, 'scrollbludgeonvulnerabilityother5');
@@ -35591,6 +38732,9 @@ VALUES (3016, 13, True)
      , (3016, 19, True)
      , (3016, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Coordination Other II (2644) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2644;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2644, 'scrollcoordinationother2');
 
@@ -35624,6 +38768,9 @@ VALUES (2644, 13, True)
      , (2644, 14, True)
      , (2644, 19, True)
      , (2644, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Bane III (2773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2773;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2773, 'scrollbladebane3');
@@ -35659,6 +38806,9 @@ VALUES (2773, 13, True)
      , (2773, 19, True)
      , (2773, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Swift Killer Self VI (2886) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2886;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2886, 'scrollswiftkiller6');
 
@@ -35692,6 +38842,9 @@ VALUES (2886, 13, True)
      , (2886, 14, True)
      , (2886, 19, True)
      , (2886, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Lure VI (2781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2781;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2781, 'scrollbladelure6');
@@ -35727,6 +38880,9 @@ VALUES (2781, 13, True)
      , (2781, 19, True)
      , (2781, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Mastery Other VI (45249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45249;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45249, 'ace45249-scrollofdirtyfightingmasteryothervi');
 
@@ -35760,6 +38916,9 @@ VALUES (45249, 13, True)
      , (45249, 14, True)
      , (45249, 19, True)
      , (45249, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fealty Other V (3261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3261;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3261, 'scrollfealtyother5');
@@ -35795,6 +38954,9 @@ VALUES (3261, 13, True)
      , (3261, 19, True)
      , (3261, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Ineptitude Other IV (45239) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45239;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45239, 'ace45239-scrollofdirtyfightingineptitudeotheriv');
 
@@ -35828,6 +38990,9 @@ VALUES (45239, 13, True)
      , (45239, 14, True)
      , (45239, 19, True)
      , (45239, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of War Magic Ineptitude IV (3565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3565;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3565, 'scrollwarmagicineptitude4');
@@ -35863,6 +39028,9 @@ VALUES (3565, 13, True)
      , (3565, 19, True)
      , (3565, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Arc II (21324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21324;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21324, 'scrolllightningarc2');
 
@@ -35896,6 +39064,9 @@ VALUES (21324, 13, True)
      , (21324, 14, True)
      , (21324, 19, True)
      , (21324, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Leadership Mastery Self V (3361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3361;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3361, 'scrollleadershipmasteryself5');
@@ -35931,6 +39102,9 @@ VALUES (3361, 13, True)
      , (3361, 19, True)
      , (3361, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Stamina to Mana Self V (9658) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9658;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9658, 'scrollstaminatomanaself5');
 
@@ -35964,6 +39138,9 @@ VALUES (9658, 13, True)
      , (9658, 14, True)
      , (9658, 19, True)
      , (9658, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Strengthen Lock V (2880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2880;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2880, 'scrollstrengthenlock5');
@@ -35999,6 +39176,9 @@ VALUES (2880, 13, True)
      , (2880, 19, True)
      , (2880, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Blood Drinker Self VI (2786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2786;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2786, 'scrollblooddrinker6');
 
@@ -36032,6 +39212,9 @@ VALUES (2786, 13, True)
      , (2786, 14, True)
      , (2786, 19, True)
      , (2786, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Force Bolt VI (2934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2934;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2934, 'scrollforcebolt6');
@@ -36067,6 +39250,9 @@ VALUES (2934, 13, True)
      , (2934, 19, True)
      , (2934, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Ineptitude Other V (3206) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3206;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3206, 'scrollcrossbowineptitude5');
 
@@ -36100,6 +39286,9 @@ VALUES (3206, 13, True)
      , (3206, 14, True)
      , (3206, 19, True)
      , (3206, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Healing Mastery Self III (3279) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3279;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3279, 'scrollhealingmasteryself3');
@@ -36135,6 +39324,9 @@ VALUES (3279, 13, True)
      , (3279, 19, True)
      , (3279, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other III (3474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3474;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3474, 'scrollspearineptitude3');
 
@@ -36168,6 +39360,9 @@ VALUES (3474, 13, True)
      , (3474, 14, True)
      , (3474, 19, True)
      , (3474, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Stamina to Mana Self IV (9657) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9657;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9657, 'scrollstaminatomanaself4');
@@ -36203,6 +39398,9 @@ VALUES (9657, 13, True)
      , (9657, 19, True)
      , (9657, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Monster Unfamiliarity IV (3445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3445;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3445, 'scrollmonsterunfamiliarity4');
 
@@ -36236,6 +39434,9 @@ VALUES (3445, 13, True)
      , (3445, 14, True)
      , (3445, 19, True)
      , (3445, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Depletion Other IV (3095) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3095;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3095, 'scrollmanadepletion4');
@@ -36271,6 +39472,9 @@ VALUES (3095, 13, True)
      , (3095, 19, True)
      , (3095, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Monster Attunement Other III (3439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3439;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3439, 'scrollmonsterattunementother3');
 
@@ -36304,6 +39508,9 @@ VALUES (3439, 13, True)
      , (3439, 14, True)
      , (3439, 19, True)
      , (3439, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Impenetrability IV (2844) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2844;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2844, 'scrollimpenetrability4');
@@ -36339,6 +39546,9 @@ VALUES (2844, 13, True)
      , (2844, 19, True)
      , (2844, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shock Wave Streak IV (8950) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8950;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8950, 'scrollshockwavestreak4');
 
@@ -36372,6 +39582,9 @@ VALUES (8950, 13, True)
      , (8950, 14, True)
      , (8950, 19, True)
      , (8950, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sprint Self III (3494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3494;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3494, 'scrollsprintself3');
@@ -36407,6 +39620,9 @@ VALUES (3494, 13, True)
      , (3494, 19, True)
      , (3494, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcane Enlightenment Self II (3138) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3138;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3138, 'scrollarcaneenlightenmentself2');
 
@@ -36440,6 +39656,9 @@ VALUES (3138, 13, True)
      , (3138, 14, True)
      , (3138, 19, True)
      , (3138, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Extinguish Item Magic (20355) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20355;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20355, 'scrolldispelitemneutralother2');
@@ -36475,6 +39694,9 @@ VALUES (20355, 13, True)
      , (20355, 19, True)
      , (20355, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Ineptitude III (3364) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3364;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3364, 'scrolllifemagicineptitude3');
 
@@ -36508,6 +39730,9 @@ VALUES (3364, 13, True)
      , (3364, 14, True)
      , (3364, 19, True)
      , (3364, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Hermetic Link Other (46848) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46848;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46848, 'ace46848-auraofhermeticlinkother');
@@ -36543,6 +39768,9 @@ VALUES (46848, 13, True)
      , (46848, 19, True)
      , (46848, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Blood Drinker Self II (2782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2782;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2782, 'scrollblooddrinker2');
 
@@ -36576,6 +39804,9 @@ VALUES (2782, 13, True)
      , (2782, 14, True)
      , (2782, 19, True)
      , (2782, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Bane II (2762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2762;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2762, 'scrollacidbane2');
@@ -36611,6 +39842,9 @@ VALUES (2762, 13, True)
      , (2762, 19, True)
      , (2762, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Expertise Self II (3413) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3413;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3413, 'scrollmagicitemexpertiseself2');
 
@@ -36644,6 +39878,9 @@ VALUES (3413, 13, True)
      , (3413, 14, True)
      , (3413, 19, True)
      , (3413, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Leaden Weapon II (2847) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2847;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2847, 'scrollleadenweapon2');
@@ -36679,6 +39916,9 @@ VALUES (2847, 13, True)
      , (2847, 19, True)
      , (2847, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Stamina to Mana Self III (9656) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9656;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9656, 'scrollstaminatomanaself3');
 
@@ -36712,6 +39952,9 @@ VALUES (9656, 13, True)
      , (9656, 14, True)
      , (9656, 19, True)
      , (9656, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Strength Other II (2737) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2737;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2737, 'scrollstrengthother2');
@@ -36747,6 +39990,9 @@ VALUES (2737, 13, True)
      , (2737, 19, True)
      , (2737, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Healing Mastery Self II (3278) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3278;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3278, 'scrollhealingmasteryself2');
 
@@ -36780,6 +40026,9 @@ VALUES (3278, 13, True)
      , (3278, 14, True)
      , (3278, 19, True)
      , (3278, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bafflement Other IV (2636) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2636;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2636, 'scrollbafflement4');
@@ -36815,6 +40064,9 @@ VALUES (2636, 13, True)
      , (2636, 19, True)
      , (2636, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Turn Blade III (2894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2894;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2894, 'scrollturnblade3');
 
@@ -36848,6 +40100,9 @@ VALUES (2894, 13, True)
      , (2894, 14, True)
      , (2894, 19, True)
      , (2894, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Mastery Self II (3373) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3373;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3373, 'scrolllifemagicmasteryself2');
@@ -36883,6 +40138,9 @@ VALUES (3373, 13, True)
      , (3373, 19, True)
      , (3373, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcane Benightedness II (3128) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3128;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3128, 'scrollarcanebenightedness2');
 
@@ -36916,6 +40174,9 @@ VALUES (3128, 13, True)
      , (3128, 14, True)
      , (3128, 19, True)
      , (3128, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Quickness Other II (2712) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2712;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2712, 'scrollquicknessother2');
@@ -36951,6 +40212,9 @@ VALUES (2712, 13, True)
      , (2712, 19, True)
      , (2712, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shock Wave Streak II (8948) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8948;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8948, 'scrollshockwavestreak2');
 
@@ -36984,6 +40248,9 @@ VALUES (8948, 13, True)
      , (8948, 14, True)
      , (8948, 19, True)
      , (8948, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Coordination Self II (2649) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2649;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2649, 'scrollcoordinationself2');
@@ -37019,6 +40286,9 @@ VALUES (2649, 13, True)
      , (2649, 19, True)
      , (2649, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Whirling Blade II (2968) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2968;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2968, 'scrollwhirlingblade2');
 
@@ -37052,6 +40322,9 @@ VALUES (2968, 13, True)
      , (2968, 14, True)
      , (2968, 19, True)
      , (2968, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Swift Killer Other II (46878) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46878;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46878, 'ace46878-auraofswiftkillerotherii');
@@ -37087,6 +40360,9 @@ VALUES (46878, 13, True)
      , (46878, 19, True)
      , (46878, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Bolt II (4395) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4395;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4395, 'scrollforcebolt2');
 
@@ -37120,6 +40396,9 @@ VALUES (4395, 13, True)
      , (4395, 14, True)
      , (4395, 19, True)
      , (4395, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Ineptitude Other (45236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45236;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45236, 'ace45236-scrollofdirtyfightingineptitudeother');
@@ -37155,6 +40434,9 @@ VALUES (45236, 13, True)
      , (45236, 19, True)
      , (45236, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Mastery Other (45244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45244;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45244, 'ace45244-scrollofdirtyfightingmasteryother');
 
@@ -37188,6 +40470,9 @@ VALUES (45244, 13, True)
      , (45244, 14, True)
      , (45244, 19, True)
      , (45244, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Protection Self III (2994) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2994;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2994, 'scrollbladeprotectionself3');
@@ -37223,6 +40508,9 @@ VALUES (2994, 13, True)
      , (2994, 19, True)
      , (2994, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Bane (1881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1881;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1881, 'scrollflamebane');
 
@@ -37256,6 +40544,9 @@ VALUES (1881, 13, True)
      , (1881, 14, True)
      , (1881, 19, True)
      , (1881, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Ineptitude Other II (3218) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3218;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3218, 'scrolldaggerineptitudeother2');
@@ -37291,6 +40582,9 @@ VALUES (3218, 13, True)
      , (3218, 19, True)
      , (3218, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Mastery Other II (3308) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3308;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3308, 'scrollitemenchantmentmasteryother2');
 
@@ -37324,6 +40618,9 @@ VALUES (3308, 13, True)
      , (3308, 14, True)
      , (3308, 19, True)
      , (3308, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fester Other II (3083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3083;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3083, 'scrollfester2');
@@ -37359,6 +40656,9 @@ VALUES (3083, 13, True)
      , (3083, 19, True)
      , (3083, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fletching Ineptitude Other II (5963) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5963;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5963, 'scrollfletchingineptitude2');
 
@@ -37392,6 +40692,9 @@ VALUES (5963, 13, True)
      , (5963, 14, True)
      , (5963, 19, True)
      , (5963, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Hermetic Void (1886) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1886;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1886, 'scrollhidevalue');
@@ -37427,6 +40730,9 @@ VALUES (1886, 13, True)
      , (1886, 19, True)
      , (1886, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Corrosion (43286) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43286;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43286, 'ace43286-scrollofcorrosion');
 
@@ -37460,6 +40766,9 @@ VALUES (43286, 13, True)
      , (43286, 14, True)
      , (43286, 19, True)
      , (43286, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cleanse Life Magic Other (20392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20392;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20392, 'scrolldispellifeneutralother3');
@@ -37495,6 +40804,9 @@ VALUES (20392, 13, True)
      , (20392, 19, True)
      , (20392, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self VII (20592) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20592;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20592, 'scrollunarmedmasteryself7');
 
@@ -37528,6 +40840,9 @@ VALUES (20592, 13, True)
      , (20592, 14, True)
      , (20592, 19, True)
      , (20592, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Stamina to Health Self VI (9654) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9654;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9654, 'scrollstaminatohealthself6');
@@ -37563,6 +40878,9 @@ VALUES (9654, 13, True)
      , (9654, 19, True)
      , (9654, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Enfeeble Other VI (2668) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2668;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2668, 'scrollenfeeble6');
 
@@ -37596,6 +40914,9 @@ VALUES (2668, 13, True)
      , (2668, 14, True)
      , (2668, 19, True)
      , (2668, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Streak IV (8944) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8944;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8944, 'scrolllightningstreak4');
@@ -37631,6 +40952,9 @@ VALUES (8944, 13, True)
      , (8944, 19, True)
      , (8944, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Resist Magic Self VI (3472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3472;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3472, 'scrollresistmagicself6');
 
@@ -37664,6 +40988,9 @@ VALUES (3472, 13, True)
      , (3472, 14, True)
      , (3472, 19, True)
      , (3472, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Focus Other III (2675) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2675;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2675, 'scrollfocusother3');
@@ -37699,6 +41026,9 @@ VALUES (2675, 13, True)
      , (2675, 19, True)
      , (2675, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Health to Mana Self III (9631) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9631;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9631, 'scrollhealthtomanaself3');
 
@@ -37732,6 +41062,9 @@ VALUES (9631, 13, True)
      , (9631, 14, True)
      , (9631, 19, True)
      , (9631, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Mastery Other VI (43365) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43365;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43365, 'ace43365-scrollofvoidmagicmasteryothervi');
@@ -37767,6 +41100,9 @@ VALUES (43365, 13, True)
      , (43365, 19, True)
      , (43365, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Impregnability Other VI (3287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3287;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3287, 'scrollimpregnabilityother6');
 
@@ -37800,6 +41136,9 @@ VALUES (3287, 13, True)
      , (3287, 14, True)
      , (3287, 19, True)
      , (3287, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Feeblemind Other (37749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37749;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37749, 'ace37749-inscriptionoffeeblemindother');
@@ -37835,6 +41174,9 @@ VALUES (37749, 13, True)
      , (37749, 19, True)
      , (37749, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Summon Secondary Portal III (20624) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20624;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20624, 'scrollsummonsecondportal3');
 
@@ -37868,6 +41210,9 @@ VALUES (20624, 13, True)
      , (20624, 14, True)
      , (20624, 19, True)
      , (20624, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Summon Primary Portal III (2906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2906;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2906, 'scrollsummonportal3');
@@ -37903,6 +41248,9 @@ VALUES (2906, 13, True)
      , (2906, 19, True)
      , (2906, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Mastery Self VI (3437) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3437;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3437, 'scrollmanaconvertmasteryself6');
 
@@ -37936,6 +41284,9 @@ VALUES (3437, 13, True)
      , (3437, 14, True)
      , (3437, 19, True)
      , (3437, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Protection Other IV (2975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2975;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2975, 'scrollacidprotectionother4');
@@ -37971,6 +41322,9 @@ VALUES (2975, 13, True)
      , (2975, 19, True)
      , (2975, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Destructive Curse III (43322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43322;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43322, 'ace43322-scrollofdestructivecurseiii');
 
@@ -38004,6 +41358,9 @@ VALUES (43322, 13, True)
      , (43322, 14, True)
      , (43322, 19, True)
      , (43322, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Blight II (21103) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21103;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21103, 'scrollmanabolt2');
@@ -38039,6 +41396,9 @@ VALUES (21103, 13, True)
      , (21103, 19, True)
      , (21103, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Other IV (3165) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3165;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3165, 'scrollaxemasteryother4');
 
@@ -38072,6 +41432,9 @@ VALUES (3165, 13, True)
      , (3165, 14, True)
      , (3165, 19, True)
      , (3165, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sprint Self IV (3495) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3495;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3495, 'scrollsprintself4');
@@ -38107,6 +41470,9 @@ VALUES (3495, 13, True)
      , (3495, 19, True)
      , (3495, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Vulnerability Other VI (3002) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3002;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3002, 'scrollbladevulnerabilityother6');
 
@@ -38140,6 +41506,9 @@ VALUES (3002, 13, True)
      , (3002, 14, True)
      , (3002, 19, True)
      , (3002, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Ineptitude V (3381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3381;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3381, 'scrolllockpickineptitude5');
@@ -38175,6 +41544,9 @@ VALUES (3381, 13, True)
      , (3381, 19, True)
      , (3381, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Jumping Ineptitude V (9628) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9628;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9628, 'scrolljumpineptitude5');
 
@@ -38208,6 +41580,9 @@ VALUES (9628, 13, True)
      , (9628, 14, True)
      , (9628, 19, True)
      , (9628, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Expertise Self VI (3327) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3327;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3327, 'scrollitemexpertiseself6');
@@ -38243,6 +41618,9 @@ VALUES (3327, 13, True)
      , (3327, 19, True)
      , (3327, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Destructive Curse V (43324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43324;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43324, 'ace43324-scrollofdestructivecursev');
 
@@ -38276,6 +41654,9 @@ VALUES (43324, 13, True)
      , (43324, 14, True)
      , (43324, 19, True)
      , (43324, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fealty Self V (3266) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3266;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3266, 'scrollfealtyself5');
@@ -38311,6 +41692,9 @@ VALUES (3266, 13, True)
      , (3266, 19, True)
      , (3266, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Ineptitude III (3379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3379;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3379, 'scrolllockpickineptitude3');
 
@@ -38344,6 +41728,9 @@ VALUES (3379, 13, True)
      , (3379, 14, True)
      , (3379, 19, True)
      , (3379, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fletching Mastery Other IV (5971) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5971;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5971, 'scrollfletchingmasteryother4');
@@ -38379,6 +41766,9 @@ VALUES (5971, 13, True)
      , (5971, 19, True)
      , (5971, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shield Ineptitude Other V (45312) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45312;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45312, 'ace45312-scrollofshieldineptitudeotherv');
 
@@ -38412,6 +41802,9 @@ VALUES (45312, 13, True)
      , (45312, 14, True)
      , (45312, 19, True)
      , (45312, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Deception Mastery Other V (3241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3241;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3241, 'scrolldeceptionmasteryother5');
@@ -38447,6 +41840,9 @@ VALUES (3241, 13, True)
      , (3241, 19, True)
      , (3241, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Ignorance IV (3155) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3155;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3155, 'scrollarmorignorance4');
 
@@ -38480,6 +41876,9 @@ VALUES (3155, 13, True)
      , (3155, 14, True)
      , (3155, 19, True)
      , (3155, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cold Protection Other III (3019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3019;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3019, 'scrollcoldprotectionother3');
@@ -38515,6 +41914,9 @@ VALUES (3019, 13, True)
      , (3019, 19, True)
      , (3019, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Healing Ineptitude V (3271) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3271;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3271, 'scrollhealingineptitude5');
 
@@ -38548,6 +41950,9 @@ VALUES (3271, 13, True)
      , (3271, 14, True)
      , (3271, 19, True)
      , (3271, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Drain Mana Other III (9662) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9662;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9662, 'scrolldrainmana3');
@@ -38583,6 +41988,9 @@ VALUES (9662, 13, True)
      , (9662, 19, True)
      , (9662, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Rejuvenate Self III (3124) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3124;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3124, 'scrollrejuvenateself3');
 
@@ -38615,6 +42023,9 @@ VALUES (3124, 13, True)
      , (3124, 14, True)
      , (3124, 19, True)
      , (3124, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Drain Health Other III (3934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3934;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3934, 'scrolldrainhealth3');
@@ -38650,6 +42061,9 @@ VALUES (3934, 13, True)
      , (3934, 19, True)
      , (3934, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Other III (3399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3399;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3399, 'scrollmacemasteryother3');
 
@@ -38683,6 +42097,9 @@ VALUES (3399, 13, True)
      , (3399, 14, True)
      , (3399, 19, True)
      , (3399, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Bane III (2853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2853;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2853, 'scrolllightningbane3');
@@ -38718,6 +42135,9 @@ VALUES (2853, 13, True)
      , (2853, 19, True)
      , (2853, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Bolt (1639) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1639;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1639, 'scrollforcebolt');
 
@@ -38751,6 +42171,9 @@ VALUES (1639, 13, True)
      , (1639, 14, True)
      , (1639, 19, True)
      , (1639, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Ignorance II (3588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3588;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3588, 'scrollweaponignorance2');
@@ -38786,6 +42209,9 @@ VALUES (3588, 13, True)
      , (3588, 19, True)
      , (3588, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Spirit Drinker Self III (28004) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28004;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28004, 'scrollspiritdrinker3');
 
@@ -38819,6 +42245,9 @@ VALUES (28004, 13, True)
      , (28004, 14, True)
      , (28004, 19, True)
      , (28004, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Ineptitude V (3366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3366;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3366, 'scrolllifemagicineptitude5');
@@ -38854,6 +42283,9 @@ VALUES (3366, 13, True)
      , (3366, 19, True)
      , (3366, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Protection Other III (2989) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2989;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2989, 'scrollbladeprotectionother3');
 
@@ -38887,6 +42319,9 @@ VALUES (2989, 13, True)
      , (2989, 14, True)
      , (2989, 19, True)
      , (2989, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Resist Magic Self III (3469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3469;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3469, 'scrollresistmagicself3');
@@ -38922,6 +42357,9 @@ VALUES (3469, 13, True)
      , (3469, 19, True)
      , (3469, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Acid Streak (37999) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37999;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37999, 'ace37999-inscriptionofacidstreak');
 
@@ -38955,6 +42393,9 @@ VALUES (37999, 13, True)
      , (37999, 14, True)
      , (37999, 19, True)
      , (37999, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Frost Arc (37795) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37795;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37795, 'ace37795-inscriptionoffrostarc');
@@ -38990,6 +42431,9 @@ VALUES (37795, 13, True)
      , (37795, 19, True)
      , (37795, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Shock Wave Streak (37935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37935;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37935, 'ace37935-inscriptionofshockwavestreak');
 
@@ -39023,6 +42467,9 @@ VALUES (37935, 13, True)
      , (37935, 14, True)
      , (37935, 19, True)
      , (37935, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Whirling Blade Streak (37989) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37989;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37989, 'ace37989-inscriptionofwhirlingbladestreak');
@@ -39058,6 +42505,9 @@ VALUES (37989, 13, True)
      , (37989, 19, True)
      , (37989, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Flame Streak (37779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37779;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37779, 'ace37779-inscriptionofflamestreak');
 
@@ -39091,6 +42541,9 @@ VALUES (37779, 13, True)
      , (37779, 14, True)
      , (37779, 19, True)
      , (37779, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Force Streak (37791) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37791;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37791, 'ace37791-inscriptionofforcestreak');
@@ -39126,6 +42579,9 @@ VALUES (37791, 13, True)
      , (37791, 19, True)
      , (37791, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Frost Streak (37800) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37800;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37800, 'ace37800-inscriptionoffroststreak');
 
@@ -39159,6 +42615,9 @@ VALUES (37800, 13, True)
      , (37800, 14, True)
      , (37800, 19, True)
      , (37800, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Deception Mastery Self (37710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37710;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37710, 'ace37710-inscriptionofdeceptionmasteryself');
@@ -39194,6 +42653,9 @@ VALUES (37710, 13, True)
      , (37710, 19, True)
      , (37710, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of War Magic Mastery Self (37980) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37980;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37980, 'ace37980-inscriptionofwarmagicmasteryself');
 
@@ -39227,6 +42689,9 @@ VALUES (37980, 13, True)
      , (37980, 14, True)
      , (37980, 19, True)
      , (37980, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Impregnability Self (37822) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37822;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37822, 'ace37822-inscriptionofimpregnabilityself');
@@ -39262,6 +42727,9 @@ VALUES (37822, 13, True)
      , (37822, 19, True)
      , (37822, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Shock Arc (37932) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37932;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37932, 'ace37932-inscriptionofshockarc');
 
@@ -39295,6 +42763,9 @@ VALUES (37932, 13, True)
      , (37932, 14, True)
      , (37932, 19, True)
      , (37932, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Flame Arc (37774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37774;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37774, 'ace37774-inscriptionofflamearc');
@@ -39330,6 +42801,9 @@ VALUES (37774, 13, True)
      , (37774, 19, True)
      , (37774, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Blade Arc (37655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37655;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37655, 'ace37655-inscriptionofbladearc');
 
@@ -39363,6 +42837,9 @@ VALUES (37655, 13, True)
      , (37655, 14, True)
      , (37655, 19, True)
      , (37655, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Force Arc (37788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37788;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37788, 'ace37788-inscriptionofforcearc');
@@ -39398,6 +42875,9 @@ VALUES (37788, 13, True)
      , (37788, 19, True)
      , (37788, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Acid Arc (37992) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37992;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37992, 'ace37992-inscriptionofacidarc');
 
@@ -39431,6 +42911,9 @@ VALUES (37992, 13, True)
      , (37992, 14, True)
      , (37992, 19, True)
      , (37992, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Force Bolt (37790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37790;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37790, 'ace37790-inscriptionofforcebolt');
@@ -39466,6 +42949,9 @@ VALUES (37790, 13, True)
      , (37790, 19, True)
      , (37790, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Shock Wave (37934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37934;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37934, 'ace37934-inscriptionofshockwave');
 
@@ -39499,6 +42985,9 @@ VALUES (37934, 13, True)
      , (37934, 14, True)
      , (37934, 19, True)
      , (37934, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Acid Stream (38000) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38000;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38000, 'ace38000-inscriptionofacidstream');
@@ -39534,6 +43023,9 @@ VALUES (38000, 13, True)
      , (38000, 19, True)
      , (38000, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Flame Bolt (37777) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37777;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37777, 'ace37777-inscriptionofflamebolt');
 
@@ -39567,6 +43059,9 @@ VALUES (37777, 13, True)
      , (37777, 14, True)
      , (37777, 19, True)
      , (37777, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Frost Bolt (37798) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37798;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37798, 'ace37798-inscriptionoffrostbolt');
@@ -39602,6 +43097,9 @@ VALUES (37798, 13, True)
      , (37798, 19, True)
      , (37798, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Whirling Blade (37988) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37988;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37988, 'ace37988-inscriptionofwhirlingblade');
 
@@ -39635,6 +43133,9 @@ VALUES (37988, 13, True)
      , (37988, 14, True)
      , (37988, 19, True)
      , (37988, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Sneak Attack Mastery Self (45355) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45355;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45355, 'ace45355-inscriptionofsneakattackmasteryself');
@@ -39670,6 +43171,9 @@ VALUES (45355, 13, True)
      , (45355, 19, True)
      , (45355, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Jumping Mastery Self (38761) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38761;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38761, 'ace38761-inscriptionofjumpingmasteryself');
 
@@ -39703,6 +43207,9 @@ VALUES (38761, 13, True)
      , (38761, 14, True)
      , (38761, 19, True)
      , (38761, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Swift Killer Self (37959) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37959;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37959, 'ace37959-inscriptionofswiftkillerself');
@@ -39738,6 +43245,9 @@ VALUES (37959, 13, True)
      , (37959, 19, True)
      , (37959, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Rejuvenation Self (38765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38765;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38765, 'ace38765-inscriptionofrejuvenationself');
 
@@ -39771,6 +43281,9 @@ VALUES (38765, 13, True)
      , (38765, 14, True)
      , (38765, 19, True)
      , (38765, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Swift Killer Self III (2883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2883;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2883, 'scrollswiftkiller3');
@@ -39806,6 +43319,9 @@ VALUES (2883, 13, True)
      , (2883, 19, True)
      , (2883, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Mana Conversion Mastery Self (38763) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38763;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38763, 'ace38763-inscriptionofmanaconversionmasteryself');
 
@@ -39839,6 +43355,9 @@ VALUES (38763, 13, True)
      , (38763, 14, True)
      , (38763, 19, True)
      , (38763, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Magic Resistance Self (38762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38762;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38762, 'ace38762-inscriptionofmagicresistanceself');
@@ -39874,6 +43393,9 @@ VALUES (38762, 13, True)
      , (38762, 19, True)
      , (38762, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Recklessness Mastery Self (45307) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45307;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45307, 'ace45307-inscriptionofrecklessnessmasteryself');
 
@@ -39907,6 +43429,9 @@ VALUES (45307, 13, True)
      , (45307, 14, True)
      , (45307, 19, True)
      , (45307, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Bane V (2815) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2815;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2815, 'scrollflamebane5');
@@ -39942,6 +43467,9 @@ VALUES (2815, 13, True)
      , (2815, 19, True)
      , (2815, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Bane V (2795) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2795;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2795, 'scrollbludgeonbane5');
 
@@ -39975,6 +43503,9 @@ VALUES (2795, 13, True)
      , (2795, 14, True)
      , (2795, 19, True)
      , (2795, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Other VI (3212) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3212;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3212, 'scrollcrossbowmasteryother6');
@@ -40010,6 +43541,9 @@ VALUES (3212, 13, True)
      , (3212, 19, True)
      , (3212, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Ineptitude Other VII (20516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20516;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20516, 'scrollcrossbowineptitude7');
 
@@ -40043,6 +43577,9 @@ VALUES (20516, 13, True)
      , (20516, 14, True)
      , (20516, 19, True)
      , (20516, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shock Wave Streak V (8951) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8951;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8951, 'scrollshockwavestreak5');
@@ -40078,6 +43615,9 @@ VALUES (8951, 13, True)
      , (8951, 19, True)
      , (8951, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Willpower Self VI (2761) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2761;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2761, 'scrollwillpowerself6');
 
@@ -40111,6 +43651,9 @@ VALUES (2761, 13, True)
      , (2761, 14, True)
      , (2761, 19, True)
      , (2761, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Bane IV (2824) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2824;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2824, 'scrollfrostbane4');
@@ -40146,6 +43689,9 @@ VALUES (2824, 13, True)
      , (2824, 19, True)
      , (2824, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Health to Mana Self IV (9632) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9632;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9632, 'scrollhealthtomanaself4');
 
@@ -40179,6 +43725,9 @@ VALUES (9632, 13, True)
      , (9632, 14, True)
      , (9632, 19, True)
      , (9632, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Monster Attunement Self (1728) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1728;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1728, 'scrollmonsterattunementself');
@@ -40214,6 +43763,9 @@ VALUES (1728, 13, True)
      , (1728, 19, True)
      , (1728, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Bane IV (2869) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2869;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2869, 'scrollpiercingbane4');
 
@@ -40247,6 +43799,9 @@ VALUES (2869, 13, True)
      , (2869, 14, True)
      , (2869, 19, True)
      , (2869, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weakness Other II (2747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2747;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2747, 'scrollweaknessother2');
@@ -40282,6 +43837,9 @@ VALUES (2747, 13, True)
      , (2747, 19, True)
      , (2747, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Lure (1878) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1878;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1878, 'scrollbludgeonlure');
 
@@ -40315,6 +43873,9 @@ VALUES (1878, 13, True)
      , (1878, 14, True)
      , (1878, 19, True)
      , (1878, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Blood Drinker Self III (2783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2783;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2783, 'scrollblooddrinker3');
@@ -40350,6 +43911,9 @@ VALUES (2783, 13, True)
      , (2783, 19, True)
      , (2783, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fire Protection Other IV (3035) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3035;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3035, 'scrollfireprotectionother4');
 
@@ -40383,6 +43947,9 @@ VALUES (3035, 13, True)
      , (3035, 14, True)
      , (3035, 19, True)
      , (3035, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Piercing Vulnerability Other VI (3077) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3077;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3077, 'scrollpiercevulnerabilityother6');
@@ -40418,6 +43985,9 @@ VALUES (3077, 13, True)
      , (3077, 19, True)
      , (3077, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Mastery Self IV (3525) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3525;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3525, 'scrollswordmasteryself4');
 
@@ -40451,6 +44021,9 @@ VALUES (3525, 13, True)
      , (3525, 14, True)
      , (3525, 19, True)
      , (3525, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nether Streak IV (43313) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43313;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43313, 'ace43313-scrollofnetherstreakiv');
@@ -40486,6 +44059,9 @@ VALUES (43313, 13, True)
      , (43313, 19, True)
      , (43313, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Protection Other (1844) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1844;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1844, 'scrollbludgeonprotectionother');
 
@@ -40519,6 +44095,9 @@ VALUES (1844, 13, True)
      , (1844, 14, True)
      , (1844, 19, True)
      , (1844, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapon Mastery Self VI (41261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41261;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41261, 'ace41261-scrolloftwohandedweaponmasteryselfvi');
@@ -40554,6 +44133,9 @@ VALUES (41261, 13, True)
      , (41261, 19, True)
      , (41261, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Protection Self VI (3072) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3072;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3072, 'scrollpierceprotectionself6');
 
@@ -40587,6 +44169,9 @@ VALUES (3072, 13, True)
      , (3072, 14, True)
      , (3072, 19, True)
      , (3072, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Protection Other IV (3050) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3050;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3050, 'scrolllightningprotectionother4');
@@ -40622,6 +44207,9 @@ VALUES (3050, 13, True)
      , (3050, 19, True)
      , (3050, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Expertise Other IV (3320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3320;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3320, 'scrollitemexpertiseother4');
 
@@ -40655,6 +44243,9 @@ VALUES (3320, 13, True)
      , (3320, 14, True)
      , (3320, 19, True)
      , (3320, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Expertise Other V (3411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3411;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3411, 'scrollmagicitemexpertiseother5');
@@ -40690,6 +44281,9 @@ VALUES (3411, 13, True)
      , (3411, 19, True)
      , (3411, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Arc V (21299) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21299;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21299, 'scrollbladearc5');
 
@@ -40723,6 +44317,9 @@ VALUES (21299, 13, True)
      , (21299, 14, True)
      , (21299, 19, True)
      , (21299, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Heartseeker Self III (2833) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2833;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2833, 'scrollheartseeker3');
@@ -40758,6 +44355,9 @@ VALUES (2833, 13, True)
      , (2833, 19, True)
      , (2833, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weaken Lock II (2898) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2898;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2898, 'scrollweakenlock2');
 
@@ -40791,6 +44391,9 @@ VALUES (2898, 13, True)
      , (2898, 14, True)
      , (2898, 19, True)
      , (2898, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Vulnerability Other II (2998) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2998;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2998, 'scrollbladevulnerabilityother2');
@@ -40826,6 +44429,9 @@ VALUES (2998, 13, True)
      , (2998, 19, True)
      , (2998, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Superior Soothing Wind (29024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29024;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29024, 'scrollregenerationfellowship7');
 
@@ -40858,6 +44464,9 @@ VALUES (29024, 13, True)
      , (29024, 14, True)
      , (29024, 19, True)
      , (29024, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Greater Soothing Wind (29023) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29023;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29023, 'scrollregenerationfellowship6');
@@ -40892,6 +44501,9 @@ VALUES (29023, 13, True)
      , (29023, 19, True)
      , (29023, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of The Soothing Wind (29022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29022;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29022, 'scrollregenerationfellowship5');
 
@@ -40925,6 +44537,9 @@ VALUES (29022, 13, True)
      , (29022, 19, True)
      , (29022, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lesser Soothing Wind (29021) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29021;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29021, 'scrollregenerationfellowship4');
 
@@ -40957,6 +44572,9 @@ VALUES (29021, 13, True)
      , (29021, 14, True)
      , (29021, 19, True)
      , (29021, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Arc VI (21307) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21307;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21307, 'scrollflamearc6');
@@ -40992,6 +44610,9 @@ VALUES (21307, 13, True)
      , (21307, 19, True)
      , (21307, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Heartseeker Self IV (2834) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2834;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2834, 'scrollheartseeker4');
 
@@ -41025,6 +44646,9 @@ VALUES (2834, 13, True)
      , (2834, 14, True)
      , (2834, 19, True)
      , (2834, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Hermetic Link Self IV (2889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2889;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2889, 'scrolltruevalue4');
@@ -41060,6 +44684,9 @@ VALUES (2889, 13, True)
      , (2889, 19, True)
      , (2889, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Bane IV (2774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2774;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2774, 'scrollbladebane4');
 
@@ -41093,6 +44720,9 @@ VALUES (2774, 13, True)
      , (2774, 14, True)
      , (2774, 19, True)
      , (2774, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Mastery Self V (3391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3391;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3391, 'scrolllockpickmasteryself5');
@@ -41128,6 +44758,9 @@ VALUES (3391, 13, True)
      , (3391, 19, True)
      , (3391, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Leadership Mastery Self VI (3362) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3362;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3362, 'scrollleadershipmasteryself6');
 
@@ -41161,6 +44794,9 @@ VALUES (3362, 13, True)
      , (3362, 14, True)
      , (3362, 19, True)
      , (3362, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Corruption IV (43289) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43289;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43289, 'ace43289-scrollofcorruptioniv');
@@ -41196,6 +44832,9 @@ VALUES (43289, 13, True)
      , (43289, 19, True)
      , (43289, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Lure V (2875) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2875;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2875, 'scrollpiercinglure5');
 
@@ -41229,6 +44868,9 @@ VALUES (2875, 13, True)
      , (2875, 14, True)
      , (2875, 19, True)
      , (2875, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Mastery Self II (5993) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5993;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5993, 'scrollalchemymasteryself2');
@@ -41264,6 +44906,9 @@ VALUES (5993, 13, True)
      , (5993, 19, True)
      , (5993, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Faithlessness V (3256) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3256;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3256, 'scrollfaithlessness5');
 
@@ -41297,6 +44942,9 @@ VALUES (3256, 13, True)
      , (3256, 14, True)
      , (3256, 19, True)
      , (3256, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Endurance Other IV (2656) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2656;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2656, 'scrollenduranceother4');
@@ -41332,6 +44980,9 @@ VALUES (2656, 13, True)
      , (2656, 19, True)
      , (2656, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Streak II (8921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8921;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8921, 'scrollflamestreak2');
 
@@ -41365,6 +45016,9 @@ VALUES (8921, 13, True)
      , (8921, 14, True)
      , (8921, 19, True)
      , (8921, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Invulnerability Self III (3299) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3299;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3299, 'scrollinvulnerabilityself3');
@@ -41400,6 +45054,9 @@ VALUES (3299, 13, True)
      , (3299, 19, True)
      , (3299, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Expertise Other IV (3145) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3145;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3145, 'scrollarmorexpertiseother4');
 
@@ -41433,6 +45090,9 @@ VALUES (3145, 13, True)
      , (3145, 14, True)
      , (3145, 19, True)
      , (3145, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Jumping Mastery Self (1711) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1711;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1711, 'scrolljumpmasteryself');
@@ -41468,6 +45128,9 @@ VALUES (1711, 13, True)
      , (1711, 19, True)
      , (1711, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cleanse Item Magic (20356) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20356;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20356, 'scrolldispelitemneutralother3');
 
@@ -41501,6 +45164,9 @@ VALUES (20356, 13, True)
      , (20356, 14, True)
      , (20356, 19, True)
      , (20356, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Ineptitude (1716) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1716;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1716, 'scrolllifemagicineptitude');
@@ -41536,6 +45202,9 @@ VALUES (1716, 13, True)
      , (1716, 19, True)
      , (1716, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Blight I (21102) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21102;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21102, 'scrollmanabolt');
 
@@ -41569,6 +45238,9 @@ VALUES (21102, 13, True)
      , (21102, 14, True)
      , (21102, 19, True)
      , (21102, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Expertise Self (1683) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1683;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1683, 'scrollarmorexpertiseself');
@@ -41604,6 +45276,9 @@ VALUES (1683, 13, True)
      , (1683, 19, True)
      , (1683, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana to Stamina Self II (9645) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9645;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9645, 'scrollmanatostaminaself2');
 
@@ -41637,6 +45312,9 @@ VALUES (9645, 13, True)
      , (9645, 14, True)
      , (9645, 19, True)
      , (9645, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcanum Salvaging I (28933) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28933;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28933, 'scrollarcanumsalvaging');
@@ -41672,6 +45350,9 @@ VALUES (28933, 13, True)
      , (28933, 19, True)
      , (28933, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Deception Ineptitude III (3234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3234;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3234, 'scrolldeceptionineptitude3');
 
@@ -41705,6 +45386,9 @@ VALUES (3234, 13, True)
      , (3234, 14, True)
      , (3234, 19, True)
      , (3234, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cooking Ineptitude Other II (5945) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5945;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5945, 'scrollcookingineptitude2');
@@ -41740,6 +45424,9 @@ VALUES (5945, 13, True)
      , (5945, 19, True)
      , (5945, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Lure (1553) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1553;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1553, 'scrollbladelure');
 
@@ -41773,6 +45460,9 @@ VALUES (1553, 13, True)
      , (1553, 14, True)
      , (1553, 19, True)
      , (1553, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Blood Drinker Self V (2785) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2785;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2785, 'scrollblooddrinker5');
@@ -41808,6 +45498,9 @@ VALUES (2785, 13, True)
      , (2785, 19, True)
      , (2785, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cleanse Creature Magic Self (20326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20326, 'scrolldispelcreatureneutralself3');
 
@@ -41841,6 +45534,9 @@ VALUES (20326, 13, True)
      , (20326, 14, True)
      , (20326, 19, True)
      , (20326, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Summoning Mastery Other V (49467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49467;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49467, 'ace49467-scrollofsummoningmasteryotherv');
@@ -41876,6 +45572,9 @@ VALUES (49467, 13, True)
      , (49467, 19, True)
      , (49467, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shield Mastery Self V (45328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45328;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45328, 'ace45328-scrollofshieldmasteryselfv');
 
@@ -41909,6 +45608,9 @@ VALUES (45328, 13, True)
      , (45328, 14, True)
      , (45328, 19, True)
      , (45328, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Mastery Self II (43360) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43360;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43360, 'ace43360-scrollofvoidmagicmasteryselfii');
@@ -41944,6 +45646,9 @@ VALUES (43360, 13, True)
      , (43360, 19, True)
      , (43360, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Expertise Self V (3586) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3586;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3586, 'scrollweaponexpertiseself5');
 
@@ -41977,6 +45682,9 @@ VALUES (3586, 13, True)
      , (3586, 14, True)
      , (3586, 19, True)
      , (3586, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Vulnerability Other V (3061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3061;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3061, 'scrolllightningvulnerabilityother5');
@@ -42012,6 +45720,9 @@ VALUES (3061, 13, True)
      , (3061, 19, True)
      , (3061, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Endurance Self III (2660) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2660;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2660, 'scrollenduranceself3');
 
@@ -42045,6 +45756,9 @@ VALUES (2660, 13, True)
      , (2660, 14, True)
      , (2660, 19, True)
      , (2660, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Ineptitude II (3363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3363;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3363, 'scrolllifemagicineptitude2');
@@ -42080,6 +45794,9 @@ VALUES (3363, 13, True)
      , (3363, 19, True)
      , (3363, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Harm Other III (2688) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2688;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2688, 'scrollharmother3');
 
@@ -42113,6 +45830,9 @@ VALUES (2688, 13, True)
      , (2688, 14, True)
      , (2688, 19, True)
      , (2688, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Bolt III (5999) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5999;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5999, 'scrollflamebolt3');
@@ -42148,6 +45868,9 @@ VALUES (5999, 13, True)
      , (5999, 19, True)
      , (5999, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Drain Other IV (2709) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2709;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2709, 'scrollmanadrain4');
 
@@ -42181,6 +45904,9 @@ VALUES (2709, 13, True)
      , (2709, 14, True)
      , (2709, 19, True)
      , (2709, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Revitalize Other V (2725) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2725;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2725, 'scrollrevitalizeother5');
@@ -42216,6 +45942,9 @@ VALUES (2725, 13, True)
      , (2725, 19, True)
      , (2725, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Stamina to Health Self IV (9652) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9652;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9652, 'scrollstaminatohealthself4');
 
@@ -42249,6 +45978,9 @@ VALUES (9652, 13, True)
      , (9652, 14, True)
      , (9652, 19, True)
      , (9652, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Willpower Other IV (2754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2754;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2754, 'scrollwillpowerother4');
@@ -42284,6 +46016,9 @@ VALUES (2754, 13, True)
      , (2754, 19, True)
      , (2754, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Mastery Self (45348) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45348;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45348, 'ace45348-scrollofsneakattackmasteryself');
 
@@ -42317,6 +46052,9 @@ VALUES (45348, 13, True)
      , (45348, 14, True)
      , (45348, 19, True)
      , (45348, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Impregnability Self V (3291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3291;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3291, 'scrollimpregnabilityself5');
@@ -42352,6 +46090,9 @@ VALUES (3291, 13, True)
      , (3291, 19, True)
      , (3291, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Ineptitude Other III (45286) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45286;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45286, 'ace45286-scrollofrecklessnessineptitudeotheriii');
 
@@ -42385,6 +46126,9 @@ VALUES (45286, 13, True)
      , (45286, 14, True)
      , (45286, 19, True)
      , (45286, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of War Magic Ineptitude VI (3567) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3567;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3567, 'scrollwarmagicineptitude6');
@@ -42420,6 +46164,9 @@ VALUES (3567, 13, True)
      , (3567, 19, True)
      , (3567, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Ineptitude II (3188) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3188;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3188, 'scrollcreatureenchantmentineptitude2');
 
@@ -42453,6 +46200,9 @@ VALUES (3188, 13, True)
      , (3188, 14, True)
      , (3188, 19, True)
      , (3188, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Renewal Other II (3098) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3098;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3098, 'scrollmanarenewalother2');
@@ -42488,6 +46238,9 @@ VALUES (3098, 13, True)
      , (3098, 19, True)
      , (3098, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Tenacity I (21109) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21109;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21109, 'scrollstaminabolt');
 
@@ -42521,6 +46274,9 @@ VALUES (21109, 13, True)
      , (21109, 14, True)
      , (21109, 19, True)
      , (21109, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sprint Self II (3493) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3493;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3493, 'scrollsprintself2');
@@ -42556,6 +46312,9 @@ VALUES (3493, 13, True)
      , (3493, 19, True)
      , (3493, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Mastery Other (45268) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45268;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45268, 'ace45268-scrollofdualwieldmasteryother');
 
@@ -42589,6 +46348,9 @@ VALUES (45268, 13, True)
      , (45268, 14, True)
      , (45268, 19, True)
      , (45268, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Ineptitude Other II (45237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45237;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45237, 'ace45237-scrollofdirtyfightingineptitudeotherii');
@@ -42624,6 +46386,9 @@ VALUES (45237, 13, True)
      , (45237, 19, True)
      , (45237, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Mastery Self II (45277) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45277;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45277, 'ace45277-scrollofdualwieldmasteryselfii');
 
@@ -42657,6 +46422,9 @@ VALUES (45277, 13, True)
      , (45277, 14, True)
      , (45277, 19, True)
      , (45277, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Piercing Protection Self (1854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1854;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1854, 'scrollpierceprotectionself');
@@ -42692,6 +46460,9 @@ VALUES (1854, 13, True)
      , (1854, 19, True)
      , (1854, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Spirit Drinker Self (28002) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28002;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28002, 'scrollspiritdrinker');
 
@@ -42725,6 +46496,9 @@ VALUES (28002, 13, True)
      , (28002, 14, True)
      , (28002, 19, True)
      , (28002, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Mastery Self IV (45255) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45255;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45255, 'ace45255-scrollofdirtyfightingmasteryselfiv');
@@ -42760,6 +46534,9 @@ VALUES (45255, 13, True)
      , (45255, 19, True)
      , (45255, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Infuse Stamina III (3742) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3742;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3742, 'scrollinfusestamina3');
 
@@ -42793,6 +46570,9 @@ VALUES (3742, 13, True)
      , (3742, 14, True)
      , (3742, 19, True)
      , (3742, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Endurance Other III (2655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2655;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2655, 'scrollenduranceother3');
@@ -42828,6 +46608,9 @@ VALUES (2655, 13, True)
      , (2655, 19, True)
      , (2655, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Mastery Self II (3198) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3198;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3198, 'scrollcreatureenchantmentself2');
 
@@ -42861,6 +46644,9 @@ VALUES (3198, 13, True)
      , (3198, 14, True)
      , (3198, 19, True)
      , (3198, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Whirling Blade Streak VI (8958) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8958;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8958, 'scrollwhirlingbladestreak6');
@@ -42896,6 +46682,9 @@ VALUES (8958, 13, True)
      , (8958, 19, True)
      , (8958, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcanum Enlightenment III (28942) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28942;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28942, 'scrollarcanumsalvagingother3');
 
@@ -42930,6 +46719,9 @@ VALUES (28942, 13, True)
      , (28942, 19, True)
      , (28942, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bur Recall (35479) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35479;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35479, 'ace35479-scrollofburrecall');
 
@@ -42962,6 +46754,9 @@ VALUES (35479, 13, True)
      , (35479, 14, True)
      , (35479, 19, True)
      , (35479, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Lightning Bolt (37857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37857;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37857, 'ace37857-inscriptionoflightningbolt');
@@ -42997,6 +46792,9 @@ VALUES (37857, 13, True)
      , (37857, 19, True)
      , (37857, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Drain Mana Other (37736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37736;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37736, 'ace37736-inscriptionofdrainmanaother');
 
@@ -43030,6 +46828,9 @@ VALUES (37736, 13, True)
      , (37736, 14, True)
      , (37736, 19, True)
      , (37736, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Blade Blast (37657) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37657;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37657, 'ace37657-inscriptionofbladeblast');
@@ -43065,6 +46866,9 @@ VALUES (37657, 13, True)
      , (37657, 19, True)
      , (37657, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Acid Volley (38001) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38001;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38001, 'ace38001-inscriptionofacidvolley');
 
@@ -43098,6 +46902,9 @@ VALUES (38001, 13, True)
      , (38001, 14, True)
      , (38001, 19, True)
      , (38001, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Flame Blast (37776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37776;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37776, 'ace37776-inscriptionofflameblast');
@@ -43133,6 +46940,9 @@ VALUES (37776, 13, True)
      , (37776, 19, True)
      , (37776, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Frost Volley (37801) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37801;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37801, 'ace37801-inscriptionoffrostvolley');
 
@@ -43166,6 +46976,9 @@ VALUES (37801, 13, True)
      , (37801, 14, True)
      , (37801, 19, True)
      , (37801, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Revitalize Self (37930) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37930;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37930, 'ace37930-inscriptionofrevitalizeself');
@@ -43201,6 +47014,9 @@ VALUES (37930, 13, True)
      , (37930, 19, True)
      , (37930, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weakness Other IV (2749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2749;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2749, 'scrollweaknessother4');
 
@@ -43234,6 +47050,9 @@ VALUES (2749, 13, True)
      , (2749, 14, True)
      , (2749, 19, True)
      , (2749, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Nullify Creature Magic Self (37721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37721;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37721, 'ace37721-inscriptionofnullifycreaturemagicself');
@@ -43269,6 +47088,9 @@ VALUES (37721, 13, True)
      , (37721, 19, True)
      , (37721, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Hermetic Void III (2838) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2838;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2838, 'scrollhidevalue3');
 
@@ -43302,6 +47124,9 @@ VALUES (2838, 13, True)
      , (2838, 14, True)
      , (2838, 19, True)
      , (2838, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Regenerate Self V (3116) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3116;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3116, 'scrollregenerateself5');
@@ -43337,6 +47162,9 @@ VALUES (3116, 13, True)
      , (3116, 19, True)
      , (3116, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Faithlessness VI (3257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3257;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3257, 'scrollfaithlessness6');
 
@@ -43370,6 +47198,9 @@ VALUES (3257, 13, True)
      , (3257, 14, True)
      , (3257, 19, True)
      , (3257, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Protection Other V (2991) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2991;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2991, 'scrollbladeprotectionother5');
@@ -43405,6 +47236,9 @@ VALUES (2991, 13, True)
      , (2991, 19, True)
      , (2991, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Arc III (21318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21318;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21318, 'scrollfrostarc3');
 
@@ -43438,6 +47272,9 @@ VALUES (21318, 13, True)
      , (21318, 14, True)
      , (21318, 19, True)
      , (21318, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cooking Ineptitude Other V (5948) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5948;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5948, 'scrollcookingineptitude5');
@@ -43473,6 +47310,9 @@ VALUES (5948, 13, True)
      , (5948, 19, True)
      , (5948, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Lightning Streak (37862) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37862;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37862, 'ace37862-inscriptionoflightningstreak');
 
@@ -43506,6 +47346,9 @@ VALUES (37862, 13, True)
      , (37862, 14, True)
      , (37862, 19, True)
      , (37862, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Invulnerability Other V (3296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3296;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3296, 'scrollinvulnerabilityother5');
@@ -43541,6 +47384,9 @@ VALUES (3296, 13, True)
      , (3296, 19, True)
      , (3296, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Swift Killer Self (1895) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1895;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1895, 'scrollswiftkiller');
 
@@ -43574,6 +47420,9 @@ VALUES (1895, 13, True)
      , (1895, 14, True)
      , (1895, 19, True)
      , (1895, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fire Vulnerability Other II (3043) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3043;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3043, 'scrollfirevulnerabilityother2');
@@ -43609,6 +47458,9 @@ VALUES (3043, 13, True)
      , (3043, 19, True)
      , (3043, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Mastery Self (45252) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45252;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45252, 'ace45252-scrollofdirtyfightingmasteryself');
 
@@ -43642,6 +47494,9 @@ VALUES (45252, 13, True)
      , (45252, 14, True)
      , (45252, 19, True)
      , (45252, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Streak II (8942) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8942;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8942, 'scrolllightningstreak2');
@@ -43677,6 +47532,9 @@ VALUES (8942, 13, True)
      , (8942, 19, True)
      , (8942, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Corrosion II (43279) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43279;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43279, 'ace43279-scrollofcorrosionii');
 
@@ -43710,6 +47568,9 @@ VALUES (43279, 13, True)
      , (43279, 14, True)
      , (43279, 19, True)
      , (43279, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Regenerate Self II (3113) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3113;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3113, 'scrollregenerateself2');
@@ -43745,6 +47606,9 @@ VALUES (3113, 13, True)
      , (3113, 19, True)
      , (3113, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Vulnerability Other II (2983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2983;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2983, 'scrollacidvulnerabilityother2');
 
@@ -43778,6 +47642,9 @@ VALUES (2983, 13, True)
      , (2983, 14, True)
      , (2983, 19, True)
      , (2983, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Pummeling Storm (20459) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20459;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20459, 'scrollshockblast7');
@@ -43813,6 +47680,9 @@ VALUES (20459, 13, True)
      , (20459, 19, True)
      , (20459, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Celdiseth's Searing (20434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20434;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20434, 'scrollacidvolley7');
 
@@ -43846,6 +47716,9 @@ VALUES (20434, 13, True)
      , (20434, 14, True)
      , (20434, 19, True)
      , (20434, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flensing Wings (20437) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20437;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20437, 'scrollbladevolley7');
@@ -43881,6 +47754,9 @@ VALUES (20437, 13, True)
      , (20437, 19, True)
      , (20437, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Healing Mastery Other VI (3277) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3277;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3277, 'scrollhealingmasteryother6');
 
@@ -43914,6 +47790,9 @@ VALUES (3277, 13, True)
      , (3277, 14, True)
      , (3277, 19, True)
      , (3277, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Lure III (2858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2858;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2858, 'scrolllightninglure3');
@@ -43949,6 +47828,9 @@ VALUES (2858, 13, True)
      , (2858, 19, True)
      , (2858, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Person Unfamiliarity VI (3462) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3462;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3462, 'scrollpersonunfamiliarity6');
 
@@ -43982,6 +47864,9 @@ VALUES (3462, 13, True)
      , (3462, 14, True)
      , (3462, 19, True)
      , (3462, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcane Enlightenment Self III (3139) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3139;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3139, 'scrollarcaneenlightenmentself3');
@@ -44017,6 +47902,9 @@ VALUES (3139, 13, True)
      , (3139, 19, True)
      , (3139, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Heartseeker Other III (46863) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46863;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46863, 'ace46863-auraofheartseekerotheriii');
 
@@ -44050,6 +47938,9 @@ VALUES (46863, 13, True)
      , (46863, 14, True)
      , (46863, 19, True)
      , (46863, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Other IV (3180) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3180;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3180, 'scrollbowmasteryother4');
@@ -44085,6 +47976,9 @@ VALUES (3180, 13, True)
      , (3180, 19, True)
      , (3180, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Lure V (2800) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2800;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2800, 'scrollbludgeonlure5');
 
@@ -44118,6 +48012,9 @@ VALUES (2800, 13, True)
      , (2800, 14, True)
      , (2800, 19, True)
      , (2800, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Whirling Blade Streak IV (8956) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8956;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8956, 'scrollwhirlingbladestreak4');
@@ -44153,6 +48050,9 @@ VALUES (8956, 13, True)
      , (8956, 19, True)
      , (8956, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Brittlemail V (2805) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2805;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2805, 'scrollbrittlemail5');
 
@@ -44186,6 +48086,9 @@ VALUES (2805, 13, True)
      , (2805, 14, True)
      , (2805, 19, True)
      , (2805, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shield Ineptitude Other IV (45311) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45311;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45311, 'ace45311-scrollofshieldineptitudeotheriv');
@@ -44221,6 +48124,9 @@ VALUES (45311, 13, True)
      , (45311, 19, True)
      , (45311, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Leaden Feet V (3346) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3346;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3346, 'scrollleadenfeet5');
 
@@ -44254,6 +48160,9 @@ VALUES (3346, 13, True)
      , (3346, 14, True)
      , (3346, 19, True)
      , (3346, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Summoning Ineptitude Other V (49460) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49460;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49460, 'ace49460-scrollofsummoningineptitudeotherv');
@@ -44289,6 +48198,9 @@ VALUES (49460, 13, True)
      , (49460, 19, True)
      , (49460, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Bolt II (5998) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5998;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5998, 'scrollflamebolt2');
 
@@ -44322,6 +48234,9 @@ VALUES (5998, 13, True)
      , (5998, 14, True)
      , (5998, 19, True)
      , (5998, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapon Mastery Self II (41305) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41305;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41305, 'ace41305-scrolloftwohandedweaponmasteryselfii');
@@ -44357,6 +48272,9 @@ VALUES (41305, 13, True)
      , (41305, 19, True)
      , (41305, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Streak II (8930) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8930;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8930, 'scrollforcestreak2');
 
@@ -44390,6 +48308,9 @@ VALUES (8930, 13, True)
      , (8930, 14, True)
      , (8930, 19, True)
      , (8930, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapon Mastery Other (41304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41304;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41304, 'ace41304-scrolloftwohandedweaponmasteryother');
@@ -44425,6 +48346,9 @@ VALUES (41304, 13, True)
      , (41304, 19, True)
      , (41304, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Streak III (8922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8922;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8922, 'scrollflamestreak3');
 
@@ -44458,6 +48382,9 @@ VALUES (8922, 13, True)
      , (8922, 14, True)
      , (8922, 19, True)
      , (8922, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Protection Other II (3048) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3048;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3048, 'scrolllightningprotectionother2');
@@ -44493,6 +48420,9 @@ VALUES (3048, 13, True)
      , (3048, 19, True)
      , (3048, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Monster Attunement Other II (3438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3438;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3438, 'scrollmonsterattunementother2');
 
@@ -44526,6 +48456,9 @@ VALUES (3438, 13, True)
      , (3438, 14, True)
      , (3438, 19, True)
      , (3438, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Vulnerability Other III (2984) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2984;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2984, 'scrollacidvulnerabilityother3');
@@ -44561,6 +48494,9 @@ VALUES (2984, 13, True)
      , (2984, 19, True)
      , (2984, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Stinging Needles (20444) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20444;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20444, 'scrollforceblast7');
 
@@ -44594,6 +48530,9 @@ VALUES (20444, 13, True)
      , (20444, 14, True)
      , (20444, 19, True)
      , (20444, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other V (3546) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3546;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3546, 'scrollunarmedineptitude5');
@@ -44629,6 +48568,9 @@ VALUES (3546, 13, True)
      , (3546, 19, True)
      , (3546, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Self VI (3542) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3542;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3542, 'scrollthrownmasteryself6');
 
@@ -44662,6 +48604,9 @@ VALUES (3542, 13, True)
      , (3542, 14, True)
      , (3542, 19, True)
      , (3542, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other VI (3547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3547;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3547, 'scrollunarmedineptitude6');
@@ -44697,6 +48642,9 @@ VALUES (3547, 13, True)
      , (3547, 19, True)
      , (3547, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Invulnerability Other III (3294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3294;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3294, 'scrollinvulnerabilityother3');
 
@@ -44730,6 +48678,9 @@ VALUES (3294, 13, True)
      , (3294, 14, True)
      , (3294, 19, True)
      , (3294, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fletching Ineptitude Other III (5964) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5964;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5964, 'scrollfletchingineptitude3');
@@ -44765,6 +48716,9 @@ VALUES (5964, 13, True)
      , (5964, 19, True)
      , (5964, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Hecatomb II (21096) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21096;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21096, 'scrollhealthbolt2');
 
@@ -44798,6 +48752,9 @@ VALUES (21096, 13, True)
      , (21096, 14, True)
      , (21096, 19, True)
      , (21096, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Swift Killer Other IV (46872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46872;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46872, 'ace46872-auraofswiftkillerotheriv');
@@ -44833,6 +48790,9 @@ VALUES (46872, 13, True)
      , (46872, 19, True)
      , (46872, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Arc III (21297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21297;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21297, 'scrollbladearc3');
 
@@ -44866,6 +48826,9 @@ VALUES (21297, 13, True)
      , (21297, 14, True)
      , (21297, 19, True)
      , (21297, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Resist Magic Self IV (3470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3470;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3470, 'scrollresistmagicself4');
@@ -44901,6 +48864,9 @@ VALUES (3470, 13, True)
      , (3470, 19, True)
      , (3470, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Coordination Self IV (2651) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2651;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2651, 'scrollcoordinationself4');
 
@@ -44934,6 +48900,9 @@ VALUES (2651, 13, True)
      , (2651, 14, True)
      , (2651, 19, True)
      , (2651, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Invulnerability Self IV (3300) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3300;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3300, 'scrollinvulnerabilityself4');
@@ -44969,6 +48938,9 @@ VALUES (3300, 13, True)
      , (3300, 19, True)
      , (3300, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Protection Self IV (2995) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2995;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2995, 'scrollbladeprotectionself4');
 
@@ -45002,6 +48974,9 @@ VALUES (2995, 13, True)
      , (2995, 14, True)
      , (2995, 19, True)
      , (2995, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Protection Self IV (3010) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3010;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3010, 'scrollbludgeonprotectionself4');
@@ -45037,6 +49012,9 @@ VALUES (3010, 13, True)
      , (3010, 19, True)
      , (3010, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Protection Self IV (3070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3070;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3070, 'scrollpierceprotectionself4');
 
@@ -45070,6 +49048,9 @@ VALUES (3070, 13, True)
      , (3070, 14, True)
      , (3070, 19, True)
      , (3070, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Bane IV (2854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2854;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2854, 'scrolllightningbane4');
@@ -45105,6 +49086,9 @@ VALUES (2854, 13, True)
      , (2854, 19, True)
      , (2854, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Defenselessness III (3249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3249;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3249, 'scrolldefenselessnessother3');
 
@@ -45138,6 +49122,9 @@ VALUES (3249, 13, True)
      , (3249, 14, True)
      , (3249, 19, True)
      , (3249, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Impenetrability (1887) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1887;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1887, 'scrollimpenetrability');
@@ -45173,6 +49160,9 @@ VALUES (1887, 13, True)
      , (1887, 19, True)
      , (1887, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Blood Drinker Self (1588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1588;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1588, 'scrollblooddrinker');
 
@@ -45206,6 +49196,9 @@ VALUES (1588, 13, True)
      , (1588, 14, True)
      , (1588, 19, True)
      , (1588, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bafflement Other (1767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1767;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1767, 'scrollbafflement');
@@ -45241,6 +49234,9 @@ VALUES (1767, 13, True)
      , (1767, 19, True)
      , (1767, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeoning Vulnerability Other (1846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1846;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1846, 'scrollbludgeonvulnerabilityother');
 
@@ -45274,6 +49270,9 @@ VALUES (1846, 13, True)
      , (1846, 14, True)
      , (1846, 19, True)
      , (1846, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Ineptitude Other III (3219) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3219;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3219, 'scrolldaggerineptitudeother3');
@@ -45309,6 +49308,9 @@ VALUES (3219, 13, True)
      , (3219, 19, True)
      , (3219, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Renewal Self IV (3105) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3105;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3105, 'scrollmanarenewalself4');
 
@@ -45343,6 +49345,9 @@ VALUES (3105, 13, True)
      , (3105, 19, True)
      , (3105, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Rejuvenate Self IV (3125) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3125;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3125, 'scrollrejuvenateself4');
 
@@ -45375,6 +49380,9 @@ VALUES (3125, 13, True)
      , (3125, 14, True)
      , (3125, 19, True)
      , (3125, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Arc IV (21298) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21298;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21298, 'scrollbladearc4');
@@ -45410,6 +49418,9 @@ VALUES (21298, 13, True)
      , (21298, 19, True)
      , (21298, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Magic Yield Other IV (3425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3425;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3425, 'scrollmagicyieldother4');
 
@@ -45443,6 +49454,9 @@ VALUES (3425, 13, True)
      , (3425, 14, True)
      , (3425, 19, True)
      , (3425, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana to Health Self IV (9642) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9642;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9642, 'scrollmanatohealthself4');
@@ -45478,6 +49492,9 @@ VALUES (9642, 13, True)
      , (9642, 19, True)
      , (9642, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Defender Self (1880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1880;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1880, 'scrolldefender');
 
@@ -45511,6 +49528,9 @@ VALUES (1880, 13, True)
      , (1880, 14, True)
      , (1880, 19, True)
      , (1880, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heal Other II (2692) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2692;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2692, 'scrollhealother2');
@@ -45546,6 +49566,9 @@ VALUES (2692, 13, True)
      , (2692, 19, True)
      , (2692, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Hermetic Link Self II (2887) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2887;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2887, 'scrolltruevalue2');
 
@@ -45579,6 +49602,9 @@ VALUES (2887, 13, True)
      , (2887, 14, True)
      , (2887, 19, True)
      , (2887, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Person Attunement Self II (3453) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3453;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3453, 'scrollpersonattunementself2');
@@ -45614,6 +49640,9 @@ VALUES (3453, 13, True)
      , (3453, 19, True)
      , (3453, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Mastery Other II (5987) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5987;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5987, 'scrollalchemymasteryother2');
 
@@ -45647,6 +49676,9 @@ VALUES (5987, 13, True)
      , (5987, 14, True)
      , (5987, 19, True)
      , (5987, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fire Protection Self V (3041) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3041;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3041, 'scrollfireprotectionself5');
@@ -45682,6 +49714,9 @@ VALUES (3041, 13, True)
      , (3041, 19, True)
      , (3041, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Ignorance V (3156) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3156;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3156, 'scrollarmorignorance5');
 
@@ -45715,6 +49750,9 @@ VALUES (3156, 13, True)
      , (3156, 14, True)
      , (3156, 19, True)
      , (3156, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Mastery Self III (45302) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45302;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45302, 'ace45302-scrollofrecklessnessmasteryselfiii');
@@ -45750,6 +49788,9 @@ VALUES (45302, 13, True)
      , (45302, 19, True)
      , (45302, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Mastery Self V (3201) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3201;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3201, 'scrollcreatureenchantmentself5');
 
@@ -45783,6 +49824,9 @@ VALUES (3201, 13, True)
      , (3201, 14, True)
      , (3201, 19, True)
      , (3201, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Hermetic Link Other IV (46870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46870;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46870, 'ace46870-auraofhermeticlinkotheriv');
@@ -45818,6 +49862,9 @@ VALUES (46870, 13, True)
      , (46870, 19, True)
      , (46870, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Arc III (21311) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21311;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21311, 'scrollforcearc3');
 
@@ -45851,6 +49898,9 @@ VALUES (21311, 13, True)
      , (21311, 14, True)
      , (21311, 19, True)
      , (21311, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Summoning Ineptitude Other IV (49459) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49459;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49459, 'ace49459-scrollofsummoningineptitudeotheriv');
@@ -45886,6 +49936,9 @@ VALUES (49459, 13, True)
      , (49459, 19, True)
      , (49459, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Expertise Self IV (3325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3325;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3325, 'scrollitemexpertiseself4');
 
@@ -45919,6 +49972,9 @@ VALUES (3325, 13, True)
      , (3325, 14, True)
      , (3325, 19, True)
      , (3325, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Expertise Self V (3326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3326;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3326, 'scrollitemexpertiseself5');
@@ -45954,6 +50010,9 @@ VALUES (3326, 13, True)
      , (3326, 19, True)
      , (3326, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Leaden Weapon V (2850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2850;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2850, 'scrollleadenweapon5');
 
@@ -45987,6 +50046,9 @@ VALUES (2850, 13, True)
      , (2850, 14, True)
      , (2850, 19, True)
      , (2850, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Piercing Vulnerability Other II (3073) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3073;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3073, 'scrollpiercevulnerabilityother2');
@@ -46022,6 +50084,9 @@ VALUES (3073, 13, True)
      , (3073, 19, True)
      , (3073, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Protection Other IV (3065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3065;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3065, 'scrollpierceprotectionother4');
 
@@ -46055,6 +50120,9 @@ VALUES (3065, 13, True)
      , (3065, 14, True)
      , (3065, 19, True)
      , (3065, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Drain Mana Other II (9661) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9661;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9661, 'scrolldrainmana2');
@@ -46090,6 +50158,9 @@ VALUES (9661, 13, True)
      , (9661, 19, True)
      , (9661, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Lure II (2767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2767;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2767, 'scrollacidlure2');
 
@@ -46123,6 +50194,9 @@ VALUES (2767, 13, True)
      , (2767, 14, True)
      , (2767, 19, True)
      , (2767, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self III (3509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3509;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3509, 'scrollstaffmasteryself3');
@@ -46158,6 +50232,9 @@ VALUES (3509, 13, True)
      , (3509, 19, True)
      , (3509, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Volley III (9011) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9011;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9011, 'scrolllightningvolley3');
 
@@ -46191,6 +50268,9 @@ VALUES (9011, 13, True)
      , (9011, 14, True)
      , (9011, 19, True)
      , (9011, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Volley III (2138) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2138;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2138, 'scrollfrostvolley3');
@@ -46226,6 +50306,9 @@ VALUES (2138, 13, True)
      , (2138, 19, True)
      , (2138, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Volley III (2137) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2137;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2137, 'scrollforcevolley3');
 
@@ -46259,6 +50342,9 @@ VALUES (2137, 13, True)
      , (2137, 14, True)
      , (2137, 19, True)
      , (2137, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Volley III (2135) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2135;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2135, 'scrollflamevolley3');
@@ -46294,6 +50380,9 @@ VALUES (2135, 13, True)
      , (2135, 19, True)
      , (2135, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Volley III (2912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2912;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2912, 'scrollacidvolley3');
 
@@ -46327,6 +50416,9 @@ VALUES (2912, 13, True)
      , (2912, 14, True)
      , (2912, 19, True)
      , (2912, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bludgeoning Volley III (2134) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2134;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2134, 'scrollbludgeoningvolley3');
@@ -46362,6 +50454,9 @@ VALUES (2134, 13, True)
      , (2134, 19, True)
      , (2134, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Volley III (2133) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2133;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2133, 'scrollbladevolley3');
 
@@ -46395,6 +50490,9 @@ VALUES (2133, 13, True)
      , (2133, 14, True)
      , (2133, 19, True)
      , (2133, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Imperil Other V (2705) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2705;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2705, 'scrollimperil5');
@@ -46430,6 +50528,9 @@ VALUES (2705, 13, True)
      , (2705, 19, True)
      , (2705, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Mastery Other IV (3520) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3520;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3520, 'scrollswordmasteryother4');
 
@@ -46463,6 +50564,9 @@ VALUES (3520, 13, True)
      , (3520, 14, True)
      , (3520, 19, True)
      , (3520, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana to Stamina Self VI (9649) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9649;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9649, 'scrollmanatostaminaself6');
@@ -46498,6 +50602,9 @@ VALUES (9649, 13, True)
      , (9649, 19, True)
      , (9649, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Expertise Self III (3584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3584;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3584, 'scrollweaponexpertiseself3');
 
@@ -46531,6 +50638,9 @@ VALUES (3584, 13, True)
      , (3584, 14, True)
      , (3584, 19, True)
      , (3584, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Heartseeker Other IV (46869) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46869;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46869, 'ace46869-auraofheartseekerotheriv');
@@ -46566,6 +50676,9 @@ VALUES (46869, 13, True)
      , (46869, 19, True)
      , (46869, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Monster Attunement Self IV (5545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5545;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5545, 'scrollmonsterattunementself4');
 
@@ -46599,6 +50712,9 @@ VALUES (5545, 13, True)
      , (5545, 14, True)
      , (5545, 19, True)
      , (5545, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Regenerate Other III (3109) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3109;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3109, 'scrollregenerateother3');
@@ -46634,6 +50750,9 @@ VALUES (3109, 13, True)
      , (3109, 19, True)
      , (3109, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Impregnability Self (1664) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1664;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1664, 'scrollimpregnabilityself');
 
@@ -46667,6 +50786,9 @@ VALUES (1664, 13, True)
      , (1664, 14, True)
      , (1664, 19, True)
      , (1664, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Lure (1882) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1882;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1882, 'scrollflamelure');
@@ -46702,6 +50824,9 @@ VALUES (1882, 13, True)
      , (1882, 19, True)
      , (1882, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Protection Self II (3008) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3008;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3008, 'scrollbludgeonprotectionself2');
 
@@ -46735,6 +50860,9 @@ VALUES (3008, 13, True)
      , (3008, 14, True)
      , (3008, 19, True)
      , (3008, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Healing Mastery Other II (3273) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3273;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3273, 'scrollhealingmasteryother2');
@@ -46770,6 +50898,9 @@ VALUES (3273, 13, True)
      , (3273, 19, True)
      , (3273, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Quickness Self II (2717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2717;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2717, 'scrollquicknessself2');
 
@@ -46803,6 +50934,9 @@ VALUES (2717, 13, True)
      , (2717, 14, True)
      , (2717, 19, True)
      , (2717, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Blood Drinker Other III (46861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46861;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46861, 'ace46861-auraofblooddrinkerotheriii');
@@ -46838,6 +50972,9 @@ VALUES (46861, 13, True)
      , (46861, 19, True)
      , (46861, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Other III (3179) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3179;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3179, 'scrollbowmasteryother3');
 
@@ -46871,6 +51008,9 @@ VALUES (3179, 13, True)
      , (3179, 14, True)
      , (3179, 19, True)
      , (3179, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Swift Killer Other III (46866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46866;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46866, 'ace46866-auraofswiftkillerotheriii');
@@ -46906,6 +51046,9 @@ VALUES (46866, 13, True)
      , (46866, 19, True)
      , (46866, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Ineptitude Other V (3221) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3221;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3221, 'scrolldaggerineptitudeother5');
 
@@ -46939,6 +51082,9 @@ VALUES (3221, 13, True)
      , (3221, 14, True)
      , (3221, 19, True)
      , (3221, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Ineptitude V (3191) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3191;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3191, 'scrollcreatureenchantmentineptitude5');
@@ -46974,6 +51120,9 @@ VALUES (3191, 13, True)
      , (3191, 19, True)
      , (3191, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Protection Self V (3011) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3011;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3011, 'scrollbludgeonprotectionself5');
 
@@ -47007,6 +51156,9 @@ VALUES (3011, 13, True)
      , (3011, 14, True)
      , (3011, 19, True)
      , (3011, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fire Vulnerability Other V (3046) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3046;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3046, 'scrollfirevulnerabilityother5');
@@ -47042,6 +51194,9 @@ VALUES (3046, 13, True)
      , (3046, 19, True)
      , (3046, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Focus Self II (1782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1782;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1782, 'scrollfocusself2');
 
@@ -47075,6 +51230,9 @@ VALUES (1782, 13, True)
      , (1782, 14, True)
      , (1782, 19, True)
      , (1782, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Protection Self V (2981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2981;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2981, 'scrollacidprotectionself5');
@@ -47110,6 +51268,9 @@ VALUES (2981, 13, True)
      , (2981, 19, True)
      , (2981, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Mastery Other (1725) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1725;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1725, 'scrollmanaconvertmasteryother');
 
@@ -47143,6 +51304,9 @@ VALUES (1725, 13, True)
      , (1725, 14, True)
      , (1725, 19, True)
      , (1725, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Rejuvenate Other III (3119) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3119;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3119, 'scrollrejuvenateother3');
@@ -47178,6 +51342,9 @@ VALUES (3119, 13, True)
      , (3119, 19, True)
      , (3119, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Ineptitude Other IV (5983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5983;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5983, 'scrollalchemyineptitude4');
 
@@ -47211,6 +51378,9 @@ VALUES (5983, 13, True)
      , (5983, 14, True)
      , (5983, 19, True)
      , (5983, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of War Magic Mastery Self (1752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1752;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1752, 'scrollwarmagicmasteryself');
@@ -47246,6 +51416,9 @@ VALUES (1752, 13, True)
      , (1752, 19, True)
      , (1752, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Infuse Health V (3734) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3734;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3734, 'scrollinfusehealth5');
 
@@ -47279,6 +51452,9 @@ VALUES (3734, 13, True)
      , (3734, 14, True)
      , (3734, 19, True)
      , (3734, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Mastery Other IV (3310) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3310;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3310, 'scrollitemenchantmentmasteryother4');
@@ -47314,6 +51490,9 @@ VALUES (3310, 13, True)
      , (3310, 19, True)
      , (3310, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Arc IV (21305) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21305;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21305, 'scrollflamearc4');
 
@@ -47347,6 +51526,9 @@ VALUES (21305, 13, True)
      , (21305, 14, True)
      , (21305, 19, True)
      , (21305, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Endurance Other II (2654) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2654;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2654, 'scrollenduranceother2');
@@ -47382,6 +51564,9 @@ VALUES (2654, 13, True)
      , (2654, 19, True)
      , (2654, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Strengthen Lock IV (2879) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2879;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2879, 'scrollstrengthenlock4');
 
@@ -47415,6 +51600,9 @@ VALUES (2879, 13, True)
      , (2879, 14, True)
      , (2879, 19, True)
      , (2879, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapon Mastery Other V (41300) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41300;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41300, 'ace41300-scrolloftwohandedweaponmasteryotherv');
@@ -47450,6 +51638,9 @@ VALUES (41300, 13, True)
      , (41300, 19, True)
      , (41300, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Blight IV (21105) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21105;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21105, 'scrollmanabolt4');
 
@@ -47483,6 +51674,9 @@ VALUES (21105, 13, True)
      , (21105, 14, True)
      , (21105, 19, True)
      , (21105, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Ineptitude II (3378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3378;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3378, 'scrolllockpickineptitude2');
@@ -47518,6 +51712,9 @@ VALUES (3378, 13, True)
      , (3378, 19, True)
      , (3378, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Vulnerability Other V (3001) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3001;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3001, 'scrollbladevulnerabilityother5');
 
@@ -47551,6 +51748,9 @@ VALUES (3001, 13, True)
      , (3001, 14, True)
      , (3001, 19, True)
      , (3001, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Invulnerability Self V (3301) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3301;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3301, 'scrollinvulnerabilityself5');
@@ -47586,6 +51786,9 @@ VALUES (3301, 13, True)
      , (3301, 19, True)
      , (3301, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Deception Mastery Self IV (3245) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3245;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3245, 'scrolldeceptionmasteryself4');
 
@@ -47619,6 +51822,9 @@ VALUES (3245, 13, True)
      , (3245, 14, True)
      , (3245, 19, True)
      , (3245, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Self III (3184) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3184;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3184, 'scrollbowmasteryself3');
@@ -47654,6 +51860,9 @@ VALUES (3184, 13, True)
      , (3184, 19, True)
      , (3184, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blood Loather II (2787) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2787;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2787, 'scrollbloodloather2');
 
@@ -47687,6 +51896,9 @@ VALUES (2787, 13, True)
      , (2787, 14, True)
      , (2787, 19, True)
      , (2787, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Brittlemail III (2803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2803;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2803, 'scrollbrittlemail3');
@@ -47722,6 +51934,9 @@ VALUES (2803, 13, True)
      , (2803, 19, True)
      , (2803, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Mastery Other II (3518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3518;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3518, 'scrollswordmasteryother2');
 
@@ -47755,6 +51970,9 @@ VALUES (3518, 13, True)
      , (3518, 14, True)
      , (3518, 19, True)
      , (3518, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frailty Other (1777) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1777;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1777, 'scrollfrailty');
@@ -47790,6 +52008,9 @@ VALUES (1777, 13, True)
      , (1777, 19, True)
      , (1777, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Invulnerability Other IV (3295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3295;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3295, 'scrollinvulnerabilityother4');
 
@@ -47823,6 +52044,9 @@ VALUES (3295, 13, True)
      , (3295, 14, True)
      , (3295, 19, True)
      , (3295, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Spirit Loather IV (28012) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28012;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28012, 'scrollspiritloather4');
@@ -47858,6 +52082,9 @@ VALUES (28012, 13, True)
      , (28012, 19, True)
      , (28012, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Other III (3164) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3164;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3164, 'scrollaxemasteryother3');
 
@@ -47891,6 +52118,9 @@ VALUES (3164, 13, True)
      , (3164, 14, True)
      , (3164, 19, True)
      , (3164, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Armor Other III (4386) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4386;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4386, 'scrollarmorother3');
@@ -47926,6 +52156,9 @@ VALUES (4386, 13, True)
      , (4386, 19, True)
      , (4386, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Yoshi's Blessing (41287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41287;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41287, 'ace41287-scrollofyoshisblessing');
 
@@ -47959,6 +52192,9 @@ VALUES (41287, 13, True)
      , (41287, 14, True)
      , (41287, 19, True)
      , (41287, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self VII (20578) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20578;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20578, 'scrollspearmasteryself7');
@@ -47994,6 +52230,9 @@ VALUES (20578, 13, True)
      , (20578, 19, True)
      , (20578, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Self VII (20589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20589;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20589, 'scrollthrownmasteryself7');
 
@@ -48027,6 +52266,9 @@ VALUES (20589, 13, True)
      , (20589, 14, True)
      , (20589, 19, True)
      , (20589, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Ineptitude Other VII (20587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20587;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20587, 'scrollthrownineptitude7');
@@ -48062,6 +52304,9 @@ VALUES (20587, 13, True)
      , (20587, 19, True)
      , (20587, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Mastery Self IV (45279) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45279;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45279, 'ace45279-scrollofdualwieldmasteryselfiv');
 
@@ -48095,6 +52340,9 @@ VALUES (45279, 13, True)
      , (45279, 14, True)
      , (45279, 19, True)
      , (45279, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Destructive Curse IV (43323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43323;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43323, 'ace43323-scrollofdestructivecurseiv');
@@ -48130,6 +52378,9 @@ VALUES (43323, 13, True)
      , (43323, 19, True)
      , (43323, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Magic Yield Other III (3424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3424;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3424, 'scrollmagicyieldother3');
 
@@ -48163,6 +52414,9 @@ VALUES (3424, 13, True)
      , (3424, 14, True)
      , (3424, 19, True)
      , (3424, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Health to Mana Self (1862) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1862;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1862, 'scrollhealthtomanaself');
@@ -48198,6 +52452,9 @@ VALUES (1862, 13, True)
      , (1862, 19, True)
      , (1862, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Festering Curse II (43330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43330;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43330, 'ace43330-scrolloffesteringcurseii');
 
@@ -48231,6 +52488,9 @@ VALUES (43330, 13, True)
      , (43330, 14, True)
      , (43330, 19, True)
      , (43330, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Mastery Self V (3436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3436;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3436, 'scrollmanaconvertmasteryself5');
@@ -48266,6 +52526,9 @@ VALUES (3436, 13, True)
      , (3436, 19, True)
      , (3436, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Ineptitude Other V (45240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45240;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45240, 'ace45240-scrollofdirtyfightingineptitudeotherv');
 
@@ -48299,6 +52562,9 @@ VALUES (45240, 13, True)
      , (45240, 14, True)
      , (45240, 19, True)
      , (45240, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Mastery Other V (45248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45248;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45248, 'ace45248-scrollofdirtyfightingmasteryotherv');
@@ -48334,6 +52600,9 @@ VALUES (45248, 13, True)
      , (45248, 19, True)
      , (45248, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Festering Curse V (43333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43333;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43333, 'ace43333-scrolloffesteringcursev');
 
@@ -48367,6 +52636,9 @@ VALUES (43333, 13, True)
      , (43333, 14, True)
      , (43333, 19, True)
      , (43333, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Heartseeker Self (1885) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1885;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1885, 'scrollheartseeker');
@@ -48402,6 +52674,9 @@ VALUES (1885, 13, True)
      , (1885, 19, True)
      , (1885, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Ineptitude Other (5980) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5980;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5980, 'scrollalchemyineptitude');
 
@@ -48435,6 +52710,9 @@ VALUES (5980, 13, True)
      , (5980, 14, True)
      , (5980, 19, True)
      , (5980, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nether Arc II (43295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43295;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43295, 'ace43295-scrollofnetherarcii');
@@ -48470,6 +52748,9 @@ VALUES (43295, 13, True)
      , (43295, 19, True)
      , (43295, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Ineptitude Other II (3513) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3513;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3513, 'scrollswordineptitude2');
 
@@ -48503,6 +52784,9 @@ VALUES (3513, 13, True)
      , (3513, 14, True)
      , (3513, 19, True)
      , (3513, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Expertise Other III (3319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3319;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3319, 'scrollitemexpertiseother3');
@@ -48538,6 +52822,9 @@ VALUES (3319, 13, True)
      , (3319, 19, True)
      , (3319, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Expertise Other (1682) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1682;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1682, 'scrollarmorexpertiseother');
 
@@ -48571,6 +52858,9 @@ VALUES (1682, 13, True)
      , (1682, 14, True)
      , (1682, 19, True)
      , (1682, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcane Enlightenment Self (1681) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1681;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1681, 'scrollarcaneenlightenmentself');
@@ -48606,6 +52896,9 @@ VALUES (1681, 13, True)
      , (1681, 19, True)
      , (1681, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fire Protection Other III (3034) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3034;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3034, 'scrollfireprotectionother3');
 
@@ -48639,6 +52932,9 @@ VALUES (3034, 13, True)
      , (3034, 14, True)
      , (3034, 19, True)
      , (3034, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Expertise Self (1707) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1707;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1707, 'scrollitemexpertiseself');
@@ -48674,6 +52970,9 @@ VALUES (1707, 13, True)
      , (1707, 19, True)
      , (1707, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Protection Other (1850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1850;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1850, 'scrolllightningprotectionother');
 
@@ -48707,6 +53006,9 @@ VALUES (1850, 13, True)
      , (1850, 14, True)
      , (1850, 19, True)
      , (1850, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Coordination Self (1770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1770;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1770, 'scrollcoordinationself');
@@ -48742,6 +53044,9 @@ VALUES (1770, 13, True)
      , (1770, 19, True)
      , (1770, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Expertise Other III (3144) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3144;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3144, 'scrollarmorexpertiseother3');
 
@@ -48775,6 +53080,9 @@ VALUES (3144, 13, True)
      , (3144, 14, True)
      , (3144, 19, True)
      , (3144, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Health to Stamina Self III (9636) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9636;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9636, 'scrollhealthtostaminaself3');
@@ -48810,6 +53118,9 @@ VALUES (9636, 13, True)
      , (9636, 19, True)
      , (9636, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Tenacity IV (21112) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21112;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21112, 'scrollstaminabolt4');
 
@@ -48843,6 +53154,9 @@ VALUES (21112, 13, True)
      , (21112, 14, True)
      , (21112, 19, True)
      , (21112, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Exhaustion Other IV (3080) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3080;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3080, 'scrollexhaustion4');
@@ -48878,6 +53192,9 @@ VALUES (3080, 13, True)
      , (3080, 19, True)
      , (3080, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Ineptitude Other IV (45263) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45263;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45263, 'ace45263-scrollofdualwieldineptitudeotheriv');
 
@@ -48911,6 +53228,9 @@ VALUES (45263, 13, True)
      , (45263, 14, True)
      , (45263, 19, True)
      , (45263, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Quickness Self V (2720) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2720;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2720, 'scrollquicknessself5');
@@ -48946,6 +53266,9 @@ VALUES (2720, 13, True)
      , (2720, 19, True)
      , (2720, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Ineptitude Other V (45264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45264;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45264, 'ace45264-scrollofdualwieldineptitudeotherv');
 
@@ -48979,6 +53302,9 @@ VALUES (45264, 13, True)
      , (45264, 14, True)
      , (45264, 19, True)
      , (45264, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Faithlessness IV (3255) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3255;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3255, 'scrollfaithlessness4');
@@ -49014,6 +53340,9 @@ VALUES (3255, 13, True)
      , (3255, 19, True)
      , (3255, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Person Attunement Self III (3454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3454;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3454, 'scrollpersonattunementself3');
 
@@ -49047,6 +53376,9 @@ VALUES (3454, 13, True)
      , (3454, 14, True)
      , (3454, 19, True)
      , (3454, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Self Strength V (2745) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2745;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2745, 'scrollstrengthself5');
@@ -49082,6 +53414,9 @@ VALUES (2745, 13, True)
      , (2745, 19, True)
      , (2745, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lure Blade IV (2864) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2864;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2864, 'scrolllureblade4');
 
@@ -49115,6 +53450,9 @@ VALUES (2864, 13, True)
      , (2864, 14, True)
      , (2864, 19, True)
      , (2864, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Ineptitude Other IV (45335) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45335;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45335, 'ace45335-scrollofsneakattackineptitudeotheriv');
@@ -49150,6 +53488,9 @@ VALUES (45335, 13, True)
      , (45335, 19, True)
      , (45335, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Vulnerability Other IV (3000) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3000;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3000, 'scrollbladevulnerabilityother4');
 
@@ -49183,6 +53524,9 @@ VALUES (3000, 13, True)
      , (3000, 14, True)
      , (3000, 19, True)
      , (3000, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Quickness Other III (2713) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2713;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2713, 'scrollquicknessother3');
@@ -49218,6 +53562,9 @@ VALUES (2713, 13, True)
      , (2713, 19, True)
      , (2713, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Coordination Other (1769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1769;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1769, 'scrollcoordinationother');
 
@@ -49251,6 +53598,9 @@ VALUES (1769, 13, True)
      , (1769, 14, True)
      , (1769, 19, True)
      , (1769, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Strengthen Lock (1894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1894;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1894, 'scrollstrengthenlock');
@@ -49286,6 +53636,9 @@ VALUES (1894, 13, True)
      , (1894, 19, True)
      , (1894, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Lure II (2817) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2817;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2817, 'scrollflamelure2');
 
@@ -49319,6 +53672,9 @@ VALUES (2817, 13, True)
      , (2817, 14, True)
      , (2817, 19, True)
      , (2817, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Piercing Bane III (2868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2868;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2868, 'scrollpiercingbane3');
@@ -49354,6 +53710,9 @@ VALUES (2868, 13, True)
      , (2868, 19, True)
      , (2868, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cold Protection Self II (3023) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3023;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3023, 'scrollcoldprotectionself2');
 
@@ -49387,6 +53746,9 @@ VALUES (3023, 13, True)
      , (3023, 14, True)
      , (3023, 19, True)
      , (3023, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Brittlemail II (2802) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2802;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2802, 'scrollbrittlemail2');
@@ -49422,6 +53784,9 @@ VALUES (2802, 13, True)
      , (2802, 19, True)
      , (2802, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Slowness Other II (2732) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2732;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2732, 'scrollslowness2');
 
@@ -49455,6 +53820,9 @@ VALUES (2732, 13, True)
      , (2732, 14, True)
      , (2732, 19, True)
      , (2732, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana to Stamina Self (1870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1870;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1870, 'scrollmanatostaminaself');
@@ -49490,6 +53858,9 @@ VALUES (1870, 13, True)
      , (1870, 19, True)
      , (1870, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Spirit Drinker Other IV (46871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46871;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46871, 'ace46871-auraofspiritdrinkerotheriv');
 
@@ -49523,6 +53894,9 @@ VALUES (46871, 13, True)
      , (46871, 14, True)
      , (46871, 19, True)
      , (46871, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Mastery Self II (45349) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45349;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45349, 'ace45349-scrollofsneakattackmasteryselfii');
@@ -49558,6 +53932,9 @@ VALUES (45349, 13, True)
      , (45349, 19, True)
      , (45349, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Defender Self II (2807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2807;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2807, 'scrolldefender2');
 
@@ -49591,6 +53968,9 @@ VALUES (2807, 13, True)
      , (2807, 14, True)
      , (2807, 19, True)
      , (2807, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Corrosion V (43282) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43282;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43282, 'ace43282-scrollofcorrosionv');
@@ -49626,6 +54006,9 @@ VALUES (43282, 13, True)
      , (43282, 19, True)
      , (43282, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self (1671) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1671;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1671, 'scrollaxemasteryself');
 
@@ -49659,6 +54042,9 @@ VALUES (1671, 13, True)
      , (1671, 14, True)
      , (1671, 19, True)
      , (1671, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Hecatomb VI (21100) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21100;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21100, 'scrollhealthbolt6');
@@ -49694,6 +54080,9 @@ VALUES (21100, 13, True)
      , (21100, 19, True)
      , (21100, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Ineptitude Other VI (45289) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45289;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45289, 'ace45289-scrollofrecklessnessineptitudeothervi');
 
@@ -49727,6 +54116,9 @@ VALUES (45289, 13, True)
      , (45289, 14, True)
      , (45289, 19, True)
      , (45289, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Streak III (8943) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8943;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8943, 'scrolllightningstreak3');
@@ -49762,6 +54154,9 @@ VALUES (8943, 13, True)
      , (8943, 19, True)
      , (8943, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Streak (8941) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8941;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8941, 'scrolllightningstreak');
 
@@ -49795,6 +54190,9 @@ VALUES (8941, 13, True)
      , (8941, 14, True)
      , (8941, 19, True)
      , (8941, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fealty Other II (3258) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3258;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3258, 'scrollfealtyother2');
@@ -49830,6 +54228,9 @@ VALUES (3258, 13, True)
      , (3258, 19, True)
      , (3258, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self VII (20583) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20583;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20583, 'scrollstaffmasteryself7');
 
@@ -49863,6 +54264,9 @@ VALUES (20583, 13, True)
      , (20583, 14, True)
      , (20583, 19, True)
      , (20583, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Mastery Self (43357) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43357;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43357, 'ace43357-scrollofvoidmagicmasteryself');
@@ -49898,6 +54302,9 @@ VALUES (43357, 13, True)
      , (43357, 19, True)
      , (43357, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Self IV (3215) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3215;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3215, 'scrollcrossbowmasteryself4');
 
@@ -49931,6 +54338,9 @@ VALUES (3215, 13, True)
      , (3215, 14, True)
      , (3215, 19, True)
      , (3215, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other VI (3502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3502;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3502, 'scrollstaffineptitude6');
@@ -49966,6 +54376,9 @@ VALUES (3502, 13, True)
      , (3502, 19, True)
      , (3502, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Exhaustion Other II (3078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3078;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3078, 'scrollexhaustion2');
 
@@ -49999,6 +54412,9 @@ VALUES (3078, 13, True)
      , (3078, 14, True)
      , (3078, 19, True)
      , (3078, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frailty Other IV (2684) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2684;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2684, 'scrollfrailty4');
@@ -50034,6 +54450,9 @@ VALUES (2684, 13, True)
      , (2684, 19, True)
      , (2684, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Self III (3214) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3214;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3214, 'scrollcrossbowmasteryself3');
 
@@ -50067,6 +54486,9 @@ VALUES (3214, 13, True)
      , (3214, 14, True)
      , (3214, 19, True)
      , (3214, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other VI (3477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3477;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3477, 'scrollspearineptitude6');
@@ -50102,6 +54524,9 @@ VALUES (3477, 13, True)
      , (3477, 19, True)
      , (3477, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Infuse Health II (3731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3731;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3731, 'scrollinfusehealth2');
 
@@ -50135,6 +54560,9 @@ VALUES (3731, 13, True)
      , (3731, 14, True)
      , (3731, 19, True)
      , (3731, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Extinguish Life Magic Other (20391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20391;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20391, 'scrolldispellifeneutralother2');
@@ -50170,6 +54598,9 @@ VALUES (20391, 13, True)
      , (20391, 19, True)
      , (20391, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Vulnerability Other III (3074) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3074;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3074, 'scrollpiercevulnerabilityother3');
 
@@ -50203,6 +54634,9 @@ VALUES (3074, 13, True)
      , (3074, 14, True)
      , (3074, 19, True)
      , (3074, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fester Other III (3084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3084;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3084, 'scrollfester3');
@@ -50238,6 +54672,9 @@ VALUES (3084, 13, True)
      , (3084, 19, True)
      , (3084, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Mastery Other II (45341) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45341;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45341, 'ace45341-scrollofsneakattackmasteryotherii');
 
@@ -50271,6 +54708,9 @@ VALUES (45341, 13, True)
      , (45341, 14, True)
      , (45341, 19, True)
      , (45341, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Mastery Other (1720) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1720;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1720, 'scrolllockpickmasteryother');
@@ -50306,6 +54746,9 @@ VALUES (1720, 13, True)
      , (1720, 19, True)
      , (1720, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Ineptitude III (3304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3304;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3304, 'scrollitemenchantmentineptitude3');
 
@@ -50339,6 +54782,9 @@ VALUES (3304, 13, True)
      , (3304, 14, True)
      , (3304, 19, True)
      , (3304, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcane Enlightenment III (3134) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3134;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3134, 'scrollarcaneenlightenmentother3');
@@ -50374,6 +54820,9 @@ VALUES (3134, 13, True)
      , (3134, 19, True)
      , (3134, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Renewal Other (1660) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1660;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1660, 'scrollmanarenewalother');
 
@@ -50407,6 +54856,9 @@ VALUES (1660, 13, True)
      , (1660, 14, True)
      , (1660, 19, True)
      , (1660, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Revitalize Other III (2723) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2723;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2723, 'scrollrevitalizeother3');
@@ -50442,6 +54894,9 @@ VALUES (2723, 13, True)
      , (2723, 19, True)
      , (2723, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Invulnerability Other II (3293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3293;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3293, 'scrollinvulnerabilityother2');
 
@@ -50475,6 +54930,9 @@ VALUES (3293, 13, True)
      , (3293, 14, True)
      , (3293, 19, True)
      , (3293, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Streak (8935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8935;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8935, 'scrollfroststreak');
@@ -50510,6 +54968,9 @@ VALUES (8935, 13, True)
      , (8935, 19, True)
      , (8935, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Evaporate Creature Magic Self (20324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20324;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20324, 'scrolldispelcreatureneutralself');
 
@@ -50543,6 +55004,9 @@ VALUES (20324, 13, True)
      , (20324, 14, True)
      , (20324, 19, True)
      , (20324, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Piercing Bane (1892) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1892;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1892, 'scrollpiercingbane');
@@ -50578,6 +55042,9 @@ VALUES (1892, 13, True)
      , (1892, 19, True)
      , (1892, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Mastery Self III (45278) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45278;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45278, 'ace45278-scrollofdualwieldmasteryselfiii');
 
@@ -50611,6 +55078,9 @@ VALUES (45278, 13, True)
      , (45278, 14, True)
      , (45278, 19, True)
      , (45278, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Clumsiness Other II (2639) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2639;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2639, 'scrollclumsiness2');
@@ -50646,6 +55116,9 @@ VALUES (2639, 13, True)
      , (2639, 19, True)
      , (2639, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcanum Salvaging IV (28936) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28936;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28936, 'scrollarcanumsalvaging4');
 
@@ -50679,6 +55152,9 @@ VALUES (28936, 13, True)
      , (28936, 14, True)
      , (28936, 19, True)
      , (28936, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Strength Other IV (2739) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2739;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2739, 'scrollstrengthother4');
@@ -50714,6 +55190,9 @@ VALUES (2739, 13, True)
      , (2739, 19, True)
      , (2739, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcanum Salvaging V (28937) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28937;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28937, 'scrollarcanumsalvaging5');
 
@@ -50747,6 +55226,9 @@ VALUES (28937, 13, True)
      , (28937, 14, True)
      , (28937, 19, True)
      , (28937, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Spirit Drinker Other (46846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46846;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46846, 'ace46846-auraofspiritdrinkerother');
@@ -50782,6 +55264,9 @@ VALUES (46846, 13, True)
      , (46846, 19, True)
      , (46846, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lure Blade (1891) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1891;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1891, 'scrolllureblade');
 
@@ -50815,6 +55300,9 @@ VALUES (1891, 13, True)
      , (1891, 14, True)
      , (1891, 19, True)
      , (1891, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Whirling Blade Streak II (8954) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8954;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8954, 'scrollwhirlingbladestreak2');
@@ -50850,6 +55338,9 @@ VALUES (8954, 13, True)
      , (8954, 19, True)
      , (8954, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Stamina to Health Self II (9650) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9650;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9650, 'scrollstaminatohealthself2');
 
@@ -50883,6 +55374,9 @@ VALUES (9650, 13, True)
      , (9650, 14, True)
      , (9650, 19, True)
      , (9650, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Defenselessness (1665) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1665;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1665, 'scrolldefenselessnessother');
@@ -50918,6 +55412,9 @@ VALUES (1665, 13, True)
      , (1665, 19, True)
      , (1665, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Leadership Mastery Other II (3353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3353;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3353, 'scrollleadershipmasteryother2');
 
@@ -50951,6 +55448,9 @@ VALUES (3353, 13, True)
      , (3353, 14, True)
      , (3353, 19, True)
      , (3353, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Healing Ineptitude IV (3270) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3270;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3270, 'scrollhealingineptitude4');
@@ -50986,6 +55486,9 @@ VALUES (3270, 13, True)
      , (3270, 19, True)
      , (3270, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Enfeeble Other II (2664) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2664;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2664, 'scrollenfeeble2');
 
@@ -51019,6 +55522,9 @@ VALUES (2664, 13, True)
      , (2664, 14, True)
      , (2664, 19, True)
      , (2664, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Clumsiness Other IV (2641) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2641;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2641, 'scrollclumsiness4');
@@ -51054,6 +55560,9 @@ VALUES (2641, 13, True)
      , (2641, 19, True)
      , (2641, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Strengthen Lock III (2878) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2878;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2878, 'scrollstrengthenlock3');
 
@@ -51087,6 +55596,9 @@ VALUES (2878, 13, True)
      , (2878, 14, True)
      , (2878, 19, True)
      , (2878, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Mastery Self (45300) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45300;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45300, 'ace45300-scrollofrecklessnessmasteryself');
@@ -51122,6 +55634,9 @@ VALUES (45300, 13, True)
      , (45300, 19, True)
      , (45300, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Drain Health Other I (1859) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1859;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1859, 'scrolldrainhealth');
 
@@ -51155,6 +55670,9 @@ VALUES (1859, 13, True)
      , (1859, 14, True)
      , (1859, 19, True)
      , (1859, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Vulnerability (1583) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1583;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1583, 'scrollvulnerabilityother');
@@ -51190,6 +55708,9 @@ VALUES (1583, 13, True)
      , (1583, 19, True)
      , (1583, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Bane II (2822) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2822;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2822, 'scrollfrostbane2');
 
@@ -51223,6 +55744,9 @@ VALUES (2822, 13, True)
      , (2822, 14, True)
      , (2822, 19, True)
      , (2822, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Protection Self II (3053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3053;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3053, 'scrolllightningprotectionself2');
@@ -51258,6 +55782,9 @@ VALUES (3053, 13, True)
      , (3053, 19, True)
      , (3053, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Expertise Self (1723) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1723;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1723, 'scrollmagicitemexpertiseself');
 
@@ -51291,6 +55818,9 @@ VALUES (1723, 13, True)
      , (1723, 14, True)
      , (1723, 19, True)
      , (1723, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Healing Ineptitude (1700) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1700;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1700, 'scrollhealingineptitude');
@@ -51326,6 +55856,9 @@ VALUES (1700, 13, True)
      , (1700, 19, True)
      , (1700, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Revitalize Other II (2722) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2722;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2722, 'scrollrevitalizeother2');
 
@@ -51359,6 +55892,9 @@ VALUES (2722, 13, True)
      , (2722, 14, True)
      , (2722, 19, True)
      , (2722, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self VI (3407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3407;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3407, 'scrollmacemasteryself6');
@@ -51394,6 +55930,9 @@ VALUES (3407, 13, True)
      , (3407, 19, True)
      , (3407, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Arc V (21327) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21327;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21327, 'scrolllightningarc5');
 
@@ -51427,6 +55966,9 @@ VALUES (21327, 13, True)
      , (21327, 14, True)
      , (21327, 19, True)
      , (21327, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Other VII (20588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20588;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20588, 'scrollthrownmasteryother7');
@@ -51462,6 +56004,9 @@ VALUES (20588, 13, True)
      , (20588, 19, True)
      , (20588, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other VII (20576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20576;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20576, 'scrollspearineptitude7');
 
@@ -51495,6 +56040,9 @@ VALUES (20576, 13, True)
      , (20576, 14, True)
      , (20576, 19, True)
      , (20576, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Mastery Other V (3386) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3386;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3386, 'scrolllockpickmasteryother5');
@@ -51530,6 +56078,9 @@ VALUES (3386, 13, True)
      , (3386, 19, True)
      , (3386, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Mastery Self II (45301) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45301;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45301, 'ace45301-scrollofrecklessnessmasteryselfii');
 
@@ -51563,6 +56114,9 @@ VALUES (45301, 13, True)
      , (45301, 14, True)
      , (45301, 19, True)
      , (45301, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shield Mastery Self (45324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45324;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45324, 'ace45324-scrollofshieldmasteryself');
@@ -51598,6 +56152,9 @@ VALUES (45324, 13, True)
      , (45324, 19, True)
      , (45324, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Swift Killer Self II (2882) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2882;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2882, 'scrollswiftkiller2');
 
@@ -51631,6 +56188,9 @@ VALUES (2882, 13, True)
      , (2882, 14, True)
      , (2882, 19, True)
      , (2882, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Ignorance II (3328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3328;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3328, 'scrollitemignorance2');
@@ -51666,6 +56226,9 @@ VALUES (3328, 13, True)
      , (3328, 19, True)
      , (3328, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self III (3484) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3484;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3484, 'scrollspearmasteryself3');
 
@@ -51699,6 +56262,9 @@ VALUES (3484, 13, True)
      , (3484, 14, True)
      , (3484, 19, True)
      , (3484, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Harm Other (1554) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1554;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1554, 'scrollharmother');
@@ -51734,6 +56300,9 @@ VALUES (1554, 13, True)
      , (1554, 19, True)
      , (1554, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Bane (1883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1883;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1883, 'scrollfrostbane');
 
@@ -51767,6 +56336,9 @@ VALUES (1883, 13, True)
      , (1883, 14, True)
      , (1883, 19, True)
      , (1883, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fire Protection Self (1577) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1577;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1577, 'scrollfireprotectionself');
@@ -51802,6 +56374,9 @@ VALUES (1577, 13, True)
      , (1577, 19, True)
      , (1577, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Protection Self III (2979) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2979;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2979, 'scrollacidprotectionself3');
 
@@ -51835,6 +56410,9 @@ VALUES (2979, 13, True)
      , (2979, 14, True)
      , (2979, 19, True)
      , (2979, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self II (3483) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3483;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3483, 'scrollspearmasteryself2');
@@ -51870,6 +56448,9 @@ VALUES (3483, 13, True)
      , (3483, 19, True)
      , (3483, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Jumping Ineptitude IV (9627) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9627;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9627, 'scrolljumpineptitude4');
 
@@ -51903,6 +56484,9 @@ VALUES (9627, 13, True)
      , (9627, 14, True)
      , (9627, 19, True)
      , (9627, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Coordination Self III (2650) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2650;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2650, 'scrollcoordinationself3');
@@ -51938,6 +56522,9 @@ VALUES (2650, 13, True)
      , (2650, 19, True)
      , (2650, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Willpower Self (1837) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1837;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1837, 'scrollwillpowerself');
 
@@ -51971,6 +56558,9 @@ VALUES (1837, 13, True)
      , (1837, 14, True)
      , (1837, 19, True)
      , (1837, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sprint Self (1737) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1737;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1737, 'scrollsprintself');
@@ -52006,6 +56596,9 @@ VALUES (1737, 13, True)
      , (1737, 19, True)
      , (1737, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Self VI (3187) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3187;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3187, 'scrollbowmasteryself6');
 
@@ -52039,6 +56632,9 @@ VALUES (3187, 13, True)
      , (3187, 14, True)
      , (3187, 19, True)
      , (3187, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Monster Unfamiliarity V (3446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3446;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3446, 'scrollmonsterunfamiliarity5');
@@ -52074,6 +56670,9 @@ VALUES (3446, 13, True)
      , (3446, 19, True)
      , (3446, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Rejuvenate Other V (3121) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3121;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3121, 'scrollrejuvenateother5');
 
@@ -52107,6 +56706,9 @@ VALUES (3121, 13, True)
      , (3121, 14, True)
      , (3121, 19, True)
      , (3121, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fletching Mastery Self II (5975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5975;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5975, 'scrollfletchingmasteryself2');
@@ -52142,6 +56744,9 @@ VALUES (5975, 13, True)
      , (5975, 19, True)
      , (5975, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Expertise Self IV (3415) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3415;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3415, 'scrollmagicitemexpertiseself4');
 
@@ -52175,6 +56780,9 @@ VALUES (3415, 13, True)
      , (3415, 14, True)
      , (3415, 19, True)
      , (3415, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Drain Health Other II (2890) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2890;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2890, 'scrolldrainhealth2');
@@ -52210,6 +56818,9 @@ VALUES (2890, 13, True)
      , (2890, 19, True)
      , (2890, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Expertise Other V (3146) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3146;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3146, 'scrollarmorexpertiseother5');
 
@@ -52243,6 +56854,9 @@ VALUES (3146, 13, True)
      , (3146, 14, True)
      , (3146, 19, True)
      , (3146, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Mastery Self V (45280) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45280;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45280, 'ace45280-scrollofdualwieldmasteryselfv');
@@ -52278,6 +56892,9 @@ VALUES (45280, 13, True)
      , (45280, 19, True)
      , (45280, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self VII (20560) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20560;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20560, 'scrollmacemasteryself7');
 
@@ -52311,6 +56928,9 @@ VALUES (20560, 13, True)
      , (20560, 14, True)
      , (20560, 19, True)
      , (20560, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other VII (20590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20590;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20590, 'scrollunarmedineptitude7');
@@ -52346,6 +56966,9 @@ VALUES (20590, 13, True)
      , (20590, 19, True)
      , (20590, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Mastery Other II (3193) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3193;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3193, 'scrollcreatureenchantmentother2');
 
@@ -52379,6 +57002,9 @@ VALUES (3193, 13, True)
      , (3193, 14, True)
      , (3193, 19, True)
      , (3193, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Willpower Self II (2757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2757;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2757, 'scrollwillpowerself2');
@@ -52414,6 +57040,9 @@ VALUES (2757, 13, True)
      , (2757, 19, True)
      , (2757, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Vulnerability Other (1852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1852;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1852, 'scrolllightningvulnerabilityother');
 
@@ -52447,6 +57076,9 @@ VALUES (1852, 13, True)
      , (1852, 14, True)
      , (1852, 19, True)
      , (1852, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Summoning Mastery Other IV (49466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49466;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49466, 'ace49466-scrollofsummoningmasteryotheriv');
@@ -52482,6 +57114,9 @@ VALUES (49466, 13, True)
      , (49466, 19, True)
      , (49466, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Self III (4391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4391;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4391, 'scrollarmorself3');
 
@@ -52515,6 +57150,9 @@ VALUES (4391, 13, True)
      , (4391, 14, True)
      , (4391, 19, True)
      , (4391, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Feeblemind Other II (2669) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2669;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2669, 'scrollfeeblemind2');
@@ -52550,6 +57188,9 @@ VALUES (2669, 13, True)
      , (2669, 19, True)
      , (2669, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other VII (20581) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20581;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20581, 'scrollstaffineptitude7');
 
@@ -52583,6 +57224,9 @@ VALUES (20581, 13, True)
      , (20581, 14, True)
      , (20581, 19, True)
      , (20581, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Self VII (20518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20518;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20518, 'scrollcrossbowmasteryself7');
@@ -52618,6 +57262,9 @@ VALUES (20518, 13, True)
      , (20518, 19, True)
      , (20518, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Mastery Self VI (45257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45257;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45257, 'ace45257-scrollofdirtyfightingmasteryselfvi');
 
@@ -52651,6 +57298,9 @@ VALUES (45257, 13, True)
      , (45257, 14, True)
      , (45257, 19, True)
      , (45257, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Healing Mastery Other IV (3275) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3275;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3275, 'scrollhealingmasteryother4');
@@ -52686,6 +57336,9 @@ VALUES (3275, 13, True)
      , (3275, 19, True)
      , (3275, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Streak (8914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8914;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8914, 'scrollacidstreak');
 
@@ -52719,6 +57372,9 @@ VALUES (8914, 13, True)
      , (8914, 14, True)
      , (8914, 19, True)
      , (8914, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Bane II (2812) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2812;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2812, 'scrollflamebane2');
@@ -52754,6 +57410,9 @@ VALUES (2812, 13, True)
      , (2812, 19, True)
      , (2812, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Drain Other (1779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1779;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1779, 'scrollmanadrain');
 
@@ -52787,6 +57446,9 @@ VALUES (1779, 13, True)
      , (1779, 14, True)
      , (1779, 19, True)
      , (1779, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Purge Life Magic Self (20400) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20400;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20400, 'scrolldispellifeneutralself5');
@@ -52822,6 +57484,9 @@ VALUES (20400, 13, True)
      , (20400, 19, True)
      , (20400, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Jumping Mastery Other IV (3335) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3335;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3335, 'scrolljumpmasteryother4');
 
@@ -52855,6 +57520,9 @@ VALUES (3335, 13, True)
      , (3335, 14, True)
      , (3335, 19, True)
      , (3335, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Drain Mana Other V (9664) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9664;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9664, 'scrolldrainmana5');
@@ -52890,6 +57558,9 @@ VALUES (9664, 13, True)
      , (9664, 19, True)
      , (9664, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Health to Stamina Self IV (9637) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9637;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9637, 'scrollhealthtostaminaself4');
 
@@ -52923,6 +57594,9 @@ VALUES (9637, 13, True)
      , (9637, 14, True)
      , (9637, 19, True)
      , (9637, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Monster Unfamiliarity III (3444) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3444;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3444, 'scrollmonsterunfamiliarity3');
@@ -52958,6 +57632,9 @@ VALUES (3444, 13, True)
      , (3444, 19, True)
      , (3444, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Mastery Other III (5988) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5988;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5988, 'scrollalchemymasteryother3');
 
@@ -52991,6 +57668,9 @@ VALUES (5988, 13, True)
      , (5988, 14, True)
      , (5988, 19, True)
      , (5988, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Mastery Other V (3196) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3196;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3196, 'scrollcreatureenchantmentother5');
@@ -53026,6 +57706,9 @@ VALUES (3196, 13, True)
      , (3196, 19, True)
      , (3196, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Healing Mastery Other V (3276) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3276;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3276, 'scrollhealingmasteryother5');
 
@@ -53059,6 +57742,9 @@ VALUES (3276, 13, True)
      , (3276, 14, True)
      , (3276, 19, True)
      , (3276, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Vulnerability IV (3560) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3560;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3560, 'scrollvulnerabilityother4');
@@ -53094,6 +57780,9 @@ VALUES (3560, 13, True)
      , (3560, 19, True)
      , (3560, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Ineptitude Other IV (45287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45287;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45287, 'ace45287-scrollofrecklessnessineptitudeotheriv');
 
@@ -53127,6 +57816,9 @@ VALUES (45287, 13, True)
      , (45287, 14, True)
      , (45287, 19, True)
      , (45287, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Mastery Self IV (3390) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3390;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3390, 'scrolllockpickmasteryself4');
@@ -53162,6 +57854,9 @@ VALUES (3390, 13, True)
      , (3390, 19, True)
      , (3390, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Ignorance III (3419) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3419;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3419, 'scrollmagicitemignorance3');
 
@@ -53195,6 +57890,9 @@ VALUES (3419, 13, True)
      , (3419, 14, True)
      , (3419, 19, True)
      , (3419, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Lure V (2780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2780;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2780, 'scrollbladelure5');
@@ -53230,6 +57928,9 @@ VALUES (2780, 13, True)
      , (2780, 19, True)
      , (2780, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Willpower Self IV (2759) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2759;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2759, 'scrollwillpowerself4');
 
@@ -53263,6 +57964,9 @@ VALUES (2759, 13, True)
      , (2759, 14, True)
      , (2759, 19, True)
      , (2759, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Force Streak V (8933) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8933;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8933, 'scrollforcestreak5');
@@ -53298,6 +58002,9 @@ VALUES (8933, 13, True)
      , (8933, 19, True)
      , (8933, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Whirling Blade Streak V (8957) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8957;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8957, 'scrollwhirlingbladestreak5');
 
@@ -53331,6 +58038,9 @@ VALUES (8957, 13, True)
      , (8957, 14, True)
      , (8957, 19, True)
      , (8957, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapon Mastery Self V (41260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41260;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41260, 'ace41260-scrolloftwohandedweaponmasteryselfv');
@@ -53366,6 +58076,9 @@ VALUES (41260, 13, True)
      , (41260, 19, True)
      , (41260, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Mastery Self IV (5995) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5995;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5995, 'scrollalchemymasteryself4');
 
@@ -53399,6 +58112,9 @@ VALUES (5995, 13, True)
      , (5995, 14, True)
      , (5995, 19, True)
      , (5995, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Ineptitude Other V (9612) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9612;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9612, 'scrollmanaineptitude5');
@@ -53434,6 +58150,9 @@ VALUES (9612, 13, True)
      , (9612, 19, True)
      , (9612, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shock Wave IV (2965) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2965;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2965, 'scrollshockwave4');
 
@@ -53467,6 +58186,9 @@ VALUES (2965, 13, True)
      , (2965, 14, True)
      , (2965, 19, True)
      , (2965, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Infuse Stamina V (3744) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3744;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3744, 'scrollinfusestamina5');
@@ -53502,6 +58224,9 @@ VALUES (3744, 13, True)
      , (3744, 19, True)
      , (3744, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sanctuary Recall (8530) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8530;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8530, 'scrollsanctuaryrecall');
 
@@ -53535,6 +58260,9 @@ VALUES (8530, 13, True)
      , (8530, 14, True)
      , (8530, 19, True)
      , (8530, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Bolt III (2956) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2956;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2956, 'scrolllightningbolt3');
@@ -53570,6 +58298,9 @@ VALUES (2956, 13, True)
      , (2956, 19, True)
      , (2956, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Extinguish Creature Magic Other (20319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20319;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20319, 'scrolldispelcreatureneutralother2');
 
@@ -53603,6 +58334,9 @@ VALUES (20319, 13, True)
      , (20319, 14, True)
      , (20319, 19, True)
      , (20319, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Leadership Ineptitude V (3351) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3351;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3351, 'scrollleadershipineptitude5');
@@ -53638,6 +58372,9 @@ VALUES (3351, 13, True)
      , (3351, 19, True)
      , (3351, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Mastery Self III (3199) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3199;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3199, 'scrollcreatureenchantmentself3');
 
@@ -53671,6 +58408,9 @@ VALUES (3199, 13, True)
      , (3199, 14, True)
      , (3199, 19, True)
      , (3199, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frailty Other II (2682) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2682;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2682, 'scrollfrailty2');
@@ -53706,6 +58446,9 @@ VALUES (2682, 13, True)
      , (2682, 19, True)
      , (2682, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Ignorance III (3154) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3154;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3154, 'scrollarmorignorance3');
 
@@ -53739,6 +58482,9 @@ VALUES (3154, 13, True)
      , (3154, 14, True)
      , (3154, 19, True)
      , (3154, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lure Blade III (2863) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2863;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2863, 'scrolllureblade3');
@@ -53774,6 +58520,9 @@ VALUES (2863, 13, True)
      , (2863, 19, True)
      , (2863, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Quickness Other (1780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1780;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1780, 'scrollquicknessother');
 
@@ -53807,6 +58556,9 @@ VALUES (1780, 13, True)
      , (1780, 14, True)
      , (1780, 19, True)
      , (1780, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Infuse Health III (3732) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3732;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3732, 'scrollinfusehealth3');
@@ -53842,6 +58594,9 @@ VALUES (3732, 13, True)
      , (3732, 19, True)
      , (3732, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Ineptitude Other II (45285) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45285;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45285, 'ace45285-scrollofrecklessnessineptitudeotherii');
 
@@ -53875,6 +58630,9 @@ VALUES (45285, 13, True)
      , (45285, 14, True)
      , (45285, 19, True)
      , (45285, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Streak V (8939) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8939;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8939, 'scrollfroststreak5');
@@ -53910,6 +58668,9 @@ VALUES (8939, 13, True)
      , (8939, 19, True)
      , (8939, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Exhaustion Other III (3079) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3079;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3079, 'scrollexhaustion3');
 
@@ -53943,6 +58704,9 @@ VALUES (3079, 13, True)
      , (3079, 14, True)
      , (3079, 19, True)
      , (3079, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Streak IV (8923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8923;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8923, 'scrollflamestreak4');
@@ -53978,6 +58742,9 @@ VALUES (8923, 13, True)
      , (8923, 19, True)
      , (8923, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Strength Other (1557) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1557;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1557, 'scrollstrengthother');
 
@@ -54011,6 +58778,9 @@ VALUES (1557, 13, True)
      , (1557, 14, True)
      , (1557, 19, True)
      , (1557, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Mastery Self III (3389) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3389;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3389, 'scrolllockpickmasteryself3');
@@ -54046,6 +58816,9 @@ VALUES (3389, 13, True)
      , (3389, 19, True)
      , (3389, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Arc II (21303) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21303;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21303, 'scrollflamearc2');
 
@@ -54079,6 +58852,9 @@ VALUES (21303, 13, True)
      , (21303, 14, True)
      , (21303, 19, True)
      , (21303, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Jumping Mastery Self II (3338) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3338;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3338, 'scrolljumpmasteryself2');
@@ -54114,6 +58890,9 @@ VALUES (3338, 13, True)
      , (3338, 19, True)
      , (3338, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Focus Other II (2674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2674;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2674, 'scrollfocusother2');
 
@@ -54147,6 +58926,9 @@ VALUES (2674, 13, True)
      , (2674, 14, True)
      , (2674, 19, True)
      , (2674, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cold Protection Self (1848) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1848;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1848, 'scrollcoldprotectionself');
@@ -54182,6 +58964,9 @@ VALUES (1848, 13, True)
      , (1848, 19, True)
      , (1848, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Ignorance (1755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1755;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1755, 'scrollweaponignorance');
 
@@ -54215,6 +59000,9 @@ VALUES (1755, 13, True)
      , (1755, 14, True)
      , (1755, 19, True)
      , (1755, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shock Wave III (2964) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2964;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2964, 'scrollshockwave3');
@@ -54250,6 +59038,9 @@ VALUES (2964, 13, True)
      , (2964, 19, True)
      , (2964, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Bolt III (2942) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2942;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2942, 'scrollfrostbolt3');
 
@@ -54283,6 +59074,9 @@ VALUES (2942, 13, True)
      , (2942, 14, True)
      , (2942, 19, True)
      , (2942, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fire Vulnerability Other III (3044) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3044;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3044, 'scrollfirevulnerabilityother3');
@@ -54318,6 +59112,9 @@ VALUES (3044, 13, True)
      , (3044, 19, True)
      , (3044, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeoning Vulnerability Other III (3014) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3014;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3014, 'scrollbludgeonvulnerabilityother3');
 
@@ -54351,6 +59148,9 @@ VALUES (3014, 13, True)
      , (3014, 14, True)
      , (3014, 19, True)
      , (3014, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Revitalize Self III (2728) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2728;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2728, 'scrollrevitalizeself3');
@@ -54386,6 +59186,9 @@ VALUES (2728, 13, True)
      , (2728, 19, True)
      , (2728, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Heal Self III (2698) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2698;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2698, 'scrollhealself3');
 
@@ -54419,6 +59222,9 @@ VALUES (2698, 13, True)
      , (2698, 14, True)
      , (2698, 19, True)
      , (2698, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Swift Killer Other (46847) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46847;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46847, 'ace46847-auraofswiftkillerother');
@@ -54454,6 +59260,9 @@ VALUES (46847, 13, True)
      , (46847, 19, True)
      , (46847, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Willpower Self V (2760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2760;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2760, 'scrollwillpowerself5');
 
@@ -54487,6 +59296,9 @@ VALUES (2760, 13, True)
      , (2760, 14, True)
      , (2760, 19, True)
      , (2760, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Heartseeker Self II (2832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2832;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2832, 'scrollheartseeker2');
@@ -54522,6 +59334,9 @@ VALUES (2832, 13, True)
      , (2832, 19, True)
      , (2832, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapons Ineptitude II (41289) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41289;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41289, 'ace41289-scrolloftwohandedweaponsineptitudeii');
 
@@ -54555,6 +59370,9 @@ VALUES (41289, 13, True)
      , (41289, 14, True)
      , (41289, 19, True)
      , (41289, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Protection Self II (2993) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2993;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2993, 'scrollbladeprotectionself2');
@@ -54590,6 +59408,9 @@ VALUES (2993, 13, True)
      , (2993, 19, True)
      , (2993, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Magic Yield Other II (3423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3423;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3423, 'scrollmagicyieldother2');
 
@@ -54623,6 +59444,9 @@ VALUES (3423, 13, True)
      , (3423, 14, True)
      , (3423, 19, True)
      , (3423, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cold Vulnerability Other IV (3030) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3030;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3030, 'scrollcoldvulnerabilityother4');
@@ -54658,6 +59482,9 @@ VALUES (3030, 13, True)
      , (3030, 19, True)
      , (3030, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Vulnerability Other IV (3060) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3060;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3060, 'scrolllightningvulnerabilityother4');
 
@@ -54691,6 +59518,9 @@ VALUES (3060, 13, True)
      , (3060, 14, True)
      , (3060, 19, True)
      , (3060, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Piercing Vulnerability Other IV (3075) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3075;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3075, 'scrollpiercevulnerabilityother4');
@@ -54726,6 +59556,9 @@ VALUES (3075, 13, True)
      , (3075, 19, True)
      , (3075, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Stream IV (2909) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2909;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2909, 'scrollacidstream4');
 
@@ -54759,6 +59592,9 @@ VALUES (2909, 13, True)
      , (2909, 14, True)
      , (2909, 19, True)
      , (2909, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Endurance Self IV (2661) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2661;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2661, 'scrollenduranceself4');
@@ -54794,6 +59630,9 @@ VALUES (2661, 13, True)
      , (2661, 19, True)
      , (2661, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Self Strength IV (2744) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2744;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2744, 'scrollstrengthself4');
 
@@ -54827,6 +59666,9 @@ VALUES (2744, 13, True)
      , (2744, 14, True)
      , (2744, 19, True)
      , (2744, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcane Enlightenment IV (3135) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3135;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3135, 'scrollarcaneenlightenmentother4');
@@ -54862,6 +59704,9 @@ VALUES (3135, 13, True)
      , (3135, 19, True)
      , (3135, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Mastery Self IV (3200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3200;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3200, 'scrollcreatureenchantmentself4');
 
@@ -54895,6 +59740,9 @@ VALUES (3200, 13, True)
      , (3200, 14, True)
      , (3200, 19, True)
      , (3200, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Ineptitude Other IV (9611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9611;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9611, 'scrollmanaineptitude4');
@@ -54930,6 +59778,9 @@ VALUES (9611, 13, True)
      , (9611, 19, True)
      , (9611, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Vulnerability III (3559) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3559;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3559, 'scrollvulnerabilityother3');
 
@@ -54963,6 +59814,9 @@ VALUES (3559, 13, True)
      , (3559, 14, True)
      , (3559, 19, True)
      , (3559, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Stamina to Health Self III (9651) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9651;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9651, 'scrollstaminatohealthself3');
@@ -54998,6 +59852,9 @@ VALUES (9651, 13, True)
      , (9651, 19, True)
      , (9651, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Person Attunement Self IV (3455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3455;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3455, 'scrollpersonattunementself4');
 
@@ -55031,6 +59888,9 @@ VALUES (3455, 13, True)
      , (3455, 14, True)
      , (3455, 19, True)
      , (3455, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Ignorance IV (3420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3420;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3420, 'scrollmagicitemignorance4');
@@ -55066,6 +59926,9 @@ VALUES (3420, 13, True)
      , (3420, 19, True)
      , (3420, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Defender Self V (2810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2810;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2810, 'scrolldefender5');
 
@@ -55099,6 +59962,9 @@ VALUES (2810, 13, True)
      , (2810, 14, True)
      , (2810, 19, True)
      , (2810, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Protection Self V (3056) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3056;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3056, 'scrolllightningprotectionself5');
@@ -55134,6 +60000,9 @@ VALUES (3056, 13, True)
      , (3056, 19, True)
      , (3056, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Lure III (2873) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2873;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2873, 'scrollpiercinglure3');
 
@@ -55167,6 +60036,9 @@ VALUES (2873, 13, True)
      , (2873, 14, True)
      , (2873, 19, True)
      , (2873, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Leadership Mastery Self IV (3360) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3360;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3360, 'scrollleadershipmasteryself4');
@@ -55202,6 +60074,9 @@ VALUES (3360, 13, True)
      , (3360, 19, True)
      , (3360, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Bane V (2855) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2855;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2855, 'scrolllightningbane5');
 
@@ -55235,6 +60110,9 @@ VALUES (2855, 13, True)
      , (2855, 14, True)
      , (2855, 19, True)
      , (2855, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Deception Mastery Other IV (3240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3240;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3240, 'scrolldeceptionmasteryother4');
@@ -55270,6 +60148,9 @@ VALUES (3240, 13, True)
      , (3240, 19, True)
      , (3240, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Bolt V (6001) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6001;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6001, 'scrollflamebolt5');
 
@@ -55303,6 +60184,9 @@ VALUES (6001, 13, True)
      , (6001, 14, True)
      , (6001, 19, True)
      , (6001, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Renewal Self V (3106) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3106;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3106, 'scrollmanarenewalself5');
@@ -55338,6 +60222,9 @@ VALUES (3106, 13, True)
      , (3106, 19, True)
      , (3106, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Mastery Self V (3376) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3376;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3376, 'scrolllifemagicmasteryself5');
 
@@ -55371,6 +60258,9 @@ VALUES (3376, 13, True)
      , (3376, 14, True)
      , (3376, 19, True)
      , (3376, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Mastery Self V (3526) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3526;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3526, 'scrollswordmasteryself5');
@@ -55406,6 +60296,9 @@ VALUES (3526, 13, True)
      , (3526, 19, True)
      , (3526, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Mastery Self VI (3317) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3317;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3317, 'scrollitemenchantmentmasteryself6');
 
@@ -55439,6 +60332,9 @@ VALUES (3317, 13, True)
      , (3317, 14, True)
      , (3317, 19, True)
      , (3317, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Mastery Other VI (3372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3372;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3372, 'scrolllifemagicmasteryother6');
@@ -55474,6 +60370,9 @@ VALUES (3372, 13, True)
      , (3372, 19, True)
      , (3372, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Clumsiness Other III (2640) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2640;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2640, 'scrollclumsiness3');
 
@@ -55507,6 +60406,9 @@ VALUES (2640, 13, True)
      , (2640, 14, True)
      , (2640, 19, True)
      , (2640, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Person Unfamiliarity IV (3460) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3460;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3460, 'scrollpersonunfamiliarity4');
@@ -55542,6 +60444,9 @@ VALUES (3460, 13, True)
      , (3460, 19, True)
      , (3460, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Monster Attunement Self III (5544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5544;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5544, 'scrollmonsterattunementself3');
 
@@ -55575,6 +60480,9 @@ VALUES (5544, 13, True)
      , (5544, 14, True)
      , (5544, 19, True)
      , (5544, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Mastery Other IV (45295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45295;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45295, 'ace45295-scrollofrecklessnessmasteryotheriv');
@@ -55610,6 +60518,9 @@ VALUES (45295, 13, True)
      , (45295, 19, True)
      , (45295, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Heal Other IV (2694) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2694;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2694, 'scrollhealother4');
 
@@ -55643,6 +60554,9 @@ VALUES (2694, 13, True)
      , (2694, 14, True)
      , (2694, 19, True)
      , (2694, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Mastery Self III (5994) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5994;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5994, 'scrollalchemymasteryself3');
@@ -55678,6 +60592,9 @@ VALUES (5994, 13, True)
      , (5994, 19, True)
      , (5994, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cold Protection Other V (3021) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3021;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3021, 'scrollcoldprotectionother5');
 
@@ -55711,6 +60628,9 @@ VALUES (3021, 13, True)
      , (3021, 14, True)
      , (3021, 19, True)
      , (3021, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Devour Item Magic (20357) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20357;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20357, 'scrolldispelitemneutralother4');
@@ -55746,6 +60666,9 @@ VALUES (20357, 13, True)
      , (20357, 19, True)
      , (20357, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Protection Other V (2976) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2976;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2976, 'scrollacidprotectionother5');
 
@@ -55779,6 +60702,9 @@ VALUES (2976, 13, True)
      , (2976, 14, True)
      , (2976, 19, True)
      , (2976, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcane Enlightenment Self V (3141) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3141;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3141, 'scrollarcaneenlightenmentself5');
@@ -55814,6 +60740,9 @@ VALUES (3141, 13, True)
      , (3141, 19, True)
      , (3141, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Impenetrability III (2843) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2843;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2843, 'scrollimpenetrability3');
 
@@ -55847,6 +60776,9 @@ VALUES (2843, 13, True)
      , (2843, 14, True)
      , (2843, 19, True)
      , (2843, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Healing Mastery Other (1701) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1701;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1701, 'scrollhealingmasteryother');
@@ -55882,6 +60814,9 @@ VALUES (1701, 13, True)
      , (1701, 19, True)
      , (1701, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Ineptitude Other II (45333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45333;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45333, 'ace45333-scrollofsneakattackineptitudeotherii');
 
@@ -55915,6 +60850,9 @@ VALUES (45333, 13, True)
      , (45333, 14, True)
      , (45333, 19, True)
      , (45333, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Brittlemail (1879) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1879;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1879, 'scrollbrittlemail');
@@ -55950,6 +60888,9 @@ VALUES (1879, 13, True)
      , (1879, 19, True)
      , (1879, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Bane II (2792) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2792;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2792, 'scrollbludgeonbane2');
 
@@ -55983,6 +60924,9 @@ VALUES (2792, 13, True)
      , (2792, 14, True)
      , (2792, 19, True)
      , (2792, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other (1672) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1672;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1672, 'scrollaxeineptitudeother');
@@ -56018,6 +60962,9 @@ VALUES (1672, 13, True)
      , (1672, 19, True)
      , (1672, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Ineptitude II (43358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43358;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43358, 'ace43358-scrollofvoidmagicineptitudeii');
 
@@ -56051,6 +60998,9 @@ VALUES (43358, 13, True)
      , (43358, 14, True)
      , (43358, 19, True)
      , (43358, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Regenerate Other II (3108) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3108;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3108, 'scrollregenerateother2');
@@ -56086,6 +61036,9 @@ VALUES (3108, 13, True)
      , (3108, 19, True)
      , (3108, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Ignorance II (3153) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3153;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3153, 'scrollarmorignorance2');
 
@@ -56119,6 +61072,9 @@ VALUES (3153, 13, True)
      , (3153, 14, True)
      , (3153, 19, True)
      , (3153, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self II (3168) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3168;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3168, 'scrollaxemasteryself2');
@@ -56154,6 +61110,9 @@ VALUES (3168, 13, True)
      , (3168, 19, True)
      , (3168, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeoning Vulnerability Other II (3013) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3013;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3013, 'scrollbludgeonvulnerabilityother2');
 
@@ -56187,6 +61146,9 @@ VALUES (3013, 13, True)
      , (3013, 14, True)
      , (3013, 19, True)
      , (3013, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Lure II (2857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2857;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2857, 'scrolllightninglure2');
@@ -56222,6 +61184,9 @@ VALUES (2857, 13, True)
      , (2857, 19, True)
      , (2857, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Protection Self (1845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1845;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1845, 'scrollbludgeonprotectionself');
 
@@ -56255,6 +61220,9 @@ VALUES (1845, 13, True)
      , (1845, 14, True)
      , (1845, 19, True)
      , (1845, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Destructive Curse II (43321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43321;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43321, 'ace43321-scrollofdestructivecurseii');
@@ -56290,6 +61258,9 @@ VALUES (43321, 13, True)
      , (43321, 19, True)
      , (43321, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Arc II (21296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21296;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21296, 'scrollbladearc2');
 
@@ -56323,6 +61294,9 @@ VALUES (21296, 13, True)
      , (21296, 14, True)
      , (21296, 19, True)
      , (21296, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Piercing Bane II (2867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2867;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2867, 'scrollpiercingbane2');
@@ -56358,6 +61332,9 @@ VALUES (2867, 13, True)
      , (2867, 19, True)
      , (2867, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fletching Mastery Self (5974) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5974;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5974, 'scrollfletchingmasteryself');
 
@@ -56391,6 +61368,9 @@ VALUES (5974, 13, True)
      , (5974, 14, True)
      , (5974, 19, True)
      , (5974, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Mastery Other V (3371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3371;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3371, 'scrolllifemagicmasteryother5');
@@ -56426,6 +61406,9 @@ VALUES (3371, 13, True)
      , (3371, 19, True)
      , (3371, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Lure (1893) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1893;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1893, 'scrollpiercinglure');
 
@@ -56459,6 +61442,9 @@ VALUES (1893, 13, True)
      , (1893, 14, True)
      , (1893, 19, True)
      , (1893, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Whirling Blade Streak (8953) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8953;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8953, 'scrollwhirlingbladestreak');
@@ -56494,6 +61480,9 @@ VALUES (8953, 13, True)
      , (8953, 19, True)
      , (8953, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Cold Vulnerability Other V (3031) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3031;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3031, 'scrollcoldvulnerabilityother5');
 
@@ -56527,6 +61516,9 @@ VALUES (3031, 13, True)
      , (3031, 14, True)
      , (3031, 19, True)
      , (3031, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcane Enlightenment II (3133) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3133;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3133, 'scrollarcaneenlightenmentother2');
@@ -56562,6 +61554,9 @@ VALUES (3133, 13, True)
      , (3133, 19, True)
      , (3133, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Expertise Other (1706) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1706;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1706, 'scrollitemexpertiseother');
 
@@ -56595,6 +61590,9 @@ VALUES (1706, 13, True)
      , (1706, 14, True)
      , (1706, 19, True)
      , (1706, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Mastery Other III (3519) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3519;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3519, 'scrollswordmasteryother3');
@@ -56630,6 +61628,9 @@ VALUES (3519, 13, True)
      , (3519, 19, True)
      , (3519, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Ineptitude Other (1685) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1685;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1685, 'scrollbowineptitude');
 
@@ -56663,6 +61664,9 @@ VALUES (1685, 13, True)
      , (1685, 14, True)
      , (1685, 19, True)
      , (1685, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Harm Other II (2687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2687;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2687, 'scrollharmother2');
@@ -56698,6 +61702,9 @@ VALUES (2687, 13, True)
      , (2687, 19, True)
      , (2687, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Arc I (21309) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21309;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21309, 'scrollforcearc');
 
@@ -56731,6 +61738,9 @@ VALUES (21309, 13, True)
      , (21309, 14, True)
      , (21309, 19, True)
      , (21309, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Infuse Stamina II (3741) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3741;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3741, 'scrollinfusestamina2');
@@ -56766,6 +61776,9 @@ VALUES (3741, 13, True)
      , (3741, 19, True)
      , (3741, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Bane (1889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1889;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1889, 'scrolllightningbane');
 
@@ -56799,6 +61812,9 @@ VALUES (1889, 13, True)
      , (1889, 14, True)
      , (1889, 19, True)
      , (1889, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Arc I (21316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21316;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21316, 'scrollfrostarc');
@@ -56834,6 +61850,9 @@ VALUES (21316, 13, True)
      , (21316, 19, True)
      , (21316, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shield Ineptitude Other III (45310) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45310;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45310, 'ace45310-scrollofshieldineptitudeotheriii');
 
@@ -56867,6 +61886,9 @@ VALUES (45310, 13, True)
      , (45310, 14, True)
      , (45310, 19, True)
      , (45310, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Ineptitude Other (45260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45260;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45260, 'ace45260-scrollofdualwieldineptitudeother');
@@ -56902,6 +61924,9 @@ VALUES (45260, 13, True)
      , (45260, 19, True)
      , (45260, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Imperil Other II (2702) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2702;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2702, 'scrollimperil2');
 
@@ -56935,6 +61960,9 @@ VALUES (2702, 13, True)
      , (2702, 14, True)
      , (2702, 19, True)
      , (2702, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Leaden Weapon (1888) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1888;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1888, 'scrollleadenweapon');
@@ -56970,6 +61998,9 @@ VALUES (1888, 13, True)
      , (1888, 19, True)
      , (1888, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Ignorance VI (3157) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3157;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3157, 'scrollarmorignorance6');
 
@@ -57003,6 +62034,9 @@ VALUES (3157, 13, True)
      , (3157, 14, True)
      , (3157, 19, True)
      , (3157, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Ineptitude IV (3305) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3305;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3305, 'scrollitemenchantmentineptitude4');
@@ -57038,6 +62072,9 @@ VALUES (3305, 13, True)
      , (3305, 19, True)
      , (3305, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Radiant Blood Recall (53369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53369;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53369, 'ace53369-scrollofradiantbloodrecall');
 
@@ -57071,6 +62108,9 @@ VALUES (53369, 13, True)
      , (53369, 14, True)
      , (53369, 19, True)
      , (53369, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self V (3171) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3171;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3171, 'scrollaxemasteryself5');
@@ -57106,6 +62146,9 @@ VALUES (3171, 13, True)
      , (3171, 19, True)
      , (3171, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapons Ineptitude V (41292) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41292;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41292, 'ace41292-scrolloftwohandedweaponsineptitudev');
 
@@ -57139,6 +62182,9 @@ VALUES (41292, 13, True)
      , (41292, 14, True)
      , (41292, 19, True)
      , (41292, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Infuse Health (1865) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1865;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1865, 'scrollinfusehealth');
@@ -57174,6 +62220,9 @@ VALUES (1865, 13, True)
      , (1865, 19, True)
      , (1865, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Quickness Other V (2715) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2715;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2715, 'scrollquicknessother5');
 
@@ -57207,6 +62256,9 @@ VALUES (2715, 13, True)
      , (2715, 14, True)
      , (2715, 19, True)
      , (2715, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Impregnability Other III (3284) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3284;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3284, 'scrollimpregnabilityother3');
@@ -57242,6 +62294,9 @@ VALUES (3284, 13, True)
      , (3284, 19, True)
      , (3284, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Ineptitude Other V (3176) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3176;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3176, 'scrollbowineptitude5');
 
@@ -57275,6 +62330,9 @@ VALUES (3176, 13, True)
      , (3176, 14, True)
      , (3176, 19, True)
      , (3176, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Ignorance VI (41269) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41269;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41269, 'ace41269-scrollofitemtinkeringignorancevi');
@@ -57310,6 +62368,9 @@ VALUES (41269, 13, True)
      , (41269, 19, True)
      , (41269, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Evaporate Life Magic Self (20396) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20396;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20396, 'scrolldispellifeneutralself');
 
@@ -57343,6 +62404,9 @@ VALUES (20396, 13, True)
      , (20396, 14, True)
      , (20396, 19, True)
      , (20396, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Revitalize Other (1784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1784;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1784, 'scrollrevitalizeother');
@@ -57378,6 +62442,9 @@ VALUES (1784, 13, True)
      , (1784, 19, True)
      , (1784, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Focus Other (1775) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1775;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1775, 'scrollfocusother');
 
@@ -57411,6 +62478,9 @@ VALUES (1775, 13, True)
      , (1775, 14, True)
      , (1775, 19, True)
      , (1775, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Piercing Protection Other V (3066) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3066;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3066, 'scrollpierceprotectionother5');
@@ -57446,6 +62516,9 @@ VALUES (3066, 13, True)
      , (3066, 19, True)
      , (3066, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Jumping Ineptitude III (9626) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9626;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9626, 'scrolljumpineptitude3');
 
@@ -57479,6 +62552,9 @@ VALUES (9626, 13, True)
      , (9626, 14, True)
      , (9626, 19, True)
      , (9626, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Mastery Self II (3388) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3388;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3388, 'scrolllockpickmasteryself2');
@@ -57514,6 +62590,9 @@ VALUES (3388, 13, True)
      , (3388, 19, True)
      , (3388, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Ineptitude Other II (9609) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9609;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9609, 'scrollmanaineptitude2');
 
@@ -57547,6 +62626,9 @@ VALUES (9609, 13, True)
      , (9609, 14, True)
      , (9609, 19, True)
      , (9609, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bafflement Other III (2635) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2635;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2635, 'scrollbafflement3');
@@ -57582,6 +62664,9 @@ VALUES (2635, 13, True)
      , (2635, 19, True)
      , (2635, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Quickness Self (1781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1781;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1781, 'scrollquicknessself');
 
@@ -57615,6 +62700,9 @@ VALUES (1781, 13, True)
      , (1781, 14, True)
      , (1781, 19, True)
      , (1781, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Ignorance II (3418) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3418;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3418, 'scrollmagicitemignorance2');
@@ -57650,6 +62738,9 @@ VALUES (3418, 13, True)
      , (3418, 19, True)
      , (3418, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Impenetrability II (2842) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2842;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2842, 'scrollimpenetrability2');
 
@@ -57683,6 +62774,9 @@ VALUES (2842, 13, True)
      , (2842, 14, True)
      , (2842, 19, True)
      , (2842, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heal Other (1555) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1555;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1555, 'scrollhealother');
@@ -57718,6 +62812,9 @@ VALUES (1555, 13, True)
      , (1555, 19, True)
      , (1555, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Ignorance II (41265) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41265;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41265, 'ace41265-scrollofitemtinkeringignoranceii');
 
@@ -57751,6 +62848,9 @@ VALUES (41265, 13, True)
      , (41265, 14, True)
      , (41265, 19, True)
      , (41265, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Willpower Other VI (2756) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2756;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2756, 'scrollwillpowerother6');
@@ -57786,6 +62886,9 @@ VALUES (2756, 13, True)
      , (2756, 19, True)
      , (2756, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self V (3511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3511;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3511, 'scrollstaffmasteryself5');
 
@@ -57819,6 +62922,9 @@ VALUES (3511, 13, True)
      , (3511, 14, True)
      , (3511, 19, True)
      , (3511, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Other II (3478) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3478;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3478, 'scrollspearmasteryother2');
@@ -57854,6 +62960,9 @@ VALUES (3478, 13, True)
      , (3478, 19, True)
      , (3478, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Bane (1877) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1877;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1877, 'scrollbludgeonbane');
 
@@ -57887,6 +62996,9 @@ VALUES (1877, 13, True)
      , (1877, 14, True)
      , (1877, 19, True)
      , (1877, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lure Blade II (2862) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2862;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2862, 'scrolllureblade2');
@@ -57922,6 +63034,9 @@ VALUES (2862, 13, True)
      , (2862, 19, True)
      , (2862, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Other III (3504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3504;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3504, 'scrollstaffmasteryother3');
 
@@ -57955,6 +63070,9 @@ VALUES (3504, 13, True)
      , (3504, 14, True)
      , (3504, 19, True)
      , (3504, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Protection Other II (3003) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3003;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3003, 'scrollbludgeonprotectionother2');
@@ -57990,6 +63108,9 @@ VALUES (3003, 13, True)
      , (3003, 19, True)
      , (3003, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Mastery Self (1718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1718;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1718, 'scrolllifemagicmasteryself');
 
@@ -58023,6 +63144,9 @@ VALUES (1718, 13, True)
      , (1718, 14, True)
      , (1718, 19, True)
      , (1718, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Monster Attunement Other (1727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1727;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1727, 'scrollmonsterattunementother');
@@ -58058,6 +63182,9 @@ VALUES (1727, 13, True)
      , (1727, 19, True)
      , (1727, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Mastery Self III (3374) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3374;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3374, 'scrolllifemagicmasteryself3');
 
@@ -58091,6 +63218,9 @@ VALUES (3374, 13, True)
      , (3374, 14, True)
      , (3374, 19, True)
      , (3374, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Arc I (21288) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21288;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21288, 'scrollacidarc');
@@ -58126,6 +63256,9 @@ VALUES (21288, 13, True)
      , (21288, 19, True)
      , (21288, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Arc II (21317) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21317;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21317, 'scrollfrostarc2');
 
@@ -58159,6 +63292,9 @@ VALUES (21317, 13, True)
      , (21317, 14, True)
      , (21317, 19, True)
      , (21317, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Expertise Self V (3151) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3151;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3151, 'scrollarmorexpertiseself5');
@@ -58194,6 +63330,9 @@ VALUES (3151, 13, True)
      , (3151, 19, True)
      , (3151, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Arc VI (21314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21314;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21314, 'scrollforcearc6');
 
@@ -58227,6 +63366,9 @@ VALUES (21314, 13, True)
      , (21314, 14, True)
      , (21314, 19, True)
      , (21314, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nether Bolt III (43304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43304;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43304, 'ace43304-scrollofnetherboltiii');
@@ -58262,6 +63404,9 @@ VALUES (43304, 13, True)
      , (43304, 19, True)
      , (43304, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Mastery Other IV (45247) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45247;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45247, 'ace45247-scrollofdirtyfightingmasteryotheriv');
 
@@ -58295,6 +63440,9 @@ VALUES (45247, 13, True)
      , (45247, 14, True)
      , (45247, 19, True)
      , (45247, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Brittlemail IV (2804) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2804;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2804, 'scrollbrittlemail4');
@@ -58330,6 +63478,9 @@ VALUES (2804, 13, True)
      , (2804, 19, True)
      , (2804, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nether Arc III (43296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43296;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43296, 'ace43296-scrollofnetherarciii');
 
@@ -58363,6 +63514,9 @@ VALUES (43296, 13, True)
      , (43296, 14, True)
      , (43296, 19, True)
      , (43296, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cleanse Life Magic Self (20398) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20398;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20398, 'scrolldispellifeneutralself3');
@@ -58398,6 +63552,9 @@ VALUES (20398, 13, True)
      , (20398, 19, True)
      , (20398, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of War Magic Ineptitude II (3563) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3563;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3563, 'scrollwarmagicineptitude2');
 
@@ -58431,6 +63588,9 @@ VALUES (3563, 13, True)
      , (3563, 14, True)
      , (3563, 19, True)
      , (3563, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Bane (1875) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1875;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1875, 'scrollacidbane');
@@ -58466,6 +63626,9 @@ VALUES (1875, 13, True)
      , (1875, 19, True)
      , (1875, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fealty Self II (3263) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3263;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3263, 'scrollfealtyself2');
 
@@ -58499,6 +63662,9 @@ VALUES (3263, 13, True)
      , (3263, 14, True)
      , (3263, 19, True)
      , (3263, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Mastery Other II (45245) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45245;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45245, 'ace45245-scrollofdirtyfightingmasteryotherii');
@@ -58534,6 +63700,9 @@ VALUES (45245, 13, True)
      , (45245, 19, True)
      , (45245, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fletching Mastery Self III (5976) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5976;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5976, 'scrollfletchingmasteryself3');
 
@@ -58567,6 +63736,9 @@ VALUES (5976, 13, True)
      , (5976, 14, True)
      , (5976, 19, True)
      , (5976, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Streak III (8916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8916;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8916, 'scrollacidstreak3');
@@ -58602,6 +63774,9 @@ VALUES (8916, 13, True)
      , (8916, 19, True)
      , (8916, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Arc V (21313) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21313;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21313, 'scrollforcearc5');
 
@@ -58635,6 +63810,9 @@ VALUES (21313, 13, True)
      , (21313, 14, True)
      , (21313, 19, True)
      , (21313, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Bane III (2823) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2823;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2823, 'scrollfrostbane3');
@@ -58670,6 +63848,9 @@ VALUES (2823, 13, True)
      , (2823, 19, True)
      , (2823, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Lure (1890) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1890;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1890, 'scrolllightninglure');
 
@@ -58703,6 +63884,9 @@ VALUES (1890, 13, True)
      , (1890, 14, True)
      , (1890, 19, True)
      , (1890, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cold Protection Other IV (3020) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3020;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3020, 'scrollcoldprotectionother4');
@@ -58738,6 +63922,9 @@ VALUES (3020, 13, True)
      , (3020, 19, True)
      , (3020, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Ignorance III (3589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3589;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3589, 'scrollweaponignorance3');
 
@@ -58771,6 +63958,9 @@ VALUES (3589, 13, True)
      , (3589, 14, True)
      , (3589, 19, True)
      , (3589, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Ineptitude Other (45332) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45332;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45332, 'ace45332-scrollofsneakattackineptitudeother');
@@ -58806,6 +63996,9 @@ VALUES (45332, 13, True)
      , (45332, 19, True)
      , (45332, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcanum Salvaging III (28935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28935;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28935, 'scrollarcanumsalvaging3');
 
@@ -58839,6 +64032,9 @@ VALUES (28935, 13, True)
      , (28935, 14, True)
      , (28935, 19, True)
      , (28935, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Mastery Self III (3314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3314;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3314, 'scrollitemenchantmentmasteryself3');
@@ -58874,6 +64070,9 @@ VALUES (3314, 13, True)
      , (3314, 19, True)
      , (3314, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Expertise Other IV (3410) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3410;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3410, 'scrollmagicitemexpertiseother4');
 
@@ -58907,6 +64106,9 @@ VALUES (3410, 13, True)
      , (3410, 14, True)
      , (3410, 19, True)
      , (3410, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Blood Drinker Other (46843) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46843;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46843, 'ace46843-auraofblooddrinkerother');
@@ -58942,6 +64144,9 @@ VALUES (46843, 13, True)
      , (46843, 19, True)
      , (46843, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Deception Mastery Other (1695) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1695;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1695, 'scrolldeceptionmasteryother');
 
@@ -58975,6 +64180,9 @@ VALUES (1695, 13, True)
      , (1695, 14, True)
      , (1695, 19, True)
      , (1695, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Lure IV (2829) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2829;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2829, 'scrollfrostlure4');
@@ -59010,6 +64218,9 @@ VALUES (2829, 13, True)
      , (2829, 19, True)
      , (2829, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Other (1549) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1549;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1549, 'scrollarmorother');
 
@@ -59043,6 +64254,9 @@ VALUES (1549, 13, True)
      , (1549, 14, True)
      , (1549, 19, True)
      , (1549, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Willpower Self III (2758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2758;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2758, 'scrollwillpowerself3');
@@ -59078,6 +64292,9 @@ VALUES (2758, 13, True)
      , (2758, 19, True)
      , (2758, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of War Magic Mastery Other V (3571) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3571;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3571, 'scrollwarmagicmasteryother5');
 
@@ -59111,6 +64328,9 @@ VALUES (3571, 13, True)
      , (3571, 14, True)
      , (3571, 19, True)
      , (3571, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sprint Other IV (3490) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3490;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3490, 'scrollsprintother4');
@@ -59146,6 +64366,9 @@ VALUES (3490, 13, True)
      , (3490, 19, True)
      , (3490, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Mastery Other (1704) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1704;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1704, 'scrollitemenchantmentmasteryother');
 
@@ -59179,6 +64402,9 @@ VALUES (1704, 13, True)
      , (1704, 14, True)
      , (1704, 19, True)
      , (1704, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Expertise Self II (3323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3323;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3323, 'scrollitemexpertiseself2');
@@ -59214,6 +64440,9 @@ VALUES (3323, 13, True)
      , (3323, 19, True)
      , (3323, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Bane II (2852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2852;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2852, 'scrolllightningbane2');
 
@@ -59247,6 +64476,9 @@ VALUES (2852, 13, True)
      , (2852, 14, True)
      , (2852, 19, True)
      , (2852, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Bolt II (2941) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2941;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2941, 'scrollfrostbolt2');
@@ -59282,6 +64514,9 @@ VALUES (2941, 13, True)
      , (2941, 19, True)
      , (2941, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Bolt V (2944) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2944;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2944, 'scrollfrostbolt5');
 
@@ -59315,6 +64550,9 @@ VALUES (2944, 13, True)
      , (2944, 14, True)
      , (2944, 19, True)
      , (2944, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Resist Magic Self (1662) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1662;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1662, 'scrollresistmagicself');
@@ -59350,6 +64588,9 @@ VALUES (1662, 13, True)
      , (1662, 19, True)
      , (1662, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Other (1686) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1686;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1686, 'scrollbowmasteryother');
 
@@ -59383,6 +64624,9 @@ VALUES (1686, 13, True)
      , (1686, 14, True)
      , (1686, 19, True)
      , (1686, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Person Unfamiliarity (1732) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1732;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1732, 'scrollpersonunfamiliarity');
@@ -59418,6 +64662,9 @@ VALUES (1732, 13, True)
      , (1732, 19, True)
      , (1732, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcane Enlightenment (1680) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1680;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1680, 'scrollarcaneenlightenmentother');
 
@@ -59451,6 +64698,9 @@ VALUES (1680, 13, True)
      , (1680, 14, True)
      , (1680, 19, True)
      , (1680, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fletching Ineptitude Other V (5966) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5966;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5966, 'scrollfletchingineptitude5');
@@ -59486,6 +64736,9 @@ VALUES (5966, 13, True)
      , (5966, 19, True)
      , (5966, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Endurance Self (1772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1772;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1772, 'scrollenduranceself');
 
@@ -59519,6 +64772,9 @@ VALUES (1772, 13, True)
      , (1772, 14, True)
      , (1772, 19, True)
      , (1772, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Bolt II (2955) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2955;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2955, 'scrolllightningbolt2');
@@ -59554,6 +64810,9 @@ VALUES (2955, 13, True)
      , (2955, 19, True)
      , (2955, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weakening Curse (43338) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43338;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43338, 'ace43338-scrollofweakeningcurse');
 
@@ -59587,6 +64846,9 @@ VALUES (43338, 13, True)
      , (43338, 14, True)
      , (43338, 19, True)
      , (43338, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana to Health Self V (9643) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9643;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9643, 'scrollmanatohealthself5');
@@ -59622,6 +64884,9 @@ VALUES (9643, 13, True)
      , (9643, 19, True)
      , (9643, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sprint Other (1736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1736;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1736, 'scrollsprintother');
 
@@ -59655,6 +64920,9 @@ VALUES (1736, 13, True)
      , (1736, 14, True)
      , (1736, 19, True)
      , (1736, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Resist Magic Other II (3463) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3463;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3463, 'scrollresistmagicother2');
@@ -59690,6 +64958,9 @@ VALUES (3463, 13, True)
      , (3463, 19, True)
      , (3463, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Coordination Other III (2645) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2645;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2645, 'scrollcoordinationother3');
 
@@ -59723,6 +64994,9 @@ VALUES (2645, 13, True)
      , (2645, 14, True)
      , (2645, 19, True)
      , (2645, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heal Self II (2697) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2697;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2697, 'scrollhealself2');
@@ -59758,6 +65032,9 @@ VALUES (2697, 13, True)
      , (2697, 19, True)
      , (2697, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Corruption V (43290) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43290;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43290, 'ace43290-scrollofcorruptionv');
 
@@ -59791,6 +65068,9 @@ VALUES (43290, 13, True)
      , (43290, 14, True)
      , (43290, 19, True)
      , (43290, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other III (3159) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3159;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3159, 'scrollaxeineptitudeother3');
@@ -59826,6 +65106,9 @@ VALUES (3159, 13, True)
      , (3159, 19, True)
      , (3159, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Focus Other IV (2676) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2676;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2676, 'scrollfocusother4');
 
@@ -59859,6 +65142,9 @@ VALUES (2676, 13, True)
      , (2676, 14, True)
      , (2676, 19, True)
      , (2676, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Vulnerability II (3558) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3558;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3558, 'scrollvulnerabilityother2');
@@ -59894,6 +65180,9 @@ VALUES (3558, 13, True)
      , (3558, 19, True)
      , (3558, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Person Attunement Other (1730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1730;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1730, 'scrollpersonattunementother');
 
@@ -59927,6 +65216,9 @@ VALUES (1730, 13, True)
      , (1730, 14, True)
      , (1730, 19, True)
      , (1730, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Protection Other (1841) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1841;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1841, 'scrollbladeprotectionother');
@@ -59962,6 +65254,9 @@ VALUES (1841, 13, True)
      , (1841, 19, True)
      , (1841, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blood Loather VI (2791) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2791;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2791, 'scrollbloodloather6');
 
@@ -59995,6 +65290,9 @@ VALUES (2791, 13, True)
      , (2791, 14, True)
      , (2791, 19, True)
      , (2791, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Hecatomb V (21099) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21099;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21099, 'scrollhealthbolt5');
@@ -60030,6 +65328,9 @@ VALUES (21099, 13, True)
      , (21099, 19, True)
      , (21099, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Lure IV (2779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2779;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2779, 'scrollbladelure4');
 
@@ -60063,6 +65364,9 @@ VALUES (2779, 13, True)
      , (2779, 14, True)
      , (2779, 19, True)
      , (2779, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shield Mastery Self IV (45327) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45327;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45327, 'ace45327-scrollofshieldmasteryselfiv');
@@ -60098,6 +65402,9 @@ VALUES (45327, 13, True)
      , (45327, 19, True)
      , (45327, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Swift Killer Self V (2885) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2885;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2885, 'scrollswiftkiller5');
 
@@ -60131,6 +65438,9 @@ VALUES (2885, 13, True)
      , (2885, 14, True)
      , (2885, 19, True)
      , (2885, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Mastery Other II (3368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3368;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3368, 'scrolllifemagicmasteryother2');
@@ -60166,6 +65476,9 @@ VALUES (3368, 13, True)
      , (3368, 19, True)
      , (3368, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shock Wave (1641) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1641;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1641, 'scrollshockwave');
 
@@ -60199,6 +65512,9 @@ VALUES (1641, 13, True)
      , (1641, 14, True)
      , (1641, 19, True)
      , (1641, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Resist Magic Other III (3464) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3464;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3464, 'scrollresistmagicother3');
@@ -60234,6 +65550,9 @@ VALUES (3464, 13, True)
      , (3464, 19, True)
      , (3464, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Jumping Ineptitude II (9625) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9625;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9625, 'scrolljumpineptitude2');
 
@@ -60267,6 +65586,9 @@ VALUES (9625, 13, True)
      , (9625, 14, True)
      , (9625, 19, True)
      , (9625, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Self Strength (1558) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1558;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1558, 'scrollstrengthself');
@@ -60302,6 +65624,9 @@ VALUES (1558, 13, True)
      , (1558, 19, True)
      , (1558, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Expertise Self II (3583) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3583;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3583, 'scrollweaponexpertiseself2');
 
@@ -60335,6 +65660,9 @@ VALUES (3583, 13, True)
      , (3583, 14, True)
      , (3583, 19, True)
      , (3583, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Ineptitude Other III (45262) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45262;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45262, 'ace45262-scrollofdualwieldineptitudeotheriii');
@@ -60370,6 +65698,9 @@ VALUES (45262, 13, True)
      , (45262, 19, True)
      , (45262, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Mastery Other (45292) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45292;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45292, 'ace45292-scrollofrecklessnessmasteryother');
 
@@ -60403,6 +65734,9 @@ VALUES (45292, 13, True)
      , (45292, 14, True)
      , (45292, 19, True)
      , (45292, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Person Attunement Self V (3456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3456;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3456, 'scrollpersonattunementself5');
@@ -60438,6 +65772,9 @@ VALUES (3456, 13, True)
      , (3456, 19, True)
      , (3456, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Mastery Self III (3229) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3229;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3229, 'scrolldaggermasteryself3');
 
@@ -60471,6 +65808,9 @@ VALUES (3229, 13, True)
      , (3229, 14, True)
      , (3229, 19, True)
      , (3229, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Feeblemind Other V (2672) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2672;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2672, 'scrollfeeblemind5');
@@ -60506,6 +65846,9 @@ VALUES (2672, 13, True)
      , (2672, 19, True)
      , (2672, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fletching Mastery Self V (5978) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5978;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5978, 'scrollfletchingmasteryself5');
 
@@ -60539,6 +65882,9 @@ VALUES (5978, 13, True)
      , (5978, 14, True)
      , (5978, 19, True)
      , (5978, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lockpick Mastery Other VI (3387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3387;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3387, 'scrolllockpickmasteryother6');
@@ -60574,6 +65920,9 @@ VALUES (3387, 13, True)
      , (3387, 19, True)
      , (3387, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Spirit Drinker Other V (46853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46853;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46853, 'ace46853-auraofspiritdrinkerotherv');
 
@@ -60607,6 +65956,9 @@ VALUES (46853, 13, True)
      , (46853, 14, True)
      , (46853, 19, True)
      , (46853, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shield Mastery Other V (45320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45320;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45320, 'ace45320-scrollofshieldmasteryotherv');
@@ -60642,6 +65994,9 @@ VALUES (45320, 13, True)
      , (45320, 19, True)
      , (45320, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Expertise Other V (3321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3321;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3321, 'scrollitemexpertiseother5');
 
@@ -60675,6 +66030,9 @@ VALUES (3321, 13, True)
      , (3321, 14, True)
      , (3321, 19, True)
      , (3321, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Mastery Other III (45246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45246;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45246, 'ace45246-scrollofdirtyfightingmasteryotheriii');
@@ -60710,6 +66068,9 @@ VALUES (45246, 13, True)
      , (45246, 19, True)
      , (45246, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Ineptitude Other V (45336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45336;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45336, 'ace45336-scrollofsneakattackineptitudeotherv');
 
@@ -60743,6 +66104,9 @@ VALUES (45336, 13, True)
      , (45336, 14, True)
      , (45336, 19, True)
      , (45336, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Mastery Self V (5996) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5996;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5996, 'scrollalchemymasteryself5');
@@ -60778,6 +66142,9 @@ VALUES (5996, 13, True)
      , (5996, 19, True)
      , (5996, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Impregnability Other IV (3285) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3285;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3285, 'scrollimpregnabilityother4');
 
@@ -60811,6 +66178,9 @@ VALUES (3285, 13, True)
      , (3285, 14, True)
      , (3285, 19, True)
      , (3285, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Protection Other III (2974) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2974;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2974, 'scrollacidprotectionother3');
@@ -60846,6 +66216,9 @@ VALUES (2974, 13, True)
      , (2974, 19, True)
      , (2974, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Exhaustion Other V (3081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3081;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3081, 'scrollexhaustion5');
 
@@ -60879,6 +66252,9 @@ VALUES (3081, 13, True)
      , (3081, 14, True)
      , (3081, 19, True)
      , (3081, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sneak Attack Mastery Other V (45344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45344;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45344, 'ace45344-scrollofsneakattackmasteryotherv');
@@ -60914,6 +66290,9 @@ VALUES (45344, 13, True)
      , (45344, 19, True)
      , (45344, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Ineptitude Other IV (3220) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3220;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3220, 'scrolldaggerineptitudeother4');
 
@@ -60947,6 +66326,9 @@ VALUES (3220, 13, True)
      , (3220, 14, True)
      , (3220, 19, True)
      , (3220, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fester Other V (3086) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3086;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3086, 'scrollfester5');
@@ -60982,6 +66364,9 @@ VALUES (3086, 13, True)
      , (3086, 19, True)
      , (3086, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Ineptitude V (43361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43361;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43361, 'ace43361-scrollofvoidmagicineptitudev');
 
@@ -61015,6 +66400,9 @@ VALUES (43361, 13, True)
      , (43361, 14, True)
      , (43361, 19, True)
      , (43361, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Jumping Mastery Other V (3336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3336;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3336, 'scrolljumpmasteryother5');
@@ -61050,6 +66438,9 @@ VALUES (3336, 13, True)
      , (3336, 19, True)
      , (3336, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Willpower Other V (2755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2755;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2755, 'scrollwillpowerother5');
 
@@ -61083,6 +66474,9 @@ VALUES (2755, 13, True)
      , (2755, 14, True)
      , (2755, 19, True)
      , (2755, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Person Unfamiliarity V (3461) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3461;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3461, 'scrollpersonunfamiliarity5');
@@ -61118,6 +66512,9 @@ VALUES (3461, 13, True)
      , (3461, 19, True)
      , (3461, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blood Loather V (2790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2790;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2790, 'scrollbloodloather5');
 
@@ -61151,6 +66548,9 @@ VALUES (2790, 13, True)
      , (2790, 14, True)
      , (2790, 19, True)
      , (2790, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Lure V (2830) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2830;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2830, 'scrollfrostlure5');
@@ -61186,6 +66586,9 @@ VALUES (2830, 13, True)
      , (2830, 19, True)
      , (2830, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Mastery Self V (3231) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3231;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3231, 'scrolldaggermasteryself5');
 
@@ -61219,6 +66622,9 @@ VALUES (3231, 13, True)
      , (3231, 14, True)
      , (3231, 19, True)
      , (3231, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcane Enlightenment V (3136) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3136;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3136, 'scrollarcaneenlightenmentother5');
@@ -61254,6 +66660,9 @@ VALUES (3136, 13, True)
      , (3136, 19, True)
      , (3136, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Spirit Drinker Self V (28006) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28006;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28006, 'scrollspiritdrinker5');
 
@@ -61287,6 +66696,9 @@ VALUES (28006, 13, True)
      , (28006, 14, True)
      , (28006, 19, True)
      , (28006, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shock Arc V (21334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21334;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21334, 'scrollshockarc5');
@@ -61322,6 +66734,9 @@ VALUES (21334, 13, True)
      , (21334, 19, True)
      , (21334, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Renewal Other V (3101) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3101;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3101, 'scrollmanarenewalother5');
 
@@ -61355,6 +66770,9 @@ VALUES (3101, 13, True)
      , (3101, 14, True)
      , (3101, 19, True)
      , (3101, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Blood Drinker Other V (46849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46849;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46849, 'ace46849-auraofblooddrinkerotherv');
@@ -61390,6 +66808,9 @@ VALUES (46849, 13, True)
      , (46849, 19, True)
      , (46849, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Ineptitude Other V (5984) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5984;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5984, 'scrollalchemyineptitude5');
 
@@ -61423,6 +66844,9 @@ VALUES (5984, 13, True)
      , (5984, 14, True)
      , (5984, 19, True)
      , (5984, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Arcanum Enlightenment V (28944) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28944;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28944, 'scrollarcanumsalvagingother5');
@@ -61458,6 +66882,9 @@ VALUES (28944, 13, True)
      , (28944, 19, True)
      , (28944, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Depletion Other V (3096) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3096;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3096, 'scrollmanadepletion5');
 
@@ -61491,6 +66918,9 @@ VALUES (3096, 13, True)
      , (3096, 14, True)
      , (3096, 19, True)
      , (3096, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Ineptitude Other V (45288) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45288;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45288, 'ace45288-scrollofrecklessnessineptitudeotherv');
@@ -61526,6 +66956,9 @@ VALUES (45288, 13, True)
      , (45288, 19, True)
      , (45288, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of 'Infested Area' Recall (36377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36377;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36377, 'ace36377-scrollofinfestedarearecall');
 
@@ -61559,6 +66992,9 @@ VALUES (36377, 13, True)
      , (36377, 14, True)
      , (36377, 19, True)
      , (36377, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Mastery Other V (45272) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45272;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45272, 'ace45272-scrollofdualwieldmasteryotherv');
@@ -61594,6 +67030,9 @@ VALUES (45272, 13, True)
      , (45272, 19, True)
      , (45272, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Other VII (20582) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20582;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20582, 'scrollstaffmasteryother7');
 
@@ -61627,6 +67066,9 @@ VALUES (20582, 13, True)
      , (20582, 14, True)
      , (20582, 19, True)
      , (20582, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Mastery Other (1673) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1673;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1673, 'scrolldaggermasteryother');
@@ -61662,6 +67104,9 @@ VALUES (1673, 13, True)
      , (1673, 19, True)
      , (1673, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Corruption II (43287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43287;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43287, 'ace43287-scrollofcorruptionii');
 
@@ -61695,6 +67140,9 @@ VALUES (43287, 13, True)
      , (43287, 14, True)
      , (43287, 19, True)
      , (43287, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weakness Other III (2748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2748;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2748, 'scrollweaknessother3');
@@ -61730,6 +67178,9 @@ VALUES (2748, 13, True)
      , (2748, 19, True)
      , (2748, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fealty Other (1698) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1698;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1698, 'scrollfealtyother');
 
@@ -61763,6 +67214,9 @@ VALUES (1698, 13, True)
      , (1698, 14, True)
      , (1698, 19, True)
      , (1698, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Other II (3178) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3178;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3178, 'scrollbowmasteryother2');
@@ -61798,6 +67252,9 @@ VALUES (3178, 13, True)
      , (3178, 19, True)
      , (3178, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Destructive Curse (43320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43320;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43320, 'ace43320-scrollofdestructivecurse');
 
@@ -61831,6 +67288,9 @@ VALUES (43320, 13, True)
      , (43320, 14, True)
      , (43320, 19, True)
      , (43320, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Ineptitude Other III (5982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5982;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5982, 'scrollalchemyineptitude3');
@@ -61866,6 +67326,9 @@ VALUES (5982, 13, True)
      , (5982, 19, True)
      , (5982, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Arc III (21325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21325;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21325, 'scrolllightningarc3');
 
@@ -61899,6 +67362,9 @@ VALUES (21325, 13, True)
      , (21325, 14, True)
      , (21325, 19, True)
      , (21325, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Mastery Other V (5990) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5990;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5990, 'scrollalchemymasteryother5');
@@ -61934,6 +67400,9 @@ VALUES (5990, 13, True)
      , (5990, 19, True)
      , (5990, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapons Ineptitude IV (41291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41291;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41291, 'ace41291-scrolloftwohandedweaponsineptitudeiv');
 
@@ -61967,6 +67436,9 @@ VALUES (41291, 13, True)
      , (41291, 14, True)
      , (41291, 19, True)
      , (41291, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Bolt IV (2957) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2957;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2957, 'scrolllightningbolt4');
@@ -62002,6 +67474,9 @@ VALUES (2957, 13, True)
      , (2957, 19, True)
      , (2957, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Blood Drinker Other IV (46867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46867;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46867, 'ace46867-auraofblooddrinkerotheriv');
 
@@ -62035,6 +67510,9 @@ VALUES (46867, 13, True)
      , (46867, 14, True)
      , (46867, 19, True)
      , (46867, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Deception Mastery Self II (3243) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3243;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3243, 'scrolldeceptionmasteryself2');
@@ -62070,6 +67548,9 @@ VALUES (3243, 13, True)
      , (3243, 19, True)
      , (3243, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other II (3158) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3158;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3158, 'scrollaxeineptitudeother2');
 
@@ -62103,6 +67584,9 @@ VALUES (3158, 13, True)
      , (3158, 14, True)
      , (3158, 19, True)
      , (3158, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fealty Self (1699) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1699;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1699, 'scrollfealtyself');
@@ -62138,6 +67622,9 @@ VALUES (1699, 13, True)
      , (1699, 19, True)
      , (1699, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Endurance Self II (2659) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2659;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2659, 'scrollenduranceself2');
 
@@ -62171,6 +67658,9 @@ VALUES (2659, 13, True)
      , (2659, 14, True)
      , (2659, 19, True)
      , (2659, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Expertise Self II (3148) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3148;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3148, 'scrollarmorexpertiseself2');
@@ -62206,6 +67696,9 @@ VALUES (3148, 13, True)
      , (3148, 19, True)
      , (3148, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dual Wield Mastery Self (45276) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45276;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45276, 'ace45276-scrollofdualwieldmasteryself');
 
@@ -62239,6 +67732,9 @@ VALUES (45276, 13, True)
      , (45276, 14, True)
      , (45276, 19, True)
      , (45276, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Strengthen Lock II (2877) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2877;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2877, 'scrollstrengthenlock2');
@@ -62274,6 +67770,9 @@ VALUES (2877, 13, True)
      , (2877, 19, True)
      , (2877, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fletching Mastery Other (5968) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5968;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5968, 'scrollfletchingmasteryother');
 
@@ -62307,6 +67806,9 @@ VALUES (5968, 13, True)
      , (5968, 14, True)
      , (5968, 19, True)
      , (5968, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Other II (3163) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3163;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3163, 'scrollaxemasteryother2');
@@ -62342,6 +67844,9 @@ VALUES (3163, 13, True)
      , (3163, 19, True)
      , (3163, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Streak II (8936) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8936;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8936, 'scrollfroststreak2');
 
@@ -62375,6 +67880,9 @@ VALUES (8936, 13, True)
      , (8936, 14, True)
      , (8936, 19, True)
      , (8936, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Lure III (2818) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2818;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2818, 'scrollflamelure3');
@@ -62410,6 +67918,9 @@ VALUES (2818, 13, True)
      , (2818, 19, True)
      , (2818, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana to Health (1868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1868;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1868, 'scrollmanatohealthself');
 
@@ -62443,6 +67954,9 @@ VALUES (1868, 13, True)
      , (1868, 14, True)
      , (1868, 19, True)
      , (1868, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Summoning Mastery Self (49454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49454;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49454, 'ace49454-scrollofsummoningmasteryself');
@@ -62478,6 +67992,9 @@ VALUES (49454, 13, True)
      , (49454, 19, True)
      , (49454, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bafflement Other II (2634) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2634;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2634, 'scrollbafflement2');
 
@@ -62511,6 +68028,9 @@ VALUES (2634, 13, True)
      , (2634, 14, True)
      , (2634, 19, True)
      , (2634, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Bane (1552) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1552;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1552, 'scrollbladebane');
@@ -62546,6 +68066,9 @@ VALUES (1552, 13, True)
      , (1552, 19, True)
      , (1552, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Impregnability Self II (3288) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3288;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3288, 'scrollimpregnabilityself2');
 
@@ -62579,6 +68102,9 @@ VALUES (3288, 13, True)
      , (3288, 14, True)
      , (3288, 19, True)
      , (3288, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Lure II (2777) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2777;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2777, 'scrollbladelure2');
@@ -62614,6 +68140,9 @@ VALUES (2777, 13, True)
      , (2777, 19, True)
      , (2777, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Person Unfamiliarity II (3458) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3458;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3458, 'scrollpersonunfamiliarity2');
 
@@ -62647,6 +68176,9 @@ VALUES (3458, 13, True)
      , (3458, 14, True)
      , (3458, 19, True)
      , (3458, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Armor Other II (4385) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4385;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4385, 'scrollarmorother2');
@@ -62682,6 +68214,9 @@ VALUES (4385, 13, True)
      , (4385, 19, True)
      , (4385, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Streak (8929) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8929;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8929, 'scrollforcestreak');
 
@@ -62715,6 +68250,9 @@ VALUES (8929, 13, True)
      , (8929, 14, True)
      , (8929, 19, True)
      , (8929, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Protection Self II (2978) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2978;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2978, 'scrollacidprotectionself2');
@@ -62750,6 +68288,9 @@ VALUES (2978, 13, True)
      , (2978, 19, True)
      , (2978, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Corruption (43294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43294;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43294, 'ace43294-scrollofcorruption');
 
@@ -62783,6 +68324,9 @@ VALUES (43294, 13, True)
      , (43294, 14, True)
      , (43294, 19, True)
      , (43294, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Recklessness Ineptitude Other (45284) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45284;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45284, 'ace45284-scrollofrecklessnessineptitudeother');
@@ -62818,6 +68362,9 @@ VALUES (45284, 13, True)
      , (45284, 19, True)
      , (45284, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Expertise Other II (3578) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3578;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3578, 'scrollweaponexpertiseother2');
 
@@ -62851,6 +68398,9 @@ VALUES (3578, 13, True)
      , (3578, 14, True)
      , (3578, 19, True)
      , (3578, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Clumsiness Other (1768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1768;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1768, 'scrollclumsiness');
@@ -62886,6 +68436,9 @@ VALUES (1768, 13, True)
      , (1768, 19, True)
      , (1768, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Leadership Mastery Other (1714) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1714;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1714, 'scrollleadershipmasteryother');
 
@@ -62919,6 +68472,9 @@ VALUES (1714, 13, True)
      , (1714, 14, True)
      , (1714, 19, True)
      , (1714, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Evaporate Item Magic (20354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20354;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20354, 'scrolldispelitemneutralother');
@@ -62954,6 +68510,9 @@ VALUES (20354, 13, True)
      , (20354, 19, True)
      , (20354, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Mastery Other III (3194) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3194;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3194, 'scrollcreatureenchantmentother3');
 
@@ -62987,6 +68546,9 @@ VALUES (3194, 13, True)
      , (3194, 14, True)
      , (3194, 19, True)
      , (3194, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Protection Self (1839) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1839;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1839, 'scrollacidprotectionself');
@@ -63022,6 +68584,9 @@ VALUES (1839, 13, True)
      , (1839, 19, True)
      , (1839, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Ignorance (1684) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1684;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1684, 'scrollarmorignorance');
 
@@ -63055,6 +68620,9 @@ VALUES (1684, 13, True)
      , (1684, 14, True)
      , (1684, 19, True)
      , (1684, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Armor Self II (4390) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4390;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4390, 'scrollarmorself2');
@@ -63090,6 +68658,9 @@ VALUES (4390, 13, True)
      , (4390, 19, True)
      , (4390, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Armor Tinkering Expertise Self IV (3150) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3150;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3150, 'scrollarmorexpertiseself4');
 
@@ -63123,6 +68694,9 @@ VALUES (3150, 13, True)
      , (3150, 14, True)
      , (3150, 19, True)
      , (3150, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Lure (1884) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1884;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1884, 'scrollfrostlure');
@@ -63158,6 +68732,9 @@ VALUES (1884, 13, True)
      , (1884, 19, True)
      , (1884, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fletching Ineptitude Other (5962) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5962;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5962, 'scrollfletchingineptitude');
 
@@ -63191,6 +68768,9 @@ VALUES (5962, 13, True)
      , (5962, 14, True)
      , (5962, 19, True)
      , (5962, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Monster Unfamiliarity (1729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1729;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1729, 'scrollmonsterunfamiliarity');
@@ -63226,6 +68806,9 @@ VALUES (1729, 13, True)
      , (1729, 19, True)
      , (1729, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Ineptitude (1703) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1703;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1703, 'scrollitemenchantmentineptitude');
 
@@ -63259,6 +68842,9 @@ VALUES (1703, 13, True)
      , (1703, 14, True)
      , (1703, 19, True)
      , (1703, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nether Streak (43318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43318;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43318, 'ace43318-scrollofnetherstreak');
@@ -63294,6 +68880,9 @@ VALUES (43318, 13, True)
      , (43318, 19, True)
      , (43318, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Infuse Stamina (1866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1866;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1866, 'scrollinfusestamina');
 
@@ -63327,6 +68916,9 @@ VALUES (1866, 13, True)
      , (1866, 14, True)
      , (1866, 19, True)
      , (1866, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Lure (1876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1876;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1876, 'scrollacidlure');
@@ -63362,6 +68954,9 @@ VALUES (1876, 13, True)
      , (1876, 19, True)
      , (1876, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Heavy Weapon Mastery Self (1743) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1743;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1743, 'scrollswordmasteryself');
 
@@ -63395,6 +68990,9 @@ VALUES (1743, 13, True)
      , (1743, 14, True)
      , (1743, 19, True)
      , (1743, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Armor Self (1550) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1550;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1550, 'scrollarmorself');
@@ -63430,6 +69028,9 @@ VALUES (1550, 13, True)
      , (1550, 19, True)
      , (1550, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeon Protection Other V (3006) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3006;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3006, 'scrollbludgeonprotectionother5');
 
@@ -63463,6 +69064,9 @@ VALUES (3006, 13, True)
      , (3006, 14, True)
      , (3006, 19, True)
      , (3006, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Summoning Mastery Self III (49472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49472;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49472, 'ace49472-scrollofsummoningmasteryselfiii');
@@ -63498,6 +69102,9 @@ VALUES (49472, 13, True)
      , (49472, 19, True)
      , (49472, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Drain Mana (9660) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9660;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9660, 'scrolldrainmana');
 
@@ -63531,6 +69138,9 @@ VALUES (9660, 13, True)
      , (9660, 14, True)
      , (9660, 19, True)
      , (9660, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Stream (1638) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1638;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1638, 'scrollacidstream');
@@ -63566,6 +69176,9 @@ VALUES (1638, 13, True)
      , (1638, 19, True)
      , (1638, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcanum Salvaging II (28934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28934;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28934, 'scrollarcanumsalvaging2');
 
@@ -63599,6 +69212,9 @@ VALUES (28934, 13, True)
      , (28934, 14, True)
      , (28934, 19, True)
      , (28934, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Protection Other III (3049) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3049;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3049, 'scrolllightningprotectionother3');
@@ -63634,6 +69250,9 @@ VALUES (3049, 13, True)
      , (3049, 19, True)
      , (3049, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Person Attunement Self (1731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1731;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1731, 'scrollpersonattunementself');
 
@@ -63667,6 +69286,9 @@ VALUES (1731, 13, True)
      , (1731, 14, True)
      , (1731, 19, True)
      , (1731, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cold Protection Other (1847) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1847;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1847, 'scrollcoldprotectionother');
@@ -63702,6 +69324,9 @@ VALUES (1847, 13, True)
      , (1847, 19, True)
      , (1847, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Expertise Self III (3324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3324;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3324, 'scrollitemexpertiseself3');
 
@@ -63735,6 +69360,9 @@ VALUES (3324, 13, True)
      , (3324, 14, True)
      , (3324, 19, True)
      , (3324, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Slowness Other (1786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1786;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1786, 'scrollslowness');
@@ -63770,6 +69398,9 @@ VALUES (1786, 13, True)
      , (1786, 19, True)
      , (1786, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Arc V (21320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21320;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21320, 'scrollfrostarc5');
 
@@ -63803,6 +69434,9 @@ VALUES (21320, 13, True)
      , (21320, 14, True)
      , (21320, 19, True)
      , (21320, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Imperil Other (1778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1778;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1778, 'scrollimperil');
@@ -63838,6 +69472,9 @@ VALUES (1778, 13, True)
      , (1778, 19, True)
      , (1778, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shield Mastery Other (45316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45316;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45316, 'ace45316-scrollofshieldmasteryother');
 
@@ -63871,6 +69508,9 @@ VALUES (45316, 13, True)
      , (45316, 14, True)
      , (45316, 19, True)
      , (45316, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Deception Ineptitude (1694) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1694;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1694, 'scrolldeceptionineptitude');
@@ -63906,6 +69546,9 @@ VALUES (1694, 13, True)
      , (1694, 19, True)
      , (1694, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Expertise Self (1754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1754;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1754, 'scrollweaponexpertiseself');
 
@@ -63939,6 +69582,9 @@ VALUES (1754, 13, True)
      , (1754, 14, True)
      , (1754, 19, True)
      , (1754, 22, True);
+
+/* Weenie - WriteablesScrolls - Aura of Blood Drinker Other II (46873) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46873;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46873, 'ace46873-auraofblooddrinkerotherii');
@@ -63974,6 +69620,9 @@ VALUES (46873, 13, True)
      , (46873, 19, True)
      , (46873, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Armor Tinkering Ignorance Other (37645) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37645;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37645, 'ace37645-inscriptionofarmortinkeringignoranceother');
 
@@ -64007,6 +69656,9 @@ VALUES (37645, 13, True)
      , (37645, 14, True)
      , (37645, 19, True)
      , (37645, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Spectral Flame (36453) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36453;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36453, 'ace36453-scrollofspectralflame');
@@ -64043,6 +69695,9 @@ VALUES (36453, 13, True)
      , (36453, 19, True)
      , (36453, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Colosseum Recall (36537) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36537;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36537, 'ace36537-scrollofcolosseumrecall');
 
@@ -64076,6 +69731,9 @@ VALUES (36537, 13, True)
      , (36537, 14, True)
      , (36537, 19, True)
      , (36537, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Thousand Fists (20438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20438;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20438, 'scrollbludgeoningvolley7');
@@ -64111,6 +69769,9 @@ VALUES (20438, 13, True)
      , (20438, 19, True)
      , (20438, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Arcane Benightedness (1679) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1679;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1679, 'scrollarcanebenightedness');
 
@@ -64144,6 +69805,9 @@ VALUES (1679, 13, True)
      , (1679, 14, True)
      , (1679, 19, True)
      , (1679, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Invulnerability Other (1584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1584;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1584, 'scrollinvulnerabilityother');
@@ -64179,6 +69843,9 @@ VALUES (1584, 13, True)
      , (1584, 19, True)
      , (1584, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other II (3473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3473;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3473, 'scrollspearineptitude2');
 
@@ -64212,6 +69879,9 @@ VALUES (3473, 13, True)
      , (3473, 14, True)
      , (3473, 19, True)
      , (3473, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Other II (3208) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3208;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3208, 'scrollcrossbowmasteryother2');
@@ -64247,6 +69917,9 @@ VALUES (3208, 13, True)
      , (3208, 19, True)
      , (3208, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self II (3508) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3508;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3508, 'scrollstaffmasteryself2');
 
@@ -64280,6 +69953,9 @@ VALUES (3508, 13, True)
      , (3508, 14, True)
      , (3508, 19, True)
      , (3508, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Expertise Other III (3409) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3409;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3409, 'scrollmagicitemexpertiseother3');
@@ -64315,6 +69991,9 @@ VALUES (3409, 13, True)
      , (3409, 19, True)
      , (3409, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Arc I (21323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21323;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21323, 'scrolllightningarc');
 
@@ -64348,6 +70027,9 @@ VALUES (21323, 13, True)
      , (21323, 14, True)
      , (21323, 19, True)
      , (21323, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Weakness Other (1559) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1559;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1559, 'scrollweaknessother');
@@ -64383,6 +70065,9 @@ VALUES (1559, 13, True)
      , (1559, 19, True)
      , (1559, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Strength Other V (2740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2740;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2740, 'scrollstrengthother5');
 
@@ -64416,6 +70101,9 @@ VALUES (2740, 13, True)
      , (2740, 14, True)
      , (2740, 19, True)
      , (2740, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Sau Kolin's Sword (20435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20435;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20435, 'scrollbladeblast7');
@@ -64451,6 +70139,9 @@ VALUES (20435, 13, True)
      , (20435, 19, True)
      , (20435, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other II (3393) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3393;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3393, 'scrollmaceineptitudeother2');
 
@@ -64484,6 +70175,9 @@ VALUES (3393, 13, True)
      , (3393, 14, True)
      , (3393, 19, True)
      , (3393, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Other VII (20559) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20559;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20559, 'scrollmacemasteryother7');
@@ -64519,6 +70213,9 @@ VALUES (20559, 13, True)
      , (20559, 19, True)
      , (20559, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self II (3553) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3553;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3553, 'scrollunarmedmasteryself2');
 
@@ -64552,6 +70249,9 @@ VALUES (3553, 13, True)
      , (3553, 14, True)
      , (3553, 19, True)
      , (3553, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Self VI (3217) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3217;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3217, 'scrollcrossbowmasteryself6');
@@ -64587,6 +70287,9 @@ VALUES (3217, 13, True)
      , (3217, 19, True)
      , (3217, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Ineptitude Other VI (3397) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3397;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3397, 'scrollmaceineptitudeother6');
 
@@ -64620,6 +70323,9 @@ VALUES (3397, 13, True)
      , (3397, 14, True)
      , (3397, 19, True)
      , (3397, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Other VI (3507) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3507;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3507, 'scrollstaffmasteryother6');
@@ -64655,6 +70361,9 @@ VALUES (3507, 13, True)
      , (3507, 19, True)
      , (3507, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Defenselessness II (3248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3248;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3248, 'scrolldefenselessnessother2');
 
@@ -64688,6 +70397,9 @@ VALUES (3248, 13, True)
      , (3248, 14, True)
      , (3248, 19, True)
      , (3248, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Leadership Mastery Self II (3358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3358;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3358, 'scrollleadershipmasteryself2');
@@ -64723,6 +70435,9 @@ VALUES (3358, 13, True)
      , (3358, 19, True)
      , (3358, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Magic Yield Other (3725) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3725;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3725, 'scrollmagicyieldother');
 
@@ -64756,6 +70471,9 @@ VALUES (3725, 13, True)
      , (3725, 14, True)
      , (3725, 19, True)
      , (3725, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Piercing Lure II (2872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2872;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2872, 'scrollpiercinglure2');
@@ -64791,6 +70509,9 @@ VALUES (2872, 13, True)
      , (2872, 19, True)
      , (2872, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self VI (3487) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3487;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3487, 'scrollspearmasteryself6');
 
@@ -64824,6 +70545,9 @@ VALUES (3487, 13, True)
      , (3487, 14, True)
      , (3487, 19, True)
      , (3487, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Missile Weapon Mastery Other VI (3537) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3537;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3537, 'scrollthrownmasteryother6');
@@ -64859,6 +70583,9 @@ VALUES (3537, 13, True)
      , (3537, 19, True)
      , (3537, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self VI (3512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3512;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3512, 'scrollstaffmasteryself6');
 
@@ -64892,6 +70619,9 @@ VALUES (3512, 13, True)
      , (3512, 14, True)
      , (3512, 19, True)
      , (3512, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Life Magic Mastery Other III (3369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3369;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3369, 'scrolllifemagicmasteryother3');
@@ -64927,6 +70657,9 @@ VALUES (3369, 13, True)
      , (3369, 19, True)
      , (3369, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Protection Self (1851) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1851;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1851, 'scrolllightningprotectionself');
 
@@ -64960,6 +70693,9 @@ VALUES (1851, 13, True)
      , (1851, 14, True)
      , (1851, 19, True)
      , (1851, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shock Wave Streak (8947) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8947;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8947, 'scrollshockwavestreak');
@@ -64995,6 +70731,9 @@ VALUES (8947, 13, True)
      , (8947, 19, True)
      , (8947, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Mastery Other II (3223) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3223;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3223, 'scrolldaggermasteryother2');
 
@@ -65028,6 +70767,9 @@ VALUES (3223, 13, True)
      , (3223, 14, True)
      , (3223, 19, True)
      , (3223, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Regenerate Other (1657) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1657;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1657, 'scrollregenerateother');
@@ -65063,6 +70805,9 @@ VALUES (1657, 13, True)
      , (1657, 19, True)
      , (1657, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lost City of Neftet Recall (44312) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44312;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44312, 'ace44312-scrolloflostcityofneftetrecall');
 
@@ -65096,6 +70841,9 @@ VALUES (44312, 13, True)
      , (44312, 14, True)
      , (44312, 19, True)
      , (44312, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Ancient Graveyard Recall (35981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35981;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35981, 'ace35981-scrollofancientgraveyardrecall');
@@ -65131,6 +70879,9 @@ VALUES (35981, 13, True)
      , (35981, 19, True)
      , (35981, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fire Protection Other (1576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1576;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1576, 'scrollfireprotectionother');
 
@@ -65164,6 +70915,9 @@ VALUES (1576, 13, True)
      , (1576, 14, True)
      , (1576, 19, True)
      , (1576, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Protection Self (1842) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1842;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1842, 'scrollbladeprotectionself');
@@ -65199,6 +70953,9 @@ VALUES (1842, 13, True)
      , (1842, 19, True)
      , (1842, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Luminous Wrath (20454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20454;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20454, 'scrolllightningblast7');
 
@@ -65232,6 +70989,9 @@ VALUES (20454, 13, True)
      , (20454, 14, True)
      , (20454, 19, True)
      , (20454, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Infernae (20443) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20443;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20443, 'scrollflamevolley7');
@@ -65267,6 +71027,9 @@ VALUES (20443, 13, True)
      , (20443, 19, True)
      , (20443, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Enfeeble Other (1773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1773;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1773, 'scrollenfeeble');
 
@@ -65300,6 +71063,9 @@ VALUES (1773, 13, True)
      , (1773, 14, True)
      , (1773, 19, True)
      , (1773, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Tinkering Ignorance (1708) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1708;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1708, 'scrollitemignorance');
@@ -65335,6 +71101,9 @@ VALUES (1708, 13, True)
      , (1708, 19, True)
      , (1708, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Streak (8920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8920;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8920, 'scrollflamestreak');
 
@@ -65368,6 +71137,9 @@ VALUES (8920, 13, True)
      , (8920, 14, True)
      , (8920, 19, True)
      , (8920, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Regeneration Self (38759) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38759;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38759, 'ace38759-inscriptionofregenerationself');
@@ -65403,6 +71175,9 @@ VALUES (38759, 13, True)
      , (38759, 19, True)
      , (38759, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Stamina to Health Self V (9653) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9653;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9653, 'scrollstaminatohealthself5');
 
@@ -65436,6 +71211,9 @@ VALUES (9653, 13, True)
      , (9653, 14, True)
      , (9653, 19, True)
      , (9653, 22, True);
+
+/* Weenie - WriteablesScrolls - Inscription of Leadership Ineptitude Other (37845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37845;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37845, 'ace37845-inscriptionofleadershipineptitudeother');
@@ -65471,6 +71249,9 @@ VALUES (37845, 13, True)
      , (37845, 19, True)
      , (37845, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Self Strength II (2742) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2742;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2742, 'scrollstrengthself2');
 
@@ -65504,6 +71285,9 @@ VALUES (2742, 13, True)
      , (2742, 14, True)
      , (2742, 19, True)
      , (2742, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Blast III (5493) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5493;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5493, 'scrollacidblast3');
@@ -65539,6 +71323,9 @@ VALUES (5493, 13, True)
      , (5493, 19, True)
      , (5493, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Blast III (2132) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2132;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2132, 'scrollbladeblast3');
 
@@ -65572,6 +71359,9 @@ VALUES (2132, 13, True)
      , (2132, 14, True)
      , (2132, 19, True)
      , (2132, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Blast III (5492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5492;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5492, 'scrollflameblast3');
@@ -65607,6 +71397,9 @@ VALUES (5492, 13, True)
      , (5492, 19, True)
      , (5492, 22, True);
 
+/* Weenie - WriteablesScrolls - Inscription of Item Enchantment Mastery Self (37833) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37833;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37833, 'ace37833-inscriptionofitemenchantmentmasteryself');
 
@@ -65640,6 +71433,9 @@ VALUES (37833, 13, True)
      , (37833, 14, True)
      , (37833, 19, True)
      , (37833, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nether Arc (43302) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43302;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43302, 'ace43302-scrollofnetherarc');
@@ -65675,6 +71471,9 @@ VALUES (43302, 13, True)
      , (43302, 19, True)
      , (43302, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Weapon Tinkering Expertise Other (1753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1753;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1753, 'scrollweaponexpertiseother');
 
@@ -65708,6 +71507,9 @@ VALUES (1753, 13, True)
      , (1753, 14, True)
      , (1753, 19, True)
      , (1753, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Ineptitude (43355) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43355;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43355, 'ace43355-scrollofvoidmagicineptitude');
@@ -65743,6 +71545,9 @@ VALUES (43355, 13, True)
      , (43355, 19, True)
      , (43355, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Defender Other (46844) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46844;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46844, 'ace46844-auraofdefenderother');
 
@@ -65776,6 +71581,9 @@ VALUES (46844, 13, True)
      , (46844, 14, True)
      , (46844, 19, True)
      , (46844, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of War Magic Ineptitude V (3566) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3566;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3566, 'scrollwarmagicineptitude5');
@@ -65811,6 +71619,9 @@ VALUES (3566, 13, True)
      , (3566, 19, True)
      , (3566, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Fire Protection Other V (3036) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3036;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3036, 'scrollfireprotectionother5');
 
@@ -65844,6 +71655,9 @@ VALUES (3036, 13, True)
      , (3036, 14, True)
      , (3036, 19, True)
      , (3036, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Two Handed Weapon Mastery Other III (41298) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41298;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41298, 'ace41298-scrolloftwohandedweaponmasteryotheriii');
@@ -65879,6 +71693,9 @@ VALUES (41298, 13, True)
      , (41298, 19, True)
      , (41298, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Impregnability Other (1663) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1663;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1663, 'scrollimpregnabilityother');
 
@@ -65912,6 +71729,9 @@ VALUES (1663, 13, True)
      , (1663, 14, True)
      , (1663, 19, True)
      , (1663, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Drain Stamina Other V (3729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3729;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3729, 'scrolldrainstamina5');
@@ -65947,6 +71767,9 @@ VALUES (3729, 13, True)
      , (3729, 19, True)
      , (3729, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Slowness Other IV (2734) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2734;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2734, 'scrollslowness4');
 
@@ -65980,6 +71803,9 @@ VALUES (2734, 13, True)
      , (2734, 14, True)
      , (2734, 19, True)
      , (2734, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Martyr's Hecatomb I (21095) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21095;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21095, 'scrollhealthbolt');
@@ -66015,6 +71841,9 @@ VALUES (21095, 13, True)
      , (21095, 19, True)
      , (21095, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Summoning Ineptitude Other (49452) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49452;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49452, 'ace49452-scrollofsummoningineptitudeother');
 
@@ -66048,6 +71877,9 @@ VALUES (49452, 13, True)
      , (49452, 14, True)
      , (49452, 19, True)
      , (49452, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of War Magic Mastery Other (1751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1751;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1751, 'scrollwarmagicmasteryother');
@@ -66083,6 +71915,9 @@ VALUES (1751, 13, True)
      , (1751, 19, True)
      , (1751, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Extinguish Creature Magic Self (20325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20325;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20325, 'scrolldispelcreatureneutralself2');
 
@@ -66116,6 +71951,9 @@ VALUES (20325, 13, True)
      , (20325, 14, True)
      , (20325, 19, True)
      , (20325, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Summoning Mastery Other (49453) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49453;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49453, 'ace49453-scrollofsummoningmasteryother');
@@ -66151,6 +71989,9 @@ VALUES (49453, 13, True)
      , (49453, 19, True)
      , (49453, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Light Weapon Mastery Self VI (3557) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3557;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3557, 'scrollunarmedmasteryself6');
 
@@ -66184,6 +72025,9 @@ VALUES (3557, 13, True)
      , (3557, 14, True)
      , (3557, 19, True)
      , (3557, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Heal Other V (2695) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2695;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2695, 'scrollhealother5');
@@ -66219,6 +72063,9 @@ VALUES (2695, 13, True)
      , (2695, 19, True)
      , (2695, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shock Blast IV (2960) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2960;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2960, 'scrollshockblast4');
 
@@ -66252,6 +72099,9 @@ VALUES (2960, 13, True)
      , (2960, 14, True)
      , (2960, 19, True)
      , (2960, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Mastery Self (1705) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1705;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1705, 'scrollitemenchantmentmasteryself');
@@ -66287,6 +72137,9 @@ VALUES (1705, 13, True)
      , (1705, 19, True)
      , (1705, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Creature Enchantment Mastery Self (1690) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1690;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1690, 'scrollcreatureenchantmentself');
 
@@ -66320,6 +72173,9 @@ VALUES (1690, 13, True)
      , (1690, 14, True)
      , (1690, 19, True)
      , (1690, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nether Bolt (43310) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43310;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43310, 'ace43310-scrollofnetherbolt');
@@ -66355,6 +72211,9 @@ VALUES (43310, 13, True)
      , (43310, 19, True)
      , (43310, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Faithlessness (1697) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1697;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1697, 'scrollfaithlessness');
 
@@ -66388,6 +72247,9 @@ VALUES (1697, 13, True)
      , (1697, 14, True)
      , (1697, 19, True)
      , (1697, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Blast IV (5494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5494;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5494, 'scrollacidblast4');
@@ -66423,6 +72285,9 @@ VALUES (5494, 13, True)
      , (5494, 19, True)
      , (5494, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Volley IV (2913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2913;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2913, 'scrollacidvolley4');
 
@@ -66456,6 +72321,9 @@ VALUES (2913, 13, True)
      , (2913, 14, True)
      , (2913, 19, True)
      , (2913, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Blast IV (2916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2916;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2916, 'scrollbladeblast4');
@@ -66491,6 +72359,9 @@ VALUES (2916, 13, True)
      , (2916, 19, True)
      , (2916, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Volley IV (2919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2919;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2919, 'scrollbladevolley4');
 
@@ -66524,6 +72395,9 @@ VALUES (2919, 13, True)
      , (2919, 14, True)
      , (2919, 19, True)
      , (2919, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bludgeoning Volley IV (2922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2922;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2922, 'scrollbludgeoningvolley4');
@@ -66559,6 +72433,9 @@ VALUES (2922, 13, True)
      , (2922, 19, True)
      , (2922, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Blast IV (2925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2925;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2925, 'scrollflameblast4');
 
@@ -66592,6 +72469,9 @@ VALUES (2925, 13, True)
      , (2925, 14, True)
      , (2925, 19, True)
      , (2925, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Volley IV (2928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2928;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2928, 'scrollflamevolley4');
@@ -66627,6 +72507,9 @@ VALUES (2928, 13, True)
      , (2928, 19, True)
      , (2928, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Blast IV (8926) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8926;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8926, 'scrollforceblast4');
 
@@ -66660,6 +72543,9 @@ VALUES (8926, 13, True)
      , (8926, 14, True)
      , (8926, 19, True)
      , (8926, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Force Volley IV (2935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2935;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2935, 'scrollforcevolley4');
@@ -66695,6 +72581,9 @@ VALUES (2935, 13, True)
      , (2935, 19, True)
      , (2935, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Blast IV (2938) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2938;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2938, 'scrollfrostblast4');
 
@@ -66728,6 +72617,9 @@ VALUES (2938, 13, True)
      , (2938, 14, True)
      , (2938, 19, True)
      , (2938, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Volley IV (2946) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2946;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2946, 'scrollfrostvolley4');
@@ -66763,6 +72655,9 @@ VALUES (2946, 13, True)
      , (2946, 19, True)
      , (2946, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Blast IV (2952) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2952;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2952, 'scrolllightningblast4');
 
@@ -66796,6 +72691,9 @@ VALUES (2952, 13, True)
      , (2952, 14, True)
      , (2952, 19, True)
      , (2952, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Volley IV (9012) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9012;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9012, 'scrolllightningvolley4');
@@ -66831,6 +72729,9 @@ VALUES (9012, 13, True)
      , (9012, 19, True)
      , (9012, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Leaden Feet IV (3345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3345;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3345, 'scrollleadenfeet4');
 
@@ -66864,6 +72765,9 @@ VALUES (3345, 13, True)
      , (3345, 14, True)
      , (3345, 19, True)
      , (3345, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Blast VI (5496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5496;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5496, 'scrollacidblast6');
@@ -66899,6 +72803,9 @@ VALUES (5496, 13, True)
      , (5496, 19, True)
      , (5496, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Volley VI (2915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2915;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2915, 'scrollacidvolley6');
 
@@ -66932,6 +72839,9 @@ VALUES (2915, 13, True)
      , (2915, 14, True)
      , (2915, 19, True)
      , (2915, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Blast VI (2918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2918;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2918, 'scrollbladeblast6');
@@ -66967,6 +72877,9 @@ VALUES (2918, 13, True)
      , (2918, 19, True)
      , (2918, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Volley VI (2921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2921;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2921, 'scrollbladevolley6');
 
@@ -67000,6 +72913,9 @@ VALUES (2921, 13, True)
      , (2921, 14, True)
      , (2921, 19, True)
      , (2921, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Bludgeoning Volley VI (2924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2924;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2924, 'scrollbludgeoningvolley6');
@@ -67035,6 +72951,9 @@ VALUES (2924, 13, True)
      , (2924, 19, True)
      , (2924, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Blast VI (2927) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2927;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2927, 'scrollflameblast6');
 
@@ -67068,6 +72987,9 @@ VALUES (2927, 13, True)
      , (2927, 14, True)
      , (2927, 19, True)
      , (2927, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Volley VI (2930) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2930;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2930, 'scrollflamevolley6');
@@ -67103,6 +73025,9 @@ VALUES (2930, 13, True)
      , (2930, 19, True)
      , (2930, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Blast VI (8928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8928;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8928, 'scrollforceblast6');
 
@@ -67136,6 +73061,9 @@ VALUES (8928, 13, True)
      , (8928, 14, True)
      , (8928, 19, True)
      , (8928, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Force Volley VI (2937) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2937;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2937, 'scrollforcevolley6');
@@ -67171,6 +73099,9 @@ VALUES (2937, 13, True)
      , (2937, 19, True)
      , (2937, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Blast VI (2940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2940;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2940, 'scrollfrostblast6');
 
@@ -67204,6 +73135,9 @@ VALUES (2940, 13, True)
      , (2940, 14, True)
      , (2940, 19, True)
      , (2940, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Volley VI (2948) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2948;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2948, 'scrollfrostvolley6');
@@ -67239,6 +73173,9 @@ VALUES (2948, 13, True)
      , (2948, 19, True)
      , (2948, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Blast VI (2954) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2954;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2954, 'scrolllightningblast6');
 
@@ -67272,6 +73209,9 @@ VALUES (2954, 13, True)
      , (2954, 14, True)
      , (2954, 19, True)
      , (2954, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Volley VI (9014) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9014;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9014, 'scrolllightningvolley6');
@@ -67307,6 +73247,9 @@ VALUES (9014, 13, True)
      , (9014, 19, True)
      , (9014, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Shock Blast VI (2962) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2962;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2962, 'scrollshockblast6');
 
@@ -67340,6 +73283,9 @@ VALUES (2962, 13, True)
      , (2962, 14, True)
      , (2962, 19, True)
      , (2962, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Fire Vulnerability Other (1578) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1578;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1578, 'scrollfirevulnerabilityother');
@@ -67375,6 +73321,9 @@ VALUES (1578, 13, True)
      , (1578, 19, True)
      , (1578, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Piercing Protection Other (1853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1853;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1853, 'scrollpierceprotectionother');
 
@@ -67408,6 +73357,9 @@ VALUES (1853, 13, True)
      , (1853, 14, True)
      , (1853, 19, True)
      , (1853, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Health to Stamina Self (1864) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1864;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1864, 'scrollhealthtostaminaself');
@@ -67443,6 +73395,9 @@ VALUES (1864, 13, True)
      , (1864, 19, True)
      , (1864, 22, True);
 
+/* Weenie - WriteablesScrolls - Aura of Heartseeker Other (46845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46845;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46845, 'ace46845-auraofheartseekerother');
 
@@ -67476,6 +73431,9 @@ VALUES (46845, 13, True)
      , (46845, 14, True)
      , (46845, 19, True)
      , (46845, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Turn Blade (1897) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1897;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1897, 'scrollturnblade');
@@ -67511,6 +73469,9 @@ VALUES (1897, 13, True)
      , (1897, 19, True)
      , (1897, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Dirty Fighting Ineptitude Other III (45238) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45238;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45238, 'ace45238-scrollofdirtyfightingineptitudeotheriii');
 
@@ -67544,6 +73505,9 @@ VALUES (45238, 13, True)
      , (45238, 14, True)
      , (45238, 19, True)
      , (45238, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Summoning Mastery Other III (49465) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49465;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49465, 'ace49465-scrollofsummoningmasteryotheriii');
@@ -67579,6 +73543,9 @@ VALUES (49465, 13, True)
      , (49465, 19, True)
      , (49465, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Blast III (2136) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2136;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2136, 'scrollforceblast3');
 
@@ -67612,6 +73579,9 @@ VALUES (2136, 13, True)
      , (2136, 14, True)
      , (2136, 19, True)
      , (2136, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Blast III (1572) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1572;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1572, 'scrollfrostblast3');
@@ -67647,6 +73617,9 @@ VALUES (1572, 13, True)
      , (1572, 19, True)
      , (1572, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Blast III (2140) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2140;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2140, 'scrolllightningblast3');
 
@@ -67680,6 +73653,9 @@ VALUES (2140, 13, True)
      , (2140, 14, True)
      , (2140, 19, True)
      , (2140, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shock Blast III (2141) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2141;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2141, 'scrollshockblast3');
@@ -67715,6 +73691,9 @@ VALUES (2141, 13, True)
      , (2141, 19, True)
      , (2141, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Endurance Other (1771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1771;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1771, 'scrollenduranceother');
 
@@ -67748,6 +73727,9 @@ VALUES (1771, 13, True)
      , (1771, 14, True)
      , (1771, 19, True)
      , (1771, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Focus Self (1776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1776;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1776, 'scrollfocusself');
@@ -67783,6 +73765,9 @@ VALUES (1776, 13, True)
      , (1776, 19, True)
      , (1776, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Alchemy Mastery Other (5986) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5986;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5986, 'scrollalchemymasteryother');
 
@@ -67816,6 +73801,9 @@ VALUES (5986, 13, True)
      , (5986, 14, True)
      , (5986, 19, True)
      , (5986, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cooking Mastery Self (5956) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5956;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5956, 'scrollcookingmasteryself');
@@ -67851,6 +73839,9 @@ VALUES (5956, 13, True)
      , (5956, 19, True)
      , (5956, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Finesse Weapon Mastery Self (1674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1674;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1674, 'scrolldaggermasteryself');
 
@@ -67884,6 +73875,9 @@ VALUES (1674, 13, True)
      , (1674, 14, True)
      , (1674, 19, True)
      , (1674, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Leadership Mastery Self (1715) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1715;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1715, 'scrollleadershipmasteryself');
@@ -67919,6 +73913,9 @@ VALUES (1715, 13, True)
      , (1715, 19, True)
      , (1715, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Magic Item Tinkering Expertise Other (1722) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1722;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1722, 'scrollmagicitemexpertiseother');
 
@@ -67952,6 +73949,9 @@ VALUES (1722, 13, True)
      , (1722, 14, True)
      , (1722, 19, True)
      , (1722, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Mana Mastery Self (1726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1726;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1726, 'scrollmanaconvertmasteryself');
@@ -67987,6 +73987,9 @@ VALUES (1726, 13, True)
      , (1726, 19, True)
      , (1726, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Mana Ineptitude Other (9608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9608;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9608, 'scrollmanaineptitude');
 
@@ -68020,6 +74023,9 @@ VALUES (9608, 13, True)
      , (9608, 14, True)
      , (9608, 19, True)
      , (9608, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shield Ineptitude Other (45308) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45308;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45308, 'ace45308-scrollofshieldineptitudeother');
@@ -68055,6 +74061,9 @@ VALUES (45308, 13, True)
      , (45308, 19, True)
      , (45308, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of War Magic Ineptitude (1750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1750;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1750, 'scrollwarmagicineptitude');
 
@@ -68088,6 +74097,9 @@ VALUES (1750, 13, True)
      , (1750, 14, True)
      , (1750, 19, True)
      , (1750, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Void Magic Mastery Other (43356) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43356;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43356, 'ace43356-scrollofvoidmagicmasteryother');
@@ -68123,6 +74135,9 @@ VALUES (43356, 13, True)
      , (43356, 19, True)
      , (43356, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Acid Blast V (5495) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5495;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5495, 'scrollacidblast5');
 
@@ -68156,6 +74171,9 @@ VALUES (5495, 13, True)
      , (5495, 14, True)
      , (5495, 19, True)
      , (5495, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Acid Volley V (2914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2914;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2914, 'scrollacidvolley5');
@@ -68191,6 +74209,9 @@ VALUES (2914, 13, True)
      , (2914, 19, True)
      , (2914, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Blade Blast V (2917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2917;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2917, 'scrollbladeblast5');
 
@@ -68224,6 +74245,9 @@ VALUES (2917, 13, True)
      , (2917, 14, True)
      , (2917, 19, True)
      , (2917, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Blade Volley V (2920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2920;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2920, 'scrollbladevolley5');
@@ -68259,6 +74283,9 @@ VALUES (2920, 13, True)
      , (2920, 19, True)
      , (2920, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Bludgeoning Volley V (2923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2923;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2923, 'scrollbludgeoningvolley5');
 
@@ -68292,6 +74319,9 @@ VALUES (2923, 13, True)
      , (2923, 14, True)
      , (2923, 19, True)
      , (2923, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Flame Blast V (2926) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2926;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2926, 'scrollflameblast5');
@@ -68327,6 +74357,9 @@ VALUES (2926, 13, True)
      , (2926, 19, True)
      , (2926, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Flame Volley V (2929) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2929;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2929, 'scrollflamevolley5');
 
@@ -68360,6 +74393,9 @@ VALUES (2929, 13, True)
      , (2929, 14, True)
      , (2929, 19, True)
      , (2929, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Force Blast V (8927) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8927;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8927, 'scrollforceblast5');
@@ -68395,6 +74431,9 @@ VALUES (8927, 13, True)
      , (8927, 19, True)
      , (8927, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Force Volley V (2936) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2936;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2936, 'scrollforcevolley5');
 
@@ -68428,6 +74467,9 @@ VALUES (2936, 13, True)
      , (2936, 14, True)
      , (2936, 19, True)
      , (2936, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Frost Blast V (2939) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2939;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2939, 'scrollfrostblast5');
@@ -68463,6 +74505,9 @@ VALUES (2939, 13, True)
      , (2939, 19, True)
      , (2939, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Frost Volley V (2947) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2947;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2947, 'scrollfrostvolley5');
 
@@ -68496,6 +74541,9 @@ VALUES (2947, 13, True)
      , (2947, 14, True)
      , (2947, 19, True)
      , (2947, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Lightning Blast V (2953) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2953;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2953, 'scrolllightningblast5');
@@ -68531,6 +74579,9 @@ VALUES (2953, 13, True)
      , (2953, 19, True)
      , (2953, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Lightning Volley V (9013) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9013;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9013, 'scrolllightningvolley5');
 
@@ -68564,6 +74615,9 @@ VALUES (9013, 13, True)
      , (9013, 14, True)
      , (9013, 19, True)
      , (9013, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Shock Blast V (2961) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2961;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2961, 'scrollshockblast5');
@@ -68599,6 +74653,9 @@ VALUES (2961, 13, True)
      , (2961, 19, True)
      , (2961, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Defenselessness V (3251) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3251;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3251, 'scrolldefenselessnessother5');
 
@@ -68632,6 +74689,9 @@ VALUES (3251, 13, True)
      , (3251, 14, True)
      , (3251, 19, True)
      , (3251, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Cooking Mastery Self II (5957) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5957;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5957, 'scrollcookingmasteryself2');
@@ -68667,6 +74727,9 @@ VALUES (5957, 13, True)
      , (5957, 19, True)
      , (5957, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Item Enchantment Ineptitude II (3303) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3303;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3303, 'scrollitemenchantmentineptitude2');
 
@@ -68700,6 +74763,9 @@ VALUES (3303, 13, True)
      , (3303, 14, True)
      , (3303, 19, True)
      , (3303, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nether Blast III (44621) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44621;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44621, 'ace44621-scrollofnetherblastiii');
@@ -68735,6 +74801,9 @@ VALUES (44621, 13, True)
      , (44621, 19, True)
      , (44621, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nether Blast IV (44622) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44622;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44622, 'ace44622-scrollofnetherblastiv');
 
@@ -68769,6 +74838,9 @@ VALUES (44622, 13, True)
      , (44622, 19, True)
      , (44622, 22, True);
 
+/* Weenie - WriteablesScrolls - Scroll of Nether Blast V (44623) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44623;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44623, 'ace44623-scrollofnetherblastv');
 
@@ -68802,6 +74874,9 @@ VALUES (44623, 13, True)
      , (44623, 14, True)
      , (44623, 19, True)
      , (44623, 22, True);
+
+/* Weenie - WriteablesScrolls - Scroll of Nether Blast VI (44624) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44624;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44624, 'ace44624-scrollofnetherblastvi');

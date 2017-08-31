@@ -1,3 +1,6 @@
+/* Weenie - Casters - Orb (2366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2366;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2366, 'orb');
 
@@ -48,6 +51,9 @@ VALUES (2366, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2366, 0, 16778862);
 
+/* Weenie - Casters - Aluvian Wand (4914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4914;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4914, 'newbiewandaluvian');
 
@@ -93,6 +99,9 @@ VALUES (4914, 0, 83889679, 83889679)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4914, 0, 16778603);
+
+/* Weenie - Casters - Focusing Stone (8904) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8904;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8904, 'focusingstoneimbued');
@@ -145,6 +154,9 @@ VALUES (8904, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8904, 0, 16778862);
 
+/* Weenie - Casters - Dark Sorcerer's Phylactery (12016) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12016;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12016, 'orbdarksorcerer');
 
@@ -180,6 +192,9 @@ VALUES (12016, 13, True)
      , (12016, 15, True)
      , (12016, 19, True)
      , (12016, 22, True);
+
+/* Weenie - Casters - Blue Orb (9065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9065;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9065, 'orbmistral');
@@ -226,6 +241,9 @@ VALUES (9065, 0, 83894473, 83894473);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9065, 0, 16788872);
 
+/* Weenie - Casters - Casting Stein (23774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23774;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23774, 'orbulgrim');
 
@@ -265,6 +283,9 @@ VALUES (23774, 13, True)
      , (23774, 15, True)
      , (23774, 19, True)
      , (23774, 22, True);
+
+/* Weenie - Casters - Staff of Aerfalle (28058) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28058;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28058, 'staffaerfallenew');
@@ -313,6 +334,9 @@ VALUES (28058, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28058, 0, 16780142);
 
+/* Weenie - Casters - Branith's Staff (2031) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2031;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2031, 'quarterstaffbranith');
 
@@ -351,6 +375,9 @@ VALUES (2031, 13, True)
      , (2031, 14, True)
      , (2031, 19, True)
      , (2031, 22, True);
+
+/* Weenie - Casters - Wand (2472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2472;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2472, 'wand');
@@ -400,6 +427,9 @@ VALUES (2472, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2472, 0, 16778603);
 
+/* Weenie - Casters - Staff (2547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2547;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2547, 'staff');
 
@@ -447,6 +477,9 @@ VALUES (2547, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2547, 0, 16780142);
 
+/* Weenie - Casters - Orb of the Bunny Booty (8400) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8400;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8400, 'orbwhitebunny');
 
@@ -489,6 +522,9 @@ VALUES (8400, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8400, 67111338, 0, 0);
+
+/* Weenie - Casters - Skull Wand (12223) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12223;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12223, 'wandskull');
@@ -545,6 +581,9 @@ VALUES (12223, 0, 83893805, 83893805)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12223, 0, 16787394);
 
+/* Weenie - Casters - Dark Heart (8670) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8670;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8670, 'wisporbhigh');
 
@@ -596,6 +635,9 @@ VALUES (8670, 0, 83888861, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8670, 0, 16778862);
+
+/* Weenie - Casters - Fire Baton (31823) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31823;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31823, 'ace31823-firebaton');
@@ -652,6 +694,9 @@ VALUES (31823, 0, 83897333, 83897333);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31823, 0, 16792610);
 
+/* Weenie - Casters - Royal Bouquet (42709) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42709;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42709, 'ace42709-royalbouquet');
 
@@ -691,6 +736,9 @@ VALUES (42709, 13, True)
      , (42709, 14, True)
      , (42709, 19, True)
      , (42709, 22, True);
+
+/* Weenie - Casters - Wand (5541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5541;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5541, 'wandgharundim');
@@ -739,6 +787,9 @@ VALUES (5541, 0, 83889679, 83889679)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5541, 0, 16783514);
+
+/* Weenie - Casters - Nether Staff (43383) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43383;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43383, 'ace43383-netherstaff');
@@ -795,6 +846,9 @@ VALUES (43383, 0, 83894158, 83894158)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43383, 0, 16788048);
 
+/* Weenie - Casters - Quality Shimmering Isparian Wand (21032) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21032;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21032, 'wandisparianprismaticmajor');
 
@@ -831,6 +885,9 @@ VALUES (21032, 13, True)
      , (21032, 14, True)
      , (21032, 19, True)
      , (21032, 22, True);
+
+/* Weenie - Casters - Staff of Aerfalle (31821) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31821;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31821, 'ace31821-staffofaerfalle');
@@ -882,6 +939,9 @@ VALUES (31821, 0, 83888778, 83888778);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31821, 0, 16780142);
+
+/* Weenie - Casters - Nether Sceptre (43381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43381;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43381, 'ace43381-nethersceptre');
@@ -935,6 +995,9 @@ VALUES (43381, 0, 83895592, 83895592)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43381, 0, 16791340);
 
+/* Weenie - Casters - Staff of the Painbringer (27316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27316;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27316, 'staffpainbringer');
 
@@ -976,6 +1039,9 @@ VALUES (27316, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27316, 67113009, 0, 0);
+
+/* Weenie - Casters - Sceptre (2548) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2548;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2548, 'sceptre');
@@ -1023,6 +1089,9 @@ VALUES (2548, 0, 83889356, 83889356);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2548, 0, 16778510);
+
+/* Weenie - Casters - Enhanced Assault Orb (41898) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41898;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41898, 'ace41898-enhancedassaultorb');
@@ -1078,6 +1147,9 @@ VALUES (41898, 0, 83893489, 83893489)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41898, 0, 16788842);
 
+/* Weenie - Casters - Academy Wand (12759) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12759;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12759, 'wandacademy');
 
@@ -1121,6 +1193,9 @@ VALUES (12759, 0, 83894467, 83894467);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12759, 0, 16788860);
+
+/* Weenie - Casters - Aerbax's Defeat (31822) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31822;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31822, 'ace31822-aerbaxsdefeat');
@@ -1174,6 +1249,9 @@ VALUES (31822, 0, 83897733, 83897733);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31822, 0, 16793817);
 
+/* Weenie - Casters - Blunt Sceptre (29260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29260;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29260, 'wandblunt');
 
@@ -1220,6 +1298,9 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (29260, 67115360, 1, 55)
      , (29260, 67115359, 56, 200);
 
+/* Weenie - Casters - Weeping Wand (24207) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24207;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24207, 'wandisparianperfectweeping');
 
@@ -1257,6 +1338,9 @@ VALUES (24207, 13, True)
      , (24207, 14, True)
      , (24207, 19, True)
      , (24207, 22, True);
+
+/* Weenie - Casters - Electric Sceptre (29261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29261;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29261, 'wandelectric');
@@ -1302,6 +1386,9 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (29261, 67115366, 1, 55)
      , (29261, 67115362, 56, 200);
 
+/* Weenie - Casters - Paradox-touched Olthoi Wand (43043) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43043;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43043, 'ace43043-paradoxtouchedolthoiwand');
 
@@ -1342,6 +1429,9 @@ VALUES (43043, 13, True)
      , (43043, 14, True)
      , (43043, 19, True)
      , (43043, 22, True);
+
+/* Weenie - Casters - Staff (31819) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31819;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31819, 'ace31819-staff');
@@ -1397,6 +1487,9 @@ VALUES (31819, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31819, 0, 16780142);
 
+/* Weenie - Casters - Energy Crystal (37585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37585;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37585, 'ace37585-energycrystal');
 
@@ -1448,6 +1541,9 @@ VALUES (37585, 0, 83889688, 83889688);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37585, 0, 16787396);
+
+/* Weenie - Casters - Incomparable Lense (41466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41466;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41466, 'ace41466-incomparablelense');
@@ -1503,6 +1599,9 @@ VALUES (41466, 0, 83897333, 83897333)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41466, 0, 16794408);
 
+/* Weenie - Casters - Ice Wand (31824) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31824;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31824, 'ace31824-icewand');
 
@@ -1555,6 +1654,9 @@ VALUES (31824, 0, 83897140, 83897140);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31824, 0, 16792055);
 
+/* Weenie - Casters - Buadren (14568) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14568;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14568, 'buadreninvoking');
 
@@ -1597,6 +1699,9 @@ VALUES (14568, 67113784, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14568, 0, 16787230);
+
+/* Weenie - Casters - Seasoned Explorer Baton (45958) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45958;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45958, 'ace45958-seasonedexplorerbaton');
@@ -1650,6 +1755,9 @@ VALUES (45958, 0, 83897333, 83897333);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45958, 0, 16792610);
 
+/* Weenie - Casters - Drudge Scrying Orb (35593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35593;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35593, 'ace35593-drudgescryingorb');
 
@@ -1693,6 +1801,9 @@ VALUES (35593, 13, True)
      , (35593, 15, True)
      , (35593, 19, True)
      , (35593, 22, True);
+
+/* Weenie - Casters - Winter Orb (29265) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29265;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29265, 'wandslashing');
@@ -1744,6 +1855,9 @@ VALUES (29265, 0, 83894407, 83894407);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29265, 0, 16792927);
 
+/* Weenie - Casters - Blunt Staff (37225) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37225;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37225, 'ace37225-bluntstaff');
 
@@ -1791,6 +1905,9 @@ VALUES (37225, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37225, 67111921, 0, 0);
+
+/* Weenie - Casters - Fire Sceptre (29262) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29262;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29262, 'wandfire');
@@ -1845,6 +1962,9 @@ VALUES (29262, 0, 83895592, 83895592)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29262, 0, 16791340);
 
+/* Weenie - Casters - Energy Crystal (25373) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25373;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25373, 'orbenergycrystal');
 
@@ -1894,6 +2014,9 @@ VALUES (25373, 0, 83889679, 83889679);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25373, 0, 16789517);
+
+/* Weenie - Casters - Nefane Pearl (43382) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43382;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43382, 'ace43382-nefanepearl');
@@ -1948,6 +2071,9 @@ VALUES (43382, 0, 83894476, 83894476);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43382, 0, 16788882);
 
+/* Weenie - Casters - Rynthid Tentacle Wand (51989) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51989;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51989, 'ace51989-rynthidtentaclewand');
 
@@ -1995,6 +2121,9 @@ VALUES (51989, 0, 83899155, 83899155)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51989, 0, 16797054);
+
+/* Weenie - Casters - Frost Sceptre (29263) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29263;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29263, 'wandfrost');
@@ -2048,6 +2177,9 @@ VALUES (29263, 0, 83895592, 83895592)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29263, 0, 16791340);
 
+/* Weenie - Casters - Deru Limb (30378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30378;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30378, 'wandrarederulimb');
 
@@ -2084,6 +2216,9 @@ VALUES (30378, 13, True)
      , (30378, 14, True)
      , (30378, 19, True)
      , (30378, 22, True);
+
+/* Weenie - Casters - Life-attuned Rynthid Tentacle Wand (51990) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51990;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51990, 'ace51990-lifeattunedrynthidtentaclewand');
@@ -2132,6 +2267,9 @@ VALUES (51990, 0, 83899155, 83899155)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51990, 0, 16797054);
+
+/* Weenie - Casters - Nefane Pearl (25894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25894;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25894, 'orbnefaneblack');
@@ -2182,6 +2320,9 @@ VALUES (25894, 0, 83894476, 83894476);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25894, 0, 16788882);
 
+/* Weenie - Casters - Green Anniversary Sparkler (34192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34192;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34192, 'ace34192-greenanniversarysparkler');
 
@@ -2220,6 +2361,9 @@ VALUES (34192, 13, True)
      , (34192, 14, True)
      , (34192, 19, True)
      , (34192, 22, True);
+
+/* Weenie - Casters - Acid Baton (31820) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31820;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31820, 'ace31820-acidbaton');
@@ -2273,6 +2417,9 @@ VALUES (31820, 0, 83897333, 83897333);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31820, 0, 16792610);
 
+/* Weenie - Casters - Piercing Staff (37222) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37222;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37222, 'ace37222-piercingstaff');
 
@@ -2325,6 +2472,9 @@ VALUES (37222, 0, 83894158, 83894158)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37222, 0, 16788048);
 
+/* Weenie - Casters - Piercing Sceptre (29264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29264;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29264, 'wandpiercing');
 
@@ -2374,6 +2524,9 @@ VALUES (29264, 0, 83895592, 83895592)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29264, 0, 16791340);
 
+/* Weenie - Casters - Piercing Baton (31825) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31825;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31825, 'ace31825-piercingbaton');
 
@@ -2420,6 +2573,9 @@ VALUES (31825, 67116700, 1, 100)
      , (31825, 67116709, 101, 100)
      , (31825, 67116708, 201, 55);
 
+/* Weenie - Casters - Fire Staff (37220) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37220;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37220, 'ace37220-firestaff');
 
@@ -2464,6 +2620,9 @@ VALUES (37220, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37220, 67111922, 0, 0);
 
+/* Weenie - Casters - Chilling Ebony Staff (36489) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36489;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36489, 'ace36489-chillingebonystaff');
 
@@ -2501,6 +2660,9 @@ VALUES (36489, 13, True)
      , (36489, 14, True)
      , (36489, 19, True)
      , (36489, 22, True);
+
+/* Weenie - Casters - Orb of the Baby Bunny Booty (35185) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35185;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35185, 'ace35185-orbofthebabybunnybooty');
@@ -2546,6 +2708,9 @@ VALUES (35185, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35185, 67111338, 0, 0);
 
+/* Weenie - Casters - The Eye of Drageerg (27898) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27898;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27898, 'orbeyedrageerg');
 
@@ -2584,6 +2749,9 @@ VALUES (27898, 13, True)
      , (27898, 15, True)
      , (27898, 19, True)
      , (27898, 22, True);
+
+/* Weenie - Casters - Slashing Staff (37223) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37223;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37223, 'ace37223-slashingstaff');
@@ -2640,6 +2808,9 @@ VALUES (37223, 0, 83894158, 83894158)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37223, 0, 16788048);
 
+/* Weenie - Casters - Blackfire Smoldering Atlan Wand (46126) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46126;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46126, 'ace46126-blackfiresmolderingatlanwand');
 
@@ -2687,6 +2858,9 @@ VALUES (46126, 0, 83889237, 83889688)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46126, 0, 16787901);
+
+/* Weenie - Casters - Shadowfire Isparian Wand (46396) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46396;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46396, 'ace46396-shadowfireisparianwand');
@@ -2736,6 +2910,9 @@ VALUES (46396, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46396, 0, 16787901);
+
+/* Weenie - Casters - Seasoned Explorer Nether Staff (45956) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45956;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45956, 'ace45956-seasonedexplorernetherstaff');
@@ -2788,6 +2965,9 @@ VALUES (45956, 0, 83894158, 83894158)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45956, 0, 16788048);
 
+/* Weenie - Casters - Acid Sceptre (29259) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29259;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29259, 'wandacid');
 
@@ -2833,6 +3013,9 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (29259, 67115360, 1, 55)
      , (29259, 67115363, 56, 200);
 
+/* Weenie - Casters - Energy Crystal (37219) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37219;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37219, 'ace37219-energycrystal');
 
@@ -2876,6 +3059,9 @@ VALUES (37219, 13, True)
      , (37219, 14, True)
      , (37219, 19, True)
      , (37219, 22, True);
+
+/* Weenie - Casters - Legendary Seed of Mornings (48938) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48938;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48938, 'ace48938-legendaryseedofmornings');
@@ -2930,6 +3116,9 @@ VALUES (48938, 0, 83899123, 83899123)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48938, 0, 16796838);
 
+/* Weenie - Casters - Ultimate Singularity Scepter of Life Magic (41885) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41885;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41885, 'ace41885-ultimatesingularityscepteroflifemagic');
 
@@ -2975,6 +3164,9 @@ VALUES (41885, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41885, 0, 16778510);
 
+/* Weenie - Casters - Training Wand (12748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12748;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12748, 'wandtraining');
 
@@ -3016,6 +3208,9 @@ VALUES (12748, 0, 83894467, 83894468);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12748, 0, 16788860);
+
+/* Weenie - Casters - Aerbax's Defeat (36949) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36949;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36949, 'ace36949-aerbaxsdefeat');
@@ -3064,6 +3259,9 @@ VALUES (36949, 0, 83897733, 83897733);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36949, 0, 16793817);
+
+/* Weenie - Casters - Mana-infused Acid War Staff of Aerfalle (40909) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40909;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40909, 'ace40909-manainfusedacidwarstaffofaerfalle');
@@ -3114,6 +3312,9 @@ VALUES (40909, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40909, 0, 16780142);
 
+/* Weenie - Casters - Piercing Baton (38850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38850;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38850, 'ace38850-piercingbaton');
 
@@ -3162,6 +3363,9 @@ VALUES (38850, 0, 83897333, 83897333);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38850, 0, 16792610);
+
+/* Weenie - Casters - Teleportation Device (42211) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42211;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42211, 'ace42211-teleportationdevice');
@@ -3215,6 +3419,9 @@ VALUES (42211, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42211, 0, 16778862);
 
+/* Weenie - Casters - Tusker Paw Wand (35950) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35950;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35950, 'ace35950-tuskerpawwand');
 
@@ -3251,6 +3458,9 @@ VALUES (35950, 13, True)
      , (35950, 14, True)
      , (35950, 19, True)
      , (35950, 22, True);
+
+/* Weenie - Casters - Hafted Falcon Banner with Symbol (40394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40394;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40394, 'ace40394-haftedfalconbannerwithsymbol');
@@ -3294,6 +3504,9 @@ VALUES (40394, 0, 83893725, 83893725)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40394, 0, 16787138);
+
+/* Weenie - Casters - Acid Staff (37224) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37224;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37224, 'ace37224-acidstaff');
@@ -3347,6 +3560,9 @@ VALUES (37224, 0, 83894158, 83894158)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37224, 0, 16788048);
 
+/* Weenie - Casters - Ultimate Singularity Scepter of War Magic (41886) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41886;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41886, 'ace41886-ultimatesingularityscepterofwarmagic');
 
@@ -3392,6 +3608,9 @@ VALUES (41886, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41886, 0, 16778510);
 
+/* Weenie - Casters - Casting Stone (51899) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51899;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51899, 'ace51899-castingstone');
 
@@ -3431,6 +3650,9 @@ VALUES (51899, 13, True)
      , (51899, 19, True)
      , (51899, 22, True)
      , (51899, 91, True);
+
+/* Weenie - Casters - Essence Flicker (8671) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8671;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8671, 'wisporblow');
@@ -3483,6 +3705,9 @@ VALUES (8671, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8671, 0, 16778862);
 
+/* Weenie - Casters - Ixir's Staff of Eyes (26532) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26532;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26532, 'staffixir3');
 
@@ -3528,6 +3753,9 @@ VALUES (26532, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (26532, 67114955, 0, 0);
+
+/* Weenie - Casters - Staff of Clarity (27092) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27092;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27092, 'staffclaritynew');
@@ -3576,6 +3804,9 @@ VALUES (27092, 0, 83893255, 83893255)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27092, 0, 16785711);
+
+/* Weenie - Casters - Winter Orb (32488) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32488;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32488, 'ace32488-winterorb');
@@ -3626,6 +3857,9 @@ VALUES (32488, 0, 83894407, 83894407);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32488, 0, 16792927);
 
+/* Weenie - Casters - Perfect Chilling Isparian Wand (20153) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20153;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20153, 'wandisparianperfectshiveringmajor');
 
@@ -3674,6 +3908,9 @@ VALUES (20153, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20153, 0, 16787901);
+
+/* Weenie - Casters - The Healer's Heart (8552) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8552;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8552, 'orbhealer');
@@ -3727,6 +3964,9 @@ VALUES (8552, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8552, 0, 16778862);
 
+/* Weenie - Casters - Energy Crystal (12236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12236;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12236, 'crystaldeedultra');
 
@@ -3766,6 +4006,9 @@ VALUES (12236, 13, True)
      , (12236, 15, True)
      , (12236, 19, True)
      , (12236, 22, True);
+
+/* Weenie - Casters - Dark Sorcerer's Phylactery (23611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23611;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23611, 'orbdarksorcerernew');
@@ -3816,6 +4059,9 @@ VALUES (23611, 0, 83893789, 83893789)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23611, 0, 16787342);
 
+/* Weenie - Casters - Major Shivering Atlan Wand (46124) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46124;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46124, 'ace46124-majorshiveringatlanwand');
 
@@ -3864,6 +4110,9 @@ VALUES (46124, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46124, 0, 16787901);
 
+/* Weenie - Casters - Paradox-touched Olthoi Wand (43056) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43056;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43056, 'ace43056-paradoxtouchedolthoiwand');
 
@@ -3904,6 +4153,9 @@ VALUES (43056, 13, True)
      , (43056, 14, True)
      , (43056, 19, True)
      , (43056, 22, True);
+
+/* Weenie - Casters - Wand (5539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5539;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5539, 'wandaluvian');
@@ -3952,6 +4204,9 @@ VALUES (5539, 0, 83889679, 83889679)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5539, 0, 16778603);
+
+/* Weenie - Casters - Impious Staff (30377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30377;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30377, 'wandrarewingsrakhil');
@@ -4002,6 +4257,9 @@ VALUES (30377, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30377, 0, 16780142);
 
+/* Weenie - Casters - Modified Saulandoi (46945) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46945;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46945, 'ace46945-modifiedsaulandoi');
 
@@ -4051,6 +4309,9 @@ VALUES (46945, 0, 83894280, 83894280)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46945, 0, 16788369);
 
+/* Weenie - Casters - Invoker (14569) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14569;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14569, 'buadreninvokingtanua');
 
@@ -4094,6 +4355,9 @@ VALUES (14569, 67113784, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14569, 0, 16787230);
+
+/* Weenie - Casters - Globe of Auberean (9047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9047;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9047, 'globeauberean');
@@ -4143,6 +4407,9 @@ VALUES (9047, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9047, 0, 16785592);
 
+/* Weenie - Casters - Tusker Wand (12224) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12224;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12224, 'wandtusker');
 
@@ -4180,6 +4447,9 @@ VALUES (12224, 13, True)
      , (12224, 14, True)
      , (12224, 19, True)
      , (12224, 22, True);
+
+/* Weenie - Casters - Wand of Black Fire (3749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3749;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3749, 'wandblackfire');
@@ -4231,6 +4501,9 @@ VALUES (3749, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3749, 0, 16778603);
 
+/* Weenie - Casters - Orb of Black Fire (3721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3721;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3721, 'orbblackfire');
 
@@ -4280,6 +4553,9 @@ VALUES (3721, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3721, 0, 16778862);
 
+/* Weenie - Casters - Invoker (26497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26497;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26497, 'buadreninvokingtanuanew');
 
@@ -4316,6 +4592,9 @@ VALUES (26497, 13, True)
      , (26497, 14, True)
      , (26497, 19, True)
      , (26497, 22, True);
+
+/* Weenie - Casters - Orb of the Ironsea (30376) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30376;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30376, 'wandrareorbironsea');
@@ -4363,6 +4642,9 @@ VALUES (30376, 0, 83897141, 83897141);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30376, 0, 16792056);
+
+/* Weenie - Casters - Frost Staff (37221) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37221;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37221, 'ace37221-froststaff');
@@ -4420,6 +4702,9 @@ VALUES (37221, 0, 83894158, 83894158)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37221, 0, 16788048);
 
+/* Weenie - Casters - Nether-attuned Rynthid Tentacle Wand (51991) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51991;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51991, 'ace51991-netherattunedrynthidtentaclewand');
 
@@ -4467,6 +4752,9 @@ VALUES (51991, 0, 83899155, 83899155)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51991, 0, 16797054);
+
+/* Weenie - Casters - Yellow Virindi Wand (7602) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7602;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7602, 'wandyellowvirindi');
@@ -4523,6 +4811,9 @@ VALUES (7602, 0, 83888956, 83888956)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7602, 0, 16788873);
 
+/* Weenie - Casters - Virindi Implant (10976) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10976;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10976, 'virindiimplant1-xp');
 
@@ -4560,6 +4851,9 @@ VALUES (10976, 13, True)
      , (10976, 14, True)
      , (10976, 19, True)
      , (10976, 22, True);
+
+/* Weenie - Casters - Heart of Darkest Flame (43848) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43848;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43848, 'ace43848-heartofdarkestflame');
@@ -4608,6 +4902,9 @@ VALUES (43848, 0, 83898425, 83898425);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43848, 0, 16795251);
+
+/* Weenie - Casters - Rossu Morta Chapterhouse Recall Orb (33463) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33463;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33463, 'ace33463-rossumortachapterhouserecallorb');
@@ -4661,6 +4958,9 @@ VALUES (33463, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33463, 0, 16778862);
 
+/* Weenie - Casters - Saulandoi (21396) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21396;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21396, 'wandgaerlan');
 
@@ -4698,6 +4998,9 @@ VALUES (21396, 13, True)
      , (21396, 14, True)
      , (21396, 19, True)
      , (21396, 22, True);
+
+/* Weenie - Casters - Whispering Blade Chapterhouse Recall Orb (33484) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33484;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33484, 'ace33484-whisperingbladechapterhouserecallorb');
@@ -4751,6 +5054,9 @@ VALUES (33484, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33484, 0, 16778862);
 
+/* Weenie - Casters - Tome of Chill (40141) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40141;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40141, 'ace40141-tomeofchill');
 
@@ -4786,6 +5092,9 @@ VALUES (40141, 13, True)
      , (40141, 14, True)
      , (40141, 19, True)
      , (40141, 22, True);
+
+/* Weenie - Casters - Stormwood Wand (53318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53318;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53318, 'ace53318-stormwoodwand');
@@ -4830,6 +5139,9 @@ VALUES (53318, 13, True)
      , (53318, 19, True)
      , (53318, 22, True)
      , (53318, 91, True);
+
+/* Weenie - Casters - Hieromancer's Orb (9064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9064;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9064, 'orbhieromancer');
@@ -4877,6 +5189,9 @@ VALUES (9064, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9064, 0, 16785589);
+
+/* Weenie - Casters - Fenmalain Crystal Orb (28325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28325;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28325, 'orbcrystalfennew');
@@ -4929,6 +5244,9 @@ VALUES (28325, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28325, 0, 16778862);
 
+/* Weenie - Casters - Sho Wand (4915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4915;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4915, 'newbiewandsho');
 
@@ -4976,6 +5294,9 @@ VALUES (4915, 0, 83889679, 83889679)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4915, 0, 16783516);
+
+/* Weenie - Casters - Sturdy Bloodstone Wand (43813) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43813;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43813, 'ace43813-sturdybloodstonewand');
@@ -5027,6 +5348,9 @@ VALUES (43813, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43813, 0, 16795196);
 
+/* Weenie - Casters - Scepter of the Portal Currents (36552) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36552;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36552, 'ace36552-scepteroftheportalcurrents');
 
@@ -5064,6 +5388,9 @@ VALUES (36552, 13, True)
      , (36552, 14, True)
      , (36552, 19, True)
      , (36552, 22, True);
+
+/* Weenie - Casters - War Staff of Aerfalle (36688) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36688;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36688, 'ace36688-warstaffofaerfalle');
@@ -5110,6 +5437,9 @@ VALUES (36688, 0, 83888778, 83888778);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36688, 0, 16780142);
+
+/* Weenie - Casters - Modified Taulandoi (46942) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46942;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46942, 'ace46942-modifiedtaulandoi');
@@ -5158,6 +5488,9 @@ VALUES (46942, 0, 83894279, 83894279)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46942, 0, 16788368);
 
+/* Weenie - Casters - Wooden Top (52699) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52699;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52699, 'ace52699-woodentop');
 
@@ -5192,6 +5525,9 @@ VALUES (52699, 13, True)
      , (52699, 14, True)
      , (52699, 19, True)
      , (52699, 22, True);
+
+/* Weenie - Casters - Impious Staff (5937) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5937;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5937, 'staffimpious');
@@ -5241,6 +5577,9 @@ VALUES (5937, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5937, 0, 16780142);
 
+/* Weenie - Casters - Eye of the Fallen (30872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30872;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30872, 'orbfallen');
 
@@ -5278,6 +5617,9 @@ VALUES (30872, 13, True)
      , (30872, 14, True)
      , (30872, 19, True)
      , (30872, 22, True);
+
+/* Weenie - Casters - Shadowfire Isparian Wand (32647) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32647;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32647, 'ace32647-shadowfireisparianwand');
@@ -5327,6 +5669,9 @@ VALUES (32647, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32647, 0, 16787901);
 
+/* Weenie - Casters - Stave of Palenqual (11302) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11302;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11302, 'staffmagic234menhir-xp');
 
@@ -5364,6 +5709,9 @@ VALUES (11302, 13, True)
      , (11302, 19, True)
      , (11302, 22, True);
 
+/* Weenie - Casters - Staff of Clarity (9491) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9491;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9491, 'staffclarity');
 
@@ -5399,6 +5747,9 @@ VALUES (9491, 13, True)
      , (9491, 14, True)
      , (9491, 19, True)
      , (9491, 22, True);
+
+/* Weenie - Casters - Banderling Wand (12220) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12220;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12220, 'wandbanderling');
@@ -5439,6 +5790,9 @@ VALUES (12220, 13, True)
      , (12220, 14, True)
      , (12220, 19, True)
      , (12220, 22, True);
+
+/* Weenie - Casters - Ultimate Singularity Scepter of War Magic (27839) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27839;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27839, 'sceptersingularitymaraewarnew');
@@ -5484,6 +5838,9 @@ VALUES (27839, 0, 83889356, 83889356);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27839, 0, 16778510);
+
+/* Weenie - Casters - Gharu'ndim Wand (4916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4916;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4916, 'newbiewandgharundim');
@@ -5533,6 +5890,9 @@ VALUES (4916, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4916, 0, 16783514);
 
+/* Weenie - Casters - Perfect Isparian Wand (20152) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20152;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20152, 'wandisparianperfectnostone');
 
@@ -5570,6 +5930,9 @@ VALUES (20152, 13, True)
      , (20152, 19, True)
      , (20152, 22, True);
 
+/* Weenie - Casters - Holiday Present (52444) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52444;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52444, 'ace52444-holidaypresent');
 
@@ -5604,6 +5967,9 @@ VALUES (52444, 13, True)
      , (52444, 14, True)
      , (52444, 19, True)
      , (52444, 22, True);
+
+/* Weenie - Casters - Life-attuned Shadowfire Isparian Wand (46395) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46395;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46395, 'ace46395-lifeattunedshadowfireisparianwand');
@@ -5653,6 +6019,9 @@ VALUES (46395, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46395, 0, 16787901);
+
+/* Weenie - Casters - Staff (53333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53333;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53333, 'ace53333-staff');
@@ -5707,6 +6076,9 @@ VALUES (53333, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53333, 0, 16780142);
 
+/* Weenie - Casters - Corrupted Heartwood Wand (53334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53334;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53334, 'ace53334-corruptedheartwoodwand');
 
@@ -5750,6 +6122,9 @@ VALUES (53334, 13, True)
      , (53334, 19, True)
      , (53334, 22, True)
      , (53334, 91, True);
+
+/* Weenie - Casters - Quiddity Orb (10731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10731;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10731, 'orbquiddity');
@@ -5802,6 +6177,9 @@ VALUES (10731, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10731, 0, 16778862);
 
+/* Weenie - Casters - Niffis Pearl (10705) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10705;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10705, 'niffisorb');
 
@@ -5848,6 +6226,9 @@ VALUES (10705, 0, 83888861, 83893321);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10705, 0, 16778862);
+
+/* Weenie - Casters - Tome of Flame (40140) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40140;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40140, 'ace40140-tomeofflame');
@@ -5899,6 +6280,9 @@ VALUES (40140, 0, 83897996, 83897996)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40140, 0, 16794234);
 
+/* Weenie - Casters - Polestar (25583) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25583;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25583, 'staffdain');
 
@@ -5949,6 +6333,9 @@ VALUES (25583, 0, 83893314, 83893314)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25583, 0, 16789633);
 
+/* Weenie - Casters - Eye of the Quiddity (9601) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9601;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9601, 'loorbquiddity');
 
@@ -5989,6 +6376,9 @@ VALUES (9601, 13, True)
      , (9601, 15, True)
      , (9601, 19, True)
      , (9601, 22, True);
+
+/* Weenie - Casters - Wand of the Frore Crystal (30375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30375;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30375, 'wandrarefrorecrystal');
@@ -6038,6 +6428,9 @@ VALUES (30375, 0, 83897140, 83897140);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30375, 0, 16792055);
 
+/* Weenie - Casters - War Staff of Aerfalle (28059) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28059;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28059, 'staffaerfallenewuber');
 
@@ -6085,6 +6478,9 @@ VALUES (28059, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28059, 0, 16780142);
 
+/* Weenie - Casters - Asteliary Orb (12147) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12147;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12147, 'orbasteliary');
 
@@ -6122,6 +6518,9 @@ VALUES (12147, 13, True)
      , (12147, 15, True)
      , (12147, 19, True)
      , (12147, 22, True);
+
+/* Weenie - Casters - Stave of Palenqual (11299) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11299;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11299, 'staffmagic134menhir-xp');
@@ -6174,6 +6573,9 @@ VALUES (11299, 0, 83893244, 83893244)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11299, 0, 16786971);
 
+/* Weenie - Casters - Egg Launcher (35188) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35188;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35188, 'ace35188-egglauncher');
 
@@ -6218,6 +6620,9 @@ VALUES (35188, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35188, 67114979, 0, 0);
+
+/* Weenie - Casters - Intricate Mukkir Orb (32263) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32263;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32263, 'ace32263-intricatemukkirorb');
@@ -6264,6 +6669,9 @@ VALUES (32263, 0, 83897375, 83897375);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32263, 0, 16792817);
+
+/* Weenie - Casters - White Virindi Wand (3748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3748;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3748, 'wandwhitevirindi');
@@ -6318,6 +6726,9 @@ VALUES (3748, 0, 83888956, 83888956)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3748, 0, 16788857);
 
+/* Weenie - Casters - Awakener (10969) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10969;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10969, 'buadrenorbkarenua-xp');
 
@@ -6363,6 +6774,9 @@ VALUES (10969, 0, 83893759, 83893759);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10969, 0, 16787230);
+
+/* Weenie - Casters - Royal Runed Slashing Baton (33206) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33206;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33206, 'ace33206-royalrunedslashingbaton');
@@ -6418,6 +6832,9 @@ VALUES (33206, 0, 83897333, 83897333);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33206, 0, 16792610);
 
+/* Weenie - Casters - Nivinizk's Sacrificial Dagger (38165) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38165;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38165, 'ace38165-nivinizkssacrificialdagger');
 
@@ -6460,6 +6877,9 @@ VALUES (38165, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (38165, 67114955, 0, 0);
+
+/* Weenie - Casters - Imbued Asteliary Orb (12158) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12158;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12158, 'orbasteliaryimbued');
@@ -6508,6 +6928,9 @@ VALUES (12158, 0, 83889688, 83889688);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12158, 0, 16787360);
+
+/* Weenie - Casters - Shendolain Crystal Orb (8024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8024;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8024, 'orbcrystalshen');
@@ -6560,6 +6983,9 @@ VALUES (8024, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8024, 0, 16778862);
 
+/* Weenie - Casters - Essence Flare (8669) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8669;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8669, 'wisporb');
 
@@ -6610,6 +7036,9 @@ VALUES (8669, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8669, 0, 16778862);
 
+/* Weenie - Casters - Taulandoi (21912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21912;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21912, 'stavegaerlanfrost');
 
@@ -6647,6 +7076,9 @@ VALUES (21912, 13, True)
      , (21912, 14, True)
      , (21912, 19, True)
      , (21912, 22, True);
+
+/* Weenie - Casters - Pursuit Orb (38796) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38796;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38796, 'ace38796-pursuitorb');
@@ -6700,6 +7132,9 @@ VALUES (38796, 0, 83897428, 83897428);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38796, 0, 16792972);
 
+/* Weenie - Casters - Shadownether Isparian Wand (46397) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46397;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46397, 'ace46397-shadownetherisparianwand');
 
@@ -6736,6 +7171,9 @@ VALUES (46397, 13, True)
      , (46397, 14, True)
      , (46397, 19, True)
      , (46397, 22, True);
+
+/* Weenie - Casters - Volkama's Buadren of the Rivers (27354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27354;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27354, 'orbbuadrenrivers');
@@ -6785,6 +7223,9 @@ VALUES (27354, 0, 83893670, 83893670)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27354, 0, 16790086);
 
+/* Weenie - Casters - Finger of the Harbinger (33243) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33243;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33243, 'ace33243-fingeroftheharbinger');
 
@@ -6825,6 +7266,9 @@ VALUES (33243, 13, True)
      , (33243, 14, True)
      , (33243, 19, True)
      , (33243, 22, True);
+
+/* Weenie - Casters - Impious Staff (22080) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22080;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22080, 'staffimpiousnew');
@@ -6870,6 +7314,9 @@ VALUES (22080, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22080, 67111925, 0, 0);
+
+/* Weenie - Casters - Solid Mukkir Orb (32261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32261;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32261, 'ace32261-solidmukkirorb');
@@ -6919,6 +7366,9 @@ VALUES (32261, 0, 83897375, 83897375);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32261, 0, 16792817);
 
+/* Weenie - Casters - Herald's Staff of the Lightbringer (8803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8803;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8803, 'staffherald');
 
@@ -6962,6 +7412,9 @@ VALUES (8803, 67111927, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8803, 0, 16785521);
+
+/* Weenie - Casters - Staff of Aerfalle (7407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7407;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7407, 'staffaerfalle');
@@ -7009,6 +7462,9 @@ VALUES (7407, 0, 83888778, 83888778);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7407, 0, 16780142);
+
+/* Weenie - Casters - Ice Wand (35558) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35558;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35558, 'ace35558-icewand');
@@ -7058,6 +7514,9 @@ VALUES (35558, 0, 83897140, 83897140);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35558, 0, 16792055);
 
+/* Weenie - Casters - Enhanced Dark Sorcerer's Phylactery (33953) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33953;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33953, 'ace33953-enhanceddarksorcerersphylactery');
 
@@ -7105,6 +7564,9 @@ VALUES (33953, 0, 83893789, 83893789)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33953, 0, 16787342);
+
+/* Weenie - Casters - Taulandoi (21911) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21911;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21911, 'stavegaerlanfire');
@@ -7155,6 +7617,9 @@ VALUES (21911, 0, 83894279, 83894279)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21911, 0, 16788368);
 
+/* Weenie - Casters - Red Rune Slashing Silveran Wand (33102) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33102;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33102, 'ace33102-redruneslashingsilveranwand');
 
@@ -7197,6 +7662,9 @@ VALUES (33102, 13, True)
      , (33102, 19, True)
      , (33102, 22, True)
      , (33102, 91, True);
+
+/* Weenie - Casters - Assault Orb (23890) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23890;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23890, 'orbtumerokwar');
@@ -7252,6 +7720,9 @@ VALUES (23890, 0, 83893489, 83893489)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23890, 0, 16788842);
 
+/* Weenie - Casters - Stave of Palenqual (11301) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11301;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11301, 'staffmagic145menhir-xp');
 
@@ -7288,6 +7759,9 @@ VALUES (11301, 13, True)
      , (11301, 14, True)
      , (11301, 19, True)
      , (11301, 22, True);
+
+/* Weenie - Casters - Orb of Eternal Frost (34412) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34412;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34412, 'ace34412-orbofeternalfrost');
@@ -7338,6 +7812,9 @@ VALUES (34412, 0, 83894407, 83894407);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34412, 0, 16792927);
 
+/* Weenie - Casters - Modified Taulandoi (46944) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46944;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46944, 'ace46944-modifiedtaulandoi');
 
@@ -7386,6 +7863,9 @@ VALUES (46944, 0, 83894279, 83894279)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46944, 0, 16788368);
+
+/* Weenie - Casters - Darker Heart (24056) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24056;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24056, 'wisporbhighnew');
@@ -7439,6 +7919,9 @@ VALUES (24056, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24056, 0, 16778862);
 
+/* Weenie - Casters - Mosswart Wand (12222) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12222;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12222, 'wandmosswart');
 
@@ -7490,6 +7973,9 @@ VALUES (12222, 0, 83893135, 83893135)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12222, 0, 16787433);
 
+/* Weenie - Casters - Shagraka (25973) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25973;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25973, 'staffshagraka');
 
@@ -7538,6 +8024,9 @@ VALUES (25973, 0, 83892429, 83892429)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25973, 0, 16789810);
 
+/* Weenie - Casters - Burun Slaying Sceptre (28994) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28994;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28994, 'sceptrenobleburun');
 
@@ -7574,6 +8063,9 @@ VALUES (28994, 13, True)
      , (28994, 14, True)
      , (28994, 19, True)
      , (28994, 22, True);
+
+/* Weenie - Casters - Delicate Bloodstone Wand (43814) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43814;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43814, 'ace43814-delicatebloodstonewand');
@@ -7625,6 +8117,9 @@ VALUES (43814, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43814, 0, 16795196);
 
+/* Weenie - Casters - Glenden Wood Recall Orb (32359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32359;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32359, 'ace32359-glendenwoodrecallorb');
 
@@ -7675,6 +8170,9 @@ VALUES (32359, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32359, 0, 16778862);
 
+/* Weenie - Casters - Attenuated Awakener (24051) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24051;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24051, 'buadrenorbkarenuatrained-xp');
 
@@ -7722,6 +8220,9 @@ VALUES (24051, 0, 83893759, 83893759);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24051, 0, 16787230);
+
+/* Weenie - Casters - Major Stinging Atlan Wand (46133) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46133;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46133, 'ace46133-majorstingingatlanwand');
@@ -7771,6 +8272,9 @@ VALUES (46133, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46133, 0, 16787901);
 
+/* Weenie - Casters - Corrupted Heartwood Wand (53332) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53332;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53332, 'ace53332-corruptedheartwoodwand');
 
@@ -7813,6 +8317,9 @@ VALUES (53332, 13, True)
      , (53332, 19, True)
      , (53332, 22, True);
 
+/* Weenie - Casters - Painter's Palette (52514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52514;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52514, 'ace52514-painterspalette');
 
@@ -7847,6 +8354,9 @@ VALUES (52514, 13, True)
      , (52514, 14, True)
      , (52514, 19, True)
      , (52514, 22, True);
+
+/* Weenie - Casters - Stormwood Wand (53330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53330;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53330, 'ace53330-stormwoodwand');
@@ -7891,6 +8401,9 @@ VALUES (53330, 13, True)
      , (53330, 19, True)
      , (53330, 22, True)
      , (53330, 91, True);
+
+/* Weenie - Casters - Blue Anniversary Sparkler (34191) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34191;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34191, 'ace34191-blueanniversarysparkler');
@@ -7941,6 +8454,9 @@ VALUES (34191, 0, 83897333, 83897333);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34191, 0, 16792610);
 
+/* Weenie - Casters - Purple Anniversary Sparkler (34194) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34194;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34194, 'ace34194-purpleanniversarysparkler');
 
@@ -7990,6 +8506,9 @@ VALUES (34194, 0, 83897333, 83897333);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34194, 0, 16792610);
 
+/* Weenie - Casters - Elysa's Wondrous Orb (27116) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27116;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27116, 'orbelysawondrous2');
 
@@ -8028,6 +8547,9 @@ VALUES (27116, 13, True)
      , (27116, 15, True)
      , (27116, 19, True)
      , (27116, 22, True);
+
+/* Weenie - Casters - Impious Staff (48940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48940;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48940, 'ace48940-impiousstaff');
@@ -8083,6 +8605,9 @@ VALUES (48940, 0, 83894158, 83894158)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48940, 0, 16788048);
 
+/* Weenie - Casters - Red Anniversary Sparkler (34195) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34195;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34195, 'ace34195-redanniversarysparkler');
 
@@ -8122,6 +8647,9 @@ VALUES (34195, 13, True)
      , (34195, 19, True)
      , (34195, 22, True);
 
+/* Weenie - Casters - Taulandoi (21395) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21395;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21395, 'stavegaerlanlightning');
 
@@ -8160,6 +8688,9 @@ VALUES (21395, 13, True)
      , (21395, 19, True)
      , (21395, 22, True);
 
+/* Weenie - Casters - Kithless Siraluun Stave (29915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29915;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29915, 'stavesiraluunkithless');
 
@@ -8194,6 +8725,9 @@ VALUES (29915, 13, True)
      , (29915, 14, True)
      , (29915, 19, True)
      , (29915, 22, True);
+
+/* Weenie - Casters - Drudge Wand (12221) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12221;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12221, 'wanddrudge');
@@ -8233,6 +8767,9 @@ VALUES (12221, 13, True)
      , (12221, 19, True)
      , (12221, 22, True);
 
+/* Weenie - Casters - Virindi Implant (10977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10977;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10977, 'virindiimplant2-xp');
 
@@ -8269,6 +8806,9 @@ VALUES (10977, 13, True)
      , (10977, 19, True)
      , (10977, 22, True);
 
+/* Weenie - Casters - Scribe's Quill (31332) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31332;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31332, 'ace31332-scribesquill');
 
@@ -8303,6 +8843,9 @@ VALUES (31332, 13, True)
      , (31332, 19, True)
      , (31332, 22, True);
 
+/* Weenie - Casters - Scribe's Quill (31331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31331;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31331, 'ace31331-scribesquill');
 
@@ -8336,6 +8879,9 @@ VALUES (31331, 13, True)
      , (31331, 14, True)
      , (31331, 19, True)
      , (31331, 22, True);
+
+/* Weenie - Casters - Jester's Baton (37540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37540;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37540, 'ace37540-jestersbaton');
@@ -8388,6 +8934,9 @@ VALUES (37540, 0, 83894458, 83894458)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37540, 0, 16793892);
 
+/* Weenie - Casters - Major Smoldering Atlan Wand (46127) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46127;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46127, 'ace46127-majorsmolderingatlanwand');
 
@@ -8433,6 +8982,9 @@ VALUES (46127, 0, 83889237, 83889688)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46127, 0, 16787901);
+
+/* Weenie - Casters - Tome of Caustics (40139) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40139;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40139, 'ace40139-tomeofcaustics');
@@ -8484,6 +9036,9 @@ VALUES (40139, 0, 83897992, 83897992)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40139, 0, 16794233);
 
+/* Weenie - Casters - Rift Orb (36229) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36229;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36229, 'ace36229-riftorb');
 
@@ -8522,6 +9077,9 @@ VALUES (36229, 13, True)
      , (36229, 19, True)
      , (36229, 22, True);
 
+/* Weenie - Casters - White Anniversary Sparkler (34196) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34196;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34196, 'ace34196-whiteanniversarysparkler');
 
@@ -8558,6 +9116,9 @@ VALUES (34196, 13, True)
      , (34196, 14, True)
      , (34196, 19, True)
      , (34196, 22, True);
+
+/* Weenie - Casters - Buadren (27371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27371;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27371, 'orbbuadren');
@@ -8606,6 +9167,9 @@ VALUES (27371, 0, 83893670, 83893699)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27371, 0, 16790086);
 
+/* Weenie - Casters - Banished Orb (30864) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30864;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30864, 'orbbanished');
 
@@ -8640,6 +9204,9 @@ VALUES (30864, 13, True)
      , (30864, 14, True)
      , (30864, 19, True)
      , (30864, 22, True);
+
+/* Weenie - Casters - Modified Taulandoi (46941) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46941;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46941, 'ace46941-modifiedtaulandoi');
@@ -8690,6 +9257,9 @@ VALUES (46941, 0, 83894279, 83894279)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46941, 0, 16788368);
 
+/* Weenie - Casters - Repugnant Spellcasting Staff (34588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34588;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34588, 'ace34588-repugnantspellcastingstaff');
 
@@ -8728,6 +9298,9 @@ VALUES (34588, 13, True)
      , (34588, 14, True)
      , (34588, 19, True)
      , (34588, 22, True);
+
+/* Weenie - Casters - Rift Orb (36230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36230;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36230, 'ace36230-riftorb');
@@ -8779,6 +9352,9 @@ VALUES (36230, 0, 83894914, 83894914);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36230, 0, 16793683);
 
+/* Weenie - Casters - Casting Jack o' Lantern (52190) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52190;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52190, 'ace52190-castingjackolantern');
 
@@ -8827,6 +9403,9 @@ VALUES (52190, 0, 83892725, 83892725);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52190, 0, 16784961);
+
+/* Weenie - Casters - Casting Jack o' Lantern (52192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52192;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52192, 'ace52192-castingjackolantern');
@@ -8877,6 +9456,9 @@ VALUES (52192, 0, 83892725, 83892725);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52192, 0, 16784961);
+
+/* Weenie - Casters - Slicing Society Orb (52741) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52741;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52741, 'ace52741-slicingsocietyorb');
@@ -8931,6 +9513,9 @@ VALUES (52741, 0, 83895588, 83895588)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52741, 0, 16790875);
 
+/* Weenie - Casters - Perfect Shimmering Isparian Wand (21031) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21031;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21031, 'wandisparianperfectprismaticmajor');
 
@@ -8967,6 +9552,9 @@ VALUES (21031, 13, True)
      , (21031, 14, True)
      , (21031, 19, True)
      , (21031, 22, True);
+
+/* Weenie - Casters - Modified Taulandoi (46943) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46943;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46943, 'ace46943-modifiedtaulandoi');
@@ -9014,6 +9602,9 @@ VALUES (46943, 0, 83894279, 83894279)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46943, 0, 16788368);
+
+/* Weenie - Casters - Shimmering Isparian Wand (46193) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46193;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46193, 'ace46193-shimmeringisparianwand');
@@ -9063,6 +9654,9 @@ VALUES (46193, 0, 83889688, 83892492)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46193, 0, 16787901);
+
+/* Weenie - Casters - Princely Runed Slashing Baton (32984) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32984;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32984, 'ace32984-princelyrunedslashingbaton');
@@ -9116,6 +9710,9 @@ VALUES (32984, 0, 83897333, 83897333);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32984, 0, 16792610);
 
+/* Weenie - Casters - Isparian Wand (46181) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46181;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46181, 'ace46181-isparianwand');
 
@@ -9165,6 +9762,9 @@ VALUES (46181, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46181, 0, 16787901);
 
+/* Weenie - Casters - Opal Repugnant Staff (34991) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34991;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34991, 'ace34991-opalrepugnantstaff');
 
@@ -9203,6 +9803,9 @@ VALUES (34991, 13, True)
      , (34991, 14, True)
      , (34991, 19, True)
      , (34991, 22, True);
+
+/* Weenie - Casters - Enhanced Sparking Atlan Wand (46137) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46137;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46137, 'ace46137-enhancedsparkingatlanwand');
@@ -9249,6 +9852,9 @@ VALUES (46137, 0, 83889237, 83889688)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46137, 0, 16787901);
+
+/* Weenie - Casters - Spectral Staff (37478) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37478;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37478, 'ace37478-spectralstaff');
@@ -9304,6 +9910,9 @@ VALUES (37478, 0, 83892431, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37478, 0, 16789796);
 
+/* Weenie - Casters - Bound Singularity Scepter of War Magic (27841) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27841;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27841, 'sceptersingularitywarnew2');
 
@@ -9347,6 +9956,9 @@ VALUES (27841, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27841, 0, 16778510);
 
+/* Weenie - Casters - Enhanced Eye of the Quiddity (41910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41910;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41910, 'ace41910-enhancedeyeofthequiddity');
 
@@ -9385,6 +9997,9 @@ VALUES (41910, 13, True)
      , (41910, 15, True)
      , (41910, 19, True)
      , (41910, 22, True);
+
+/* Weenie - Casters - Shendolain Crystal Orb (28326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28326;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28326, 'orbcrystalshennew');
@@ -9435,6 +10050,9 @@ VALUES (28326, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28326, 0, 16778862);
 
+/* Weenie - Casters - Caulnalain Crystal Orb (28324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28324;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28324, 'orbcrystalcaulnew');
 
@@ -9483,6 +10101,9 @@ VALUES (28324, 0, 83888861, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28324, 0, 16778862);
+
+/* Weenie - Casters - Idol of the Recluse (52247) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52247;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52247, 'ace52247-idoloftherecluse');
@@ -9568,6 +10189,9 @@ VALUES (52247, 0, 16777294)
      , (52247, 15, 16777307)
      , (52247, 16, 16781779);
 
+/* Weenie - Casters - Orb of Splendor (25823) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25823;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25823, 'orbsplendor');
 
@@ -9601,6 +10225,9 @@ VALUES (25823, 13, True)
      , (25823, 14, True)
      , (25823, 19, True)
      , (25823, 22, True);
+
+/* Weenie - Casters - Explorer Wand Of Lightning (8752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8752;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8752, 'wandlightningrarenewbiequest');
@@ -9651,6 +10278,9 @@ VALUES (8752, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8752, 0, 16778603);
 
+/* Weenie - Casters - Casting Jack o' Lantern (52191) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52191;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52191, 'ace52191-castingjackolantern');
 
@@ -9700,6 +10330,9 @@ VALUES (52191, 0, 83892725, 83892725);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52191, 0, 16784961);
+
+/* Weenie - Casters - Utterly Flawless Lense (41465) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41465;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41465, 'ace41465-utterlyflawlesslense');
@@ -9755,6 +10388,9 @@ VALUES (41465, 0, 83897333, 83897333)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41465, 0, 16794408);
 
+/* Weenie - Casters - Hafted Reedshark Banner with Symbol (11760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11760;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11760, 'bannerhaftedsymbolreedshark');
 
@@ -9795,6 +10431,9 @@ VALUES (11760, 0, 83893729, 83893729)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11760, 0, 16787143);
+
+/* Weenie - Casters - Blackfire Shimmering Isparian Wand (46216) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46216;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46216, 'ace46216-blackfireshimmeringisparianwand');
@@ -9845,6 +10484,9 @@ VALUES (46216, 0, 83889688, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46216, 0, 16787901);
 
+/* Weenie - Casters - Reinforced Reedshark Banner with Symbol (11786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11786;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11786, 'bannerreinforcedsymbolreedshark');
 
@@ -9883,6 +10525,9 @@ VALUES (11786, 0, 83893729, 83893728)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11786, 0, 16787143);
+
+/* Weenie - Casters - Stave of Palenqual (11305) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11305;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11305, 'staffmagic345menhir-xp');
@@ -9935,6 +10580,9 @@ VALUES (11305, 0, 83893244, 83893244)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11305, 0, 16786971);
 
+/* Weenie - Casters - Palenqual's Buadren of the Chase (27350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27350;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27350, 'orbbuadrenchase');
 
@@ -9983,6 +10631,9 @@ VALUES (27350, 0, 83893670, 83893669)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27350, 0, 16790086);
 
+/* Weenie - Casters - Orange Anniversary Sparkler (34193) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34193;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34193, 'ace34193-orangeanniversarysparkler');
 
@@ -10021,6 +10672,9 @@ VALUES (34193, 13, True)
      , (34193, 14, True)
      , (34193, 19, True)
      , (34193, 22, True);
+
+/* Weenie - Casters - Flawless Lense (41464) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41464;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41464, 'ace41464-flawlesslense');
@@ -10076,6 +10730,9 @@ VALUES (41464, 0, 83897333, 83897333)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41464, 0, 16794408);
 
+/* Weenie - Casters - Salivatory Goo (43489) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43489;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43489, 'ace43489-salivatorygoo');
 
@@ -10112,6 +10769,9 @@ VALUES (43489, 13, True)
      , (43489, 19, True)
      , (43489, 22, True);
 
+/* Weenie - Casters - Taulandoi (21910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21910;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21910, 'stavegaerlanacid');
 
@@ -10147,6 +10807,9 @@ VALUES (21910, 13, True)
      , (21910, 14, True)
      , (21910, 19, True)
      , (21910, 22, True);
+
+/* Weenie - Casters - Ixir's Staff of Eyes (26531) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26531;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26531, 'staffixir2');
@@ -10192,6 +10855,9 @@ VALUES (26531, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (26531, 67114954, 0, 0);
 
+/* Weenie - Casters - Scribe's Quill (31333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31333;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31333, 'ace31333-scribesquill');
 
@@ -10225,6 +10891,9 @@ VALUES (31333, 13, True)
      , (31333, 14, True)
      , (31333, 19, True)
      , (31333, 22, True);
+
+/* Weenie - Casters - Yellow Anniversary Sparkler (34197) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34197;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34197, 'ace34197-yellowanniversarysparkler');
@@ -10263,6 +10932,9 @@ VALUES (34197, 13, True)
      , (34197, 19, True)
      , (34197, 22, True);
 
+/* Weenie - Casters - Regal Sceptre (29930) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29930;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29930, 'sceptreregal');
 
@@ -10297,6 +10969,9 @@ VALUES (29930, 13, True)
      , (29930, 14, True)
      , (29930, 19, True)
      , (29930, 22, True);
+
+/* Weenie - Casters - Stave of Palenqual (11297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11297;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11297, 'staffmagic124menhir-xp');
@@ -10334,6 +11009,9 @@ VALUES (11297, 13, True)
      , (11297, 14, True)
      , (11297, 19, True)
      , (11297, 22, True);
+
+/* Weenie - Casters - Explorer Wand Of Fire (8748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8748;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8748, 'wandfirerarenewbiequest');
@@ -10382,6 +11060,9 @@ VALUES (8748, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8748, 0, 16778603);
 
+/* Weenie - Casters - Puppeteer's Skull (25895) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25895;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25895, 'orbpuppeteerskull');
 
@@ -10423,6 +11104,9 @@ VALUES (25895, 13, True)
      , (25895, 15, True)
      , (25895, 19, True)
      , (25895, 22, True);
+
+/* Weenie - Casters - Atlan Wand (46122) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46122;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46122, 'ace46122-atlanwand');
@@ -10470,6 +11154,9 @@ VALUES (46122, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46122, 0, 16787901);
 
+/* Weenie - Casters - Head of the Homunculus (27648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27648;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27648, 'orbhomunculus');
 
@@ -10515,6 +11202,9 @@ VALUES (27648, 0, 83892907, 83892907)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27648, 0, 16785364);
+
+/* Weenie - Casters - Amateur Explorer Nether Staff (45957) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45957;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45957, 'ace45957-amateurexplorernetherstaff');
@@ -10566,6 +11256,9 @@ VALUES (45957, 0, 83894158, 83894158)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45957, 0, 16788048);
+
+/* Weenie - Casters - Nearly Flawless Lense (41463) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41463;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41463, 'ace41463-nearlyflawlesslense');
@@ -10621,6 +11314,9 @@ VALUES (41463, 0, 83897333, 83897333)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41463, 0, 16794408);
 
+/* Weenie - Casters - Legendary Seed of Harvests (48939) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48939;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48939, 'ace48939-legendaryseedofharvests');
 
@@ -10667,6 +11363,9 @@ VALUES (48939, 0, 83899123, 83899125)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48939, 0, 16796838);
+
+/* Weenie - Casters - Fenmalain Crystal Orb (8023) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8023;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8023, 'orbcrystalfen');
@@ -10719,6 +11418,9 @@ VALUES (8023, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8023, 0, 16778862);
 
+/* Weenie - Casters - Wand (5540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5540;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5540, 'wandsho');
 
@@ -10764,6 +11466,9 @@ VALUES (5540, 0, 83889679, 83889679)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5540, 0, 16783516);
+
+/* Weenie - Casters - Caulnalain Crystal Orb (8022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8022;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8022, 'orbcrystalcaul');
@@ -10816,6 +11521,9 @@ VALUES (8022, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8022, 0, 16778862);
 
+/* Weenie - Casters - Stave of Palenqual (11298) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11298;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11298, 'staffmagic125menhir-xp');
 
@@ -10851,6 +11559,9 @@ VALUES (11298, 13, True)
      , (11298, 14, True)
      , (11298, 19, True)
      , (11298, 22, True);
+
+/* Weenie - Casters - Detailed Mukkir Orb (32262) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32262;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32262, 'ace32262-detailedmukkirorb');
@@ -10888,6 +11599,9 @@ VALUES (32262, 13, True)
      , (32262, 19, True)
      , (32262, 22, True);
 
+/* Weenie - Casters - Deru Limb (36947) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36947;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36947, 'ace36947-derulimb');
 
@@ -10924,6 +11638,9 @@ VALUES (36947, 13, True)
      , (36947, 14, True)
      , (36947, 19, True)
      , (36947, 22, True);
+
+/* Weenie - Casters - Impious Staff (36576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36576;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36576, 'ace36576-impiousstaff');
@@ -10973,6 +11690,9 @@ VALUES (36576, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36576, 0, 16780142);
 
+/* Weenie - Casters - Bound Singularity Scepter of Life Magic (27837) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27837;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27837, 'sceptersingularitylifenew2');
 
@@ -11018,6 +11738,9 @@ VALUES (27837, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27837, 0, 16778510);
 
+/* Weenie - Casters - Scribe's Quill (31330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31330;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31330, 'ace31330-scribesquill');
 
@@ -11053,6 +11776,9 @@ VALUES (31330, 13, True)
      , (31330, 14, True)
      , (31330, 19, True)
      , (31330, 22, True);
+
+/* Weenie - Casters - Amateur Explorer Baton (45959) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45959;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45959, 'ace45959-amateurexplorerbaton');
@@ -11106,6 +11832,9 @@ VALUES (45959, 0, 83897333, 83897333);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45959, 0, 16792610);
 
+/* Weenie - Casters - Audetaunga's Buadren of the Mountains (27353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27353;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27353, 'orbbuadrenmountains');
 
@@ -11152,6 +11881,9 @@ VALUES (27353, 0, 83893670, 83893668)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27353, 0, 16790086);
 
+/* Weenie - Casters - Ultimate Singularity Scepter of Life Magic (27838) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27838;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27838, 'sceptersingularitymaraelifenew');
 
@@ -11195,6 +11927,9 @@ VALUES (27838, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27838, 0, 16778510);
 
+/* Weenie - Casters - Stave of Palenqual (11300) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11300;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11300, 'staffmagic135menhir-xp');
 
@@ -11231,6 +11966,9 @@ VALUES (11300, 13, True)
      , (11300, 19, True)
      , (11300, 22, True);
 
+/* Weenie - Casters - Superb Isparian Wand (20169) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20169;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20169, 'wandispariansuperbnostone');
 
@@ -11265,6 +12003,9 @@ VALUES (20169, 13, True)
      , (20169, 14, True)
      , (20169, 19, True)
      , (20169, 22, True);
+
+/* Weenie - Casters - Hafted Falcon Banner with Symbol (11757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11757;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11757, 'bannerhaftedsymbolfalcon');
@@ -11305,6 +12046,9 @@ VALUES (11757, 0, 83893725, 83893725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11757, 0, 16787138);
 
+/* Weenie - Casters - Reinforced Shreth Banner with Symbol (11788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11788;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11788, 'bannerreinforcedsymbolshreth');
 
@@ -11343,6 +12087,9 @@ VALUES (11788, 0, 83893729, 83893728)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11788, 0, 16787143);
+
+/* Weenie - Casters - Explorer Wand Of Acid (8746) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8746;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8746, 'wandacidrarenewbiequest');
@@ -11391,6 +12138,9 @@ VALUES (8746, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8746, 0, 16778603);
 
+/* Weenie - Casters - Head of the Homunculus (27650) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27650;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27650, 'orbhomunculus2');
 
@@ -11427,6 +12177,9 @@ VALUES (27650, 13, True)
      , (27650, 14, True)
      , (27650, 19, True)
      , (27650, 22, True);
+
+/* Weenie - Casters - Reinforced Falcon Banner with Symbol (11783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11783;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11783, 'bannerreinforcedsymbolfalcon');
@@ -11466,6 +12219,9 @@ VALUES (11783, 0, 83893725, 83893724)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11783, 0, 16787138);
+
+/* Weenie - Casters - Major Chilling Isparian Wand (46182) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46182;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46182, 'ace46182-majorchillingisparianwand');
@@ -11516,6 +12272,9 @@ VALUES (46182, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46182, 0, 16787901);
 
+/* Weenie - Casters - Minor Shivering Atlan Wand (46125) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46125;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46125, 'ace46125-minorshiveringatlanwand');
 
@@ -11564,6 +12323,9 @@ VALUES (46125, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46125, 0, 16787901);
 
+/* Weenie - Casters - Shadownether Isparian Wand (43818) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43818;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43818, 'ace43818-shadownetherisparianwand');
 
@@ -11599,6 +12361,9 @@ VALUES (43818, 13, True)
      , (43818, 19, True)
      , (43818, 22, True)
      , (43818, 91, True);
+
+/* Weenie - Casters - Renegade Buadren of the Vortex (40396) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40396;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40396, 'ace40396-renegadebuadrenofthevortex');
@@ -11646,6 +12411,9 @@ VALUES (40396, 0, 83893670, 83893670)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40396, 0, 16790086);
 
+/* Weenie - Casters - Buadren (14861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14861;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14861, 'buadreninvokingnonmagic');
 
@@ -11686,6 +12454,9 @@ VALUES (14861, 67113784, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14861, 0, 16787230);
 
+/* Weenie - Casters - Noble Sceptre (28471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28471;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28471, 'sceptrenoble');
 
@@ -11722,6 +12493,9 @@ VALUES (28471, 13, True)
      , (28471, 14, True)
      , (28471, 19, True)
      , (28471, 22, True);
+
+/* Weenie - Casters - Seed of Harvests (47164) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47164;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47164, 'ace47164-seedofharvests');
@@ -11772,6 +12546,9 @@ VALUES (47164, 0, 83899123, 83899125)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47164, 0, 16796838);
 
+/* Weenie - Casters - Seed of Mornings (46958) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46958;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46958, 'ace46958-seedofmornings');
 
@@ -11813,6 +12590,9 @@ VALUES (46958, 13, True)
      , (46958, 15, True)
      , (46958, 19, True)
      , (46958, 22, True);
+
+/* Weenie - Casters - Seed of Twilight (48577) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48577;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48577, 'ace48577-seedoftwilight');
@@ -11863,6 +12643,9 @@ VALUES (48577, 0, 83899123, 83899129)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48577, 0, 16796838);
 
+/* Weenie - Casters - Nether Society Orb (52744) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52744;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52744, 'ace52744-nethersocietyorb');
 
@@ -11902,6 +12685,9 @@ VALUES (52744, 13, True)
      , (52744, 14, True)
      , (52744, 19, True)
      , (52744, 22, True);
+
+/* Weenie - Casters - Elysa's Wondrous Orb (27115) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27115;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27115, 'orbelysawondrous1');
@@ -11954,6 +12740,9 @@ VALUES (27115, 0, 83894472, 83894472)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27115, 0, 16789944);
+
+/* Weenie - Casters - Piercing Society Orb (52743) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52743;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52743, 'ace52743-piercingsocietyorb');
@@ -12008,6 +12797,9 @@ VALUES (52743, 0, 83895589, 83895589)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52743, 0, 16790876);
 
+/* Weenie - Casters - Blackfire Shivering Atlan Wand (46123) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46123;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46123, 'ace46123-blackfireshiveringatlanwand');
 
@@ -12056,6 +12848,9 @@ VALUES (46123, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46123, 0, 16787901);
 
+/* Weenie - Casters - Plain Mukkir Orb (32260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32260;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32260, 'ace32260-plainmukkirorb');
 
@@ -12091,6 +12886,9 @@ VALUES (32260, 13, True)
      , (32260, 14, True)
      , (32260, 19, True)
      , (32260, 22, True);
+
+/* Weenie - Casters - Enhanced Shimmering Isparian Wand (46215) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46215;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46215, 'ace46215-enhancedshimmeringisparianwand');
@@ -12138,6 +12936,9 @@ VALUES (46215, 0, 83889688, 83892492)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46215, 0, 16787901);
+
+/* Weenie - Casters - Society Wand Of Lightning (8751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8751;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8751, 'wandlightningnewbiequest');
@@ -12187,6 +12988,9 @@ VALUES (8751, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8751, 0, 16778603);
 
+/* Weenie - Casters - Enhanced Chilling Isparian Wand (46258) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46258;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46258, 'ace46258-enhancedchillingisparianwand');
 
@@ -12228,6 +13032,9 @@ VALUES (46258, 67111919, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46258, 0, 16787901);
+
+/* Weenie - Casters - Enhanced Coruscating Isparian Wand (46262) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46262;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46262, 'ace46262-enhancedcoruscatingisparianwand');
@@ -12271,6 +13078,9 @@ VALUES (46262, 67111922, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46262, 0, 16787901);
 
+/* Weenie - Casters - Enhanced Dissolving Isparian Wand (46264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46264;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46264, 'ace46264-enhanceddissolvingisparianwand');
 
@@ -12312,6 +13122,9 @@ VALUES (46264, 67111923, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46264, 0, 16787901);
+
+/* Weenie - Casters - Enhanced Flaming Isparian Wand (46260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46260;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46260, 'ace46260-enhancedflamingisparianwand');
@@ -12355,6 +13168,9 @@ VALUES (46260, 67111924, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46260, 0, 16787901);
 
+/* Weenie - Casters - Hafted Gromnie Banner with Symbol (11758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11758;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11758, 'bannerhaftedsymbolgromnie');
 
@@ -12393,6 +13209,9 @@ VALUES (11758, 0, 83893727, 83893727)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11758, 0, 16787131);
+
+/* Weenie - Casters - Superb Dissolving Isparian Wand (20176) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20176;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20176, 'wandispariansuperbstingingmajor');
@@ -12435,6 +13254,9 @@ VALUES (20176, 67111923, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20176, 0, 16787901);
+
+/* Weenie - Casters - Magnificent Lense (41462) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41462;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41462, 'ace41462-magnificentlense');
@@ -12488,6 +13310,9 @@ VALUES (41462, 0, 83897333, 83897333)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41462, 0, 16794408);
 
+/* Weenie - Casters - Reinforced Gromnie Banner with Symbol (11784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11784;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11784, 'bannerreinforcedsymbolgromnie');
 
@@ -12526,6 +13351,9 @@ VALUES (11784, 0, 83893727, 83893726)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11784, 0, 16787131);
+
+/* Weenie - Casters - Broken Staff (5936) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5936;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5936, 'staffbrokenimpious');
@@ -12569,6 +13397,9 @@ VALUES (5936, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5936, 0, 16780142);
 
+/* Weenie - Casters - Reinforced Mask Banner with Symbol (11785) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11785;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11785, 'bannerreinforcedsymbolmask');
 
@@ -12609,6 +13440,9 @@ VALUES (11785, 0, 83893727, 83893726)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11785, 0, 16787131);
+
+/* Weenie - Casters - Crushing Society Orb (52742) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52742;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52742, 'ace52742-crushingsocietyorb');

@@ -1,3 +1,6 @@
+/* Weenie - MiscFestivalStones - Festival Stone (5388) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5388;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5388, 'festivalstoneverdantine');
 
@@ -26,6 +29,9 @@ VALUES (5388, 12, True)
      , (5388, 14, True)
      , (5388, 19, True)
      , (5388, 1, True);
+
+/* Weenie - MiscFestivalStones - Festival Stone (5391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5391;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5391, 'festivalstoneleafcull');
@@ -56,6 +62,9 @@ VALUES (5391, 12, True)
      , (5391, 19, True)
      , (5391, 1, True);
 
+/* Weenie - MiscFestivalStones - Festival Stone (5383) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5383;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5383, 'festivalstoneforedawn');
 
@@ -84,6 +93,9 @@ VALUES (5383, 12, True)
      , (5383, 14, True)
      , (5383, 19, True)
      , (5383, 1, True);
+
+/* Weenie - MiscFestivalStones - Festival Stone (5393) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5393;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5393, 'festivalstonesnowreap');
@@ -114,6 +126,9 @@ VALUES (5393, 12, True)
      , (5393, 19, True)
      , (5393, 1, True);
 
+/* Weenie - MiscFestivalStones - Festival Stone (5384) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5384;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5384, 'festivalstonemorningthaw');
 
@@ -142,6 +157,9 @@ VALUES (5384, 12, True)
      , (5384, 14, True)
      , (5384, 19, True)
      , (5384, 1, True);
+
+/* Weenie - MiscFestivalStones - Festival Stone (5378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5378;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5378, 'festivalstonemidsong');
@@ -172,6 +190,9 @@ VALUES (5378, 12, True)
      , (5378, 19, True)
      , (5378, 1, True);
 
+/* Weenie - MiscFestivalStones - Festival Stone (5390) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5390;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5390, 'festivalstoneharvestgain');
 
@@ -200,6 +221,9 @@ VALUES (5390, 12, True)
      , (5390, 14, True)
      , (5390, 19, True)
      , (5390, 1, True);
+
+/* Weenie - MiscFestivalStones - Festival Stone (5387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5387;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5387, 'festivalstoneleafdawning');
@@ -230,6 +254,9 @@ VALUES (5387, 12, True)
      , (5387, 19, True)
      , (5387, 1, True);
 
+/* Weenie - MiscFestivalStones - Festival Stone (5389) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5389;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5389, 'festivalstonethistledown');
 
@@ -258,6 +285,9 @@ VALUES (5389, 12, True)
      , (5389, 14, True)
      , (5389, 19, True)
      , (5389, 1, True);
+
+/* Weenie - MiscFestivalStones - Festival Stone (5379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5379;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5379, 'festivalstonewarmtide');
@@ -288,6 +318,9 @@ VALUES (5379, 12, True)
      , (5379, 19, True)
      , (5379, 1, True);
 
+/* Weenie - MiscFestivalStones - Festival Stone (5382) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5382;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5382, 'festivalstonedarktide');
 
@@ -316,6 +349,9 @@ VALUES (5382, 12, True)
      , (5382, 14, True)
      , (5382, 19, True)
      , (5382, 1, True);
+
+/* Weenie - MiscFestivalStones - Festival Stone (5394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5394;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5394, 'festivalstonecoldeve');
@@ -346,6 +382,9 @@ VALUES (5394, 12, True)
      , (5394, 19, True)
      , (5394, 1, True);
 
+/* Weenie - MiscFestivalStones - Festival Stone (5377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5377;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5377, 'festivalstonemorntide');
 
@@ -374,6 +413,9 @@ VALUES (5377, 12, True)
      , (5377, 14, True)
      , (5377, 19, True)
      , (5377, 1, True);
+
+/* Weenie - MiscFestivalStones - Festival Stone (5381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5381;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5381, 'festivalstonegloaming');
@@ -404,6 +446,9 @@ VALUES (5381, 12, True)
      , (5381, 19, True)
      , (5381, 1, True);
 
+/* Weenie - MiscFestivalStones - Festival Stone (5386) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5386;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5386, 'festivalstoneseedsow');
 
@@ -432,6 +477,9 @@ VALUES (5386, 12, True)
      , (5386, 14, True)
      , (5386, 19, True)
      , (5386, 1, True);
+
+/* Weenie - MiscFestivalStones - Festival Stone (5392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5392;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5392, 'festivalstonefrostfell');
@@ -462,6 +510,9 @@ VALUES (5392, 12, True)
      , (5392, 19, True)
      , (5392, 1, True);
 
+/* Weenie - MiscFestivalStones - Festival Stone (5395) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5395;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5395, 'festivalstonewintersebb');
 
@@ -490,6 +541,9 @@ VALUES (5395, 12, True)
      , (5395, 14, True)
      , (5395, 19, True)
      , (5395, 1, True);
+
+/* Weenie - MiscFestivalStones - Festival Stone (5380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5380;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5380, 'festivalstoneevensong');

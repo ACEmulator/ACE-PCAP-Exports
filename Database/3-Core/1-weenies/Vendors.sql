@@ -1,3 +1,6 @@
+/* Weenie - Vendors - Farmer (1383) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1383;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1383, 'farmersho');
 
@@ -83,6 +86,9 @@ VALUES (1383, 2, 16778436)
      , (1383, 4, 16778426)
      , (1383, 8, 16778428);
 
+/* Weenie - Vendors - Janier al-Evv (35730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35730;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35730, 'ace35730-janieralevv');
 
@@ -164,6 +170,9 @@ VALUES (35730, 12, 16777304)
      , (35730, 13, 16783871)
      , (35730, 14, 16783855)
      , (35730, 16, 16785778);
+
+/* Weenie - Vendors - Scrivener of Life Magic (20222) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20222;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20222, 'scrivenerlifeouter');
@@ -248,6 +257,9 @@ VALUES (20222, 10, 16777301)
      , (20222, 4, 16781838)
      , (20222, 8, 16781839);
 
+/* Weenie - Vendors - Scrivener of Creature Magic (20210) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20210;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20210, 'scrivenercreatureouter');
 
@@ -330,6 +342,9 @@ VALUES (20210, 10, 16778431)
      , (20210, 7, 16781840)
      , (20210, 4, 16783485)
      , (20210, 8, 16783487);
+
+/* Weenie - Vendors - Itir ibn Ativ the Barkeep (4678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4678;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4678, 'alarqasbarkeeper');
@@ -419,6 +434,9 @@ VALUES (4678, 12, 16778423)
      , (4678, 4, 16781855)
      , (4678, 8, 16781859)
      , (4678, 16, 16778594);
+
+/* Weenie - Vendors - Shopkeep Qufar ibn Ijtalwa (4685) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4685;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4685, 'alarqasshopkeep');
@@ -510,6 +528,9 @@ VALUES (4685, 12, 16777304)
      , (4685, 8, 16781859)
      , (4685, 16, 16778476);
 
+/* Weenie - Vendors - Nu'nifiba the Shopkeeper (4706) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4706;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4706, 'samsurnorthwestoutpostshopkeep');
 
@@ -594,6 +615,9 @@ VALUES (4706, 2, 16778436)
      , (4706, 7, 16777296)
      , (4706, 4, 16781855)
      , (4706, 8, 16781859);
+
+/* Weenie - Vendors - Caranis the Dependable (9615) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9615;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9615, 'bestowervendoralu');
@@ -682,6 +706,9 @@ VALUES (9615, 11, 16777302)
      , (9615, 8, 16777298)
      , (9615, 16, 16779630);
 
+/* Weenie - Vendors - Bowyer Bronwin (651) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 651;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (651, 'easthambowyer');
 
@@ -766,6 +793,9 @@ VALUES (651, 11, 16777302)
      , (651, 7, 16781840)
      , (651, 4, 16781838)
      , (651, 8, 16781839);
+
+/* Weenie - Vendors - Aderma the Lapidary (655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 655;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (655, 'easthamjeweler');
@@ -853,6 +883,9 @@ VALUES (655, 11, 16778429)
      , (655, 4, 16778426)
      , (655, 8, 16778428)
      , (655, 16, 16779630);
+
+/* Weenie - Vendors - Sodyla Thurmad the Healer (653) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 653;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (653, 'easthamhealer');
@@ -942,6 +975,9 @@ VALUES (653, 11, 16778429)
      , (653, 8, 16778428)
      , (653, 16, 16779635);
 
+/* Weenie - Vendors - Belbeca the Archmage (2302) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2302;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2302, 'easthamarchmage');
 
@@ -1027,6 +1063,9 @@ VALUES (2302, 11, 16778429)
      , (2302, 4, 16778426)
      , (2302, 8, 16778428);
 
+/* Weenie - Vendors - Byrdara the Barkeeper (648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 648;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (648, 'easthambarkeeper');
 
@@ -1110,6 +1149,9 @@ VALUES (648, 2, 16778436)
      , (648, 4, 16778426)
      , (648, 8, 16778428);
 
+/* Weenie - Vendors - Cynsela the Tailor (658) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 658;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (658, 'easthamtailor');
 
@@ -1192,6 +1234,9 @@ VALUES (658, 2, 16778436)
      , (658, 7, 16778360)
      , (658, 4, 16778426)
      , (658, 8, 16778428);
+
+/* Weenie - Vendors - Grocer Parsal (652) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 652;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (652, 'easthamgrocer');
@@ -1283,6 +1328,9 @@ VALUES (652, 12, 16777304)
      , (652, 8, 16777298)
      , (652, 16, 16779635);
 
+/* Weenie - Vendors - Degel Parson the Scrivener (654) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 654;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (654, 'easthamscribe');
 
@@ -1373,6 +1421,9 @@ VALUES (654, 12, 16777304)
      , (654, 8, 16777298)
      , (654, 16, 16779635);
 
+/* Weenie - Vendors - Getram the Armorer (649) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 649;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (649, 'easthamblacksmith');
 
@@ -1456,6 +1507,9 @@ VALUES (649, 10, 16777301)
      , (649, 4, 16777291)
      , (649, 8, 16777298);
 
+/* Weenie - Vendors - Rundiscar the Weaponsmith (650) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 650;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (650, 'easthamblacksmith2');
 
@@ -1536,6 +1590,9 @@ VALUES (650, 2, 16777293)
      , (650, 7, 16777296)
      , (650, 4, 16777291)
      , (650, 8, 16777298);
+
+/* Weenie - Vendors - Farnum the Provisioner (656) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 656;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (656, 'easthamshopkeep');
@@ -1622,6 +1679,9 @@ VALUES (656, 10, 16778431)
      , (656, 8, 16783487)
      , (656, 16, 16779630);
 
+/* Weenie - Vendors - Scrivener of War Magic (20226) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20226;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20226, 'scrivenerwarouter');
 
@@ -1704,6 +1764,9 @@ VALUES (20226, 10, 16778431)
      , (20226, 7, 16781840)
      , (20226, 4, 16783485)
      , (20226, 8, 16783487);
+
+/* Weenie - Vendors - Scrivener of Item Magic (20214) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20214;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20214, 'scriveneritemouter');
@@ -1788,6 +1851,9 @@ VALUES (20214, 10, 16777301)
      , (20214, 4, 16781838)
      , (20214, 8, 16781839);
 
+/* Weenie - Vendors - Barkeeper Creighton (42801) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42801;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42801, 'ace42801-barkeepercreighton');
 
@@ -1869,6 +1935,9 @@ VALUES (42801, 10, 16777301)
      , (42801, 7, 16781840)
      , (42801, 4, 16781838)
      , (42801, 8, 16781839);
+
+/* Weenie - Vendors - Barkeeper Edsel (42800) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42800;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42800, 'ace42800-barkeeperedsel');
@@ -1952,6 +2021,9 @@ VALUES (42800, 10, 16778431)
      , (42800, 4, 16783485)
      , (42800, 8, 16783487);
 
+/* Weenie - Vendors - Barkeeper AmberJill (42799) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42799;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42799, 'ace42799-barkeeperamberjill');
 
@@ -2033,6 +2105,9 @@ VALUES (42799, 10, 16778431)
      , (42799, 7, 16781840)
      , (42799, 4, 16783485)
      , (42799, 8, 16783487);
+
+/* Weenie - Vendors - Barkeep Devra (42803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42803;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42803, 'ace42803-barkeepdevra');
@@ -2117,6 +2192,9 @@ VALUES (42803, 10, 16778431)
      , (42803, 4, 16783485)
      , (42803, 8, 16783487);
 
+/* Weenie - Vendors - Barkeep Hosaam (42802) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42802;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42802, 'ace42802-barkeephosaam');
 
@@ -2200,6 +2278,9 @@ VALUES (42802, 10, 16777301)
      , (42802, 4, 16781838)
      , (42802, 8, 16781839);
 
+/* Weenie - Vendors - Barkeep Jauhar (42804) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42804;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42804, 'ace42804-barkeepjauhar');
 
@@ -2282,6 +2363,9 @@ VALUES (42804, 10, 16777301)
      , (42804, 7, 16781840)
      , (42804, 4, 16781838)
      , (42804, 8, 16781839);
+
+/* Weenie - Vendors - Xiao Hong the Barkeeper (42810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42810;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42810, 'ace42810-xiaohongthebarkeeper');
@@ -2372,6 +2456,9 @@ VALUES (42810, 11, 16778429)
      , (42810, 8, 16783487)
      , (42810, 16, 16783954);
 
+/* Weenie - Vendors - Junjie the Barkeeper (42809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42809;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42809, 'ace42809-junjiethebarkeeper');
 
@@ -2456,6 +2543,9 @@ VALUES (42809, 11, 16777302)
      , (42809, 7, 16781840)
      , (42809, 4, 16781838)
      , (42809, 8, 16781839);
+
+/* Weenie - Vendors - Hanadi the Barkeeper (42808) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42808;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42808, 'ace42808-hanadithebarkeeper');
@@ -2542,6 +2632,9 @@ VALUES (42808, 11, 16778429)
      , (42808, 4, 16783485)
      , (42808, 8, 16783487);
 
+/* Weenie - Vendors - Barkeeper Rafaele (42807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42807;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42807, 'ace42807-barkeeperrafaele');
 
@@ -2624,6 +2717,9 @@ VALUES (42807, 12, 16777304)
      , (42807, 7, 16791880)
      , (42807, 4, 16791881)
      , (42807, 8, 16791882);
+
+/* Weenie - Vendors - Barkeeper Benedetta (42806) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42806;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42806, 'ace42806-barkeeperbenedetta');
@@ -2709,6 +2805,9 @@ VALUES (42806, 12, 16778423)
      , (42806, 8, 16791882)
      , (42806, 16, 16791893);
 
+/* Weenie - Vendors - Barkeeper Lazzaro (42805) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42805;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42805, 'ace42805-barkeeperlazzaro');
 
@@ -2791,6 +2890,9 @@ VALUES (42805, 12, 16777304)
      , (42805, 7, 16791880)
      , (42805, 4, 16791881)
      , (42805, 8, 16791882);
+
+/* Weenie - Vendors - Wah Chon the Barkeep (4548) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4548;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4548, 'nantobarkeeper');
@@ -2881,6 +2983,9 @@ VALUES (4548, 12, 16778423)
      , (4548, 8, 16778428)
      , (4548, 16, 16779630);
 
+/* Weenie - Vendors - Archmage Jo Ji-Shen (4547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4547;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4547, 'nantoarchmage');
 
@@ -2970,6 +3075,9 @@ VALUES (4547, 12, 16778423)
      , (4547, 8, 16778428)
      , (4547, 16, 16779630);
 
+/* Weenie - Vendors - Ye Te the Bowyer (4550) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4550;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4550, 'nantobowyer');
 
@@ -3052,6 +3160,9 @@ VALUES (4550, 10, 16778431)
      , (4550, 7, 16778360)
      , (4550, 4, 16778426)
      , (4550, 8, 16778428);
+
+/* Weenie - Vendors - Jo Gau the Grocer (4551) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4551;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4551, 'nantogrocer');
@@ -3138,6 +3249,9 @@ VALUES (4551, 11, 16777302)
      , (4551, 4, 16777291)
      , (4551, 8, 16777298);
 
+/* Weenie - Vendors - Wuo Ha the Provisioner (4555) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4555;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4555, 'nantoshopkeep');
 
@@ -3222,6 +3336,9 @@ VALUES (4555, 2, 16777293)
      , (4555, 7, 16777296)
      , (4555, 4, 16777291)
      , (4555, 8, 16777298);
+
+/* Weenie - Vendors - Scribe Lashi Oi (4554) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4554;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4554, 'nantoscribe');
@@ -3308,6 +3425,9 @@ VALUES (4554, 11, 16777302)
      , (4554, 4, 16777291)
      , (4554, 8, 16777298);
 
+/* Weenie - Vendors - Le Ben the Healer (4552) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4552;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4552, 'nantohealer');
 
@@ -3390,6 +3510,9 @@ VALUES (4552, 10, 16778431)
      , (4552, 7, 16778360)
      , (4552, 4, 16778426)
      , (4552, 8, 16778428);
+
+/* Weenie - Vendors - Tailor Yajyi San (4556) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4556;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4556, 'nantotailor');
@@ -3480,6 +3603,9 @@ VALUES (4556, 12, 16777304)
      , (4556, 8, 16781839)
      , (4556, 16, 16779630);
 
+/* Weenie - Vendors - Nun Hong the Jeweler (4553) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4553;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4553, 'nantojeweler');
 
@@ -3562,6 +3688,9 @@ VALUES (4553, 10, 16777301)
      , (4553, 7, 16777296)
      , (4553, 4, 16777291)
      , (4553, 8, 16777298);
+
+/* Weenie - Vendors - Blacksmith Ton Wing (4549) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4549;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4549, 'nantoblacksmith');
@@ -3648,6 +3777,9 @@ VALUES (4549, 11, 16777302)
      , (4549, 4, 16777291)
      , (4549, 8, 16777298);
 
+/* Weenie - Vendors - Wedding Planner (14930) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14930;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14930, 'plannerwedding');
 
@@ -3730,6 +3862,9 @@ VALUES (14930, 12, 16778423)
      , (14930, 6, 16785048)
      , (14930, 7, 16777708)
      , (14930, 8, 16777708);
+
+/* Weenie - Vendors - Journeyman Scrivener of Item Magic (20213) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20213;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20213, 'scriveneriteminner');
@@ -3814,6 +3949,9 @@ VALUES (20213, 10, 16778431)
      , (20213, 4, 16783485)
      , (20213, 8, 16783487);
 
+/* Weenie - Vendors - Journeyman Scrivener of War Magic (20225) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20225;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20225, 'scrivenerwarinner');
 
@@ -3896,6 +4034,9 @@ VALUES (20225, 10, 16777301)
      , (20225, 7, 16781840)
      , (20225, 4, 16781838)
      , (20225, 8, 16781839);
+
+/* Weenie - Vendors - Journeyman Scrivener of Life Magic (20221) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20221;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20221, 'scrivenerlifeinner');
@@ -3980,6 +4121,9 @@ VALUES (20221, 10, 16778431)
      , (20221, 4, 16783485)
      , (20221, 8, 16783487);
 
+/* Weenie - Vendors - Journeyman Scrivener of Creature Magic (20209) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20209;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20209, 'scrivenercreatureinner');
 
@@ -4062,6 +4206,9 @@ VALUES (20209, 10, 16778431)
      , (20209, 7, 16781840)
      , (20209, 4, 16783485)
      , (20209, 8, 16783487);
+
+/* Weenie - Vendors - Kiun Baicho the Barkeeper (2252) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2252;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2252, 'baishibarkeeper');
@@ -4147,6 +4294,9 @@ VALUES (2252, 11, 16778429)
      , (2252, 7, 16781840)
      , (2252, 4, 16783485)
      , (2252, 8, 16783487);
+
+/* Weenie - Vendors - Shopkeep Ginan Wah (2259) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2259;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2259, 'baishishopkeep');
@@ -4235,6 +4385,9 @@ VALUES (2259, 12, 16778423)
      , (2259, 4, 16783485)
      , (2259, 8, 16783487);
 
+/* Weenie - Vendors - Healer Fan Lun-Kou (2256) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2256;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2256, 'baishihealer');
 
@@ -4319,6 +4472,9 @@ VALUES (2256, 10, 16778431)
      , (2256, 4, 16783485)
      , (2256, 8, 16783487)
      , (2256, 16, 16779630);
+
+/* Weenie - Vendors - Tailor Zhoyong Wa-son (2260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2260;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2260, 'baishitailor');
@@ -4409,6 +4565,9 @@ VALUES (2260, 12, 16777304)
      , (2260, 8, 16781839)
      , (2260, 16, 16779630);
 
+/* Weenie - Vendors - Nuru Misho the Jeweler (2257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2257;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2257, 'baishijeweler');
 
@@ -4496,6 +4655,9 @@ VALUES (2257, 11, 16777302)
      , (2257, 8, 16777298)
      , (2257, 16, 16779630);
 
+/* Weenie - Vendors - Bowyer Jyi Zhente (2254) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2254;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2254, 'baishibowyer');
 
@@ -4576,6 +4738,9 @@ VALUES (2254, 2, 16778436)
      , (2254, 7, 16778360)
      , (2254, 4, 16778426)
      , (2254, 8, 16778428);
+
+/* Weenie - Vendors - Denki Sokuto the Scribe (2258) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2258;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2258, 'baishiscribe');
@@ -4664,6 +4829,9 @@ VALUES (2258, 11, 16778429)
      , (2258, 8, 16783487)
      , (2258, 16, 16779630);
 
+/* Weenie - Vendors - Spice Merchant Chiani (6082) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6082;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6082, 'baishispicemerchant');
 
@@ -4750,6 +4918,9 @@ VALUES (6082, 12, 16778423)
      , (6082, 7, 16781840)
      , (6082, 4, 16783485)
      , (6082, 8, 16783487);
+
+/* Weenie - Vendors - Muoyen Han the Grocer (2255) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2255;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2255, 'baishigrocer');
@@ -4838,6 +5009,9 @@ VALUES (2255, 11, 16777302)
      , (2255, 8, 16781839)
      , (2255, 16, 16779630);
 
+/* Weenie - Vendors - Lobu Shui the Armorer (2251) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2251;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2251, 'baishiarmorer');
 
@@ -4921,6 +5095,9 @@ VALUES (2251, 10, 16777301)
      , (2251, 4, 16777291)
      , (2251, 8, 16777298);
 
+/* Weenie - Vendors - Shen Ai-Shen the Weaponsmith (2261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2261;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2261, 'baishiweaponsmith');
 
@@ -5001,6 +5178,9 @@ VALUES (2261, 2, 16777293)
      , (2261, 7, 16777296)
      , (2261, 4, 16777291)
      , (2261, 8, 16777298);
+
+/* Weenie - Vendors - Magus Ku Min (2250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2250;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2250, 'baishiarchmage');
@@ -5091,6 +5271,9 @@ VALUES (2250, 12, 16778423)
      , (2250, 8, 16778428)
      , (2250, 16, 16779630);
 
+/* Weenie - Vendors - Healer Kai Tonweh (816) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 816;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (816, 'yanshihealer');
 
@@ -5173,6 +5356,9 @@ VALUES (816, 10, 16778431)
      , (816, 7, 16781840)
      , (816, 4, 16783485)
      , (816, 8, 16783487);
+
+/* Weenie - Vendors - Kai Go-Sou the Scribe (819) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 819;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (819, 'yanshiscribe');
@@ -5258,6 +5444,9 @@ VALUES (819, 11, 16778429)
      , (819, 7, 16778360)
      , (819, 4, 16778426)
      , (819, 8, 16778428);
+
+/* Weenie - Vendors - Master Sonji Pan, Archmage (809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 809;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (809, 'yanshiarchmage');
@@ -5348,6 +5537,9 @@ VALUES (809, 12, 16777304)
      , (809, 8, 16777298)
      , (809, 16, 16779630);
 
+/* Weenie - Vendors - Grocer Nan-Yu-Yenbuto (815) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 815;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (815, 'yanshigrocer');
 
@@ -5432,6 +5624,9 @@ VALUES (815, 11, 16777302)
      , (815, 7, 16781840)
      , (815, 4, 16781838)
      , (815, 8, 16781839);
+
+/* Weenie - Vendors - Shin Ou-Ye the Shopkeep (820) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 820;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (820, 'yanshishopkeep');
@@ -5522,6 +5717,9 @@ VALUES (820, 12, 16777304)
      , (820, 8, 16781839)
      , (820, 16, 16779630);
 
+/* Weenie - Vendors - Jeweler Ryuhan Wu (817) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 817;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (817, 'yanshijeweler');
 
@@ -5604,6 +5802,9 @@ VALUES (817, 10, 16778431)
      , (817, 7, 16778360)
      , (817, 4, 16778426)
      , (817, 8, 16778428);
+
+/* Weenie - Vendors - Zan Wa-Shabu the Tailor (821) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 821;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (821, 'yanshitailor');
@@ -5693,6 +5894,9 @@ VALUES (821, 12, 16778423)
      , (821, 8, 16778428)
      , (821, 16, 16779630);
 
+/* Weenie - Vendors - Wedding Planner (21340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21340;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21340, 'plannerweddingyanshidestroyed');
 
@@ -5775,6 +5979,9 @@ VALUES (21340, 12, 16778423)
      , (21340, 6, 16785048)
      , (21340, 7, 16777708)
      , (21340, 8, 16777708);
+
+/* Weenie - Vendors - Barkeep Bai Yao Feng (810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 810;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (810, 'yanshibarkeeper');
@@ -5865,6 +6072,9 @@ VALUES (810, 12, 16778423)
      , (810, 8, 16778428)
      , (810, 16, 16779630);
 
+/* Weenie - Vendors - Nu Sha the Weaponsmith (813) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 813;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (813, 'yanshiblacksmith2');
 
@@ -5952,6 +6162,9 @@ VALUES (813, 11, 16777302)
      , (813, 8, 16781839)
      , (813, 16, 16779630);
 
+/* Weenie - Vendors - Wah Fo-Za the Armorer (812) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 812;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (812, 'yanshiblacksmith');
 
@@ -6035,6 +6248,9 @@ VALUES (812, 10, 16778431)
      , (812, 4, 16778426)
      , (812, 8, 16778428);
 
+/* Weenie - Vendors - Ribusha Sennei the Bowyer (814) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 814;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (814, 'yanshibowyer');
 
@@ -6117,6 +6333,9 @@ VALUES (814, 10, 16777301)
      , (814, 7, 16777296)
      , (814, 4, 16777291)
      , (814, 8, 16777298);
+
+/* Weenie - Vendors - Wandering Bowyer (1380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1380;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1380, 'bowyersho');
@@ -6207,6 +6426,9 @@ VALUES (1380, 12, 16777304)
      , (1380, 8, 16781839)
      , (1380, 16, 16778414);
 
+/* Weenie - Vendors - Beldin the Gem Dealer (33249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33249;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33249, 'ace33249-beldinthegemdealer');
 
@@ -6287,6 +6509,9 @@ VALUES (33249, 12, 16777304)
      , (33249, 11, 16783853)
      , (33249, 13, 16783871)
      , (33249, 14, 16783855);
+
+/* Weenie - Vendors - Bukai Fu-ya the Bowyer (2295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2295;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2295, 'sawatobowyer');
@@ -6372,6 +6597,9 @@ VALUES (2295, 11, 16777302)
      , (2295, 7, 16781840)
      , (2295, 4, 16781838)
      , (2295, 8, 16781839);
+
+/* Weenie - Vendors - Grocer Pon Hau-jo (2296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2296;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2296, 'sawatogrocer');
@@ -6462,6 +6690,9 @@ VALUES (2296, 12, 16777304)
      , (2296, 8, 16781839)
      , (2296, 16, 16779630);
 
+/* Weenie - Vendors - To-ping Ra the Tailor (2301) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2301;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2301, 'sawatotailor');
 
@@ -6551,6 +6782,9 @@ VALUES (2301, 12, 16778423)
      , (2301, 8, 16783487)
      , (2301, 16, 16779630);
 
+/* Weenie - Vendors - Ite Kenzen the Barkeeper (2291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2291;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2291, 'sawatobarkeeper');
 
@@ -6638,6 +6872,9 @@ VALUES (2291, 11, 16777302)
      , (2291, 8, 16777298)
      , (2291, 16, 16779630);
 
+/* Weenie - Vendors - Son Jaiken the Armorer (2294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2294;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2294, 'sawatoblacksmith2');
 
@@ -6722,6 +6959,9 @@ VALUES (2294, 11, 16778429)
      , (2294, 4, 16783485)
      , (2294, 8, 16783487);
 
+/* Weenie - Vendors - Tong La-chin the Weaponsmith (2293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2293;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2293, 'sawatoblacksmith');
 
@@ -6804,6 +7044,9 @@ VALUES (2293, 2, 16778436)
      , (2293, 4, 16778426)
      , (2293, 8, 16778428)
      , (2293, 16, 16779630);
+
+/* Weenie - Vendors - Archmage Tawa Matema (2290) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2290;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2290, 'sawatoarchmage');
@@ -6892,6 +7135,9 @@ VALUES (2290, 12, 16777304)
      , (2290, 4, 16777291)
      , (2290, 8, 16777298);
 
+/* Weenie - Vendors - Hiruhi Fensen the Scribe (2299) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2299;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2299, 'sawatoscribe');
 
@@ -6977,6 +7223,9 @@ VALUES (2299, 11, 16777302)
      , (2299, 4, 16777291)
      , (2299, 8, 16777298);
 
+/* Weenie - Vendors - Healer Xidan Fensen (2297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2297;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2297, 'sawatohealer');
 
@@ -7057,6 +7306,9 @@ VALUES (2297, 2, 16778436)
      , (2297, 7, 16778360)
      , (2297, 4, 16778426)
      , (2297, 8, 16778428);
+
+/* Weenie - Vendors - Shopkeep Yunen Ye (2300) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2300;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2300, 'sawatoshopkeep');
@@ -7144,6 +7396,9 @@ VALUES (2300, 12, 16777304)
      , (2300, 7, 16781840)
      , (2300, 4, 16781838)
      , (2300, 8, 16781839);
+
+/* Weenie - Vendors - Chueh Kaigin the Jeweler (2298) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2298;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2298, 'sawatojeweler');
@@ -7233,6 +7488,9 @@ VALUES (2298, 12, 16778423)
      , (2298, 4, 16778426)
      , (2298, 8, 16778428)
      , (2298, 16, 16779630);
+
+/* Weenie - Vendors - Lin Hanza the Bowyer (8494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8494;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8494, 'freeholdbowyer');
@@ -7324,6 +7582,9 @@ VALUES (8494, 11, 16778429)
      , (8494, 8, 16783487)
      , (8494, 16, 16783954);
 
+/* Weenie - Vendors - Weaponsmith Bornak the Crookblade (8496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8496;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8496, 'freeholdweaponsmith');
 
@@ -7408,6 +7669,9 @@ VALUES (8496, 10, 16777301)
      , (8496, 7, 16781840)
      , (8496, 4, 16781838)
      , (8496, 8, 16781839);
+
+/* Weenie - Vendors - Provisioner Warster the Handy (8495) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8495;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8495, 'freeholdshopkeep');
@@ -7502,6 +7766,9 @@ VALUES (8495, 12, 16777304)
      , (8495, 8, 16781839)
      , (8495, 16, 16779630);
 
+/* Weenie - Vendors - Jesren the Jolly Barkeep (8493) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8493;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8493, 'freeholdbarkeep');
 
@@ -7592,6 +7859,9 @@ VALUES (8493, 12, 16777304)
      , (8493, 4, 16781838)
      , (8493, 8, 16781839);
 
+/* Weenie - Vendors - Kaza Nijina the Archmage (8492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8492;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8492, 'freeholdarchmage');
 
@@ -7681,6 +7951,9 @@ VALUES (8492, 11, 16778429)
      , (8492, 4, 16783485)
      , (8492, 8, 16783487);
 
+/* Weenie - Vendors - Weaponsmith Illic Ibn'Abulfiq (8440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8440;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8440, 'krystweaponsmith');
 
@@ -7759,6 +8032,9 @@ VALUES (8440, 2, 16777293)
      , (8440, 7, 16777296)
      , (8440, 4, 16777291)
      , (8440, 8, 16777298);
+
+/* Weenie - Vendors - Vanten the Archmage (8432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8432;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8432, 'krystarchmage');
@@ -7842,6 +8118,9 @@ VALUES (8432, 12, 16777304)
      , (8432, 14, 16783855)
      , (8432, 16, 16783891);
 
+/* Weenie - Vendors - Armorer Padira Yukinara (8433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8433;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8433, 'krystarmorer');
 
@@ -7924,6 +8203,9 @@ VALUES (8433, 10, 16778431)
      , (8433, 7, 16781840)
      , (8433, 4, 16783485)
      , (8433, 8, 16783487);
+
+/* Weenie - Vendors - Barkeep Brita the Boisterous (8434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8434;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8434, 'krystbarkeep');
@@ -8009,6 +8291,9 @@ VALUES (8434, 11, 16778429)
      , (8434, 7, 16777296)
      , (8434, 4, 16781855)
      , (8434, 8, 16781859);
+
+/* Weenie - Vendors - Jeweler Imad Nedjim (8437) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8437;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8437, 'krystjeweler');
@@ -8100,6 +8385,9 @@ VALUES (8437, 12, 16777304)
      , (8437, 8, 16781859)
      , (8437, 16, 16783901);
 
+/* Weenie - Vendors - Kamira Mohonoko the Provisioner (8438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8438;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8438, 'krystprovisioner');
 
@@ -8184,6 +8472,9 @@ VALUES (8438, 2, 16778436)
      , (8438, 7, 16777296)
      , (8438, 4, 16781855)
      , (8438, 8, 16781859);
+
+/* Weenie - Vendors - Sharon the Skilled, Bowyer (8435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8435;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8435, 'krystbowyer');
@@ -8275,6 +8566,9 @@ VALUES (8435, 12, 16778423)
      , (8435, 8, 16783487)
      , (8435, 16, 16779635);
 
+/* Weenie - Vendors - Healer Sanami Siohiro (8436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8436;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8436, 'krysthealer');
 
@@ -8355,6 +8649,9 @@ VALUES (8436, 2, 16778436)
      , (8436, 7, 16778360)
      , (8436, 4, 16778426)
      , (8436, 8, 16778428);
+
+/* Weenie - Vendors - Natalie the Scribe (8439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8439;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8439, 'krystscribe');
@@ -8438,6 +8735,9 @@ VALUES (8439, 2, 16778436)
      , (8439, 4, 16781855)
      , (8439, 8, 16781859)
      , (8439, 16, 16783901);
+
+/* Weenie - Vendors - Tatuso of Kara (27247) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27247;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27247, 'karabowyer');
@@ -8528,6 +8828,9 @@ VALUES (27247, 12, 16777304)
      , (27247, 8, 16781839)
      , (27247, 16, 16778414);
 
+/* Weenie - Vendors - Grand Master Scrivener of War Magic (20224) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20224;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20224, 'scrivenerwarextreme');
 
@@ -8610,6 +8913,9 @@ VALUES (20224, 10, 16778431)
      , (20224, 7, 16781840)
      , (20224, 4, 16783485)
      , (20224, 8, 16783487);
+
+/* Weenie - Vendors - Archmage Kiko of Kara  (2537) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2537;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2537, 'karaarchmage');
@@ -8694,6 +9000,9 @@ VALUES (2537, 10, 16778431)
      , (2537, 4, 16778426)
      , (2537, 8, 16778428);
 
+/* Weenie - Vendors - Grand Master Scrivener of Creature Magic (20208) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20208;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20208, 'scrivenercreatureextreme');
 
@@ -8776,6 +9085,9 @@ VALUES (20208, 10, 16777301)
      , (20208, 7, 16781840)
      , (20208, 4, 16781838)
      , (20208, 8, 16781839);
+
+/* Weenie - Vendors - Grand Master Scrivener of Life Magic (20220) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20220;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20220, 'scrivenerlifeextreme');
@@ -8860,6 +9172,9 @@ VALUES (20220, 10, 16778431)
      , (20220, 4, 16783485)
      , (20220, 8, 16783487);
 
+/* Weenie - Vendors - Grand Master Scrivener of Item Magic (20212) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20212;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20212, 'scriveneritemextreme');
 
@@ -8943,6 +9258,9 @@ VALUES (20212, 10, 16778431)
      , (20212, 4, 16783485)
      , (20212, 8, 16783487);
 
+/* Weenie - Vendors - Kuhira of Kara (27246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27246;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27246, 'karaarmorer');
 
@@ -9024,6 +9342,9 @@ VALUES (27246, 2, 16777293)
      , (27246, 7, 16777296)
      , (27246, 4, 16781855)
      , (27246, 8, 16781859);
+
+/* Weenie - Vendors - Healer Kana of Kara (2538) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2538;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2538, 'karahealer');
@@ -9108,6 +9429,9 @@ VALUES (2538, 2, 16778436)
      , (2538, 8, 16778428)
      , (2538, 16, 16779630);
 
+/* Weenie - Vendors - Shopkeep Kuro of Kara  (2536) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2536;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2536, 'karashopkeep');
 
@@ -9190,6 +9514,9 @@ VALUES (2536, 10, 16777301)
      , (2536, 7, 16781840)
      , (2536, 4, 16781838)
      , (2536, 8, 16781839);
+
+/* Weenie - Vendors - Koro of Kara, Farmer (2539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2539;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2539, 'karafarmer');
@@ -9278,6 +9605,9 @@ VALUES (2539, 12, 16777304)
      , (2539, 4, 16777291)
      , (2539, 8, 16777298);
 
+/* Weenie - Vendors - Jubei's Apprentice Craftsman (12243) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12243;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12243, 'furniturevendorsho');
 
@@ -9362,6 +9692,9 @@ VALUES (12243, 2, 16777293)
      , (12243, 7, 16777296)
      , (12243, 4, 16777291)
      , (12243, 8, 16777298);
+
+/* Weenie - Vendors - Archmage Anyao Zai (857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 857;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (857, 'hebianarchmage2');
@@ -9450,6 +9783,9 @@ VALUES (857, 12, 16777304)
      , (857, 4, 16777291)
      , (857, 8, 16777298);
 
+/* Weenie - Vendors - Ran Le the Librarian (2044) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2044;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2044, 'hebianlibrarian');
 
@@ -9533,6 +9869,9 @@ VALUES (2044, 2, 16778436)
      , (2044, 4, 16778426)
      , (2044, 8, 16778428);
 
+/* Weenie - Vendors - Archmage Shikiru Nohon (856) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 856;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (856, 'hebianarchmage');
 
@@ -9615,6 +9954,9 @@ VALUES (856, 2, 16777293)
      , (856, 4, 16777291)
      , (856, 8, 16777298)
      , (856, 16, 16779630);
+
+/* Weenie - Vendors - Muozhen Wa the Jeweler (868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 868;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (868, 'hebianjeweler');
@@ -9705,6 +10047,9 @@ VALUES (868, 12, 16778423)
      , (868, 8, 16778428)
      , (868, 16, 16779630);
 
+/* Weenie - Vendors - Tailor Chueh Jian (870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 870;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (870, 'hebiantailor');
 
@@ -9794,6 +10139,9 @@ VALUES (870, 12, 16777304)
      , (870, 8, 16781839)
      , (870, 16, 16779630);
 
+/* Weenie - Vendors - Barkeeper Fo Ya-Un (859) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 859;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (859, 'hebianbarkeeper');
 
@@ -9878,6 +10226,9 @@ VALUES (859, 11, 16777302)
      , (859, 7, 16781840)
      , (859, 4, 16781838)
      , (859, 8, 16781839);
+
+/* Weenie - Vendors - Kento Do the Grocer (866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 866;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (866, 'hebiangrocer2');
@@ -9964,6 +10315,9 @@ VALUES (866, 10, 16777301)
      , (866, 8, 16781839)
      , (866, 16, 16779630);
 
+/* Weenie - Vendors - Goro Yu-Ban the Provisioner (865) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 865;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (865, 'hebiangrocer');
 
@@ -10047,6 +10401,9 @@ VALUES (865, 2, 16778436)
      , (865, 4, 16778426)
      , (865, 8, 16778428);
 
+/* Weenie - Vendors - Lai Konsho the Armorsmith (862) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 862;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (862, 'hebianblacksmith');
 
@@ -10127,6 +10484,9 @@ VALUES (862, 2, 16777293)
      , (862, 7, 16777296)
      , (862, 4, 16777291)
      , (862, 8, 16777298);
+
+/* Weenie - Vendors - Fenza Tan the Scribe (869) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 869;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (869, 'hebianscribe');
@@ -10210,6 +10570,9 @@ VALUES (869, 2, 16778436)
      , (869, 7, 16778360)
      , (869, 4, 16778426)
      , (869, 8, 16778428);
+
+/* Weenie - Vendors - Aldera Brunall Weaponsmith (871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 871;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (871, 'hebianweaponsmith');
@@ -10296,6 +10659,9 @@ VALUES (871, 11, 16778429)
      , (871, 4, 16783485)
      , (871, 8, 16783487);
 
+/* Weenie - Vendors - Barkeeper Chon Nuo (860) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 860;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (860, 'hebianbarkeeper2');
 
@@ -10378,6 +10744,9 @@ VALUES (860, 2, 16778436)
      , (860, 4, 16778426)
      , (860, 8, 16778428)
      , (860, 16, 16779630);
+
+/* Weenie - Vendors - Rayyib al-Afij the Armorer (858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 858;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (858, 'hebianarmorer');
@@ -10466,6 +10835,9 @@ VALUES (858, 11, 16777302)
      , (858, 8, 16777298)
      , (858, 16, 16778594);
 
+/* Weenie - Vendors - Kouxao Ei the Healer (867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 867;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (867, 'hebianhealer');
 
@@ -10548,6 +10920,9 @@ VALUES (867, 10, 16778431)
      , (867, 7, 16778360)
      , (867, 4, 16778426)
      , (867, 8, 16778428);
+
+/* Weenie - Vendors - Yatenyu Zhuong the Bowyer (864) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 864;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (864, 'hebianbowyer');
@@ -10637,6 +11012,9 @@ VALUES (864, 12, 16777304)
      , (864, 8, 16781839)
      , (864, 16, 16779630);
 
+/* Weenie - Vendors - Apprentice Scrivener of Life Magic (20217) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20217;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20217, 'scrivenerlife1starter');
 
@@ -10719,6 +11097,9 @@ VALUES (20217, 10, 16777301)
      , (20217, 7, 16781840)
      , (20217, 4, 16781838)
      , (20217, 8, 16781839);
+
+/* Weenie - Vendors - Apprentice Scrivener of Life Magic (20218) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20218;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20218, 'scrivenerlife2starter');
@@ -10803,6 +11184,9 @@ VALUES (20218, 10, 16778431)
      , (20218, 4, 16783485)
      , (20218, 8, 16783487);
 
+/* Weenie - Vendors - Apprentice Scrivener of Item and War Magic (20215) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20215;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20215, 'scriveneritemwar1starter');
 
@@ -10885,6 +11269,9 @@ VALUES (20215, 10, 16777301)
      , (20215, 7, 16781840)
      , (20215, 4, 16781838)
      , (20215, 8, 16781839);
+
+/* Weenie - Vendors - Apprentice Scrivener of Item and War Magic (20216) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20216;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20216, 'scriveneritemwar2starter');
@@ -10969,6 +11356,9 @@ VALUES (20216, 10, 16778431)
      , (20216, 4, 16783485)
      , (20216, 8, 16783487);
 
+/* Weenie - Vendors - Apprentice Scrivener of Creature Magic (20206) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20206;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20206, 'scrivenercreature2starter');
 
@@ -11052,6 +11442,9 @@ VALUES (20206, 10, 16777301)
      , (20206, 4, 16781838)
      , (20206, 8, 16781839);
 
+/* Weenie - Vendors - Apprentice Scrivener of Creature Magic (20205) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20205;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20205, 'scrivenercreature1starter');
 
@@ -11134,6 +11527,9 @@ VALUES (20205, 10, 16778431)
      , (20205, 7, 16781840)
      , (20205, 4, 16783485)
      , (20205, 8, 16783487);
+
+/* Weenie - Vendors - Naba Ko-Zin (9617) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9617;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9617, 'bestowervendorsho');
@@ -11224,6 +11620,9 @@ VALUES (9617, 11, 16778429)
      , (9617, 8, 16778428)
      , (9617, 16, 16783954);
 
+/* Weenie - Vendors - Healer Kai Kou (4543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4543;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4543, 'linhealer');
 
@@ -11306,6 +11705,9 @@ VALUES (4543, 10, 16778431)
      , (4543, 7, 16778360)
      , (4543, 4, 16778426)
      , (4543, 8, 16778428);
+
+/* Weenie - Vendors - Archmage Ta Ban-Yu (4539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4539;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4539, 'linarchmage');
@@ -11396,6 +11798,9 @@ VALUES (4539, 12, 16778423)
      , (4539, 8, 16778428)
      , (4539, 16, 16779630);
 
+/* Weenie - Vendors - Ri-Gau Ro the Bowyer (4542) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4542;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4542, 'linbowyer');
 
@@ -11483,6 +11888,9 @@ VALUES (4542, 12, 16777304)
      , (4542, 4, 16781838)
      , (4542, 8, 16781839);
 
+/* Weenie - Vendors - Tekai Shou the Scribe (4545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4545;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4545, 'linscribe');
 
@@ -11565,6 +11973,9 @@ VALUES (4545, 2, 16778436)
      , (4545, 7, 16778360)
      , (4545, 4, 16778426)
      , (4545, 8, 16778428);
+
+/* Weenie - Vendors - Lo Ma the Jeweler (4544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4544;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4544, 'linjeweler');
@@ -11655,6 +12066,9 @@ VALUES (4544, 12, 16777304)
      , (4544, 8, 16777298)
      , (4544, 16, 16779630);
 
+/* Weenie - Vendors - Bu-Chi Long the Armorer (4540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4540;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4540, 'linarmorer');
 
@@ -11735,6 +12149,9 @@ VALUES (4540, 2, 16777293)
      , (4540, 7, 16777296)
      , (4540, 4, 16777291)
      , (4540, 8, 16777298);
+
+/* Weenie - Vendors - To Za-I the Weaponsmith (4546) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4546;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4546, 'linweaponsmith');
@@ -11821,6 +12238,9 @@ VALUES (4546, 11, 16778429)
      , (4546, 4, 16778426)
      , (4546, 8, 16778428);
 
+/* Weenie - Vendors - Vuo Nin the Barkeep (4541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4541;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4541, 'linbarkeeper');
 
@@ -11906,6 +12326,9 @@ VALUES (4541, 11, 16777302)
      , (4541, 4, 16777291)
      , (4541, 8, 16777298);
 
+/* Weenie - Vendors - Archmage Yuzai Zhen (795) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 795;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (795, 'mayoiarchmage');
 
@@ -11988,6 +12411,9 @@ VALUES (795, 10, 16778431)
      , (795, 7, 16778360)
      , (795, 4, 16778426)
      , (795, 8, 16778428);
+
+/* Weenie - Vendors - Jeweler Liman Pon (801) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 801;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (801, 'mayoijeweler');
@@ -12078,6 +12504,9 @@ VALUES (801, 12, 16777304)
      , (801, 8, 16781839)
      , (801, 16, 16779630);
 
+/* Weenie - Vendors - Xi Hau-Lai the Weaponsmith (802) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 802;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (802, 'mayoiweaponsmith');
 
@@ -12159,6 +12588,9 @@ VALUES (802, 2, 16777293)
      , (802, 4, 16777291)
      , (802, 8, 16777298);
 
+/* Weenie - Vendors - Fen Hau-Lai the Armorer (1146) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1146;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1146, 'mayoiarmorer');
 
@@ -12239,6 +12671,9 @@ VALUES (1146, 2, 16777293)
      , (1146, 7, 16777296)
      , (1146, 4, 16777291)
      , (1146, 8, 16777298);
+
+/* Weenie - Vendors - Shui Tentou the Bowyer (798) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 798;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (798, 'mayoibowyer');
@@ -12325,6 +12760,9 @@ VALUES (798, 11, 16778429)
      , (798, 4, 16783485)
      , (798, 8, 16783487);
 
+/* Weenie - Vendors - Grocer Riku Ryu (799) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 799;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (799, 'mayoigrocer');
 
@@ -12405,6 +12843,9 @@ VALUES (799, 2, 16778436)
      , (799, 7, 16778360)
      , (799, 4, 16778426)
      , (799, 8, 16778428);
+
+/* Weenie - Vendors - Tailor Ka Shen-Ku (1145) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1145;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1145, 'mayoitailor');
@@ -12493,6 +12934,9 @@ VALUES (1145, 11, 16777302)
      , (1145, 8, 16781839)
      , (1145, 16, 16779630);
 
+/* Weenie - Vendors - Te Kenten the Barkeep (796) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 796;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (796, 'mayoibarkeeper');
 
@@ -12578,6 +13022,9 @@ VALUES (796, 11, 16777302)
      , (796, 4, 16777291)
      , (796, 8, 16777298);
 
+/* Weenie - Vendors - Healer Tonsho Ha (800) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 800;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (800, 'mayoihealer');
 
@@ -12661,6 +13108,9 @@ VALUES (800, 2, 16777293)
      , (800, 8, 16777298)
      , (800, 16, 16779630);
 
+/* Weenie - Vendors - Oneros the Gem Seller (9422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9422;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9422, 'nantolugiangemseller');
 
@@ -12718,6 +13168,9 @@ VALUES (9422, 0, 16785699)
      , (9422, 12, 16785701)
      , (9422, 19, 16777708)
      , (9422, 20, 16777708);
+
+/* Weenie - Vendors - Tailor Ma Shih (843) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 843;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (843, 'shoushitailor');
@@ -12810,6 +13263,9 @@ VALUES (843, 12, 16778423)
      , (843, 8, 16778428)
      , (843, 16, 16783954);
 
+/* Weenie - Vendors - Ven Ounan the Blacksmith (835) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 835;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (835, 'shoushiblacksmith');
 
@@ -12890,6 +13346,9 @@ VALUES (835, 2, 16778436)
      , (835, 7, 16778360)
      , (835, 4, 16778426)
      , (835, 8, 16778428);
+
+/* Weenie - Vendors - Ai Konaji the Jeweler (839) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 839;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (839, 'shoushijeweler');
@@ -12978,6 +13437,9 @@ VALUES (839, 12, 16777304)
      , (839, 4, 16781838)
      , (839, 8, 16781839);
 
+/* Weenie - Vendors - Brother Gonun the Scribe (840) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 840;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (840, 'shoushiscribe');
 
@@ -13065,6 +13527,9 @@ VALUES (840, 12, 16777304)
      , (840, 4, 16777291)
      , (840, 8, 16777298);
 
+/* Weenie - Vendors - Yaohan Tong the Healer (838) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 838;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (838, 'shoushihealer');
 
@@ -13147,6 +13612,9 @@ VALUES (838, 10, 16777301)
      , (838, 7, 16777296)
      , (838, 4, 16777291)
      , (838, 8, 16777298);
+
+/* Weenie - Vendors - Zhofon No the Bowyer (836) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 836;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (836, 'shoushibowyer');
@@ -13232,6 +13700,9 @@ VALUES (836, 11, 16778429)
      , (836, 7, 16781840)
      , (836, 4, 16783485)
      , (836, 8, 16783487);
+
+/* Weenie - Vendors - Archmage Chen Wah-Ji (831) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 831;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (831, 'shoushiarchmage');
@@ -13323,6 +13794,9 @@ VALUES (831, 12, 16778423)
      , (831, 4, 16778426)
      , (831, 8, 16778428)
      , (831, 16, 16783954);
+
+/* Weenie - Vendors - Sacmisi (49520) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49520;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49520, 'ace49520-sacmisi');
@@ -13419,6 +13893,9 @@ VALUES (49520, 0, 16783897)
      , (49520, 15, 16789333)
      , (49520, 16, 16793463);
 
+/* Weenie - Vendors - Contract Broker (44187) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44187;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44187, 'ace44187-contractbroker');
 
@@ -13505,6 +13982,9 @@ VALUES (44187, 9, 16795213)
      , (44187, 4, 16795223)
      , (44187, 8, 16795224)
      , (44187, 16, 16795218);
+
+/* Weenie - Vendors - Nin Hong the Barkeeper (832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 832;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (832, 'shoushibarkeeper');
@@ -13595,6 +14075,9 @@ VALUES (832, 11, 16778429)
      , (832, 8, 16783487)
      , (832, 16, 16783954);
 
+/* Weenie - Vendors - Hau Ji Tan the Grocer (837) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 837;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (837, 'shoushigrocer');
 
@@ -13681,6 +14164,9 @@ VALUES (837, 10, 16778431)
      , (837, 8, 16783487)
      , (837, 16, 16783954);
 
+/* Weenie - Vendors - Shopkeeper Gonjoku Ryumi (842) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 842;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (842, 'shoushishopkeep');
 
@@ -13764,6 +14250,9 @@ VALUES (842, 10, 16777301)
      , (842, 4, 16781838)
      , (842, 8, 16781839);
 
+/* Weenie - Vendors - Qing (42430) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42430;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42430, 'ace42430-qing');
 
@@ -13845,6 +14334,9 @@ VALUES (42430, 12, 16777304)
      , (42430, 11, 16781822)
      , (42430, 13, 16781868)
      , (42430, 14, 16781821);
+
+/* Weenie - Vendors - Jaikite Sanzen the Barkeeper (834) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 834;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (834, 'shoushibarkeeper3');
@@ -13931,6 +14423,9 @@ VALUES (834, 2, 16777293)
      , (834, 4, 16777291)
      , (834, 8, 16777298);
 
+/* Weenie - Vendors - Scrivener of Void Magic (43354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43354;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43354, 'ace43354-scrivenerofvoidmagic');
 
@@ -14005,6 +14500,9 @@ VALUES (43354, 1, 16777708)
      , (43354, 16, 16795675)
      , (43354, 9, 16777300)
      , (43354, 0, 16781835);
+
+/* Weenie - Vendors - Pawn Shopkeep (12308) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12308;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12308, 'gamblerpawnshopkeep');
@@ -14092,6 +14590,9 @@ VALUES (12308, 12, 16777304)
      , (12308, 7, 16777296)
      , (12308, 4, 16777291)
      , (12308, 8, 16777298);
+
+/* Weenie - Vendors - Haya Su Ka (9506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9506;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9506, 'gamblercashiersho');
@@ -14182,6 +14683,9 @@ VALUES (9506, 11, 16777302)
      , (9506, 8, 16777298)
      , (9506, 16, 16783954);
 
+/* Weenie - Vendors - Oi Ra the Shopkeeper (4559) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4559;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4559, 'shoushisoutheastoutpostshopkeep');
 
@@ -14269,6 +14773,9 @@ VALUES (4559, 12, 16777304)
      , (4559, 4, 16777291)
      , (4559, 8, 16777298);
 
+/* Weenie - Vendors - Magus Guthima the Wise (692) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 692;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (692, 'arwicarchmage');
 
@@ -14354,6 +14861,9 @@ VALUES (692, 11, 16778429)
      , (692, 4, 16778426)
      , (692, 8, 16778428);
 
+/* Weenie - Vendors - Harald the Fletcher (403) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 403;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (403, 'arwicbowyer');
 
@@ -14436,6 +14946,9 @@ VALUES (403, 10, 16777301)
      , (403, 7, 16781840)
      , (403, 4, 16781838)
      , (403, 8, 16781839);
+
+/* Weenie - Vendors - Barkeep Lienne (694) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 694;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (694, 'arwicbarkeeper2');
@@ -14520,6 +15033,9 @@ VALUES (694, 2, 16778436)
      , (694, 4, 16778426)
      , (694, 8, 16778428)
      , (694, 16, 16779635);
+
+/* Weenie - Vendors - Barkeep Mae Lilidag (693) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 693;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (693, 'arwicbarkeeper');
@@ -14606,6 +15122,9 @@ VALUES (693, 11, 16778429)
      , (693, 4, 16783485)
      , (693, 8, 16783487);
 
+/* Weenie - Vendors - Belthew Shearstone the Jeweler (698) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 698;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (698, 'arwicjeweler');
 
@@ -14691,6 +15210,9 @@ VALUES (698, 11, 16777302)
      , (698, 4, 16777291)
      , (698, 8, 16777298);
 
+/* Weenie - Vendors - Carsith the Weaponsmith (400) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 400;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (400, 'arwicblacksmith2');
 
@@ -14770,6 +15292,9 @@ VALUES (400, 2, 16777293)
      , (400, 7, 16777296)
      , (400, 4, 16777291)
      , (400, 8, 16777298);
+
+/* Weenie - Vendors - Cateril Carsmad the Armorer (695) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 695;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (695, 'arwicblacksmith');
@@ -14852,6 +15377,9 @@ VALUES (695, 10, 16778431)
      , (695, 7, 16781840)
      , (695, 4, 16783485)
      , (695, 8, 16783487);
+
+/* Weenie - Vendors - Healer Dragando the Leech (697) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 697;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (697, 'arwichealer');
@@ -14937,6 +15465,9 @@ VALUES (697, 10, 16777301)
      , (697, 4, 16781838)
      , (697, 8, 16781839)
      , (697, 16, 16779630);
+
+/* Weenie - Vendors - Grocer Rodega Tyning (696) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 696;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (696, 'arwicgrocer');
@@ -15027,6 +15558,9 @@ VALUES (696, 12, 16778423)
      , (696, 8, 16783487)
      , (696, 16, 16779630);
 
+/* Weenie - Vendors - Davis the Tailor (703) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 703;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (703, 'arwictailor');
 
@@ -15115,6 +15649,9 @@ VALUES (703, 11, 16777302)
      , (703, 8, 16781839)
      , (703, 16, 16779635);
 
+/* Weenie - Vendors - Shopkeep Mirinda (702) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 702;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (702, 'arwicshopkeep');
 
@@ -15200,6 +15737,9 @@ VALUES (702, 11, 16778429)
      , (702, 4, 16778426)
      , (702, 8, 16778428);
 
+/* Weenie - Vendors - Weapon Imbue Vendor (45501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45501;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45501, 'ace45501-weaponimbuevendor');
 
@@ -15276,6 +15816,9 @@ VALUES (45501, 0, 16788885)
      , (45501, 15, 16788892)
      , (45501, 12, 16788891)
      , (45501, 16, 16789125);
+
+/* Weenie - Vendors - Free Weapon Vendor (45489) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45489;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45489, 'ace45489-freeweaponvendor');
@@ -15354,6 +15897,9 @@ VALUES (45489, 0, 16788885)
      , (45489, 12, 16788891)
      , (45489, 16, 16789125);
 
+/* Weenie - Vendors - Melee Rare Vendor (45485) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45485;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45485, 'ace45485-meleerarevendor');
 
@@ -15430,6 +15976,9 @@ VALUES (45485, 0, 16788885)
      , (45485, 15, 16788892)
      , (45485, 12, 16788891)
      , (45485, 16, 16789125);
+
+/* Weenie - Vendors - Pevilo ibn Djimin (35811) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35811;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35811, 'ace35811-peviloibndjimin');
@@ -15517,6 +16066,9 @@ VALUES (35811, 3, 16777292)
      , (35811, 13, 16783871)
      , (35811, 14, 16783855)
      , (35811, 16, 16778594);
+
+/* Weenie - Vendors - Marid (46425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46425;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46425, 'ace46425-marid');
@@ -15615,6 +16167,9 @@ VALUES (46425, 12, 16777304)
      , (46425, 4, 16781838)
      , (46425, 8, 16781839);
 
+/* Weenie - Vendors - Barkeep Aliece Landlig (40521) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40521;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40521, 'ace40521-barkeepaliecelandlig');
 
@@ -15699,6 +16254,9 @@ VALUES (40521, 11, 16778429)
      , (40521, 7, 16781840)
      , (40521, 4, 16783485)
      , (40521, 8, 16783487);
+
+/* Weenie - Vendors - Weaponsmith Hideo Sasaki (9679) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9679;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9679, 'danbyweaponsmith');
@@ -15787,6 +16345,9 @@ VALUES (9679, 12, 16777304)
      , (9679, 4, 16777291)
      , (9679, 8, 16777298);
 
+/* Weenie - Vendors - Pricilla the Healer (27555) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27555;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27555, 'danbyhealer');
 
@@ -15874,6 +16435,9 @@ VALUES (27555, 12, 16778423)
      , (27555, 4, 16783485)
      , (27555, 8, 16783487);
 
+/* Weenie - Vendors - Greta Danby the Bowyer (9677) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9677;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9677, 'danbybowyer');
 
@@ -15960,6 +16524,9 @@ VALUES (9677, 12, 16778423)
      , (9677, 7, 16781840)
      , (9677, 4, 16783485)
      , (9677, 8, 16783487);
+
+/* Weenie - Vendors - Abia bint Huda the Archmage (9678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9678;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9678, 'danbyarchmage');
@@ -16050,6 +16617,9 @@ VALUES (9678, 12, 16778423)
      , (9678, 8, 16781859)
      , (9678, 16, 16778594);
 
+/* Weenie - Vendors - Benedetta du Lucrezza the Healer (30072) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30072;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30072, 'silyunhealer');
 
@@ -16121,6 +16691,9 @@ VALUES (30072, 12, 16778423)
      , (30072, 11, 16783853)
      , (30072, 13, 16791903)
      , (30072, 14, 16783855);
+
+/* Weenie - Vendors - Scribe Copiara Parolinnis (30067) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30067;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30067, 'silyunscribe');
@@ -16207,6 +16780,9 @@ VALUES (30067, 11, 16778429)
      , (30067, 4, 16783485)
      , (30067, 8, 16783487);
 
+/* Weenie - Vendors - Archmage Pazzescorios di Frodenci (30071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30071;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30071, 'silyunarchmage');
 
@@ -16278,6 +16854,9 @@ VALUES (30071, 12, 16777304)
      , (30071, 13, 16791903)
      , (30071, 14, 16783855)
      , (30071, 16, 16791907);
+
+/* Weenie - Vendors - Aldonti di Soludatis the Jeweler (30068) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30068;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30068, 'silyunjeweler');
@@ -16363,6 +16942,9 @@ VALUES (30068, 12, 16777304)
      , (30068, 8, 16791882)
      , (30068, 16, 16791874);
 
+/* Weenie - Vendors - Agonno Filleteppe the Tailor (30069) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30069;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30069, 'silyuntailor');
 
@@ -16443,6 +17025,9 @@ VALUES (30069, 12, 16777304)
      , (30069, 4, 16791881)
      , (30069, 8, 16791882)
      , (30069, 16, 16791874);
+
+/* Weenie - Vendors - Barkeeper Mallia Quios (31295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31295;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31295, 'ace31295-barkeepermalliaquios');
@@ -16525,6 +17110,9 @@ VALUES (31295, 0, 16783897)
      , (31295, 12, 16789332)
      , (31295, 16, 16791893);
 
+/* Weenie - Vendors - Calvinne Sporgenzenni the Shopkeeper (30070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30070;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30070, 'silyunshopkeep');
 
@@ -16604,6 +17192,9 @@ VALUES (30070, 10, 16777301)
      , (30070, 4, 16791881)
      , (30070, 8, 16791882)
      , (30070, 16, 16791874);
+
+/* Weenie - Vendors - Bowyer Cecili Blocconda (30066) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30066;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30066, 'silyunfletcher');
@@ -16690,6 +17281,9 @@ VALUES (30066, 11, 16777302)
      , (30066, 4, 16781838)
      , (30066, 8, 16781839)
      , (30066, 16, 16791893);
+
+/* Weenie - Vendors - Aidanan Ignarias the Blacksmith (30065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30065;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30065, 'silyunweaponsmith');
@@ -16778,6 +17372,9 @@ VALUES (30065, 12, 16777304)
      , (30065, 4, 16777291)
      , (30065, 8, 16777298);
 
+/* Weenie - Vendors - Archmage Ta Ri  (5435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5435, 'stoneholdarchmage');
 
@@ -16858,6 +17455,9 @@ VALUES (5435, 2, 16778436)
      , (5435, 7, 16778360)
      , (5435, 4, 16778426)
      , (5435, 8, 16778428);
+
+/* Weenie - Vendors - Gerhi, Bowyer of Stonehold  (2533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2533;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2533, 'stoneholdbowyer');
@@ -16940,6 +17540,9 @@ VALUES (2533, 10, 16777301)
      , (2533, 7, 16781840)
      , (2533, 4, 16781838)
      , (2533, 8, 16781839);
+
+/* Weenie - Vendors - Healer of Stonehold (2535) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2535;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2535, 'stoneholdhealer');
@@ -17026,6 +17629,9 @@ VALUES (2535, 12, 16777304)
      , (2535, 7, 16777296)
      , (2535, 4, 16777291)
      , (2535, 8, 16777298);
+
+/* Weenie - Vendors - Farmer (1381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1381;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1381, 'farmeraluvian');
@@ -17114,6 +17720,9 @@ VALUES (1381, 12, 16777304)
      , (1381, 4, 16781838)
      , (1381, 8, 16781839);
 
+/* Weenie - Vendors - Vivaina, Shopkeep of Stonehold  (2534) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2534;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2534, 'stoneholdshopkeep');
 
@@ -17198,6 +17807,9 @@ VALUES (2534, 10, 16778431)
      , (2534, 4, 16783485)
      , (2534, 8, 16783487)
      , (2534, 16, 16778414);
+
+/* Weenie - Vendors - Corin of Stonehold (27248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27248;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27248, 'stoneholdfarmer');
@@ -17286,6 +17898,9 @@ VALUES (27248, 12, 16777304)
      , (27248, 4, 16781838)
      , (27248, 8, 16781839);
 
+/* Weenie - Vendors - Ry'zir al-Nabit (24597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24597;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24597, 'candethkeepweaponsmith');
 
@@ -17371,6 +17986,9 @@ VALUES (24597, 11, 16777302)
      , (24597, 4, 16777291)
      , (24597, 8, 16777298);
 
+/* Weenie - Vendors - Rkos the Armorer (24589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24589;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24589, 'candethkeeparmorer');
 
@@ -17431,6 +18049,9 @@ VALUES (24589, 0, 16785699)
      , (24589, 19, 16785704)
      , (24589, 20, 16785705);
 
+/* Weenie - Vendors - Odvik the Inn Keeper (24590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24590;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24590, 'candethkeepbarkeeper');
 
@@ -17489,6 +18110,9 @@ VALUES (24590, 0, 16785699)
      , (24590, 12, 16785701)
      , (24590, 19, 16777708)
      , (24590, 20, 16777708);
+
+/* Weenie - Vendors - Thimrin Woodsetter (24595) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24595;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24595, 'candethkeeptreetradesman');
@@ -17582,6 +18206,9 @@ VALUES (24595, 12, 16777304)
      , (24595, 8, 16781839)
      , (24595, 16, 16789130);
 
+/* Weenie - Vendors - Aun Amanaualuan the Elder Shaman (24594) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24594;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24594, 'candethkeeptreearchmage');
 
@@ -17620,6 +18247,9 @@ VALUES (24594, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24594, 67113367, 0, 0);
+
+/* Weenie - Vendors - Tunlok Weapons Master (24596) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24596;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24596, 'candethkeeptreewarrior');
@@ -17683,6 +18313,9 @@ VALUES (24596, 0, 16785699)
      , (24596, 19, 16785704)
      , (24596, 20, 16785705);
 
+/* Weenie - Vendors - Aun Oreilauri the Healer (24593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24593;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24593, 'candethkeephealer');
 
@@ -17722,6 +18355,9 @@ VALUES (24593, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24593, 67113367, 0, 0);
 
+/* Weenie - Vendors - Aun Gunditealuan the Marksman (24591) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24591;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24591, 'candethkeepbowyer');
 
@@ -17760,6 +18396,9 @@ VALUES (24591, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24591, 67113366, 0, 0);
+
+/* Weenie - Vendors - Tyokai Renjiro the Grocer (24592) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24592;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24592, 'candethkeepgrocer');
@@ -17846,6 +18485,9 @@ VALUES (24592, 10, 16777301)
      , (24592, 8, 16777298)
      , (24592, 16, 16779630);
 
+/* Weenie - Vendors - Master Enchanter (42220) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42220;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42220, 'ace42220-masterenchanter');
 
@@ -17926,6 +18568,9 @@ VALUES (42220, 12, 16777304)
      , (42220, 11, 16783853)
      , (42220, 13, 16783871)
      , (42220, 14, 16783855);
+
+/* Weenie - Vendors - Gemm the Smith (1354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1354;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1354, 'syliphtowerblacksmith');
@@ -18014,6 +18659,9 @@ VALUES (1354, 12, 16777304)
      , (1354, 4, 16781838)
      , (1354, 8, 16781839);
 
+/* Weenie - Vendors - Caleb Jinor the Healer (27554) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27554;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27554, 'craterlakehealer');
 
@@ -18098,6 +18746,9 @@ VALUES (27554, 11, 16777302)
      , (27554, 7, 16777296)
      , (27554, 4, 16777291)
      , (27554, 8, 16777298);
+
+/* Weenie - Vendors - Weldub Finol the Jeweler (2497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2497;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2497, 'craterlakejeweler');
@@ -18184,6 +18835,9 @@ VALUES (2497, 11, 16777302)
      , (2497, 4, 16777291)
      , (2497, 8, 16777298);
 
+/* Weenie - Vendors - Geldeb Finol the Weaponsmith (2499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2499;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2499, 'craterlakeweaponsmith');
 
@@ -18267,6 +18921,9 @@ VALUES (2499, 10, 16777301)
      , (2499, 4, 16777291)
      , (2499, 8, 16777298);
 
+/* Weenie - Vendors - Silencia the Archmage (2498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2498;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2498, 'craterlakearchmage');
 
@@ -18347,6 +19004,9 @@ VALUES (2498, 12, 16778423)
      , (2498, 11, 16783853)
      , (2498, 13, 16783871)
      , (2498, 14, 16783855);
+
+/* Weenie - Vendors - Gilly (24588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24588;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24588, 'candethkeeparchmage');
@@ -18429,6 +19089,9 @@ VALUES (24588, 12, 16778423)
      , (24588, 7, 16777708)
      , (24588, 8, 16777708)
      , (24588, 16, 16788393);
+
+/* Weenie - Vendors - Weaponsmith (1393) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1393;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1393, 'weaponsmithaluvian');
@@ -18516,6 +19179,9 @@ VALUES (1393, 12, 16778423)
      , (1393, 7, 16777296)
      , (1393, 4, 16781855)
      , (1393, 8, 16781859);
+
+/* Weenie - Vendors - Peddler (1390) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1390;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1390, 'peddleraluvian');
@@ -18606,6 +19272,9 @@ VALUES (1390, 12, 16777304)
      , (1390, 8, 16781839)
      , (1390, 16, 16779630);
 
+/* Weenie - Vendors - Archmage (1369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1369;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1369, 'archmagealuvian');
 
@@ -18686,6 +19355,9 @@ VALUES (1369, 2, 16777293)
      , (1369, 7, 16777296)
      , (1369, 4, 16777291)
      , (1369, 8, 16777298);
+
+/* Weenie - Vendors - Healer (1384) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1384;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1384, 'healeraluvian');
@@ -18771,6 +19443,9 @@ VALUES (1384, 2, 16777293)
      , (1384, 7, 16777296)
      , (1384, 4, 16777291)
      , (1384, 8, 16777298);
+
+/* Weenie - Vendors - Grocer Jaffres Dini (30036) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30036;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30036, 'sanamargrocer');
@@ -18861,6 +19536,9 @@ VALUES (30036, 12, 16777304)
      , (30036, 8, 16777298)
      , (30036, 16, 16791874);
 
+/* Weenie - Vendors - Shopkeeper Tod Burgni (30037) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30037;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30037, 'sanamarshopkeep');
 
@@ -18950,6 +19628,9 @@ VALUES (30037, 12, 16777304)
      , (30037, 8, 16777298)
      , (30037, 16, 16791874);
 
+/* Weenie - Vendors - Jeweler Susana Arlean (30033) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30033;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30033, 'sanamarjeweler');
 
@@ -19033,6 +19714,9 @@ VALUES (30033, 12, 16778423)
      , (30033, 8, 16777708)
      , (30033, 16, 16791338);
 
+/* Weenie - Vendors - Ciriaco (42431) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42431;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42431, 'ace42431-ciriaco');
 
@@ -19115,6 +19799,9 @@ VALUES (42431, 12, 16777304)
      , (42431, 13, 16781868)
      , (42431, 14, 16781821);
 
+/* Weenie - Vendors - Apprentice Scrivener of Item and War Magic (30010) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30010;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30010, 'viascriveneritemwar2starter');
 
@@ -19148,6 +19835,9 @@ VALUES (30010, 12, True)
      , (30010, 14, True)
      , (30010, 41, True)
      , (30010, 1, True);
+
+/* Weenie - Vendors - Tailor Monique du Bressa (30034) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30034;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30034, 'sanamartailor');
@@ -19235,6 +19925,9 @@ VALUES (30034, 12, 16778423)
      , (30034, 4, 16778426)
      , (30034, 8, 16778428)
      , (30034, 16, 16779630);
+
+/* Weenie - Vendors - Apprentice Scrivener of Item and War Magic (30009) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30009;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30009, 'viascriveneritemwar1starter');
@@ -19327,6 +20020,9 @@ VALUES (30009, 12, 16777304)
      , (30009, 8, 16777298)
      , (30009, 16, 16783954);
 
+/* Weenie - Vendors - Apprentice Scrivener of Life Magic (30012) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30012;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30012, 'viascrivenerlife2starter');
 
@@ -19361,6 +20057,9 @@ VALUES (30012, 12, True)
      , (30012, 14, True)
      , (30012, 41, True)
      , (30012, 1, True);
+
+/* Weenie - Vendors - Barkeeper Jean Vaden (30035) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30035;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30035, 'sanamarbarkeeper');
@@ -19446,6 +20145,9 @@ VALUES (30035, 12, 16777304)
      , (30035, 8, 16791882)
      , (30035, 16, 16791893);
 
+/* Weenie - Vendors - Apprentice Scrivener of Life Magic (30011) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30011;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30011, 'viascrivenerlife1starter');
 
@@ -19517,6 +20219,9 @@ VALUES (30011, 12, 16777304)
      , (30011, 13, 16791903)
      , (30011, 14, 16783855)
      , (30011, 16, 16791907);
+
+/* Weenie - Vendors - Apprentice Scrivener of Creature Magic (30021) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30021;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30021, 'viascrivenercreature1starter');
@@ -19590,6 +20295,9 @@ VALUES (30021, 12, 16777304)
      , (30021, 14, 16783855)
      , (30021, 16, 16791907);
 
+/* Weenie - Vendors - Journeyman Scrivener of War Magic (30019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30019;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30019, 'viascrivenerwarinner');
 
@@ -19662,6 +20370,9 @@ VALUES (30019, 12, 16777304)
      , (30019, 14, 16783855)
      , (30019, 16, 16791907);
 
+/* Weenie - Vendors - Journeyman Scrivener of Creature Magic (30025) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30025;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30025, 'viascrivenercreatureinner');
 
@@ -19696,6 +20407,9 @@ VALUES (30025, 12, True)
      , (30025, 14, True)
      , (30025, 41, True)
      , (30025, 1, True);
+
+/* Weenie - Vendors - Journeyman Scrivener of Item Magic (30029) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30029;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30029, 'viascriveneriteminner');
@@ -19784,6 +20498,9 @@ VALUES (30029, 12, 16778423)
      , (30029, 4, 16783485)
      , (30029, 8, 16783487);
 
+/* Weenie - Vendors - Journeyman Scrivener of Life Magic (30015) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30015;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30015, 'viascrivenerlifeinner');
 
@@ -19856,6 +20573,9 @@ VALUES (30015, 12, 16777304)
      , (30015, 14, 16783855)
      , (30015, 16, 16791907);
 
+/* Weenie - Vendors - Healer Deme du Laur (30039) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30039;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30039, 'sanamarhealer');
 
@@ -19927,6 +20647,9 @@ VALUES (30039, 12, 16778423)
      , (30039, 13, 16791903)
      , (30039, 14, 16783855)
      , (30039, 16, 16791907);
+
+/* Weenie - Vendors - Scribe Benno di Hergeaux (30032) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30032;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30032, 'sanamarscribe');
@@ -20001,6 +20724,9 @@ VALUES (30032, 12, 16777304)
      , (30032, 13, 16791903)
      , (30032, 14, 16783855)
      , (30032, 16, 16779630);
+
+/* Weenie - Vendors - Keminub (49519) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49519;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49519, 'ace49519-keminub');
@@ -20097,6 +20823,9 @@ VALUES (49519, 0, 16783897)
      , (49519, 15, 16789333)
      , (49519, 16, 16793463);
 
+/* Weenie - Vendors - Archmage Luchessa du Lamiere (30038) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30038;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30038, 'sanamararchmage');
 
@@ -20169,6 +20898,9 @@ VALUES (30038, 12, 16778423)
      , (30038, 13, 16791903)
      , (30038, 14, 16783855)
      , (30038, 16, 16785778);
+
+/* Weenie - Vendors - Fletcher Mikael di Suinn (30031) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30031;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30031, 'sanamarfletcher');
@@ -20257,6 +20989,9 @@ VALUES (30031, 12, 16777304)
      , (30031, 8, 16777298)
      , (30031, 16, 16785776);
 
+/* Weenie - Vendors - Contract Broker (44188) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44188;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44188, 'ace44188-contractbroker');
 
@@ -20344,6 +21079,9 @@ VALUES (44188, 9, 16795213)
      , (44188, 8, 16795224)
      , (44188, 16, 16795218);
 
+/* Weenie - Vendors - Blacksmith Karlus Loc (30040) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30040;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30040, 'sanamarweaponsmith');
 
@@ -20427,6 +21165,9 @@ VALUES (30040, 10, 16777301)
      , (30040, 8, 16777298)
      , (30040, 16, 16791893);
 
+/* Weenie - Vendors - Apprentice Scrivener of Creature Magic (30022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30022;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30022, 'viascrivenercreature2starter');
 
@@ -20499,6 +21240,9 @@ VALUES (30022, 12, 16777304)
      , (30022, 14, 16783855)
      , (30022, 16, 16791907);
 
+/* Weenie - Vendors - Scrivener of War Magic (30020) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30020;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30020, 'viascrivenerwarouter');
 
@@ -20533,6 +21277,9 @@ VALUES (30020, 12, True)
      , (30020, 14, True)
      , (30020, 41, True)
      , (30020, 1, True);
+
+/* Weenie - Vendors - Scrivener of Life Magic (30016) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30016;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30016, 'viascrivenerlifeouter');
@@ -20606,6 +21353,9 @@ VALUES (30016, 12, 16777304)
      , (30016, 14, 16783855)
      , (30016, 16, 16791907);
 
+/* Weenie - Vendors - Scrivener of Item Magic (30030) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30030;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30030, 'viascriveneritemouter');
 
@@ -20678,6 +21428,9 @@ VALUES (30030, 12, 16777304)
      , (30030, 14, 16783855)
      , (30030, 16, 16791907);
 
+/* Weenie - Vendors - Scrivener of Creature Magic (30026) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30026;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30026, 'viascrivenercreatureouter');
 
@@ -20712,6 +21465,9 @@ VALUES (30026, 12, True)
      , (30026, 14, True)
      , (30026, 41, True)
      , (30026, 1, True);
+
+/* Weenie - Vendors - Micon Stuvis the Barkeep (11395) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11395;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11395, 'redspirebarkeep-xp');
@@ -20797,6 +21553,9 @@ VALUES (11395, 11, 16777302)
      , (11395, 7, 16781840)
      , (11395, 4, 16781838)
      , (11395, 8, 16781839);
+
+/* Weenie - Vendors - Lam Yi the Jeweler (11396) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11396;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11396, 'redspirejeweler-xp');
@@ -20886,6 +21645,9 @@ VALUES (11396, 12, 16778423)
      , (11396, 4, 16783485)
      , (11396, 8, 16783487)
      , (11396, 16, 16779630);
+
+/* Weenie - Vendors - Leyrale Shalorn the Tailor (11399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11399;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11399, 'redspiretailor-xp');
@@ -20977,6 +21739,9 @@ VALUES (11399, 12, 16778423)
      , (11399, 8, 16783487)
      , (11399, 16, 16779635);
 
+/* Weenie - Vendors - Ton Ai Yen the Armorer (11394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11394;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11394, 'redspirearmorer-xp');
 
@@ -21062,6 +21827,9 @@ VALUES (11394, 11, 16778429)
      , (11394, 4, 16778426)
      , (11394, 8, 16778428);
 
+/* Weenie - Vendors - Milanna Russmad the Mage (11397) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11397;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11397, 'redspiremage-xp');
 
@@ -21142,6 +21910,9 @@ VALUES (11397, 2, 16778436)
      , (11397, 7, 16778360)
      , (11397, 4, 16778426)
      , (11397, 8, 16778428);
+
+/* Weenie - Vendors - Janus Roma the Shopkeep (31955) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31955;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31955, 'ace31955-janusromatheshopkeep');
@@ -21227,6 +21998,9 @@ VALUES (31955, 12, 16777304)
      , (31955, 8, 16791882)
      , (31955, 16, 16791893);
 
+/* Weenie - Vendors - Lark Grifanna the Barkeep (11384) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11384;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11384, 'bluespirebarkeep-xp');
 
@@ -21311,6 +22085,9 @@ VALUES (11384, 11, 16778429)
      , (11384, 7, 16781840)
      , (11384, 4, 16783485)
      , (11384, 8, 16783487);
+
+/* Weenie - Vendors - Wahnaqa bint Fayat the Mage (11387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11387;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11387, 'bluespiremage-xp');
@@ -21401,6 +22178,9 @@ VALUES (11387, 12, 16778423)
      , (11387, 8, 16781859)
      , (11387, 16, 16778594);
 
+/* Weenie - Vendors - Yusnar ibn Lomaq the Grocer (11385) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11385;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11385, 'bluespiregrocer-xp');
 
@@ -21483,6 +22263,9 @@ VALUES (11385, 2, 16777293)
      , (11385, 7, 16777296)
      , (11385, 4, 16777291)
      , (11385, 8, 16777298);
+
+/* Weenie - Vendors - Dorlan the Armorer (11382) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11382;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11382, 'bluespirearmorer2-xp');
@@ -21569,6 +22352,9 @@ VALUES (11382, 11, 16777302)
      , (11382, 4, 16777291)
      , (11382, 8, 16777298);
 
+/* Weenie - Vendors - Lucarus Malloni the Armorer (31956) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31956;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31956, 'ace31956-lucarusmallonithearmorer');
 
@@ -21652,6 +22438,9 @@ VALUES (31956, 10, 16777301)
      , (31956, 8, 16777298)
      , (31956, 16, 16791893);
 
+/* Weenie - Vendors - Brother Ku-Xao Sutan the Monk (11388) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11388;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11388, 'bluespirescribeprovisionerhealer-xp');
 
@@ -21734,6 +22523,9 @@ VALUES (11388, 2, 16777293)
      , (11388, 7, 16777296)
      , (11388, 4, 16777291)
      , (11388, 8, 16777298);
+
+/* Weenie - Vendors - Nathious Agoren the Jeweler (11386) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11386;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11386, 'bluespirejeweler-xp');
@@ -21824,6 +22616,9 @@ VALUES (11386, 12, 16777304)
      , (11386, 8, 16781839)
      , (11386, 16, 16779630);
 
+/* Weenie - Vendors - Archmage (30053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30053;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30053, 'viaarchmage');
 
@@ -21906,6 +22701,9 @@ VALUES (30053, 12, 16778423)
      , (30053, 4, 16791881)
      , (30053, 8, 16791882)
      , (30053, 16, 16791874);
+
+/* Weenie - Vendors - Healer (30054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30054;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30054, 'viahealer');
@@ -21991,6 +22789,9 @@ VALUES (30054, 12, 16778423)
      , (30054, 8, 16791882)
      , (30054, 16, 16791874);
 
+/* Weenie - Vendors - Shopkeeper (30051) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30051;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30051, 'viashopkeep');
 
@@ -22072,6 +22873,9 @@ VALUES (30051, 12, 16778423)
      , (30051, 4, 16791881)
      , (30051, 8, 16791882);
 
+/* Weenie - Vendors - Master Scrivener of Creature Magic (30023) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30023;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30023, 'viascrivenercreaturedistant');
 
@@ -22143,6 +22947,9 @@ VALUES (30023, 12, 16778423)
      , (30023, 13, 16791903)
      , (30023, 14, 16783855)
      , (30023, 16, 16791907);
+
+/* Weenie - Vendors - Master Scrivener of Life Magic (30013) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30013;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30013, 'viascrivenerlifedistant');
@@ -22216,6 +23023,9 @@ VALUES (30013, 12, 16777304)
      , (30013, 14, 16783855)
      , (30013, 16, 16791907);
 
+/* Weenie - Vendors - Master Scrivener of War Magic (30017) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30017;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30017, 'viascrivenerwardistant');
 
@@ -22288,6 +23098,9 @@ VALUES (30017, 12, 16777304)
      , (30017, 14, 16783855)
      , (30017, 16, 16791907);
 
+/* Weenie - Vendors - Master Scrivener of Item Magic (30027) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30027;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30027, 'viascriveneritemdistant');
 
@@ -22359,6 +23172,9 @@ VALUES (30027, 12, 16777304)
      , (30027, 13, 16791903)
      , (30027, 14, 16783855)
      , (30027, 16, 16791907);
+
+/* Weenie - Vendors - Blacksmith (30052) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30052;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30052, 'viaweaponsmith');
@@ -22438,6 +23254,9 @@ VALUES (30052, 10, 16777301)
      , (30052, 4, 16791881)
      , (30052, 8, 16791882);
 
+/* Weenie - Vendors - Myrlat the Physician (9417) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9417;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9417, 'linvaktukalhealer');
 
@@ -22497,6 +23316,9 @@ VALUES (9417, 0, 16785699)
      , (9417, 12, 16785701)
      , (9417, 19, 16785704)
      , (9417, 20, 16785705);
+
+/* Weenie - Vendors - Krage the Blacksmith (9415) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9415;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9415, 'linvaktukalblacksmith');
@@ -22558,6 +23380,9 @@ VALUES (9415, 0, 16785699)
      , (9415, 19, 16785704)
      , (9415, 20, 16785705);
 
+/* Weenie - Vendors - Kifandal the Imbuer (9414) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9414;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9414, 'linvaktukalarchmage');
 
@@ -22617,6 +23442,9 @@ VALUES (9414, 0, 16785699)
      , (9414, 12, 16785701)
      , (9414, 19, 16785704)
      , (9414, 20, 16785705);
+
+/* Weenie - Vendors - Lubrik the Resupplier (9418) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9418;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9418, 'linvaktukalshopkeep');
@@ -22678,6 +23506,9 @@ VALUES (9418, 0, 16785699)
      , (9418, 19, 16785704)
      , (9418, 20, 16785705);
 
+/* Weenie - Vendors - Omerik the Bowyer (9416) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9416;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9416, 'linvaktukalbowyer');
 
@@ -22737,6 +23568,9 @@ VALUES (9416, 0, 16785699)
      , (9416, 12, 16785701)
      , (9416, 19, 16785704)
      , (9416, 20, 16785705);
+
+/* Weenie - Vendors - Grand Master Scrivener of Item Magic (30028) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30028;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30028, 'viascriveneritemextreme');
@@ -22810,6 +23644,9 @@ VALUES (30028, 12, 16778423)
      , (30028, 14, 16783855)
      , (30028, 16, 16791907);
 
+/* Weenie - Vendors - Grand Master Scrivener of Creature Magic (30024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30024;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30024, 'viascrivenercreatureextreme');
 
@@ -22881,6 +23718,9 @@ VALUES (30024, 12, 16777304)
      , (30024, 13, 16791903)
      , (30024, 14, 16783855)
      , (30024, 16, 16791907);
+
+/* Weenie - Vendors - Grand Master Scrivener of War Magic (30018) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30018;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30018, 'viascrivenerwarextreme');
@@ -22954,6 +23794,9 @@ VALUES (30018, 12, 16778423)
      , (30018, 14, 16783855)
      , (30018, 16, 16791907);
 
+/* Weenie - Vendors - Grand Master Scrivener of Life Magic (30014) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30014;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30014, 'viascrivenerlifeextreme');
 
@@ -23026,6 +23869,9 @@ VALUES (30014, 12, 16778423)
      , (30014, 14, 16783855)
      , (30014, 16, 16791907);
 
+/* Weenie - Vendors - Bowyer (22723) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22723;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22723, 'oolutangabowyer');
 
@@ -23096,6 +23942,9 @@ VALUES (22723, 2, 16778436)
      , (22723, 0, 16778359)
      , (22723, 1, 16783912)
      , (22723, 5, 16783916);
+
+/* Weenie - Vendors - Blacksmith (22722) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22722;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22722, 'oolutangablacksmith');
@@ -23168,6 +24017,9 @@ VALUES (22722, 2, 16777293)
      , (22722, 1, 16783912)
      , (22722, 5, 16783916);
 
+/* Weenie - Vendors - Mage (22721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22721;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22721, 'oolutangaarchmage');
 
@@ -23238,6 +24090,9 @@ VALUES (22721, 2, 16778436)
      , (22721, 0, 16778359)
      , (22721, 1, 16783912)
      , (22721, 5, 16783916);
+
+/* Weenie - Vendors - Grocer (22724) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22724;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22724, 'oolutangagrocer');
@@ -23310,6 +24165,9 @@ VALUES (22724, 2, 16777293)
      , (22724, 1, 16783912)
      , (22724, 5, 16783916);
 
+/* Weenie - Vendors - Jeweler (22726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22726;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22726, 'oolutangajeweler');
 
@@ -23381,6 +24239,9 @@ VALUES (22726, 2, 16778436)
      , (22726, 1, 16783912)
      , (22726, 5, 16783916);
 
+/* Weenie - Vendors - Healer (22725) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22725;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22725, 'oolutangahealer');
 
@@ -23451,6 +24312,9 @@ VALUES (22725, 2, 16777293)
      , (22725, 0, 16777294)
      , (22725, 1, 16783912)
      , (22725, 5, 16783916);
+
+/* Weenie - Vendors - Ketnan (22720) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22720;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22720, 'ketnan-tuskerisland');
@@ -23541,6 +24405,9 @@ VALUES (22720, 12, 16777304)
      , (22720, 8, 16777298)
      , (22720, 16, 16783891);
 
+/* Weenie - Vendors - Aun Dreganaua the Elder Shaman (11400) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11400;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11400, 'timaruarchmage-xp');
 
@@ -23579,6 +24446,9 @@ VALUES (11400, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11400, 67113367, 0, 0);
+
+/* Weenie - Vendors - Aun Mireona the Shopkeep (11407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11407;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11407, 'timarushopkeep-xp');
@@ -23619,6 +24489,9 @@ VALUES (11407, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11407, 67113368, 0, 0);
 
+/* Weenie - Vendors - Aun Ngaiona the Jeweler (11405) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11405;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11405, 'timarujeweler-xp');
 
@@ -23657,6 +24530,9 @@ VALUES (11405, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11405, 67113368, 0, 0);
+
+/* Weenie - Vendors - Aun Taguauri the Healer (11404) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11404;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11404, 'timaruhealer-xp');
@@ -23697,6 +24573,9 @@ VALUES (11404, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11404, 67113367, 0, 0);
 
+/* Weenie - Vendors - Aun Laranawa the Barkeep (11402) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11402;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11402, 'timarubarkeep-xp');
 
@@ -23735,6 +24614,9 @@ VALUES (11402, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11402, 67113369, 0, 0);
+
+/* Weenie - Vendors - Aun Paikitea the Bowyer (11403) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11403;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11403, 'timarubowyer-xp');
@@ -23775,6 +24657,9 @@ VALUES (11403, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11403, 67113366, 0, 0);
 
+/* Weenie - Vendors - Aun Maanuawa the Armorer (11401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11401;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11401, 'timaruarmorer-xp');
 
@@ -23813,6 +24698,9 @@ VALUES (11401, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11401, 67113369, 0, 0);
+
+/* Weenie - Vendors - Fiun Archmage (30049) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30049;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30049, 'fiunarchmage');
@@ -23890,6 +24778,9 @@ VALUES (30049, 0, 16791126)
      , (30049, 15, 16791133)
      , (30049, 16, 16791134);
 
+/* Weenie - Vendors - Fiun Shopkeeper (30050) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30050;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30050, 'fiunshopkeep');
 
@@ -23927,6 +24818,9 @@ VALUES (30050, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30050, 67116344, 0, 0);
+
+/* Weenie - Vendors - Fiun Blacksmith (30048) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30048;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30048, 'fiunweaponsmith');
@@ -23966,6 +24860,9 @@ VALUES (30048, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30048, 67115466, 0, 0);
 
+/* Weenie - Vendors - Fiun Healer (30047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30047;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30047, 'fiunhealer');
 
@@ -24003,6 +24900,9 @@ VALUES (30047, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30047, 67116347, 0, 0);
+
+/* Weenie - Vendors - Brother Jarviso (5647) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5647;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5647, 'neydisacastlehealer');
@@ -24085,6 +24985,9 @@ VALUES (5647, 12, 16777304)
      , (5647, 13, 16783871)
      , (5647, 14, 16783855)
      , (5647, 16, 16783891);
+
+/* Weenie - Vendors - Archmage Philomon (5646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5646;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5646, 'neydisacastlearchmage');
@@ -24176,6 +25079,9 @@ VALUES (5646, 12, 16777304)
      , (5646, 8, 16777298)
      , (5646, 16, 16779635);
 
+/* Weenie - Vendors - Lisatha the Bowyer (5649) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5649;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5649, 'neydisacastlebowyer');
 
@@ -24262,6 +25168,9 @@ VALUES (5649, 12, 16778423)
      , (5649, 7, 16781840)
      , (5649, 4, 16783485)
      , (5649, 8, 16783487);
+
+/* Weenie - Vendors - Viamasa the Weaponsmith (5648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5648;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5648, 'neydisacastleweaponsmith');
@@ -24353,6 +25262,9 @@ VALUES (5648, 12, 16778423)
      , (5648, 8, 16778428)
      , (5648, 16, 16779635);
 
+/* Weenie - Vendors - Nelvaine the Brewer (5861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5861;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5861, 'neydisacastlebarkeeper');
 
@@ -24440,6 +25352,9 @@ VALUES (5861, 12, 16777304)
      , (5861, 4, 16781838)
      , (5861, 8, 16781839);
 
+/* Weenie - Vendors - Hea Camauri the Barkeep (11377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11377;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11377, 'ahurengabarkeep-xp');
 
@@ -24482,6 +25397,9 @@ VALUES (11377, 67116650, 1, 48)
      , (11377, 67116625, 153, 47)
      , (11377, 67116625, 200, 8)
      , (11377, 67116625, 208, 48);
+
+/* Weenie - Vendors - Hea Nyrinua the Armorer (11376) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11376;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11376, 'ahurengaarmorer-xp');
@@ -24526,6 +25444,9 @@ VALUES (11376, 67116650, 1, 48)
      , (11376, 67116625, 200, 8)
      , (11376, 67116625, 208, 48);
 
+/* Weenie - Vendors - Hea Timitea the Bowyer (11378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11378;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11378, 'ahurengabowyer-xp');
 
@@ -24568,6 +25489,9 @@ VALUES (11378, 67116643, 1, 48)
      , (11378, 67116625, 153, 47)
      , (11378, 67116642, 200, 8)
      , (11378, 67116625, 208, 48);
+
+/* Weenie - Vendors - Hea Rangaua the Elder Shaman (11375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11375;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11375, 'ahurengaarchmage-xp');
@@ -24612,6 +25536,9 @@ VALUES (11375, 67116628, 1, 48)
      , (11375, 67116625, 200, 8)
      , (11375, 67116625, 208, 48);
 
+/* Weenie - Vendors - Hea Palagura the Jeweler (11380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11380;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11380, 'ahurengajeweler-xp');
 
@@ -24654,6 +25581,9 @@ VALUES (11380, 67116628, 1, 48)
      , (11380, 67116625, 153, 47)
      , (11380, 67116625, 200, 8)
      , (11380, 67116640, 208, 48);
+
+/* Weenie - Vendors - Hea Nyrenauri the Healer (11379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11379;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11379, 'ahurengahealer-xp');
@@ -24698,6 +25628,9 @@ VALUES (11379, 67116650, 1, 48)
      , (11379, 67116641, 200, 8)
      , (11379, 67116625, 208, 48);
 
+/* Weenie - Vendors - Hea Kiriona the Shopkeep (11381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11381;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11381, 'ahurengashopkeep-xp');
 
@@ -24740,6 +25673,9 @@ VALUES (11381, 67116650, 1, 48)
      , (11381, 67116625, 153, 47)
      , (11381, 67116625, 200, 8)
      , (11381, 67116625, 208, 48);
+
+/* Weenie - Vendors - Yen Loc Anh the Mage (11392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11392;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11392, 'greenspiremage-xp');
@@ -24823,6 +25759,9 @@ VALUES (11392, 2, 16778436)
      , (11392, 4, 16778426)
      , (11392, 8, 16778428)
      , (11392, 16, 16779630);
+
+/* Weenie - Vendors - Kasin ibn Sayrak the Barkeep (11390) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11390;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11390, 'greenspirebarkeep-xp');
@@ -24909,6 +25848,9 @@ VALUES (11390, 11, 16777302)
      , (11390, 4, 16781838)
      , (11390, 8, 16781839);
 
+/* Weenie - Vendors - Brother Samir ibn Lomaq the Monk (11393) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11393;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11393, 'greenspirescribeprovisionerhealer-xp');
 
@@ -24991,6 +25933,9 @@ VALUES (11393, 2, 16777293)
      , (11393, 7, 16777296)
      , (11393, 4, 16777291)
      , (11393, 8, 16777298);
+
+/* Weenie - Vendors - Greygor Stillwise the Armorer (11389) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11389;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11389, 'greenspirearmorer');
@@ -25076,6 +26021,9 @@ VALUES (11389, 11, 16777302)
      , (11389, 7, 16777296)
      , (11389, 4, 16777291)
      , (11389, 8, 16777298);
+
+/* Weenie - Vendors - Misha the Jeweler (11391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11391;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11391, 'greenspirejeweler-xp');
@@ -25166,6 +26114,9 @@ VALUES (11391, 12, 16778423)
      , (11391, 8, 16783487)
      , (11391, 16, 16779630);
 
+/* Weenie - Vendors - Nen Gou the Shopkeeper (4560) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4560;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4560, 'shoushiwestoutpostshopkeep');
 
@@ -25253,6 +26204,9 @@ VALUES (4560, 12, 16777304)
      , (4560, 4, 16777291)
      , (4560, 8, 16777298);
 
+/* Weenie - Vendors - Merchant (1389) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1389;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1389, 'merchantsho');
 
@@ -25336,6 +26290,9 @@ VALUES (1389, 2, 16777293)
      , (1389, 8, 16781839)
      , (1389, 16, 16778476);
 
+/* Weenie - Vendors - Sedor Wystan the Blacksmith (712) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 712;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (712, 'holtburgblacksmith');
 
@@ -25416,6 +26373,9 @@ VALUES (712, 2, 16777293)
      , (712, 7, 16777296)
      , (712, 4, 16777291)
      , (712, 8, 16777298);
+
+/* Weenie - Vendors - Thelnoth Cort the Healer (715) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 715;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (715, 'holtburghealer');
@@ -25502,6 +26462,9 @@ VALUES (715, 2, 16777293)
      , (715, 8, 16777298)
      , (715, 16, 16779630);
 
+/* Weenie - Vendors - Monyra the Jeweler (716) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 716;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (716, 'holtburgjeweler');
 
@@ -25584,6 +26547,9 @@ VALUES (716, 10, 16778431)
      , (716, 7, 16778360)
      , (716, 4, 16778426)
      , (716, 8, 16778428);
+
+/* Weenie - Vendors - Archmage Cindrue (2304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2304;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2304, 'holtburgarchmage');
@@ -25669,6 +26635,9 @@ VALUES (2304, 11, 16778429)
      , (2304, 7, 16778360)
      , (2304, 4, 16778426)
      , (2304, 8, 16778428);
+
+/* Weenie - Vendors - Asenala (49518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49518;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49518, 'ace49518-asenala');
@@ -25765,6 +26734,9 @@ VALUES (49518, 0, 16783897)
      , (49518, 15, 16789333)
      , (49518, 16, 16793463);
 
+/* Weenie - Vendors - Sontella Dagroff the Bowyer (713) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 713;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (713, 'holtburgbowyer');
 
@@ -25850,6 +26822,9 @@ VALUES (713, 11, 16778429)
      , (713, 4, 16778426)
      , (713, 8, 16778428);
 
+/* Weenie - Vendors - Ianto (42428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42428;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42428, 'ace42428-ianto');
 
@@ -25931,6 +26906,9 @@ VALUES (42428, 12, 16777304)
      , (42428, 11, 16781822)
      , (42428, 13, 16781868)
      , (42428, 14, 16781821);
+
+/* Weenie - Vendors - Ecutha the Tailor (719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 719;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (719, 'holtburgtailor');
@@ -26022,6 +27000,9 @@ VALUES (719, 12, 16778423)
      , (719, 8, 16783487)
      , (719, 16, 16779635);
 
+/* Weenie - Vendors - Scribe Renald the Younger (717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 717;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (717, 'holtburgscribe');
 
@@ -26106,6 +27087,9 @@ VALUES (717, 11, 16777302)
      , (717, 7, 16781840)
      , (717, 4, 16781838)
      , (717, 8, 16781839);
+
+/* Weenie - Vendors - Shopkeeper Renald the Elder (718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 718;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (718, 'holtburgshopkeep');
@@ -26194,6 +27178,9 @@ VALUES (718, 12, 16777304)
      , (718, 4, 16781838)
      , (718, 8, 16781839);
 
+/* Weenie - Vendors - Barkeeper Wilomine (710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 710;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (710, 'holtburgbarkeeper');
 
@@ -26275,6 +27262,9 @@ VALUES (710, 10, 16778431)
      , (710, 7, 16781840)
      , (710, 4, 16783485)
      , (710, 8, 16783487);
+
+/* Weenie - Vendors - Contract Broker (44186) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44186;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44186, 'ace44186-contractbroker');
@@ -26362,6 +27352,9 @@ VALUES (44186, 9, 16795213)
      , (44186, 4, 16795223)
      , (44186, 8, 16795224)
      , (44186, 16, 16795218);
+
+/* Weenie - Vendors - Fispur Ansel the Grocer (714) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 714;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (714, 'holtburggrocer');
@@ -26452,6 +27445,9 @@ VALUES (714, 12, 16777304)
      , (714, 8, 16777298)
      , (714, 16, 16779630);
 
+/* Weenie - Vendors - Novedion the Gem Seller (9423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9423;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9423, 'rithwiclugiangemseller');
 
@@ -26509,6 +27505,9 @@ VALUES (9423, 0, 16785699)
      , (9423, 12, 16785701)
      , (9423, 19, 16777708)
      , (9423, 20, 16777708);
+
+/* Weenie - Vendors - Boddry the Chancy (9504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9504;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9504, 'gamblercashieralu');
@@ -26597,6 +27596,9 @@ VALUES (9504, 11, 16777302)
      , (9504, 8, 16777298)
      , (9504, 16, 16779630);
 
+/* Weenie - Vendors - Merchant (1387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1387;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1387, 'merchantaluvian');
 
@@ -26682,6 +27684,9 @@ VALUES (1387, 12, 16778423)
      , (1387, 7, 16777296)
      , (1387, 4, 16781855)
      , (1387, 8, 16781859);
+
+/* Weenie - Vendors - Hudriffa the Shopkeeper (4433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4433;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4433, 'holtburgsouthoutpostshopkeep');
@@ -26770,6 +27775,9 @@ VALUES (4433, 12, 16778423)
      , (4433, 4, 16778426)
      , (4433, 8, 16778428);
 
+/* Weenie - Vendors - Minthada the Librarian (2041) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2041;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2041, 'cragstonelibrarian');
 
@@ -26856,6 +27864,9 @@ VALUES (2041, 12, 16778423)
      , (2041, 7, 16778360)
      , (2041, 4, 16778426)
      , (2041, 8, 16778428);
+
+/* Weenie - Vendors - Avalenne Hilmad the Healer (673) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 673;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (673, 'cragstonehealer');
@@ -26944,6 +27955,9 @@ VALUES (673, 12, 16778423)
      , (673, 4, 16778426)
      , (673, 8, 16778428);
 
+/* Weenie - Vendors - Acina Hilmad the Grocer (672) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 672;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (672, 'cragstonegrocer');
 
@@ -27029,6 +28043,9 @@ VALUES (672, 11, 16778429)
      , (672, 4, 16778426)
      , (672, 8, 16778428);
 
+/* Weenie - Vendors - Scildith Dyrson the Bowyer (671) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 671;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (671, 'cragstonebowyer');
 
@@ -27112,6 +28129,9 @@ VALUES (671, 2, 16777293)
      , (671, 4, 16777291)
      , (671, 8, 16777298);
 
+/* Weenie - Vendors - Merchant Ledine (676) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 676;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (676, 'cragstoneshopkeep');
 
@@ -27194,6 +28214,9 @@ VALUES (676, 10, 16778431)
      , (676, 7, 16781840)
      , (676, 4, 16783485)
      , (676, 8, 16783487);
+
+/* Weenie - Vendors - Magrom the Red, Barkeeper (669) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 669;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (669, 'cragstonebarkeeper');
@@ -27279,6 +28302,9 @@ VALUES (669, 11, 16777302)
      , (669, 7, 16781840)
      , (669, 4, 16781838)
      , (669, 8, 16781839);
+
+/* Weenie - Vendors - Culthea Ironshaper (678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 678;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (678, 'cragstonearmorer');
@@ -27367,6 +28393,9 @@ VALUES (678, 12, 16778423)
      , (678, 4, 16783485)
      , (678, 8, 16783487);
 
+/* Weenie - Vendors - Estorl the Ox, Weaponsmith (677) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 677;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (677, 'cragstoneweaponsmith');
 
@@ -27449,6 +28478,9 @@ VALUES (677, 10, 16777301)
      , (677, 7, 16777296)
      , (677, 4, 16777291)
      , (677, 8, 16777298);
+
+/* Weenie - Vendors - Jeweler Suya bint Habil (674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 674;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (674, 'cragstonejeweler');
@@ -27538,6 +28570,9 @@ VALUES (674, 11, 16778429)
      , (674, 8, 16778428)
      , (674, 16, 16778476);
 
+/* Weenie - Vendors - Arcanum Broker (38460) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38460;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38460, 'ace38460-arcanumbroker');
 
@@ -27621,6 +28656,9 @@ VALUES (38460, 12, 16777304)
      , (38460, 13, 16783871)
      , (38460, 14, 16783855)
      , (38460, 16, 16778476);
+
+/* Weenie - Vendors - Magus Gondibyr Langarl (675) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 675;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (675, 'cragstonescribe');
@@ -27709,6 +28747,9 @@ VALUES (675, 12, 16777304)
      , (675, 4, 16777291)
      , (675, 8, 16777298);
 
+/* Weenie - Vendors - Steiner's Apprentice Craftsman (12241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12241;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12241, 'furniturevendoralu');
 
@@ -27793,6 +28834,9 @@ VALUES (12241, 2, 16777293)
      , (12241, 7, 16777296)
      , (12241, 4, 16777291)
      , (12241, 8, 16777298);
+
+/* Weenie - Vendors - Taryla the Bowyer (4439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4439;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4439, 'lytelthorpebowyer');
@@ -27881,6 +28925,9 @@ VALUES (4439, 12, 16778423)
      , (4439, 4, 16778426)
      , (4439, 8, 16778428);
 
+/* Weenie - Vendors - Dafrida the Tailor (4445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4445;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4445, 'lytelthorpetailor');
 
@@ -27968,6 +29015,9 @@ VALUES (4445, 12, 16778423)
      , (4445, 4, 16783485)
      , (4445, 8, 16783487);
 
+/* Weenie - Vendors - Sitrath the Smith (4437) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4437;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4437, 'lytelthorpeblacksmith');
 
@@ -28050,6 +29100,9 @@ VALUES (4437, 10, 16777301)
      , (4437, 7, 16781840)
      , (4437, 4, 16781838)
      , (4437, 8, 16781839);
+
+/* Weenie - Vendors - Smith Baltiff (4438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4438;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4438, 'lytelthorpeblacksmith2');
@@ -28134,6 +29187,9 @@ VALUES (4438, 10, 16777301)
      , (4438, 4, 16777291)
      , (4438, 8, 16777298);
 
+/* Weenie - Vendors - Healer Beysta (4441) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4441;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4441, 'lytelthorpehealer');
 
@@ -28216,6 +29272,9 @@ VALUES (4441, 10, 16778431)
      , (4441, 7, 16781840)
      , (4441, 4, 16783485)
      , (4441, 8, 16783487);
+
+/* Weenie - Vendors - Cemcera the Shopkeeper (4444) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4444;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4444, 'lytelthorpeshopkeep');
@@ -28304,6 +29363,9 @@ VALUES (4444, 12, 16778423)
      , (4444, 4, 16778426)
      , (4444, 8, 16778428);
 
+/* Weenie - Vendors - Selflora the Barkeep (4436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4436;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4436, 'lytelthorpebarkeeper');
 
@@ -28390,6 +29452,9 @@ VALUES (4436, 12, 16778423)
      , (4436, 7, 16781840)
      , (4436, 4, 16783485)
      , (4436, 8, 16783487);
+
+/* Weenie - Vendors - Sathagg the Jeweler (4442) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4442;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4442, 'lytelthorpejeweler');
@@ -28478,6 +29543,9 @@ VALUES (4442, 12, 16777304)
      , (4442, 4, 16777291)
      , (4442, 8, 16777298);
 
+/* Weenie - Vendors - Grocer Cortarn (4440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4440;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4440, 'lytelthorpegrocer');
 
@@ -28560,6 +29628,9 @@ VALUES (4440, 10, 16777301)
      , (4440, 7, 16781840)
      , (4440, 4, 16781838)
      , (4440, 8, 16781839);
+
+/* Weenie - Vendors - Gylfolma the Scribe (4443) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4443;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4443, 'lytelthorpescribe');
@@ -28648,6 +29719,9 @@ VALUES (4443, 12, 16778423)
      , (4443, 4, 16778426)
      , (4443, 8, 16778428);
 
+/* Weenie - Vendors - Archmage Den Ou (4435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4435, 'lytelthorpearchmage');
 
@@ -28735,6 +29809,9 @@ VALUES (4435, 12, 16778423)
      , (4435, 4, 16778426)
      , (4435, 8, 16778428);
 
+/* Weenie - Vendors - Belbeca the Weaponsmith  (5428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5428;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5428, 'glendenwestoutpostweaponsmith');
 
@@ -28818,6 +29895,9 @@ VALUES (5428, 10, 16778431)
      , (5428, 4, 16781838)
      , (5428, 8, 16781839);
 
+/* Weenie - Vendors - Pondenn the Armorer (5426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5426;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5426, 'glendenwestoutpostarmorer');
 
@@ -28900,6 +29980,9 @@ VALUES (5426, 10, 16777301)
      , (5426, 7, 16777296)
      , (5426, 4, 16777291)
      , (5426, 8, 16777298);
+
+/* Weenie - Vendors - Fyrdina Ellic the Weaponsmith (739) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 739;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (739, 'glendenweaponsmith');
@@ -28985,6 +30068,9 @@ VALUES (739, 11, 16778429)
      , (739, 7, 16778360)
      , (739, 4, 16778426)
      , (739, 8, 16778428);
+
+/* Weenie - Vendors - Danifa Gondmad the Healer  (735) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 735;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (735, 'glendenhealer');
@@ -29076,6 +30162,9 @@ VALUES (735, 12, 16778423)
      , (735, 8, 16783487)
      , (735, 16, 16779635);
 
+/* Weenie - Vendors - Archmage Cortorl (5425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5425;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5425, 'glendenwestoutpostarchmage');
 
@@ -29162,6 +30251,9 @@ VALUES (5425, 12, 16777304)
      , (5425, 7, 16781840)
      , (5425, 4, 16781838)
      , (5425, 8, 16781839);
+
+/* Weenie - Vendors - Arsitha Trell the Grocer (737) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 737;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (737, 'glendenshopkeep');
@@ -29250,6 +30342,9 @@ VALUES (737, 12, 16778423)
      , (737, 4, 16783485)
      , (737, 8, 16783487);
 
+/* Weenie - Vendors - Ortun Trell the Jeweler (736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 736;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (736, 'glendenjeweler');
 
@@ -29336,6 +30431,9 @@ VALUES (736, 11, 16777302)
      , (736, 4, 16777291)
      , (736, 8, 16777298)
      , (736, 16, 16779630);
+
+/* Weenie - Vendors - Healer Fridroth (5427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5427;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5427, 'glendenwestoutposthealer');
@@ -29427,6 +30525,9 @@ VALUES (5427, 12, 16777304)
      , (5427, 8, 16781839)
      , (5427, 16, 16779635);
 
+/* Weenie - Vendors - Singud Trell the Archmage (2303) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2303;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2303, 'glendenarchmage');
 
@@ -29512,6 +30613,9 @@ VALUES (2303, 11, 16777302)
      , (2303, 4, 16777291)
      , (2303, 8, 16777298);
 
+/* Weenie - Vendors - Ystig Marson the Barkeeper (731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 731;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (731, 'glendenbarkeeper');
 
@@ -29596,6 +30700,9 @@ VALUES (731, 11, 16777302)
      , (731, 7, 16777296)
      , (731, 4, 16777291)
      , (731, 8, 16777298);
+
+/* Weenie - Vendors - Idenne Sulmad the Seamstress (738) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 738;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (738, 'glendentailor');
@@ -29686,6 +30793,9 @@ VALUES (738, 12, 16778423)
      , (738, 8, 16783487)
      , (738, 16, 16779630);
 
+/* Weenie - Vendors - Hunderth the Provisioner (734) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 734;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (734, 'glendengrocer');
 
@@ -29770,6 +30880,9 @@ VALUES (734, 10, 16777301)
      , (734, 4, 16777291)
      , (734, 8, 16777298)
      , (734, 16, 16779630);
+
+/* Weenie - Vendors - Fletcher Peldin Yewbender (733) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 733;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (733, 'glendenbowyer');
@@ -29856,6 +30969,9 @@ VALUES (733, 11, 16777302)
      , (733, 4, 16781838)
      , (733, 8, 16781839);
 
+/* Weenie - Vendors - Fertroth the Healer (5424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5424;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5424, 'glendeneastoutposthealer');
 
@@ -29941,6 +31057,9 @@ VALUES (5424, 10, 16777301)
      , (5424, 4, 16781838)
      , (5424, 8, 16781839)
      , (5424, 16, 16779635);
+
+/* Weenie - Vendors - Archmage Geltruma (5422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5422;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5422, 'glendeneastoutpostarchmage');
@@ -30029,6 +31148,9 @@ VALUES (5422, 12, 16777304)
      , (5422, 4, 16781838)
      , (5422, 8, 16781839);
 
+/* Weenie - Vendors - Bowyer Brondig (5423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5423;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5423, 'glendeneastoutpostbowyer');
 
@@ -30113,6 +31235,9 @@ VALUES (5423, 11, 16777302)
      , (5423, 7, 16777296)
      , (5423, 4, 16777291)
      , (5423, 8, 16777298);
+
+/* Weenie - Vendors - Jacque the Woodsman (13227) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13227;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13227, 'glendenwoodsman');
@@ -30200,6 +31325,9 @@ VALUES (13227, 10, 16777301)
      , (13227, 4, 16781838)
      , (13227, 8, 16781839)
      , (13227, 16, 16779635);
+
+/* Weenie - Vendors - Plateau Spice Merchant (6113) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6113;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6113, 'plateauspicemerchant');
@@ -30289,6 +31417,9 @@ VALUES (6113, 11, 16777302)
      , (6113, 8, 16781839)
      , (6113, 16, 16783901);
 
+/* Weenie - Vendors - Avorgild the Shopkeeper (2500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2500;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2500, 'plateaushopkeep');
 
@@ -30373,6 +31504,9 @@ VALUES (2500, 10, 16777301)
      , (2500, 4, 16781838)
      , (2500, 8, 16781839)
      , (2500, 16, 16779630);
+
+/* Weenie - Vendors - Scribe Finaver (2501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2501;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2501, 'plateauscribe');
@@ -30463,6 +31597,9 @@ VALUES (2501, 12, 16777304)
      , (2501, 8, 16777298)
      , (2501, 16, 16779630);
 
+/* Weenie - Vendors - Brenica the Jeweler (2503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2503;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2503, 'plateaujeweler');
 
@@ -30548,6 +31685,9 @@ VALUES (2503, 11, 16778429)
      , (2503, 4, 16778426)
      , (2503, 8, 16778428);
 
+/* Weenie - Vendors - Master Scrivener of Creature Magic (20207) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20207;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20207, 'scrivenercreaturedistant');
 
@@ -30630,6 +31770,9 @@ VALUES (20207, 10, 16778431)
      , (20207, 7, 16781840)
      , (20207, 4, 16783485)
      , (20207, 8, 16783487);
+
+/* Weenie - Vendors - Master Scrivener of Life Magic (20219) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20219;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20219, 'scrivenerlifedistant');
@@ -30714,6 +31857,9 @@ VALUES (20219, 10, 16777301)
      , (20219, 4, 16781838)
      , (20219, 8, 16781839);
 
+/* Weenie - Vendors - Master Scrivener of Item Magic (20211) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20211;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20211, 'scriveneritemdistant');
 
@@ -30797,6 +31943,9 @@ VALUES (20211, 10, 16777301)
      , (20211, 4, 16781838)
      , (20211, 8, 16781839);
 
+/* Weenie - Vendors - Master Scrivener of War Magic (20223) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20223;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20223, 'scrivenerwardistant');
 
@@ -30879,6 +32028,9 @@ VALUES (20223, 10, 16777301)
      , (20223, 7, 16781840)
      , (20223, 4, 16781838)
      , (20223, 8, 16781839);
+
+/* Weenie - Vendors - Mothdor the Bowyer (2316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2316;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2316, 'forttethanabowyer');
@@ -30964,6 +32116,9 @@ VALUES (2316, 11, 16777302)
      , (2316, 4, 16781838)
      , (2316, 8, 16781839);
 
+/* Weenie - Vendors - Shopkeeper Yoshi Deshi (2317) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2317;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2317, 'forttethanashopkeep');
 
@@ -31046,6 +32201,9 @@ VALUES (2317, 10, 16777301)
      , (2317, 7, 16781840)
      , (2317, 4, 16781838)
      , (2317, 8, 16781839);
+
+/* Weenie - Vendors - Blacksmith Magarith (2315) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2315;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2315, 'forttethanablacksmith');
@@ -31131,6 +32289,9 @@ VALUES (2315, 11, 16778429)
      , (2315, 7, 16778360)
      , (2315, 4, 16778426)
      , (2315, 8, 16778428);
+
+/* Weenie - Vendors - Zisaha bint Jaidka the Mage (2314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2314;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2314, 'forttethanaarchmage');
@@ -31219,6 +32380,9 @@ VALUES (2314, 11, 16778429)
      , (2314, 8, 16781859)
      , (2314, 16, 16778594);
 
+/* Weenie - Vendors - Helford Beldryn the Grocer (2228) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2228;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2228, 'dryreachgrocer');
 
@@ -31304,6 +32468,9 @@ VALUES (2228, 11, 16777302)
      , (2228, 4, 16777291)
      , (2228, 8, 16777298);
 
+/* Weenie - Vendors - Tilutha Beldryn the Tailor (2233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2233;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2233, 'dryreachtailor');
 
@@ -31386,6 +32553,9 @@ VALUES (2233, 10, 16778431)
      , (2233, 7, 16778360)
      , (2233, 4, 16778426)
      , (2233, 8, 16778428);
+
+/* Weenie - Vendors - Old Wylfed the Scribe (2231) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2231;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2231, 'dryreachscribe');
@@ -31475,6 +32645,9 @@ VALUES (2231, 11, 16777302)
      , (2231, 8, 16781839)
      , (2231, 16, 16779635);
 
+/* Weenie - Vendors - Sordan Edelson the Smithy (2226) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2226;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2226, 'dryreachblacksmith');
 
@@ -31555,6 +32728,9 @@ VALUES (2226, 2, 16777293)
      , (2226, 7, 16777296)
      , (2226, 4, 16777291)
      , (2226, 8, 16777298);
+
+/* Weenie - Vendors - Esteca the Bowyer (2227) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2227;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2227, 'dryreachbowyer');
@@ -31644,6 +32820,9 @@ VALUES (2227, 11, 16778429)
      , (2227, 8, 16783487)
      , (2227, 16, 16779635);
 
+/* Weenie - Vendors - Barkeep Mordmor (2221) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2221;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2221, 'dryreachbarkeeper');
 
@@ -31728,6 +32907,9 @@ VALUES (2221, 10, 16777301)
      , (2221, 4, 16781838)
      , (2221, 8, 16781839)
      , (2221, 16, 16779630);
+
+/* Weenie - Vendors - Archmage Bendrew Efrith (2220) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2220;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2220, 'dryreacharchmage');
@@ -31818,6 +33000,9 @@ VALUES (2220, 12, 16777304)
      , (2220, 8, 16777298)
      , (2220, 16, 16779630);
 
+/* Weenie - Vendors - Rindelle the Shopkeeper (2232) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2232;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2232, 'dryreachshoopkeep');
 
@@ -31905,6 +33090,9 @@ VALUES (2232, 11, 16778429)
      , (2232, 8, 16778428)
      , (2232, 16, 16779630);
 
+/* Weenie - Vendors - Landeth Colson the Jeweler (2230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2230;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2230, 'dryreachjeweler');
 
@@ -31988,6 +33176,9 @@ VALUES (2230, 10, 16777301)
      , (2230, 4, 16781838)
      , (2230, 8, 16781839);
 
+/* Weenie - Vendors - Ludora the Healer (2229) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2229;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2229, 'dryreachhealer');
 
@@ -32070,6 +33261,9 @@ VALUES (2229, 10, 16778431)
      , (2229, 7, 16781840)
      , (2229, 4, 16783485)
      , (2229, 8, 16783487);
+
+/* Weenie - Vendors - Archmage Nulsymber (2305) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2305;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2305, 'rithwicarchmage');
@@ -32155,6 +33349,9 @@ VALUES (2305, 11, 16777302)
      , (2305, 7, 16777296)
      , (2305, 4, 16777291)
      , (2305, 8, 16777298);
+
+/* Weenie - Vendors - Ynarre the Grocer (663) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 663;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (663, 'rithwicgrocer');
@@ -32242,6 +33439,9 @@ VALUES (663, 12, 16778423)
      , (663, 7, 16778360)
      , (663, 4, 16778426)
      , (663, 8, 16778428);
+
+/* Weenie - Vendors - Soldona Wotmad the Jeweler (1081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1081;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1081, 'eastrithwicjeweler');
@@ -32333,6 +33533,9 @@ VALUES (1081, 12, 16778423)
      , (1081, 8, 16783487)
      , (1081, 16, 16779635);
 
+/* Weenie - Vendors - Urnolt the Jeweler (665) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 665;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (665, 'rithwicjeweler');
 
@@ -32423,6 +33626,9 @@ VALUES (665, 12, 16777304)
      , (665, 8, 16777298)
      , (665, 16, 16779635);
 
+/* Weenie - Vendors - Wylreda the Scribe (666) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 666;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (666, 'rithwicscribe');
 
@@ -32508,6 +33714,9 @@ VALUES (666, 11, 16778429)
      , (666, 4, 16783485)
      , (666, 8, 16783487);
 
+/* Weenie - Vendors - Erludd the Cur the Barkeeper (1082) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1082;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1082, 'eastrithwicbarkeeper');
 
@@ -32591,6 +33800,9 @@ VALUES (1082, 2, 16777293)
      , (1082, 4, 16777291)
      , (1082, 8, 16777298);
 
+/* Weenie - Vendors - Luthin the Smith (661) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 661;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (661, 'rithwicblacksmith');
 
@@ -32671,6 +33883,9 @@ VALUES (661, 2, 16777293)
      , (661, 7, 16777296)
      , (661, 4, 16777291)
      , (661, 8, 16777298);
+
+/* Weenie - Vendors - Ji Tenxien the Tailor (1080) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1080;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1080, 'eastrithwictailor');
@@ -32754,6 +33969,9 @@ VALUES (1080, 2, 16778436)
      , (1080, 4, 16778426)
      , (1080, 8, 16778428)
      , (1080, 16, 16779630);
+
+/* Weenie - Vendors - Brisin the Healer (664) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 664;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (664, 'rithwichealer');
@@ -32840,6 +34058,9 @@ VALUES (664, 2, 16777293)
      , (664, 4, 16777291)
      , (664, 8, 16777298)
      , (664, 16, 16779635);
+
+/* Weenie - Vendors - Barkeep Ricetha (659) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 659;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (659, 'rithwicbarkeeper');
@@ -32928,6 +34149,9 @@ VALUES (659, 12, 16778423)
      , (659, 4, 16783485)
      , (659, 8, 16783487);
 
+/* Weenie - Vendors - Weaponsmith Baizai En (668) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 668;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (668, 'rithwicweaponsmith');
 
@@ -33015,6 +34239,9 @@ VALUES (668, 12, 16778423)
      , (668, 4, 16778426)
      , (668, 8, 16778428);
 
+/* Weenie - Vendors - Trothyd Fletcher (662) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 662;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (662, 'rithwicbowyer');
 
@@ -33097,6 +34324,9 @@ VALUES (662, 10, 16777301)
      , (662, 7, 16781840)
      , (662, 4, 16781838)
      , (662, 8, 16781839);
+
+/* Weenie - Vendors - Dortold the Tailor (667) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 667;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (667, 'rithwictailor');
@@ -33186,6 +34416,9 @@ VALUES (667, 11, 16777302)
      , (667, 8, 16777298)
      , (667, 16, 16779635);
 
+/* Weenie - Vendors - Girdweld the Shopkeeper (4449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4449;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4449, 'rithwicsouthoutpostshopkeep');
 
@@ -33273,6 +34506,9 @@ VALUES (4449, 12, 16777304)
      , (4449, 4, 16777291)
      , (4449, 8, 16777298);
 
+/* Weenie - Vendors - Hydeatha the Shopkeeper (4448) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4448;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4448, 'rithwiceastoutpostshopkeep');
 
@@ -33359,6 +34595,9 @@ VALUES (4448, 12, 16778423)
      , (4448, 7, 16778360)
      , (4448, 4, 16778426)
      , (4448, 8, 16778428);
+
+/* Weenie - Vendors - Laqisha the Scribe (701) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 701;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (701, 'arwicscribe');
@@ -33449,6 +34688,9 @@ VALUES (701, 12, 16778423)
      , (701, 8, 16778428)
      , (701, 16, 16778594);
 
+/* Weenie - Vendors - Ladim al-Faji the Bowyer (1039) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1039;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1039, 'yaraqbowyer');
 
@@ -33535,6 +34777,9 @@ VALUES (1039, 11, 16777302)
      , (1039, 8, 16781839)
      , (1039, 16, 16778594);
 
+/* Weenie - Vendors - Buray ibn Tamsa the Blacksmith (1038) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1038;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1038, 'yaraqblacksmith');
 
@@ -33618,6 +34863,9 @@ VALUES (1038, 2, 16777293)
      , (1038, 4, 16781855)
      , (1038, 8, 16781859)
      , (1038, 16, 16778476);
+
+/* Weenie - Vendors - Arlad ibn Mulud the Tailor (1047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1047;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1047, 'yaraqtailor');
@@ -33705,6 +34953,9 @@ VALUES (1047, 10, 16777301)
      , (1047, 8, 16781839)
      , (1047, 16, 16778476);
 
+/* Weenie - Vendors - Iqbal (42429) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42429;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42429, 'ace42429-iqbal');
 
@@ -33786,6 +35037,9 @@ VALUES (42429, 12, 16777304)
      , (42429, 11, 16781822)
      , (42429, 13, 16781868)
      , (42429, 14, 16781821);
+
+/* Weenie - Vendors - Nuya bint Mulud the Grocer (1040) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1040;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1040, 'yaraqgrocer');
@@ -33876,6 +35130,9 @@ VALUES (1040, 12, 16778423)
      , (1040, 8, 16781859)
      , (1040, 16, 16778594);
 
+/* Weenie - Vendors - Ashadi bint Samaq (9505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9505;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9505, 'gamblercashiergha');
 
@@ -33964,6 +35221,9 @@ VALUES (9505, 11, 16778429)
      , (9505, 8, 16778428)
      , (9505, 16, 16778476);
 
+/* Weenie - Vendors - Rahira bint Hisan the Shopkeeper (1045) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1045;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1045, 'yaraqshopkeep');
 
@@ -34049,6 +35309,9 @@ VALUES (1045, 10, 16778431)
      , (1045, 4, 16778426)
      , (1045, 8, 16778428)
      , (1045, 16, 16778476);
+
+/* Weenie - Vendors - Iaret (49517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49517;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49517, 'ace49517-iaret');
@@ -34145,6 +35408,9 @@ VALUES (49517, 0, 16783897)
      , (49517, 15, 16789333)
      , (49517, 16, 16793463);
 
+/* Weenie - Vendors - Archmage Inyamkaya bint Ruz (2307) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2307;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2307, 'yaraqarchmage');
 
@@ -34229,6 +35495,9 @@ VALUES (2307, 11, 16778429)
      , (2307, 7, 16778360)
      , (2307, 4, 16778426)
      , (2307, 8, 16778428);
+
+/* Weenie - Vendors - Tariqana bint Hin the Jeweler (1042) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1042;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1042, 'yaraqjeweler');
@@ -34320,6 +35589,9 @@ VALUES (1042, 12, 16778423)
      , (1042, 8, 16781859)
      , (1042, 16, 16778476);
 
+/* Weenie - Vendors - Wasifa al-Kani the Scribe (1044) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1044;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1044, 'yaraqscribe');
 
@@ -34407,6 +35679,9 @@ VALUES (1044, 11, 16778429)
      , (1044, 8, 16781859)
      , (1044, 16, 16778594);
 
+/* Weenie - Vendors - Barkeep Jubal al-Baljad (1034) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1034;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1034, 'yaraqbarkeeper');
 
@@ -34489,6 +35764,9 @@ VALUES (1034, 10, 16777301)
      , (1034, 7, 16781840)
      , (1034, 4, 16781838)
      , (1034, 8, 16781839);
+
+/* Weenie - Vendors - Mulud al-Iyar the Healer (1041) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1041;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1041, 'yaraqhealer');
@@ -34579,6 +35857,9 @@ VALUES (1041, 12, 16777304)
      , (1041, 8, 16781859)
      , (1041, 16, 16778594);
 
+/* Weenie - Vendors - Drawohan the Gem Seller (9424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9424;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9424, 'yaraqlugiangemseller');
 
@@ -34636,6 +35917,9 @@ VALUES (9424, 0, 16785699)
      , (9424, 12, 16785701)
      , (9424, 19, 16777708)
      , (9424, 20, 16777708);
+
+/* Weenie - Vendors - Contract Broker (44189) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44189;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44189, 'ace44189-contractbroker');
@@ -34723,6 +36007,9 @@ VALUES (44189, 9, 16795213)
      , (44189, 4, 16795223)
      , (44189, 8, 16795224)
      , (44189, 16, 16795218);
+
+/* Weenie - Vendors - Tailor Najsun (4686) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4686;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4686, 'alarqastailor');
@@ -34814,6 +36101,9 @@ VALUES (4686, 12, 16777304)
      , (4686, 8, 16777298)
      , (4686, 16, 16778476);
 
+/* Weenie - Vendors - Bashkiya the Scribe (4684) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4684;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4684, 'alarqasscribe');
 
@@ -34902,6 +36192,9 @@ VALUES (4684, 11, 16778429)
      , (4684, 8, 16781859)
      , (4684, 16, 16778476);
 
+/* Weenie - Vendors - Archmage Jiz ibn Ijfai (4677) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4677;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4677, 'alarqasarchmage');
 
@@ -34986,6 +36279,9 @@ VALUES (4677, 11, 16777302)
      , (4677, 7, 16777296)
      , (4677, 4, 16777291)
      , (4677, 8, 16777298);
+
+/* Weenie - Vendors - Sidzika the Grocer (4681) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4681;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4681, 'alarqasgrocer');
@@ -35077,6 +36373,9 @@ VALUES (4681, 12, 16778423)
      , (4681, 8, 16783487)
      , (4681, 16, 16778476);
 
+/* Weenie - Vendors - Smith Dah bint Nas (4679) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4679;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4679, 'alarqasblacksmith');
 
@@ -35161,6 +36460,9 @@ VALUES (4679, 10, 16778431)
      , (4679, 4, 16783485)
      , (4679, 8, 16783487)
      , (4679, 16, 16778594);
+
+/* Weenie - Vendors - Muta al-Mai the Bowyer (4680) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4680;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4680, 'alarqasbowyer');
@@ -35249,6 +36551,9 @@ VALUES (4680, 11, 16778429)
      , (4680, 8, 16781859)
      , (4680, 16, 16778594);
 
+/* Weenie - Vendors - Hinnabqiq the Jeweler (4683) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4683;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4683, 'alarqasjeweler');
 
@@ -35333,6 +36638,9 @@ VALUES (4683, 2, 16777293)
      , (4683, 4, 16781855)
      , (4683, 8, 16781859)
      , (4683, 16, 16778594);
+
+/* Weenie - Vendors - Healer Sunwi (4682) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4682;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4682, 'alarqashealer');
@@ -35419,6 +36727,9 @@ VALUES (4682, 10, 16777301)
      , (4682, 4, 16781838)
      , (4682, 8, 16781839)
      , (4682, 16, 16778476);
+
+/* Weenie - Vendors - Najsuf al-Afan the Shopkeeper (4702) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4702;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4702, 'khayyabanshopkeep');
@@ -35507,6 +36818,9 @@ VALUES (4702, 11, 16777302)
      , (4702, 8, 16781839)
      , (4702, 16, 16778594);
 
+/* Weenie - Vendors - Barkeep Mausin ibn Hi (4696) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4696;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4696, 'khayyabanbarkeeper');
 
@@ -35594,6 +36908,9 @@ VALUES (4696, 2, 16777293)
      , (4696, 8, 16777298)
      , (4696, 16, 16778594);
 
+/* Weenie - Vendors - Jeweler Hawtala bint Arsha (4700) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4700;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4700, 'khayyabanjeweler');
 
@@ -35680,6 +36997,9 @@ VALUES (4700, 11, 16778429)
      , (4700, 4, 16783485)
      , (4700, 8, 16783487)
      , (4700, 16, 16778594);
+
+/* Weenie - Vendors - Tailor Zayjah (4703) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4703;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4703, 'khayyabantailor');
@@ -35771,6 +37091,9 @@ VALUES (4703, 12, 16777304)
      , (4703, 8, 16777298)
      , (4703, 16, 16778476);
 
+/* Weenie - Vendors - Scribe Tashwi ibn Sayat (4701) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4701;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4701, 'khayyabanscribe');
 
@@ -35855,6 +37178,9 @@ VALUES (4701, 2, 16777293)
      , (4701, 8, 16781859)
      , (4701, 16, 16778476);
 
+/* Weenie - Vendors - Armorer Hinfiya bint Ju (4695) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4695;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4695, 'khayyabanarmorer');
 
@@ -35938,6 +37264,9 @@ VALUES (4695, 2, 16778436)
      , (4695, 4, 16781838)
      , (4695, 8, 16781839);
 
+/* Weenie - Vendors - Weaponsmith Mura bint Mu'ja (4704) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4704;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4704, 'khayyabanweaponsmith');
 
@@ -36018,6 +37347,9 @@ VALUES (4704, 2, 16778436)
      , (4704, 7, 16777296)
      , (4704, 4, 16781855)
      , (4704, 8, 16781859);
+
+/* Weenie - Vendors - Tumina the Healer (4699) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4699;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4699, 'khayyabanhealer');
@@ -36103,6 +37435,9 @@ VALUES (4699, 10, 16778431)
      , (4699, 4, 16781855)
      , (4699, 8, 16781859)
      , (4699, 16, 16778594);
+
+/* Weenie - Vendors - Grocer Sina bint Idnun (4698) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4698;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4698, 'khayyabangrocer');
@@ -36194,6 +37529,9 @@ VALUES (4698, 12, 16778423)
      , (4698, 8, 16783487)
      , (4698, 16, 16778476);
 
+/* Weenie - Vendors - Najmima the Archmage (4694) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4694;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4694, 'khayyabanarchmage');
 
@@ -36283,6 +37621,9 @@ VALUES (4694, 12, 16778423)
      , (4694, 8, 16781859)
      , (4694, 16, 16778594);
 
+/* Weenie - Vendors - Bowyer Safruya bint Bilak (4697) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4697;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4697, 'khayyabanbowyer');
 
@@ -36369,6 +37710,9 @@ VALUES (4697, 11, 16778429)
      , (4697, 4, 16783485)
      , (4697, 8, 16783487)
      , (4697, 16, 16778594);
+
+/* Weenie - Vendors - Archmage Sammam al-Ashiz (1824) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1824;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1824, 'uzizarchmage');
@@ -36460,6 +37804,9 @@ VALUES (1824, 12, 16777304)
      , (1824, 8, 16781839)
      , (1824, 16, 16778594);
 
+/* Weenie - Vendors - Yahr ibn Ajaj the Bowyer (1828) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1828;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1828, 'uzizbowyer');
 
@@ -36548,6 +37895,9 @@ VALUES (1828, 11, 16777302)
      , (1828, 8, 16781839)
      , (1828, 16, 16778594);
 
+/* Weenie - Vendors - Maryata bint Daris the Barkeep (1826) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1826;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1826, 'uzizbarkeeper');
 
@@ -36635,6 +37985,9 @@ VALUES (1826, 2, 16778436)
      , (1826, 4, 16778426)
      , (1826, 8, 16778428)
      , (1826, 16, 16778594);
+
+/* Weenie - Vendors - Ziya bint Balun the Grocer (1829) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1829;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1829, 'uzizgrocer');
@@ -36727,6 +38080,9 @@ VALUES (1829, 12, 16778423)
      , (1829, 8, 16783487)
      , (1829, 16, 16778476);
 
+/* Weenie - Vendors - Tailor Istima al-Mahat (1834) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1834;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1834, 'uziztailor');
 
@@ -36818,6 +38174,9 @@ VALUES (1834, 12, 16778423)
      , (1834, 8, 16783487)
      , (1834, 16, 16778476);
 
+/* Weenie - Vendors - Nashima al-Haruq the Healer (1830) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1830;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1830, 'uzizhealer');
 
@@ -36904,6 +38263,9 @@ VALUES (1830, 10, 16778431)
      , (1830, 8, 16781859)
      , (1830, 16, 16778594);
 
+/* Weenie - Vendors - Ruza bint Tinun the Armorer (1825) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1825;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1825, 'uzizarmorer');
 
@@ -36987,6 +38349,9 @@ VALUES (1825, 2, 16778436)
      , (1825, 4, 16781838)
      , (1825, 8, 16781839);
 
+/* Weenie - Vendors - Ulib ibn Ghunir the Weaponsmith (1835) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1835;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1835, 'uzizweaponsmith');
 
@@ -37068,6 +38433,9 @@ VALUES (1835, 2, 16777293)
      , (1835, 7, 16777296)
      , (1835, 4, 16781855)
      , (1835, 8, 16781859);
+
+/* Weenie - Vendors - Adraha bint Safsan the Appraiser (1831) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1831;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1831, 'uzizjeweler');
@@ -37157,6 +38525,9 @@ VALUES (1831, 11, 16778429)
      , (1831, 8, 16783487)
      , (1831, 16, 16778594);
 
+/* Weenie - Vendors - Waham ibn Fadyat the Shopkeeper (1833) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1833;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1833, 'uzizshopkeep');
 
@@ -37244,6 +38615,9 @@ VALUES (1833, 11, 16777302)
      , (1833, 8, 16781839)
      , (1833, 16, 16778594);
 
+/* Weenie - Vendors - Barshid al-Juhir the Scribe (1832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1832;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1832, 'uzizscribe');
 
@@ -37329,6 +38703,9 @@ VALUES (1832, 2, 16777293)
      , (1832, 8, 16781859)
      , (1832, 16, 16778476);
 
+/* Weenie - Vendors - Scrivener of Life Magic (49597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49597;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49597, 'ace49597-scriveneroflifemagic');
 
@@ -37412,6 +38789,9 @@ VALUES (49597, 10, 16777301)
      , (49597, 7, 16781840)
      , (49597, 4, 16781838)
      , (49597, 8, 16781839);
+
+/* Weenie - Vendors - Scrivener of War Magic (49596) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49596;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49596, 'ace49596-scrivenerofwarmagic');
@@ -37497,6 +38877,9 @@ VALUES (49596, 10, 16778431)
      , (49596, 4, 16783485)
      , (49596, 8, 16783487);
 
+/* Weenie - Vendors - Scrivener of Item Magic (49599) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49599;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49599, 'ace49599-scrivenerofitemmagic');
 
@@ -37580,6 +38963,9 @@ VALUES (49599, 10, 16777301)
      , (49599, 7, 16781840)
      , (49599, 4, 16781838)
      , (49599, 8, 16781839);
+
+/* Weenie - Vendors - Scrivener of Creature Magic (49598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49598;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49598, 'ace49598-scrivenerofcreaturemagic');
@@ -37665,6 +39051,9 @@ VALUES (49598, 10, 16778431)
      , (49598, 4, 16783485)
      , (49598, 8, 16783487);
 
+/* Weenie - Vendors - Bowyer Shurida bint Zaud (1817) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1817;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1817, 'tufabowyer');
 
@@ -37746,6 +39135,9 @@ VALUES (1817, 2, 16778436)
      , (1817, 4, 16781838)
      , (1817, 8, 16781839)
      , (1817, 16, 16778594);
+
+/* Weenie - Vendors - Healer Jilrisi ibn Makhur (1819) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1819;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1819, 'tufahealer');
@@ -37835,6 +39227,9 @@ VALUES (1819, 11, 16777302)
      , (1819, 8, 16781839)
      , (1819, 16, 16778476);
 
+/* Weenie - Vendors - Tailor Fadnuj ibn Samil (1823) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1823;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1823, 'tufatailor');
 
@@ -37923,6 +39318,9 @@ VALUES (1823, 12, 16777304)
      , (1823, 8, 16781839)
      , (1823, 16, 16778594);
 
+/* Weenie - Vendors - Grocer Tashhir ibn Najrak (1818) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1818;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1818, 'tufagrocer');
 
@@ -38009,6 +39407,9 @@ VALUES (1818, 11, 16777302)
      , (1818, 4, 16781838)
      , (1818, 8, 16781839)
      , (1818, 16, 16778594);
+
+/* Weenie - Vendors - Archmage Dakila bint Ma'liz (1812) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1812;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1812, 'tufaarchmage');
@@ -38099,6 +39500,9 @@ VALUES (1812, 12, 16778423)
      , (1812, 8, 16783487)
      , (1812, 16, 16778594);
 
+/* Weenie - Vendors - Maqura al-Waryah the Blacksmith (1815) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1815;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1815, 'tufablacksmith');
 
@@ -38186,6 +39590,9 @@ VALUES (1815, 11, 16778429)
      , (1815, 8, 16781839)
      , (1815, 16, 16778594);
 
+/* Weenie - Vendors - Djuyat ibn Fisa the Armorer (1816) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1816;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1816, 'tufablacksmith2');
 
@@ -38271,6 +39678,9 @@ VALUES (1816, 10, 16777301)
      , (1816, 4, 16781838)
      , (1816, 8, 16781839)
      , (1816, 16, 16778476);
+
+/* Weenie - Vendors - Afsan ibn Kusain the Barkeep (1813) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1813;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1813, 'tufabarkeeper');
@@ -38358,6 +39768,9 @@ VALUES (1813, 11, 16777302)
      , (1813, 4, 16777291)
      , (1813, 8, 16777298)
      , (1813, 16, 16778594);
+
+/* Weenie - Vendors - Lalid al-Jasi the Jeweler (1820) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1820;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1820, 'tufajeweler');
@@ -38449,6 +39862,9 @@ VALUES (1820, 12, 16777304)
      , (1820, 8, 16781839)
      , (1820, 16, 16778476);
 
+/* Weenie - Vendors - Shopkeep Bubtil al-Taywi (1822) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1822;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1822, 'tufashopkeep');
 
@@ -38539,6 +39955,9 @@ VALUES (1822, 12, 16777304)
      , (1822, 8, 16781839)
      , (1822, 16, 16778476);
 
+/* Weenie - Vendors - Healer Hansur al-Hirwak (4692) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4692;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4692, 'aljalimahealer');
 
@@ -38623,6 +40042,9 @@ VALUES (4692, 10, 16777301)
      , (4692, 4, 16781855)
      , (4692, 8, 16781859)
      , (4692, 16, 16778594);
+
+/* Weenie - Vendors - Archmage Marnai ibn Ayyar (4689) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4689;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4689, 'aljalimaarchmage');
@@ -38713,6 +40135,9 @@ VALUES (4689, 12, 16777304)
      , (4689, 8, 16781839)
      , (4689, 16, 16778594);
 
+/* Weenie - Vendors - Rah bint Khurdig the Bowyer (4691) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4691;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4691, 'aljalimabowyer');
 
@@ -38800,6 +40225,9 @@ VALUES (4691, 11, 16777302)
      , (4691, 8, 16781839)
      , (4691, 16, 16778594);
 
+/* Weenie - Vendors - Busbawasa the Smith (4690) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4690;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4690, 'aljalimablacksmith');
 
@@ -38885,6 +40313,9 @@ VALUES (4690, 2, 16778436)
      , (4690, 8, 16781839)
      , (4690, 16, 16778594);
 
+/* Weenie - Vendors - Su'nah bint Arfiz the Shopkeeper (4693) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4693;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4693, 'aljalimashopkeep');
 
@@ -38969,6 +40400,9 @@ VALUES (4693, 10, 16778431)
      , (4693, 4, 16781855)
      , (4693, 8, 16781859)
      , (4693, 16, 16778594);
+
+/* Weenie - Vendors - Al-Jalima Spice Merchant (6083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6083;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6083, 'aljalimaspicemerchant');
@@ -39057,6 +40491,9 @@ VALUES (6083, 12, 16777304)
      , (6083, 4, 16781838)
      , (6083, 8, 16781839);
 
+/* Weenie - Vendors - Muda bint Qalakh the Tailor (994) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 994;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (994, 'zaikhaltailor');
 
@@ -39144,6 +40581,9 @@ VALUES (994, 11, 16778429)
      , (994, 8, 16783487)
      , (994, 16, 16778594);
 
+/* Weenie - Vendors - Zubid ibn Ifi the Grocer (989) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 989;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (989, 'zaikhalgrocer');
 
@@ -39227,6 +40667,9 @@ VALUES (989, 2, 16777293)
      , (989, 4, 16781855)
      , (989, 8, 16781859)
      , (989, 16, 16778476);
+
+/* Weenie - Vendors - Qufana al-Khurti the Blacksmith (987) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 987;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (987, 'zaikhalblacksmith');
@@ -39315,6 +40758,9 @@ VALUES (987, 11, 16778429)
      , (987, 8, 16781859)
      , (987, 16, 16778594);
 
+/* Weenie - Vendors - Maftaltub al-Sur the Bowyer (988) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 988;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (988, 'zaikhalbowyer');
 
@@ -39400,6 +40846,9 @@ VALUES (988, 10, 16777301)
      , (988, 4, 16781838)
      , (988, 8, 16781839)
      , (988, 16, 16778476);
+
+/* Weenie - Vendors - Djusufa bint Huqis the Jeweler (991) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 991;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (991, 'zaikhaljeweler');
@@ -39487,6 +40936,9 @@ VALUES (991, 11, 16778429)
      , (991, 4, 16783485)
      , (991, 8, 16783487)
      , (991, 16, 16778594);
+
+/* Weenie - Vendors - Shopkeep Yudi ibn Zayrim (993) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 993;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (993, 'zaikhalshopkeep');
@@ -39578,6 +41030,9 @@ VALUES (993, 12, 16777304)
      , (993, 8, 16781859)
      , (993, 16, 16778476);
 
+/* Weenie - Vendors - Barkeeper Ghazi al-Barbasin (985) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 985;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (985, 'zaikhalbarkeeper');
 
@@ -39664,6 +41119,9 @@ VALUES (985, 11, 16777302)
      , (985, 4, 16781838)
      , (985, 8, 16781839)
      , (985, 16, 16778594);
+
+/* Weenie - Vendors - Absalom Sarraf (43910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43910;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43910, 'ace43910-absalomsarraf');
@@ -39762,6 +41220,9 @@ VALUES (43910, 12, 16777304)
      , (43910, 4, 16781838)
      , (43910, 8, 16781839);
 
+/* Weenie - Vendors - Healer Hisuf ibn Shudir (990) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 990;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (990, 'zaikhalhealer');
 
@@ -39848,6 +41309,9 @@ VALUES (990, 11, 16777302)
      , (990, 4, 16777291)
      , (990, 8, 16777298)
      , (990, 16, 16778594);
+
+/* Weenie - Vendors - Archmage Asaina al-Arqis (984) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 984;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (984, 'zaikhalarchmage');
@@ -39938,6 +41402,9 @@ VALUES (984, 12, 16778423)
      , (984, 8, 16783487)
      , (984, 16, 16778594);
 
+/* Weenie - Vendors - Suma bint Nayn the Librarian (2045) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2045;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2045, 'zaikhallibrarian');
 
@@ -40025,6 +41492,9 @@ VALUES (2045, 12, 16777304)
      , (2045, 4, 16781855)
      , (2045, 8, 16781859);
 
+/* Weenie - Vendors - Jizal al-Nurla the Scribe (992) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 992;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (992, 'zaikhalscribe');
 
@@ -40111,6 +41581,9 @@ VALUES (992, 12, 16777304)
      , (992, 4, 16781855)
      , (992, 8, 16781859);
 
+/* Weenie - Vendors - Jordan's Apprentice Craftsman (12242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12242;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12242, 'furniturevendorgha');
 
@@ -40196,6 +41669,9 @@ VALUES (12242, 2, 16777293)
      , (12242, 4, 16777291)
      , (12242, 8, 16777298);
 
+/* Weenie - Vendors - Carlyle Wolnoth (43940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43940;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43940, 'ace43940-carlylewolnoth');
 
@@ -40277,6 +41753,9 @@ VALUES (43940, 12, 16777304)
      , (43940, 13, 16783871)
      , (43940, 14, 16783855);
 
+/* Weenie - Vendors - Archmage Zarri ibn Khaybi (8224) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8224;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8224, 'xaraarchmage');
 
@@ -40357,6 +41836,9 @@ VALUES (8224, 12, 16777304)
      , (8224, 11, 16783853)
      , (8224, 13, 16783871)
      , (8224, 14, 16783855);
+
+/* Weenie - Vendors - Farmer Khurah al-Rujarkir (8230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8230;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8230, 'xaragrocer');
@@ -40445,6 +41927,9 @@ VALUES (8230, 12, 16778423)
      , (8230, 4, 16783485)
      , (8230, 8, 16783487);
 
+/* Weenie - Vendors - Smith Ashaira bint Maisa (8226) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8226;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8226, 'xarablacksmith');
 
@@ -40530,6 +42015,9 @@ VALUES (8226, 10, 16778431)
      , (8226, 4, 16783485)
      , (8226, 8, 16783487);
 
+/* Weenie - Vendors - Bowyer Hanra ibn Zarib (8227) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8227;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8227, 'xarabowyer');
 
@@ -40614,6 +42102,9 @@ VALUES (8227, 11, 16777302)
      , (8227, 7, 16781840)
      , (8227, 4, 16781838)
      , (8227, 8, 16781839);
+
+/* Weenie - Vendors - Sifida bint Naril the Scribe (1821) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1821;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1821, 'tufascribe');
@@ -40703,6 +42194,9 @@ VALUES (1821, 11, 16778429)
      , (1821, 8, 16783487)
      , (1821, 16, 16778476);
 
+/* Weenie - Vendors - Barkeep Anarn (8225) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8225;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8225, 'xarabarkeeper');
 
@@ -40788,6 +42282,9 @@ VALUES (8225, 2, 16777293)
      , (8225, 4, 16777291)
      , (8225, 8, 16777298);
 
+/* Weenie - Vendors - Jeweler Jurraf al-Djiqidh (8231) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8231;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8231, 'xarajeweler');
 
@@ -40872,6 +42369,9 @@ VALUES (8231, 11, 16777302)
      , (8231, 7, 16781840)
      , (8231, 4, 16781838)
      , (8231, 8, 16781839);
+
+/* Weenie - Vendors - Fazlim ibn Masay the Tailor (1058) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1058;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1058, 'qalabartailor');
@@ -40962,6 +42462,9 @@ VALUES (1058, 12, 16777304)
      , (1058, 8, 16781859)
      , (1058, 16, 16778594);
 
+/* Weenie - Vendors - Gharuya al-Dhul the Grocer (1053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1053;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1053, 'qalabargrocer');
 
@@ -41050,6 +42553,9 @@ VALUES (1053, 11, 16778429)
      , (1053, 8, 16781859)
      , (1053, 16, 16778476);
 
+/* Weenie - Vendors - Kuyalal al-A'ma the Jeweler (1055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1055;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1055, 'qalabarjeweler');
 
@@ -41134,6 +42640,9 @@ VALUES (1055, 2, 16777293)
      , (1055, 4, 16781855)
      , (1055, 8, 16781859)
      , (1055, 16, 16778594);
+
+/* Weenie - Vendors - Suntar al-Tashqat the Shopkeep (1057) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1057;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1057, 'qalabarshopkeep');
@@ -41223,6 +42732,9 @@ VALUES (1057, 11, 16777302)
      , (1057, 8, 16781839)
      , (1057, 16, 16778476);
 
+/* Weenie - Vendors - Uthab ibn Yafij the Scribe (1056) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1056;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1056, 'qalabarscribe');
 
@@ -41308,6 +42820,9 @@ VALUES (1056, 10, 16777301)
      , (1056, 4, 16781855)
      , (1056, 8, 16781859)
      , (1056, 16, 16778476);
+
+/* Weenie - Vendors - Tamara bint Atwab the Armorer (1049) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1049;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1049, 'qalabararmorer');
@@ -41396,6 +42911,9 @@ VALUES (1049, 11, 16778429)
      , (1049, 8, 16781859)
      , (1049, 16, 16778594);
 
+/* Weenie - Vendors - Almina bint Atwab the Weaponsmith (1059) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1059;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1059, 'qalabarweaponsmith');
 
@@ -41480,6 +42998,9 @@ VALUES (1059, 10, 16778431)
      , (1059, 4, 16783485)
      , (1059, 8, 16783487)
      , (1059, 16, 16778594);
+
+/* Weenie - Vendors - Miya bint Atwab the Bowyer (1052) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1052;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1052, 'qalabarbowyer');
@@ -41571,6 +43092,9 @@ VALUES (1052, 12, 16778423)
      , (1052, 8, 16783487)
      , (1052, 16, 16778476);
 
+/* Weenie - Vendors - Jumzik al-Budim the Archmage (1048) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1048;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1048, 'qalabararchmage');
 
@@ -41660,6 +43184,9 @@ VALUES (1048, 12, 16777304)
      , (1048, 8, 16781859)
      , (1048, 16, 16778594);
 
+/* Weenie - Vendors - Healer Windotha Sofyld (1054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1054;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1054, 'qalabarhealer');
 
@@ -41744,6 +43271,9 @@ VALUES (1054, 11, 16778429)
      , (1054, 7, 16778360)
      , (1054, 4, 16778426)
      , (1054, 8, 16778428);
+
+/* Weenie - Vendors - Iquba al-Julmud the Barkeeper (1050) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1050;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1050, 'qalabarbarkeeper');
@@ -41834,6 +43364,9 @@ VALUES (1050, 12, 16778423)
      , (1050, 8, 16783487)
      , (1050, 16, 16778594);
 
+/* Weenie - Vendors - Master Scrivener of Void Magic (43352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43352;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43352, 'ace43352-masterscrivenerofvoidmagic');
 
@@ -41916,6 +43449,9 @@ VALUES (43352, 10, 16778431)
      , (43352, 7, 16781840)
      , (43352, 4, 16783485)
      , (43352, 8, 16783487);
+
+/* Weenie - Vendors - Nerezi ibn Risad (9616) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9616;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9616, 'bestowervendorgha');
@@ -42007,6 +43543,9 @@ VALUES (9616, 12, 16777304)
      , (9616, 8, 16781839)
      , (9616, 16, 16783901);
 
+/* Weenie - Vendors - Healer Burah bint Fathlan (979) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 979;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (979, 'samsurhealer');
 
@@ -42093,6 +43632,9 @@ VALUES (979, 10, 16778431)
      , (979, 8, 16783487)
      , (979, 16, 16778476);
 
+/* Weenie - Vendors - Jeweler Fathlan ibn Nuril (980) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 980;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (980, 'samsurjeweler');
 
@@ -42177,6 +43719,9 @@ VALUES (980, 2, 16777293)
      , (980, 4, 16781855)
      , (980, 8, 16781859)
      , (980, 16, 16778594);
+
+/* Weenie - Vendors - Nasruya al-Khanjan the Tailor (983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 983;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (983, 'samsurtailor');
@@ -42268,6 +43813,9 @@ VALUES (983, 12, 16778423)
      , (983, 8, 16783487)
      , (983, 16, 16778476);
 
+/* Weenie - Vendors - Ushad al-Fasam the Grocer (978) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 978;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (978, 'samsurgrocer');
 
@@ -42353,6 +43901,9 @@ VALUES (978, 10, 16777301)
      , (978, 4, 16781838)
      , (978, 8, 16781839)
      , (978, 16, 16778476);
+
+/* Weenie - Vendors - Sutaiya bint Yil the Scribe (981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 981;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (981, 'samsurscribe');
@@ -42441,6 +43992,9 @@ VALUES (981, 11, 16778429)
      , (981, 8, 16781859)
      , (981, 16, 16778594);
 
+/* Weenie - Vendors - Da'hir ibn Khayzur the Archmage (2306) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2306;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2306, 'samsurarchmage');
 
@@ -42525,6 +44079,9 @@ VALUES (2306, 11, 16777302)
      , (2306, 7, 16777296)
      , (2306, 4, 16777291)
      , (2306, 8, 16777298);
+
+/* Weenie - Vendors - Armorer Talam ibn Tarish (975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 975;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (975, 'samsurblacksmith');
@@ -42611,6 +44168,9 @@ VALUES (975, 10, 16777301)
      , (975, 8, 16781839)
      , (975, 16, 16778594);
 
+/* Weenie - Vendors - Weaponsmith Ayiz ibn Khayt (976) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 976;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (976, 'samsurblacksmith2');
 
@@ -42694,6 +44254,9 @@ VALUES (976, 2, 16777293)
      , (976, 4, 16781855)
      , (976, 8, 16781859)
      , (976, 16, 16778476);
+
+/* Weenie - Vendors - Mishiya al-Abdi the Barkeeper (973) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 973;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (973, 'samsurbarkeeper');
@@ -42784,6 +44347,9 @@ VALUES (973, 12, 16778423)
      , (973, 8, 16781859)
      , (973, 16, 16778594);
 
+/* Weenie - Vendors - Thawasa al-La'ud the Bowyer (977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 977;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (977, 'samsurbowyer');
 
@@ -42870,6 +44436,9 @@ VALUES (977, 11, 16778429)
      , (977, 4, 16781855)
      , (977, 8, 16781859)
      , (977, 16, 16778594);
+
+/* Weenie - Vendors - Shopkeep Julsama bint Sakim (982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 982;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (982, 'samsurshopkeep');
@@ -42961,6 +44530,9 @@ VALUES (982, 12, 16778423)
      , (982, 8, 16781859)
      , (982, 16, 16778476);
 
+/* Weenie - Vendors - Royal Quartermaster (37538) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37538;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37538, 'ace37538-royalquartermaster');
 
@@ -43048,6 +44620,9 @@ VALUES (37538, 12, 16778423)
      , (37538, 14, 16783855)
      , (37538, 16, 16779630);
 
+/* Weenie - Vendors - Master Shoyanen Kenchu the Archmage (2249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2249;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2249, 'mastershoarchmage');
 
@@ -43128,6 +44703,9 @@ VALUES (2249, 12, 16778423)
      , (2249, 11, 16783853)
      , (2249, 13, 16783871)
      , (2249, 14, 16783855);
+
+/* Weenie - Vendors - Sung Wenxio the Armorer (6855) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6855;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6855, 'ayanbaqurarmorer');
@@ -43215,6 +44793,9 @@ VALUES (6855, 12, 16777304)
      , (6855, 4, 16781838)
      , (6855, 8, 16781839);
 
+/* Weenie - Vendors - Sang Nen-Kai the Weaponsmith (6862) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6862;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6862, 'ayanbaqurweaponsmith');
 
@@ -43299,6 +44880,9 @@ VALUES (6862, 2, 16778436)
      , (6862, 4, 16778426)
      , (6862, 8, 16778428);
 
+/* Weenie - Vendors - Scribe Muhiza bint Murqidh  (6861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6861;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6861, 'ayanbaqurscribe');
 
@@ -43381,6 +44965,9 @@ VALUES (6861, 2, 16778436)
      , (6861, 4, 16781855)
      , (6861, 8, 16781859)
      , (6861, 16, 16783901);
+
+/* Weenie - Vendors - Grocer Nihara bint Umar (6858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6858;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6858, 'ayanbaqurgrocer');
@@ -43466,6 +45053,9 @@ VALUES (6858, 2, 16777293)
      , (6858, 4, 16781855)
      , (6858, 8, 16781859);
 
+/* Weenie - Vendors - Berkholt the Burly Barkeep (6856) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6856;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6856, 'ayanbaqurbarkeeper');
 
@@ -43549,6 +45139,9 @@ VALUES (6856, 11, 16777302)
      , (6856, 7, 16781840)
      , (6856, 4, 16781838)
      , (6856, 8, 16781839);
+
+/* Weenie - Vendors - Thiuda the Sharp-Eyed Bowyer (6857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6857;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6857, 'ayanbaqurbowyer');
@@ -43639,6 +45232,9 @@ VALUES (6857, 12, 16777304)
      , (6857, 8, 16781839)
      , (6857, 16, 16779635);
 
+/* Weenie - Vendors - Claude the Archmage (6854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6854;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6854, 'ayanbaqurarchmage');
 
@@ -43682,6 +45278,9 @@ VALUES (6854, 9, 83890028, 83890025);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6854, 9, 16780702);
+
+/* Weenie - Vendors - Grand Master Scrivener of Void Magic (43353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43353;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43353, 'ace43353-grandmasterscrivenerofvoidmagic');
@@ -43757,6 +45356,9 @@ VALUES (43353, 1, 16777708)
      , (43353, 16, 16795640)
      , (43353, 9, 16777300)
      , (43353, 0, 16781835);
+
+/* Weenie - Vendors - Ellimar Jorning the Healer (6859) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6859;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6859, 'ayanbaqurhealer');
@@ -43840,6 +45442,9 @@ VALUES (6859, 2, 16778436)
      , (6859, 4, 16778426)
      , (6859, 8, 16778428)
      , (6859, 16, 16779635);
+
+/* Weenie - Vendors - Jeweler Daryam ibn Zubed (6860) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6860;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6860, 'ayanbaqurjeweler');
@@ -43930,6 +45535,9 @@ VALUES (6860, 12, 16777304)
      , (6860, 8, 16781859)
      , (6860, 16, 16783901);
 
+/* Weenie - Vendors - Academy Researcher (30997) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30997;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30997, 'academyresearcher');
 
@@ -44018,6 +45626,9 @@ VALUES (30997, 12, 16777304)
      , (30997, 4, 16781855)
      , (30997, 8, 16781859)
      , (30997, 16, 16779630);
+
+/* Weenie - Vendors - Academy Shopkeep (12718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12718;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12718, 'academyprovisioner');
@@ -44109,6 +45720,9 @@ VALUES (12718, 12, 16778423)
      , (12718, 8, 16781859)
      , (12718, 16, 16778476);
 
+/* Weenie - Vendors - Colosseum Coin Collector (36519) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36519;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36519, 'ace36519-colosseumcoincollector');
 
@@ -44186,6 +45800,9 @@ VALUES (36519, 0, 16788885)
      , (36519, 15, 16788892)
      , (36519, 12, 16788891)
      , (36519, 16, 16789125);
+
+/* Weenie - Vendors - Dou In the Shopkeeper (4565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4565;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4565, 'yanshinorthoutpostshopkeep');
@@ -44274,6 +45891,9 @@ VALUES (4565, 12, 16778423)
      , (4565, 4, 16778426)
      , (4565, 8, 16778428);
 
+/* Weenie - Vendors - Master Celdiseth the Archmage (2246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2246;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2246, 'masteraluvianarchmage');
 
@@ -44355,6 +45975,9 @@ VALUES (2246, 12, 16777304)
      , (2246, 13, 16783871)
      , (2246, 14, 16783855);
 
+/* Weenie - Vendors - Dark Tusker Shrine (35948) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35948;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35948, 'ace35948-darktuskershrine');
 
@@ -44391,6 +46014,9 @@ VALUES (35948, 12, True)
      , (35948, 41, True)
      , (35948, 42, True)
      , (35948, 1, True);
+
+/* Weenie - Vendors - Peddler (1392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1392;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1392, 'peddlersho');
@@ -44474,6 +46100,9 @@ VALUES (1392, 2, 16778436)
      , (1392, 4, 16778426)
      , (1392, 8, 16778428)
      , (1392, 16, 16779630);
+
+/* Weenie - Vendors - Melia Thorn the Archmage (5834) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5834;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5834, 'banditcastlearchmage');
@@ -44562,6 +46191,9 @@ VALUES (5834, 12, 16778423)
      , (5834, 4, 16783485)
      , (5834, 8, 16783487);
 
+/* Weenie - Vendors - Barkeep Gorth (5832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5832;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5832, 'banditcastlebarkeeper');
 
@@ -44648,6 +46280,9 @@ VALUES (5832, 12, 16777304)
      , (5832, 7, 16777296)
      , (5832, 4, 16777291)
      , (5832, 8, 16777298);
+
+/* Weenie - Vendors - Shi Ki-Yong the Armorer (5833) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5833;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5833, 'banditcastlearmorer');
@@ -44738,6 +46373,9 @@ VALUES (5833, 12, 16778423)
      , (5833, 8, 16783487)
      , (5833, 16, 16779630);
 
+/* Weenie - Vendors - Provisioner Murdo (5835) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5835;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5835, 'banditcastleshopkeeper');
 
@@ -44826,6 +46464,9 @@ VALUES (5835, 12, 16777304)
      , (5835, 8, 16781839)
      , (5835, 16, 16779630);
 
+/* Weenie - Vendors - Woodsman (13223) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13223;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13223, 'vendorwoodsman');
 
@@ -44912,6 +46553,9 @@ VALUES (13223, 10, 16777301)
      , (13223, 4, 16781838)
      , (13223, 8, 16781839)
      , (13223, 16, 16779635);
+
+/* Weenie - Vendors - Grawalda the Peddler (966) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 966;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (966, 'dungeonmanorhealer');
@@ -45002,6 +46646,9 @@ VALUES (966, 12, 16778423)
      , (966, 8, 16783487)
      , (966, 16, 16779630);
 
+/* Weenie - Vendors - Surnad the Peddler (5877) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5877;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5877, 'lostwishpeddler');
 
@@ -45091,6 +46738,9 @@ VALUES (5877, 12, 16777304)
      , (5877, 8, 16781839)
      , (5877, 16, 16779630);
 
+/* Weenie - Vendors - Denterra the Healer (5876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5876;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5876, 'lostwishhealer');
 
@@ -45176,6 +46826,9 @@ VALUES (5876, 2, 16778436)
      , (5876, 4, 16778426)
      , (5876, 8, 16778428);
 
+/* Weenie - Vendors - Hisham al-Evv (36378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36378;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36378, 'ace36378-hishamalevv');
 
@@ -45256,6 +46909,9 @@ VALUES (36378, 12, 16777304)
      , (36378, 11, 16783853)
      , (36378, 13, 16783871)
      , (36378, 14, 16783855);
+
+/* Weenie - Vendors - Panhsj (44241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44241;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44241, 'ace44241-panhsj');
@@ -45343,6 +46999,9 @@ VALUES (44241, 0, 16795526)
      , (44241, 14, 16795540)
      , (44241, 15, 16795541)
      , (44241, 16, 16795542);
+
+/* Weenie - Vendors - Zairente Ra-Yao (9020) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9020;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9020, 'blacksmithwanderingsdires');
@@ -45442,6 +47101,9 @@ VALUES (9020, 12, 16778423)
      , (9020, 4, 16783485)
      , (9020, 8, 16783487);
 
+/* Weenie - Vendors - Ichi Ji (20926) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20926;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20926, 'retreatgeneral');
 
@@ -45524,6 +47186,9 @@ VALUES (20926, 10, 16777301)
      , (20926, 7, 16781840)
      , (20926, 4, 16781838)
      , (20926, 8, 16781839);
+
+/* Weenie - Vendors - Riseldor the Bowyer (20924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20924;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20924, 'retreatbowyer');
@@ -45609,6 +47274,9 @@ VALUES (20924, 11, 16777302)
      , (20924, 4, 16781838)
      , (20924, 8, 16781839);
 
+/* Weenie - Vendors - Sialla Jiro (20923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20923;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20923, 'retreatarchmage');
 
@@ -45689,6 +47357,9 @@ VALUES (20923, 12, 16778423)
      , (20923, 11, 16783853)
      , (20923, 13, 16783871)
      , (20923, 14, 16783855);
+
+/* Weenie - Vendors - Ostentatious Farmer (14411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14411;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14411, 'banditreformedshoushi');
@@ -45773,6 +47444,9 @@ VALUES (14411, 10, 16777301)
      , (14411, 4, 16781838)
      , (14411, 8, 16781839);
 
+/* Weenie - Vendors - Lintareal (43144) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43144;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43144, 'ace43144-lintareal');
 
@@ -45807,6 +47481,9 @@ VALUES (43144, 12, True)
      , (43144, 14, True)
      , (43144, 41, True)
      , (43144, 1, True);
+
+/* Weenie - Vendors - Archmage Dou Ran (2543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2543;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2543, 'waijhouarchmage');
@@ -45890,6 +47567,9 @@ VALUES (2543, 2, 16778436)
      , (2543, 4, 16778426)
      , (2543, 8, 16778428)
      , (2543, 16, 16779630);
+
+/* Weenie - Vendors - Goku Bai-Akane the Barkeep (24217) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24217;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24217, 'waijhoubarkeeper');
@@ -45976,6 +47656,9 @@ VALUES (24217, 11, 16778429)
      , (24217, 4, 16778426)
      , (24217, 8, 16778428);
 
+/* Weenie - Vendors - Nakoro Eshii-Shinjo the Provisioner (24219) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24219;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24219, 'waijhoushopkeep');
 
@@ -46058,6 +47741,9 @@ VALUES (24219, 10, 16777301)
      , (24219, 7, 16781840)
      , (24219, 4, 16781838)
      , (24219, 8, 16781839);
+
+/* Weenie - Vendors - Kan Chi Gai the Healer (2542) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2542;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2542, 'waijhouhealer');
@@ -46142,6 +47828,9 @@ VALUES (2542, 10, 16778431)
      , (2542, 4, 16778426)
      , (2542, 8, 16778428);
 
+/* Weenie - Vendors - Ximi Nu the Blacksmith (2541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2541;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2541, 'waijhoublacksmith');
 
@@ -46222,6 +47911,9 @@ VALUES (2541, 2, 16778436)
      , (2541, 7, 16778360)
      , (2541, 4, 16778426)
      , (2541, 8, 16778428);
+
+/* Weenie - Vendors - Pang Sin-Xiang the Weaponsmith (24220) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24220;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24220, 'waijhouweaponsmith');
@@ -46307,6 +47999,9 @@ VALUES (24220, 2, 16777293)
      , (24220, 4, 16777291)
      , (24220, 8, 16777298);
 
+/* Weenie - Vendors - Bowyer Xana Bin-Xara (24218) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24218;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24218, 'waijhoubowyer');
 
@@ -46387,6 +48082,9 @@ VALUES (24218, 2, 16778436)
      , (24218, 7, 16778360)
      , (24218, 4, 16778426)
      , (24218, 8, 16778428);
+
+/* Weenie - Vendors - Roaming Bowyer (1378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1378;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1378, 'bowyeraluvian');
@@ -46470,6 +48168,9 @@ VALUES (1378, 2, 16778436)
      , (1378, 7, 16778360)
      , (1378, 4, 16778426)
      , (1378, 8, 16778428);
+
+/* Weenie - Vendors - Wantorth the Shopkeeper (4434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4434;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4434, 'holtburgwestoutpostshopkeep');
@@ -46557,6 +48258,9 @@ VALUES (4434, 12, 16777304)
      , (4434, 7, 16777296)
      , (4434, 4, 16777291)
      , (4434, 8, 16777298);
+
+/* Weenie - Vendors - Lonely Merchant (28532) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28532;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28532, 'aljalimamerchantlonely');
@@ -46657,6 +48361,9 @@ VALUES (28532, 0, 16783897)
      , (28532, 8, 16781859)
      , (28532, 16, 16778594);
 
+/* Weenie - Vendors - Lonely Archmage (28531) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28531;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28531, 'aljalimaarchmagelonely');
 
@@ -46753,6 +48460,9 @@ VALUES (28531, 12, 16777304)
      , (28531, 14, 16783855)
      , (28531, 16, 16783891);
 
+/* Weenie - Vendors - Lonely Weaponsmith (28533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28533;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28533, 'aljalimaweaponsmithlonely');
 
@@ -46848,6 +48558,9 @@ VALUES (28533, 12, 16778423)
      , (28533, 8, 16781839)
      , (28533, 16, 16778594);
 
+/* Weenie - Vendors - Ashqa the Shopkeeper (4705) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4705;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4705, 'samsureastoutpostshopkeep');
 
@@ -46932,6 +48645,9 @@ VALUES (4705, 2, 16777293)
      , (4705, 7, 16777296)
      , (4705, 4, 16781855)
      , (4705, 8, 16781859);
+
+/* Weenie - Vendors - Merchant (1388) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1388;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1388, 'merchantgaron');
@@ -47018,6 +48734,9 @@ VALUES (1388, 2, 16777293)
      , (1388, 8, 16777298)
      , (1388, 16, 16778476);
 
+/* Weenie - Vendors - Healer (1385) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1385;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1385, 'healergaron');
 
@@ -47101,6 +48820,9 @@ VALUES (1385, 10, 16777301)
      , (1385, 4, 16781838)
      , (1385, 8, 16781839);
 
+/* Weenie - Vendors - Archmage (1370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1370;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1370, 'archmagegaron');
 
@@ -47181,6 +48903,9 @@ VALUES (1370, 2, 16777293)
      , (1370, 7, 16781840)
      , (1370, 4, 16781838)
      , (1370, 8, 16781839);
+
+/* Weenie - Vendors - Weaponsmith (1394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1394;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1394, 'weaponsmithgaron');
@@ -47266,6 +48991,9 @@ VALUES (1394, 11, 16777302)
      , (1394, 7, 16777296)
      , (1394, 4, 16777291)
      , (1394, 8, 16777298);
+
+/* Weenie - Vendors - Yao Lun the Shopkeeper (4558) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4558;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4558, 'nantonorthoutpostshopkeep');
@@ -47354,6 +49082,9 @@ VALUES (4558, 12, 16777304)
      , (4558, 4, 16777291)
      , (4558, 8, 16777298);
 
+/* Weenie - Vendors - Archmage (1371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1371;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1371, 'archmagesho');
 
@@ -47441,6 +49172,9 @@ VALUES (1371, 11, 16778429)
      , (1371, 8, 16783487)
      , (1371, 16, 16779630);
 
+/* Weenie - Vendors - Healer (1386) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1386;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1386, 'healersho');
 
@@ -47525,6 +49259,9 @@ VALUES (1386, 11, 16778429)
      , (1386, 7, 16781840)
      , (1386, 4, 16781838)
      , (1386, 8, 16781839);
+
+/* Weenie - Vendors - Weaponsmith Lun Dou (5641) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5641;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5641, 'yanshisouthwestoutpostweaponsmith');
@@ -47613,6 +49350,9 @@ VALUES (5641, 12, 16777304)
      , (5641, 4, 16777291)
      , (5641, 8, 16777298);
 
+/* Weenie - Vendors - Farmer Ri Na (5640) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5640;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5640, 'yanshisouthwestoutpostgrocer');
 
@@ -47698,6 +49438,9 @@ VALUES (5640, 12, 16777304)
      , (5640, 7, 16781840)
      , (5640, 4, 16781838)
      , (5640, 8, 16781839);
+
+/* Weenie - Vendors - Ru Shaha the Healer (5638) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5638;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5638, 'yanshisouthwestoutposthealer');
@@ -47786,6 +49529,9 @@ VALUES (5638, 12, 16778423)
      , (5638, 4, 16783485)
      , (5638, 8, 16783487);
 
+/* Weenie - Vendors - Archmage Le-Ai Ren (5639) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5639;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5639, 'yanshisouthwestoutpostarchmage');
 
@@ -47872,6 +49618,9 @@ VALUES (5639, 12, 16778423)
      , (5639, 7, 16781840)
      , (5639, 4, 16783485)
      , (5639, 8, 16783487);
+
+/* Weenie - Vendors - Ru Chi the Shopkeeper (4566) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4566;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4566, 'yanshisouthoutpostshopkeep');
@@ -47960,6 +49709,9 @@ VALUES (4566, 12, 16778423)
      , (4566, 4, 16778426)
      , (4566, 8, 16778428);
 
+/* Weenie - Vendors - Riflyffa the Shopkeeper (4446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4446;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4446, 'lytelthorpeeastoutpostshopkeep');
 
@@ -48046,6 +49798,9 @@ VALUES (4446, 12, 16778423)
      , (4446, 7, 16778360)
      , (4446, 4, 16778426)
      , (4446, 8, 16778428);
+
+/* Weenie - Vendors - Tromylda the Shopkeeper (4447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4447;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4447, 'lytelthorpewestoutpostshopkeep');
@@ -48134,6 +49889,9 @@ VALUES (4447, 12, 16778423)
      , (4447, 4, 16778426)
      , (4447, 8, 16778428);
 
+/* Weenie - Vendors - Ringoshu the Apple Seller (2047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2047;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2047, 'vendorappleseller');
 
@@ -48218,6 +49976,9 @@ VALUES (2047, 2, 16777293)
      , (2047, 7, 16777296)
      , (2047, 4, 16777291)
      , (2047, 8, 16777298);
+
+/* Weenie - Vendors - Peddler (1391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1391;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1391, 'peddlergaron');
@@ -48306,6 +50067,9 @@ VALUES (1391, 12, 16777304)
      , (1391, 4, 16781838)
      , (1391, 8, 16781839);
 
+/* Weenie - Vendors - Farmer Pogget (2042) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2042;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2042, 'farmerpogget');
 
@@ -48393,6 +50157,9 @@ VALUES (2042, 12, 16777304)
      , (2042, 4, 16781838)
      , (2042, 8, 16781839);
 
+/* Weenie - Vendors - Rushiya bint Anruq (1078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1078;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1078, 'accursedhallsblacksmith');
 
@@ -48475,6 +50242,9 @@ VALUES (1078, 10, 16778431)
      , (1078, 7, 16781840)
      , (1078, 4, 16783485)
      , (1078, 8, 16783487);
+
+/* Weenie - Vendors - Alia Dunolmad (22082) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22082;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22082, 'mitemazealianew');
@@ -48563,6 +50333,9 @@ VALUES (22082, 12, 16778423)
      , (22082, 4, 16783485)
      , (22082, 8, 16783487);
 
+/* Weenie - Vendors - Lu'zura the Shopkeeper (4707) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4707;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4707, 'yaraqeastoutpostshopkeep');
 
@@ -48650,6 +50423,9 @@ VALUES (4707, 12, 16778423)
      , (4707, 4, 16778426)
      , (4707, 8, 16778428);
 
+/* Weenie - Vendors - Snowman (5765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5765;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5765, 'snowmanhappygiant');
 
@@ -48684,6 +50460,9 @@ VALUES (5765, 12, True)
      , (5765, 14, True)
      , (5765, 19, True)
      , (5765, 1, True);
+
+/* Weenie - Vendors - Spertat the Ursuin Hunter (9023) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9023;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9023, 'bowyerwanderingtiofor');
@@ -48780,6 +50559,9 @@ VALUES (9023, 12, 16777304)
      , (9023, 4, 16781838)
      , (9023, 8, 16781839);
 
+/* Weenie - Vendors - Skettek the Wanderer (35488) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35488;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35488, 'ace35488-skettekthewanderer');
 
@@ -48861,6 +50643,9 @@ VALUES (35488, 12, 16777304)
      , (35488, 13, 16783871)
      , (35488, 14, 16783855)
      , (35488, 16, 16783891);
+
+/* Weenie - Vendors - Jhen Gau the Souvenir Hawker (7427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7427;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7427, 'aerlinthevendor');
@@ -48953,6 +50738,9 @@ VALUES (7427, 11, 16777302)
      , (7427, 8, 16781839)
      , (7427, 16, 16783954);
 
+/* Weenie - Vendors - Olthoi Matron (43632) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43632;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43632, 'ace43632-olthoimatron');
 
@@ -48995,6 +50783,9 @@ VALUES (43632, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43632, 67114410, 0, 0);
 
+/* Weenie - Vendors - Olthoi Matron (43490) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43490;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43490, 'ace43490-olthoimatron');
 
@@ -49036,6 +50827,9 @@ VALUES (43490, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43490, 67114424, 0, 0);
+
+/* Weenie - Vendors - Celestial Hand Quartermaster (38574) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38574;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38574, 'ace38574-celestialhandquartermaster');
@@ -49123,6 +50917,9 @@ VALUES (38574, 12, 16777304)
      , (38574, 4, 16781838)
      , (38574, 8, 16781839);
 
+/* Weenie - Vendors - Farnor the Archmage (38687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38687;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38687, 'ace38687-farnorthearchmage');
 
@@ -49203,6 +51000,9 @@ VALUES (38687, 12, 16777304)
      , (38687, 11, 16783853)
      , (38687, 13, 16783871)
      , (38687, 14, 16783855);
+
+/* Weenie - Vendors - Shopkeeper Polly (38688) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38688;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38688, 'ace38688-shopkeeperpolly');
@@ -49290,6 +51090,9 @@ VALUES (38688, 12, 16778423)
      , (38688, 4, 16778426)
      , (38688, 8, 16778428);
 
+/* Weenie - Vendors - Dobblar (34839) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34839;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34839, 'ace34839-dobblar');
 
@@ -49371,6 +51174,9 @@ VALUES (34839, 12, 16777304)
      , (34839, 13, 16783871)
      , (34839, 14, 16783855);
 
+/* Weenie - Vendors - Brozuu (34840) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34840;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34840, 'ace34840-brozuu');
 
@@ -49408,6 +51214,9 @@ VALUES (34840, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34840, 67114919, 0, 0);
+
+/* Weenie - Vendors - Gailadu the Scribe (970) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 970;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (970, 'undercityscribe');
@@ -49494,6 +51303,9 @@ VALUES (970, 2, 16777293)
      , (970, 8, 16777298)
      , (970, 16, 16778594);
 
+/* Weenie - Vendors - Arina of the Arms (967) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 967;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (967, 'undercityarmorer');
 
@@ -49576,6 +51388,9 @@ VALUES (967, 10, 16778431)
      , (967, 7, 16781840)
      , (967, 4, 16783485)
      , (967, 8, 16783487);
+
+/* Weenie - Vendors - Healer Lithinia of Chiran (969) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 969;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (969, 'undercityhealer');
@@ -49664,6 +51479,9 @@ VALUES (969, 12, 16778423)
      , (969, 4, 16778426)
      , (969, 8, 16778428);
 
+/* Weenie - Vendors - Shunju Shinjin the Weaponsmith (972) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 972;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (972, 'undercityweaponsmith');
 
@@ -49750,6 +51568,9 @@ VALUES (972, 12, 16777304)
      , (972, 7, 16781840)
      , (972, 4, 16781838)
      , (972, 8, 16781839);
+
+/* Weenie - Vendors - Henrid the Grocer (968) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 968;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (968, 'undercitygrocer');
@@ -49839,6 +51660,9 @@ VALUES (968, 12, 16777304)
      , (968, 8, 16777298)
      , (968, 16, 16779630);
 
+/* Weenie - Vendors - Grethoric of all Trades (971) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 971;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (971, 'undercityshady');
 
@@ -49925,6 +51749,9 @@ VALUES (971, 12, 16777304)
      , (971, 7, 16781840)
      , (971, 4, 16781838)
      , (971, 8, 16781839);
+
+/* Weenie - Vendors - Archmage Mah bint Dirid (5490) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5490;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5490, 'undercityarchmage');
@@ -50020,6 +51847,9 @@ VALUES (5490, 16, 16795641)
      , (5490, 4, 16783485)
      , (5490, 8, 16783487);
 
+/* Weenie - Vendors - Hasina bint Rira (9018) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9018;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9018, 'archmagewanderingamun');
 
@@ -50100,6 +51930,9 @@ VALUES (9018, 12, 16778423)
      , (9018, 11, 16783853)
      , (9018, 13, 16783871)
      , (9018, 14, 16783855);
+
+/* Weenie - Vendors - Blacksmith (1375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1375;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1375, 'blacksmithaluvian');
@@ -50183,6 +52016,9 @@ VALUES (1375, 10, 16778431)
      , (1375, 7, 16781840)
      , (1375, 4, 16783485)
      , (1375, 8, 16783487);
+
+/* Weenie - Vendors - Whispering Blade Quartermaster (41731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41731;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41731, 'ace41731-whisperingbladequartermaster');
@@ -50270,6 +52106,9 @@ VALUES (41731, 12, 16777304)
      , (41731, 4, 16781838)
      , (41731, 8, 16781839);
 
+/* Weenie - Vendors - Bortrom the Thrifty (33002) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33002;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33002, 'ace33002-bortromthethrifty');
 
@@ -50352,6 +52191,9 @@ VALUES (33002, 10, 16777301)
      , (33002, 7, 16781840)
      , (33002, 4, 16781838)
      , (33002, 8, 16781839);
+
+/* Weenie - Vendors - Koa Chai-La (33001) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33001;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33001, 'ace33001-koachaila');
@@ -50437,6 +52279,9 @@ VALUES (33001, 11, 16778429)
      , (33001, 4, 16783485)
      , (33001, 8, 16783487);
 
+/* Weenie - Vendors - Mudris ibn Hadram (33000) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33000;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33000, 'ace33000-mudrisibnhadram');
 
@@ -50517,6 +52362,9 @@ VALUES (33000, 12, 16777304)
      , (33000, 11, 16783853)
      , (33000, 13, 16783871)
      , (33000, 14, 16783855);
+
+/* Weenie - Vendors - Eldrytch Web Quartermaster (38575) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38575;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38575, 'ace38575-eldrytchwebquartermaster');
@@ -50604,6 +52452,9 @@ VALUES (38575, 12, 16777304)
      , (38575, 4, 16781838)
      , (38575, 8, 16781839);
 
+/* Weenie - Vendors - Raenholm the Archmage (38689) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38689;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38689, 'ace38689-raenholmthearchmage');
 
@@ -50684,6 +52535,9 @@ VALUES (38689, 12, 16777304)
      , (38689, 11, 16783853)
      , (38689, 13, 16783871)
      , (38689, 14, 16783855);
+
+/* Weenie - Vendors - Shopkeep Gunderson (38690) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38690;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38690, 'ace38690-shopkeepgunderson');
@@ -50770,6 +52624,9 @@ VALUES (38690, 12, 16777304)
      , (38690, 7, 16777296)
      , (38690, 4, 16777291)
      , (38690, 8, 16777298);
+
+/* Weenie - Vendors - Hurnmel the Smith (35487) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35487;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35487, 'ace35487-hurnmelthesmith');
@@ -50861,6 +52718,9 @@ VALUES (35487, 0, 16781835)
      , (35487, 15, 16777335)
      , (35487, 16, 16791893);
 
+/* Weenie - Vendors - Zabien (52707) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52707;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52707, 'ace52707-zabien');
 
@@ -50948,6 +52808,9 @@ VALUES (52707, 12, 16777304)
      , (52707, 4, 16783485)
      , (52707, 8, 16783487);
 
+/* Weenie - Vendors - Gauntlet Ticket Vendor (52858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52858;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52858, 'ace52858-gauntletticketvendor');
 
@@ -51034,6 +52897,9 @@ VALUES (52858, 12, 16777304)
      , (52858, 4, 16781838)
      , (52858, 8, 16781839);
 
+/* Weenie - Vendors - Archmage Moldurg (32056) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32056;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32056, 'ace32056-archmagemoldurg');
 
@@ -51072,6 +52938,9 @@ VALUES (32056, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32056, 67113355, 0, 0);
 
+/* Weenie - Vendors - Healer Hargurg (32053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32053;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32053, 'ace32053-healerhargurg');
 
@@ -51109,6 +52978,9 @@ VALUES (32053, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32053, 67113355, 0, 0);
+
+/* Weenie - Vendors - Fadsahil al-Tashbi the Master Archmage (2247) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2247;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2247, 'mastergharundimarchmage');
@@ -51190,6 +53062,9 @@ VALUES (2247, 12, 16777304)
      , (2247, 11, 16783853)
      , (2247, 13, 16783871)
      , (2247, 14, 16783855);
+
+/* Weenie - Vendors - Radiant Blood Quartermaster (38576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38576;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38576, 'ace38576-radiantbloodquartermaster');
@@ -51277,6 +53152,9 @@ VALUES (38576, 12, 16777304)
      , (38576, 4, 16781838)
      , (38576, 8, 16781839);
 
+/* Weenie - Vendors - Shopkeeper Lazlo (38692) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38692;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38692, 'ace38692-shopkeeperlazlo');
 
@@ -51363,6 +53241,9 @@ VALUES (38692, 12, 16777304)
      , (38692, 4, 16777291)
      , (38692, 8, 16777298);
 
+/* Weenie - Vendors - Vermilia the Archmage (38691) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38691;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38691, 'ace38691-vermiliathearchmage');
 
@@ -51443,6 +53324,9 @@ VALUES (38691, 12, 16778423)
      , (38691, 11, 16783853)
      , (38691, 13, 16783871)
      , (38691, 14, 16783855);
+
+/* Weenie - Vendors - Laurana (44076) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44076;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44076, 'ace44076-laurana');
@@ -51536,6 +53420,9 @@ VALUES (44076, 9, 16795213)
      , (44076, 8, 16795224)
      , (44076, 16, 16795218);
 
+/* Weenie - Vendors - Roaming Bowyer (1379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1379;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1379, 'bowyergaron');
 
@@ -51618,6 +53505,9 @@ VALUES (1379, 2, 16777293)
      , (1379, 7, 16777296)
      , (1379, 4, 16777291)
      , (1379, 8, 16777298);
+
+/* Weenie - Vendors - Farmer (1382) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1382;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1382, 'farmergaron');
@@ -51704,6 +53594,9 @@ VALUES (1382, 11, 16777302)
      , (1382, 4, 16781838)
      , (1382, 8, 16781839);
 
+/* Weenie - Vendors - Jolly Snowman (7883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7883;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7883, 'snowmanjollygiant');
 
@@ -51739,6 +53632,9 @@ VALUES (7883, 12, True)
      , (7883, 14, True)
      , (7883, 41, True)
      , (7883, 1, True);
+
+/* Weenie - Vendors - Armorer (1372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1372;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1372, 'armoreraluvian');
@@ -51827,6 +53723,9 @@ VALUES (1372, 12, 16778423)
      , (1372, 4, 16783485)
      , (1372, 8, 16783487);
 
+/* Weenie - Vendors - Sigil Keeper (34915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34915;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34915, 'ace34915-sigilkeeper');
 
@@ -51861,6 +53760,9 @@ VALUES (34915, 12, True)
      , (34915, 14, True)
      , (34915, 41, True)
      , (34915, 1, True);
+
+/* Weenie - Vendors - Shopkeeper (31224) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31224;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31224, 'ace31224-shopkeeper');
@@ -51951,6 +53853,9 @@ VALUES (31224, 12, 16777304)
      , (31224, 8, 16777298)
      , (31224, 16, 16791874);
 
+/* Weenie - Vendors - Zalphoos the Shopkeeper (1355) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1355;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1355, 'zalphoosshopkeep');
 
@@ -52039,6 +53944,9 @@ VALUES (1355, 11, 16777302)
      , (1355, 8, 16781859)
      , (1355, 16, 16778476);
 
+/* Weenie - Vendors - Gauntlet Ticket Vendor (52856) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52856;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52856, 'ace52856-gauntletticketvendor');
 
@@ -52124,6 +54032,9 @@ VALUES (52856, 12, 16777304)
      , (52856, 7, 16781840)
      , (52856, 4, 16781838)
      , (52856, 8, 16781839);
+
+/* Weenie - Vendors - Wreen (52705) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52705;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52705, 'ace52705-wreen');
@@ -52211,6 +54122,9 @@ VALUES (52705, 12, 16777304)
      , (52705, 7, 16781840)
      , (52705, 4, 16783485)
      , (52705, 8, 16783487);
+
+/* Weenie - Vendors - Ka Ku-To the Tailor (2502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2502;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2502, 'plateautailor');
@@ -52301,6 +54215,9 @@ VALUES (2502, 12, 16777304)
      , (2502, 8, 16777298)
      , (2502, 16, 16779630);
 
+/* Weenie - Vendors - Missive (41612) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41612;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41612, 'ace41612-missive');
 
@@ -52382,6 +54299,9 @@ VALUES (41612, 12, 16777304)
      , (41612, 13, 16783871)
      , (41612, 14, 16783855)
      , (41612, 16, 16783891);
+
+/* Weenie - Vendors - Creed (40591) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40591;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40591, 'ace40591-creed');
@@ -52472,6 +54392,9 @@ VALUES (40591, 16, 16795662)
      , (40591, 4, 16791881)
      , (40591, 8, 16791882);
 
+/* Weenie - Vendors - Giant Snowman (5767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5767;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5767, 'snowmanunhappygiant');
 
@@ -52506,6 +54429,9 @@ VALUES (5767, 12, True)
      , (5767, 14, True)
      , (5767, 19, True)
      , (5767, 1, True);
+
+/* Weenie - Vendors - Shihinden Ran (1079) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1079;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1079, 'ashentearspeddler');
@@ -52596,6 +54522,9 @@ VALUES (1079, 12, 16777304)
      , (1079, 8, 16781839)
      , (1079, 16, 16779630);
 
+/* Weenie - Vendors - Fisana the Jeweler (411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 411;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (411, 'jeweler-gharundim');
 
@@ -52685,6 +54614,9 @@ VALUES (411, 12, 16778423)
      , (411, 8, 16783487)
      , (411, 16, 16778594);
 
+/* Weenie - Vendors - Lich Archmage (2540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2540;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2540, 'licharchmage');
 
@@ -52723,6 +54655,9 @@ VALUES (2540, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2540, 67111341, 0, 0);
+
+/* Weenie - Vendors - Shopkeeper Tirua (4688) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4688;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4688, 'alarqaswestoutpostshopkeep');
@@ -52807,6 +54742,9 @@ VALUES (4688, 2, 16778436)
      , (4688, 7, 16777296)
      , (4688, 4, 16781855)
      , (4688, 8, 16781859);
+
+/* Weenie - Vendors - Atqur the Shopkeeper (4708) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4708;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4708, 'yaraqnorthoutpostshopkeep');
@@ -52893,6 +54831,9 @@ VALUES (4708, 2, 16777293)
      , (4708, 4, 16781855)
      , (4708, 8, 16781859);
 
+/* Weenie - Vendors - Elthina the Shady (405) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 405;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (405, 'peddler-aluvian');
 
@@ -52973,6 +54914,9 @@ VALUES (405, 10, 16778431)
      , (405, 7, 16781840)
      , (405, 4, 16783485)
      , (405, 8, 16783487);
+
+/* Weenie - Vendors - Hurnmel the Smith (37477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37477;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37477, 'ace37477-hurnmelthesmith');
@@ -53064,6 +55008,9 @@ VALUES (37477, 0, 16781835)
      , (37477, 15, 16777335)
      , (37477, 16, 16791893);
 
+/* Weenie - Vendors - Barkeep Guzglurg (32299) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32299;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32299, 'ace32299-barkeepguzglurg');
 
@@ -53101,6 +55048,9 @@ VALUES (32299, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32299, 67113355, 0, 0);
+
+/* Weenie - Vendors - Shopkeeper Hulmurg (32054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32054;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32054, 'ace32054-shopkeeperhulmurg');
@@ -53140,6 +55090,9 @@ VALUES (32054, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32054, 67113355, 0, 0);
 
+/* Weenie - Vendors - Blacksmith Bulidurg (32055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32055;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32055, 'ace32055-blacksmithbulidurg');
 
@@ -53177,6 +55130,9 @@ VALUES (32055, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32055, 67113355, 0, 0);
+
+/* Weenie - Vendors - Blacksmith (1377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1377;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1377, 'blacksmithsho');
@@ -53259,6 +55215,9 @@ VALUES (1377, 2, 16777293)
      , (1377, 4, 16777291)
      , (1377, 8, 16777298);
 
+/* Weenie - Vendors - Tower Distributor (39687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39687;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39687, 'ace39687-towerdistributor');
 
@@ -53339,6 +55298,9 @@ VALUES (39687, 12, 16777304)
      , (39687, 11, 16783853)
      , (39687, 13, 16783871)
      , (39687, 14, 16783855);
+
+/* Weenie - Vendors - Gauntlet Ticket Vendor (52857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52857;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52857, 'ace52857-gauntletticketvendor');
@@ -53425,6 +55387,9 @@ VALUES (52857, 12, 16777304)
      , (52857, 7, 16781840)
      , (52857, 4, 16781838)
      , (52857, 8, 16781839);
+
+/* Weenie - Vendors - Vellum (52706) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52706;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52706, 'ace52706-vellum');
@@ -53513,6 +55478,9 @@ VALUES (52706, 12, 16777304)
      , (52706, 4, 16783485)
      , (52706, 8, 16783487);
 
+/* Weenie - Vendors - Barkeep Rubin (40970) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40970;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40970, 'ace40970-barkeeprubin');
 
@@ -53597,6 +55565,9 @@ VALUES (40970, 2, 16777293)
      , (40970, 7, 16777296)
      , (40970, 4, 16777291)
      , (40970, 8, 16777298);
+
+/* Weenie - Vendors - Jeweler Jurraf al-Djiqidh (40975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40975;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40975, 'ace40975-jewelerjurrafaldjiqidh');
@@ -53683,6 +55654,9 @@ VALUES (40975, 11, 16777302)
      , (40975, 4, 16781838)
      , (40975, 8, 16781839);
 
+/* Weenie - Vendors - Smith Aisha bint Karal (40972) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40972;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40972, 'ace40972-smithaishabintkaral');
 
@@ -53767,6 +55741,9 @@ VALUES (40972, 10, 16778431)
      , (40972, 7, 16781840)
      , (40972, 4, 16783485)
      , (40972, 8, 16783487);
+
+/* Weenie - Vendors - Bowyer Ali ibn Mahir (40973) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40973;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40973, 'ace40973-bowyeraliibnmahir');
@@ -53853,6 +55830,9 @@ VALUES (40973, 11, 16777302)
      , (40973, 4, 16781838)
      , (40973, 8, 16781839);
 
+/* Weenie - Vendors - Jinmi al-Evv (40966) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40966;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40966, 'ace40966-jinmialevv');
 
@@ -53934,6 +55914,9 @@ VALUES (40966, 12, 16777304)
      , (40966, 13, 16783871)
      , (40966, 14, 16783855)
      , (40966, 16, 16785778);
+
+/* Weenie - Vendors - Grocer Khamal al-Rachard (40974) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40974;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40974, 'ace40974-grocerkhamalalrachard');
@@ -54022,6 +56005,9 @@ VALUES (40974, 12, 16778423)
      , (40974, 4, 16783485)
      , (40974, 8, 16783487);
 
+/* Weenie - Vendors - Archmage Malak ibn Hern (40971) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40971;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40971, 'ace40971-archmagemalakibnhern');
 
@@ -54102,6 +56088,9 @@ VALUES (40971, 12, 16777304)
      , (40971, 11, 16783853)
      , (40971, 13, 16783871)
      , (40971, 14, 16783855);
+
+/* Weenie - Vendors - Hon Fo the Shopkeeper (4557) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4557;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4557, 'nantoeastoutpostshopkeep');
@@ -54190,6 +56179,9 @@ VALUES (4557, 12, 16777304)
      , (4557, 4, 16777291)
      , (4557, 8, 16777298);
 
+/* Weenie - Vendors - Barkeep Rubin (40958) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40958;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40958, 'ace40958-barkeeprubin');
 
@@ -54274,6 +56266,9 @@ VALUES (40958, 2, 16777293)
      , (40958, 7, 16777296)
      , (40958, 4, 16777291)
      , (40958, 8, 16777298);
+
+/* Weenie - Vendors - Jeweler Jurraf al-Djiqidh (40965) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40965;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40965, 'ace40965-jewelerjurrafaldjiqidh');
@@ -54360,6 +56355,9 @@ VALUES (40965, 11, 16777302)
      , (40965, 4, 16781838)
      , (40965, 8, 16781839);
 
+/* Weenie - Vendors - Bowyer Ali ibn Mahir (40961) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40961;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40961, 'ace40961-bowyeraliibnmahir');
 
@@ -54444,6 +56442,9 @@ VALUES (40961, 11, 16777302)
      , (40961, 7, 16781840)
      , (40961, 4, 16781838)
      , (40961, 8, 16781839);
+
+/* Weenie - Vendors - Smith Aisha bint Karal (40960) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40960;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40960, 'ace40960-smithaishabintkaral');
@@ -54530,6 +56531,9 @@ VALUES (40960, 10, 16778431)
      , (40960, 4, 16783485)
      , (40960, 8, 16783487);
 
+/* Weenie - Vendors - Jinmi al-Evv (40954) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40954;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40954, 'ace40954-jinmialevv');
 
@@ -54611,6 +56615,9 @@ VALUES (40954, 12, 16777304)
      , (40954, 13, 16783871)
      , (40954, 14, 16783855)
      , (40954, 16, 16785778);
+
+/* Weenie - Vendors - Grocer Khamal al-Rachard (40964) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40964;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40964, 'ace40964-grocerkhamalalrachard');
@@ -54699,6 +56706,9 @@ VALUES (40964, 12, 16778423)
      , (40964, 4, 16783485)
      , (40964, 8, 16783487);
 
+/* Weenie - Vendors - Archmage Malak ibn Hern (40959) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40959;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40959, 'ace40959-archmagemalakibnhern');
 
@@ -54779,6 +56789,9 @@ VALUES (40959, 12, 16777304)
      , (40959, 11, 16783853)
      , (40959, 13, 16783871)
      , (40959, 14, 16783855);
+
+/* Weenie - Vendors - Barkeep Rubin (40946) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40946;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40946, 'ace40946-barkeeprubin');
@@ -54865,6 +56878,9 @@ VALUES (40946, 2, 16777293)
      , (40946, 4, 16777291)
      , (40946, 8, 16777298);
 
+/* Weenie - Vendors - Jeweler Jurraf al-Djiqidh (40953) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40953;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40953, 'ace40953-jewelerjurrafaldjiqidh');
 
@@ -54949,6 +56965,9 @@ VALUES (40953, 11, 16777302)
      , (40953, 7, 16781840)
      , (40953, 4, 16781838)
      , (40953, 8, 16781839);
+
+/* Weenie - Vendors - Smith Aisha bint Karal (40948) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40948;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40948, 'ace40948-smithaishabintkaral');
@@ -55035,6 +57054,9 @@ VALUES (40948, 10, 16778431)
      , (40948, 4, 16783485)
      , (40948, 8, 16783487);
 
+/* Weenie - Vendors - Bowyer Ali ibn Mahir (40949) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40949;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40949, 'ace40949-bowyeraliibnmahir');
 
@@ -55120,6 +57142,9 @@ VALUES (40949, 11, 16777302)
      , (40949, 4, 16781838)
      , (40949, 8, 16781839);
 
+/* Weenie - Vendors - Jinmi al-Evv (40942) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40942;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40942, 'ace40942-jinmialevv');
 
@@ -55201,6 +57226,9 @@ VALUES (40942, 12, 16777304)
      , (40942, 13, 16783871)
      , (40942, 14, 16783855)
      , (40942, 16, 16785778);
+
+/* Weenie - Vendors - Grocer Khamal al-Rachard (40952) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40952;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40952, 'ace40952-grocerkhamalalrachard');
@@ -55289,6 +57317,9 @@ VALUES (40952, 12, 16778423)
      , (40952, 4, 16783485)
      , (40952, 8, 16783487);
 
+/* Weenie - Vendors - Archmage Malak ibn Hern (40947) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40947;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40947, 'ace40947-archmagemalakibnhern');
 
@@ -55369,6 +57400,9 @@ VALUES (40947, 12, 16777304)
      , (40947, 11, 16783853)
      , (40947, 13, 16783871)
      , (40947, 14, 16783855);
+
+/* Weenie - Vendors - Barkeep Rubin (40981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40981;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40981, 'ace40981-barkeeprubin');
@@ -55455,6 +57489,9 @@ VALUES (40981, 2, 16777293)
      , (40981, 4, 16777291)
      , (40981, 8, 16777298);
 
+/* Weenie - Vendors - Jeweler Jurraf al-Djiqidh (40988) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40988;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40988, 'ace40988-jewelerjurrafaldjiqidh');
 
@@ -55539,6 +57576,9 @@ VALUES (40988, 11, 16777302)
      , (40988, 7, 16781840)
      , (40988, 4, 16781838)
      , (40988, 8, 16781839);
+
+/* Weenie - Vendors - Bowyer Ali ibn Mahir (40984) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40984;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40984, 'ace40984-bowyeraliibnmahir');
@@ -55625,6 +57665,9 @@ VALUES (40984, 11, 16777302)
      , (40984, 4, 16781838)
      , (40984, 8, 16781839);
 
+/* Weenie - Vendors - Smith Aisha bint Karal (40983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40983;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40983, 'ace40983-smithaishabintkaral');
 
@@ -55710,6 +57753,9 @@ VALUES (40983, 10, 16778431)
      , (40983, 4, 16783485)
      , (40983, 8, 16783487);
 
+/* Weenie - Vendors - Jinmi al-Evv (40977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40977;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40977, 'ace40977-jinmialevv');
 
@@ -55791,6 +57837,9 @@ VALUES (40977, 12, 16777304)
      , (40977, 13, 16783871)
      , (40977, 14, 16783855)
      , (40977, 16, 16785778);
+
+/* Weenie - Vendors - Grocer Khamal al-Rachard (40987) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40987;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40987, 'ace40987-grocerkhamalalrachard');
@@ -55879,6 +57928,9 @@ VALUES (40987, 12, 16778423)
      , (40987, 4, 16783485)
      , (40987, 8, 16783487);
 
+/* Weenie - Vendors - Archmage Malak ibn Hern (40982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40982;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40982, 'ace40982-archmagemalakibnhern');
 
@@ -55959,6 +58011,9 @@ VALUES (40982, 12, 16777304)
      , (40982, 11, 16783853)
      , (40982, 13, 16783871)
      , (40982, 14, 16783855);
+
+/* Weenie - Vendors - Merchant (31731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31731;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31731, 'ace31731-merchant');
@@ -56046,6 +58101,9 @@ VALUES (31731, 12, 16778423)
      , (31731, 4, 16781855)
      , (31731, 8, 16781859);
 
+/* Weenie - Vendors - Randall the Sponge (31863) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31863;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31863, 'ace31863-randallthesponge');
 
@@ -56130,6 +58188,9 @@ VALUES (31863, 10, 16777301)
      , (31863, 4, 16781838)
      , (31863, 8, 16781839)
      , (31863, 16, 16791874);
+
+/* Weenie - Vendors - Shopkeeper Yasiya (4687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4687;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4687, 'alarqasnorthoutpostshopkeep');
@@ -56216,6 +58277,9 @@ VALUES (4687, 2, 16778436)
      , (4687, 4, 16781855)
      , (4687, 8, 16781859);
 
+/* Weenie - Vendors - Aun Kerehanua (11409) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11409;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11409, 'palenqualkerehanua-xp');
 
@@ -56254,6 +58318,9 @@ VALUES (11409, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11409, 67113369, 0, 0);
+
+/* Weenie - Vendors - Jasin of the Arcanum (12687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12687;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12687, 'furniturevendorarcanumspecial');
@@ -56335,6 +58402,9 @@ VALUES (12687, 12, 16777304)
      , (12687, 11, 16783853)
      , (12687, 13, 16783871)
      , (12687, 14, 16783855);
+
+/* Weenie - Vendors - Kaneth al-Evv (43752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43752;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43752, 'ace43752-kanethalevv');

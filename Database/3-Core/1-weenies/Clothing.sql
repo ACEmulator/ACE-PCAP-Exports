@@ -1,3 +1,6 @@
+/* Weenie - Clothing - Flared Pants (2597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2597;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2597, 'pantsflared');
 
@@ -43,6 +46,9 @@ VALUES (2597, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2597, 0, 16778358);
+
+/* Weenie - Clothing - Shirt (2587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2587;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2587, 'shirtloose');
@@ -93,6 +99,9 @@ VALUES (2587, 0, 83887061, 83886686)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2587, 0, 16778356);
 
+/* Weenie - Clothing - Shoes (132) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 132;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (132, 'shoes');
 
@@ -138,6 +147,9 @@ VALUES (132, 0, 83889344, 83887054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (132, 0, 16778416);
 
+/* Weenie - Clothing - Gloves (121) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 121;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (121, 'glovescloth');
 
@@ -181,6 +193,9 @@ VALUES (121, 0, 83887059, 83886375);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (121, 0, 16778374);
+
+/* Weenie - Clothing - Sandals (129) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 129;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (129, 'sandals');
@@ -226,6 +241,9 @@ VALUES (129, 0, 83889344, 83887054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (129, 0, 16778416);
+
+/* Weenie - Clothing - Aerfalle's Pallium (8133) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8133;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8133, 'robeaerfalle');
@@ -278,6 +296,9 @@ VALUES (8133, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8133, 0, 16778367);
 
+/* Weenie - Clothing - Faran Robe (5850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5850;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5850, 'robealuviannohood');
 
@@ -326,6 +347,9 @@ VALUES (5850, 0, 83887061, 83892348)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5850, 0, 16778367);
+
+/* Weenie - Clothing - Dho War Master Robe (5910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5910;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5910, 'robewargharundim');
@@ -377,6 +401,9 @@ VALUES (5910, 0, 83887061, 83892357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5910, 0, 16778367);
 
+/* Weenie - Clothing - Night Club Shirt (36560) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36560;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36560, 'ace36560-nightclubshirt');
 
@@ -419,6 +446,9 @@ VALUES (36560, 0, 83887061, 83897775)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36560, 0, 16779351);
+
+/* Weenie - Clothing - Festival Robe (32187) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32187;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32187, 'ace32187-festivalrobe');
@@ -467,6 +497,9 @@ VALUES (32187, 0, 83887061, 83892348)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32187, 0, 16778367);
+
+/* Weenie - Clothing - Smock (2589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2589;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2589, 'smock');
@@ -517,6 +550,9 @@ VALUES (2589, 0, 83887061, 83886686)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2589, 0, 16778356);
 
+/* Weenie - Clothing - Realaidain Raiment (27250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27250;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27250, 'raimentrealaidain');
 
@@ -564,6 +600,9 @@ VALUES (27250, 0, 83887061, 83895231)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27250, 0, 16778367);
+
+/* Weenie - Clothing - Robe of the Tundra (12019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12019;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12019, 'robemattekarboss');
@@ -615,6 +654,9 @@ VALUES (12019, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12019, 0, 16778367);
 
+/* Weenie - Clothing - Dho Creature Master Robe (5916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5916;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5916, 'robecreaturegharundim');
 
@@ -664,6 +706,9 @@ VALUES (5916, 0, 83887061, 83892357)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5916, 0, 16778367);
+
+/* Weenie - Clothing - Dho Item Master Robe (5913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5913;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5913, 'robeitemgharundim');
@@ -715,6 +760,9 @@ VALUES (5913, 0, 83887061, 83892357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5913, 0, 16778367);
 
+/* Weenie - Clothing - Suikan War Master Robe (5911) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5911;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5911, 'robewarsho');
 
@@ -764,6 +812,9 @@ VALUES (5911, 0, 83887061, 83892367)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5911, 0, 16778367);
+
+/* Weenie - Clothing - Aerfalle's Pallium (28045) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28045;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28045, 'robeaerfallenew');
@@ -817,6 +868,9 @@ VALUES (28045, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28045, 0, 16778367);
 
+/* Weenie - Clothing - Gelidite Robe (26007) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26007;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26007, 'robegeliditenew');
 
@@ -865,6 +919,9 @@ VALUES (26007, 0, 83887061, 83895011)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (26007, 0, 16778367);
+
+/* Weenie - Clothing - Puffy Tunic (2592) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2592;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2592, 'tunicpuffy');
@@ -916,6 +973,9 @@ VALUES (2592, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2592, 0, 16779351);
 
+/* Weenie - Clothing - Shirt (130) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 130;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (130, 'shirt');
 
@@ -963,6 +1023,9 @@ VALUES (130, 0, 83887061, 83886686)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (130, 0, 16778356);
+
+/* Weenie - Clothing - Tunic (134) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 134;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (134, 'tunic');
@@ -1012,6 +1075,9 @@ VALUES (134, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (134, 0, 16779351);
 
+/* Weenie - Clothing - Pants (127) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 127;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (127, 'pants');
 
@@ -1059,6 +1125,9 @@ VALUES (127, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (127, 0, 16778358);
 
+/* Weenie - Clothing - Hood (44975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44975;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44975, 'ace44975-hood');
 
@@ -1105,6 +1174,9 @@ VALUES (44975, 0, 83898702, 83898702);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44975, 0, 16795879);
+
+/* Weenie - Clothing - Kasa (5901) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5901;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5901, 'capsho');
@@ -1154,6 +1226,9 @@ VALUES (5901, 0, 83892365, 83892365)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5901, 0, 16783963);
 
+/* Weenie - Clothing - Cloth Cap (118) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 118;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (118, 'capcloth');
 
@@ -1199,6 +1274,9 @@ VALUES (118, 0, 83889315, 83889865);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (118, 0, 16778369);
+
+/* Weenie - Clothing - Loose Tunic (2593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2593;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2593, 'tunicloose');
@@ -1249,6 +1327,9 @@ VALUES (2593, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2593, 0, 16779351);
 
+/* Weenie - Clothing - Vest (28609) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28609;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28609, 'shirtviamontvest');
 
@@ -1295,6 +1376,9 @@ VALUES (28609, 0, 83887061, 83897005)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28609, 0, 16778382);
 
+/* Weenie - Clothing - Slippers (133) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 133;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (133, 'slippers');
 
@@ -1340,6 +1424,9 @@ VALUES (133, 0, 83889344, 83887054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (133, 0, 16778416);
+
+/* Weenie - Clothing - Trousers (2599) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2599;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2599, 'trousers');
@@ -1389,6 +1476,9 @@ VALUES (2599, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2599, 0, 16778358);
 
+/* Weenie - Clothing - Turban (135) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 135;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (135, 'turban');
 
@@ -1434,6 +1524,9 @@ VALUES (135, 0, 83886825, 83886825);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (135, 0, 16778601);
+
+/* Weenie - Clothing - Lace Shirt (28607) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28607;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28607, 'shirtviamontfancy');
@@ -1481,6 +1574,9 @@ VALUES (28607, 0, 83887061, 83897005)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28607, 0, 16779535);
+
+/* Weenie - Clothing - Baggy Tunic (2595) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2595;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2595, 'tunicbaggy');
@@ -1532,6 +1628,9 @@ VALUES (2595, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2595, 0, 16779351);
 
+/* Weenie - Clothing - Wide Breeches (2604) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2604;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2604, 'breecheswide');
 
@@ -1579,6 +1678,9 @@ VALUES (2604, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2604, 0, 16779742);
+
+/* Weenie - Clothing - Viamontian Pants (28606) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28606;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28606, 'leggingsviamont');
@@ -1629,6 +1731,9 @@ VALUES (28606, 0, 83887064, 83896971)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28606, 0, 16778358);
 
+/* Weenie - Clothing - Tall Stocking Cap (22887) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22887;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22887, 'capstocking2');
 
@@ -1665,6 +1770,9 @@ VALUES (22887, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22887, 67114125, 240, 16);
+
+/* Weenie - Clothing - Pantaloons (2600) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2600;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2600, 'pantaloons');
@@ -1715,6 +1823,9 @@ VALUES (2600, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2600, 0, 16778358);
 
+/* Weenie - Clothing - Lyceum Hood (44977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44977;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44977, 'ace44977-lyceumhood');
 
@@ -1762,6 +1873,9 @@ VALUES (44977, 0, 83898706, 83898706)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44977, 0, 16795884);
+
+/* Weenie - Clothing - Loose Pants (2601) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2601;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2601, 'pantsloose');
@@ -1812,6 +1926,9 @@ VALUES (2601, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2601, 0, 16778358);
 
+/* Weenie - Clothing - Beret (28605) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28605;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28605, 'hatberet');
 
@@ -1853,6 +1970,9 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (28605, 67115626, 240, 10)
      , (28605, 67115584, 250, 6);
 
+/* Weenie - Clothing - Bandana (28612) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28612;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28612, 'hatbandana');
 
@@ -1893,6 +2013,9 @@ VALUES (28612, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28612, 67115979, 240, 16);
 
+/* Weenie - Clothing - Undead Guise (22021) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22021;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22021, 'costumeundead');
 
@@ -1925,6 +2048,9 @@ VALUES (22021, 13, True)
      , (22021, 14, True)
      , (22021, 19, True)
      , (22021, 22, True);
+
+/* Weenie - Clothing - Dho Life Master Robe (5907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5907;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5907, 'robelifegharundim');
@@ -1976,6 +2102,9 @@ VALUES (5907, 0, 83887061, 83892357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5907, 0, 16778367);
 
+/* Weenie - Clothing - Suikan Life Master Robe (5908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5908;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5908, 'robelifesho');
 
@@ -2026,6 +2155,9 @@ VALUES (5908, 0, 83887061, 83892367)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5908, 0, 16778367);
 
+/* Weenie - Clothing - Baggy Breeches (2603) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2603;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2603, 'breechesbaggy');
 
@@ -2074,6 +2206,9 @@ VALUES (2603, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2603, 0, 16779742);
 
+/* Weenie - Clothing - Qafiya (128) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 128;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (128, 'qafiya');
 
@@ -2120,6 +2255,9 @@ VALUES (128, 0, 83888783, 83888783)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (128, 0, 16778378);
+
+/* Weenie - Clothing - Doublet (2596) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2596;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2596, 'doublet');
@@ -2170,6 +2308,9 @@ VALUES (2596, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2596, 0, 16778367);
 
+/* Weenie - Clothing - Jerkin (124) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 124;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (124, 'jerkin');
 
@@ -2218,6 +2359,9 @@ VALUES (124, 0, 83887061, 83886687)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (124, 0, 16778367);
+
+/* Weenie - Clothing - Flared Tunic (2594) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2594;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2594, 'tunicflared');
@@ -2269,6 +2413,9 @@ VALUES (2594, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2594, 0, 16779351);
 
+/* Weenie - Clothing - Trimmed Cloak (44856) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44856;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44856, 'ace44856-trimmedcloak');
 
@@ -2311,6 +2458,9 @@ VALUES (44856, 0, 83898657, 83898665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44856, 0, 16795839);
 
+/* Weenie - Clothing - Viamontian Laced Boots (28611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28611;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28611, 'bootsviamont');
 
@@ -2349,6 +2499,9 @@ VALUES (28611, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28611, 67115819, 160, 8);
+
+/* Weenie - Clothing - Quartered Cloak (44858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44858;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44858, 'ace44858-quarteredcloak');
@@ -2392,6 +2545,9 @@ VALUES (44858, 0, 83898657, 83898667);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44858, 0, 16795839);
 
+/* Weenie - Clothing - Loafers (28610) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28610;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28610, 'shoesviamontloafers');
 
@@ -2430,6 +2586,9 @@ VALUES (28610, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28610, 67115846, 160, 8);
+
+/* Weenie - Clothing - Poet's Shirt (28608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28608;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28608, 'shirtviamontpoet');
@@ -2479,6 +2638,9 @@ VALUES (28608, 0, 83887061, 83896975)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28608, 0, 16779535);
 
+/* Weenie - Clothing - Hood (44976) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44976;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44976, 'ace44976-hood');
 
@@ -2526,6 +2688,9 @@ VALUES (44976, 0, 83898702, 83898703);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44976, 0, 16795879);
 
+/* Weenie - Clothing - Halved Cloak (44855) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44855;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44855, 'ace44855-halvedcloak');
 
@@ -2568,6 +2733,9 @@ VALUES (44855, 0, 83898657, 83898664);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44855, 0, 16795839);
 
+/* Weenie - Clothing - Halved Cloak (44854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44854;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44854, 'ace44854-halvedcloak');
 
@@ -2609,6 +2777,9 @@ VALUES (44854, 0, 83898657, 83898663);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44854, 0, 16795839);
+
+/* Weenie - Clothing - Cowl (119) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 119;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (119, 'cowlcloth');
@@ -2657,6 +2828,9 @@ VALUES (119, 0, 83889859, 83889864)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (119, 0, 16780294);
 
+/* Weenie - Clothing - Cloak (44840) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44840;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44840, 'ace44840-cloak');
 
@@ -2695,6 +2869,9 @@ VALUES (44840, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44840, 0, 16795839);
+
+/* Weenie - Clothing - Chevron Cloak (44851) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44851;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44851, 'ace44851-chevroncloak');
@@ -2738,6 +2915,9 @@ VALUES (44851, 0, 83898657, 83898660);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44851, 0, 16795839);
 
+/* Weenie - Clothing - Chevron Cloak (44852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44852;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44852, 'ace44852-chevroncloak');
 
@@ -2779,6 +2959,9 @@ VALUES (44852, 0, 83898657, 83898661);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44852, 0, 16795839);
+
+/* Weenie - Clothing - Chevron Cloak (44850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44850;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44850, 'ace44850-chevroncloak');
@@ -2822,6 +3005,9 @@ VALUES (44850, 0, 83898657, 83898659);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44850, 0, 16795839);
 
+/* Weenie - Clothing - Chevron Cloak (44849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44849;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44849, 'ace44849-chevroncloak');
 
@@ -2864,6 +3050,9 @@ VALUES (44849, 0, 83898657, 83898658);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44849, 0, 16795839);
 
+/* Weenie - Clothing - Quartered Cloak (44857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44857;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44857, 'ace44857-quarteredcloak');
 
@@ -2905,6 +3094,9 @@ VALUES (44857, 0, 83898657, 83898666);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44857, 0, 16795839);
+
+/* Weenie - Clothing - Flared Shirt (2588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2588;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2588, 'shirtflared');
@@ -2956,6 +3148,9 @@ VALUES (2588, 0, 83887061, 83886686)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2588, 0, 16778356);
 
+/* Weenie - Clothing - Moons Flag (16920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 16920;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16920, 'flag');
 
@@ -3005,6 +3200,9 @@ VALUES (16920, 1, 16787887)
      , (16920, 2, 16787888)
      , (16920, 3, 16787889);
 
+/* Weenie - Clothing - Bordered Cloak (44853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44853;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44853, 'ace44853-borderedcloak');
 
@@ -3046,6 +3244,9 @@ VALUES (44853, 0, 83898657, 83898662);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44853, 0, 16795839);
+
+/* Weenie - Clothing - Baggy Pants (2598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2598;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2598, 'pantsbaggy');
@@ -3095,6 +3296,9 @@ VALUES (2598, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2598, 0, 16778358);
 
+/* Weenie - Clothing - Pathwarden Robe (40439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40439;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40439, 'ace40439-pathwardenrobe');
 
@@ -3143,6 +3347,9 @@ VALUES (40439, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40439, 0, 16778367);
 
+/* Weenie - Clothing - Fez (5894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5894;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5894, 'capfez');
 
@@ -3189,6 +3396,9 @@ VALUES (5894, 0, 83892358, 83892358);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5894, 0, 16783955);
+
+/* Weenie - Clothing - Puffy Shirt (2591) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2591;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2591, 'shirtpuffy');
@@ -3240,6 +3450,9 @@ VALUES (2591, 0, 83887061, 83886686)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2591, 0, 16778356);
 
+/* Weenie - Clothing - Sparring Shirt (25984) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25984;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25984, 'shirtsparring');
 
@@ -3284,6 +3497,9 @@ VALUES (25984, 0, 83887061, 83895031)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25984, 0, 16778356);
+
+/* Weenie - Clothing - Loose Breeches (2602) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2602;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2602, 'breechesloose');
@@ -3332,6 +3548,9 @@ VALUES (2602, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2602, 0, 16779742);
+
+/* Weenie - Clothing - Baggy Shirt (2590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2590;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2590, 'shirtbaggy');
@@ -3383,6 +3602,9 @@ VALUES (2590, 0, 83887061, 83886686)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2590, 0, 16778356);
 
+/* Weenie - Clothing - Wedding Raiment (14906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14906;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14906, 'rainmentwedding');
 
@@ -3432,6 +3654,9 @@ VALUES (14906, 0, 83887061, 83893840)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14906, 0, 16778367);
+
+/* Weenie - Clothing - Wedding Cyclas (14904) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14904;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14904, 'cyclaswedding');
@@ -3483,6 +3708,9 @@ VALUES (14904, 0, 83887061, 83893840)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14904, 0, 16778367);
 
+/* Weenie - Clothing - Bunny Slippers (12126) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12126;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12126, 'bunnyslippers');
 
@@ -3518,6 +3746,9 @@ VALUES (12126, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (12126, 67113750, 160, 8);
+
+/* Weenie - Clothing - Dho Vest and Robe (5852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5852;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5852, 'robegharundimnohood');
@@ -3568,6 +3799,9 @@ VALUES (5852, 0, 83887061, 83892357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5852, 0, 16778367);
 
+/* Weenie - Clothing - Suikan Robe (5854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5854;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5854, 'robeshonohood');
 
@@ -3614,6 +3848,9 @@ VALUES (5854, 0, 83887061, 83892367)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5854, 0, 16778367);
+
+/* Weenie - Clothing - Faran Robe with Hood (5851) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5851;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5851, 'robealuvianhood');
@@ -3664,6 +3901,9 @@ VALUES (5851, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5851, 0, 16778367);
 
+/* Weenie - Clothing - Viamontian Laced Boots (31249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31249;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31249, 'ace31249-viamontianlacedboots');
 
@@ -3700,6 +3940,9 @@ VALUES (31249, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31249, 67110384, 160, 8);
+
+/* Weenie - Clothing - Wedding Raiment (15714) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15714;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15714, 'rainmentwedding2');
@@ -3750,6 +3993,9 @@ VALUES (15714, 0, 83887061, 83892766)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15714, 0, 16778367);
 
+/* Weenie - Clothing - Aphus Sun Guard (28069) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28069;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28069, 'hatxuut');
 
@@ -3790,6 +4036,9 @@ VALUES (28069, 67114354, 240, 16);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28069, 0, 16790503);
+
+/* Weenie - Clothing - Modified Elemental Master Robe (46949) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46949;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46949, 'ace46949-modifiedelementalmasterrobe');
@@ -3840,6 +4089,9 @@ VALUES (46949, 0, 83887061, 83894216)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46949, 0, 16778367);
+
+/* Weenie - Clothing - Martine's Robe (21376) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21376;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21376, 'robemartine');
@@ -3892,6 +4144,9 @@ VALUES (21376, 0, 83887061, 83894259)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21376, 0, 16778367);
 
+/* Weenie - Clothing - Breeches (117) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 117;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (117, 'breeches');
 
@@ -3937,6 +4192,9 @@ VALUES (117, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (117, 0, 16779742);
+
+/* Weenie - Clothing - Empyrean Robe (22123) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22123;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22123, 'robeempyrean');
@@ -3985,6 +4243,9 @@ VALUES (22123, 0, 83887061, 83894216)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22123, 0, 16778367);
+
+/* Weenie - Clothing - Aerfalle's Supreme Pallium (28046) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28046;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28046, 'robeaerfallenewuber');
@@ -4037,6 +4298,9 @@ VALUES (28046, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28046, 0, 16778367);
 
+/* Weenie - Clothing - Asheron's Greater Raiment (24369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24369;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24369, 'raimentasheronhighstrength');
 
@@ -4084,6 +4348,9 @@ VALUES (24369, 0, 83887061, 83894614)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24369, 0, 16778367);
 
+/* Weenie - Clothing - Viamontian Leggings (31238) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31238;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31238, 'ace31238-viamontianleggings');
 
@@ -4129,6 +4396,9 @@ VALUES (31238, 0, 83887064, 83896971)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31238, 0, 16778358);
+
+/* Weenie - Clothing - Ghost Guise (32154) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32154;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32154, 'ace32154-ghostguise');
@@ -4182,6 +4452,9 @@ VALUES (32154, 0, 16793338)
      , (32154, 12, 16777708)
      , (32154, 16, 16793379);
 
+/* Weenie - Clothing - Suikan War Apprentice Robe (6073) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6073;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6073, 'robesuckwarsho');
 
@@ -4232,6 +4505,9 @@ VALUES (6073, 0, 83887061, 83892367)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6073, 0, 16778367);
 
+/* Weenie - Clothing - Asheron's Supreme Raiment (24361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24361;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24361, 'raimentasheronextremecoordination');
 
@@ -4278,6 +4554,9 @@ VALUES (24361, 0, 83887061, 83894614)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24361, 0, 16778367);
+
+/* Weenie - Clothing - Asheron's Lesser Raiment (24370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24370;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24370, 'raimentasheronlowcoordination');
@@ -4326,6 +4605,9 @@ VALUES (24370, 0, 83887061, 83894614)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24370, 0, 16778367);
 
+/* Weenie - Clothing - Asheron's Supreme Raiment (24362) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24362;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24362, 'raimentasheronextremeendurance');
 
@@ -4372,6 +4654,9 @@ VALUES (24362, 0, 83887061, 83894614)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24362, 0, 16778367);
+
+/* Weenie - Clothing - Asheron's Raiment (24359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24359;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24359, 'raimentasheroncoordination');
@@ -4420,6 +4705,9 @@ VALUES (24359, 0, 83887061, 83894614)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24359, 0, 16778367);
 
+/* Weenie - Clothing - Asheron's Lesser Raiment (24371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24371;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24371, 'raimentasheronlowendurance');
 
@@ -4467,6 +4755,9 @@ VALUES (24371, 0, 83887061, 83894614)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24371, 0, 16778367);
 
+/* Weenie - Clothing - Asheron's Greater Raiment (24368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24368;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24368, 'raimentasheronhighfocus');
 
@@ -4513,6 +4804,9 @@ VALUES (24368, 0, 83887061, 83894614)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24368, 0, 16778367);
+
+/* Weenie - Clothing - Aerlinthe Patron Shirt (7428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7428;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7428, 'shirtaerlinthepatron');
@@ -4562,6 +4856,9 @@ VALUES (7428, 0, 83887061, 83892586)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7428, 0, 16779351);
 
+/* Weenie - Clothing - Crimped Hat (14932) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14932;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14932, 'fedora');
 
@@ -4601,6 +4898,9 @@ VALUES (14932, 67114662, 240, 16);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14932, 0, 16789674);
+
+/* Weenie - Clothing - Robe of the Tundra (23593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23593;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23593, 'robemattekarbossnew');
@@ -4652,6 +4952,9 @@ VALUES (23593, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23593, 0, 16778367);
 
+/* Weenie - Clothing - Empowered Robe of the Perfect Light (44006) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44006;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44006, 'ace44006-empoweredrobeoftheperfectlight');
 
@@ -4687,6 +4990,9 @@ VALUES (44006, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44006, 0, 16795381);
+
+/* Weenie - Clothing - Dapper Suit (25703) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25703;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25703, 'suitnoir');
@@ -4733,6 +5039,9 @@ VALUES (25703, 0, 83887061, 83894859)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25703, 0, 16778367);
+
+/* Weenie - Clothing - Elemental Master Robe (21375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21375;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21375, 'robegaerlanred');
@@ -4784,6 +5093,9 @@ VALUES (21375, 0, 83887061, 83894216)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21375, 0, 16778367);
 
+/* Weenie - Clothing - Empyrean Over-robe (43274) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43274;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43274, 'ace43274-empyreanoverrobe');
 
@@ -4832,6 +5144,9 @@ VALUES (43274, 0, 83887061, 83894216)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43274, 0, 16778367);
 
+/* Weenie - Clothing - Asheron's Supreme Raiment (24364) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24364;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24364, 'raimentasheronextremestrength');
 
@@ -4879,6 +5194,9 @@ VALUES (24364, 0, 83887061, 83894614)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24364, 0, 16778367);
 
+/* Weenie - Clothing - Silken Wrap (28070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28070;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28070, 'jumpsuittopingra');
 
@@ -4925,6 +5243,9 @@ VALUES (28070, 0, 83887061, 83895453)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28070, 0, 16778367);
+
+/* Weenie - Clothing - Colosseum Master's Robe (35872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35872;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35872, 'ace35872-colosseummastersrobe');
@@ -4975,6 +5296,9 @@ VALUES (35872, 0, 83887061, 83892367)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35872, 0, 16778367);
 
+/* Weenie - Clothing - Night Club Shirt (43527) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43527;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43527, 'ace43527-nightclubshirt');
 
@@ -5018,6 +5342,9 @@ VALUES (43527, 0, 83887061, 83897597)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43527, 0, 16779351);
 
+/* Weenie - Clothing - Vestiri Item Master Robe (31206) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31206;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31206, 'ace31206-vestiriitemmasterrobe');
 
@@ -5056,6 +5383,9 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (31206, 67116027, 207, 33)
      , (31206, 67116014, 174, 33);
 
+/* Weenie - Clothing - Vestiri War Master Robe (31204) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31204;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31204, 'ace31204-vestiriwarmasterrobe');
 
@@ -5093,6 +5423,9 @@ VALUES (31204, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31204, 67116027, 207, 33)
      , (31204, 67116014, 174, 33);
+
+/* Weenie - Clothing - Asheron's Greater Raiment (24366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24366;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24366, 'raimentasheronhighcoordination');
@@ -5140,6 +5473,9 @@ VALUES (24366, 0, 83887061, 83894614)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24366, 0, 16778367);
+
+/* Weenie - Clothing - Faran Creature Master Robe (5915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5915;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5915, 'robecreaturealuvian');
@@ -5191,6 +5527,9 @@ VALUES (5915, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5915, 0, 16778367);
 
+/* Weenie - Clothing - White Bunny Slippers (12156) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12156;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12156, 'slippersbunnywhite');
 
@@ -5226,6 +5565,9 @@ VALUES (12156, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (12156, 67113775, 160, 8);
+
+/* Weenie - Clothing - Bathrobe (26452) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26452;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26452, 'robebathulgrim');
@@ -5274,6 +5616,9 @@ VALUES (26452, 0, 83887061, 83895144)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (26452, 0, 16778367);
 
+/* Weenie - Clothing - Clean, Dry Towel (10758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10758;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10758, 'towelclean');
 
@@ -5319,6 +5664,9 @@ VALUES (10758, 0, 83889342, 83893326)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10758, 0, 16778376);
+
+/* Weenie - Clothing - Faran Life Master Robe (5906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5906;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5906, 'robelifealuvian');
@@ -5370,6 +5718,9 @@ VALUES (5906, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5906, 0, 16778367);
 
+/* Weenie - Clothing - Suikan Item Master Robe (5914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5914;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5914, 'robeitemsho');
 
@@ -5420,6 +5771,9 @@ VALUES (5914, 0, 83887061, 83892367)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5914, 0, 16778367);
 
+/* Weenie - Clothing - Festival Shirt (32188) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32188;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32188, 'ace32188-festivalshirt');
 
@@ -5467,6 +5821,9 @@ VALUES (32188, 0, 83887061, 83886687)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32188, 0, 16779351);
+
+/* Weenie - Clothing - Festival Shirt (34105) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34105;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34105, 'ace34105-festivalshirt');
@@ -5516,6 +5873,9 @@ VALUES (34105, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34105, 0, 16779351);
 
+/* Weenie - Clothing - Poet's Shirt (31239) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31239;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31239, 'ace31239-poetsshirt');
 
@@ -5561,6 +5921,9 @@ VALUES (31239, 0, 83887061, 83896975)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31239, 0, 16779535);
+
+/* Weenie - Clothing - Festival Shirt (36439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36439;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36439, 'ace36439-festivalshirt');
@@ -5610,6 +5973,9 @@ VALUES (36439, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36439, 0, 16779351);
 
+/* Weenie - Clothing - Festival Shirt (34106) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34106;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34106, 'ace34106-festivalshirt');
 
@@ -5657,6 +6023,9 @@ VALUES (34106, 0, 83887061, 83886687)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34106, 0, 16779351);
+
+/* Weenie - Clothing - Festival Shirt (36437) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36437;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36437, 'ace36437-festivalshirt');
@@ -5706,6 +6075,9 @@ VALUES (36437, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36437, 0, 16779351);
 
+/* Weenie - Clothing - Night Club Shirt (34201) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34201;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34201, 'ace34201-nightclubshirt');
 
@@ -5748,6 +6120,9 @@ VALUES (34201, 0, 83887061, 83897597)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34201, 0, 16779351);
+
+/* Weenie - Clothing - Night Club Shirt (41748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41748;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41748, 'ace41748-nightclubshirt');
@@ -5792,6 +6167,9 @@ VALUES (41748, 0, 83887061, 83898048)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41748, 0, 16779351);
 
+/* Weenie - Clothing - Aphus Wading Pants (28071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28071;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28071, 'pantsxuut');
 
@@ -5835,6 +6213,9 @@ VALUES (28071, 0, 83889072, 83895460)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28071, 0, 16778376);
+
+/* Weenie - Clothing - Aphus Lounging Shirt (28072) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28072;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28072, 'shirtxuut');
@@ -5883,6 +6264,9 @@ VALUES (28072, 0, 83887061, 83895463)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28072, 0, 16779351);
 
+/* Weenie - Clothing - Skeletal Guise (22020) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22020;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22020, 'costumeskeleton');
 
@@ -5915,6 +6299,9 @@ VALUES (22020, 13, True)
      , (22020, 14, True)
      , (22020, 19, True)
      , (22020, 22, True);
+
+/* Weenie - Clothing - Alchemist's Hat (9623) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9623;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9623, 'hatalchemist');
@@ -5957,6 +6344,9 @@ VALUES (9623, 67110382, 250, 6);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9623, 0, 16785779);
 
+/* Weenie - Clothing - Pirate Hook (28861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28861;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28861, 'glovehook');
 
@@ -5989,6 +6379,9 @@ VALUES (28861, 13, True)
      , (28861, 14, True)
      , (28861, 19, True)
      , (28861, 22, True);
+
+/* Weenie - Clothing - Chicken Hat (25553) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25553;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25553, 'hatchicken');
@@ -6030,6 +6423,9 @@ VALUES (25553, 67114549, 240, 16);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25553, 0, 16789602);
+
+/* Weenie - Clothing - Doppelganger Robe (30832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30832;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30832, 'robeinfiltration');
@@ -6078,6 +6474,9 @@ VALUES (30832, 0, 83887061, 83895788)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30832, 0, 16778367);
 
+/* Weenie - Clothing - Asheron's Supreme Raiment (24363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24363;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24363, 'raimentasheronextremefocus');
 
@@ -6124,6 +6523,9 @@ VALUES (24363, 0, 83887061, 83894614)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24363, 0, 16778367);
+
+/* Weenie - Clothing - Pathwarden Robe (40455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40455;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40455, 'ace40455-pathwardenrobe');
@@ -6173,6 +6575,9 @@ VALUES (40455, 0, 83887061, 83892367)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40455, 0, 16778367);
 
+/* Weenie - Clothing - Pathwarden Robe (40454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40454;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40454, 'ace40454-pathwardenrobe');
 
@@ -6220,6 +6625,9 @@ VALUES (40454, 0, 83887061, 83892357)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40454, 0, 16778367);
+
+/* Weenie - Clothing - Loose Shirt (46009) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46009;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46009, 'ace46009-looseshirt');
@@ -6270,6 +6678,9 @@ VALUES (46009, 0, 83887061, 83886686)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46009, 0, 16778356);
 
+/* Weenie - Clothing - Trousers (46007) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46007;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46007, 'ace46007-trousers');
 
@@ -6318,6 +6729,9 @@ VALUES (46007, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46007, 0, 16778358);
 
+/* Weenie - Clothing - Pathwarden Robe (40456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40456;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40456, 'ace40456-pathwardenrobe');
 
@@ -6354,6 +6768,9 @@ VALUES (40456, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40456, 67116018, 207, 33)
      , (40456, 67116026, 174, 33);
+
+/* Weenie - Clothing - Festival Shirt (39112) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39112;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39112, 'ace39112-festivalshirt');
@@ -6402,6 +6819,9 @@ VALUES (39112, 0, 83887061, 83886687)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39112, 0, 16779351);
+
+/* Weenie - Clothing - Protective Leggings (39981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39981;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39981, 'ace39981-protectiveleggings');
@@ -6452,6 +6872,9 @@ VALUES (39981, 0, 83887064, 83896971)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39981, 0, 16778358);
 
+/* Weenie - Clothing - Protective Tunic (39982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39982;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39982, 'ace39982-protectivetunic');
 
@@ -6499,6 +6922,9 @@ VALUES (39982, 0, 83887061, 83897005)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39982, 0, 16779535);
 
+/* Weenie - Clothing - Night Club Shirt (47212) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47212;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47212, 'ace47212-nightclubshirt');
 
@@ -6541,6 +6967,9 @@ VALUES (47212, 0, 83887061, 83897597)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47212, 0, 16779351);
+
+/* Weenie - Clothing - Kiyafa Robe (8373) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8373;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8373, 'dressgharundim');
@@ -6591,6 +7020,9 @@ VALUES (8373, 0, 83887061, 83892756)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8373, 0, 16778367);
 
+/* Weenie - Clothing - Miner's Hat (24260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24260;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24260, 'hatminer');
 
@@ -6628,6 +7060,9 @@ VALUES (24260, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24260, 67114370, 240, 16);
+
+/* Weenie - Clothing - Trapper's Hat (24262) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24262;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24262, 'hattrapper');
@@ -6667,6 +7102,9 @@ VALUES (24262, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24262, 67114354, 240, 16);
 
+/* Weenie - Clothing - Timberman's Hat (24261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24261;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24261, 'hattimberman');
 
@@ -6705,6 +7143,9 @@ VALUES (24261, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24261, 67114377, 240, 16);
 
+/* Weenie - Clothing - Armored Undead Guise (28859) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28859;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28859, 'costumearmoredundead');
 
@@ -6738,6 +7179,9 @@ VALUES (28859, 13, True)
      , (28859, 19, True)
      , (28859, 22, True);
 
+/* Weenie - Clothing - Wooden Scarecrow Guise (43242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43242;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43242, 'ace43242-woodenscarecrowguise');
 
@@ -6770,6 +7214,9 @@ VALUES (43242, 13, True)
      , (43242, 14, True)
      , (43242, 19, True)
      , (43242, 22, True);
+
+/* Weenie - Clothing - Suikan Creature Master Robe (5917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5917;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5917, 'robecreaturesho');
@@ -6821,6 +7268,9 @@ VALUES (5917, 0, 83887061, 83892367)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5917, 0, 16778367);
 
+/* Weenie - Clothing - Festival Shirt (32197) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32197;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32197, 'ace32197-festivalshirt');
 
@@ -6868,6 +7318,9 @@ VALUES (32197, 0, 83887061, 83886687)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32197, 0, 16779351);
+
+/* Weenie - Clothing - Festival Shirt (32196) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32196;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32196, 'ace32196-festivalshirt');
@@ -6917,6 +7370,9 @@ VALUES (32196, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32196, 0, 16779351);
 
+/* Weenie - Clothing - Chef's Hat (9622) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9622;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9622, 'hatchef');
 
@@ -6957,6 +7413,9 @@ VALUES (9622, 67113189, 240, 10);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9622, 0, 16785775);
+
+/* Weenie - Clothing - Sasalia's Dress (9031) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9031;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9031, 'dresssasalia');
@@ -7006,6 +7465,9 @@ VALUES (9031, 0, 83887061, 83892766)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9031, 0, 16778367);
+
+/* Weenie - Clothing - Gelidite Robe (6061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6061;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6061, 'robegelidite');
@@ -7058,6 +7520,9 @@ VALUES (6061, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6061, 0, 16778367);
 
+/* Weenie - Clothing - Stocking Cap (22883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22883;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22883, 'capstocking');
 
@@ -7094,6 +7559,9 @@ VALUES (22883, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22883, 67114104, 240, 16);
+
+/* Weenie - Clothing - Aerfalle's Mana-infused Pallium (40907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40907;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40907, 'ace40907-aerfallesmanainfusedpallium');
@@ -7146,6 +7614,9 @@ VALUES (40907, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40907, 0, 16778367);
 
+/* Weenie - Clothing - Dho Vest and Robe (31304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31304;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31304, 'ace31304-dhovestandrobe');
 
@@ -7196,6 +7667,9 @@ VALUES (31304, 0, 83887061, 83892357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31304, 0, 16778367);
 
+/* Weenie - Clothing - Kireth Gown with Band (8371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8371;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8371, 'dressaluvian');
 
@@ -7245,6 +7719,9 @@ VALUES (8371, 0, 83887061, 83892747)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8371, 0, 16778367);
 
+/* Weenie - Clothing - Bandit Mask (25702) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25702;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25702, 'masknoir');
 
@@ -7284,6 +7761,9 @@ VALUES (25702, 67114655, 240, 16);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25702, 0, 16789673);
+
+/* Weenie - Clothing - Sleek Dress (25701) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25701;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25701, 'dressnoir');
@@ -7330,6 +7810,9 @@ VALUES (25701, 0, 83887061, 83894855)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25701, 0, 16778367);
+
+/* Weenie - Clothing - Empowered Empyrean Robe (35173) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35173;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35173, 'ace35173-empoweredempyreanrobe');
@@ -7378,6 +7861,9 @@ VALUES (35173, 0, 83887061, 83894216)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35173, 0, 16778367);
+
+/* Weenie - Clothing - Enhanced Robe of the Tundra (33950) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33950;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33950, 'ace33950-enhancedrobeofthetundra');
@@ -7430,6 +7916,9 @@ VALUES (33950, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33950, 0, 16778367);
 
+/* Weenie - Clothing - Loafers (31237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31237;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31237, 'ace31237-loafers');
 
@@ -7467,6 +7956,9 @@ VALUES (31237, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31237, 67110335, 160, 8);
+
+/* Weenie - Clothing - Festival Shirt (32189) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32189;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32189, 'ace32189-festivalshirt');
@@ -7516,6 +8008,9 @@ VALUES (32189, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32189, 0, 16779351);
 
+/* Weenie - Clothing - Gladiatorial Leggings (39977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39977;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39977, 'ace39977-gladiatorialleggings');
 
@@ -7564,6 +8059,9 @@ VALUES (39977, 0, 83887064, 83896971)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39977, 0, 16778358);
 
+/* Weenie - Clothing - Gladiatorial Tunic (39978) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39978;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39978, 'ace39978-gladiatorialtunic');
 
@@ -7610,6 +8108,9 @@ VALUES (39978, 0, 83887061, 83897005)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39978, 0, 16779535);
 
+/* Weenie - Clothing - Banner (36772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36772;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36772, 'ace36772-banner');
 
@@ -7652,6 +8153,9 @@ VALUES (36772, 1, 83894098, 83894098);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36772, 1, 16793786);
+
+/* Weenie - Clothing - Coarse Hide Shirt (27654) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27654;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27654, 'shirtrenegadehide');
@@ -7701,6 +8205,9 @@ VALUES (27654, 0, 83887061, 83895317)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27654, 0, 16779351);
 
+/* Weenie - Clothing - Ceremonial Tunic (39980) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39980;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39980, 'ace39980-ceremonialtunic');
 
@@ -7745,6 +8252,9 @@ VALUES (39980, 0, 83887061, 83897005)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39980, 0, 16779535);
+
+/* Weenie - Clothing - Colosseum Master's Robe (35806) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35806;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35806, 'ace35806-colosseummastersrobe');
@@ -7795,6 +8305,9 @@ VALUES (35806, 0, 83887061, 83892367)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35806, 0, 16778367);
 
+/* Weenie - Clothing - Empowered Empyrean Robe (34942) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34942;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34942, 'ace34942-empoweredempyreanrobe');
 
@@ -7843,6 +8356,9 @@ VALUES (34942, 0, 83887061, 83894216)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34942, 0, 16778367);
 
+/* Weenie - Clothing - Asheron's Raiment (24360) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24360;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24360, 'raimentasheronendurance');
 
@@ -7889,6 +8405,9 @@ VALUES (24360, 0, 83887061, 83894614)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24360, 0, 16778367);
+
+/* Weenie - Clothing - Siraluun Dress (11362) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11362;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11362, 'dresssiraluun-xp');
@@ -7939,6 +8458,9 @@ VALUES (11362, 0, 83887061, 83893736)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11362, 0, 16778367);
 
+/* Weenie - Clothing - Kireth Gown with Band (8399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8399;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8399, 'dressaluvianlowcut');
 
@@ -7988,6 +8510,9 @@ VALUES (8399, 0, 83887061, 83892748)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8399, 0, 16778367);
 
+/* Weenie - Clothing - Yifan Dress (8372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8372;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8372, 'dresssho');
 
@@ -8036,6 +8561,9 @@ VALUES (8372, 0, 83887061, 83892766)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8372, 0, 16778367);
+
+/* Weenie - Clothing - Virindi Shroud (12268) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12268;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12268, 'shroudvirindi');
@@ -8089,6 +8617,9 @@ VALUES (12268, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12268, 0, 16778367);
 
+/* Weenie - Clothing - Faran War Apprentice Robe (6071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6071;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6071, 'robesuckwaraluvian');
 
@@ -8139,6 +8670,9 @@ VALUES (6071, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6071, 0, 16778367);
 
+/* Weenie - Clothing - Sparring Pants (25983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25983;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25983, 'pantssparring');
 
@@ -8185,6 +8719,9 @@ VALUES (25983, 0, 83887064, 83895025)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25983, 0, 16778358);
+
+/* Weenie - Clothing - Asheron's Lesser Raiment (24373) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24373;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24373, 'raimentasheronlowstrength');
@@ -8234,6 +8771,9 @@ VALUES (24373, 0, 83887061, 83894614)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24373, 0, 16778367);
 
+/* Weenie - Clothing - Hulking Bunny Slippers (35180) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35180;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35180, 'ace35180-hulkingbunnyslippers');
 
@@ -8273,6 +8813,9 @@ VALUES (35180, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35180, 67113750, 160, 8);
+
+/* Weenie - Clothing - Festival Shirt (34107) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34107;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34107, 'ace34107-festivalshirt');
@@ -8323,6 +8866,9 @@ VALUES (34107, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34107, 0, 16779351);
 
+/* Weenie - Clothing - Festival Shirt (34108) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34108;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34108, 'ace34108-festivalshirt');
 
@@ -8372,6 +8918,9 @@ VALUES (34108, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34108, 0, 16779351);
 
+/* Weenie - Clothing - Vestiri Robe with Hood (28614) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28614;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28614, 'robeviamontianhood');
 
@@ -8409,6 +8958,9 @@ VALUES (28614, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28614, 67116018, 207, 33)
      , (28614, 67116026, 174, 33);
+
+/* Weenie - Clothing - Frest Greelving's Puffy Shirt (22136) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22136;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22136, 'shirtpuffyhauntedmansion');
@@ -8457,6 +9009,9 @@ VALUES (22136, 0, 83887061, 83886686)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22136, 0, 16778356);
+
+/* Weenie - Clothing - Badlands Siraluun Dress (29810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29810;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29810, 'dresssiraluunbadlands');
@@ -8507,6 +9062,9 @@ VALUES (29810, 0, 83887061, 83893736)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29810, 0, 16778367);
 
+/* Weenie - Clothing - Vestiri Robe (28615) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28615;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28615, 'robeviamontiannohood');
 
@@ -8544,6 +9102,9 @@ VALUES (28615, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28615, 67116019, 207, 33)
      , (28615, 67116026, 174, 33);
+
+/* Weenie - Clothing - Asheron's Lesser Raiment (24372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24372;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24372, 'raimentasheronlowfocus');
@@ -8592,6 +9153,9 @@ VALUES (24372, 0, 83887061, 83894614)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24372, 0, 16778367);
+
+/* Weenie - Clothing - Faran Item Master Robe (5912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5912;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5912, 'robeitemaluvian');
@@ -8643,6 +9207,9 @@ VALUES (5912, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5912, 0, 16778367);
 
+/* Weenie - Clothing - Elemental Master Robe (21374) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21374;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21374, 'robegaerlanblack');
 
@@ -8693,6 +9260,9 @@ VALUES (21374, 0, 83887061, 83894216)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21374, 0, 16778367);
 
+/* Weenie - Clothing - Littoral Siraluun Dress (29812) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29812;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29812, 'dresssiraluunlittoral');
 
@@ -8742,6 +9312,9 @@ VALUES (29812, 0, 83887061, 83893736)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29812, 0, 16778367);
 
+/* Weenie - Clothing - Festival Shirt (32193) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32193;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32193, 'ace32193-festivalshirt');
 
@@ -8789,6 +9362,9 @@ VALUES (32193, 0, 83887061, 83886687)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32193, 0, 16779351);
+
+/* Weenie - Clothing - Festival Shirt (32192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32192;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32192, 'ace32192-festivalshirt');
@@ -8838,6 +9414,9 @@ VALUES (32192, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32192, 0, 16779351);
 
+/* Weenie - Clothing - Festival Shirt (32190) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32190;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32190, 'ace32190-festivalshirt');
 
@@ -8886,6 +9465,9 @@ VALUES (32190, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32190, 0, 16779351);
 
+/* Weenie - Clothing - Vestiri Life Apprentice Robe (31203) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31203;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31203, 'ace31203-vestirilifeapprenticerobe');
 
@@ -8923,6 +9505,9 @@ VALUES (31203, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31203, 67116020, 207, 33)
      , (31203, 67116039, 174, 33);
+
+/* Weenie - Clothing - Asheron's Greater Raiment (24367) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24367;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24367, 'raimentasheronhighendurance');
@@ -8970,6 +9555,9 @@ VALUES (24367, 0, 83887061, 83894614)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24367, 0, 16778367);
+
+/* Weenie - Clothing - Tusker Island Shirt (22565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22565;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22565, 'shirttuskeremporium');
@@ -9019,6 +9607,9 @@ VALUES (22565, 0, 83887061, 83894402)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22565, 0, 16779351);
 
+/* Weenie - Clothing - Aerlinthe Monarch Shirt (7429) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7429;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7429, 'shirtaerlinthemonarch');
 
@@ -9066,6 +9657,9 @@ VALUES (7429, 0, 83887061, 83892586)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7429, 0, 16779351);
+
+/* Weenie - Clothing - Untamed Siraluun Dress (29817) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29817;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29817, 'dresssiraluununtamed');
@@ -9116,6 +9710,9 @@ VALUES (29817, 0, 83887061, 83893736)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29817, 0, 16778367);
 
+/* Weenie - Clothing - Tessera Gown (28613) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28613;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28613, 'dressviamontian');
 
@@ -9162,6 +9759,9 @@ VALUES (28613, 0, 83887061, 83897010)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28613, 0, 16778367);
+
+/* Weenie - Clothing - Faran War Master Robe (5909) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5909;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5909, 'robewaraluvian');
@@ -9213,6 +9813,9 @@ VALUES (5909, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5909, 0, 16778367);
 
+/* Weenie - Clothing - Armored Skeleton Guise (28858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28858;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28858, 'costumearmoredskeleton');
 
@@ -9245,6 +9848,9 @@ VALUES (28858, 13, True)
      , (28858, 14, True)
      , (28858, 19, True)
      , (28858, 22, True);
+
+/* Weenie - Clothing - Scarecrow Guise (28860) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28860;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28860, 'costumescarecrow');
@@ -9315,6 +9921,9 @@ VALUES (28860, 0, 16784901)
      , (28860, 11, 16790869)
      , (28860, 12, 16784926);
 
+/* Weenie - Clothing - Festival Shirt (32194) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32194;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32194, 'ace32194-festivalshirt');
 
@@ -9362,6 +9971,9 @@ VALUES (32194, 0, 83887061, 83886687)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32194, 0, 16779351);
+
+/* Weenie - Clothing - Wedding Gown (14905) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14905;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14905, 'gownwedding');
@@ -9412,6 +10024,9 @@ VALUES (14905, 0, 83887061, 83892766)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14905, 0, 16778367);
 
+/* Weenie - Clothing - Kithless Siraluun Dress (29811) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29811;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29811, 'dresssiraluunkithless');
 
@@ -9460,6 +10075,9 @@ VALUES (29811, 0, 83887061, 83893736)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29811, 0, 16778367);
+
+/* Weenie - Clothing - Strand Siraluun Dress (29814) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29814;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29814, 'dresssiraluunstrand');
@@ -9510,6 +10128,9 @@ VALUES (29814, 0, 83887061, 83893736)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29814, 0, 16778367);
 
+/* Weenie - Clothing - Asheron's Raiment (24365) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24365;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24365, 'raimentasheronfocus');
 
@@ -9557,6 +10178,9 @@ VALUES (24365, 0, 83887061, 83894614)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24365, 0, 16778367);
 
+/* Weenie - Clothing - White Bunny Slippers (34022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34022;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34022, 'ace34022-whitebunnyslippers');
 
@@ -9595,6 +10219,9 @@ VALUES (34022, 0, 16793227)
      , (34022, 2, 16793229)
      , (34022, 3, 16793230);
 
+/* Weenie - Clothing - Ursuin Guise (32155) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32155;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32155, 'ace32155-ursuinguise');
 
@@ -9627,6 +10254,9 @@ VALUES (32155, 13, True)
      , (32155, 14, True)
      , (32155, 19, True)
      , (32155, 22, True);
+
+/* Weenie - Clothing - Dho War Apprentice Robe (6072) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6072;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6072, 'robesuckwargharundim');
@@ -9678,6 +10308,9 @@ VALUES (6072, 0, 83887061, 83892357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6072, 0, 16778367);
 
+/* Weenie - Clothing - Dho Creature Apprentice Robe (6063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6063;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6063, 'robesuckcreaturegharundim');
 
@@ -9727,6 +10360,9 @@ VALUES (6063, 0, 83887061, 83892357)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6063, 0, 16778367);
+
+/* Weenie - Clothing - Dho Life Apprentice Robe (6069) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6069;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6069, 'robesucklifegharundim');
@@ -9778,6 +10414,9 @@ VALUES (6069, 0, 83887061, 83892357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6069, 0, 16778367);
 
+/* Weenie - Clothing - Modified Elemental Master Robe (46948) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46948;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46948, 'ace46948-modifiedelementalmasterrobe');
 
@@ -9828,6 +10467,9 @@ VALUES (46948, 0, 83887061, 83894216)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46948, 0, 16778367);
 
+/* Weenie - Clothing - Bathrobe of Ordinary Comfort (32152) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32152;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32152, 'ace32152-bathrobeofordinarycomfort');
 
@@ -9875,6 +10517,9 @@ VALUES (32152, 0, 83887061, 83895144)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32152, 0, 16778367);
 
+/* Weenie - Clothing - Creeping Blight Cloak (44982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44982;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44982, 'ace44982-creepingblightcloak');
 
@@ -9910,6 +10555,9 @@ VALUES (44982, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44982, 0, 16795852);
+
+/* Weenie - Clothing - Festival Shirt (34212) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34212;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34212, 'ace34212-festivalshirt');
@@ -9960,6 +10608,9 @@ VALUES (34212, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34212, 0, 16779351);
 
+/* Weenie - Clothing - Amateur Explorer Pants (46008) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46008;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46008, 'ace46008-amateurexplorerpants');
 
@@ -10006,6 +10657,9 @@ VALUES (46008, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46008, 0, 16778358);
+
+/* Weenie - Clothing - Amateur Explorer Shirt (46010) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46010;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46010, 'ace46010-amateurexplorershirt');
@@ -10054,6 +10708,9 @@ VALUES (46010, 0, 83887061, 83886686)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46010, 0, 16778356);
+
+/* Weenie - Clothing - Festival Shirt (36440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36440;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36440, 'ace36440-festivalshirt');
@@ -10104,6 +10761,9 @@ VALUES (36440, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36440, 0, 16779351);
 
+/* Weenie - Clothing - Mukkir Wings (52193) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52193;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52193, 'ace52193-mukkirwings');
 
@@ -10142,6 +10802,9 @@ VALUES (52193, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52193, 0, 16797055);
 
+/* Weenie - Clothing - Legendary Robe of Utter Darkness (48919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48919;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48919, 'ace48919-legendaryrobeofutterdarkness');
 
@@ -10178,6 +10841,9 @@ VALUES (48919, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48919, 0, 16796577);
+
+/* Weenie - Clothing - Sawato Bandit's Mask (33825) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33825;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33825, 'ace33825-sawatobanditsmask');
@@ -10217,6 +10883,9 @@ VALUES (33825, 67114655, 240, 16);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33825, 0, 16789673);
+
+/* Weenie - Clothing - Festival Shirt (32191) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32191;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32191, 'ace32191-festivalshirt');
@@ -10265,6 +10934,9 @@ VALUES (32191, 0, 83887061, 83886687)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32191, 0, 16779351);
+
+/* Weenie - Clothing - Festival Shirt (36438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36438;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36438, 'ace36438-festivalshirt');
@@ -10315,6 +10987,9 @@ VALUES (36438, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36438, 0, 16779351);
 
+/* Weenie - Clothing - House Mhoire Cloak (44983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44983;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44983, 'ace44983-housemhoirecloak');
 
@@ -10350,6 +11025,9 @@ VALUES (44983, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44983, 0, 16795850);
+
+/* Weenie - Clothing - Rynthid Energy Tentacles (51868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51868;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51868, 'ace51868-rynthidenergytentacles');
@@ -10390,6 +11068,9 @@ VALUES (51868, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51868, 0, 16797047);
 
+/* Weenie - Clothing - Rynthid Energy Field (51867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51867;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51867, 'ace51867-rynthidenergyfield');
 
@@ -10427,6 +11108,9 @@ VALUES (51867, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51867, 0, 16797044);
+
+/* Weenie - Clothing - Night Club Shirt (39325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39325;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39325, 'ace39325-nightclubshirt');
@@ -10471,6 +11155,9 @@ VALUES (39325, 0, 83887061, 83897974)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39325, 0, 16779351);
+
+/* Weenie - Clothing - Festival Shirt (34109) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34109;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34109, 'ace34109-festivalshirt');
@@ -10521,6 +11208,9 @@ VALUES (34109, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34109, 0, 16779351);
 
+/* Weenie - Clothing - Asheron's Raiment (24374) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24374;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24374, 'raimentasheronstrength');
 
@@ -10568,6 +11258,9 @@ VALUES (24374, 0, 83887061, 83894614)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24374, 0, 16778367);
+
+/* Weenie - Clothing - Faran Creature Apprentice Robe (6062) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6062;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6062, 'robesuckcreaturealuvian');
@@ -10620,6 +11313,9 @@ VALUES (6062, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6062, 0, 16778367);
 
+/* Weenie - Clothing - Jaleh's Silk Shirt (24177) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24177;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24177, 'shirtjaleh');
 
@@ -10669,6 +11365,9 @@ VALUES (24177, 0, 83887061, 83886686)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24177, 0, 16778356);
 
+/* Weenie - Clothing - Fletcher's Cap (9624) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9624;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9624, 'hatfletcher');
 
@@ -10710,6 +11409,9 @@ VALUES (9624, 67110541, 240, 10)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9624, 0, 16785777);
+
+/* Weenie - Clothing - Festival Shirt (32195) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32195;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32195, 'ace32195-festivalshirt');
@@ -10760,6 +11462,9 @@ VALUES (32195, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32195, 0, 16779351);
 
+/* Weenie - Clothing - Gauntlet Leggings (52798) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52798;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52798, 'ace52798-gauntletleggings');
 
@@ -10807,6 +11512,9 @@ VALUES (52798, 0, 83887064, 83896971)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52798, 0, 16778358);
 
+/* Weenie - Clothing - Gauntlet Tunic (52799) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52799;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52799, 'ace52799-gauntlettunic');
 
@@ -10851,6 +11559,9 @@ VALUES (52799, 0, 83887061, 83897005)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52799, 0, 16779535);
+
+/* Weenie - Clothing - Suikan Life Apprentice Robe (6070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6070;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6070, 'robesucklifesho');
@@ -10903,6 +11614,9 @@ VALUES (6070, 0, 83887061, 83892367)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6070, 0, 16778367);
 
+/* Weenie - Clothing - Sclavus Guise (22019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22019;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22019, 'costumesclavus');
 
@@ -10935,6 +11649,9 @@ VALUES (22019, 13, True)
      , (22019, 14, True)
      , (22019, 19, True)
      , (22019, 22, True);
+
+/* Weenie - Clothing - Ceremonial Leggings (39979) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39979;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39979, 'ace39979-ceremonialleggings');
@@ -10983,6 +11700,9 @@ VALUES (39979, 0, 83887064, 83896971)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39979, 0, 16778358);
+
+/* Weenie - Clothing - Dho Vest and Robe (5853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5853;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5853, 'robegharundimhood');
@@ -11033,6 +11753,9 @@ VALUES (5853, 0, 83887061, 83892357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5853, 0, 16778367);
 
+/* Weenie - Clothing - Quilted Drawers (120) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 120;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (120, 'drawersquilted');
 
@@ -11080,6 +11803,9 @@ VALUES (120, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (120, 0, 16778358);
+
+/* Weenie - Clothing - Mu-miyah Guise (22018) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22018;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22018, 'costumemummy');
@@ -11156,6 +11882,9 @@ VALUES (22018, 0, 16777294)
      , (22018, 14, 16778424)
      , (22018, 15, 16777307);
 
+/* Weenie - Clothing - Faran Item Apprentice Robe (6065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6065;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6065, 'robesuckitemaluvian');
 
@@ -11207,6 +11936,9 @@ VALUES (6065, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6065, 0, 16778367);
 
+/* Weenie - Clothing - Beret (31236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31236;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31236, 'ace31236-beret');
 
@@ -11245,6 +11977,9 @@ VALUES (31236, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31236, 67110383, 240, 16);
+
+/* Weenie - Clothing - Beltslora's Pretty Shirt (5051) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5051;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5051, 'shirtbeltslora');
@@ -11294,6 +12029,9 @@ VALUES (5051, 0, 83887061, 83886686)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5051, 0, 16778356);
 
+/* Weenie - Clothing - Night Club Shirt (44979) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44979;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44979, 'ace44979-nightclubshirt');
 
@@ -11337,6 +12075,9 @@ VALUES (44979, 0, 83887061, 83897597)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44979, 0, 16779351);
+
+/* Weenie - Clothing - Dho Item Apprentice Robe (6066) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6066;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6066, 'robesuckitemgharundim');
@@ -11388,6 +12129,9 @@ VALUES (6066, 0, 83887061, 83892357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6066, 0, 16778367);
 
+/* Weenie - Clothing - Faran Life Apprentice Robe (6068) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6068;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6068, 'robesucklifealuvian');
 
@@ -11434,6 +12178,9 @@ VALUES (6068, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6068, 0, 16778358);
+
+/* Weenie - Clothing - Suikan Creature Apprentice Robe (6064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6064;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6064, 'robesuckcreaturesho');
@@ -11482,6 +12229,9 @@ VALUES (6064, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6064, 0, 16778358);
 
+/* Weenie - Clothing - Suikan Item Apprentice Robe (6067) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6067;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6067, 'robesuckitemsho');
 
@@ -11529,6 +12279,9 @@ VALUES (6067, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6067, 0, 16778358);
 
+/* Weenie - Clothing - Boots (2606) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2606;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2606, 'boots');
 
@@ -11574,6 +12327,9 @@ VALUES (2606, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2606, 0, 16778358);
+
+/* Weenie - Clothing - Lower Exoskeleton Metamorphi (43677) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43677;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43677, 'ace43677-lowerexoskeletonmetamorphi');
@@ -11622,6 +12378,9 @@ VALUES (43677, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43677, 0, 16778358);
 
+/* Weenie - Clothing - Lower Exoskeleton Metamorphi (43678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43678;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43678, 'ace43678-lowerexoskeletonmetamorphi');
 
@@ -11668,6 +12427,9 @@ VALUES (43678, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43678, 0, 16778358);
+
+/* Weenie - Clothing - Lower Exoskeleton Metamorphi (43679) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43679;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43679, 'ace43679-lowerexoskeletonmetamorphi');
@@ -11716,6 +12478,9 @@ VALUES (43679, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43679, 0, 16778358);
 
+/* Weenie - Clothing - Lower Exoskeleton Metamorphi (43680) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43680;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43680, 'ace43680-lowerexoskeletonmetamorphi');
 
@@ -11762,6 +12527,9 @@ VALUES (43680, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43680, 0, 16778358);
+
+/* Weenie - Clothing - Upper Exoskeleton Metamorphi (43673) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43673;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43673, 'ace43673-upperexoskeletonmetamorphi');
@@ -11810,6 +12578,9 @@ VALUES (43673, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43673, 0, 16778358);
 
+/* Weenie - Clothing - Upper Exoskeleton Metamorphi (43674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43674;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43674, 'ace43674-upperexoskeletonmetamorphi');
 
@@ -11856,6 +12627,9 @@ VALUES (43674, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43674, 0, 16778358);
+
+/* Weenie - Clothing - Upper Exoskeleton Metamorphi (43675) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43675;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43675, 'ace43675-upperexoskeletonmetamorphi');
@@ -11904,6 +12678,9 @@ VALUES (43675, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43675, 0, 16778358);
 
+/* Weenie - Clothing - Upper Exoskeleton Metamorphi (43676) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43676;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43676, 'ace43676-upperexoskeletonmetamorphi');
 
@@ -11950,6 +12727,9 @@ VALUES (43676, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43676, 0, 16778358);
+
+/* Weenie - Clothing - Lower Exoskeleton Metamorphi (43685) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43685;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43685, 'ace43685-lowerexoskeletonmetamorphi');
@@ -11998,6 +12778,9 @@ VALUES (43685, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43685, 0, 16778358);
 
+/* Weenie - Clothing - Lower Exoskeleton Metamorphi (43686) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43686;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43686, 'ace43686-lowerexoskeletonmetamorphi');
 
@@ -12044,6 +12827,9 @@ VALUES (43686, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43686, 0, 16778358);
+
+/* Weenie - Clothing - Lower Exoskeleton Metamorphi (43687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43687;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43687, 'ace43687-lowerexoskeletonmetamorphi');
@@ -12092,6 +12878,9 @@ VALUES (43687, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43687, 0, 16778358);
 
+/* Weenie - Clothing - Lower Exoskeleton Metamorphi (43672) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43672;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43672, 'ace43672-lowerexoskeletonmetamorphi');
 
@@ -12138,6 +12927,9 @@ VALUES (43672, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43672, 0, 16778358);
+
+/* Weenie - Clothing - Upper Exoskeleton Metamorphi (43681) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43681;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43681, 'ace43681-upperexoskeletonmetamorphi');
@@ -12186,6 +12978,9 @@ VALUES (43681, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43681, 0, 16778358);
 
+/* Weenie - Clothing - Upper Exoskeleton Metamorphi (43682) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43682;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43682, 'ace43682-upperexoskeletonmetamorphi');
 
@@ -12232,6 +13027,9 @@ VALUES (43682, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43682, 0, 16778358);
+
+/* Weenie - Clothing - Upper Exoskeleton Metamorphi (43683) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43683;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43683, 'ace43683-upperexoskeletonmetamorphi');
@@ -12280,6 +13078,9 @@ VALUES (43683, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43683, 0, 16778358);
 
+/* Weenie - Clothing - Upper Exoskeleton Metamorphi (43684) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43684;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43684, 'ace43684-upperexoskeletonmetamorphi');
 
@@ -12327,6 +13128,9 @@ VALUES (43684, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43684, 0, 16778358);
 
+/* Weenie - Clothing - Vestiri Creature Apprentice Robe (31201) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31201;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31201, 'ace31201-vestiricreatureapprenticerobe');
 
@@ -12372,6 +13176,9 @@ VALUES (31201, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31201, 0, 16778358);
+
+/* Weenie - Clothing - Vestiri Item Apprentice Robe (31202) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31202;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31202, 'ace31202-vestiriitemapprenticerobe');
@@ -12419,6 +13226,9 @@ VALUES (31202, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31202, 0, 16778358);
 
+/* Weenie - Clothing - Vestiri War Apprentice Robe (31200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31200;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31200, 'ace31200-vestiriwarapprenticerobe');
 
@@ -12464,6 +13274,9 @@ VALUES (31200, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31200, 0, 16778358);
+
+/* Weenie - Clothing - Toga (28616) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28616;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28616, 'robetoga');
@@ -12511,6 +13324,9 @@ VALUES (28616, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28616, 0, 16778358);
 
+/* Weenie - Clothing - Vestiri Creature Master Robe (31205) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31205;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31205, 'ace31205-vestiricreaturemasterrobe');
 
@@ -12556,6 +13372,9 @@ VALUES (31205, 0, 83887064, 83886241)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31205, 0, 16778358);
+
+/* Weenie - Clothing - Vestiri Life Master Robe (31207) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31207;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31207, 'ace31207-vestirilifemasterrobe');

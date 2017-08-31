@@ -1,3 +1,6 @@
+/* Weenie - Gems - Invitation Wedding Hall (14913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14913;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14913, 'gemportalwedding1');
 
@@ -39,6 +42,9 @@ VALUES (14913, 13, True)
      , (14913, 19, True)
      , (14913, 22, True);
 
+/* Weenie - Gems - Blackmoor's Favor (31000) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31000;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31000, 'gemactdpurchaserewardarmor');
 
@@ -77,6 +83,9 @@ VALUES (31000, 13, True)
      , (31000, 14, True)
      , (31000, 19, True)
      , (31000, 22, True);
+
+/* Weenie - Gems - Pack Ursuin (9173) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9173;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9173, 'dollrewardursuin');
@@ -301,6 +310,9 @@ VALUES (9173, 0, 16784818)
      , (9173, 13, 16784847)
      , (9173, 14, 16784827);
 
+/* Weenie - Gems - Aphus Lassel Portal Gem (22729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22729;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22729, 'gemportaltuskerisland');
 
@@ -348,6 +360,9 @@ VALUES (22729, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22729, 0, 16779181);
+
+/* Weenie - Gems - Facility Hub Portal Gem (49563) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49563;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49563, 'ace49563-facilityhubportalgem');
@@ -399,6 +414,9 @@ VALUES (49563, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49563, 0, 16779181);
 
+/* Weenie - Gems - Aligned Mana Stone (42710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42710;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42710, 'ace42710-alignedmanastone');
 
@@ -435,6 +453,9 @@ VALUES (42710, 13, True)
      , (42710, 14, True)
      , (42710, 19, True)
      , (42710, 22, True);
+
+/* Weenie - Gems - Aetheria Mana Stone (42645) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42645;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42645, 'ace42645-aetheriamanastone');
@@ -476,6 +497,9 @@ VALUES (42645, 0, 83889688, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42645, 0, 16783974);
 
+/* Weenie - Gems - Iolite Gem (22889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22889;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22889, 'gemiolite');
 
@@ -504,6 +528,9 @@ VALUES (22889, 13, True)
      , (22889, 14, True)
      , (22889, 19, True)
      , (22889, 22, True);
+
+/* Weenie - Gems - Yellow Jewel (7604) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7604;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7604, 'virindijewelyellow');
@@ -548,6 +575,9 @@ VALUES (7604, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7604, 0, 16779181);
 
+/* Weenie - Gems - Purple Jewel (41470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41470;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41470, 'ace41470-purplejewel');
 
@@ -590,6 +620,9 @@ VALUES (41470, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41470, 0, 16779181);
+
+/* Weenie - Gems - Shoyanen's Portal Gem (8982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8982;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8982, 'gemportalshoyanen');
@@ -642,6 +675,9 @@ VALUES (8982, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8982, 0, 16779181);
 
+/* Weenie - Gems - Town Network Portal Gem (43020) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43020;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43020, 'ace43020-townnetworkportalgem');
 
@@ -693,6 +729,9 @@ VALUES (43020, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43020, 0, 16779181);
 
+/* Weenie - Gems - Greater Gem of Knowledge (36509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36509;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36509, 'ace36509-greatergemofknowledge');
 
@@ -726,6 +765,9 @@ VALUES (36509, 13, True)
      , (36509, 11, True)
      , (36509, 14, True)
      , (36509, 19, True);
+
+/* Weenie - Gems - Dark Shard (6058) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6058;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6058, 'shardshadowshard');
@@ -770,6 +812,9 @@ VALUES (6058, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6058, 0, 16779181);
+
+/* Weenie - Gems - Aetheria (42636) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42636;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42636, 'ace42636-aetheria');
@@ -818,6 +863,9 @@ VALUES (42636, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42636, 0, 16779181);
 
+/* Weenie - Gems - Ancient Empyrean Trinket (34276) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34276;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34276, 'ace34276-ancientempyreantrinket');
 
@@ -863,6 +911,9 @@ VALUES (34276, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34276, 0, 16778862);
 
+/* Weenie - Gems - Elysa's Crystal (30194) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30194;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30194, 'gemrarevolatilebow');
 
@@ -907,6 +958,9 @@ VALUES (30194, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30194, 0, 16779181);
 
+/* Weenie - Gems - Hieromancer's Crystal (30245) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30245;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30245, 'gemrarevolatilewarmagic');
 
@@ -950,6 +1004,9 @@ VALUES (30245, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30245, 0, 16779181);
+
+/* Weenie - Gems - Aetheria (42635) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42635;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42635, 'ace42635-aetheria');
@@ -998,6 +1055,9 @@ VALUES (42635, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42635, 0, 16779181);
 
+/* Weenie - Gems - Aetheria (42637) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42637;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42637, 'ace42637-aetheria');
 
@@ -1044,6 +1104,9 @@ VALUES (42637, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42637, 0, 16779181);
+
+/* Weenie - Gems - Imbuer's Crystal (30225) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30225;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30225, 'gemrarevolatilemagicitemtinkering');
@@ -1092,6 +1155,9 @@ VALUES (30225, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30225, 0, 16779181);
+
+/* Weenie - Gems - Nanto Portal Gem (8978) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8978;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8978, 'gemportalnanto');
@@ -1144,6 +1210,9 @@ VALUES (8978, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8978, 0, 16779181);
 
+/* Weenie - Gems - Gem (2418) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2418;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2418, 'gemtigereye');
 
@@ -1183,6 +1252,9 @@ VALUES (2418, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2418, 0, 16779181);
+
+/* Weenie - Gems - Gem (2413) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2413;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2413, 'gemagate');
@@ -1230,6 +1302,9 @@ VALUES (2413, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2413, 0, 16779181);
 
+/* Weenie - Gems - Gem (2396) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2396;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2396, 'gemjet');
 
@@ -1276,6 +1351,9 @@ VALUES (2396, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2396, 0, 16779181);
 
+/* Weenie - Gems - Gem (2425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2425;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2425, 'gemyellowtopaz');
 
@@ -1315,6 +1393,9 @@ VALUES (2425, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2425, 0, 16779181);
+
+/* Weenie - Gems - Gem (2405) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2405;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2405, 'gemlavenderjade');
@@ -1360,6 +1441,9 @@ VALUES (2405, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2405, 0, 16779181);
 
+/* Weenie - Gems - Haebrean Token of the Aura of Invulnerability (43457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43457;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43457, 'ace43457-haebreantokenoftheauraofinvulnerability');
 
@@ -1397,6 +1481,9 @@ VALUES (43457, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43457, 0, 16787203);
 
+/* Weenie - Gems - Haebrean Token of the Aura of Hardening (43455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43455;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43455, 'ace43455-haebreantokenoftheauraofhardening');
 
@@ -1433,6 +1520,9 @@ VALUES (43455, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43455, 0, 16787203);
+
+/* Weenie - Gems - Gem (2420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2420;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2420, 'gemwhitequartz');
@@ -1480,6 +1570,9 @@ VALUES (2420, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2420, 0, 16779181);
 
+/* Weenie - Gems - Gem (2433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2433;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2433, 'gemrosequartz');
 
@@ -1526,6 +1619,9 @@ VALUES (2433, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2433, 0, 16779181);
 
+/* Weenie - Gems - Gem (2398) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2398;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2398, 'gemtourmaline');
 
@@ -1569,6 +1665,9 @@ VALUES (2398, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2398, 0, 16779181);
+
+/* Weenie - Gems - Gem (2406) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2406;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2406, 'gemredjade');
@@ -1614,6 +1713,9 @@ VALUES (2406, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2406, 0, 16779181);
 
+/* Weenie - Gems - Gem (2407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2407;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2407, 'gemsunstone');
 
@@ -1657,6 +1759,9 @@ VALUES (2407, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2407, 0, 16779181);
+
+/* Weenie - Gems - Gem (2431) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2431;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2431, 'gemmoonstone');
@@ -1702,6 +1807,9 @@ VALUES (2431, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2431, 0, 16779181);
 
+/* Weenie - Gems - Gem (2421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2421;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2421, 'gemaquamarine');
 
@@ -1746,6 +1854,9 @@ VALUES (2421, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2421, 0, 16779181);
 
+/* Weenie - Gems - Pack Grael (33802) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33802;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33802, 'ace33802-packgrael');
 
@@ -1779,6 +1890,9 @@ VALUES (33802, 13, True)
      , (33802, 14, True)
      , (33802, 19, True)
      , (33802, 22, True);
+
+/* Weenie - Gems - Gem (2399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2399;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2399, 'gemwhitejade');
@@ -1826,6 +1940,9 @@ VALUES (2399, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2399, 0, 16779181);
 
+/* Weenie - Gems - Gem (2395) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2395;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2395, 'gemgreenjade');
 
@@ -1872,6 +1989,9 @@ VALUES (2395, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2395, 0, 16779181);
 
+/* Weenie - Gems - Gem (2412) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2412;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2412, 'jewelsapphire');
 
@@ -1917,6 +2037,9 @@ VALUES (2412, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2412, 0, 16779181);
+
+/* Weenie - Gems - Dark Sliver (6059) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6059;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6059, 'shardshadowsliver');
@@ -1965,6 +2088,9 @@ VALUES (6059, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6059, 0, 16784015);
 
+/* Weenie - Gems - Calling Stone (5084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5084;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5084, 'callingstone');
 
@@ -2009,6 +2135,9 @@ VALUES (5084, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5084, 0, 16779181);
+
+/* Weenie - Gems - Gem (2415) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2415;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2415, 'gemlapislazuli');
@@ -2056,6 +2185,9 @@ VALUES (2415, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2415, 0, 16779181);
 
+/* Weenie - Gems - Gem (2400) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2400;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2400, 'gemyellowgarnet');
 
@@ -2098,6 +2230,9 @@ VALUES (2400, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2400, 0, 16779181);
 
+/* Weenie - Gems - Gem (2428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2428;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2428, 'gemcarnelian');
 
@@ -2137,6 +2272,9 @@ VALUES (2428, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2428, 0, 16779181);
+
+/* Weenie - Gems - Gem (2417) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2417;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2417, 'gemsmokeyquartz');
@@ -2184,6 +2322,9 @@ VALUES (2417, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2417, 0, 16779181);
 
+/* Weenie - Gems - Gem (2402) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2402;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2402, 'gemblackopal');
 
@@ -2227,6 +2368,9 @@ VALUES (2402, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2402, 0, 16779181);
+
+/* Weenie - Gems - Gem (2408) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2408;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2408, 'gemwhitesapphire');
@@ -2272,6 +2416,9 @@ VALUES (2408, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2408, 0, 16779181);
 
+/* Weenie - Gems - Gem (2409) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2409;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2409, 'jeweldiamond');
 
@@ -2315,6 +2462,9 @@ VALUES (2409, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2409, 0, 16779181);
+
+/* Weenie - Gems - Gem (2410) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2410;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2410, 'jewelemerald');
@@ -2362,6 +2512,9 @@ VALUES (2410, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2410, 0, 16779181);
 
+/* Weenie - Gems - Golden Gromnie (9511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9511;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9511, 'dollrewardgoldgromnie');
 
@@ -2400,6 +2553,9 @@ VALUES (9511, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9511, 67116521, 0, 0);
+
+/* Weenie - Gems - Gem (2411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2411;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2411, 'jewelruby');
@@ -2445,6 +2601,9 @@ VALUES (2411, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2411, 0, 16779181);
 
+/* Weenie - Gems - Gem (2430) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2430;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2430, 'gemhematite');
 
@@ -2488,6 +2647,9 @@ VALUES (2430, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2430, 0, 16779181);
+
+/* Weenie - Gems - Gem (2429) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2429;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2429, 'gemcitrine');
@@ -2535,6 +2697,9 @@ VALUES (2429, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2429, 0, 16779181);
 
+/* Weenie - Gems - Gem (2393) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2393;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2393, 'gemamethyst');
 
@@ -2581,6 +2746,9 @@ VALUES (2393, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2393, 0, 16779181);
 
+/* Weenie - Gems - Gem (2404) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2404;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2404, 'gemimperialtopaz');
 
@@ -2620,6 +2788,9 @@ VALUES (2404, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2404, 0, 16779181);
+
+/* Weenie - Gems - Gem (2424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2424;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2424, 'gemperidot');
@@ -2667,6 +2838,9 @@ VALUES (2424, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2424, 0, 16779181);
 
+/* Weenie - Gems - Gem (2432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2432;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2432, 'gemonyx');
 
@@ -2710,6 +2884,9 @@ VALUES (2432, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2432, 0, 16779181);
+
+/* Weenie - Gems - Gem (2422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2422;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2422, 'gemgreengarnet');
@@ -2757,6 +2934,9 @@ VALUES (2422, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2422, 0, 16779181);
 
+/* Weenie - Gems - Token of Rare Damage Reduction V (52024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52024;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52024, 'ace52024-tokenofraredamagereductionv');
 
@@ -2793,6 +2973,9 @@ VALUES (52024, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52024, 0, 16787203);
+
+/* Weenie - Gems - Token of Rare Armor Damage Boost V (52022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52022;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52022, 'ace52022-tokenofrarearmordamageboostv');
@@ -2831,6 +3014,9 @@ VALUES (52022, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52022, 0, 16787203);
 
+/* Weenie - Gems - Token of the Aura of the World (49521) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49521;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49521, 'ace49521-tokenoftheauraoftheworld');
 
@@ -2867,6 +3053,9 @@ VALUES (49521, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49521, 0, 16787203);
+
+/* Weenie - Gems - Token of the Augmentation Gem (44105) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44105;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44105, 'ace44105-tokenoftheaugmentationgem');
@@ -2905,6 +3094,9 @@ VALUES (44105, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44105, 0, 16787203);
 
+/* Weenie - Gems - Token of the Draught of Revitalization (43471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43471;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43471, 'ace43471-tokenofthedraughtofrevitalization');
 
@@ -2941,6 +3133,9 @@ VALUES (43471, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43471, 0, 16787203);
+
+/* Weenie - Gems - Token of the Light Infused Healing Kit (43470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43470;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43470, 'ace43470-tokenofthelightinfusedhealingkit');
@@ -2979,6 +3174,9 @@ VALUES (43470, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43470, 0, 16787203);
 
+/* Weenie - Gems - Token of the Luminous Crystal of Vitality (43469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43469;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43469, 'ace43469-tokenoftheluminouscrystalofvitality');
 
@@ -3015,6 +3213,9 @@ VALUES (43469, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43469, 0, 16787203);
+
+/* Weenie - Gems - Token of the Luminous Pearl of Spirit Drinker (43468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43468;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43468, 'ace43468-tokenoftheluminouspearlofspiritdrinker');
@@ -3053,6 +3254,9 @@ VALUES (43468, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43468, 0, 16787203);
 
+/* Weenie - Gems - Token of the Luminous Pearl of Defending (43466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43466;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43466, 'ace43466-tokenoftheluminouspearlofdefending');
 
@@ -3089,6 +3293,9 @@ VALUES (43466, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43466, 0, 16787203);
+
+/* Weenie - Gems - Token of the Luminous Pearl of Heart Seeking  (43467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43467;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43467, 'ace43467-tokenoftheluminouspearlofheartseeking');
@@ -3127,6 +3334,9 @@ VALUES (43467, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43467, 0, 16787203);
 
+/* Weenie - Gems - Token of the Luminous Pearl of Blood Drinking (43463) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43463;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43463, 'ace43463-tokenoftheluminouspearlofblooddrinking');
 
@@ -3163,6 +3373,9 @@ VALUES (43463, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43463, 0, 16787203);
+
+/* Weenie - Gems - Token of the Luminous Crystal of Towering Defense (43465) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43465;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43465, 'ace43465-tokenoftheluminouscrystaloftoweringdefense');
@@ -3201,6 +3414,9 @@ VALUES (43465, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43465, 0, 16787203);
 
+/* Weenie - Gems - Token of the Luminous Crystal of Surging Strength (43464) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43464;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43464, 'ace43464-tokenoftheluminouscrystalofsurgingstrength');
 
@@ -3237,6 +3453,9 @@ VALUES (43464, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43464, 0, 16787203);
+
+/* Weenie - Gems - Token of Skill (43462) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43462;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43462, 'ace43462-tokenofskill');
@@ -3275,6 +3494,9 @@ VALUES (43462, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43462, 0, 16787203);
 
+/* Weenie - Gems - Token of the Aura of the Craftsman (43509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43509;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43509, 'ace43509-tokenoftheauraofthecraftsman');
 
@@ -3311,6 +3533,9 @@ VALUES (43509, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43509, 0, 16787203);
+
+/* Weenie - Gems - Token of the Aura of Mana Infusion (43502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43502;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43502, 'ace43502-tokenoftheauraofmanainfusion');
@@ -3349,6 +3574,9 @@ VALUES (43502, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43502, 0, 16787203);
 
+/* Weenie - Gems - Token of the Aura of Purity (43507) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43507;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43507, 'ace43507-tokenoftheauraofpurity');
 
@@ -3385,6 +3613,9 @@ VALUES (43507, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43507, 0, 16787203);
+
+/* Weenie - Gems - Token of the Aura of Valor (43500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43500;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43500, 'ace43500-tokenoftheauraofvalor');
@@ -3423,6 +3654,9 @@ VALUES (43500, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43500, 0, 16787203);
 
+/* Weenie - Gems - Token of the Aura of Protection (43501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43501;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43501, 'ace43501-tokenoftheauraofprotection');
 
@@ -3459,6 +3693,9 @@ VALUES (43501, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43501, 0, 16787203);
+
+/* Weenie - Gems - Token of the Aura of Mana Flow (43503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43503;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43503, 'ace43503-tokenoftheauraofmanaflow');
@@ -3497,6 +3734,9 @@ VALUES (43503, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43503, 0, 16787203);
 
+/* Weenie - Gems - Token of the Aura of Temperance (43499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43499;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43499, 'ace43499-tokenoftheauraoftemperance');
 
@@ -3533,6 +3773,9 @@ VALUES (43499, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43499, 0, 16787203);
+
+/* Weenie - Gems - Token of the Aura of Glory (43498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43498;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43498, 'ace43498-tokenoftheauraofglory');
@@ -3571,6 +3814,9 @@ VALUES (43498, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43498, 0, 16787203);
 
+/* Weenie - Gems - Token of the Aura of Aetheric Vision (43496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43496;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43496, 'ace43496-tokenoftheauraofaethericvision');
 
@@ -3607,6 +3853,9 @@ VALUES (43496, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43496, 0, 16787203);
+
+/* Weenie - Gems - Gem (2403) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2403;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2403, 'gemfireopal');
@@ -3654,6 +3903,9 @@ VALUES (2403, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2403, 0, 16779181);
 
+/* Weenie - Gems - Gem (2426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2426;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2426, 'gemamber');
 
@@ -3695,6 +3947,9 @@ VALUES (2426, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2426, 0, 16779181);
+
+/* Weenie - Gems - Gem (2414) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2414;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2414, 'gemazurite');
@@ -3740,6 +3995,9 @@ VALUES (2414, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2414, 0, 16779181);
 
+/* Weenie - Gems - Light Falatacot Token of the Aura of Invulnerability (43447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43447;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43447, 'ace43447-lightfalatacottokenoftheauraofinvulnerability');
 
@@ -3777,6 +4035,9 @@ VALUES (43447, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43447, 0, 16787203);
 
+/* Weenie - Gems - Light Falatacot Token of the Aura of Specialization Mastery (43523) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43523;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43523, 'ace43523-lightfalatacottokenoftheauraofspecializationmastery');
 
@@ -3813,6 +4074,9 @@ VALUES (43523, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43523, 0, 16787203);
+
+/* Weenie - Gems - Academy Token (12709) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12709;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12709, 'tokennewbieacademy');
@@ -3852,6 +4116,9 @@ VALUES (12709, 0, 83893723, 83893850)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12709, 0, 16787203);
+
+/* Weenie - Gems - Gem (2394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2394;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2394, 'gemblackgarnet');
@@ -3897,6 +4164,9 @@ VALUES (2394, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2394, 0, 16779181);
 
+/* Weenie - Gems - Gem (2427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2427;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2427, 'gembloodstone');
 
@@ -3941,6 +4211,9 @@ VALUES (2427, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2427, 0, 16779181);
 
+/* Weenie - Gems - Crystal of Fiery Elemental Essence (33959) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33959;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33959, 'ace33959-crystaloffieryelementalessence');
 
@@ -3981,6 +4254,9 @@ VALUES (33959, 0, 83889688, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33959, 0, 16783974);
+
+/* Weenie - Gems - Ancient Falatacot Trinket (34277) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34277;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34277, 'ace34277-ancientfalatacottrinket');
@@ -4027,6 +4303,9 @@ VALUES (34277, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34277, 0, 16778862);
 
+/* Weenie - Gems - Gem (2416) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2416;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2416, 'gemmalachite');
 
@@ -4071,6 +4350,9 @@ VALUES (2416, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2416, 0, 16779181);
 
+/* Weenie - Gems - Contract for Frozen Fury (44146) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44146;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44146, 'ace44146-contractforfrozenfury');
 
@@ -4108,6 +4390,9 @@ VALUES (44146, 13, True)
      , (44146, 14, True)
      , (44146, 19, True)
      , (44146, 22, True);
+
+/* Weenie - Gems - Gem (2419) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2419;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2419, 'gemturquoise');
@@ -4155,6 +4440,9 @@ VALUES (2419, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2419, 0, 16779181);
 
+/* Weenie - Gems - White Jewel (3698) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3698;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3698, 'virindijewelwhite');
 
@@ -4197,6 +4485,9 @@ VALUES (3698, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3698, 0, 16779181);
+
+/* Weenie - Gems - Gem (2397) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2397;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2397, 'gemredgarnet');
@@ -4244,6 +4535,9 @@ VALUES (2397, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2397, 0, 16779181);
 
+/* Weenie - Gems - A Virindi Signet (24128) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24128;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24128, 'virindisignet');
 
@@ -4272,6 +4566,9 @@ VALUES (24128, 13, True)
      , (24128, 14, True)
      , (24128, 19, True)
      , (24128, 22, True);
+
+/* Weenie - Gems - Pack Mosswart (9171) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9171;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9171, 'dollrewardmosswart');
@@ -4452,6 +4749,9 @@ VALUES (9171, 0, 16778165)
      , (9171, 15, 16778174)
      , (9171, 16, 16778172);
 
+/* Weenie - Gems - Pack Grievver (9176) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9176;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9176, 'dollrewardgrievver');
 
@@ -4603,6 +4903,9 @@ VALUES (9176, 0, 16784647)
      , (9176, 16, 16784650)
      , (9176, 17, 16784650);
 
+/* Weenie - Gems - Pack Drudge (9172) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9172;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9172, 'dollrewarddrudge');
 
@@ -4685,6 +4988,9 @@ VALUES (9172, 0, 16784255)
      , (9172, 15, 16784297)
      , (9172, 16, 16784297);
 
+/* Weenie - Gems - Pack Scarecrow (9177) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9177;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9177, 'dollrewardscarecrow');
 
@@ -4760,6 +5066,9 @@ VALUES (9177, 0, 16784901)
      , (9177, 11, 16784903)
      , (9177, 12, 16784926);
 
+/* Weenie - Gems - Pack Golem (9179) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9179;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9179, 'dollrewardgolem');
 
@@ -4794,6 +5103,9 @@ VALUES (9179, 13, True)
      , (9179, 14, True)
      , (9179, 19, True)
      , (9179, 22, True);
+
+/* Weenie - Gems - Pack Cow (9175) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9175;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9175, 'dollrewardcow');
@@ -4889,6 +5201,9 @@ VALUES (9175, 0, 16777333)
      , (9175, 19, 16777351)
      , (9175, 20, 16777355)
      , (9175, 21, 16777345);
+
+/* Weenie - Gems - Velveteen Olthoi (9170) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9170;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9170, 'dollrewardolthoi');
@@ -5110,6 +5425,9 @@ VALUES (9170, 0, 16777378)
      , (9170, 23, 16781702)
      , (9170, 24, 16781702);
 
+/* Weenie - Gems - Pack Lugian (9174) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9174;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9174, 'dollrewardlugian');
 
@@ -5274,6 +5592,9 @@ VALUES (9174, 1, 16777878)
      , (9174, 19, 16777871)
      , (9174, 20, 16777872);
 
+/* Weenie - Gems - Pack Virindi (9178) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9178;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9178, 'dollrewardvirindi');
 
@@ -5407,6 +5728,9 @@ VALUES (9178, 9, 16780702)
      , (9178, 10, 16780692)
      , (9178, 11, 16780692);
 
+/* Weenie - Gems - Pack Idol (9180) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9180;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9180, 'dollrewardidol');
 
@@ -5514,6 +5838,9 @@ VALUES (9180, 0, 16785366)
      , (9180, 5, 16777708)
      , (9180, 6, 16777708);
 
+/* Weenie - Gems - Dark Monolith Caverns (32939) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32939;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32939, 'ace32939-darkmonolithcaverns');
 
@@ -5566,6 +5893,9 @@ VALUES (32939, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32939, 0, 16779181);
 
+/* Weenie - Gems - Oswald's Crystal (30199) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30199;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30199, 'gemrarevolatiledagger');
 
@@ -5609,6 +5939,9 @@ VALUES (30199, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30199, 0, 16779181);
+
+/* Weenie - Gems - Plush Tusker (9169) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9169;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9169, 'dollrewardtusker');
@@ -5699,6 +6032,9 @@ VALUES (9169, 0, 16785059)
      , (9169, 23, 16785103)
      , (9169, 24, 16785103);
 
+/* Weenie - Gems - Pack Pumpkin Lord (32206) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32206;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32206, 'ace32206-packpumpkinlord');
 
@@ -5734,6 +6070,9 @@ VALUES (32206, 13, True)
      , (32206, 19, True)
      , (32206, 22, True);
 
+/* Weenie - Gems - Pack Aerbax (37515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37515;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37515, 'ace37515-packaerbax');
 
@@ -5767,6 +6106,9 @@ VALUES (37515, 13, True)
      , (37515, 14, True)
      , (37515, 19, True)
      , (37515, 22, True);
+
+/* Weenie - Gems - Sanamar Portal Gem (30268) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30268;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30268, 'gemportalsanamar');
@@ -5819,6 +6161,9 @@ VALUES (30268, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30268, 0, 16779181);
 
+/* Weenie - Gems - Rithwic Portal Gem (8979) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8979;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8979, 'gemportalrithwic');
 
@@ -5870,6 +6215,9 @@ VALUES (8979, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8979, 0, 16779181);
 
+/* Weenie - Gems - Alchemist's Crystal (30183) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30183;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30183, 'gemrarevolatilealchemy');
 
@@ -5918,6 +6266,9 @@ VALUES (30183, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30183, 0, 16779181);
 
+/* Weenie - Gems - Gem (2423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2423;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2423, 'gemopal');
 
@@ -5963,6 +6314,9 @@ VALUES (2423, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2423, 0, 16779181);
+
+/* Weenie - Gems - Dark Speck (6060) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6060;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6060, 'shardshadowspeck');
@@ -6011,6 +6365,9 @@ VALUES (6060, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6060, 0, 16784015);
 
+/* Weenie - Gems - Gem (2401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2401;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2401, 'gemzircon');
 
@@ -6053,6 +6410,9 @@ VALUES (2401, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2401, 0, 16779181);
 
+/* Weenie - Gems - Paradox-touched Olthoi Weapon Token (35890) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35890;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35890, 'ace35890-paradoxtouchedolthoiweapontoken');
 
@@ -6091,6 +6451,9 @@ VALUES (35890, 0, 83893723, 83893850)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35890, 0, 16787203);
+
+/* Weenie - Gems - Heart of Shadow (8778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8778;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8778, 'heartshadow');
@@ -6136,6 +6499,9 @@ VALUES (8778, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8778, 0, 16779181);
 
+/* Weenie - Gems - Obsidian Shard (10804) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10804;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10804, 'shardinquisitor');
 
@@ -6170,6 +6536,9 @@ VALUES (10804, 13, True)
      , (10804, 14, True)
      , (10804, 19, True)
      , (10804, 22, True);
+
+/* Weenie - Gems - Fragment of the Singularity (8779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8779;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8779, 'fragmentsingularity');
@@ -6215,6 +6584,9 @@ VALUES (8779, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8779, 0, 16779181);
 
+/* Weenie - Gems - Dark Singularity (8780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8780;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8780, 'singularitydark');
 
@@ -6259,6 +6631,9 @@ VALUES (8780, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8780, 0, 16779181);
 
+/* Weenie - Gems - Dark Crucible (8781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8781;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8781, 'crucibledark');
 
@@ -6301,6 +6676,9 @@ VALUES (8781, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8781, 0, 16779181);
+
+/* Weenie - Gems - Sepulcher of the Hopeslayer Portal Gem (8782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8782;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8782, 'gemportalhopeslayer');
@@ -6352,6 +6730,9 @@ VALUES (8782, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8782, 0, 16779181);
 
+/* Weenie - Gems - Gem of Harbinger's Lightning Barrier (36188) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36188;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36188, 'ace36188-gemofharbingerslightningbarrier');
 
@@ -6398,6 +6779,9 @@ VALUES (36188, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36188, 0, 16779181);
 
+/* Weenie - Gems - Invitation Ithaenc Cathedral (14915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14915;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14915, 'gemportalwedding3');
 
@@ -6439,6 +6823,9 @@ VALUES (14915, 13, True)
      , (14915, 19, True)
      , (14915, 22, True);
 
+/* Weenie - Gems - Invitation Plateau (14914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14914;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14914, 'gemportalwedding2');
 
@@ -6479,6 +6866,9 @@ VALUES (14914, 13, True)
      , (14914, 15, True)
      , (14914, 19, True)
      , (14914, 22, True);
+
+/* Weenie - Gems - Citadel Portal Gem (21391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21391;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21391, 'gemportalcitadel');
@@ -6529,6 +6919,9 @@ VALUES (21391, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21391, 0, 16779181);
 
+/* Weenie - Gems - Slice of Royal Wedding Cake (42707) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42707;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42707, 'ace42707-sliceofroyalweddingcake');
 
@@ -6571,6 +6964,9 @@ VALUES (42707, 0, 83888869, 83888869)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42707, 0, 16778864);
 
+/* Weenie - Gems - Frozen Fortress Testing Grounds Attunement Shard (Level 180+) (51370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51370;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51370, 'ace51370-frozenfortresstestinggroundsattunementshardlevel180');
 
@@ -6605,6 +7001,9 @@ VALUES (51370, 13, True)
      , (51370, 14, True)
      , (51370, 19, True)
      , (51370, 22, True);
+
+/* Weenie - Gems - Frozen Fortress Laboratory Attunement Shard (Level 180+) (51341) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51341;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51341, 'ace51341-frozenfortresslaboratoryattunementshardlevel180');
@@ -6641,6 +7040,9 @@ VALUES (51341, 13, True)
      , (51341, 19, True)
      , (51341, 22, True);
 
+/* Weenie - Gems - Gem of Knowledge (36510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36510;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36510, 'ace36510-gemofknowledge');
 
@@ -6673,6 +7075,9 @@ VALUES (36510, 13, True)
      , (36510, 11, True)
      , (36510, 14, True)
      , (36510, 19, True);
+
+/* Weenie - Gems - Pack T'thuun (39369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39369;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39369, 'ace39369-packtthuun');
@@ -6708,6 +7113,9 @@ VALUES (39369, 13, True)
      , (39369, 14, True)
      , (39369, 19, True)
      , (39369, 22, True);
+
+/* Weenie - Gems - Tremendous Monouga Pack Doll (25534) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25534;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25534, 'monougatremendouspackdoll');
@@ -6745,6 +7153,9 @@ VALUES (25534, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25534, 67111953, 0, 0);
 
+/* Weenie - Gems - Abominable Pack Snowman (34407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34407;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34407, 'ace34407-abominablepacksnowman');
 
@@ -6779,6 +7190,9 @@ VALUES (34407, 13, True)
      , (34407, 14, True)
      , (34407, 19, True)
      , (34407, 22, True);
+
+/* Weenie - Gems - Samsur Portal Gem (8980) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8980;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8980, 'gemportalsamsur');
@@ -6831,6 +7245,9 @@ VALUES (8980, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8980, 0, 16779181);
 
+/* Weenie - Gems - Xarabydun Portal Summoning Gem (26639) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26639;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26639, 'gemportalxarabydun');
 
@@ -6882,6 +7299,9 @@ VALUES (26639, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (26639, 0, 16779181);
 
+/* Weenie - Gems - Black Fire Atlan Stone (7469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7469;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7469, 'stoneblackfire');
 
@@ -6925,6 +7345,9 @@ VALUES (7469, 0, 83889688, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7469, 0, 16783974);
+
+/* Weenie - Gems - Celdiseth's Portal Gem (8974) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8974;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8974, 'gemportalceldiseth');
@@ -6977,6 +7400,9 @@ VALUES (8974, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8974, 0, 16779181);
 
+/* Weenie - Gems - Crystal Fragment (6623) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6623;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6623, 'shardcrystalfragment');
 
@@ -7020,6 +7446,9 @@ VALUES (6623, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6623, 0, 16779181);
+
+/* Weenie - Gems - Small Shard (6056) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6056;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6056, 'shardcrystalsmall');
@@ -7068,6 +7497,9 @@ VALUES (6056, 0, 83889680, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6056, 0, 16784015);
 
+/* Weenie - Gems - Shadow Fragment (6624) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6624;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6624, 'shardshadowfragment');
 
@@ -7111,6 +7543,9 @@ VALUES (6624, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6624, 0, 16779181);
+
+/* Weenie - Gems - Scholar's Crystal (30184) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30184;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30184, 'gemrarevolatilearcanelore');
@@ -7160,6 +7595,9 @@ VALUES (30184, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30184, 0, 16779181);
 
+/* Weenie - Gems - Corruptor's Crystal (43407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43407;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43407, 'ace43407-corruptorscrystal');
 
@@ -7204,6 +7642,9 @@ VALUES (43407, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43407, 0, 16779181);
 
+/* Weenie - Gems - Aetherium Ore (41540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41540;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41540, 'ace41540-aetheriumore');
 
@@ -7233,6 +7674,9 @@ VALUES (41540, 13, True)
      , (41540, 11, True)
      , (41540, 14, True)
      , (41540, 19, True);
+
+/* Weenie - Gems - Sparkling Apostate Shard (43207) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43207;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43207, 'ace43207-sparklingapostateshard');
@@ -7280,6 +7724,9 @@ VALUES (43207, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43207, 0, 16779181);
 
+/* Weenie - Gems - Scintillating Apostate Shard (43208) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43208;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43208, 'ace43208-scintillatingapostateshard');
 
@@ -7325,6 +7772,9 @@ VALUES (43208, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43208, 0, 16779181);
+
+/* Weenie - Gems - Shimmering Apostate Shard (43209) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43209;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43209, 'ace43209-shimmeringapostateshard');
@@ -7372,6 +7822,9 @@ VALUES (43209, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43209, 0, 16779181);
 
+/* Weenie - Gems - Blue Jewel (3696) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3696;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3696, 'virindijewelblue');
 
@@ -7415,6 +7868,9 @@ VALUES (3696, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3696, 0, 16779181);
 
+/* Weenie - Gems - Pack Scold (34406) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34406;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34406, 'ace34406-packscold');
 
@@ -7449,6 +7905,9 @@ VALUES (34406, 13, True)
      , (34406, 14, True)
      , (34406, 19, True)
      , (34406, 22, True);
+
+/* Weenie - Gems - Vissidal Island Portal Gem (32126) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32126;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32126, 'ace32126-vissidalislandportalgem');
@@ -7501,6 +7960,9 @@ VALUES (32126, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32126, 0, 16779181);
 
+/* Weenie - Gems - Thorsten's Crystal (30189) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30189;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30189, 'gemrarevolatileaxe');
 
@@ -7544,6 +8006,9 @@ VALUES (30189, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30189, 0, 16779181);
+
+/* Weenie - Gems - Thief's Crystal (30221) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30221;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30221, 'gemrarevolatilelockpick');
@@ -7589,6 +8054,9 @@ VALUES (30221, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30221, 0, 16779181);
 
+/* Weenie - Gems - Club of Surprising Cunning (51462) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51462;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51462, 'ace51462-clubofsurprisingcunning');
 
@@ -7624,6 +8092,9 @@ VALUES (51462, 13, True)
      , (51462, 14, True)
      , (51462, 19, True)
      , (51462, 22, True);
+
+/* Weenie - Gems - Lugian's Pearl (30240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30240;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30240, 'gemrarevolatilestrength');
@@ -7672,6 +8143,9 @@ VALUES (30240, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30240, 0, 16779181);
+
+/* Weenie - Gems - Abandoned Mines Portal Sending Gem (22824) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22824;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22824, 'gemportalabandonedmines');
@@ -7722,6 +8196,9 @@ VALUES (22824, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22824, 0, 16779181);
 
+/* Weenie - Gems - Pearl of Heart Seeking (30211) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30211;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30211, 'gemrarevolatileheartseeker');
 
@@ -7769,6 +8246,9 @@ VALUES (30211, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30211, 0, 16779181);
+
+/* Weenie - Gems - Observer's Crystal (30188) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30188;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30188, 'gemrarevolatileassessperson');
@@ -7818,6 +8298,9 @@ VALUES (30188, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30188, 0, 16779181);
 
+/* Weenie - Gems - Hunter's Crystal (30187) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30187;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30187, 'gemrarevolatileassesscreature');
 
@@ -7866,6 +8349,9 @@ VALUES (30187, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30187, 0, 16779181);
 
+/* Weenie - Gems - Gem of Purity (9192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9192;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9192, 'gemdispel');
 
@@ -7911,6 +8397,9 @@ VALUES (9192, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9192, 0, 16779181);
+
+/* Weenie - Gems - Gem of Cleansing (9191) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9191;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9191, 'gemdispellower');
@@ -7961,6 +8450,9 @@ VALUES (9191, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9191, 0, 16779181);
 
+/* Weenie - Gems - Gem of Balance (34291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34291;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34291, 'ace34291-gemofbalance');
 
@@ -8007,6 +8499,9 @@ VALUES (34291, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34291, 0, 16779181);
 
+/* Weenie - Gems - Blighted Sword (51517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51517;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51517, 'ace51517-blightedsword');
 
@@ -8042,6 +8537,9 @@ VALUES (51517, 13, True)
      , (51517, 14, True)
      , (51517, 19, True)
      , (51517, 22, True);
+
+/* Weenie - Gems - Blighted Spear (51526) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51526;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51526, 'ace51526-blightedspear');
@@ -8079,6 +8577,9 @@ VALUES (51526, 13, True)
      , (51526, 19, True)
      , (51526, 22, True);
 
+/* Weenie - Gems - Adjanite Mana Stone (27773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27773;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27773, 'manastoneadjanite');
 
@@ -8113,6 +8614,9 @@ VALUES (27773, 13, True)
      , (27773, 11, True)
      , (27773, 14, True)
      , (27773, 19, True);
+
+/* Weenie - Gems - Artificer's Crystal (30214) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30214;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30214, 'gemrarevolatileitemenchantment');
@@ -8161,6 +8665,9 @@ VALUES (30214, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30214, 0, 16779181);
+
+/* Weenie - Gems - Ahruenga Portal Gem (10974) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10974;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10974, 'gemportalahruenga-xp');
@@ -8213,6 +8720,9 @@ VALUES (10974, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10974, 0, 16779181);
 
+/* Weenie - Gems - Reinforced Falcon Banner with Symbol (51510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51510;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51510, 'ace51510-reinforcedfalconbannerwithsymbol');
 
@@ -8254,6 +8764,9 @@ VALUES (51510, 0, 83893725, 83893724)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51510, 0, 16787138);
+
+/* Weenie - Gems - Ground Chorizite (7534) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7534;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7534, 'choriziteground');
@@ -8297,6 +8810,9 @@ VALUES (7534, 0, 83890080, 83890080);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7534, 0, 16780681);
+
+/* Weenie - Gems - Gem of Stillness (9193) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9193;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9193, 'gemdispelhigh');
@@ -8347,6 +8863,9 @@ VALUES (9193, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9193, 0, 16779181);
 
+/* Weenie - Gems - Antiquated Compass (30812) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30812;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30812, 'gemportalcauloasis');
 
@@ -8385,6 +8904,9 @@ VALUES (30812, 13, True)
      , (30812, 15, True)
      , (30812, 19, True);
 
+/* Weenie - Gems - Blighted Two Handed Spear (51518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51518;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51518, 'ace51518-blightedtwohandedspear');
 
@@ -8421,6 +8943,9 @@ VALUES (51518, 13, True)
      , (51518, 19, True)
      , (51518, 22, True);
 
+/* Weenie - Gems - Armor Upgrade Kit (40443) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40443;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40443, 'ace40443-armorupgradekit');
 
@@ -8454,6 +8979,9 @@ VALUES (40443, 13, True)
      , (40443, 14, True)
      , (40443, 19, True)
      , (40443, 22, True);
+
+/* Weenie - Gems - North Gate Harmonic Crystal (37060) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37060;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37060, 'ace37060-northgateharmoniccrystal');
@@ -8499,6 +9027,9 @@ VALUES (37060, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37060, 0, 16779181);
 
+/* Weenie - Gems - Gem of Greater Luminance (44720) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44720;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44720, 'ace44720-gemofgreaterluminance');
 
@@ -8531,6 +9062,9 @@ VALUES (44720, 13, True)
      , (44720, 11, True)
      , (44720, 14, True)
      , (44720, 19, True);
+
+/* Weenie - Gems - Empowered Amber: Gauntlets of Life (53068) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53068;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53068, 'ace53068-empoweredambergauntletsoflife');
@@ -8577,6 +9111,9 @@ VALUES (53068, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53068, 0, 16779181);
 
+/* Weenie - Gems - Empowered Amber: Helm of Life (53071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53071;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53071, 'ace53071-empoweredamberhelmoflife');
 
@@ -8621,6 +9158,9 @@ VALUES (53071, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53071, 0, 16779181);
+
+/* Weenie - Gems - Empowered Amber: Tassets of Life (53074) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53074;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53074, 'ace53074-empoweredambertassetsoflife');
@@ -8667,6 +9207,9 @@ VALUES (53074, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53074, 0, 16779181);
 
+/* Weenie - Gems - Empowered Amber: Girth of Life (53069) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53069;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53069, 'ace53069-empoweredambergirthoflife');
 
@@ -8711,6 +9254,9 @@ VALUES (53069, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53069, 0, 16779181);
+
+/* Weenie - Gems - Empowered Amber: Pauldrons of Life (53072) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53072;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53072, 'ace53072-empoweredamberpauldronsoflife');
@@ -8757,6 +9303,9 @@ VALUES (53072, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53072, 0, 16779181);
 
+/* Weenie - Gems - Empowered Amber: Sollerets of Life (53073) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53073;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53073, 'ace53073-empoweredambersolleretsoflife');
 
@@ -8801,6 +9350,9 @@ VALUES (53073, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53073, 0, 16779181);
+
+/* Weenie - Gems - Empowered Amber: Greaves of Life (53070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53070;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53070, 'ace53070-empoweredambergreavesoflife');
@@ -8847,6 +9399,9 @@ VALUES (53070, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53070, 0, 16779181);
 
+/* Weenie - Gems - Empowered Amber: Breastplate of Life (53067) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53067;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53067, 'ace53067-empoweredamberbreastplateoflife');
 
@@ -8892,6 +9447,9 @@ VALUES (53067, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53067, 0, 16779181);
 
+/* Weenie - Gems - Empowered Amber: Bracers of Life (53066) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53066;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53066, 'ace53066-empoweredamberbracersoflife');
 
@@ -8936,6 +9494,9 @@ VALUES (53066, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53066, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber: Girth of the Bulwark (53298) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53298;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53298, 'ace53298-luminousambergirthofthebulwark');
@@ -8983,6 +9544,9 @@ VALUES (53298, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53298, 0, 16779181);
 
+/* Weenie - Gems - Corrupted Amber: Tassets of the Corrupted Soul. (53024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53024;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53024, 'ace53024-corruptedambertassetsofthecorruptedsoul');
 
@@ -9027,6 +9591,9 @@ VALUES (53024, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53024, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber: Greaves of the Tower (53295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53295;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53295, 'ace53295-luminousambergreavesofthetower');
@@ -9074,6 +9641,9 @@ VALUES (53295, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53295, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber: Sollerets of the Storm (53300) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53300;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53300, 'ace53300-luminousambersolleretsofthestorm');
 
@@ -9119,6 +9689,9 @@ VALUES (53300, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53300, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber: Breastplate of the Bulwark (53297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53297;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53297, 'ace53297-luminousamberbreastplateofthebulwark');
@@ -9166,6 +9739,9 @@ VALUES (53297, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53297, 0, 16779181);
 
+/* Weenie - Gems - Corrupted Amber: Bracers of the Corrupted Heart. (53016) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53016;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53016, 'ace53016-corruptedamberbracersofthecorruptedheart');
 
@@ -9210,6 +9786,9 @@ VALUES (53016, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53016, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber: Tassets of the Tower (53296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53296;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53296, 'ace53296-luminousambertassetsofthetower');
@@ -9257,6 +9836,9 @@ VALUES (53296, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53296, 0, 16779181);
 
+/* Weenie - Gems - Corrupted Amber: Gauntlets of the Corrupted Heart. (53017) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53017;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53017, 'ace53017-corruptedambergauntletsofthecorruptedheart');
 
@@ -9301,6 +9883,9 @@ VALUES (53017, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53017, 0, 16779181);
+
+/* Weenie - Gems - Corrupted Amber: Greaves of the Corrupted Soul. (53023) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53023;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53023, 'ace53023-corruptedambergreavesofthecorruptedsoul');
@@ -9347,6 +9932,9 @@ VALUES (53023, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53023, 0, 16779181);
 
+/* Weenie - Gems - Corrupted Amber: Breastplate of the Corrupted Soul. (53021) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53021;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53021, 'ace53021-corruptedamberbreastplateofthecorruptedsoul');
 
@@ -9391,6 +9979,9 @@ VALUES (53021, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53021, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber: Helm of Healing (53301) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53301;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53301, 'ace53301-luminousamberhelmofhealing');
@@ -9438,6 +10029,9 @@ VALUES (53301, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53301, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber: Bracers of Thunderous Blows (53293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53293;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53293, 'ace53293-luminousamberbracersofthunderousblows');
 
@@ -9484,6 +10078,9 @@ VALUES (53293, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53293, 0, 16779181);
 
+/* Weenie - Gems - Corrupted Amber: Girth of the Corrupted Soul. (53022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53022;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53022, 'ace53022-corruptedambergirthofthecorruptedsoul');
 
@@ -9528,6 +10125,9 @@ VALUES (53022, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53022, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber: Gauntlets of the Storm (53299) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53299;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53299, 'ace53299-luminousambergauntletsofthestorm');
@@ -9575,6 +10175,9 @@ VALUES (53299, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53299, 0, 16779181);
 
+/* Weenie - Gems - Corrupted Amber: Pauldrons of the Corrupted Heart. (53019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53019;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53019, 'ace53019-corruptedamberpauldronsofthecorruptedheart');
 
@@ -9620,6 +10223,9 @@ VALUES (53019, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53019, 0, 16779181);
 
+/* Weenie - Gems - Corrupted Amber: Weapon of the Corrupted Soul. (53453) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53453;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53453, 'ace53453-corruptedamberweaponofthecorruptedsoul');
 
@@ -9664,6 +10270,9 @@ VALUES (53453, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53453, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 2nd Tier Paragon (53146) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53146;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53146, 'ace53146-luminousamberofthe2ndtierparagon');
@@ -9712,6 +10321,9 @@ VALUES (53146, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53146, 0, 16779181);
 
+/* Weenie - Gems - Corrupted Amber: Sollerets of the Corrupted Heart. (53020) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53020;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53020, 'ace53020-corruptedambersolleretsofthecorruptedheart');
 
@@ -9756,6 +10368,9 @@ VALUES (53020, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53020, 0, 16779181);
+
+/* Weenie - Gems - Corrupted Amber: Weapon of the Corrupted Heart. (53452) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53452;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53452, 'ace53452-corruptedamberweaponofthecorruptedheart');
@@ -9802,6 +10417,9 @@ VALUES (53452, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53452, 0, 16779181);
 
+/* Weenie - Gems - Corrupted Amber: Helm of the Corrupted Heart. (53018) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53018;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53018, 'ace53018-corruptedamberhelmofthecorruptedheart');
 
@@ -9846,6 +10464,9 @@ VALUES (53018, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53018, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 11th Tier Paragon (53156) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53156;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53156, 'ace53156-luminousamberofthe11thtierparagon');
@@ -9894,6 +10515,9 @@ VALUES (53156, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53156, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber: Pauldrons of Thunderous Blows (53294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53294;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53294, 'ace53294-luminousamberpauldronsofthunderousblows');
 
@@ -9939,6 +10563,9 @@ VALUES (53294, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53294, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 16th Tier Paragon (53161) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53161;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53161, 'ace53161-luminousamberofthe16thtierparagon');
@@ -9987,6 +10614,9 @@ VALUES (53161, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53161, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 26th Tier Paragon (53171) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53171;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53171, 'ace53171-luminousamberofthe26thtierparagon');
 
@@ -10033,6 +10663,9 @@ VALUES (53171, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53171, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 8th Tier Paragon (53153) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53153;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53153, 'ace53153-luminousamberofthe8thtierparagon');
@@ -10081,6 +10714,9 @@ VALUES (53153, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53153, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 21st Tier Paragon (53166) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53166;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53166, 'ace53166-luminousamberofthe21sttierparagon');
 
@@ -10127,6 +10763,9 @@ VALUES (53166, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53166, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 13th Tier Paragon (53158) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53158;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53158, 'ace53158-luminousamberofthe13thtierparagon');
@@ -10175,6 +10814,9 @@ VALUES (53158, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53158, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 18th Tier Paragon (53163) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53163;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53163, 'ace53163-luminousamberofthe18thtierparagon');
 
@@ -10221,6 +10863,9 @@ VALUES (53163, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53163, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 14th Tier Paragon (53159) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53159;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53159, 'ace53159-luminousamberofthe14thtierparagon');
@@ -10269,6 +10914,9 @@ VALUES (53159, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53159, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 5th Tier Paragon (53150) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53150;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53150, 'ace53150-luminousamberofthe5thtierparagon');
 
@@ -10315,6 +10963,9 @@ VALUES (53150, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53150, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 24th Tier Paragon (53169) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53169;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53169, 'ace53169-luminousamberofthe24thtierparagon');
@@ -10363,6 +11014,9 @@ VALUES (53169, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53169, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 19th Tier Paragon (53164) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53164;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53164, 'ace53164-luminousamberofthe19thtierparagon');
 
@@ -10409,6 +11063,9 @@ VALUES (53164, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53164, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 10th Tier Paragon (53155) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53155;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53155, 'ace53155-luminousamberofthe10thtierparagon');
@@ -10457,6 +11114,9 @@ VALUES (53155, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53155, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 1st Tier Paragon (53145) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53145;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53145, 'ace53145-luminousamberofthe1sttierparagon');
 
@@ -10503,6 +11163,9 @@ VALUES (53145, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53145, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 15th Tier Paragon (53160) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53160;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53160, 'ace53160-luminousamberofthe15thtierparagon');
@@ -10551,6 +11214,9 @@ VALUES (53160, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53160, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 6th Tier Paragon (53151) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53151;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53151, 'ace53151-luminousamberofthe6thtierparagon');
 
@@ -10597,6 +11263,9 @@ VALUES (53151, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53151, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 23rd Tier Paragon (53168) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53168;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53168, 'ace53168-luminousamberofthe23rdtierparagon');
@@ -10645,6 +11314,9 @@ VALUES (53168, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53168, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 27th Tier Paragon (53172) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53172;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53172, 'ace53172-luminousamberofthe27thtierparagon');
 
@@ -10691,6 +11363,9 @@ VALUES (53172, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53172, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 7th Tier Paragon (53152) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53152;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53152, 'ace53152-luminousamberofthe7thtierparagon');
@@ -10739,6 +11414,9 @@ VALUES (53152, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53152, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 22nd Tier Paragon (53167) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53167;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53167, 'ace53167-luminousamberofthe22ndtierparagon');
 
@@ -10785,6 +11463,9 @@ VALUES (53167, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53167, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 12th Tier Paragon (53157) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53157;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53157, 'ace53157-luminousamberofthe12thtierparagon');
@@ -10833,6 +11514,9 @@ VALUES (53157, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53157, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 3rd Tier Paragon (53148) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53148;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53148, 'ace53148-luminousamberofthe3rdtierparagon');
 
@@ -10879,6 +11563,9 @@ VALUES (53148, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53148, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 17th Tier Paragon (53162) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53162;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53162, 'ace53162-luminousamberofthe17thtierparagon');
@@ -10927,6 +11614,9 @@ VALUES (53162, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53162, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 4th Tier Paragon (53149) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53149;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53149, 'ace53149-luminousamberofthe4thtierparagon');
 
@@ -10973,6 +11663,9 @@ VALUES (53149, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53149, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 25th Tier Paragon (53170) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53170;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53170, 'ace53170-luminousamberofthe25thtierparagon');
@@ -11021,6 +11714,9 @@ VALUES (53170, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53170, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 9th Tier Paragon (53154) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53154;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53154, 'ace53154-luminousamberofthe9thtierparagon');
 
@@ -11067,6 +11763,9 @@ VALUES (53154, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53154, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 20th Tier Paragon (53165) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53165;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53165, 'ace53165-luminousamberofthe20thtierparagon');
@@ -11115,6 +11814,9 @@ VALUES (53165, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53165, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 31st Tier Paragon (53176) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53176;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53176, 'ace53176-luminousamberofthe31sttierparagon');
 
@@ -11161,6 +11863,9 @@ VALUES (53176, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53176, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 45th Tier Paragon (53190) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53190;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53190, 'ace53190-luminousamberofthe45thtierparagon');
@@ -11209,6 +11914,9 @@ VALUES (53190, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53190, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 36th Tier Paragon (53181) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53181;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53181, 'ace53181-luminousamberofthe36thtierparagon');
 
@@ -11255,6 +11963,9 @@ VALUES (53181, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53181, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 47th Tier Paragon (53192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53192;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53192, 'ace53192-luminousamberofthe47thtierparagon');
@@ -11303,6 +12014,9 @@ VALUES (53192, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53192, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 41st Tier Paragon (53186) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53186;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53186, 'ace53186-luminousamberofthe41sttierparagon');
 
@@ -11349,6 +12063,9 @@ VALUES (53186, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53186, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 28th Tier Paragon (53173) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53173;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53173, 'ace53173-luminousamberofthe28thtierparagon');
@@ -11397,6 +12114,9 @@ VALUES (53173, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53173, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 33rd Tier Paragon (53178) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53178;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53178, 'ace53178-luminousamberofthe33rdtierparagon');
 
@@ -11443,6 +12163,9 @@ VALUES (53178, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53178, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 50th Tier Paragon (53195) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53195;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53195, 'ace53195-luminousamberofthe50thtierparagon');
@@ -11491,6 +12214,9 @@ VALUES (53195, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53195, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 38th Tier Paragon (53183) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53183;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53183, 'ace53183-luminousamberofthe38thtierparagon');
 
@@ -11537,6 +12263,9 @@ VALUES (53183, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53183, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 29th Tier Paragon (53174) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53174;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53174, 'ace53174-luminousamberofthe29thtierparagon');
@@ -11585,6 +12314,9 @@ VALUES (53174, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53174, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 43rd Tier Paragon (53188) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53188;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53188, 'ace53188-luminousamberofthe43rdtierparagon');
 
@@ -11631,6 +12363,9 @@ VALUES (53188, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53188, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 34th Tier Paragon (53179) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53179;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53179, 'ace53179-luminousamberofthe34thtierparagon');
@@ -11679,6 +12414,9 @@ VALUES (53179, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53179, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 49th Tier Paragon (53194) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53194;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53194, 'ace53194-luminousamberofthe49thtierparagon');
 
@@ -11725,6 +12463,9 @@ VALUES (53194, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53194, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 39th Tier Paragon (53184) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53184;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53184, 'ace53184-luminousamberofthe39thtierparagon');
@@ -11773,6 +12514,9 @@ VALUES (53184, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53184, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 30th Tier Paragon (53175) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53175;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53175, 'ace53175-luminousamberofthe30thtierparagon');
 
@@ -11819,6 +12563,9 @@ VALUES (53175, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53175, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 44th Tier Paragon (53189) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53189;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53189, 'ace53189-luminousamberofthe44thtierparagon');
@@ -11867,6 +12614,9 @@ VALUES (53189, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53189, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 35th Tier Paragon (53180) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53180;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53180, 'ace53180-luminousamberofthe35thtierparagon');
 
@@ -11913,6 +12663,9 @@ VALUES (53180, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53180, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 48th Tier Paragon (53193) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53193;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53193, 'ace53193-luminousamberofthe48thtierparagon');
@@ -11961,6 +12714,9 @@ VALUES (53193, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53193, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 40th Tier Paragon (53185) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53185;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53185, 'ace53185-luminousamberofthe40thtierparagon');
 
@@ -12007,6 +12763,9 @@ VALUES (53185, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53185, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 32nd Tier Paragon (53177) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53177;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53177, 'ace53177-luminousamberofthe32ndtierparagon');
@@ -12055,6 +12814,9 @@ VALUES (53177, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53177, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 46th Tier Paragon (53191) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53191;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53191, 'ace53191-luminousamberofthe46thtierparagon');
 
@@ -12101,6 +12863,9 @@ VALUES (53191, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53191, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber of the 37th Tier Paragon (53182) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53182;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53182, 'ace53182-luminousamberofthe37thtierparagon');
@@ -12149,6 +12914,9 @@ VALUES (53182, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53182, 0, 16779181);
 
+/* Weenie - Gems - Luminous Amber of the 42nd Tier Paragon (53187) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53187;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53187, 'ace53187-luminousamberofthe42ndtierparagon');
 
@@ -12196,6 +12964,9 @@ VALUES (53187, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53187, 0, 16779181);
 
+/* Weenie - Gems - Dericost Token of the Aura of Retribution (43424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43424;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43424, 'ace43424-dericosttokenoftheauraofretribution');
 
@@ -12233,6 +13004,9 @@ VALUES (43424, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43424, 0, 16787203);
 
+/* Weenie - Gems - Dericost Token of the Aura of Destruction (43426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43426;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43426, 'ace43426-dericosttokenoftheauraofdestruction');
 
@@ -12269,6 +13043,9 @@ VALUES (43426, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43426, 0, 16787203);
+
+/* Weenie - Gems - Fletcher's Crystal (30205) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30205;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30205, 'gemrarevolatilefletching');
@@ -12318,6 +13095,9 @@ VALUES (30205, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30205, 0, 16779181);
 
+/* Weenie - Gems - Deceiver's Crystal (30200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30200;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30200, 'gemrarevolatiledeception');
 
@@ -12366,6 +13146,9 @@ VALUES (30200, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30200, 0, 16779181);
 
+/* Weenie - Gems - Red Jewel (3697) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3697;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3697, 'virindijewelred');
 
@@ -12408,6 +13191,9 @@ VALUES (3697, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3697, 0, 16779181);
+
+/* Weenie - Gems - Enchanter's Crystal (30197) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30197;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30197, 'gemrarevolatilecreatureenchantment');
@@ -12457,6 +13243,9 @@ VALUES (30197, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30197, 0, 16779181);
 
+/* Weenie - Gems - Damaged Shadow Blade (51914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51914;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51914, 'ace51914-damagedshadowblade');
 
@@ -12501,6 +13290,9 @@ VALUES (51914, 0, 83897479, 83897479);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51914, 0, 16793032);
+
+/* Weenie - Gems - Dark Monolith Caverns (32940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32940;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32940, 'ace32940-darkmonolithcaverns');
@@ -12554,6 +13346,9 @@ VALUES (32940, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32940, 0, 16779181);
 
+/* Weenie - Gems - Summoning Gem of Enlightenment (49484) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49484;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49484, 'ace49484-summoninggemofenlightenment');
 
@@ -12586,6 +13381,9 @@ VALUES (49484, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (49484, 67111923, 0, 0);
+
+/* Weenie - Gems - Nalicana's Test (Level 200+) (45682) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45682;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45682, 'ace45682-nalicanastestlevel200');
@@ -12624,6 +13422,9 @@ VALUES (45682, 13, True)
      , (45682, 19, True)
      , (45682, 22, True);
 
+/* Weenie - Gems - Empyrean Spherule (36946) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36946;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36946, 'ace36946-empyreanspherule');
 
@@ -12655,6 +13456,9 @@ VALUES (36946, 13, True)
      , (36946, 14, True)
      , (36946, 19, True)
      , (36946, 22, True);
+
+/* Weenie - Gems - Cracked Shard (6055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6055;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6055, 'shardcrystalcracked');
@@ -12699,6 +13503,9 @@ VALUES (6055, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6055, 0, 16779181);
+
+/* Weenie - Gems - Dodger's Crystal (30229) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30229;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30229, 'gemrarevolatilemissiledefense');
@@ -12748,6 +13555,9 @@ VALUES (30229, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30229, 0, 16779181);
 
+/* Weenie - Gems - Major Prismatic Stone (20908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20908;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20908, 'stoneprismaticmajor');
 
@@ -12789,6 +13599,9 @@ VALUES (20908, 0, 83889688, 83892492);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20908, 0, 16783974);
+
+/* Weenie - Gems - Heart of the Innocent (24179) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24179;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24179, 'stoneheartmajor');
@@ -12832,6 +13645,9 @@ VALUES (24179, 0, 83889688, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24179, 0, 16783974);
+
+/* Weenie - Gems - Major Smoldering Stone (6124) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6124;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6124, 'stonesmolderingmajor');
@@ -12877,6 +13693,9 @@ VALUES (6124, 0, 83889688, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6124, 0, 16783974);
 
+/* Weenie - Gems - Major Stinging Stone (6126) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6126;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6126, 'stonestingingmajor');
 
@@ -12920,6 +13739,9 @@ VALUES (6126, 0, 83889688, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6126, 0, 16783974);
+
+/* Weenie - Gems - Cavernous Olthoi Chasm (30806) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30806;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30806, 'gemquestolthoichasm');
@@ -12972,6 +13794,9 @@ VALUES (30806, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30806, 0, 16779181);
 
+/* Weenie - Gems - Portal Gem to the Callous Heart (20019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20019;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20019, 'gemportalrewardskai');
 
@@ -13021,6 +13846,9 @@ VALUES (20019, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20019, 0, 16779181);
 
+/* Weenie - Gems - Asheron's Benediction (31001) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31001;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31001, 'gemactdpurchaserewardhealth');
 
@@ -13059,6 +13887,9 @@ VALUES (31001, 13, True)
      , (31001, 14, True)
      , (31001, 19, True)
      , (31001, 22, True);
+
+/* Weenie - Gems - Black Skull of Xikma (34042) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34042;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34042, 'ace34042-blackskullofxikma');
@@ -13103,6 +13934,9 @@ VALUES (34042, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34042, 0, 16779181);
+
+/* Weenie - Gems - Smithy's Crystal (30186) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30186;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30186, 'gemrarevolatilearmortinkering');
@@ -13152,6 +13986,9 @@ VALUES (30186, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30186, 0, 16779181);
 
+/* Weenie - Gems - Small Pale Crystal (9044) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9044;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9044, 'gemthaugirth');
 
@@ -13199,6 +14036,9 @@ VALUES (9044, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9044, 0, 16779181);
 
+/* Weenie - Gems - Large Pale Crystal (9043) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9043;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9043, 'gemthaucoat');
 
@@ -13245,6 +14085,9 @@ VALUES (9043, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9043, 0, 16779181);
+
+/* Weenie - Gems - Tipped Pack Cow (33965) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33965;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33965, 'ace33965-tippedpackcow');
@@ -13341,6 +14184,9 @@ VALUES (33965, 0, 16777333)
      , (33965, 20, 16777355)
      , (33965, 21, 16777345);
 
+/* Weenie - Gems - Al-Arqas Portal Gem (8973) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8973;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8973, 'gemportalalarqas');
 
@@ -13391,6 +14237,9 @@ VALUES (8973, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8973, 0, 16779181);
+
+/* Weenie - Gems - Holtburg Portal Gem (8976) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8976;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8976, 'gemportalholtburg');
@@ -13443,6 +14292,9 @@ VALUES (8976, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8976, 0, 16779181);
 
+/* Weenie - Gems - Lytelthorpe Portal Gem (8977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8977;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8977, 'gemportallytelthorpe');
 
@@ -13493,6 +14345,9 @@ VALUES (8977, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8977, 0, 16779181);
+
+/* Weenie - Gems - Shoushi Portal Gem (8981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8981;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8981, 'gemportalshoushi');
@@ -13545,6 +14400,9 @@ VALUES (8981, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8981, 0, 16779181);
 
+/* Weenie - Gems - Yanshi Portal Gem (8983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8983;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8983, 'gemportalyanshi');
 
@@ -13595,6 +14453,9 @@ VALUES (8983, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8983, 0, 16779181);
+
+/* Weenie - Gems - Yaraq Portal Gem (8984) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8984;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8984, 'gemportalyaraq');
@@ -13647,6 +14508,9 @@ VALUES (8984, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8984, 0, 16779181);
 
+/* Weenie - Gems - Eldrytch Web Stronghold Portal Gem (38724) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38724;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38724, 'ace38724-eldrytchwebstrongholdportalgem');
 
@@ -13697,6 +14561,9 @@ VALUES (38724, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38724, 0, 16779181);
 
+/* Weenie - Gems - Assassin's Recall Gem (40575) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40575;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40575, 'ace40575-assassinsrecallgem');
 
@@ -13744,6 +14611,9 @@ VALUES (40575, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40575, 0, 16779181);
 
+/* Weenie - Gems - Deck of Eyes (37262) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37262;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37262, 'ace37262-deckofeyes');
 
@@ -13785,6 +14655,9 @@ VALUES (37262, 13, True)
      , (37262, 19, True)
      , (37262, 22, True);
 
+/* Weenie - Gems - Deck of Hands (37261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37261;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37261, 'ace37261-deckofhands');
 
@@ -13825,6 +14698,9 @@ VALUES (37261, 13, True)
      , (37261, 14, True)
      , (37261, 19, True)
      , (37261, 22, True);
+
+/* Weenie - Gems - Spectral Crystal of the Life Giver (36708) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36708;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36708, 'ace36708-spectralcrystalofthelifegiver');
@@ -13871,6 +14747,9 @@ VALUES (36708, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36708, 0, 16779181);
 
+/* Weenie - Gems - Spectral Crystal of the Corruptor (43408) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43408;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43408, 'ace43408-spectralcrystalofthecorruptor');
 
@@ -13915,6 +14794,9 @@ VALUES (43408, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43408, 0, 16779181);
+
+/* Weenie - Gems - Spirit of Izexi Gem (47055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47055;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47055, 'ace47055-spiritofizexigem');
@@ -13961,6 +14843,9 @@ VALUES (47055, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47055, 0, 16779181);
+
+/* Weenie - Gems - Virindi Inquisitor Essence (41456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41456;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41456, 'ace41456-virindiinquisitoressence');
@@ -14012,6 +14897,9 @@ VALUES (41456, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41456, 0, 16779181);
 
+/* Weenie - Gems - Virindi Consul Essence (41457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41457;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41457, 'ace41457-virindiconsulessence');
 
@@ -14062,6 +14950,9 @@ VALUES (41457, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41457, 0, 16779181);
 
+/* Weenie - Gems - Crystal of Spectral Blood (40344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40344;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40344, 'ace40344-crystalofspectralblood');
 
@@ -14098,6 +14989,9 @@ VALUES (40344, 13, True)
      , (40344, 14, True)
      , (40344, 19, True)
      , (40344, 22, True);
+
+/* Weenie - Gems - Society Gem of Dispelling (38727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38727;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38727, 'ace38727-societygemofdispelling');
@@ -14148,6 +15042,9 @@ VALUES (38727, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38727, 0, 16779181);
 
+/* Weenie - Gems - Reeshan's Hide (29569) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29569;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29569, 'hidereeshan');
 
@@ -14192,6 +15089,9 @@ VALUES (29569, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29569, 0, 16777882);
 
+/* Weenie - Gems - Skull of One Thousand Torments (40340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40340;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40340, 'ace40340-skullofonethousandtorments');
 
@@ -14228,6 +15128,9 @@ VALUES (40340, 13, True)
      , (40340, 14, True)
      , (40340, 19, True)
      , (40340, 22, True);
+
+/* Weenie - Gems - Kiree's Hide (29564) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29564;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29564, 'hidekiree');
@@ -14273,6 +15176,9 @@ VALUES (29564, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29564, 0, 16777882);
 
+/* Weenie - Gems - Armor Tailoring Kit (41956) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41956;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41956, 'ace41956-armortailoringkit');
 
@@ -14306,6 +15212,9 @@ VALUES (41956, 13, True)
      , (41956, 14, True)
      , (41956, 19, True);
 
+/* Weenie - Gems - Weapon Tailoring Kit (51445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51445;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51445, 'ace51445-weapontailoringkit');
 
@@ -14338,6 +15247,9 @@ VALUES (51445, 13, True)
      , (51445, 11, True)
      , (51445, 14, True)
      , (51445, 19, True);
+
+/* Weenie - Gems - Olthoi Sword (51456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51456;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51456, 'ace51456-olthoisword');
@@ -14389,6 +15301,9 @@ VALUES (51456, 0, 83886174, 83886174)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51456, 0, 16784513);
 
+/* Weenie - Gems - Major Shivering Stone (6123) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6123;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6123, 'stoneshiveringmajor');
 
@@ -14432,6 +15347,9 @@ VALUES (6123, 0, 83889688, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6123, 0, 16783974);
+
+/* Weenie - Gems - Major Sparking Stone (6125) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6125;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6125, 'stonesparkingmajor');
@@ -14477,6 +15395,9 @@ VALUES (6125, 0, 83889688, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6125, 0, 16783974);
 
+/* Weenie - Gems - Minor Shivering Stone (6321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6321;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6321, 'stoneshiveringminor');
 
@@ -14521,6 +15442,9 @@ VALUES (6321, 0, 83889688, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6321, 0, 16783974);
 
+/* Weenie - Gems - Sneak Attack Gem of Forgetfulness (45379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45379;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45379, 'ace45379-sneakattackgemofforgetfulness');
 
@@ -14553,6 +15477,9 @@ VALUES (45379, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45379, 67111924, 0, 0);
+
+/* Weenie - Gems - Shield Gem of Enlightenment (45383) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45383;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45383, 'ace45383-shieldgemofenlightenment');
@@ -14587,6 +15514,9 @@ VALUES (45383, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45383, 67111923, 0, 0);
 
+/* Weenie - Gems - Melee Defense Gem of Enlightenment (22374) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22374;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22374, 'skillgemupmeleedefense');
 
@@ -14619,6 +15549,9 @@ VALUES (22374, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22374, 67111923, 0, 0);
+
+/* Weenie - Gems - Magic Defense Gem of Enlightenment (22371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22371;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22371, 'skillgemupmagicdefense');
@@ -14653,6 +15586,9 @@ VALUES (22371, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22371, 67111923, 0, 0);
 
+/* Weenie - Gems - Finesse Weapons Gem of Enlightenment (22359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22359;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22359, 'skillgemupdagger');
 
@@ -14685,6 +15621,9 @@ VALUES (22359, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22359, 67111923, 0, 0);
+
+/* Weenie - Gems - Dual Wield Gem of Enlightenment (45381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45381;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45381, 'ace45381-dualwieldgemofenlightenment');
@@ -14719,6 +15658,9 @@ VALUES (45381, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45381, 67111923, 0, 0);
 
+/* Weenie - Gems - Healing Gem of Enlightenment (22362) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22362;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22362, 'skillgemuphealing');
 
@@ -14751,6 +15693,9 @@ VALUES (22362, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22362, 67111923, 0, 0);
+
+/* Weenie - Gems - Arcane Lore Gem of Enlightenment (22351) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22351;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22351, 'skillgemuparcanelore');
@@ -14785,6 +15730,9 @@ VALUES (22351, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22351, 67111923, 0, 0);
 
+/* Weenie - Gems - Assess Creature Gem of Enlightenment (22356) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22356;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22356, 'skillgemupcreatureappraisal');
 
@@ -14818,6 +15766,9 @@ VALUES (22356, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22356, 67111923, 0, 0);
 
+/* Weenie - Gems - Deception Gem of Enlightenment (22360) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22360;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22360, 'skillgemupdeception');
 
@@ -14850,6 +15801,9 @@ VALUES (22360, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22360, 67111923, 0, 0);
+
+/* Weenie - Gems - Sezzherei's Lair (30857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30857;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30857, 'gemportalboss0205');
@@ -14901,6 +15855,9 @@ VALUES (30857, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30857, 0, 16779181);
 
+/* Weenie - Gems - Warrior's Crystal (45367) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45367;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45367, 'ace45367-warriorscrystal');
 
@@ -14949,6 +15906,9 @@ VALUES (45367, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45367, 0, 16779181);
 
+/* Weenie - Gems - Chef's Crystal (30195) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30195;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30195, 'gemrarevolatilecooking');
 
@@ -14992,6 +15952,9 @@ VALUES (30195, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30195, 0, 16779181);
+
+/* Weenie - Gems - Physician's Crystal (30209) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30209;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30209, 'gemrarevolatilehealing');
@@ -15041,6 +16004,9 @@ VALUES (30209, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30209, 0, 16779181);
 
+/* Weenie - Gems - Brawler's Crystal (45366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45366;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45366, 'ace45366-brawlerscrystal');
 
@@ -15088,6 +16054,9 @@ VALUES (45366, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45366, 0, 16779181);
+
+/* Weenie - Gems - Decorative Bronze Statue  (19241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19241;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19241, 'housestatuethorsten');
@@ -15174,6 +16143,9 @@ VALUES (19241, 9, 16781837)
      , (19241, 15, 16777335)
      , (19241, 16, 16778313);
 
+/* Weenie - Gems - Aetherium Power Core (41528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41528;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41528, 'ace41528-aetheriumpowercore');
 
@@ -15203,6 +16175,9 @@ VALUES (41528, 13, True)
      , (41528, 11, True)
      , (41528, 14, True)
      , (41528, 19, True);
+
+/* Weenie - Gems - Habitat Portal Gem (10975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10975;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10975, 'gemportalhabitat-xp');
@@ -15255,6 +16230,9 @@ VALUES (10975, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10975, 0, 16779181);
 
+/* Weenie - Gems - Gem of Impulse (8213) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8213;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8213, 'gemimpulse');
 
@@ -15295,6 +16273,9 @@ VALUES (8213, 13, True)
      , (8213, 19, True)
      , (8213, 22, True);
 
+/* Weenie - Gems - Rithwic Town Stamp (8738) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8738;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8738, 'stamprithwicnewbiequest');
 
@@ -15331,6 +16312,9 @@ VALUES (8738, 13, True)
      , (8738, 14, True)
      , (8738, 19, True)
      , (8738, 22, True);
+
+/* Weenie - Gems - Platinum Horn of Leadership (41442) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41442;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41442, 'ace41442-platinumhornofleadership');
@@ -15371,6 +16355,9 @@ VALUES (41442, 13, True)
      , (41442, 14, True)
      , (41442, 19, True)
      , (41442, 22, True);
+
+/* Weenie - Gems - Celestial Hand Stronghold Portal Gem (38723) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38723;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38723, 'ace38723-celestialhandstrongholdportalgem');
@@ -15422,6 +16409,9 @@ VALUES (38723, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38723, 0, 16779181);
 
+/* Weenie - Gems - Plated Shard (23852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23852;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23852, 'shardbludgeon');
 
@@ -15455,6 +16445,9 @@ VALUES (23852, 13, True)
      , (23852, 14, True)
      , (23852, 19, True)
      , (23852, 22, True);
+
+/* Weenie - Gems - Enchanted Mana Stone (42490) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42490;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42490, 'ace42490-enchantedmanastone');
@@ -15493,6 +16486,9 @@ VALUES (42490, 13, True)
      , (42490, 19, True)
      , (42490, 22, True);
 
+/* Weenie - Gems - Strange Jewel (41945) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41945;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41945, 'ace41945-strangejewel');
 
@@ -15530,6 +16526,9 @@ VALUES (41945, 13, True)
      , (41945, 19, True)
      , (41945, 22, True);
 
+/* Weenie - Gems - Leadership Gem of Forgetfulness (22331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22331;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22331, 'skillgemdownleadership');
 
@@ -15562,6 +16561,9 @@ VALUES (22331, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22331, 67111924, 0, 0);
+
+/* Weenie - Gems - Silyun Portal Gem (30046) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30046;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30046, 'gemportalsilyun');
@@ -15614,6 +16616,9 @@ VALUES (30046, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30046, 0, 16779181);
 
+/* Weenie - Gems - Knorr Portal Gem (23991) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23991;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23991, 'gemportalknorr');
 
@@ -15663,6 +16668,9 @@ VALUES (23991, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23991, 0, 16779181);
 
+/* Weenie - Gems - Black Market Gem of Dispelling (38726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38726;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38726, 'ace38726-blackmarketgemofdispelling');
 
@@ -15711,6 +16719,9 @@ VALUES (38726, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38726, 0, 16779181);
+
+/* Weenie - Gems - Golden Gromnie (23928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23928;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23928, 'dollrewardgoldgromnie-ulgrim');
@@ -15960,6 +16971,9 @@ VALUES (23928, 0, 16778043)
      , (23928, 19, 16778044)
      , (23928, 20, 16778044);
 
+/* Weenie - Gems - Fadsahil's Portal Gem (8975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8975;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8975, 'gemportalfadsahil');
 
@@ -16011,6 +17025,9 @@ VALUES (8975, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8975, 0, 16779181);
 
+/* Weenie - Gems - Gem of Knowledge (43185) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43185;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43185, 'ace43185-gemofknowledge');
 
@@ -16043,6 +17060,9 @@ VALUES (43185, 13, True)
      , (43185, 11, True)
      , (43185, 14, True)
      , (43185, 19, True);
+
+/* Weenie - Gems - Drudge Fight (27390) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27390;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27390, 'gemquestfightdrudge');
@@ -16096,6 +17116,9 @@ VALUES (27390, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27390, 0, 16779181);
 
+/* Weenie - Gems - Evader's Crystal (30228) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30228;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30228, 'gemrarevolatilemeleedefense');
 
@@ -16144,6 +17167,9 @@ VALUES (30228, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30228, 0, 16779181);
 
+/* Weenie - Gems - Vaulter's Crystal (30216) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30216;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30216, 'gemrarevolatilejump');
 
@@ -16188,6 +17214,9 @@ VALUES (30216, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30216, 0, 16779181);
 
+/* Weenie - Gems - T'ing's Crystal (41257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41257;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41257, 'ace41257-tingscrystal');
 
@@ -16230,6 +17259,9 @@ VALUES (41257, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41257, 0, 16779181);
+
+/* Weenie - Gems - Pearl of Acid Baning (30181) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30181;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30181, 'gemrarevolatileacidbane');
@@ -16279,6 +17311,9 @@ VALUES (30181, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30181, 0, 16779181);
 
+/* Weenie - Gems - Thorsten's Crystal (30236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30236;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30236, 'gemrarevolatilespear');
 
@@ -16322,6 +17357,9 @@ VALUES (30236, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30236, 0, 16779181);
+
+/* Weenie - Gems - Pearl of Frost Baning (30207) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30207;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30207, 'gemrarevolatilefrostbane');
@@ -16371,6 +17409,9 @@ VALUES (30207, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30207, 0, 16779181);
 
+/* Weenie - Gems - Berzerker's Crystal (45368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45368;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45368, 'ace45368-berzerkerscrystal');
 
@@ -16419,6 +17460,9 @@ VALUES (45368, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45368, 0, 16779181);
 
+/* Weenie - Gems - Adherent's Crystal (30222) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30222;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30222, 'gemrarevolatileloyalty');
 
@@ -16463,6 +17507,9 @@ VALUES (30222, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30222, 0, 16779181);
 
+/* Weenie - Gems - Gem of Perfect Speed (29558) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29558;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29558, 'gemnoblequickness');
 
@@ -16506,6 +17553,9 @@ VALUES (29558, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29558, 0, 16779181);
+
+/* Weenie - Gems - Resister's Crystal (30224) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30224;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30224, 'gemrarevolatilemagicdefense');
@@ -16555,6 +17605,9 @@ VALUES (30224, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30224, 0, 16779181);
 
+/* Weenie - Gems - Minor Stinging Stone (6319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6319;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6319, 'stonestingingminor');
 
@@ -16598,6 +17651,9 @@ VALUES (6319, 0, 83889688, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6319, 0, 16783974);
+
+/* Weenie - Gems - Minor Smoldering Stone (6320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6320;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6320, 'stonesmolderingminor');
@@ -16643,6 +17699,9 @@ VALUES (6320, 0, 83889688, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6320, 0, 16783974);
 
+/* Weenie - Gems - Chilled Shard (23854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23854;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23854, 'shardfrost');
 
@@ -16676,6 +17735,9 @@ VALUES (23854, 13, True)
      , (23854, 14, True)
      , (23854, 19, True)
      , (23854, 22, True);
+
+/* Weenie - Gems - Solid Shard (23851) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23851;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23851, 'shardblade');
@@ -16711,6 +17773,9 @@ VALUES (23851, 13, True)
      , (23851, 19, True)
      , (23851, 22, True);
 
+/* Weenie - Gems - Charged Shard (23855) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23855;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23855, 'shardlightning');
 
@@ -16745,6 +17810,9 @@ VALUES (23855, 13, True)
      , (23855, 19, True)
      , (23855, 22, True);
 
+/* Weenie - Gems - Spire Key Chunk - Cragstone (6815) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6815;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6815, 'keyspirepiececragstone');
 
@@ -16778,6 +17846,9 @@ VALUES (6815, 13, True)
      , (6815, 14, True)
      , (6815, 19, True)
      , (6815, 22, True);
+
+/* Weenie - Gems - Elysa's Crystal (30243) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30243;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30243, 'gemrarevolatilethrownweapons');
@@ -16823,6 +17894,9 @@ VALUES (30243, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30243, 0, 16779181);
 
+/* Weenie - Gems - Shoushi Town Stamp (8740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8740;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8740, 'stampshoushinewbiequest');
 
@@ -16859,6 +17933,9 @@ VALUES (8740, 13, True)
      , (8740, 14, True)
      , (8740, 19, True)
      , (8740, 22, True);
+
+/* Weenie - Gems - Bloodied Burun Hide (28984) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28984;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28984, 'burunhide');
@@ -16902,6 +17979,9 @@ VALUES (28984, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28984, 0, 16777882);
+
+/* Weenie - Gems - Pearl of Lightning Baning (30219) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30219;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30219, 'gemrarevolatilelightningbane');
@@ -16951,6 +18031,9 @@ VALUES (30219, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30219, 0, 16779181);
 
+/* Weenie - Gems - Thorsten's Crystal (30223) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30223;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30223, 'gemrarevolatilemace');
 
@@ -16995,6 +18078,9 @@ VALUES (30223, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30223, 0, 16779181);
 
+/* Weenie - Gems - Invitation to the Battle Burrows (37088) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37088;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37088, 'ace37088-invitationtothebattleburrows');
 
@@ -17030,6 +18116,9 @@ VALUES (37088, 13, True)
      , (37088, 15, True)
      , (37088, 19, True);
 
+/* Weenie - Gems - Fletching Gem of Enlightenment (22361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22361;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22361, 'skillgemupfletching');
 
@@ -17062,6 +18151,9 @@ VALUES (22361, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22361, 67111923, 0, 0);
+
+/* Weenie - Gems - Gem of Greater Fire Protection (24822) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24822;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24822, 'gemfirepro6');
@@ -17108,6 +18200,9 @@ VALUES (24822, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24822, 0, 16779181);
 
+/* Weenie - Gems - Gem of Greater Lightning Protection (24823) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24823;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24823, 'gemlightningpro6');
 
@@ -17152,6 +18247,9 @@ VALUES (24823, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24823, 0, 16779181);
+
+/* Weenie - Gems - Gem of Greater Blade Protection (24819) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24819;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24819, 'gembladepro6');
@@ -17198,6 +18296,9 @@ VALUES (24819, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24819, 0, 16779181);
 
+/* Weenie - Gems - Gem of Greater Piercing Protection (24825) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24825;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24825, 'gempiercepro6');
 
@@ -17242,6 +18343,9 @@ VALUES (24825, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24825, 0, 16779181);
+
+/* Weenie - Gems - Gem of Greater Protection (24818) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24818;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24818, 'gemarmorpro6');
@@ -17288,6 +18392,9 @@ VALUES (24818, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24818, 0, 16779181);
 
+/* Weenie - Gems - Gem of Greater Rejuvenation (24827) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24827;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24827, 'gemrejuvenation6');
 
@@ -17332,6 +18439,9 @@ VALUES (24827, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24827, 0, 16779181);
+
+/* Weenie - Gems - Gem of Greater Acid Protection (24817) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24817;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24817, 'gemacidpro6');
@@ -17378,6 +18488,9 @@ VALUES (24817, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24817, 0, 16779181);
 
+/* Weenie - Gems - Gem of Greater Regeneration (24826) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24826;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24826, 'gemregeneration6');
 
@@ -17422,6 +18535,9 @@ VALUES (24826, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24826, 0, 16779181);
+
+/* Weenie - Gems - Gem of Greater Bludgeon Protection (24820) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24820;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24820, 'gembludgeonpro6');
@@ -17468,6 +18584,9 @@ VALUES (24820, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24820, 0, 16779181);
 
+/* Weenie - Gems - Gem of Greater Cold Protection (24821) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24821;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24821, 'gemcoldpro6');
 
@@ -17513,6 +18632,9 @@ VALUES (24821, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24821, 0, 16779181);
 
+/* Weenie - Gems - Invitation to Master Fletchers (44074) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44074;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44074, 'ace44074-invitationtomasterfletchers');
 
@@ -17553,6 +18675,9 @@ VALUES (44074, 13, True)
      , (44074, 14, True)
      , (44074, 19, True);
 
+/* Weenie - Gems - Hardened Shard (23856) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23856;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23856, 'shardpiercing');
 
@@ -17586,6 +18711,9 @@ VALUES (23856, 13, True)
      , (23856, 14, True)
      , (23856, 19, True)
      , (23856, 22, True);
+
+/* Weenie - Gems - Seared Shard (23853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23853;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23853, 'shardflame');
@@ -17621,6 +18749,9 @@ VALUES (23853, 13, True)
      , (23853, 19, True)
      , (23853, 22, True);
 
+/* Weenie - Gems - Scored Shard (23849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23849;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23849, 'shardacid');
 
@@ -17655,6 +18786,9 @@ VALUES (23849, 13, True)
      , (23849, 19, True)
      , (23849, 22, True);
 
+/* Weenie - Gems - Brilliant Shard (23850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23850;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23850, 'shardarmor');
 
@@ -17688,6 +18822,9 @@ VALUES (23850, 13, True)
      , (23850, 14, True)
      , (23850, 19, True)
      , (23850, 22, True);
+
+/* Weenie - Gems - Sickly Wisp Heart (8668) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8668;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8668, 'wispheartlow');
@@ -17735,6 +18872,9 @@ VALUES (8668, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8668, 0, 16779181);
 
+/* Weenie - Gems - Idol Gem (8425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8425;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8425, 'gemidol');
 
@@ -17778,6 +18918,9 @@ VALUES (8425, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8425, 0, 16779181);
+
+/* Weenie - Gems - Glowing Wisp Heart (8667) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8667;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8667, 'wisphearthigh');
@@ -17825,6 +18968,9 @@ VALUES (8667, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8667, 0, 16779181);
 
+/* Weenie - Gems - Small Olthoi Grub (24269) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24269;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24269, 'olthoigrubsmall');
 
@@ -17861,6 +19007,9 @@ VALUES (24269, 13, True)
      , (24269, 14, True)
      , (24269, 19, True)
      , (24269, 22, True);
+
+/* Weenie - Gems - Sparkling Gem (6622) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6622;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6622, 'gemsparkling');
@@ -17909,6 +19058,9 @@ VALUES (6622, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6622, 0, 16779181);
 
+/* Weenie - Gems - Scintillating Gem (6621) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6621;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6621, 'gemscintillating');
 
@@ -17954,6 +19106,9 @@ VALUES (6621, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6621, 0, 16779181);
+
+/* Weenie - Gems - Tiny Shard (6057) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6057;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6057, 'shardcrystaltiny');
@@ -18001,6 +19156,9 @@ VALUES (6057, 0, 83889680, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6057, 0, 16784015);
+
+/* Weenie - Gems - Rare Red Pack Idol (32793) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32793;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32793, 'ace32793-rareredpackidol');
@@ -18056,6 +19214,9 @@ VALUES (32793, 0, 16785366)
      , (32793, 5, 16777708)
      , (32793, 6, 16777708);
 
+/* Weenie - Gems - Rare Pink Pack Idol (32794) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32794;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32794, 'ace32794-rarepinkpackidol');
 
@@ -18110,6 +19271,9 @@ VALUES (32794, 0, 16785366)
      , (32794, 5, 16777708)
      , (32794, 6, 16777708);
 
+/* Weenie - Gems - Magus's Pearl (30206) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30206;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30206, 'gemrarevolatilefocus');
 
@@ -18158,6 +19322,9 @@ VALUES (30206, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30206, 0, 16779181);
 
+/* Weenie - Gems - Gem of Perfect Balance (29552) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29552;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29552, 'gemnoblecoordination');
 
@@ -18201,6 +19368,9 @@ VALUES (29552, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29552, 0, 16779181);
+
+/* Weenie - Gems - Gem of Inner Will (29559) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29559;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29559, 'gemnobleself');
@@ -18246,6 +19416,9 @@ VALUES (29559, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29559, 0, 16779181);
 
+/* Weenie - Gems - Contract for Kill: Rynthid Sorcerers (51874) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51874;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51874, 'ace51874-contractforkillrynthidsorcerers');
 
@@ -18283,6 +19456,9 @@ VALUES (51874, 13, True)
      , (51874, 14, True)
      , (51874, 19, True)
      , (51874, 22, True);
+
+/* Weenie - Gems - Contract for Kill: Rynthid Rare Boss (51871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51871;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51871, 'ace51871-contractforkillrynthidrareboss');
@@ -18322,6 +19498,9 @@ VALUES (51871, 13, True)
      , (51871, 19, True)
      , (51871, 22, True);
 
+/* Weenie - Gems - Contract for Kill: Rynthid Ragers (51873) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51873;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51873, 'ace51873-contractforkillrynthidragers');
 
@@ -18359,6 +19538,9 @@ VALUES (51873, 13, True)
      , (51873, 14, True)
      , (51873, 19, True)
      , (51873, 22, True);
+
+/* Weenie - Gems - Contract for Kill: Rynthid Slayers (51872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51872;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51872, 'ace51872-contractforkillrynthidslayers');
@@ -18398,6 +19580,9 @@ VALUES (51872, 13, True)
      , (51872, 19, True)
      , (51872, 22, True);
 
+/* Weenie - Gems - Core Plating Integrator (42979) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42979;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42979, 'ace42979-coreplatingintegrator');
 
@@ -18433,6 +19618,9 @@ VALUES (42979, 13, True)
      , (42979, 14, True)
      , (42979, 19, True)
      , (42979, 22, True);
+
+/* Weenie - Gems - Core Plating Deintegrator (43022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43022;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43022, 'ace43022-coreplatingdeintegrator');
@@ -18470,6 +19658,9 @@ VALUES (43022, 13, True)
      , (43022, 19, True)
      , (43022, 22, True);
 
+/* Weenie - Gems - A Broken Insignia Ring (27456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27456;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27456, 'ringinsigniabrokena');
 
@@ -18505,6 +19696,9 @@ VALUES (27456, 13, True)
      , (27456, 14, True)
      , (27456, 19, True)
      , (27456, 22, True);
+
+/* Weenie - Gems - Son of Pooky's Den (32933) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32933;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32933, 'ace32933-sonofpookysden');
@@ -18558,6 +19752,9 @@ VALUES (32933, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32933, 0, 16779181);
 
+/* Weenie - Gems - Contract for The Beacon (44905) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44905;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44905, 'ace44905-contractforthebeacon');
 
@@ -18595,6 +19792,9 @@ VALUES (44905, 13, True)
      , (44905, 14, True)
      , (44905, 19, True)
      , (44905, 22, True);
+
+/* Weenie - Gems - Contract for The Missing Necklace (44906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44906;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44906, 'ace44906-contractforthemissingnecklace');
@@ -18634,6 +19834,9 @@ VALUES (44906, 13, True)
      , (44906, 19, True)
      , (44906, 22, True);
 
+/* Weenie - Gems - Contract for Facilty Hub (44907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44907;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44907, 'ace44907-contractforfaciltyhub');
 
@@ -18671,6 +19874,9 @@ VALUES (44907, 13, True)
      , (44907, 14, True)
      , (44907, 19, True)
      , (44907, 22, True);
+
+/* Weenie - Gems - Contract for Holtburg Redoubt (44902) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44902;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44902, 'ace44902-contractforholtburgredoubt');
@@ -18710,6 +19916,9 @@ VALUES (44902, 13, True)
      , (44902, 19, True)
      , (44902, 22, True);
 
+/* Weenie - Gems - Contract for Drudge Hideout (44900) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44900;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44900, 'ace44900-contractfordrudgehideout');
 
@@ -18748,6 +19957,9 @@ VALUES (44900, 13, True)
      , (44900, 19, True)
      , (44900, 22, True);
 
+/* Weenie - Gems - Aetherium-infused Gear (42114) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42114;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42114, 'ace42114-aetheriuminfusedgear');
 
@@ -18779,6 +19991,9 @@ VALUES (42114, 13, True)
      , (42114, 11, True)
      , (42114, 14, True)
      , (42114, 19, True);
+
+/* Weenie - Gems - Enhanced Black Fire Atlan Stone (46035) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46035;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46035, 'ace46035-enhancedblackfireatlanstone');
@@ -18823,6 +20038,9 @@ VALUES (46035, 0, 83889688, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46035, 0, 16783974);
+
+/* Weenie - Gems - Black Page of Salt and Ash (32672) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32672;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32672, 'ace32672-blackpageofsaltandash');
@@ -18869,6 +20087,9 @@ VALUES (32672, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32672, 0, 16779181);
+
+/* Weenie - Gems - Decorative Bronze Statue (19219) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19219;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19219, 'housestatuebanderling');
@@ -19014,6 +20235,9 @@ VALUES (19219, 0, 16777267)
      , (19219, 14, 16777269)
      , (19219, 15, 16777274)
      , (19219, 16, 16777274);
+
+/* Weenie - Gems - Decorative Bronze Statue  (19233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19233;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19233, 'housestatuereedshark');
@@ -19227,6 +20451,9 @@ VALUES (19233, 0, 16777846)
      , (19233, 11, 16777856)
      , (19233, 12, 16777851);
 
+/* Weenie - Gems - Decorative Bronze Statue  (19247) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19247;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19247, 'housestatuezharalim');
 
@@ -19306,6 +20533,9 @@ VALUES (19247, 0, 16783894)
      , (19247, 15, 16777335)
      , (19247, 16, 16787671);
 
+/* Weenie - Gems - Pack Tower Guardian (35296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35296;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35296, 'ace35296-packtowerguardian');
 
@@ -19383,6 +20613,9 @@ VALUES (35296, 0, 16788885)
      , (35296, 12, 16788891)
      , (35296, 16, 16789125);
 
+/* Weenie - Gems - Craftable Prism Fragment of Fire (14531) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14531;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14531, 'prismfragmentfirecraftable');
 
@@ -19428,6 +20661,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14531, 0, 16784246)
      , (14531, 1, 16784196)
      , (14531, 2, 16784180);
+
+/* Weenie - Gems - Gem of Harbinger's Frost Barrier (36186) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36186;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36186, 'ace36186-gemofharbingersfrostbarrier');
@@ -19475,6 +20711,9 @@ VALUES (36186, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36186, 0, 16779181);
 
+/* Weenie - Gems - Artist's Crystal (30246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30246;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30246, 'gemrarevolatileweapontinkering');
 
@@ -19518,6 +20757,9 @@ VALUES (30246, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30246, 0, 16779181);
+
+/* Weenie - Gems - The Orphanage (30807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30807;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30807, 'gemquestorphanage');
@@ -19570,6 +20812,9 @@ VALUES (30807, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30807, 0, 16779181);
 
+/* Weenie - Gems - Fenmalain Portal Gem (8116) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8116;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8116, 'gemportalfenmalain');
 
@@ -19616,6 +20861,9 @@ VALUES (8116, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8116, 0, 16779181);
+
+/* Weenie - Gems - Oxidized Statue  (19244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19244;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19244, 'housestatuetumerokgreen');
@@ -19846,6 +21094,9 @@ VALUES (19244, 0, 16777217)
      , (19244, 14, 16777231)
      , (19244, 15, 16777226)
      , (19244, 16, 16777223);
+
+/* Weenie - Gems - Oxidized Statue  (19240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19240;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19240, 'housestatueskeletongreen');
@@ -20128,6 +21379,9 @@ VALUES (19240, 0, 16779946)
      , (19240, 15, 16779947)
      , (19240, 16, 16779969);
 
+/* Weenie - Gems - Oxidized Statue  (19242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19242;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19242, 'housestatuethorstengreen');
 
@@ -20213,6 +21467,9 @@ VALUES (19242, 9, 16781837)
      , (19242, 15, 16777335)
      , (19242, 16, 16778313);
 
+/* Weenie - Gems - Life Giver's Crystal (30218) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30218;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30218, 'gemrarevolatilelifemagic');
 
@@ -20261,6 +21518,9 @@ VALUES (30218, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30218, 0, 16779181);
 
+/* Weenie - Gems - Archer's Jewel (30231) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30231;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30231, 'gemrarevolatilepiercingprotection');
 
@@ -20305,6 +21565,9 @@ VALUES (30231, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30231, 0, 16779181);
 
+/* Weenie - Gems - Asheron's Lesser Benediction (34257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34257;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34257, 'ace34257-asheronslesserbenediction');
 
@@ -20344,6 +21607,9 @@ VALUES (34257, 13, True)
      , (34257, 19, True)
      , (34257, 22, True);
 
+/* Weenie - Gems - Contract for Under Cove Crypt (44898) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44898;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44898, 'ace44898-contractforundercovecrypt');
 
@@ -20382,6 +21648,9 @@ VALUES (44898, 13, True)
      , (44898, 19, True)
      , (44898, 22, True);
 
+/* Weenie - Gems - Contract for Wardley and the Wights (45566) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45566;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45566, 'ace45566-contractforwardleyandthewights');
 
@@ -20419,6 +21688,9 @@ VALUES (45566, 13, True)
      , (45566, 14, True)
      , (45566, 19, True)
      , (45566, 22, True);
+
+/* Weenie - Gems - Pulsating Wisp Heart (8666) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8666;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8666, 'wispheart');
@@ -20465,6 +21737,9 @@ VALUES (8666, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8666, 0, 16779181);
+
+/* Weenie - Gems - Tinker's Crystal (30215) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30215;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30215, 'gemrarevolatileitemtinkering');
@@ -20514,6 +21789,9 @@ VALUES (30215, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30215, 0, 16779181);
 
+/* Weenie - Gems - Silveran Wand Token (33509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33509;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33509, 'ace33509-silveranwandtoken');
 
@@ -20543,6 +21821,9 @@ VALUES (33509, 13, True)
      , (33509, 14, True)
      , (33509, 19, True)
      , (33509, 22, True);
+
+/* Weenie - Gems - Silveran Sword Token (33508) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33508;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33508, 'ace33508-silveranswordtoken');
@@ -20574,6 +21855,9 @@ VALUES (33508, 13, True)
      , (33508, 19, True)
      , (33508, 22, True);
 
+/* Weenie - Gems - Silveran Staff Token (33507) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33507;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33507, 'ace33507-silveranstafftoken');
 
@@ -20603,6 +21887,9 @@ VALUES (33507, 13, True)
      , (33507, 14, True)
      , (33507, 19, True)
      , (33507, 22, True);
+
+/* Weenie - Gems - Silveran Spear Token (33506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33506;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33506, 'ace33506-silveranspeartoken');
@@ -20634,6 +21921,9 @@ VALUES (33506, 13, True)
      , (33506, 19, True)
      , (33506, 22, True);
 
+/* Weenie - Gems - Silveran Mace Token (33505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33505;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33505, 'ace33505-silveranmacetoken');
 
@@ -20663,6 +21953,9 @@ VALUES (33505, 13, True)
      , (33505, 14, True)
      , (33505, 19, True)
      , (33505, 22, True);
+
+/* Weenie - Gems - Silveran Dagger Token (33504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33504;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33504, 'ace33504-silverandaggertoken');
@@ -20694,6 +21987,9 @@ VALUES (33504, 13, True)
      , (33504, 19, True)
      , (33504, 22, True);
 
+/* Weenie - Gems - Silveran Crossbow Token (33503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33503;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33503, 'ace33503-silverancrossbowtoken');
 
@@ -20723,6 +22019,9 @@ VALUES (33503, 13, True)
      , (33503, 14, True)
      , (33503, 19, True)
      , (33503, 22, True);
+
+/* Weenie - Gems - Silveran Claw Token (33502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33502;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33502, 'ace33502-silveranclawtoken');
@@ -20754,6 +22053,9 @@ VALUES (33502, 13, True)
      , (33502, 19, True)
      , (33502, 22, True);
 
+/* Weenie - Gems - Silveran Bow Token (33512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33512;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33512, 'ace33512-silveranbowtoken');
 
@@ -20783,6 +22085,9 @@ VALUES (33512, 13, True)
      , (33512, 14, True)
      , (33512, 19, True)
      , (33512, 22, True);
+
+/* Weenie - Gems - Silveran Axe Token (33511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33511;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33511, 'ace33511-silveranaxetoken');
@@ -20814,6 +22119,9 @@ VALUES (33511, 13, True)
      , (33511, 19, True)
      , (33511, 22, True);
 
+/* Weenie - Gems - Silveran Atlatl Token (33510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33510;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33510, 'ace33510-silveranatlatltoken');
 
@@ -20843,6 +22151,9 @@ VALUES (33510, 13, True)
      , (33510, 14, True)
      , (33510, 19, True)
      , (33510, 22, True);
+
+/* Weenie - Gems - Gelid's Jewel (30208) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30208;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30208, 'gemrarevolatilefrostprotection');
@@ -20892,6 +22203,9 @@ VALUES (30208, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30208, 0, 16779181);
 
+/* Weenie - Gems - Pearl of Flame Baning (30204) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30204;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30204, 'gemrarevolatileflamebane');
 
@@ -20940,6 +22254,9 @@ VALUES (30204, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30204, 0, 16779181);
 
+/* Weenie - Gems - Duelist's Jewel (30235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30235;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30235, 'gemrarevolatileslashingprotection');
 
@@ -20984,6 +22301,9 @@ VALUES (30235, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30235, 0, 16779181);
 
+/* Weenie - Gems - Twilight Fragment (31377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31377;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31377, 'ace31377-twilightfragment');
 
@@ -21017,6 +22337,9 @@ VALUES (31377, 13, True)
      , (31377, 19, True)
      , (31377, 22, True);
 
+/* Weenie - Gems - Raven Fragment (31378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31378;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31378, 'ace31378-ravenfragment');
 
@@ -21045,6 +22368,9 @@ VALUES (31378, 13, True)
      , (31378, 14, True)
      , (31378, 19, True)
      , (31378, 22, True);
+
+/* Weenie - Gems - Radiant Blood Stronghold Portal Gem (38725) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38725;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38725, 'ace38725-radiantbloodstrongholdportalgem');
@@ -21096,6 +22422,9 @@ VALUES (38725, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38725, 0, 16779181);
 
+/* Weenie - Gems - Gem of Ardent Loyalty (32254) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32254;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32254, 'ace32254-gemofardentloyalty');
 
@@ -21139,6 +22468,9 @@ VALUES (32254, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32254, 0, 16779181);
+
+/* Weenie - Gems - Portal Gem (25705) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25705;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25705, 'gemportalnoir1');
@@ -21186,6 +22518,9 @@ VALUES (25705, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25705, 0, 16779181);
 
+/* Weenie - Gems - Burun Soaked Soul Stone (28928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28928;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28928, 'soulstoneburun');
 
@@ -21228,6 +22563,9 @@ VALUES (28928, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28928, 0, 16779181);
+
+/* Weenie - Gems - Greater Mukkir Slayer Stone (33688) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33688;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33688, 'ace33688-greatermukkirslayerstone');
@@ -21273,6 +22611,9 @@ VALUES (33688, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33688, 0, 16779181);
+
+/* Weenie - Gems - Leather Vest (42403) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42403;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42403, 'ace42403-leathervest');
@@ -21320,6 +22661,9 @@ VALUES (42403, 0, 83887061, 83894835)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42403, 0, 16778382);
+
+/* Weenie - Gems - Honeyed Life Mead (52700) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52700;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52700, 'ace52700-honeyedlifemead');
@@ -21370,6 +22714,9 @@ VALUES (52700, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52700, 0, 16778735);
 
+/* Weenie - Gems - Pearl of Defending (30201) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30201;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30201, 'gemrarevolatiledefender');
 
@@ -21418,6 +22765,9 @@ VALUES (30201, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30201, 0, 16779181);
 
+/* Weenie - Gems - Tusker's Jewel (30193) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30193;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30193, 'gemrarevolatilebludgeoningprotection');
 
@@ -21465,6 +22815,9 @@ VALUES (30193, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30193, 0, 16779181);
+
+/* Weenie - Gems - Viridian Rise Deru Portal Sending Gem (53450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53450;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53450, 'ace53450-viridianrisederuportalsendinggem');
@@ -21515,6 +22868,9 @@ VALUES (53450, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53450, 0, 16779181);
 
+/* Weenie - Gems - Rare Pack T'thuun (39370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39370;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39370, 'ace39370-rarepacktthuun');
 
@@ -21550,6 +22906,9 @@ VALUES (39370, 13, True)
      , (39370, 19, True)
      , (39370, 22, True);
 
+/* Weenie - Gems - Small Shadow Statue of the Hopeslayer (34573) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34573;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34573, 'ace34573-smallshadowstatueofthehopeslayer');
 
@@ -21583,6 +22942,9 @@ VALUES (34573, 13, True)
      , (34573, 14, True)
      , (34573, 19, True)
      , (34573, 22, True);
+
+/* Weenie - Gems - Shadow Cursed Totem (30810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30810;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30810, 'gemportalburningtower');
@@ -21621,6 +22983,9 @@ VALUES (30810, 13, True)
      , (30810, 14, True)
      , (30810, 15, True)
      , (30810, 19, True);
+
+/* Weenie - Gems - Lair of The Homunculus (36503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36503;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36503, 'ace36503-lairofthehomunculus');
@@ -21674,6 +23039,9 @@ VALUES (36503, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36503, 0, 16779181);
 
+/* Weenie - Gems - Dark Towers (36500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36500;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36500, 'ace36500-darktowers');
 
@@ -21725,6 +23093,9 @@ VALUES (36500, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36500, 0, 16779181);
+
+/* Weenie - Gems - Oubliette (36502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36502;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36502, 'ace36502-oubliette');
@@ -21778,6 +23149,9 @@ VALUES (36502, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36502, 0, 16779181);
 
+/* Weenie - Gems - Niffis Fighting Pits (36504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36504;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36504, 'ace36504-niffisfightingpits');
 
@@ -21829,6 +23203,9 @@ VALUES (36504, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36504, 0, 16779181);
+
+/* Weenie - Gems - Son of Pooky's Den (36507) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36507;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36507, 'ace36507-sonofpookysden');
@@ -21882,6 +23259,9 @@ VALUES (36507, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36507, 0, 16779181);
 
+/* Weenie - Gems - Mukkir Nest Portal Gem (36505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36505;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36505, 'ace36505-mukkirnestportalgem');
 
@@ -21933,6 +23313,9 @@ VALUES (36505, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36505, 0, 16779181);
+
+/* Weenie - Gems - Resting Place (36506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36506;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36506, 'ace36506-restingplace');
@@ -21986,6 +23369,9 @@ VALUES (36506, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36506, 0, 16779181);
 
+/* Weenie - Gems - Drudge Fight (36501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36501;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36501, 'ace36501-drudgefight');
 
@@ -22037,6 +23423,9 @@ VALUES (36501, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36501, 0, 16779181);
+
+/* Weenie - Gems - Gold Hill Ruins (36498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36498;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36498, 'ace36498-goldhillruins');
@@ -22090,6 +23479,9 @@ VALUES (36498, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36498, 0, 16779181);
 
+/* Weenie - Gems - Dark Monolith Caverns (36499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36499;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36499, 'ace36499-darkmonolithcaverns');
 
@@ -22142,6 +23534,9 @@ VALUES (36499, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36499, 0, 16779181);
 
+/* Weenie - Gems - Warrior's Emblem (30809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30809;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30809, 'gemportalayntayn');
 
@@ -22179,6 +23574,9 @@ VALUES (30809, 13, True)
      , (30809, 14, True)
      , (30809, 15, True)
      , (30809, 19, True);
+
+/* Weenie - Gems - Soul Chalice (30802) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30802;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30802, 'gemportalpanopticon');
@@ -22218,6 +23616,9 @@ VALUES (30802, 13, True)
      , (30802, 14, True)
      , (30802, 15, True)
      , (30802, 19, True);
+
+/* Weenie - Gems - Burning Veil (30811) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30811;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30811, 'gemportalcaulcano');
@@ -22271,6 +23672,9 @@ VALUES (30811, 0, 83889687, 83889687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30811, 0, 16778337);
 
+/* Weenie - Gems - Blood Fang Jewel (30801) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30801;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30801, 'gemportalobsidianrim');
 
@@ -22308,6 +23712,9 @@ VALUES (30801, 13, True)
      , (30801, 14, True)
      , (30801, 15, True)
      , (30801, 19, True);
+
+/* Weenie - Gems - Adjanite Gem (27772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27772;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27772, 'gemportalsunkenmerenewbie');
@@ -22351,6 +23758,9 @@ VALUES (27772, 13, True)
      , (27772, 19, True)
      , (27772, 22, True);
 
+/* Weenie - Gems - Decorated Adjanite Gem (27770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27770;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27770, 'gemportalsunkenmerelow');
 
@@ -22392,6 +23802,9 @@ VALUES (27770, 13, True)
      , (27770, 15, True)
      , (27770, 19, True)
      , (27770, 22, True);
+
+/* Weenie - Gems - Entrancing Adjanite Gem (27771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27771;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27771, 'gemportalsunkenmeremid');
@@ -22435,6 +23848,9 @@ VALUES (27771, 13, True)
      , (27771, 19, True)
      , (27771, 22, True);
 
+/* Weenie - Gems - Beholding Adjanite Gem (27769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27769;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27769, 'gemportalsunkenmerehigh');
 
@@ -22477,6 +23893,9 @@ VALUES (27769, 13, True)
      , (27769, 19, True)
      , (27769, 22, True);
 
+/* Weenie - Gems - Eye of the Depths (27768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27768;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27768, 'gemportalsunkenmereextreme');
 
@@ -22518,6 +23937,9 @@ VALUES (27768, 13, True)
      , (27768, 15, True)
      , (27768, 19, True)
      , (27768, 22, True);
+
+/* Weenie - Gems - Lyceum Recall Gem (9042) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9042;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9042, 'gemlyceumrecall');
@@ -22565,6 +23987,9 @@ VALUES (9042, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9042, 0, 16779181);
+
+/* Weenie - Gems - Orb of the Bunny Booty (51474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51474;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51474, 'ace51474-orbofthebunnybooty');
@@ -22641,6 +24066,9 @@ VALUES (51474, 0, 16782183)
      , (51474, 11, 16777708)
      , (51474, 12, 16777708);
 
+/* Weenie - Gems - Gem of Knowledge (43189) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43189;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43189, 'ace43189-gemofknowledge');
 
@@ -22673,6 +24101,9 @@ VALUES (43189, 13, True)
      , (43189, 11, True)
      , (43189, 14, True)
      , (43189, 19, True);
+
+/* Weenie - Gems - Frozen Valley Portal Gem (51372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51372;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51372, 'ace51372-frozenvalleyportalgem');
@@ -22722,6 +24153,9 @@ VALUES (51372, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51372, 0, 16779181);
 
+/* Weenie - Gems - Black Luster Pearl (30813) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30813;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30813, 'pearlblackluster');
 
@@ -22762,6 +24196,9 @@ VALUES (30813, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30813, 67114793, 0, 0);
 
+/* Weenie - Gems - Large Golden Coin (27435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27435, 'coinattachment');
 
@@ -22794,6 +24231,9 @@ VALUES (27435, 13, True)
      , (27435, 14, True)
      , (27435, 19, True)
      , (27435, 22, True);
+
+/* Weenie - Gems - Shendolain Portal Gem (8117) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8117;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8117, 'gemportalshendolain');
@@ -22841,6 +24281,9 @@ VALUES (8117, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8117, 0, 16779181);
+
+/* Weenie - Gems - Honeyed Mana Mead (52701) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52701;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52701, 'ace52701-honeyedmanamead');
@@ -22891,6 +24334,9 @@ VALUES (52701, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52701, 0, 16778735);
 
+/* Weenie - Gems - Honeyed Vigor Mead (52703) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52703;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52703, 'ace52703-honeyedvigormead');
 
@@ -22940,6 +24386,9 @@ VALUES (52703, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52703, 0, 16778735);
 
+/* Weenie - Gems - Rage of Grael Gem (31425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31425;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31425, 'ace31425-rageofgraelgem');
 
@@ -22985,6 +24434,9 @@ VALUES (31425, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31425, 0, 16779181);
 
+/* Weenie - Gems - Dark Apostate Shard (43261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43261;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43261, 'ace43261-darkapostateshard');
 
@@ -23026,6 +24478,9 @@ VALUES (43261, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43261, 0, 16779181);
+
+/* Weenie - Gems - Glowing Apostate Shard (43259) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43259;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43259, 'ace43259-glowingapostateshard');
@@ -23073,6 +24528,9 @@ VALUES (43259, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43259, 0, 16779181);
 
+/* Weenie - Gems - Engorged Bloodstone Shard (43273) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43273;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43273, 'ace43273-engorgedbloodstoneshard');
 
@@ -23101,6 +24559,9 @@ VALUES (43273, 13, True)
      , (43273, 14, True)
      , (43273, 19, True)
      , (43273, 22, True);
+
+/* Weenie - Gems - Empyrean Crystal (39914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39914;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39914, 'ace39914-empyreancrystal');
@@ -23141,6 +24602,9 @@ VALUES (39914, 0, 83889688, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39914, 0, 16783974);
+
+/* Weenie - Gems - Virindi Councillor Essence (41455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41455;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41455, 'ace41455-virindicouncilloressence');
@@ -23192,6 +24656,9 @@ VALUES (41455, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41455, 0, 16779181);
 
+/* Weenie - Gems - Virindi Master Essence (41454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41454;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41454, 'ace41454-virindimasteressence');
 
@@ -23242,6 +24709,9 @@ VALUES (41454, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41454, 0, 16779181);
 
+/* Weenie - Gems - Virindi Servant Essence (41453) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41453;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41453, 'ace41453-virindiservantessence');
 
@@ -23288,6 +24758,9 @@ VALUES (41453, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41453, 0, 16779181);
 
+/* Weenie - Gems - Monarch's Crystal (30217) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30217;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30217, 'gemrarevolatileleadership');
 
@@ -23332,6 +24805,9 @@ VALUES (30217, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30217, 0, 16779181);
 
+/* Weenie - Gems - Celestial Hand Robe (44444) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44444;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44444, 'ace44444-celestialhandrobe');
 
@@ -23371,6 +24847,9 @@ VALUES (44444, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44444, 0, 16795582);
 
+/* Weenie - Gems - Society Gem of Lesser Luminance (46454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46454;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46454, 'ace46454-societygemoflesserluminance');
 
@@ -23403,6 +24882,9 @@ VALUES (46454, 13, True)
      , (46454, 11, True)
      , (46454, 14, True)
      , (46454, 19, True);
+
+/* Weenie - Gems - Rogue's Crystal (45360) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45360;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45360, 'ace45360-roguescrystal');
@@ -23452,6 +24934,9 @@ VALUES (45360, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45360, 0, 16779181);
 
+/* Weenie - Gems - Mage's Jewel (30227) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30227;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30227, 'gemrarevolatilemanaregeneration');
 
@@ -23500,6 +24985,9 @@ VALUES (30227, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30227, 0, 16779181);
 
+/* Weenie - Gems - Maelstrom of Souls Gem (35491) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35491;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35491, 'ace35491-maelstromofsoulsgem');
 
@@ -23544,6 +25032,9 @@ VALUES (35491, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35491, 0, 16779181);
+
+/* Weenie - Gems - Gladiator's Defense Armor Augmentation (36618) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36618;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36618, 'ace36618-gladiatorsdefensearmoraugmentation');
@@ -23590,6 +25081,9 @@ VALUES (36618, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36618, 0, 16779181);
+
+/* Weenie - Gems - Carved Tusker Statue (22620) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22620;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22620, 'plushtusker');
@@ -23680,6 +25174,9 @@ VALUES (22620, 0, 16785059)
      , (22620, 23, 16785103)
      , (22620, 24, 16785103);
 
+/* Weenie - Gems - Nanner Island Portal Gem (27512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27512;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27512, 'gemportalnannerisland');
 
@@ -23730,6 +25227,9 @@ VALUES (27512, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27512, 0, 16779181);
 
+/* Weenie - Gems - Glenden Wood Militia Title Token (32310) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32310;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32310, 'ace32310-glendenwoodmilitiatitletoken');
 
@@ -23761,6 +25261,9 @@ VALUES (32310, 13, True)
      , (32310, 19, True)
      , (32310, 22, True);
 
+/* Weenie - Gems - Repaired Shadow Stone (32588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32588;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32588, 'ace32588-repairedshadowstone');
 
@@ -23791,6 +25294,9 @@ VALUES (32588, 11, True)
      , (32588, 14, True)
      , (32588, 19, True)
      , (32588, 22, True);
+
+/* Weenie - Gems - Zefir's Crystal (30233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30233;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30233, 'gemrarevolatilerun');
@@ -23835,6 +25341,9 @@ VALUES (30233, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30233, 0, 16779181);
+
+/* Weenie - Gems - Converter's Crystal (30226) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30226;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30226, 'gemrarevolatilemanaconversion');
@@ -23884,6 +25393,9 @@ VALUES (30226, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30226, 0, 16779181);
 
+/* Weenie - Gems - Ben Ten's Crystal (30242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30242;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30242, 'gemrarevolatilesword');
 
@@ -23927,6 +25439,9 @@ VALUES (30242, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30242, 0, 16779181);
+
+/* Weenie - Gems - Thorsten's Crystal (30238) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30238;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30238, 'gemrarevolatilestaff');
@@ -23972,6 +25487,9 @@ VALUES (30238, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30238, 0, 16779181);
 
+/* Weenie - Gems - Thorsten's Crystal (30244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30244;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30244, 'gemrarevolatileunarmedcombat');
 
@@ -24015,6 +25533,9 @@ VALUES (30244, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30244, 0, 16779181);
+
+/* Weenie - Gems - Swamp Gem (3713) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3713;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3713, 'gemswamp');
@@ -24062,6 +25583,9 @@ VALUES (3713, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3713, 0, 16779181);
 
+/* Weenie - Gems - Dansha-Ki's Gem of Portal Recall (7316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7316;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7316, 'gemdanshaki');
 
@@ -24107,6 +25631,9 @@ VALUES (7316, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7316, 0, 16779181);
 
+/* Weenie - Gems - Contract for Banderling Haunt (44155) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44155;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44155, 'ace44155-contractforbanderlinghaunt');
 
@@ -24144,6 +25671,9 @@ VALUES (44155, 13, True)
      , (44155, 14, True)
      , (44155, 19, True)
      , (44155, 22, True);
+
+/* Weenie - Gems - Gem of Perfect Health (29555) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29555;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29555, 'gemnobleendurance');
@@ -24188,6 +25718,9 @@ VALUES (29555, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29555, 0, 16779181);
+
+/* Weenie - Gems - Imaging Crystal (20185) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20185;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20185, 'imagingcrystalblank');
@@ -24236,6 +25769,9 @@ VALUES (20185, 0, 83889682, 83890391)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20185, 0, 16779994);
 
+/* Weenie - Gems - The Ruby Mahwan (6662) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6662;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6662, 'crimsonruby3');
 
@@ -24279,6 +25815,9 @@ VALUES (6662, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6662, 0, 16779181);
+
+/* Weenie - Gems - The Ruby Al-Shajar (6660) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6660;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6660, 'crimsonruby1');
@@ -24324,6 +25863,9 @@ VALUES (6660, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6660, 0, 16779181);
 
+/* Weenie - Gems - Reedshark Crest (11815) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11815;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11815, 'crestreedshark');
 
@@ -24361,6 +25903,9 @@ VALUES (11815, 13, True)
      , (11815, 19, True)
      , (11815, 22, True);
 
+/* Weenie - Gems - Reedshark Symbol (11862) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11862;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11862, 'reedsharksymbol');
 
@@ -24394,6 +25939,9 @@ VALUES (11862, 13, True)
      , (11862, 14, True)
      , (11862, 19, True)
      , (11862, 22, True);
+
+/* Weenie - Gems - Minor Sparking Stone (6318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6318;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6318, 'stonesparkingminor');
@@ -24438,6 +25986,9 @@ VALUES (6318, 0, 83889688, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6318, 0, 16783974);
+
+/* Weenie - Gems - Gharu'ndim Gem of Worth (11824) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11824;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11824, 'gemportalgha');
@@ -24484,6 +26035,9 @@ VALUES (11824, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11824, 0, 16779181);
 
+/* Weenie - Gems - Aluvian Gem of Worth (11823) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11823;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11823, 'gemportalalu');
 
@@ -24529,6 +26083,9 @@ VALUES (11823, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11823, 0, 16779181);
 
+/* Weenie - Gems - Obsidian Shard (10805) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10805;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10805, 'shardwarden');
 
@@ -24564,6 +26121,9 @@ VALUES (10805, 13, True)
      , (10805, 19, True)
      , (10805, 22, True);
 
+/* Weenie - Gems - Reedshark Spear-Head (11861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11861;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11861, 'reedsharkspear');
 
@@ -24597,6 +26157,9 @@ VALUES (11861, 13, True)
      , (11861, 14, True)
      , (11861, 19, True)
      , (11861, 22, True);
+
+/* Weenie - Gems - Cydna Wren's Portal Gem (25466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25466;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25466, 'gemportalhiddenwarehouserot2');
@@ -24648,6 +26211,9 @@ VALUES (25466, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25466, 0, 16779181);
 
+/* Weenie - Gems - Missile Defense Gem of Enlightenment (22375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22375;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22375, 'skillgemupmissiledefense');
 
@@ -24680,6 +26246,9 @@ VALUES (22375, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22375, 67111923, 0, 0);
+
+/* Weenie - Gems - Fenmalain Gem (8113) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8113;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8113, 'gemfenmalain');
@@ -24723,6 +26292,9 @@ VALUES (8113, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8113, 0, 16779181);
 
+/* Weenie - Gems - Shendolain Gem (8118) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8118;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8118, 'gemshendolain');
 
@@ -24765,6 +26337,9 @@ VALUES (8118, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8118, 0, 16779181);
 
+/* Weenie - Gems - Daichroic Crystal (22826) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22826;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22826, 'dailantiumcrystal');
 
@@ -24793,6 +26368,9 @@ VALUES (22826, 13, True)
      , (22826, 14, True)
      , (22826, 19, True)
      , (22826, 22, True);
+
+/* Weenie - Gems - Platinum Medal of Intellect (41447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41447;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41447, 'ace41447-platinummedalofintellect');
@@ -24834,6 +26412,9 @@ VALUES (41447, 13, True)
      , (41447, 19, True)
      , (41447, 22, True);
 
+/* Weenie - Gems - Platinum Medal of Vigor (41452) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41452;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41452, 'ace41452-platinummedalofvigor');
 
@@ -24873,6 +26454,9 @@ VALUES (41452, 13, True)
      , (41452, 14, True)
      , (41452, 19, True)
      , (41452, 22, True);
+
+/* Weenie - Gems - Luminous Crystal of Rare Damage Reduction V (52025) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52025;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52025, 'ace52025-luminouscrystalofraredamagereductionv');
@@ -24923,6 +26507,9 @@ VALUES (52025, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52025, 0, 16779181);
 
+/* Weenie - Gems - Ancient Tablet of the Crystal Idol (Level 180+) (44296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44296;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44296, 'ace44296-ancienttabletofthecrystalidollevel180');
 
@@ -24960,6 +26547,9 @@ VALUES (44296, 13, True)
      , (44296, 19, True)
      , (44296, 22, True);
 
+/* Weenie - Gems - Well Crafted Bow (42346) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42346;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42346, 'ace42346-wellcraftedbow');
 
@@ -24990,6 +26580,9 @@ VALUES (42346, 13, True)
      , (42346, 14, True)
      , (42346, 19, True)
      , (42346, 22, True);
+
+/* Weenie - Gems - Well Crafted Wand (42345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42345;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42345, 'ace42345-wellcraftedwand');
@@ -25022,6 +26615,9 @@ VALUES (42345, 13, True)
      , (42345, 19, True)
      , (42345, 22, True);
 
+/* Weenie - Gems - Well Crafted Sword (42344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42344;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42344, 'ace42344-wellcraftedsword');
 
@@ -25052,6 +26648,9 @@ VALUES (42344, 13, True)
      , (42344, 14, True)
      , (42344, 19, True)
      , (42344, 22, True);
+
+/* Weenie - Gems - Uninscription Stone (33960) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33960;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33960, 'ace33960-uninscriptionstone');
@@ -25096,6 +26695,9 @@ VALUES (33960, 0, 83888861, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33960, 0, 16778862);
+
+/* Weenie - Gems - Crypt of Adhorix Portal Gem (31667) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31667;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31667, 'ace31667-cryptofadhorixportalgem');
@@ -25147,6 +26749,9 @@ VALUES (31667, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31667, 0, 16779181);
 
+/* Weenie - Gems - Pearl of Swift Killing (30241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30241;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30241, 'gemrarevolatileswiftkiller');
 
@@ -25194,6 +26799,9 @@ VALUES (30241, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30241, 0, 16779181);
+
+/* Weenie - Gems - Lich's Pearl (30234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30234;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30234, 'gemrarevolatileself');
@@ -25243,6 +26851,9 @@ VALUES (30234, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30234, 0, 16779181);
 
+/* Weenie - Gems - Scrying Rod (44126) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44126;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44126, 'ace44126-scryingrod');
 
@@ -25279,6 +26890,9 @@ VALUES (44126, 13, True)
      , (44126, 14, True)
      , (44126, 19, True)
      , (44126, 22, True);
+
+/* Weenie - Gems - Missile Defense Weapon Augmentation (36633) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36633;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36633, 'ace36633-missiledefenseweaponaugmentation');
@@ -25325,6 +26939,9 @@ VALUES (36633, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36633, 0, 16779181);
+
+/* Weenie - Gems - Pearl of Blood Drinking (30191) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30191;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30191, 'gemrarevolatileblooddrinker');
@@ -25374,6 +26991,9 @@ VALUES (30191, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30191, 0, 16779181);
 
+/* Weenie - Gems - Ursuin's Pearl (30202) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30202;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30202, 'gemrarevolatileendurance');
 
@@ -25418,6 +27038,9 @@ VALUES (30202, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30202, 0, 16779181);
 
+/* Weenie - Gems - Wayfarer's Pearl (30196) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30196;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30196, 'gemrarevolatilecoordination');
 
@@ -25461,6 +27084,9 @@ VALUES (30196, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30196, 0, 16779181);
+
+/* Weenie - Gems - Sprinter's Pearl (30232) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30232;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30232, 'gemrarevolatilequickness');
@@ -25510,6 +27136,9 @@ VALUES (30232, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30232, 0, 16779181);
 
+/* Weenie - Gems - Gem of Spectral Force (35492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35492;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35492, 'ace35492-gemofspectralforce');
 
@@ -25555,6 +27184,9 @@ VALUES (35492, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35492, 0, 16779181);
 
+/* Weenie - Gems - Crystal of Frozen Elemental Essence (33958) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33958;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33958, 'ace33958-crystaloffrozenelementalessence');
 
@@ -25595,6 +27227,9 @@ VALUES (33958, 0, 83889688, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33958, 0, 16783974);
+
+/* Weenie - Gems - Pearl of Impenetrability (30213) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30213;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30213, 'gemrarevolatileimpenetrability');
@@ -25644,6 +27279,9 @@ VALUES (30213, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30213, 0, 16779181);
 
+/* Weenie - Gems - Pearl of Hermetic Linking (30212) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30212;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30212, 'gemrarevolatilehermeticlink');
 
@@ -25692,6 +27330,9 @@ VALUES (30212, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30212, 0, 16779181);
 
+/* Weenie - Gems - Pearl of Spirit Drinking (30237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30237;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30237, 'gemrarevolatilespiritdrinker');
 
@@ -25739,6 +27380,9 @@ VALUES (30237, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30237, 0, 16779181);
+
+/* Weenie - Gems - Redspire Portal Gem (32081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32081;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32081, 'ace32081-redspireportalgem');
@@ -25790,6 +27434,9 @@ VALUES (32081, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32081, 0, 16779181);
 
+/* Weenie - Gems - Corcima Castle Platinum Ward Portal Gem (29446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29446;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29446, 'gemportalcorcimacastlewardplatinum');
 
@@ -25840,6 +27487,9 @@ VALUES (29446, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29446, 0, 16779181);
+
+/* Weenie - Gems - Niffis Fighting Pits (30400) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30400;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30400, 'gemquestlittlestniffis');
@@ -25893,6 +27543,9 @@ VALUES (30400, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30400, 0, 16779181);
 
+/* Weenie - Gems - Brightly Glowing Data Crystal (43084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43084;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43084, 'ace43084-brightlyglowingdatacrystal');
 
@@ -25933,6 +27586,9 @@ VALUES (43084, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43084, 0, 16779181);
+
+/* Weenie - Gems - Spectral Skull (42038) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42038;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42038, 'ace42038-spectralskull');
@@ -25979,6 +27635,9 @@ VALUES (42038, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42038, 0, 16779181);
+
+/* Weenie - Gems - Luminous Pearl of Blood Drinking (43472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43472;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43472, 'ace43472-luminouspearlofblooddrinking');
@@ -26028,6 +27687,9 @@ VALUES (43472, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43472, 0, 16779181);
 
+/* Weenie - Gems - Silver Horn of Leadership (41459) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41459;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41459, 'ace41459-silverhornofleadership');
 
@@ -26067,6 +27729,9 @@ VALUES (41459, 13, True)
      , (41459, 14, True)
      , (41459, 19, True)
      , (41459, 22, True);
+
+/* Weenie - Gems - Crystal of Electric Elemental Essence (33957) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33957;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33957, 'ace33957-crystalofelectricelementalessence');
@@ -26108,6 +27773,9 @@ VALUES (33957, 0, 83889688, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33957, 0, 16783974);
+
+/* Weenie - Gems - East Gate Harmonic Crystal (37059) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37059;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37059, 'ace37059-eastgateharmoniccrystal');
@@ -26153,6 +27821,9 @@ VALUES (37059, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37059, 0, 16779181);
 
+/* Weenie - Gems - Armor Layering Tool (Bottom) (42726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42726;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42726, 'ace42726-armorlayeringtoolbottom');
 
@@ -26186,6 +27857,9 @@ VALUES (42726, 13, True)
      , (42726, 14, True)
      , (42726, 19, True);
 
+/* Weenie - Gems - Armor Layering Tool (Top) (42724) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42724;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42724, 'ace42724-armorlayeringtooltop');
 
@@ -26218,6 +27892,9 @@ VALUES (42724, 13, True)
      , (42724, 11, True)
      , (42724, 14, True)
      , (42724, 19, True);
+
+/* Weenie - Gems - Composite Bow with Exquisite Handle (51497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51497;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51497, 'ace51497-compositebowwithexquisitehandle');
@@ -26272,6 +27949,9 @@ VALUES (51497, 0, 16784558)
      , (51497, 1, 16784557)
      , (51497, 2, 16784557);
 
+/* Weenie - Gems - Weeping Crossbow (51511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51511;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51511, 'ace51511-weepingcrossbow');
 
@@ -26311,6 +27991,9 @@ VALUES (51511, 13, True)
      , (51511, 19, True)
      , (51511, 22, True);
 
+/* Weenie - Gems - Weeping Bow (51509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51509;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51509, 'ace51509-weepingbow');
 
@@ -26346,6 +28029,9 @@ VALUES (51509, 13, True)
      , (51509, 14, True)
      , (51509, 19, True)
      , (51509, 22, True);
+
+/* Weenie - Gems - Celdon Sleeves (42421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42421;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42421, 'ace42421-celdonsleeves');
@@ -26397,6 +28083,9 @@ VALUES (42421, 0, 83886796, 83886491)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42421, 0, 16778363);
 
+/* Weenie - Gems - Empowered Amber: Shield Reinforcement (53440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53440;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53440, 'ace53440-empoweredambershieldreinforcement');
 
@@ -26441,6 +28130,9 @@ VALUES (53440, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53440, 0, 16779181);
+
+/* Weenie - Gems - Luminous Amber: Shield Fortification (53441) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53441;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53441, 'ace53441-luminousambershieldfortification');
@@ -26488,6 +28180,9 @@ VALUES (53441, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53441, 0, 16779181);
 
+/* Weenie - Gems - Banderling Mace Head (8364) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8364;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8364, 'maceheadbanderling');
 
@@ -26531,6 +28226,9 @@ VALUES (8364, 0, 83888861, 83889680);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8364, 0, 16778862);
+
+/* Weenie - Gems - Banderling Mace Shaft (8365) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8365;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8365, 'maceshaftbanderling');
@@ -26576,6 +28274,9 @@ VALUES (8365, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8365, 0, 16777893);
 
+/* Weenie - Gems - Banderling Ceremonial Weapon (8366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8366;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8366, 'macebanderlingceremonial');
 
@@ -26615,6 +28316,9 @@ VALUES (8366, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8366, 0, 16777923);
+
+/* Weenie - Gems - Frest Greelving's Emerald (22135) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22135;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22135, 'jewelemeraldhauntedmansion');
@@ -26659,6 +28363,9 @@ VALUES (22135, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22135, 0, 16779181);
+
+/* Weenie - Gems - Oxidized Statue  (19236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19236;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19236, 'housestatuesclavusgreen');
@@ -26856,6 +28563,9 @@ VALUES (19236, 0, 16782252)
      , (19236, 15, 16782258)
      , (19236, 16, 16782264);
 
+/* Weenie - Gems - Obsidian Shard (9225) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9225;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9225, 'shardaerbax');
 
@@ -26890,6 +28600,9 @@ VALUES (9225, 13, True)
      , (9225, 14, True)
      , (9225, 19, True)
      , (9225, 22, True);
+
+/* Weenie - Gems - Cold Protection Gem (22879) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22879;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22879, 'gemcoldprot6');
@@ -26937,6 +28650,9 @@ VALUES (22879, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22879, 0, 16779181);
 
+/* Weenie - Gems - Piercing Protection Gem (22882) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22882;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22882, 'gempierceprot6');
 
@@ -26982,6 +28698,9 @@ VALUES (22882, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22882, 0, 16779181);
+
+/* Weenie - Gems - Fire Protection Gem (22880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22880;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22880, 'gemfireprot6');
@@ -27029,6 +28748,9 @@ VALUES (22880, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22880, 0, 16779181);
 
+/* Weenie - Gems - Dark Tree Crystal (23036) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23036;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23036, 'darktreecrystal');
 
@@ -27057,6 +28779,9 @@ VALUES (23036, 13, True)
      , (23036, 14, True)
      , (23036, 19, True)
      , (23036, 22, True);
+
+/* Weenie - Gems - Valara Crystal (23038) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23038;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23038, 'valaracrystal');
@@ -27087,6 +28812,9 @@ VALUES (23038, 13, True)
      , (23038, 19, True)
      , (23038, 22, True);
 
+/* Weenie - Gems - An unknown crystal (23037) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23037;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23037, 'soulshattercrystal');
 
@@ -27115,6 +28843,9 @@ VALUES (23037, 13, True)
      , (23037, 14, True)
      , (23037, 19, True)
      , (23037, 22, True);
+
+/* Weenie - Gems - Rumuba's Jade Spearhead (8613) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8613;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8613, 'spearheadjaderumuba');
@@ -27156,6 +28887,9 @@ VALUES (8613, 67111923, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8613, 0, 16785392);
+
+/* Weenie - Gems - Ring of a Singularity Key (14882) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14882;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14882, 'keyringbrokensingularity');
@@ -27200,6 +28934,9 @@ VALUES (14882, 67113796, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14882, 9, 16785620);
 
+/* Weenie - Gems - Yanshi Town Stamp (8741) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8741;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8741, 'stampyanshinewbiequest');
 
@@ -27236,6 +28973,9 @@ VALUES (8741, 13, True)
      , (8741, 14, True)
      , (8741, 19, True)
      , (8741, 22, True);
+
+/* Weenie - Gems - Knight's Crystal (45369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45369;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45369, 'ace45369-knightscrystal');
@@ -27285,6 +29025,9 @@ VALUES (45369, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45369, 0, 16779181);
 
+/* Weenie - Gems - Promise Gem (14919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14919;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14919, 'gempromise');
 
@@ -27331,6 +29074,9 @@ VALUES (14919, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14919, 0, 16779181);
+
+/* Weenie - Gems - Decorative Bronze Statue (19221) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19221;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19221, 'housestatuebenten');
@@ -27411,6 +29157,9 @@ VALUES (19221, 0, 16783897)
      , (19221, 15, 16777335)
      , (19221, 16, 16783891);
 
+/* Weenie - Gems - Gromnie Spear-Head (11832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11832;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11832, 'gromniespear');
 
@@ -27445,6 +29194,9 @@ VALUES (11832, 13, True)
      , (11832, 19, True)
      , (11832, 22, True);
 
+/* Weenie - Gems - Gromnie Symbol (11833) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11833;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11833, 'gromniesymbol');
 
@@ -27478,6 +29230,9 @@ VALUES (11833, 13, True)
      , (11833, 14, True)
      , (11833, 19, True)
      , (11833, 22, True);
+
+/* Weenie - Gems - Melee's Jewel (30239) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30239;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30239, 'gemrarevolatilestaminaregeneration');
@@ -27522,6 +29277,9 @@ VALUES (30239, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30239, 0, 16779181);
+
+/* Weenie - Gems - Olthoi's Jewel (30182) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30182;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30182, 'gemrarevolatileacidprotection');
@@ -27571,6 +29329,9 @@ VALUES (30182, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30182, 0, 16779181);
 
+/* Weenie - Gems - Pearl of Bludgeon Baning (30192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30192;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30192, 'gemrarevolatilebludgeonbane');
 
@@ -27619,6 +29380,9 @@ VALUES (30192, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30192, 0, 16779181);
 
+/* Weenie - Gems - Pearl of Pierce Baning (30230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30230;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30230, 'gemrarevolatilepiercingbane');
 
@@ -27663,6 +29427,9 @@ VALUES (30230, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30230, 0, 16779181);
 
+/* Weenie - Gems - Elysa's Crystal (30198) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30198;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30198, 'gemrarevolatilecrossbow');
 
@@ -27706,6 +29473,9 @@ VALUES (30198, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30198, 0, 16779181);
+
+/* Weenie - Gems - Mukkir Nest Portal Gem (32924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32924;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32924, 'ace32924-mukkirnestportalgem');
@@ -27759,6 +29529,9 @@ VALUES (32924, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32924, 0, 16779181);
 
+/* Weenie - Gems - Oubliette (27392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27392;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27392, 'gemquestgibbering');
 
@@ -27811,6 +29584,9 @@ VALUES (27392, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27392, 0, 16779181);
 
+/* Weenie - Gems - Shadow Lugian Stronghold Portal Gem (30831) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30831;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30831, 'gemportalshadowlugianstronghold');
 
@@ -27862,6 +29638,9 @@ VALUES (30831, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30831, 0, 16779181);
 
+/* Weenie - Gems - Gem of Dispersal (22822) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22822;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22822, 'gemgiftdispelhigh');
 
@@ -27911,6 +29690,9 @@ VALUES (22822, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22822, 0, 16779181);
 
+/* Weenie - Gems - Void Magic Gem of Enlightenment (43400) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43400;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43400, 'ace43400-voidmagicgemofenlightenment');
 
@@ -27943,6 +29725,9 @@ VALUES (43400, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43400, 67111923, 0, 0);
+
+/* Weenie - Gems - Blade Protection Gem (22877) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22877;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22877, 'gembladeprot6');
@@ -27990,6 +29775,9 @@ VALUES (22877, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22877, 0, 16779181);
 
+/* Weenie - Gems - Lighning Protection Gem (22881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22881;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22881, 'gemlightningprot6');
 
@@ -28035,6 +29823,9 @@ VALUES (22881, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22881, 0, 16779181);
+
+/* Weenie - Gems - Acid Protection Gem (22875) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22875;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22875, 'gemacidprot6');
@@ -28082,6 +29873,9 @@ VALUES (22875, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22875, 0, 16779181);
 
+/* Weenie - Gems - Bludgeon Protection Gem (22878) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22878;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22878, 'gembludgeonprot6');
 
@@ -28127,6 +29921,9 @@ VALUES (22878, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22878, 0, 16779181);
+
+/* Weenie - Gems - Armor Protection Gem (22876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22876;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22876, 'gemarmorprot6');
@@ -28174,6 +29971,9 @@ VALUES (22876, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22876, 0, 16779181);
 
+/* Weenie - Gems - Prismatic Plume (14529) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14529;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14529, 'plumeprismatic');
 
@@ -28214,6 +30014,9 @@ VALUES (14529, 67113786, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14529, 0, 16787608);
+
+/* Weenie - Gems - Dull Gem (3933) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3933;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3933, 'gemdull');
@@ -28260,6 +30063,9 @@ VALUES (3933, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3933, 0, 16779181);
 
+/* Weenie - Gems - Glimmering Gem (6620) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6620;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6620, 'gemglimmering');
 
@@ -28303,6 +30109,9 @@ VALUES (6620, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6620, 0, 16779181);
+
+/* Weenie - Gems - Craftable Prism Fragment of Ice (14532) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14532;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14532, 'prismfragmenticecraftable');
@@ -28350,6 +30159,9 @@ VALUES (14532, 0, 16784246)
      , (14532, 1, 16784196)
      , (14532, 2, 16784180);
 
+/* Weenie - Gems - Sho Gem of Worth (11831) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11831;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11831, 'gemportalsho');
 
@@ -28395,6 +30207,9 @@ VALUES (11831, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11831, 0, 16779181);
 
+/* Weenie - Gems - Gem of Inner Might (29560) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29560;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29560, 'gemnoblestrength');
 
@@ -28439,6 +30254,9 @@ VALUES (29560, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29560, 0, 16779181);
 
+/* Weenie - Gems - Black Spawn Den Portal Device (29608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29608;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29608, 'mansionportalset1');
 
@@ -28470,6 +30288,9 @@ VALUES (29608, 13, True)
      , (29608, 14, True)
      , (29608, 19, True)
      , (29608, 22, True);
+
+/* Weenie - Gems - Olthoi Lands Portal Device (29612) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29612;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29612, 'mansionportalset5');
@@ -28503,6 +30324,9 @@ VALUES (29612, 13, True)
      , (29612, 19, True)
      , (29612, 22, True);
 
+/* Weenie - Gems - Lesser Direlands Device (29610) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29610;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29610, 'mansionportalset3');
 
@@ -28535,6 +30359,9 @@ VALUES (29610, 13, True)
      , (29610, 19, True)
      , (29610, 22, True);
 
+/* Weenie - Gems - Citadels Portal Device (29609) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29609;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29609, 'mansionportalset2');
 
@@ -28566,6 +30393,9 @@ VALUES (29609, 13, True)
      , (29609, 14, True)
      , (29609, 19, True)
      , (29609, 22, True);
+
+/* Weenie - Gems - A Carved Mosswart Statue (27933) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27933;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27933, 'stoneitemhizkri');
@@ -28637,6 +30467,9 @@ VALUES (27933, 0, 16787248)
      , (27933, 15, 16787257)
      , (27933, 16, 16787256);
 
+/* Weenie - Gems - Mukkir Slayer Stone (33687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33687;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33687, 'ace33687-mukkirslayerstone');
 
@@ -28682,6 +30515,9 @@ VALUES (33687, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33687, 0, 16779181);
 
+/* Weenie - Gems - Serpent Crest (11816) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11816;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11816, 'crestserpent');
 
@@ -28718,6 +30554,9 @@ VALUES (11816, 13, True)
      , (11816, 14, True)
      , (11816, 19, True)
      , (11816, 22, True);
+
+/* Weenie - Gems - Falcon Crest (11812) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11812;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11812, 'crestfalcon');
@@ -28756,6 +30595,9 @@ VALUES (11812, 13, True)
      , (11812, 19, True)
      , (11812, 22, True);
 
+/* Weenie - Gems - Falcon Spear-Head (11821) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11821;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11821, 'falconspear');
 
@@ -28789,6 +30631,9 @@ VALUES (11821, 13, True)
      , (11821, 14, True)
      , (11821, 19, True)
      , (11821, 22, True);
+
+/* Weenie - Gems - Serpent Symbol (11864) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11864;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11864, 'serpentsymbol');
@@ -28824,6 +30669,9 @@ VALUES (11864, 13, True)
      , (11864, 19, True)
      , (11864, 22, True);
 
+/* Weenie - Gems - Falcon Symbol (11822) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11822;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11822, 'falconsymbol');
 
@@ -28858,6 +30706,9 @@ VALUES (11822, 13, True)
      , (11822, 19, True)
      , (11822, 22, True);
 
+/* Weenie - Gems - Serpent Spear-Head (11863) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11863;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11863, 'serpentspear');
 
@@ -28891,6 +30742,9 @@ VALUES (11863, 13, True)
      , (11863, 14, True)
      , (11863, 19, True)
      , (11863, 22, True);
+
+/* Weenie - Gems - Oxidized Statue (19222) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19222;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19222, 'housestatuebentengreen');
@@ -28971,6 +30825,9 @@ VALUES (19222, 0, 16783897)
      , (19222, 15, 16777335)
      , (19222, 16, 16783891);
 
+/* Weenie - Gems - Warrior's Jewel (30210) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30210;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30210, 'gemrarevolatilehealthregeneration');
 
@@ -29019,6 +30876,9 @@ VALUES (30210, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30210, 0, 16779181);
 
+/* Weenie - Gems - Gem of Mana Management (29557) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29557;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29557, 'gemnoblemanamod');
 
@@ -29062,6 +30922,9 @@ VALUES (29557, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29557, 0, 16779181);
+
+/* Weenie - Gems - Astyrrian's Jewel (30220) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30220;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30220, 'gemrarevolatilelightningprotection');
@@ -29110,6 +30973,9 @@ VALUES (30220, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30220, 0, 16779181);
+
+/* Weenie - Gems - Singularity Caul Asylum (30804) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30804;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30804, 'gemquestasylum');
@@ -29162,6 +31028,9 @@ VALUES (30804, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30804, 0, 16779181);
 
+/* Weenie - Gems - Seat of Knorr Portal Gem (23992) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23992;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23992, 'gemportalknorrseat');
 
@@ -29211,6 +31080,9 @@ VALUES (23992, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23992, 0, 16779181);
 
+/* Weenie - Gems - Pearl of Blade Baning (30190) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30190;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30190, 'gemrarevolatilebladebane');
 
@@ -29254,6 +31126,9 @@ VALUES (30190, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30190, 0, 16779181);
+
+/* Weenie - Gems - Inferno's Jewel (30203) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30203;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30203, 'gemrarevolatilefireprotection');
@@ -29303,6 +31178,9 @@ VALUES (30203, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30203, 0, 16779181);
 
+/* Weenie - Gems - Oxidized Statue (19230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19230;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19230, 'housestatuegromniegreen');
 
@@ -29342,6 +31220,9 @@ VALUES (19230, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19230, 67113812, 0, 0);
 
+/* Weenie - Gems - Dangerous Portal Device (30261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30261;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30261, 'mansionportalset6');
 
@@ -29373,6 +31254,9 @@ VALUES (30261, 13, True)
      , (30261, 14, True)
      , (30261, 19, True)
      , (30261, 22, True);
+
+/* Weenie - Gems - Ancient Temple (30805) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30805;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30805, 'gemquestlivingtome');
@@ -29424,6 +31308,9 @@ VALUES (30805, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30805, 0, 16779181);
+
+/* Weenie - Gems - Oxidized Statue  (19226) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19226;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19226, 'housestatuegolemgreen');
@@ -29508,6 +31395,9 @@ VALUES (19226, 0, 16784123)
      , (19226, 11, 16784119)
      , (19226, 12, 16784114);
 
+/* Weenie - Gems - Life Magic Gem of Enlightenment (22367) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22367;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22367, 'skillgemuplifemagic');
 
@@ -29541,6 +31431,9 @@ VALUES (22367, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22367, 67111923, 0, 0);
 
+/* Weenie - Gems - Item Enchantment Gem of Enlightenment (22364) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22364;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22364, 'skillgemupitemenchantment');
 
@@ -29573,6 +31466,9 @@ VALUES (22364, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22364, 67111923, 0, 0);
+
+/* Weenie - Gems - Vial of Margul Blood (34030) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34030;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34030, 'ace34030-vialofmargulblood');
@@ -29619,6 +31515,9 @@ VALUES (34030, 0, 83889126, 83889126)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34030, 0, 16778735);
+
+/* Weenie - Gems - Oxidized Statue (19224) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19224;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19224, 'housestatuedrudgegreen');
@@ -29702,6 +31601,9 @@ VALUES (19224, 0, 16784255)
      , (19224, 15, 16784297)
      , (19224, 16, 16784297);
 
+/* Weenie - Gems - War Magic Gem of Enlightenment (22383) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22383;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22383, 'skillgemupwarmagic');
 
@@ -29734,6 +31636,9 @@ VALUES (22383, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22383, 67111923, 0, 0);
+
+/* Weenie - Gems - Fort Tethana Portal Gem (31861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31861;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31861, 'ace31861-forttethanaportalgem');
@@ -29785,6 +31690,9 @@ VALUES (31861, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31861, 0, 16779181);
+
+/* Weenie - Gems - Resting Place (27394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27394;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27394, 'gemquestrestingplace');
@@ -29838,6 +31746,9 @@ VALUES (27394, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27394, 0, 16779181);
 
+/* Weenie - Gems - Heavy Weapons Gem of Enlightenment (22380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22380;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22380, 'skillgemupsword');
 
@@ -29870,6 +31781,9 @@ VALUES (22380, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22380, 67111923, 0, 0);
+
+/* Weenie - Gems - Adept's Gem of Protection (34169) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34169;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34169, 'ace34169-adeptsgemofprotection');
@@ -29916,6 +31830,9 @@ VALUES (34169, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34169, 0, 16779181);
 
+/* Weenie - Gems - Minor Essence of the Hopeslayer (34031) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34031;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34031, 'ace34031-minoressenceofthehopeslayer');
 
@@ -29956,6 +31873,9 @@ VALUES (34031, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34031, 0, 16779181);
+
+/* Weenie - Gems - Adept's Gem of Piercing Protection (34176) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34176;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34176, 'ace34176-adeptsgemofpiercingprotection');
@@ -30002,6 +31922,9 @@ VALUES (34176, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34176, 0, 16779181);
 
+/* Weenie - Gems - Adept's Gem of Bludgeon Protection (34171) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34171;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34171, 'ace34171-adeptsgemofbludgeonprotection');
 
@@ -30046,6 +31969,9 @@ VALUES (34171, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34171, 0, 16779181);
+
+/* Weenie - Gems - Decorative Bronze Statue (19227) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19227;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19227, 'housestatuegrievver');
@@ -30197,6 +32123,9 @@ VALUES (19227, 0, 16784647)
      , (19227, 15, 16784650)
      , (19227, 16, 16784650)
      , (19227, 17, 16784650);
+
+/* Weenie - Gems - Oxidized Statue  (19234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19234;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19234, 'housestatuereedsharkgreen');
@@ -30410,6 +32339,9 @@ VALUES (19234, 0, 16777846)
      , (19234, 11, 16777856)
      , (19234, 12, 16777851);
 
+/* Weenie - Gems - Oxidized Statue (19220) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19220;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19220, 'housestatuebanderlinggreen');
 
@@ -30555,6 +32487,9 @@ VALUES (19220, 0, 16777267)
      , (19220, 15, 16777274)
      , (19220, 16, 16777274);
 
+/* Weenie - Gems - Oxidized Statue (19248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19248;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19248, 'housestatuezharalimgreen');
 
@@ -30634,6 +32569,9 @@ VALUES (19248, 0, 16783894)
      , (19248, 15, 16777335)
      , (19248, 16, 16787671);
 
+/* Weenie - Gems - Outland Portal Device (29611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29611;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29611, 'mansionportalset4');
 
@@ -30665,6 +32603,9 @@ VALUES (29611, 13, True)
      , (29611, 14, True)
      , (29611, 19, True)
      , (29611, 22, True);
+
+/* Weenie - Gems - Oxidized Statue (19232) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19232;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19232, 'housestatuemosswartgreen');
@@ -30743,6 +32684,9 @@ VALUES (19232, 0, 16787248)
      , (19232, 15, 16787257)
      , (19232, 16, 16787256);
 
+/* Weenie - Gems - Gem of Lesser Luminance (44719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44719;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44719, 'ace44719-gemoflesserluminance');
 
@@ -30775,6 +32719,9 @@ VALUES (44719, 13, True)
      , (44719, 11, True)
      , (44719, 14, True)
      , (44719, 19, True);
+
+/* Weenie - Gems - Northern Quiddity Fragment (10712) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10712;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10712, 'fragmentquidditynorth');
@@ -30820,6 +32767,9 @@ VALUES (10712, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10712, 0, 16785861);
 
+/* Weenie - Gems - Southern Quiddity Fragment (10713) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10713;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10713, 'fragmentquidditysouth');
 
@@ -30863,6 +32813,9 @@ VALUES (10713, 0, 83888861, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10713, 0, 16785861);
+
+/* Weenie - Gems - Caulnalain Portal Gem (8115) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8115;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8115, 'gemportalcaulnalain');
@@ -30911,6 +32864,9 @@ VALUES (8115, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8115, 0, 16779181);
 
+/* Weenie - Gems - Obsidian Sphere (3720) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3720;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3720, 'sphereobsidian');
 
@@ -30951,6 +32907,9 @@ VALUES (3720, 0, 83888861, 83889680);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3720, 0, 16778862);
+
+/* Weenie - Gems - Obsidian Jewel (3717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3717;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3717, 'jewelobsidian');
@@ -30994,6 +32953,9 @@ VALUES (3717, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3717, 0, 16779181);
+
+/* Weenie - Gems - Craftable Prism Fragment of Lightning (14533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14533;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14533, 'prismfragmentlightningcraftable');
@@ -31041,6 +33003,9 @@ VALUES (14533, 0, 16784246)
      , (14533, 1, 16784196)
      , (14533, 2, 16784180);
 
+/* Weenie - Gems - Jewel of Fire and Ice (14528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14528;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14528, 'jewelfireice');
 
@@ -31081,6 +33046,9 @@ VALUES (14528, 0, 83889688, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14528, 0, 16783974);
 
+/* Weenie - Gems - Armoredillo Hide Collection Bag (28510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28510;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28510, 'sackarmoredillocatalogue');
 
@@ -31114,6 +33082,9 @@ VALUES (28510, 13, True)
      , (28510, 14, True)
      , (28510, 19, True)
      , (28510, 22, True);
+
+/* Weenie - Gems - Tinker's Crystal (41256) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41256;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41256, 'ace41256-tinkerscrystal');
@@ -31158,6 +33129,9 @@ VALUES (41256, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41256, 0, 16779181);
+
+/* Weenie - Gems - Gem of Black Fire (3710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3710;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3710, 'gemblackfire');
@@ -31204,6 +33178,9 @@ VALUES (3710, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3710, 0, 16779181);
+
+/* Weenie - Gems - Executor's Jewel (30185) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30185;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30185, 'gemrarevolatilearmor');
@@ -31253,6 +33230,9 @@ VALUES (30185, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30185, 0, 16779181);
 
+/* Weenie - Gems - Armor Main Reduction Tool (42622) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42622;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42622, 'ace42622-armormainreductiontool');
 
@@ -31286,6 +33266,9 @@ VALUES (42622, 13, True)
      , (42622, 14, True)
      , (42622, 19, True)
      , (42622, 22, True);
+
+/* Weenie - Gems - Platemail Gauntlets (42407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42407;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42407, 'ace42407-platemailgauntlets');
@@ -31333,6 +33316,9 @@ VALUES (42407, 0, 83894333, 83894333);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42407, 0, 16778374);
 
+/* Weenie - Gems - Ancient Tablet of the Crystal Staff (Level 180+) (44293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44293;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44293, 'ace44293-ancienttabletofthecrystalstafflevel180');
 
@@ -31369,6 +33355,9 @@ VALUES (44293, 13, True)
      , (44293, 14, True)
      , (44293, 19, True)
      , (44293, 22, True);
+
+/* Weenie - Gems - Luminous Pearl of Defending (43475) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43475;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43475, 'ace43475-luminouspearlofdefending');
@@ -31418,6 +33407,9 @@ VALUES (43475, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43475, 0, 16779181);
 
+/* Weenie - Gems - Magic Item Tinkering Gem of Enlightenment (22372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22372;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22372, 'skillgemupmagicitemappraisal');
 
@@ -31450,6 +33442,9 @@ VALUES (22372, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22372, 67111923, 0, 0);
+
+/* Weenie - Gems - Broodu's Hide (29561) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29561;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29561, 'hidebroodu');
@@ -31495,6 +33490,9 @@ VALUES (29561, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29561, 0, 16777882);
 
+/* Weenie - Gems - Armor Middle Reduction Tool (44880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44880;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44880, 'ace44880-armormiddlereductiontool');
 
@@ -31528,6 +33526,9 @@ VALUES (44880, 13, True)
      , (44880, 14, True)
      , (44880, 19, True)
      , (44880, 22, True);
+
+/* Weenie - Gems - Shadownether Stone (43817) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43817;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43817, 'ace43817-shadownetherstone');
@@ -31564,6 +33565,9 @@ VALUES (43817, 13, True)
      , (43817, 19, True)
      , (43817, 22, True);
 
+/* Weenie - Gems - Magic Defense Gem of Forgetfulness (22336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22336;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22336, 'skillgemdownmagicdefense');
 
@@ -31596,6 +33600,9 @@ VALUES (22336, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22336, 67111924, 0, 0);
+
+/* Weenie - Gems - Fragment of the New Singularity (12271) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12271;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12271, 'fragmentnewsingularity');
@@ -31638,6 +33645,9 @@ VALUES (12271, 0, 83893820, 83893819);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12271, 0, 16787401);
+
+/* Weenie - Gems - Portal Gem (28455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28455;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28455, 'gemportalmorgluukreward');
@@ -31689,6 +33699,9 @@ VALUES (28455, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28455, 0, 16779181);
 
+/* Weenie - Gems - Black Gem (5655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5655;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5655, 'gemportalmageacademy');
 
@@ -31731,6 +33744,9 @@ VALUES (5655, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5655, 0, 16779181);
+
+/* Weenie - Gems - Dark Towers (27388) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27388;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27388, 'gemquestdarktowers');
@@ -31784,6 +33800,9 @@ VALUES (27388, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27388, 0, 16779181);
 
+/* Weenie - Gems - Al Arqas Town Stamp (8716) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8716;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8716, 'stampalarqasnewbiequest');
 
@@ -31820,6 +33839,9 @@ VALUES (8716, 13, True)
      , (8716, 14, True)
      , (8716, 19, True)
      , (8716, 22, True);
+
+/* Weenie - Gems - Lytelthorpe Town Stamp (8736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8736;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8736, 'stamplytelthorpenewbiequest');
@@ -31858,6 +33880,9 @@ VALUES (8736, 13, True)
      , (8736, 19, True)
      , (8736, 22, True);
 
+/* Weenie - Gems - Nanto Town Stamp (8737) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8737;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8737, 'stampnantonewbiequest');
 
@@ -31895,6 +33920,9 @@ VALUES (8737, 13, True)
      , (8737, 19, True)
      , (8737, 22, True);
 
+/* Weenie - Gems - Samsur Town Stamp (8739) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8739;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8739, 'stampsamsurnewbiequest');
 
@@ -31931,6 +33959,9 @@ VALUES (8739, 13, True)
      , (8739, 14, True)
      , (8739, 19, True)
      , (8739, 22, True);
+
+/* Weenie - Gems - Gold Hill Ruins (27386) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27386;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27386, 'gemquestcoinattachment');
@@ -31984,6 +34015,9 @@ VALUES (27386, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27386, 0, 16779181);
 
+/* Weenie - Gems - Ornate Brass Banding (36550) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36550;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36550, 'ace36550-ornatebrassbanding');
 
@@ -32031,6 +34065,9 @@ VALUES (36550, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36550, 0, 16777882);
+
+/* Weenie - Gems - Hardened Blue Crystal (36547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36547;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36547, 'ace36547-hardenedbluecrystal');
@@ -32080,6 +34117,9 @@ VALUES (36547, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36547, 0, 16777882);
 
+/* Weenie - Gems - Armor Lower Reduction Tool (44879) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44879;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44879, 'ace44879-armorlowerreductiontool');
 
@@ -32114,6 +34154,9 @@ VALUES (44879, 13, True)
      , (44879, 19, True)
      , (44879, 22, True);
 
+/* Weenie - Gems - Vestibule Lock (31382) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31382;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31382, 'ace31382-vestibulelock');
 
@@ -32143,6 +34186,9 @@ VALUES (31382, 13, True)
      , (31382, 14, True)
      , (31382, 19, True)
      , (31382, 22, True);
+
+/* Weenie - Gems - Gem of Harbinger's Flame Barrier (36187) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36187;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36187, 'ace36187-gemofharbingersflamebarrier');
@@ -32190,6 +34236,9 @@ VALUES (36187, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36187, 0, 16779181);
 
+/* Weenie - Gems - Pack Harbinger (33186) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33186;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33186, 'ace33186-packharbinger');
 
@@ -32224,6 +34273,9 @@ VALUES (33186, 13, True)
      , (33186, 14, True)
      , (33186, 19, True)
      , (33186, 22, True);
+
+/* Weenie - Gems - Decorative Bronze Statue  (19223) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19223;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19223, 'housestatuedrudge');
@@ -32307,6 +34359,9 @@ VALUES (19223, 0, 16784255)
      , (19223, 15, 16784297)
      , (19223, 16, 16784297);
 
+/* Weenie - Gems - Decorative Bronze Statue (19237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19237;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19237, 'housestatueshadow');
 
@@ -32345,6 +34400,9 @@ VALUES (19237, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19237, 67113845, 0, 0);
+
+/* Weenie - Gems - Decorative Bronze Statue  (19239) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19239;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19239, 'housestatueskeleton');
@@ -32627,6 +34685,9 @@ VALUES (19239, 0, 16779946)
      , (19239, 15, 16779947)
      , (19239, 16, 16779969);
 
+/* Weenie - Gems - Golem Heart Crate (28500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28500;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28500, 'crategolemcatalogue');
 
@@ -32660,6 +34721,9 @@ VALUES (28500, 13, True)
      , (28500, 14, True)
      , (28500, 19, True)
      , (28500, 22, True);
+
+/* Weenie - Gems - Pale Crystal (9045) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9045;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9045, 'gemthauleggings');
@@ -32707,6 +34771,9 @@ VALUES (9045, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9045, 0, 16779181);
 
+/* Weenie - Gems - Offering to Xik Minru (32024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32024;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32024, 'ace32024-offeringtoxikminru');
 
@@ -32736,6 +34803,9 @@ VALUES (32024, 13, True)
      , (32024, 14, True)
      , (32024, 19, True)
      , (32024, 22, True);
+
+/* Weenie - Gems - Sunstone Geode (9046) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9046;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9046, 'geodesunstone');
@@ -32784,6 +34854,9 @@ VALUES (9046, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9046, 0, 16778862);
 
+/* Weenie - Gems - Tiriun Mushroom (34850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34850;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34850, 'ace34850-tiriunmushroom');
 
@@ -32819,6 +34892,9 @@ VALUES (34850, 13, True)
      , (34850, 11, True)
      , (34850, 14, True)
      , (34850, 19, True);
+
+/* Weenie - Gems - Gem of Damage Modification (29554) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29554;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29554, 'gemnobledamagemod');
@@ -32864,6 +34940,9 @@ VALUES (29554, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29554, 0, 16779181);
 
+/* Weenie - Gems - Seething Skull (30808) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30808;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30808, 'gemportafloatingbridge');
 
@@ -32905,6 +34984,9 @@ VALUES (30808, 13, True)
      , (30808, 15, True)
      , (30808, 19, True);
 
+/* Weenie - Gems - Scratched Gear (42113) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42113;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42113, 'ace42113-scratchedgear');
 
@@ -32935,6 +35017,9 @@ VALUES (42113, 13, True)
      , (42113, 11, True)
      , (42113, 14, True)
      , (42113, 19, True);
+
+/* Weenie - Gems - Gem of Knowledge (43187) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43187;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43187, 'ace43187-gemofknowledge');
@@ -32969,6 +35054,9 @@ VALUES (43187, 13, True)
      , (43187, 14, True)
      , (43187, 19, True);
 
+/* Weenie - Gems - Gem of Knowledge (43186) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43186;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43186, 'ace43186-gemofknowledge');
 
@@ -33001,6 +35089,9 @@ VALUES (43186, 13, True)
      , (43186, 11, True)
      , (43186, 14, True)
      , (43186, 19, True);
+
+/* Weenie - Gems - Corcima Castle Gold Ward Portal Gem (29445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29445;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29445, 'gemportalcorcimacastlewardgold');
@@ -33053,6 +35144,9 @@ VALUES (29445, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29445, 0, 16779181);
 
+/* Weenie - Gems - Item Tinkering Gem of Enlightenment (22363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22363;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22363, 'skillgemupitemappraisal');
 
@@ -33085,6 +35179,9 @@ VALUES (22363, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22363, 67111923, 0, 0);
+
+/* Weenie - Gems - Rynthid Tentacle Bow (51484) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51484;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51484, 'ace51484-rynthidtentaclebow');
@@ -33133,6 +35230,9 @@ VALUES (51484, 0, 83899155, 83899155)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51484, 0, 16797052);
 
+/* Weenie - Gems - Copper Medal of Vigor (41448) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41448;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41448, 'ace41448-coppermedalofvigor');
 
@@ -33172,6 +35272,9 @@ VALUES (41448, 13, True)
      , (41448, 14, True)
      , (41448, 19, True)
      , (41448, 22, True);
+
+/* Weenie - Gems - Corcima Castle Silver Ward Portal Gem (29447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29447;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29447, 'gemportalcorcimacastlewardsilver');
@@ -33224,6 +35327,9 @@ VALUES (29447, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29447, 0, 16779181);
 
+/* Weenie - Gems - Gem of Knowledge (43188) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43188;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43188, 'ace43188-gemofknowledge');
 
@@ -33256,6 +35362,9 @@ VALUES (43188, 13, True)
      , (43188, 11, True)
      , (43188, 14, True)
      , (43188, 19, True);
+
+/* Weenie - Gems - Dual Wield Gem of Forgetfulness (45376) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45376;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45376, 'ace45376-dualwieldgemofforgetfulness');
@@ -33290,6 +35399,9 @@ VALUES (45376, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45376, 67111924, 0, 0);
 
+/* Weenie - Gems - Recklessness Gem of Forgetfulness (45377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45377;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45377, 'ace45377-recklessnessgemofforgetfulness');
 
@@ -33322,6 +35434,9 @@ VALUES (45377, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45377, 67111924, 0, 0);
+
+/* Weenie - Gems - Virindi Message Shard (36613) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36613;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36613, 'ace36613-virindimessageshard');
@@ -33357,6 +35472,9 @@ VALUES (36613, 13, True)
      , (36613, 14, True)
      , (36613, 19, True)
      , (36613, 22, True);
+
+/* Weenie - Gems - Paradox-infused Potion (36614) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36614;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36614, 'ace36614-paradoxinfusedpotion');
@@ -33401,6 +35519,9 @@ VALUES (36614, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36614, 0, 16780684);
 
+/* Weenie - Gems - A'nekshay Bracer Collecting (Level 200+) (44356) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44356;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44356, 'ace44356-anekshaybracercollectinglevel200');
 
@@ -33437,6 +35558,9 @@ VALUES (44356, 13, True)
      , (44356, 14, True)
      , (44356, 19, True)
      , (44356, 22, True);
+
+/* Weenie - Gems - Stone Tablet Collecting (Level 200+) (44358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44358;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44358, 'ace44358-stonetabletcollectinglevel200');
@@ -33475,6 +35599,9 @@ VALUES (44358, 13, True)
      , (44358, 19, True)
      , (44358, 22, True);
 
+/* Weenie - Gems - Golem Hunting: Lost City of Neftet (Level 200+) (44353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44353;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44353, 'ace44353-golemhuntinglostcityofneftetlevel200');
 
@@ -33511,6 +35638,9 @@ VALUES (44353, 13, True)
      , (44353, 14, True)
      , (44353, 19, True)
      , (44353, 22, True);
+
+/* Weenie - Gems - Prickly Pear Collecting (Level 200+) (44357) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44357;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44357, 'ace44357-pricklypearcollectinglevel200');
@@ -33549,6 +35679,9 @@ VALUES (44357, 13, True)
      , (44357, 19, True)
      , (44357, 22, True);
 
+/* Weenie - Gems - Elysa's Hope (36786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36786;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36786, 'ace36786-elysashope');
 
@@ -33582,6 +35715,9 @@ VALUES (36786, 13, True)
      , (36786, 14, True)
      , (36786, 19, True)
      , (36786, 22, True);
+
+/* Weenie - Gems - Elysa's Partial Reflection (36788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36788;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36788, 'ace36788-elysaspartialreflection');
@@ -33617,6 +35753,9 @@ VALUES (36788, 13, True)
      , (36788, 19, True)
      , (36788, 22, True);
 
+/* Weenie - Gems - Elysa's Incomplete Reflection (36782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36782;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36782, 'ace36782-elysasincompletereflection');
 
@@ -33651,6 +35790,9 @@ VALUES (36782, 13, True)
      , (36782, 19, True)
      , (36782, 22, True);
 
+/* Weenie - Gems - Empyrean Spherule (36757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36757;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36757, 'ace36757-empyreanspherule');
 
@@ -33681,6 +35823,9 @@ VALUES (36757, 13, True)
      , (36757, 14, True)
      , (36757, 19, True)
      , (36757, 22, True);
+
+/* Weenie - Gems - Contract for Kill: Rynthid Rifts (51875) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51875;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51875, 'ace51875-contractforkillrynthidrifts');
@@ -33720,6 +35865,9 @@ VALUES (51875, 13, True)
      , (51875, 19, True)
      , (51875, 22, True);
 
+/* Weenie - Gems - Contract for Kill: Rynthid Minions (51869) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51869;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51869, 'ace51869-contractforkillrynthidminions');
 
@@ -33757,6 +35905,9 @@ VALUES (51869, 13, True)
      , (51869, 14, True)
      , (51869, 19, True)
      , (51869, 22, True);
+
+/* Weenie - Gems - Contract for Kill: Empowered Wisps (51870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51870;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51870, 'ace51870-contractforkillempoweredwisps');
@@ -33796,6 +35947,9 @@ VALUES (51870, 13, True)
      , (51870, 19, True)
      , (51870, 22, True);
 
+/* Weenie - Gems - Ancient Tablet of the Crystal Amulet (Level 180+) (44295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44295;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44295, 'ace44295-ancienttabletofthecrystalamuletlevel180');
 
@@ -33832,6 +35986,9 @@ VALUES (44295, 13, True)
      , (44295, 14, True)
      , (44295, 19, True)
      , (44295, 22, True);
+
+/* Weenie - Gems - Ancient Tablet of the Crystal Sword (Level 180+) (44294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44294;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44294, 'ace44294-ancienttabletofthecrystalswordlevel180');
@@ -33870,6 +36027,9 @@ VALUES (44294, 13, True)
      , (44294, 19, True)
      , (44294, 22, True);
 
+/* Weenie - Gems - Crystallized Essence of Enchantment (32746) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32746;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32746, 'ace32746-crystallizedessenceofenchantment');
 
@@ -33903,6 +36063,9 @@ VALUES (32746, 13, True)
      , (32746, 14, True)
      , (32746, 19, True)
      , (32746, 22, True);
+
+/* Weenie - Gems - Gem of Harbinger's Acid Barrier (36185) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36185;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36185, 'ace36185-gemofharbingersacidbarrier');
@@ -33950,6 +36113,9 @@ VALUES (36185, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36185, 0, 16779181);
 
+/* Weenie - Gems - Depleted Aetherium Ore (41566) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41566;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41566, 'ace41566-depletedaetheriumore');
 
@@ -33979,6 +36145,9 @@ VALUES (41566, 13, True)
      , (41566, 11, True)
      , (41566, 14, True)
      , (41566, 19, True);
+
+/* Weenie - Gems - Gem of Arcane Corruption (32255) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32255;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32255, 'ace32255-gemofarcanecorruption');
@@ -34024,6 +36193,9 @@ VALUES (32255, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32255, 0, 16779181);
 
+/* Weenie - Gems - Falatacot Blood Prophetess Trinket (38042) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38042;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38042, 'ace38042-falatacotbloodprophetesstrinket');
 
@@ -34066,6 +36238,9 @@ VALUES (38042, 0, 83888861, 83889680);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38042, 0, 16778862);
+
+/* Weenie - Gems - Glowing Statue Shard (35178) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35178;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35178, 'ace35178-glowingstatueshard');
@@ -34114,6 +36289,9 @@ VALUES (35178, 0, 83889680, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35178, 0, 16784015);
 
+/* Weenie - Gems - Iniquitous Fragment (31380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31380;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31380, 'ace31380-iniquitousfragment');
 
@@ -34142,6 +36320,9 @@ VALUES (31380, 13, True)
      , (31380, 14, True)
      , (31380, 19, True)
      , (31380, 22, True);
+
+/* Weenie - Gems - Combined Artifact Fragment (31379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31379;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31379, 'ace31379-combinedartifactfragment');
@@ -34176,6 +36357,9 @@ VALUES (31379, 13, True)
      , (31379, 19, True)
      , (31379, 22, True);
 
+/* Weenie - Gems - Vestibule Lock (31381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31381;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31381, 'ace31381-vestibulelock');
 
@@ -34204,6 +36388,9 @@ VALUES (31381, 13, True)
      , (31381, 14, True)
      , (31381, 19, True)
      , (31381, 22, True);
+
+/* Weenie - Gems - Woven Tassel of Discord (25959) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25959;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25959, 'tasselmelee');
@@ -34242,6 +36429,9 @@ VALUES (25959, 13, True)
      , (25959, 19, True)
      , (25959, 22, True);
 
+/* Weenie - Gems - Woven Tassel of Sound Mind (25958) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25958;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25958, 'tasselmagic');
 
@@ -34279,6 +36469,9 @@ VALUES (25958, 13, True)
      , (25958, 19, True)
      , (25958, 22, True);
 
+/* Weenie - Gems - Woven Tassel of Far Sight (25960) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25960;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25960, 'tasselmissile');
 
@@ -34315,6 +36508,9 @@ VALUES (25960, 13, True)
      , (25960, 14, True)
      , (25960, 19, True)
      , (25960, 22, True);
+
+/* Weenie - Gems - Force Opal (9427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9427;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9427, 'gemlugianbludgeon3');
@@ -34362,6 +36558,9 @@ VALUES (9427, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9427, 0, 16779181);
 
+/* Weenie - Gems - Armor Diamond (9426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9426;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9426, 'gemlugianarmor3');
 
@@ -34407,6 +36606,9 @@ VALUES (9426, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9426, 0, 16779181);
+
+/* Weenie - Gems - Thorned Garnet (9431) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9431;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9431, 'gemlugianpierce3');
@@ -34454,6 +36656,9 @@ VALUES (9431, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9431, 0, 16779181);
 
+/* Weenie - Gems - A Broken Insignia Ring (27457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27457;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27457, 'ringinsigniabrokenb');
 
@@ -34489,6 +36694,9 @@ VALUES (27457, 13, True)
      , (27457, 14, True)
      , (27457, 19, True)
      , (27457, 22, True);
+
+/* Weenie - Gems - A'nekshay Slayer Stone (44636) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44636;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44636, 'ace44636-anekshayslayerstone');
@@ -34535,6 +36743,9 @@ VALUES (44636, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44636, 0, 16779181);
+
+/* Weenie - Gems - Tome of Flame (51487) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51487;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51487, 'ace51487-tomeofflame');
@@ -34586,6 +36797,9 @@ VALUES (51487, 0, 83897996, 83897996)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51487, 0, 16794234);
 
+/* Weenie - Gems - Spectral Missile Weapon Mastery Crystal (36015) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36015;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36015, 'ace36015-spectralmissileweaponmasterycrystal');
 
@@ -34631,6 +36845,9 @@ VALUES (36015, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36015, 0, 16779181);
 
+/* Weenie - Gems - Crystallized Essence of Strife (32749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32749;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32749, 'ace32749-crystallizedessenceofstrife');
 
@@ -34664,6 +36881,9 @@ VALUES (32749, 13, True)
      , (32749, 14, True)
      , (32749, 19, True)
      , (32749, 22, True);
+
+/* Weenie - Gems - Crystallized Essence of Artifice (32747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32747;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32747, 'ace32747-crystallizedessenceofartifice');
@@ -34699,6 +36919,9 @@ VALUES (32747, 13, True)
      , (32747, 19, True)
      , (32747, 22, True);
 
+/* Weenie - Gems - Crystallized Essence of Verdancy (32748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32748;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32748, 'ace32748-crystallizedessenceofverdancy');
 
@@ -34732,6 +36955,9 @@ VALUES (32748, 13, True)
      , (32748, 14, True)
      , (32748, 19, True)
      , (32748, 22, True);
+
+/* Weenie - Gems - Attuned Essence Gem (42729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42729;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42729, 'ace42729-attunedessencegem');
@@ -34780,6 +37006,9 @@ VALUES (42729, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42729, 0, 16779181);
 
+/* Weenie - Gems - Reedshark Hunting: Lost City of Neftet (Level 200+) (44355) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44355;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44355, 'ace44355-reedsharkhuntinglostcityofneftetlevel200');
 
@@ -34817,6 +37046,9 @@ VALUES (44355, 13, True)
      , (44355, 19, True)
      , (44355, 22, True);
 
+/* Weenie - Gems - Mu-miyah Hunting: Lost City of Neftet (Level 200+) (44354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44354;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44354, 'ace44354-mumiyahhuntinglostcityofneftetlevel200');
 
@@ -34853,6 +37085,9 @@ VALUES (44354, 13, True)
      , (44354, 14, True)
      , (44354, 19, True)
      , (44354, 22, True);
+
+/* Weenie - Gems - Lair of The Homunculus (27391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27391;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27391, 'gemquesthomunculus');
@@ -34906,6 +37141,9 @@ VALUES (27391, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27391, 0, 16779181);
 
+/* Weenie - Gems - Pack Dark Remoran (34190) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34190;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34190, 'ace34190-packdarkremoran');
 
@@ -34944,6 +37182,9 @@ VALUES (34190, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34190, 67116733, 0, 0);
+
+/* Weenie - Gems - Keerik's Hide (29563) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29563;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29563, 'hidekeerik');
@@ -34989,6 +37230,9 @@ VALUES (29563, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29563, 0, 16777882);
 
+/* Weenie - Gems - Sclavus Cataloguing Crate (28506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28506;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28506, 'cratesclavuscatalogue');
 
@@ -35023,6 +37267,9 @@ VALUES (28506, 13, True)
      , (28506, 19, True)
      , (28506, 22, True);
 
+/* Weenie - Gems - A'nekshay Gem of Knowledge (47156) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47156;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47156, 'ace47156-anekshaygemofknowledge');
 
@@ -35055,6 +37302,9 @@ VALUES (47156, 13, True)
      , (47156, 11, True)
      , (47156, 14, True)
      , (47156, 19, True);
+
+/* Weenie - Gems - Oxidized Statue  (19238) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19238;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19238, 'housestatueshadowgreen');
@@ -35095,6 +37345,9 @@ VALUES (19238, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19238, 67113844, 0, 0);
 
+/* Weenie - Gems - Golem Heart Crate (28501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28501;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28501, 'crategolemcatalogue2');
 
@@ -35128,6 +37381,9 @@ VALUES (28501, 13, True)
      , (28501, 14, True)
      , (28501, 19, True)
      , (28501, 22, True);
+
+/* Weenie - Gems - Golem Heart Crate (28503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28503;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28503, 'crategolemcatalogue4');
@@ -35163,6 +37419,9 @@ VALUES (28503, 13, True)
      , (28503, 19, True)
      , (28503, 22, True);
 
+/* Weenie - Gems - Golem Heart Crate (28504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28504;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28504, 'crategolemcatalogue5');
 
@@ -35196,6 +37455,9 @@ VALUES (28504, 13, True)
      , (28504, 14, True)
      , (28504, 19, True)
      , (28504, 22, True);
+
+/* Weenie - Gems - Decorative Bronze Statue (19231) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19231;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19231, 'housestatuemosswart');
@@ -35274,6 +37536,9 @@ VALUES (19231, 0, 16787248)
      , (19231, 15, 16787257)
      , (19231, 16, 16787256);
 
+/* Weenie - Gems - Caulnalain Gem (8111) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8111;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8111, 'gemcaulnalain');
 
@@ -35316,6 +37581,9 @@ VALUES (8111, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8111, 0, 16779181);
 
+/* Weenie - Gems - Sneak Attack Gem of Enlightenment (45384) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45384;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45384, 'ace45384-sneakattackgemofenlightenment');
 
@@ -35348,6 +37616,9 @@ VALUES (45384, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45384, 67111923, 0, 0);
+
+/* Weenie - Gems - Decorative Bronze Statue  (19235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19235;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19235, 'housestatuesclavus');
@@ -35545,6 +37816,9 @@ VALUES (19235, 0, 16782252)
      , (19235, 15, 16782258)
      , (19235, 16, 16782264);
 
+/* Weenie - Gems - Browerk's Hide (29562) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29562;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29562, 'hidebrowerk');
 
@@ -35589,6 +37863,9 @@ VALUES (29562, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29562, 0, 16777882);
 
+/* Weenie - Gems - Nuhmudira's Token (12688) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12688;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12688, 'tokennuhmudira');
 
@@ -35628,6 +37905,9 @@ VALUES (12688, 0, 83893723, 83892225)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12688, 0, 16787203);
 
+/* Weenie - Gems - Desolate Seed (30803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30803;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30803, 'gemportalsingularitycaul');
 
@@ -35666,6 +37946,9 @@ VALUES (30803, 13, True)
      , (30803, 15, True)
      , (30803, 19, True);
 
+/* Weenie - Gems - Black Glass Array (30800) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30800;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30800, 'gemportalobsidianplains');
 
@@ -35703,6 +37986,9 @@ VALUES (30800, 13, True)
      , (30800, 14, True)
      , (30800, 15, True)
      , (30800, 19, True);
+
+/* Weenie - Gems - Kai's Reward Gem (20020) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20020;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20020, 'gemrewardskai');
@@ -35745,6 +38031,9 @@ VALUES (20020, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20020, 0, 16779181);
+
+/* Weenie - Gems - Red Gem (3712) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3712;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3712, 'gemredvirindi');
@@ -35791,6 +38080,9 @@ VALUES (3712, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3712, 0, 16779181);
 
+/* Weenie - Gems - Gem (280) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 280;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (280, 'gem');
 
@@ -35819,6 +38111,9 @@ VALUES (280, 13, True)
      , (280, 14, True)
      , (280, 19, True)
      , (280, 22, True);
+
+/* Weenie - Gems - Explorer's Backpack Token (41254) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41254;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41254, 'ace41254-explorersbackpacktoken');
@@ -35865,6 +38160,9 @@ VALUES (41254, 0, 83886723, 83886723)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41254, 0, 16778611);
+
+/* Weenie - Gems - Dapper Suit (44878) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44878;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44878, 'ace44878-dappersuit');
@@ -35915,6 +38213,9 @@ VALUES (44878, 0, 83887061, 83894859)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44878, 0, 16778367);
 
+/* Weenie - Gems - West Gate Harmonic Crystal (37061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37061;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37061, 'ace37061-westgateharmoniccrystal');
 
@@ -35958,6 +38259,9 @@ VALUES (37061, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37061, 0, 16779181);
+
+/* Weenie - Gems - Flaming Weeping Sword (51492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51492;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51492, 'ace51492-flamingweepingsword');
@@ -36007,6 +38311,9 @@ VALUES (51492, 0, 83894777, 83894777)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51492, 0, 16789569);
 
+/* Weenie - Gems - Electric Weeping Sword (51479) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51479;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51479, 'ace51479-electricweepingsword');
 
@@ -36055,6 +38362,9 @@ VALUES (51479, 0, 83894777, 83894777)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51479, 0, 16789569);
 
+/* Weenie - Gems - Gem of Inner Brilliance (29556) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29556;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29556, 'gemnoblefocus');
 
@@ -36099,6 +38409,9 @@ VALUES (29556, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29556, 0, 16779181);
 
+/* Weenie - Gems - Virindi Message Shard (35561) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35561;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35561, 'ace35561-virindimessageshard');
 
@@ -36134,6 +38447,9 @@ VALUES (35561, 13, True)
      , (35561, 19, True)
      , (35561, 22, True);
 
+/* Weenie - Gems - Whispering Blade Token (41713) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41713;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41713, 'ace41713-whisperingbladetoken');
 
@@ -36163,6 +38479,9 @@ VALUES (41713, 13, True)
      , (41713, 14, True)
      , (41713, 19, True)
      , (41713, 22, True);
+
+/* Weenie - Gems - Radiant Blood Supplies (41831) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41831;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41831, 'ace41831-radiantbloodsupplies');
@@ -36198,6 +38517,9 @@ VALUES (41831, 13, True)
      , (41831, 19, True)
      , (41831, 22, True);
 
+/* Weenie - Gems - Eldrytch Web Supplies (41833) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41833;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41833, 'ace41833-eldrytchwebsupplies');
 
@@ -36231,6 +38553,9 @@ VALUES (41833, 13, True)
      , (41833, 14, True)
      , (41833, 19, True)
      , (41833, 22, True);
+
+/* Weenie - Gems - Shreth Spear-Head (11865) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11865;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11865, 'shrethspear');
@@ -36266,6 +38591,9 @@ VALUES (11865, 13, True)
      , (11865, 19, True)
      , (11865, 22, True);
 
+/* Weenie - Gems - Mask Spear-Head (11841) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11841;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11841, 'maskspear');
 
@@ -36299,6 +38627,9 @@ VALUES (11841, 13, True)
      , (11841, 14, True)
      , (11841, 19, True)
      , (11841, 22, True);
+
+/* Weenie - Gems - Linvak Tukal Portal Gem (27091) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27091;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27091, 'gemportallinvaktukal');
@@ -36351,6 +38682,9 @@ VALUES (27091, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27091, 0, 16779181);
 
+/* Weenie - Gems - Hive Gem of Dispelling (51216) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51216;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51216, 'ace51216-hivegemofdispelling');
 
@@ -36400,6 +38734,9 @@ VALUES (51216, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51216, 0, 16779181);
 
+/* Weenie - Gems - Shadowfire Stone (32651) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32651;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32651, 'ace32651-shadowfirestone');
 
@@ -36434,6 +38771,9 @@ VALUES (32651, 13, True)
      , (32651, 14, True)
      , (32651, 19, True)
      , (32651, 22, True);
+
+/* Weenie - Gems - Farmer's Basement Portal Gem (53356) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53356;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53356, 'ace53356-farmersbasementportalgem');
@@ -36485,6 +38825,9 @@ VALUES (53356, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53356, 0, 16779181);
 
+/* Weenie - Gems - Antagonist Token (25536) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25536;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25536, 'tokenantagonistbackpack');
 
@@ -36524,6 +38867,9 @@ VALUES (25536, 0, 83893723, 83893850)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25536, 0, 16787203);
 
+/* Weenie - Gems - Spectral Ingot (37492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37492;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37492, 'ace37492-spectralingot');
 
@@ -36553,6 +38899,9 @@ VALUES (37492, 13, True)
      , (37492, 14, True)
      , (37492, 19, True)
      , (37492, 22, True);
+
+/* Weenie - Gems - Craftable Prism Fragment of Acid (14530) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14530;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14530, 'prismfragmentacidcraftable');
@@ -36600,6 +38949,9 @@ VALUES (14530, 0, 16784246)
      , (14530, 1, 16784196)
      , (14530, 2, 16784180);
 
+/* Weenie - Gems - Jewel of Acid and Lightning (14527) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14527;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14527, 'jewelacidlightning');
 
@@ -36639,6 +38991,9 @@ VALUES (14527, 0, 83889688, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14527, 0, 16783974);
+
+/* Weenie - Gems - Fragment of the Acid Prism (14523) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14523;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14523, 'prismfragmentacid');
@@ -36684,6 +39039,9 @@ VALUES (14523, 0, 16784246)
      , (14523, 1, 16784196)
      , (14523, 2, 16784180);
 
+/* Weenie - Gems - Fragment of the Fire Prism (14524) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14524;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14524, 'prismfragmentfire');
 
@@ -36727,6 +39085,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14524, 0, 16784246)
      , (14524, 1, 16784196)
      , (14524, 2, 16784180);
+
+/* Weenie - Gems - Fragment of the Ice Prism (14525) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14525;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14525, 'prismfragmentice');
@@ -36772,6 +39133,9 @@ VALUES (14525, 0, 16784246)
      , (14525, 1, 16784196)
      , (14525, 2, 16784180);
 
+/* Weenie - Gems - Fragment of the Lightning Prism (14526) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14526;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14526, 'prismfragmentlightning');
 
@@ -36816,6 +39180,9 @@ VALUES (14526, 0, 16784246)
      , (14526, 1, 16784196)
      , (14526, 2, 16784180);
 
+/* Weenie - Gems - Contract for Hamud's Demise (44178) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44178;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44178, 'ace44178-contractforhamudsdemise');
 
@@ -36854,6 +39221,9 @@ VALUES (44178, 13, True)
      , (44178, 19, True)
      , (44178, 22, True);
 
+/* Weenie - Gems - Gromnie Crest (11813) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11813;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11813, 'crestgromnie');
 
@@ -36890,6 +39260,9 @@ VALUES (11813, 13, True)
      , (11813, 14, True)
      , (11813, 19, True)
      , (11813, 22, True);
+
+/* Weenie - Gems - Oxidized Statue (19228) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19228;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19228, 'housestatuegrievvergreen');
@@ -37042,6 +39415,9 @@ VALUES (19228, 0, 16784647)
      , (19228, 16, 16784650)
      , (19228, 17, 16784650);
 
+/* Weenie - Gems - Olthoi Amuli Leggings (42417) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42417;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42417, 'ace42417-olthoiamulileggings');
 
@@ -37094,6 +39470,9 @@ VALUES (42417, 0, 83887064, 83897889)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42417, 0, 16778829);
 
+/* Weenie - Gems - Damaged Shadow Stone (32589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32589;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32589, 'ace32589-damagedshadowstone');
 
@@ -37124,6 +39503,9 @@ VALUES (32589, 11, True)
      , (32589, 14, True)
      , (32589, 19, True)
      , (32589, 22, True);
+
+/* Weenie - Gems - Blue Gem (3711) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3711;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3711, 'gembluevirindi');
@@ -37170,6 +39552,9 @@ VALUES (3711, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3711, 0, 16779181);
 
+/* Weenie - Gems - Shadow Stalker Title Token (32025) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32025;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32025, 'ace32025-shadowstalkertitletoken');
 
@@ -37199,6 +39584,9 @@ VALUES (32025, 13, True)
      , (32025, 14, True)
      , (32025, 19, True)
      , (32025, 22, True);
+
+/* Weenie - Gems - Celestial Hand Supplies (41832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41832;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41832, 'ace41832-celestialhandsupplies');
@@ -37233,6 +39621,9 @@ VALUES (41832, 13, True)
      , (41832, 14, True)
      , (41832, 19, True)
      , (41832, 22, True);
+
+/* Weenie - Gems - Heaume (42414) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42414;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42414, 'ace42414-heaume');
@@ -37280,6 +39671,9 @@ VALUES (42414, 0, 83886490, 83886490);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42414, 0, 16780818);
 
+/* Weenie - Gems - Bai Den's Gem (5186) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5186;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5186, 'gembaiden');
 
@@ -37321,6 +39715,9 @@ VALUES (5186, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5186, 0, 16779181);
+
+/* Weenie - Gems - Luminous Crystal of Towering Defense (43474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43474;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43474, 'ace43474-luminouscrystaloftoweringdefense');
@@ -37374,6 +39771,9 @@ VALUES (43474, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43474, 0, 16779181);
 
+/* Weenie - Gems - Luminous Crystal of Surging Strength (43473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43473;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43473, 'ace43473-luminouscrystalofsurgingstrength');
 
@@ -37426,6 +39826,9 @@ VALUES (43473, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43473, 0, 16779181);
 
+/* Weenie - Gems - Corcima Castle Copper Ward Portal Gem (29444) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29444;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29444, 'gemportalcorcimacastlewardcopper');
 
@@ -37477,6 +39880,9 @@ VALUES (29444, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29444, 0, 16779181);
 
+/* Weenie - Gems - Luminous Crystal of Vitality (43478) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43478;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43478, 'ace43478-luminouscrystalofvitality');
 
@@ -37525,6 +39931,9 @@ VALUES (43478, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43478, 0, 16779181);
 
+/* Weenie - Gems - Magic Defense Weapon Augmentation (36631) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36631;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36631, 'ace36631-magicdefenseweaponaugmentation');
 
@@ -37570,6 +39979,9 @@ VALUES (36631, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36631, 0, 16779181);
+
+/* Weenie - Gems - Luminous Pearl of Spirit Drinking (43477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43477;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43477, 'ace43477-luminouspearlofspiritdrinking');
@@ -37619,6 +40031,9 @@ VALUES (43477, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43477, 0, 16779181);
 
+/* Weenie - Gems - Spectral Crystal of the Hieromancer (36024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36024;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36024, 'ace36024-spectralcrystalofthehieromancer');
 
@@ -37664,6 +40079,9 @@ VALUES (36024, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36024, 0, 16779181);
 
+/* Weenie - Gems - Loyalty Gem of Forgetfulness (22334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22334;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22334, 'skillgemdownloyalty');
 
@@ -37696,6 +40114,9 @@ VALUES (22334, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22334, 67111924, 0, 0);
+
+/* Weenie - Gems - Yoroi Pauldrons (42418) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42418;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42418, 'ace42418-yoroipauldrons');
@@ -37742,6 +40163,9 @@ VALUES (42418, 0, 83886788, 83889770);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42418, 0, 16778411);
+
+/* Weenie - Gems - Yoroi Girth (42409) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42409;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42409, 'ace42409-yoroigirth');
@@ -37791,6 +40215,9 @@ VALUES (42409, 0, 83889072, 83886236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42409, 0, 16778376);
 
+/* Weenie - Gems - Yoroi Greaves (42411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42411;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42411, 'ace42411-yoroigreaves');
 
@@ -37836,6 +40263,9 @@ VALUES (42411, 0, 83886788, 83889768);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42411, 0, 16778411);
+
+/* Weenie - Gems - Leather Boots (42422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42422;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42422, 'ace42422-leatherboots');
@@ -37895,6 +40325,9 @@ VALUES (42422, 0, 16789640)
      , (42422, 4, 16781840)
      , (42422, 5, 16781839);
 
+/* Weenie - Gems - Celestial Hand Cloak (44887) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44887;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44887, 'ace44887-celestialhandcloak');
 
@@ -37933,6 +40366,9 @@ VALUES (44887, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44887, 0, 16795851);
+
+/* Weenie - Gems - The Ruby Yujazik (6663) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6663;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6663, 'crimsonruby4');
@@ -37978,6 +40414,9 @@ VALUES (6663, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6663, 0, 16779181);
 
+/* Weenie - Gems - Lockpick Gem of Enlightenment (22368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22368;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22368, 'skillgemuplockpick');
 
@@ -38010,6 +40449,9 @@ VALUES (22368, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22368, 67111923, 0, 0);
+
+/* Weenie - Gems - Dirty Fighting Gem of Enlightenment (45380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45380;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45380, 'ace45380-dirtyfightinggemofenlightenment');
@@ -38044,6 +40486,9 @@ VALUES (45380, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45380, 67111923, 0, 0);
 
+/* Weenie - Gems - Weapon Tinkering Gem of Enlightenment (22384) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22384;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22384, 'skillgemupweaponappraisal');
 
@@ -38077,6 +40522,9 @@ VALUES (22384, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22384, 67111923, 0, 0);
 
+/* Weenie - Gems - A Carved Plate (27931) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27931;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27931, 'platehizkristar');
 
@@ -38107,6 +40555,9 @@ VALUES (27931, 13, True)
      , (27931, 14, True)
      , (27931, 19, True)
      , (27931, 22, True);
+
+/* Weenie - Gems - Radiant Shard (31879) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31879;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31879, 'ace31879-radiantshard');
@@ -38152,6 +40603,9 @@ VALUES (31879, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31879, 0, 16779181);
 
+/* Weenie - Gems - Teeth of a Singularity Key (14883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14883;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14883, 'keyteethbrokensingularity');
 
@@ -38195,6 +40649,9 @@ VALUES (14883, 67113796, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14883, 9, 16785620);
 
+/* Weenie - Gems - Crystal of Acidic Elemental Essence (33956) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33956;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33956, 'ace33956-crystalofacidicelementalessence');
 
@@ -38236,6 +40693,9 @@ VALUES (33956, 0, 83889688, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33956, 0, 16783974);
 
+/* Weenie - Gems - Missile Weapons Gem of Enlightenment (22354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22354;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22354, 'skillgemupbow');
 
@@ -38269,6 +40729,9 @@ VALUES (22354, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22354, 67111923, 0, 0);
 
+/* Weenie - Gems - Chrysoberyl compound (22888) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22888;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22888, 'chrysoberylcompound');
 
@@ -38297,6 +40760,9 @@ VALUES (22888, 13, True)
      , (22888, 14, True)
      , (22888, 19, True)
      , (22888, 22, True);
+
+/* Weenie - Gems - A Carved Plate (27929) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27929;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27929, 'platehizkrilogic4');
@@ -38329,6 +40795,9 @@ VALUES (27929, 13, True)
      , (27929, 19, True)
      , (27929, 22, True);
 
+/* Weenie - Gems - A Carved Plate (27928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27928;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27928, 'platehizkrilogic3');
 
@@ -38359,6 +40828,9 @@ VALUES (27928, 13, True)
      , (27928, 14, True)
      , (27928, 19, True)
      , (27928, 22, True);
+
+/* Weenie - Gems - A Carved Plate (27927) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27927;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27927, 'platehizkrilogic2');
@@ -38391,6 +40863,9 @@ VALUES (27927, 13, True)
      , (27927, 19, True)
      , (27927, 22, True);
 
+/* Weenie - Gems - A Carved Plate (27926) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27926;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27926, 'platehizkrilogic1');
 
@@ -38421,6 +40896,9 @@ VALUES (27926, 13, True)
      , (27926, 14, True)
      , (27926, 19, True)
      , (27926, 22, True);
+
+/* Weenie - Gems - Luminous Crystal of Rare Armor Damage Boost V (52023) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52023;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52023, 'ace52023-luminouscrystalofrarearmordamageboostv');
@@ -38471,6 +40949,9 @@ VALUES (52023, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52023, 0, 16779181);
 
+/* Weenie - Gems - Acid Emerald (9425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9425;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9425, 'gemlugianacid3');
 
@@ -38516,6 +40997,9 @@ VALUES (9425, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9425, 0, 16779181);
+
+/* Weenie - Gems - Cold Moonstone (9428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9428;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9428, 'gemlugiancold3');
@@ -38563,6 +41047,9 @@ VALUES (9428, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9428, 0, 16779181);
 
+/* Weenie - Gems - Fire Ruby (9429) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9429;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9429, 'gemlugianfire3');
 
@@ -38608,6 +41095,9 @@ VALUES (9429, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9429, 0, 16779181);
+
+/* Weenie - Gems - Lightning Sapphire (9430) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9430;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9430, 'gemlugianlightning3');
@@ -38655,6 +41145,9 @@ VALUES (9430, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9430, 0, 16779181);
 
+/* Weenie - Gems - Sharp Topaz (9432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9432;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9432, 'gemlugianslash3');
 
@@ -38701,6 +41194,9 @@ VALUES (9432, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9432, 0, 16779181);
 
+/* Weenie - Gems - Deception Gem of Forgetfulness (22325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22325;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22325, 'skillgemdowndeception');
 
@@ -38733,6 +41229,9 @@ VALUES (22325, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22325, 67111924, 0, 0);
+
+/* Weenie - Gems - The Ruby Sulmada (6664) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6664;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6664, 'crimsonruby5');
@@ -38778,6 +41277,9 @@ VALUES (6664, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6664, 0, 16779181);
 
+/* Weenie - Gems - The Ruby Al-Khur (6661) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6661;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6661, 'crimsonruby2');
 
@@ -38822,6 +41324,9 @@ VALUES (6661, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6661, 0, 16779181);
 
+/* Weenie - Gems - Summoning Gem of Forgetfulness (49481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49481;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49481, 'ace49481-summoninggemofforgetfulness');
 
@@ -38854,6 +41359,9 @@ VALUES (49481, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (49481, 67111924, 0, 0);
+
+/* Weenie - Gems - Yoroi Leggings (42416) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42416;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42416, 'ace42416-yoroileggings');
@@ -38902,6 +41410,9 @@ VALUES (42416, 0, 83887064, 83886807)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42416, 0, 16778829);
 
+/* Weenie - Gems - Dark Falatacot Token of the Aura of Specialization Mastery (43522) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43522;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43522, 'ace43522-darkfalatacottokenoftheauraofspecializationmastery');
 
@@ -38939,6 +41450,9 @@ VALUES (43522, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43522, 0, 16787203);
 
+/* Weenie - Gems - Dark Falatacot Token of the Aura of Destruction (43436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43436;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43436, 'ace43436-darkfalatacottokenoftheauraofdestruction');
 
@@ -38975,6 +41489,9 @@ VALUES (43436, 0, 83893723, 83898330)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43436, 0, 16787203);
+
+/* Weenie - Gems - Asteliary Gem (12157) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12157;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12157, 'gemasteliary');
@@ -39018,6 +41535,9 @@ VALUES (12157, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12157, 0, 16779181);
+
+/* Weenie - Gems - Emblem of Aged Blood (28348) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28348;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28348, 'glyphkiviklirba');
@@ -39063,6 +41583,9 @@ VALUES (28348, 0, 83889682, 83890391)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28348, 0, 16779994);
 
+/* Weenie - Gems - Emblem of Serpent's Hold (28358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28358;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28358, 'glyphkiviklirws');
 
@@ -39107,6 +41630,9 @@ VALUES (28358, 0, 83889682, 83890391)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28358, 0, 16779994);
 
+/* Weenie - Gems - Contract for Sea Temple Catacombs (44904) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44904;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44904, 'ace44904-contractforseatemplecatacombs');
 
@@ -39145,6 +41671,9 @@ VALUES (44904, 13, True)
      , (44904, 19, True)
      , (44904, 22, True);
 
+/* Weenie - Gems - Item Enchantment Gem of Forgetfulness (22329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22329, 'skillgemdownitemenchantment');
 
@@ -39178,6 +41707,9 @@ VALUES (22329, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22329, 67111924, 0, 0);
 
+/* Weenie - Gems - Creature Enchantment Gem of Forgetfulness (22322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22322;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22322, 'skillgemdowncreatureenchantment');
 
@@ -39210,6 +41742,9 @@ VALUES (22322, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22322, 67111924, 0, 0);
+
+/* Weenie - Gems - Gem of Verdant Force (53305) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53305;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53305, 'ace53305-gemofverdantforce');
@@ -39257,6 +41792,9 @@ VALUES (53305, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53305, 0, 16779181);
 
+/* Weenie - Gems - Spectral Heavy Weapon Mastery Crystal (36021) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36021;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36021, 'ace36021-spectralheavyweaponmasterycrystal');
 
@@ -39302,6 +41840,9 @@ VALUES (36021, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36021, 0, 16779181);
 
+/* Weenie - Gems - Missile Defense Gem of Forgetfulness (22340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22340;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22340, 'skillgemdownmissiledefense');
 
@@ -39334,6 +41875,9 @@ VALUES (22340, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22340, 67111924, 0, 0);
+
+/* Weenie - Gems - Oxidized Statue  (19246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19246;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19246, 'housestatuevirindigreen');
@@ -39380,6 +41924,9 @@ VALUES (19246, 9, 83890028, 83890027);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19246, 9, 16780702);
 
+/* Weenie - Gems - Leadership Gem of Enlightenment (22366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22366;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22366, 'skillgemupleadership');
 
@@ -39412,6 +41959,9 @@ VALUES (22366, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22366, 67111923, 0, 0);
+
+/* Weenie - Gems - Dazzling Shard (31880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31880;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31880, 'ace31880-dazzlingshard');
@@ -39457,6 +42007,9 @@ VALUES (31880, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31880, 0, 16779181);
 
+/* Weenie - Gems - Brilliant Shard (31881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31881;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31881, 'ace31881-brilliantshard');
 
@@ -39500,6 +42053,9 @@ VALUES (31881, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31881, 0, 16779181);
+
+/* Weenie - Gems - Adept's Gem of Acid Protection (34168) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34168;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34168, 'ace34168-adeptsgemofacidprotection');
@@ -39546,6 +42102,9 @@ VALUES (34168, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34168, 0, 16779181);
 
+/* Weenie - Gems - Adept's Gem of Lightning Protection (34174) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34174;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34174, 'ace34174-adeptsgemoflightningprotection');
 
@@ -39590,6 +42149,9 @@ VALUES (34174, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34174, 0, 16779181);
+
+/* Weenie - Gems - Adept's Gem of Regeneration (34177) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34177;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34177, 'ace34177-adeptsgemofregeneration');
@@ -39636,6 +42198,9 @@ VALUES (34177, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34177, 0, 16779181);
 
+/* Weenie - Gems - Adept's Gem of Rejuvenation (34178) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34178;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34178, 'ace34178-adeptsgemofrejuvenation');
 
@@ -39680,6 +42245,9 @@ VALUES (34178, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34178, 0, 16779181);
+
+/* Weenie - Gems - Adept's Gem of Blade Protection (34170) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34170;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34170, 'ace34170-adeptsgemofbladeprotection');
@@ -39726,6 +42294,9 @@ VALUES (34170, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34170, 0, 16779181);
 
+/* Weenie - Gems - Scrying Rod (44125) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44125;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44125, 'ace44125-scryingrod');
 
@@ -39762,6 +42333,9 @@ VALUES (44125, 13, True)
      , (44125, 14, True)
      , (44125, 19, True)
      , (44125, 22, True);
+
+/* Weenie - Gems - Pyreal Medal of Vigor (41451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41451;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41451, 'ace41451-pyrealmedalofvigor');
@@ -39803,6 +42377,9 @@ VALUES (41451, 13, True)
      , (41451, 19, True)
      , (41451, 22, True);
 
+/* Weenie - Gems - Pyreal Medal of Intellect (41446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41446;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41446, 'ace41446-pyrealmedalofintellect');
 
@@ -39843,6 +42420,9 @@ VALUES (41446, 13, True)
      , (41446, 19, True)
      , (41446, 22, True);
 
+/* Weenie - Gems - Holtburg Town Stamp (8735) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8735;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8735, 'stampholtburgnewbiequest');
 
@@ -39879,6 +42459,9 @@ VALUES (8735, 13, True)
      , (8735, 14, True)
      , (8735, 19, True)
      , (8735, 22, True);
+
+/* Weenie - Gems - Contract for Aerbax's Prodigal Monouga (44819) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44819;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44819, 'ace44819-contractforaerbaxsprodigalmonouga');
@@ -39918,6 +42501,9 @@ VALUES (44819, 13, True)
      , (44819, 19, True)
      , (44819, 22, True);
 
+/* Weenie - Gems - Mask Crest (11814) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11814;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11814, 'crestmask');
 
@@ -39954,6 +42540,9 @@ VALUES (11814, 13, True)
      , (11814, 14, True)
      , (11814, 19, True)
      , (11814, 22, True);
+
+/* Weenie - Gems - Decorative Bronze Statue (19225) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19225;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19225, 'housestatuegolem');
@@ -40038,6 +42627,9 @@ VALUES (19225, 0, 16784123)
      , (19225, 11, 16784119)
      , (19225, 12, 16784114);
 
+/* Weenie - Gems - Contract for Broker Contracts (44386) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44386;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44386, 'ace44386-contractforbrokercontracts');
 
@@ -40075,6 +42667,9 @@ VALUES (44386, 13, True)
      , (44386, 14, True)
      , (44386, 19, True)
      , (44386, 22, True);
+
+/* Weenie - Gems - Faces of the Mukkir (Low) (44173) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44173;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44173, 'ace44173-facesofthemukkirlow');
@@ -40114,6 +42709,9 @@ VALUES (44173, 13, True)
      , (44173, 19, True)
      , (44173, 22, True);
 
+/* Weenie - Gems - Contract for Defense of Zaikhal (Copper) (44147) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44147;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44147, 'ace44147-contractfordefenseofzaikhalcopper');
 
@@ -40151,6 +42749,9 @@ VALUES (44147, 13, True)
      , (44147, 14, True)
      , (44147, 19, True)
      , (44147, 22, True);
+
+/* Weenie - Gems - Contract for The Decrepit Tower (44154) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44154;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44154, 'ace44154-contractforthedecrepittower');
@@ -40190,6 +42791,9 @@ VALUES (44154, 13, True)
      , (44154, 19, True)
      , (44154, 22, True);
 
+/* Weenie - Gems - Contract for Reign of Terror (44142) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44142;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44142, 'ace44142-contractforreignofterror');
 
@@ -40227,6 +42831,9 @@ VALUES (44142, 13, True)
      , (44142, 14, True)
      , (44142, 19, True)
      , (44142, 22, True);
+
+/* Weenie - Gems - Contract for Defense of Zaikhal (Silver) (44148) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44148;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44148, 'ace44148-contractfordefenseofzaikhalsilver');
@@ -40266,6 +42873,9 @@ VALUES (44148, 13, True)
      , (44148, 19, True)
      , (44148, 22, True);
 
+/* Weenie - Gems - Faces of the Mukkir (Mid) (44174) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44174;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44174, 'ace44174-facesofthemukkirmid');
 
@@ -40303,6 +42913,9 @@ VALUES (44174, 13, True)
      , (44174, 14, True)
      , (44174, 19, True)
      , (44174, 22, True);
+
+/* Weenie - Gems - Contract for First Contact (44175) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44175;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44175, 'ace44175-contractforfirstcontact');
@@ -40342,6 +42955,9 @@ VALUES (44175, 13, True)
      , (44175, 19, True)
      , (44175, 22, True);
 
+/* Weenie - Gems - Contract for Defense of Zaikhal (Gold) (44149) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44149;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44149, 'ace44149-contractfordefenseofzaikhalgold');
 
@@ -40379,6 +42995,9 @@ VALUES (44149, 13, True)
      , (44149, 14, True)
      , (44149, 19, True)
      , (44149, 22, True);
+
+/* Weenie - Gems - Faces of the Mukkir (High) (44172) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44172;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44172, 'ace44172-facesofthemukkirhigh');
@@ -40418,6 +43037,9 @@ VALUES (44172, 13, True)
      , (44172, 19, True)
      , (44172, 22, True);
 
+/* Weenie - Gems - Contract for His Master's Voice (44181) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44181;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44181, 'ace44181-contractforhismastersvoice');
 
@@ -40455,6 +43077,9 @@ VALUES (44181, 13, True)
      , (44181, 14, True)
      , (44181, 19, True)
      , (44181, 22, True);
+
+/* Weenie - Gems - Faces of the Mukkir (Expert) (44171) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44171;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44171, 'ace44171-facesofthemukkirexpert');
@@ -40494,6 +43119,9 @@ VALUES (44171, 13, True)
      , (44171, 19, True)
      , (44171, 22, True);
 
+/* Weenie - Gems - Contract for Defense of Zaikhal (Platinum) (44150) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44150;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44150, 'ace44150-contractfordefenseofzaikhalplatinum');
 
@@ -40531,6 +43159,9 @@ VALUES (44150, 13, True)
      , (44150, 14, True)
      , (44150, 19, True)
      , (44150, 22, True);
+
+/* Weenie - Gems - Enhanced Assault Axe (51521) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51521;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51521, 'ace51521-enhancedassaultaxe');
@@ -40582,6 +43213,9 @@ VALUES (51521, 0, 83893489, 83893489)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51521, 0, 16786132);
 
+/* Weenie - Gems - Weapon Upgrade Kit (41915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41915;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41915, 'ace41915-weaponupgradekit');
 
@@ -40615,6 +43249,9 @@ VALUES (41915, 13, True)
      , (41915, 14, True)
      , (41915, 19, True)
      , (41915, 22, True);
+
+/* Weenie - Gems - Silver Medal of Vigor (41449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41449;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41449, 'ace41449-silvermedalofvigor');
@@ -40656,6 +43293,9 @@ VALUES (41449, 13, True)
      , (41449, 19, True)
      , (41449, 22, True);
 
+/* Weenie - Gems - Silver Medal of Intellect (41444) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41444;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41444, 'ace41444-silvermedalofintellect');
 
@@ -40695,6 +43335,9 @@ VALUES (41444, 13, True)
      , (41444, 14, True)
      , (41444, 19, True)
      , (41444, 22, True);
+
+/* Weenie - Gems - Gold Medal of Intellect (41445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41445;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41445, 'ace41445-goldmedalofintellect');
@@ -40736,6 +43379,9 @@ VALUES (41445, 13, True)
      , (41445, 19, True)
      , (41445, 22, True);
 
+/* Weenie - Gems - Creature Enchantment Gem of Enlightenment (22357) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22357;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22357, 'skillgemupcreatureenchantment');
 
@@ -40768,6 +43414,9 @@ VALUES (22357, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22357, 67111923, 0, 0);
+
+/* Weenie - Gems - Nature's Wrath Amplification (52756) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52756;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52756, 'ace52756-natureswrathamplification');
@@ -40814,6 +43463,9 @@ VALUES (52756, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52756, 0, 16779181);
+
+/* Weenie - Gems - Dusky Winged Coat (42405) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42405;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42405, 'ace42405-duskywingedcoat');
@@ -40864,6 +43516,9 @@ VALUES (42405, 0, 83887061, 83895476)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42405, 0, 16779535);
 
+/* Weenie - Gems - Arcane Lore Gem of Forgetfulness (22316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22316;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22316, 'skillgemdownarcanelore');
 
@@ -40896,6 +43551,9 @@ VALUES (22316, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22316, 67111924, 0, 0);
+
+/* Weenie - Gems - Gauntlet Defense Amplification (52758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52758;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52758, 'ace52758-gauntletdefenseamplification');
@@ -40943,6 +43601,9 @@ VALUES (52758, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52758, 0, 16779181);
 
+/* Weenie - Gems - Spectral Sneak Attack Mastery Crystal (45359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45359;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45359, 'ace45359-spectralsneakattackmasterycrystal');
 
@@ -40988,6 +43649,9 @@ VALUES (45359, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45359, 0, 16779181);
 
+/* Weenie - Gems - Whispering Venom crystal (25467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25467;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25467, 'crystalrot2');
 
@@ -41016,6 +43680,9 @@ VALUES (25467, 13, True)
      , (25467, 14, True)
      , (25467, 19, True)
      , (25467, 22, True);
+
+/* Weenie - Gems - Dark Heart (51451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51451;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51451, 'ace51451-darkheart');
@@ -41067,6 +43734,9 @@ VALUES (51451, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51451, 0, 16778862);
 
+/* Weenie - Gems - Pulsating Spirit-trap Gem (48710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48710;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48710, 'ace48710-pulsatingspirittrapgem');
 
@@ -41113,6 +43783,9 @@ VALUES (48710, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48710, 0, 16779181);
 
+/* Weenie - Gems - War Magic Gem of Forgetfulness (22348) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22348;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22348, 'skillgemdownwarmagic');
 
@@ -41146,6 +43819,9 @@ VALUES (22348, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22348, 67111924, 0, 0);
 
+/* Weenie - Gems - Broken Silver Key (8520) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8520;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8520, 'catacombkeya');
 
@@ -41178,6 +43854,9 @@ VALUES (8520, 13, True)
      , (8520, 14, True)
      , (8520, 19, True)
      , (8520, 22, True);
+
+/* Weenie - Gems - Combined Kukuur Hides (29567) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29567;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29567, 'hidekukuur3');
@@ -41223,6 +43902,9 @@ VALUES (29567, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29567, 0, 16777882);
 
+/* Weenie - Gems - Gem of Brilliance (52740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52740;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52740, 'ace52740-gemofbrilliance');
 
@@ -41267,6 +43949,9 @@ VALUES (52740, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52740, 0, 16779181);
 
+/* Weenie - Gems - Armor Tinkering Gem of Enlightenment (22352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22352;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22352, 'skillgemuparmorappraisal');
 
@@ -41299,6 +43984,9 @@ VALUES (22352, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22352, 67111923, 0, 0);
+
+/* Weenie - Gems - Lesser Mukkir Slayer Stone (33686) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33686;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33686, 'ace33686-lessermukkirslayerstone');
@@ -41345,6 +44033,9 @@ VALUES (33686, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33686, 0, 16779181);
 
+/* Weenie - Gems - Contract for Assault (Low) (44157) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44157;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44157, 'ace44157-contractforassaultlow');
 
@@ -41382,6 +44073,9 @@ VALUES (44157, 13, True)
      , (44157, 14, True)
      , (44157, 19, True)
      , (44157, 22, True);
+
+/* Weenie - Gems - Combined Kukuur Hides (29565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29565;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29565, 'hidekukuur1');
@@ -41427,6 +44121,9 @@ VALUES (29565, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29565, 0, 16777882);
 
+/* Weenie - Gems - Pack Gold Remoran (32216) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32216;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32216, 'ace32216-packgoldremoran');
 
@@ -41465,6 +44162,9 @@ VALUES (32216, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32216, 67116783, 0, 0);
+
+/* Weenie - Gems - Rynthid Energy Tentacles (44863) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44863;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44863, 'ace44863-rynthidenergytentacles');
@@ -41505,6 +44205,9 @@ VALUES (44863, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44863, 0, 16797047);
 
+/* Weenie - Gems - Weapon Tinkering Gem of Forgetfulness (22349) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22349;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22349, 'skillgemdownweaponappraisal');
 
@@ -41537,6 +44240,9 @@ VALUES (22349, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22349, 67111924, 0, 0);
+
+/* Weenie - Gems - Run Gem of Enlightenment (22377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22377;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22377, 'skillgemuprun');
@@ -41571,6 +44277,9 @@ VALUES (22377, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22377, 67111923, 0, 0);
 
+/* Weenie - Gems - Two Handed Combat Gem of Enlightenment (41740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41740;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41740, 'ace41740-twohandedcombatgemofenlightenment');
 
@@ -41603,6 +44312,9 @@ VALUES (41740, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41740, 67111923, 0, 0);
+
+/* Weenie - Gems - Alchemy Gem of Forgetfulness (22315) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22315;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22315, 'skillgemdownalchemy');
@@ -41637,6 +44349,9 @@ VALUES (22315, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22315, 67111924, 0, 0);
 
+/* Weenie - Gems - Two Handed Combat Gem of Forgetfulness (41739) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41739;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41739, 'ace41739-twohandedcombatgemofforgetfulness');
 
@@ -41669,6 +44384,9 @@ VALUES (41739, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41739, 67111924, 0, 0);
+
+/* Weenie - Gems - Alchemy Gem of Enlightenment (22350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22350;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22350, 'skillgemupalchemy');
@@ -41703,6 +44421,9 @@ VALUES (22350, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22350, 67111923, 0, 0);
 
+/* Weenie - Gems - Melee Defense Gem of Forgetfulness (22339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22339;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22339, 'skillgemdownmeleedefense');
 
@@ -41735,6 +44456,9 @@ VALUES (22339, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22339, 67111924, 0, 0);
+
+/* Weenie - Gems - Missile Weapons Gem of Forgetfulness (22346) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22346;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22346, 'skillgemdownthrownweapon');
@@ -41769,6 +44493,9 @@ VALUES (22346, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22346, 67111924, 0, 0);
 
+/* Weenie - Gems - Dirty Fighting Gem of Forgetfulness (45375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45375;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45375, 'ace45375-dirtyfightinggemofforgetfulness');
 
@@ -41801,6 +44528,9 @@ VALUES (45375, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45375, 67111924, 0, 0);
+
+/* Weenie - Gems - Contract for Nen Ai's Pet Drudge (44903) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44903;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44903, 'ace44903-contractfornenaispetdrudge');
@@ -41840,6 +44570,9 @@ VALUES (44903, 13, True)
      , (44903, 19, True)
      , (44903, 22, True);
 
+/* Weenie - Gems - Contract for Braid Mansion Ruin (44899) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44899;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44899, 'ace44899-contractforbraidmansionruin');
 
@@ -41878,6 +44611,9 @@ VALUES (44899, 13, True)
      , (44899, 19, True)
      , (44899, 22, True);
 
+/* Weenie - Gems - Fletching Gem of Forgetfulness (22326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22326, 'skillgemdownfletching');
 
@@ -41910,6 +44646,9 @@ VALUES (22326, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22326, 67111924, 0, 0);
+
+/* Weenie - Gems - Scrying Rod (44128) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44128;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44128, 'ace44128-scryingrod');
@@ -41948,6 +44687,9 @@ VALUES (44128, 13, True)
      , (44128, 19, True)
      , (44128, 22, True);
 
+/* Weenie - Gems - Armoredillo Hunting: Lost City of Neftet (Level 200+) (44352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44352;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44352, 'ace44352-armoredillohuntinglostcityofneftetlevel200');
 
@@ -41984,6 +44726,9 @@ VALUES (44352, 13, True)
      , (44352, 14, True)
      , (44352, 19, True)
      , (44352, 22, True);
+
+/* Weenie - Gems - Miyako's Moonstone (6893) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6893;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6893, 'moonstonemiyako');
@@ -42030,6 +44775,9 @@ VALUES (6893, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6893, 0, 16779181);
 
+/* Weenie - Gems - Cooking Gem of Enlightenment (22355) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22355;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22355, 'skillgemupcooking');
 
@@ -42062,6 +44810,9 @@ VALUES (22355, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22355, 67111923, 0, 0);
+
+/* Weenie - Gems - Light Weapons Gem of Enlightenment (22353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22353;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22353, 'skillgemupaxe');
@@ -42096,6 +44847,9 @@ VALUES (22353, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22353, 67111923, 0, 0);
 
+/* Weenie - Gems - Lockpick Gem of Forgetfulness (22333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22333;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22333, 'skillgemdownlockpick');
 
@@ -42128,6 +44882,9 @@ VALUES (22333, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22333, 67111924, 0, 0);
+
+/* Weenie - Gems - Finesse Weapons Gem of Forgetfulness (22324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22324;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22324, 'skillgemdowndagger');
@@ -42162,6 +44919,9 @@ VALUES (22324, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22324, 67111924, 0, 0);
 
+/* Weenie - Gems - Shreth Symbol (11866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11866;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11866, 'shrethsymbol');
 
@@ -42195,6 +44955,9 @@ VALUES (11866, 13, True)
      , (11866, 14, True)
      , (11866, 19, True)
      , (11866, 22, True);
+
+/* Weenie - Gems - Shreth Crest (11817) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11817;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11817, 'crestshreth');
@@ -42232,6 +44995,9 @@ VALUES (11817, 13, True)
      , (11817, 14, True)
      , (11817, 19, True)
      , (11817, 22, True);
+
+/* Weenie - Gems - Contract for Aug Gem: Sir Bellas (44393) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44393;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44393, 'ace44393-contractforauggemsirbellas');
@@ -42272,6 +45038,9 @@ VALUES (44393, 13, True)
      , (44393, 19, True)
      , (44393, 22, True);
 
+/* Weenie - Gems - Contract for Deewain's Dark Cavern (44447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44447;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44447, 'ace44447-contractfordeewainsdarkcavern');
 
@@ -42310,6 +45079,9 @@ VALUES (44447, 13, True)
      , (44447, 15, True)
      , (44447, 19, True)
      , (44447, 22, True);
+
+/* Weenie - Gems - Contract for Kill: Tenebrous Rifts (44584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44584;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44584, 'ace44584-contractforkilltenebrousrifts');
@@ -42350,6 +45122,9 @@ VALUES (44584, 13, True)
      , (44584, 19, True)
      , (44584, 22, True);
 
+/* Weenie - Gems - Contract for Kill: Umbral Rifts (44585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44585;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44585, 'ace44585-contractforkillumbralrifts');
 
@@ -42388,6 +45163,9 @@ VALUES (44585, 13, True)
      , (44585, 15, True)
      , (44585, 19, True)
      , (44585, 22, True);
+
+/* Weenie - Gems - Contract for Jester Released (44656) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44656;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44656, 'ace44656-contractforjesterreleased');
@@ -42428,6 +45206,9 @@ VALUES (44656, 13, True)
      , (44656, 19, True)
      , (44656, 22, True);
 
+/* Weenie - Gems - Contract for Death's Allure (44818) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44818;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44818, 'ace44818-contractfordeathsallure');
 
@@ -42466,6 +45247,9 @@ VALUES (44818, 13, True)
      , (44818, 15, True)
      , (44818, 19, True)
      , (44818, 22, True);
+
+/* Weenie - Gems - Contract for Aerbax's Prodigal Drudge (45686) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45686;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45686, 'ace45686-contractforaerbaxsprodigaldrudge');
@@ -42506,6 +45290,9 @@ VALUES (45686, 13, True)
      , (45686, 19, True)
      , (45686, 22, True);
 
+/* Weenie - Gems - Contract for Aerbax's Prodigal Human (45687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45687;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45687, 'ace45687-contractforaerbaxsprodigalhuman');
 
@@ -42544,6 +45331,9 @@ VALUES (45687, 13, True)
      , (45687, 15, True)
      , (45687, 19, True)
      , (45687, 22, True);
+
+/* Weenie - Gems - Contract for Chasing Oswald (45689) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45689;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45689, 'ace45689-contractforchasingoswald');
@@ -42584,6 +45374,9 @@ VALUES (45689, 13, True)
      , (45689, 19, True)
      , (45689, 22, True);
 
+/* Weenie - Gems - Contract for Hunting Aun Ralirea (45690) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45690;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45690, 'ace45690-contractforhuntingaunralirea');
 
@@ -42622,6 +45415,9 @@ VALUES (45690, 13, True)
      , (45690, 15, True)
      , (45690, 19, True)
      , (45690, 22, True);
+
+/* Weenie - Gems - Contract for Kill: Tou-Tou Shadow Flyers (52300) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52300;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52300, 'ace52300-contractforkilltoutoushadowflyers');
@@ -42662,6 +45458,9 @@ VALUES (52300, 13, True)
      , (52300, 19, True)
      , (52300, 22, True);
 
+/* Weenie - Gems - Contract for Kill: Tou-Tou Grievver Shredders (52301) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52301;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52301, 'ace52301-contractforkilltoutougrievvershredders');
 
@@ -42700,6 +45499,9 @@ VALUES (52301, 13, True)
      , (52301, 15, True)
      , (52301, 19, True)
      , (52301, 22, True);
+
+/* Weenie - Gems - Contract for Kill: Tou-Tou Devourer Marguls (52302) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52302;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52302, 'ace52302-contractforkilltoutoudevourermarguls');
@@ -42740,6 +45542,9 @@ VALUES (52302, 13, True)
      , (52302, 19, True)
      , (52302, 22, True);
 
+/* Weenie - Gems - Contract for Kill: Tou-Tou Shadows (52303) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52303;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52303, 'ace52303-contractforkilltoutoushadows');
 
@@ -42778,6 +45583,9 @@ VALUES (52303, 13, True)
      , (52303, 15, True)
      , (52303, 19, True)
      , (52303, 22, True);
+
+/* Weenie - Gems - Contract for Kill: Tou-Tou Void Lords (52304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52304;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52304, 'ace52304-contractforkilltoutouvoidlords');
@@ -42818,6 +45626,9 @@ VALUES (52304, 13, True)
      , (52304, 19, True)
      , (52304, 22, True);
 
+/* Weenie - Gems - Contract for Hoshino Fortress (46746) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46746;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46746, 'ace46746-contractforhoshinofortress');
 
@@ -42856,6 +45667,9 @@ VALUES (46746, 13, True)
      , (46746, 15, True)
      , (46746, 19, True)
      , (46746, 22, True);
+
+/* Weenie - Gems - Contract for Kill: Spectral Archers (46747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46747;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46747, 'ace46747-contractforkillspectralarchers');
@@ -42896,6 +45710,9 @@ VALUES (46747, 13, True)
      , (46747, 19, True)
      , (46747, 22, True);
 
+/* Weenie - Gems - Contract for Kill: Spectral Minions (46748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46748;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46748, 'ace46748-contractforkillspectralminions');
 
@@ -42934,6 +45751,9 @@ VALUES (46748, 13, True)
      , (46748, 15, True)
      , (46748, 19, True)
      , (46748, 22, True);
+
+/* Weenie - Gems - Contract for Kill: Spectral Blades and Claws (46749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46749;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46749, 'ace46749-contractforkillspectralbladesandclaws');
@@ -42974,6 +45794,9 @@ VALUES (46749, 13, True)
      , (46749, 19, True)
      , (46749, 22, True);
 
+/* Weenie - Gems - Contract for Kill: Spectral Bushi (46750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46750;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46750, 'ace46750-contractforkillspectralbushi');
 
@@ -43012,6 +45835,9 @@ VALUES (46750, 13, True)
      , (46750, 15, True)
      , (46750, 19, True)
      , (46750, 22, True);
+
+/* Weenie - Gems - Contract for Kill: Spectral Samurai (46751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46751;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46751, 'ace46751-contractforkillspectralsamurai');
@@ -43052,6 +45878,9 @@ VALUES (46751, 13, True)
      , (46751, 19, True)
      , (46751, 22, True);
 
+/* Weenie - Gems - Contract for Kill: Spectral Samurai Golems (46752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46752;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46752, 'ace46752-contractforkillspectralsamuraigolems');
 
@@ -43090,6 +45919,9 @@ VALUES (46752, 13, True)
      , (46752, 15, True)
      , (46752, 19, True)
      , (46752, 22, True);
+
+/* Weenie - Gems - Contract for Kill: Spectral Mages (46753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46753;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46753, 'ace46753-contractforkillspectralmages');
@@ -43130,6 +45962,9 @@ VALUES (46753, 13, True)
      , (46753, 19, True)
      , (46753, 22, True);
 
+/* Weenie - Gems - Contract for Kill: Spectral Nanjou Shou-jen (46754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46754;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46754, 'ace46754-contractforkillspectralnanjoushoujen');
 
@@ -43168,6 +46003,9 @@ VALUES (46754, 13, True)
      , (46754, 15, True)
      , (46754, 19, True)
      , (46754, 22, True);
+
+/* Weenie - Gems - Contract for Behind The Mask (51337) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51337;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51337, 'ace51337-contractforbehindthemask');
@@ -43208,6 +46046,9 @@ VALUES (51337, 13, True)
      , (51337, 19, True)
      , (51337, 22, True);
 
+/* Weenie - Gems - Contract for Olthoi Hive Eviscerator Pincer (51438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51438;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51438, 'ace51438-contractforolthoihiveevisceratorpincer');
 
@@ -43246,6 +46087,9 @@ VALUES (51438, 13, True)
      , (51438, 15, True)
      , (51438, 19, True)
      , (51438, 22, True);
+
+/* Weenie - Gems - Contract for Olthoi Hive Warrior Pincer (51437) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51437;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51437, 'ace51437-contractforolthoihivewarriorpincer');
@@ -43286,6 +46130,9 @@ VALUES (51437, 13, True)
      , (51437, 19, True)
      , (51437, 22, True);
 
+/* Weenie - Gems - Contract for Aetherium Ore Collection (45559) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45559;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45559, 'ace45559-contractforaetheriumorecollection');
 
@@ -43324,6 +46171,9 @@ VALUES (45559, 13, True)
      , (45559, 15, True)
      , (45559, 19, True)
      , (45559, 22, True);
+
+/* Weenie - Gems - Contract for Aetherium Power Core Collection (45560) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45560;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45560, 'ace45560-contractforaetheriumpowercorecollection');
@@ -43364,6 +46214,9 @@ VALUES (45560, 13, True)
      , (45560, 19, True)
      , (45560, 22, True);
 
+/* Weenie - Gems - Contract for Aetherium Raid (High) (45561) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45561;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45561, 'ace45561-contractforaetheriumraidhigh');
 
@@ -43402,6 +46255,9 @@ VALUES (45561, 13, True)
      , (45561, 15, True)
      , (45561, 19, True)
      , (45561, 22, True);
+
+/* Weenie - Gems - Contract for Kill: Gear Knight Commander (45562) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45562;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45562, 'ace45562-contractforkillgearknightcommander');
@@ -43442,6 +46298,9 @@ VALUES (45562, 13, True)
      , (45562, 19, True)
      , (45562, 22, True);
 
+/* Weenie - Gems - Contract for Kill: Gear Knight Knights (45563) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45563;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45563, 'ace45563-contractforkillgearknightknights');
 
@@ -43480,6 +46339,9 @@ VALUES (45563, 13, True)
      , (45563, 15, True)
      , (45563, 19, True)
      , (45563, 22, True);
+
+/* Weenie - Gems - Contract for Kill: Gear Knight Squires (51336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51336;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51336, 'ace51336-contractforkillgearknightsquires');
@@ -43520,6 +46382,9 @@ VALUES (51336, 13, True)
      , (51336, 19, True)
      , (51336, 22, True);
 
+/* Weenie - Gems - Contract for Lunnum's Pyre (48725) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48725;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48725, 'ace48725-contractforlunnumspyre');
 
@@ -43558,6 +46423,9 @@ VALUES (48725, 13, True)
      , (48725, 15, True)
      , (48725, 19, True)
      , (48725, 22, True);
+
+/* Weenie - Gems - Contract for Lunnum's Disappearance (48726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48726;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48726, 'ace48726-contractforlunnumsdisappearance');
@@ -43598,6 +46466,9 @@ VALUES (48726, 13, True)
      , (48726, 19, True)
      , (48726, 22, True);
 
+/* Weenie - Gems - Contract for Lunnum's Return (48729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48729;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48729, 'ace48729-contractforlunnumsreturn');
 
@@ -43636,6 +46507,9 @@ VALUES (48729, 13, True)
      , (48729, 15, True)
      , (48729, 19, True)
      , (48729, 22, True);
+
+/* Weenie - Gems - Contract for Uncovering the Renegades (44399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44399;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44399, 'ace44399-contractforuncoveringtherenegades');
@@ -43676,6 +46550,9 @@ VALUES (44399, 13, True)
      , (44399, 19, True)
      , (44399, 22, True);
 
+/* Weenie - Gems - Contract for Colosseum (44391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44391;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44391, 'ace44391-contractforcolosseum');
 
@@ -43714,6 +46591,9 @@ VALUES (44391, 13, True)
      , (44391, 15, True)
      , (44391, 19, True)
      , (44391, 22, True);
+
+/* Weenie - Gems - Contract for Aug Gem: Diemos (44395) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44395;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44395, 'ace44395-contractforauggemdiemos');
@@ -43754,6 +46634,9 @@ VALUES (44395, 13, True)
      , (44395, 19, True)
      , (44395, 22, True);
 
+/* Weenie - Gems - Contract for Tumerok Salted Meat (44392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44392;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44392, 'ace44392-contractfortumeroksaltedmeat');
 
@@ -43792,6 +46675,9 @@ VALUES (44392, 13, True)
      , (44392, 15, True)
      , (44392, 19, True)
      , (44392, 22, True);
+
+/* Weenie - Gems - Contract for Gear Knight Excavation (44655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44655;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44655, 'ace44655-contractforgearknightexcavation');
@@ -43832,6 +46718,9 @@ VALUES (44655, 13, True)
      , (44655, 19, True)
      , (44655, 22, True);
 
+/* Weenie - Gems - Contract for Lost Lore (48779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48779;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48779, 'ace48779-contractforlostlore');
 
@@ -43870,6 +46759,9 @@ VALUES (48779, 13, True)
      , (48779, 15, True)
      , (48779, 19, True)
      , (48779, 22, True);
+
+/* Weenie - Gems - Contract for Sisters of Light (48780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48780;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48780, 'ace48780-contractforsistersoflight');
@@ -43910,6 +46802,9 @@ VALUES (48780, 13, True)
      , (48780, 19, True)
      , (48780, 22, True);
 
+/* Weenie - Gems - Contract for First Sister (48781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48781;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48781, 'ace48781-contractforfirstsister');
 
@@ -43948,6 +46843,9 @@ VALUES (48781, 13, True)
      , (48781, 15, True)
      , (48781, 19, True)
      , (48781, 22, True);
+
+/* Weenie - Gems - Contract for Second Sister (48782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48782;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48782, 'ace48782-contractforsecondsister');
@@ -43988,6 +46886,9 @@ VALUES (48782, 13, True)
      , (48782, 19, True)
      , (48782, 22, True);
 
+/* Weenie - Gems - Contract for Third Sister (48783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48783;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48783, 'ace48783-contractforthirdsister');
 
@@ -44026,6 +46927,9 @@ VALUES (48783, 13, True)
      , (48783, 15, True)
      , (48783, 19, True)
      , (48783, 22, True);
+
+/* Weenie - Gems - Contract for Jailbreak: General Population (45028) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45028;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45028, 'ace45028-contractforjailbreakgeneralpopulation');
@@ -44066,6 +46970,9 @@ VALUES (45028, 13, True)
      , (45028, 19, True)
      , (45028, 22, True);
 
+/* Weenie - Gems - Contract for Jailbreak: Ardent Leader (45026) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45026;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45026, 'ace45026-contractforjailbreakardentleader');
 
@@ -44104,6 +47011,9 @@ VALUES (45026, 13, True)
      , (45026, 15, True)
      , (45026, 19, True)
      , (45026, 22, True);
+
+/* Weenie - Gems - Contract for Jailbreak: Blessed Leader (45027) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45027;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45027, 'ace45027-contractforjailbreakblessedleader');
@@ -44144,6 +47054,9 @@ VALUES (45027, 13, True)
      , (45027, 19, True)
      , (45027, 22, True);
 
+/* Weenie - Gems - Contract for Jailbreak: Verdant Leader (45029) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45029;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45029, 'ace45029-contractforjailbreakverdantleader');
 
@@ -44182,6 +47095,9 @@ VALUES (45029, 13, True)
      , (45029, 15, True)
      , (45029, 19, True)
      , (45029, 22, True);
+
+/* Weenie - Gems - Contract for Ninja Academy (46905) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46905;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46905, 'ace46905-contractforninjaacademy');
@@ -44222,6 +47138,9 @@ VALUES (46905, 13, True)
      , (46905, 19, True)
      , (46905, 22, True);
 
+/* Weenie - Gems - Contract for Tanada Intercept (46906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46906;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46906, 'ace46906-contractfortanadaintercept');
 
@@ -44260,6 +47179,9 @@ VALUES (46906, 13, True)
      , (46906, 15, True)
      , (46906, 19, True)
      , (46906, 22, True);
+
+/* Weenie - Gems - Contract for Tanada Slaughter (46907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46907;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46907, 'ace46907-contractfortanadaslaughter');
@@ -44300,6 +47222,9 @@ VALUES (46907, 13, True)
      , (46907, 19, True)
      , (46907, 22, True);
 
+/* Weenie - Gems - Contract for Nanjou Stockade (47163) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47163;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47163, 'ace47163-contractfornanjoustockade');
 
@@ -44338,6 +47263,9 @@ VALUES (47163, 13, True)
      , (47163, 15, True)
      , (47163, 19, True)
      , (47163, 22, True);
+
+/* Weenie - Gems - Contract for Bobo's Medicine (45755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45755;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45755, 'ace45755-contractforbobosmedicine');
@@ -44378,6 +47306,9 @@ VALUES (45755, 13, True)
      , (45755, 19, True)
      , (45755, 22, True);
 
+/* Weenie - Gems - Contract for Sepulcher of Nightmares (45756) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45756;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45756, 'ace45756-contractforsepulcherofnightmares');
 
@@ -44416,6 +47347,9 @@ VALUES (45756, 13, True)
      , (45756, 15, True)
      , (45756, 19, True)
      , (45756, 22, True);
+
+/* Weenie - Gems - Contract for Mhoire Castle (45757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45757;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45757, 'ace45757-contractformhoirecastle');
@@ -44456,6 +47390,9 @@ VALUES (45757, 13, True)
      , (45757, 19, True)
      , (45757, 22, True);
 
+/* Weenie - Gems - Contract for Kidnapped Handmaiden (45758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45758;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45758, 'ace45758-contractforkidnappedhandmaiden');
 
@@ -44494,6 +47431,9 @@ VALUES (45758, 13, True)
      , (45758, 15, True)
      , (45758, 19, True)
      , (45758, 22, True);
+
+/* Weenie - Gems - Contract for Mhoire Oubliette (45759) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45759;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45759, 'ace45759-contractformhoireoubliette');
@@ -44534,6 +47474,9 @@ VALUES (45759, 13, True)
      , (45759, 19, True)
      , (45759, 22, True);
 
+/* Weenie - Gems - Contract for Defeat Hoshino Kei (49565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49565;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49565, 'ace49565-contractfordefeathoshinokei');
 
@@ -44572,6 +47515,9 @@ VALUES (49565, 13, True)
      , (49565, 15, True)
      , (49565, 19, True)
      , (49565, 22, True);
+
+/* Weenie - Gems - Contract for Ritual Investigation (49566) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49566;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49566, 'ace49566-contractforritualinvestigation');
@@ -44612,6 +47558,9 @@ VALUES (49566, 13, True)
      , (49566, 19, True)
      , (49566, 22, True);
 
+/* Weenie - Gems - Contract for Ritual Disruption (49567) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49567;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49567, 'ace49567-contractforritualdisruption');
 
@@ -44650,6 +47599,9 @@ VALUES (49567, 13, True)
      , (49567, 15, True)
      , (49567, 19, True)
      , (49567, 22, True);
+
+/* Weenie - Gems - Contract for Uziz Abductions (49771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49771;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49771, 'ace49771-contractforuzizabductions');
@@ -44690,6 +47642,9 @@ VALUES (49771, 13, True)
      , (49771, 19, True)
      , (49771, 22, True);
 
+/* Weenie - Gems - Contract for Stipend: General (46755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46755;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46755, 'ace46755-contractforstipendgeneral');
 
@@ -44728,6 +47683,9 @@ VALUES (46755, 13, True)
      , (46755, 15, True)
      , (46755, 19, True)
      , (46755, 22, True);
+
+/* Weenie - Gems - Contract for Legendary Quests (51964) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51964;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51964, 'ace51964-contractforlegendaryquests');
@@ -44768,6 +47726,9 @@ VALUES (51964, 13, True)
      , (51964, 19, True)
      , (51964, 22, True);
 
+/* Weenie - Gems - Contract for Buried Alive (49569) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49569;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49569, 'ace49569-contractforburiedalive');
 
@@ -44806,6 +47767,9 @@ VALUES (49569, 13, True)
      , (49569, 15, True)
      , (49569, 19, True)
      , (49569, 22, True);
+
+/* Weenie - Gems - Contract for Summoning T'thuun (44398) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44398;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44398, 'ace44398-contractforsummoningtthuun');
@@ -44846,6 +47810,9 @@ VALUES (44398, 13, True)
      , (44398, 19, True)
      , (44398, 22, True);
 
+/* Weenie - Gems - Contract for Empyrean Rescue (44400) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44400;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44400, 'ace44400-contractforempyreanrescue');
 
@@ -44884,6 +47851,9 @@ VALUES (44400, 13, True)
      , (44400, 15, True)
      , (44400, 19, True)
      , (44400, 22, True);
+
+/* Weenie - Gems - Contract for Aug Gem: Luminance (44396) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44396;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44396, 'ace44396-contractforauggemluminance');
@@ -44924,6 +47894,9 @@ VALUES (44396, 13, True)
      , (44396, 19, True)
      , (44396, 22, True);
 
+/* Weenie - Gems - Contract for Vision Quest (44654) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44654;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44654, 'ace44654-contractforvisionquest');
 
@@ -44962,6 +47935,9 @@ VALUES (44654, 13, True)
      , (44654, 15, True)
      , (44654, 19, True)
      , (44654, 22, True);
+
+/* Weenie - Gems - Contract for Protecting Picketed Pets (49570) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49570;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49570, 'ace49570-contractforprotectingpicketedpets');
@@ -45002,6 +47978,9 @@ VALUES (49570, 13, True)
      , (49570, 19, True)
      , (49570, 22, True);
 
+/* Weenie - Gems - Contract for Snow Tusker Leader Tusk (51606) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51606;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51606, 'ace51606-contractforsnowtuskerleadertusk');
 
@@ -45040,6 +48019,9 @@ VALUES (51606, 13, True)
      , (51606, 15, True)
      , (51606, 19, True)
      , (51606, 22, True);
+
+/* Weenie - Gems - Contract for Journey To Madness (51605) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51605;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51605, 'ace51605-contractforjourneytomadness');
@@ -45080,6 +48062,9 @@ VALUES (51605, 13, True)
      , (51605, 19, True)
      , (51605, 22, True);
 
+/* Weenie - Gems - Contract for Visitors (51679) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51679;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51679, 'ace51679-contractforvisitors');
 
@@ -45118,6 +48103,9 @@ VALUES (51679, 13, True)
      , (51679, 15, True)
      , (51679, 19, True)
      , (51679, 22, True);
+
+/* Weenie - Gems - Contract for Killtask: Gurog Minions (44883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44883;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44883, 'ace44883-contractforkilltaskgurogminions');
@@ -45158,6 +48146,9 @@ VALUES (44883, 13, True)
      , (44883, 19, True)
      , (44883, 22, True);
 
+/* Weenie - Gems - Contract for Killtask: Gurog Soldiers (44884) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44884;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44884, 'ace44884-contractforkilltaskgurogsoldiers');
 
@@ -45196,6 +48187,9 @@ VALUES (44884, 13, True)
      , (44884, 15, True)
      , (44884, 19, True)
      , (44884, 22, True);
+
+/* Weenie - Gems - Contract for Killtask: Gurog Henchmen (44882) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44882;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44882, 'ace44882-contractforkilltaskguroghenchmen');
@@ -45236,6 +48230,9 @@ VALUES (44882, 13, True)
      , (44882, 19, True)
      , (44882, 22, True);
 
+/* Weenie - Gems - Contract for Gurog Creation (45565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45565;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45565, 'ace45565-contractforgurogcreation');
 
@@ -45274,6 +48271,9 @@ VALUES (45565, 13, True)
      , (45565, 15, True)
      , (45565, 19, True)
      , (45565, 22, True);
+
+/* Weenie - Gems - Contract for Jester Focuses (46904) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46904;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46904, 'ace46904-contractforjesterfocuses');
@@ -45314,6 +48314,9 @@ VALUES (46904, 13, True)
      , (46904, 19, True)
      , (46904, 22, True);
 
+/* Weenie - Gems - Contract for Unleash the Gearknights (46908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46908;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46908, 'ace46908-contractforunleashthegearknights');
 
@@ -45352,6 +48355,9 @@ VALUES (46908, 13, True)
      , (46908, 15, True)
      , (46908, 19, True)
      , (46908, 22, True);
+
+/* Weenie - Gems - Contract for Virindi Rescue (46909) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46909;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46909, 'ace46909-contractforvirindirescue');
@@ -45392,6 +48398,9 @@ VALUES (46909, 13, True)
      , (46909, 19, True)
      , (46909, 22, True);
 
+/* Weenie - Gems - Contract for Splitting Grael (Low) (45848) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45848;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45848, 'ace45848-contractforsplittinggraellow');
 
@@ -45430,6 +48439,9 @@ VALUES (45848, 13, True)
      , (45848, 15, True)
      , (45848, 19, True)
      , (45848, 22, True);
+
+/* Weenie - Gems - Contract for Splitting Grael (Mid) (45849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45849;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45849, 'ace45849-contractforsplittinggraelmid');
@@ -45470,6 +48482,9 @@ VALUES (45849, 13, True)
      , (45849, 19, True)
      , (45849, 22, True);
 
+/* Weenie - Gems - Contract for Splitting Grael (High) (45847) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45847;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45847, 'ace45847-contractforsplittinggraelhigh');
 
@@ -45508,6 +48523,9 @@ VALUES (45847, 13, True)
      , (45847, 15, True)
      , (45847, 19, True)
      , (45847, 22, True);
+
+/* Weenie - Gems - Contract for Geraine's Study (45846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45846;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45846, 'ace45846-contractforgerainesstudy');
@@ -45548,6 +48566,9 @@ VALUES (45846, 13, True)
      , (45846, 19, True)
      , (45846, 22, True);
 
+/* Weenie - Gems - Contract for Geraine's Hosts (45845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45845;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45845, 'ace45845-contractforgeraineshosts');
 
@@ -45586,6 +48607,9 @@ VALUES (45845, 13, True)
      , (45845, 15, True)
      , (45845, 19, True)
      , (45845, 22, True);
+
+/* Weenie - Gems - Contract for Mage Academy (48727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48727;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48727, 'ace48727-contractformageacademy');
@@ -45626,6 +48650,9 @@ VALUES (48727, 13, True)
      , (48727, 19, True)
      , (48727, 22, True);
 
+/* Weenie - Gems - Contract for Apostate Finale (48728) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48728;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48728, 'ace48728-contractforapostatefinale');
 
@@ -45664,6 +48691,9 @@ VALUES (48728, 13, True)
      , (48728, 15, True)
      , (48728, 19, True)
      , (48728, 22, True);
+
+/* Weenie - Gems - Contract for Olthoi Hive Queen (51279) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51279;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51279, 'ace51279-contractforolthoihivequeen');
@@ -45704,6 +48734,9 @@ VALUES (51279, 13, True)
      , (51279, 19, True)
      , (51279, 22, True);
 
+/* Weenie - Gems - Contract for End of Days (52171) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52171;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52171, 'ace52171-contractforendofdays');
 
@@ -45742,6 +48775,9 @@ VALUES (52171, 13, True)
      , (52171, 15, True)
      , (52171, 19, True)
      , (52171, 22, True);
+
+/* Weenie - Gems - Contract for Lugian Assault (52172) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52172;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52172, 'ace52172-contractforlugianassault');
@@ -45782,6 +48818,9 @@ VALUES (52172, 13, True)
      , (52172, 19, True)
      , (52172, 22, True);
 
+/* Weenie - Gems - Contract for Rynthid Training (52174) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52174;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52174, 'ace52174-contractforrynthidtraining');
 
@@ -45820,6 +48859,9 @@ VALUES (52174, 13, True)
      , (52174, 15, True)
      , (52174, 19, True)
      , (52174, 22, True);
+
+/* Weenie - Gems - Contract for Quest of the Month: Weekly #1 (44820) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44820;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44820, 'ace44820-contractforquestofthemonthweekly#1');
@@ -45860,6 +48902,9 @@ VALUES (44820, 13, True)
      , (44820, 19, True)
      , (44820, 22, True);
 
+/* Weenie - Gems - Contract for Quest of the Month: Weekly #2 (44821) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44821;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44821, 'ace44821-contractforquestofthemonthweekly#2');
 
@@ -45898,6 +48943,9 @@ VALUES (44821, 13, True)
      , (44821, 15, True)
      , (44821, 19, True)
      , (44821, 22, True);
+
+/* Weenie - Gems - Contract for Quest of the Month: Weekly #3 (44822) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44822;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44822, 'ace44822-contractforquestofthemonthweekly#3');
@@ -45938,6 +48986,9 @@ VALUES (44822, 13, True)
      , (44822, 19, True)
      , (44822, 22, True);
 
+/* Weenie - Gems - Contract for Yanshi Tunnels (44885) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44885;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44885, 'ace44885-contractforyanshitunnels');
 
@@ -45976,6 +49027,9 @@ VALUES (44885, 13, True)
      , (44885, 15, True)
      , (44885, 19, True)
      , (44885, 22, True);
+
+/* Weenie - Gems - Contract for Aerbax's Prodigal Tusker (44881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44881;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44881, 'ace44881-contractforaerbaxsprodigaltusker');
@@ -46016,6 +49070,9 @@ VALUES (44881, 13, True)
      , (44881, 19, True)
      , (44881, 22, True);
 
+/* Weenie - Gems - Contract for Crystalline Killer (47159) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47159;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47159, 'ace47159-contractforcrystallinekiller');
 
@@ -46054,6 +49111,9 @@ VALUES (47159, 13, True)
      , (47159, 15, True)
      , (47159, 19, True)
      , (47159, 22, True);
+
+/* Weenie - Gems - Contract for Crystalline Bound Wisp (47162) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47162;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47162, 'ace47162-contractforcrystallineboundwisp');
@@ -46094,6 +49154,9 @@ VALUES (47162, 13, True)
      , (47162, 19, True)
      , (47162, 22, True);
 
+/* Weenie - Gems - Contract for Crystalline Markers (47160) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47160;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47160, 'ace47160-contractforcrystallinemarkers');
 
@@ -46132,6 +49195,9 @@ VALUES (47160, 13, True)
      , (47160, 15, True)
      , (47160, 19, True)
      , (47160, 22, True);
+
+/* Weenie - Gems - Contract for Crystalline Adventurer (47161) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47161;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47161, 'ace47161-contractforcrystallineadventurer');
@@ -46172,6 +49238,9 @@ VALUES (47161, 13, True)
      , (47161, 19, True)
      , (47161, 22, True);
 
+/* Weenie - Gems - Contract for Changing Gears (52018) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52018;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52018, 'ace52018-contractforchanginggears');
 
@@ -46210,6 +49279,9 @@ VALUES (52018, 13, True)
      , (52018, 15, True)
      , (52018, 19, True)
      , (52018, 22, True);
+
+/* Weenie - Gems - Contract for Fear Factory (52019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52019;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52019, 'ace52019-contractforfearfactory');
@@ -46250,6 +49322,9 @@ VALUES (52019, 13, True)
      , (52019, 19, True)
      , (52019, 22, True);
 
+/* Weenie - Gems - Contract for Rynthid Genesis (52017) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52017;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52017, 'ace52017-contractforrynthidgenesis');
 
@@ -46288,6 +49363,9 @@ VALUES (52017, 13, True)
      , (52017, 15, True)
      , (52017, 19, True)
      , (52017, 22, True);
+
+/* Weenie - Gems - Contract for Spirited Halls (52020) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52020;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52020, 'ace52020-contractforspiritedhalls');
@@ -46328,6 +49406,9 @@ VALUES (52020, 13, True)
      , (52020, 19, True)
      , (52020, 22, True);
 
+/* Weenie - Gems - Contract for Aerbax's Defeat (44397) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44397;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44397, 'ace44397-contractforaerbaxsdefeat');
 
@@ -46366,6 +49447,9 @@ VALUES (44397, 13, True)
      , (44397, 15, True)
      , (44397, 19, True)
      , (44397, 22, True);
+
+/* Weenie - Gems - Contract for Harlune's Diplomacy (44586) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44586;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44586, 'ace44586-contractforharlunesdiplomacy');
@@ -46406,6 +49490,9 @@ VALUES (44586, 13, True)
      , (44586, 19, True)
      , (44586, 22, True);
 
+/* Weenie - Gems - Contract for Menhir Research (44583) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44583;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44583, 'ace44583-contractformenhirresearch');
 
@@ -46444,6 +49531,9 @@ VALUES (44583, 13, True)
      , (44583, 15, True)
      , (44583, 19, True)
      , (44583, 22, True);
+
+/* Weenie - Gems - Contract for Saving Asheron (44587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44587;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44587, 'ace44587-contractforsavingasheron');
@@ -46484,6 +49574,9 @@ VALUES (44587, 13, True)
      , (44587, 19, True)
      , (44587, 22, True);
 
+/* Weenie - Gems - Contract for Nexus Crawl (44657) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44657;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44657, 'ace44657-contractfornexuscrawl');
 
@@ -46522,6 +49615,9 @@ VALUES (44657, 13, True)
      , (44657, 15, True)
      , (44657, 19, True)
      , (44657, 22, True);
+
+/* Weenie - Gems - Contract for Golem Hunters: Mud Golem Sludge Lord (51222) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51222;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51222, 'ace51222-contractforgolemhuntersmudgolemsludgelord');
@@ -46562,6 +49658,9 @@ VALUES (51222, 13, True)
      , (51222, 19, True)
      , (51222, 22, True);
 
+/* Weenie - Gems - Contract for Golem Hunters: Copper Golem Kingpin (51223) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51223;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51223, 'ace51223-contractforgolemhunterscoppergolemkingpin');
 
@@ -46600,6 +49699,9 @@ VALUES (51223, 13, True)
      , (51223, 15, True)
      , (51223, 19, True)
      , (51223, 22, True);
+
+/* Weenie - Gems - Contract for Golem Hunters: Glacial Golem Margrave (51224) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51224;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51224, 'ace51224-contractforgolemhuntersglacialgolemmargrave');
@@ -46640,6 +49742,9 @@ VALUES (51224, 13, True)
      , (51224, 19, True)
      , (51224, 22, True);
 
+/* Weenie - Gems - Contract for Golem Hunters: Magma Golem Exarch (51225) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51225;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51225, 'ace51225-contractforgolemhuntersmagmagolemexarch');
 
@@ -46678,6 +49783,9 @@ VALUES (51225, 13, True)
      , (51225, 15, True)
      , (51225, 19, True)
      , (51225, 22, True);
+
+/* Weenie - Gems - Contract for Golem Hunters: Coral Golem Viceroy (51226) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51226;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51226, 'ace51226-contractforgolemhunterscoralgolemviceroy');
@@ -46718,6 +49826,9 @@ VALUES (51226, 13, True)
      , (51226, 19, True)
      , (51226, 22, True);
 
+/* Weenie - Gems - Contract for Golem Hunters: Platinum Golem Mountain King (51227) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51227;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51227, 'ace51227-contractforgolemhuntersplatinumgolemmountainking');
 
@@ -46756,6 +49867,9 @@ VALUES (51227, 13, True)
      , (51227, 15, True)
      , (51227, 19, True)
      , (51227, 22, True);
+
+/* Weenie - Gems - Contract for Clutch of Kings: Reeshan (46376) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46376;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46376, 'ace46376-contractforclutchofkingsreeshan');
@@ -46796,6 +49910,9 @@ VALUES (46376, 13, True)
      , (46376, 19, True)
      , (46376, 22, True);
 
+/* Weenie - Gems - Contract for Clutch of Kings: Kiree (46377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46377;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46377, 'ace46377-contractforclutchofkingskiree');
 
@@ -46834,6 +49951,9 @@ VALUES (46377, 13, True)
      , (46377, 15, True)
      , (46377, 19, True)
      , (46377, 22, True);
+
+/* Weenie - Gems - Contract for Clutch of Kings: Broodu (46378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46378;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46378, 'ace46378-contractforclutchofkingsbroodu');
@@ -46874,6 +49994,9 @@ VALUES (46378, 13, True)
      , (46378, 19, True)
      , (46378, 22, True);
 
+/* Weenie - Gems - Contract for Clutch of Kings: Keerik (46379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46379;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46379, 'ace46379-contractforclutchofkingskeerik');
 
@@ -46912,6 +50035,9 @@ VALUES (46379, 13, True)
      , (46379, 15, True)
      , (46379, 19, True)
      , (46379, 22, True);
+
+/* Weenie - Gems - Contract for Clutch of Kings: Rehir (46380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46380;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46380, 'ace46380-contractforclutchofkingsrehir');
@@ -46952,6 +50078,9 @@ VALUES (46380, 13, True)
      , (46380, 19, True)
      , (46380, 22, True);
 
+/* Weenie - Gems - Contract for Clutch of Kings: Browerk (46381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46381;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46381, 'ace46381-contractforclutchofkingsbrowerk');
 
@@ -46990,6 +50119,9 @@ VALUES (46381, 13, True)
      , (46381, 15, True)
      , (46381, 19, True)
      , (46381, 22, True);
+
+/* Weenie - Gems - Contract for Clutch of Kings: All (46382) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46382;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46382, 'ace46382-contractforclutchofkingsall');
@@ -47030,6 +50162,9 @@ VALUES (46382, 13, True)
      , (46382, 19, True)
      , (46382, 22, True);
 
+/* Weenie - Gems - Contract for Graverobber (49765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49765;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49765, 'ace49765-contractforgraverobber');
 
@@ -47068,6 +50203,9 @@ VALUES (49765, 13, True)
      , (49765, 15, True)
      , (49765, 19, True)
      , (49765, 22, True);
+
+/* Weenie - Gems - Contract for Deconstruction (49766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49766;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49766, 'ace49766-contractfordeconstruction');
@@ -47108,6 +50246,9 @@ VALUES (49766, 13, True)
      , (49766, 19, True)
      , (49766, 22, True);
 
+/* Weenie - Gems - Contract for Escape (49767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49767;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49767, 'ace49767-contractforescape');
 
@@ -47146,6 +50287,9 @@ VALUES (49767, 13, True)
      , (49767, 15, True)
      , (49767, 19, True)
      , (49767, 22, True);
+
+/* Weenie - Gems - Contract for Assault (Mid) (44158) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44158;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44158, 'ace44158-contractforassaultmid');
@@ -47186,6 +50330,9 @@ VALUES (44158, 13, True)
      , (44158, 19, True)
      , (44158, 22, True);
 
+/* Weenie - Gems - Contract for Glenden Wood Invasion (Low) (44143) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44143;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44143, 'ace44143-contractforglendenwoodinvasionlow');
 
@@ -47224,6 +50371,9 @@ VALUES (44143, 13, True)
      , (44143, 15, True)
      , (44143, 19, True)
      , (44143, 22, True);
+
+/* Weenie - Gems - Contract for Assault (High) (44159) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44159;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44159, 'ace44159-contractforassaulthigh');
@@ -47264,6 +50414,9 @@ VALUES (44159, 13, True)
      , (44159, 19, True)
      , (44159, 22, True);
 
+/* Weenie - Gems - Contract for Assault (Expert) (44160) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44160;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44160, 'ace44160-contractforassaultexpert');
 
@@ -47302,6 +50455,9 @@ VALUES (44160, 13, True)
      , (44160, 15, True)
      , (44160, 19, True)
      , (44160, 22, True);
+
+/* Weenie - Gems - Contract for Lost Pet (44180) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44180;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44180, 'ace44180-contractforlostpet');
@@ -47342,6 +50498,9 @@ VALUES (44180, 13, True)
      , (44180, 19, True)
      , (44180, 22, True);
 
+/* Weenie - Gems - Contract for Glenden Wood Invasion (Mid) (44144) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44144;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44144, 'ace44144-contractforglendenwoodinvasionmid');
 
@@ -47380,6 +50539,9 @@ VALUES (44144, 13, True)
      , (44144, 15, True)
      , (44144, 19, True)
      , (44144, 22, True);
+
+/* Weenie - Gems - Contract for Glenden Wood Invasion (High) (44145) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44145;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44145, 'ace44145-contractforglendenwoodinvasionhigh');
@@ -47420,6 +50582,9 @@ VALUES (44145, 13, True)
      , (44145, 19, True)
      , (44145, 22, True);
 
+/* Weenie - Gems - Eldrytch Web Cloak (44888) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44888;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44888, 'ace44888-eldrytchwebcloak');
 
@@ -47456,6 +50621,9 @@ VALUES (44888, 13, True)
      , (44888, 15, True)
      , (44888, 19, True)
      , (44888, 22, True);
+
+/* Weenie - Gems - Eldrytch Web Robe (44445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44445;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44445, 'ace44445-eldrytchwebrobe');
@@ -47494,6 +50662,9 @@ VALUES (44445, 13, True)
      , (44445, 19, True)
      , (44445, 22, True);
 
+/* Weenie - Gems - Society Breastplate Restorer (44980) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44980;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44980, 'ace44980-societybreastplaterestorer');
 
@@ -47530,6 +50701,9 @@ VALUES (44980, 13, True)
      , (44980, 15, True)
      , (44980, 19, True)
      , (44980, 22, True);
+
+/* Weenie - Gems - Society Breastplate Cloth Remover (44981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44981;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44981, 'ace44981-societybreastplateclothremover');
@@ -47568,6 +50742,9 @@ VALUES (44981, 13, True)
      , (44981, 19, True)
      , (44981, 22, True);
 
+/* Weenie - Gems - Eldrytch Web Kite Shield Cover (44467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44467;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44467, 'ace44467-eldrytchwebkiteshieldcover');
 
@@ -47604,6 +50781,9 @@ VALUES (44467, 13, True)
      , (44467, 15, True)
      , (44467, 19, True)
      , (44467, 22, True);
+
+/* Weenie - Gems - Eldrytch Web Buckler Cover (44589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44589;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44589, 'ace44589-eldrytchwebbucklercover');
@@ -47642,6 +50822,9 @@ VALUES (44589, 13, True)
      , (44589, 19, True)
      , (44589, 22, True);
 
+/* Weenie - Gems - Eldrytch Web Round Shield Cover (44604) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44604;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44604, 'ace44604-eldrytchwebroundshieldcover');
 
@@ -47678,6 +50861,9 @@ VALUES (44604, 13, True)
      , (44604, 15, True)
      , (44604, 19, True)
      , (44604, 22, True);
+
+/* Weenie - Gems - Eldrytch Web Large Round Shield Cover (44606) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44606;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44606, 'ace44606-eldrytchweblargeroundshieldcover');
@@ -47716,6 +50902,9 @@ VALUES (44606, 13, True)
      , (44606, 19, True)
      , (44606, 22, True);
 
+/* Weenie - Gems - Eldrytch Web Kite Shield Cover (44595) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44595;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44595, 'ace44595-eldrytchwebkiteshieldcover');
 
@@ -47752,6 +50941,9 @@ VALUES (44595, 13, True)
      , (44595, 15, True)
      , (44595, 19, True)
      , (44595, 22, True);
+
+/* Weenie - Gems - Eldrytch Web Large Kite Shield Cover (44597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44597;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44597, 'ace44597-eldrytchweblargekiteshieldcover');
@@ -47790,6 +50982,9 @@ VALUES (44597, 13, True)
      , (44597, 19, True)
      , (44597, 22, True);
 
+/* Weenie - Gems - Eldrytch Web Tower Shield Cover (44610) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44610;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44610, 'ace44610-eldrytchwebtowershieldcover');
 
@@ -47826,6 +51021,9 @@ VALUES (44610, 13, True)
      , (44610, 15, True)
      , (44610, 19, True)
      , (44610, 22, True);
+
+/* Weenie - Gems - Eldrytch Web Covenant Shield Cover (44592) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44592;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44592, 'ace44592-eldrytchwebcovenantshieldcover');
@@ -47864,6 +51062,9 @@ VALUES (44592, 13, True)
      , (44592, 19, True)
      , (44592, 22, True);
 
+/* Weenie - Gems - Eldrytch Web Olthoi Shield Cover (44601) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44601;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44601, 'ace44601-eldrytchwebolthoishieldcover');
 
@@ -47900,6 +51101,9 @@ VALUES (44601, 13, True)
      , (44601, 15, True)
      , (44601, 19, True)
      , (44601, 22, True);
+
+/* Weenie - Gems - Contract for Stipend: Eldrytch Web (46744) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46744;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46744, 'ace46744-contractforstipendeldrytchweb');
@@ -47940,6 +51144,9 @@ VALUES (46744, 13, True)
      , (46744, 19, True)
      , (46744, 22, True);
 
+/* Weenie - Gems - Contract for Aug Gem: Society (44394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44394;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44394, 'ace44394-contractforauggemsociety');
 
@@ -47978,6 +51185,9 @@ VALUES (44394, 13, True)
      , (44394, 15, True)
      , (44394, 19, True)
      , (44394, 22, True);
+
+/* Weenie - Gems - Contract for Forgotten Tunnels of Nyr'leha (44515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44515;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44515, 'ace44515-contractforforgottentunnelsofnyrleha');
@@ -48018,6 +51228,9 @@ VALUES (44515, 13, True)
      , (44515, 19, True)
      , (44515, 22, True);
 
+/* Weenie - Gems - Contract for Graveyard Delivery (44516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44516;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44516, 'ace44516-contractforgraveyarddelivery');
 
@@ -48056,6 +51269,9 @@ VALUES (44516, 13, True)
      , (44516, 15, True)
      , (44516, 19, True)
      , (44516, 22, True);
+
+/* Weenie - Gems - Contract for Mana-Infused Jungle Flowers (44517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44517;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44517, 'ace44517-contractformanainfusedjungleflowers');
@@ -48096,6 +51312,9 @@ VALUES (44517, 13, True)
      , (44517, 19, True)
      , (44517, 22, True);
 
+/* Weenie - Gems - Contract for Jungle Lilies (44518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44518;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44518, 'ace44518-contractforjunglelilies');
 
@@ -48134,6 +51353,9 @@ VALUES (44518, 13, True)
      , (44518, 15, True)
      , (44518, 19, True)
      , (44518, 22, True);
+
+/* Weenie - Gems - Contract for Magshuth Moarsmen (44519) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44519;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44519, 'ace44519-contractformagshuthmoarsmen');
@@ -48174,6 +51396,9 @@ VALUES (44519, 13, True)
      , (44519, 19, True)
      , (44519, 22, True);
 
+/* Weenie - Gems - Contract for Moar Glands (44520) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44520;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44520, 'ace44520-contractformoarglands');
 
@@ -48212,6 +51437,9 @@ VALUES (44520, 13, True)
      , (44520, 15, True)
      , (44520, 19, True)
      , (44520, 22, True);
+
+/* Weenie - Gems - Contract for Moarsman High Priest (44521) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44521;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44521, 'ace44521-contractformoarsmanhighpriest');
@@ -48252,6 +51480,9 @@ VALUES (44521, 13, True)
      , (44521, 19, True)
      , (44521, 22, True);
 
+/* Weenie - Gems - Contract for Moguth Moarsmen (44522) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44522;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44522, 'ace44522-contractformoguthmoarsmen');
 
@@ -48290,6 +51521,9 @@ VALUES (44522, 13, True)
      , (44522, 15, True)
      , (44522, 19, True)
      , (44522, 22, True);
+
+/* Weenie - Gems - Contract for Palm Fort (44523) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44523;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44523, 'ace44523-contractforpalmfort');
@@ -48330,6 +51564,9 @@ VALUES (44523, 13, True)
      , (44523, 19, True)
      , (44523, 22, True);
 
+/* Weenie - Gems - Contract for Phyntos Hive Splinters (44524) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44524;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44524, 'ace44524-contractforphyntoshivesplinters');
 
@@ -48368,6 +51605,9 @@ VALUES (44524, 13, True)
      , (44524, 15, True)
      , (44524, 19, True)
      , (44524, 22, True);
+
+/* Weenie - Gems - Contract for Phyntos Honey (44525) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44525;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44525, 'ace44525-contractforphyntoshoney');
@@ -48408,6 +51648,9 @@ VALUES (44525, 13, True)
      , (44525, 19, True)
      , (44525, 22, True);
 
+/* Weenie - Gems - Contract for Phyntos Larvae (44526) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44526;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44526, 'ace44526-contractforphyntoslarvae');
 
@@ -48446,6 +51689,9 @@ VALUES (44526, 13, True)
      , (44526, 15, True)
      , (44526, 19, True)
      , (44526, 22, True);
+
+/* Weenie - Gems - Contract for Phyntos Queen (44527) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44527;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44527, 'ace44527-contractforphyntosqueen');
@@ -48486,6 +51732,9 @@ VALUES (44527, 13, True)
      , (44527, 19, True)
      , (44527, 22, True);
 
+/* Weenie - Gems - Contract for Killer Phyntos Wasps (44528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44528;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44528, 'ace44528-contractforkillerphyntoswasps');
 
@@ -48524,6 +51773,9 @@ VALUES (44528, 13, True)
      , (44528, 15, True)
      , (44528, 19, True)
      , (44528, 22, True);
+
+/* Weenie - Gems - Contract for Shambling Archivist (44529) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44529;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44529, 'ace44529-contractforshamblingarchivist');
@@ -48564,6 +51816,9 @@ VALUES (44529, 13, True)
      , (44529, 19, True)
      , (44529, 22, True);
 
+/* Weenie - Gems - Contract for Shoguth Moarsmen (44530) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44530;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44530, 'ace44530-contractforshoguthmoarsmen');
 
@@ -48602,6 +51857,9 @@ VALUES (44530, 13, True)
      , (44530, 15, True)
      , (44530, 19, True)
      , (44530, 22, True);
+
+/* Weenie - Gems - Contract for Spawning Pools (44531) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44531;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44531, 'ace44531-contractforspawningpools');
@@ -48642,6 +51900,9 @@ VALUES (44531, 13, True)
      , (44531, 19, True)
      , (44531, 22, True);
 
+/* Weenie - Gems - Contract for Stone Tracings (44532) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44532;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44532, 'ace44532-contractforstonetracings');
 
@@ -48680,6 +51941,9 @@ VALUES (44532, 13, True)
      , (44532, 15, True)
      , (44532, 19, True)
      , (44532, 22, True);
+
+/* Weenie - Gems - Contract for Supply Saboteur (44533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44533;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44533, 'ace44533-contractforsupplysaboteur');
@@ -48720,6 +51984,9 @@ VALUES (44533, 13, True)
      , (44533, 19, True)
      , (44533, 22, True);
 
+/* Weenie - Gems - Contract for Undead Jaw Collection (44534) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44534;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44534, 'ace44534-contractforundeadjawcollection');
 
@@ -48758,6 +52025,9 @@ VALUES (44534, 13, True)
      , (44534, 15, True)
      , (44534, 19, True)
      , (44534, 22, True);
+
+/* Weenie - Gems - Contract for Vaeshok (44535) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44535;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44535, 'ace44535-contractforvaeshok');
@@ -48798,6 +52068,9 @@ VALUES (44535, 13, True)
      , (44535, 19, True)
      , (44535, 22, True);
 
+/* Weenie - Gems - Contract for Wight Blade Sorcerers (44536) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44536;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44536, 'ace44536-contractforwightbladesorcerers');
 
@@ -48836,6 +52109,9 @@ VALUES (44536, 13, True)
      , (44536, 15, True)
      , (44536, 19, True)
      , (44536, 22, True);
+
+/* Weenie - Gems - Contract for Artifact Collection (44537) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44537;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44537, 'ace44537-contractforartifactcollection');
@@ -48876,6 +52152,9 @@ VALUES (44537, 13, True)
      , (44537, 19, True)
      , (44537, 22, True);
 
+/* Weenie - Gems - Contract for Bandit Mana Hunter Boss (44538) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44538;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44538, 'ace44538-contractforbanditmanahunterboss');
 
@@ -48914,6 +52193,9 @@ VALUES (44538, 13, True)
      , (44538, 15, True)
      , (44538, 19, True)
      , (44538, 22, True);
+
+/* Weenie - Gems - Contract for Black Coral Collection (44539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44539;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44539, 'ace44539-contractforblackcoralcollection');
@@ -48954,6 +52236,9 @@ VALUES (44539, 13, True)
      , (44539, 19, True)
      , (44539, 22, True);
 
+/* Weenie - Gems - Contract for Blessed Moarsmen (44540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44540;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44540, 'ace44540-contractforblessedmoarsmen');
 
@@ -48992,6 +52277,9 @@ VALUES (44540, 13, True)
      , (44540, 15, True)
      , (44540, 19, True)
      , (44540, 22, True);
+
+/* Weenie - Gems - Contract for Coral Towers (44541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44541;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44541, 'ace44541-contractforcoraltowers');
@@ -49032,6 +52320,9 @@ VALUES (44541, 13, True)
      , (44541, 19, True)
      , (44541, 22, True);
 
+/* Weenie - Gems - Contract for Dark Isle Delivery (44542) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44542;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44542, 'ace44542-contractfordarkisledelivery');
 
@@ -49070,6 +52361,9 @@ VALUES (44542, 13, True)
      , (44542, 15, True)
      , (44542, 19, True)
      , (44542, 22, True);
+
+/* Weenie - Gems - Contract for Dark Isle Scouting (44543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44543;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44543, 'ace44543-contractfordarkislescouting');
@@ -49110,6 +52404,9 @@ VALUES (44543, 13, True)
      , (44543, 19, True)
      , (44543, 22, True);
 
+/* Weenie - Gems - Contract for Falatacot Reports (44544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44544;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44544, 'ace44544-contractforfalatacotreports');
 
@@ -49148,6 +52445,9 @@ VALUES (44544, 13, True)
      , (44544, 15, True)
      , (44544, 19, True)
      , (44544, 22, True);
+
+/* Weenie - Gems - Contract for Soc: Mana Siphon Destruction (51330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51330;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51330, 'ace51330-contractforsocmanasiphondestruction');
@@ -49188,6 +52488,9 @@ VALUES (51330, 13, True)
      , (51330, 19, True)
      , (51330, 22, True);
 
+/* Weenie - Gems - Contract for Soc: Destroy the Phalanx (51331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51331;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51331, 'ace51331-contractforsocdestroythephalanx');
 
@@ -49226,6 +52529,9 @@ VALUES (51331, 13, True)
      , (51331, 15, True)
      , (51331, 19, True)
      , (51331, 22, True);
+
+/* Weenie - Gems - Contract for Soc: Collect Gear Knight Parts (51332) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51332;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51332, 'ace51332-contractforsoccollectgearknightparts');
@@ -49266,6 +52572,9 @@ VALUES (51332, 13, True)
      , (51332, 19, True)
      , (51332, 22, True);
 
+/* Weenie - Gems - Radiant Blood Cloak (44889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44889;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44889, 'ace44889-radiantbloodcloak');
 
@@ -49302,6 +52611,9 @@ VALUES (44889, 13, True)
      , (44889, 15, True)
      , (44889, 19, True)
      , (44889, 22, True);
+
+/* Weenie - Gems - Radiant Blood Robe (44446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44446;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44446, 'ace44446-radiantbloodrobe');
@@ -49340,6 +52652,9 @@ VALUES (44446, 13, True)
      , (44446, 19, True)
      , (44446, 22, True);
 
+/* Weenie - Gems - Radiant Blood Shield Cover (44468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44468;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44468, 'ace44468-radiantbloodshieldcover');
 
@@ -49376,6 +52691,9 @@ VALUES (44468, 13, True)
      , (44468, 15, True)
      , (44468, 19, True)
      , (44468, 22, True);
+
+/* Weenie - Gems - Radiant Blood Buckler Cover (44590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44590;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44590, 'ace44590-radiantbloodbucklercover');
@@ -49414,6 +52732,9 @@ VALUES (44590, 13, True)
      , (44590, 19, True)
      , (44590, 22, True);
 
+/* Weenie - Gems - Radiant Blood Round Shield Cover (44608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44608;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44608, 'ace44608-radiantbloodroundshieldcover');
 
@@ -49450,6 +52771,9 @@ VALUES (44608, 13, True)
      , (44608, 15, True)
      , (44608, 19, True)
      , (44608, 22, True);
+
+/* Weenie - Gems - Radiant Blood Large Round Shield Cover (44607) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44607;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44607, 'ace44607-radiantbloodlargeroundshieldcover');
@@ -49488,6 +52812,9 @@ VALUES (44607, 13, True)
      , (44607, 19, True)
      , (44607, 22, True);
 
+/* Weenie - Gems - Radiant Blood Kite Shield Cover (44599) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44599;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44599, 'ace44599-radiantbloodkiteshieldcover');
 
@@ -49524,6 +52851,9 @@ VALUES (44599, 13, True)
      , (44599, 15, True)
      , (44599, 19, True)
      , (44599, 22, True);
+
+/* Weenie - Gems - Radiant Blood Large Kite Shield Cover (44598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44598;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44598, 'ace44598-radiantbloodlargekiteshieldcover');
@@ -49562,6 +52892,9 @@ VALUES (44598, 13, True)
      , (44598, 19, True)
      , (44598, 22, True);
 
+/* Weenie - Gems - Radiant Blood Tower Shield Cover (44611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44611;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44611, 'ace44611-radiantbloodtowershieldcover');
 
@@ -49598,6 +52931,9 @@ VALUES (44611, 13, True)
      , (44611, 15, True)
      , (44611, 19, True)
      , (44611, 22, True);
+
+/* Weenie - Gems - Radiant Blood Covenant Shield Cover (44593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44593;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44593, 'ace44593-radiantbloodcovenantshieldcover');
@@ -49636,6 +52972,9 @@ VALUES (44593, 13, True)
      , (44593, 19, True)
      , (44593, 22, True);
 
+/* Weenie - Gems - Radiant Blood Olthoi Shield Cover (44602) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44602;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44602, 'ace44602-radiantbloodolthoishieldcover');
 
@@ -49672,6 +53011,9 @@ VALUES (44602, 13, True)
      , (44602, 15, True)
      , (44602, 19, True)
      , (44602, 22, True);
+
+/* Weenie - Gems - Spectral Armor Tinkering Mastery Crystal (52752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52752;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52752, 'ace52752-spectralarmortinkeringmasterycrystal');
@@ -49712,6 +53054,9 @@ VALUES (52752, 13, True)
      , (52752, 15, True)
      , (52752, 19, True);
 
+/* Weenie - Gems - Spectral Weapon Tinkering Mastery Crystal (52753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52753;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52753, 'ace52753-spectralweapontinkeringmasterycrystal');
 
@@ -49750,6 +53095,9 @@ VALUES (52753, 13, True)
      , (52753, 14, True)
      , (52753, 15, True)
      , (52753, 19, True);
+
+/* Weenie - Gems - Spectral Item Tinkering Mastery Crystal (52751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52751;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52751, 'ace52751-spectralitemtinkeringmasterycrystal');
@@ -49790,6 +53138,9 @@ VALUES (52751, 13, True)
      , (52751, 15, True)
      , (52751, 19, True);
 
+/* Weenie - Gems - Spectral Magic Item Tinkering Mastery Crystal (52754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52754;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52754, 'ace52754-spectralmagicitemtinkeringmasterycrystal');
 
@@ -49828,6 +53179,9 @@ VALUES (52754, 13, True)
      , (52754, 14, True)
      , (52754, 15, True)
      , (52754, 19, True);
+
+/* Weenie - Gems - Gear Knight Invasion Area Portal Gem (52810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52810;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52810, 'ace52810-gearknightinvasionareaportalgem');
@@ -49869,6 +53223,9 @@ VALUES (52810, 13, True)
      , (52810, 15, True)
      , (52810, 19, True);
 
+/* Weenie - Gems - Mhoire Forge Portal Gem (52809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52809;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52809, 'ace52809-mhoireforgeportalgem');
 
@@ -49908,6 +53265,9 @@ VALUES (52809, 13, True)
      , (52809, 14, True)
      , (52809, 15, True)
      , (52809, 19, True);
+
+/* Weenie - Gems - Neftet Portal Gem (52807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52807;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52807, 'ace52807-neftetportalgem');
@@ -49949,6 +53309,9 @@ VALUES (52807, 13, True)
      , (52807, 15, True)
      , (52807, 19, True);
 
+/* Weenie - Gems - Paradox-touched Olthoi Portal Gem (52805) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52805;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52805, 'ace52805-paradoxtouchedolthoiportalgem');
 
@@ -49988,6 +53351,9 @@ VALUES (52805, 13, True)
      , (52805, 14, True)
      , (52805, 15, True)
      , (52805, 19, True);
+
+/* Weenie - Gems - Rynthid Portal Gem (52803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52803;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52803, 'ace52803-rynthidportalgem');
@@ -50029,6 +53395,9 @@ VALUES (52803, 13, True)
      , (52803, 15, True)
      , (52803, 19, True);
 
+/* Weenie - Gems - Hoshino Fortress Portal Gem (52812) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52812;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52812, 'ace52812-hoshinofortressportalgem');
 
@@ -50069,6 +53438,9 @@ VALUES (52812, 13, True)
      , (52812, 15, True)
      , (52812, 19, True);
 
+/* Weenie - Gems - Gauntlet Gem of Luminance (52750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52750;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52750, 'ace52750-gauntletgemofluminance');
 
@@ -50102,6 +53474,9 @@ VALUES (52750, 13, True)
      , (52750, 14, True)
      , (52750, 15, True)
      , (52750, 19, True);
+
+/* Weenie - Gems - Gauntlet Gem of Knowledge (52748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52748;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52748, 'ace52748-gauntletgemofknowledge');
@@ -50137,6 +53512,9 @@ VALUES (52748, 13, True)
      , (52748, 15, True)
      , (52748, 19, True);
 
+/* Weenie - Gems - Gauntlet Gem of Vast Knowledge (52749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52749;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52749, 'ace52749-gauntletgemofvastknowledge');
 
@@ -50170,6 +53548,9 @@ VALUES (52749, 13, True)
      , (52749, 14, True)
      , (52749, 15, True)
      , (52749, 19, True);
+
+/* Weenie - Gems - Gauntlet Brutality Amplification (52757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52757;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52757, 'ace52757-gauntletbrutalityamplification');
@@ -50208,6 +53589,9 @@ VALUES (52757, 13, True)
      , (52757, 19, True)
      , (52757, 22, True);
 
+/* Weenie - Gems - Horizon's Edge Amplification (53415) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53415;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53415, 'ace53415-horizonsedgeamplification');
 
@@ -50245,6 +53629,9 @@ VALUES (53415, 13, True)
      , (53415, 19, True)
      , (53415, 22, True);
 
+/* Weenie - Gems - A'nekshay Gem of Lesser Knowledge (47157) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47157;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47157, 'ace47157-anekshaygemoflesserknowledge');
 
@@ -50278,6 +53665,9 @@ VALUES (47157, 13, True)
      , (47157, 14, True)
      , (47157, 15, True)
      , (47157, 19, True);
+
+/* Weenie - Gems - Olthoi Shield Armor Augmentation (36632) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36632;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36632, 'ace36632-olthoishieldarmoraugmentation');
@@ -50315,6 +53705,9 @@ VALUES (36632, 13, True)
      , (36632, 15, True)
      , (36632, 19, True)
      , (36632, 22, True);
+
+/* Weenie - Gems - Contract for Southern Shroud Cabal (44164) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44164;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44164, 'ace44164-contractforsouthernshroudcabal');
@@ -50355,6 +53748,9 @@ VALUES (44164, 13, True)
      , (44164, 19, True)
      , (44164, 22, True);
 
+/* Weenie - Gems - Contract for Crafting Forges (Low) (44168) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44168;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44168, 'ace44168-contractforcraftingforgeslow');
 
@@ -50393,6 +53789,9 @@ VALUES (44168, 13, True)
      , (44168, 15, True)
      , (44168, 19, True)
      , (44168, 22, True);
+
+/* Weenie - Gems - Contract for Northern Shroud Cabal (44182) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44182;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44182, 'ace44182-contractfornorthernshroudcabal');
@@ -50433,6 +53832,9 @@ VALUES (44182, 13, True)
      , (44182, 19, True)
      , (44182, 22, True);
 
+/* Weenie - Gems - Contract for Crafting Forges (Mid) (44169) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44169;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44169, 'ace44169-contractforcraftingforgesmid');
 
@@ -50471,6 +53873,9 @@ VALUES (44169, 13, True)
      , (44169, 15, True)
      , (44169, 19, True)
      , (44169, 22, True);
+
+/* Weenie - Gems - Contract for Ishaq's Lost Key (44179) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44179;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44179, 'ace44179-contractforishaqslostkey');
@@ -50511,6 +53916,9 @@ VALUES (44179, 13, True)
      , (44179, 19, True)
      , (44179, 22, True);
 
+/* Weenie - Gems - Contract for The Legend of the Tusker Paw (44152) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44152;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44152, 'ace44152-contractforthelegendofthetuskerpaw');
 
@@ -50549,6 +53957,9 @@ VALUES (44152, 13, True)
      , (44152, 15, True)
      , (44152, 19, True)
      , (44152, 22, True);
+
+/* Weenie - Gems - Contract for Infiltration (44161) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44161;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44161, 'ace44161-contractforinfiltration');
@@ -50589,6 +54000,9 @@ VALUES (44161, 13, True)
      , (44161, 19, True)
      , (44161, 22, True);
 
+/* Weenie - Gems - Contract for Sawato Extortion (44162) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44162;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44162, 'ace44162-contractforsawatoextortion');
 
@@ -50627,6 +54041,9 @@ VALUES (44162, 13, True)
      , (44162, 15, True)
      , (44162, 19, True)
      , (44162, 22, True);
+
+/* Weenie - Gems - Contract for Crafting Forges (High) (44167) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44167;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44167, 'ace44167-contractforcraftingforgeshigh');
@@ -50667,6 +54084,9 @@ VALUES (44167, 13, True)
      , (44167, 19, True)
      , (44167, 22, True);
 
+/* Weenie - Gems - Contract for Raising Grael's Island (44184) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44184;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44184, 'ace44184-contractforraisinggraelsisland');
 
@@ -50705,6 +54125,9 @@ VALUES (44184, 13, True)
      , (44184, 15, True)
      , (44184, 19, True)
      , (44184, 22, True);
+
+/* Weenie - Gems - Contract for Stipend: Celestial Hand (46743) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46743;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46743, 'ace46743-contractforstipendcelestialhand');
@@ -50745,6 +54168,9 @@ VALUES (46743, 13, True)
      , (46743, 19, True)
      , (46743, 22, True);
 
+/* Weenie - Gems - Contract for Artifact Collection (44485) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44485;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44485, 'ace44485-contractforartifactcollection');
 
@@ -50783,6 +54209,9 @@ VALUES (44485, 13, True)
      , (44485, 15, True)
      , (44485, 19, True)
      , (44485, 22, True);
+
+/* Weenie - Gems - Contract for Bandit Mana Hunter Boss (44486) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44486;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44486, 'ace44486-contractforbanditmanahunterboss');
@@ -50823,6 +54252,9 @@ VALUES (44486, 13, True)
      , (44486, 19, True)
      , (44486, 22, True);
 
+/* Weenie - Gems - Contract for Black Coral Collection (44487) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44487;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44487, 'ace44487-contractforblackcoralcollection');
 
@@ -50861,6 +54293,9 @@ VALUES (44487, 13, True)
      , (44487, 15, True)
      , (44487, 19, True)
      , (44487, 22, True);
+
+/* Weenie - Gems - Contract for Blessed Moarsmen (44488) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44488;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44488, 'ace44488-contractforblessedmoarsmen');
@@ -50901,6 +54336,9 @@ VALUES (44488, 13, True)
      , (44488, 19, True)
      , (44488, 22, True);
 
+/* Weenie - Gems - Contract for Coral Towers (44489) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44489;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44489, 'ace44489-contractforcoraltowers');
 
@@ -50939,6 +54377,9 @@ VALUES (44489, 13, True)
      , (44489, 15, True)
      , (44489, 19, True)
      , (44489, 22, True);
+
+/* Weenie - Gems - Contract for Dark Isle Delivery (44490) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44490;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44490, 'ace44490-contractfordarkisledelivery');
@@ -50979,6 +54420,9 @@ VALUES (44490, 13, True)
      , (44490, 19, True)
      , (44490, 22, True);
 
+/* Weenie - Gems - Contract for Dark Isle Scouting (44491) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44491;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44491, 'ace44491-contractfordarkislescouting');
 
@@ -51017,6 +54461,9 @@ VALUES (44491, 13, True)
      , (44491, 15, True)
      , (44491, 19, True)
      , (44491, 22, True);
+
+/* Weenie - Gems - Contract for Falatacot Reports (44492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44492;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44492, 'ace44492-contractforfalatacotreports');
@@ -51057,6 +54504,9 @@ VALUES (44492, 13, True)
      , (44492, 19, True)
      , (44492, 22, True);
 
+/* Weenie - Gems - Contract for Graveyard Delivery (44493) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44493;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44493, 'ace44493-contractforgraveyarddelivery');
 
@@ -51095,6 +54545,9 @@ VALUES (44493, 13, True)
      , (44493, 15, True)
      , (44493, 19, True)
      , (44493, 22, True);
+
+/* Weenie - Gems - Contract for Mana-Infused Jungle Flowers (44494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44494;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44494, 'ace44494-contractformanainfusedjungleflowers');
@@ -51135,6 +54588,9 @@ VALUES (44494, 13, True)
      , (44494, 19, True)
      , (44494, 22, True);
 
+/* Weenie - Gems - Contract for Jungle Lilies (44495) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44495;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44495, 'ace44495-contractforjunglelilies');
 
@@ -51173,6 +54629,9 @@ VALUES (44495, 13, True)
      , (44495, 15, True)
      , (44495, 19, True)
      , (44495, 22, True);
+
+/* Weenie - Gems - Contract for Magshuth Moarsmen (44496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44496;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44496, 'ace44496-contractformagshuthmoarsmen');
@@ -51213,6 +54672,9 @@ VALUES (44496, 13, True)
      , (44496, 19, True)
      , (44496, 22, True);
 
+/* Weenie - Gems - Contract for Moar Glands (44497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44497;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44497, 'ace44497-contractformoarglands');
 
@@ -51251,6 +54713,9 @@ VALUES (44497, 13, True)
      , (44497, 15, True)
      , (44497, 19, True)
      , (44497, 22, True);
+
+/* Weenie - Gems - Contract for Moarsman High Priest (44498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44498;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44498, 'ace44498-contractformoarsmanhighpriest');
@@ -51291,6 +54756,9 @@ VALUES (44498, 13, True)
      , (44498, 19, True)
      , (44498, 22, True);
 
+/* Weenie - Gems - Contract for Moguth Moarsmen (44499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44499;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44499, 'ace44499-contractformoguthmoarsmen');
 
@@ -51329,6 +54797,9 @@ VALUES (44499, 13, True)
      , (44499, 15, True)
      , (44499, 19, True)
      , (44499, 22, True);
+
+/* Weenie - Gems - Contract for Phyntos Hive Splinters (44500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44500;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44500, 'ace44500-contractforphyntoshivesplinters');
@@ -51369,6 +54840,9 @@ VALUES (44500, 13, True)
      , (44500, 19, True)
      , (44500, 22, True);
 
+/* Weenie - Gems - Contract for Phyntos Honey (44501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44501;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44501, 'ace44501-contractforphyntoshoney');
 
@@ -51407,6 +54881,9 @@ VALUES (44501, 13, True)
      , (44501, 15, True)
      , (44501, 19, True)
      , (44501, 22, True);
+
+/* Weenie - Gems - Contract for Phyntos Larvae (44502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44502;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44502, 'ace44502-contractforphyntoslarvae');
@@ -51447,6 +54924,9 @@ VALUES (44502, 13, True)
      , (44502, 19, True)
      , (44502, 22, True);
 
+/* Weenie - Gems - Contract for Phyntos Queen (44503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44503;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44503, 'ace44503-contractforphyntosqueen');
 
@@ -51485,6 +54965,9 @@ VALUES (44503, 13, True)
      , (44503, 15, True)
      , (44503, 19, True)
      , (44503, 22, True);
+
+/* Weenie - Gems - Contract for Killer Phyntos Wasps (44504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44504;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44504, 'ace44504-contractforkillerphyntoswasps');
@@ -51525,6 +55008,9 @@ VALUES (44504, 13, True)
      , (44504, 19, True)
      , (44504, 22, True);
 
+/* Weenie - Gems - Contract for Shambling Archivist (44505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44505;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44505, 'ace44505-contractforshamblingarchivist');
 
@@ -51563,6 +55049,9 @@ VALUES (44505, 13, True)
      , (44505, 15, True)
      , (44505, 19, True)
      , (44505, 22, True);
+
+/* Weenie - Gems - Contract for Shoguth Moarsmen (44506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44506;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44506, 'ace44506-contractforshoguthmoarsmen');
@@ -51603,6 +55092,9 @@ VALUES (44506, 13, True)
      , (44506, 19, True)
      , (44506, 22, True);
 
+/* Weenie - Gems - Contract for Spawning Pools (44507) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44507;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44507, 'ace44507-contractforspawningpools');
 
@@ -51641,6 +55133,9 @@ VALUES (44507, 13, True)
      , (44507, 15, True)
      , (44507, 19, True)
      , (44507, 22, True);
+
+/* Weenie - Gems - Contract for Stone Tracings (44508) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44508;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44508, 'ace44508-contractforstonetracings');
@@ -51681,6 +55176,9 @@ VALUES (44508, 13, True)
      , (44508, 19, True)
      , (44508, 22, True);
 
+/* Weenie - Gems - Contract for Undead Jaw Collection (44509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44509;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44509, 'ace44509-contractforundeadjawcollection');
 
@@ -51719,6 +55217,9 @@ VALUES (44509, 13, True)
      , (44509, 15, True)
      , (44509, 19, True)
      , (44509, 22, True);
+
+/* Weenie - Gems - Contract for Vaeshok (44510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44510;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44510, 'ace44510-contractforvaeshok');
@@ -51759,6 +55260,9 @@ VALUES (44510, 13, True)
      , (44510, 19, True)
      , (44510, 22, True);
 
+/* Weenie - Gems - Contract for Wight Blade Sorcerers (44511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44511;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44511, 'ace44511-contractforwightbladesorcerers');
 
@@ -51797,6 +55301,9 @@ VALUES (44511, 13, True)
      , (44511, 15, True)
      , (44511, 19, True)
      , (44511, 22, True);
+
+/* Weenie - Gems - Contract for Palm Fort (44512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44512;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44512, 'ace44512-contractforpalmfort');
@@ -51837,6 +55344,9 @@ VALUES (44512, 13, True)
      , (44512, 19, True)
      , (44512, 22, True);
 
+/* Weenie - Gems - Contract for Supply Saboteur (44513) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44513;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44513, 'ace44513-contractforsupplysaboteur');
 
@@ -51875,6 +55385,9 @@ VALUES (44513, 13, True)
      , (44513, 15, True)
      , (44513, 19, True)
      , (44513, 22, True);
+
+/* Weenie - Gems - Contract for Forgotten Tunnels of Nyr'leha (44514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44514;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44514, 'ace44514-contractforforgottentunnelsofnyrleha');
@@ -51915,6 +55428,9 @@ VALUES (44514, 13, True)
      , (44514, 19, True)
      , (44514, 22, True);
 
+/* Weenie - Gems - Contract for Soc: Mana Siphon Destruction (45564) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45564;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45564, 'ace45564-contractforsocmanasiphondestruction');
 
@@ -51953,6 +55469,9 @@ VALUES (45564, 13, True)
      , (45564, 15, True)
      , (45564, 19, True)
      , (45564, 22, True);
+
+/* Weenie - Gems - Contract for Soc: Destroy the Phalanx (51328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51328;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51328, 'ace51328-contractforsocdestroythephalanx');
@@ -51993,6 +55512,9 @@ VALUES (51328, 13, True)
      , (51328, 19, True)
      , (51328, 22, True);
 
+/* Weenie - Gems - Contract for Soc: Collect Gear Knight Parts (51329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51329, 'ace51329-contractforsoccollectgearknightparts');
 
@@ -52032,6 +55554,9 @@ VALUES (51329, 13, True)
      , (51329, 19, True)
      , (51329, 22, True);
 
+/* Weenie - Gems - Celestial Hand Shield Cover (44466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44466;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44466, 'ace44466-celestialhandshieldcover');
 
@@ -52068,6 +55593,9 @@ VALUES (44466, 13, True)
      , (44466, 15, True)
      , (44466, 19, True)
      , (44466, 22, True);
+
+/* Weenie - Gems - Celestial Hand Buckler Cover (44588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44588;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44588, 'ace44588-celestialhandbucklercover');
@@ -52106,6 +55634,9 @@ VALUES (44588, 13, True)
      , (44588, 19, True)
      , (44588, 22, True);
 
+/* Weenie - Gems - Celestial Hand Round Shield Cover (44603) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44603;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44603, 'ace44603-celestialhandroundshieldcover');
 
@@ -52142,6 +55673,9 @@ VALUES (44603, 13, True)
      , (44603, 15, True)
      , (44603, 19, True)
      , (44603, 22, True);
+
+/* Weenie - Gems - Celestial Hand Large Round Shield Cover (44605) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44605;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44605, 'ace44605-celestialhandlargeroundshieldcover');
@@ -52180,6 +55714,9 @@ VALUES (44605, 13, True)
      , (44605, 19, True)
      , (44605, 22, True);
 
+/* Weenie - Gems - Celestial Hand Kite Shield Cover (44594) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44594;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44594, 'ace44594-celestialhandkiteshieldcover');
 
@@ -52216,6 +55753,9 @@ VALUES (44594, 13, True)
      , (44594, 15, True)
      , (44594, 19, True)
      , (44594, 22, True);
+
+/* Weenie - Gems - Celestial Hand Large Kite Shield Cover (44596) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44596;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44596, 'ace44596-celestialhandlargekiteshieldcover');
@@ -52254,6 +55794,9 @@ VALUES (44596, 13, True)
      , (44596, 19, True)
      , (44596, 22, True);
 
+/* Weenie - Gems - Celestial Hand Tower Shield Cover (44609) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44609;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44609, 'ace44609-celestialhandtowershieldcover');
 
@@ -52290,6 +55833,9 @@ VALUES (44609, 13, True)
      , (44609, 15, True)
      , (44609, 19, True)
      , (44609, 22, True);
+
+/* Weenie - Gems - Celestial Hand Covenant Shield Cover (44591) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44591;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44591, 'ace44591-celestialhandcovenantshieldcover');
@@ -52328,6 +55874,9 @@ VALUES (44591, 13, True)
      , (44591, 19, True)
      , (44591, 22, True);
 
+/* Weenie - Gems - Celestial Hand Olthoi Shield Cover (44600) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44600;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44600, 'ace44600-celestialhandolthoishieldcover');
 
@@ -52364,6 +55913,9 @@ VALUES (44600, 13, True)
      , (44600, 15, True)
      , (44600, 19, True)
      , (44600, 22, True);
+
+/* Weenie - Gems - Contract for Stipend: Radiant Blood (46745) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46745;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46745, 'ace46745-contractforstipendradiantblood');
@@ -52404,6 +55956,9 @@ VALUES (46745, 13, True)
      , (46745, 19, True)
      , (46745, 22, True);
 
+/* Weenie - Gems - Contract for Wight Blade Sorcerers (44545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44545;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44545, 'ace44545-contractforwightbladesorcerers');
 
@@ -52442,6 +55997,9 @@ VALUES (44545, 13, True)
      , (44545, 15, True)
      , (44545, 19, True)
      , (44545, 22, True);
+
+/* Weenie - Gems - Contract for Artifact Collection (44546) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44546;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44546, 'ace44546-contractforartifactcollection');
@@ -52482,6 +56040,9 @@ VALUES (44546, 13, True)
      , (44546, 19, True)
      , (44546, 22, True);
 
+/* Weenie - Gems - Contract for Bandit Mana Hunter Boss (44547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44547;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44547, 'ace44547-contractforbanditmanahunterboss');
 
@@ -52520,6 +56081,9 @@ VALUES (44547, 13, True)
      , (44547, 15, True)
      , (44547, 19, True)
      , (44547, 22, True);
+
+/* Weenie - Gems - Contract for Black Coral Collection (44548) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44548;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44548, 'ace44548-contractforblackcoralcollection');
@@ -52560,6 +56124,9 @@ VALUES (44548, 13, True)
      , (44548, 19, True)
      , (44548, 22, True);
 
+/* Weenie - Gems - Contract for Blessed Moarsmen (44549) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44549;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44549, 'ace44549-contractforblessedmoarsmen');
 
@@ -52598,6 +56165,9 @@ VALUES (44549, 13, True)
      , (44549, 15, True)
      , (44549, 19, True)
      , (44549, 22, True);
+
+/* Weenie - Gems - Contract for Coral Towers (44550) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44550;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44550, 'ace44550-contractforcoraltowers');
@@ -52638,6 +56208,9 @@ VALUES (44550, 13, True)
      , (44550, 19, True)
      , (44550, 22, True);
 
+/* Weenie - Gems - Contract for Dark Isle Delivery (44551) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44551;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44551, 'ace44551-contractfordarkisledelivery');
 
@@ -52676,6 +56249,9 @@ VALUES (44551, 13, True)
      , (44551, 15, True)
      , (44551, 19, True)
      , (44551, 22, True);
+
+/* Weenie - Gems - Contract for Dark Isle Scouting (44552) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44552;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44552, 'ace44552-contractfordarkislescouting');
@@ -52716,6 +56292,9 @@ VALUES (44552, 13, True)
      , (44552, 19, True)
      , (44552, 22, True);
 
+/* Weenie - Gems - Contract for Falatacot Reports (44553) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44553;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44553, 'ace44553-contractforfalatacotreports');
 
@@ -52754,6 +56333,9 @@ VALUES (44553, 13, True)
      , (44553, 15, True)
      , (44553, 19, True)
      , (44553, 22, True);
+
+/* Weenie - Gems - Contract for Forgotten Tunnels of Nyr'leha (44554) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44554;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44554, 'ace44554-contractforforgottentunnelsofnyrleha');
@@ -52794,6 +56376,9 @@ VALUES (44554, 13, True)
      , (44554, 19, True)
      , (44554, 22, True);
 
+/* Weenie - Gems - Contract for Graveyard Delivery (44555) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44555;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44555, 'ace44555-contractforgraveyarddelivery');
 
@@ -52832,6 +56417,9 @@ VALUES (44555, 13, True)
      , (44555, 15, True)
      , (44555, 19, True)
      , (44555, 22, True);
+
+/* Weenie - Gems - Contract for Mana-Infused Jungle Flowers (44556) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44556;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44556, 'ace44556-contractformanainfusedjungleflowers');
@@ -52872,6 +56460,9 @@ VALUES (44556, 13, True)
      , (44556, 19, True)
      , (44556, 22, True);
 
+/* Weenie - Gems - Contract for Jungle Lilies (44557) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44557;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44557, 'ace44557-contractforjunglelilies');
 
@@ -52910,6 +56501,9 @@ VALUES (44557, 13, True)
      , (44557, 15, True)
      , (44557, 19, True)
      , (44557, 22, True);
+
+/* Weenie - Gems - Contract for Magshuth Moarsmen (44558) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44558;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44558, 'ace44558-contractformagshuthmoarsmen');
@@ -52950,6 +56544,9 @@ VALUES (44558, 13, True)
      , (44558, 19, True)
      , (44558, 22, True);
 
+/* Weenie - Gems - Contract for Moar Glands (44559) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44559;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44559, 'ace44559-contractformoarglands');
 
@@ -52988,6 +56585,9 @@ VALUES (44559, 13, True)
      , (44559, 15, True)
      , (44559, 19, True)
      , (44559, 22, True);
+
+/* Weenie - Gems - Contract for Moarsman High Priest (44560) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44560;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44560, 'ace44560-contractformoarsmanhighpriest');
@@ -53028,6 +56628,9 @@ VALUES (44560, 13, True)
      , (44560, 19, True)
      , (44560, 22, True);
 
+/* Weenie - Gems - Contract for Moguth Moarsmen (44561) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44561;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44561, 'ace44561-contractformoguthmoarsmen');
 
@@ -53066,6 +56669,9 @@ VALUES (44561, 13, True)
      , (44561, 15, True)
      , (44561, 19, True)
      , (44561, 22, True);
+
+/* Weenie - Gems - Contract for Palm Fort (44562) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44562;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44562, 'ace44562-contractforpalmfort');
@@ -53106,6 +56712,9 @@ VALUES (44562, 13, True)
      , (44562, 19, True)
      , (44562, 22, True);
 
+/* Weenie - Gems - Contract for Phyntos Hive Splinters (44563) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44563;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44563, 'ace44563-contractforphyntoshivesplinters');
 
@@ -53144,6 +56753,9 @@ VALUES (44563, 13, True)
      , (44563, 15, True)
      , (44563, 19, True)
      , (44563, 22, True);
+
+/* Weenie - Gems - Contract for Phyntos Honey (44564) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44564;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44564, 'ace44564-contractforphyntoshoney');
@@ -53184,6 +56796,9 @@ VALUES (44564, 13, True)
      , (44564, 19, True)
      , (44564, 22, True);
 
+/* Weenie - Gems - Contract for Phyntos Larvae (44565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44565;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44565, 'ace44565-contractforphyntoslarvae');
 
@@ -53222,6 +56837,9 @@ VALUES (44565, 13, True)
      , (44565, 15, True)
      , (44565, 19, True)
      , (44565, 22, True);
+
+/* Weenie - Gems - Contract for Phyntos Queen (44566) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44566;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44566, 'ace44566-contractforphyntosqueen');
@@ -53262,6 +56880,9 @@ VALUES (44566, 13, True)
      , (44566, 19, True)
      , (44566, 22, True);
 
+/* Weenie - Gems - Contract for Killer Phyntos Wasps (44567) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44567;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44567, 'ace44567-contractforkillerphyntoswasps');
 
@@ -53300,6 +56921,9 @@ VALUES (44567, 13, True)
      , (44567, 15, True)
      , (44567, 19, True)
      , (44567, 22, True);
+
+/* Weenie - Gems - Contract for Shambling Archivist (44568) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44568;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44568, 'ace44568-contractforshamblingarchivist');
@@ -53340,6 +56964,9 @@ VALUES (44568, 13, True)
      , (44568, 19, True)
      , (44568, 22, True);
 
+/* Weenie - Gems - Contract for Shoguth Moarsmen (44569) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44569;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44569, 'ace44569-contractforshoguthmoarsmen');
 
@@ -53378,6 +57005,9 @@ VALUES (44569, 13, True)
      , (44569, 15, True)
      , (44569, 19, True)
      , (44569, 22, True);
+
+/* Weenie - Gems - Contract for Spawning Pools (44570) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44570;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44570, 'ace44570-contractforspawningpools');
@@ -53418,6 +57048,9 @@ VALUES (44570, 13, True)
      , (44570, 19, True)
      , (44570, 22, True);
 
+/* Weenie - Gems - Contract for Stone Tracings (44571) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44571;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44571, 'ace44571-contractforstonetracings');
 
@@ -53456,6 +57089,9 @@ VALUES (44571, 13, True)
      , (44571, 15, True)
      , (44571, 19, True)
      , (44571, 22, True);
+
+/* Weenie - Gems - Contract for Supply Saboteur (44572) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44572;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44572, 'ace44572-contractforsupplysaboteur');
@@ -53496,6 +57132,9 @@ VALUES (44572, 13, True)
      , (44572, 19, True)
      , (44572, 22, True);
 
+/* Weenie - Gems - Contract for Undead Jaw Collection (44573) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44573;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44573, 'ace44573-contractforundeadjawcollection');
 
@@ -53534,6 +57173,9 @@ VALUES (44573, 13, True)
      , (44573, 15, True)
      , (44573, 19, True)
      , (44573, 22, True);
+
+/* Weenie - Gems - Contract for Vaeshok (44574) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44574;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44574, 'ace44574-contractforvaeshok');
@@ -53574,6 +57216,9 @@ VALUES (44574, 13, True)
      , (44574, 19, True)
      , (44574, 22, True);
 
+/* Weenie - Gems - Contract for Soc: Mana Siphon Destruction (51333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51333;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51333, 'ace51333-contractforsocmanasiphondestruction');
 
@@ -53612,6 +57257,9 @@ VALUES (51333, 13, True)
      , (51333, 15, True)
      , (51333, 19, True)
      , (51333, 22, True);
+
+/* Weenie - Gems - Contract for Soc: Destroy the Phalanx (51334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51334;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51334, 'ace51334-contractforsocdestroythephalanx');
@@ -53652,6 +57300,9 @@ VALUES (51334, 13, True)
      , (51334, 19, True)
      , (51334, 22, True);
 
+/* Weenie - Gems - Contract for Soc: Collect Gear Knight Parts (51335) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51335;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51335, 'ace51335-contractforsoccollectgearknightparts');
 
@@ -53690,6 +57341,9 @@ VALUES (51335, 13, True)
      , (51335, 15, True)
      , (51335, 19, True)
      , (51335, 22, True);
+
+/* Weenie - Gems - Contract for Enrico's Betrayal (44170) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44170;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44170, 'ace44170-contractforenricosbetrayal');
@@ -53730,6 +57384,9 @@ VALUES (44170, 13, True)
      , (44170, 19, True)
      , (44170, 22, True);
 
+/* Weenie - Gems - Contract for The Caliginous Bethel (44151) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44151;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44151, 'ace44151-contractforthecaliginousbethel');
 
@@ -53768,6 +57425,9 @@ VALUES (44151, 13, True)
      , (44151, 15, True)
      , (44151, 19, True)
      , (44151, 22, True);
+
+/* Weenie - Gems - Contract for Suzuhara Baijin's Delivery (44165) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44165;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44165, 'ace44165-contractforsuzuharabaijinsdelivery');
@@ -53808,6 +57468,9 @@ VALUES (44165, 13, True)
      , (44165, 19, True)
      , (44165, 22, True);
 
+/* Weenie - Gems - Contract for Tentacles of T'thuun (44166) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44166;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44166, 'ace44166-contractfortentaclesoftthuun');
 
@@ -53846,6 +57509,9 @@ VALUES (44166, 13, True)
      , (44166, 15, True)
      , (44166, 19, True)
      , (44166, 22, True);
+
+/* Weenie - Gems - Contract for Fiun Healing Machine (44176) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44176;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44176, 'ace44176-contractforfiunhealingmachine');
@@ -53886,6 +57552,9 @@ VALUES (44176, 13, True)
      , (44176, 19, True)
      , (44176, 22, True);
 
+/* Weenie - Gems - Contract for Haleatan Beach Camps (44177) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44177;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44177, 'ace44177-contractforhaleatanbeachcamps');
 
@@ -53924,6 +57593,9 @@ VALUES (44177, 13, True)
      , (44177, 15, True)
      , (44177, 19, True)
      , (44177, 22, True);
+
+/* Weenie - Gems - Contract for Ricardo's Blood Gem (44185) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44185;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44185, 'ace44185-contractforricardosbloodgem');
@@ -53964,6 +57636,9 @@ VALUES (44185, 13, True)
      , (44185, 19, True)
      , (44185, 22, True);
 
+/* Weenie - Gems - Contract for Of Trust and Betrayal (44183) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44183;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44183, 'ace44183-contractforoftrustandbetrayal');
 
@@ -54002,6 +57677,9 @@ VALUES (44183, 13, True)
      , (44183, 15, True)
      , (44183, 19, True)
      , (44183, 22, True);
+
+/* Weenie - Gems - Contract for The Shadows of Bitter Winter (44163) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44163;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44163, 'ace44163-contractfortheshadowsofbitterwinter');

@@ -1,3 +1,6 @@
+/* Weenie - PKSwitches - Altar of Bael'Zharon (854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 854;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (854, 'pkswitch');
 
@@ -28,6 +31,9 @@ VALUES (854, 11, True)
      , (854, 14, True)
      , (854, 19, True)
      , (854, 1, True);
+
+/* Weenie - PKSwitches - Eye of Darkness (29034) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29034;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29034, 'altarfalatacotpk');

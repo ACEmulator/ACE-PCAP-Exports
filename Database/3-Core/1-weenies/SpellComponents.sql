@@ -1,3 +1,6 @@
+/* Weenie - SpellComponents - Iron Pea (8328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8328;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8328, 'peascarabiron');
 
@@ -43,6 +46,9 @@ VALUES (8328, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8328, 0, 16780734);
 
+/* Weenie - SpellComponents - Iron Scarab (689) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 689;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (689, 'scarabiron');
 
@@ -86,6 +92,9 @@ VALUES (689, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (689, 0, 16780734);
 
+/* Weenie - SpellComponents - Pyreal Scarab (690) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 690;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (690, 'scarabpyreal');
 
@@ -128,6 +137,9 @@ VALUES (690, 0, 83890047, 83890047);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (690, 0, 16780734);
+
+/* Weenie - SpellComponents - Silver Pea (8331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8331;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8331, 'peascarabsilver');
@@ -174,6 +186,9 @@ VALUES (8331, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8331, 0, 16780734);
 
+/* Weenie - SpellComponents - Copper Scarab (686) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 686;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (686, 'scarabcopper');
 
@@ -217,6 +232,9 @@ VALUES (686, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (686, 0, 16780734);
 
+/* Weenie - SpellComponents - Gold Scarab (687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 687;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (687, 'scarabgold');
 
@@ -259,6 +277,9 @@ VALUES (687, 0, 83890047, 83890047);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (687, 0, 16780734);
+
+/* Weenie - SpellComponents - Gold Pea (8327) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8327;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8327, 'peascarabgold');
@@ -305,6 +326,9 @@ VALUES (8327, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8327, 0, 16780734);
 
+/* Weenie - SpellComponents - Platinum Scarab (8897) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8897;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8897, 'scarabplatinum');
 
@@ -348,6 +372,9 @@ VALUES (8897, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8897, 0, 16780734);
 
+/* Weenie - SpellComponents - Prismatic Taper (20631) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20631;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20631, 'taperprismatic');
 
@@ -385,6 +412,9 @@ VALUES (20631, 0, 83890928, 83892492);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20631, 0, 16781612);
+
+/* Weenie - SpellComponents - Lead Scarab (691) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 691;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (691, 'scarablead');
@@ -429,6 +459,9 @@ VALUES (691, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (691, 0, 16780734);
 
+/* Weenie - SpellComponents - Mana Scarab (37155) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37155;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37155, 'ace37155-manascarab');
 
@@ -468,6 +501,9 @@ VALUES (37155, 0, 83890047, 83890047);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37155, 0, 16780734);
+
+/* Weenie - SpellComponents - Copper Pea (8326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8326;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8326, 'peascarabcopper');
@@ -514,6 +550,9 @@ VALUES (8326, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8326, 0, 16780734);
 
+/* Weenie - SpellComponents - Silver Scarab (688) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 688;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (688, 'scarabsilver');
 
@@ -556,6 +595,9 @@ VALUES (688, 0, 83890047, 83890047);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (688, 0, 16780734);
+
+/* Weenie - SpellComponents - Diamond Scarab (7299) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7299;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7299, 'scarabdiamond');
@@ -600,6 +642,9 @@ VALUES (7299, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7299, 0, 16780734);
 
+/* Weenie - SpellComponents - Chorizite (7581) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7581;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7581, 'alchemchorizite');
 
@@ -642,6 +687,9 @@ VALUES (7581, 0, 83890051, 83890051);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7581, 0, 16780684);
+
+/* Weenie - SpellComponents - Mugwort (776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 776;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (776, 'mugwort');
@@ -689,6 +737,9 @@ VALUES (776, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (776, 0, 16777882);
 
+/* Weenie - SpellComponents - Lead Pea (8329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8329, 'peascarablead');
 
@@ -734,6 +785,9 @@ VALUES (8329, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8329, 0, 16780734);
 
+/* Weenie - SpellComponents - Yew Talisman (752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 752;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (752, 'yewtalisman');
 
@@ -775,6 +829,9 @@ VALUES (752, 0, 83890069, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (752, 0, 16780687);
+
+/* Weenie - SpellComponents - Alder Talisman (627) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 627;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (627, 'aldertalisman');
@@ -818,6 +875,9 @@ VALUES (627, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (627, 0, 16780687);
 
+/* Weenie - SpellComponents - Birch Talisman (741) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 741;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (741, 'birchtalisman');
 
@@ -859,6 +919,9 @@ VALUES (741, 0, 83890069, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (741, 0, 16780687);
+
+/* Weenie - SpellComponents - Willow Talisman (751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 751;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (751, 'willowtalisman');
@@ -902,6 +965,9 @@ VALUES (751, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (751, 0, 16780687);
 
+/* Weenie - SpellComponents - Cedar Talisman (743) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 743;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (743, 'cedartalisman');
 
@@ -943,6 +1009,9 @@ VALUES (743, 0, 83890069, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (743, 0, 16780687);
+
+/* Weenie - SpellComponents - Hazel Talisman (746) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 746;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (746, 'hazeltalisman');
@@ -986,6 +1055,9 @@ VALUES (746, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (746, 0, 16780687);
 
+/* Weenie - SpellComponents - Rowan Talisman (750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 750;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (750, 'rowantalisman');
 
@@ -1028,6 +1100,9 @@ VALUES (750, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (750, 0, 16780687);
 
+/* Weenie - SpellComponents - Ashwood Talisman (740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 740;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (740, 'ashwoodtalisman');
 
@@ -1069,6 +1144,9 @@ VALUES (740, 0, 83890069, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (740, 0, 16780687);
+
+/* Weenie - SpellComponents - Vitriol (764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 764;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (764, 'alchemvitriol');
@@ -1113,6 +1191,9 @@ VALUES (764, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (764, 0, 16780684);
 
+/* Weenie - SpellComponents - Verdigris (763) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 763;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (763, 'alchemverdigris');
 
@@ -1155,6 +1236,9 @@ VALUES (763, 0, 83890051, 83890051);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (763, 0, 16780684);
+
+/* Weenie - SpellComponents - Turpeth (762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 762;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (762, 'alchemturpeth');
@@ -1199,6 +1283,9 @@ VALUES (762, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (762, 0, 16780684);
 
+/* Weenie - SpellComponents - Realgar (760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 760;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (760, 'alchemrealgar');
 
@@ -1241,6 +1328,9 @@ VALUES (760, 0, 83890051, 83890051);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (760, 0, 16780684);
+
+/* Weenie - SpellComponents - Cobalt (756) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 756;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (756, 'alchemcobalt');
@@ -1285,6 +1375,9 @@ VALUES (756, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (756, 0, 16780684);
 
+/* Weenie - SpellComponents - Quicksilver (759) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 759;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (759, 'alchemquicksilver');
 
@@ -1327,6 +1420,9 @@ VALUES (759, 0, 83890051, 83890051);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (759, 0, 16780684);
+
+/* Weenie - SpellComponents - Colcothar (757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 757;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (757, 'alchemcolcothar');
@@ -1371,6 +1467,9 @@ VALUES (757, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (757, 0, 16780684);
 
+/* Weenie - SpellComponents - Brimstone (753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 753;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (753, 'alchembrimstone');
 
@@ -1413,6 +1512,9 @@ VALUES (753, 0, 83890051, 83890051);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (753, 0, 16780684);
+
+/* Weenie - SpellComponents - Gypsum (758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 758;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (758, 'alchemgypsum');
@@ -1457,6 +1559,9 @@ VALUES (758, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (758, 0, 16780684);
 
+/* Weenie - SpellComponents - Powdered Amber (783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 783;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (783, 'amber');
 
@@ -1499,6 +1604,9 @@ VALUES (783, 0, 83890080, 83890080);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (783, 0, 16780681);
+
+/* Weenie - SpellComponents - Powdered Onyx (790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 790;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (790, 'onyx');
@@ -1543,6 +1651,9 @@ VALUES (790, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (790, 0, 16780681);
 
+/* Weenie - SpellComponents - Powdered Malachite (788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 788;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (788, 'malachite');
 
@@ -1586,6 +1697,9 @@ VALUES (788, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (788, 0, 16780681);
 
+/* Weenie - SpellComponents - Indigo Taper (1647) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1647;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1647, 'taperindigo');
 
@@ -1623,6 +1737,9 @@ VALUES (1647, 0, 83890928, 83890935);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1647, 0, 16781612);
+
+/* Weenie - SpellComponents - Red Taper (1650) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1650;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1650, 'taperred');
@@ -1662,6 +1779,9 @@ VALUES (1650, 0, 83890928, 83890931);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1650, 0, 16781612);
 
+/* Weenie - SpellComponents - Yellow Taper (1653) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1653;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1653, 'taperyellow');
 
@@ -1699,6 +1819,9 @@ VALUES (1653, 0, 83890928, 83890926);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1653, 0, 16781612);
+
+/* Weenie - SpellComponents - Blue Taper (1643) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1643;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1643, 'taperblue');
@@ -1738,6 +1861,9 @@ VALUES (1643, 0, 83890928, 83890928);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1643, 0, 16781612);
 
+/* Weenie - SpellComponents - White Taper (1652) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1652;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1652, 'taperwhite');
 
@@ -1775,6 +1901,9 @@ VALUES (1652, 0, 83890928, 83890932);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1652, 0, 16781612);
+
+/* Weenie - SpellComponents - Green Taper (1645) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1645;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1645, 'tapergreen');
@@ -1814,6 +1943,9 @@ VALUES (1645, 0, 83890928, 83890934);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1645, 0, 16781612);
 
+/* Weenie - SpellComponents - Orange Taper (1648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1648;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1648, 'taperorange');
 
@@ -1851,6 +1983,9 @@ VALUES (1648, 0, 83890928, 83890936);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1648, 0, 16781612);
+
+/* Weenie - SpellComponents - Violet Taper (1651) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1651;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1651, 'taperviolet');
@@ -1890,6 +2025,9 @@ VALUES (1651, 0, 83890928, 83890927);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1651, 0, 16781612);
 
+/* Weenie - SpellComponents - Pink Taper (1649) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1649;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1649, 'taperpink');
 
@@ -1927,6 +2065,9 @@ VALUES (1649, 0, 83890928, 83890937);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1649, 0, 16781612);
+
+/* Weenie - SpellComponents - Turquoise Taper (1654) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1654;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1654, 'taperturquoise');
@@ -1966,6 +2107,9 @@ VALUES (1654, 0, 83890928, 83890930);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1654, 0, 16781612);
 
+/* Weenie - SpellComponents - Grey Taper (1646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1646;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1646, 'tapergrey');
 
@@ -2004,6 +2148,9 @@ VALUES (1646, 0, 83890928, 83890929);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1646, 0, 16781612);
 
+/* Weenie - SpellComponents - Brown Taper (1644) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1644;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1644, 'taperbrown');
 
@@ -2041,6 +2188,9 @@ VALUES (1644, 0, 83890928, 83890933);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1644, 0, 16781612);
+
+/* Weenie - SpellComponents - Hawthorn (772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 772;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (772, 'hawthorn');
@@ -2088,6 +2238,9 @@ VALUES (772, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (772, 0, 16777882);
 
+/* Weenie - SpellComponents - Wormwood (780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 780;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (780, 'wormwood');
 
@@ -2133,6 +2286,9 @@ VALUES (780, 0, 83890064, 83889696);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (780, 0, 16777882);
+
+/* Weenie - SpellComponents - Hyssop (774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 774;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (774, 'hyssop');
@@ -2180,6 +2336,9 @@ VALUES (774, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (774, 0, 16777882);
 
+/* Weenie - SpellComponents - Saffron (778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 778;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (778, 'saffron');
 
@@ -2225,6 +2384,9 @@ VALUES (778, 0, 83890064, 83889696);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (778, 0, 16777882);
+
+/* Weenie - SpellComponents - Damiana (768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 768;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (768, 'damiana');
@@ -2272,6 +2434,9 @@ VALUES (768, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (768, 0, 16777882);
 
+/* Weenie - SpellComponents - Dragonsblood (769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 769;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (769, 'dragonsblood');
 
@@ -2317,6 +2482,9 @@ VALUES (769, 0, 83890064, 83889696);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (769, 0, 16777882);
+
+/* Weenie - SpellComponents - Comfrey (767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 767;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (767, 'comfrey');
@@ -2364,6 +2532,9 @@ VALUES (767, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (767, 0, 16777882);
 
+/* Weenie - SpellComponents - Ginseng (625) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 625;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (625, 'ginseng');
 
@@ -2410,6 +2581,9 @@ VALUES (625, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (625, 0, 16777882);
 
+/* Weenie - SpellComponents - Powdered Bloodstone (785) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 785;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (785, 'bloodstone');
 
@@ -2452,6 +2626,9 @@ VALUES (785, 0, 83890080, 83890080);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (785, 0, 16780681);
+
+/* Weenie - SpellComponents - Yarrow (781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 781;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (781, 'yarrow');
@@ -2499,6 +2676,9 @@ VALUES (781, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (781, 0, 16777882);
 
+/* Weenie - SpellComponents - Powdered Turquoise (792) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 792;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (792, 'turquoise');
 
@@ -2542,6 +2722,9 @@ VALUES (792, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (792, 0, 16780681);
 
+/* Weenie - SpellComponents - Oak Talisman (748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 748;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (748, 'oaktalisman');
 
@@ -2583,6 +2766,9 @@ VALUES (748, 0, 83890069, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (748, 0, 16780687);
+
+/* Weenie - SpellComponents - Powdered Agate (782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 782;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (782, 'agate');
@@ -2627,6 +2813,9 @@ VALUES (782, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (782, 0, 16780681);
 
+/* Weenie - SpellComponents - Cadmia (754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 754;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (754, 'alchemcadmia');
 
@@ -2669,6 +2858,9 @@ VALUES (754, 0, 83890051, 83890051);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (754, 0, 16780684);
+
+/* Weenie - SpellComponents - Myrrh (777) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 777;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (777, 'myrrh');
@@ -2716,6 +2908,9 @@ VALUES (777, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (777, 0, 16777882);
 
+/* Weenie - SpellComponents - Stibnite (761) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 761;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (761, 'alchemstibnite');
 
@@ -2758,6 +2953,9 @@ VALUES (761, 0, 83890051, 83890051);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (761, 0, 16780684);
+
+/* Weenie - SpellComponents - Cinnabar (755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 755;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (755, 'alchemcinnabar');
@@ -2802,6 +3000,9 @@ VALUES (755, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (755, 0, 16780684);
 
+/* Weenie - SpellComponents - Powdered Hematite (626) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 626;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (626, 'hematite');
 
@@ -2844,6 +3045,9 @@ VALUES (626, 0, 83890080, 83890080);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (626, 0, 16780681);
+
+/* Weenie - SpellComponents - Mandrake (775) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 775;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (775, 'mandrake');
@@ -2891,6 +3095,9 @@ VALUES (775, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (775, 0, 16777882);
 
+/* Weenie - SpellComponents - Ebony Talisman (744) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 744;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (744, 'ebonytalisman');
 
@@ -2933,6 +3140,9 @@ VALUES (744, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (744, 0, 16780687);
 
+/* Weenie - SpellComponents - Blackthorn Talisman (742) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 742;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (742, 'blackthorntalisman');
 
@@ -2974,6 +3184,9 @@ VALUES (742, 0, 83890069, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (742, 0, 16780687);
+
+/* Weenie - SpellComponents - Powdered Moonstone (789) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 789;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (789, 'moonstone');
@@ -3018,6 +3231,9 @@ VALUES (789, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (789, 0, 16780681);
 
+/* Weenie - SpellComponents - Poplar Talisman (749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 749;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (749, 'poplartalisman');
 
@@ -3060,6 +3276,9 @@ VALUES (749, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (749, 0, 16780687);
 
+/* Weenie - SpellComponents - Hemlock Talisman (747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 747;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (747, 'hemlocktalisman');
 
@@ -3101,6 +3320,9 @@ VALUES (747, 0, 83890069, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (747, 0, 16780687);
+
+/* Weenie - SpellComponents - Amaranth (765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 765;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (765, 'amaranth');
@@ -3148,6 +3370,9 @@ VALUES (765, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (765, 0, 16777882);
 
+/* Weenie - SpellComponents - Eyebright (770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 770;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (770, 'eyebright');
 
@@ -3194,6 +3419,9 @@ VALUES (770, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (770, 0, 16777882);
 
+/* Weenie - SpellComponents - Pyreal Pea (8330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8330;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8330, 'peascarabpyreal');
 
@@ -3238,6 +3466,9 @@ VALUES (8330, 0, 83890047, 83890047);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8330, 0, 16780734);
+
+/* Weenie - SpellComponents - Bistort (766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 766;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (766, 'bistort');
@@ -3285,6 +3516,9 @@ VALUES (766, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (766, 0, 16777882);
 
+/* Weenie - SpellComponents - Quicksilver Pea (8308) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8308;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8308, 'peaalchemquicksilver');
 
@@ -3329,6 +3563,9 @@ VALUES (8308, 0, 83890051, 83890051);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8308, 0, 16780684);
+
+/* Weenie - SpellComponents - Vitriol Pea (8313) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8313;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8313, 'peaalchemvitriol');
@@ -3375,6 +3612,9 @@ VALUES (8313, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8313, 0, 16780684);
 
+/* Weenie - SpellComponents - Colcothar Pea (8306) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8306;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8306, 'peaalchemcolcothar');
 
@@ -3419,6 +3659,9 @@ VALUES (8306, 0, 83890051, 83890051);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8306, 0, 16780684);
+
+/* Weenie - SpellComponents - Verdigris Pea (8312) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8312;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8312, 'peaalchemverdigris');
@@ -3465,6 +3708,9 @@ VALUES (8312, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8312, 0, 16780684);
 
+/* Weenie - SpellComponents - Cobalt Pea (8305) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8305;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8305, 'peaalchemcobalt');
 
@@ -3509,6 +3755,9 @@ VALUES (8305, 0, 83890051, 83890051);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8305, 0, 16780684);
+
+/* Weenie - SpellComponents - Turpeth Pea (8311) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8311;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8311, 'peaalchemturpeth');
@@ -3555,6 +3804,9 @@ VALUES (8311, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8311, 0, 16780684);
 
+/* Weenie - SpellComponents - Cinnabar Pea (8304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8304;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8304, 'peaalchemcinnabar');
 
@@ -3599,6 +3851,9 @@ VALUES (8304, 0, 83890051, 83890051);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8304, 0, 16780684);
+
+/* Weenie - SpellComponents - Cadmia Pea (8303) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8303;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8303, 'peaalchemcadmia');
@@ -3645,6 +3900,9 @@ VALUES (8303, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8303, 0, 16780684);
 
+/* Weenie - SpellComponents - Realgar Pea (8309) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8309;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8309, 'peaalchemrealgar');
 
@@ -3690,6 +3948,9 @@ VALUES (8309, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8309, 0, 16780684);
 
+/* Weenie - SpellComponents - Stibnite Pea (8310) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8310;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8310, 'peaalchemstibnite');
 
@@ -3734,6 +3995,9 @@ VALUES (8310, 0, 83890051, 83890051);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8310, 0, 16780684);
+
+/* Weenie - SpellComponents - Frankincense (771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 771;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (771, 'frankincense');
@@ -3781,6 +4045,9 @@ VALUES (771, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (771, 0, 16777882);
 
+/* Weenie - SpellComponents - Powdered Azurite (784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 784;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (784, 'azurite');
 
@@ -3823,6 +4090,9 @@ VALUES (784, 0, 83890080, 83890080);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (784, 0, 16780681);
+
+/* Weenie - SpellComponents - Brimstone Pea (8302) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8302;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8302, 'peaalchembrimstone');
@@ -3869,6 +4139,9 @@ VALUES (8302, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8302, 0, 16780684);
 
+/* Weenie - SpellComponents - Gypsum Pea (8307) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8307;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8307, 'peaalchemgypsum');
 
@@ -3914,6 +4187,9 @@ VALUES (8307, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8307, 0, 16780684);
 
+/* Weenie - SpellComponents - Powdered Quartz (791) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 791;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (791, 'quartz');
 
@@ -3956,6 +4232,9 @@ VALUES (791, 0, 83890080, 83890080);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (791, 0, 16780681);
+
+/* Weenie - SpellComponents - Henbane (773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 773;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (773, 'henbane');
@@ -4003,6 +4282,9 @@ VALUES (773, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (773, 0, 16777882);
 
+/* Weenie - SpellComponents - Powdered Carnelian (786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 786;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (786, 'carnelian');
 
@@ -4046,6 +4328,9 @@ VALUES (786, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (786, 0, 16780681);
 
+/* Weenie - SpellComponents - Elder Talisman (745) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 745;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (745, 'eldertalisman');
 
@@ -4087,6 +4372,9 @@ VALUES (745, 0, 83890069, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (745, 0, 16780687);
+
+/* Weenie - SpellComponents - Yew Pea (8345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8345;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8345, 'peatalismanyew');
@@ -4133,6 +4421,9 @@ VALUES (8345, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8345, 0, 16780687);
 
+/* Weenie - SpellComponents - Powdered Turquoise Pea (8325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8325;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8325, 'peapowderturquoise');
 
@@ -4178,6 +4469,9 @@ VALUES (8325, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8325, 0, 16780681);
 
+/* Weenie - SpellComponents - Ginseng Pea (8291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8291;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8291, 'peaherbginseng');
 
@@ -4218,6 +4512,9 @@ VALUES (8291, 0, 83890064, 83889696);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8291, 0, 16777882);
+
+/* Weenie - SpellComponents - Red Pea (8353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8353;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8353, 'peataperred');
@@ -4260,6 +4557,9 @@ VALUES (8353, 0, 83890928, 83890931);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8353, 0, 16781612);
 
+/* Weenie - SpellComponents - Pink Pea (8352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8352;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8352, 'peataperpink');
 
@@ -4300,6 +4600,9 @@ VALUES (8352, 0, 83890928, 83890937);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8352, 0, 16781612);
+
+/* Weenie - SpellComponents - Mandrake Pea (8295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8295;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8295, 'peaherbmandrake');
@@ -4342,6 +4645,9 @@ VALUES (8295, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8295, 0, 16777882);
 
+/* Weenie - SpellComponents - Violet Pea (8355) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8355;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8355, 'peataperviolet');
 
@@ -4382,6 +4688,9 @@ VALUES (8355, 0, 83890928, 83890927);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8355, 0, 16781612);
+
+/* Weenie - SpellComponents - Ashwood Pea (8333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8333;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8333, 'peatalismanashwood');
@@ -4428,6 +4737,9 @@ VALUES (8333, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8333, 0, 16780687);
 
+/* Weenie - SpellComponents - Alder Pea (8332) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8332;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8332, 'peatalismanalder');
 
@@ -4473,6 +4785,9 @@ VALUES (8332, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8332, 0, 16780687);
 
+/* Weenie - SpellComponents - Green Pea (8348) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8348;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8348, 'peatapergreen');
 
@@ -4513,6 +4828,9 @@ VALUES (8348, 0, 83890928, 83890934);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8348, 0, 16781612);
+
+/* Weenie - SpellComponents - Birch Pea (8334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8334;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8334, 'peatalismanbirch');
@@ -4559,6 +4877,9 @@ VALUES (8334, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8334, 0, 16780687);
 
+/* Weenie - SpellComponents - Amaranth Pea (8284) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8284;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8284, 'peaherbamaranth');
 
@@ -4599,6 +4920,9 @@ VALUES (8284, 0, 83890064, 83889696);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8284, 0, 16777882);
+
+/* Weenie - SpellComponents - Powdered Onyx Pea (8323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8323;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8323, 'peapowderonyx');
@@ -4645,6 +4969,9 @@ VALUES (8323, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8323, 0, 16780681);
 
+/* Weenie - SpellComponents - Powdered Moonstone Pea (8322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8322;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8322, 'peapowdermoonstone');
 
@@ -4689,6 +5016,9 @@ VALUES (8322, 0, 83890080, 83890080);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8322, 0, 16780681);
+
+/* Weenie - SpellComponents - Poplar Pea (8342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8342;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8342, 'peatalismanpoplar');
@@ -4735,6 +5065,9 @@ VALUES (8342, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8342, 0, 16780687);
 
+/* Weenie - SpellComponents - Dragonsblood Pea (8288) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8288;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8288, 'peaherbdragonsblood');
 
@@ -4776,6 +5109,9 @@ VALUES (8288, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8288, 0, 16777882);
 
+/* Weenie - SpellComponents - Grey Pea (8349) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8349;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8349, 'peatapergrey');
 
@@ -4816,6 +5152,9 @@ VALUES (8349, 0, 83890928, 83890929);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8349, 0, 16781612);
+
+/* Weenie - SpellComponents - Powdered Lapis Lazuli (787) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 787;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (787, 'lapislazul');
@@ -4860,6 +5199,9 @@ VALUES (787, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (787, 0, 16780681);
 
+/* Weenie - SpellComponents - Yarrow Pea (8301) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8301;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8301, 'peaherbyarrow');
 
@@ -4900,6 +5242,9 @@ VALUES (8301, 0, 83890064, 83889696);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8301, 0, 16777882);
+
+/* Weenie - SpellComponents - Blackthorn Pea (8335) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8335;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8335, 'peatalismanblackthorn');
@@ -4946,6 +5291,9 @@ VALUES (8335, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8335, 0, 16780687);
 
+/* Weenie - SpellComponents - Hemlock Pea (8340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8340;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8340, 'peatalismanhemlock');
 
@@ -4991,6 +5339,9 @@ VALUES (8340, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8340, 0, 16780687);
 
+/* Weenie - SpellComponents - Hazel Pea (8339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8339;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8339, 'peatalismanhazel');
 
@@ -5031,6 +5382,9 @@ VALUES (8339, 0, 83890069, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8339, 0, 16780687);
+
+/* Weenie - SpellComponents - Elder Pea (8338) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8338;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8338, 'peatalismanelder');
@@ -5077,6 +5431,9 @@ VALUES (8338, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8338, 0, 16780687);
 
+/* Weenie - SpellComponents - Damiana Pea (8287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8287;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8287, 'peaherbdamiana');
 
@@ -5117,6 +5474,9 @@ VALUES (8287, 0, 83890064, 83889696);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8287, 0, 16777882);
+
+/* Weenie - SpellComponents - Ebony Pea (8337) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8337;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8337, 'peatalismanebony');
@@ -5163,6 +5523,9 @@ VALUES (8337, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8337, 0, 16780687);
 
+/* Weenie - SpellComponents - Oak Pea (8341) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8341;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8341, 'peatalismanoak');
 
@@ -5207,6 +5570,9 @@ VALUES (8341, 0, 83890069, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8341, 0, 16780687);
+
+/* Weenie - SpellComponents - Powdered Malachite Pea (8321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8321;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8321, 'peapowdermalachite');
@@ -5253,6 +5619,9 @@ VALUES (8321, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8321, 0, 16780681);
 
+/* Weenie - SpellComponents - Powdered Azurite Pea (8316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8316;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8316, 'peapowderazurite');
 
@@ -5297,6 +5666,9 @@ VALUES (8316, 0, 83890080, 83890080);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8316, 0, 16780681);
+
+/* Weenie - SpellComponents - Powdered Carnelian Pea (8318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8318;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8318, 'peapowdercarnelian');
@@ -5343,6 +5715,9 @@ VALUES (8318, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8318, 0, 16780681);
 
+/* Weenie - SpellComponents - Powdered Lapis Lazuli Pea (8320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8320;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8320, 'peapowderlapislazuli');
 
@@ -5387,6 +5762,9 @@ VALUES (8320, 0, 83890080, 83890080);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8320, 0, 16780681);
+
+/* Weenie - SpellComponents - Powdered Agate Pea (8314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8314;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8314, 'peapowderagate');
@@ -5433,6 +5811,9 @@ VALUES (8314, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8314, 0, 16780681);
 
+/* Weenie - SpellComponents - Powdered Hematite Pea (8319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8319;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8319, 'peapowderhematite');
 
@@ -5477,6 +5858,9 @@ VALUES (8319, 0, 83890080, 83890080);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8319, 0, 16780681);
+
+/* Weenie - SpellComponents - Powdered Quartz Pea (8324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8324;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8324, 'peapowderquartz');
@@ -5523,6 +5907,9 @@ VALUES (8324, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8324, 0, 16780681);
 
+/* Weenie - SpellComponents - Henbane Pea (8293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8293;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8293, 'peaherbhenbane');
 
@@ -5563,6 +5950,9 @@ VALUES (8293, 0, 83890064, 83889696);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8293, 0, 16777882);
+
+/* Weenie - SpellComponents - Cedar Pea (8336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8336;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8336, 'peatalismancedar');
@@ -5609,6 +5999,9 @@ VALUES (8336, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8336, 0, 16780687);
 
+/* Weenie - SpellComponents - Comfrey Pea (8286) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8286;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8286, 'peaherbcomfrey');
 
@@ -5649,6 +6042,9 @@ VALUES (8286, 0, 83890064, 83889696);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8286, 0, 16777882);
+
+/* Weenie - SpellComponents - Vervain (779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 779;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (779, 'vervain');
@@ -5696,6 +6092,9 @@ VALUES (779, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (779, 0, 16777882);
 
+/* Weenie - SpellComponents - White Pea (8356) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8356;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8356, 'peataperwhite');
 
@@ -5736,6 +6135,9 @@ VALUES (8356, 0, 83890928, 83890932);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8356, 0, 16781612);
+
+/* Weenie - SpellComponents - Yellow Pea (8357) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8357;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8357, 'peataperyellow');
@@ -5778,6 +6180,9 @@ VALUES (8357, 0, 83890928, 83890926);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8357, 0, 16781612);
 
+/* Weenie - SpellComponents - Turquoise Pea (8354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8354;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8354, 'peataperturquoise');
 
@@ -5818,6 +6223,9 @@ VALUES (8354, 0, 83890928, 83890930);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8354, 0, 16781612);
+
+/* Weenie - SpellComponents - Blue Pea (8346) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8346;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8346, 'peataperblue');
@@ -5860,6 +6268,9 @@ VALUES (8346, 0, 83890928, 83890928);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8346, 0, 16781612);
 
+/* Weenie - SpellComponents - Indigo Pea (8350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8350;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8350, 'peataperindigo');
 
@@ -5900,6 +6311,9 @@ VALUES (8350, 0, 83890928, 83890935);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8350, 0, 16781612);
+
+/* Weenie - SpellComponents - Orange Pea (8351) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8351;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8351, 'peataperorange');
@@ -5942,6 +6356,9 @@ VALUES (8351, 0, 83890928, 83890936);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8351, 0, 16781612);
 
+/* Weenie - SpellComponents - Brown Pea (8347) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8347;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8347, 'peataperbrown');
 
@@ -5982,6 +6399,9 @@ VALUES (8347, 0, 83890928, 83890933);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8347, 0, 16781612);
+
+/* Weenie - SpellComponents - Hyssop Pea (8294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8294;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8294, 'peaherbhyssop');
@@ -6024,6 +6444,9 @@ VALUES (8294, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8294, 0, 16777882);
 
+/* Weenie - SpellComponents - Hawthorn Pea (8292) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8292;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8292, 'peaherbhawthorn');
 
@@ -6064,6 +6487,9 @@ VALUES (8292, 0, 83890064, 83889696);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8292, 0, 16777882);
+
+/* Weenie - SpellComponents - Powdered Amber Pea (8315) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8315;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8315, 'peapowderamber');
@@ -6110,6 +6536,9 @@ VALUES (8315, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8315, 0, 16780681);
 
+/* Weenie - SpellComponents - Rowan Pea (8343) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8343;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8343, 'peatalismanrowan');
 
@@ -6155,6 +6584,9 @@ VALUES (8343, 0, 83890069, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8343, 0, 16780687);
 
+/* Weenie - SpellComponents - Bistort Pea (8285) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8285;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8285, 'peaherbbistort');
 
@@ -6195,6 +6627,9 @@ VALUES (8285, 0, 83890064, 83889696);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8285, 0, 16777882);
+
+/* Weenie - SpellComponents - Banyan Talisman (25730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25730;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25730, 'banyantalisman');
@@ -6241,6 +6676,9 @@ VALUES (25730, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25730, 0, 16780734);
 
+/* Weenie - SpellComponents - Saffron Pea (8298) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8298;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8298, 'peaherbsaffron');
 
@@ -6285,6 +6723,9 @@ VALUES (8298, 0, 83890047, 83890047);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8298, 0, 16780734);
+
+/* Weenie - SpellComponents - Mugwort Pea (8296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8296;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8296, 'peaherbmugwort');
@@ -6331,6 +6772,9 @@ VALUES (8296, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8296, 0, 16780734);
 
+/* Weenie - SpellComponents - Wormwood Pea (8300) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8300;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8300, 'peaherbwormwood');
 
@@ -6375,6 +6819,9 @@ VALUES (8300, 0, 83890047, 83890047);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8300, 0, 16780734);
+
+/* Weenie - SpellComponents - Eyebright Pea (8289) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8289;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8289, 'peaherbeyebright');
@@ -6421,6 +6868,9 @@ VALUES (8289, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8289, 0, 16780734);
 
+/* Weenie - SpellComponents - Frankincense Pea (8290) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8290;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8290, 'peaherbfrankincense');
 
@@ -6465,6 +6915,9 @@ VALUES (8290, 0, 83890047, 83890047);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8290, 0, 16780734);
+
+/* Weenie - SpellComponents - Vervain Pea (8299) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8299;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8299, 'peaherbvervain');
@@ -6511,6 +6964,9 @@ VALUES (8299, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8299, 0, 16780734);
 
+/* Weenie - SpellComponents - Myrrh Pea (8297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8297;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8297, 'peaherbmyrrh');
 
@@ -6556,6 +7012,9 @@ VALUES (8297, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8297, 0, 16780734);
 
+/* Weenie - SpellComponents - Powdered Bloodstone Pea (8317) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8317;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8317, 'peapowderbloodstone');
 
@@ -6600,6 +7059,9 @@ VALUES (8317, 0, 83890047, 83890047);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8317, 0, 16780734);
+
+/* Weenie - SpellComponents - Willow Pea (8344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8344;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8344, 'peatalismanwillow');

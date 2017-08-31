@@ -1,3 +1,6 @@
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39817) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39817;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39817, 'ace39817-explorationmarker');
 
@@ -44,6 +47,9 @@ VALUES (39817, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39817, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39795) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39795;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39795, 'ace39795-explorationmarker');
@@ -92,6 +98,9 @@ VALUES (39795, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39795, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39838) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39838;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39838, 'ace39838-explorationmarker');
 
@@ -138,6 +147,9 @@ VALUES (39838, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39838, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39757;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39757, 'ace39757-explorationmarker');
@@ -186,6 +198,9 @@ VALUES (39757, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39757, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39791) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39791;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39791, 'ace39791-explorationmarker');
 
@@ -232,6 +247,9 @@ VALUES (39791, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39791, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39779;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39779, 'ace39779-explorationmarker');
@@ -280,6 +298,9 @@ VALUES (39779, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39779, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39831) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39831;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39831, 'ace39831-explorationmarker');
 
@@ -326,6 +347,9 @@ VALUES (39831, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39831, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39748;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39748, 'ace39748-explorationmarker');
@@ -374,6 +398,9 @@ VALUES (39748, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39748, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39826) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39826;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39826, 'ace39826-explorationmarker');
 
@@ -420,6 +447,9 @@ VALUES (39826, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39826, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39801) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39801;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39801, 'ace39801-explorationmarker');
@@ -468,6 +498,9 @@ VALUES (39801, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39801, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39785) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39785;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39785, 'ace39785-explorationmarker');
 
@@ -514,6 +547,9 @@ VALUES (39785, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39785, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39768;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39768, 'ace39768-explorationmarker');
@@ -562,6 +598,9 @@ VALUES (39768, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39768, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39827) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39827;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39827, 'ace39827-explorationmarker');
 
@@ -608,6 +647,9 @@ VALUES (39827, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39827, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39841) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39841;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39841, 'ace39841-explorationmarker');
@@ -656,6 +698,9 @@ VALUES (39841, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39841, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39842) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39842;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39842, 'ace39842-explorationmarker');
 
@@ -702,6 +747,9 @@ VALUES (39842, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39842, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39811) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39811;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39811, 'ace39811-explorationmarker');
@@ -750,6 +798,9 @@ VALUES (39811, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39811, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39771;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39771, 'ace39771-explorationmarker');
 
@@ -796,6 +847,9 @@ VALUES (39771, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39771, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39821) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39821;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39821, 'ace39821-explorationmarker');
@@ -844,6 +898,9 @@ VALUES (39821, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39821, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39784;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39784, 'ace39784-explorationmarker');
 
@@ -890,6 +947,9 @@ VALUES (39784, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39784, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39760;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39760, 'ace39760-explorationmarker');
@@ -938,6 +998,9 @@ VALUES (39760, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39760, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39844) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39844;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39844, 'ace39844-explorationmarker');
 
@@ -984,6 +1047,9 @@ VALUES (39844, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39844, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39828) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39828;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39828, 'ace39828-explorationmarker');
@@ -1032,6 +1098,9 @@ VALUES (39828, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39828, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39778;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39778, 'ace39778-explorationmarker');
 
@@ -1078,6 +1147,9 @@ VALUES (39778, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39778, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39767;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39767, 'ace39767-explorationmarker');
@@ -1126,6 +1198,9 @@ VALUES (39767, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39767, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39815) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39815;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39815, 'ace39815-explorationmarker');
 
@@ -1172,6 +1247,9 @@ VALUES (39815, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39815, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39787) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39787;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39787, 'ace39787-explorationmarker');
@@ -1220,6 +1298,9 @@ VALUES (39787, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39787, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39840) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39840;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39840, 'ace39840-explorationmarker');
 
@@ -1266,6 +1347,9 @@ VALUES (39840, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39840, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39790;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39790, 'ace39790-explorationmarker');
@@ -1314,6 +1398,9 @@ VALUES (39790, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39790, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39753;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39753, 'ace39753-explorationmarker');
 
@@ -1360,6 +1447,9 @@ VALUES (39753, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39753, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39763) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39763;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39763, 'ace39763-explorationmarker');
@@ -1408,6 +1498,9 @@ VALUES (39763, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39763, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39770;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39770, 'ace39770-explorationmarker');
 
@@ -1454,6 +1547,9 @@ VALUES (39770, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39770, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39788;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39788, 'ace39788-explorationmarker');
@@ -1502,6 +1598,9 @@ VALUES (39788, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39788, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39800) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39800;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39800, 'ace39800-explorationmarker');
 
@@ -1548,6 +1647,9 @@ VALUES (39800, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39800, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39775) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39775;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39775, 'ace39775-explorationmarker');
@@ -1596,6 +1698,9 @@ VALUES (39775, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39775, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39829) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39829;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39829, 'ace39829-explorationmarker');
 
@@ -1642,6 +1747,9 @@ VALUES (39829, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39829, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39774;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39774, 'ace39774-explorationmarker');
@@ -1690,6 +1798,9 @@ VALUES (39774, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39774, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39814) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39814;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39814, 'ace39814-explorationmarker');
 
@@ -1736,6 +1847,9 @@ VALUES (39814, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39814, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39805) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39805;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39805, 'ace39805-explorationmarker');
@@ -1784,6 +1898,9 @@ VALUES (39805, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39805, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39803;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39803, 'ace39803-explorationmarker');
 
@@ -1830,6 +1947,9 @@ VALUES (39803, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39803, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39820) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39820;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39820, 'ace39820-explorationmarker');
@@ -1878,6 +1998,9 @@ VALUES (39820, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39820, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39776;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39776, 'ace39776-explorationmarker');
 
@@ -1924,6 +2047,9 @@ VALUES (39776, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39776, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39816) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39816;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39816, 'ace39816-explorationmarker');
@@ -1972,6 +2098,9 @@ VALUES (39816, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39816, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39802) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39802;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39802, 'ace39802-explorationmarker');
 
@@ -2018,6 +2147,9 @@ VALUES (39802, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39802, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39754;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39754, 'ace39754-explorationmarker');
@@ -2066,6 +2198,9 @@ VALUES (39754, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39754, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39835) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39835;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39835, 'ace39835-explorationmarker');
 
@@ -2112,6 +2247,9 @@ VALUES (39835, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39835, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39846;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39846, 'ace39846-explorationmarker');
@@ -2160,6 +2298,9 @@ VALUES (39846, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39846, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39794) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39794;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39794, 'ace39794-explorationmarker');
 
@@ -2206,6 +2347,9 @@ VALUES (39794, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39794, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39832;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39832, 'ace39832-explorationmarker');
@@ -2254,6 +2398,9 @@ VALUES (39832, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39832, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39834) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39834;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39834, 'ace39834-explorationmarker');
 
@@ -2300,6 +2447,9 @@ VALUES (39834, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39834, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39798) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39798;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39798, 'ace39798-explorationmarker');
@@ -2348,6 +2498,9 @@ VALUES (39798, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39798, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39772;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39772, 'ace39772-explorationmarker');
 
@@ -2394,6 +2547,9 @@ VALUES (39772, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39772, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39783;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39783, 'ace39783-explorationmarker');
@@ -2442,6 +2598,9 @@ VALUES (39783, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39783, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39810;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39810, 'ace39810-explorationmarker');
 
@@ -2488,6 +2647,9 @@ VALUES (39810, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39810, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39749;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39749, 'ace39749-explorationmarker');
@@ -2536,6 +2698,9 @@ VALUES (39749, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39749, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39839) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39839;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39839, 'ace39839-explorationmarker');
 
@@ -2582,6 +2747,9 @@ VALUES (39839, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39839, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39750;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39750, 'ace39750-explorationmarker');
@@ -2630,6 +2798,9 @@ VALUES (39750, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39750, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39755;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39755, 'ace39755-explorationmarker');
 
@@ -2676,6 +2847,9 @@ VALUES (39755, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39755, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39781;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39781, 'ace39781-explorationmarker');
@@ -2724,6 +2898,9 @@ VALUES (39781, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39781, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39806) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39806;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39806, 'ace39806-explorationmarker');
 
@@ -2770,6 +2947,9 @@ VALUES (39806, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39806, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39847) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39847;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39847, 'ace39847-explorationmarker');
@@ -2818,6 +2998,9 @@ VALUES (39847, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39847, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39773;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39773, 'ace39773-explorationmarker');
 
@@ -2864,6 +3047,9 @@ VALUES (39773, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39773, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39756) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39756;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39756, 'ace39756-explorationmarker');
@@ -2912,6 +3098,9 @@ VALUES (39756, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39756, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39807;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39807, 'ace39807-explorationmarker');
 
@@ -2958,6 +3147,9 @@ VALUES (39807, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39807, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39822) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39822;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39822, 'ace39822-explorationmarker');
@@ -3006,6 +3198,9 @@ VALUES (39822, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39822, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39758;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39758, 'ace39758-explorationmarker');
 
@@ -3052,6 +3247,9 @@ VALUES (39758, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39758, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39819) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39819;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39819, 'ace39819-explorationmarker');
@@ -3100,6 +3298,9 @@ VALUES (39819, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39819, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39845;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39845, 'ace39845-explorationmarker');
 
@@ -3146,6 +3347,9 @@ VALUES (39845, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39845, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39793) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39793;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39793, 'ace39793-explorationmarker');
@@ -3194,6 +3398,9 @@ VALUES (39793, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39793, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39830) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39830;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39830, 'ace39830-explorationmarker');
 
@@ -3240,6 +3447,9 @@ VALUES (39830, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39830, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39766;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39766, 'ace39766-explorationmarker');
@@ -3288,6 +3498,9 @@ VALUES (39766, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39766, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39837) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39837;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39837, 'ace39837-explorationmarker');
 
@@ -3334,6 +3547,9 @@ VALUES (39837, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39837, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39765;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39765, 'ace39765-explorationmarker');
@@ -3382,6 +3598,9 @@ VALUES (39765, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39765, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39752;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39752, 'ace39752-explorationmarker');
 
@@ -3428,6 +3647,9 @@ VALUES (39752, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39752, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39818) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39818;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39818, 'ace39818-explorationmarker');
@@ -3476,6 +3698,9 @@ VALUES (39818, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39818, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39782;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39782, 'ace39782-explorationmarker');
 
@@ -3522,6 +3747,9 @@ VALUES (39782, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39782, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39825) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39825;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39825, 'ace39825-explorationmarker');
@@ -3570,6 +3798,9 @@ VALUES (39825, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39825, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39797) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39797;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39797, 'ace39797-explorationmarker');
 
@@ -3616,6 +3847,9 @@ VALUES (39797, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39797, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39769;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39769, 'ace39769-explorationmarker');
@@ -3664,6 +3898,9 @@ VALUES (39769, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39769, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39780;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39780, 'ace39780-explorationmarker');
 
@@ -3710,6 +3947,9 @@ VALUES (39780, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39780, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39796) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39796;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39796, 'ace39796-explorationmarker');
@@ -3758,6 +3998,9 @@ VALUES (39796, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39796, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39833) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39833;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39833, 'ace39833-explorationmarker');
 
@@ -3804,6 +4047,9 @@ VALUES (39833, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39833, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39759) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39759;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39759, 'ace39759-explorationmarker');
@@ -3852,6 +4098,9 @@ VALUES (39759, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39759, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39823) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39823;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39823, 'ace39823-explorationmarker');
 
@@ -3898,6 +4147,9 @@ VALUES (39823, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39823, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39762;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39762, 'ace39762-explorationmarker');
@@ -3946,6 +4198,9 @@ VALUES (39762, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39762, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39804) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39804;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39804, 'ace39804-explorationmarker');
 
@@ -3992,6 +4247,9 @@ VALUES (39804, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39804, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39786;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39786, 'ace39786-explorationmarker');
@@ -4040,6 +4298,9 @@ VALUES (39786, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39786, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39812) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39812;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39812, 'ace39812-explorationmarker');
 
@@ -4086,6 +4347,9 @@ VALUES (39812, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39812, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39809;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39809, 'ace39809-explorationmarker');
@@ -4134,6 +4398,9 @@ VALUES (39809, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39809, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39824) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39824;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39824, 'ace39824-explorationmarker');
 
@@ -4180,6 +4447,9 @@ VALUES (39824, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39824, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39843) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39843;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39843, 'ace39843-explorationmarker');
@@ -4228,6 +4498,9 @@ VALUES (39843, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39843, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39792) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39792;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39792, 'ace39792-explorationmarker');
 
@@ -4274,6 +4547,9 @@ VALUES (39792, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39792, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39751;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39751, 'ace39751-explorationmarker');
@@ -4322,6 +4598,9 @@ VALUES (39751, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39751, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39764;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39764, 'ace39764-explorationmarker');
 
@@ -4368,6 +4647,9 @@ VALUES (39764, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39764, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39761) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39761;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39761, 'ace39761-explorationmarker');
@@ -4416,6 +4698,9 @@ VALUES (39761, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39761, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39777) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39777;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39777, 'ace39777-explorationmarker');
 
@@ -4462,6 +4747,9 @@ VALUES (39777, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39777, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39813) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39813;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39813, 'ace39813-explorationmarker');
@@ -4510,6 +4798,9 @@ VALUES (39813, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39813, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39836) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39836;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39836, 'ace39836-explorationmarker');
 
@@ -4556,6 +4847,9 @@ VALUES (39836, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39836, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39808) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39808;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39808, 'ace39808-explorationmarker');
@@ -4604,6 +4898,9 @@ VALUES (39808, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39808, 0, 16794232);
 
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39799) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39799;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39799, 'ace39799-explorationmarker');
 
@@ -4650,6 +4947,9 @@ VALUES (39799, 0, 83893054, 83893054)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39799, 0, 16794232);
+
+/* Weenie - CreaturesExplorationMarkers - Exploration Marker (39789) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39789;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39789, 'ace39789-explorationmarker');

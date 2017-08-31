@@ -1,3 +1,6 @@
+/* Weenie - OtherObjects - Bellows (12710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12710;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12710, 'bellowsnewbieacademy');
 
@@ -35,6 +38,9 @@ VALUES (12710, 0, 83888907, 83888872)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12710, 0, 16778823);
 
+/* Weenie - OtherObjects - Large Pine Tree (13228) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13228;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13228, 'decorationpinetreelarge');
 
@@ -66,6 +72,9 @@ VALUES (13228, 13, True)
      , (13228, 14, True)
      , (13228, 19, True)
      , (13228, 22, True);
+
+/* Weenie - OtherObjects - Small Pine Tree (13199) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13199;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13199, 'decorationpinetree');
@@ -99,6 +108,9 @@ VALUES (13199, 13, True)
      , (13199, 19, True)
      , (13199, 22, True);
 
+/* Weenie - OtherObjects - Empyrean Sun Stone (34913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34913;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34913, 'ace34913-empyreansunstone');
 
@@ -127,6 +139,9 @@ VALUES (34913, 13, True)
      , (34913, 14, True)
      , (34913, 19, True)
      , (34913, 22, True);
+
+/* Weenie - OtherObjects - Stone of Rez'arel (34912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34912;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34912, 'ace34912-stoneofrezarel');
@@ -159,6 +174,9 @@ VALUES (34912, 13, True)
      , (34912, 14, True)
      , (34912, 19, True)
      , (34912, 22, True);
+
+/* Weenie - OtherObjects - Mistletoe (52581) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52581;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52581, 'ace52581-mistletoe');
@@ -193,6 +211,9 @@ VALUES (52581, 13, True)
      , (52581, 14, True)
      , (52581, 19, True)
      , (52581, 22, True);
+
+/* Weenie - OtherObjects - Pitiful Pine Tree (36907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36907;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36907, 'ace36907-pitifulpinetree');
@@ -229,6 +250,9 @@ VALUES (36907, 13, True)
      , (36907, 19, True)
      , (36907, 22, True);
 
+/* Weenie - OtherObjects - Empyrean Golem Stone (34945) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34945;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34945, 'ace34945-empyreangolemstone');
 
@@ -257,6 +281,9 @@ VALUES (34945, 13, True)
      , (34945, 14, True)
      , (34945, 19, True)
      , (34945, 22, True);
+
+/* Weenie - OtherObjects - Alloy Machine (25449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25449;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25449, 'decorationundeadmechanism');
@@ -289,6 +316,9 @@ VALUES (25449, 13, True)
      , (25449, 19, True)
      , (25449, 22, True);
 
+/* Weenie - OtherObjects - Large Pine Tree (15404) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15404;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15404, 'decorationpinetreelarge-nosnow');
 
@@ -320,6 +350,9 @@ VALUES (15404, 13, True)
      , (15404, 14, True)
      , (15404, 19, True)
      , (15404, 22, True);
+
+/* Weenie - OtherObjects - Decorative Stone Axe (34576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34576;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34576, 'ace34576-decorativestoneaxe');
@@ -356,6 +389,9 @@ VALUES (34576, 13, True)
      , (34576, 19, True)
      , (34576, 22, True);
 
+/* Weenie - OtherObjects - Small Pine Tree (15403) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15403;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15403, 'decorationpinetree-nosnow');
 
@@ -387,6 +423,9 @@ VALUES (15403, 13, True)
      , (15403, 14, True)
      , (15403, 19, True)
      , (15403, 22, True);
+
+/* Weenie - OtherObjects - Antique Platter (22134) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22134;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22134, 'antiqueplatterhauntedmansion');
@@ -421,6 +460,9 @@ VALUES (22134, 13, True)
      , (22134, 14, True)
      , (22134, 19, True)
      , (22134, 22, True);
+
+/* Weenie - OtherObjects - Stone of Compassion (5183) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5183;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5183, 'stoneofcompassion');
@@ -464,6 +506,9 @@ VALUES (5183, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5183, 0, 16778862);
 
+/* Weenie - OtherObjects - Stone of Humility (5181) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5181;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5181, 'stoneofhumility');
 
@@ -505,6 +550,9 @@ VALUES (5181, 0, 83888861, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5181, 0, 16778862);
+
+/* Weenie - OtherObjects - Stone of Discipline (5182) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5182;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5182, 'stoneofdiscipline');
@@ -548,6 +596,9 @@ VALUES (5182, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5182, 0, 16778862);
 
+/* Weenie - OtherObjects - Shrubbery (25759) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25759;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25759, 'bush');
 
@@ -583,6 +634,9 @@ VALUES (25759, 13, True)
      , (25759, 19, True)
      , (25759, 22, True);
 
+/* Weenie - OtherObjects - Barrel (25757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25757;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25757, 'barrel');
 
@@ -616,6 +670,9 @@ VALUES (25757, 13, True)
      , (25757, 19, True)
      , (25757, 22, True);
 
+/* Weenie - OtherObjects - Stone of Alb'arel (34911) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34911;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34911, 'ace34911-stoneofalbarel');
 
@@ -647,6 +704,9 @@ VALUES (34911, 13, True)
      , (34911, 14, True)
      , (34911, 19, True)
      , (34911, 22, True);
+
+/* Weenie - OtherObjects - Antique Platter (5026) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5026;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5026, 'antiqueplatter');
@@ -681,6 +741,9 @@ VALUES (5026, 13, True)
      , (5026, 19, True)
      , (5026, 22, True);
 
+/* Weenie - OtherObjects - Empyrean Sun and Moon Stone (34944) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34944;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34944, 'ace34944-empyreansunandmoonstone');
 
@@ -709,6 +772,9 @@ VALUES (34944, 13, True)
      , (34944, 14, True)
      , (34944, 19, True)
      , (34944, 22, True);
+
+/* Weenie - OtherObjects - Cask (25760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25760;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25760, 'cask');
@@ -745,6 +811,9 @@ VALUES (25760, 13, True)
      , (25760, 15, True)
      , (25760, 19, True)
      , (25760, 22, True);
+
+/* Weenie - OtherObjects - Stone of Detachment (5184) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5184;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5184, 'stoneofdetachment');
@@ -788,6 +857,9 @@ VALUES (5184, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5184, 0, 16778862);
 
+/* Weenie - OtherObjects - Little Pine Tree (36908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36908;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36908, 'ace36908-littlepinetree');
 
@@ -819,6 +891,9 @@ VALUES (36908, 13, True)
      , (36908, 14, True)
      , (36908, 19, True)
      , (36908, 22, True);
+
+/* Weenie - OtherObjects - Evaporate All Magic Other (8180) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8180;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8180, 'servicedispelother1');
@@ -863,6 +938,9 @@ VALUES (8180, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8180, 0, 16778862);
 
+/* Weenie - OtherObjects - Extinguish All Magic Other (8181) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8181;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8181, 'servicedispelother2');
 
@@ -905,6 +983,9 @@ VALUES (8181, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8181, 0, 16778862);
+
+/* Weenie - OtherObjects - Cleanse All Magic Other (8182) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8182;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8182, 'servicedispelother3');
@@ -949,6 +1030,9 @@ VALUES (8182, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8182, 0, 16778862);
 
+/* Weenie - OtherObjects - Devour All Magic Other (8183) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8183;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8183, 'servicedispelother4');
 
@@ -991,6 +1075,9 @@ VALUES (8183, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8183, 0, 16778862);
+
+/* Weenie - OtherObjects - Purge All Magic Other (8184) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8184;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8184, 'servicedispelother5');
@@ -1035,6 +1122,9 @@ VALUES (8184, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8184, 0, 16778862);
 
+/* Weenie - OtherObjects - Nullify All Magic Other (8185) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8185;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8185, 'servicedispelother6');
 
@@ -1077,6 +1167,9 @@ VALUES (8185, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8185, 0, 16778862);
+
+/* Weenie - OtherObjects - Quickness Other I (4606) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4606;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4606, 'servicequicknessother');
@@ -1121,6 +1214,9 @@ VALUES (4606, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4606, 0, 16778862);
 
+/* Weenie - OtherObjects - Heal Other I (4450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4450;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4450, 'servicehealother');
 
@@ -1163,6 +1259,9 @@ VALUES (4450, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4450, 0, 16778862);
+
+/* Weenie - OtherObjects - Mana Boost Other I (4592) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4592;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4592, 'servicemanaboost');
@@ -1207,6 +1306,9 @@ VALUES (4592, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4592, 0, 16778862);
 
+/* Weenie - OtherObjects - Endurance Other I (4602) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4602;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4602, 'serviceenduranceother');
 
@@ -1249,6 +1351,9 @@ VALUES (4602, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4602, 0, 16778862);
+
+/* Weenie - OtherObjects - Revitalize Other I (4589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4589;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4589, 'servicerevitalizeother');
@@ -1293,6 +1398,9 @@ VALUES (4589, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4589, 0, 16778862);
 
+/* Weenie - OtherObjects - Mana Renewal Other I (4599) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4599;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4599, 'servicemanarenewal');
 
@@ -1335,6 +1443,9 @@ VALUES (4599, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4599, 0, 16778862);
+
+/* Weenie - OtherObjects - Regeneration Other I (4595) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4595;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4595, 'serviceregenerateother');
@@ -1379,6 +1490,9 @@ VALUES (4595, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4595, 0, 16778862);
 
+/* Weenie - OtherObjects - Heal Other II (4587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4587;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4587, 'servicehealother2');
 
@@ -1421,6 +1535,9 @@ VALUES (4587, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4587, 0, 16778862);
+
+/* Weenie - OtherObjects - Regeneration Other II (4596) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4596;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4596, 'serviceregenerateother2');
@@ -1465,6 +1582,9 @@ VALUES (4596, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4596, 0, 16778862);
 
+/* Weenie - OtherObjects - Mana Boost Other II (4593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4593;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4593, 'servicemanaboost2');
 
@@ -1507,6 +1627,9 @@ VALUES (4593, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4593, 0, 16778862);
+
+/* Weenie - OtherObjects - Strength Other II (4601) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4601;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4601, 'servicestrengthother2');
@@ -1551,6 +1674,9 @@ VALUES (4601, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4601, 0, 16778862);
 
+/* Weenie - OtherObjects - Quickness Other II (4607) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4607;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4607, 'servicequicknessother2');
 
@@ -1593,6 +1719,9 @@ VALUES (4607, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4607, 0, 16778862);
+
+/* Weenie - OtherObjects - Coordination Other II (4605) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4605;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4605, 'servicecoordinationother2');
@@ -1637,6 +1766,9 @@ VALUES (4605, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4605, 0, 16778862);
 
+/* Weenie - OtherObjects - Focus Other II (4609) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4609;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4609, 'servicefocusother2');
 
@@ -1679,6 +1811,9 @@ VALUES (4609, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4609, 0, 16778862);
+
+/* Weenie - OtherObjects - Willpower Other II (4611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4611;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4611, 'servicewillpowerother2');
@@ -1723,6 +1858,9 @@ VALUES (4611, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4611, 0, 16778862);
 
+/* Weenie - OtherObjects - Coordination Other I (4604) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4604;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4604, 'servicecoordinationother');
 
@@ -1765,6 +1903,9 @@ VALUES (4604, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4604, 0, 16778862);
+
+/* Weenie - OtherObjects - Endurance Other II (4603) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4603;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4603, 'serviceenduranceother2');
@@ -1809,6 +1950,9 @@ VALUES (4603, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4603, 0, 16778862);
 
+/* Weenie - OtherObjects - Mana Renewal Other II (4600) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4600;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4600, 'servicemanarenewal2');
 
@@ -1851,6 +1995,9 @@ VALUES (4600, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4600, 0, 16778862);
+
+/* Weenie - OtherObjects - Rejuvenation Other II (4598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4598;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4598, 'servicerejuvenationother2');
@@ -1895,6 +2042,9 @@ VALUES (4598, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4598, 0, 16778862);
 
+/* Weenie - OtherObjects - Revitalize Other II (4590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4590;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4590, 'servicerevitalizeother2');
 
@@ -1937,6 +2087,9 @@ VALUES (4590, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4590, 0, 16778862);
+
+/* Weenie - OtherObjects - Coordination Other III (30668) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30668;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30668, 'servicecoordinationother3');
@@ -1981,6 +2134,9 @@ VALUES (30668, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30668, 0, 16778862);
 
+/* Weenie - OtherObjects - Coordination Other IV (30669) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30669;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30669, 'servicecoordinationother4');
 
@@ -2023,6 +2179,9 @@ VALUES (30669, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30669, 0, 16778862);
+
+/* Weenie - OtherObjects - Endurance Other III (30670) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30670;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30670, 'serviceenduranceother3');
@@ -2067,6 +2226,9 @@ VALUES (30670, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30670, 0, 16778862);
 
+/* Weenie - OtherObjects - Endurance Other IV (30671) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30671;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30671, 'serviceenduranceother4');
 
@@ -2109,6 +2271,9 @@ VALUES (30671, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30671, 0, 16778862);
+
+/* Weenie - OtherObjects - Focus Other I (4608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4608;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4608, 'servicefocusother');
@@ -2153,6 +2318,9 @@ VALUES (4608, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4608, 0, 16778862);
 
+/* Weenie - OtherObjects - Focus Other III (30672) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30672;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30672, 'servicefocusother3');
 
@@ -2195,6 +2363,9 @@ VALUES (30672, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30672, 0, 16778862);
+
+/* Weenie - OtherObjects - Focus Other IV (30673) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30673;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30673, 'servicefocusother4');
@@ -2239,6 +2410,9 @@ VALUES (30673, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30673, 0, 16778862);
 
+/* Weenie - OtherObjects - Quickness Other III (30674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30674;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30674, 'servicequicknessother3');
 
@@ -2281,6 +2455,9 @@ VALUES (30674, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30674, 0, 16778862);
+
+/* Weenie - OtherObjects - Quickness Other IV (30663) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30663;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30663, 'servicequicknessother4');
@@ -2325,6 +2502,9 @@ VALUES (30663, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30663, 0, 16778862);
 
+/* Weenie - OtherObjects - Strength Other I (4384) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4384;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4384, 'servicestrengthother');
 
@@ -2367,6 +2547,9 @@ VALUES (4384, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4384, 0, 16778862);
+
+/* Weenie - OtherObjects - Strength Other III (30664) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30664;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30664, 'servicestrengthother3');
@@ -2411,6 +2594,9 @@ VALUES (30664, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30664, 0, 16778862);
 
+/* Weenie - OtherObjects - Strength Other IV (30665) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30665;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30665, 'servicestrengthother4');
 
@@ -2453,6 +2639,9 @@ VALUES (30665, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30665, 0, 16778862);
+
+/* Weenie - OtherObjects - Willpower Other I (4610) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4610;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4610, 'servicewillpowerother');
@@ -2497,6 +2686,9 @@ VALUES (4610, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4610, 0, 16778862);
 
+/* Weenie - OtherObjects - Willpower Other III (30666) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30666;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30666, 'servicewillpowerother3');
 
@@ -2539,6 +2731,9 @@ VALUES (30666, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30666, 0, 16778862);
+
+/* Weenie - OtherObjects - Willpower Other IV (30667) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30667;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30667, 'servicewillpowerother4');
@@ -2583,6 +2778,9 @@ VALUES (30667, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30667, 0, 16778862);
 
+/* Weenie - OtherObjects - Rejuvenation Other I (4597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4597;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4597, 'servicerejuvenationother');
 
@@ -2625,6 +2823,9 @@ VALUES (4597, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4597, 0, 16778862);
+
+/* Weenie - OtherObjects - Decorative Tree Trunk Club (34577) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34577;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34577, 'ace34577-decorativetreetrunkclub');
@@ -2671,6 +2872,9 @@ VALUES (34577, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34577, 0, 16778862);
 
+/* Weenie - OtherObjects - Decorative Repugnant Staff (34578) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34578;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34578, 'ace34578-decorativerepugnantstaff');
 
@@ -2715,6 +2919,9 @@ VALUES (34578, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34578, 0, 16778862);
+
+/* Weenie - OtherObjects - Decorative Bone Sword (34579) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34579;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34579, 'ace34579-decorativebonesword');

@@ -1,3 +1,6 @@
+/* Weenie - PortalsGolemSanctum - Golem Sanctum Portal (7934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7934;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7934, 'portalgolemsanctum');
 

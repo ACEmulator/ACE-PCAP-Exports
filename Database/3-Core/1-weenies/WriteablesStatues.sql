@@ -1,3 +1,6 @@
+/* Weenie - WriteablesStatues - Nullified Statue of a Banderling (19194) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19194;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19194, 'statuebanderlingnull');
 
@@ -33,6 +36,9 @@ VALUES (19194, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19194, 67113810, 0, 0);
+
+/* Weenie - WriteablesStatues - Nullified Statue of a Reedshark (19201) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19201;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19201, 'statuereedsharknull');
@@ -70,6 +76,9 @@ VALUES (19201, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19201, 67113802, 0, 0);
 
+/* Weenie - WriteablesStatues - Nullified Statue of a Golem (19197) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19197;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19197, 'statuegolemnull');
 
@@ -105,6 +114,9 @@ VALUES (19197, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19197, 67113808, 0, 0);
+
+/* Weenie - WriteablesStatues - Destroyed Statue of a Reedshark (21282) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21282;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21282, 'statuereedsharknulldestroyed');
@@ -142,6 +154,9 @@ VALUES (21282, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (21282, 67113802, 0, 0);
 
+/* Weenie - WriteablesStatues - Nullified Statue of a Sclavus (19202) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19202;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19202, 'statuesclavusnull');
 
@@ -178,6 +193,9 @@ VALUES (19202, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19202, 67113813, 0, 0);
 
+/* Weenie - WriteablesStatues - Nullified Statue of a Shadow (19203) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19203;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19203, 'statueshadownull');
 
@@ -213,6 +231,9 @@ VALUES (19203, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19203, 67113866, 0, 0);
+
+/* Weenie - WriteablesStatues - Nullified Statue of Ben Ten (19195) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19195;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19195, 'statuebentennull');
@@ -284,6 +305,9 @@ VALUES (19195, 0, 16783897)
      , (19195, 14, 16783855)
      , (19195, 16, 16783891);
 
+/* Weenie - WriteablesStatues - Nullified Statue of a Skeleton (19204) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19204;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19204, 'statueskeletonnull');
 
@@ -319,6 +343,9 @@ VALUES (19204, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19204, 67116534, 0, 0);
+
+/* Weenie - WriteablesStatues - Nullified Statue of a Drudge (19196) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19196;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19196, 'statuedrudgenull');
@@ -363,6 +390,9 @@ VALUES (19196, 1, 83892459, 83892460)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19196, 1, 16784273);
 
+/* Weenie - WriteablesStatues - Nullified Statue of a Tumerok (19206) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19206;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19206, 'statuetumeroknull');
 
@@ -398,6 +428,9 @@ VALUES (19206, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19206, 67116656, 0, 0);
+
+/* Weenie - WriteablesStatues - Nullified Statue of Thorsten Cragstone (19205) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19205;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19205, 'statuethorstennull');
@@ -477,6 +510,9 @@ VALUES (19205, 9, 16781837)
      , (19205, 15, 16777335)
      , (19205, 16, 16778313);
 
+/* Weenie - WriteablesStatues - Nullified Statue of a Mosswart (19200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19200;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19200, 'statuemosswartnull');
 
@@ -551,6 +587,9 @@ VALUES (19200, 0, 16787248)
      , (19200, 15, 16787257)
      , (19200, 16, 16787256);
 
+/* Weenie - WriteablesStatues - Nullified Statue of a Grievver (19198) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19198;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19198, 'statuegrievvernull');
 
@@ -587,6 +626,9 @@ VALUES (19198, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19198, 67113814, 0, 0);
 
+/* Weenie - WriteablesStatues - Nullified Statue of a Gromnie (19199) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19199;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19199, 'statuegromnienull');
 
@@ -622,6 +664,9 @@ VALUES (19199, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19199, 67113812, 0, 0);
+
+/* Weenie - WriteablesStatues - Nullified Statue of a Zharalim (19208) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19208;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19208, 'statuezharalimnull');
@@ -699,6 +744,9 @@ VALUES (19208, 0, 16783894)
      , (19208, 15, 16777335)
      , (19208, 16, 16787671);
 
+/* Weenie - WriteablesStatues - Nullified Statue of a Virindi (19207) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19207;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19207, 'statuevirindinull');
 
@@ -740,6 +788,9 @@ VALUES (19207, 9, 83890028, 83890027);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19207, 9, 16780702);
+
+/* Weenie - WriteablesStatues - Statue (11638) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11638;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11638, 'statuebaelzharonvirindi');

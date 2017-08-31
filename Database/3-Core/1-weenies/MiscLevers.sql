@@ -1,3 +1,6 @@
+/* Weenie - MiscLevers - Lever (14565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14565;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14565, 'leverhightech');
 
@@ -27,6 +30,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14565, 11, True)
      , (14565, 19, True)
      , (14565, 1, True);
+
+/* Weenie - MiscLevers - Lever (285) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 285;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (285, 'leverboxswitch');
@@ -59,6 +65,9 @@ VALUES (285, 13, True)
      , (285, 19, True)
      , (285, 1, True);
 
+/* Weenie - MiscLevers - Lever (286) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 286;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (286, 'levergearswitch');
 
@@ -90,6 +99,9 @@ VALUES (286, 13, True)
      , (286, 19, True)
      , (286, 1, True);
 
+/* Weenie - MiscLevers - Lever (2609) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2609;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2609, 'leverbigswitch');
 
@@ -119,6 +131,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (2609, 11, True)
      , (2609, 19, True)
      , (2609, 1, True);
+
+/* Weenie - MiscLevers - Lever (40890) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40890;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40890, 'ace40890-lever');
@@ -151,6 +166,9 @@ VALUES (40890, 13, True)
      , (40890, 19, True)
      , (40890, 1, True);
 
+/* Weenie - MiscLevers - Torch (7323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7323;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7323, 'leverwalltorch');
 
@@ -181,6 +199,9 @@ VALUES (7323, 13, True)
      , (7323, 11, True)
      , (7323, 19, True)
      , (7323, 1, True);
+
+/* Weenie - MiscLevers - Candle (14468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14468;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14468, 'levercandle');
@@ -213,6 +234,9 @@ VALUES (14468, 13, True)
      , (14468, 19, True)
      , (14468, 1, True);
 
+/* Weenie - MiscLevers - Lever (29593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29593;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29593, 'leverfalatacotlight');
 
@@ -242,6 +266,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (29593, 11, True)
      , (29593, 19, True)
      , (29593, 1, True);
+
+/* Weenie - MiscLevers - Lever (15756) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15756;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15756, 'leversacrifice');
@@ -274,6 +301,9 @@ VALUES (15756, 13, True)
      , (15756, 19, True)
      , (15756, 1, True);
 
+/* Weenie - MiscLevers - Lever (15755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15755;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15755, 'levernosacrifice');
 
@@ -304,6 +334,9 @@ VALUES (15755, 13, True)
      , (15755, 11, True)
      , (15755, 19, True)
      , (15755, 1, True);
+
+/* Weenie - MiscLevers - Lever (49594) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49594;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49594, 'ace49594-lever');
@@ -336,6 +369,9 @@ VALUES (49594, 13, True)
      , (49594, 19, True)
      , (49594, 1, True);
 
+/* Weenie - MiscLevers - Torch (3644) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3644;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3644, 'walltorchuseable');
 
@@ -367,6 +403,9 @@ VALUES (3644, 13, True)
      , (3644, 19, True)
      , (3644, 1, True);
 
+/* Weenie - MiscLevers - Lever (46293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46293;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46293, 'ace46293-lever');
 
@@ -396,6 +435,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (46293, 11, True)
      , (46293, 19, True)
      , (46293, 1, True);
+
+/* Weenie - MiscLevers - Lever (49590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49590;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49590, 'ace49590-lever');
@@ -428,6 +470,9 @@ VALUES (49590, 13, True)
      , (49590, 19, True)
      , (49590, 1, True);
 
+/* Weenie - MiscLevers - Lever (49592) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49592;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49592, 'ace49592-lever');
 
@@ -459,6 +504,9 @@ VALUES (49592, 13, True)
      , (49592, 19, True)
      , (49592, 1, True);
 
+/* Weenie - MiscLevers - Lever (49591) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49591;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49591, 'ace49591-lever');
 
@@ -489,6 +537,9 @@ VALUES (49591, 13, True)
      , (49591, 11, True)
      , (49591, 19, True)
      , (49591, 1, True);
+
+/* Weenie - MiscLevers - Plant (8421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8421;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8421, 'switchleaftree');

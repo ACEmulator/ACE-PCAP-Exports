@@ -1,3 +1,6 @@
+/* Weenie - UndefObjects - Empty Book Binding (30928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30928;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30928, 'carlolorebookbinding');
 
@@ -30,6 +33,9 @@ VALUES (30928, 13, True)
      , (30928, 14, True)
      , (30928, 19, True)
      , (30928, 22, True);
+
+/* Weenie - UndefObjects - Spear (35569) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35569;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35569, 'ace35569-spear');
@@ -66,6 +72,9 @@ VALUES (35569, 12, True)
      , (35569, 19, True)
      , (35569, 1, True)
      , (35569, 24, True);
+
+/* Weenie - UndefObjects - Flame Grenade (35570) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35570;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35570, 'ace35570-flamegrenade');
@@ -113,6 +122,9 @@ VALUES (35570, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35570, 0, 16778729);
 
+/* Weenie - UndefObjects - Spectral Flame (36454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36454;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36454, 'ace36454-spectralflame');
 
@@ -149,6 +161,9 @@ VALUES (36454, 12, True)
      , (36454, 1, True)
      , (36454, 24, True);
 
+/* Weenie - UndefObjects - Dark Nanner (35960) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35960;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35960, 'ace35960-darknanner');
 
@@ -182,6 +197,9 @@ VALUES (35960, 12, True)
      , (35960, 19, True)
      , (35960, 1, True)
      , (35960, 24, True);
+
+/* Weenie - UndefObjects - Dark Nanner (35961) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35961;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35961, 'ace35961-darknanner');
@@ -217,6 +235,9 @@ VALUES (35961, 12, True)
      , (35961, 19, True)
      , (35961, 1, True)
      , (35961, 24, True);
+
+/* Weenie - UndefObjects - Rabbit (33040) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33040;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33040, 'ace33040-rabbit');
@@ -291,6 +312,9 @@ VALUES (33040, 0, 16782183)
      , (33040, 11, 16777708)
      , (33040, 12, 16777708);
 
+/* Weenie - UndefObjects - Spirit of Aun Tanua (14570) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14570;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14570, 'invokingauntanua');
 
@@ -332,6 +356,9 @@ VALUES (14570, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (14570, 67113369, 0, 0);
 
+/* Weenie - UndefObjects - Burning Earth (33526) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33526;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33526, 'ace33526-burningearth');
 
@@ -367,6 +394,9 @@ VALUES (33526, 12, True)
      , (33526, 19, True)
      , (33526, 1, True)
      , (33526, 24, True);
+
+/* Weenie - UndefObjects - Electric Discharge (8635) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8635;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8635, 'lightningdischarge');
@@ -404,6 +434,9 @@ VALUES (8635, 12, True)
      , (8635, 19, True)
      , (8635, 1, True)
      , (8635, 24, True);
+
+/* Weenie - UndefObjects - Moarsmuck (32274) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32274;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32274, 'ace32274-moarsmuck');
@@ -451,6 +484,9 @@ VALUES (32274, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32274, 0, 16777882);
 
+/* Weenie - UndefObjects - Rock Fall (33843) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33843;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33843, 'ace33843-rockfall');
 
@@ -488,6 +524,9 @@ VALUES (33843, 12, True)
      , (33843, 1, True)
      , (33843, 24, True);
 
+/* Weenie - UndefObjects - Dark Vortex (33498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33498;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33498, 'ace33498-darkvortex');
 
@@ -518,6 +557,9 @@ VALUES (33498, 12, True)
      , (33498, 19, True)
      , (33498, 1, True)
      , (33498, 24, True);
+
+/* Weenie - UndefObjects - Green Spore Cloud (29031) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29031;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29031, 'sporecloudgreen');
@@ -556,6 +598,9 @@ VALUES (29031, 12, True)
      , (29031, 1, True)
      , (29031, 24, True);
 
+/* Weenie - UndefObjects - Big Fire (35461) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35461;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35461, 'ace35461-bigfire');
 
@@ -591,6 +636,9 @@ VALUES (35461, 12, True)
      , (35461, 19, True)
      , (35461, 1, True)
      , (35461, 24, True);
+
+/* Weenie - UndefObjects - Mana Cloud (29030) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29030;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29030, 'manacloud');
@@ -628,6 +676,9 @@ VALUES (29030, 12, True)
      , (29030, 19, True)
      , (29030, 1, True)
      , (29030, 24, True);
+
+/* Weenie - UndefObjects - White Spore Cloud (29033) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29033;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29033, 'sporecloudwhite');

@@ -1,3 +1,6 @@
+/* Weenie - MissileObjects - Missile (8607) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8607;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8607, 'missilered');
 
@@ -33,6 +36,9 @@ VALUES (8607, 12, True)
      , (8607, 19, True)
      , (8607, 1, True)
      , (8607, 24, True);
+
+/* Weenie - MissileObjects - Missile (8603) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8603;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8603, 'missileyellow');
@@ -70,6 +76,9 @@ VALUES (8603, 12, True)
      , (8603, 1, True)
      , (8603, 24, True);
 
+/* Weenie - MissileObjects - Missile (43812) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43812;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43812, 'ace43812-missile');
 
@@ -105,6 +114,9 @@ VALUES (43812, 12, True)
      , (43812, 19, True)
      , (43812, 1, True)
      , (43812, 24, True);
+
+/* Weenie - MissileObjects - Egg (33039) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33039;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33039, 'ace33039-egg');
@@ -144,6 +156,9 @@ VALUES (33039, 12, True)
      , (33039, 1, True)
      , (33039, 24, True);
 
+/* Weenie - MissileObjects - Missile (8604) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8604;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8604, 'missileblue');
 
@@ -179,6 +194,9 @@ VALUES (8604, 12, True)
      , (8604, 19, True)
      , (8604, 1, True)
      , (8604, 24, True);
+
+/* Weenie - MissileObjects - Missile (8610) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8610;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8610, 'missilegrey');
@@ -216,6 +234,9 @@ VALUES (8610, 12, True)
      , (8610, 1, True)
      , (8610, 24, True);
 
+/* Weenie - MissileObjects - Missile (8608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8608;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8608, 'missileorange');
 
@@ -251,6 +272,9 @@ VALUES (8608, 12, True)
      , (8608, 19, True)
      , (8608, 1, True)
      , (8608, 24, True);
+
+/* Weenie - MissileObjects - Missile (8602) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8602;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8602, 'missilegreen');
@@ -288,6 +312,9 @@ VALUES (8602, 12, True)
      , (8602, 1, True)
      , (8602, 24, True);
 
+/* Weenie - MissileObjects - Missile (8605) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8605;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8605, 'missilepurple');
 
@@ -324,6 +351,9 @@ VALUES (8605, 12, True)
      , (8605, 1, True)
      , (8605, 24, True);
 
+/* Weenie - MissileObjects - Egg (35179) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35179;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35179, 'ace35179-egg');
 
@@ -356,6 +386,9 @@ VALUES (35179, 12, True)
      , (35179, 19, True)
      , (35179, 1, True)
      , (35179, 24, True);
+
+/* Weenie - MissileObjects - Missile (2619) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2619;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2619, 'nullmissile');
@@ -393,6 +426,9 @@ VALUES (2619, 12, True)
      , (2619, 19, True)
      , (2619, 1, True)
      , (2619, 24, True);
+
+/* Weenie - MissileObjects - Snowball (34434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34434;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34434, 'ace34434-snowball');

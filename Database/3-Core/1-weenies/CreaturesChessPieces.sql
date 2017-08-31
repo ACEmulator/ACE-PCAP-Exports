@@ -1,3 +1,6 @@
+/* Weenie - CreaturesChessPieces - Drudge Rook (14343) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14343;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14343, 'drudgerook');
 
@@ -59,6 +62,9 @@ VALUES (14343, 14, 16784286)
      , (14343, 2, 16784265)
      , (14343, 5, 16784269);
 
+/* Weenie - CreaturesChessPieces - Drudge Knight (14344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14344;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14344, 'drudgeknight');
 
@@ -117,6 +123,9 @@ VALUES (14344, 14, 16784286)
      , (14344, 2, 16784265)
      , (14344, 5, 16784269);
 
+/* Weenie - CreaturesChessPieces - Drudge Bishop (14345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14345;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14345, 'drudgebishop');
 
@@ -171,6 +180,9 @@ VALUES (14345, 14, 16784286)
      , (14345, 2, 16784265)
      , (14345, 5, 16784269);
 
+/* Weenie - CreaturesChessPieces - Drudge Queen (14346) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14346;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14346, 'drudgequeen');
 
@@ -223,6 +235,9 @@ VALUES (14346, 1, 16784273)
      , (14346, 6, 16784261)
      , (14346, 9, 16784289)
      , (14346, 12, 16784289);
+
+/* Weenie - CreaturesChessPieces - Drudge King (14347) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14347;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14347, 'drudgeking');
@@ -277,6 +292,9 @@ VALUES (14347, 14, 16784286)
      , (14347, 6, 16784261)
      , (14347, 2, 16784265)
      , (14347, 5, 16784269);
+
+/* Weenie - CreaturesChessPieces - Drudge Pawn (14342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14342;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14342, 'drudgepawn');

@@ -1,3 +1,6 @@
+/* Weenie - MiscResidentialHallSigns - North Pass Hollow Cottages (19182) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19182;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19182, 'northpasshollowcottagessign');
 
@@ -25,6 +28,9 @@ VALUES (19182, 12, True)
      , (19182, 14, True)
      , (19182, 19, True)
      , (19182, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Haven Residential Halls (21476) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21476;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21476, 'havenresidentialhallssign');
@@ -54,6 +60,9 @@ VALUES (21476, 12, True)
      , (21476, 19, True)
      , (21476, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Atrium Residential Halls (19380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19380;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19380, 'atriumresidentialhallssign');
 
@@ -81,6 +90,9 @@ VALUES (19380, 12, True)
      , (19380, 14, True)
      , (19380, 19, True)
      , (19380, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Sanctum Residential Halls (16898) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 16898;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16898, 'sanctumresidentialhallssign');
@@ -110,6 +122,9 @@ VALUES (16898, 12, True)
      , (16898, 19, True)
      , (16898, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Victory Residential Halls (22242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22242;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22242, 'victoryresidentialhallssign');
 
@@ -138,6 +153,9 @@ VALUES (22242, 12, True)
      , (22242, 19, True)
      , (22242, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Oriel Residential Halls (19391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19391;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19391, 'orielresidentialhallssign');
 
@@ -165,6 +183,9 @@ VALUES (19391, 12, True)
      , (19391, 14, True)
      , (19391, 19, True)
      , (19391, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Sluice Gate Bar (7412) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7412;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7412, 'magmasluicebar');
@@ -199,6 +220,9 @@ VALUES (7412, 13, True)
      , (7412, 19, True)
      , (7412, 22, True);
 
+/* Weenie - MiscResidentialHallSigns - White Lotus Gate (19398) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19398;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19398, 'whitelotusgatesign');
 
@@ -226,6 +250,9 @@ VALUES (19398, 12, True)
      , (19398, 14, True)
      , (19398, 19, True)
      , (19398, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Allain Court (19378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19378;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19378, 'allaincourtsign');
@@ -255,6 +282,9 @@ VALUES (19378, 12, True)
      , (19378, 19, True)
      , (19378, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Vindalan Dwellings (19397) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19397;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19397, 'vindalandwellingssign');
 
@@ -282,6 +312,9 @@ VALUES (19397, 12, True)
      , (19397, 14, True)
      , (19397, 19, True)
      , (19397, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Autumn Moon Gardens (19381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19381;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19381, 'autumnmoongardenssign');
@@ -311,6 +344,9 @@ VALUES (19381, 12, True)
      , (19381, 19, True)
      , (19381, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Endara Gate (19382) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19382;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19382, 'endaragatesign');
 
@@ -338,6 +374,9 @@ VALUES (19382, 12, True)
      , (19382, 14, True)
      , (19382, 19, True)
      , (19382, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Forsythian Gardens (19383) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19383;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19383, 'forsythiangardenssign');
@@ -367,6 +406,9 @@ VALUES (19383, 12, True)
      , (19383, 19, True)
      , (19383, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Syrah Dwellings (19393) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19393;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19393, 'syrahdwellingssign');
 
@@ -394,6 +436,9 @@ VALUES (19393, 12, True)
      , (19393, 14, True)
      , (19393, 19, True)
      , (19393, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Sorac Gate (19392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19392;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19392, 'soracgatesign');
@@ -423,6 +468,9 @@ VALUES (19392, 12, True)
      , (19392, 19, True)
      , (19392, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Maru Veranda (19389) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19389;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19389, 'maruverandasign');
 
@@ -450,6 +498,9 @@ VALUES (19389, 12, True)
      , (19389, 14, True)
      , (19389, 19, True)
      , (19389, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Trellyn Gardens (19394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19394;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19394, 'trellyngardenssign');
@@ -479,6 +530,9 @@ VALUES (19394, 12, True)
      , (19394, 19, True)
      , (19394, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Festivus Court (22236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22236;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22236, 'festivuscourtsign');
 
@@ -506,6 +560,9 @@ VALUES (22236, 12, True)
      , (22236, 14, True)
      , (22236, 19, True)
      , (22236, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Wilamil Court (22243) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22243;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22243, 'wilamilcourtsign');
@@ -535,6 +592,9 @@ VALUES (22243, 12, True)
      , (22243, 19, True)
      , (22243, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Triumphal Gardens (22241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22241;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22241, 'triumphalgardenssign');
 
@@ -562,6 +622,9 @@ VALUES (22241, 12, True)
      , (22241, 14, True)
      , (22241, 19, True)
      , (22241, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Setera Gardens (22239) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22239;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22239, 'seteragardenssign');
@@ -591,6 +654,9 @@ VALUES (22239, 12, True)
      , (22239, 19, True)
      , (22239, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Spirit Gate (22240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22240;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22240, 'spiritgatesign');
 
@@ -618,6 +684,9 @@ VALUES (22240, 12, True)
      , (22240, 14, True)
      , (22240, 19, True)
      , (22240, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Accord Veranda (22233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22233;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22233, 'accordverandasign');
@@ -647,6 +716,9 @@ VALUES (22233, 12, True)
      , (22233, 19, True)
      , (22233, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Celdiseth Court (22235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22235;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22235, 'celdisethcourtsign');
 
@@ -674,6 +746,9 @@ VALUES (22235, 12, True)
      , (22235, 14, True)
      , (22235, 19, True)
      , (22235, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Hibiscus Gardens (22237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22237;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22237, 'hibiscusgardenssign');
@@ -703,6 +778,9 @@ VALUES (22237, 12, True)
      , (22237, 19, True)
      , (22237, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Meditation Gardens (22238) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22238;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22238, 'meditationgardenssign');
 
@@ -730,6 +808,9 @@ VALUES (22238, 12, True)
      , (22238, 14, True)
      , (22238, 19, True)
      , (22238, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Shendolain Gate (8018) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8018;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8018, 'gateshendolain');
@@ -765,6 +846,9 @@ VALUES (8018, 12, True)
      , (8018, 19, True)
      , (8018, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Treyval Veranda (16903) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 16903;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16903, 'treyvalverandasign');
 
@@ -792,6 +876,9 @@ VALUES (16903, 12, True)
      , (16903, 14, True)
      , (16903, 19, True)
      , (16903, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Alvan Court (16893) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 16893;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16893, 'alvancourtsign');
@@ -821,6 +908,9 @@ VALUES (16893, 12, True)
      , (16893, 19, True)
      , (16893, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - SylvanDwellings (16902) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 16902;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16902, 'sylvandwellingssign');
 
@@ -848,6 +938,9 @@ VALUES (16902, 12, True)
      , (16902, 14, True)
      , (16902, 19, True)
      , (16902, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Caerna Dwellings (16894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 16894;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16894, 'caernadwellingssign');
@@ -877,6 +970,9 @@ VALUES (16894, 12, True)
      , (16894, 19, True)
      , (16894, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Illsin Veranda (16895) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 16895;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16895, 'illsinverandasign');
 
@@ -904,6 +1000,9 @@ VALUES (16895, 12, True)
      , (16895, 14, True)
      , (16895, 19, True)
      , (16895, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Marin Court (16896) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 16896;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16896, 'marincourtsign');
@@ -933,6 +1032,9 @@ VALUES (16896, 12, True)
      , (16896, 19, True)
      , (16896, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Sigil Veranda (16900) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 16900;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16900, 'sigilverandasign');
 
@@ -960,6 +1062,9 @@ VALUES (16900, 12, True)
      , (16900, 14, True)
      , (16900, 19, True)
      , (16900, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Senmai Court (16899) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 16899;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16899, 'senmaicourtsign');
@@ -989,6 +1094,9 @@ VALUES (16899, 12, True)
      , (16899, 19, True)
      , (16899, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Sorveya Court (16901) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 16901;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16901, 'sorveyacourtsign');
 
@@ -1017,6 +1125,9 @@ VALUES (16901, 12, True)
      , (16901, 19, True)
      , (16901, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Ruadnar Court (16897) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 16897;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16897, 'ruadnarcourtsign');
 
@@ -1044,6 +1155,9 @@ VALUES (16897, 12, True)
      , (16897, 14, True)
      , (16897, 19, True)
      , (16897, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Fenmalain Gate (8017) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8017;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8017, 'gatefenmalain');
@@ -1078,6 +1192,9 @@ VALUES (8017, 12, True)
      , (8017, 14, True)
      , (8017, 19, True)
      , (8017, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Hollowed-Out Tree Trunk (14553) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14553;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14553, 'trunkhollow');
@@ -1116,6 +1233,9 @@ VALUES (14553, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (14553, 67113788, 0, 0);
 
+/* Weenie - MiscResidentialHallSigns - Ben Ten Lodge (21471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21471;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21471, 'bentenlodgesign');
 
@@ -1143,6 +1263,9 @@ VALUES (21471, 12, True)
      , (21471, 14, True)
      , (21471, 19, True)
      , (21471, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Celcynd Grotto (21473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21473;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21473, 'celcyndgrottosign');
@@ -1172,6 +1295,9 @@ VALUES (21473, 12, True)
      , (21473, 19, True)
      , (21473, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Cedraic Court (21472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21472;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21472, 'cedraiccourtsign');
 
@@ -1199,6 +1325,9 @@ VALUES (21472, 12, True)
      , (21472, 14, True)
      , (21472, 19, True)
      , (21472, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Xao Wu Gardens (21482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21482;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21482, 'xaowugardenssign');
@@ -1228,6 +1357,9 @@ VALUES (21482, 12, True)
      , (21482, 19, True)
      , (21482, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Trothyr Hollow (21481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21481;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21481, 'trothyrhollowsign');
 
@@ -1255,6 +1387,9 @@ VALUES (21481, 12, True)
      , (21481, 14, True)
      , (21481, 19, True)
      , (21481, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Jojii Gardens (21479) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21479;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21479, 'jojiigardenssign');
@@ -1284,6 +1419,9 @@ VALUES (21479, 12, True)
      , (21479, 19, True)
      , (21479, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Dulok Court (21475) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21475;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21475, 'dulokcourtsign');
 
@@ -1311,6 +1449,9 @@ VALUES (21475, 12, True)
      , (21475, 14, True)
      , (21475, 19, True)
      , (21475, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Ispar Yard (21477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21477;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21477, 'isparyardsign');
@@ -1340,6 +1481,9 @@ VALUES (21477, 12, True)
      , (21477, 19, True)
      , (21477, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Ivory Gate (19387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19387;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19387, 'ivorygatesign');
 
@@ -1367,6 +1511,9 @@ VALUES (19387, 12, True)
      , (19387, 14, True)
      , (19387, 19, True)
      , (19387, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Winthur Gate (19399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19399;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19399, 'winthurgatesign');
@@ -1396,6 +1543,9 @@ VALUES (19399, 12, True)
      , (19399, 19, True)
      , (19399, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Alphus Court (19379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19379;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19379, 'alphuscourtsign');
 
@@ -1423,6 +1573,9 @@ VALUES (19379, 12, True)
      , (19379, 14, True)
      , (19379, 19, True)
      , (19379, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Vesper Gate (19396) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19396;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19396, 'vespergatesign');
@@ -1452,6 +1605,9 @@ VALUES (19396, 12, True)
      , (19396, 19, True)
      , (19396, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Gajin Dwellings (19384) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19384;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19384, 'gagindwellingssign');
 
@@ -1479,6 +1635,9 @@ VALUES (19384, 12, True)
      , (19384, 14, True)
      , (19384, 19, True)
      , (19384, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Heartland Yard (19386) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19386;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19386, 'heartlandyardsign');
@@ -1508,6 +1667,9 @@ VALUES (19386, 12, True)
      , (19386, 19, True)
      , (19386, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Hasina Gardens (19385) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19385;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19385, 'hasinagardenssign');
 
@@ -1535,6 +1697,9 @@ VALUES (19385, 12, True)
      , (19385, 14, True)
      , (19385, 19, True)
      , (19385, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Mellas Court (19390) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19390;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19390, 'mellascourtsign');
@@ -1564,6 +1729,9 @@ VALUES (19390, 12, True)
      , (19390, 19, True)
      , (19390, 1, True);
 
+/* Weenie - MiscResidentialHallSigns - Crescent Moon Veranda (21474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21474;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21474, 'crescentmoonverandasign');
 
@@ -1591,6 +1759,9 @@ VALUES (21474, 12, True)
      , (21474, 14, True)
      , (21474, 19, True)
      , (21474, 1, True);
+
+/* Weenie - MiscResidentialHallSigns - Caulnalain Gate (8016) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8016;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8016, 'gatecaulnalain');

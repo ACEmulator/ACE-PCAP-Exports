@@ -1,3 +1,6 @@
+/* Weenie - MiscObjects - Gold Tumerok Insignia (3695) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3695;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3695, 'tumerokinsignia');
 
@@ -31,6 +34,9 @@ VALUES (3695, 13, True)
      , (3695, 14, True)
      , (3695, 19, True)
      , (3695, 22, True);
+
+/* Weenie - MiscObjects - Folded Guard's Uniform (14425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14425;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14425, 'uniformregicide');
@@ -77,6 +83,9 @@ VALUES (14425, 0, 83887061, 83893840)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14425, 0, 16778367);
 
+/* Weenie - MiscObjects - Letter to Renald the Eldest, from Larinne Kerendova (33926) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33926;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33926, 'ace33926-lettertorenaldtheeldestfromlarinnekerendova');
 
@@ -110,6 +119,9 @@ VALUES (33926, 13, True)
      , (33926, 19, True)
      , (33926, 22, True);
 
+/* Weenie - MiscObjects - Letter to Nen Ai, from Larinne Kerendova (33928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33928;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33928, 'ace33928-lettertonenaifromlarinnekerendova');
 
@@ -142,6 +154,9 @@ VALUES (33928, 13, True)
      , (33928, 14, True)
      , (33928, 19, True)
      , (33928, 22, True);
+
+/* Weenie - MiscObjects - Lightning Moar Essence (150) (49349) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49349;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49349, 'ace49349-lightningmoaressence150');
@@ -195,6 +210,9 @@ VALUES (49349, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49349, 0, 16777882);
 
+/* Weenie - MiscObjects - Singularity Keyring (23197) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23197;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23197, 'keyringsingularity');
 
@@ -235,6 +253,9 @@ VALUES (23197, 13, True)
      , (23197, 19, True)
      , (23197, 22, True);
 
+/* Weenie - MiscObjects - Bronze Gearknight Gear (41614) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41614;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41614, 'ace41614-bronzegearknightgear');
 
@@ -269,6 +290,9 @@ VALUES (41614, 13, True)
      , (41614, 19, True)
      , (41614, 22, True);
 
+/* Weenie - MiscObjects - Letter to May'ad ibn Ibsar, from Larinne Kerendova (33929) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33929;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33929, 'ace33929-lettertomayadibnibsarfromlarinnekerendova');
 
@@ -302,6 +326,9 @@ VALUES (33929, 13, True)
      , (33929, 19, True)
      , (33929, 22, True);
 
+/* Weenie - MiscObjects - Letter to Turien Di Furza, from Larinne Kerendova (33927) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33927;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33927, 'ace33927-lettertoturiendifurzafromlarinnekerendova');
 
@@ -334,6 +361,9 @@ VALUES (33927, 13, True)
      , (33927, 14, True)
      , (33927, 19, True)
      , (33927, 22, True);
+
+/* Weenie - MiscObjects - Torch (293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 293;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (293, 'torch');
@@ -373,6 +403,9 @@ VALUES (293, 13, True)
      , (293, 19, True)
      , (293, 22, True);
 
+/* Weenie - MiscObjects - Fishing Pole (22256) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22256;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22256, 'fishingpole');
 
@@ -406,6 +439,9 @@ VALUES (22256, 13, True)
      , (22256, 19, True)
      , (22256, 22, True)
      , (22256, 116, True);
+
+/* Weenie - MiscObjects - Low-Stakes Gambling Token (44715) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44715;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44715, 'ace44715-lowstakesgamblingtoken');
@@ -449,6 +485,9 @@ VALUES (44715, 0, 83893248, 83893251)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44715, 0, 16785707);
 
+/* Weenie - MiscObjects - Mid-Stakes Gambling Token (44716) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44716;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44716, 'ace44716-midstakesgamblingtoken');
 
@@ -483,6 +522,9 @@ VALUES (44716, 13, True)
      , (44716, 11, True)
      , (44716, 14, True)
      , (44716, 19, True);
+
+/* Weenie - MiscObjects - Acid Wisp Essence (50) (49310) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49310;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49310, 'ace49310-acidwispessence50');
@@ -536,6 +578,9 @@ VALUES (49310, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49310, 0, 16777882);
 
+/* Weenie - MiscObjects - Large Lugian Sinew (7043) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7043;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7043, 'lugiansinewgigas');
 
@@ -579,6 +624,9 @@ VALUES (7043, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7043, 0, 16777882);
 
+/* Weenie - MiscObjects - Upper Insatiable Eater Jaw (42104) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42104;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42104, 'ace42104-upperinsatiableeaterjaw');
 
@@ -608,6 +656,9 @@ VALUES (42104, 13, True)
      , (42104, 14, True)
      , (42104, 19, True)
      , (42104, 22, True);
+
+/* Weenie - MiscObjects - Blighted Mana Crystal (38222) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38222;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38222, 'ace38222-blightedmanacrystal');
@@ -639,6 +690,9 @@ VALUES (38222, 13, True)
      , (38222, 11, True)
      , (38222, 14, True)
      , (38222, 19, True);
+
+/* Weenie - MiscObjects - Writ of Refuge (11710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11710;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11710, 'housecurrency');
@@ -676,6 +730,9 @@ VALUES (11710, 13, True)
      , (11710, 11, True)
      , (11710, 14, True)
      , (11710, 19, True);
+
+/* Weenie - MiscObjects - Encapsulated Spirit (49485) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49485;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49485, 'ace49485-encapsulatedspirit');
@@ -723,6 +780,9 @@ VALUES (49485, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49485, 0, 16779181);
+
+/* Weenie - MiscObjects - Fire Wisp Essence (50) (49324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49324;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49324, 'ace49324-firewispessence50');
@@ -776,6 +836,9 @@ VALUES (49324, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49324, 0, 16777882);
 
+/* Weenie - MiscObjects - A Lump of Coal (22825) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22825;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22825, 'coal');
 
@@ -819,6 +882,9 @@ VALUES (22825, 0, 83888861, 83889680);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22825, 0, 16778862);
+
+/* Weenie - MiscObjects - Olthoi Stamp (20862) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20862;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20862, 'stampsymbol9');
@@ -865,6 +931,9 @@ VALUES (20862, 0, 83892954, 83893871)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20862, 0, 16785497);
 
+/* Weenie - MiscObjects - Bael'Zharon Stamp (20856) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20856;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20856, 'stampsymbol3');
 
@@ -909,6 +978,9 @@ VALUES (20856, 0, 83892954, 83893871)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20856, 0, 16785497);
+
+/* Weenie - MiscObjects - Splitting Tool (8283) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8283;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8283, 'toolsplitting');
@@ -959,6 +1031,9 @@ VALUES (8283, 0, 83886754, 83886754)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8283, 0, 16777906);
 
+/* Weenie - MiscObjects - Herald Stamp (20860) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20860;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20860, 'stampsymbol7');
 
@@ -1004,6 +1079,9 @@ VALUES (20860, 0, 83892954, 83893871)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20860, 0, 16785497);
 
+/* Weenie - MiscObjects - Quiddity Ingot (36943) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36943;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36943, 'ace36943-quiddityingot');
 
@@ -1046,6 +1124,9 @@ VALUES (36943, 0, 83889680, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36943, 0, 16782860);
+
+/* Weenie - MiscObjects - Acid Grievver Essence (125) (49369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49369;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49369, 'ace49369-acidgrievveressence125');
@@ -1099,6 +1180,9 @@ VALUES (49369, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49369, 0, 16777882);
 
+/* Weenie - MiscObjects - A Tiny Mnemosyne (9314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9314;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9314, 'pyramidgreentiny');
 
@@ -1131,6 +1215,9 @@ VALUES (9314, 13, True)
      , (9314, 14, True)
      , (9314, 19, True)
      , (9314, 22, True);
+
+/* Weenie - MiscObjects - Fletching Stamp (20859) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20859;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20859, 'stampsymbol6');
@@ -1177,6 +1264,9 @@ VALUES (20859, 0, 83892954, 83893871)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20859, 0, 16785497);
 
+/* Weenie - MiscObjects - Stipend (46423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46423;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46423, 'ace46423-stipend');
 
@@ -1208,6 +1298,9 @@ VALUES (46423, 13, True)
      , (46423, 11, True)
      , (46423, 14, True)
      , (46423, 19, True);
+
+/* Weenie - MiscObjects - Imbue Swap Coin (45494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45494;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45494, 'ace45494-imbueswapcoin');
@@ -1243,6 +1336,9 @@ VALUES (45494, 13, True)
      , (45494, 14, True)
      , (45494, 19, True);
 
+/* Weenie - MiscObjects - Quest Weapon Coin (45491) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45491;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45491, 'ace45491-questweaponcoin');
 
@@ -1276,6 +1372,9 @@ VALUES (45491, 13, True)
      , (45491, 11, True)
      , (45491, 14, True)
      , (45491, 19, True);
+
+/* Weenie - MiscObjects - Frost Zombie Essence (80) (49255) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49255;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49255, 'ace49255-frostzombieessence80');
@@ -1329,6 +1428,9 @@ VALUES (49255, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49255, 0, 16777882);
 
+/* Weenie - MiscObjects - Virindi Singularity Key (9292) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9292;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9292, 'keyfragmentsingularity');
 
@@ -1368,6 +1470,9 @@ VALUES (9292, 67113156, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9292, 9, 16785620);
+
+/* Weenie - MiscObjects - Lightning Grievver Essence (125) (49376) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49376;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49376, 'ace49376-lightninggrievveressence125');
@@ -1421,6 +1526,9 @@ VALUES (49376, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49376, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Grievver Essence (180) (49385) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49385;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49385, 'ace49385-firegrievveressence180');
 
@@ -1472,6 +1580,9 @@ VALUES (49385, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49385, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Phyntos Wasp Essence (50) (49538) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49538;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49538, 'ace49538-frostphyntoswaspessence50');
@@ -1525,6 +1636,9 @@ VALUES (49538, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49538, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Grievver Essence (50) (49387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49387;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49387, 'ace49387-frostgrievveressence50');
 
@@ -1576,6 +1690,9 @@ VALUES (49387, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49387, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Grievver Essence (50) (49380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49380;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49380, 'ace49380-firegrievveressence50');
@@ -1629,6 +1746,9 @@ VALUES (49380, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49380, 0, 16777882);
 
+/* Weenie - MiscObjects - Diamond Powder (12689) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12689;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12689, 'powderdiamond');
 
@@ -1667,6 +1787,9 @@ VALUES (12689, 0, 83890064, 83892492);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12689, 0, 16777882);
+
+/* Weenie - MiscObjects - Hoary Mattekar Hide (5892) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5892;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5892, 'mattekarhoaryhide');
@@ -1713,6 +1836,9 @@ VALUES (5892, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5892, 0, 16777882);
 
+/* Weenie - MiscObjects - Red Monster Seed (31688) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31688;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31688, 'ace31688-redmonsterseed');
 
@@ -1749,6 +1875,9 @@ VALUES (31688, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31688, 67116676, 0, 0);
+
+/* Weenie - MiscObjects - Pyreal Sliver (6355) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6355;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6355, 'pyrealsliver');
@@ -1798,6 +1927,9 @@ VALUES (6355, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6355, 0, 16784015);
 
+/* Weenie - MiscObjects - Glowing Box (42105) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42105;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42105, 'ace42105-glowingbox');
 
@@ -1831,6 +1963,9 @@ VALUES (42105, 13, True)
      , (42105, 14, True)
      , (42105, 19, True)
      , (42105, 22, True);
+
+/* Weenie - MiscObjects - Chunk of Medium-Grade Chorizite (7529) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7529;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7529, 'chorizitechunkb');
@@ -1871,6 +2006,9 @@ VALUES (7529, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7529, 0, 16777882);
+
+/* Weenie - MiscObjects - Diamond Heart (7338) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7338;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7338, 'golemheartdiamond');
@@ -1916,6 +2054,9 @@ VALUES (7338, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7338, 0, 16777882);
 
+/* Weenie - MiscObjects - Black Boulder (7399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7399;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7399, 'blackboulder');
 
@@ -1960,6 +2101,9 @@ VALUES (7399, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7399, 0, 16778862);
 
+/* Weenie - MiscObjects - Dire Champion Token (36867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36867;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36867, 'ace36867-direchampiontoken');
 
@@ -1990,6 +2134,9 @@ VALUES (36867, 13, True)
      , (36867, 11, True)
      , (36867, 14, True)
      , (36867, 19, True);
+
+/* Weenie - MiscObjects - Black Rock (3686) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3686;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3686, 'rockblack');
@@ -2034,6 +2181,9 @@ VALUES (3686, 0, 83888861, 83889680);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3686, 0, 16778862);
+
+/* Weenie - MiscObjects - Pyreal Nugget (6354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6354;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6354, 'pyrealnugget');
@@ -2082,6 +2232,9 @@ VALUES (6354, 0, 83888861, 83889680);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6354, 0, 16778862);
+
+/* Weenie - MiscObjects - Acid Phyntos Wasp Essence (80) (49525) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49525;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49525, 'ace49525-acidphyntoswaspessence80');
@@ -2135,6 +2288,9 @@ VALUES (49525, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49525, 0, 16777882);
 
+/* Weenie - MiscObjects - Broken Black Marrow Key (30823) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30823;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30823, 'keyblackmarrowbroken');
 
@@ -2167,6 +2323,9 @@ VALUES (30823, 13, True)
      , (30823, 14, True)
      , (30823, 19, True)
      , (30823, 22, True);
+
+/* Weenie - MiscObjects - Frost Grievver Essence (125) (49390) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49390;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49390, 'ace49390-frostgrievveressence125');
@@ -2220,6 +2379,9 @@ VALUES (49390, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49390, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Grievver Essence (150) (49370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49370;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49370, 'ace49370-acidgrievveressence150');
 
@@ -2271,6 +2433,9 @@ VALUES (49370, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49370, 0, 16777882);
+
+/* Weenie - MiscObjects - Volcanic Moar Essence (49358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49358;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49358, 'ace49358-volcanicmoaressence');
@@ -2324,6 +2489,9 @@ VALUES (49358, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49358, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Moar Essence (125) (49362) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49362;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49362, 'ace49362-frostmoaressence125');
 
@@ -2375,6 +2543,9 @@ VALUES (49362, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49362, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Grievver Essence (80) (49381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49381;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49381, 'ace49381-firegrievveressence80');
@@ -2428,6 +2599,9 @@ VALUES (49381, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49381, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Grievver Essence (100) (49375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49375;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49375, 'ace49375-lightninggrievveressence100');
 
@@ -2480,6 +2654,9 @@ VALUES (49375, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49375, 0, 16777882);
 
+/* Weenie - MiscObjects - Ulgrim's Contest Mug (34275) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34275;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34275, 'ace34275-ulgrimscontestmug');
 
@@ -2511,6 +2688,9 @@ VALUES (34275, 13, True)
      , (34275, 14, True)
      , (34275, 19, True)
      , (34275, 22, True);
+
+/* Weenie - MiscObjects - Obsidian Heart (9324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9324;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9324, 'golemheartobsidian');
@@ -2556,6 +2736,9 @@ VALUES (9324, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9324, 0, 16777882);
 
+/* Weenie - MiscObjects - Bonfire (4179) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4179;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4179, 'bonfire');
 
@@ -2587,6 +2770,9 @@ VALUES (4179, 13, True)
      , (4179, 1, True)
      , (4179, 24, True);
 
+/* Weenie - MiscObjects - Bones (4379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4379;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4379, 'bonepile');
 
@@ -2614,6 +2800,9 @@ VALUES (4379, 13, True)
      , (4379, 19, True)
      , (4379, 1, True)
      , (4379, 24, True);
+
+/* Weenie - MiscObjects - Explorer Light Weapons Gem (45981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45981;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45981, 'ace45981-explorerlightweaponsgem');
@@ -2651,6 +2840,9 @@ VALUES (45981, 13, True)
      , (45981, 19, True)
      , (45981, 22, True);
 
+/* Weenie - MiscObjects - Explorer Finesse Weapons Gem (45983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45983;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45983, 'ace45983-explorerfinesseweaponsgem');
 
@@ -2686,6 +2878,9 @@ VALUES (45983, 13, True)
      , (45983, 14, True)
      , (45983, 19, True)
      , (45983, 22, True);
+
+/* Weenie - MiscObjects - Explorer Heavy Weapons Gem (45990) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45990;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45990, 'ace45990-explorerheavyweaponsgem');
@@ -2723,6 +2918,9 @@ VALUES (45990, 13, True)
      , (45990, 19, True)
      , (45990, 22, True);
 
+/* Weenie - MiscObjects - Bones (4380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4380;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4380, 'bonepilelarge');
 
@@ -2750,6 +2948,9 @@ VALUES (4380, 13, True)
      , (4380, 19, True)
      , (4380, 1, True)
      , (4380, 24, True);
+
+/* Weenie - MiscObjects - Yellow Monster Seed (31686) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31686;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31686, 'ace31686-yellowmonsterseed');
@@ -2788,6 +2989,9 @@ VALUES (31686, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31686, 67116677, 0, 0);
 
+/* Weenie - MiscObjects - Skill Puzzle Base Piece (9594) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9594;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9594, 'skillpuzzlebase');
 
@@ -2825,6 +3029,9 @@ VALUES (9594, 13, True)
      , (9594, 19, True)
      , (9594, 22, True);
 
+/* Weenie - MiscObjects - Tulip (42540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42540;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42540, 'ace42540-tulip');
 
@@ -2852,6 +3059,9 @@ VALUES (42540, 13, True)
      , (42540, 11, True)
      , (42540, 19, True)
      , (42540, 1, True);
+
+/* Weenie - MiscObjects - Tulip (42531) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42531;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42531, 'ace42531-tulip');
@@ -2897,6 +3107,9 @@ VALUES (42531, 1, 16794585)
      , (42531, 5, 16794585)
      , (42531, 6, 16794585);
 
+/* Weenie - MiscObjects - Tulip (42530) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42530;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42530, 'ace42530-tulip');
 
@@ -2941,6 +3154,9 @@ VALUES (42530, 1, 16794585)
      , (42530, 5, 16794585)
      , (42530, 6, 16794585);
 
+/* Weenie - MiscObjects - Tulip (42541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42541;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42541, 'ace42541-tulip');
 
@@ -2984,6 +3200,9 @@ VALUES (42541, 1, 16794585)
      , (42541, 4, 16794585)
      , (42541, 5, 16794585)
      , (42541, 6, 16794585);
+
+/* Weenie - MiscObjects - Fire Elemental Essence (50) (48959) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48959;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48959, 'ace48959-fireelementalessence50');
@@ -3037,6 +3256,9 @@ VALUES (48959, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48959, 0, 16777882);
 
+/* Weenie - MiscObjects - Fish Stamp (20858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20858;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20858, 'stampsymbol5');
 
@@ -3081,6 +3303,9 @@ VALUES (20858, 0, 83892954, 83893871)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20858, 0, 16785497);
+
+/* Weenie - MiscObjects - Lightning Phyntos Wasp Essence (50) (49545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49545;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49545, 'ace49545-lightningphyntoswaspessence50');
@@ -3134,6 +3359,9 @@ VALUES (49545, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49545, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Spectre Essence (50) (49435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49435, 'ace49435-firespectreessence50');
 
@@ -3186,6 +3414,9 @@ VALUES (49435, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49435, 0, 16777882);
 
+/* Weenie - MiscObjects - Morgluuk's Head (28450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28450;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28450, 'headmorgluukpike');
 
@@ -3223,6 +3454,9 @@ VALUES (28450, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28450, 67114922, 0, 0);
 
+/* Weenie - MiscObjects - Sack (32754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32754;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32754, 'ace32754-sack');
 
@@ -3259,6 +3493,9 @@ VALUES (32754, 13, True)
      , (32754, 14, True)
      , (32754, 19, True)
      , (32754, 22, True);
+
+/* Weenie - MiscObjects - Iron Heart (3672) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3672;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3672, 'golemheartiron');
@@ -3304,6 +3541,9 @@ VALUES (3672, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3672, 0, 16777882);
 
+/* Weenie - MiscObjects - Sclavus Hide (9258) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9258;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9258, 'sclavushide');
 
@@ -3346,6 +3586,9 @@ VALUES (9258, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9258, 0, 16777882);
+
+/* Weenie - MiscObjects - Acid Zombie Essence (100) (49235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49235;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49235, 'ace49235-acidzombieessence100');
@@ -3399,6 +3642,9 @@ VALUES (49235, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49235, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Skeleton Minion Essence (50) (49227) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49227;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49227, 'ace49227-frostskeletonminionessence50');
 
@@ -3450,6 +3696,9 @@ VALUES (49227, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49227, 0, 16777882);
+
+/* Weenie - MiscObjects - Acid Elemental Essence (50) (49261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49261;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49261, 'ace49261-acidelementalessence50');
@@ -3503,6 +3752,9 @@ VALUES (49261, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49261, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Shreth Hide (14587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14587;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14587, 'aurochhidefire');
 
@@ -3543,6 +3795,9 @@ VALUES (14587, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14587, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Moar Essence (50) (49359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49359;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49359, 'ace49359-frostmoaressence50');
@@ -3596,6 +3851,9 @@ VALUES (49359, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49359, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Skeleton Minion Essence (50) (48942) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48942;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48942, 'ace48942-fireskeletonminionessence50');
 
@@ -3648,6 +3906,9 @@ VALUES (48942, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48942, 0, 16777882);
 
+/* Weenie - MiscObjects - Ursuin Scalp (8665) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8665;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8665, 'ursuinscalp');
 
@@ -3691,6 +3952,9 @@ VALUES (8665, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8665, 0, 16777882);
+
+/* Weenie - MiscObjects - Acid Skeleton Minion Essence (80) (49214) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49214;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49214, 'ace49214-acidskeletonminionessence80');
@@ -3744,6 +4008,9 @@ VALUES (49214, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49214, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Moar Essence (80) (49360) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49360;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49360, 'ace49360-frostmoaressence80');
 
@@ -3796,6 +4063,9 @@ VALUES (49360, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49360, 0, 16777882);
 
+/* Weenie - MiscObjects - White Phyntos Wasp Wing (7603) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7603;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7603, 'waspwingwhite');
 
@@ -3834,6 +4104,9 @@ VALUES (7603, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (7603, 67112898, 0, 0);
+
+/* Weenie - MiscObjects - Glyph of Health (37305) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37305;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37305, 'ace37305-glyphofhealth');
@@ -3879,6 +4152,9 @@ VALUES (37305, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37305, 0, 16779181);
 
+/* Weenie - MiscObjects - Pathwarden Token (33613) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33613;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33613, 'ace33613-pathwardentoken');
 
@@ -3919,6 +4195,9 @@ VALUES (33613, 0, 83893248, 83893252)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33613, 0, 16785707);
+
+/* Weenie - MiscObjects - Oil of Rendering (12711) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12711;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12711, 'oilacademy');
@@ -3967,6 +4246,9 @@ VALUES (12711, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12711, 0, 16783327);
 
+/* Weenie - MiscObjects - Ornate Fountain (11932) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11932;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11932, 'decorationfishfountain-xp');
 
@@ -3995,6 +4277,9 @@ VALUES (11932, 13, True)
      , (11932, 14, True)
      , (11932, 19, True)
      , (11932, 22, True);
+
+/* Weenie - MiscObjects - Into the Unknown (249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 249;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (249, 'painting3');
@@ -4028,6 +4313,9 @@ VALUES (249, 13, True)
      , (249, 19, True)
      , (249, 22, True);
 
+/* Weenie - MiscObjects - Dereth Map (11931) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11931;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11931, 'decorationderethmap-xp');
 
@@ -4057,6 +4345,9 @@ VALUES (11931, 13, True)
      , (11931, 14, True)
      , (11931, 19, True)
      , (11931, 22, True);
+
+/* Weenie - MiscObjects - Snowflower (22837) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22837;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22837, 'snowflower');
@@ -4089,6 +4380,9 @@ VALUES (22837, 13, True)
      , (22837, 14, True)
      , (22837, 19, True)
      , (22837, 22, True);
+
+/* Weenie - MiscObjects - Fireworks (30735) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30735;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30735, 'newyearsgiftfireworks');
@@ -4123,6 +4417,9 @@ VALUES (30735, 13, True)
      , (30735, 19, True)
      , (30735, 22, True);
 
+/* Weenie - MiscObjects - Thorsten's Armor (11936) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11936;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11936, 'decorationthorstenarmor-xp');
 
@@ -4152,6 +4449,9 @@ VALUES (11936, 13, True)
      , (11936, 14, True)
      , (11936, 19, True)
      , (11936, 22, True);
+
+/* Weenie - MiscObjects - Ball of Gunk (23307) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23307;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23307, 'ballofgunk');
@@ -4185,6 +4485,9 @@ VALUES (23307, 13, True)
      , (23307, 14, True)
      , (23307, 19, True)
      , (23307, 22, True);
+
+/* Weenie - MiscObjects - Fire Spectre Essence (80) (49436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49436;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49436, 'ace49436-firespectreessence80');
@@ -4238,6 +4541,9 @@ VALUES (49436, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49436, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Zombie Essence (50) (48972) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48972;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48972, 'ace48972-acidzombieessence50');
 
@@ -4290,6 +4596,9 @@ VALUES (48972, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48972, 0, 16777882);
 
+/* Weenie - MiscObjects - Copper Heart (3670) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3670;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3670, 'golemheartcopper');
 
@@ -4333,6 +4642,9 @@ VALUES (3670, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3670, 0, 16777882);
+
+/* Weenie - MiscObjects - Lightning Moar Essence (50) (49345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49345;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49345, 'ace49345-lightningmoaressence50');
@@ -4386,6 +4698,9 @@ VALUES (49345, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49345, 0, 16777882);
 
+/* Weenie - MiscObjects - Geyser (7800) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7800;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7800, 'geyser-gravity');
 
@@ -4416,6 +4731,9 @@ VALUES (7800, 13, True)
      , (7800, 1, True)
      , (7800, 24, True);
 
+/* Weenie - MiscObjects - 11-sec Firespurt (7473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7473;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7473, 'firespurt11');
 
@@ -4444,6 +4762,9 @@ VALUES (7473, 13, True)
      , (7473, 19, True)
      , (7473, 1, True)
      , (7473, 24, True);
+
+/* Weenie - MiscObjects - Yellow Side Steam (7470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7470;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7470, 'sidestreamyellowmedium');
@@ -4475,6 +4796,9 @@ VALUES (7470, 13, True)
      , (7470, 1, True)
      , (7470, 24, True);
 
+/* Weenie - MiscObjects - Large Yellow Side Steam (7471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7471;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7471, 'sidestreamyellowlarge');
 
@@ -4504,6 +4828,9 @@ VALUES (7471, 13, True)
      , (7471, 19, True)
      , (7471, 1, True)
      , (7471, 24, True);
+
+/* Weenie - MiscObjects - Lightning Skeleton Minion Essence (50) (49220) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49220;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49220, 'ace49220-lightningskeletonminionessence50');
@@ -4557,6 +4884,9 @@ VALUES (49220, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49220, 0, 16777882);
 
+/* Weenie - MiscObjects - Pyreal Forge Bellows (7411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7411;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7411, 'tenkarrdunbellows');
 
@@ -4591,6 +4921,9 @@ VALUES (7411, 13, True)
      , (7411, 19, True)
      , (7411, 22, True);
 
+/* Weenie - MiscObjects - Alloy Fan (25329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25329, 'undeadmechanism15');
 
@@ -4619,6 +4952,9 @@ VALUES (25329, 13, True)
      , (25329, 14, True)
      , (25329, 19, True)
      , (25329, 22, True);
+
+/* Weenie - MiscObjects - Coalesced Mana (42518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42518;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42518, 'ace42518-coalescedmana');
@@ -4671,6 +5007,9 @@ VALUES (42518, 0, 16784246)
      , (42518, 1, 16784196)
      , (42518, 2, 16784180);
 
+/* Weenie - MiscObjects - Pyreal Mote (6353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6353;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6353, 'pyrealmote');
 
@@ -4719,6 +5058,9 @@ VALUES (6353, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6353, 0, 16784015);
 
+/* Weenie - MiscObjects - Virindi Stamp (20863) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20863;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20863, 'stampsymbol10');
 
@@ -4764,6 +5106,9 @@ VALUES (20863, 0, 83892954, 83893871)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20863, 0, 16785497);
 
+/* Weenie - MiscObjects - Moons Stamp (20861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20861;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20861, 'stampsymbol8');
 
@@ -4808,6 +5153,9 @@ VALUES (20861, 0, 83892954, 83893871)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20861, 0, 16785497);
+
+/* Weenie - MiscObjects - Lightning Phyntos Wasp Essence (180) (49550) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49550;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49550, 'ace49550-lightningphyntoswaspessence180');
@@ -4861,6 +5209,9 @@ VALUES (49550, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49550, 0, 16777882);
 
+/* Weenie - MiscObjects - Caustic Grievver Essence (49372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49372;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49372, 'ace49372-causticgrievveressence');
 
@@ -4912,6 +5263,9 @@ VALUES (49372, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49372, 0, 16777882);
+
+/* Weenie - MiscObjects - Blistering Moar Essence (49344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49344;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49344, 'ace49344-blisteringmoaressence');
@@ -4965,6 +5319,9 @@ VALUES (49344, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49344, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Phyntos Swarm Essence (49530) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49530;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49530, 'ace49530-acidphyntosswarmessence');
 
@@ -5016,6 +5373,9 @@ VALUES (49530, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49530, 0, 16777882);
+
+/* Weenie - MiscObjects - Acid Child Essence (180) (49266) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49266;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49266, 'ace49266-acidchildessence180');
@@ -5069,6 +5429,9 @@ VALUES (49266, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49266, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Skeleton Samurai Essence (49212) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49212;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49212, 'ace49212-frostskeletonsamuraiessence');
 
@@ -5120,6 +5483,9 @@ VALUES (49212, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49212, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Spectre Essence (180) (49447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49447;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49447, 'ace49447-frostspectreessence180');
@@ -5173,6 +5539,9 @@ VALUES (49447, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49447, 0, 16777882);
 
+/* Weenie - MiscObjects - Jungle Orchid (35779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35779;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35779, 'ace35779-jungleorchid');
 
@@ -5207,6 +5576,9 @@ VALUES (35779, 13, True)
      , (35779, 19, True)
      , (35779, 1, True);
 
+/* Weenie - MiscObjects - Tome of Blood and Bone (31668) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31668;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31668, 'ace31668-tomeofbloodandbone');
 
@@ -5240,6 +5612,9 @@ VALUES (31668, 13, True)
      , (31668, 19, True)
      , (31668, 22, True);
 
+/* Weenie - MiscObjects - Snow Lily (31032) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31032;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31032, 'trapsnowlily');
 
@@ -5272,6 +5647,9 @@ VALUES (31032, 12, True)
      , (31032, 14, True)
      , (31032, 19, True)
      , (31032, 1, True);
+
+/* Weenie - MiscObjects - Acid Moar Essence (100) (49340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49340;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49340, 'ace49340-acidmoaressence100');
@@ -5325,6 +5703,9 @@ VALUES (49340, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49340, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Zombie Essence (100) (49249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49249;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49249, 'ace49249-firezombieessence100');
 
@@ -5377,6 +5758,9 @@ VALUES (49249, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49249, 0, 16777882);
 
+/* Weenie - MiscObjects - Bloodroot Vine (46284) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46284;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46284, 'ace46284-bloodrootvine');
 
@@ -5411,6 +5795,9 @@ VALUES (46284, 13, True)
      , (46284, 14, True)
      , (46284, 19, True);
 
+/* Weenie - MiscObjects - Holiday Chimney (52582) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52582;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52582, 'ace52582-holidaychimney');
 
@@ -5441,6 +5828,9 @@ VALUES (52582, 13, True)
      , (52582, 14, True)
      , (52582, 19, True)
      , (52582, 22, True);
+
+/* Weenie - MiscObjects - Colosseum Ticket (34449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34449;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34449, 'ace34449-colosseumticket');
@@ -5477,6 +5867,9 @@ VALUES (34449, 13, True)
      , (34449, 14, True)
      , (34449, 19, True);
 
+/* Weenie - MiscObjects - Promissory Note (43901) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43901;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43901, 'ace43901-promissorynote');
 
@@ -5508,6 +5901,9 @@ VALUES (43901, 13, True)
      , (43901, 11, True)
      , (43901, 14, True)
      , (43901, 19, True);
+
+/* Weenie - MiscObjects - Refined Medium-Grade Chorizite (7596) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7596;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7596, 'choriziterefinedb');
@@ -5549,6 +5945,9 @@ VALUES (7596, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7596, 0, 16777882);
 
+/* Weenie - MiscObjects - Marked Candy Wrapper (34378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34378;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34378, 'ace34378-markedcandywrapper');
 
@@ -5578,6 +5977,9 @@ VALUES (34378, 13, True)
      , (34378, 14, True)
      , (34378, 19, True)
      , (34378, 22, True);
+
+/* Weenie - MiscObjects - Acid Grievver Essence (100) (49368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49368;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49368, 'ace49368-acidgrievveressence100');
@@ -5631,6 +6033,9 @@ VALUES (49368, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49368, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Moar Essence (50) (49338) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49338;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49338, 'ace49338-acidmoaressence50');
 
@@ -5683,6 +6088,9 @@ VALUES (49338, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49338, 0, 16777882);
 
+/* Weenie - MiscObjects - Water Golem Heart (11354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11354;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11354, 'golemheartwater-xp');
 
@@ -5727,6 +6135,9 @@ VALUES (11354, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11354, 0, 16777882);
 
+/* Weenie - MiscObjects - Cooking Gear (9024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9024;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9024, 'cookingpitshareddecorative');
 
@@ -5757,6 +6168,9 @@ VALUES (9024, 13, True)
      , (9024, 19, True)
      , (9024, 1, True)
      , (9024, 24, True);
+
+/* Weenie - MiscObjects - Acid Phyntos Wasp Essence (50) (49524) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49524;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49524, 'ace49524-acidphyntoswaspessence50');
@@ -5810,6 +6224,9 @@ VALUES (49524, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49524, 0, 16777882);
 
+/* Weenie - MiscObjects - Strathelar Pennant (32669) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32669;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32669, 'ace32669-strathelarpennant');
 
@@ -5842,6 +6259,9 @@ VALUES (32669, 13, True)
      , (32669, 19, True)
      , (32669, 22, True);
 
+/* Weenie - MiscObjects - Second Half of a Battered Axe (31451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31451;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31451, 'ace31451-secondhalfofabatteredaxe');
 
@@ -5871,6 +6291,9 @@ VALUES (31451, 13, True)
      , (31451, 14, True)
      , (31451, 19, True)
      , (31451, 22, True);
+
+/* Weenie - MiscObjects - First Half of a Worn Sword (31466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31466;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31466, 'ace31466-firsthalfofawornsword');
@@ -5905,6 +6328,9 @@ VALUES (31466, 13, True)
      , (31466, 19, True)
      , (31466, 22, True);
 
+/* Weenie - MiscObjects - Old Gravestone (34132) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34132;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34132, 'ace34132-oldgravestone');
 
@@ -5933,6 +6359,9 @@ VALUES (34132, 11, True)
      , (34132, 14, True)
      , (34132, 19, True)
      , (34132, 1, True);
+
+/* Weenie - MiscObjects - Skeleton's Skull (3687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3687;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3687, 'skull');
@@ -5965,6 +6394,9 @@ VALUES (3687, 13, True)
      , (3687, 14, True)
      , (3687, 19, True)
      , (3687, 22, True);
+
+/* Weenie - MiscObjects - Fire Phyntos Wasp Essence (50) (49531) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49531;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49531, 'ace49531-firephyntoswaspessence50');
@@ -6018,6 +6450,9 @@ VALUES (49531, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49531, 0, 16777882);
 
+/* Weenie - MiscObjects - Idol (8588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8588;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8588, 'idolfake');
 
@@ -6047,6 +6482,9 @@ VALUES (8588, 11, True)
      , (8588, 19, True)
      , (8588, 1, True)
      , (8588, 24, True);
+
+/* Weenie - MiscObjects - A Large Mnemosyne (9310) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9310;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9310, 'pyramidgreenlarge');
@@ -6080,6 +6518,9 @@ VALUES (9310, 13, True)
      , (9310, 14, True)
      , (9310, 19, True)
      , (9310, 22, True);
+
+/* Weenie - MiscObjects - Acid Spectre Essence (50) (49421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49421;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49421, 'ace49421-acidspectreessence50');
@@ -6133,6 +6574,9 @@ VALUES (49421, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49421, 0, 16777882);
 
+/* Weenie - MiscObjects - Glyph of Missile Defense (37324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37324;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37324, 'ace37324-glyphofmissiledefense');
 
@@ -6176,6 +6620,9 @@ VALUES (37324, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37324, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Run (37329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37329;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37329, 'ace37329-glyphofrun');
@@ -6221,6 +6668,9 @@ VALUES (37329, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37329, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Summoning (49455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49455;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49455, 'ace49455-glyphofsummoning');
 
@@ -6265,6 +6715,9 @@ VALUES (49455, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49455, 0, 16779181);
 
+/* Weenie - MiscObjects - Fabled Tusker Paw (22455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22455;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22455, 'tuskerpaw1');
 
@@ -6293,6 +6746,9 @@ VALUES (22455, 13, True)
      , (22455, 14, True)
      , (22455, 19, True)
      , (22455, 22, True);
+
+/* Weenie - MiscObjects - Fire Zombie Essence (50) (49247) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49247;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49247, 'ace49247-firezombieessence50');
@@ -6346,6 +6802,9 @@ VALUES (49247, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49247, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Skeleton Minion Essence (50) (49213) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49213;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49213, 'ace49213-acidskeletonminionessence50');
 
@@ -6397,6 +6856,9 @@ VALUES (49213, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49213, 0, 16777882);
+
+/* Weenie - MiscObjects - Lightning K'nath Essence (50) (49289) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49289;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49289, 'ace49289-lightningknathessence50');
@@ -6450,6 +6912,9 @@ VALUES (49289, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49289, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Wisp Essence (50) (49317) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49317;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49317, 'ace49317-lightningwispessence50');
 
@@ -6502,6 +6967,9 @@ VALUES (49317, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49317, 0, 16777882);
 
+/* Weenie - MiscObjects - Rock (42528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42528;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42528, 'ace42528-rock');
 
@@ -6533,6 +7001,9 @@ VALUES (42528, 13, True)
      , (42528, 14, True)
      , (42528, 19, True)
      , (42528, 22, True);
+
+/* Weenie - MiscObjects - Dansha-Ki's Belongings (6879) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6879;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6879, 'backpackdryreachprisoner');
@@ -6580,6 +7051,9 @@ VALUES (6879, 0, 83886723, 83886723)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6879, 0, 16778611);
 
+/* Weenie - MiscObjects - Old Gravestone (34131) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34131;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34131, 'ace34131-oldgravestone');
 
@@ -6608,6 +7082,9 @@ VALUES (34131, 11, True)
      , (34131, 14, True)
      , (34131, 19, True)
      , (34131, 1, True);
+
+/* Weenie - MiscObjects - Ancient Diamond Idol (27807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27807;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27807, 'dolldiamondidol');
@@ -6680,6 +7157,9 @@ VALUES (27807, 0, 16784246)
      , (27807, 8, 16784204)
      , (27807, 9, 16784196);
 
+/* Weenie - MiscObjects - Paradox-touched Olthoi Egg (35814) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35814;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35814, 'ace35814-paradoxtouchedolthoiegg');
 
@@ -6709,6 +7189,9 @@ VALUES (35814, 13, True)
      , (35814, 14, True)
      , (35814, 19, True)
      , (35814, 22, True);
+
+/* Weenie - MiscObjects - Fire K'nath Essence (80) (49297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49297;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49297, 'ace49297-fireknathessence80');
@@ -6762,6 +7245,9 @@ VALUES (49297, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49297, 0, 16777882);
 
+/* Weenie - MiscObjects - Large Side Steam (7477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7477;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7477, 'sidestreamlarge');
 
@@ -6791,6 +7277,9 @@ VALUES (7477, 13, True)
      , (7477, 19, True)
      , (7477, 1, True)
      , (7477, 24, True);
+
+/* Weenie - MiscObjects - Medium Side Steam (7476) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7476;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7476, 'sidestreammedium');
@@ -6822,6 +7311,9 @@ VALUES (7476, 13, True)
      , (7476, 1, True)
      , (7476, 24, True);
 
+/* Weenie - MiscObjects - Small Side Steam (7475) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7475;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7475, 'sidestreamsmall');
 
@@ -6851,6 +7343,9 @@ VALUES (7475, 13, True)
      , (7475, 19, True)
      , (7475, 1, True)
      , (7475, 24, True);
+
+/* Weenie - MiscObjects - Orange Monster Seed (31687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31687;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31687, 'ace31687-orangemonsterseed');
@@ -6889,6 +7384,9 @@ VALUES (31687, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31687, 67116675, 0, 0);
 
+/* Weenie - MiscObjects - Vat (4383) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4383;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4383, 'lugianvat');
 
@@ -6915,6 +7413,9 @@ VALUES (4383, 11, True)
      , (4383, 19, True)
      , (4383, 1, True)
      , (4383, 24, True);
+
+/* Weenie - MiscObjects - Sunflower (15715) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15715;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15715, 'sunflower');
@@ -6948,6 +7449,9 @@ VALUES (15715, 13, True)
      , (15715, 19, True)
      , (15715, 22, True);
 
+/* Weenie - MiscObjects - Old Gravestone (34104) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34104;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34104, 'ace34104-oldgravestone');
 
@@ -6976,6 +7480,9 @@ VALUES (34104, 11, True)
      , (34104, 14, True)
      , (34104, 19, True)
      , (34104, 1, True);
+
+/* Weenie - MiscObjects - Red Rat Tail (3684) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3684;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3684, 'rattailred');
@@ -7024,6 +7531,9 @@ VALUES (3684, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3684, 0, 16777882);
 
+/* Weenie - MiscObjects - Story of Ries Woron (41929) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41929;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41929, 'ace41929-storyofriesworon');
 
@@ -7056,6 +7566,9 @@ VALUES (41929, 13, True)
      , (41929, 14, True)
      , (41929, 19, True)
      , (41929, 22, True);
+
+/* Weenie - MiscObjects - Well Bucket (8971) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8971;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8971, 'bucketadja');
@@ -7092,6 +7605,9 @@ VALUES (8971, 13, True)
      , (8971, 14, True)
      , (8971, 19, True)
      , (8971, 22, True);
+
+/* Weenie - MiscObjects - Acid Elemental Essence (80) (49262) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49262;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49262, 'ace49262-acidelementalessence80');
@@ -7145,6 +7661,9 @@ VALUES (49262, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49262, 0, 16777882);
 
+/* Weenie - MiscObjects - Aluvian Leg (28732) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28732;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28732, 'eateraluvianleg');
 
@@ -7175,6 +7694,9 @@ VALUES (28732, 13, True)
      , (28732, 19, True)
      , (28732, 22, True);
 
+/* Weenie - MiscObjects - Abhorrent Eater Jaw (28727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28727;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28727, 'jawabhorrent');
 
@@ -7204,6 +7726,9 @@ VALUES (28727, 13, True)
      , (28727, 14, True)
      , (28727, 19, True)
      , (28727, 22, True);
+
+/* Weenie - MiscObjects - Half Empty Cider (24142) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24142;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24142, 'cidercoveoswald');
@@ -7239,6 +7764,9 @@ VALUES (24142, 13, True)
      , (24142, 19, True)
      , (24142, 22, True);
 
+/* Weenie - MiscObjects - Sweet Smelling Bark (24141) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24141;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24141, 'barkoswald');
 
@@ -7272,6 +7800,9 @@ VALUES (24141, 13, True)
      , (24141, 14, True)
      , (24141, 19, True)
      , (24141, 22, True);
+
+/* Weenie - MiscObjects - Strands of Silk (24144) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24144;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24144, 'silkoswald');
@@ -7317,6 +7848,9 @@ VALUES (24144, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24144, 0, 16777882);
 
+/* Weenie - MiscObjects - Empty Mug (24143) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24143;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24143, 'mugoswald');
 
@@ -7350,6 +7884,9 @@ VALUES (24143, 13, True)
      , (24143, 14, True)
      , (24143, 19, True)
      , (24143, 22, True);
+
+/* Weenie - MiscObjects - Foci of Strife (15271) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15271;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15271, 'packwaressence');
@@ -7399,6 +7936,9 @@ VALUES (15271, 0, 83886723, 83886723)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15271, 0, 16778611);
 
+/* Weenie - MiscObjects - Foci of Verdancy (15270) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15270;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15270, 'packlifeessence');
 
@@ -7447,6 +7987,9 @@ VALUES (15270, 0, 83886723, 83886723)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15270, 0, 16778611);
 
+/* Weenie - MiscObjects - Academy Exit Token (29335) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29335;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29335, 'tokentrainingexit');
 
@@ -7476,6 +8019,9 @@ VALUES (29335, 13, True)
      , (29335, 14, True)
      , (29335, 19, True)
      , (29335, 22, True);
+
+/* Weenie - MiscObjects - Carpenter Wasp Wing (13089) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13089;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13089, 'waspwingcarpenternewbieacademy');
@@ -7514,6 +8060,9 @@ VALUES (13089, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (13089, 67113741, 0, 0);
 
+/* Weenie - MiscObjects - Protection Orb (29336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29336;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29336, 'orbolthoitraining');
 
@@ -7543,6 +8092,9 @@ VALUES (29336, 13, True)
      , (29336, 14, True)
      , (29336, 19, True)
      , (29336, 22, True);
+
+/* Weenie - MiscObjects - Ravener Guts (7040) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7040;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7040, 'drudgegutsravener');
@@ -7587,6 +8139,9 @@ VALUES (7040, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7040, 0, 16777882);
 
+/* Weenie - MiscObjects - Thin Gromnie Hide (4235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4235;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4235, 'gromniehidethin');
 
@@ -7626,6 +8181,9 @@ VALUES (4235, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4235, 0, 16777882);
+
+/* Weenie - MiscObjects - Lightning Spectre Essence (50) (49428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49428;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49428, 'ace49428-lightningspectreessence50');
@@ -7679,6 +8237,9 @@ VALUES (49428, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49428, 0, 16777882);
 
+/* Weenie - MiscObjects - Snowman (9009) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9009;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9009, 'snowmanunhappyfake');
 
@@ -7704,6 +8265,9 @@ VALUES (9009, 11, True)
      , (9009, 14, True)
      , (9009, 19, True)
      , (9009, 1, True);
+
+/* Weenie - MiscObjects - Acid Grievver Essence (50) (49366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49366;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49366, 'ace49366-acidgrievveressence50');
@@ -7757,6 +8321,9 @@ VALUES (49366, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49366, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Zombie Essence (100) (49256) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49256;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49256, 'ace49256-frostzombieessence100');
 
@@ -7808,6 +8375,9 @@ VALUES (49256, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49256, 0, 16777882);
+
+/* Weenie - MiscObjects - Acid Wisp Essence (80) (49311) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49311;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49311, 'ace49311-acidwispessence80');
@@ -7861,6 +8431,9 @@ VALUES (49311, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49311, 0, 16777882);
 
+/* Weenie - MiscObjects - Murk Drudge Charm (24838) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24838;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24838, 'drudgecharmmurk');
 
@@ -7894,6 +8467,9 @@ VALUES (24838, 13, True)
      , (24838, 14, True)
      , (24838, 19, True)
      , (24838, 22, True);
+
+/* Weenie - MiscObjects - Acid K'nath Essence (125) (49285) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49285;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49285, 'ace49285-acidknathessence125');
@@ -7947,6 +8523,9 @@ VALUES (49285, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49285, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Spectre Essence (80) (49422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49422;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49422, 'ace49422-acidspectreessence80');
 
@@ -7998,6 +8577,9 @@ VALUES (49422, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49422, 0, 16777882);
+
+/* Weenie - MiscObjects - Acid Zombie Essence (80) (49234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49234;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49234, 'ace49234-acidzombieessence80');
@@ -8051,6 +8633,9 @@ VALUES (49234, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49234, 0, 16777882);
 
+/* Weenie - MiscObjects - Drudge Fort Blueprints (35576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35576;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35576, 'ace35576-drudgefortblueprints');
 
@@ -8080,6 +8665,9 @@ VALUES (35576, 13, True)
      , (35576, 11, True)
      , (35576, 14, True)
      , (35576, 19, True);
+
+/* Weenie - MiscObjects - Galvanic Knight Essence (49274) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49274;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49274, 'ace49274-galvanicknightessence');
@@ -8133,6 +8721,9 @@ VALUES (49274, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49274, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Skeleton Bushi Essence (180) (48948) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48948;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48948, 'ace48948-fireskeletonbushiessence180');
 
@@ -8184,6 +8775,9 @@ VALUES (48948, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48948, 0, 16777882);
+
+/* Weenie - MiscObjects - Lightning Child Essence (180) (49273) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49273;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49273, 'ace49273-lightningchildessence180');
@@ -8237,6 +8831,9 @@ VALUES (49273, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49273, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Spectre Essence (180) (49426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49426;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49426, 'ace49426-acidspectreessence180');
 
@@ -8288,6 +8885,9 @@ VALUES (49426, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49426, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Wisp Essence (180) (49336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49336;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49336, 'ace49336-frostwispessence180');
@@ -8341,6 +8941,9 @@ VALUES (49336, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49336, 0, 16777882);
 
+/* Weenie - MiscObjects - Voltaic Wisp Essence (49323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49323;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49323, 'ace49323-voltaicwispessence');
 
@@ -8392,6 +8995,9 @@ VALUES (49323, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49323, 0, 16777882);
+
+/* Weenie - MiscObjects - Electrified Moar Essence (49351) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49351;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49351, 'ace49351-electrifiedmoaressence');
@@ -8445,6 +9051,9 @@ VALUES (49351, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49351, 0, 16777882);
 
+/* Weenie - MiscObjects - Excited Grievver Essence (49379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49379;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49379, 'ace49379-excitedgrievveressence');
 
@@ -8496,6 +9105,9 @@ VALUES (49379, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49379, 0, 16777882);
+
+/* Weenie - MiscObjects - Charred Zombie Essence (49253) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49253;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49253, 'ace49253-charredzombieessence');
@@ -8549,6 +9161,9 @@ VALUES (49253, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49253, 0, 16777882);
 
+/* Weenie - MiscObjects - Swarthy Mattekar Hide (23096) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23096;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23096, 'mattekarswarthyhide');
 
@@ -8594,6 +9209,9 @@ VALUES (23096, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23096, 0, 16777882);
 
+/* Weenie - MiscObjects - Mangled Dark Key (23107) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23107;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23107, 'keymangleddark');
 
@@ -8626,6 +9244,9 @@ VALUES (23107, 13, True)
      , (23107, 14, True)
      , (23107, 19, True)
      , (23107, 22, True);
+
+/* Weenie - MiscObjects - Lugian Pick Axe (7549) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7549;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7549, 'lugianpickaxetool');
@@ -8665,6 +9286,9 @@ VALUES (7549, 13, True)
      , (7549, 19, True)
      , (7549, 22, True);
 
+/* Weenie - MiscObjects - Deposit of Medium-Grade Chorizite Ore (7532) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7532;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7532, 'chorizitedepositb');
 
@@ -8699,6 +9323,9 @@ VALUES (7532, 12, True)
      , (7532, 19, True)
      , (7532, 1, True);
 
+/* Weenie - MiscObjects - Unknown (52282) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52282;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52282, 'ace52282-unknown');
 
@@ -8724,6 +9351,9 @@ VALUES (52282, 13, True)
      , (52282, 19, True)
      , (52282, 1, True)
      , (52282, 24, True);
+
+/* Weenie - MiscObjects - Pyreal Bar (6329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6329;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6329, 'pyrealbar');
@@ -8773,6 +9403,9 @@ VALUES (6329, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6329, 0, 16782860);
 
+/* Weenie - MiscObjects - Twisted Dark Key (23108) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23108;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23108, 'keytwisteddark');
 
@@ -8805,6 +9438,9 @@ VALUES (23108, 13, True)
      , (23108, 14, True)
      , (23108, 19, True)
      , (23108, 22, True);
+
+/* Weenie - MiscObjects - Lightning Moar Essence (125) (49348) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49348;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49348, 'ace49348-lightningmoaressence125');
@@ -8858,6 +9494,9 @@ VALUES (49348, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49348, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Child Essence (125) (49271) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49271;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49271, 'ace49271-lightningchildessence125');
 
@@ -8909,6 +9548,9 @@ VALUES (49271, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49271, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Skeleton Bushi Essence (150) (49231) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49231;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49231, 'ace49231-frostskeletonbushiessence150');
@@ -8962,6 +9604,9 @@ VALUES (49231, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49231, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Moar Essence (125) (49341) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49341;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49341, 'ace49341-acidmoaressence125');
 
@@ -9013,6 +9658,9 @@ VALUES (49341, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49341, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Phyntos Wasp Essence (80) (49532) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49532;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49532, 'ace49532-firephyntoswaspessence80');
@@ -9066,6 +9714,9 @@ VALUES (49532, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49532, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Elemental Essence (50) (49268) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49268;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49268, 'ace49268-lightningelementalessence50');
 
@@ -9117,6 +9768,9 @@ VALUES (49268, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49268, 0, 16777882);
+
+/* Weenie - MiscObjects - Acid K'nath Essence (50) (49282) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49282;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49282, 'ace49282-acidknathessence50');
@@ -9170,6 +9824,9 @@ VALUES (49282, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49282, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Grievver Essence (50) (49373) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49373;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49373, 'ace49373-lightninggrievveressence50');
 
@@ -9222,6 +9879,9 @@ VALUES (49373, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49373, 0, 16777882);
 
+/* Weenie - MiscObjects - Broken Virindi Mask (8154) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8154;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8154, 'maskvirindibroken');
 
@@ -9261,6 +9921,9 @@ VALUES (8154, 0, 83890028, 83893781);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8154, 0, 16787332);
+
+/* Weenie - MiscObjects - Virindi Directive Key (9290) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9290;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9290, 'keyfragmentdirective');
@@ -9302,6 +9965,9 @@ VALUES (9290, 67113155, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9290, 9, 16785620);
 
+/* Weenie - MiscObjects - Broken Virindi Observer Mask (25340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25340;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25340, 'maskvirindiobserverbroken');
 
@@ -9341,6 +10007,9 @@ VALUES (25340, 0, 83890028, 83893781);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25340, 0, 16787332);
+
+/* Weenie - MiscObjects - Acid Zombie Essence (125) (49236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49236;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49236, 'ace49236-acidzombieessence125');
@@ -9394,6 +10063,9 @@ VALUES (49236, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49236, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Wisp Essence (100) (49326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49326, 'ace49326-firewispessence100');
 
@@ -9445,6 +10117,9 @@ VALUES (49326, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49326, 0, 16777882);
+
+/* Weenie - MiscObjects - Lightning Skeleton Bushi Essence (125) (49223) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49223;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49223, 'ace49223-lightningskeletonbushiessence125');
@@ -9498,6 +10173,9 @@ VALUES (49223, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49223, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Phyntos Wasp Essence (125) (49541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49541;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49541, 'ace49541-frostphyntoswaspessence125');
 
@@ -9549,6 +10227,9 @@ VALUES (49541, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49541, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Wisp Essence (100) (49333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49333;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49333, 'ace49333-frostwispessence100');
@@ -9602,6 +10283,9 @@ VALUES (49333, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49333, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Spectre Essence (100) (49430) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49430;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49430, 'ace49430-lightningspectreessence100');
 
@@ -9653,6 +10337,9 @@ VALUES (49430, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49430, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Grievver Essence (125) (49383) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49383;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49383, 'ace49383-firegrievveressence125');
@@ -9706,6 +10393,9 @@ VALUES (49383, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49383, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Skeleton Bushi Essence (125) (48946) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48946;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48946, 'ace48946-fireskeletonbushiessence125');
 
@@ -9757,6 +10447,9 @@ VALUES (48946, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48946, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Skeleton Bushi Essence (125) (49230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49230;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49230, 'ace49230-frostskeletonbushiessence125');
@@ -9810,6 +10503,9 @@ VALUES (49230, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49230, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Grievver Essence (80) (49374) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49374;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49374, 'ace49374-lightninggrievveressence80');
 
@@ -9862,6 +10558,9 @@ VALUES (49374, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49374, 0, 16777882);
 
+/* Weenie - MiscObjects - Chair (272) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 272;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (272, 'chair');
 
@@ -9892,6 +10591,9 @@ VALUES (272, 13, True)
      , (272, 14, True)
      , (272, 19, True)
      , (272, 22, True);
+
+/* Weenie - MiscObjects - Snowman (13204) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13204;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13204, 'snowmanfinished');
@@ -9928,6 +10630,9 @@ VALUES (13204, 13, True)
      , (13204, 19, True)
      , (13204, 22, True);
 
+/* Weenie - MiscObjects - Garden Drudge (11933) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11933;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11933, 'decorationgardendrudge-xp');
 
@@ -9958,6 +10663,9 @@ VALUES (11933, 13, True)
      , (11933, 19, True)
      , (11933, 22, True);
 
+/* Weenie - MiscObjects - Couch (274) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 274;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (274, 'couch');
 
@@ -9987,6 +10695,9 @@ VALUES (274, 13, True)
      , (274, 14, True)
      , (274, 19, True)
      , (274, 22, True);
+
+/* Weenie - MiscObjects - Stool (253) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 253;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (253, 'stool');
@@ -10024,6 +10735,9 @@ VALUES (253, 13, True)
      , (253, 19, True)
      , (253, 22, True);
 
+/* Weenie - MiscObjects - Wood (244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 244;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (244, 'firewood');
 
@@ -10059,6 +10773,9 @@ VALUES (244, 13, True)
      , (244, 19, True)
      , (244, 22, True);
 
+/* Weenie - MiscObjects - Wreath (13209) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13209;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13209, 'wreath');
 
@@ -10089,6 +10806,9 @@ VALUES (13209, 13, True)
      , (13209, 14, True)
      , (13209, 19, True)
      , (13209, 22, True);
+
+/* Weenie - MiscObjects - Mattekar Hide (4241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4241;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4241, 'mattekarhide');
@@ -10135,6 +10855,9 @@ VALUES (4241, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4241, 0, 16777882);
 
+/* Weenie - MiscObjects - Olthoi Claw (3679) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3679;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3679, 'olthoiclaw');
 
@@ -10179,6 +10902,9 @@ VALUES (3679, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3679, 0, 16777882);
+
+/* Weenie - MiscObjects - Olthoi Head (3680) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3680;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3680, 'olthoihead');
@@ -10225,6 +10951,9 @@ VALUES (3680, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3680, 0, 16777882);
 
+/* Weenie - MiscObjects - Snowman Snowglobe (22851) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22851;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22851, 'snowglobesnowman');
 
@@ -10253,6 +10982,9 @@ VALUES (22851, 13, True)
      , (22851, 14, True)
      , (22851, 19, True)
      , (22851, 22, True);
+
+/* Weenie - MiscObjects - Screen (13203) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13203;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13203, 'shoscreen');
@@ -10286,6 +11018,9 @@ VALUES (13203, 13, True)
      , (13203, 14, True)
      , (13203, 19, True)
      , (13203, 22, True);
+
+/* Weenie - MiscObjects - Thick Gromnie Hide (4237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4237;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4237, 'gromniehidethick');
@@ -10331,6 +11066,9 @@ VALUES (4237, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4237, 0, 16777882);
 
+/* Weenie - MiscObjects - Glacial Golem Heart (23201) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23201;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23201, 'golemheartglacial');
 
@@ -10375,6 +11113,9 @@ VALUES (23201, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23201, 0, 16777882);
 
+/* Weenie - MiscObjects - Homecoming Pennant (25952) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25952;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25952, 'flaghomecoming');
 
@@ -10411,6 +11152,9 @@ VALUES (25952, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25952, 67114795, 0, 0);
+
+/* Weenie - MiscObjects - Mud Golem Heart (11351) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11351;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11351, 'golemheartmud-xp');
@@ -10455,6 +11199,9 @@ VALUES (11351, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11351, 0, 16777882);
+
+/* Weenie - MiscObjects - Foci of Artifice (15269) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15269;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15269, 'packitemessence');
@@ -10504,6 +11251,9 @@ VALUES (15269, 0, 83886723, 83886723)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15269, 0, 16778611);
 
+/* Weenie - MiscObjects - Undead Thighbone (7041) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7041;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7041, 'lichthighbone');
 
@@ -10538,6 +11288,9 @@ VALUES (7041, 13, True)
      , (7041, 19, True)
      , (7041, 22, True);
 
+/* Weenie - MiscObjects - Symbol of Marriage (14903) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14903;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14903, 'symbolmarriage');
 
@@ -10568,6 +11321,9 @@ VALUES (14903, 13, True)
      , (14903, 14, True)
      , (14903, 19, True)
      , (14903, 22, True);
+
+/* Weenie - MiscObjects - Wi Stamp (22101) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22101;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22101, 'stampsymbolwi');
@@ -10614,6 +11370,9 @@ VALUES (22101, 0, 83892954, 83893871)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22101, 0, 16785497);
 
+/* Weenie - MiscObjects - Undead Torso (22048) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22048;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22048, 'torsoundead');
 
@@ -10648,6 +11407,9 @@ VALUES (22048, 13, True)
      , (22048, 14, True)
      , (22048, 19, True)
      , (22048, 22, True);
+
+/* Weenie - MiscObjects - Crystal Vase (15716) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15716;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15716, 'vasesunflower');
@@ -10684,6 +11446,9 @@ VALUES (15716, 13, True)
      , (15716, 19, True)
      , (15716, 22, True);
 
+/* Weenie - MiscObjects - Pedestal (15825) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15825;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15825, 'pedestalsunflower');
 
@@ -10713,6 +11478,9 @@ VALUES (15825, 13, True)
      , (15825, 14, True)
      , (15825, 19, True)
      , (15825, 22, True);
+
+/* Weenie - MiscObjects - Olthoi Enslavement (248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 248;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (248, 'painting2');
@@ -10746,6 +11514,9 @@ VALUES (248, 13, True)
      , (248, 19, True)
      , (248, 22, True);
 
+/* Weenie - MiscObjects - Pedestal with a Vase (15826) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15826;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15826, 'pedestalvasesunflower');
 
@@ -10775,6 +11546,9 @@ VALUES (15826, 13, True)
      , (15826, 14, True)
      , (15826, 19, True)
      , (15826, 22, True);
+
+/* Weenie - MiscObjects - Bone Handle (7055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7055;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7055, 'bowcompositehandle3');
@@ -10809,6 +11583,9 @@ VALUES (7055, 13, True)
      , (7055, 19, True)
      , (7055, 22, True);
 
+/* Weenie - MiscObjects - Evil Couch (22117) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22117;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22117, 'evilcouch');
 
@@ -10841,6 +11618,9 @@ VALUES (22117, 13, True)
      , (22117, 14, True)
      , (22117, 19, True)
      , (22117, 22, True);
+
+/* Weenie - MiscObjects - Mu-miyah Torso with a Head (22060) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22060;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22060, 'headmummy');
@@ -10893,6 +11673,9 @@ VALUES (22060, 0, 16778359)
      , (22060, 9, 16778425)
      , (22060, 16, 16781779);
 
+/* Weenie - MiscObjects - Bedroll (267) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 267;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (267, 'bedroll');
 
@@ -10922,6 +11705,9 @@ VALUES (267, 13, True)
      , (267, 14, True)
      , (267, 19, True)
      , (267, 22, True);
+
+/* Weenie - MiscObjects - Tusker Head (8147) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8147;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8147, 'tuskerhead');
@@ -10953,6 +11739,9 @@ VALUES (8147, 13, True)
      , (8147, 14, True)
      , (8147, 19, True)
      , (8147, 22, True);
+
+/* Weenie - MiscObjects - Drudge Charm (3669) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3669;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3669, 'drudgecharm');
@@ -10987,6 +11776,9 @@ VALUES (3669, 13, True)
      , (3669, 14, True)
      , (3669, 19, True)
      , (3669, 22, True);
+
+/* Weenie - MiscObjects - Granite Heart (3671) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3671;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3671, 'golemheartgranite');
@@ -11032,6 +11824,9 @@ VALUES (3671, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3671, 0, 16777882);
 
+/* Weenie - MiscObjects - Dark Tusker Paw (35942) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35942;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35942, 'ace35942-darktuskerpaw');
 
@@ -11060,6 +11855,9 @@ VALUES (35942, 13, True)
      , (35942, 14, True)
      , (35942, 19, True)
      , (35942, 22, True);
+
+/* Weenie - MiscObjects - Prodigal Tusker's Token (35953) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35953;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35953, 'ace35953-prodigaltuskerstoken');
@@ -11091,6 +11889,9 @@ VALUES (35953, 13, True)
      , (35953, 14, True)
      , (35953, 19, True)
      , (35953, 22, True);
+
+/* Weenie - MiscObjects - Gladiator Diemos Statue (35807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35807;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35807, 'ace35807-gladiatordiemosstatue');
@@ -11167,6 +11968,9 @@ VALUES (35807, 0, 16788885)
      , (35807, 12, 16788891)
      , (35807, 16, 16789125);
 
+/* Weenie - MiscObjects - Through the Portal Years (34260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34260;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34260, 'ace34260-throughtheportalyears');
 
@@ -11199,6 +12003,9 @@ VALUES (34260, 13, True)
      , (34260, 19, True)
      , (34260, 22, True);
 
+/* Weenie - MiscObjects - Remoran (44760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44760;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44760, 'ace44760-remoran');
 
@@ -11229,6 +12036,9 @@ VALUES (44760, 13, True)
      , (44760, 12, True)
      , (44760, 11, True)
      , (44760, 19, True);
+
+/* Weenie - MiscObjects - Foci of Enchantment (15268) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15268;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15268, 'packcreatureessence');
@@ -11278,6 +12088,9 @@ VALUES (15268, 0, 83886723, 83886723)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15268, 0, 16778611);
 
+/* Weenie - MiscObjects - Foci of Shadow (43173) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43173;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43173, 'ace43173-fociofshadow');
 
@@ -11325,6 +12138,9 @@ VALUES (43173, 0, 83886723, 83886723)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43173, 0, 16778611);
+
+/* Weenie - MiscObjects - Mud Golem Essence (48886) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48886;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48886, 'ace48886-mudgolemessence');
@@ -11378,6 +12194,9 @@ VALUES (48886, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48886, 0, 16777882);
 
+/* Weenie - MiscObjects - Alacritous Ink (37359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37359;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37359, 'ace37359-alacritousink');
 
@@ -11409,6 +12228,9 @@ VALUES (37359, 13, True)
      , (37359, 11, True)
      , (37359, 14, True)
      , (37359, 19, True);
+
+/* Weenie - MiscObjects - Mutated Olthoi Gland (43747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43747;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43747, 'ace43747-mutatedolthoigland');
@@ -11454,6 +12276,9 @@ VALUES (43747, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43747, 0, 16777882);
+
+/* Weenie - MiscObjects - Acid Wisp Essence (100) (49312) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49312;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49312, 'ace49312-acidwispessence100');
@@ -11507,6 +12332,9 @@ VALUES (49312, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49312, 0, 16777882);
 
+/* Weenie - MiscObjects - Primeval Skeleton Shin Bone (24851) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24851;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24851, 'skeletonprimevalshinbone');
 
@@ -11541,6 +12369,9 @@ VALUES (24851, 13, True)
      , (24851, 19, True)
      , (24851, 22, True);
 
+/* Weenie - MiscObjects - Ancient Bone (33987) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33987;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33987, 'ace33987-ancientbone');
 
@@ -11572,6 +12403,9 @@ VALUES (33987, 13, True)
      , (33987, 14, True)
      , (33987, 19, True)
      , (33987, 22, True);
+
+/* Weenie - MiscObjects - Frost Phyntos Wasp Essence (100) (49540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49540;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49540, 'ace49540-frostphyntoswaspessence100');
@@ -11625,6 +12459,9 @@ VALUES (49540, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49540, 0, 16777882);
 
+/* Weenie - MiscObjects - Skull of a Skeletal Hero (24852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24852;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24852, 'skeletonskullherol');
 
@@ -11657,6 +12494,9 @@ VALUES (24852, 13, True)
      , (24852, 19, True)
      , (24852, 22, True);
 
+/* Weenie - MiscObjects - Old Gravestone (34130) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34130;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34130, 'ace34130-oldgravestone');
 
@@ -11685,6 +12525,9 @@ VALUES (34130, 11, True)
      , (34130, 14, True)
      , (34130, 19, True)
      , (34130, 1, True);
+
+/* Weenie - MiscObjects - Frost Elemental Essence (50) (49275) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49275;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49275, 'ace49275-frostelementalessence50');
@@ -11738,6 +12581,9 @@ VALUES (49275, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49275, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire K'nath Essence (50) (49296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49296;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49296, 'ace49296-fireknathessence50');
 
@@ -11789,6 +12635,9 @@ VALUES (49296, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49296, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Wisp Essence (80) (49325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49325;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49325, 'ace49325-firewispessence80');
@@ -11842,6 +12691,9 @@ VALUES (49325, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49325, 0, 16777882);
 
+/* Weenie - MiscObjects - Gwillim's Alchemy Bag (5844) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5844;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5844, 'banditcastledungeonalchemybag');
 
@@ -11872,6 +12724,9 @@ VALUES (5844, 13, True)
      , (5844, 14, True)
      , (5844, 19, True)
      , (5844, 22, True);
+
+/* Weenie - MiscObjects - Frost Zombie Essence (50) (49254) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49254;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49254, 'ace49254-frostzombieessence50');
@@ -11925,6 +12780,9 @@ VALUES (49254, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49254, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Spectre Essence (50) (49442) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49442;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49442, 'ace49442-frostspectreessence50');
 
@@ -11976,6 +12834,9 @@ VALUES (49442, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49442, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost K'nath Essence (50) (49303) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49303;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49303, 'ace49303-frostknathessence50');
@@ -12029,6 +12890,9 @@ VALUES (49303, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49303, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Zombie Essence (50) (49240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49240;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49240, 'ace49240-lightningzombieessence50');
 
@@ -12080,6 +12944,9 @@ VALUES (49240, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49240, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Moar Essence (50) (49352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49352;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49352, 'ace49352-firemoaressence50');
@@ -12133,6 +13000,9 @@ VALUES (49352, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49352, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Skeleton Minion Essence (80) (48944) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48944;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48944, 'ace48944-fireskeletonminionessence80');
 
@@ -12184,6 +13054,9 @@ VALUES (48944, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48944, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Wisp Essence (50) (49331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49331;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49331, 'ace49331-frostwispessence50');
@@ -12237,6 +13110,9 @@ VALUES (49331, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49331, 0, 16777882);
 
+/* Weenie - MiscObjects - Undead Femur bone (19477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19477;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19477, 'lichfemurbone');
 
@@ -12266,6 +13142,9 @@ VALUES (19477, 13, True)
      , (19477, 14, True)
      , (19477, 19, True)
      , (19477, 22, True);
+
+/* Weenie - MiscObjects - Acid K'nath Essence (80) (49283) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49283;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49283, 'ace49283-acidknathessence80');
@@ -12319,6 +13198,9 @@ VALUES (49283, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49283, 0, 16777882);
 
+/* Weenie - MiscObjects - A Small Mnemosyne (9312) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9312;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9312, 'pyramidgreensmall');
 
@@ -12348,6 +13230,9 @@ VALUES (9312, 13, True)
      , (9312, 14, True)
      , (9312, 19, True)
      , (9312, 22, True);
+
+/* Weenie - MiscObjects - Lightning Wisp Essence (80) (49318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49318;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49318, 'ace49318-lightningwispessence80');
@@ -12401,6 +13286,9 @@ VALUES (49318, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49318, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Spectre Essence (125) (49431) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49431;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49431, 'ace49431-lightningspectreessence125');
 
@@ -12453,6 +13341,9 @@ VALUES (49431, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49431, 0, 16777882);
 
+/* Weenie - MiscObjects - Coruscating Olthoi Scent Gland (35876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35876;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35876, 'ace35876-coruscatingolthoiscentgland');
 
@@ -12484,6 +13375,9 @@ VALUES (35876, 13, True)
      , (35876, 14, True)
      , (35876, 19, True)
      , (35876, 22, True);
+
+/* Weenie - MiscObjects - Acid Phyntos Wasp Essence (100) (49526) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49526;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49526, 'ace49526-acidphyntoswaspessence100');
@@ -12537,6 +13431,9 @@ VALUES (49526, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49526, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Spectre Essence (80) (49429) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49429;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49429, 'ace49429-lightningspectreessence80');
 
@@ -12588,6 +13485,9 @@ VALUES (49429, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49429, 0, 16777882);
+
+/* Weenie - MiscObjects - Acid Grievver Essence (180) (49371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49371;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49371, 'ace49371-acidgrievveressence180');
@@ -12641,6 +13541,9 @@ VALUES (49371, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49371, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Skeleton Bushi Essence (150) (48947) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48947;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48947, 'ace48947-fireskeletonbushiessence150');
 
@@ -12693,6 +13596,9 @@ VALUES (48947, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48947, 0, 16777882);
 
+/* Weenie - MiscObjects - Carapace Shard (35910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35910;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35910, 'ace35910-carapaceshard');
 
@@ -12735,6 +13641,9 @@ VALUES (35910, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35910, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Phyntos Swarm Essence (49544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49544;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49544, 'ace49544-frostphyntosswarmessence');
@@ -12788,6 +13697,9 @@ VALUES (49544, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49544, 0, 16777882);
 
+/* Weenie - MiscObjects - Barbed Fletching Tool (8786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8786;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8786, 'toolfletchingbarbed');
 
@@ -12837,6 +13749,9 @@ VALUES (8786, 0, 83886754, 83886754)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8786, 0, 16777906);
 
+/* Weenie - MiscObjects - Skull of Avoren Palacost (8777) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8777;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8777, 'skullpalacost');
 
@@ -12871,6 +13786,9 @@ VALUES (8777, 13, True)
      , (8777, 19, True)
      , (8777, 22, True);
 
+/* Weenie - MiscObjects - Elemental Talisman (36200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36200;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36200, 'ace36200-elementaltalisman');
 
@@ -12899,6 +13817,9 @@ VALUES (36200, 13, True)
      , (36200, 14, True)
      , (36200, 19, True)
      , (36200, 22, True);
+
+/* Weenie - MiscObjects - Galvanic Pool (36183) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36183;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36183, 'ace36183-galvanicpool');
@@ -12932,6 +13853,9 @@ VALUES (36183, 13, True)
      , (36183, 19, True)
      , (36183, 1, True)
      , (36183, 24, True);
+
+/* Weenie - MiscObjects - Magma Pool (36180) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36180;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36180, 'ace36180-magmapool');
@@ -12970,6 +13894,9 @@ VALUES (36180, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36180, 67114513, 0, 0);
 
+/* Weenie - MiscObjects - Freezing Pool (36181) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36181;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36181, 'ace36181-freezingpool');
 
@@ -13007,6 +13934,9 @@ VALUES (36181, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36181, 67114511, 0, 0);
 
+/* Weenie - MiscObjects - Acid Pool (36182) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36182;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36182, 'ace36182-acidpool');
 
@@ -13043,6 +13973,9 @@ VALUES (36182, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36182, 67114514, 0, 0);
+
+/* Weenie - MiscObjects - Corrupted Harbinger Blood (36184) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36184;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36184, 'ace36184-corruptedharbingerblood');
@@ -13086,6 +14019,9 @@ VALUES (36184, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36184, 0, 16778735);
 
+/* Weenie - MiscObjects - Boxed Augmentation Gem (46441) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46441;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46441, 'ace46441-boxedaugmentationgem');
 
@@ -13121,6 +14057,9 @@ VALUES (46441, 13, True)
      , (46441, 14, True)
      , (46441, 19, True);
 
+/* Weenie - MiscObjects - Blank Augmentation Gem (29295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29295;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29295, 'gemaugmentationblank');
 
@@ -13151,6 +14090,9 @@ VALUES (29295, 13, True)
      , (29295, 19, True)
      , (29295, 22, True);
 
+/* Weenie - MiscObjects - Clutch of the Miser (29270) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29270;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29270, 'gemaugmentationdeathreduceditems');
 
@@ -13180,6 +14122,9 @@ VALUES (29270, 13, True)
      , (29270, 14, True)
      , (29270, 19, True)
      , (29270, 22, True);
+
+/* Weenie - MiscObjects - Imbued Pyreal Nugget (21531) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21531;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21531, 'pyrealnuggetimbued');
@@ -13226,6 +14171,9 @@ VALUES (21531, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21531, 0, 16778862);
 
+/* Weenie - MiscObjects - Seal Fragment (21378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21378;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21378, 'sealfragment1');
 
@@ -13257,6 +14205,9 @@ VALUES (21378, 13, True)
      , (21378, 14, True)
      , (21378, 19, True)
      , (21378, 22, True);
+
+/* Weenie - MiscObjects - Seal Fragment (21379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21379;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21379, 'sealfragment2');
@@ -13290,6 +14241,9 @@ VALUES (21379, 13, True)
      , (21379, 19, True)
      , (21379, 22, True);
 
+/* Weenie - MiscObjects - Combined Seal Fragment (21922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21922;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21922, 'sealfragment12');
 
@@ -13321,6 +14275,9 @@ VALUES (21922, 13, True)
      , (21922, 14, True)
      , (21922, 19, True)
      , (21922, 22, True);
+
+/* Weenie - MiscObjects - Seal Fragment (21380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21380;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21380, 'sealfragment3');
@@ -13354,6 +14311,9 @@ VALUES (21380, 13, True)
      , (21380, 19, True)
      , (21380, 22, True);
 
+/* Weenie - MiscObjects - Seal Fragment (21381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21381;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21381, 'sealfragment4');
 
@@ -13385,6 +14345,9 @@ VALUES (21381, 13, True)
      , (21381, 14, True)
      , (21381, 19, True)
      , (21381, 22, True);
+
+/* Weenie - MiscObjects - Combined Seal Fragment (21923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21923;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21923, 'sealfragment34');
@@ -13418,6 +14381,9 @@ VALUES (21923, 13, True)
      , (21923, 19, True)
      , (21923, 22, True);
 
+/* Weenie - MiscObjects - Ornate Seal (21920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21920;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21920, 'ornateseal');
 
@@ -13450,6 +14416,9 @@ VALUES (21920, 13, True)
      , (21920, 19, True)
      , (21920, 22, True);
 
+/* Weenie - MiscObjects - Imbued Ornate Seal (21921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21921;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21921, 'ornatesealimbued');
 
@@ -13478,6 +14447,9 @@ VALUES (21921, 13, True)
      , (21921, 14, True)
      , (21921, 19, True)
      , (21921, 22, True);
+
+/* Weenie - MiscObjects - Zairente's Cooking Pot (9025) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9025;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9025, 'cookingpotdecorative');
@@ -13511,6 +14483,9 @@ VALUES (9025, 13, True)
      , (9025, 1, True)
      , (9025, 24, True);
 
+/* Weenie - MiscObjects - Zairente's Frying Pan (9041) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9041;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9041, 'fryingpandecorative');
 
@@ -13542,6 +14517,9 @@ VALUES (9041, 13, True)
      , (9041, 19, True)
      , (9041, 1, True)
      , (9041, 24, True);
+
+/* Weenie - MiscObjects - Wandering Vendor Backback (9019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9019;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9019, 'backpackdecorative');
@@ -13590,6 +14568,9 @@ VALUES (9019, 0, 83886723, 83886723)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9019, 0, 16778611);
 
+/* Weenie - MiscObjects - Holiday Feast (34404) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34404;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34404, 'ace34404-holidayfeast');
 
@@ -13619,6 +14600,9 @@ VALUES (34404, 13, True)
      , (34404, 14, True)
      , (34404, 19, True)
      , (34404, 22, True);
+
+/* Weenie - MiscObjects - Doll House (34399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34399;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34399, 'ace34399-dollhouse');
@@ -13656,6 +14640,9 @@ VALUES (34399, 13, True)
      , (34399, 19, True)
      , (34399, 22, True);
 
+/* Weenie - MiscObjects - Four of Eyes (37250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37250;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37250, 'ace37250-fourofeyes');
 
@@ -13688,6 +14675,9 @@ VALUES (37250, 13, True)
      , (37250, 11, True)
      , (37250, 14, True)
      , (37250, 19, True);
+
+/* Weenie - MiscObjects - Queen of Eyes (37258) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37258;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37258, 'ace37258-queenofeyes');
@@ -13722,6 +14712,9 @@ VALUES (37258, 13, True)
      , (37258, 14, True)
      , (37258, 19, True);
 
+/* Weenie - MiscObjects - Five of Eyes (37251) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37251;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37251, 'ace37251-fiveofeyes');
 
@@ -13754,6 +14747,9 @@ VALUES (37251, 13, True)
      , (37251, 11, True)
      , (37251, 14, True)
      , (37251, 19, True);
+
+/* Weenie - MiscObjects - Eight of Eyes (37254) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37254;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37254, 'ace37254-eightofeyes');
@@ -13788,6 +14784,9 @@ VALUES (37254, 13, True)
      , (37254, 14, True)
      , (37254, 19, True);
 
+/* Weenie - MiscObjects - Six of Hands (37239) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37239;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37239, 'ace37239-sixofhands');
 
@@ -13820,6 +14819,9 @@ VALUES (37239, 13, True)
      , (37239, 11, True)
      , (37239, 14, True)
      , (37239, 19, True);
+
+/* Weenie - MiscObjects - Black Coral Heart (42348) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42348;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42348, 'ace42348-blackcoralheart');
@@ -13865,6 +14867,9 @@ VALUES (42348, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42348, 0, 16777882);
 
+/* Weenie - MiscObjects - Three of Hands (37236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37236;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37236, 'ace37236-threeofhands');
 
@@ -13898,6 +14903,9 @@ VALUES (37236, 13, True)
      , (37236, 14, True)
      , (37236, 19, True);
 
+/* Weenie - MiscObjects - Queen of Hands (37245) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37245;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37245, 'ace37245-queenofhands');
 
@@ -13930,6 +14938,9 @@ VALUES (37245, 13, True)
      , (37245, 11, True)
      , (37245, 14, True)
      , (37245, 19, True);
+
+/* Weenie - MiscObjects - Frost Spectre Essence (80) (49443) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49443;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49443, 'ace49443-frostspectreessence80');
@@ -13983,6 +14994,9 @@ VALUES (49443, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49443, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Wisp Essence (125) (49334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49334;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49334, 'ace49334-frostwispessence125');
 
@@ -14034,6 +15048,9 @@ VALUES (49334, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49334, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Moar Essence (125) (49355) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49355;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49355, 'ace49355-firemoaressence125');
@@ -14087,6 +15104,9 @@ VALUES (49355, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49355, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Phyntos Wasp Essence (100) (49547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49547;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49547, 'ace49547-lightningphyntoswaspessence100');
 
@@ -14138,6 +15158,9 @@ VALUES (49547, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49547, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Zombie Essence (125) (49257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49257;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49257, 'ace49257-frostzombieessence125');
@@ -14191,6 +15214,9 @@ VALUES (49257, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49257, 0, 16777882);
 
+/* Weenie - MiscObjects - Harker's Head (24470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24470;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24470, 'headharker');
 
@@ -14232,6 +15258,9 @@ VALUES (24470, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24470, 0, 16777882);
+
+/* Weenie - MiscObjects - Tusker Husk (20996) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20996;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20996, 'husktusker');
@@ -14276,6 +15305,9 @@ VALUES (20996, 0, 83887061, 83894154)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20996, 0, 16787552);
+
+/* Weenie - MiscObjects - Acid Moar Essence (180) (49343) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49343;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49343, 'ace49343-acidmoaressence180');
@@ -14329,6 +15361,9 @@ VALUES (49343, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49343, 0, 16777882);
 
+/* Weenie - MiscObjects - Battle Lord Gregor's Mnemosyne (43533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43533;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43533, 'ace43533-battlelordgregorsmnemosyne');
 
@@ -14362,6 +15397,9 @@ VALUES (43533, 13, True)
      , (43533, 19, True)
      , (43533, 22, True);
 
+/* Weenie - MiscObjects - Ink of Separation (37358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37358;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37358, 'ace37358-inkofseparation');
 
@@ -14394,6 +15432,9 @@ VALUES (37358, 13, True)
      , (37358, 11, True)
      , (37358, 14, True)
      , (37358, 19, True);
+
+/* Weenie - MiscObjects - Master Keyring (23196) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23196;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23196, 'keyringmaster');
@@ -14434,6 +15475,9 @@ VALUES (23196, 13, True)
      , (23196, 14, True)
      , (23196, 19, True)
      , (23196, 22, True);
+
+/* Weenie - MiscObjects - Fire Elemental Essence (80) (48961) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48961;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48961, 'ace48961-fireelementalessence80');
@@ -14487,6 +15531,9 @@ VALUES (48961, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48961, 0, 16777882);
 
+/* Weenie - MiscObjects - Dark Revenant Thighbone (7045) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7045;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7045, 'revenantthighbonedark');
 
@@ -14520,6 +15567,9 @@ VALUES (7045, 13, True)
      , (7045, 14, True)
      , (7045, 19, True)
      , (7045, 22, True);
+
+/* Weenie - MiscObjects - Coalesced Mana (42517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42517;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42517, 'ace42517-coalescedmana');
@@ -14572,6 +15622,9 @@ VALUES (42517, 0, 16784246)
      , (42517, 1, 16784196)
      , (42517, 2, 16784180);
 
+/* Weenie - MiscObjects - Nexus-keyed Mana Shard (40911) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40911;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40911, 'ace40911-nexuskeyedmanashard');
 
@@ -14605,6 +15658,9 @@ VALUES (40911, 13, True)
      , (40911, 14, True)
      , (40911, 19, True)
      , (40911, 22, True);
+
+/* Weenie - MiscObjects - Lightning Skeleton Minion Essence (100) (49222) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49222;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49222, 'ace49222-lightningskeletonminionessence100');
@@ -14658,6 +15714,9 @@ VALUES (49222, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49222, 0, 16777882);
 
+/* Weenie - MiscObjects - Aerfalle's Ornate Token (40914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40914;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40914, 'ace40914-aerfallesornatetoken');
 
@@ -14698,6 +15757,9 @@ VALUES (40914, 0, 83888956, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40914, 0, 16778506);
 
+/* Weenie - MiscObjects - Silk (16921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 16921;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16921, 'silk');
 
@@ -14737,6 +15799,9 @@ VALUES (16921, 0, 83888861, 83894095);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (16921, 0, 16778862);
+
+/* Weenie - MiscObjects - Small Lugian Sinew (7042) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7042;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7042, 'lugiansinewamploth');
@@ -14781,6 +15846,9 @@ VALUES (7042, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7042, 0, 16777882);
 
+/* Weenie - MiscObjects - Armored Skeletal Body with two arms (28890) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28890;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28890, 'torsoarmarmoredskeleton');
 
@@ -14810,6 +15878,9 @@ VALUES (28890, 13, True)
      , (28890, 14, True)
      , (28890, 19, True)
      , (28890, 22, True);
+
+/* Weenie - MiscObjects - Telumiat Hollow Minion Essence (24842) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24842;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24842, 'hollowminiontelumiatmist');
@@ -14842,6 +15913,9 @@ VALUES (24842, 13, True)
      , (24842, 14, True)
      , (24842, 19, True)
      , (24842, 22, True);
+
+/* Weenie - MiscObjects - A Horn of Vigilance (11935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11935;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11935, 'decorationsoundmaker-xp');
@@ -14877,6 +15951,9 @@ VALUES (11935, 13, True)
      , (11935, 19, True)
      , (11935, 22, True);
 
+/* Weenie - MiscObjects - Ursuin Rug (11937) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11937;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11937, 'decorationursuinrug-xp');
 
@@ -14906,6 +15983,9 @@ VALUES (11937, 13, True)
      , (11937, 14, True)
      , (11937, 19, True)
      , (11937, 22, True);
+
+/* Weenie - MiscObjects - Frost Skeleton Minion Essence (100) (49229) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49229;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49229, 'ace49229-frostskeletonminionessence100');
@@ -14959,6 +16039,9 @@ VALUES (49229, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49229, 0, 16777882);
 
+/* Weenie - MiscObjects - Skeleton (44770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44770;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44770, 'ace44770-skeleton');
 
@@ -14989,6 +16072,9 @@ VALUES (44770, 13, True)
      , (44770, 12, True)
      , (44770, 11, True)
      , (44770, 19, True);
+
+/* Weenie - MiscObjects - Armoredillo (44722) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44722;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44722, 'ace44722-armoredillo');
@@ -15021,6 +16107,9 @@ VALUES (44722, 13, True)
      , (44722, 11, True)
      , (44722, 19, True);
 
+/* Weenie - MiscObjects - Snowman (44773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44773;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44773, 'ace44773-snowman');
 
@@ -15051,6 +16140,9 @@ VALUES (44773, 13, True)
      , (44773, 12, True)
      , (44773, 11, True)
      , (44773, 19, True);
+
+/* Weenie - MiscObjects - Ivory Gromnie Wings (28213) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28213;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28213, 'wingsgromnieivoryvod');
@@ -15088,6 +16180,9 @@ VALUES (28213, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28213, 0, 16777882);
+
+/* Weenie - MiscObjects - Glyph of Bludgeoning (37347) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37347;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37347, 'ace37347-glyphofbludgeoning');
@@ -15133,6 +16228,9 @@ VALUES (37347, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37347, 0, 16779181);
 
+/* Weenie - MiscObjects - Boxed Ornate Gear Marker (43905) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43905;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43905, 'ace43905-boxedornategearmarker');
 
@@ -15168,6 +16266,9 @@ VALUES (43905, 13, True)
      , (43905, 14, True)
      , (43905, 19, True);
 
+/* Weenie - MiscObjects - Campfire (4128) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4128;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4128, 'campfire');
 
@@ -15197,6 +16298,9 @@ VALUES (4128, 13, True)
      , (4128, 15, True)
      , (4128, 19, True)
      , (4128, 22, True);
+
+/* Weenie - MiscObjects - Ornate Gear Marker (43142) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43142;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43142, 'ace43142-ornategearmarker');
@@ -15234,6 +16338,9 @@ VALUES (43142, 13, True)
      , (43142, 14, True)
      , (43142, 19, True);
 
+/* Weenie - MiscObjects - Rez'arean Ore (46287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46287;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46287, 'ace46287-rezareanore');
 
@@ -15268,6 +16375,9 @@ VALUES (46287, 13, True)
      , (46287, 14, True)
      , (46287, 19, True);
 
+/* Weenie - MiscObjects - Apostate Message Shard (42614) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42614;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42614, 'ace42614-apostatemessageshard');
 
@@ -15301,6 +16411,9 @@ VALUES (42614, 13, True)
      , (42614, 19, True)
      , (42614, 22, True);
 
+/* Weenie - MiscObjects - Storage Box (42111) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42111;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42111, 'ace42111-storagebox');
 
@@ -15329,6 +16442,9 @@ VALUES (42111, 13, True)
      , (42111, 14, True)
      , (42111, 19, True)
      , (42111, 22, True);
+
+/* Weenie - MiscObjects - Armored Sclavus Head (39030) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39030;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39030, 'ace39030-armoredsclavushead');
@@ -15363,6 +16479,9 @@ VALUES (39030, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39030, 0, 16794204);
+
+/* Weenie - MiscObjects - Shard of the Apostate Grand Director's Broken Mask (43215) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43215;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43215, 'ace43215-shardoftheapostategranddirectorsbrokenmask');
@@ -15401,6 +16520,9 @@ VALUES (43215, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43215, 67116923, 240, 16);
 
+/* Weenie - MiscObjects - Lesser Corrupted Essence (44469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44469;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44469, 'ace44469-lessercorruptedessence');
 
@@ -15432,6 +16554,9 @@ VALUES (44469, 13, True)
      , (44469, 11, True)
      , (44469, 14, True)
      , (44469, 19, True);
+
+/* Weenie - MiscObjects - Burning Sands Keyring (48954) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48954;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48954, 'ace48954-burningsandskeyring');
@@ -15473,6 +16598,9 @@ VALUES (48954, 13, True)
      , (48954, 19, True)
      , (48954, 22, True);
 
+/* Weenie - MiscObjects - Ehlyis Sleech Shell (33684) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33684;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33684, 'ace33684-ehlyissleechshell');
 
@@ -15503,6 +16631,9 @@ VALUES (33684, 13, True)
      , (33684, 14, True)
      , (33684, 19, True)
      , (33684, 22, True);
+
+/* Weenie - MiscObjects - Decanter of Nullified Essence (32943) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32943;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32943, 'ace32943-decanterofnullifiedessence');
@@ -15547,6 +16678,9 @@ VALUES (32943, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32943, 0, 16783325);
 
+/* Weenie - MiscObjects - Shadowy Statue of the Hopeslayer (34572) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34572;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34572, 'ace34572-shadowystatueofthehopeslayer');
 
@@ -15580,6 +16714,9 @@ VALUES (34572, 12, True)
      , (34572, 19, True)
      , (34572, 1, True);
 
+/* Weenie - MiscObjects - Unknown (52296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52296;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52296, 'ace52296-unknown');
 
@@ -15605,6 +16742,9 @@ VALUES (52296, 13, True)
      , (52296, 19, True)
      , (52296, 1, True)
      , (52296, 24, True);
+
+/* Weenie - MiscObjects - Acid Wisp Essence (150) (49314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49314;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49314, 'ace49314-acidwispessence150');
@@ -15658,6 +16798,9 @@ VALUES (49314, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49314, 0, 16777882);
 
+/* Weenie - MiscObjects - Shard of the Curator of Torment's Mask (52008) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52008;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52008, 'ace52008-shardofthecuratoroftormentsmask');
 
@@ -15694,6 +16837,9 @@ VALUES (52008, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (52008, 67116923, 240, 16);
+
+/* Weenie - MiscObjects - Frost K'nath Essence (80) (49304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49304;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49304, 'ace49304-frostknathessence80');
@@ -15747,6 +16893,9 @@ VALUES (49304, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49304, 0, 16777882);
 
+/* Weenie - MiscObjects - Sturdy Steel Keyring (24887) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24887;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24887, 'keyringchestextreme');
 
@@ -15787,6 +16936,9 @@ VALUES (24887, 13, True)
      , (24887, 19, True)
      , (24887, 22, True);
 
+/* Weenie - MiscObjects - Snow Lily (30983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30983;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30983, 'snowlily');
 
@@ -15817,6 +16969,9 @@ VALUES (30983, 13, True)
      , (30983, 11, True)
      , (30983, 14, True)
      , (30983, 19, True);
+
+/* Weenie - MiscObjects - Glyph of Armor Tinkering (37346) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37346;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37346, 'ace37346-glyphofarmortinkering');
@@ -15862,6 +17017,9 @@ VALUES (37346, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37346, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Strength (37337) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37337;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37337, 'ace37337-glyphofstrength');
 
@@ -15905,6 +17063,9 @@ VALUES (37337, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37337, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Melee Defense (37323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37323;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37323, 'ace37323-glyphofmeleedefense');
@@ -15950,6 +17111,9 @@ VALUES (37323, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37323, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Corrosion (37342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37342;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37342, 'ace37342-glyphofcorrosion');
 
@@ -15994,6 +17158,9 @@ VALUES (37342, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37342, 0, 16779181);
 
+/* Weenie - MiscObjects - Sezzherei Slayer Token (30858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30858;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30858, 'tokentitleboss0205');
 
@@ -16023,6 +17190,9 @@ VALUES (30858, 13, True)
      , (30858, 14, True)
      , (30858, 19, True)
      , (30858, 22, True);
+
+/* Weenie - MiscObjects - Lightning Moar Essence (80) (49346) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49346;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49346, 'ace49346-lightningmoaressence80');
@@ -16076,6 +17246,9 @@ VALUES (49346, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49346, 0, 16777882);
 
+/* Weenie - MiscObjects - Seeds of Anger (32204) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32204;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32204, 'ace32204-seedsofanger');
 
@@ -16105,6 +17278,9 @@ VALUES (32204, 13, True)
      , (32204, 14, True)
      , (32204, 19, True)
      , (32204, 22, True);
+
+/* Weenie - MiscObjects - Foolproof Sunstone (36627) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36627;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36627, 'ace36627-foolproofsunstone');
@@ -16154,6 +17330,9 @@ VALUES (36627, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36627, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Spectre Essence (100) (49437) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49437;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49437, 'ace49437-firespectreessence100');
@@ -16207,6 +17386,9 @@ VALUES (49437, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49437, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Wisp Essence (150) (49328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49328;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49328, 'ace49328-firewispessence150');
 
@@ -16258,6 +17440,9 @@ VALUES (49328, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49328, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost K'nath Essence (180) (49308) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49308;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49308, 'ace49308-frostknathessence180');
@@ -16311,6 +17496,9 @@ VALUES (49308, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49308, 0, 16777882);
 
+/* Weenie - MiscObjects - Glyph of Mana Conversion (37319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37319;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37319, 'ace37319-glyphofmanaconversion');
 
@@ -16355,6 +17543,9 @@ VALUES (37319, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37319, 0, 16779181);
 
+/* Weenie - MiscObjects - Unknown (52270) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52270;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52270, 'ace52270-unknown');
 
@@ -16380,6 +17571,9 @@ VALUES (52270, 13, True)
      , (52270, 19, True)
      , (52270, 1, True)
      , (52270, 24, True);
+
+/* Weenie - MiscObjects - Holiday Lights (22873) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22873;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22873, 'holiday2002decoration');
@@ -16417,6 +17611,9 @@ VALUES (22873, 13, True)
      , (22873, 19, True)
      , (22873, 22, True);
 
+/* Weenie - MiscObjects - Lightning Cloud (51593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51593;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51593, 'ace51593-lightningcloud');
 
@@ -16447,6 +17644,9 @@ VALUES (51593, 13, True)
      , (51593, 14, True)
      , (51593, 19, True)
      , (51593, 22, True);
+
+/* Weenie - MiscObjects - Corrupted Essence (44470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44470;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44470, 'ace44470-corruptedessence');
@@ -16479,6 +17679,9 @@ VALUES (44470, 13, True)
      , (44470, 11, True)
      , (44470, 14, True)
      , (44470, 19, True);
+
+/* Weenie - MiscObjects - Treasure (24518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24518;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24518, 'phatlewtround');
@@ -16517,6 +17720,9 @@ VALUES (24518, 13, True)
      , (24518, 19, True)
      , (24518, 22, True);
 
+/* Weenie - MiscObjects - Treasure (22614) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22614;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22614, 'phatlewt');
 
@@ -16550,6 +17756,9 @@ VALUES (22614, 13, True)
      , (22614, 14, True)
      , (22614, 19, True)
      , (22614, 22, True);
+
+/* Weenie - MiscObjects - Island Armoredillo Spine (8424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8424;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8424, 'spineisland');
@@ -16598,6 +17807,9 @@ VALUES (8424, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8424, 0, 16777882);
 
+/* Weenie - MiscObjects - Wall Spells Certificate (53407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53407;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53407, 'ace53407-wallspellscertificate');
 
@@ -16627,6 +17839,9 @@ VALUES (53407, 13, True)
      , (53407, 11, True)
      , (53407, 14, True)
      , (53407, 19, True);
+
+/* Weenie - MiscObjects - Ring Spells Certificate (53406) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53406;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53406, 'ace53406-ringspellscertificate');
@@ -16658,6 +17873,9 @@ VALUES (53406, 13, True)
      , (53406, 14, True)
      , (53406, 19, True);
 
+/* Weenie - MiscObjects - Combat Spells Certificate (46416) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46416;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46416, 'ace46416-combatspellscertificate');
 
@@ -16687,6 +17905,9 @@ VALUES (46416, 13, True)
      , (46416, 11, True)
      , (46416, 14, True)
      , (46416, 19, True);
+
+/* Weenie - MiscObjects - Creature Spells Certificate (46417) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46417;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46417, 'ace46417-creaturespellscertificate');
@@ -16718,6 +17939,9 @@ VALUES (46417, 13, True)
      , (46417, 14, True)
      , (46417, 19, True);
 
+/* Weenie - MiscObjects - Life Spells Certificate (46419) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46419;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46419, 'ace46419-lifespellscertificate');
 
@@ -16748,6 +17972,9 @@ VALUES (46419, 13, True)
      , (46419, 14, True)
      , (46419, 19, True);
 
+/* Weenie - MiscObjects - Item Spells Certificate (46418) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46418;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46418, 'ace46418-itemspellscertificate');
 
@@ -16777,6 +18004,9 @@ VALUES (46418, 13, True)
      , (46418, 11, True)
      , (46418, 14, True)
      , (46418, 19, True);
+
+/* Weenie - MiscObjects - Frost Spectre Essence (100) (49444) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49444;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49444, 'ace49444-frostspectreessence100');
@@ -16830,6 +18060,9 @@ VALUES (49444, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49444, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Elemental Essence (80) (49276) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49276;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49276, 'ace49276-frostelementalessence80');
 
@@ -16881,6 +18114,9 @@ VALUES (49276, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49276, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Moar Essence (80) (49353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49353;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49353, 'ace49353-firemoaressence80');
@@ -16934,6 +18170,9 @@ VALUES (49353, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49353, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Phyntos Wasp Essence (80) (49539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49539;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49539, 'ace49539-frostphyntoswaspessence80');
 
@@ -16985,6 +18224,9 @@ VALUES (49539, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49539, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Zombie Essence (80) (49248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49248;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49248, 'ace49248-firezombieessence80');
@@ -17038,6 +18280,9 @@ VALUES (49248, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49248, 0, 16777882);
 
+/* Weenie - MiscObjects - Aerfalle's Token (40913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40913;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40913, 'ace40913-aerfallestoken');
 
@@ -17078,6 +18323,9 @@ VALUES (40913, 0, 83888956, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40913, 0, 16778506);
 
+/* Weenie - MiscObjects - Virindi Cage (51422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51422;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51422, 'ace51422-virindicage');
 
@@ -17108,6 +18356,9 @@ VALUES (51422, 13, True)
      , (51422, 14, True)
      , (51422, 19, True)
      , (51422, 22, True);
+
+/* Weenie - MiscObjects - Caulnalain Key (8019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8019;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8019, 'keycaulnalain');
@@ -17143,6 +18394,9 @@ VALUES (8019, 13, True)
      , (8019, 19, True)
      , (8019, 22, True);
 
+/* Weenie - MiscObjects - Ten of Hands (37243) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37243;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37243, 'ace37243-tenofhands');
 
@@ -17176,6 +18430,9 @@ VALUES (37243, 13, True)
      , (37243, 14, True)
      , (37243, 19, True);
 
+/* Weenie - MiscObjects - Gonjoku's Mana Infusion (28833) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28833;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28833, 'potiongonjokudenherb');
 
@@ -17208,6 +18465,9 @@ VALUES (28833, 13, True)
      , (28833, 11, True)
      , (28833, 14, True)
      , (28833, 19, True);
+
+/* Weenie - MiscObjects - Isparian Weapons Modifying Tool (20023) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20023;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20023, 'toolisparianweapon');
@@ -17246,6 +18506,9 @@ VALUES (20023, 13, True)
      , (20023, 14, True)
      , (20023, 19, True)
      , (20023, 22, True);
+
+/* Weenie - MiscObjects - Glyph of Piercing (37327) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37327;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37327, 'ace37327-glyphofpiercing');
@@ -17291,6 +18554,9 @@ VALUES (37327, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37327, 0, 16779181);
 
+/* Weenie - MiscObjects - Basic Atlatl Handle (35969) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35969;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35969, 'ace35969-basicatlatlhandle');
 
@@ -17322,6 +18588,9 @@ VALUES (35969, 13, True)
      , (35969, 11, True)
      , (35969, 14, True)
      , (35969, 19, True);
+
+/* Weenie - MiscObjects - Acid Skeleton Bushi Essence (125) (49216) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49216;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49216, 'ace49216-acidskeletonbushiessence125');
@@ -17375,6 +18644,9 @@ VALUES (49216, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49216, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Zombie Essence (125) (49243) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49243;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49243, 'ace49243-lightningzombieessence125');
 
@@ -17426,6 +18698,9 @@ VALUES (49243, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49243, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Skeleton Minion Essence (100) (48945) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48945;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48945, 'ace48945-fireskeletonminionessence100');
@@ -17479,6 +18754,9 @@ VALUES (48945, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48945, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Zombie Essence (150) (49244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49244;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49244, 'ace49244-lightningzombieessence150');
 
@@ -17530,6 +18808,9 @@ VALUES (49244, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49244, 0, 16777882);
+
+/* Weenie - MiscObjects - Lightning K'nath Essence (100) (49291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49291;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49291, 'ace49291-lightningknathessence100');
@@ -17583,6 +18864,9 @@ VALUES (49291, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49291, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid K'nath Essence (150) (49286) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49286;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49286, 'ace49286-acidknathessence150');
 
@@ -17634,6 +18918,9 @@ VALUES (49286, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49286, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Grievver Essence (150) (49384) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49384;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49384, 'ace49384-firegrievveressence150');
@@ -17687,6 +18974,9 @@ VALUES (49384, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49384, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Spectre Essence (150) (49439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49439;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49439, 'ace49439-firespectreessence150');
 
@@ -17738,6 +19028,9 @@ VALUES (49439, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49439, 0, 16777882);
+
+/* Weenie - MiscObjects - Acid Wisp Essence (125) (49313) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49313;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49313, 'ace49313-acidwispessence125');
@@ -17791,6 +19084,9 @@ VALUES (49313, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49313, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Child Essence (150) (48967) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48967;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48967, 'ace48967-firechildessence150');
 
@@ -17843,6 +19139,9 @@ VALUES (48967, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48967, 0, 16777882);
 
+/* Weenie - MiscObjects - Two of Hands (37235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37235;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37235, 'ace37235-twoofhands');
 
@@ -17876,6 +19175,9 @@ VALUES (37235, 13, True)
      , (37235, 14, True)
      , (37235, 19, True);
 
+/* Weenie - MiscObjects - Three of Eyes (37249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37249;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37249, 'ace37249-threeofeyes');
 
@@ -17908,6 +19210,9 @@ VALUES (37249, 13, True)
      , (37249, 11, True)
      , (37249, 14, True)
      , (37249, 19, True);
+
+/* Weenie - MiscObjects - Sturdy Iron Keyring (23194) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23194;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23194, 'keyringchesthigh');
@@ -17949,6 +19254,9 @@ VALUES (23194, 13, True)
      , (23194, 19, True)
      , (23194, 22, True);
 
+/* Weenie - MiscObjects - Nine of Hands (37242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37242;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37242, 'ace37242-nineofhands');
 
@@ -17981,6 +19289,9 @@ VALUES (37242, 13, True)
      , (37242, 11, True)
      , (37242, 14, True)
      , (37242, 19, True);
+
+/* Weenie - MiscObjects - King of Hands (37246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37246;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37246, 'ace37246-kingofhands');
@@ -18015,6 +19326,9 @@ VALUES (37246, 13, True)
      , (37246, 14, True)
      , (37246, 19, True);
 
+/* Weenie - MiscObjects - Four of Hands (37237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37237;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37237, 'ace37237-fourofhands');
 
@@ -18047,6 +19361,9 @@ VALUES (37237, 13, True)
      , (37237, 11, True)
      , (37237, 14, True)
      , (37237, 19, True);
+
+/* Weenie - MiscObjects - Ten of Eyes (37256) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37256;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37256, 'ace37256-tenofeyes');
@@ -18081,6 +19398,9 @@ VALUES (37256, 13, True)
      , (37256, 14, True)
      , (37256, 19, True);
 
+/* Weenie - MiscObjects - Seven of Hands (37240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37240;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37240, 'ace37240-sevenofhands');
 
@@ -18113,6 +19433,9 @@ VALUES (37240, 13, True)
      , (37240, 11, True)
      , (37240, 14, True)
      , (37240, 19, True);
+
+/* Weenie - MiscObjects - Pyreal Golem Heart (23203) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23203;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23203, 'golemheartpyreal');
@@ -18158,6 +19481,9 @@ VALUES (23203, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23203, 0, 16777882);
 
+/* Weenie - MiscObjects - King of Eyes (37259) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37259;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37259, 'ace37259-kingofeyes');
 
@@ -18190,6 +19516,9 @@ VALUES (37259, 13, True)
      , (37259, 11, True)
      , (37259, 14, True)
      , (37259, 19, True);
+
+/* Weenie - MiscObjects - Infused Amber Shard (52968) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52968;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52968, 'ace52968-infusedambershard');
@@ -18234,6 +19563,9 @@ VALUES (52968, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52968, 0, 16779181);
+
+/* Weenie - MiscObjects - Coalesced Mana (42516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42516;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42516, 'ace42516-coalescedmana');
@@ -18285,6 +19617,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (42516, 0, 16784246)
      , (42516, 1, 16784196)
      , (42516, 2, 16784180);
+
+/* Weenie - MiscObjects - Lightning K'nath Essence (80) (49290) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49290;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49290, 'ace49290-lightningknathessence80');
@@ -18338,6 +19673,9 @@ VALUES (49290, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49290, 0, 16777882);
 
+/* Weenie - MiscObjects - Silver Kindling Stone (9078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9078;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9078, 'stonekindlingsilver');
 
@@ -18381,6 +19719,9 @@ VALUES (9078, 0, 83889680, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9078, 0, 16782860);
+
+/* Weenie - MiscObjects - Sea Grey Kindling Stone (9077) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9077;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9077, 'stonekindlingseagrey');
@@ -18426,6 +19767,9 @@ VALUES (9077, 0, 83889680, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9077, 0, 16782860);
 
+/* Weenie - MiscObjects - Sea Blue Kindling Stone (9076) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9076;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9076, 'stonekindlingseablue');
 
@@ -18470,6 +19814,9 @@ VALUES (9076, 0, 83889680, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9076, 0, 16782860);
 
+/* Weenie - MiscObjects - Bandit Rune Transcription (5845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5845;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5845, 'banditrunetranscription');
 
@@ -18504,6 +19851,9 @@ VALUES (5845, 13, True)
      , (5845, 19, True)
      , (5845, 22, True);
 
+/* Weenie - MiscObjects - Neydisa Rune Transcription (5847) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5847;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5847, 'neydisarunetranscription');
 
@@ -18535,6 +19885,9 @@ VALUES (5847, 13, True)
      , (5847, 14, True)
      , (5847, 19, True)
      , (5847, 22, True);
+
+/* Weenie - MiscObjects - Stonehold Rune Transcription (5846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5846;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5846, 'stoneholdrunetranscription');
@@ -18570,6 +19923,9 @@ VALUES (5846, 13, True)
      , (5846, 19, True)
      , (5846, 22, True);
 
+/* Weenie - MiscObjects - Partial Rune Transcription (5848) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5848;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5848, 'partialrunetranscription');
 
@@ -18601,6 +19957,9 @@ VALUES (5848, 13, True)
      , (5848, 14, True)
      , (5848, 19, True)
      , (5848, 22, True);
+
+/* Weenie - MiscObjects - Frost Elemental Essence (100) (49277) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49277;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49277, 'ace49277-frostelementalessence100');
@@ -18654,6 +20013,9 @@ VALUES (49277, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49277, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Moar Essence (80) (49339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49339;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49339, 'ace49339-acidmoaressence80');
 
@@ -18706,6 +20068,9 @@ VALUES (49339, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49339, 0, 16777882);
 
+/* Weenie - MiscObjects - Infused War Magic (41475) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41475;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41475, 'ace41475-infusedwarmagic');
 
@@ -18735,6 +20100,9 @@ VALUES (41475, 13, True)
      , (41475, 14, True)
      , (41475, 19, True)
      , (41475, 22, True);
+
+/* Weenie - MiscObjects - Infused Life Magic (41474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41474;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41474, 'ace41474-infusedlifemagic');
@@ -18766,6 +20134,9 @@ VALUES (41474, 13, True)
      , (41474, 19, True)
      , (41474, 22, True);
 
+/* Weenie - MiscObjects - Infused Item Magic (41473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41473;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41473, 'ace41473-infuseditemmagic');
 
@@ -18795,6 +20166,9 @@ VALUES (41473, 13, True)
      , (41473, 14, True)
      , (41473, 19, True)
      , (41473, 22, True);
+
+/* Weenie - MiscObjects - Infused Creature Magic (41472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41472;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41472, 'ace41472-infusedcreaturemagic');
@@ -18826,6 +20200,9 @@ VALUES (41472, 13, True)
      , (41472, 19, True)
      , (41472, 22, True);
 
+/* Weenie - MiscObjects - Master of the Five Fold Path (41476) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41476;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41476, 'ace41476-masterofthefivefoldpath');
 
@@ -18855,6 +20232,9 @@ VALUES (41476, 13, True)
      , (41476, 14, True)
      , (41476, 19, True)
      , (41476, 22, True);
+
+/* Weenie - MiscObjects - Critical Protection (29269) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29269;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29269, 'gemaugmentationcriticaldefense');
@@ -18886,6 +20266,9 @@ VALUES (29269, 13, True)
      , (29269, 19, True)
      , (29269, 22, True);
 
+/* Weenie - MiscObjects - Insatiable Eater Jaw (28719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28719;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28719, 'jawinsatiable');
 
@@ -18916,6 +20299,9 @@ VALUES (28719, 13, True)
      , (28719, 19, True)
      , (28719, 22, True);
 
+/* Weenie - MiscObjects - Enduring Enchantment (29271) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29271;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29271, 'gemaugmentationdeathspellsremain');
 
@@ -18945,6 +20331,9 @@ VALUES (29271, 13, True)
      , (29271, 14, True)
      , (29271, 19, True)
      , (29271, 22, True);
+
+/* Weenie - MiscObjects - Lightning Grievver Essence (150) (49377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49377;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49377, 'ace49377-lightninggrievveressence150');
@@ -18998,6 +20387,9 @@ VALUES (49377, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49377, 0, 16777882);
 
+/* Weenie - MiscObjects - Sturdy Armoredillo Hide (8471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8471;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8471, 'armoredillohidesturdy');
 
@@ -19041,6 +20433,9 @@ VALUES (8471, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8471, 0, 16777882);
+
+/* Weenie - MiscObjects - Foolproof Zircon (36636) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36636;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36636, 'ace36636-foolproofzircon');
@@ -19090,6 +20485,9 @@ VALUES (36636, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36636, 0, 16777882);
+
+/* Weenie - MiscObjects - Acid Skeleton Minion Essence (100) (49215) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49215;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49215, 'ace49215-acidskeletonminionessence100');
@@ -19143,6 +20541,9 @@ VALUES (49215, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49215, 0, 16777882);
 
+/* Weenie - MiscObjects - Crystalline Shard (40100) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40100;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40100, 'ace40100-crystallineshard');
 
@@ -19192,6 +20593,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (40100, 0, 16784246)
      , (40100, 1, 16784196)
      , (40100, 2, 16784180);
+
+/* Weenie - MiscObjects - Fire Child Essence (125) (48965) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48965;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48965, 'ace48965-firechildessence125');
@@ -19245,6 +20649,9 @@ VALUES (48965, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48965, 0, 16777882);
 
+/* Weenie - MiscObjects - Pyreal Mote (34352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34352;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34352, 'ace34352-pyrealmote');
 
@@ -19288,6 +20695,9 @@ VALUES (34352, 0, 83889680, 83889680);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34352, 0, 16784015);
+
+/* Weenie - MiscObjects - Frost Child Essence (125) (49278) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49278;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49278, 'ace49278-frostchildessence125');
@@ -19341,6 +20751,9 @@ VALUES (49278, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49278, 0, 16777882);
 
+/* Weenie - MiscObjects - Claw of the Hopeslayer (36927) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36927;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36927, 'ace36927-clawofthehopeslayer');
 
@@ -19370,6 +20783,9 @@ VALUES (36927, 13, True)
      , (36927, 14, True)
      , (36927, 19, True)
      , (36927, 22, True);
+
+/* Weenie - MiscObjects - Fire Zombie Essence (180) (49252) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49252;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49252, 'ace49252-firezombieessence180');
@@ -19423,6 +20839,9 @@ VALUES (49252, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49252, 0, 16777882);
 
+/* Weenie - MiscObjects - Sand Golem Heart (11352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11352;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11352, 'golemheartsand-xp');
 
@@ -19467,6 +20886,9 @@ VALUES (11352, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11352, 0, 16777882);
 
+/* Weenie - MiscObjects - Rusty Lugian Axe (28737) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28737;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28737, 'eaterlugianaxe');
 
@@ -19496,6 +20918,9 @@ VALUES (28737, 13, True)
      , (28737, 14, True)
      , (28737, 19, True)
      , (28737, 22, True);
+
+/* Weenie - MiscObjects - Little Green Seeds (11692) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11692;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11692, 'seedtusker');
@@ -19529,6 +20954,9 @@ VALUES (11692, 13, True)
      , (11692, 14, True)
      , (11692, 19, True)
      , (11692, 22, True);
+
+/* Weenie - MiscObjects - Fire K'nath Essence (125) (49299) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49299;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49299, 'ace49299-fireknathessence125');
@@ -19582,6 +21010,9 @@ VALUES (49299, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49299, 0, 16777882);
 
+/* Weenie - MiscObjects - Bloodletter Drudge Charm (24835) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24835;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24835, 'drudgecharmbloodletter');
 
@@ -19616,6 +21047,9 @@ VALUES (24835, 13, True)
      , (24835, 19, True)
      , (24835, 22, True);
 
+/* Weenie - MiscObjects - Mystic Drudge Charm (24839) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24839;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24839, 'drudgecharmmystic');
 
@@ -19649,6 +21083,9 @@ VALUES (24839, 13, True)
      , (24839, 14, True)
      , (24839, 19, True)
      , (24839, 22, True);
+
+/* Weenie - MiscObjects - Lightning Moar Essence (100) (49347) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49347;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49347, 'ace49347-lightningmoaressence100');
@@ -19702,6 +21139,9 @@ VALUES (49347, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49347, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Elemental Essence (100) (49263) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49263;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49263, 'ace49263-acidelementalessence100');
 
@@ -19753,6 +21193,9 @@ VALUES (49263, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49263, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Phyntos Wasp Essence (100) (49533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49533;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49533, 'ace49533-firephyntoswaspessence100');
@@ -19806,6 +21249,9 @@ VALUES (49533, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49533, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Zombie Essence (150) (49251) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49251;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49251, 'ace49251-firezombieessence150');
 
@@ -19857,6 +21303,9 @@ VALUES (49251, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49251, 0, 16777882);
+
+/* Weenie - MiscObjects - Acid K'nath Essence (100) (49284) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49284;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49284, 'ace49284-acidknathessence100');
@@ -19910,6 +21359,9 @@ VALUES (49284, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49284, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Child Essence (125) (49264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49264;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49264, 'ace49264-acidchildessence125');
 
@@ -19962,6 +21414,9 @@ VALUES (49264, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49264, 0, 16777882);
 
+/* Weenie - MiscObjects - Broken Virindi Consul Mask (25339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25339;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25339, 'maskvirindiconsulbroken');
 
@@ -19991,6 +21446,9 @@ VALUES (25339, 13, True)
      , (25339, 14, True)
      , (25339, 19, True)
      , (25339, 22, True);
+
+/* Weenie - MiscObjects - Glyph of Two Handed Combat (41747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41747;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41747, 'ace41747-glyphoftwohandedcombat');
@@ -20036,6 +21494,9 @@ VALUES (41747, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41747, 0, 16779181);
 
+/* Weenie - MiscObjects - Swamp Stone (3694) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3694;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3694, 'stoneswamp');
 
@@ -20069,6 +21530,9 @@ VALUES (3694, 13, True)
      , (3694, 19, True)
      , (3694, 22, True);
 
+/* Weenie - MiscObjects - Ice Box (25782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25782;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25782, 'icebox');
 
@@ -20101,6 +21565,9 @@ VALUES (25782, 13, True)
      , (25782, 19, True)
      , (25782, 22, True);
 
+/* Weenie - MiscObjects - Ursuin Head (9097) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9097;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9097, 'ursuinheaddecorative');
 
@@ -20132,6 +21599,9 @@ VALUES (9097, 13, True)
      , (9097, 19, True)
      , (9097, 1, True)
      , (9097, 24, True);
+
+/* Weenie - MiscObjects - Ursuin Hunter's Bow (9022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9022;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9022, 'bowdecorative');
@@ -20183,6 +21653,9 @@ VALUES (9022, 0, 16779360)
      , (9022, 3, 16779362)
      , (9022, 4, 16779357);
 
+/* Weenie - MiscObjects - Akiekie Ember (14566) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14566;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14566, 'emberinvoking');
 
@@ -20209,6 +21682,9 @@ VALUES (14566, 13, True)
      , (14566, 14, True)
      , (14566, 19, True)
      , (14566, 22, True);
+
+/* Weenie - MiscObjects - Lightning Phyntos Wasp Essence (80) (49546) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49546;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49546, 'ace49546-lightningphyntoswaspessence80');
@@ -20262,6 +21738,9 @@ VALUES (49546, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49546, 0, 16777882);
 
+/* Weenie - MiscObjects - Olthoi Ichor (10864) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10864;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10864, 'ichorolthoiacid-xp');
 
@@ -20305,6 +21784,9 @@ VALUES (10864, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10864, 0, 16783327);
+
+/* Weenie - MiscObjects - Vial of Organic Acid (9098) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9098;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9098, 'vialorganicacid');
@@ -20351,6 +21833,9 @@ VALUES (9098, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9098, 0, 16783327);
 
+/* Weenie - MiscObjects - Rusted Brass Key (27314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27314;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27314, 'keyrustedbrass');
 
@@ -20384,6 +21869,9 @@ VALUES (27314, 13, True)
      , (27314, 14, True)
      , (27314, 19, True)
      , (27314, 22, True);
+
+/* Weenie - MiscObjects - Burun Idol (27525) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27525;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27525, 'burunfetishhookablelo');
@@ -20422,6 +21910,9 @@ VALUES (27525, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27525, 67113069, 0, 0);
+
+/* Weenie - MiscObjects - Fire Elemental Essence (100) (48963) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48963;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48963, 'ace48963-fireelementalessence100');
@@ -20475,6 +21966,9 @@ VALUES (48963, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48963, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Child Essence (150) (49272) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49272;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49272, 'ace49272-lightningchildessence150');
 
@@ -20527,6 +22021,9 @@ VALUES (49272, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49272, 0, 16777882);
 
+/* Weenie - MiscObjects - Intricate Carving Tool (9295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9295;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9295, 'toolpyramidquest');
 
@@ -20576,6 +22073,9 @@ VALUES (9295, 0, 83886754, 83886754)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9295, 0, 16777906);
 
+/* Weenie - MiscObjects - Puzzle Box (9066) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9066;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9066, 'platecipher');
 
@@ -20610,6 +22110,9 @@ VALUES (9066, 13, True)
      , (9066, 14, True)
      , (9066, 19, True)
      , (9066, 22, True);
+
+/* Weenie - MiscObjects - Dire Mattekar Paw (9412) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9412;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9412, 'mattekarclawdire');
@@ -20650,6 +22153,9 @@ VALUES (9412, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9412, 67111954, 0, 0);
 
+/* Weenie - MiscObjects - Cultist Altar (11556) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11556;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11556, 'altarcultistgen-xp');
 
@@ -20680,6 +22186,9 @@ VALUES (11556, 12, True)
      , (11556, 14, True)
      , (11556, 19, True)
      , (11556, 1, True);
+
+/* Weenie - MiscObjects - Colosseum Coin (36518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36518;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36518, 'ace36518-colosseumcoin');
@@ -20712,6 +22221,9 @@ VALUES (36518, 13, True)
      , (36518, 14, True)
      , (36518, 19, True);
 
+/* Weenie - MiscObjects - Jester's Token (37290) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37290;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37290, 'ace37290-jesterstoken');
 
@@ -20742,6 +22254,9 @@ VALUES (37290, 13, True)
      , (37290, 11, True)
      , (37290, 14, True)
      , (37290, 19, True);
+
+/* Weenie - MiscObjects - Snow Tusker Blood Sample (43742) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43742;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43742, 'ace43742-snowtuskerbloodsample');
@@ -20776,6 +22291,9 @@ VALUES (43742, 13, True)
      , (43742, 11, True)
      , (43742, 14, True)
      , (43742, 19, True);
+
+/* Weenie - MiscObjects - Blizzard Wisp Essence (49309) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49309;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49309, 'ace49309-blizzardwispessence');
@@ -20829,6 +22347,9 @@ VALUES (49309, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49309, 0, 16777882);
 
+/* Weenie - MiscObjects - Incendiary Wisp Essence (49330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49330;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49330, 'ace49330-incendiarywispessence');
 
@@ -20880,6 +22401,9 @@ VALUES (49330, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49330, 0, 16777882);
+
+/* Weenie - MiscObjects - K'nath T'soct Essence (49295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49295;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49295, 'ace49295-knathtsoctessence');
@@ -20933,6 +22457,9 @@ VALUES (49295, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49295, 0, 16777882);
 
+/* Weenie - MiscObjects - Corrosion Wisp Essence (49316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49316;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49316, 'ace49316-corrosionwispessence');
 
@@ -20985,6 +22512,9 @@ VALUES (49316, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49316, 0, 16777882);
 
+/* Weenie - MiscObjects - Eldrytch Web Commendation Ribbon (38229) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38229;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38229, 'ace38229-eldrytchwebcommendationribbon');
 
@@ -21028,6 +22558,9 @@ VALUES (38229, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38229, 0, 16777882);
 
+/* Weenie - MiscObjects - Gauntlet Coin (52797) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52797;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52797, 'ace52797-gauntletcoin');
 
@@ -21059,6 +22592,9 @@ VALUES (52797, 13, True)
      , (52797, 14, True)
      , (52797, 19, True);
 
+/* Weenie - MiscObjects - Unstable Mana Stone (41542) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41542;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41542, 'ace41542-unstablemanastone');
 
@@ -21087,6 +22623,9 @@ VALUES (41542, 13, True)
      , (41542, 14, True)
      , (41542, 19, True)
      , (41542, 22, True);
+
+/* Weenie - MiscObjects - Ancient Mhoire Coin (35383) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35383;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35383, 'ace35383-ancientmhoirecoin');
@@ -21120,6 +22659,9 @@ VALUES (35383, 13, True)
      , (35383, 11, True)
      , (35383, 14, True)
      , (35383, 19, True);
+
+/* Weenie - MiscObjects - A'nekshay Token (44240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44240;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44240, 'ace44240-anekshaytoken');
@@ -21166,6 +22708,9 @@ VALUES (44240, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44240, 0, 16777882);
 
+/* Weenie - MiscObjects - Gauntlet Ticket (52796) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52796;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52796, 'ace52796-gauntletticket');
 
@@ -21201,6 +22746,9 @@ VALUES (52796, 13, True)
      , (52796, 14, True)
      , (52796, 19, True);
 
+/* Weenie - MiscObjects - Tihn (29068) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29068;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29068, 'healingtihn');
 
@@ -21230,6 +22778,9 @@ VALUES (29068, 13, True)
      , (29068, 14, True)
      , (29068, 19, True)
      , (29068, 22, True);
+
+/* Weenie - MiscObjects - Daimyo Idah's Tattered Mask (53476) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53476;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53476, 'ace53476-daimyoidahstatteredmask');
@@ -21267,6 +22818,9 @@ VALUES (53476, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53476, 0, 16796807);
 
+/* Weenie - MiscObjects - Shattered Aetherium Core Sample (41541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41541;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41541, 'ace41541-shatteredaetheriumcoresample');
 
@@ -21298,6 +22852,9 @@ VALUES (41541, 13, True)
      , (41541, 14, True)
      , (41541, 19, True)
      , (41541, 22, True);
+
+/* Weenie - MiscObjects - Stone Tool (6127) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6127;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6127, 'stonetool');
@@ -21336,6 +22893,9 @@ VALUES (6127, 13, True)
      , (6127, 19, True)
      , (6127, 22, True);
 
+/* Weenie - MiscObjects - Menhir Stone (12097) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12097;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12097, 'menhir1-xp');
 
@@ -21365,6 +22925,9 @@ VALUES (12097, 13, True)
      , (12097, 19, True)
      , (12097, 1, True)
      , (12097, 24, True);
+
+/* Weenie - MiscObjects - Menhir Stone (12108) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12108;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12108, 'menhir2-xp');
@@ -21396,6 +22959,9 @@ VALUES (12108, 13, True)
      , (12108, 1, True)
      , (12108, 24, True);
 
+/* Weenie - MiscObjects - Snowman (9008) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9008;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9008, 'snowmanhappyfake');
 
@@ -21421,6 +22987,9 @@ VALUES (9008, 11, True)
      , (9008, 14, True)
      , (9008, 19, True)
      , (9008, 1, True);
+
+/* Weenie - MiscObjects - Token of Modification (32399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32399;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32399, 'ace32399-tokenofmodification');
@@ -21452,6 +23021,9 @@ VALUES (32399, 13, True)
      , (32399, 19, True)
      , (32399, 22, True);
 
+/* Weenie - MiscObjects - Old Gravestone (34129) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34129;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34129, 'ace34129-oldgravestone');
 
@@ -21480,6 +23052,9 @@ VALUES (34129, 11, True)
      , (34129, 14, True)
      , (34129, 19, True)
      , (34129, 1, True);
+
+/* Weenie - MiscObjects - Lightning Elemental Essence (80) (49269) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49269;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49269, 'ace49269-lightningelementalessence80');
@@ -21533,6 +23108,9 @@ VALUES (49269, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49269, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Spectre Essence (125) (49438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49438;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49438, 'ace49438-firespectreessence125');
 
@@ -21585,6 +23163,9 @@ VALUES (49438, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49438, 0, 16777882);
 
+/* Weenie - MiscObjects - Font of Jojii (25818) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25818;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25818, 'fontemptysoul');
 
@@ -21618,6 +23199,9 @@ VALUES (25818, 13, True)
      , (25818, 14, True)
      , (25818, 19, True)
      , (25818, 22, True);
+
+/* Weenie - MiscObjects - Tanned Mattekar Hide (14550) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14550;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14550, 'mattekarhidetanned');
@@ -21661,6 +23245,9 @@ VALUES (14550, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14550, 0, 16777882);
+
+/* Weenie - MiscObjects - Glyph of Dirty Fighting (45370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45370;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45370, 'ace45370-glyphofdirtyfighting');
@@ -21706,6 +23293,9 @@ VALUES (45370, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45370, 0, 16779181);
 
+/* Weenie - MiscObjects - Holiday Garland (52576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52576;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52576, 'ace52576-holidaygarland');
 
@@ -21736,6 +23326,9 @@ VALUES (52576, 13, True)
      , (52576, 14, True)
      , (52576, 19, True)
      , (52576, 22, True);
+
+/* Weenie - MiscObjects - Etheric Seal (19353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19353;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19353, 'keypedestalseal');
@@ -21768,6 +23361,9 @@ VALUES (19353, 13, True)
      , (19353, 14, True)
      , (19353, 19, True)
      , (19353, 22, True);
+
+/* Weenie - MiscObjects - Polar Ursuin Lair (39508) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39508;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39508, 'ace39508-polarursuinlair');
@@ -21802,6 +23398,9 @@ VALUES (39508, 13, True)
      , (39508, 14, True)
      , (39508, 19, True)
      , (39508, 22, True);
+
+/* Weenie - MiscObjects - Aetheria Powder (43133) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43133;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43133, 'ace43133-aetheriapowder');
@@ -21846,6 +23445,9 @@ VALUES (43133, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43133, 0, 16780681);
 
+/* Weenie - MiscObjects - Runic Skull (31226) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31226;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31226, 'ace31226-runicskull');
 
@@ -21879,6 +23481,9 @@ VALUES (31226, 13, True)
      , (31226, 14, True)
      , (31226, 19, True)
      , (31226, 22, True);
+
+/* Weenie - MiscObjects - Acid K'nath Essence (180) (49287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49287;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49287, 'ace49287-acidknathessence180');
@@ -21932,6 +23537,9 @@ VALUES (49287, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49287, 0, 16777882);
 
+/* Weenie - MiscObjects - Exquisite Bone Handle (33982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33982;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33982, 'ace33982-exquisitebonehandle');
 
@@ -21963,6 +23571,9 @@ VALUES (33982, 13, True)
      , (33982, 11, True)
      , (33982, 14, True)
      , (33982, 19, True);
+
+/* Weenie - MiscObjects - Fire Child Essence (180) (48969) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48969;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48969, 'ace48969-firechildessence180');
@@ -22016,6 +23627,9 @@ VALUES (48969, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48969, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning K'nath Essence (180) (49294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49294;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49294, 'ace49294-lightningknathessence180');
 
@@ -22068,6 +23682,9 @@ VALUES (49294, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49294, 0, 16777882);
 
+/* Weenie - MiscObjects - Monouga Laboratory Portal Attunement Gem (35852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35852;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35852, 'ace35852-monougalaboratoryportalattunementgem');
 
@@ -22107,6 +23724,9 @@ VALUES (35852, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35852, 0, 16779181);
+
+/* Weenie - MiscObjects - Invoking Stone (39130) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39130;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39130, 'ace39130-invokingstone');
@@ -22150,6 +23770,9 @@ VALUES (39130, 0, 83888861, 83889680);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39130, 0, 16778862);
+
+/* Weenie - MiscObjects - Small Olthoi Venom Sac (36376) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36376;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36376, 'ace36376-smallolthoivenomsac');
@@ -22196,6 +23819,9 @@ VALUES (36376, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36376, 0, 16777882);
 
+/* Weenie - MiscObjects - Ursuin Cub Kennel (33925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33925;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33925, 'ace33925-ursuincubkennel');
 
@@ -22225,6 +23851,9 @@ VALUES (33925, 13, True)
      , (33925, 14, True)
      , (33925, 19, True)
      , (33925, 22, True);
+
+/* Weenie - MiscObjects - Sprouting Pumpkin Vine (34087) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34087;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34087, 'ace34087-sproutingpumpkinvine');
@@ -22261,6 +23890,9 @@ VALUES (34087, 13, True)
      , (34087, 19, True)
      , (34087, 22, True);
 
+/* Weenie - MiscObjects - Pet Penguin Igloo (33981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33981;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33981, 'ace33981-petpenguinigloo');
 
@@ -22295,6 +23927,9 @@ VALUES (33981, 13, True)
      , (33981, 19, True)
      , (33981, 22, True);
 
+/* Weenie - MiscObjects - Radiant Blood Banner (38719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38719;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38719, 'ace38719-radiantbloodbanner');
 
@@ -22327,6 +23962,9 @@ VALUES (38719, 13, True)
      , (38719, 14, True)
      , (38719, 19, True)
      , (38719, 22, True);
+
+/* Weenie - MiscObjects - Celestial Hand Commendation Ribbon (38228) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38228;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38228, 'ace38228-celestialhandcommendationribbon');
@@ -22371,6 +24009,9 @@ VALUES (38228, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38228, 0, 16777882);
 
+/* Weenie - MiscObjects - Celestial Hand Armor Writ (38544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38544;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38544, 'ace38544-celestialhandarmorwrit');
 
@@ -22404,6 +24045,9 @@ VALUES (38544, 13, True)
      , (38544, 14, True)
      , (38544, 19, True);
 
+/* Weenie - MiscObjects - Experimental Shadow Stone (33697) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33697;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33697, 'ace33697-experimentalshadowstone');
 
@@ -22435,6 +24079,9 @@ VALUES (33697, 13, True)
      , (33697, 19, True)
      , (33697, 22, True);
 
+/* Weenie - MiscObjects - Ornate Bone Key (35504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35504;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35504, 'ace35504-ornatebonekey');
 
@@ -22465,6 +24112,9 @@ VALUES (35504, 13, True)
      , (35504, 11, True)
      , (35504, 14, True)
      , (35504, 19, True);
+
+/* Weenie - MiscObjects - Phyntos Honey (41814) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41814;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41814, 'ace41814-phyntoshoney');
@@ -22509,6 +24159,9 @@ VALUES (41814, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41814, 0, 16780684);
 
+/* Weenie - MiscObjects - Olthoi Larvae Steak (31353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31353;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31353, 'ace31353-olthoilarvaesteak');
 
@@ -22540,6 +24193,9 @@ VALUES (31353, 13, True)
      , (31353, 11, True)
      , (31353, 14, True)
      , (31353, 19, True);
+
+/* Weenie - MiscObjects - Kithless Siraluun Claw (29906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29906;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29906, 'siraluunclawkithless');
@@ -22584,6 +24240,9 @@ VALUES (29906, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29906, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Skeleton Samurai Essence (48956) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48956;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48956, 'ace48956-fireskeletonsamuraiessence');
@@ -22637,6 +24296,9 @@ VALUES (48956, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48956, 0, 16777882);
 
+/* Weenie - MiscObjects - Fossilized Bone (33988) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33988;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33988, 'ace33988-fossilizedbone');
 
@@ -22667,6 +24329,9 @@ VALUES (33988, 13, True)
      , (33988, 14, True)
      , (33988, 19, True)
      , (33988, 22, True);
+
+/* Weenie - MiscObjects - Foolproof Aquamarine (36619) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36619;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36619, 'ace36619-foolproofaquamarine');
@@ -22717,6 +24382,9 @@ VALUES (36619, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36619, 0, 16777882);
 
+/* Weenie - MiscObjects - Pyre Skeleton Jaw (38714) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38714;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38714, 'ace38714-pyreskeletonjaw');
 
@@ -22748,6 +24416,9 @@ VALUES (38714, 13, True)
      , (38714, 11, True)
      , (38714, 14, True)
      , (38714, 19, True);
+
+/* Weenie - MiscObjects - Frost Child Essence (150) (49279) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49279;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49279, 'ace49279-frostchildessence150');
@@ -22801,6 +24472,9 @@ VALUES (49279, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49279, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Wisp Essence (150) (49321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49321;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49321, 'ace49321-lightningwispessence150');
 
@@ -22853,6 +24527,9 @@ VALUES (49321, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49321, 0, 16777882);
 
+/* Weenie - MiscObjects - Hive Splinter (41817) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41817;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41817, 'ace41817-hivesplinter');
 
@@ -22887,6 +24564,9 @@ VALUES (41817, 13, True)
      , (41817, 11, True)
      , (41817, 14, True)
      , (41817, 19, True);
+
+/* Weenie - MiscObjects - Acid Spectre Essence (150) (49425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49425;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49425, 'ace49425-acidspectreessence150');
@@ -22940,6 +24620,9 @@ VALUES (49425, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49425, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Wisp Essence (180) (49322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49322;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49322, 'ace49322-lightningwispessence180');
 
@@ -22991,6 +24674,9 @@ VALUES (49322, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49322, 0, 16777882);
+
+/* Weenie - MiscObjects - K'nath R'ajed Essence (49281) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49281;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49281, 'ace49281-knathrajedessence');
@@ -23044,6 +24730,9 @@ VALUES (49281, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49281, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Wisp Essence (180) (49329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49329, 'ace49329-firewispessence180');
 
@@ -23095,6 +24784,9 @@ VALUES (49329, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49329, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Child Essence (180) (49280) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49280;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49280, 'ace49280-frostchildessence180');
@@ -23148,6 +24840,9 @@ VALUES (49280, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49280, 0, 16777882);
 
+/* Weenie - MiscObjects - Pyre Shroud (35105) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35105;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35105, 'ace35105-pyreshroud');
 
@@ -23178,6 +24873,9 @@ VALUES (35105, 13, True)
      , (35105, 11, True)
      , (35105, 14, True)
      , (35105, 19, True);
+
+/* Weenie - MiscObjects - Foolproof Jet (36625) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36625;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36625, 'ace36625-foolproofjet');
@@ -23227,6 +24925,9 @@ VALUES (36625, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36625, 0, 16777882);
+
+/* Weenie - MiscObjects - Lightning Skeleton Minion Essence (80) (49221) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49221;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49221, 'ace49221-lightningskeletonminionessence80');
@@ -23280,6 +24981,9 @@ VALUES (49221, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49221, 0, 16777882);
 
+/* Weenie - MiscObjects - Brood Matron Elder Tail (24919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24919;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24919, 'broodmatrontailextreme');
 
@@ -23309,6 +25013,9 @@ VALUES (24919, 13, True)
      , (24919, 14, True)
      , (24919, 19, True)
      , (24919, 22, True);
+
+/* Weenie - MiscObjects - Candeth Keep Stamp (24208) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24208;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24208, 'stampsymbolstronghold');
@@ -23355,6 +25062,9 @@ VALUES (24208, 0, 83892954, 83893871)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24208, 0, 16785497);
 
+/* Weenie - MiscObjects - Legionary Pincer (10846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10846;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10846, 'pincerlegionary-xp');
 
@@ -23388,6 +25098,9 @@ VALUES (10846, 13, True)
      , (10846, 19, True)
      , (10846, 22, True);
 
+/* Weenie - MiscObjects - Olthoi Ripper Spine (31354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31354;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31354, 'ace31354-olthoiripperspine');
 
@@ -23420,6 +25133,9 @@ VALUES (31354, 13, True)
      , (31354, 14, True)
      , (31354, 19, True);
 
+/* Weenie - MiscObjects - T'thuun (39372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39372;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39372, 'ace39372-tthuun');
 
@@ -23450,6 +25166,9 @@ VALUES (39372, 13, True)
      , (39372, 19, True)
      , (39372, 1, True)
      , (39372, 24, True);
+
+/* Weenie - MiscObjects - Attunement Crystal (44827) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44827;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44827, 'ace44827-attunementcrystal');
@@ -23483,6 +25202,9 @@ VALUES (44827, 13, True)
      , (44827, 19, True)
      , (44827, 22, True);
 
+/* Weenie - MiscObjects - Strange Purple Crystal from The Shadows (43895) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43895;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43895, 'ace43895-strangepurplecrystalfromtheshadows');
 
@@ -23513,6 +25235,9 @@ VALUES (43895, 13, True)
      , (43895, 19, True)
      , (43895, 22, True);
 
+/* Weenie - MiscObjects - Azaxis Token (34455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34455;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34455, 'ace34455-azaxistoken');
 
@@ -23542,6 +25267,9 @@ VALUES (34455, 13, True)
      , (34455, 14, True)
      , (34455, 19, True)
      , (34455, 22, True);
+
+/* Weenie - MiscObjects - Marble Keyring (23199) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23199;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23199, 'keyringvodlow');
@@ -23583,6 +25311,9 @@ VALUES (23199, 13, True)
      , (23199, 19, True)
      , (23199, 22, True);
 
+/* Weenie - MiscObjects - Granite Keyring (23198) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23198;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23198, 'keyringvodhigh');
 
@@ -23622,6 +25353,9 @@ VALUES (23198, 13, True)
      , (23198, 14, True)
      , (23198, 19, True)
      , (23198, 22, True);
+
+/* Weenie - MiscObjects - Black Marrow Keyring (31826) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31826;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31826, 'ace31826-blackmarrowkeyring');
@@ -23663,6 +25397,9 @@ VALUES (31826, 13, True)
      , (31826, 19, True)
      , (31826, 22, True);
 
+/* Weenie - MiscObjects - Golden Shuriken of Tanada (34015) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34015;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34015, 'ace34015-goldenshurikenoftanada');
 
@@ -23692,6 +25429,9 @@ VALUES (34015, 13, True)
      , (34015, 14, True)
      , (34015, 19, True)
      , (34015, 22, True);
+
+/* Weenie - MiscObjects - Writ of Apology (37559) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37559;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37559, 'ace37559-writofapology');
@@ -23728,6 +25468,9 @@ VALUES (37559, 13, True)
      , (37559, 11, True)
      , (37559, 14, True)
      , (37559, 19, True);
+
+/* Weenie - MiscObjects - Iron Golem Essence (48884) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48884;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48884, 'ace48884-irongolemessence');
@@ -23781,6 +25524,9 @@ VALUES (48884, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48884, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Spectre Essence (150) (49432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49432;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49432, 'ace49432-lightningspectreessence150');
 
@@ -23832,6 +25578,9 @@ VALUES (49432, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49432, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Skeleton Bushi Essence (180) (49232) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49232;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49232, 'ace49232-frostskeletonbushiessence180');
@@ -23885,6 +25634,9 @@ VALUES (49232, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49232, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Zombie Essence (180) (49238) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49238;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49238, 'ace49238-acidzombieessence180');
 
@@ -23936,6 +25688,9 @@ VALUES (49238, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49238, 0, 16777882);
+
+/* Weenie - MiscObjects - Acid Skeleton Bushi Essence (150) (49217) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49217;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49217, 'ace49217-acidskeletonbushiessence150');
@@ -23989,6 +25744,9 @@ VALUES (49217, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49217, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Skeleton Bushi Essence (180) (49225) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49225;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49225, 'ace49225-lightningskeletonbushiessence180');
 
@@ -24041,6 +25799,9 @@ VALUES (49225, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49225, 0, 16777882);
 
+/* Weenie - MiscObjects - Message from Ler Rhan to Ter Shen. (44435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44435, 'ace44435-messagefromlerrhantotershen');
 
@@ -24080,6 +25841,9 @@ VALUES (44435, 0, 83888868, 83892604);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44435, 0, 16783934);
 
+/* Weenie - MiscObjects - Gold Shallows Shredder Fin (31904) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31904;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31904, 'ace31904-goldshallowsshredderfin');
 
@@ -24109,6 +25873,9 @@ VALUES (31904, 13, True)
      , (31904, 14, True)
      , (31904, 19, True)
      , (31904, 22, True);
+
+/* Weenie - MiscObjects - Scarecrow Body with two arms (28894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28894;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28894, 'torsoarmscarecrow');
@@ -24161,6 +25928,9 @@ VALUES (28894, 0, 16784901)
      , (28894, 4, 16790866)
      , (28894, 5, 16790869)
      , (28894, 6, 16784926);
+
+/* Weenie - MiscObjects - Scarecrow Body with one arm (28897) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28897;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28897, 'torsolegscarecrow');
@@ -24224,6 +25994,9 @@ VALUES (28897, 0, 16784901)
      , (28897, 9, 16790869)
      , (28897, 10, 16784926);
 
+/* Weenie - MiscObjects - Little Green Seeds (11687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11687;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11687, 'seedsmall');
 
@@ -24257,6 +26030,9 @@ VALUES (11687, 13, True)
      , (11687, 19, True)
      , (11687, 22, True);
 
+/* Weenie - MiscObjects - Misshapen Bone Fragment (34963) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34963;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34963, 'ace34963-misshapenbonefragment');
 
@@ -24288,6 +26064,9 @@ VALUES (34963, 13, True)
      , (34963, 14, True)
      , (34963, 19, True)
      , (34963, 22, True);
+
+/* Weenie - MiscObjects - Glyph of Slashing (37332) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37332;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37332, 'ace37332-glyphofslashing');
@@ -24333,6 +26112,9 @@ VALUES (37332, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37332, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Mana (37318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37318;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37318, 'ace37318-glyphofmana');
 
@@ -24376,6 +26158,9 @@ VALUES (37318, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37318, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Stamina (37333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37333;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37333, 'ace37333-glyphofstamina');
@@ -24421,6 +26206,9 @@ VALUES (37333, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37333, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Magic Item Tinkering (38760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38760;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38760, 'ace38760-glyphofmagicitemtinkering');
 
@@ -24464,6 +26252,9 @@ VALUES (38760, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38760, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Item Tinkering (37310) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37310;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37310, 'ace37310-glyphofitemtinkering');
@@ -24509,6 +26300,9 @@ VALUES (37310, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37310, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Weapon Tinkering (37341) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37341;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37341, 'ace37341-glyphofweapontinkering');
 
@@ -24553,6 +26347,9 @@ VALUES (37341, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37341, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Salvaging (37330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37330;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37330, 'ace37330-glyphofsalvaging');
 
@@ -24596,6 +26393,9 @@ VALUES (37330, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37330, 0, 16779181);
+
+/* Weenie - MiscObjects - Grey Spine (3689) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3689;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3689, 'spinegrey');
@@ -24644,6 +26444,9 @@ VALUES (3689, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3689, 0, 16777882);
 
+/* Weenie - MiscObjects - Shore Armoredillo Spine (3691) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3691;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3691, 'spineshore');
 
@@ -24690,6 +26493,9 @@ VALUES (3691, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3691, 0, 16777882);
+
+/* Weenie - MiscObjects - K'nath Y'nda Essence (49288) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49288;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49288, 'ace49288-knathyndaessence');
@@ -24743,6 +26549,9 @@ VALUES (49288, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49288, 0, 16777882);
 
+/* Weenie - MiscObjects - Glyph of Arcane Lore (37344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37344;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37344, 'ace37344-glyphofarcanelore');
 
@@ -24786,6 +26595,9 @@ VALUES (37344, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37344, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Flame (37301) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37301;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37301, 'ace37301-glyphofflame');
@@ -24831,6 +26643,9 @@ VALUES (37301, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37301, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Coordination (37350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37350;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37350, 'ace37350-glyphofcoordination');
 
@@ -24874,6 +26689,9 @@ VALUES (37350, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37350, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Quickness (37328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37328;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37328, 'ace37328-glyphofquickness');
@@ -24919,6 +26737,9 @@ VALUES (37328, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37328, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Armor (37345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37345;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37345, 'ace37345-glyphofarmor');
 
@@ -24962,6 +26783,9 @@ VALUES (37345, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37345, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Jump (37311) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37311;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37311, 'ace37311-glyphofjump');
@@ -25007,6 +26831,9 @@ VALUES (37311, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37311, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Dual Wield (45371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45371;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45371, 'ace45371-glyphofdualwield');
 
@@ -25050,6 +26877,9 @@ VALUES (45371, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45371, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Creature Enchantment (37351) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37351;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37351, 'ace37351-glyphofcreatureenchantment');
@@ -25095,6 +26925,9 @@ VALUES (37351, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37351, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Self (37331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37331;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37331, 'ace37331-glyphofself');
 
@@ -25138,6 +26971,9 @@ VALUES (37331, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37331, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Leadership (37312) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37312;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37312, 'ace37312-glyphofleadership');
@@ -25183,6 +27019,9 @@ VALUES (37312, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37312, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Light Weapons (37370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37370;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37370, 'ace37370-glyphoflightweapons');
 
@@ -25226,6 +27065,9 @@ VALUES (37370, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37370, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Light Weapons (37366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37366;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37366, 'ace37366-glyphoflightweapons');
@@ -25271,6 +27113,9 @@ VALUES (37366, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37366, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Sneak Attack (45374) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45374;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45374, 'ace45374-glyphofsneakattack');
 
@@ -25314,6 +27159,9 @@ VALUES (45374, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45374, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Healing (37304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37304;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37304, 'ace37304-glyphofhealing');
@@ -25359,6 +27207,9 @@ VALUES (37304, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37304, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Fletching (37302) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37302;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37302, 'ace37302-glyphoffletching');
 
@@ -25402,6 +27253,9 @@ VALUES (37302, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37302, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Loyalty (37316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37316;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37316, 'ace37316-glyphofloyalty');
@@ -25447,6 +27301,9 @@ VALUES (37316, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37316, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Item Enchantment (37309) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37309;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37309, 'ace37309-glyphofitemenchantment');
 
@@ -25490,6 +27347,9 @@ VALUES (37309, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37309, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of War Magic (37340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37340;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37340, 'ace37340-glyphofwarmagic');
@@ -25535,6 +27395,9 @@ VALUES (37340, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37340, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Cooking (37349) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37349;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37349, 'ace37349-glyphofcooking');
 
@@ -25578,6 +27441,9 @@ VALUES (37349, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37349, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Deception (37352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37352;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37352, 'ace37352-glyphofdeception');
@@ -25623,6 +27489,9 @@ VALUES (37352, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37352, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Void Magic (43380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43380;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43380, 'ace43380-glyphofvoidmagic');
 
@@ -25666,6 +27535,9 @@ VALUES (43380, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43380, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Magic Defense (37317) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37317;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37317, 'ace37317-glyphofmagicdefense');
@@ -25711,6 +27583,9 @@ VALUES (37317, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37317, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Person Appraisal (37326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37326, 'ace37326-glyphofpersonappraisal');
 
@@ -25754,6 +27629,9 @@ VALUES (37326, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37326, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Life Magic (37313) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37313;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37313, 'ace37313-glyphoflifemagic');
@@ -25799,6 +27677,9 @@ VALUES (37313, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37313, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Missile Weapons (37371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37371;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37371, 'ace37371-glyphofmissileweapons');
 
@@ -25842,6 +27723,9 @@ VALUES (37371, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37371, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Focus (37303) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37303;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37303, 'ace37303-glyphoffocus');
@@ -25887,6 +27771,9 @@ VALUES (37303, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37303, 0, 16779181);
 
+/* Weenie - MiscObjects - Experience Certificate (46415) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46415;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46415, 'ace46415-experiencecertificate');
 
@@ -25916,6 +27803,9 @@ VALUES (46415, 13, True)
      , (46415, 11, True)
      , (46415, 14, True)
      , (46415, 19, True);
+
+/* Weenie - MiscObjects - Small Niffis Shell (10704) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10704;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10704, 'niffisshellsmall');
@@ -25954,6 +27844,9 @@ VALUES (10704, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (10704, 67112941, 0, 0);
 
+/* Weenie - MiscObjects - Niffis Shell (10703) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10703;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10703, 'niffisshelllarge');
 
@@ -25990,6 +27883,9 @@ VALUES (10703, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (10703, 67112940, 0, 0);
+
+/* Weenie - MiscObjects - Marsh Siraluun Claw (11367) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11367;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11367, 'siraluunclawmarsh-xp');
@@ -26035,6 +27931,9 @@ VALUES (11367, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11367, 0, 16777882);
 
+/* Weenie - MiscObjects - Strand Siraluun Claw (11368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11368;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11368, 'siraluunclawstrand-xp');
 
@@ -26078,6 +27977,9 @@ VALUES (11368, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11368, 0, 16777882);
+
+/* Weenie - MiscObjects - Academy Stamp (20854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20854;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20854, 'stampsymbol1');
@@ -26124,6 +28026,9 @@ VALUES (20854, 0, 83892954, 83893871)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20854, 0, 16785497);
 
+/* Weenie - MiscObjects - Nefane Shell (25903) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25903;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25903, 'shellnefane');
 
@@ -26168,6 +28073,9 @@ VALUES (25903, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25903, 0, 16777882);
 
+/* Weenie - MiscObjects - Alloy Tool (25318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25318;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25318, 'undeadmechanism4');
 
@@ -26196,6 +28104,9 @@ VALUES (25318, 13, True)
      , (25318, 14, True)
      , (25318, 19, True)
      , (25318, 22, True);
+
+/* Weenie - MiscObjects - Tusker Crimsonback Tusk (22421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22421;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22421, 'tuskcrimsonback');
@@ -26226,6 +28137,9 @@ VALUES (22421, 13, True)
      , (22421, 14, True)
      , (22421, 19, True)
      , (22421, 22, True);
+
+/* Weenie - MiscObjects - Arshid's High-Stakes Gambling Token (9481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9481;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9481, 'tokengamblinghighgha');
@@ -26269,6 +28183,9 @@ VALUES (9481, 0, 83893248, 83893252)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9481, 0, 16785707);
 
+/* Weenie - MiscObjects - Monty's High-Stakes Gambling Token (9480) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9480;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9480, 'tokengamblinghighalu');
 
@@ -26310,6 +28227,9 @@ VALUES (9480, 0, 83893248, 83893252)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9480, 0, 16785707);
+
+/* Weenie - MiscObjects - Gan-Zo's High-Stakes Gambling Token (9482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9482;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9482, 'tokengamblinghighsho');
@@ -26353,6 +28273,9 @@ VALUES (9482, 0, 83893248, 83893252)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9482, 0, 16785707);
 
+/* Weenie - MiscObjects - Crystal Nodule (8369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8369;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8369, 'gemknath');
 
@@ -26391,6 +28314,9 @@ VALUES (8369, 13, True)
      , (8369, 19, True)
      , (8369, 22, True);
 
+/* Weenie - MiscObjects - Gelidite Dais (15855) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15855;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15855, 'diasgelidite');
 
@@ -26428,6 +28354,9 @@ VALUES (15855, 0, 83889697, 83892058)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15855, 0, 16780313);
+
+/* Weenie - MiscObjects - Banderling Bone Ring (24830) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24830;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24830, 'banderlingboneringscalper');
@@ -26473,6 +28402,9 @@ VALUES (24830, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24830, 0, 16777882);
 
+/* Weenie - MiscObjects - Eviscerator Token (10859) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10859;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10859, 'tokenbutcher-xp');
 
@@ -26516,6 +28448,9 @@ VALUES (10859, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10859, 0, 16777882);
 
+/* Weenie - MiscObjects - Blueprints for a Burun Fortress (28073) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28073;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28073, 'blueprintsburunfort');
 
@@ -26551,6 +28486,9 @@ VALUES (28073, 13, True)
      , (28073, 19, True)
      , (28073, 22, True);
 
+/* Weenie - MiscObjects - Armored Undead Body with one arm (28896) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28896;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28896, 'torsolegarmoredundead');
 
@@ -26581,6 +28519,9 @@ VALUES (28896, 13, True)
      , (28896, 19, True)
      , (28896, 22, True);
 
+/* Weenie - MiscObjects - Alloy Turbine (25334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25334;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25334, 'undeadmechanism20');
 
@@ -26609,6 +28550,9 @@ VALUES (25334, 13, True)
      , (25334, 14, True)
      , (25334, 19, True)
      , (25334, 22, True);
+
+/* Weenie - MiscObjects - Engorged Eater Jaw (28725) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28725;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28725, 'jawengorged');
@@ -26640,6 +28584,9 @@ VALUES (28725, 13, True)
      , (28725, 19, True)
      , (28725, 22, True);
 
+/* Weenie - MiscObjects - Voracious Eater Jaw (28726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28726;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28726, 'jawvoracious');
 
@@ -26669,6 +28616,9 @@ VALUES (28726, 13, True)
      , (28726, 14, True)
      , (28726, 19, True)
      , (28726, 22, True);
+
+/* Weenie - MiscObjects - Baby Drudge Crate (33919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33919;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33919, 'ace33919-babydrudgecrate');
@@ -26702,6 +28652,9 @@ VALUES (33919, 13, True)
      , (33919, 14, True)
      , (33919, 19, True)
      , (33919, 22, True);
+
+/* Weenie - MiscObjects - Ursuin Body with Two Arms (32172) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32172;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32172, 'ace32172-ursuinbodywithtwoarms');
@@ -26737,6 +28690,9 @@ VALUES (32172, 13, True)
      , (32172, 14, True)
      , (32172, 19, True)
      , (32172, 22, True);
+
+/* Weenie - MiscObjects - Pest Control Plaque (32720) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32720;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32720, 'ace32720-pestcontrolplaque');
@@ -26774,6 +28730,9 @@ VALUES (32720, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32720, 67111923, 0, 0);
 
+/* Weenie - MiscObjects - Nymph Maniac Plaque (32722) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32722;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32722, 'ace32722-nymphmaniacplaque');
 
@@ -26809,6 +28768,9 @@ VALUES (32722, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32722, 67111923, 0, 0);
+
+/* Weenie - MiscObjects - Perforated Knight Plaque (32721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32721;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32721, 'ace32721-perforatedknightplaque');
@@ -26846,6 +28808,9 @@ VALUES (32721, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32721, 67111919, 0, 0);
 
+/* Weenie - MiscObjects - Polardillo Pummeler Plaque (31615) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31615;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31615, 'ace31615-polardillopummelerplaque');
 
@@ -26881,6 +28846,9 @@ VALUES (31615, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31615, 67111919, 0, 0);
+
+/* Weenie - MiscObjects - Blood Shreth Butcher Plaque (31617) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31617;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31617, 'ace31617-bloodshrethbutcherplaque');
@@ -26918,6 +28886,9 @@ VALUES (31617, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31617, 67111919, 0, 0);
 
+/* Weenie - MiscObjects - Dire Mattekar Dispatcher Plaque (31612) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31612;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31612, 'ace31612-diremattekardispatcherplaque');
 
@@ -26953,6 +28924,9 @@ VALUES (31612, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31612, 67111923, 0, 0);
+
+/* Weenie - MiscObjects - Siraluun Slasher Plaque (32113) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32113;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32113, 'ace32113-siraluunslasherplaque');
@@ -26990,6 +28964,9 @@ VALUES (32113, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32113, 67111923, 0, 0);
 
+/* Weenie - MiscObjects - Windreave Stalker Plaque (32114) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32114;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32114, 'ace32114-windreavestalkerplaque');
 
@@ -27021,6 +28998,9 @@ VALUES (32114, 13, True)
      , (32114, 14, True)
      , (32114, 19, True)
      , (32114, 22, True);
+
+/* Weenie - MiscObjects - Ebon Gromnie Eradicator Plaque (31608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31608;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31608, 'ace31608-ebongromnieeradicatorplaque');
@@ -27058,6 +29038,9 @@ VALUES (31608, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31608, 67111921, 0, 0);
 
+/* Weenie - MiscObjects - Deathcap Defeater Plaque (31620) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31620;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31620, 'ace31620-deathcapdefeaterplaque');
 
@@ -27093,6 +29076,9 @@ VALUES (31620, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31620, 67111923, 0, 0);
+
+/* Weenie - MiscObjects - Arctic Mattekar Annihilator Plaque (31611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31611;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31611, 'ace31611-arcticmattekarannihilatorplaque');
@@ -27130,6 +29116,9 @@ VALUES (31611, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31611, 67111921, 0, 0);
 
+/* Weenie - MiscObjects - Plate Armoredillo Punisher Plaque (31603) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31603;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31603, 'ace31603-platearmoredillopunisherplaque');
 
@@ -27166,6 +29155,9 @@ VALUES (31603, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31603, 67111921, 0, 0);
 
+/* Weenie - MiscObjects - Polar Ursuin Pounder Plaque (31621) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31621;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31621, 'ace31621-polarursuinpounderplaque');
 
@@ -27201,6 +29193,9 @@ VALUES (31621, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31621, 67111921, 0, 0);
+
+/* Weenie - MiscObjects - Festival Shirt (36451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36451;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36451, 'ace36451-festivalshirt');
@@ -27251,6 +29246,9 @@ VALUES (36451, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36451, 0, 16779351);
 
+/* Weenie - MiscObjects - Ruined Amulet of Missile Weapons (15760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15760;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15760, 'amuletruinedatlatl');
 
@@ -27297,6 +29295,9 @@ VALUES (15760, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15760, 0, 16778348);
 
+/* Weenie - MiscObjects - Directive Keyring (23195) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23195;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23195, 'keyringdirective');
 
@@ -27336,6 +29337,9 @@ VALUES (23195, 13, True)
      , (23195, 14, True)
      , (23195, 19, True)
      , (23195, 22, True);
+
+/* Weenie - MiscObjects - Blighted Moarsmen Scale (38164) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38164;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38164, 'ace38164-blightedmoarsmenscale');
@@ -27380,6 +29384,9 @@ VALUES (38164, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38164, 0, 16777882);
 
+/* Weenie - MiscObjects - Hero Token (35810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35810;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35810, 'ace35810-herotoken');
 
@@ -27410,6 +29417,9 @@ VALUES (35810, 13, True)
      , (35810, 14, True)
      , (35810, 19, True)
      , (35810, 22, True);
+
+/* Weenie - MiscObjects - Embroidered Bag (29869) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29869;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29869, 'bagsiraluunlittoral2');
@@ -27444,6 +29454,9 @@ VALUES (29869, 13, True)
      , (29869, 19, True)
      , (29869, 22, True);
 
+/* Weenie - MiscObjects - Embroidered Bag (29873) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29873;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29873, 'bagsiraluunmarsh1');
 
@@ -27476,6 +29489,9 @@ VALUES (29873, 13, True)
      , (29873, 14, True)
      , (29873, 19, True)
      , (29873, 22, True);
+
+/* Weenie - MiscObjects - Embroidered Bag (29878) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29878;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29878, 'bagsiraluunstrand1');
@@ -27510,6 +29526,9 @@ VALUES (29878, 13, True)
      , (29878, 19, True)
      , (29878, 22, True);
 
+/* Weenie - MiscObjects - Embroidered Bag (29883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29883;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29883, 'bagsiraluuntidal1');
 
@@ -27543,6 +29562,9 @@ VALUES (29883, 13, True)
      , (29883, 19, True)
      , (29883, 22, True);
 
+/* Weenie - MiscObjects - Sharp Tusker Slave Tusk (19478) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19478;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19478, 'tuskerslavetusk');
 
@@ -27572,6 +29594,9 @@ VALUES (19478, 13, True)
      , (19478, 14, True)
      , (19478, 19, True)
      , (19478, 22, True);
+
+/* Weenie - MiscObjects - Mite Head (28889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28889;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28889, 'headmite');
@@ -27604,6 +29629,9 @@ VALUES (28889, 13, True)
      , (28889, 19, True)
      , (28889, 22, True);
 
+/* Weenie - MiscObjects - Drudge Head (8145) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8145;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8145, 'drudgehead');
 
@@ -27634,6 +29662,9 @@ VALUES (8145, 13, True)
      , (8145, 14, True)
      , (8145, 19, True)
      , (8145, 22, True);
+
+/* Weenie - MiscObjects - Zombie Head (12225) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12225;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12225, 'zombiehead');
@@ -27669,6 +29700,9 @@ VALUES (12225, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12225, 0, 16787385);
 
+/* Weenie - MiscObjects - Yard Balloons (30737) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30737;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30737, 'newyearsgiftyardballoon');
 
@@ -27697,6 +29731,9 @@ VALUES (30737, 13, True)
      , (30737, 14, True)
      , (30737, 19, True)
      , (30737, 22, True);
+
+/* Weenie - MiscObjects - Mite Leg Bone (25899) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25899;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25899, 'mitecolossallegbone');
@@ -27742,6 +29779,9 @@ VALUES (25899, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25899, 0, 16777882);
 
+/* Weenie - MiscObjects - Bottle of Crystal Champagne (30736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30736;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30736, 'newyearsgiftcrystalchampagne');
 
@@ -27770,6 +29810,9 @@ VALUES (30736, 13, True)
      , (30736, 14, True)
      , (30736, 19, True)
      , (30736, 22, True);
+
+/* Weenie - MiscObjects - Staff Glyph (6327) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6327;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6327, 'glyphstaff');
@@ -27808,6 +29851,9 @@ VALUES (6327, 13, True)
      , (6327, 19, True)
      , (6327, 22, True);
 
+/* Weenie - MiscObjects - Dagger Glyph (6324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6324;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6324, 'glyphdagger');
 
@@ -27845,6 +29891,9 @@ VALUES (6324, 13, True)
      , (6324, 19, True)
      , (6324, 22, True);
 
+/* Weenie - MiscObjects - Olthoi Femur (24235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24235;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24235, 'olthoifemur');
 
@@ -27874,6 +29923,9 @@ VALUES (24235, 13, True)
      , (24235, 14, True)
      , (24235, 19, True)
      , (24235, 22, True);
+
+/* Weenie - MiscObjects - Crystal Vase with Sunflowers (15721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15721;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15721, 'vasesunflower5');
@@ -27910,6 +29962,9 @@ VALUES (15721, 13, True)
      , (15721, 19, True)
      , (15721, 22, True);
 
+/* Weenie - MiscObjects - Pedestal with a Floral Arrangement (15831) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15831;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15831, 'pedestalvasesunflower5');
 
@@ -27939,6 +29994,9 @@ VALUES (15831, 13, True)
      , (15831, 14, True)
      , (15831, 19, True)
      , (15831, 22, True);
+
+/* Weenie - MiscObjects - An Unlocked Large Mnemosyne (9311) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9311;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9311, 'pyramidgreenlargeunlocked');
@@ -27973,6 +30031,9 @@ VALUES (9311, 13, True)
      , (9311, 19, True)
      , (9311, 22, True);
 
+/* Weenie - MiscObjects - Armoredillo Egg (33923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33923;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33923, 'ace33923-armoredilloegg');
 
@@ -28006,6 +30067,9 @@ VALUES (33923, 13, True)
      , (33923, 14, True)
      , (33923, 19, True)
      , (33923, 22, True);
+
+/* Weenie - MiscObjects - Braided Drudge Ravener Guts (7074) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7074;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7074, 'gutsdrudgeravenerbraided');
@@ -28049,6 +30113,9 @@ VALUES (7074, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7074, 0, 16777882);
+
+/* Weenie - MiscObjects - Ruined Amulet of Missile Weapons (15762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15762;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15762, 'amuletruinedbow');
@@ -28095,6 +30162,9 @@ VALUES (15762, 0, 83886719, 83886719);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15762, 0, 16778348);
+
+/* Weenie - MiscObjects - Hoary Armoredillo Spine (22950) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22950;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22950, 'spinehoary');
@@ -28143,6 +30213,9 @@ VALUES (22950, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22950, 0, 16777882);
 
+/* Weenie - MiscObjects - Mosswart Thanking Stone (27894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27894;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27894, 'mosswartthankingstonebleeargh');
 
@@ -28177,6 +30250,9 @@ VALUES (27894, 13, True)
      , (27894, 19, True)
      , (27894, 22, True);
 
+/* Weenie - MiscObjects - Sho Brain (28734) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28734;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28734, 'eatershobrain');
 
@@ -28206,6 +30282,9 @@ VALUES (28734, 13, True)
      , (28734, 14, True)
      , (28734, 19, True)
      , (28734, 22, True);
+
+/* Weenie - MiscObjects - Penguin Wing (28736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28736;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28736, 'eaterpenguinwing');
@@ -28238,6 +30317,9 @@ VALUES (28736, 13, True)
      , (28736, 14, True)
      , (28736, 19, True)
      , (28736, 22, True);
+
+/* Weenie - MiscObjects - Foolproof (36623) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36623;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36623, 'ace36623-foolproof');
@@ -28288,6 +30370,9 @@ VALUES (36623, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36623, 0, 16777882);
 
+/* Weenie - MiscObjects - Foolproof (36620) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36620;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36620, 'ace36620-foolproof');
 
@@ -28336,6 +30421,9 @@ VALUES (36620, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36620, 0, 16777882);
+
+/* Weenie - MiscObjects - Foolproof (36621) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36621;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36621, 'ace36621-foolproof');
@@ -28386,6 +30474,9 @@ VALUES (36621, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36621, 0, 16777882);
 
+/* Weenie - MiscObjects - Rust Gromnie Tooth (28209) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28209;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28209, 'gromnietoothrust');
 
@@ -28429,6 +30520,9 @@ VALUES (28209, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28209, 0, 16777882);
+
+/* Weenie - MiscObjects - Foolproof (36626) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36626;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36626, 'ace36626-foolproof');
@@ -28479,6 +30573,9 @@ VALUES (36626, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36626, 0, 16777882);
 
+/* Weenie - MiscObjects - Ivory Gromnie Hide (4236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4236;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4236, 'gromniehide');
 
@@ -28518,6 +30615,9 @@ VALUES (4236, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4236, 0, 16777882);
+
+/* Weenie - MiscObjects - Foolproof (36628) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36628;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36628, 'ace36628-foolproof');
@@ -28568,6 +30668,9 @@ VALUES (36628, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36628, 0, 16777882);
 
+/* Weenie - MiscObjects - Large Sclavus Hide (9259) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9259;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9259, 'sclavushidelarge');
 
@@ -28607,6 +30710,9 @@ VALUES (9259, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9259, 0, 16777882);
+
+/* Weenie - MiscObjects - Foolproof (36624) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36624;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36624, 'ace36624-foolproof');
@@ -28657,6 +30763,9 @@ VALUES (36624, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36624, 0, 16777882);
 
+/* Weenie - MiscObjects - Knath Husk (25740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25740;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25740, 'headknathgreentriangle');
 
@@ -28689,6 +30798,9 @@ VALUES (25740, 13, True)
      , (25740, 14, True)
      , (25740, 19, True)
      , (25740, 22, True);
+
+/* Weenie - MiscObjects - Plate Armoredillo Spine (22951) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22951;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22951, 'spineplate');
@@ -28737,6 +30849,9 @@ VALUES (22951, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22951, 0, 16777882);
 
+/* Weenie - MiscObjects - Aged Falatacot Scroll (38616) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38616;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38616, 'ace38616-agedfalatacotscroll');
 
@@ -28766,6 +30881,9 @@ VALUES (38616, 13, True)
      , (38616, 14, True)
      , (38616, 19, True)
      , (38616, 22, True);
+
+/* Weenie - MiscObjects - Platinum Golem Heart (23202) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23202;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23202, 'golemheartplatinum');
@@ -28811,6 +30929,9 @@ VALUES (23202, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23202, 0, 16777882);
 
+/* Weenie - MiscObjects - Vapor Golem Heart (11353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11353;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11353, 'golemheartvapor-xp');
 
@@ -28854,6 +30975,9 @@ VALUES (11353, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11353, 0, 16777882);
+
+/* Weenie - MiscObjects - Ruddy Gromnie Hide (28203) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28203;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28203, 'gromniehiderust');
@@ -28899,6 +31023,9 @@ VALUES (28203, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28203, 0, 16777882);
 
+/* Weenie - MiscObjects - Large Armoredillo Hide (4234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4234;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4234, 'armoredillohidelarge');
 
@@ -28943,6 +31070,9 @@ VALUES (4234, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4234, 0, 16777882);
 
+/* Weenie - MiscObjects - Jungle Phyntos Wasp Wing (8426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8426;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8426, 'waspwingjungle');
 
@@ -28981,6 +31111,9 @@ VALUES (8426, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8426, 67113046, 0, 0);
+
+/* Weenie - MiscObjects - Wood Heart (3673) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3673;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3673, 'golemheartwood');
@@ -29026,6 +31159,9 @@ VALUES (3673, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3673, 0, 16777882);
 
+/* Weenie - MiscObjects - Sable Gromnie Tooth (28210) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28210;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28210, 'gromnietoothsable');
 
@@ -29070,6 +31206,9 @@ VALUES (28210, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28210, 0, 16777882);
 
+/* Weenie - MiscObjects - Ebon Gromnie Tooth (28208) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28208;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28208, 'gromnietoothebon');
 
@@ -29109,6 +31248,9 @@ VALUES (28208, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28208, 0, 16777882);
+
+/* Weenie - MiscObjects - Gold Golem Heart (28520) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28520;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28520, 'golemheartgold');
@@ -29154,6 +31296,9 @@ VALUES (28520, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28520, 0, 16777882);
 
+/* Weenie - MiscObjects - Pulsating Bony Lump (35994) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35994;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35994, 'ace35994-pulsatingbonylump');
 
@@ -29190,6 +31335,9 @@ VALUES (35994, 0, 83888868, 83892604);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35994, 0, 16783934);
 
+/* Weenie - MiscObjects - Fenmalain Key (8020) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8020;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8020, 'keyfenmalain');
 
@@ -29223,6 +31371,9 @@ VALUES (8020, 13, True)
      , (8020, 14, True)
      , (8020, 19, True)
      , (8020, 22, True);
+
+/* Weenie - MiscObjects - Azure Gromnie Tooth (28205) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28205;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28205, 'gromnietoothazure');
@@ -29264,6 +31415,9 @@ VALUES (28205, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28205, 0, 16777882);
 
+/* Weenie - MiscObjects - Ash Gromnie Wings (28211) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28211;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28211, 'wingsgromnieashvod');
 
@@ -29304,6 +31458,9 @@ VALUES (28211, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28211, 0, 16777882);
+
+/* Weenie - MiscObjects - Scarecrow (34092) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34092;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34092, 'ace34092-scarecrow');
@@ -29374,6 +31531,9 @@ VALUES (34092, 0, 16784901)
      , (34092, 11, 16784903)
      , (34092, 12, 16784926);
 
+/* Weenie - MiscObjects - Burun Kukuur Floatee (29802) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29802;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29802, 'flagkukuur');
 
@@ -29406,6 +31566,9 @@ VALUES (29802, 13, True)
      , (29802, 14, True)
      , (29802, 19, True)
      , (29802, 22, True);
+
+/* Weenie - MiscObjects - Ursuin Toy (31421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31421;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31421, 'ace31421-ursuintoy');
@@ -29441,6 +31604,9 @@ VALUES (31421, 13, True)
      , (31421, 14, True)
      , (31421, 19, True)
      , (31421, 22, True);
+
+/* Weenie - MiscObjects - Royal Coat of Arms Stamp (22099) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22099;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22099, 'stampsymbolelysa');
@@ -29486,6 +31652,9 @@ VALUES (22099, 0, 83892954, 83893871)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22099, 0, 16785497);
+
+/* Weenie - MiscObjects - Frost Maiden Essence (49448) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49448;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49448, 'ace49448-frostmaidenessence');
@@ -29539,6 +31708,9 @@ VALUES (49448, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49448, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Maiden Essence (49434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49434;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49434, 'ace49434-lightningmaidenessence');
 
@@ -29590,6 +31762,9 @@ VALUES (49434, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49434, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Maiden Essence (49441) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49441;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49441, 'ace49441-firemaidenessence');
@@ -29643,6 +31818,9 @@ VALUES (49441, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49441, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Maiden Essence (49427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49427;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49427, 'ace49427-acidmaidenessence');
 
@@ -29694,6 +31872,9 @@ VALUES (49427, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49427, 0, 16777882);
+
+/* Weenie - MiscObjects - Acid Skeleton Samurai Essence (49219) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49219;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49219, 'ace49219-acidskeletonsamuraiessence');
@@ -29747,6 +31928,9 @@ VALUES (49219, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49219, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Skeleton Samurai Essence (49226) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49226;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49226, 'ace49226-lightningskeletonsamuraiessence');
 
@@ -29799,6 +31983,9 @@ VALUES (49226, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49226, 0, 16777882);
 
+/* Weenie - MiscObjects - Rampager Tusk (22429) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22429;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22429, 'tuskrampager');
 
@@ -29829,6 +32016,9 @@ VALUES (22429, 13, True)
      , (22429, 19, True)
      , (22429, 22, True);
 
+/* Weenie - MiscObjects - Silver Tusker Tusk (22431) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22431;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22431, 'tusksilver');
 
@@ -29858,6 +32048,9 @@ VALUES (22431, 13, True)
      , (22431, 14, True)
      , (22431, 19, True)
      , (22431, 22, True);
+
+/* Weenie - MiscObjects - Mosswart Head (8146) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8146;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8146, 'mosswarthead');
@@ -29890,6 +32083,9 @@ VALUES (8146, 13, True)
      , (8146, 19, True)
      , (8146, 22, True);
 
+/* Weenie - MiscObjects - Banderling Head (8144) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8144;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8144, 'banderlinghead');
 
@@ -29920,6 +32116,9 @@ VALUES (8144, 13, True)
      , (8144, 14, True)
      , (8144, 19, True)
      , (8144, 22, True);
+
+/* Weenie - MiscObjects - Shendolain Key (8021) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8021;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8021, 'keyshendolain');
@@ -29954,6 +32153,9 @@ VALUES (8021, 13, True)
      , (8021, 14, True)
      , (8021, 19, True)
      , (8021, 22, True);
+
+/* Weenie - MiscObjects - Intricate Obsidian Key (9316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9316;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9316, 'keypyramidgreenlarge');
@@ -29991,6 +32193,9 @@ VALUES (9316, 13, True)
      , (9316, 14, True)
      , (9316, 19, True);
 
+/* Weenie - MiscObjects - Arcane Pedestal (11930) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11930;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11930, 'decorationarcanepedestal-xp');
 
@@ -30020,6 +32225,9 @@ VALUES (11930, 13, True)
      , (11930, 14, True)
      , (11930, 19, True)
      , (11930, 22, True);
+
+/* Weenie - MiscObjects - Wallbound Niffis (30401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30401;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30401, 'hookerwallboundniffis');
@@ -30055,6 +32263,9 @@ VALUES (30401, 13, True)
      , (30401, 19, True)
      , (30401, 22, True);
 
+/* Weenie - MiscObjects - Grievver Tibia (19476) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19476;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19476, 'grievvervirulenttibia');
 
@@ -30084,6 +32295,9 @@ VALUES (19476, 13, True)
      , (19476, 14, True)
      , (19476, 19, True)
      , (19476, 22, True);
+
+/* Weenie - MiscObjects - Moarsman Head (25561) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25561;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25561, 'headmoarsman');
@@ -30119,6 +32333,9 @@ VALUES (25561, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25561, 0, 16789608);
 
+/* Weenie - MiscObjects - Rift (44761) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44761;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44761, 'ace44761-rift');
 
@@ -30149,6 +32366,9 @@ VALUES (44761, 13, True)
      , (44761, 12, True)
      , (44761, 11, True)
      , (44761, 19, True);
+
+/* Weenie - MiscObjects - Quiddity Ingot (11626) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11626;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11626, 'quiddityingot');
@@ -30193,6 +32413,9 @@ VALUES (11626, 0, 83889680, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11626, 0, 16782860);
 
+/* Weenie - MiscObjects - Totem of Volkama (11456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11456;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11456, 'totemvolkama-xp');
 
@@ -30227,6 +32450,9 @@ VALUES (11456, 13, True)
      , (11456, 19, True)
      , (11456, 22, True);
 
+/* Weenie - MiscObjects - Armored Skeletal Legs (28874) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28874;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28874, 'legarmoredskeleton');
 
@@ -30260,6 +32486,9 @@ VALUES (28874, 13, True)
      , (28874, 19, True)
      , (28874, 22, True);
 
+/* Weenie - MiscObjects - Unknown (52307) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52307;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52307, 'ace52307-unknown');
 
@@ -30285,6 +32514,9 @@ VALUES (52307, 13, True)
      , (52307, 19, True)
      , (52307, 1, True)
      , (52307, 24, True);
+
+/* Weenie - MiscObjects - Jester's Marbles (37493) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37493;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37493, 'ace37493-jestersmarbles');
@@ -30329,6 +32561,9 @@ VALUES (37493, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37493, 0, 16777882);
 
+/* Weenie - MiscObjects - Pitted Slag (43491) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43491;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43491, 'ace43491-pittedslag');
 
@@ -30358,6 +32593,9 @@ VALUES (43491, 13, True)
      , (43491, 11, True)
      , (43491, 14, True)
      , (43491, 19, True);
+
+/* Weenie - MiscObjects - Monouga (44752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44752;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44752, 'ace44752-monouga');
@@ -30389,6 +32627,9 @@ VALUES (44752, 13, True)
      , (44752, 12, True)
      , (44752, 11, True)
      , (44752, 19, True);
+
+/* Weenie - MiscObjects - Acid Grievver Essence (80) (49367) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49367;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49367, 'ace49367-acidgrievveressence80');
@@ -30442,6 +32683,9 @@ VALUES (49367, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49367, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Phyntos Wasp Essence (150) (49528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49528;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49528, 'ace49528-acidphyntoswaspessence150');
 
@@ -30493,6 +32737,9 @@ VALUES (49528, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49528, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Grievver Essence (100) (49389) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49389;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49389, 'ace49389-frostgrievveressence100');
@@ -30546,6 +32793,9 @@ VALUES (49389, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49389, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Phyntos Wasp Essence (125) (49527) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49527;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49527, 'ace49527-acidphyntoswaspessence125');
 
@@ -30598,6 +32848,9 @@ VALUES (49527, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49527, 0, 16777882);
 
+/* Weenie - MiscObjects - Alloy Generator (25333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25333;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25333, 'undeadmechanism19');
 
@@ -30626,6 +32879,9 @@ VALUES (25333, 13, True)
      , (25333, 14, True)
      , (25333, 19, True)
      , (25333, 22, True);
+
+/* Weenie - MiscObjects - White Rabbit Carcass (12128) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12128;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12128, 'rabbitcarcasswhite');
@@ -30663,6 +32919,9 @@ VALUES (12128, 0, 83888867, 83890932);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12128, 0, 16783811);
 
+/* Weenie - MiscObjects - Ink of Conveyance (37360) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37360;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37360, 'ace37360-inkofconveyance');
 
@@ -30695,6 +32954,9 @@ VALUES (37360, 13, True)
      , (37360, 11, True)
      , (37360, 14, True)
      , (37360, 19, True);
+
+/* Weenie - MiscObjects - Glyph of Monster Appraisal (37325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37325;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37325, 'ace37325-glyphofmonsterappraisal');
@@ -30740,6 +33002,9 @@ VALUES (37325, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37325, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Lockpick (37315) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37315;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37315, 'ace37315-glyphoflockpick');
 
@@ -30783,6 +33048,9 @@ VALUES (37315, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37315, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Finesse Weapons (37373) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37373;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37373, 'ace37373-glyphoffinesseweapons');
@@ -30828,6 +33096,9 @@ VALUES (37373, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37373, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Nether (43387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43387;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43387, 'ace43387-glyphofnether');
 
@@ -30872,6 +33143,9 @@ VALUES (43387, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43387, 0, 16779181);
 
+/* Weenie - MiscObjects - Beacon Gem (30055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30055;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30055, 'gemelenabeacon');
 
@@ -30913,6 +33187,9 @@ VALUES (30055, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30055, 0, 16779181);
 
+/* Weenie - MiscObjects - Blue Phyntos Wasp Wing (3699) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3699;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3699, 'waspwingblue');
 
@@ -30951,6 +33228,9 @@ VALUES (3699, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3699, 67111337, 0, 0);
+
+/* Weenie - MiscObjects - Prismatic Oil (32758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32758;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32758, 'ace32758-prismaticoil');
@@ -31000,6 +33280,9 @@ VALUES (32758, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32758, 0, 16783325);
 
+/* Weenie - MiscObjects - Decanter of Essence of Strife (32732) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32732;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32732, 'ace32732-decanterofessenceofstrife');
 
@@ -31040,6 +33323,9 @@ VALUES (32732, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32732, 0, 16783325);
+
+/* Weenie - MiscObjects - Decanter of Essence of Enchantment (32729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32729;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32729, 'ace32729-decanterofessenceofenchantment');
@@ -31082,6 +33368,9 @@ VALUES (32729, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32729, 0, 16783325);
 
+/* Weenie - MiscObjects - Decanter of Essence of Artifice (32730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32730;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32730, 'ace32730-decanterofessenceofartifice');
 
@@ -31123,6 +33412,9 @@ VALUES (32730, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32730, 0, 16783325);
 
+/* Weenie - MiscObjects - Adventurer's Token (39984) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39984;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39984, 'ace39984-adventurerstoken');
 
@@ -31155,6 +33447,9 @@ VALUES (39984, 13, True)
      , (39984, 14, True)
      , (39984, 19, True);
 
+/* Weenie - MiscObjects - Legendary Token (48918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48918;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48918, 'ace48918-legendarytoken');
 
@@ -31186,6 +33481,9 @@ VALUES (48918, 13, True)
      , (48918, 11, True)
      , (48918, 14, True)
      , (48918, 19, True);
+
+/* Weenie - MiscObjects - Invoking Stone (39121) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39121;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39121, 'ace39121-invokingstone');
@@ -31230,6 +33528,9 @@ VALUES (39121, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39121, 0, 16778862);
 
+/* Weenie - MiscObjects - Invoking Stone (39123) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39123;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39123, 'ace39123-invokingstone');
 
@@ -31273,6 +33574,9 @@ VALUES (39123, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39123, 0, 16778862);
 
+/* Weenie - MiscObjects - Crystal of Perception (38615) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38615;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38615, 'ace38615-crystalofperception');
 
@@ -31309,6 +33613,9 @@ VALUES (38615, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (38615, 67112898, 0, 0);
 
+/* Weenie - MiscObjects - Desert Flower (46285) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46285;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46285, 'ace46285-desertflower');
 
@@ -31343,6 +33650,9 @@ VALUES (46285, 13, True)
      , (46285, 14, True)
      , (46285, 19, True);
 
+/* Weenie - MiscObjects - Diplomatic Message from Harlune (38043) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38043;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38043, 'ace38043-diplomaticmessagefromharlune');
 
@@ -31371,6 +33681,9 @@ VALUES (38043, 13, True)
      , (38043, 14, True)
      , (38043, 19, True)
      , (38043, 22, True);
+
+/* Weenie - MiscObjects - Mhoire Signet Ring (42039) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42039;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42039, 'ace42039-mhoiresignetring');
@@ -31403,6 +33716,9 @@ VALUES (42039, 13, True)
      , (42039, 14, True)
      , (42039, 19, True);
 
+/* Weenie - MiscObjects - Mhoire Oubliette Portal Glyph (45151) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45151;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45151, 'ace45151-mhoireoublietteportalglyph');
 
@@ -31434,6 +33750,9 @@ VALUES (45151, 13, True)
      , (45151, 11, True)
      , (45151, 14, True)
      , (45151, 19, True);
+
+/* Weenie - MiscObjects - Broken Stone Tablet (44298) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44298;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44298, 'ace44298-brokenstonetablet');
@@ -31469,6 +33788,9 @@ VALUES (44298, 13, True)
      , (44298, 14, True)
      , (44298, 19, True);
 
+/* Weenie - MiscObjects - Black Coral (38613) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38613;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38613, 'ace38613-blackcoral');
 
@@ -31503,6 +33825,9 @@ VALUES (38613, 13, True)
      , (38613, 14, True)
      , (38613, 19, True);
 
+/* Weenie - MiscObjects - Slithis (44772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44772;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44772, 'ace44772-slithis');
 
@@ -31533,6 +33858,9 @@ VALUES (44772, 13, True)
      , (44772, 12, True)
      , (44772, 11, True)
      , (44772, 19, True);
+
+/* Weenie - MiscObjects - Rabbit (44758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44758;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44758, 'ace44758-rabbit');
@@ -31565,6 +33893,9 @@ VALUES (44758, 13, True)
      , (44758, 11, True)
      , (44758, 19, True);
 
+/* Weenie - MiscObjects - Niffis (44755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44755;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44755, 'ace44755-niffis');
 
@@ -31595,6 +33926,9 @@ VALUES (44755, 13, True)
      , (44755, 12, True)
      , (44755, 11, True)
      , (44755, 19, True);
+
+/* Weenie - MiscObjects - Wisp (44782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44782;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44782, 'ace44782-wisp');
@@ -31627,6 +33961,9 @@ VALUES (44782, 13, True)
      , (44782, 11, True)
      , (44782, 19, True);
 
+/* Weenie - MiscObjects - Phyntos Wasp (44781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44781;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44781, 'ace44781-phyntoswasp');
 
@@ -31657,6 +33994,9 @@ VALUES (44781, 13, True)
      , (44781, 12, True)
      , (44781, 11, True)
      , (44781, 19, True);
+
+/* Weenie - MiscObjects - Moarsman (44751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44751;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44751, 'ace44751-moarsman');
@@ -31689,6 +34029,9 @@ VALUES (44751, 13, True)
      , (44751, 11, True)
      , (44751, 19, True);
 
+/* Weenie - MiscObjects - Undead (44778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44778;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44778, 'ace44778-undead');
 
@@ -31719,6 +34062,9 @@ VALUES (44778, 13, True)
      , (44778, 12, True)
      , (44778, 11, True)
      , (44778, 19, True);
+
+/* Weenie - MiscObjects - Banderling (44724) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44724;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44724, 'ace44724-banderling');
@@ -31751,6 +34097,9 @@ VALUES (44724, 13, True)
      , (44724, 11, True)
      , (44724, 19, True);
 
+/* Weenie - MiscObjects - Gearknight (44736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44736;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44736, 'ace44736-gearknight');
 
@@ -31781,6 +34130,9 @@ VALUES (44736, 13, True)
      , (44736, 12, True)
      , (44736, 11, True)
      , (44736, 19, True);
+
+/* Weenie - MiscObjects - Isparian (44742) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44742;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44742, 'ace44742-isparian');
@@ -31813,6 +34165,9 @@ VALUES (44742, 13, True)
      , (44742, 11, True)
      , (44742, 19, True);
 
+/* Weenie - MiscObjects - Siraluun (44769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44769;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44769, 'ace44769-siraluun');
 
@@ -31843,6 +34198,9 @@ VALUES (44769, 13, True)
      , (44769, 12, True)
      , (44769, 11, True)
      , (44769, 19, True);
+
+/* Weenie - MiscObjects - Crystal (44730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44730;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44730, 'ace44730-crystal');
@@ -31875,6 +34233,9 @@ VALUES (44730, 13, True)
      , (44730, 11, True)
      , (44730, 19, True);
 
+/* Weenie - MiscObjects - K'nath Lair Portal (29103) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29103;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29103, 'portalhookknathlair');
 
@@ -31906,6 +34267,9 @@ VALUES (29103, 13, True)
      , (29103, 14, True)
      , (29103, 19, True)
      , (29103, 22, True);
+
+/* Weenie - MiscObjects - Enchanted Olthoi Egg (43732) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43732;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43732, 'ace43732-enchantedolthoiegg');
@@ -31942,6 +34306,9 @@ VALUES (43732, 13, True)
      , (43732, 19, True)
      , (43732, 22, True);
 
+/* Weenie - MiscObjects - Snow Tracks (52579) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52579;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52579, 'ace52579-snowtracks');
 
@@ -31972,6 +34339,9 @@ VALUES (52579, 13, True)
      , (52579, 14, True)
      , (52579, 19, True)
      , (52579, 22, True);
+
+/* Weenie - MiscObjects - Plate Armoredillo Hide (24828) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24828;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24828, 'armoredillohideplate');
@@ -32017,6 +34387,9 @@ VALUES (24828, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24828, 0, 16777882);
 
+/* Weenie - MiscObjects - Aetheria Powder (42644) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42644;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42644, 'ace42644-aetheriapowder');
 
@@ -32059,6 +34432,9 @@ VALUES (42644, 0, 83890080, 83890080);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42644, 0, 16780681);
+
+/* Weenie - MiscObjects - Black Stone (3692) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3692;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3692, 'stoneblack');
@@ -32104,6 +34480,9 @@ VALUES (3692, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3692, 0, 16779181);
 
+/* Weenie - MiscObjects - Perfect Diamond Infused Pyreal Ingot (19515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19515;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19515, 'ingotpyrealinfusedperfect');
 
@@ -32135,6 +34514,9 @@ VALUES (19515, 13, True)
      , (19515, 14, True)
      , (19515, 19, True)
      , (19515, 22, True);
+
+/* Weenie - MiscObjects - Parabolic Ink (37356) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37356;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37356, 'ace37356-parabolicink');
@@ -32168,6 +34550,9 @@ VALUES (37356, 13, True)
      , (37356, 14, True)
      , (37356, 19, True);
 
+/* Weenie - MiscObjects - Enchanted Seedling (47837) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47837;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47837, 'ace47837-enchantedseedling');
 
@@ -32198,6 +34583,9 @@ VALUES (47837, 13, True)
      , (47837, 14, True)
      , (47837, 19, True)
      , (47837, 22, True);
+
+/* Weenie - MiscObjects - Treated Mandrake (22448) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22448;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22448, 'mandraketreated');
@@ -32237,6 +34625,9 @@ VALUES (22448, 0, 83890064, 83889696);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22448, 0, 16777882);
+
+/* Weenie - MiscObjects - Treated Hyssop (22447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22447;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22447, 'hyssoptreated');
@@ -32281,6 +34672,9 @@ VALUES (22447, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22447, 0, 16777882);
 
+/* Weenie - MiscObjects - Soft Bandages (22445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22445;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22445, 'bandages');
 
@@ -32322,6 +34716,9 @@ VALUES (22445, 0, 83889681, 83890932)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22445, 0, 16779994);
 
+/* Weenie - MiscObjects - Ink of Direction (37361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37361;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37361, 'ace37361-inkofdirection');
 
@@ -32354,6 +34751,9 @@ VALUES (37361, 13, True)
      , (37361, 11, True)
      , (37361, 14, True)
      , (37361, 19, True);
+
+/* Weenie - MiscObjects - Ink of Objectification (37355) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37355;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37355, 'ace37355-inkofobjectification');
@@ -32388,6 +34788,9 @@ VALUES (37355, 13, True)
      , (37355, 14, True)
      , (37355, 19, True);
 
+/* Weenie - MiscObjects - Ink of Formation (37353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37353;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37353, 'ace37353-inkofformation');
 
@@ -32420,6 +34823,9 @@ VALUES (37353, 13, True)
      , (37353, 11, True)
      , (37353, 14, True)
      , (37353, 19, True);
+
+/* Weenie - MiscObjects - Glyph of Lightning (37314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37314;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37314, 'ace37314-glyphoflightning');
@@ -32465,6 +34871,9 @@ VALUES (37314, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37314, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Mana Regeneration (37321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37321;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37321, 'ace37321-glyphofmanaregeneration');
 
@@ -32508,6 +34917,9 @@ VALUES (37321, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37321, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Regeneration (37307) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37307;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37307, 'ace37307-glyphofregeneration');
@@ -32553,6 +34965,9 @@ VALUES (37307, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37307, 0, 16779181);
 
+/* Weenie - MiscObjects - Ink of Nullification (37354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37354;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37354, 'ace37354-inkofnullification');
 
@@ -32585,6 +35000,9 @@ VALUES (37354, 13, True)
      , (37354, 11, True)
      , (37354, 14, True)
      , (37354, 19, True);
+
+/* Weenie - MiscObjects - Glyph of Frost (37348) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37348;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37348, 'ace37348-glyphoffrost');
@@ -32630,6 +35048,9 @@ VALUES (37348, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37348, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Stamina Regeneration (37336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37336;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37336, 'ace37336-glyphofstaminaregeneration');
 
@@ -32673,6 +35094,9 @@ VALUES (37336, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37336, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Damage (43379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43379;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43379, 'ace43379-glyphofdamage');
@@ -32718,6 +35142,9 @@ VALUES (43379, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43379, 0, 16779181);
 
+/* Weenie - MiscObjects - Ink of Partition (37357) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37357;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37357, 'ace37357-inkofpartition');
 
@@ -32750,6 +35177,9 @@ VALUES (37357, 13, True)
      , (37357, 11, True)
      , (37357, 14, True)
      , (37357, 19, True);
+
+/* Weenie - MiscObjects - Glyph of Light Weapons (37367) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37367;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37367, 'ace37367-glyphoflightweapons');
@@ -32795,6 +35225,9 @@ VALUES (37367, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37367, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Item Tinkering (41746) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41746;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41746, 'ace41746-glyphofitemtinkering');
 
@@ -32839,6 +35272,9 @@ VALUES (41746, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41746, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Heavy Weapons (37369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37369;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37369, 'ace37369-glyphofheavyweapons');
 
@@ -32882,6 +35318,9 @@ VALUES (37369, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37369, 0, 16779181);
+
+/* Weenie - MiscObjects - Chorizite Fletching Tool (21344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21344;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21344, 'toolfletchingchorizite');
@@ -32931,6 +35370,9 @@ VALUES (21344, 0, 83886754, 83886754)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21344, 0, 16777906);
 
+/* Weenie - MiscObjects - Glyph of Recklessness (45372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45372;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45372, 'ace45372-glyphofrecklessness');
 
@@ -32974,6 +35416,9 @@ VALUES (45372, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45372, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Shield (45373) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45373;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45373, 'ace45373-glyphofshield');
@@ -33019,6 +35464,9 @@ VALUES (45373, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45373, 0, 16779181);
 
+/* Weenie - MiscObjects - Quill of Benevolence (37365) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37365;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37365, 'ace37365-quillofbenevolence');
 
@@ -33050,6 +35498,9 @@ VALUES (37365, 13, True)
      , (37365, 11, True)
      , (37365, 14, True)
      , (37365, 19, True);
+
+/* Weenie - MiscObjects - Glyph of Alchemy (37343) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37343;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37343, 'ace37343-glyphofalchemy');
@@ -33095,6 +35546,9 @@ VALUES (37343, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37343, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Endurance (37300) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37300;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37300, 'ace37300-glyphofendurance');
 
@@ -33138,6 +35592,9 @@ VALUES (37300, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37300, 0, 16779181);
+
+/* Weenie - MiscObjects - Glyph of Light Weapons (37339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37339;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37339, 'ace37339-glyphoflightweapons');
@@ -33183,6 +35640,9 @@ VALUES (37339, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37339, 0, 16779181);
 
+/* Weenie - MiscObjects - Virindi Essence (9125) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9125;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9125, 'essencevirindi');
 
@@ -33216,6 +35676,9 @@ VALUES (9125, 13, True)
      , (9125, 19, True)
      , (9125, 22, True);
 
+/* Weenie - MiscObjects - Floating Candle (34089) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34089;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34089, 'ace34089-floatingcandle');
 
@@ -33247,6 +35710,9 @@ VALUES (34089, 13, True)
      , (34089, 14, True)
      , (34089, 19, True)
      , (34089, 22, True);
+
+/* Weenie - MiscObjects - Skeletal Arm (22027) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22027;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22027, 'armskeletal');
@@ -33282,6 +35748,9 @@ VALUES (22027, 13, True)
      , (22027, 19, True)
      , (22027, 22, True);
 
+/* Weenie - MiscObjects - Armored Undead Legs (28875) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28875;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28875, 'legarmoredundead');
 
@@ -33314,6 +35783,9 @@ VALUES (28875, 13, True)
      , (28875, 14, True)
      , (28875, 19, True)
      , (28875, 22, True);
+
+/* Weenie - MiscObjects - Undead Arm (22028) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22028;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22028, 'armundead');
@@ -33348,6 +35820,9 @@ VALUES (22028, 13, True)
      , (22028, 14, True)
      , (22028, 19, True)
      , (22028, 22, True);
+
+/* Weenie - MiscObjects - Scarecrow Torso (28898) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28898;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28898, 'torsoscarecrow');
@@ -33398,6 +35873,9 @@ VALUES (28898, 0, 16784901)
      , (28898, 3, 16790869)
      , (28898, 4, 16784926);
 
+/* Weenie - MiscObjects - Bats (36449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36449;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36449, 'ace36449-bats');
 
@@ -33426,6 +35904,9 @@ VALUES (36449, 13, True)
      , (36449, 14, True)
      , (36449, 19, True)
      , (36449, 22, True);
+
+/* Weenie - MiscObjects - Shard of the Black Spear (33691) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33691;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33691, 'ace33691-shardoftheblackspear');
@@ -33456,6 +35937,9 @@ VALUES (33691, 13, True)
      , (33691, 14, True)
      , (33691, 19, True)
      , (33691, 22, True);
+
+/* Weenie - MiscObjects - Mukkir Aspect Slayer Title Token (33694) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33694;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33694, 'ace33694-mukkiraspectslayertitletoken');
@@ -33496,6 +35980,9 @@ VALUES (33694, 0, 83888868, 83892604);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33694, 0, 16783934);
 
+/* Weenie - MiscObjects - Black Spear of Mukkir Strength (33718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33718;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33718, 'ace33718-blackspearofmukkirstrength');
 
@@ -33528,6 +36015,9 @@ VALUES (33718, 13, True)
      , (33718, 19, True)
      , (33718, 22, True);
 
+/* Weenie - MiscObjects - Altered Dark Remoran Fin (38612) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38612;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38612, 'ace38612-altereddarkremoranfin');
 
@@ -33558,6 +36048,9 @@ VALUES (38612, 13, True)
      , (38612, 14, True)
      , (38612, 19, True)
      , (38612, 22, True);
+
+/* Weenie - MiscObjects - Acid Skeleton Bushi Essence (180) (49218) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49218;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49218, 'ace49218-acidskeletonbushiessence180');
@@ -33611,6 +36104,9 @@ VALUES (49218, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49218, 0, 16777882);
 
+/* Weenie - MiscObjects - Ruined Amulet of the Two Hander (43146) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43146;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43146, 'ace43146-ruinedamuletofthetwohander');
 
@@ -33657,6 +36153,9 @@ VALUES (43146, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43146, 0, 16778348);
 
+/* Weenie - MiscObjects - Prickly Pear (44204) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44204;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44204, 'ace44204-pricklypear');
 
@@ -33689,6 +36188,9 @@ VALUES (44204, 12, True)
      , (44204, 19, True)
      , (44204, 1, True);
 
+/* Weenie - MiscObjects - Shattered Legendary Key (48908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48908;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48908, 'ace48908-shatteredlegendarykey');
 
@@ -33719,6 +36221,9 @@ VALUES (48908, 13, True)
      , (48908, 14, True)
      , (48908, 19, True)
      , (48908, 22, True);
+
+/* Weenie - MiscObjects - Acid Moar Essence (150) (49342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49342;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49342, 'ace49342-acidmoaressence150');
@@ -33772,6 +36277,9 @@ VALUES (49342, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49342, 0, 16777882);
 
+/* Weenie - MiscObjects - Crystal (40124) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40124;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40124, 'ace40124-crystal');
 
@@ -33803,6 +36311,9 @@ VALUES (40124, 12, True)
      , (40124, 14, True)
      , (40124, 19, True)
      , (40124, 1, True);
+
+/* Weenie - MiscObjects - Frost Grievver Essence (150) (49391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49391;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49391, 'ace49391-frostgrievveressence150');
@@ -33856,6 +36367,9 @@ VALUES (49391, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49391, 0, 16777882);
 
+/* Weenie - MiscObjects - Hasina's Mortar and Pestle (9061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9061;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9061, 'mortarpestledecorative');
 
@@ -33888,6 +36402,9 @@ VALUES (9061, 13, True)
      , (9061, 1, True)
      , (9061, 24, True);
 
+/* Weenie - MiscObjects - Hasina's Alembic (9016) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9016;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9016, 'alembicdecorative');
 
@@ -33919,6 +36436,9 @@ VALUES (9016, 13, True)
      , (9016, 19, True)
      , (9016, 1, True)
      , (9016, 24, True);
+
+/* Weenie - MiscObjects - Green Mire Yari (38047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38047;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38047, 'ace38047-greenmireyari');
@@ -33960,6 +36480,9 @@ VALUES (38047, 0, 83886737, 83886737)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38047, 0, 16777983);
+
+/* Weenie - MiscObjects - Green Mire Yoroi Cuirass (38046) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38046;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38046, 'ace38046-greenmireyoroicuirass');
@@ -34006,6 +36529,9 @@ VALUES (38046, 0, 83887061, 83889766)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38046, 0, 16778367);
 
+/* Weenie - MiscObjects - Falatacot Battle Report (38614) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38614;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38614, 'ace38614-falatacotbattlereport');
 
@@ -34038,6 +36564,9 @@ VALUES (38614, 13, True)
      , (38614, 14, True)
      , (38614, 19, True);
 
+/* Weenie - MiscObjects - Clean Towel (25708) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25708;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25708, 'towelcleannoir1');
 
@@ -34067,6 +36596,9 @@ VALUES (25708, 13, True)
      , (25708, 14, True)
      , (25708, 19, True)
      , (25708, 22, True);
+
+/* Weenie - MiscObjects - Engraved A'nekshay Bracers (44267) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44267;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44267, 'ace44267-engravedanekshaybracers');
@@ -34111,6 +36643,9 @@ VALUES (44267, 0, 83888956, 83893821);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44267, 0, 16778334);
 
+/* Weenie - MiscObjects - Pile of Gearknight Parts (51266) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51266;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51266, 'ace51266-pileofgearknightparts');
 
@@ -34142,6 +36677,9 @@ VALUES (51266, 13, True)
      , (51266, 14, True)
      , (51266, 19, True);
 
+/* Weenie - MiscObjects - Gharu'ndim Arm (28733) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28733;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28733, 'eatergharundimarm');
 
@@ -34171,6 +36709,9 @@ VALUES (28733, 13, True)
      , (28733, 14, True)
      , (28733, 19, True)
      , (28733, 22, True);
+
+/* Weenie - MiscObjects - Gold Phyntos Wasp Wing (3700) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3700;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3700, 'waspwinggold');
@@ -34211,6 +36752,9 @@ VALUES (3700, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3700, 67111658, 0, 0);
 
+/* Weenie - MiscObjects - Box Of Ten Promissory Notes (46435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46435, 'ace46435-boxoftenpromissorynotes');
 
@@ -34246,6 +36790,9 @@ VALUES (46435, 13, True)
      , (46435, 14, True)
      , (46435, 19, True);
 
+/* Weenie - MiscObjects - Little Green Seeds (11690) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11690;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11690, 'seedlargevara');
 
@@ -34278,6 +36825,9 @@ VALUES (11690, 13, True)
      , (11690, 14, True)
      , (11690, 19, True)
      , (11690, 22, True);
+
+/* Weenie - MiscObjects - Frost Phyntos Wasp Essence (150) (49542) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49542;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49542, 'ace49542-frostphyntoswaspessence150');
@@ -34331,6 +36881,9 @@ VALUES (49542, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49542, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Grievver Essence (100) (49382) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49382;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49382, 'ace49382-firegrievveressence100');
 
@@ -34383,6 +36936,9 @@ VALUES (49382, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49382, 0, 16777882);
 
+/* Weenie - MiscObjects - Ruined Amulet of Heavy Weapons (15771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15771;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15771, 'amuletruinedsword');
 
@@ -34428,6 +36984,9 @@ VALUES (15771, 0, 83886719, 83886719);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15771, 0, 16778348);
+
+/* Weenie - MiscObjects - Ruined Amulet of Light Weapons (15768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15768;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15768, 'amuletruinedmace');
@@ -34475,6 +37034,9 @@ VALUES (15768, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15768, 0, 16778348);
 
+/* Weenie - MiscObjects - Cooking Stamp (20857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20857;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20857, 'stampsymbol4');
 
@@ -34519,6 +37081,9 @@ VALUES (20857, 0, 83892954, 83893871)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20857, 0, 16785497);
+
+/* Weenie - MiscObjects - Skull Stamp (22100) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22100;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22100, 'stampsymbolskull');
@@ -34565,6 +37130,9 @@ VALUES (22100, 0, 83892954, 83893871)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22100, 0, 16785497);
 
+/* Weenie - MiscObjects - Emerald Gromnie Eye (28194) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28194;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28194, 'eyegromnieemerald');
 
@@ -34609,6 +37177,9 @@ VALUES (28194, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28194, 0, 16777882);
 
+/* Weenie - MiscObjects - Ebon Mattekar Hide (14589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14589;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14589, 'mattekarhidedread');
 
@@ -34650,6 +37221,9 @@ VALUES (14589, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14589, 0, 16777882);
+
+/* Weenie - MiscObjects - Gold Golem Essence (48882) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48882;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48882, 'ace48882-goldgolemessence');
@@ -34703,6 +37277,9 @@ VALUES (48882, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48882, 0, 16777882);
 
+/* Weenie - MiscObjects - Archmage's Endurance (29283) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29283;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29283, 'gemaugmentationspellduration');
 
@@ -34732,6 +37309,9 @@ VALUES (29283, 13, True)
      , (29283, 14, True)
      , (29283, 19, True)
      , (29283, 22, True);
+
+/* Weenie - MiscObjects - Lightning K'nath Essence (150) (49293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49293;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49293, 'ace49293-lightningknathessence150');
@@ -34785,6 +37365,9 @@ VALUES (49293, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49293, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost K'nath Essence (150) (49307) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49307;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49307, 'ace49307-frostknathessence150');
 
@@ -34836,6 +37419,9 @@ VALUES (49307, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49307, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire K'nath Essence (150) (49300) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49300;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49300, 'ace49300-fireknathessence150');
@@ -34889,6 +37475,9 @@ VALUES (49300, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49300, 0, 16777882);
 
+/* Weenie - MiscObjects - Eldrytch Web Armor Writ (38545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38545;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38545, 'ace38545-eldrytchwebarmorwrit');
 
@@ -34921,6 +37510,9 @@ VALUES (38545, 13, True)
      , (38545, 11, True)
      , (38545, 14, True)
      , (38545, 19, True);
+
+/* Weenie - MiscObjects - Soul Stone (28927) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28927;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28927, 'soulstone');
@@ -34965,6 +37557,9 @@ VALUES (28927, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28927, 0, 16779181);
 
+/* Weenie - MiscObjects - Radiant Blood Commendation Ribbon (38230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38230;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38230, 'ace38230-radiantbloodcommendationribbon');
 
@@ -35007,6 +37602,9 @@ VALUES (38230, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38230, 0, 16777882);
+
+/* Weenie - MiscObjects - K'nath B'orret Essence (49302) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49302;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49302, 'ace49302-knathborretessence');
@@ -35060,6 +37658,9 @@ VALUES (49302, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49302, 0, 16777882);
 
+/* Weenie - MiscObjects - Red Veined Grub (45193) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45193;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45193, 'ace45193-redveinedgrub');
 
@@ -35090,6 +37691,9 @@ VALUES (45193, 13, True)
      , (45193, 11, True)
      , (45193, 14, True)
      , (45193, 19, True);
+
+/* Weenie - MiscObjects - Aerfalle's Embossed Token (40912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40912;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40912, 'ace40912-aerfallesembossedtoken');
@@ -35130,6 +37734,9 @@ VALUES (40912, 0, 83888956, 83888956);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40912, 0, 16778506);
+
+/* Weenie - MiscObjects - Lightning K'nath Essence (125) (49292) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49292;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49292, 'ace49292-lightningknathessence125');
@@ -35183,6 +37790,9 @@ VALUES (49292, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49292, 0, 16777882);
 
+/* Weenie - MiscObjects - Coral Golem Essence (48880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48880;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48880, 'ace48880-coralgolemessence');
 
@@ -35234,6 +37844,9 @@ VALUES (48880, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48880, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire K'nath Essence (100) (49298) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49298;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49298, 'ace49298-fireknathessence100');
@@ -35287,6 +37900,9 @@ VALUES (49298, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49298, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Spectre Essence (180) (49440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49440;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49440, 'ace49440-firespectreessence180');
 
@@ -35339,6 +37955,9 @@ VALUES (49440, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49440, 0, 16777882);
 
+/* Weenie - MiscObjects - Supplies for Massilor (38716) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38716;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38716, 'ace38716-suppliesformassilor');
 
@@ -35368,6 +37987,9 @@ VALUES (38716, 13, True)
      , (38716, 14, True)
      , (38716, 19, True)
      , (38716, 22, True);
+
+/* Weenie - MiscObjects - Archaeologist's Tracing Paper (38711) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38711;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38711, 'ace38711-archaeologiststracingpaper');
@@ -35405,6 +38027,9 @@ VALUES (38711, 13, True)
      , (38711, 19, True)
      , (38711, 22, True);
 
+/* Weenie - MiscObjects - Imprinted Archaeologist's Paper (38798) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38798;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38798, 'ace38798-imprintedarchaeologistspaper');
 
@@ -35437,6 +38062,9 @@ VALUES (38798, 13, True)
      , (38798, 14, True)
      , (38798, 19, True)
      , (38798, 22, True);
+
+/* Weenie - MiscObjects - Fire Phyntos Wasp Essence (125) (49534) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49534;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49534, 'ace49534-firephyntoswaspessence125');
@@ -35490,6 +38118,9 @@ VALUES (49534, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49534, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Spectre Essence (125) (49424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49424;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49424, 'ace49424-acidspectreessence125');
 
@@ -35541,6 +38172,9 @@ VALUES (49424, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49424, 0, 16777882);
+
+/* Weenie - MiscObjects - Klarmox's Staff (38323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38323;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38323, 'ace38323-klarmoxsstaff');
@@ -35597,6 +38231,9 @@ VALUES (38323, 0, 83895117, 83895117)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38323, 0, 16789869);
 
+/* Weenie - MiscObjects - Phyntos Queen's Abdomen (41816) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41816;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41816, 'ace41816-phyntosqueensabdomen');
 
@@ -35628,6 +38265,9 @@ VALUES (41816, 13, True)
      , (41816, 19, True)
      , (41816, 22, True);
 
+/* Weenie - MiscObjects - Ring of Remembrance (38081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38081;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38081, 'ace38081-ringofremembrance');
 
@@ -35658,6 +38298,9 @@ VALUES (38081, 13, True)
      , (38081, 19, True)
      , (38081, 22, True);
 
+/* Weenie - MiscObjects - Rytheran's Mnemosyne (38082) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38082;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38082, 'ace38082-rytheransmnemosyne');
 
@@ -35687,6 +38330,9 @@ VALUES (38082, 13, True)
      , (38082, 14, True)
      , (38082, 19, True)
      , (38082, 22, True);
+
+/* Weenie - MiscObjects - Banderling Scalp (3693) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3693;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3693, 'banderlingscalp');
@@ -35732,6 +38378,9 @@ VALUES (3693, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3693, 0, 16777882);
 
+/* Weenie - MiscObjects - A Perfect Snowman Eye (36920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36920;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36920, 'ace36920-aperfectsnowmaneye');
 
@@ -35776,6 +38425,9 @@ VALUES (36920, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36920, 0, 16778862);
 
+/* Weenie - MiscObjects - Broken Fishing Pole (25706) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25706;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25706, 'polenoir1');
 
@@ -35807,6 +38459,9 @@ VALUES (25706, 13, True)
      , (25706, 14, True)
      , (25706, 19, True)
      , (25706, 22, True);
+
+/* Weenie - MiscObjects - Odd Scroll Case (25752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25752;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25752, 'scrollcasenoir1');
@@ -35844,6 +38499,9 @@ VALUES (25752, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25752, 67114451, 0, 0);
 
+/* Weenie - MiscObjects - Gumshoe Token (25707) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25707;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25707, 'tokengumshoe');
 
@@ -35873,6 +38531,9 @@ VALUES (25707, 13, True)
      , (25707, 14, True)
      , (25707, 19, True)
      , (25707, 22, True);
+
+/* Weenie - MiscObjects - Titanic Dericost Mnemosyne (38375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38375;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38375, 'ace38375-titanicdericostmnemosyne');
@@ -35906,6 +38567,9 @@ VALUES (38375, 13, True)
      , (38375, 14, True)
      , (38375, 19, True)
      , (38375, 22, True);
+
+/* Weenie - MiscObjects - Lockpicking Sigil (34897) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34897;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34897, 'ace34897-lockpickingsigil');
@@ -35941,6 +38605,9 @@ VALUES (34897, 13, True)
      , (34897, 19, True)
      , (34897, 22, True);
 
+/* Weenie - MiscObjects - Staff of Clarity (36681) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36681;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36681, 'ace36681-staffofclarity');
 
@@ -35970,6 +38637,9 @@ VALUES (36681, 13, True)
      , (36681, 14, True)
      , (36681, 19, True)
      , (36681, 22, True);
+
+/* Weenie - MiscObjects - Inactive Lockpicker's Golem (34928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34928;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34928, 'ace34928-inactivelockpickersgolem');
@@ -36003,6 +38673,9 @@ VALUES (34928, 13, True)
      , (34928, 14, True)
      , (34928, 19, True)
      , (34928, 22, True);
+
+/* Weenie - MiscObjects - Fire K'nath Essence (180) (49301) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49301;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49301, 'ace49301-fireknathessence180');
@@ -36056,6 +38729,9 @@ VALUES (49301, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49301, 0, 16777882);
 
+/* Weenie - MiscObjects - Gauloth Shreth Hide (24849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24849;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24849, 'shrethhidegauloth');
 
@@ -36096,6 +38772,9 @@ VALUES (24849, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24849, 0, 16777882);
 
+/* Weenie - MiscObjects - Gladiator Diemos Token (34452) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34452;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34452, 'ace34452-gladiatordiemostoken');
 
@@ -36125,6 +38804,9 @@ VALUES (34452, 13, True)
      , (34452, 14, True)
      , (34452, 19, True)
      , (34452, 22, True);
+
+/* Weenie - MiscObjects - Arbitrator's Augmentation Token (35808) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35808;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35808, 'ace35808-arbitratorsaugmentationtoken');
@@ -36157,6 +38839,9 @@ VALUES (35808, 13, True)
      , (35808, 19, True)
      , (35808, 22, True);
 
+/* Weenie - MiscObjects - Oswald's Enhancement (29289) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29289;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29289, 'gemaugmentationattcoordination');
 
@@ -36186,6 +38871,9 @@ VALUES (29289, 13, True)
      , (29289, 14, True)
      , (29289, 19, True)
      , (29289, 22, True);
+
+/* Weenie - MiscObjects - Volatile Gem of Lowering Strength (44966) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44966;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44966, 'ace44966-volatilegemofloweringstrength');
@@ -36223,6 +38911,9 @@ VALUES (44966, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44966, 67111924, 0, 0);
 
+/* Weenie - MiscObjects - Volatile Gem of Raising Coordination (44967) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44967;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44967, 'ace44967-volatilegemofraisingcoordination');
 
@@ -36259,6 +38950,9 @@ VALUES (44967, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44967, 67111923, 0, 0);
 
+/* Weenie - MiscObjects - Volatile Strength To Coordination Gem (44945) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44945;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44945, 'ace44945-volatilestrengthtocoordinationgem');
 
@@ -36290,6 +38984,9 @@ VALUES (44945, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44945, 67111924, 0, 0);
+
+/* Weenie - MiscObjects - Volatile Gem of Raising Endurance (44968) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44968;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44968, 'ace44968-volatilegemofraisingendurance');
@@ -36327,6 +39024,9 @@ VALUES (44968, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44968, 67111923, 0, 0);
 
+/* Weenie - MiscObjects - Volatile Gem of Lowering Quickness (44964) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44964;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44964, 'ace44964-volatilegemofloweringquickness');
 
@@ -36363,6 +39063,9 @@ VALUES (44964, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44964, 67111924, 0, 0);
 
+/* Weenie - MiscObjects - Volatile Quickness To Endurance Gem (44936) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44936;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44936, 'ace44936-volatilequicknesstoendurancegem');
 
@@ -36395,6 +39098,9 @@ VALUES (44936, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44936, 67111924, 0, 0);
 
+/* Weenie - MiscObjects - Volatile Quickness To Coordination Gem (44935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44935;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44935, 'ace44935-volatilequicknesstocoordinationgem');
 
@@ -36426,6 +39132,9 @@ VALUES (44935, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44935, 67111924, 0, 0);
+
+/* Weenie - MiscObjects - T'thuun (39376) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39376;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39376, 'ace39376-tthuun');
@@ -36461,6 +39170,9 @@ VALUES (39376, 13, True)
      , (39376, 1, True)
      , (39376, 24, True);
 
+/* Weenie - MiscObjects - T'thuun (39377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39377;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39377, 'ace39377-tthuun');
 
@@ -36494,6 +39206,9 @@ VALUES (39377, 13, True)
      , (39377, 19, True)
      , (39377, 1, True)
      , (39377, 24, True);
+
+/* Weenie - MiscObjects - T'thuun (39378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39378;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39378, 'ace39378-tthuun');
@@ -36529,6 +39244,9 @@ VALUES (39378, 13, True)
      , (39378, 1, True)
      , (39378, 24, True);
 
+/* Weenie - MiscObjects - T'thuun (39379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39379;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39379, 'ace39379-tthuun');
 
@@ -36562,6 +39280,9 @@ VALUES (39379, 13, True)
      , (39379, 19, True)
      , (39379, 1, True)
      , (39379, 24, True);
+
+/* Weenie - MiscObjects - Token of the New Paragon (53479) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53479;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53479, 'ace53479-tokenofthenewparagon');
@@ -36606,6 +39327,9 @@ VALUES (53479, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53479, 0, 16779181);
 
+/* Weenie - MiscObjects - Wandering Ghost (36450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36450;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36450, 'ace36450-wanderingghost');
 
@@ -36645,6 +39369,9 @@ VALUES (36450, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36450, 67115254, 0, 0);
+
+/* Weenie - MiscObjects - Insidious Monouga Idol (24844) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24844;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24844, 'monougainsiduousidol');
@@ -36689,6 +39416,9 @@ VALUES (24844, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24844, 0, 16779181);
 
+/* Weenie - MiscObjects - Crude Carving (30748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30748;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30748, 'crudecarving');
 
@@ -36718,6 +39448,9 @@ VALUES (30748, 13, True)
      , (30748, 14, True)
      , (30748, 19, True)
      , (30748, 22, True);
+
+/* Weenie - MiscObjects - Celestial Hand Initiate Armor Writ (38392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38392;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38392, 'ace38392-celestialhandinitiatearmorwrit');
@@ -36750,6 +39483,9 @@ VALUES (38392, 13, True)
      , (38392, 19, True)
      , (38392, 22, True);
 
+/* Weenie - MiscObjects - Friend of Silyun Token (28759) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28759;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28759, 'tokensilyun1');
 
@@ -36779,6 +39515,9 @@ VALUES (28759, 13, True)
      , (28759, 14, True)
      , (28759, 19, True)
      , (28759, 22, True);
+
+/* Weenie - MiscObjects - Giant Jungle Phyntos Wasp Stinger (38438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38438;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38438, 'ace38438-giantjunglephyntoswaspstinger');
@@ -36811,6 +39550,9 @@ VALUES (38438, 13, True)
      , (38438, 11, True)
      , (38438, 14, True)
      , (38438, 19, True);
+
+/* Weenie - MiscObjects - Damaged Celestial Hand Commendation Ribbon (41809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41809;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41809, 'ace41809-damagedcelestialhandcommendationribbon');
@@ -36855,6 +39597,9 @@ VALUES (41809, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41809, 0, 16777882);
 
+/* Weenie - MiscObjects - Damaged Eldrytch Web Commendation Ribbon (41810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41810;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41810, 'ace41810-damagedeldrytchwebcommendationribbon');
 
@@ -36897,6 +39642,9 @@ VALUES (41810, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41810, 0, 16777882);
+
+/* Weenie - MiscObjects - Damaged Radiant Blood Commendation Ribbon (41811) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41811;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41811, 'ace41811-damagedradiantbloodcommendationribbon');
@@ -36941,6 +39689,9 @@ VALUES (41811, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41811, 0, 16777882);
 
+/* Weenie - MiscObjects - Aetheric Resonator (40808) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40808;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40808, 'ace40808-aethericresonator');
 
@@ -36972,6 +39723,9 @@ VALUES (40808, 13, True)
      , (40808, 14, True)
      , (40808, 19, True)
      , (40808, 22, True);
+
+/* Weenie - MiscObjects - Gurog Torso with a Head (44868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44868;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44868, 'ace44868-gurogtorsowithahead');
@@ -37006,6 +39760,9 @@ VALUES (44868, 13, True)
      , (44868, 19, True)
      , (44868, 22, True);
 
+/* Weenie - MiscObjects - Geraine's Tome (2) (45728) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45728;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45728, 'ace45728-gerainestome2');
 
@@ -37035,6 +39792,9 @@ VALUES (45728, 13, True)
      , (45728, 14, True)
      , (45728, 19, True)
      , (45728, 22, True);
+
+/* Weenie - MiscObjects - High-Stakes Gambling Token (44717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44717;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44717, 'ace44717-highstakesgamblingtoken');
@@ -37078,6 +39838,9 @@ VALUES (44717, 0, 83893248, 83893252)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44717, 0, 16785707);
 
+/* Weenie - MiscObjects - Aquamarine Prisms (27767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27767;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27767, 'toolsunkenmereprisms');
 
@@ -37111,6 +39874,9 @@ VALUES (27767, 13, True)
      , (27767, 14, True)
      , (27767, 19, True)
      , (27767, 22, True);
+
+/* Weenie - MiscObjects - Scarecrow Legs (28876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28876;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28876, 'legscarecrow');
@@ -37166,6 +39932,9 @@ VALUES (28876, 0, 16784901)
      , (28876, 5, 16784906)
      , (28876, 6, 16790867);
 
+/* Weenie - MiscObjects - Fresh Zombie Arm (34096) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34096;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34096, 'ace34096-freshzombiearm');
 
@@ -37196,6 +39965,9 @@ VALUES (34096, 13, True)
      , (34096, 14, True)
      , (34096, 19, True)
      , (34096, 22, True);
+
+/* Weenie - MiscObjects - Fresh Zombie Leg (34098) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34098;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34098, 'ace34098-freshzombieleg');
@@ -37230,6 +40002,9 @@ VALUES (34098, 13, True)
      , (34098, 19, True)
      , (34098, 22, True);
 
+/* Weenie - MiscObjects - Philanthropist Title Token (27436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27436;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27436, 'tokentitlephilanthropist');
 
@@ -37259,6 +40034,9 @@ VALUES (27436, 13, True)
      , (27436, 14, True)
      , (27436, 19, True)
      , (27436, 22, True);
+
+/* Weenie - MiscObjects - Coffin (27439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27439;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27439, 'sarcophagushookable');
@@ -37291,6 +40069,9 @@ VALUES (27439, 13, True)
      , (27439, 19, True)
      , (27439, 22, True);
 
+/* Weenie - MiscObjects - Grave Robber Title Token (27440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27440;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27440, 'tokentitlegraverobber');
 
@@ -37321,6 +40102,9 @@ VALUES (27440, 13, True)
      , (27440, 19, True)
      , (27440, 22, True);
 
+/* Weenie - MiscObjects - Map of Auberean (27433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27433;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27433, 'decorationaubereanmap');
 
@@ -37350,6 +40134,9 @@ VALUES (27433, 13, True)
      , (27433, 14, True)
      , (27433, 19, True)
      , (27433, 22, True);
+
+/* Weenie - MiscObjects - Head of the Homunculus (27438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27438;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27438, 'headhomunculus');
@@ -37385,6 +40172,9 @@ VALUES (27438, 13, True)
      , (27438, 19, True)
      , (27438, 22, True);
 
+/* Weenie - MiscObjects - Barbaric Mukkir Nest-lord's Head (32925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32925;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32925, 'ace32925-barbaricmukkirnestlordshead');
 
@@ -37414,6 +40204,9 @@ VALUES (32925, 13, True)
      , (32925, 14, True)
      , (32925, 19, True)
      , (32925, 22, True);
+
+/* Weenie - MiscObjects - Lord Cynreft Mhoire's Signet Ring (53472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53472;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53472, 'ace53472-lordcynreftmhoiressignetring');
@@ -37458,6 +40251,9 @@ VALUES (53472, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53472, 0, 16778344);
 
+/* Weenie - MiscObjects - Lord Cynreft's Ancient Emblem of Mhoire (38810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38810;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38810, 'ace38810-lordcynreftsancientemblemofmhoire');
 
@@ -37493,6 +40289,9 @@ VALUES (38810, 13, True)
      , (38810, 14, True)
      , (38810, 19, True);
 
+/* Weenie - MiscObjects - Watery Token (31871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31871;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31871, 'ace31871-waterytoken');
 
@@ -37521,6 +40320,9 @@ VALUES (31871, 13, True)
      , (31871, 11, True)
      , (31871, 14, True)
      , (31871, 19, True);
+
+/* Weenie - MiscObjects - Pack Gurog (52367) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52367;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52367, 'ace52367-packgurog');
@@ -37555,6 +40357,9 @@ VALUES (52367, 13, True)
      , (52367, 14, True)
      , (52367, 19, True)
      , (52367, 22, True);
+
+/* Weenie - MiscObjects - Jade Gromnie Tooth (3676) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3676;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3676, 'gromnietoothjade');
@@ -37600,6 +40405,9 @@ VALUES (3676, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3676, 0, 16777882);
 
+/* Weenie - MiscObjects - Aluvian Hanging Rug (25768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25768;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25768, 'rugaluwall');
 
@@ -37633,6 +40441,9 @@ VALUES (25768, 13, True)
      , (25768, 19, True)
      , (25768, 22, True);
 
+/* Weenie - MiscObjects - Desk (276) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 276;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (276, 'desk');
 
@@ -37663,6 +40474,9 @@ VALUES (276, 13, True)
      , (276, 19, True)
      , (276, 22, True);
 
+/* Weenie - MiscObjects - Aluvian Rug (25767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25767;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25767, 'rugalu');
 
@@ -37692,6 +40506,9 @@ VALUES (25767, 13, True)
      , (25767, 14, True)
      , (25767, 19, True)
      , (25767, 22, True);
+
+/* Weenie - MiscObjects - Eight Cards from the Deck of Eyes (37272) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37272;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37272, 'ace37272-eightcardsfromthedeckofeyes');
@@ -37724,6 +40541,9 @@ VALUES (37272, 13, True)
      , (37272, 11, True)
      , (37272, 14, True)
      , (37272, 19, True);
+
+/* Weenie - MiscObjects - Two of Eyes (37248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37248;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37248, 'ace37248-twoofeyes');
@@ -37758,6 +40578,9 @@ VALUES (37248, 13, True)
      , (37248, 14, True)
      , (37248, 19, True);
 
+/* Weenie - MiscObjects - Six of Eyes (37252) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37252;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37252, 'ace37252-sixofeyes');
 
@@ -37790,6 +40613,9 @@ VALUES (37252, 13, True)
      , (37252, 11, True)
      , (37252, 14, True)
      , (37252, 19, True);
+
+/* Weenie - MiscObjects - Jack of Eyes (37257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37257;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37257, 'ace37257-jackofeyes');
@@ -37824,6 +40650,9 @@ VALUES (37257, 13, True)
      , (37257, 14, True)
      , (37257, 19, True);
 
+/* Weenie - MiscObjects - Four Cards from the Deck of Hands (37281) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37281;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37281, 'ace37281-fourcardsfromthedeckofhands');
 
@@ -37855,6 +40684,9 @@ VALUES (37281, 13, True)
      , (37281, 11, True)
      , (37281, 14, True)
      , (37281, 19, True);
+
+/* Weenie - MiscObjects - Ace of Hands (37234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37234;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37234, 'ace37234-aceofhands');
@@ -37888,6 +40720,9 @@ VALUES (37234, 13, True)
      , (37234, 11, True)
      , (37234, 14, True)
      , (37234, 19, True);
+
+/* Weenie - MiscObjects - Kothmox's Staff (38322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38322;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38322, 'ace38322-kothmoxsstaff');
@@ -37940,6 +40775,9 @@ VALUES (38322, 0, 83895117, 83895117)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38322, 0, 16789869);
 
+/* Weenie - MiscObjects - Blood of T'thuun (38328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38328;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38328, 'ace38328-bloodoftthuun');
 
@@ -37984,6 +40822,9 @@ VALUES (38328, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38328, 0, 16778735);
 
+/* Weenie - MiscObjects - Dagger of T'thuun (38329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38329, 'ace38329-daggeroftthuun');
 
@@ -38017,6 +40858,9 @@ VALUES (38329, 13, True)
      , (38329, 14, True)
      , (38329, 19, True)
      , (38329, 22, True);
+
+/* Weenie - MiscObjects - Amulet of T'thuun (38327) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38327;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38327, 'ace38327-amuletoftthuun');
@@ -38060,6 +40904,9 @@ VALUES (38327, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38327, 0, 16778348);
 
+/* Weenie - MiscObjects - The Plan (35450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35450;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35450, 'ace35450-theplan');
 
@@ -38092,6 +40939,9 @@ VALUES (35450, 13, True)
      , (35450, 19, True)
      , (35450, 22, True);
 
+/* Weenie - MiscObjects - Bag of Life Stone Chips (30972) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30972;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30972, 'lifestonechips');
 
@@ -38121,6 +40971,9 @@ VALUES (30972, 13, True)
      , (30972, 14, True)
      , (30972, 19, True)
      , (30972, 22, True);
+
+/* Weenie - MiscObjects - Lightning Moar Essence (180) (49350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49350;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49350, 'ace49350-lightningmoaressence180');
@@ -38174,6 +41027,9 @@ VALUES (49350, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49350, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Phyntos Wasp Essence (180) (49536) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49536;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49536, 'ace49536-firephyntoswaspessence180');
 
@@ -38225,6 +41081,9 @@ VALUES (49536, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49536, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Phyntos Wasp Essence (180) (49543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49543;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49543, 'ace49543-frostphyntoswaspessence180');
@@ -38278,6 +41137,9 @@ VALUES (49543, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49543, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Phyntos Wasp Essence (180) (49529) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49529;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49529, 'ace49529-acidphyntoswaspessence180');
 
@@ -38329,6 +41191,9 @@ VALUES (49529, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49529, 0, 16777882);
+
+/* Weenie - MiscObjects - Scorched Grievver Essence (49386) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49386;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49386, 'ace49386-scorchedgrievveressence');
@@ -38382,6 +41247,9 @@ VALUES (49386, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49386, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Phyntos Swarm Essence (49551) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49551;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49551, 'ace49551-lightningphyntosswarmessence');
 
@@ -38434,6 +41302,9 @@ VALUES (49551, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49551, 0, 16777882);
 
+/* Weenie - MiscObjects - Ruby Gromnie Eye (28196) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28196;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28196, 'eyegromnieruby');
 
@@ -38478,6 +41349,9 @@ VALUES (28196, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28196, 0, 16777882);
 
+/* Weenie - MiscObjects - Quality Pyreal Ingot (6331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6331;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6331, 'pyrealingotgood');
 
@@ -38512,6 +41386,9 @@ VALUES (6331, 13, True)
      , (6331, 19, True)
      , (6331, 22, True);
 
+/* Weenie - MiscObjects - Gardener Pincer (10844) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10844;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10844, 'pincergardener-xp');
 
@@ -38545,6 +41422,9 @@ VALUES (10844, 13, True)
      , (10844, 19, True)
      , (10844, 22, True);
 
+/* Weenie - MiscObjects - Eviscerator Pincer (10843) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10843;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10843, 'pincerbutcher-xp');
 
@@ -38577,6 +41457,9 @@ VALUES (10843, 13, True)
      , (10843, 14, True)
      , (10843, 19, True)
      , (10843, 22, True);
+
+/* Weenie - MiscObjects - Armor Upgrade Kit Containment Gem (40605) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40605;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40605, 'ace40605-armorupgradekitcontainmentgem');
@@ -38622,6 +41505,9 @@ VALUES (40605, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40605, 0, 16779181);
 
+/* Weenie - MiscObjects - Weapon Upgrade Kit Containment Gem (41917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41917;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41917, 'ace41917-weaponupgradekitcontainmentgem');
 
@@ -38665,6 +41551,9 @@ VALUES (41917, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41917, 0, 16779181);
+
+/* Weenie - MiscObjects - Foolproof Emerald (36622) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36622;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36622, 'ace36622-foolproofemerald');
@@ -38715,6 +41604,9 @@ VALUES (36622, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36622, 0, 16777882);
 
+/* Weenie - MiscObjects - Torn Cloth Scrap (35415) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35415;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35415, 'ace35415-tornclothscrap');
 
@@ -38748,6 +41640,9 @@ VALUES (35415, 13, True)
      , (35415, 11, True)
      , (35415, 14, True)
      , (35415, 19, True);
+
+/* Weenie - MiscObjects - Torn Cloth Scrap (35425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35425;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35425, 'ace35425-tornclothscrap');
@@ -38783,6 +41678,9 @@ VALUES (35425, 13, True)
      , (35425, 14, True)
      , (35425, 19, True);
 
+/* Weenie - MiscObjects - Torn Cloth Scrap (35422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35422;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35422, 'ace35422-tornclothscrap');
 
@@ -38816,6 +41714,9 @@ VALUES (35422, 13, True)
      , (35422, 11, True)
      , (35422, 14, True)
      , (35422, 19, True);
+
+/* Weenie - MiscObjects - Torn Cloth Scrap (35426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35426;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35426, 'ace35426-tornclothscrap');
@@ -38851,6 +41752,9 @@ VALUES (35426, 13, True)
      , (35426, 14, True)
      , (35426, 19, True);
 
+/* Weenie - MiscObjects - Torn Cloth Scrap (35410) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35410;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35410, 'ace35410-tornclothscrap');
 
@@ -38884,6 +41788,9 @@ VALUES (35410, 13, True)
      , (35410, 11, True)
      , (35410, 14, True)
      , (35410, 19, True);
+
+/* Weenie - MiscObjects - Torn Cloth Scrap (35417) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35417;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35417, 'ace35417-tornclothscrap');
@@ -38919,6 +41826,9 @@ VALUES (35417, 13, True)
      , (35417, 14, True)
      , (35417, 19, True);
 
+/* Weenie - MiscObjects - Torn Cloth Scrap (35421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35421;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35421, 'ace35421-tornclothscrap');
 
@@ -38952,6 +41862,9 @@ VALUES (35421, 13, True)
      , (35421, 11, True)
      , (35421, 14, True)
      , (35421, 19, True);
+
+/* Weenie - MiscObjects - Torn Cloth Scrap (35418) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35418;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35418, 'ace35418-tornclothscrap');
@@ -38987,6 +41900,9 @@ VALUES (35418, 13, True)
      , (35418, 14, True)
      , (35418, 19, True);
 
+/* Weenie - MiscObjects - Torn Cloth Scrap (35409) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35409;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35409, 'ace35409-tornclothscrap');
 
@@ -39020,6 +41936,9 @@ VALUES (35409, 13, True)
      , (35409, 11, True)
      , (35409, 14, True)
      , (35409, 19, True);
+
+/* Weenie - MiscObjects - Torn Cloth Scrap (35411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35411;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35411, 'ace35411-tornclothscrap');
@@ -39055,6 +41974,9 @@ VALUES (35411, 13, True)
      , (35411, 14, True)
      , (35411, 19, True);
 
+/* Weenie - MiscObjects - Torn Cloth Scrap (35412) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35412;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35412, 'ace35412-tornclothscrap');
 
@@ -39088,6 +42010,9 @@ VALUES (35412, 13, True)
      , (35412, 11, True)
      , (35412, 14, True)
      , (35412, 19, True);
+
+/* Weenie - MiscObjects - Torn Cloth Scrap (35416) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35416;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35416, 'ace35416-tornclothscrap');
@@ -39123,6 +42048,9 @@ VALUES (35416, 13, True)
      , (35416, 14, True)
      , (35416, 19, True);
 
+/* Weenie - MiscObjects - Torn Cloth Scrap (35423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35423;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35423, 'ace35423-tornclothscrap');
 
@@ -39156,6 +42084,9 @@ VALUES (35423, 13, True)
      , (35423, 11, True)
      , (35423, 14, True)
      , (35423, 19, True);
+
+/* Weenie - MiscObjects - Torn Cloth Scrap (35419) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35419;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35419, 'ace35419-tornclothscrap');
@@ -39191,6 +42122,9 @@ VALUES (35419, 13, True)
      , (35419, 14, True)
      , (35419, 19, True);
 
+/* Weenie - MiscObjects - Torn Cloth Scrap (35414) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35414;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35414, 'ace35414-tornclothscrap');
 
@@ -39224,6 +42158,9 @@ VALUES (35414, 13, True)
      , (35414, 11, True)
      , (35414, 14, True)
      , (35414, 19, True);
+
+/* Weenie - MiscObjects - Pack Pilferer (52445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52445;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52445, 'ace52445-packpilferer');
@@ -39279,6 +42216,9 @@ VALUES (52445, 14, 16784286)
      , (52445, 2, 16784265)
      , (52445, 5, 16784269);
 
+/* Weenie - MiscObjects - Snowmaker (34403) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34403;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34403, 'ace34403-snowmaker');
 
@@ -39311,6 +42251,9 @@ VALUES (34403, 13, True)
      , (34403, 14, True)
      , (34403, 19, True)
      , (34403, 22, True);
+
+/* Weenie - MiscObjects - Mr. P. Holiday Pack Doll (34405) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34405;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34405, 'ace34405-mrpholidaypackdoll');
@@ -39346,6 +42289,9 @@ VALUES (34405, 13, True)
      , (34405, 19, True)
      , (34405, 22, True);
 
+/* Weenie - MiscObjects - Festivus Rug (36909) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36909;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36909, 'ace36909-festivusrug');
 
@@ -39375,6 +42321,9 @@ VALUES (36909, 13, True)
      , (36909, 14, True)
      , (36909, 19, True)
      , (36909, 22, True);
+
+/* Weenie - MiscObjects - Holiday Lights (34401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34401;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34401, 'ace34401-holidaylights');
@@ -39411,6 +42360,9 @@ VALUES (34401, 13, True)
      , (34401, 19, True)
      , (34401, 22, True);
 
+/* Weenie - MiscObjects - Jubilee Rug (36910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36910;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36910, 'ace36910-jubileerug');
 
@@ -39440,6 +42392,9 @@ VALUES (36910, 13, True)
      , (36910, 14, True)
      , (36910, 19, True)
      , (36910, 22, True);
+
+/* Weenie - MiscObjects - Magic Hat (34421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34421;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34421, 'ace34421-magichat');
@@ -39478,6 +42433,9 @@ VALUES (34421, 13, True)
      , (34421, 19, True)
      , (34421, 22, True);
 
+/* Weenie - MiscObjects - Snow Drift (36916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36916;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36916, 'ace36916-snowdrift');
 
@@ -39509,6 +42467,9 @@ VALUES (36916, 13, True)
      , (36916, 14, True)
      , (36916, 19, True)
      , (36916, 22, True);
+
+/* Weenie - MiscObjects - Pile of Presents (36914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36914;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36914, 'ace36914-pileofpresents');
@@ -39545,6 +42506,9 @@ VALUES (36914, 13, True)
      , (36914, 19, True)
      , (36914, 22, True);
 
+/* Weenie - MiscObjects - Grand Bed (36913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36913;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36913, 'ace36913-grandbed');
 
@@ -39578,6 +42542,9 @@ VALUES (36913, 13, True)
      , (36913, 19, True)
      , (36913, 22, True);
 
+/* Weenie - MiscObjects - Female Tusker Tusk (22423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22423;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22423, 'tuskfemale');
 
@@ -39607,6 +42574,9 @@ VALUES (22423, 13, True)
      , (22423, 14, True)
      , (22423, 19, True)
      , (22423, 22, True);
+
+/* Weenie - MiscObjects - Small Bundle of Kithless Siraluun Feathers (11363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11363;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11363, 'featherssiraluun-xp');
@@ -39652,6 +42622,9 @@ VALUES (11363, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11363, 0, 16777882);
 
+/* Weenie - MiscObjects - Glyph of Missile Weapons (37338) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37338;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37338, 'ace37338-glyphofmissileweapons');
 
@@ -39696,6 +42669,9 @@ VALUES (37338, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37338, 0, 16779181);
 
+/* Weenie - MiscObjects - Giant Snowman Head (32184) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32184;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32184, 'ace32184-giantsnowmanhead');
 
@@ -39726,6 +42702,9 @@ VALUES (32184, 13, True)
      , (32184, 14, True)
      , (32184, 19, True)
      , (32184, 22, True);
+
+/* Weenie - MiscObjects - Hollow Minion's Face (25559) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25559;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25559, 'headhollowminion');
@@ -39758,6 +42737,9 @@ VALUES (25559, 13, True)
      , (25559, 19, True)
      , (25559, 22, True);
 
+/* Weenie - MiscObjects - Pedestal with a Floral Arrangement (22836) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22836;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22836, 'pedestalvasesnowflower5');
 
@@ -39787,6 +42769,9 @@ VALUES (22836, 13, True)
      , (22836, 14, True)
      , (22836, 19, True)
      , (22836, 22, True);
+
+/* Weenie - MiscObjects - Crystal Vase with Snowflowers (22843) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22843;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22843, 'vasesnowflower5');
@@ -39823,6 +42808,9 @@ VALUES (22843, 13, True)
      , (22843, 19, True)
      , (22843, 22, True);
 
+/* Weenie - MiscObjects - Head of the Olthoi Queen (11149) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11149;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11149, 'headolthoiqueentrophy-xp');
 
@@ -39853,6 +42841,9 @@ VALUES (11149, 13, True)
      , (11149, 19, True)
      , (11149, 22, True);
 
+/* Weenie - MiscObjects - Rubble (11155) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11155;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11155, 'menhirrubblee-xp');
 
@@ -39881,6 +42872,9 @@ VALUES (11155, 13, True)
      , (11155, 14, True)
      , (11155, 19, True)
      , (11155, 22, True);
+
+/* Weenie - MiscObjects - Cow Head (36359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36359;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36359, 'ace36359-cowhead');
@@ -39913,6 +42907,9 @@ VALUES (36359, 13, True)
      , (36359, 19, True)
      , (36359, 22, True);
 
+/* Weenie - MiscObjects - Chittick (44728) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44728;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44728, 'ace44728-chittick');
 
@@ -39943,6 +42940,9 @@ VALUES (44728, 13, True)
      , (44728, 12, True)
      , (44728, 11, True)
      , (44728, 19, True);
+
+/* Weenie - MiscObjects - Shreth (44767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44767;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44767, 'ace44767-shreth');
@@ -39975,6 +42975,9 @@ VALUES (44767, 13, True)
      , (44767, 11, True)
      , (44767, 19, True);
 
+/* Weenie - MiscObjects - Idol (44743) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44743;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44743, 'ace44743-idol');
 
@@ -40005,6 +43008,9 @@ VALUES (44743, 13, True)
      , (44743, 12, True)
      , (44743, 11, True)
      , (44743, 19, True);
+
+/* Weenie - MiscObjects - Tumerok (44776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44776;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44776, 'ace44776-tumerok');
@@ -40037,6 +43043,9 @@ VALUES (44776, 13, True)
      , (44776, 11, True)
      , (44776, 19, True);
 
+/* Weenie - MiscObjects - Doll (44731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44731;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44731, 'ace44731-doll');
 
@@ -40067,6 +43076,9 @@ VALUES (44731, 13, True)
      , (44731, 12, True)
      , (44731, 11, True)
      , (44731, 19, True);
+
+/* Weenie - MiscObjects - Small Bundle of Littoral Siraluun Feathers (29899) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29899;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29899, 'feathersiraluunlittoral');
@@ -40112,6 +43124,9 @@ VALUES (29899, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29899, 0, 16777882);
 
+/* Weenie - MiscObjects - Small Bundle of Timber Siraluun Feathers (29903) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29903;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29903, 'feathersiraluuntimber');
 
@@ -40156,6 +43171,9 @@ VALUES (29903, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29903, 0, 16777882);
 
+/* Weenie - MiscObjects - Tree Trunk (14588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14588;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14588, 'golemtrunk');
 
@@ -40194,6 +43212,9 @@ VALUES (14588, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (14588, 67113788, 0, 0);
 
+/* Weenie - MiscObjects - Tremendous Monouga Skull (34204) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34204;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34204, 'ace34204-tremendousmonougaskull');
 
@@ -40228,6 +43249,9 @@ VALUES (34204, 13, True)
      , (34204, 14, True)
      , (34204, 19, True)
      , (34204, 22, True);
+
+/* Weenie - MiscObjects - Littoral Siraluun Claw (11366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11366;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11366, 'siraluunclawlittoral-xp');
@@ -40272,6 +43296,9 @@ VALUES (11366, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11366, 0, 16777882);
+
+/* Weenie - MiscObjects - Sclavus Tongue (7046) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7046;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7046, 'sclavustongueaste');
@@ -40319,6 +43346,9 @@ VALUES (7046, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7046, 0, 16777882);
 
+/* Weenie - MiscObjects - Braided Sclavus Tongues (7079) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7079;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7079, 'tonguessclavusastebraided');
 
@@ -40361,6 +43391,9 @@ VALUES (7079, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7079, 0, 16777882);
+
+/* Weenie - MiscObjects - Banderling Slayer Scalp (24834) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24834;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24834, 'banderlingscalpslayer');
@@ -40406,6 +43439,9 @@ VALUES (24834, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24834, 0, 16777882);
 
+/* Weenie - MiscObjects - Essence of a Phantasm (24853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24853;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24853, 'undeadessencephantasm');
 
@@ -40437,6 +43473,9 @@ VALUES (24853, 13, True)
      , (24853, 14, True)
      , (24853, 19, True)
      , (24853, 22, True);
+
+/* Weenie - MiscObjects - Bloodthirsty Monouga Idol (24843) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24843;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24843, 'monougabloodthirstyidol');
@@ -40481,6 +43520,9 @@ VALUES (24843, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24843, 0, 16779181);
 
+/* Weenie - MiscObjects - Merciless Monouga Idol (24845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24845;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24845, 'monougamercilessidol');
 
@@ -40524,6 +43566,9 @@ VALUES (24845, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24845, 0, 16779181);
 
+/* Weenie - MiscObjects - Carenzi Trophy (52578) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52578;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52578, 'ace52578-carenzitrophy');
 
@@ -40554,6 +43599,9 @@ VALUES (52578, 13, True)
      , (52578, 14, True)
      , (52578, 19, True)
      , (52578, 22, True);
+
+/* Weenie - MiscObjects - Signet Fragment (49580) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49580;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49580, 'ace49580-signetfragment');
@@ -40587,6 +43635,9 @@ VALUES (49580, 13, True)
      , (49580, 14, True)
      , (49580, 19, True)
      , (49580, 22, True);
+
+/* Weenie - MiscObjects - Reedshark Hide (4239) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4239;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4239, 'reedsharkhide');
@@ -40632,6 +43683,9 @@ VALUES (4239, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4239, 0, 16777882);
 
+/* Weenie - MiscObjects - Combined Hyssop and Mandrake (22446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22446;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22446, 'herbsmandrakehyssop');
 
@@ -40675,6 +43729,9 @@ VALUES (22446, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22446, 0, 16777882);
 
+/* Weenie - MiscObjects - Inactive Lockpicker's Golem (34920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34920;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34920, 'ace34920-inactivelockpickersgolem');
 
@@ -40707,6 +43764,9 @@ VALUES (34920, 13, True)
      , (34920, 14, True)
      , (34920, 19, True)
      , (34920, 22, True);
+
+/* Weenie - MiscObjects - Aggregate Crystalline Shard (40101) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40101;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40101, 'ace40101-aggregatecrystallineshard');
@@ -40757,6 +43817,9 @@ VALUES (40101, 0, 16784246)
      , (40101, 1, 16784196)
      , (40101, 2, 16784180);
 
+/* Weenie - MiscObjects - Large Aggregate Crystalline Shard (40432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40432;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40432, 'ace40432-largeaggregatecrystallineshard');
 
@@ -40805,6 +43868,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (40432, 0, 16784246)
      , (40432, 1, 16784196)
      , (40432, 2, 16784180);
+
+/* Weenie - MiscObjects - Giant Aggregate Crystalline Shard (40487) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40487;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40487, 'ace40487-giantaggregatecrystallineshard');
@@ -40855,6 +43921,9 @@ VALUES (40487, 0, 16784246)
      , (40487, 1, 16784196)
      , (40487, 2, 16784180);
 
+/* Weenie - MiscObjects - Pet Mouf Igloo (46023) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46023;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46023, 'ace46023-petmoufigloo');
 
@@ -40888,6 +43957,9 @@ VALUES (46023, 13, True)
      , (46023, 14, True)
      , (46023, 19, True)
      , (46023, 22, True);
+
+/* Weenie - MiscObjects - Acid Wisp Essence (180) (49315) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49315;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49315, 'ace49315-acidwispessence180');
@@ -40940,6 +44012,9 @@ VALUES (49315, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49315, 0, 16777882);
 
+/* Weenie - MiscObjects - Intricate Wooden Key (9318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9318;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9318, 'keypyramidgreentiny');
 
@@ -40975,6 +44050,9 @@ VALUES (9318, 13, True)
      , (9318, 11, True)
      , (9318, 14, True)
      , (9318, 19, True);
+
+/* Weenie - MiscObjects - Intricate Copper Key (9317) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9317;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9317, 'keypyramidgreensmall');
@@ -41012,6 +44090,9 @@ VALUES (9317, 13, True)
      , (9317, 14, True)
      , (9317, 19, True);
 
+/* Weenie - MiscObjects - Royal Olthoi Jelly (25468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25468;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25468, 'olthoijellyroyal');
 
@@ -41046,6 +44127,9 @@ VALUES (25468, 13, True)
      , (25468, 19, True)
      , (25468, 22, True);
 
+/* Weenie - MiscObjects - Dark Monolith (27437) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27437;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27437, 'darkmonolith');
 
@@ -41078,6 +44162,9 @@ VALUES (27437, 13, True)
      , (27437, 14, True)
      , (27437, 19, True)
      , (27437, 22, True);
+
+/* Weenie - MiscObjects - Small Reedshark Hide (4238) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4238;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4238, 'reedsharkhidesmall');
@@ -41123,6 +44210,9 @@ VALUES (4238, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4238, 0, 16777882);
 
+/* Weenie - MiscObjects - Half-Digested Virindi Mask (28738) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28738;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28738, 'eatervirindimask');
 
@@ -41153,6 +44243,9 @@ VALUES (28738, 13, True)
      , (28738, 19, True)
      , (28738, 22, True);
 
+/* Weenie - MiscObjects - Viamontian Torso (28735) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28735;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28735, 'eaterviamontiantorso');
 
@@ -41182,6 +44275,9 @@ VALUES (28735, 13, True)
      , (28735, 14, True)
      , (28735, 19, True)
      , (28735, 22, True);
+
+/* Weenie - MiscObjects - Elaniwood Golem Heart (11350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11350;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11350, 'golemheartforest-xp');
@@ -41227,6 +44323,9 @@ VALUES (11350, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11350, 0, 16777882);
 
+/* Weenie - MiscObjects - Quiddity Ingot (36942) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36942;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36942, 'ace36942-quiddityingot');
 
@@ -41269,6 +44368,9 @@ VALUES (36942, 0, 83889680, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36942, 0, 16782860);
+
+/* Weenie - MiscObjects - Black Rat Tail (3681) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3681;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3681, 'rattailblack');
@@ -41317,6 +44419,9 @@ VALUES (3681, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3681, 0, 16777882);
 
+/* Weenie - MiscObjects - Great Mattekar Horn (7044) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7044;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7044, 'mattekarhorngreat');
 
@@ -41361,6 +44466,9 @@ VALUES (7044, 67112871, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7044, 0, 16784556);
 
+/* Weenie - MiscObjects - Sclavus Head (12216) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12216;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12216, 'sclavushead');
 
@@ -41394,6 +44502,9 @@ VALUES (12216, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12216, 0, 16787383);
+
+/* Weenie - MiscObjects - Potion of Endless Vigor (25544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25544;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25544, 'potionendlessvigor');
@@ -41441,6 +44552,9 @@ VALUES (25544, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25544, 0, 16778735);
 
+/* Weenie - MiscObjects - Potion of Destiny's Wind (25543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25543;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25543, 'potiondestinywind');
 
@@ -41487,6 +44601,9 @@ VALUES (25543, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25543, 0, 16778735);
 
+/* Weenie - MiscObjects - Coral Heart (7605) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7605;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7605, 'golemheartcoral');
 
@@ -41530,6 +44647,9 @@ VALUES (7605, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7605, 0, 16777882);
+
+/* Weenie - MiscObjects - Small Ursuin Hide (8674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8674;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8674, 'ursuinhidesmall');
@@ -41575,6 +44695,9 @@ VALUES (8674, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8674, 0, 16777882);
 
+/* Weenie - MiscObjects - Ecorto's Chisel (12261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12261;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12261, 'virindichisel');
 
@@ -41618,6 +44741,9 @@ VALUES (12261, 67111923, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12261, 0, 16787402);
+
+/* Weenie - MiscObjects - Inanimate Zombie Butler (34084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34084;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34084, 'ace34084-inanimatezombiebutler');
@@ -41695,6 +44821,9 @@ VALUES (34084, 0, 16777294)
      , (34084, 15, 16779237)
      , (34084, 12, 16779238);
 
+/* Weenie - MiscObjects - Rust Gromnie Wings (28214) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28214;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28214, 'wingsgromnierustvod');
 
@@ -41736,6 +44865,9 @@ VALUES (28214, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28214, 0, 16777882);
 
+/* Weenie - MiscObjects - Brood Matron Claw (24355) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24355;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24355, 'broodmatronclaw');
 
@@ -41768,6 +44900,9 @@ VALUES (24355, 13, True)
      , (24355, 14, True)
      , (24355, 19, True)
      , (24355, 22, True);
+
+/* Weenie - MiscObjects - Zombie Butler (34085) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34085;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34085, 'ace34085-zombiebutler');
@@ -41844,6 +44979,9 @@ VALUES (34085, 0, 16777294)
      , (34085, 15, 16779237)
      , (34085, 12, 16779238);
 
+/* Weenie - MiscObjects - Neydisa Snowglobe (34402) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34402;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34402, 'ace34402-neydisasnowglobe');
 
@@ -41872,6 +45010,9 @@ VALUES (34402, 13, True)
      , (34402, 14, True)
      , (34402, 19, True)
      , (34402, 22, True);
+
+/* Weenie - MiscObjects - Morgluuk's Trophy Head (28451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28451;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28451, 'headmorgluukplaque');
@@ -41912,6 +45053,9 @@ VALUES (28451, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28451, 67114922, 0, 0);
 
+/* Weenie - MiscObjects - Skeleton (23209) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23209;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23209, 'skeletondecoration');
 
@@ -41943,6 +45087,9 @@ VALUES (23209, 13, True)
      , (23209, 14, True)
      , (23209, 19, True)
      , (23209, 22, True);
+
+/* Weenie - MiscObjects - Scarecrow (34093) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34093;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34093, 'ace34093-scarecrow');
@@ -42013,6 +45160,9 @@ VALUES (34093, 0, 16784901)
      , (34093, 11, 16784903)
      , (34093, 12, 16784926);
 
+/* Weenie - MiscObjects - Snowflake (25783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25783;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25783, 'snowflake');
 
@@ -42047,6 +45197,9 @@ VALUES (25783, 13, True)
      , (25783, 14, True)
      , (25783, 19, True)
      , (25783, 22, True);
+
+/* Weenie - MiscObjects - Scarecrow (34091) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34091;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34091, 'ace34091-scarecrow');
@@ -42117,6 +45270,9 @@ VALUES (34091, 0, 16784901)
      , (34091, 11, 16784903)
      , (34091, 12, 16784926);
 
+/* Weenie - MiscObjects - Scarecrow (34090) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34090;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34090, 'ace34090-scarecrow');
 
@@ -42186,6 +45342,9 @@ VALUES (34090, 0, 16784901)
      , (34090, 11, 16784903)
      , (34090, 12, 16784926);
 
+/* Weenie - MiscObjects - Snowy Cabin Snowglobe (32485) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32485;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32485, 'ace32485-snowycabinsnowglobe');
 
@@ -42214,6 +45373,9 @@ VALUES (32485, 13, True)
      , (32485, 14, True)
      , (32485, 19, True)
      , (32485, 22, True);
+
+/* Weenie - MiscObjects - Pyreal Bell (11019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11019;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11019, 'menhirbell-xp');
@@ -42249,6 +45411,9 @@ VALUES (11019, 13, True)
      , (11019, 19, True)
      , (11019, 22, True);
 
+/* Weenie - MiscObjects - Portal to Kivik Lir's Temple (26588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26588;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26588, 'portalhookixir');
 
@@ -42282,6 +45447,9 @@ VALUES (26588, 13, True)
      , (26588, 19, True)
      , (26588, 22, True);
 
+/* Weenie - MiscObjects - Trunk of Bones (23210) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23210;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23210, 'trunkbones');
 
@@ -42314,6 +45482,9 @@ VALUES (23210, 13, True)
      , (23210, 19, True)
      , (23210, 22, True);
 
+/* Weenie - MiscObjects - Living Tome (25350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25350;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25350, 'bookfalatacotway');
 
@@ -42345,6 +45516,9 @@ VALUES (25350, 13, True)
      , (25350, 14, True)
      , (25350, 19, True)
      , (25350, 22, True);
+
+/* Weenie - MiscObjects - Spectral Binding Stone (37539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37539;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37539, 'ace37539-spectralbindingstone');
@@ -42382,6 +45556,9 @@ VALUES (37539, 13, True)
      , (37539, 19, True)
      , (37539, 22, True);
 
+/* Weenie - MiscObjects - Identification Plate (28731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28731;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28731, 'eaterlicenseplate');
 
@@ -42412,6 +45589,9 @@ VALUES (28731, 13, True)
      , (28731, 14, True)
      , (28731, 19, True)
      , (28731, 22, True);
+
+/* Weenie - MiscObjects - Sage Drudge Charm (24841) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24841;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24841, 'drudgecharmsage');
@@ -42446,6 +45626,9 @@ VALUES (24841, 13, True)
      , (24841, 14, True)
      , (24841, 19, True)
      , (24841, 22, True);
+
+/* Weenie - MiscObjects - Lightning Zombie Essence (80) (49241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49241;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49241, 'ace49241-lightningzombieessence80');
@@ -42499,6 +45682,9 @@ VALUES (49241, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49241, 0, 16777882);
 
+/* Weenie - MiscObjects - Tursh Totem Shard (30700) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30700;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30700, 'shardturshtotemassaultlow');
 
@@ -42528,6 +45714,9 @@ VALUES (30700, 13, True)
      , (30700, 14, True)
      , (30700, 19, True)
      , (30700, 22, True);
+
+/* Weenie - MiscObjects - Replica of a Tursh Totem (30745) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30745;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30745, 'hookerturshtotemassault');
@@ -42561,6 +45750,9 @@ VALUES (30745, 13, True)
      , (30745, 14, True)
      , (30745, 19, True)
      , (30745, 22, True);
+
+/* Weenie - MiscObjects - Mixed Marbles (29654) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29654;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29654, 'threebagsmixedmarbles');
@@ -42602,6 +45794,9 @@ VALUES (29654, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29654, 0, 16779181);
 
+/* Weenie - MiscObjects - White Marbles (29655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29655;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29655, 'threebagswhitemarbles');
 
@@ -42642,6 +45837,9 @@ VALUES (29655, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29655, 0, 16779181);
 
+/* Weenie - MiscObjects - Black Marbles (29653) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29653;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29653, 'threebagsblackmarbles');
 
@@ -42681,6 +45879,9 @@ VALUES (29653, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29653, 0, 16779181);
+
+/* Weenie - MiscObjects - Glacial Knight Essence (49260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49260;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49260, 'ace49260-glacialknightessence');
@@ -42734,6 +45935,9 @@ VALUES (49260, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49260, 0, 16777882);
 
+/* Weenie - MiscObjects - Empyrean Portalspace Stabilizer (43070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43070;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43070, 'ace43070-empyreanportalspacestabilizer');
 
@@ -42763,6 +45967,9 @@ VALUES (43070, 13, True)
      , (43070, 14, True)
      , (43070, 19, True)
      , (43070, 22, True);
+
+/* Weenie - MiscObjects - Frost Zombie Essence (180) (49259) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49259;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49259, 'ace49259-frostzombieessence180');
@@ -42816,6 +46023,9 @@ VALUES (49259, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49259, 0, 16777882);
 
+/* Weenie - MiscObjects - Lugian Pauldron (9394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9394;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9394, 'pauldronlugian');
 
@@ -42857,6 +46067,9 @@ VALUES (9394, 0, 83893240, 83893239);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9394, 0, 16785704);
 
+/* Weenie - MiscObjects - Blade of the Heart (9468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9468;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9468, 'bladelugianheart');
 
@@ -42889,6 +46102,9 @@ VALUES (9468, 13, True)
      , (9468, 14, True)
      , (9468, 19, True)
      , (9468, 22, True);
+
+/* Weenie - MiscObjects - Bag of Rye Seed (30488) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30488;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30488, 'seedbagryealfrin');
@@ -42933,6 +46149,9 @@ VALUES (30488, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30488, 0, 16777882);
 
+/* Weenie - MiscObjects - Bag of Wheat Seed (30489) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30489;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30489, 'seedbagwheatalfrin');
 
@@ -42975,6 +46194,9 @@ VALUES (30489, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30489, 0, 16777882);
+
+/* Weenie - MiscObjects - Bag of Corn Seed (30487) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30487;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30487, 'seedbagcornalfrin');
@@ -43019,6 +46241,9 @@ VALUES (30487, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30487, 0, 16777882);
 
+/* Weenie - MiscObjects - Robber Baron Head (30486) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30486;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30486, 'headdrudgehideoutboss');
 
@@ -43048,6 +46273,9 @@ VALUES (30486, 13, True)
      , (30486, 14, True)
      , (30486, 19, True)
      , (30486, 22, True);
+
+/* Weenie - MiscObjects - Pyreal Mote (34351) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34351;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34351, 'ace34351-pyrealmote');
@@ -43093,6 +46321,9 @@ VALUES (34351, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34351, 0, 16784015);
 
+/* Weenie - MiscObjects - Male Tusker Tusk (22427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22427;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22427, 'tuskmale');
 
@@ -43122,6 +46353,9 @@ VALUES (22427, 13, True)
      , (22427, 14, True)
      , (22427, 19, True)
      , (22427, 22, True);
+
+/* Weenie - MiscObjects - Harvester Pincer (10845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10845;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10845, 'pincerharvester-xp');
@@ -43156,6 +46390,9 @@ VALUES (10845, 13, True)
      , (10845, 19, True)
      , (10845, 22, True);
 
+/* Weenie - MiscObjects - Goldenback Tusker Tusk (22424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22424;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22424, 'tuskgolden');
 
@@ -43185,6 +46422,9 @@ VALUES (22424, 13, True)
      , (22424, 14, True)
      , (22424, 19, True)
      , (22424, 22, True);
+
+/* Weenie - MiscObjects - Tusker Redeemer Tusk (22430) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22430;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22430, 'tuskredeemer');
@@ -43216,6 +46456,9 @@ VALUES (22430, 13, True)
      , (22430, 19, True)
      , (22430, 22, True);
 
+/* Weenie - MiscObjects - Tusker Liberator Tusk (22426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22426;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22426, 'tuskliberator');
 
@@ -43246,6 +46489,9 @@ VALUES (22426, 13, True)
      , (22426, 19, True)
      , (22426, 22, True);
 
+/* Weenie - MiscObjects - Tusker Slave Tusk (22432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22432;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22432, 'tuskslave');
 
@@ -43275,6 +46521,9 @@ VALUES (22432, 13, True)
      , (22432, 14, True)
      , (22432, 19, True)
      , (22432, 22, True);
+
+/* Weenie - MiscObjects - Worker Pincer (27591) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27591;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27591, 'pincerworker');
@@ -43308,6 +46557,9 @@ VALUES (27591, 13, True)
      , (27591, 14, True)
      , (27591, 19, True)
      , (27591, 22, True);
+
+/* Weenie - MiscObjects - Small Mattekar Hide (4240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4240;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4240, 'mattekarhidesmall');
@@ -43354,6 +46606,9 @@ VALUES (4240, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4240, 0, 16777882);
 
+/* Weenie - MiscObjects - Inscribed Purple Gem (34348) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34348;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34348, 'ace34348-inscribedpurplegem');
 
@@ -43394,6 +46649,9 @@ VALUES (34348, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34348, 0, 16779181);
 
+/* Weenie - MiscObjects - Soldier Pincer (10847) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10847;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10847, 'pincersoldier-xp');
 
@@ -43427,6 +46685,9 @@ VALUES (10847, 13, True)
      , (10847, 19, True)
      , (10847, 22, True);
 
+/* Weenie - MiscObjects - Elemental (44734) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44734;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44734, 'ace44734-elemental');
 
@@ -43458,6 +46719,9 @@ VALUES (44734, 13, True)
      , (44734, 11, True)
      , (44734, 19, True);
 
+/* Weenie - MiscObjects - Tusker Guard Tusk (22425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22425;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22425, 'tuskguard');
 
@@ -43487,6 +46751,9 @@ VALUES (22425, 13, True)
      , (22425, 14, True)
      , (22425, 19, True)
      , (22425, 22, True);
+
+/* Weenie - MiscObjects - Cured Large Lugian Sinew (7073) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7073;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7073, 'curedsinewlugian3');
@@ -43530,6 +46797,9 @@ VALUES (7073, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7073, 0, 16777882);
+
+/* Weenie - MiscObjects - Lightning Skeleton Bushi Essence (150) (49224) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49224;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49224, 'ace49224-lightningskeletonbushiessence150');
@@ -43583,6 +46853,9 @@ VALUES (49224, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49224, 0, 16777882);
 
+/* Weenie - MiscObjects - Glittering Crystalline Key (9059) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9059;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9059, 'keyplatecrystal');
 
@@ -43627,6 +46900,9 @@ VALUES (9059, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9059, 0, 16785587);
 
+/* Weenie - MiscObjects - Repugnant Eater Ripper Plaque (31606) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31606;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31606, 'ace31606-repugnanteaterripperplaque');
 
@@ -43663,6 +46939,9 @@ VALUES (31606, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31606, 67111924, 0, 0);
 
+/* Weenie - MiscObjects - Forager Captain's Resonator (37091) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37091;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37091, 'ace37091-foragercaptainsresonator');
 
@@ -43693,6 +46972,9 @@ VALUES (37091, 13, True)
      , (37091, 19, True)
      , (37091, 22, True);
 
+/* Weenie - MiscObjects - Skull of High Acolyte (7817) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7817;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7817, 'skullhighacolyte');
 
@@ -43722,6 +47004,9 @@ VALUES (7817, 13, True)
      , (7817, 14, True)
      , (7817, 19, True)
      , (7817, 22, True);
+
+/* Weenie - MiscObjects - Lich Skull (4121) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4121;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4121, 'zombielichhead');
@@ -43754,6 +47039,9 @@ VALUES (4121, 13, True)
      , (4121, 19, True)
      , (4121, 22, True);
 
+/* Weenie - MiscObjects - Alloy Mechanism (25322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25322;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25322, 'undeadmechanism8');
 
@@ -43782,6 +47070,9 @@ VALUES (25322, 13, True)
      , (25322, 14, True)
      , (25322, 19, True)
      , (25322, 22, True);
+
+/* Weenie - MiscObjects - Reedshark Banner (11764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11764;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11764, 'bannerreedshark');
@@ -43818,6 +47109,9 @@ VALUES (11764, 0, 83893717, 83893720);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11764, 0, 16787125);
+
+/* Weenie - MiscObjects - Sturdy Banner Haft (11834) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11834;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11834, 'haftbanner');
@@ -43858,6 +47152,9 @@ VALUES (11834, 0, 83893729, 83893729);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11834, 0, 16787145);
+
+/* Weenie - MiscObjects - Excellent Oiled String (7064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7064;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7064, 'bowcompositestring3');
@@ -43901,6 +47198,9 @@ VALUES (7064, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7064, 0, 16777882);
 
+/* Weenie - MiscObjects - Little Green Seeds (11689) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11689;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11689, 'seedmediumvarb');
 
@@ -43933,6 +47233,9 @@ VALUES (11689, 13, True)
      , (11689, 14, True)
      , (11689, 19, True)
      , (11689, 22, True);
+
+/* Weenie - MiscObjects - Plated Banner Haft (11837) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11837;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11837, 'haftreinforcedbanner');
@@ -43974,6 +47277,9 @@ VALUES (11837, 0, 83893729, 83893728);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11837, 0, 16787145);
 
+/* Weenie - MiscObjects - Unarmed Snowman (13207) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13207;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13207, 'snowmanunfinishedhead');
 
@@ -44008,6 +47314,9 @@ VALUES (13207, 13, True)
      , (13207, 14, True)
      , (13207, 19, True)
      , (13207, 22, True);
+
+/* Weenie - MiscObjects - Leather Straps (14552) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14552;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14552, 'strapsleather');
@@ -44052,6 +47361,9 @@ VALUES (14552, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14552, 0, 16777882);
 
+/* Weenie - MiscObjects - Tattered Virindi Cloak (9117) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9117;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9117, 'cloaktatteredvirindi');
 
@@ -44095,6 +47407,9 @@ VALUES (9117, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9117, 0, 16777882);
 
+/* Weenie - MiscObjects - Auroch Horn (266) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 266;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (266, 'aurochhorn');
 
@@ -44123,6 +47438,9 @@ VALUES (266, 13, True)
      , (266, 14, True)
      , (266, 19, True)
      , (266, 22, True);
+
+/* Weenie - MiscObjects - Mu-miyah Leg (22029) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22029;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22029, 'legmummy');
@@ -44173,6 +47491,9 @@ VALUES (22029, 0, 16777299)
      , (22029, 1, 16777297)
      , (22029, 2, 16777296)
      , (22029, 3, 16777298);
+
+/* Weenie - MiscObjects - Mu-miyah Torso with an Arm (22094) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22094;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22094, 'headarmmummy');
@@ -44233,6 +47554,9 @@ VALUES (22094, 0, 16778359)
      , (22094, 15, 16777307)
      , (22094, 16, 16781779);
 
+/* Weenie - MiscObjects - Ruined Amulet of the Left Hand (15763) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15763;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15763, 'amuletruinedcreature');
 
@@ -44278,6 +47602,9 @@ VALUES (15763, 0, 83886719, 83886719);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15763, 0, 16778348);
+
+/* Weenie - MiscObjects - Ruined Amulet of Light Weapons (15770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15770;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15770, 'amuletruinedstaff');
@@ -44325,6 +47652,9 @@ VALUES (15770, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15770, 0, 16778348);
 
+/* Weenie - MiscObjects - Ruined Amulet of the Arm (15773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15773;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15773, 'amuletruinedwar');
 
@@ -44371,6 +47701,9 @@ VALUES (15773, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15773, 0, 16778348);
 
+/* Weenie - MiscObjects - Undead Body (22058) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22058;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22058, 'bodyundead');
 
@@ -44403,6 +47736,9 @@ VALUES (22058, 13, True)
      , (22058, 19, True)
      , (22058, 22, True);
 
+/* Weenie - MiscObjects - Tusker Title Token (22632) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22632;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22632, 'tokentuskerredeemer');
 
@@ -44432,6 +47768,9 @@ VALUES (22632, 13, True)
      , (22632, 14, True)
      , (22632, 19, True)
      , (22632, 22, True);
+
+/* Weenie - MiscObjects - Torn Mosswart Shroud (9128) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9128;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9128, 'shroudtornmosswart');
@@ -44476,6 +47815,9 @@ VALUES (9128, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9128, 0, 16777882);
 
+/* Weenie - MiscObjects - Butterscotch Suckling (31511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31511;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31511, 'ace31511-butterscotchsuckling');
 
@@ -44505,6 +47847,9 @@ VALUES (31511, 13, True)
      , (31511, 14, True)
      , (31511, 19, True)
      , (31511, 22, True);
+
+/* Weenie - MiscObjects - Raider Captain's Resonator (37090) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37090;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37090, 'ace37090-raidercaptainsresonator');
@@ -44536,6 +47881,9 @@ VALUES (37090, 13, True)
      , (37090, 19, True)
      , (37090, 22, True);
 
+/* Weenie - MiscObjects - Baby Pet Token (33930) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33930;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33930, 'ace33930-babypettoken');
 
@@ -44566,6 +47914,9 @@ VALUES (33930, 13, True)
      , (33930, 19, True)
      , (33930, 22, True);
 
+/* Weenie - MiscObjects - Ruschk Scalp (31037) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31037;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31037, 'ace31037-ruschkscalp');
 
@@ -44594,6 +47945,9 @@ VALUES (31037, 13, True)
      , (31037, 11, True)
      , (31037, 14, True)
      , (31037, 19, True);
+
+/* Weenie - MiscObjects - Amelia's Gargoyle Amulet (35931) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35931;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35931, 'ace35931-ameliasgargoyleamulet');
@@ -44635,6 +47989,9 @@ VALUES (35931, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35931, 0, 16778348);
 
+/* Weenie - MiscObjects - Exhumed Bones (35107) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35107;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35107, 'ace35107-exhumedbones');
 
@@ -44666,6 +48023,9 @@ VALUES (35107, 13, True)
      , (35107, 11, True)
      , (35107, 14, True)
      , (35107, 19, True);
+
+/* Weenie - MiscObjects - Quality Imprinting Mote (34889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34889;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34889, 'ace34889-qualityimprintingmote');
@@ -44711,6 +48071,9 @@ VALUES (34889, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34889, 0, 16784015);
 
+/* Weenie - MiscObjects - Prickly Pear (44192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44192;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44192, 'ace44192-pricklypear');
 
@@ -44745,6 +48108,9 @@ VALUES (44192, 13, True)
      , (44192, 14, True)
      , (44192, 19, True);
 
+/* Weenie - MiscObjects - Essence of Wind Fury (53366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53366;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53366, 'ace53366-essenceofwindfury');
 
@@ -44778,6 +48144,9 @@ VALUES (53366, 13, True)
      , (53366, 19, True)
      , (53366, 22, True);
 
+/* Weenie - MiscObjects - Radiant Blood Armor Writ (38546) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38546;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38546, 'ace38546-radiantbloodarmorwrit');
 
@@ -44810,6 +48179,9 @@ VALUES (38546, 13, True)
      , (38546, 11, True)
      , (38546, 14, True)
      , (38546, 19, True);
+
+/* Weenie - MiscObjects - Eldrytch Web Sollerets (42331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42331;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42331, 'ace42331-eldrytchwebsollerets');
@@ -44850,6 +48222,9 @@ VALUES (42331, 0, 83889344, 83897948)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42331, 0, 16778416);
 
+/* Weenie - MiscObjects - Eldrytch Web Helm (42328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42328;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42328, 'ace42328-eldrytchwebhelm');
 
@@ -44885,6 +48260,9 @@ VALUES (42328, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42328, 0, 16794168);
+
+/* Weenie - MiscObjects - Frost Moar Essence (150) (49363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49363;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49363, 'ace49363-frostmoaressence150');
@@ -44938,6 +48316,9 @@ VALUES (49363, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49363, 0, 16777882);
 
+/* Weenie - MiscObjects - Node Leech's Medallion (37092) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37092;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37092, 'ace37092-nodeleechsmedallion');
 
@@ -44967,6 +48348,9 @@ VALUES (37092, 13, True)
      , (37092, 14, True)
      , (37092, 19, True)
      , (37092, 22, True);
+
+/* Weenie - MiscObjects - Carenzi Burrower Pelt (11339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11339;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11339, 'carenzipeltburrower-xp');
@@ -45011,6 +48395,9 @@ VALUES (11339, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11339, 0, 16777882);
+
+/* Weenie - MiscObjects - White Rat Tail (3685) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3685;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3685, 'rattailwhite');
@@ -45059,6 +48446,9 @@ VALUES (3685, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3685, 0, 16777882);
 
+/* Weenie - MiscObjects - Grey Rat Tail (3683) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3683;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3683, 'rattailgrey');
 
@@ -45106,6 +48496,9 @@ VALUES (3683, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3683, 0, 16777882);
 
+/* Weenie - MiscObjects - Huge Tainted Egg (37447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37447;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37447, 'ace37447-hugetaintedegg');
 
@@ -45135,6 +48528,9 @@ VALUES (37447, 13, True)
      , (37447, 11, True)
      , (37447, 14, True)
      , (37447, 19, True);
+
+/* Weenie - MiscObjects - Frost Moar Essence (180) (49364) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49364;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49364, 'ace49364-frostmoaressence180');
@@ -45188,6 +48584,9 @@ VALUES (49364, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49364, 0, 16777882);
 
+/* Weenie - MiscObjects - Plated Tusker Tusk (22428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22428;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22428, 'tuskplated');
 
@@ -45217,6 +48616,9 @@ VALUES (22428, 13, True)
      , (22428, 14, True)
      , (22428, 19, True)
      , (22428, 22, True);
+
+/* Weenie - MiscObjects - Frost Zombie Essence (150) (49258) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49258;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49258, 'ace49258-frostzombieessence150');
@@ -45270,6 +48672,9 @@ VALUES (49258, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49258, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Spectre Essence (150) (49446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49446;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49446, 'ace49446-frostspectreessence150');
 
@@ -45321,6 +48726,9 @@ VALUES (49446, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49446, 0, 16777882);
+
+/* Weenie - MiscObjects - Acid Spectre Essence (100) (49423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49423;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49423, 'ace49423-acidspectreessence100');
@@ -45374,6 +48782,9 @@ VALUES (49423, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49423, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Elemental Essence (100) (49270) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49270;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49270, 'ace49270-lightningelementalessence100');
 
@@ -45425,6 +48836,9 @@ VALUES (49270, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49270, 0, 16777882);
+
+/* Weenie - MiscObjects - Lightning Wisp Essence (100) (49319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49319;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49319, 'ace49319-lightningwispessence100');
@@ -45478,6 +48892,9 @@ VALUES (49319, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49319, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Wisp Essence (80) (49332) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49332;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49332, 'ace49332-frostwispessence80');
 
@@ -45529,6 +48946,9 @@ VALUES (49332, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49332, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Grievver Essence (80) (49388) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49388;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49388, 'ace49388-frostgrievveressence80');
@@ -45582,6 +49002,9 @@ VALUES (49388, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49388, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Moar Essence (100) (49361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49361;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49361, 'ace49361-frostmoaressence100');
 
@@ -45633,6 +49056,9 @@ VALUES (49361, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49361, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Skeleton Minion Essence (80) (49228) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49228;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49228, 'ace49228-frostskeletonminionessence80');
@@ -45686,6 +49112,9 @@ VALUES (49228, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49228, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Moar Essence (100) (49354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49354;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49354, 'ace49354-firemoaressence100');
 
@@ -45737,6 +49166,9 @@ VALUES (49354, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49354, 0, 16777882);
+
+/* Weenie - MiscObjects - Lightning Zombie Essence (100) (49242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49242;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49242, 'ace49242-lightningzombieessence100');
@@ -45790,6 +49222,9 @@ VALUES (49242, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49242, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost K'nath Essence (100) (49305) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49305;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49305, 'ace49305-frostknathessence100');
 
@@ -45842,6 +49277,9 @@ VALUES (49305, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49305, 0, 16777882);
 
+/* Weenie - MiscObjects - Black Coral Golem Chunk (40148) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40148;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40148, 'ace40148-blackcoralgolemchunk');
 
@@ -45872,6 +49310,9 @@ VALUES (40148, 13, True)
      , (40148, 14, True)
      , (40148, 19, True)
      , (40148, 22, True);
+
+/* Weenie - MiscObjects - Crystals of Grace (25814) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25814;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25814, 'crystalemptysoul');
@@ -45905,6 +49346,9 @@ VALUES (25814, 13, True)
      , (25814, 19, True)
      , (25814, 22, True);
 
+/* Weenie - MiscObjects - Rock of Splendor (25821) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25821;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25821, 'rockemptysoul');
 
@@ -45937,6 +49381,9 @@ VALUES (25821, 13, True)
      , (25821, 14, True)
      , (25821, 19, True)
      , (25821, 22, True);
+
+/* Weenie - MiscObjects - Pumpkin Head (12215) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12215;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12215, 'scarecrowhead');
@@ -45975,6 +49422,9 @@ VALUES (12215, 0, 83892725, 83892725);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12215, 0, 16787382);
 
+/* Weenie - MiscObjects - The Hero (22847) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22847;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22847, 'lugianbanner2');
 
@@ -46006,6 +49456,9 @@ VALUES (22847, 13, True)
      , (22847, 14, True)
      , (22847, 19, True)
      , (22847, 22, True);
+
+/* Weenie - MiscObjects - Chunk of Low-Grade Chorizite (7528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7528;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7528, 'chorizitechunka');
@@ -46047,6 +49500,9 @@ VALUES (7528, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7528, 0, 16777882);
 
+/* Weenie - MiscObjects - Sacrificial Goblet (34308) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34308;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34308, 'ace34308-sacrificialgoblet');
 
@@ -46074,6 +49530,9 @@ VALUES (34308, 13, True)
      , (34308, 14, True)
      , (34308, 19, True)
      , (34308, 22, True);
+
+/* Weenie - MiscObjects - Rytheran's Master Seal (37168) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37168;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37168, 'ace37168-rytheransmasterseal');
@@ -46105,6 +49564,9 @@ VALUES (37168, 13, True)
      , (37168, 19, True)
      , (37168, 22, True);
 
+/* Weenie - MiscObjects - Avoren's Skull (36924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36924;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36924, 'ace36924-avorensskull');
 
@@ -46134,6 +49596,9 @@ VALUES (36924, 13, True)
      , (36924, 14, True)
      , (36924, 19, True)
      , (36924, 22, True);
+
+/* Weenie - MiscObjects - Deck of Eyes (37274) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37274;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37274, 'ace37274-deckofeyes');
@@ -46167,6 +49632,9 @@ VALUES (37274, 13, True)
      , (37274, 14, True)
      , (37274, 19, True);
 
+/* Weenie - MiscObjects - Deck of Hands (37287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37287;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37287, 'ace37287-deckofhands');
 
@@ -46198,6 +49666,9 @@ VALUES (37287, 13, True)
      , (37287, 11, True)
      , (37287, 14, True)
      , (37287, 19, True);
+
+/* Weenie - MiscObjects - The Jester (37260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37260;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37260, 'ace37260-thejester');
@@ -46231,6 +49702,9 @@ VALUES (37260, 13, True)
      , (37260, 11, True)
      , (37260, 14, True)
      , (37260, 19, True);
+
+/* Weenie - MiscObjects - Treated Wood (22852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22852;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22852, 'woodstack');
@@ -46267,6 +49741,9 @@ VALUES (22852, 13, True)
      , (22852, 19, True)
      , (22852, 22, True);
 
+/* Weenie - MiscObjects - Large Gharu'ndim Rug (25769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25769;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25769, 'rugghalarge');
 
@@ -46296,6 +49773,9 @@ VALUES (25769, 13, True)
      , (25769, 14, True)
      , (25769, 19, True)
      , (25769, 22, True);
+
+/* Weenie - MiscObjects - The Studious Mind (250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 250;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (250, 'painting4');
@@ -46329,6 +49809,9 @@ VALUES (250, 13, True)
      , (250, 19, True)
      , (250, 22, True);
 
+/* Weenie - MiscObjects - Outcast (247) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 247;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (247, 'painting1');
 
@@ -46360,6 +49843,9 @@ VALUES (247, 13, True)
      , (247, 14, True)
      , (247, 19, True)
      , (247, 22, True);
+
+/* Weenie - MiscObjects - Glyph of Light Weapons (37368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37368;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37368, 'ace37368-glyphoflightweapons');
@@ -46405,6 +49891,9 @@ VALUES (37368, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37368, 0, 16779181);
 
+/* Weenie - MiscObjects - Glyph of Missile Weapons (37372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37372;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37372, 'ace37372-glyphofmissileweapons');
 
@@ -46449,6 +49938,9 @@ VALUES (37372, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37372, 0, 16779181);
 
+/* Weenie - MiscObjects - Shreth Banner (11790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11790;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11790, 'bannershreth');
 
@@ -46485,6 +49977,9 @@ VALUES (11790, 0, 83893717, 83893722);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11790, 0, 16787125);
 
+/* Weenie - MiscObjects - 10th Anniversary Night Club Ticket (41749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41749;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41749, 'ace41749-10thanniversarynightclubticket');
 
@@ -46517,6 +50012,9 @@ VALUES (41749, 13, True)
      , (41749, 14, True)
      , (41749, 19, True)
      , (41749, 22, True);
+
+/* Weenie - MiscObjects - Eight of Hands (37241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37241;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37241, 'ace37241-eightofhands');
@@ -46551,6 +50049,9 @@ VALUES (37241, 13, True)
      , (37241, 14, True)
      , (37241, 19, True);
 
+/* Weenie - MiscObjects - Ace of Eyes (37247) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37247;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37247, 'ace37247-aceofeyes');
 
@@ -46583,6 +50084,9 @@ VALUES (37247, 13, True)
      , (37247, 11, True)
      , (37247, 14, True)
      , (37247, 19, True);
+
+/* Weenie - MiscObjects - Five of Hands (37238) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37238;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37238, 'ace37238-fiveofhands');
@@ -46617,6 +50121,9 @@ VALUES (37238, 13, True)
      , (37238, 14, True)
      , (37238, 19, True);
 
+/* Weenie - MiscObjects - Jack of Hands (37244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37244;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37244, 'ace37244-jackofhands');
 
@@ -46649,6 +50156,9 @@ VALUES (37244, 13, True)
      , (37244, 11, True)
      , (37244, 14, True)
      , (37244, 19, True);
+
+/* Weenie - MiscObjects - Seven of Eyes (37253) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37253;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37253, 'ace37253-sevenofeyes');
@@ -46683,6 +50193,9 @@ VALUES (37253, 13, True)
      , (37253, 14, True)
      , (37253, 19, True);
 
+/* Weenie - MiscObjects - Three Cards from the Deck of Hands (37280) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37280;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37280, 'ace37280-threecardsfromthedeckofhands');
 
@@ -46714,6 +50227,9 @@ VALUES (37280, 13, True)
      , (37280, 11, True)
      , (37280, 14, True)
      , (37280, 19, True);
+
+/* Weenie - MiscObjects - Seven Cards from the Deck of Hands (37284) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37284;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37284, 'ace37284-sevencardsfromthedeckofhands');
@@ -46747,6 +50263,9 @@ VALUES (37284, 13, True)
      , (37284, 14, True)
      , (37284, 19, True);
 
+/* Weenie - MiscObjects - Nine of Eyes (37255) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37255;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37255, 'ace37255-nineofeyes');
 
@@ -46779,6 +50298,9 @@ VALUES (37255, 13, True)
      , (37255, 11, True)
      , (37255, 14, True)
      , (37255, 19, True);
+
+/* Weenie - MiscObjects - Fresh Zombie Head (34097) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34097;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34097, 'ace34097-freshzombiehead');
@@ -46814,6 +50336,9 @@ VALUES (34097, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34097, 0, 16787385);
 
+/* Weenie - MiscObjects - Shadow Head (34029) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34029;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34029, 'ace34029-shadowhead');
 
@@ -46843,6 +50368,9 @@ VALUES (34029, 13, True)
      , (34029, 11, True)
      , (34029, 14, True)
      , (34029, 19, True);
+
+/* Weenie - MiscObjects - Ursuin Head (12219) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12219;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12219, 'ursuinhead');
@@ -46877,6 +50405,9 @@ VALUES (12219, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12219, 0, 16787384);
+
+/* Weenie - MiscObjects - Mutilator Head (24846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24846;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24846, 'olthoiheadmutilator');
@@ -46917,6 +50448,9 @@ VALUES (24846, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24846, 67113314, 0, 0);
 
+/* Weenie - MiscObjects - Essence of Cave Penguin (28842) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28842;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28842, 'potioneggpenguincave');
 
@@ -46951,6 +50485,9 @@ VALUES (28842, 13, True)
      , (28842, 14, True)
      , (28842, 19, True);
 
+/* Weenie - MiscObjects - Sacred A'nekshay Crystal (44303) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44303;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44303, 'ace44303-sacredanekshaycrystal');
 
@@ -46981,6 +50518,9 @@ VALUES (44303, 13, True)
      , (44303, 14, True)
      , (44303, 19, True);
 
+/* Weenie - MiscObjects - Farmer Kao's Shovel (31368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31368;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31368, 'ace31368-farmerkaosshovel');
 
@@ -47010,6 +50550,9 @@ VALUES (31368, 13, True)
      , (31368, 11, True)
      , (31368, 14, True)
      , (31368, 19, True);
+
+/* Weenie - MiscObjects - Sclavus Torso (22046) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22046;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22046, 'torsosclavus');
@@ -47045,6 +50588,9 @@ VALUES (22046, 13, True)
      , (22046, 14, True)
      , (22046, 19, True)
      , (22046, 22, True);
+
+/* Weenie - MiscObjects - Ruined Amulet of Light Weapons (15772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15772;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15772, 'amuletruinedunarmed');
@@ -47092,6 +50638,9 @@ VALUES (15772, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15772, 0, 16778348);
 
+/* Weenie - MiscObjects - Virindi Master Key (9291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9291;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9291, 'keyfragmentmaster');
 
@@ -47132,6 +50681,9 @@ VALUES (9291, 67113157, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9291, 9, 16785620);
 
+/* Weenie - MiscObjects - Sword Glyph (6328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6328;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6328, 'glyphsword');
 
@@ -47168,6 +50720,9 @@ VALUES (6328, 13, True)
      , (6328, 14, True)
      , (6328, 19, True)
      , (6328, 22, True);
+
+/* Weenie - MiscObjects - Heavy Weapons Glyph (19409) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19409;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19409, 'glyphnewsword');
@@ -47211,6 +50766,9 @@ VALUES (19409, 0, 83890737, 83886518);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19409, 0, 16780688);
+
+/* Weenie - MiscObjects - Atuakeh Dust (36067) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36067;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36067, 'ace36067-atuakehdust');
@@ -47256,6 +50814,9 @@ VALUES (36067, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36067, 0, 16777882);
 
+/* Weenie - MiscObjects - Black Coral Keyring (42347) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42347;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42347, 'ace42347-blackcoralkeyring');
 
@@ -47296,6 +50857,9 @@ VALUES (42347, 13, True)
      , (42347, 19, True)
      , (42347, 22, True);
 
+/* Weenie - MiscObjects - Superb Diamond Infused Pyreal Ingot (19516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19516;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19516, 'ingotpyrealinfusedsuperb');
 
@@ -47329,6 +50893,9 @@ VALUES (19516, 13, True)
      , (19516, 19, True)
      , (19516, 22, True);
 
+/* Weenie - MiscObjects - Book Shelf (25758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25758;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25758, 'bookshelffull');
 
@@ -47358,6 +50925,9 @@ VALUES (25758, 13, True)
      , (25758, 14, True)
      , (25758, 19, True)
      , (25758, 22, True);
+
+/* Weenie - MiscObjects - Bending Willow and Setting Sun (22850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22850;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22850, 'showallhanging2');
@@ -47391,6 +50961,9 @@ VALUES (22850, 13, True)
      , (22850, 19, True)
      , (22850, 22, True);
 
+/* Weenie - MiscObjects - Falling Leaves (22849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22849;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22849, 'showallhanging1');
 
@@ -47423,6 +50996,9 @@ VALUES (22849, 13, True)
      , (22849, 19, True)
      , (22849, 22, True);
 
+/* Weenie - MiscObjects - Tumerok Chair (25766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25766;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25766, 'logchairtumerok');
 
@@ -47454,6 +51030,9 @@ VALUES (25766, 13, True)
      , (25766, 14, True)
      , (25766, 19, True)
      , (25766, 22, True);
+
+/* Weenie - MiscObjects - Banderling Aggressor Scalp (24831) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24831;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24831, 'banderlingscalpaggressor');
@@ -47499,6 +51078,9 @@ VALUES (24831, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24831, 0, 16777882);
 
+/* Weenie - MiscObjects - Ivory Gromnie Tooth (3675) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3675;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3675, 'gromnietoothivory');
 
@@ -47538,6 +51120,9 @@ VALUES (3675, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3675, 0, 16777882);
+
+/* Weenie - MiscObjects - Tidal Siraluun Claw (11369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11369;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11369, 'siraluunclawtidal-xp');
@@ -47583,6 +51168,9 @@ VALUES (11369, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11369, 0, 16777882);
 
+/* Weenie - MiscObjects - Small Bundle of Strand Siraluun Feathers (29901) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29901;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29901, 'feathersiraluunstrand');
 
@@ -47627,6 +51215,9 @@ VALUES (29901, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29901, 0, 16777882);
 
+/* Weenie - MiscObjects - New Crossbow Glyph (19404) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19404;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19404, 'glyphnewcrossbow');
 
@@ -47669,6 +51260,9 @@ VALUES (19404, 0, 83890737, 83886518);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19404, 0, 16780688);
+
+/* Weenie - MiscObjects - Finesse Weapons Glyph (19405) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19405;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19405, 'glyphnewdagger');
@@ -47713,6 +51307,9 @@ VALUES (19405, 0, 83890737, 83886518);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19405, 0, 16780688);
 
+/* Weenie - MiscObjects - Crossbow Glyph (21974) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21974;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21974, 'glyphcrossbow');
 
@@ -47749,6 +51346,9 @@ VALUES (21974, 13, True)
      , (21974, 14, True)
      , (21974, 19, True)
      , (21974, 22, True);
+
+/* Weenie - MiscObjects - Mire Phyntos Wasp Wing (3702) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3702;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3702, 'waspwingmire');
@@ -47788,6 +51388,9 @@ VALUES (3702, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3702, 67111657, 0, 0);
+
+/* Weenie - MiscObjects - Twisted Drudge Ravener Guts (7075) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7075;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7075, 'gutsdrudgeravenertwisted');
@@ -47832,6 +51435,9 @@ VALUES (7075, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7075, 0, 16777882);
 
+/* Weenie - MiscObjects - Cabalist Drudge Charm (24836) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24836;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24836, 'drudgecharmcabalist');
 
@@ -47866,6 +51472,9 @@ VALUES (24836, 13, True)
      , (24836, 19, True)
      , (24836, 22, True);
 
+/* Weenie - MiscObjects - Peerless Drudge Charm (24840) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24840;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24840, 'drudgecharmpeerless');
 
@@ -47899,6 +51508,9 @@ VALUES (24840, 13, True)
      , (24840, 14, True)
      , (24840, 19, True)
      , (24840, 22, True);
+
+/* Weenie - MiscObjects - Burning Sands Golem Heart (48941) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48941;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48941, 'ace48941-burningsandsgolemheart');
@@ -47944,6 +51556,9 @@ VALUES (48941, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48941, 0, 16777882);
 
+/* Weenie - MiscObjects - Yellow Monster Sprout (31678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31678;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31678, 'ace31678-yellowmonstersprout');
 
@@ -47986,6 +51601,9 @@ VALUES (31678, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31678, 67116677, 0, 192);
 
+/* Weenie - MiscObjects - Hea Totem (10962) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10962;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10962, 'tribaltotemhea-xp');
 
@@ -48021,6 +51639,9 @@ VALUES (10962, 13, True)
      , (10962, 19, True)
      , (10962, 22, True);
 
+/* Weenie - MiscObjects - Double Totem of Volkama and Audetaunga (11452) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11452;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11452, 'totemdoubleva-xp');
 
@@ -48054,6 +51675,9 @@ VALUES (11452, 13, True)
      , (11452, 14, True)
      , (11452, 19, True)
      , (11452, 22, True);
+
+/* Weenie - MiscObjects - T-mon Backpack Straps (34094) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34094;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34094, 'ace34094-tmonbackpackstraps');
@@ -48098,6 +51722,9 @@ VALUES (34094, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34094, 0, 16777882);
+
+/* Weenie - MiscObjects - Foolproof White Sapphire Gem (45511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45511;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45511, 'ace45511-foolproofwhitesapphiregem');
@@ -48144,6 +51771,9 @@ VALUES (45511, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45511, 0, 16779181);
 
+/* Weenie - MiscObjects - Magic Defense Weapon Augmentation Gem (45499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45499;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45499, 'ace45499-magicdefenseweaponaugmentationgem');
 
@@ -48188,6 +51818,9 @@ VALUES (45499, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45499, 0, 16779181);
+
+/* Weenie - MiscObjects - Missile Defense Weapon Augmentation Gem (45500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45500;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45500, 'ace45500-missiledefenseweaponaugmentationgem');
@@ -48234,6 +51867,9 @@ VALUES (45500, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45500, 0, 16779181);
 
+/* Weenie - MiscObjects - Lucky White Rabbit's Foot Gem (45516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45516;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45516, 'ace45516-luckywhiterabbitsfootgem');
 
@@ -48278,6 +51914,9 @@ VALUES (45516, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45516, 0, 16779181);
+
+/* Weenie - MiscObjects - Spectral Force Gem (45498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45498;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45498, 'ace45498-spectralforcegem');
@@ -48324,6 +51963,9 @@ VALUES (45498, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45498, 0, 16779181);
 
+/* Weenie - MiscObjects - Black Skull of Xikma Gem (45514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45514;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45514, 'ace45514-blackskullofxikmagem');
 
@@ -48369,6 +52011,9 @@ VALUES (45514, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45514, 0, 16779181);
 
+/* Weenie - MiscObjects - Spectral Skull Gem (45513) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45513;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45513, 'ace45513-spectralskullgem');
 
@@ -48413,6 +52058,9 @@ VALUES (45513, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45513, 0, 16779181);
+
+/* Weenie - MiscObjects - Foolproof Yellow Topaz (36635) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36635;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36635, 'ace36635-foolproofyellowtopaz');
@@ -48463,6 +52111,9 @@ VALUES (36635, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36635, 0, 16777882);
 
+/* Weenie - MiscObjects - Claw Stamped Spectral Ingot (37469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37469;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37469, 'ace37469-clawstampedspectralingot');
 
@@ -48509,6 +52160,9 @@ VALUES (37469, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37469, 0, 16779181);
 
+/* Weenie - MiscObjects - First Half of a Battered Staff (31456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31456;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31456, 'ace31456-firsthalfofabatteredstaff');
 
@@ -48542,6 +52196,9 @@ VALUES (31456, 13, True)
      , (31456, 19, True)
      , (31456, 22, True);
 
+/* Weenie - MiscObjects - Second Half of a Battered Bow (31461) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31461;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31461, 'ace31461-secondhalfofabatteredbow');
 
@@ -48571,6 +52228,9 @@ VALUES (31461, 13, True)
      , (31461, 14, True)
      , (31461, 19, True)
      , (31461, 22, True);
+
+/* Weenie - MiscObjects - First Half of a Battered Dagger (31458) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31458;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31458, 'ace31458-firsthalfofabattereddagger');
@@ -48605,6 +52265,9 @@ VALUES (31458, 13, True)
      , (31458, 19, True)
      , (31458, 22, True);
 
+/* Weenie - MiscObjects - First Half of a Worn Atlatl (31484) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31484;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31484, 'ace31484-firsthalfofawornatlatl');
 
@@ -48638,6 +52301,9 @@ VALUES (31484, 13, True)
      , (31484, 19, True)
      , (31484, 22, True);
 
+/* Weenie - MiscObjects - Second Half of a Worn Spear (31473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31473;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31473, 'ace31473-secondhalfofawornspear');
 
@@ -48667,6 +52333,9 @@ VALUES (31473, 13, True)
      , (31473, 14, True)
      , (31473, 19, True)
      , (31473, 22, True);
+
+/* Weenie - MiscObjects - First Half of a Worn Cestus (31474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31474;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31474, 'ace31474-firsthalfofaworncestus');
@@ -48701,6 +52370,9 @@ VALUES (31474, 13, True)
      , (31474, 19, True)
      , (31474, 22, True);
 
+/* Weenie - MiscObjects - Second Half of a Worn Dagger (31479) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31479;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31479, 'ace31479-secondhalfofaworndagger');
 
@@ -48730,6 +52402,9 @@ VALUES (31479, 13, True)
      , (31479, 14, True)
      , (31479, 19, True)
      , (31479, 22, True);
+
+/* Weenie - MiscObjects - First Half of a Worn Bow (31480) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31480;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31480, 'ace31480-firsthalfofawornbow');
@@ -48763,6 +52438,9 @@ VALUES (31480, 13, True)
      , (31480, 14, True)
      , (31480, 19, True)
      , (31480, 22, True);
+
+/* Weenie - MiscObjects - Scarecrow Stand (34088) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34088;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34088, 'ace34088-scarecrowstand');
@@ -48830,6 +52508,9 @@ VALUES (34088, 0, 16784901)
      , (34088, 11, 16790869)
      , (34088, 12, 16777708);
 
+/* Weenie - MiscObjects - Sho Floor Pillow (22848) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22848;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22848, 'shopillow');
 
@@ -48859,6 +52540,9 @@ VALUES (22848, 13, True)
      , (22848, 14, True)
      , (22848, 19, True)
      , (22848, 22, True);
+
+/* Weenie - MiscObjects - Ghost (44737) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44737;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44737, 'ace44737-ghost');
@@ -48891,6 +52575,9 @@ VALUES (44737, 13, True)
      , (44737, 11, True)
      , (44737, 19, True);
 
+/* Weenie - MiscObjects - Armored Skeletal Body (28883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28883;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28883, 'bodyarmoredskeleton');
 
@@ -48921,6 +52608,9 @@ VALUES (28883, 13, True)
      , (28883, 19, True)
      , (28883, 22, True);
 
+/* Weenie - MiscObjects - Fletching Table (25774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25774;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25774, 'tablefletching');
 
@@ -48950,6 +52640,9 @@ VALUES (25774, 13, True)
      , (25774, 14, True)
      , (25774, 19, True)
      , (25774, 22, True);
+
+/* Weenie - MiscObjects - Olthoi Ripper Reducer Plaque (31614) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31614;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31614, 'ace31614-olthoiripperreducerplaque');
@@ -48987,6 +52680,9 @@ VALUES (31614, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31614, 67112924, 0, 0);
 
+/* Weenie - MiscObjects - Fat Vase (25776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25776;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25776, 'vase1');
 
@@ -49018,6 +52714,9 @@ VALUES (25776, 13, True)
      , (25776, 14, True)
      , (25776, 19, True)
      , (25776, 22, True);
+
+/* Weenie - MiscObjects - Amphorae (25780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25780;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25780, 'vasegha2');
@@ -49051,6 +52750,9 @@ VALUES (25780, 13, True)
      , (25780, 19, True)
      , (25780, 22, True);
 
+/* Weenie - MiscObjects - Gharu'ndim Jug (25779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25779;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25779, 'vasegha1');
 
@@ -49083,6 +52785,9 @@ VALUES (25779, 13, True)
      , (25779, 19, True)
      , (25779, 22, True);
 
+/* Weenie - MiscObjects - Armored Undead Body (28884) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28884;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28884, 'bodyarmoredundead');
 
@@ -49113,6 +52818,9 @@ VALUES (28884, 13, True)
      , (28884, 19, True)
      , (28884, 22, True);
 
+/* Weenie - MiscObjects - Alchemy Table (25771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25771;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25771, 'tablealchemy');
 
@@ -49142,6 +52850,9 @@ VALUES (25771, 13, True)
      , (25771, 14, True)
      , (25771, 19, True)
      , (25771, 22, True);
+
+/* Weenie - MiscObjects - Celestial Hand Banner (38717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38717;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38717, 'ace38717-celestialhandbanner');
@@ -49176,6 +52887,9 @@ VALUES (38717, 13, True)
      , (38717, 19, True)
      , (38717, 22, True);
 
+/* Weenie - MiscObjects - Candeth Keep Blueprints (27464) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27464;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27464, 'blueprintscandeth');
 
@@ -49207,6 +52921,9 @@ VALUES (27464, 13, True)
      , (27464, 19, True)
      , (27464, 22, True);
 
+/* Weenie - MiscObjects - Tusker Title Token (22633) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22633;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22633, 'tokentuskersilver');
 
@@ -49236,6 +52953,9 @@ VALUES (22633, 13, True)
      , (22633, 14, True)
      , (22633, 19, True)
      , (22633, 22, True);
+
+/* Weenie - MiscObjects - "Bloodletter" Summoning Gem (35540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35540;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35540, 'ace35540-"bloodletter"summoninggem');
@@ -49282,6 +53002,9 @@ VALUES (35540, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35540, 0, 16779181);
+
+/* Weenie - MiscObjects - Lightning Zombie Essence (180) (49245) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49245;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49245, 'ace49245-lightningzombieessence180');
@@ -49335,6 +53058,9 @@ VALUES (49245, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49245, 0, 16777882);
 
+/* Weenie - MiscObjects - Lightning Grievver Essence (180) (49378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49378;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49378, 'ace49378-lightninggrievveressence180');
 
@@ -49386,6 +53112,9 @@ VALUES (49378, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49378, 0, 16777882);
+
+/* Weenie - MiscObjects - Lightning Spectre Essence (180) (49433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49433;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49433, 'ace49433-lightningspectreessence180');
@@ -49439,6 +53168,9 @@ VALUES (49433, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49433, 0, 16777882);
 
+/* Weenie - MiscObjects - Blistered Zombie Essence (49239) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49239;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49239, 'ace49239-blisteredzombieessence');
 
@@ -49490,6 +53222,9 @@ VALUES (49239, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49239, 0, 16777882);
+
+/* Weenie - MiscObjects - Arctic Grievver Essence (49365) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49365;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49365, 'ace49365-arcticgrievveressence');
@@ -49543,6 +53278,9 @@ VALUES (49365, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49365, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Wisp Essence (150) (49335) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49335;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49335, 'ace49335-frostwispessence150');
 
@@ -49594,6 +53332,9 @@ VALUES (49335, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49335, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Moar Essence (180) (49357) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49357;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49357, 'ace49357-firemoaressence180');
@@ -49647,6 +53388,9 @@ VALUES (49357, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49357, 0, 16777882);
 
+/* Weenie - MiscObjects - Frost Grievver Essence (180) (49392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49392;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49392, 'ace49392-frostgrievveressence180');
 
@@ -49698,6 +53442,9 @@ VALUES (49392, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49392, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost Spectre Essence (125) (49445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49445;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49445, 'ace49445-frostspectreessence125');
@@ -49751,6 +53498,9 @@ VALUES (49445, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49445, 0, 16777882);
 
+/* Weenie - MiscObjects - Caustic Knight Essence (49267) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49267;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49267, 'ace49267-causticknightessence');
 
@@ -49802,6 +53552,9 @@ VALUES (49267, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49267, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Phyntos Swarm Essence (49537) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49537;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49537, 'ace49537-firephyntosswarmessence');
@@ -49855,6 +53608,9 @@ VALUES (49537, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49537, 0, 16777882);
 
+/* Weenie - MiscObjects - Freezing Moar Essence (49337) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49337;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49337, 'ace49337-freezingmoaressence');
 
@@ -49906,6 +53662,9 @@ VALUES (49337, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49337, 0, 16777882);
+
+/* Weenie - MiscObjects - Shocked Zombie Essence (49246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49246;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49246, 'ace49246-shockedzombieessence');
@@ -49959,6 +53718,9 @@ VALUES (49246, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49246, 0, 16777882);
 
+/* Weenie - MiscObjects - Incendiary Knight Essence (48957) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48957;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48957, 'ace48957-incendiaryknightessence');
 
@@ -50011,6 +53773,9 @@ VALUES (48957, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48957, 0, 16777882);
 
+/* Weenie - MiscObjects - Mystical Mug (34267) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34267;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34267, 'ace34267-mysticalmug');
 
@@ -50044,6 +53809,9 @@ VALUES (34267, 13, True)
      , (34267, 19, True)
      , (34267, 22, True);
 
+/* Weenie - MiscObjects - The Hammer (22846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22846;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22846, 'lugianbanner1');
 
@@ -50075,6 +53843,9 @@ VALUES (22846, 13, True)
      , (22846, 14, True)
      , (22846, 19, True)
      , (22846, 22, True);
+
+/* Weenie - MiscObjects - Decorative Ursuin Head (31366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31366;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31366, 'ace31366-decorativeursuinhead');
@@ -50111,6 +53882,9 @@ VALUES (31366, 13, True)
      , (31366, 19, True)
      , (31366, 22, True);
 
+/* Weenie - MiscObjects - Eldrytch Web Initiate Armor Writ (38393) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38393;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38393, 'ace38393-eldrytchwebinitiatearmorwrit');
 
@@ -50141,6 +53915,9 @@ VALUES (38393, 13, True)
      , (38393, 14, True)
      , (38393, 19, True)
      , (38393, 22, True);
+
+/* Weenie - MiscObjects - Monster Fly Trap (31684) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31684;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31684, 'ace31684-monsterflytrap');
@@ -50174,6 +53951,9 @@ VALUES (31684, 13, True)
      , (31684, 19, True)
      , (31684, 22, True);
 
+/* Weenie - MiscObjects - Ancient Shard of Metal (34346) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34346;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34346, 'ace34346-ancientshardofmetal');
 
@@ -50206,6 +53986,9 @@ VALUES (34346, 13, True)
      , (34346, 14, True)
      , (34346, 19, True)
      , (34346, 22, True);
+
+/* Weenie - MiscObjects - Lilitha's Broken Bow (38049) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38049;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38049, 'ace38049-lilithasbrokenbow');
@@ -50261,6 +54044,9 @@ VALUES (38049, 0, 16777708)
      , (38049, 7, 16779363)
      , (38049, 8, 16779364);
 
+/* Weenie - MiscObjects - Fledgemaster's Tusk (29054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29054;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29054, 'tuskruschkfledgemaster');
 
@@ -50294,6 +54080,9 @@ VALUES (29054, 13, True)
      , (29054, 14, True)
      , (29054, 19, True);
 
+/* Weenie - MiscObjects - Ursuin Rug (22121) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22121;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22121, 'ursuinrugaliverug');
 
@@ -50322,6 +54111,9 @@ VALUES (22121, 13, True)
      , (22121, 14, True)
      , (22121, 19, True)
      , (22121, 1, True);
+
+/* Weenie - MiscObjects - Double Totem of Tanae (11450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11450;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11450, 'totemdoubletanae-xp');
@@ -50357,6 +54149,9 @@ VALUES (11450, 13, True)
      , (11450, 19, True)
      , (11450, 22, True);
 
+/* Weenie - MiscObjects - Jacob's Axe (31362) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31362;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31362, 'ace31362-jacobsaxe');
 
@@ -50386,6 +54181,9 @@ VALUES (31362, 13, True)
      , (31362, 14, True)
      , (31362, 19, True)
      , (31362, 22, True);
+
+/* Weenie - MiscObjects - Alchemy Stamp (20855) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20855;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20855, 'stampsymbol2');
@@ -50432,6 +54230,9 @@ VALUES (20855, 0, 83892954, 83893871)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20855, 0, 16785497);
 
+/* Weenie - MiscObjects - Mosswart Armband (31350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31350;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31350, 'ace31350-mosswartarmband');
 
@@ -50464,6 +54265,9 @@ VALUES (31350, 13, True)
      , (31350, 14, True)
      , (31350, 19, True);
 
+/* Weenie - MiscObjects - Scarecrow (44763) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44763;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44763, 'ace44763-scarecrow');
 
@@ -50495,6 +54299,9 @@ VALUES (44763, 13, True)
      , (44763, 11, True)
      , (44763, 19, True);
 
+/* Weenie - MiscObjects - Mukkir (44754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44754;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44754, 'ace44754-mukkir');
 
@@ -50525,6 +54332,9 @@ VALUES (44754, 13, True)
      , (44754, 12, True)
      , (44754, 11, True)
      , (44754, 19, True);
+
+/* Weenie - MiscObjects - Ruined Amulet of the Heart (15767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15767;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15767, 'amuletruinedlife');
@@ -50572,6 +54382,9 @@ VALUES (15767, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15767, 0, 16778348);
 
+/* Weenie - MiscObjects - Fiun Hatchet (31297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31297;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31297, 'ace31297-fiunhatchet');
 
@@ -50604,6 +54417,9 @@ VALUES (31297, 13, True)
      , (31297, 14, True)
      , (31297, 19, True);
 
+/* Weenie - MiscObjects - Watcher Token (31872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31872;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31872, 'ace31872-watchertoken');
 
@@ -50632,6 +54448,9 @@ VALUES (31872, 13, True)
      , (31872, 11, True)
      , (31872, 14, True)
      , (31872, 19, True);
+
+/* Weenie - MiscObjects - Sheet of Curved Metal (11016) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11016;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11016, 'menhirbell1-xp');
@@ -50677,6 +54496,9 @@ VALUES (11016, 0, 83889680, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11016, 0, 16782860);
 
+/* Weenie - MiscObjects - Second Half of a Battered Sword (31447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31447;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31447, 'ace31447-secondhalfofabatteredsword');
 
@@ -50706,6 +54528,9 @@ VALUES (31447, 13, True)
      , (31447, 14, True)
      , (31447, 19, True)
      , (31447, 22, True);
+
+/* Weenie - MiscObjects - Fire Wisp Essence (125) (49327) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49327;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49327, 'ace49327-firewispessence125');
@@ -50759,6 +54584,9 @@ VALUES (49327, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49327, 0, 16777882);
 
+/* Weenie - MiscObjects - Little Green Seeds (11688) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11688;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11688, 'seedmediumvara');
 
@@ -50791,6 +54619,9 @@ VALUES (11688, 13, True)
      , (11688, 14, True)
      , (11688, 19, True)
      , (11688, 22, True);
+
+/* Weenie - MiscObjects - Azure Gromnie Wings (28212) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28212;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28212, 'wingsgromnieazurevod');
@@ -50829,6 +54660,9 @@ VALUES (28212, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28212, 0, 16777882);
 
+/* Weenie - MiscObjects - Skull of a Dark Master (24854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24854;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24854, 'undeadskulldarkmaster');
 
@@ -50860,6 +54694,9 @@ VALUES (24854, 13, True)
      , (24854, 14, True)
      , (24854, 19, True)
      , (24854, 22, True);
+
+/* Weenie - MiscObjects - Gardener Token (10860) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10860;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10860, 'tokengardener-xp');
@@ -50904,6 +54741,9 @@ VALUES (10860, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10860, 0, 16777882);
 
+/* Weenie - MiscObjects - Hafted Gromnie Banner (11746) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11746;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11746, 'bannerhaftedgromnie');
 
@@ -50940,6 +54780,9 @@ VALUES (11746, 0, 83893727, 83893727)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11746, 0, 16787131);
+
+/* Weenie - MiscObjects - Ursuin Fang (9261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9261;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9261, 'ursuinfang');
@@ -50985,6 +54828,9 @@ VALUES (9261, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9261, 0, 16777882);
 
+/* Weenie - MiscObjects - Apology Token (26056) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26056;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26056, 'tokendtrecompense');
 
@@ -51014,6 +54860,9 @@ VALUES (26056, 13, True)
      , (26056, 14, True)
      , (26056, 19, True)
      , (26056, 22, True);
+
+/* Weenie - MiscObjects - Rendeath Shreth Hide (24850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24850;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24850, 'shrethhiderendeath');
@@ -51055,6 +54904,9 @@ VALUES (24850, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24850, 0, 16777882);
 
+/* Weenie - MiscObjects - Mysterious Tumerok Artifact (10919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10919;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10919, 'boygrubbowpiece3-xp');
 
@@ -51084,6 +54936,9 @@ VALUES (10919, 13, True)
      , (10919, 14, True)
      , (10919, 19, True)
      , (10919, 22, True);
+
+/* Weenie - MiscObjects - Wooden Tablet (24145) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24145;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24145, 'tabletwooden');
@@ -51129,6 +54984,9 @@ VALUES (24145, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24145, 0, 16777882);
 
+/* Weenie - MiscObjects - Large Ursuin Hide (8664) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8664;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8664, 'ursuinhidelarge');
 
@@ -51170,6 +55028,9 @@ VALUES (8664, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8664, 0, 16777882);
 
+/* Weenie - MiscObjects - Brewmaster's Front Cover (29205) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29205;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29205, 'trophybrewmasterbiblepiece2');
 
@@ -51201,6 +55062,9 @@ VALUES (29205, 13, True)
      , (29205, 14, True)
      , (29205, 19, True)
      , (29205, 22, True);
+
+/* Weenie - MiscObjects - Voracious Hunter Plaque (32112) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32112;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32112, 'ace32112-voracioushunterplaque');
@@ -51237,6 +55101,9 @@ VALUES (32112, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32112, 67111924, 0, 0);
+
+/* Weenie - MiscObjects - Mire Witch Loincloth (27900) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27900;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27900, 'girthmirewitchnull');
@@ -51280,6 +55147,9 @@ VALUES (27900, 0, 83889072, 83895356)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27900, 0, 16778376);
 
+/* Weenie - MiscObjects - Wax (15817) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15817;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15817, 'waxthorsten');
 
@@ -51322,6 +55192,9 @@ VALUES (15817, 0, 83888861, 83893208);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15817, 0, 16778862);
 
+/* Weenie - MiscObjects - Queenslayer Title Token (23200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23200;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23200, 'tokenqueenslayer');
 
@@ -51352,6 +55225,9 @@ VALUES (23200, 13, True)
      , (23200, 19, True)
      , (23200, 22, True);
 
+/* Weenie - MiscObjects - Enduring Calm (29291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29291;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29291, 'gemaugmentationattfocus');
 
@@ -51381,6 +55257,9 @@ VALUES (29291, 13, True)
      , (29291, 14, True)
      , (29291, 19, True)
      , (29291, 22, True);
+
+/* Weenie - MiscObjects - Pyreal Bell (23622) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23622;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23622, 'menhirbellmounted');
@@ -51416,6 +55295,9 @@ VALUES (23622, 13, True)
      , (23622, 19, True)
      , (23622, 22, True);
 
+/* Weenie - MiscObjects - Fertilized Fly Trap (31756) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31756;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31756, 'ace31756-fertilizedflytrap');
 
@@ -51448,6 +55330,9 @@ VALUES (31756, 13, True)
      , (31756, 19, True)
      , (31756, 22, True);
 
+/* Weenie - MiscObjects - Luminance Certificate (46414) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46414;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46414, 'ace46414-luminancecertificate');
 
@@ -51477,6 +55362,9 @@ VALUES (46414, 13, True)
      , (46414, 11, True)
      , (46414, 14, True)
      , (46414, 19, True);
+
+/* Weenie - MiscObjects - Bone Handle (7054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7054;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7054, 'bowcompositehandle2');
@@ -51510,6 +55398,9 @@ VALUES (7054, 13, True)
      , (7054, 14, True)
      , (7054, 19, True)
      , (7054, 22, True);
+
+/* Weenie - MiscObjects - Oiled String (7062) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7062;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7062, 'bowcompositestring1');
@@ -51552,6 +55443,9 @@ VALUES (7062, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7062, 0, 16777882);
+
+/* Weenie - MiscObjects - Cured Lugian Sinew (7072) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7072;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7072, 'curedsinewlugian2');
@@ -51596,6 +55490,9 @@ VALUES (7072, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7072, 0, 16777882);
 
+/* Weenie - MiscObjects - Bed (13197) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13197;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13197, 'bed');
 
@@ -51625,6 +55522,9 @@ VALUES (13197, 13, True)
      , (13197, 14, True)
      , (13197, 19, True)
      , (13197, 22, True);
+
+/* Weenie - MiscObjects - Perfect Banner Haft (11838) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11838;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11838, 'haftreinforcedbannerhigh');
@@ -51666,6 +55566,9 @@ VALUES (11838, 0, 83893727, 83893726);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11838, 0, 16787134);
 
+/* Weenie - MiscObjects - Durable Banner Haft (11835) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11835;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11835, 'haftbannerhigh');
 
@@ -51706,6 +55609,9 @@ VALUES (11835, 0, 83893727, 83893727);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11835, 0, 16787134);
 
+/* Weenie - MiscObjects - Baby Thrungus Crate (33924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33924;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33924, 'ace33924-babythrunguscrate');
 
@@ -51739,6 +55645,9 @@ VALUES (33924, 13, True)
      , (33924, 19, True)
      , (33924, 22, True);
 
+/* Weenie - MiscObjects - Gharu'ndim Hanging Rug (25770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25770;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25770, 'rugghawall');
 
@@ -51768,6 +55677,9 @@ VALUES (25770, 13, True)
      , (25770, 14, True)
      , (25770, 19, True)
      , (25770, 22, True);
+
+/* Weenie - MiscObjects - Gloom Drudge Charm (24837) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24837;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24837, 'drudgecharmgloom');
@@ -51803,6 +55715,9 @@ VALUES (24837, 13, True)
      , (24837, 19, True)
      , (24837, 22, True);
 
+/* Weenie - MiscObjects - 7th Anniversary Night Club Ticket (34203) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34203;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34203, 'ace34203-7thanniversarynightclubticket');
 
@@ -51835,6 +55750,9 @@ VALUES (34203, 13, True)
      , (34203, 14, True)
      , (34203, 19, True)
      , (34203, 22, True);
+
+/* Weenie - MiscObjects - Foolproof Sunstone Gem (45510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45510;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45510, 'ace45510-foolproofsunstonegem');
@@ -51881,6 +55799,9 @@ VALUES (45510, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45510, 0, 16779181);
 
+/* Weenie - MiscObjects - Foolproof Imperial Topaz Gem (45507) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45507;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45507, 'ace45507-foolproofimperialtopazgem');
 
@@ -51926,6 +55847,9 @@ VALUES (45507, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45507, 0, 16779181);
 
+/* Weenie - MiscObjects - Festival Lights (32211) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32211;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32211, 'ace32211-festivallights');
 
@@ -51962,6 +55886,9 @@ VALUES (32211, 13, True)
      , (32211, 19, True)
      , (32211, 22, True);
 
+/* Weenie - MiscObjects - Ursuin Torso (32174) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32174;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32174, 'ace32174-ursuintorso');
 
@@ -51997,6 +55924,9 @@ VALUES (32174, 13, True)
      , (32174, 19, True)
      , (32174, 22, True);
 
+/* Weenie - MiscObjects - Gold Moarsman Tooth (31903) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31903;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31903, 'ace31903-goldmoarsmantooth');
 
@@ -52027,6 +55957,9 @@ VALUES (31903, 13, True)
      , (31903, 19, True)
      , (31903, 22, True);
 
+/* Weenie - MiscObjects - Second Half of a Battered Dagger (31459) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31459;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31459, 'ace31459-secondhalfofabattereddagger');
 
@@ -52056,6 +55989,9 @@ VALUES (31459, 13, True)
      , (31459, 14, True)
      , (31459, 19, True)
      , (31459, 22, True);
+
+/* Weenie - MiscObjects - Small Bundle of Tidal Siraluun Feathers (29902) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29902;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29902, 'feathersiraluuntidal');
@@ -52100,6 +56036,9 @@ VALUES (29902, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29902, 0, 16777882);
+
+/* Weenie - MiscObjects - Sandstone Golem Essence (48890) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48890;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48890, 'ace48890-sandstonegolemessence');
@@ -52153,6 +56092,9 @@ VALUES (48890, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48890, 0, 16777882);
 
+/* Weenie - MiscObjects - Whole Chicken (25558) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25558;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25558, 'chickenwhole');
 
@@ -52194,6 +56136,9 @@ VALUES (25558, 67114549, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25558, 0, 16789602);
 
+/* Weenie - MiscObjects - First Half of a Battered Bow (31460) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31460;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31460, 'ace31460-firsthalfofabatteredbow');
 
@@ -52227,6 +56172,9 @@ VALUES (31460, 13, True)
      , (31460, 19, True)
      , (31460, 22, True);
 
+/* Weenie - MiscObjects - Set Dinner Table (25773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25773;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25773, 'tabledinner');
 
@@ -52257,6 +56205,9 @@ VALUES (25773, 13, True)
      , (25773, 19, True)
      , (25773, 22, True);
 
+/* Weenie - MiscObjects - Bench (268) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 268;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (268, 'bench');
 
@@ -52286,6 +56237,9 @@ VALUES (268, 13, True)
      , (268, 14, True)
      , (268, 19, True)
      , (268, 22, True);
+
+/* Weenie - MiscObjects - Portal to Izji Qo's Temple (27932) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27932;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27932, 'portalhookhizk');
@@ -52320,6 +56274,9 @@ VALUES (27932, 13, True)
      , (27932, 19, True)
      , (27932, 22, True);
 
+/* Weenie - MiscObjects - Divan (22855) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22855;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22855, 'ottomanlarge');
 
@@ -52348,6 +56305,9 @@ VALUES (22855, 13, True)
      , (22855, 14, True)
      , (22855, 19, True)
      , (22855, 22, True);
+
+/* Weenie - MiscObjects - Footstool (22854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22854;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22854, 'ottoman');
@@ -52378,6 +56338,9 @@ VALUES (22854, 13, True)
      , (22854, 19, True)
      , (22854, 22, True);
 
+/* Weenie - MiscObjects - Tapestry (25775) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25775;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25775, 'tapestrywall');
 
@@ -52407,6 +56370,9 @@ VALUES (25775, 13, True)
      , (25775, 14, True)
      , (25775, 19, True)
      , (25775, 22, True);
+
+/* Weenie - MiscObjects - Black Spear of Shadow Renewal (33719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33719;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33719, 'ace33719-blackspearofshadowrenewal');
@@ -52439,6 +56405,9 @@ VALUES (33719, 13, True)
      , (33719, 14, True)
      , (33719, 19, True)
      , (33719, 22, True);
+
+/* Weenie - MiscObjects - Reinforced Banner Haft (11839) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11839;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11839, 'haftreinforcedbannerlow');
@@ -52480,6 +56449,9 @@ VALUES (11839, 0, 83893725, 83893724);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11839, 0, 16787141);
 
+/* Weenie - MiscObjects - First Half of a Battered Spear (31452) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31452;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31452, 'ace31452-firsthalfofabatteredspear');
 
@@ -52513,6 +56485,9 @@ VALUES (31452, 13, True)
      , (31452, 19, True)
      , (31452, 22, True);
 
+/* Weenie - MiscObjects - First Half of a Battered Mace (31448) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31448;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31448, 'ace31448-firsthalfofabatteredmace');
 
@@ -52545,6 +56520,9 @@ VALUES (31448, 13, True)
      , (31448, 14, True)
      , (31448, 19, True)
      , (31448, 22, True);
+
+/* Weenie - MiscObjects - Banderling Predator Scalp (24833) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24833;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24833, 'banderlingscalppredator');
@@ -52590,6 +56568,9 @@ VALUES (24833, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24833, 0, 16777882);
 
+/* Weenie - MiscObjects - Fertilized Pitcher Plant (31757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31757;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31757, 'ace31757-fertilizedpitcherplant');
 
@@ -52622,6 +56603,9 @@ VALUES (31757, 13, True)
      , (31757, 19, True)
      , (31757, 22, True);
 
+/* Weenie - MiscObjects - Head of the Paradox-touched Olthoi Queen (35889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35889;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35889, 'ace35889-headoftheparadoxtouchedolthoiqueen');
 
@@ -52651,6 +56635,9 @@ VALUES (35889, 13, True)
      , (35889, 14, True)
      , (35889, 19, True)
      , (35889, 22, True);
+
+/* Weenie - MiscObjects - Repugnant Bracelet (25678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25678;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25678, 'braceletrepugnant');
@@ -52685,6 +56672,9 @@ VALUES (25678, 13, True)
      , (25678, 19, True)
      , (25678, 22, True);
 
+/* Weenie - MiscObjects - Burun Guruk Head (28886) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28886;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28886, 'headburunguruk');
 
@@ -52715,6 +56705,9 @@ VALUES (28886, 13, True)
      , (28886, 14, True)
      , (28886, 19, True)
      , (28886, 22, True);
+
+/* Weenie - MiscObjects - Sandy Armoredillo Spine (3690) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3690;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3690, 'spinesandy');
@@ -52762,6 +56755,9 @@ VALUES (3690, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3690, 0, 16777882);
+
+/* Weenie - MiscObjects - Oak Golem Essence (48888) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48888;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48888, 'ace48888-oakgolemessence');
@@ -52815,6 +56811,9 @@ VALUES (48888, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48888, 0, 16777882);
 
+/* Weenie - MiscObjects - Workbench (257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 257;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (257, 'workbench');
 
@@ -52847,6 +56846,9 @@ VALUES (257, 13, True)
      , (257, 14, True)
      , (257, 19, True)
      , (257, 22, True);
+
+/* Weenie - MiscObjects - Red Shadow Dye (14868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14868;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14868, 'dyeshadowarmorcolor1');
@@ -52893,6 +56895,9 @@ VALUES (14868, 0, 83886712, 83889088);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14868, 0, 16784730);
 
+/* Weenie - MiscObjects - Copper Gromnie Tooth (28207) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28207;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28207, 'gromnietoothcopper');
 
@@ -52933,6 +56938,9 @@ VALUES (28207, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28207, 0, 16777882);
 
+/* Weenie - MiscObjects - Margul (44746) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44746;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44746, 'ace44746-margul');
 
@@ -52963,6 +56971,9 @@ VALUES (44746, 13, True)
      , (44746, 12, True)
      , (44746, 11, True)
      , (44746, 19, True);
+
+/* Weenie - MiscObjects - Ursuin (44779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44779;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44779, 'ace44779-ursuin');
@@ -52995,6 +57006,9 @@ VALUES (44779, 13, True)
      , (44779, 11, True)
      , (44779, 19, True);
 
+/* Weenie - MiscObjects - Lugian (44745) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44745;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44745, 'ace44745-lugian');
 
@@ -53025,6 +57039,9 @@ VALUES (44745, 13, True)
      , (44745, 12, True)
      , (44745, 11, True)
      , (44745, 19, True);
+
+/* Weenie - MiscObjects - Mite (44749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44749;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44749, 'ace44749-mite');
@@ -53057,6 +57074,9 @@ VALUES (44749, 13, True)
      , (44749, 11, True)
      , (44749, 19, True);
 
+/* Weenie - MiscObjects - Fiun (44735) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44735;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44735, 'ace44735-fiun');
 
@@ -53087,6 +57107,9 @@ VALUES (44735, 13, True)
      , (44735, 12, True)
      , (44735, 11, True)
      , (44735, 19, True);
+
+/* Weenie - MiscObjects - Fertilized Sundew (31755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31755;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31755, 'ace31755-fertilizedsundew');
@@ -53120,6 +57143,9 @@ VALUES (31755, 13, True)
      , (31755, 19, True)
      , (31755, 22, True);
 
+/* Weenie - MiscObjects - Eviscerator Head (22059) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22059;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22059, 'headbutcher');
 
@@ -53150,6 +57176,9 @@ VALUES (22059, 13, True)
      , (22059, 14, True)
      , (22059, 19, True)
      , (22059, 22, True);
+
+/* Weenie - MiscObjects - Adolescent Rust Gromnie Eye (28197) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28197;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28197, 'eyegromnierust');
@@ -53195,6 +57224,9 @@ VALUES (28197, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28197, 0, 16777882);
 
+/* Weenie - MiscObjects - Untamed Siraluun Claw (29907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29907;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29907, 'siraluunclawuntamed');
 
@@ -53239,6 +57271,9 @@ VALUES (29907, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29907, 0, 16777882);
 
+/* Weenie - MiscObjects - Hardy Gromnie Hide (28201) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28201;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28201, 'gromniehideebon');
 
@@ -53279,6 +57314,9 @@ VALUES (28201, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28201, 0, 16777882);
 
+/* Weenie - MiscObjects - Imbued Pyreal Mote (34464) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34464;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34464, 'ace34464-imbuedpyrealmote');
 
@@ -53307,6 +57345,9 @@ VALUES (34464, 13, True)
      , (34464, 11, True)
      , (34464, 14, True)
      , (34464, 19, True);
+
+/* Weenie - MiscObjects - Ravenous Eater Jaw (28718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28718;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28718, 'jawravenous');
@@ -53337,6 +57378,9 @@ VALUES (28718, 13, True)
      , (28718, 14, True)
      , (28718, 19, True)
      , (28718, 22, True);
+
+/* Weenie - MiscObjects - Carenzi Stalker Pelt (12235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12235;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12235, 'peltcarenzistalker-xp');
@@ -53382,6 +57426,9 @@ VALUES (12235, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12235, 0, 16777882);
 
+/* Weenie - MiscObjects - Poison (25407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25407;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25407, 'poisonreignofterror');
 
@@ -53423,6 +57470,9 @@ VALUES (25407, 0, 83890051, 83890051);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25407, 0, 16780684);
 
+/* Weenie - MiscObjects - Greenmire Cheese (30500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30500;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30500, 'cheesegreenmirenenai');
 
@@ -53456,6 +57506,9 @@ VALUES (30500, 13, True)
      , (30500, 19, True)
      , (30500, 22, True);
 
+/* Weenie - MiscObjects - Harbinger Arm Token (22132) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22132;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22132, 'armharbinger');
 
@@ -53488,6 +57541,9 @@ VALUES (22132, 13, True)
      , (22132, 14, True)
      , (22132, 19, True)
      , (22132, 22, True);
+
+/* Weenie - MiscObjects - Rugged Gromnie Hide (28199) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28199;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28199, 'gromniehidebrass');
@@ -53528,6 +57584,9 @@ VALUES (28199, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28199, 0, 16777882);
+
+/* Weenie - MiscObjects - Ivory Gromnie Tooth Pick (22071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22071;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22071, 'gromnietoothpickivory');
@@ -53570,6 +57629,9 @@ VALUES (22071, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22071, 0, 16777882);
 
+/* Weenie - MiscObjects - Azure Gromnie Tooth Paste (28170) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28170;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28170, 'gromnietoothpasteazure');
 
@@ -53611,6 +57673,9 @@ VALUES (28170, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28170, 0, 16777882);
 
+/* Weenie - MiscObjects - Sunflower Oil (19421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19421;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19421, 'sunfloweroil');
 
@@ -53644,6 +57709,9 @@ VALUES (19421, 13, True)
      , (19421, 19, True)
      , (19421, 22, True);
 
+/* Weenie - MiscObjects - An Unlocked Small Mnemosyne (9313) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9313;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9313, 'pyramidgreensmallunlocked');
 
@@ -53673,6 +57741,9 @@ VALUES (9313, 13, True)
      , (9313, 14, True)
      , (9313, 19, True)
      , (9313, 22, True);
+
+/* Weenie - MiscObjects - Embroidered Bag (29872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29872;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29872, 'bagsiraluunlittoral5');
@@ -53707,6 +57778,9 @@ VALUES (29872, 13, True)
      , (29872, 19, True)
      , (29872, 22, True);
 
+/* Weenie - MiscObjects - Embroidered Bag (29866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29866;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29866, 'bagsiraluunbadlands4');
 
@@ -53739,6 +57813,9 @@ VALUES (29866, 13, True)
      , (29866, 14, True)
      , (29866, 19, True)
      , (29866, 22, True);
+
+/* Weenie - MiscObjects - Embroidered Bag (29895) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29895;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29895, 'bagsiraluununtamed3');
@@ -53773,6 +57850,9 @@ VALUES (29895, 13, True)
      , (29895, 19, True)
      , (29895, 22, True);
 
+/* Weenie - MiscObjects - Embroidered Bag (29882) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29882;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29882, 'bagsiraluunstrand5');
 
@@ -53805,6 +57885,9 @@ VALUES (29882, 13, True)
      , (29882, 14, True)
      , (29882, 19, True)
      , (29882, 22, True);
+
+/* Weenie - MiscObjects - Brass Gromnie Tooth (28206) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28206;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28206, 'gromnietoothbrass');
@@ -53846,6 +57929,9 @@ VALUES (28206, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28206, 0, 16777882);
 
+/* Weenie - MiscObjects - Perfect Ice Shard (28730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28730;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28730, 'ruschkiceshardperfect');
 
@@ -53876,6 +57962,9 @@ VALUES (28730, 13, True)
      , (28730, 19, True)
      , (28730, 22, True);
 
+/* Weenie - MiscObjects - Augmented Ice Shard (28729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28729;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28729, 'ruschkiceshardaugmented');
 
@@ -53905,6 +57994,9 @@ VALUES (28729, 13, True)
      , (28729, 14, True)
      , (28729, 19, True)
      , (28729, 22, True);
+
+/* Weenie - MiscObjects - Knath Husk (25739) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25739;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25739, 'headknathdiamond');
@@ -53938,6 +58030,9 @@ VALUES (25739, 13, True)
      , (25739, 14, True)
      , (25739, 19, True)
      , (25739, 22, True);
+
+/* Weenie - MiscObjects - Infected Assailer Fur (27809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27809;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27809, 'furinfectedassailer');
@@ -53973,6 +58068,9 @@ VALUES (27809, 13, True)
      , (27809, 19, True)
      , (27809, 22, True);
 
+/* Weenie - MiscObjects - Jack of All Trades (43167) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43167;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43167, 'ace43167-jackofalltrades');
 
@@ -54002,6 +58100,9 @@ VALUES (43167, 13, True)
      , (43167, 14, True)
      , (43167, 19, True)
      , (43167, 22, True);
+
+/* Weenie - MiscObjects - Pack P. (32489) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32489;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32489, 'ace32489-packp');
@@ -54040,6 +58141,9 @@ VALUES (32489, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32489, 67115388, 0, 0);
+
+/* Weenie - MiscObjects - Lucky Rabbit's Foot (25995) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25995;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25995, 'footrabbitlucky');
@@ -54084,6 +58188,9 @@ VALUES (25995, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25995, 0, 16777882);
 
+/* Weenie - MiscObjects - Prince's Medal of Bravery (34592) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34592;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34592, 'ace34592-princesmedalofbravery');
 
@@ -54115,6 +58222,9 @@ VALUES (34592, 13, True)
      , (34592, 14, True)
      , (34592, 19, True)
      , (34592, 22, True);
+
+/* Weenie - MiscObjects - Ash Gromnie Tooth (3674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3674;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3674, 'gromnietoothash');
@@ -54160,6 +58270,9 @@ VALUES (3674, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3674, 0, 16777882);
 
+/* Weenie - MiscObjects - Dread Mattekar Paw (9413) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9413;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9413, 'mattekarclawdread');
 
@@ -54198,6 +58311,9 @@ VALUES (9413, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9413, 67113172, 0, 0);
+
+/* Weenie - MiscObjects - Mu-miyah Torso (22045) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22045;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22045, 'torsomummy');
@@ -54248,6 +58364,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (22045, 0, 16777294)
      , (22045, 9, 16777300);
 
+/* Weenie - MiscObjects - Crystal Vase with Snowflowers (22842) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22842;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22842, 'vasesnowflower4');
 
@@ -54282,6 +58401,9 @@ VALUES (22842, 13, True)
      , (22842, 14, True)
      , (22842, 19, True)
      , (22842, 22, True);
+
+/* Weenie - MiscObjects - Blood-soaked Cord (27793) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27793;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27793, 'cordbloodsoaked');
@@ -54327,6 +58449,9 @@ VALUES (27793, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27793, 0, 16777882);
 
+/* Weenie - MiscObjects - Small Bundle of Badlands Siraluun Feathers (29898) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29898;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29898, 'feathersiraluunbadlands');
 
@@ -54370,6 +58495,9 @@ VALUES (29898, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29898, 0, 16777882);
+
+/* Weenie - MiscObjects - Reaper Reedshark Hide (24847) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24847;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24847, 'reedsharkhidereaper');
@@ -54415,6 +58543,9 @@ VALUES (24847, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24847, 0, 16777882);
 
+/* Weenie - MiscObjects - Gharu'ndim Rug (22254) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22254;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22254, 'ruggha');
 
@@ -54444,6 +58575,9 @@ VALUES (22254, 13, True)
      , (22254, 14, True)
      , (22254, 19, True)
      , (22254, 22, True);
+
+/* Weenie - MiscObjects - Canescent Mattekar Pelt (10868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10868;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10868, 'peltmattekarcanescent-xp');
@@ -54479,6 +58613,9 @@ VALUES (10868, 13, True)
      , (10868, 19, True)
      , (10868, 22, True);
 
+/* Weenie - MiscObjects - Shambling Ruschk Arm (33680) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33680;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33680, 'ace33680-shamblingruschkarm');
 
@@ -54509,6 +58646,9 @@ VALUES (33680, 13, True)
      , (33680, 14, True)
      , (33680, 19, True)
      , (33680, 22, True);
+
+/* Weenie - MiscObjects - Banderling Savage Arm (24829) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24829;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24829, 'banderlingarmsavage');
@@ -54554,6 +58694,9 @@ VALUES (24829, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24829, 0, 16777882);
 
+/* Weenie - MiscObjects - Rubble (11153) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11153;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11153, 'menhirrubblec-xp');
 
@@ -54582,6 +58725,9 @@ VALUES (11153, 13, True)
      , (11153, 14, True)
      , (11153, 19, True)
      , (11153, 22, True);
+
+/* Weenie - MiscObjects - Armoredillo Hide (4233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4233;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4233, 'armoredillohide');
@@ -54627,6 +58773,9 @@ VALUES (4233, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4233, 0, 16777882);
 
+/* Weenie - MiscObjects - Slasher Reedshark Hide (24848) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24848;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24848, 'reedsharkhideslayer');
 
@@ -54670,6 +58819,9 @@ VALUES (24848, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24848, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Zombie Essence (125) (49250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49250;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49250, 'ace49250-firezombieessence125');
@@ -54723,6 +58875,9 @@ VALUES (49250, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49250, 0, 16777882);
 
+/* Weenie - MiscObjects - Lugian Commander's Insignia (31346) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31346;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31346, 'ace31346-lugiancommandersinsignia');
 
@@ -54755,6 +58910,9 @@ VALUES (31346, 13, True)
      , (31346, 14, True)
      , (31346, 19, True);
 
+/* Weenie - MiscObjects - Stone Fists Token (34454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34454;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34454, 'ace34454-stonefiststoken');
 
@@ -54784,6 +58942,9 @@ VALUES (34454, 13, True)
      , (34454, 14, True)
      , (34454, 19, True)
      , (34454, 22, True);
+
+/* Weenie - MiscObjects - Olthoi Slayer Carapace (31352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31352;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31352, 'ace31352-olthoislayercarapace');
@@ -54816,6 +58977,9 @@ VALUES (31352, 13, True)
      , (31352, 11, True)
      , (31352, 14, True)
      , (31352, 19, True);
+
+/* Weenie - MiscObjects - Scroll of Dark Rain (12022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12022;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12022, 'scrolldarkinferno');
@@ -54850,6 +59014,9 @@ VALUES (12022, 13, True)
      , (12022, 19, True)
      , (12022, 22, True);
 
+/* Weenie - MiscObjects - Kalindan of Palenqual (11240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11240;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11240, 'xbowmenhir-xp');
 
@@ -54882,6 +59049,9 @@ VALUES (11240, 13, True)
      , (11240, 14, True)
      , (11240, 19, True)
      , (11240, 22, True);
+
+/* Weenie - MiscObjects - Tanada Clan Master's Medallion (34567) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34567;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34567, 'ace34567-tanadaclanmastersmedallion');
@@ -54918,6 +59088,9 @@ VALUES (34567, 13, True)
      , (34567, 14, True)
      , (34567, 19, True);
 
+/* Weenie - MiscObjects - 8th Anniversary Night Club Ticket (36559) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36559;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36559, 'ace36559-8thanniversarynightclubticket');
 
@@ -54950,6 +59123,9 @@ VALUES (36559, 13, True)
      , (36559, 14, True)
      , (36559, 19, True)
      , (36559, 22, True);
+
+/* Weenie - MiscObjects - Clue Card (29649) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29649;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29649, 'colorpuzzlecluecard');
@@ -54984,6 +59160,9 @@ VALUES (29649, 13, True)
      , (29649, 19, True)
      , (29649, 22, True);
 
+/* Weenie - MiscObjects - Alloy Dynamo (25327) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25327;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25327, 'undeadmechanism13');
 
@@ -55012,6 +59191,9 @@ VALUES (25327, 13, True)
      , (25327, 14, True)
      , (25327, 19, True)
      , (25327, 22, True);
+
+/* Weenie - MiscObjects - Alloy Apparatus (25316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25316;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25316, 'undeadmechanism2');
@@ -55042,6 +59224,9 @@ VALUES (25316, 13, True)
      , (25316, 19, True)
      , (25316, 22, True);
 
+/* Weenie - MiscObjects - Alloy Device (25315) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25315;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25315, 'undeadmechanism1');
 
@@ -55070,6 +59255,9 @@ VALUES (25315, 13, True)
      , (25315, 14, True)
      , (25315, 19, True)
      , (25315, 22, True);
+
+/* Weenie - MiscObjects - Reinforced Falcon Banner (11771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11771;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11771, 'bannerreinforcedfalcon');
@@ -55108,6 +59296,9 @@ VALUES (11771, 0, 83893725, 83893724)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11771, 0, 16787138);
 
+/* Weenie - MiscObjects - Harbinger Arm Token (33233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33233;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33233, 'ace33233-harbingerarmtoken');
 
@@ -55141,6 +59332,9 @@ VALUES (33233, 13, True)
      , (33233, 19, True)
      , (33233, 22, True);
 
+/* Weenie - MiscObjects - Head of a Barbaric Panumbral Mukkir (33572) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33572;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33572, 'ace33572-headofabarbaricpanumbralmukkir');
 
@@ -55170,6 +59364,9 @@ VALUES (33572, 13, True)
      , (33572, 14, True)
      , (33572, 19, True)
      , (33572, 22, True);
+
+/* Weenie - MiscObjects - Eye of Drageerg (27903) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27903;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27903, 'orbeyedrageergnull');
@@ -55205,6 +59402,9 @@ VALUES (27903, 13, True)
      , (27903, 19, True)
      , (27903, 22, True);
 
+/* Weenie - MiscObjects - Ley Leech's Medallion (37093) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37093;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37093, 'ace37093-leyleechsmedallion');
 
@@ -55234,6 +59434,9 @@ VALUES (37093, 13, True)
      , (37093, 14, True)
      , (37093, 19, True)
      , (37093, 22, True);
+
+/* Weenie - MiscObjects - Tree (42539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42539;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42539, 'ace42539-tree');
@@ -55267,6 +59470,9 @@ VALUES (42539, 13, True)
      , (42539, 19, True)
      , (42539, 22, True);
 
+/* Weenie - MiscObjects - Scold's Heart (25798) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25798;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25798, 'golemheartmagmadfd');
 
@@ -55297,6 +59503,9 @@ VALUES (25798, 13, True)
      , (25798, 14, True)
      , (25798, 19, True)
      , (25798, 22, True);
+
+/* Weenie - MiscObjects - Honorary Snowman Token (25784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25784;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25784, 'tokendfd');
@@ -55332,6 +59541,9 @@ VALUES (25784, 13, True)
      , (25784, 19, True)
      , (25784, 22, True);
 
+/* Weenie - MiscObjects - Second Half of a Worn Axe (31471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31471;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31471, 'ace31471-secondhalfofawornaxe');
 
@@ -55361,6 +59573,9 @@ VALUES (31471, 13, True)
      , (31471, 14, True)
      , (31471, 19, True)
      , (31471, 22, True);
+
+/* Weenie - MiscObjects - Imprinting Mote (34884) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34884;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34884, 'ace34884-imprintingmote');
@@ -55406,6 +59621,9 @@ VALUES (34884, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34884, 0, 16784015);
 
+/* Weenie - MiscObjects - Red Monster Sprout (31676) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31676;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31676, 'ace31676-redmonstersprout');
 
@@ -55448,6 +59666,9 @@ VALUES (31676, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31676, 67116676, 0, 192);
 
+/* Weenie - MiscObjects - First Half of a Worn Crossbow (31482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31482;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31482, 'ace31482-firsthalfofaworncrossbow');
 
@@ -55481,6 +59702,9 @@ VALUES (31482, 13, True)
      , (31482, 19, True)
      , (31482, 22, True);
 
+/* Weenie - MiscObjects - Spring Cleaner Title Token (27249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27249;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27249, 'tokentitlespringcleaner');
 
@@ -55510,6 +59734,9 @@ VALUES (27249, 13, True)
      , (27249, 14, True)
      , (27249, 19, True)
      , (27249, 22, True);
+
+/* Weenie - MiscObjects - Ruined Amulet of Missile Weapons (15764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15764;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15764, 'amuletruinedcrossbow');
@@ -55557,6 +59784,9 @@ VALUES (15764, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15764, 0, 16778348);
 
+/* Weenie - MiscObjects - Armor Tinkering Tessera (11159) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11159;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11159, 'skilltokenarmorappraisal-xp');
 
@@ -55592,6 +59822,9 @@ VALUES (11159, 13, True)
      , (11159, 19, True)
      , (11159, 22, True);
 
+/* Weenie - MiscObjects - Missile Weapons Tessera (11161) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11161;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11161, 'skilltokenbow-xp');
 
@@ -55626,6 +59859,9 @@ VALUES (11161, 13, True)
      , (11161, 14, True)
      , (11161, 19, True)
      , (11161, 22, True);
+
+/* Weenie - MiscObjects - Swamp Gromnie Tooth (3677) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3677;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3677, 'gromnietoothswamp');
@@ -55671,6 +59907,9 @@ VALUES (3677, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3677, 0, 16777882);
 
+/* Weenie - MiscObjects - Great Elariwood Idol (27808) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27808;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27808, 'dollelariwoodidol');
 
@@ -55705,6 +59944,9 @@ VALUES (27808, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27808, 67115186, 0, 0);
+
+/* Weenie - MiscObjects - Run Tessera (11184) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11184;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11184, 'skilltokenrun-xp');
@@ -55741,6 +59983,9 @@ VALUES (11184, 13, True)
      , (11184, 19, True)
      , (11184, 22, True);
 
+/* Weenie - MiscObjects - Skeletal Body (22057) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22057;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22057, 'bodyskeletal');
 
@@ -55772,6 +60017,9 @@ VALUES (22057, 13, True)
      , (22057, 14, True)
      , (22057, 19, True)
      , (22057, 22, True);
+
+/* Weenie - MiscObjects - Foolproof (36634) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36634;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36634, 'ace36634-foolproof');
@@ -55822,6 +60070,9 @@ VALUES (36634, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36634, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Auroch Horn (7039) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7039;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7039, 'aurochhornfire');
 
@@ -55865,6 +60116,9 @@ VALUES (7039, 67112870, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7039, 0, 16784556);
 
+/* Weenie - MiscObjects - Holiday Pole (22730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22730;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22730, 'festivuspole');
 
@@ -55893,6 +60147,9 @@ VALUES (22730, 13, True)
      , (22730, 14, True)
      , (22730, 19, True)
      , (22730, 22, True);
+
+/* Weenie - MiscObjects - Melee Defense Tessera (11181) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11181;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11181, 'skilltokenmeleedefense-xp');
@@ -55929,6 +60186,9 @@ VALUES (11181, 13, True)
      , (11181, 19, True)
      , (11181, 22, True);
 
+/* Weenie - MiscObjects - Armored Undead Arm  (28872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28872;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28872, 'armarmoredundead');
 
@@ -55961,6 +60221,9 @@ VALUES (28872, 13, True)
      , (28872, 14, True)
      , (28872, 19, True)
      , (28872, 22, True);
+
+/* Weenie - MiscObjects - Human Husk (14422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14422;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14422, 'huskregicide');
@@ -56004,6 +60267,9 @@ VALUES (14422, 0, 83887061, 83893867)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14422, 0, 16787552);
 
+/* Weenie - MiscObjects - Glass Spherule (14424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14424;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14424, 'spheruleregicide');
 
@@ -56038,6 +60304,9 @@ VALUES (14424, 0, 83888861, 83893866);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14424, 0, 16787544);
+
+/* Weenie - MiscObjects - Lightning Wisp Essence (125) (49320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49320;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49320, 'ace49320-lightningwispessence125');
@@ -56091,6 +60360,9 @@ VALUES (49320, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49320, 0, 16777882);
 
+/* Weenie - MiscObjects - Scourge's Hide (25900) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25900;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25900, 'rathidescourge');
 
@@ -56135,6 +60407,9 @@ VALUES (25900, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25900, 0, 16777882);
 
+/* Weenie - MiscObjects - Frozen Present (34425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34425;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34425, 'ace34425-frozenpresent');
 
@@ -56172,6 +60447,9 @@ VALUES (34425, 13, True)
      , (34425, 19, True)
      , (34425, 22, True);
 
+/* Weenie - MiscObjects - Aerbax Mask Shard (37058) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37058;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37058, 'ace37058-aerbaxmaskshard');
 
@@ -56201,6 +60479,9 @@ VALUES (37058, 13, True)
      , (37058, 11, True)
      , (37058, 14, True)
      , (37058, 19, True);
+
+/* Weenie - MiscObjects - Rytheran's Jeweled Ring (41982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41982;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41982, 'ace41982-rytheransjeweledring');
@@ -56232,6 +60513,9 @@ VALUES (41982, 13, True)
      , (41982, 11, True)
      , (41982, 14, True)
      , (41982, 19, True);
+
+/* Weenie - MiscObjects - Spectral Amber Shard (53474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53474;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53474, 'ace53474-spectralambershard');
@@ -56277,6 +60561,9 @@ VALUES (53474, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53474, 0, 16779181);
 
+/* Weenie - MiscObjects - Fetish of the Dark Idols (27795) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27795;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27795, 'idoldarkfinished');
 
@@ -56313,6 +60600,9 @@ VALUES (27795, 13, True)
      , (27795, 14, True)
      , (27795, 19, True)
      , (27795, 22, True);
+
+/* Weenie - MiscObjects - Lightning Phyntos Wasp Essence (125) (49548) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49548;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49548, 'ace49548-lightningphyntoswaspessence125');
@@ -56366,6 +60656,9 @@ VALUES (49548, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49548, 0, 16777882);
 
+/* Weenie - MiscObjects - Apostate Master's Broken Mask (40804) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40804;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40804, 'ace40804-apostatemastersbrokenmask');
 
@@ -56403,6 +60696,9 @@ VALUES (40804, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40804, 67116924, 240, 16);
 
+/* Weenie - MiscObjects - Lens of the Filinuvekta (38648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38648;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38648, 'ace38648-lensofthefilinuvekta');
 
@@ -56432,6 +60728,9 @@ VALUES (38648, 13, True)
      , (38648, 14, True)
      , (38648, 19, True)
      , (38648, 22, True);
+
+/* Weenie - MiscObjects - Warding Ring (27810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27810;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27810, 'ringwardingfull');
@@ -56467,6 +60766,9 @@ VALUES (27810, 13, True)
      , (27810, 19, True)
      , (27810, 22, True);
 
+/* Weenie - MiscObjects - First Half of a Worn Mace (31468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31468;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31468, 'ace31468-firsthalfofawornmace');
 
@@ -56500,6 +60802,9 @@ VALUES (31468, 13, True)
      , (31468, 19, True)
      , (31468, 22, True);
 
+/* Weenie - MiscObjects - Aerbax Beam (36977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36977;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36977, 'ace36977-aerbaxbeam');
 
@@ -56527,6 +60832,9 @@ VALUES (36977, 13, True)
      , (36977, 19, True)
      , (36977, 1, True)
      , (36977, 24, True);
+
+/* Weenie - MiscObjects - Second Half of a Worn Mace (31469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31469;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31469, 'ace31469-secondhalfofawornmace');
@@ -56558,6 +60866,9 @@ VALUES (31469, 13, True)
      , (31469, 19, True)
      , (31469, 22, True);
 
+/* Weenie - MiscObjects - Fabled Tusker Paw (22457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22457;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22457, 'tuskerpaw3');
 
@@ -56587,6 +60898,9 @@ VALUES (22457, 13, True)
      , (22457, 19, True)
      , (22457, 22, True);
 
+/* Weenie - MiscObjects - Fabled Tusker Paw (22456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22456;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22456, 'tuskerpaw2');
 
@@ -56615,6 +60929,9 @@ VALUES (22456, 13, True)
      , (22456, 14, True)
      , (22456, 19, True)
      , (22456, 22, True);
+
+/* Weenie - MiscObjects - A'nekshay Slayer Stone Gem (45515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45515;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45515, 'ace45515-anekshayslayerstonegem');
@@ -56661,6 +60978,9 @@ VALUES (45515, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45515, 0, 16779181);
 
+/* Weenie - MiscObjects - Large Ursuin Hide with head (19475) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19475;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19475, 'ursuinhidewithhead');
 
@@ -56700,6 +61020,9 @@ VALUES (19475, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19475, 0, 16777882);
+
+/* Weenie - MiscObjects - Twisted Sclavus Tongues (7080) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7080;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7080, 'tonguessclavusastetwisted');
@@ -56744,6 +61067,9 @@ VALUES (7080, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7080, 0, 16777882);
 
+/* Weenie - MiscObjects - Seed of Hope (34082) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34082;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34082, 'ace34082-seedofhope');
 
@@ -56774,6 +61100,9 @@ VALUES (34082, 13, True)
      , (34082, 14, True)
      , (34082, 19, True)
      , (34082, 22, True);
+
+/* Weenie - MiscObjects - Timber Siraluun Claw (11370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11370;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11370, 'siraluunclawtimber-xp');
@@ -56819,6 +61148,9 @@ VALUES (11370, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11370, 0, 16777882);
 
+/* Weenie - MiscObjects - Brood Matron Carapace (24354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24354;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24354, 'broodmatroncarapace');
 
@@ -56851,6 +61183,9 @@ VALUES (24354, 13, True)
      , (24354, 14, True)
      , (24354, 19, True)
      , (24354, 22, True);
+
+/* Weenie - MiscObjects - Imaging Crystal- Arcane Pedestal imprinted (20184) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20184;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20184, 'imagingcrystalarcanepedestal');
@@ -56896,6 +61231,9 @@ VALUES (20184, 0, 83889682, 83890391)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20184, 0, 16779994);
 
+/* Weenie - MiscObjects - Treated Canescent Mattekar Pelt (10867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10867;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10867, 'peltharrowermattekarcanescent-xp');
 
@@ -56929,6 +61267,9 @@ VALUES (10867, 13, True)
      , (10867, 19, True)
      , (10867, 22, True);
 
+/* Weenie - MiscObjects - Broken Virindi Desecrator Mask (32175) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32175;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32175, 'ace32175-brokenvirindidesecratormask');
 
@@ -56958,6 +61299,9 @@ VALUES (32175, 13, True)
      , (32175, 14, True)
      , (32175, 19, True)
      , (32175, 22, True);
+
+/* Weenie - MiscObjects - Ruined Amulet of Light Weapons (15761) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15761;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15761, 'amuletruinedaxe');
@@ -57005,6 +61349,9 @@ VALUES (15761, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15761, 0, 16778348);
 
+/* Weenie - MiscObjects - Greenwood Haft (10999) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10999;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10999, 'exquisiteelaribowhaft-xp');
 
@@ -57037,6 +61384,9 @@ VALUES (10999, 13, True)
      , (10999, 14, True)
      , (10999, 19, True)
      , (10999, 22, True);
+
+/* Weenie - MiscObjects - Gromnie Sinew Bowstring (11000) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11000;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11000, 'exquisiteelaribowstring-xp');
@@ -57074,6 +61424,9 @@ VALUES (11000, 13, True)
      , (11000, 19, True)
      , (11000, 22, True);
 
+/* Weenie - MiscObjects - Fiun Head (32179) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32179;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32179, 'ace32179-fiunhead');
 
@@ -57105,6 +61458,9 @@ VALUES (32179, 13, True)
      , (32179, 19, True)
      , (32179, 22, True);
 
+/* Weenie - MiscObjects - Gromnie (44740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44740;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44740, 'ace44740-gromnie');
 
@@ -57135,6 +61491,9 @@ VALUES (44740, 13, True)
      , (44740, 12, True)
      , (44740, 11, True)
      , (44740, 19, True);
+
+/* Weenie - MiscObjects - Carenzi Sentry Pelt (11342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11342;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11342, 'carenzipeltsentry-xp');
@@ -57179,6 +61538,9 @@ VALUES (11342, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11342, 0, 16777882);
+
+/* Weenie - MiscObjects - Frost K'nath Essence (125) (49306) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49306;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49306, 'ace49306-frostknathessence125');
@@ -57232,6 +61594,9 @@ VALUES (49306, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49306, 0, 16777882);
 
+/* Weenie - MiscObjects - Frigid Zombie Essence (49233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49233;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49233, 'ace49233-frigidzombieessence');
 
@@ -57284,6 +61649,9 @@ VALUES (49233, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49233, 0, 16777882);
 
+/* Weenie - MiscObjects - Olthoi Slasher Carapace (31355) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31355;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31355, 'ace31355-olthoislashercarapace');
 
@@ -57315,6 +61683,9 @@ VALUES (31355, 13, True)
      , (31355, 11, True)
      , (31355, 14, True)
      , (31355, 19, True);
+
+/* Weenie - MiscObjects - Charged Stone Infuser (32652) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32652;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32652, 'ace32652-chargedstoneinfuser');
@@ -57349,6 +61720,9 @@ VALUES (32652, 13, True)
      , (32652, 14, True)
      , (32652, 19, True)
      , (32652, 22, True);
+
+/* Weenie - MiscObjects - Foolproof Jet Gem (45508) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45508;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45508, 'ace45508-foolproofjetgem');
@@ -57395,6 +61769,9 @@ VALUES (45508, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45508, 0, 16779181);
 
+/* Weenie - MiscObjects - Dusty Scrap of Paper (7918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7918;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7918, 'septundeadnote2');
 
@@ -57426,6 +61803,9 @@ VALUES (7918, 13, True)
      , (7918, 14, True)
      , (7918, 19, True)
      , (7918, 22, True);
+
+/* Weenie - MiscObjects - Monster Fight Ticket (38966) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38966;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38966, 'ace38966-monsterfightticket');
@@ -57461,6 +61841,9 @@ VALUES (38966, 13, True)
      , (38966, 14, True)
      , (38966, 19, True);
 
+/* Weenie - MiscObjects - Aerbax Harm Hotspot (37056) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37056;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37056, 'ace37056-aerbaxharmhotspot');
 
@@ -57494,6 +61877,9 @@ VALUES (37056, 13, True)
      , (37056, 1, True)
      , (37056, 24, True);
 
+/* Weenie - MiscObjects - Viridian Essence (52970) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52970;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52970, 'ace52970-viridianessence');
 
@@ -57525,6 +61911,9 @@ VALUES (52970, 13, True)
      , (52970, 11, True)
      , (52970, 14, True)
      , (52970, 19, True);
+
+/* Weenie - MiscObjects - Olthoi Veteran's Medal (38887) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38887;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38887, 'ace38887-olthoiveteransmedal');
@@ -57562,6 +61951,9 @@ VALUES (38887, 13, True)
      , (38887, 14, True)
      , (38887, 19, True);
 
+/* Weenie - MiscObjects - Ancient Emblem of Mhoire (38809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38809;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38809, 'ace38809-ancientemblemofmhoire');
 
@@ -57596,6 +61988,9 @@ VALUES (38809, 13, True)
      , (38809, 11, True)
      , (38809, 14, True)
      , (38809, 19, True);
+
+/* Weenie - MiscObjects - "Assassin's Crossbow" Summoning Gem (35537) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35537;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35537, 'ace35537-"assassinscrossbow"summoninggem');
@@ -57643,6 +62038,9 @@ VALUES (35537, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35537, 0, 16779181);
 
+/* Weenie - MiscObjects - Folded Missive (34364) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34364;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34364, 'ace34364-foldedmissive');
 
@@ -57672,6 +62070,9 @@ VALUES (34364, 13, True)
      , (34364, 14, True)
      , (34364, 19, True)
      , (34364, 22, True);
+
+/* Weenie - MiscObjects - Giant Monouga Rib (35751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35751;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35751, 'ace35751-giantmonougarib');
@@ -57713,6 +62114,9 @@ VALUES (35751, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35751, 0, 16777882);
 
+/* Weenie - MiscObjects - Unreadable Falatacot Volume (31983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31983;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31983, 'ace31983-unreadablefalatacotvolume');
 
@@ -57742,6 +62146,9 @@ VALUES (31983, 13, True)
      , (31983, 14, True)
      , (31983, 19, True)
      , (31983, 22, True);
+
+/* Weenie - MiscObjects - Lunnum's Token (35829) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35829;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35829, 'ace35829-lunnumstoken');
@@ -57773,6 +62180,9 @@ VALUES (35829, 13, True)
      , (35829, 19, True)
      , (35829, 22, True);
 
+/* Weenie - MiscObjects - Holiday Stocking (52577) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52577;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52577, 'ace52577-holidaystocking');
 
@@ -57803,6 +62213,9 @@ VALUES (52577, 13, True)
      , (52577, 14, True)
      , (52577, 19, True)
      , (52577, 22, True);
+
+/* Weenie - MiscObjects - Banderling Antagonist Scalp (24832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24832;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24832, 'banderlingscalpantagonist');
@@ -57848,6 +62261,9 @@ VALUES (24832, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24832, 0, 16777882);
 
+/* Weenie - MiscObjects - Red Phyntos Wasp Wing (3703) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3703;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3703, 'waspwingred');
 
@@ -57883,6 +62299,9 @@ VALUES (3703, 13, True)
      , (3703, 19, True)
      , (3703, 22, True);
 
+/* Weenie - MiscObjects - Torn Cloth Scrap (35413) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35413;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35413, 'ace35413-tornclothscrap');
 
@@ -57917,6 +62336,9 @@ VALUES (35413, 13, True)
      , (35413, 14, True)
      , (35413, 19, True);
 
+/* Weenie - MiscObjects - Torn Cloth Scrap (35420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35420;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35420, 'ace35420-tornclothscrap');
 
@@ -57950,6 +62372,9 @@ VALUES (35420, 13, True)
      , (35420, 11, True)
      , (35420, 14, True)
      , (35420, 19, True);
+
+/* Weenie - MiscObjects - Adolescent Ash Gromnie Eye (28192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28192;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28192, 'eyegromnieash');
@@ -57990,6 +62415,9 @@ VALUES (28192, 0, 83890064, 83889696);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28192, 0, 16777882);
+
+/* Weenie - MiscObjects - Fire Moar Essence (150) (49356) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49356;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49356, 'ace49356-firemoaressence150');
@@ -58043,6 +62471,9 @@ VALUES (49356, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49356, 0, 16777882);
 
+/* Weenie - MiscObjects - Fire Phyntos Wasp Essence (150) (49535) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49535;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49535, 'ace49535-firephyntoswaspessence150');
 
@@ -58095,6 +62526,9 @@ VALUES (49535, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49535, 0, 16777882);
 
+/* Weenie - MiscObjects - Casting Staff Stamped Spectral Ingot (37468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37468;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37468, 'ace37468-castingstaffstampedspectralingot');
 
@@ -58140,6 +62574,9 @@ VALUES (37468, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37468, 0, 16779181);
+
+/* Weenie - MiscObjects - Bow Stamped Spectral Ingot (37467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37467;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37467, 'ace37467-bowstampedspectralingot');
@@ -58187,6 +62624,9 @@ VALUES (37467, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37467, 0, 16779181);
 
+/* Weenie - MiscObjects - Spear Stamped Spectral Ingot (37473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37473;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37473, 'ace37473-spearstampedspectralingot');
 
@@ -58233,6 +62673,9 @@ VALUES (37473, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37473, 0, 16779181);
 
+/* Weenie - MiscObjects - Little Green Seeds (11691) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11691;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11691, 'seedlargevarb');
 
@@ -58265,6 +62708,9 @@ VALUES (11691, 13, True)
      , (11691, 14, True)
      , (11691, 19, True)
      , (11691, 22, True);
+
+/* Weenie - MiscObjects - Carved Wooden Shaft (36546) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36546;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36546, 'ace36546-carvedwoodenshaft');
@@ -58311,6 +62757,9 @@ VALUES (36546, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36546, 0, 16777882);
 
+/* Weenie - MiscObjects - Temple Horn (38251) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38251;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38251, 'ace38251-templehorn');
 
@@ -58340,6 +62789,9 @@ VALUES (38251, 13, True)
      , (38251, 14, True)
      , (38251, 19, True)
      , (38251, 22, True);
+
+/* Weenie - MiscObjects - Sacred Deep Water (38249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38249;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38249, 'ace38249-sacreddeepwater');
@@ -58371,6 +62823,9 @@ VALUES (38249, 13, True)
      , (38249, 19, True)
      , (38249, 22, True);
 
+/* Weenie - MiscObjects - Finger Bone of Mishfain (38247) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38247;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38247, 'ace38247-fingerboneofmishfain');
 
@@ -58400,6 +62855,9 @@ VALUES (38247, 13, True)
      , (38247, 14, True)
      , (38247, 19, True)
      , (38247, 22, True);
+
+/* Weenie - MiscObjects - Single Spine Grievver Spike Oil (35972) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35972;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35972, 'ace35972-singlespinegrievverspikeoil');
@@ -58436,6 +62894,9 @@ VALUES (35972, 13, True)
      , (35972, 14, True)
      , (35972, 19, True)
      , (35972, 22, True);
+
+/* Weenie - MiscObjects - Invoking Stone (39125) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39125;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39125, 'ace39125-invokingstone');
@@ -58479,6 +62940,9 @@ VALUES (39125, 0, 83888861, 83889680);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39125, 0, 16778862);
+
+/* Weenie - MiscObjects - "Commoner's Sword" Summoning Gem (35542) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35542;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35542, 'ace35542-"commonerssword"summoninggem');
@@ -58526,6 +62990,9 @@ VALUES (35542, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35542, 0, 16779181);
 
+/* Weenie - MiscObjects - Chicken? (35189) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35189;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35189, 'ace35189-chicken?');
 
@@ -58563,6 +63030,9 @@ VALUES (35189, 13, True)
      , (35189, 19, True)
      , (35189, 22, True);
 
+/* Weenie - MiscObjects - Doorbell (25761) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25761;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25761, 'doorbell');
 
@@ -58598,6 +63068,9 @@ VALUES (25761, 13, True)
      , (25761, 19, True)
      , (25761, 22, True);
 
+/* Weenie - MiscObjects - Crowley's Champion Token (34456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34456;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34456, 'ace34456-crowleyschampiontoken');
 
@@ -58627,6 +63100,9 @@ VALUES (34456, 13, True)
      , (34456, 14, True)
      , (34456, 19, True)
      , (34456, 22, True);
+
+/* Weenie - MiscObjects - Skipping Stone (40582) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40582;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40582, 'ace40582-skippingstone');
@@ -58671,6 +63147,9 @@ VALUES (40582, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40582, 0, 16779181);
+
+/* Weenie - MiscObjects - Ruined Amulet of the Void (43421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43421;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43421, 'ace43421-ruinedamuletofthevoid');
@@ -58718,6 +63197,9 @@ VALUES (43421, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43421, 0, 16778348);
 
+/* Weenie - MiscObjects - Dericost Tome (28762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28762;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28762, 'tomedericost');
 
@@ -58747,6 +63229,9 @@ VALUES (28762, 13, True)
      , (28762, 14, True)
      , (28762, 19, True)
      , (28762, 22, True);
+
+/* Weenie - MiscObjects - Friend of Sanamar Token (28761) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28761;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28761, 'tokenviamont1');
@@ -58778,6 +63263,9 @@ VALUES (28761, 13, True)
      , (28761, 19, True)
      , (28761, 22, True);
 
+/* Weenie - MiscObjects - Champion of Sanamar Token (30404) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30404;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30404, 'tokensanamar2');
 
@@ -58807,6 +63295,9 @@ VALUES (30404, 13, True)
      , (30404, 14, True)
      , (30404, 19, True)
      , (30404, 22, True);
+
+/* Weenie - MiscObjects - Snow Tuskie Kennel (47168) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47168;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47168, 'ace47168-snowtuskiekennel');
@@ -58838,6 +63329,9 @@ VALUES (47168, 13, True)
      , (47168, 19, True)
      , (47168, 22, True);
 
+/* Weenie - MiscObjects - Hulking Rabbit Pelt (35186) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35186;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35186, 'ace35186-hulkingrabbitpelt');
 
@@ -58868,6 +63362,9 @@ VALUES (35186, 13, True)
      , (35186, 19, True)
      , (35186, 22, True);
 
+/* Weenie - MiscObjects - Decaying Zombie Brain Portion (34071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34071;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34071, 'ace34071-decayingzombiebrainportion');
 
@@ -58897,6 +63394,9 @@ VALUES (34071, 13, True)
      , (34071, 14, True)
      , (34071, 19, True)
      , (34071, 22, True);
+
+/* Weenie - MiscObjects - Another Boot (9102) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9102;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9102, 'bootsmarioright');
@@ -58946,6 +63446,9 @@ VALUES (9102, 0, 16784627)
      , (9102, 3, 16784628)
      , (9102, 4, 16781840)
      , (9102, 5, 16781839);
+
+/* Weenie - MiscObjects - A Boot (9101) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9101;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9101, 'bootsmarioleft');
@@ -58999,6 +63502,9 @@ VALUES (9101, 0, 16784627)
      , (9101, 4, 16781840)
      , (9101, 5, 16781839);
 
+/* Weenie - MiscObjects - Embroidered Bag (29880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29880;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29880, 'bagsiraluunstrand3');
 
@@ -59031,6 +63537,9 @@ VALUES (29880, 13, True)
      , (29880, 14, True)
      , (29880, 19, True)
      , (29880, 22, True);
+
+/* Weenie - MiscObjects - Completed Advanced Sword Skill Puzzle (11660) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11660;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11660, 'skillpuzzlecompletedswordadvanced');
@@ -59065,6 +63574,9 @@ VALUES (11660, 13, True)
      , (11660, 14, True)
      , (11660, 19, True)
      , (11660, 22, True);
+
+/* Weenie - MiscObjects - Rare Crystalline Shard (40102) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40102;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40102, 'ace40102-rarecrystallineshard');
@@ -59116,6 +63628,9 @@ VALUES (40102, 0, 16784246)
      , (40102, 1, 16784196)
      , (40102, 2, 16784180);
 
+/* Weenie - MiscObjects - Unframed map of Dereth (20197) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20197;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20197, 'decorationderethmapunframed');
 
@@ -59158,6 +63673,9 @@ VALUES (20197, 0, 83888849, 83893547);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20197, 0, 16778961);
 
+/* Weenie - MiscObjects - Palenqual's Totem of the Vortex (11459) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11459;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11459, 'totemtripletav-xp');
 
@@ -59192,6 +63710,9 @@ VALUES (11459, 13, True)
      , (11459, 19, True)
      , (11459, 22, True);
 
+/* Weenie - MiscObjects - Ursuin Legs (32171) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32171;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32171, 'ace32171-ursuinlegs');
 
@@ -59225,6 +63746,9 @@ VALUES (32171, 13, True)
      , (32171, 19, True)
      , (32171, 22, True);
 
+/* Weenie - MiscObjects - Pedestal with a Floral Arrangement (15827) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15827;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15827, 'pedestalvasesunflower1');
 
@@ -59254,6 +63778,9 @@ VALUES (15827, 13, True)
      , (15827, 14, True)
      , (15827, 19, True)
      , (15827, 22, True);
+
+/* Weenie - MiscObjects - Mattekar (44748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44748;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44748, 'ace44748-mattekar');
@@ -59285,6 +63812,9 @@ VALUES (44748, 13, True)
      , (44748, 12, True)
      , (44748, 11, True)
      , (44748, 19, True);
+
+/* Weenie - MiscObjects - Small Armoredillo Hide (4232) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4232;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4232, 'armoredillohidesmall');
@@ -59329,6 +63859,9 @@ VALUES (4232, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4232, 0, 16777882);
+
+/* Weenie - MiscObjects - Bronze Armoredillo Spine (3688) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3688;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3688, 'spinebronze');
@@ -59377,6 +63910,9 @@ VALUES (3688, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3688, 0, 16777882);
 
+/* Weenie - MiscObjects - Composite Stave (7061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7061;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7061, 'bowcompositestavesin3hrn2');
 
@@ -59414,6 +63950,9 @@ VALUES (7061, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (7061, 67112871, 0, 0);
 
+/* Weenie - MiscObjects - Pack Pumpkin P. (34095) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34095;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34095, 'ace34095-packpumpkinp');
 
@@ -59447,6 +63986,9 @@ VALUES (34095, 13, True)
      , (34095, 14, True)
      , (34095, 19, True)
      , (34095, 22, True);
+
+/* Weenie - MiscObjects - Totem of Tanae (11455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11455;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11455, 'totemtanae-xp');
@@ -59482,6 +64024,9 @@ VALUES (11455, 13, True)
      , (11455, 19, True)
      , (11455, 22, True);
 
+/* Weenie - MiscObjects - Totem of Audetaunga (11454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11454;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11454, 'totemaudetaunga-xp');
 
@@ -59516,6 +64061,9 @@ VALUES (11454, 13, True)
      , (11454, 19, True)
      , (11454, 22, True);
 
+/* Weenie - MiscObjects - Two Headed Snowman Head (32185) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32185;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32185, 'ace32185-twoheadedsnowmanhead');
 
@@ -59546,6 +64094,9 @@ VALUES (32185, 13, True)
      , (32185, 14, True)
      , (32185, 19, True)
      , (32185, 22, True);
+
+/* Weenie - MiscObjects - Powdered Chorizite Pea (36642) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36642;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36642, 'ace36642-powderedchorizitepea');
@@ -59582,6 +64133,9 @@ VALUES (36642, 13, True)
      , (36642, 14, True)
      , (36642, 19, True);
 
+/* Weenie - MiscObjects - Second Half of a Worn Sword (31467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31467;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31467, 'ace31467-secondhalfofawornsword');
 
@@ -59611,6 +64165,9 @@ VALUES (31467, 13, True)
      , (31467, 14, True)
      , (31467, 19, True)
      , (31467, 22, True);
+
+/* Weenie - MiscObjects - Zombie Butler (34083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34083;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34083, 'ace34083-zombiebutler');
@@ -59687,6 +64244,9 @@ VALUES (34083, 0, 16777294)
      , (34083, 15, 16779237)
      , (34083, 12, 16779238);
 
+/* Weenie - MiscObjects - Pedestal with a Floral Arrangement (15828) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15828;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15828, 'pedestalvasesunflower2');
 
@@ -59716,6 +64276,9 @@ VALUES (15828, 13, True)
      , (15828, 14, True)
      , (15828, 19, True)
      , (15828, 22, True);
+
+/* Weenie - MiscObjects - Carenzi Race Ticket (38964) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38964;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38964, 'ace38964-carenziraceticket');
@@ -59751,6 +64314,9 @@ VALUES (38964, 13, True)
      , (38964, 14, True)
      , (38964, 19, True);
 
+/* Weenie - MiscObjects - Second Half of a Battered Spear (31453) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31453;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31453, 'ace31453-secondhalfofabatteredspear');
 
@@ -59780,6 +64346,9 @@ VALUES (31453, 13, True)
      , (31453, 14, True)
      , (31453, 19, True)
      , (31453, 22, True);
+
+/* Weenie - MiscObjects - Alb'arean Ore (46286) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46286;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46286, 'ace46286-albareanore');
@@ -59814,6 +64383,9 @@ VALUES (46286, 13, True)
      , (46286, 11, True)
      , (46286, 14, True)
      , (46286, 19, True);
+
+/* Weenie - MiscObjects - Copper Golem Essence (48878) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48878;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48878, 'ace48878-coppergolemessence');
@@ -59867,6 +64439,9 @@ VALUES (48878, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48878, 0, 16777882);
 
+/* Weenie - MiscObjects - Legionary Token (10862) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10862;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10862, 'tokenlegionary-xp');
 
@@ -59910,6 +64485,9 @@ VALUES (10862, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10862, 0, 16777882);
 
+/* Weenie - MiscObjects - Gromnie Banner (11738) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11738;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11738, 'bannergromnie');
 
@@ -59946,6 +64524,9 @@ VALUES (11738, 0, 83893717, 83893718);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11738, 0, 16787125);
 
+/* Weenie - MiscObjects - Torn Cloth Scrap (35424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35424;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35424, 'ace35424-tornclothscrap');
 
@@ -59979,6 +64560,9 @@ VALUES (35424, 13, True)
      , (35424, 11, True)
      , (35424, 14, True)
      , (35424, 19, True);
+
+/* Weenie - MiscObjects - Acid Child Essence (150) (49265) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49265;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49265, 'ace49265-acidchildessence150');
@@ -60032,6 +64616,9 @@ VALUES (49265, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49265, 0, 16777882);
 
+/* Weenie - MiscObjects - Acid Zombie Essence (150) (49237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49237;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49237, 'ace49237-acidzombieessence150');
 
@@ -60083,6 +64670,9 @@ VALUES (49237, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49237, 0, 16777882);
+
+/* Weenie - MiscObjects - Lightning Phyntos Wasp Essence (150) (49549) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49549;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49549, 'ace49549-lightningphyntoswaspessence150');
@@ -60136,6 +64726,9 @@ VALUES (49549, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49549, 0, 16777882);
 
+/* Weenie - MiscObjects - Shaped Tree (42533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42533;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42533, 'ace42533-shapedtree');
 
@@ -60165,6 +64758,9 @@ VALUES (42533, 13, True)
      , (42533, 14, True)
      , (42533, 19, True)
      , (42533, 22, True);
+
+/* Weenie - MiscObjects - Eater (44733) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44733;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44733, 'ace44733-eater');
@@ -60197,6 +64793,9 @@ VALUES (44733, 13, True)
      , (44733, 11, True)
      , (44733, 19, True);
 
+/* Weenie - MiscObjects - Jade Shrine (25762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25762;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25762, 'jadestone');
 
@@ -60228,6 +64827,9 @@ VALUES (25762, 13, True)
      , (25762, 14, True)
      , (25762, 19, True)
      , (25762, 22, True);
+
+/* Weenie - MiscObjects - Brown Rat Tail (3682) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3682;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3682, 'rattailbrown');
@@ -60276,6 +64878,9 @@ VALUES (3682, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3682, 0, 16777882);
 
+/* Weenie - MiscObjects - Resilient Gromnie Hide (28200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28200;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28200, 'gromniehidecopper');
 
@@ -60316,6 +64921,9 @@ VALUES (28200, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28200, 0, 16777882);
 
+/* Weenie - MiscObjects - Burun Ruuk Head (28887) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28887;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28887, 'headburunruuk');
 
@@ -60346,6 +64954,9 @@ VALUES (28887, 13, True)
      , (28887, 14, True)
      , (28887, 19, True)
      , (28887, 22, True);
+
+/* Weenie - MiscObjects - Mite Stamp (23958) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23958;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23958, 'stampsymbolmite');
@@ -60392,6 +65003,9 @@ VALUES (23958, 0, 83892954, 83893871)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23958, 0, 16785497);
 
+/* Weenie - MiscObjects - Orange Tulip (42520) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42520;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42520, 'ace42520-orangetulip');
 
@@ -60420,6 +65034,9 @@ VALUES (42520, 13, True)
      , (42520, 14, True)
      , (42520, 19, True)
      , (42520, 22, True);
+
+/* Weenie - MiscObjects - Purple Tulip (42521) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42521;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42521, 'ace42521-purpletulip');
@@ -60466,6 +65083,9 @@ VALUES (42521, 1, 16794585)
      , (42521, 5, 16794585)
      , (42521, 6, 16794585);
 
+/* Weenie - MiscObjects - Shark (44766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44766;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44766, 'ace44766-shark');
 
@@ -60497,6 +65117,9 @@ VALUES (44766, 13, True)
      , (44766, 11, True)
      , (44766, 19, True);
 
+/* Weenie - MiscObjects - Ursuin Body (32180) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32180;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32180, 'ace32180-ursuinbody');
 
@@ -60526,6 +65149,9 @@ VALUES (32180, 13, True)
      , (32180, 14, True)
      , (32180, 19, True)
      , (32180, 22, True);
+
+/* Weenie - MiscObjects - Penguin (44757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44757;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44757, 'ace44757-penguin');
@@ -60558,6 +65184,9 @@ VALUES (44757, 13, True)
      , (44757, 11, True)
      , (44757, 19, True);
 
+/* Weenie - MiscObjects - Thrungus (44775) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44775;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44775, 'ace44775-thrungus');
 
@@ -60589,6 +65218,9 @@ VALUES (44775, 13, True)
      , (44775, 11, True)
      , (44775, 19, True);
 
+/* Weenie - MiscObjects - Sleech (44771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44771;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44771, 'ace44771-sleech');
 
@@ -60619,6 +65251,9 @@ VALUES (44771, 13, True)
      , (44771, 12, True)
      , (44771, 11, True)
      , (44771, 19, True);
+
+/* Weenie - MiscObjects - Large Monouga Rib (35753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35753;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35753, 'ace35753-largemonougarib');
@@ -60660,6 +65295,9 @@ VALUES (35753, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35753, 0, 16777882);
 
+/* Weenie - MiscObjects - Virindi Essence (36065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36065;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36065, 'ace36065-virindiessence');
 
@@ -60690,6 +65328,9 @@ VALUES (36065, 13, True)
      , (36065, 14, True)
      , (36065, 19, True)
      , (36065, 22, True);
+
+/* Weenie - MiscObjects - Log Stool (22844) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22844;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22844, 'logstool');
@@ -60724,6 +65365,9 @@ VALUES (22844, 13, True)
      , (22844, 19, True)
      , (22844, 22, True);
 
+/* Weenie - MiscObjects - Log Chair (22874) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22874;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22874, 'logchair');
 
@@ -60757,6 +65401,9 @@ VALUES (22874, 13, True)
      , (22874, 19, True)
      , (22874, 22, True);
 
+/* Weenie - MiscObjects - Drudge (44732) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44732;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44732, 'ace44732-drudge');
 
@@ -60787,6 +65434,9 @@ VALUES (44732, 13, True)
      , (44732, 12, True)
      , (44732, 11, True)
      , (44732, 19, True);
+
+/* Weenie - MiscObjects - Mu-miyah Body with a head. (22097) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22097;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22097, 'bodyheadmummy');
@@ -60867,6 +65517,9 @@ VALUES (22097, 0, 16778359)
      , (22097, 15, 16777307)
      , (22097, 16, 16781779);
 
+/* Weenie - MiscObjects - Demon Swarm Matron Token (34451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34451;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34451, 'ace34451-demonswarmmatrontoken');
 
@@ -60896,6 +65549,9 @@ VALUES (34451, 13, True)
      , (34451, 14, True)
      , (34451, 19, True)
      , (34451, 22, True);
+
+/* Weenie - MiscObjects - Armored Skeletal Body with one arm (28895) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28895;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28895, 'torsolegarmoredskeleton');
@@ -60927,6 +65583,9 @@ VALUES (28895, 13, True)
      , (28895, 19, True)
      , (28895, 22, True);
 
+/* Weenie - MiscObjects - Chicken (44727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44727;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44727, 'ace44727-chicken');
 
@@ -60957,6 +65616,9 @@ VALUES (44727, 13, True)
      , (44727, 12, True)
      , (44727, 11, True)
      , (44727, 19, True);
+
+/* Weenie - MiscObjects - Chunk of High-Grade Chorizite (7530) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7530;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7530, 'chorizitechunkc');
@@ -60997,6 +65659,9 @@ VALUES (7530, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7530, 0, 16777882);
+
+/* Weenie - MiscObjects - Olthoi Carapace (3678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3678;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3678, 'olthoicarapace');
@@ -61042,6 +65707,9 @@ VALUES (3678, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3678, 0, 16777882);
 
+/* Weenie - MiscObjects - DeathTail's Fang (36171) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36171;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36171, 'ace36171-deathtailsfang');
 
@@ -61073,6 +65741,9 @@ VALUES (36171, 13, True)
      , (36171, 14, True)
      , (36171, 19, True);
 
+/* Weenie - MiscObjects - Jester's Marker (37494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37494;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37494, 'ace37494-jestersmarker');
 
@@ -61103,6 +65774,9 @@ VALUES (37494, 13, True)
      , (37494, 19, True)
      , (37494, 22, True);
 
+/* Weenie - MiscObjects - Ghostly Shroud (32181) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32181;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32181, 'ace32181-ghostlyshroud');
 
@@ -61132,6 +65806,9 @@ VALUES (32181, 13, True)
      , (32181, 11, True)
      , (32181, 14, True)
      , (32181, 19, True);
+
+/* Weenie - MiscObjects - Token of the Pumpkin Lord (52189) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52189;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52189, 'ace52189-tokenofthepumpkinlord');
@@ -61164,6 +65841,9 @@ VALUES (52189, 13, True)
      , (52189, 11, True)
      , (52189, 14, True)
      , (52189, 19, True);
+
+/* Weenie - MiscObjects - Magical Orb (34731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34731;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34731, 'ace34731-magicalorb');
@@ -61198,6 +65878,9 @@ VALUES (34731, 13, True)
      , (34731, 19, True)
      , (34731, 1, True);
 
+/* Weenie - MiscObjects - Untranslated Song of Grael (31428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31428;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31428, 'ace31428-untranslatedsongofgrael');
 
@@ -61230,6 +65913,9 @@ VALUES (31428, 13, True)
      , (31428, 14, True)
      , (31428, 19, True)
      , (31428, 22, True);
+
+/* Weenie - MiscObjects - Untranslated Grael Rebellion (31427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31427;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31427, 'ace31427-untranslatedgraelrebellion');
@@ -61264,6 +65950,9 @@ VALUES (31427, 13, True)
      , (31427, 19, True)
      , (31427, 22, True);
 
+/* Weenie - MiscObjects - Untranslated Dreams of Salt and Ash (31426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31426;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31426, 'ace31426-untranslateddreamsofsaltandash');
 
@@ -61297,6 +65986,9 @@ VALUES (31426, 13, True)
      , (31426, 19, True)
      , (31426, 22, True);
 
+/* Weenie - MiscObjects - Acidic Mist (52466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52466;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52466, 'ace52466-acidicmist');
 
@@ -61328,6 +66020,9 @@ VALUES (52466, 13, True)
      , (52466, 19, True)
      , (52466, 1, True)
      , (52466, 24, True);
+
+/* Weenie - MiscObjects - Dojiro Sangi's Ring (36604) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36604;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36604, 'ace36604-dojirosangisring');
@@ -61370,6 +66065,9 @@ VALUES (36604, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36604, 0, 16778345);
 
+/* Weenie - MiscObjects - Brewmaster's Back Cover (29206) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29206;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29206, 'trophybrewmasterbiblepiece3');
 
@@ -61401,6 +66099,9 @@ VALUES (29206, 13, True)
      , (29206, 14, True)
      , (29206, 19, True)
      , (29206, 22, True);
+
+/* Weenie - MiscObjects - Brewmaster's Pages (29207) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29207;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29207, 'trophybrewmasterbiblepiece4');
@@ -61434,6 +66135,9 @@ VALUES (29207, 13, True)
      , (29207, 19, True)
      , (29207, 22, True);
 
+/* Weenie - MiscObjects - Rand's Brewmaster's Bible (28764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28764;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28764, 'trophybrewmasterbible');
 
@@ -61463,6 +66167,9 @@ VALUES (28764, 13, True)
      , (28764, 14, True)
      , (28764, 19, True)
      , (28764, 22, True);
+
+/* Weenie - MiscObjects - Elysa's Resolve (36787) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36787;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36787, 'ace36787-elysasresolve');
@@ -61495,6 +66202,9 @@ VALUES (36787, 13, True)
      , (36787, 19, True)
      , (36787, 22, True);
 
+/* Weenie - MiscObjects - Elysa's Courage (36781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36781;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36781, 'ace36781-elysascourage');
 
@@ -61526,6 +66236,9 @@ VALUES (36781, 13, True)
      , (36781, 19, True)
      , (36781, 22, True);
 
+/* Weenie - MiscObjects - Elysa's Determination (36783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36783;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36783, 'ace36783-elysasdetermination');
 
@@ -61556,6 +66269,9 @@ VALUES (36783, 13, True)
      , (36783, 14, True)
      , (36783, 19, True)
      , (36783, 22, True);
+
+/* Weenie - MiscObjects - Elysa's Phantasmal Arrow (36784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36784;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36784, 'ace36784-elysasphantasmalarrow');
@@ -61594,6 +66310,9 @@ VALUES (36784, 67111919, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36784, 0, 16777887);
+
+/* Weenie - MiscObjects - Head of the Apparition Olthoi Queen  (36785) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36785;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36785, 'ace36785-headoftheapparitionolthoiqueen');
@@ -61639,6 +66358,9 @@ VALUES (36785, 0, 83893539, 83893539);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36785, 0, 16787048);
 
+/* Weenie - MiscObjects - Quiddity Ingot (36944) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36944;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36944, 'ace36944-quiddityingot');
 
@@ -61681,6 +66403,9 @@ VALUES (36944, 0, 83889680, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36944, 0, 16782860);
+
+/* Weenie - MiscObjects - Tainted Aetherium Oil (51658) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51658;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51658, 'ace51658-taintedaetheriumoil');
@@ -61728,6 +66453,9 @@ VALUES (51658, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51658, 0, 16777882);
 
+/* Weenie - MiscObjects - Splinter of Misery (51568) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51568;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51568, 'ace51568-splinterofmisery');
 
@@ -61771,6 +66499,9 @@ VALUES (51568, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51568, 0, 16779181);
+
+/* Weenie - MiscObjects - Focused Splinter of Misery (51601) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51601;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51601, 'ace51601-focusedsplinterofmisery');
@@ -61817,6 +66548,9 @@ VALUES (51601, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51601, 0, 16779181);
 
+/* Weenie - MiscObjects - Chemical Reaction (51659) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51659;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51659, 'ace51659-chemicalreaction');
 
@@ -61848,6 +66582,9 @@ VALUES (51659, 13, True)
      , (51659, 1, True)
      , (51659, 24, True);
 
+/* Weenie - MiscObjects - Idol of black Crystal (44292) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44292;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44292, 'ace44292-idolofblackcrystal');
 
@@ -61877,6 +66614,9 @@ VALUES (44292, 13, True)
      , (44292, 11, True)
      , (44292, 14, True)
      , (44292, 19, True);
+
+/* Weenie - MiscObjects - Glowing Virindi Cloak (9116) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9116;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9116, 'cloakglowingvirindi');
@@ -61921,6 +66661,9 @@ VALUES (9116, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9116, 0, 16777882);
 
+/* Weenie - MiscObjects - Wardley's Shirt (45021) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45021;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45021, 'ace45021-wardleysshirt');
 
@@ -61949,6 +66692,9 @@ VALUES (45021, 13, True)
      , (45021, 14, True)
      , (45021, 19, True)
      , (45021, 22, True);
+
+/* Weenie - MiscObjects - Wardley's Boots (45020) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45020;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45020, 'ace45020-wardleysboots');
@@ -61979,6 +66725,9 @@ VALUES (45020, 13, True)
      , (45020, 19, True)
      , (45020, 22, True);
 
+/* Weenie - MiscObjects - Wardley's Necklace (45019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45019;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45019, 'ace45019-wardleysnecklace');
 
@@ -62007,6 +66756,9 @@ VALUES (45019, 13, True)
      , (45019, 14, True)
      , (45019, 19, True)
      , (45019, 22, True);
+
+/* Weenie - MiscObjects - Prototype Bloodstone Shard (51366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51366;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51366, 'ace51366-prototypebloodstoneshard');
@@ -62037,6 +66789,9 @@ VALUES (51366, 13, True)
      , (51366, 19, True)
      , (51366, 22, True);
 
+/* Weenie - MiscObjects - Experimental Bloodstone Shard (51343) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51343;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51343, 'ace51343-experimentalbloodstoneshard');
 
@@ -62065,6 +66820,9 @@ VALUES (51343, 13, True)
      , (51343, 14, True)
      , (51343, 19, True)
      , (51343, 22, True);
+
+/* Weenie - MiscObjects - Snow Tusker Leader Tusk (51351) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51351;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51351, 'ace51351-snowtuskerleadertusk');
@@ -62095,6 +66853,9 @@ VALUES (51351, 13, True)
      , (51351, 14, True)
      , (51351, 19, True)
      , (51351, 22, True);
+
+/* Weenie - MiscObjects - Two Handed Weapons Glyph (41619) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41619;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41619, 'ace41619-twohandedweaponsglyph');
@@ -62139,6 +66900,9 @@ VALUES (41619, 0, 83890737, 83886518);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41619, 0, 16780688);
 
+/* Weenie - MiscObjects - Perfect Isparian Two Handed Weapons Ingot (41626) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41626;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41626, 'ace41626-perfectispariantwohandedweaponsingot');
 
@@ -62171,6 +66935,9 @@ VALUES (41626, 13, True)
      , (41626, 19, True)
      , (41626, 22, True);
 
+/* Weenie - MiscObjects - Perfect Isparian Heavy Weapons Ingot (19523) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19523;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19523, 'ingotstaffisparianperfect');
 
@@ -62202,6 +66969,9 @@ VALUES (19523, 13, True)
      , (19523, 14, True)
      , (19523, 19, True)
      , (19523, 22, True);
+
+/* Weenie - MiscObjects - Unfashioned Prismatic Stone (20909) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20909;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20909, 'stoneprismaticuncrafted');
@@ -62242,6 +67012,9 @@ VALUES (20909, 0, 83889688, 83892492);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20909, 0, 16783974);
 
+/* Weenie - MiscObjects - Unknown (52297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52297;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52297, 'ace52297-unknown');
 
@@ -62267,6 +67040,9 @@ VALUES (52297, 13, True)
      , (52297, 19, True)
      , (52297, 1, True)
      , (52297, 24, True);
+
+/* Weenie - MiscObjects - Broken Key (46600) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46600;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46600, 'ace46600-brokenkey');
@@ -62301,6 +67077,9 @@ VALUES (46600, 13, True)
      , (46600, 19, True)
      , (46600, 22, True);
 
+/* Weenie - MiscObjects - Broken Key (46598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46598;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46598, 'ace46598-brokenkey');
 
@@ -62333,6 +67112,9 @@ VALUES (46598, 13, True)
      , (46598, 14, True)
      , (46598, 19, True)
      , (46598, 22, True);
+
+/* Weenie - MiscObjects - Broken Key (46599) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46599;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46599, 'ace46599-brokenkey');
@@ -62367,6 +67149,9 @@ VALUES (46599, 13, True)
      , (46599, 19, True)
      , (46599, 22, True);
 
+/* Weenie - MiscObjects - Ancient Skull (46427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46427;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46427, 'ace46427-ancientskull');
 
@@ -62400,6 +67185,9 @@ VALUES (46427, 13, True)
      , (46427, 19, True)
      , (46427, 22, True);
 
+/* Weenie - MiscObjects - Shaped Arm Bone (46432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46432;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46432, 'ace46432-shapedarmbone');
 
@@ -62428,6 +67216,9 @@ VALUES (46432, 13, True)
      , (46432, 14, True)
      , (46432, 19, True)
      , (46432, 22, True);
+
+/* Weenie - MiscObjects - Ancient Arm Bone (46429) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46429;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46429, 'ace46429-ancientarmbone');
@@ -62459,6 +67250,9 @@ VALUES (46429, 13, True)
      , (46429, 14, True)
      , (46429, 19, True)
      , (46429, 22, True);
+
+/* Weenie - MiscObjects - Ancient Skull and Bone (46448) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46448;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46448, 'ace46448-ancientskullandbone');
@@ -62493,6 +67287,9 @@ VALUES (46448, 13, True)
      , (46448, 19, True)
      , (46448, 22, True);
 
+/* Weenie - MiscObjects - Ancient Skull and Bones (46447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46447;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46447, 'ace46447-ancientskullandbones');
 
@@ -62523,6 +67320,9 @@ VALUES (46447, 13, True)
      , (46447, 19, True)
      , (46447, 22, True);
 
+/* Weenie - MiscObjects - Portal Energy (46450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46450;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46450, 'ace46450-portalenergy');
 
@@ -62550,6 +67350,9 @@ VALUES (46450, 13, True)
      , (46450, 1, True)
      , (46450, 24, True);
 
+/* Weenie - MiscObjects - Portal Energy (46451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46451;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46451, 'ace46451-portalenergy');
 
@@ -62576,6 +67379,9 @@ VALUES (46451, 13, True)
      , (46451, 19, True)
      , (46451, 1, True)
      , (46451, 24, True);
+
+/* Weenie - MiscObjects - Second Half of a Worn Bow (31481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31481;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31481, 'ace31481-secondhalfofawornbow');
@@ -62607,6 +67413,9 @@ VALUES (31481, 13, True)
      , (31481, 19, True)
      , (31481, 22, True);
 
+/* Weenie - MiscObjects - Suzuhara Baijin's Care Package (30399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30399;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30399, 'suzuharapackage');
 
@@ -62635,6 +67444,9 @@ VALUES (30399, 13, True)
      , (30399, 14, True)
      , (30399, 19, True)
      , (30399, 22, True);
+
+/* Weenie - MiscObjects - Blue Coral (31335) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31335;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31335, 'ace31335-bluecoral');
@@ -62666,6 +67478,9 @@ VALUES (31335, 13, True)
      , (31335, 19, True)
      , (31335, 22, True);
 
+/* Weenie - MiscObjects - Fake Niffis Pearl (31336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31336;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31336, 'ace31336-fakeniffispearl');
 
@@ -62696,6 +67511,9 @@ VALUES (31336, 13, True)
      , (31336, 19, True)
      , (31336, 22, True);
 
+/* Weenie - MiscObjects - Crate of Fake Niffis Pearls (31334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31334;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31334, 'ace31334-crateoffakeniffispearls');
 
@@ -62725,6 +67543,9 @@ VALUES (31334, 13, True)
      , (31334, 14, True)
      , (31334, 19, True)
      , (31334, 22, True);
+
+/* Weenie - MiscObjects - Southern Tumerok Insignia (43419) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43419;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43419, 'ace43419-southerntumerokinsignia');
@@ -62759,6 +67580,9 @@ VALUES (43419, 13, True)
      , (43419, 14, True)
      , (43419, 19, True)
      , (43419, 22, True);
+
+/* Weenie - MiscObjects - Refined Ore (28522) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28522;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28522, 'orekrank');
@@ -62803,6 +67627,9 @@ VALUES (28522, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28522, 0, 16777882);
 
+/* Weenie - MiscObjects - Morgluuk's Head (28487) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28487;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28487, 'headmorgluuk');
 
@@ -62836,6 +67663,9 @@ VALUES (28487, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28487, 67114922, 0, 0);
+
+/* Weenie - MiscObjects - Morgluuk's Flesh (28488) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28488;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28488, 'skinmorgluuk');
@@ -62879,6 +67709,9 @@ VALUES (28488, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28488, 0, 16777882);
+
+/* Weenie - MiscObjects - Empty Binding (15853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15853;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15853, 'bookemptybinding');
@@ -62925,6 +67758,9 @@ VALUES (15853, 0, 83892962, 83893942)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15853, 0, 16785505);
 
+/* Weenie - MiscObjects - Book Binding (15846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15846;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15846, 'bookbinding1');
 
@@ -62969,6 +67805,9 @@ VALUES (15846, 0, 83892962, 83893942)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15846, 0, 16785505);
+
+/* Weenie - MiscObjects - Book Binding (15847) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15847;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15847, 'bookbinding2');
@@ -63015,6 +67854,9 @@ VALUES (15847, 0, 83892962, 83893942)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15847, 0, 16785505);
 
+/* Weenie - MiscObjects - Book Binding (15848) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15848;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15848, 'bookbinding3');
 
@@ -63059,6 +67901,9 @@ VALUES (15848, 0, 83892962, 83893942)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15848, 0, 16785505);
+
+/* Weenie - MiscObjects - Book Binding (15849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15849;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15849, 'bookbinding4');
@@ -63105,6 +67950,9 @@ VALUES (15849, 0, 83892962, 83893942)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15849, 0, 16785505);
 
+/* Weenie - MiscObjects - Book Binding (15850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15850;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15850, 'bookbinding5');
 
@@ -63149,6 +67997,9 @@ VALUES (15850, 0, 83892962, 83893942)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15850, 0, 16785505);
+
+/* Weenie - MiscObjects - Book Binding (15851) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15851;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15851, 'bookbinding6');
@@ -63195,6 +68046,9 @@ VALUES (15851, 0, 83892962, 83893942)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15851, 0, 16785505);
 
+/* Weenie - MiscObjects - Book Binding (15852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15852;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15852, 'bookbinding7');
 
@@ -63239,6 +68093,9 @@ VALUES (15852, 0, 83892962, 83893942)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15852, 0, 16785505);
+
+/* Weenie - MiscObjects - Unreadable Tome (15854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15854;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15854, 'booknuhmudirascharm');
@@ -63286,6 +68143,9 @@ VALUES (15854, 0, 83892962, 83893942)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15854, 0, 16785505);
 
+/* Weenie - MiscObjects - King's Crown (35769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35769;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35769, 'ace35769-kingscrown');
 
@@ -63313,6 +68173,9 @@ VALUES (35769, 13, True)
      , (35769, 14, True)
      , (35769, 19, True)
      , (35769, 22, True);
+
+/* Weenie - MiscObjects - Hand-Written Journal (28983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28983;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28983, 'bookroadsnuhmudira');
@@ -63344,6 +68207,9 @@ VALUES (28983, 13, True)
      , (28983, 19, True)
      , (28983, 22, True);
 
+/* Weenie - MiscObjects - Ancient Necklace (34476) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34476;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34476, 'ace34476-ancientnecklace');
 
@@ -63372,6 +68238,9 @@ VALUES (34476, 13, True)
      , (34476, 11, True)
      , (34476, 14, True)
      , (34476, 19, True);
+
+/* Weenie - MiscObjects - Ancient Necklace (34475) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34475;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34475, 'ace34475-ancientnecklace');
@@ -63402,6 +68271,9 @@ VALUES (34475, 13, True)
      , (34475, 14, True)
      , (34475, 19, True);
 
+/* Weenie - MiscObjects - Ancient Necklace (34474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34474;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34474, 'ace34474-ancientnecklace');
 
@@ -63430,6 +68302,9 @@ VALUES (34474, 13, True)
      , (34474, 11, True)
      , (34474, 14, True)
      , (34474, 19, True);
+
+/* Weenie - MiscObjects - Ancient Necklace (34473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34473;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34473, 'ace34473-ancientnecklace');
@@ -63460,6 +68335,9 @@ VALUES (34473, 13, True)
      , (34473, 14, True)
      , (34473, 19, True);
 
+/* Weenie - MiscObjects - Ancient Necklace (34472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34472;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34472, 'ace34472-ancientnecklace');
 
@@ -63488,6 +68366,9 @@ VALUES (34472, 13, True)
      , (34472, 11, True)
      , (34472, 14, True)
      , (34472, 19, True);
+
+/* Weenie - MiscObjects - Ancient Necklace (34471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34471;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34471, 'ace34471-ancientnecklace');
@@ -63518,6 +68399,9 @@ VALUES (34471, 13, True)
      , (34471, 14, True)
      , (34471, 19, True);
 
+/* Weenie - MiscObjects - Ancient Necklace (34470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34470;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34470, 'ace34470-ancientnecklace');
 
@@ -63546,6 +68430,9 @@ VALUES (34470, 13, True)
      , (34470, 11, True)
      , (34470, 14, True)
      , (34470, 19, True);
+
+/* Weenie - MiscObjects - Ancient Necklace (34469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34469;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34469, 'ace34469-ancientnecklace');
@@ -63576,6 +68463,9 @@ VALUES (34469, 13, True)
      , (34469, 14, True)
      , (34469, 19, True);
 
+/* Weenie - MiscObjects - Ancient Necklace (34468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34468;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34468, 'ace34468-ancientnecklace');
 
@@ -63604,6 +68494,9 @@ VALUES (34468, 13, True)
      , (34468, 11, True)
      , (34468, 14, True)
      , (34468, 19, True);
+
+/* Weenie - MiscObjects - Ancient Necklace (34495) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34495;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34495, 'ace34495-ancientnecklace');
@@ -63634,6 +68527,9 @@ VALUES (34495, 13, True)
      , (34495, 14, True)
      , (34495, 19, True);
 
+/* Weenie - MiscObjects - Ancient Ring (34496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34496;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34496, 'ace34496-ancientring');
 
@@ -63662,6 +68558,9 @@ VALUES (34496, 13, True)
      , (34496, 11, True)
      , (34496, 14, True)
      , (34496, 19, True);
+
+/* Weenie - MiscObjects - Ancient Ring (34485) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34485;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34485, 'ace34485-ancientring');
@@ -63692,6 +68591,9 @@ VALUES (34485, 13, True)
      , (34485, 14, True)
      , (34485, 19, True);
 
+/* Weenie - MiscObjects - Ancient Ring (34484) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34484;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34484, 'ace34484-ancientring');
 
@@ -63720,6 +68622,9 @@ VALUES (34484, 13, True)
      , (34484, 11, True)
      , (34484, 14, True)
      , (34484, 19, True);
+
+/* Weenie - MiscObjects - Ancient Ring (34483) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34483;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34483, 'ace34483-ancientring');
@@ -63750,6 +68655,9 @@ VALUES (34483, 13, True)
      , (34483, 14, True)
      , (34483, 19, True);
 
+/* Weenie - MiscObjects - Ancient Ring (34482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34482;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34482, 'ace34482-ancientring');
 
@@ -63778,6 +68686,9 @@ VALUES (34482, 13, True)
      , (34482, 11, True)
      , (34482, 14, True)
      , (34482, 19, True);
+
+/* Weenie - MiscObjects - Ancient Ring (34481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34481;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34481, 'ace34481-ancientring');
@@ -63808,6 +68719,9 @@ VALUES (34481, 13, True)
      , (34481, 14, True)
      , (34481, 19, True);
 
+/* Weenie - MiscObjects - Ancient Ring (34480) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34480;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34480, 'ace34480-ancientring');
 
@@ -63836,6 +68750,9 @@ VALUES (34480, 13, True)
      , (34480, 11, True)
      , (34480, 14, True)
      , (34480, 19, True);
+
+/* Weenie - MiscObjects - Ancient Ring (34479) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34479;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34479, 'ace34479-ancientring');
@@ -63866,6 +68783,9 @@ VALUES (34479, 13, True)
      , (34479, 14, True)
      , (34479, 19, True);
 
+/* Weenie - MiscObjects - Ancient Ring (34478) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34478;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34478, 'ace34478-ancientring');
 
@@ -63895,6 +68815,9 @@ VALUES (34478, 13, True)
      , (34478, 14, True)
      , (34478, 19, True);
 
+/* Weenie - MiscObjects - Ancient Ring (34477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34477;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34477, 'ace34477-ancientring');
 
@@ -63923,6 +68846,9 @@ VALUES (34477, 13, True)
      , (34477, 11, True)
      , (34477, 14, True)
      , (34477, 19, True);
+
+/* Weenie - MiscObjects - Ancient Goblet (34492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34492;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34492, 'ace34492-ancientgoblet');
@@ -63963,6 +68889,9 @@ VALUES (34492, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34492, 0, 16778749);
 
+/* Weenie - MiscObjects - Ancient Goblet (34491) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34491;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34491, 'ace34491-ancientgoblet');
 
@@ -64001,6 +68930,9 @@ VALUES (34491, 0, 83889356, 83889356);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34491, 0, 16778749);
+
+/* Weenie - MiscObjects - Ancient Goblet (34490) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34490;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34490, 'ace34490-ancientgoblet');
@@ -64041,6 +68973,9 @@ VALUES (34490, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34490, 0, 16778749);
 
+/* Weenie - MiscObjects - Ancient Goblet (34489) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34489;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34489, 'ace34489-ancientgoblet');
 
@@ -64079,6 +69014,9 @@ VALUES (34489, 0, 83889356, 83889356);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34489, 0, 16778749);
+
+/* Weenie - MiscObjects - Ancient Goblet (34493) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34493;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34493, 'ace34493-ancientgoblet');
@@ -64119,6 +69057,9 @@ VALUES (34493, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34493, 0, 16778749);
 
+/* Weenie - MiscObjects - Ancient Goblet (34488) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34488;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34488, 'ace34488-ancientgoblet');
 
@@ -64157,6 +69098,9 @@ VALUES (34488, 0, 83889356, 83889356);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34488, 0, 16778749);
+
+/* Weenie - MiscObjects - Ancient Goblet (34487) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34487;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34487, 'ace34487-ancientgoblet');
@@ -64197,6 +69141,9 @@ VALUES (34487, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34487, 0, 16778749);
 
+/* Weenie - MiscObjects - Ancient Goblet (34494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34494;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34494, 'ace34494-ancientgoblet');
 
@@ -64235,6 +69182,9 @@ VALUES (34494, 0, 83889356, 83889356);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34494, 0, 16778749);
+
+/* Weenie - MiscObjects - Ancient Goblet (34486) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34486;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34486, 'ace34486-ancientgoblet');
@@ -64275,6 +69225,9 @@ VALUES (34486, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34486, 0, 16778749);
 
+/* Weenie - MiscObjects - Ancient Goblet (34497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34497;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34497, 'ace34497-ancientgoblet');
 
@@ -64314,6 +69267,9 @@ VALUES (34497, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34497, 0, 16778749);
 
+/* Weenie - MiscObjects - Link of a Falatacot Chain (34964) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34964;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34964, 'ace34964-linkofafalatacotchain');
 
@@ -64346,6 +69302,9 @@ VALUES (34964, 13, True)
      , (34964, 14, True)
      , (34964, 19, True)
      , (34964, 22, True);
+
+/* Weenie - MiscObjects - Blue Burning Mushroom (34837) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34837;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34837, 'ace34837-blueburningmushroom');
@@ -64380,6 +69339,9 @@ VALUES (34837, 13, True)
      , (34837, 14, True)
      , (34837, 19, True);
 
+/* Weenie - MiscObjects - Ornate Falatacot Medallion (34747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34747;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34747, 'ace34747-ornatefalatacotmedallion');
 
@@ -64409,6 +69371,9 @@ VALUES (34747, 13, True)
      , (34747, 14, True)
      , (34747, 19, True)
      , (34747, 22, True);
+
+/* Weenie - MiscObjects - Infused Blood Golem Heart (34962) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34962;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34962, 'ace34962-infusedbloodgolemheart');
@@ -64454,6 +69419,9 @@ VALUES (34962, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34962, 0, 16777882);
 
+/* Weenie - MiscObjects - Royal Summons (36678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36678;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36678, 'ace36678-royalsummons');
 
@@ -64484,6 +69452,9 @@ VALUES (36678, 13, True)
      , (36678, 14, True)
      , (36678, 19, True)
      , (36678, 22, True);
+
+/* Weenie - MiscObjects - Pristine White Mattekar Hide (36703) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36703;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36703, 'ace36703-pristinewhitemattekarhide');
@@ -64521,6 +69492,9 @@ VALUES (36703, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36703, 67111956, 0, 0);
+
+/* Weenie - MiscObjects - Phial of Chorizite (36704) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36704;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36704, 'ace36704-phialofchorizite');
@@ -64565,6 +69539,9 @@ VALUES (36704, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36704, 0, 16783325);
 
+/* Weenie - MiscObjects - White Stone (36673) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36673;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36673, 'ace36673-whitestone');
 
@@ -64607,6 +69584,9 @@ VALUES (36673, 0, 83888861, 83889680);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36673, 0, 16778862);
+
+/* Weenie - MiscObjects - Yellow Stone (36674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36674;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36674, 'ace36674-yellowstone');
@@ -64651,6 +69631,9 @@ VALUES (36674, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36674, 0, 16778862);
 
+/* Weenie - MiscObjects - Red Stone (36672) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36672;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36672, 'ace36672-redstone');
 
@@ -64691,6 +69674,9 @@ VALUES (36672, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36672, 0, 16778862);
 
+/* Weenie - MiscObjects - Spear of Purity (36680) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36680;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36680, 'ace36680-spearofpurity');
 
@@ -64720,6 +69706,9 @@ VALUES (36680, 13, True)
      , (36680, 14, True)
      , (36680, 19, True)
      , (36680, 22, True);
+
+/* Weenie - MiscObjects - Sack of Granite (36666) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36666;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36666, 'ace36666-sackofgranite');
@@ -64762,6 +69751,9 @@ VALUES (36666, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36666, 0, 16777882);
 
+/* Weenie - MiscObjects - Pyreal Bar (36676) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36676;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36676, 'ace36676-pyrealbar');
 
@@ -64802,6 +69794,9 @@ VALUES (36676, 0, 83889680, 83889680);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36676, 0, 16782860);
+
+/* Weenie - MiscObjects - Crown of the First King (36656) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36656;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36656, 'ace36656-crownofthefirstking');
@@ -64850,6 +69845,9 @@ VALUES (36656, 0, 83889687, 83889687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36656, 0, 16778337);
 
+/* Weenie - MiscObjects - Chalice of Morkindmity (36655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36655;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36655, 'ace36655-chaliceofmorkindmity');
 
@@ -64893,6 +69891,9 @@ VALUES (36655, 0, 83889356, 83889356);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36655, 0, 16778761);
+
+/* Weenie - MiscObjects - Gauntlets of Power (36658) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36658;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36658, 'ace36658-gauntletsofpower');
@@ -64938,6 +69939,9 @@ VALUES (36658, 0, 83894333, 83895681);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36658, 0, 16778374);
 
+/* Weenie - MiscObjects - Sack of Brass (36664) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36664;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36664, 'ace36664-sackofbrass');
 
@@ -64978,6 +69982,9 @@ VALUES (36664, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36664, 0, 16777882);
+
+/* Weenie - MiscObjects - Sack of Black Opal (36663) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36663;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36663, 'ace36663-sackofblackopal');
@@ -65020,6 +70027,9 @@ VALUES (36663, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36663, 0, 16777882);
 
+/* Weenie - MiscObjects - Chorizite Pea (36675) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36675;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36675, 'ace36675-chorizitepea');
 
@@ -65059,6 +70069,9 @@ VALUES (36675, 0, 83890080, 83890080);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36675, 0, 16780681);
+
+/* Weenie - MiscObjects - Hammer of the Ages (36659) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36659;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36659, 'ace36659-hammeroftheages');
@@ -65106,6 +70119,9 @@ VALUES (36659, 0, 83897332, 83897332);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36659, 0, 16792609);
 
+/* Weenie - MiscObjects - Treasure (36684) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36684;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36684, 'ace36684-treasure');
 
@@ -65139,6 +70155,9 @@ VALUES (36684, 13, True)
      , (36684, 14, True)
      , (36684, 19, True)
      , (36684, 22, True);
+
+/* Weenie - MiscObjects - Sack of Fire Opal (36665) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36665;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36665, 'ace36665-sackoffireopal');
@@ -65181,6 +70200,9 @@ VALUES (36665, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36665, 0, 16777882);
 
+/* Weenie - MiscObjects - Scepter of Might (36662) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36662;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36662, 'ace36662-scepterofmight');
 
@@ -65222,6 +70244,9 @@ VALUES (36662, 0, 83893255, 83893255)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36662, 0, 16785712);
+
+/* Weenie - MiscObjects - Bastion of Tukal (36660) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36660;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36660, 'ace36660-bastionoftukal');
@@ -65278,6 +70303,9 @@ VALUES (36660, 0, 83887061, 83893262)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36660, 0, 16778356);
 
+/* Weenie - MiscObjects - Sack of Steel (36670) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36670;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36670, 'ace36670-sackofsteel');
 
@@ -65318,6 +70346,9 @@ VALUES (36670, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36670, 0, 16777882);
+
+/* Weenie - MiscObjects - Bolt of Velvet (36671) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36671;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36671, 'ace36671-boltofvelvet');
@@ -65360,6 +70391,9 @@ VALUES (36671, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36671, 0, 16777882);
 
+/* Weenie - MiscObjects - Crest of Kings (36679) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36679;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36679, 'ace36679-crestofkings');
 
@@ -65394,6 +70428,9 @@ VALUES (36679, 13, True)
      , (36679, 19, True)
      , (36679, 22, True);
 
+/* Weenie - MiscObjects - Ulkra's Sword (36683) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36683;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36683, 'ace36683-ulkrassword');
 
@@ -65427,6 +70464,9 @@ VALUES (36683, 13, True)
      , (36683, 14, True)
      , (36683, 19, True)
      , (36683, 22, True);
+
+/* Weenie - MiscObjects - Sack of Iron (36668) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36668;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36668, 'ace36668-sackofiron');
@@ -65469,6 +70509,9 @@ VALUES (36668, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36668, 0, 16777882);
 
+/* Weenie - MiscObjects - Helm of the Crag (36661) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36661;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36661, 'ace36661-helmofthecrag');
 
@@ -65507,6 +70550,9 @@ VALUES (36661, 67109944, 240, 10)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36661, 0, 16785648);
+
+/* Weenie - MiscObjects - Sack of Green Garnet (36667) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36667;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36667, 'ace36667-sackofgreengarnet');
@@ -65548,6 +70594,9 @@ VALUES (36667, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36667, 0, 16777882);
+
+/* Weenie - MiscObjects - Cutters Cup (36657) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36657;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36657, 'ace36657-cutterscup');
@@ -65592,6 +70641,9 @@ VALUES (36657, 0, 83889356, 83889356);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36657, 0, 16778751);
+
+/* Weenie - MiscObjects - Robes of Grey Dawn (36677) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36677;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36677, 'ace36677-robesofgreydawn');
@@ -65643,6 +70695,9 @@ VALUES (36677, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36677, 0, 16778367);
 
+/* Weenie - MiscObjects - Virindi Cage (36702) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36702;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36702, 'ace36702-virindicage');
 
@@ -65670,6 +70725,9 @@ VALUES (36702, 13, True)
      , (36702, 14, True)
      , (36702, 19, True)
      , (36702, 1, True);
+
+/* Weenie - MiscObjects - Sigil of Linvak Tukal (36682) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36682;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36682, 'ace36682-sigiloflinvaktukal');
@@ -65702,6 +70760,9 @@ VALUES (36682, 13, True)
      , (36682, 19, True)
      , (36682, 22, True);
 
+/* Weenie - MiscObjects - Eleonora's Heart (28760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28760;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28760, 'hearteleonora');
 
@@ -65730,6 +70791,9 @@ VALUES (28760, 13, True)
      , (28760, 14, True)
      , (28760, 19, True)
      , (28760, 22, True);
+
+/* Weenie - MiscObjects - Progenitor Crystal (40788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40788;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40788, 'ace40788-progenitorcrystal');
@@ -65766,6 +70830,9 @@ VALUES (40788, 13, True)
      , (40788, 19, True)
      , (40788, 22, True);
 
+/* Weenie - MiscObjects - Progenitor Crystal (40796) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40796;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40796, 'ace40796-progenitorcrystal');
 
@@ -65799,6 +70866,9 @@ VALUES (40796, 13, True)
      , (40796, 14, True)
      , (40796, 19, True)
      , (40796, 22, True);
+
+/* Weenie - MiscObjects - Progenitor Crystal (40793) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40793;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40793, 'ace40793-progenitorcrystal');
@@ -65834,6 +70904,9 @@ VALUES (40793, 13, True)
      , (40793, 19, True)
      , (40793, 22, True);
 
+/* Weenie - MiscObjects - Progenitor Crystal (40795) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40795;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40795, 'ace40795-progenitorcrystal');
 
@@ -65868,6 +70941,9 @@ VALUES (40795, 13, True)
      , (40795, 19, True)
      , (40795, 22, True);
 
+/* Weenie - MiscObjects - Combined Progenitor Crystal (40789) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40789;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40789, 'ace40789-combinedprogenitorcrystal');
 
@@ -65901,6 +70977,9 @@ VALUES (40789, 13, True)
      , (40789, 14, True)
      , (40789, 19, True)
      , (40789, 22, True);
+
+/* Weenie - MiscObjects - Progenitor Crystal (40797) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40797;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40797, 'ace40797-progenitorcrystal');
@@ -65937,6 +71016,9 @@ VALUES (40797, 13, True)
      , (40797, 19, True)
      , (40797, 22, True);
 
+/* Weenie - MiscObjects - Force Progenitor Crystal (40792) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40792;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40792, 'ace40792-forceprogenitorcrystal');
 
@@ -65970,6 +71052,9 @@ VALUES (40792, 13, True)
      , (40792, 14, True)
      , (40792, 19, True)
      , (40792, 22, True);
+
+/* Weenie - MiscObjects - Progenitor Crystal (40791) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40791;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40791, 'ace40791-progenitorcrystal');
@@ -66006,6 +71091,9 @@ VALUES (40791, 13, True)
      , (40791, 19, True)
      , (40791, 22, True);
 
+/* Weenie - MiscObjects - Combined Progenitor Crystal (40798) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40798;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40798, 'ace40798-combinedprogenitorcrystal');
 
@@ -66040,6 +71128,9 @@ VALUES (40798, 13, True)
      , (40798, 14, True)
      , (40798, 19, True)
      , (40798, 22, True);
+
+/* Weenie - MiscObjects - Elemental Progenitor Crystal (40790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40790;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40790, 'ace40790-elementalprogenitorcrystal');
@@ -66076,6 +71167,9 @@ VALUES (40790, 13, True)
      , (40790, 19, True)
      , (40790, 22, True);
 
+/* Weenie - MiscObjects - Progenitor Ingot (40794) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40794;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40794, 'ace40794-progenitoringot');
 
@@ -66110,6 +71204,9 @@ VALUES (40794, 13, True)
      , (40794, 19, True)
      , (40794, 22, True);
 
+/* Weenie - MiscObjects - Essence Lock (40902) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40902;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40902, 'ace40902-essencelock');
 
@@ -66142,6 +71239,9 @@ VALUES (40902, 13, True)
      , (40902, 41, True)
      , (40902, 42, True)
      , (40902, 1, True);
+
+/* Weenie - MiscObjects - Essence Lock (40874) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40874;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40874, 'ace40874-essencelock');
@@ -66176,6 +71276,9 @@ VALUES (40874, 13, True)
      , (40874, 42, True)
      , (40874, 1, True);
 
+/* Weenie - MiscObjects - Essence Lock (40876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40876;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40876, 'ace40876-essencelock');
 
@@ -66208,6 +71311,9 @@ VALUES (40876, 13, True)
      , (40876, 41, True)
      , (40876, 42, True)
      , (40876, 1, True);
+
+/* Weenie - MiscObjects - Essence Lock (40877) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40877;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40877, 'ace40877-essencelock');
@@ -66242,6 +71348,9 @@ VALUES (40877, 13, True)
      , (40877, 42, True)
      , (40877, 1, True);
 
+/* Weenie - MiscObjects - Essence Lock (40875) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40875;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40875, 'ace40875-essencelock');
 
@@ -66274,6 +71383,9 @@ VALUES (40875, 13, True)
      , (40875, 41, True)
      , (40875, 42, True)
      , (40875, 1, True);
+
+/* Weenie - MiscObjects - Inert Shadowfire Infusion (40515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40515;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40515, 'ace40515-inertshadowfireinfusion');
@@ -66317,6 +71429,9 @@ VALUES (40515, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40515, 0, 16783325);
 
+/* Weenie - MiscObjects - Essence of Dravann (45858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45858;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45858, 'ace45858-essenceofdravann');
 
@@ -66348,6 +71463,9 @@ VALUES (45858, 13, True)
      , (45858, 19, True)
      , (45858, 22, True);
 
+/* Weenie - MiscObjects - Aetherium Core Fragment (41226) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41226;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41226, 'ace41226-aetheriumcorefragment');
 
@@ -66377,6 +71495,9 @@ VALUES (41226, 13, True)
      , (41226, 14, True)
      , (41226, 19, True)
      , (41226, 22, True);
+
+/* Weenie - MiscObjects - Ore Deposit (42920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42920;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42920, 'ace42920-oredeposit');
@@ -66413,6 +71534,9 @@ VALUES (42920, 12, True)
      , (42920, 19, True)
      , (42920, 1, True);
 
+/* Weenie - MiscObjects - Ore Deposit (42921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42921;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42921, 'ace42921-oredeposit');
 
@@ -66448,6 +71572,9 @@ VALUES (42921, 12, True)
      , (42921, 19, True)
      , (42921, 1, True);
 
+/* Weenie - MiscObjects - Ore Deposit (42918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42918;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42918, 'ace42918-oredeposit');
 
@@ -66481,6 +71608,9 @@ VALUES (42918, 12, True)
      , (42918, 14, True)
      , (42918, 19, True)
      , (42918, 1, True);
+
+/* Weenie - MiscObjects - Chunk of Ore (42875) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42875;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42875, 'ace42875-chunkofore');
@@ -66524,6 +71654,9 @@ VALUES (42875, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42875, 0, 16777882);
 
+/* Weenie - MiscObjects - Essence of Selflessness (36071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36071;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36071, 'ace36071-essenceofselflessness');
 
@@ -66554,6 +71687,9 @@ VALUES (36071, 13, True)
      , (36071, 14, True)
      , (36071, 19, True)
      , (36071, 22, True);
+
+/* Weenie - MiscObjects - Essence of Conformity (36069) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36069;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36069, 'ace36069-essenceofconformity');
@@ -66586,6 +71722,9 @@ VALUES (36069, 13, True)
      , (36069, 19, True)
      , (36069, 22, True);
 
+/* Weenie - MiscObjects - Essence of Order (36070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36070;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36070, 'ace36070-essenceoforder');
 
@@ -66616,6 +71755,9 @@ VALUES (36070, 13, True)
      , (36070, 14, True)
      , (36070, 19, True)
      , (36070, 22, True);
+
+/* Weenie - MiscObjects - Essence of Stasis (36072) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36072;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36072, 'ace36072-essenceofstasis');
@@ -66648,6 +71790,9 @@ VALUES (36072, 13, True)
      , (36072, 19, True)
      , (36072, 22, True);
 
+/* Weenie - MiscObjects - Essence of Loyalty (36068) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36068;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36068, 'ace36068-essenceofloyalty');
 
@@ -66678,6 +71823,9 @@ VALUES (36068, 13, True)
      , (36068, 14, True)
      , (36068, 19, True)
      , (36068, 22, True);
+
+/* Weenie - MiscObjects - Reflection of Daryam ibn Zubed (36058) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36058;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36058, 'ace36058-reflectionofdaryamibnzubed');
@@ -66710,6 +71858,9 @@ VALUES (36058, 13, True)
      , (36058, 19, True)
      , (36058, 22, True);
 
+/* Weenie - MiscObjects - Reflection of Ellimar Jorning (36054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36054;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36054, 'ace36054-reflectionofellimarjorning');
 
@@ -66740,6 +71891,9 @@ VALUES (36054, 13, True)
      , (36054, 14, True)
      , (36054, 19, True)
      , (36054, 22, True);
+
+/* Weenie - MiscObjects - Reflection of the Agent of the Arcanum (36056) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36056;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36056, 'ace36056-reflectionoftheagentofthearcanum');
@@ -66772,6 +71926,9 @@ VALUES (36056, 13, True)
      , (36056, 19, True)
      , (36056, 22, True);
 
+/* Weenie - MiscObjects - Reflection of Claude (36063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36063;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36063, 'ace36063-reflectionofclaude');
 
@@ -66802,6 +71959,9 @@ VALUES (36063, 13, True)
      , (36063, 14, True)
      , (36063, 19, True)
      , (36063, 22, True);
+
+/* Weenie - MiscObjects - Reflection of Aaminah (36052) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36052;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36052, 'ace36052-reflectionofaaminah');
@@ -66834,6 +71994,9 @@ VALUES (36052, 13, True)
      , (36052, 19, True)
      , (36052, 22, True);
 
+/* Weenie - MiscObjects - Reflection of Muhiza bint Murqidh (36053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36053;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36053, 'ace36053-reflectionofmuhizabintmurqidh');
 
@@ -66864,6 +72027,9 @@ VALUES (36053, 13, True)
      , (36053, 14, True)
      , (36053, 19, True)
      , (36053, 22, True);
+
+/* Weenie - MiscObjects - Reflection of Aukherea (36061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36061;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36061, 'ace36061-reflectionofaukherea');
@@ -66896,6 +72062,9 @@ VALUES (36061, 13, True)
      , (36061, 19, True)
      , (36061, 22, True);
 
+/* Weenie - MiscObjects - Reflection of Yuan Hanzu (36049) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36049;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36049, 'ace36049-reflectionofyuanhanzu');
 
@@ -66926,6 +72095,9 @@ VALUES (36049, 13, True)
      , (36049, 14, True)
      , (36049, 19, True)
      , (36049, 22, True);
+
+/* Weenie - MiscObjects - Reflection of Jaleh al-Thani (36051) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36051;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36051, 'ace36051-reflectionofjalehalthani');
@@ -66958,6 +72130,9 @@ VALUES (36051, 13, True)
      , (36051, 19, True)
      , (36051, 22, True);
 
+/* Weenie - MiscObjects - Reflection of the Town Crier (36055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36055;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36055, 'ace36055-reflectionofthetowncrier');
 
@@ -66988,6 +72163,9 @@ VALUES (36055, 13, True)
      , (36055, 14, True)
      , (36055, 19, True)
      , (36055, 22, True);
+
+/* Weenie - MiscObjects - Reflection of Sung Wenxio (36074) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36074;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36074, 'ace36074-reflectionofsungwenxio');
@@ -67020,6 +72198,9 @@ VALUES (36074, 13, True)
      , (36074, 19, True)
      , (36074, 22, True);
 
+/* Weenie - MiscObjects - Reflection of Leopold (36060) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36060;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36060, 'ace36060-reflectionofleopold');
 
@@ -67050,6 +72231,9 @@ VALUES (36060, 13, True)
      , (36060, 14, True)
      , (36060, 19, True)
      , (36060, 22, True);
+
+/* Weenie - MiscObjects - Reflection of Khekierea (36062) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36062;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36062, 'ace36062-reflectionofkhekierea');
@@ -67082,6 +72266,9 @@ VALUES (36062, 13, True)
      , (36062, 19, True)
      , (36062, 22, True);
 
+/* Weenie - MiscObjects - Reflection of Sang Nen-Kai (36073) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36073;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36073, 'ace36073-reflectionofsangnenkai');
 
@@ -67112,6 +72299,9 @@ VALUES (36073, 13, True)
      , (36073, 14, True)
      , (36073, 19, True)
      , (36073, 22, True);
+
+/* Weenie - MiscObjects - Reflection of Berkholt (36057) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36057;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36057, 'ace36057-reflectionofberkholt');
@@ -67144,6 +72334,9 @@ VALUES (36057, 13, True)
      , (36057, 19, True)
      , (36057, 22, True);
 
+/* Weenie - MiscObjects - Reflection of a Scrivener (36059) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36059;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36059, 'ace36059-reflectionofascrivener');
 
@@ -67175,6 +72368,9 @@ VALUES (36059, 13, True)
      , (36059, 19, True)
      , (36059, 22, True);
 
+/* Weenie - MiscObjects - Reflection of Thiuda (36050) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36050;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36050, 'ace36050-reflectionofthiuda');
 
@@ -67205,6 +72401,9 @@ VALUES (36050, 13, True)
      , (36050, 14, True)
      , (36050, 19, True)
      , (36050, 22, True);
+
+/* Weenie - MiscObjects - Interesting Scroll (25521) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25521;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25521, 'scroll-npcwield');
@@ -67241,6 +72440,9 @@ VALUES (25521, 13, True)
      , (25521, 22, True)
      , (25521, 24, True);
 
+/* Weenie - MiscObjects - Shadowy Virindi Essence (36064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36064;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36064, 'ace36064-shadowyvirindiessence');
 
@@ -67271,6 +72473,9 @@ VALUES (36064, 13, True)
      , (36064, 14, True)
      , (36064, 19, True)
      , (36064, 22, True);
+
+/* Weenie - MiscObjects - Carenzi Race Ticket Stub (38965) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38965;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38965, 'ace38965-carenziraceticketstub');
@@ -67305,6 +72510,9 @@ VALUES (38965, 13, True)
      , (38965, 19, True)
      , (38965, 22, True);
 
+/* Weenie - MiscObjects - Monster Fight Ticket Stub (38967) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38967;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38967, 'ace38967-monsterfightticketstub');
 
@@ -67338,6 +72546,9 @@ VALUES (38967, 13, True)
      , (38967, 19, True)
      , (38967, 22, True);
 
+/* Weenie - MiscObjects - Hand of the Remorseless (41481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41481;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41481, 'ace41481-handoftheremorseless');
 
@@ -67367,6 +72578,9 @@ VALUES (41481, 13, True)
      , (41481, 14, True)
      , (41481, 19, True)
      , (41481, 22, True);
+
+/* Weenie - MiscObjects - Finesse Weapons Tessera (11166) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11166;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11166, 'skilltokendagger-xp');
@@ -67403,6 +72617,9 @@ VALUES (11166, 13, True)
      , (11166, 19, True)
      , (11166, 22, True);
 
+/* Weenie - MiscObjects - Light Weapons Tessera (11160) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11160;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11160, 'skilltokenaxe-xp');
 
@@ -67438,6 +72655,9 @@ VALUES (11160, 13, True)
      , (11160, 19, True)
      , (11160, 22, True);
 
+/* Weenie - MiscObjects - Stave of Palenqual (11254) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11254;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11254, 'staffmagic4xxmenhir-xp');
 
@@ -67470,6 +72690,9 @@ VALUES (11254, 13, True)
      , (11254, 14, True)
      , (11254, 19, True)
      , (11254, 22, True);
+
+/* Weenie - MiscObjects - Foolproof Black Opal Gem (45504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45504;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45504, 'ace45504-foolproofblackopalgem');
@@ -67515,6 +72738,9 @@ VALUES (45504, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45504, 0, 16779181);
+
+/* Weenie - MiscObjects - Zombie Butler (34086) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34086;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34086, 'ace34086-zombiebutler');
@@ -67591,6 +72817,9 @@ VALUES (34086, 0, 16777294)
      , (34086, 15, 16779237)
      , (34086, 12, 16779238);
 
+/* Weenie - MiscObjects - Thunder Chicken Token (34457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34457;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34457, 'ace34457-thunderchickentoken');
 
@@ -67620,6 +72849,9 @@ VALUES (34457, 13, True)
      , (34457, 14, True)
      , (34457, 19, True)
      , (34457, 22, True);
+
+/* Weenie - MiscObjects - Daimyo Nobanuga's Shattered Helm (53475) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53475;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53475, 'ace53475-daimyonobanugasshatteredhelm');
@@ -67662,6 +72894,9 @@ VALUES (53475, 67110003, 250, 6)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53475, 0, 16796809);
 
+/* Weenie - MiscObjects - Radiant Blood Initiate Armor Writ (38394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38394;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38394, 'ace38394-radiantbloodinitiatearmorwrit');
 
@@ -67692,6 +72927,9 @@ VALUES (38394, 13, True)
      , (38394, 14, True)
      , (38394, 19, True)
      , (38394, 22, True);
+
+/* Weenie - MiscObjects - Torn Strip of Parchment (46348) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46348;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46348, 'ace46348-tornstripofparchment');
@@ -67727,6 +72965,9 @@ VALUES (46348, 13, True)
      , (46348, 19, True)
      , (46348, 22, True);
 
+/* Weenie - MiscObjects - Torn Strip of Parchment (46349) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46349;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46349, 'ace46349-tornstripofparchment');
 
@@ -67758,6 +72999,9 @@ VALUES (46349, 13, True)
      , (46349, 14, True)
      , (46349, 19, True)
      , (46349, 22, True);
+
+/* Weenie - MiscObjects - Torn Strip of Parchment (46350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46350;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46350, 'ace46350-tornstripofparchment');
@@ -67793,6 +73037,9 @@ VALUES (46350, 13, True)
      , (46350, 19, True)
      , (46350, 22, True);
 
+/* Weenie - MiscObjects - Partially Restored Page (46347) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46347;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46347, 'ace46347-partiallyrestoredpage');
 
@@ -67825,6 +73072,9 @@ VALUES (46347, 13, True)
      , (46347, 19, True)
      , (46347, 22, True);
 
+/* Weenie - MiscObjects - Rock (43785) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43785;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43785, 'ace43785-rock');
 
@@ -67853,6 +73103,9 @@ VALUES (43785, 12, True)
      , (43785, 19, True)
      , (43785, 1, True)
      , (43785, 24, True);
+
+/* Weenie - MiscObjects - Rock (43787) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43787;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43787, 'ace43787-rock');
@@ -67883,6 +73136,9 @@ VALUES (43787, 12, True)
      , (43787, 1, True)
      , (43787, 24, True);
 
+/* Weenie - MiscObjects - Rock (43786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43786;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43786, 'ace43786-rock');
 
@@ -67911,6 +73167,9 @@ VALUES (43786, 12, True)
      , (43786, 19, True)
      , (43786, 1, True)
      , (43786, 24, True);
+
+/* Weenie - MiscObjects - Energy Infused Rock (43792) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43792;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43792, 'ace43792-energyinfusedrock');
@@ -67942,6 +73201,9 @@ VALUES (43792, 13, True)
      , (43792, 19, True)
      , (43792, 22, True);
 
+/* Weenie - MiscObjects - Cow (44729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44729;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44729, 'ace44729-cow');
 
@@ -67972,6 +73234,9 @@ VALUES (44729, 13, True)
      , (44729, 12, True)
      , (44729, 11, True)
      , (44729, 19, True);
+
+/* Weenie - MiscObjects - Lady Tairla Mhoire's Signet Ring (53473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53473;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53473, 'ace53473-ladytairlamhoiressignetring');
@@ -68016,6 +73281,9 @@ VALUES (53473, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53473, 0, 16778344);
 
+/* Weenie - MiscObjects - Attribute Reset Certificate (46421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46421;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46421, 'ace46421-attributeresetcertificate');
 
@@ -68043,6 +73311,9 @@ VALUES (46421, 13, True)
      , (46421, 11, True)
      , (46421, 14, True)
      , (46421, 19, True);
+
+/* Weenie - MiscObjects - Lady Tairla's Ancient Emblem of Mhoire (38808) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38808;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38808, 'ace38808-ladytairlasancientemblemofmhoire');
@@ -68079,6 +73350,9 @@ VALUES (38808, 13, True)
      , (38808, 14, True)
      , (38808, 19, True);
 
+/* Weenie - MiscObjects - Shattered Master Bloodstone Shard (43826) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43826;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43826, 'ace43826-shatteredmasterbloodstoneshard');
 
@@ -68108,6 +73382,9 @@ VALUES (43826, 13, True)
      , (43826, 19, True)
      , (43826, 22, True);
 
+/* Weenie - MiscObjects - Sealed Tome (44000) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44000;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44000, 'ace44000-sealedtome');
 
@@ -68136,6 +73413,9 @@ VALUES (44000, 13, True)
      , (44000, 11, True)
      , (44000, 14, True)
      , (44000, 19, True);
+
+/* Weenie - MiscObjects - Sword Stamped Spectral Ingot (37475) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37475;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37475, 'ace37475-swordstampedspectralingot');
@@ -68183,6 +73463,9 @@ VALUES (37475, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37475, 0, 16779181);
 
+/* Weenie - MiscObjects - Inactive Alchemist's Golem (34917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34917;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34917, 'ace34917-inactivealchemistsgolem');
 
@@ -68216,6 +73499,9 @@ VALUES (34917, 13, True)
      , (34917, 19, True)
      , (34917, 22, True);
 
+/* Weenie - MiscObjects - Geraine's Tome (3) (45734) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45734;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45734, 'ace45734-gerainestome3');
 
@@ -68245,6 +73531,9 @@ VALUES (45734, 13, True)
      , (45734, 14, True)
      , (45734, 19, True)
      , (45734, 22, True);
+
+/* Weenie - MiscObjects - Lady Aerfalle's Charm (43529) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43529;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43529, 'ace43529-ladyaerfallescharm');
@@ -68278,6 +73567,9 @@ VALUES (43529, 13, True)
      , (43529, 14, True)
      , (43529, 19, True)
      , (43529, 22, True);
+
+/* Weenie - MiscObjects - Invoking Stone (39124) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39124;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39124, 'ace39124-invokingstone');
@@ -68322,6 +73614,9 @@ VALUES (39124, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39124, 0, 16778862);
 
+/* Weenie - MiscObjects - Glissnal Sleech Shell (33685) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33685;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33685, 'ace33685-glissnalsleechshell');
 
@@ -68352,6 +73647,9 @@ VALUES (33685, 13, True)
      , (33685, 14, True)
      , (33685, 19, True)
      , (33685, 22, True);
+
+/* Weenie - MiscObjects - Degenerate Shadow Essence (33682) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33682;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33682, 'ace33682-degenerateshadowessence');
@@ -68384,6 +73682,9 @@ VALUES (33682, 13, True)
      , (33682, 19, True)
      , (33682, 22, True);
 
+/* Weenie - MiscObjects - Dark Remoran Fin (33678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33678;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33678, 'ace33678-darkremoranfin');
 
@@ -68415,6 +73716,9 @@ VALUES (33678, 13, True)
      , (33678, 19, True)
      , (33678, 22, True);
 
+/* Weenie - MiscObjects - Alloy Piston (25328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25328;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25328, 'undeadmechanism14');
 
@@ -68443,6 +73747,9 @@ VALUES (25328, 13, True)
      , (25328, 14, True)
      , (25328, 19, True)
      , (25328, 22, True);
+
+/* Weenie - MiscObjects - Alloy Cylinder (25326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25326;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25326, 'undeadmechanism12');
@@ -68473,6 +73780,9 @@ VALUES (25326, 13, True)
      , (25326, 19, True)
      , (25326, 22, True);
 
+/* Weenie - MiscObjects - Renald's Old Mug (28844) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28844;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28844, 'mugrenald');
 
@@ -68502,6 +73812,9 @@ VALUES (28844, 13, True)
      , (28844, 14, True)
      , (28844, 19, True)
      , (28844, 22, True);
+
+/* Weenie - MiscObjects - Lord Grymar's Ancient Emblem of Mhoire (38880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38880;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38880, 'ace38880-lordgrymarsancientemblemofmhoire');
@@ -68548,6 +73861,9 @@ VALUES (38880, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38880, 0, 16778862);
 
+/* Weenie - MiscObjects - Skeletal Torso (22047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22047;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22047, 'torsoskeletal');
 
@@ -68582,6 +73898,9 @@ VALUES (22047, 13, True)
      , (22047, 14, True)
      , (22047, 19, True)
      , (22047, 22, True);
+
+/* Weenie - MiscObjects - Purified Quiddity Ingot (37078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37078;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37078, 'ace37078-purifiedquiddityingot');
@@ -68627,6 +73946,9 @@ VALUES (37078, 0, 83889680, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37078, 0, 16782860);
 
+/* Weenie - MiscObjects - Olthoi Stab Claw (24237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24237;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24237, 'olthoistabclaw');
 
@@ -68657,6 +73979,9 @@ VALUES (24237, 13, True)
      , (24237, 14, True)
      , (24237, 19, True)
      , (24237, 22, True);
+
+/* Weenie - MiscObjects - Bone Handle (7053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7053;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7053, 'bowcompositehandle1');
@@ -68691,6 +74016,9 @@ VALUES (7053, 13, True)
      , (7053, 19, True)
      , (7053, 22, True);
 
+/* Weenie - MiscObjects - Mossy Herb (28830) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28830;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28830, 'herbmossygonjoku');
 
@@ -68721,6 +74049,9 @@ VALUES (28830, 13, True)
      , (28830, 19, True)
      , (28830, 22, True);
 
+/* Weenie - MiscObjects - Skill Reset Certificate (46420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46420;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46420, 'ace46420-skillresetcertificate');
 
@@ -68750,6 +74081,9 @@ VALUES (46420, 13, True)
      , (46420, 11, True)
      , (46420, 14, True)
      , (46420, 19, True);
+
+/* Weenie - MiscObjects - Embroidered Bag (11358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11358;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11358, 'bagsiraluun3-xp');
@@ -68786,6 +74120,9 @@ VALUES (11358, 13, True)
      , (11358, 14, True)
      , (11358, 19, True)
      , (11358, 22, True);
+
+/* Weenie - MiscObjects - Egg? (35190) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35190;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35190, 'ace35190-egg?');
@@ -68825,6 +74162,9 @@ VALUES (35190, 13, True)
      , (35190, 19, True)
      , (35190, 22, True);
 
+/* Weenie - MiscObjects - Volatile Gem of Lowering Coordination (44973) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44973;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44973, 'ace44973-volatilegemofloweringcoordination');
 
@@ -68860,6 +74200,9 @@ VALUES (44973, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44973, 67111924, 0, 0);
+
+/* Weenie - MiscObjects - Volatile Gem of Raising Self (44971) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44971;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44971, 'ace44971-volatilegemofraisingself');
@@ -68897,6 +74240,9 @@ VALUES (44971, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44971, 67111923, 0, 0);
 
+/* Weenie - MiscObjects - VolatileCoordination To Self Gem (44923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44923;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44923, 'ace44923-volatilecoordinationtoselfgem');
 
@@ -68928,6 +74274,9 @@ VALUES (44923, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44923, 67111924, 0, 0);
+
+/* Weenie - MiscObjects - Carenzi Pouchling Pelt (11340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11340;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11340, 'carenzipeltpouchling-xp');
@@ -68973,6 +74322,9 @@ VALUES (11340, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11340, 0, 16777882);
 
+/* Weenie - MiscObjects - Embroidered Bag (11359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11359;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11359, 'bagsiraluun4-xp');
 
@@ -69009,6 +74361,9 @@ VALUES (11359, 13, True)
      , (11359, 19, True)
      , (11359, 22, True);
 
+/* Weenie - MiscObjects - Blue Vellum Binder (25421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25421;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25421, 'bookundeadmechanism14');
 
@@ -69040,6 +74395,9 @@ VALUES (25421, 13, True)
      , (25421, 11, True)
      , (25421, 14, True)
      , (25421, 19, True);
+
+/* Weenie - MiscObjects - Pyreal Ingot (6330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6330;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6330, 'pyrealingot');
@@ -69075,6 +74433,9 @@ VALUES (6330, 13, True)
      , (6330, 19, True)
      , (6330, 22, True);
 
+/* Weenie - MiscObjects - An Unlocked Tiny Mnemosyne (9315) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9315;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9315, 'pyramidgreentinyunlocked');
 
@@ -69108,6 +74469,9 @@ VALUES (9315, 13, True)
      , (9315, 19, True)
      , (9315, 22, True);
 
+/* Weenie - MiscObjects - Hollow Minion (44741) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44741;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44741, 'ace44741-hollowminion');
 
@@ -69138,6 +74502,9 @@ VALUES (44741, 13, True)
      , (44741, 12, True)
      , (44741, 11, True)
      , (44741, 19, True);
+
+/* Weenie - MiscObjects - Grievver (44739) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44739;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44739, 'ace44739-grievver');
@@ -69170,6 +74537,9 @@ VALUES (44739, 13, True)
      , (44739, 11, True)
      , (44739, 19, True);
 
+/* Weenie - MiscObjects - Knath'taed (44744) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44744;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44744, 'ace44744-knathtaed');
 
@@ -69201,6 +74571,9 @@ VALUES (44744, 13, True)
      , (44744, 11, True)
      , (44744, 19, True);
 
+/* Weenie - MiscObjects - Iron Lodestone (28903) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28903;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28903, 'lodestoneiron');
 
@@ -69228,6 +74601,9 @@ VALUES (28903, 13, True)
      , (28903, 14, True)
      , (28903, 19, True)
      , (28903, 22, True);
+
+/* Weenie - MiscObjects - Copper Lodestone (28902) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28902;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28902, 'lodestonecopper');
@@ -69257,6 +74633,9 @@ VALUES (28902, 13, True)
      , (28902, 19, True)
      , (28902, 22, True);
 
+/* Weenie - MiscObjects - Lead Lodestone (28904) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28904;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28904, 'lodestonelead');
 
@@ -69284,6 +74663,9 @@ VALUES (28904, 13, True)
      , (28904, 14, True)
      , (28904, 19, True)
      , (28904, 22, True);
+
+/* Weenie - MiscObjects - Shadow (44765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44765;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44765, 'ace44765-shadow');
@@ -69316,6 +74698,9 @@ VALUES (44765, 13, True)
      , (44765, 11, True)
      , (44765, 19, True);
 
+/* Weenie - MiscObjects - Chittick Head (28888) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28888;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28888, 'headchittick');
 
@@ -69346,6 +74731,9 @@ VALUES (28888, 13, True)
      , (28888, 14, True)
      , (28888, 19, True)
      , (28888, 22, True);
+
+/* Weenie - MiscObjects - Bag of Gumdrops (45081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45081;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45081, 'ace45081-bagofgumdrops');
@@ -69380,6 +74768,9 @@ VALUES (45081, 13, True)
      , (45081, 14, True)
      , (45081, 19, True)
      , (45081, 22, True);
+
+/* Weenie - MiscObjects - Scarecrow Arm  (28873) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28873;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28873, 'armscarecrow');
@@ -69422,6 +74813,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (28873, 0, 16790866)
      , (28873, 1, 16790870);
 
+/* Weenie - MiscObjects - Double Totem of Audetaunga (11448) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11448;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11448, 'totemdoubleaudetaunga-xp');
 
@@ -69456,6 +74850,9 @@ VALUES (11448, 13, True)
      , (11448, 19, True)
      , (11448, 22, True);
 
+/* Weenie - MiscObjects - Enhanced Health Elixir Orders (37537) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37537;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37537, 'ace37537-enhancedhealthelixirorders');
 
@@ -69487,6 +74884,9 @@ VALUES (37537, 13, True)
      , (37537, 14, True)
      , (37537, 19, True);
 
+/* Weenie - MiscObjects - Seasoned Explorer Axe Cast (45982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45982;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45982, 'ace45982-seasonedexploreraxecast');
 
@@ -69516,6 +74916,9 @@ VALUES (45982, 13, True)
      , (45982, 14, True)
      , (45982, 19, True)
      , (45982, 22, True);
+
+/* Weenie - MiscObjects - Bunny Slipper (12136) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12136;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12136, 'slipperbunny');
@@ -69555,6 +74958,9 @@ VALUES (12136, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (12136, 67113750, 160, 8);
 
+/* Weenie - MiscObjects - Gem of Lowering Strength (22942) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22942;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22942, 'attributegemdownstrength');
 
@@ -69590,6 +74996,9 @@ VALUES (22942, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22942, 67111924, 0, 0);
+
+/* Weenie - MiscObjects - Tonk Totem (11236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11236;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11236, 'boonobject5-xp');
@@ -69634,6 +75043,9 @@ VALUES (11236, 0, 83889680, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11236, 0, 16782860);
 
+/* Weenie - MiscObjects - Storm Totem (11235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11235;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11235, 'boonobject4-xp');
 
@@ -69676,6 +75088,9 @@ VALUES (11235, 0, 83889680, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11235, 0, 16782860);
+
+/* Weenie - MiscObjects - Timaru Totem (11232) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11232;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11232, 'boonobject1-xp');
@@ -69720,6 +75135,9 @@ VALUES (11232, 0, 83889680, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11232, 0, 16782860);
 
+/* Weenie - MiscObjects - Box Of Ten A'nekshay Tokens (46803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46803;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46803, 'ace46803-boxoftenanekshaytokens');
 
@@ -69756,6 +75174,9 @@ VALUES (46803, 13, True)
      , (46803, 14, True)
      , (46803, 19, True);
 
+/* Weenie - MiscObjects - Scrap of Shadow Essence (35992) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35992;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35992, 'ace35992-scrapofshadowessence');
 
@@ -69785,6 +75206,9 @@ VALUES (35992, 13, True)
      , (35992, 14, True)
      , (35992, 19, True)
      , (35992, 22, True);
+
+/* Weenie - MiscObjects - Cartilage of Old Scratchy (34001) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34001;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34001, 'ace34001-cartilageofoldscratchy');
@@ -69829,6 +75253,9 @@ VALUES (34001, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34001, 0, 16777882);
 
+/* Weenie - MiscObjects - Slimy Broad Sword (43417) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43417;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43417, 'ace43417-slimybroadsword');
 
@@ -69872,6 +75299,9 @@ VALUES (43417, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43417, 0, 16777963);
 
+/* Weenie - MiscObjects - Bronze Candlestick (30484) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30484;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30484, 'candlestickholtburgredoubt');
 
@@ -69902,6 +75332,9 @@ VALUES (30484, 13, True)
      , (30484, 14, True)
      , (30484, 19, True)
      , (30484, 22, True);
+
+/* Weenie - MiscObjects - Antique Bowl (30481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30481;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30481, 'bowlholtburgredoubt');
@@ -69946,6 +75379,9 @@ VALUES (30481, 0, 83888921, 83887050);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30481, 0, 16778771);
 
+/* Weenie - MiscObjects - Antique Goblet (30482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30482;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30482, 'gobletholtburgredoubt');
 
@@ -69989,6 +75425,9 @@ VALUES (30482, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30482, 0, 16778749);
 
+/* Weenie - MiscObjects - Bronze Lamp (30483) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30483;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30483, 'lampholtburgredoubt');
 
@@ -70018,6 +75457,9 @@ VALUES (30483, 13, True)
      , (30483, 14, True)
      , (30483, 19, True)
      , (30483, 22, True);
+
+/* Weenie - MiscObjects - Bronze Handbell (30485) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30485;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30485, 'handbellholtburgredoubt');
@@ -70049,6 +75491,9 @@ VALUES (30485, 13, True)
      , (30485, 14, True)
      , (30485, 19, True)
      , (30485, 22, True);
+
+/* Weenie - MiscObjects - Antique Mug (30480) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30480;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30480, 'mugholtburgredoubt');
@@ -70093,6 +75538,9 @@ VALUES (30480, 0, 83889549, 83889549);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30480, 0, 16778845);
 
+/* Weenie - MiscObjects - Alloy Cogwheel (25323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25323;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25323, 'undeadmechanism9');
 
@@ -70121,6 +75569,9 @@ VALUES (25323, 13, True)
      , (25323, 14, True)
      , (25323, 19, True)
      , (25323, 22, True);
+
+/* Weenie - MiscObjects - Bandit Blade Hilt (8899) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8899;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8899, 'hiltbandit');
@@ -70159,6 +75610,9 @@ VALUES (8899, 13, True)
      , (8899, 19, True)
      , (8899, 22, True);
 
+/* Weenie - MiscObjects - Undead Body with one Leg (22044) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22044;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22044, 'torsolegundead');
 
@@ -70194,6 +75648,9 @@ VALUES (22044, 13, True)
      , (22044, 19, True)
      , (22044, 22, True);
 
+/* Weenie - MiscObjects - Hardened Ice Shard (28746) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28746;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28746, 'ruschkiceshardhardened');
 
@@ -70223,6 +75680,9 @@ VALUES (28746, 13, True)
      , (28746, 14, True)
      , (28746, 19, True)
      , (28746, 22, True);
+
+/* Weenie - MiscObjects - Embroidered Bag (11361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11361;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11361, 'bagsiraluun-xp');
@@ -70257,6 +75717,9 @@ VALUES (11361, 13, True)
      , (11361, 19, True)
      , (11361, 22, True);
 
+/* Weenie - MiscObjects - Second Half of a Battered Cestus (31455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31455;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31455, 'ace31455-secondhalfofabatteredcestus');
 
@@ -70286,6 +75749,9 @@ VALUES (31455, 13, True)
      , (31455, 14, True)
      , (31455, 19, True)
      , (31455, 22, True);
+
+/* Weenie - MiscObjects - Falcon Banner (11737) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11737;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11737, 'bannerfalcon');
@@ -70322,6 +75788,9 @@ VALUES (11737, 0, 83893717, 83893717);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11737, 0, 16787125);
+
+/* Weenie - MiscObjects - Banner Haft (11836) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11836;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11836, 'haftbannerlow');
@@ -70363,6 +75832,9 @@ VALUES (11836, 0, 83893725, 83893725);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11836, 0, 16787141);
 
+/* Weenie - MiscObjects - Hafted Falcon Banner (11745) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11745;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11745, 'bannerhaftedfalcon');
 
@@ -70400,6 +75872,9 @@ VALUES (11745, 0, 83893725, 83893725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11745, 0, 16787138);
 
+/* Weenie - MiscObjects - First Half of a Worn Staff (31476) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31476;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31476, 'ace31476-firsthalfofawornstaff');
 
@@ -70432,6 +75907,9 @@ VALUES (31476, 13, True)
      , (31476, 14, True)
      , (31476, 19, True)
      , (31476, 22, True);
+
+/* Weenie - MiscObjects - First Half of a Battered Cestus (31454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31454;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31454, 'ace31454-firsthalfofabatteredcestus');
@@ -70466,6 +75944,9 @@ VALUES (31454, 13, True)
      , (31454, 19, True)
      , (31454, 22, True);
 
+/* Weenie - MiscObjects - Second Half of a Worn Crossbow (31483) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31483;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31483, 'ace31483-secondhalfofaworncrossbow');
 
@@ -70495,6 +75976,9 @@ VALUES (31483, 13, True)
      , (31483, 14, True)
      , (31483, 19, True)
      , (31483, 22, True);
+
+/* Weenie - MiscObjects - Darling's Collar (31309) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31309;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31309, 'ace31309-darlingscollar');
@@ -70526,6 +76010,9 @@ VALUES (31309, 13, True)
      , (31309, 19, True)
      , (31309, 22, True);
 
+/* Weenie - MiscObjects - Silver Knight Medallion  (43024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43024;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43024, 'ace43024-silverknightmedallion');
 
@@ -70556,6 +76043,9 @@ VALUES (43024, 13, True)
      , (43024, 19, True)
      , (43024, 22, True);
 
+/* Weenie - MiscObjects - Olthoi Crest (24234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24234;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24234, 'olthoicrest');
 
@@ -70585,6 +76075,9 @@ VALUES (24234, 13, True)
      , (24234, 14, True)
      , (24234, 19, True)
      , (24234, 22, True);
+
+/* Weenie - MiscObjects - Mutilator Token (27574) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27574;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27574, 'tokenmutilator');
@@ -70628,6 +76121,9 @@ VALUES (27574, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27574, 0, 16777882);
+
+/* Weenie - MiscObjects - Royal Blood (29372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29372;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29372, 'trophybloodcorcima');
@@ -70675,6 +76171,9 @@ VALUES (29372, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29372, 0, 16777882);
 
+/* Weenie - MiscObjects - Spear of the Heart (9471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9471;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9471, 'spearhumanheart');
 
@@ -70708,6 +76207,9 @@ VALUES (9471, 13, True)
      , (9471, 19, True)
      , (9471, 22, True);
 
+/* Weenie - MiscObjects - Ruined Notes (29234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29234;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29234, 'notesishaqslostkey');
 
@@ -70737,6 +76239,9 @@ VALUES (29234, 13, True)
      , (29234, 14, True)
      , (29234, 19, True)
      , (29234, 22, True);
+
+/* Weenie - MiscObjects - Blighted Bow Coin (38890) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38890;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38890, 'ace38890-blightedbowcoin');
@@ -70771,6 +76276,9 @@ VALUES (38890, 13, True)
      , (38890, 11, True)
      , (38890, 14, True)
      , (38890, 19, True);
+
+/* Weenie - MiscObjects - Viamontian Pennant of Loyalty (32846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32846;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32846, 'ace32846-viamontianpennantofloyalty');
@@ -70807,6 +76315,9 @@ VALUES (32846, 13, True)
      , (32846, 14, True)
      , (32846, 19, True);
 
+/* Weenie - MiscObjects - Western Forge Essence (30475) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30475;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30475, 'forgeessencewest');
 
@@ -70836,6 +76347,9 @@ VALUES (30475, 13, True)
      , (30475, 14, True)
      , (30475, 19, True)
      , (30475, 22, True);
+
+/* Weenie - MiscObjects - Renald the Eldest's Reply (33933) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33933;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33933, 'ace33933-renaldtheeldestsreply');
@@ -70870,6 +76384,9 @@ VALUES (33933, 13, True)
      , (33933, 19, True)
      , (33933, 22, True);
 
+/* Weenie - MiscObjects - Title Token: Guardian of the Dark (32941) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32941;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32941, 'ace32941-titletokenguardianofthedark');
 
@@ -70901,6 +76418,9 @@ VALUES (32941, 13, True)
      , (32941, 19, True)
      , (32941, 22, True);
 
+/* Weenie - MiscObjects - Unreadable Dericost Tome (31412) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31412;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31412, 'ace31412-unreadabledericosttome');
 
@@ -70930,6 +76450,9 @@ VALUES (31412, 13, True)
      , (31412, 14, True)
      , (31412, 19, True)
      , (31412, 22, True);
+
+/* Weenie - MiscObjects - Journal of High Archon Kraest (31414) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31414;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31414, 'ace31414-journalofhigharchonkraest');
@@ -70964,6 +76487,9 @@ VALUES (31414, 13, True)
      , (31414, 19, True)
      , (31414, 22, True);
 
+/* Weenie - MiscObjects - Translated Dericost Tome (31413) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31413;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31413, 'ace31413-translateddericosttome');
 
@@ -70993,6 +76519,9 @@ VALUES (31413, 13, True)
      , (31413, 14, True)
      , (31413, 19, True)
      , (31413, 22, True);
+
+/* Weenie - MiscObjects - Russet Rat Tail (4134) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4134;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4134, 'rattailrusset');
@@ -71041,6 +76570,9 @@ VALUES (4134, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4134, 0, 16777882);
 
+/* Weenie - MiscObjects - Serpent Banner (11789) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11789;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11789, 'bannerserpent');
 
@@ -71076,6 +76608,9 @@ VALUES (11789, 0, 83893717, 83893721);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11789, 0, 16787125);
+
+/* Weenie - MiscObjects - Shard of Corcima's Armor (30545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30545;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30545, 'trophymetalshardcorcima');
@@ -71120,6 +76655,9 @@ VALUES (30545, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30545, 0, 16777882);
 
+/* Weenie - MiscObjects - Noseless Snowman (13208) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13208;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13208, 'snowmanunfinishedheadarms');
 
@@ -71154,6 +76692,9 @@ VALUES (13208, 13, True)
      , (13208, 14, True)
      , (13208, 19, True)
      , (13208, 22, True);
+
+/* Weenie - MiscObjects - King's Crown Infusion (35943) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35943;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35943, 'ace35943-kingscrowninfusion');
@@ -71196,6 +76737,9 @@ VALUES (35943, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35943, 0, 16783325);
 
+/* Weenie - MiscObjects - Box Of Ten Colosseum Coins (43909) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43909;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43909, 'ace43909-boxoftencolosseumcoins');
 
@@ -71232,6 +76776,9 @@ VALUES (43909, 13, True)
      , (43909, 14, True)
      , (43909, 19, True);
 
+/* Weenie - MiscObjects - Auroch (44723) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44723;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44723, 'ace44723-auroch');
 
@@ -71262,6 +76809,9 @@ VALUES (44723, 13, True)
      , (44723, 12, True)
      , (44723, 11, True)
      , (44723, 19, True);
+
+/* Weenie - MiscObjects - Brass Gromnie Tooth Pick (28177) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28177;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28177, 'gromnietoothpickbrass');
@@ -71300,6 +76850,9 @@ VALUES (28177, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28177, 0, 16777882);
 
+/* Weenie - MiscObjects - Second Half of a Battered Staff (31457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31457;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31457, 'ace31457-secondhalfofabatteredstaff');
 
@@ -71330,6 +76883,9 @@ VALUES (31457, 13, True)
      , (31457, 19, True)
      , (31457, 22, True);
 
+/* Weenie - MiscObjects - Rubble (11152) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11152;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11152, 'menhirrubbleb-xp');
 
@@ -71358,6 +76914,9 @@ VALUES (11152, 13, True)
      , (11152, 14, True)
      , (11152, 19, True)
      , (11152, 22, True);
+
+/* Weenie - MiscObjects - Pumpkin King Token (36528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36528;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36528, 'ace36528-pumpkinkingtoken');
@@ -71388,6 +76947,9 @@ VALUES (36528, 13, True)
      , (36528, 14, True)
      , (36528, 19, True)
      , (36528, 22, True);
+
+/* Weenie - MiscObjects - Crystalline Resin (40146) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40146;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40146, 'ace40146-crystallineresin');
@@ -71442,6 +77004,9 @@ VALUES (40146, 0, 16784246)
      , (40146, 1, 16784196)
      , (40146, 2, 16784180);
 
+/* Weenie - MiscObjects - First Half of a Battered Atlatl (31464) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31464;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31464, 'ace31464-firsthalfofabatteredatlatl');
 
@@ -71474,6 +77039,9 @@ VALUES (31464, 13, True)
      , (31464, 14, True)
      , (31464, 19, True)
      , (31464, 22, True);
+
+/* Weenie - MiscObjects - Carenzi Fangs (25897) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25897;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25897, 'carenzifangs');
@@ -71519,6 +77087,9 @@ VALUES (25897, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25897, 0, 16777882);
 
+/* Weenie - MiscObjects - First Half of a Battered Sword (31446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31446;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31446, 'ace31446-firsthalfofabatteredsword');
 
@@ -71551,6 +77122,9 @@ VALUES (31446, 13, True)
      , (31446, 14, True)
      , (31446, 19, True)
      , (31446, 22, True);
+
+/* Weenie - MiscObjects - First Half of a Worn Dagger (31478) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31478;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31478, 'ace31478-firsthalfofaworndagger');
@@ -71585,6 +77159,9 @@ VALUES (31478, 13, True)
      , (31478, 19, True)
      , (31478, 22, True);
 
+/* Weenie - MiscObjects - Broken Sigil (4206) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4206;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4206, 'brokensigil');
 
@@ -71616,6 +77193,9 @@ VALUES (4206, 13, True)
      , (4206, 19, True)
      , (4206, 22, True);
 
+/* Weenie - MiscObjects - Head of the White Spear (33500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33500;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33500, 'ace33500-headofthewhitespear');
 
@@ -71645,6 +77225,9 @@ VALUES (33500, 13, True)
      , (33500, 14, True)
      , (33500, 19, True)
      , (33500, 22, True);
+
+/* Weenie - MiscObjects - Gold Niffis Tentacle (32036) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32036;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32036, 'ace32036-goldniffistentacle');
@@ -71676,6 +77259,9 @@ VALUES (32036, 13, True)
      , (32036, 19, True)
      , (32036, 22, True);
 
+/* Weenie - MiscObjects - Head of the Mukkir Scion (33501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33501;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33501, 'ace33501-headofthemukkirscion');
 
@@ -71705,6 +77291,9 @@ VALUES (33501, 13, True)
      , (33501, 14, True)
      , (33501, 19, True)
      , (33501, 22, True);
+
+/* Weenie - MiscObjects - Bow Stamped Silveran Ingot (41720) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41720;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41720, 'ace41720-bowstampedsilveraningot');
@@ -71752,6 +77341,9 @@ VALUES (41720, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41720, 0, 16779181);
 
+/* Weenie - MiscObjects - Hagrafash Tooth Necklace (38252) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38252;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38252, 'ace38252-hagrafashtoothnecklace');
 
@@ -71782,6 +77374,9 @@ VALUES (38252, 13, True)
      , (38252, 19, True)
      , (38252, 22, True);
 
+/* Weenie - MiscObjects - Eye of T'thuun (38245) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38245;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38245, 'ace38245-eyeoftthuun');
 
@@ -71811,6 +77406,9 @@ VALUES (38245, 13, True)
      , (38245, 14, True)
      , (38245, 19, True)
      , (38245, 22, True);
+
+/* Weenie - MiscObjects - Marionette (44747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44747;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44747, 'ace44747-marionette');
@@ -71843,6 +77441,9 @@ VALUES (44747, 13, True)
      , (44747, 11, True)
      , (44747, 19, True);
 
+/* Weenie - MiscObjects - Explorer Title Token (25408) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25408;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25408, 'tokentitleundeadmechanism');
 
@@ -71872,6 +77473,9 @@ VALUES (25408, 13, True)
      , (25408, 14, True)
      , (25408, 19, True)
      , (25408, 22, True);
+
+/* Weenie - MiscObjects - Log Table (22845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22845;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22845, 'logtable');
@@ -71905,6 +77509,9 @@ VALUES (22845, 13, True)
      , (22845, 14, True)
      , (22845, 19, True)
      , (22845, 22, True);
+
+/* Weenie - MiscObjects - Greater Mukkir Slayer Stone Gem (45512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45512;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45512, 'ace45512-greatermukkirslayerstonegem');
@@ -71951,6 +77558,9 @@ VALUES (45512, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45512, 0, 16779181);
 
+/* Weenie - MiscObjects - Foolproof Fire Opal Gem (45506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45506;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45506, 'ace45506-foolprooffireopalgem');
 
@@ -71995,6 +77605,9 @@ VALUES (45506, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45506, 0, 16779181);
+
+/* Weenie - MiscObjects - Foolproof Aquamarine Gem (45502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45502;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45502, 'ace45502-foolproofaquamarinegem');
@@ -72041,6 +77654,9 @@ VALUES (45502, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45502, 0, 16779181);
 
+/* Weenie - MiscObjects - Foolproof Emerald Gem (45505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45505;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45505, 'ace45505-foolproofemeraldgem');
 
@@ -72086,6 +77702,9 @@ VALUES (45505, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45505, 0, 16779181);
 
+/* Weenie - MiscObjects - Invoking Stone (39122) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39122;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39122, 'ace39122-invokingstone');
 
@@ -72129,6 +77748,9 @@ VALUES (39122, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39122, 0, 16778862);
 
+/* Weenie - MiscObjects - Prismatic Glyph (32945) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32945;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32945, 'ace32945-prismaticglyph');
 
@@ -72165,6 +77787,9 @@ VALUES (32945, 13, True)
      , (32945, 19, True)
      , (32945, 22, True);
 
+/* Weenie - MiscObjects - Fresh Zombie Torso (34099) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34099;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34099, 'ace34099-freshzombietorso');
 
@@ -72197,6 +77822,9 @@ VALUES (34099, 13, True)
      , (34099, 14, True)
      , (34099, 19, True)
      , (34099, 22, True);
+
+/* Weenie - MiscObjects - Skeletal Falatacot Keyring (34960) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34960;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34960, 'ace34960-skeletalfalatacotkeyring');
@@ -72238,6 +77866,9 @@ VALUES (34960, 13, True)
      , (34960, 19, True)
      , (34960, 22, True);
 
+/* Weenie - MiscObjects - Healing Machine Orb (29066) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29066;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29066, 'healingorb');
 
@@ -72267,6 +77898,9 @@ VALUES (29066, 13, True)
      , (29066, 14, True)
      , (29066, 19, True)
      , (29066, 22, True);
+
+/* Weenie - MiscObjects - Fine Bone Handle (33984) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33984;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33984, 'ace33984-finebonehandle');
@@ -72299,6 +77933,9 @@ VALUES (33984, 13, True)
      , (33984, 11, True)
      , (33984, 14, True)
      , (33984, 19, True);
+
+/* Weenie - MiscObjects - Orb of Infusion (23961) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23961;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23961, 'orbinfusiongreen');
@@ -72347,6 +77984,9 @@ VALUES (23961, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23961, 0, 16778862);
 
+/* Weenie - MiscObjects - Orb of Infusion (23960) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23960;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23960, 'orbinfusionblue');
 
@@ -72394,6 +78034,9 @@ VALUES (23960, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23960, 0, 16778862);
 
+/* Weenie - MiscObjects - Tchk'Tain the Tender's Severed Head (39467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39467;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39467, 'ace39467-tchktainthetendersseveredhead');
 
@@ -72427,6 +78070,9 @@ VALUES (39467, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39467, 0, 16794206);
 
+/* Weenie - MiscObjects - Geraine's Tome (7) (45732) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45732;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45732, 'ace45732-gerainestome7');
 
@@ -72456,6 +78102,9 @@ VALUES (45732, 13, True)
      , (45732, 14, True)
      , (45732, 19, True)
      , (45732, 22, True);
+
+/* Weenie - MiscObjects - Wishbone (53353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53353;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53353, 'ace53353-wishbone');
@@ -72487,6 +78136,9 @@ VALUES (53353, 13, True)
      , (53353, 14, True)
      , (53353, 19, True)
      , (53353, 22, True);
+
+/* Weenie - MiscObjects - Mutilated Turkey Feather (53354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53354;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53354, 'ace53354-mutilatedturkeyfeather');
@@ -72528,6 +78180,9 @@ VALUES (53354, 0, 83897327, 83897327);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53354, 0, 16792585);
 
+/* Weenie - MiscObjects - Geraine's Tome (1) (45731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45731;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45731, 'ace45731-gerainestome1');
 
@@ -72557,6 +78212,9 @@ VALUES (45731, 13, True)
      , (45731, 14, True)
      , (45731, 19, True)
      , (45731, 22, True);
+
+/* Weenie - MiscObjects - Geraine's Crushed Heart (45790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45790;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45790, 'ace45790-gerainescrushedheart');
@@ -72588,6 +78246,9 @@ VALUES (45790, 13, True)
      , (45790, 19, True)
      , (45790, 22, True);
 
+/* Weenie - MiscObjects - Geraine's Halved Heart (45787) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45787;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45787, 'ace45787-geraineshalvedheart');
 
@@ -72617,6 +78278,9 @@ VALUES (45787, 13, True)
      , (45787, 14, True)
      , (45787, 19, True)
      , (45787, 22, True);
+
+/* Weenie - MiscObjects - Geraine's Tome (4) (45730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45730;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45730, 'ace45730-gerainestome4');
@@ -72648,6 +78312,9 @@ VALUES (45730, 13, True)
      , (45730, 19, True)
      , (45730, 22, True);
 
+/* Weenie - MiscObjects - Geraine's Decaying Heart (45786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45786;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45786, 'ace45786-gerainesdecayingheart');
 
@@ -72677,6 +78344,9 @@ VALUES (45786, 13, True)
      , (45786, 14, True)
      , (45786, 19, True)
      , (45786, 22, True);
+
+/* Weenie - MiscObjects - Geraine's Tome (5) (45729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45729;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45729, 'ace45729-gerainestome5');
@@ -72708,6 +78378,9 @@ VALUES (45729, 13, True)
      , (45729, 19, True)
      , (45729, 22, True);
 
+/* Weenie - MiscObjects - Geraine's Tome (6) (45733) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45733;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45733, 'ace45733-gerainestome6');
 
@@ -72737,6 +78410,9 @@ VALUES (45733, 13, True)
      , (45733, 14, True)
      , (45733, 19, True)
      , (45733, 22, True);
+
+/* Weenie - MiscObjects - Geraine's Blackened Heart (45789) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45789;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45789, 'ace45789-gerainesblackenedheart');
@@ -72768,6 +78444,9 @@ VALUES (45789, 13, True)
      , (45789, 19, True)
      , (45789, 22, True);
 
+/* Weenie - MiscObjects - Geraine's Rotting Heart (45788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45788;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45788, 'ace45788-gerainesrottingheart');
 
@@ -72797,6 +78476,9 @@ VALUES (45788, 13, True)
      , (45788, 14, True)
      , (45788, 19, True)
      , (45788, 22, True);
+
+/* Weenie - MiscObjects - Bronze Gear from a Statue (19218) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19218;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19218, 'gearreedshark');
@@ -72829,6 +78511,9 @@ VALUES (19218, 13, True)
      , (19218, 19, True)
      , (19218, 22, True);
 
+/* Weenie - MiscObjects - Bronze Gear from a Statue (19216) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19216;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19216, 'geargromnie');
 
@@ -72859,6 +78544,9 @@ VALUES (19216, 13, True)
      , (19216, 14, True)
      , (19216, 19, True)
      , (19216, 22, True);
+
+/* Weenie - MiscObjects - Double Totem of Volkama (11453) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11453;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11453, 'totemdoublevolkama-xp');
@@ -72894,6 +78582,9 @@ VALUES (11453, 13, True)
      , (11453, 19, True)
      , (11453, 22, True);
 
+/* Weenie - MiscObjects - Wooden Tumerok Figurine (11327) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11327;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11327, 'figurinetanua-xp');
 
@@ -72927,6 +78618,9 @@ VALUES (11327, 13, True)
      , (11327, 14, True)
      , (11327, 19, True)
      , (11327, 22, True);
+
+/* Weenie - MiscObjects - Harvester Token (10861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10861;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10861, 'tokenharvester-xp');
@@ -72971,6 +78665,9 @@ VALUES (10861, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10861, 0, 16777882);
 
+/* Weenie - MiscObjects - Audetaunga's Totem of the Mountains (11457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11457;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11457, 'totemtripleaudetaungapure-xp');
 
@@ -73004,6 +78701,9 @@ VALUES (11457, 13, True)
      , (11457, 14, True)
      , (11457, 19, True)
      , (11457, 22, True);
+
+/* Weenie - MiscObjects - Armor Upgrade Kit Containment Gem (40607) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40607;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40607, 'ace40607-armorupgradekitcontainmentgem');
@@ -73048,6 +78748,9 @@ VALUES (40607, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40607, 0, 16779181);
+
+/* Weenie - MiscObjects - Foolproof Red Garnet Gem (45509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45509;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45509, 'ace45509-foolproofredgarnetgem');
@@ -73094,6 +78797,9 @@ VALUES (45509, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45509, 0, 16779181);
 
+/* Weenie - MiscObjects - Tattered Disgusting Moarsman Ritual (38161) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38161;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38161, 'ace38161-tattereddisgustingmoarsmanritual');
 
@@ -73123,6 +78829,9 @@ VALUES (38161, 13, True)
      , (38161, 14, True)
      , (38161, 19, True)
      , (38161, 22, True);
+
+/* Weenie - MiscObjects - Axe Skill Puzzle Piece (9563) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9563;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9563, 'skillpuzzleaxe');
@@ -73164,6 +78873,9 @@ VALUES (9563, 0, 83888861, 83890936);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9563, 0, 16778862);
 
+/* Weenie - MiscObjects - Amelia's Doll House (35919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35919;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35919, 'ace35919-ameliasdollhouse');
 
@@ -73197,6 +78909,9 @@ VALUES (35919, 13, True)
      , (35919, 11, True)
      , (35919, 14, True)
      , (35919, 19, True);
+
+/* Weenie - MiscObjects - Amelia's Red Ball (35917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35917;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35917, 'ace35917-ameliasredball');
@@ -73239,6 +78954,9 @@ VALUES (35917, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35917, 0, 16778862);
 
+/* Weenie - MiscObjects - Amelia's Snowman Doll (35920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35920;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35920, 'ace35920-ameliassnowmandoll');
 
@@ -73271,6 +78989,9 @@ VALUES (35920, 13, True)
      , (35920, 11, True)
      , (35920, 14, True)
      , (35920, 19, True);
+
+/* Weenie - MiscObjects - Amelia's Toy Sword (35922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35922;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35922, 'ace35922-ameliastoysword');
@@ -73317,6 +79038,9 @@ VALUES (35922, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35922, 0, 16777963);
+
+/* Weenie - MiscObjects - Amelia's Golem Doll (35921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35921;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35921, 'ace35921-ameliasgolemdoll');
@@ -73393,6 +79117,9 @@ VALUES (35921, 0, 16788885)
      , (35921, 12, 16788891)
      , (35921, 16, 16789125);
 
+/* Weenie - MiscObjects - Amelia's Green Ball (35918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35918;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35918, 'ace35918-ameliasgreenball');
 
@@ -73434,6 +79161,9 @@ VALUES (35918, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35918, 0, 16778862);
 
+/* Weenie - MiscObjects - Lord Hendrel's Brand (41932) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41932;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41932, 'ace41932-lordhendrelsbrand');
 
@@ -73464,6 +79194,9 @@ VALUES (41932, 13, True)
      , (41932, 11, True)
      , (41932, 14, True)
      , (41932, 19, True);
+
+/* Weenie - MiscObjects - Lady Saliane's Brand (41933) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41933;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41933, 'ace41933-ladysalianesbrand');
@@ -73496,6 +79229,9 @@ VALUES (41933, 13, True)
      , (41933, 14, True)
      , (41933, 19, True);
 
+/* Weenie - MiscObjects - Lord Trimere's Brand (41934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41934;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41934, 'ace41934-lordtrimeresbrand');
 
@@ -73526,6 +79262,9 @@ VALUES (41934, 13, True)
      , (41934, 11, True)
      , (41934, 14, True)
      , (41934, 19, True);
+
+/* Weenie - MiscObjects - Mhoire Sword of Courage (42019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42019;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42019, 'ace42019-mhoireswordofcourage');
@@ -73558,6 +79297,9 @@ VALUES (42019, 13, True)
      , (42019, 14, True)
      , (42019, 19, True);
 
+/* Weenie - MiscObjects - Crystallized Blue Flame (42015) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42015;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42015, 'ace42015-crystallizedblueflame');
 
@@ -73587,6 +79329,9 @@ VALUES (42015, 13, True)
      , (42015, 11, True)
      , (42015, 14, True)
      , (42015, 19, True);
+
+/* Weenie - MiscObjects - Crystal Vase with a Snowflower (22839) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22839;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22839, 'vasesnowflower1');
@@ -73623,6 +79368,9 @@ VALUES (22839, 13, True)
      , (22839, 19, True)
      , (22839, 22, True);
 
+/* Weenie - MiscObjects - Undead Leg (22032) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22032;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22032, 'legundead');
 
@@ -73656,6 +79404,9 @@ VALUES (22032, 13, True)
      , (22032, 14, True)
      , (22032, 19, True)
      , (22032, 22, True);
+
+/* Weenie - MiscObjects - Sturdy Gromnie Hide (28204) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28204;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28204, 'gromniehidesable');
@@ -73701,6 +79452,9 @@ VALUES (28204, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28204, 0, 16777882);
 
+/* Weenie - MiscObjects - Fine Leather Scraps (31698) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31698;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31698, 'ace31698-fineleatherscraps');
 
@@ -73731,6 +79485,9 @@ VALUES (31698, 13, True)
      , (31698, 14, True)
      , (31698, 19, True);
 
+/* Weenie - MiscObjects - Fine Metal Scraps (31699) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31699;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31699, 'ace31699-finemetalscraps');
 
@@ -73760,6 +79517,9 @@ VALUES (31699, 13, True)
      , (31699, 11, True)
      , (31699, 14, True)
      , (31699, 19, True);
+
+/* Weenie - MiscObjects - Man-At-Arms Thrasher Plaque (32111) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32111;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32111, 'ace32111-manatarmsthrasherplaque');
@@ -73792,6 +79552,9 @@ VALUES (32111, 13, True)
      , (32111, 14, True)
      , (32111, 19, True)
      , (32111, 22, True);
+
+/* Weenie - MiscObjects - Item Tinkering Tessera (11170) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11170;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11170, 'skilltokenitemappraisal-xp');
@@ -73828,6 +79591,9 @@ VALUES (11170, 13, True)
      , (11170, 19, True)
      , (11170, 22, True);
 
+/* Weenie - MiscObjects - Cooking Tessera (11162) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11162;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11162, 'skilltokencooking-xp');
 
@@ -73862,6 +79628,9 @@ VALUES (11162, 13, True)
      , (11162, 14, True)
      , (11162, 19, True)
      , (11162, 22, True);
+
+/* Weenie - MiscObjects - Lockpick Tessera (11175) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11175;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11175, 'skilltokenlockpick-xp');
@@ -73898,6 +79667,9 @@ VALUES (11175, 13, True)
      , (11175, 19, True)
      , (11175, 22, True);
 
+/* Weenie - MiscObjects - Fletching Tessera (11168) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11168;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11168, 'skilltokenfletching-xp');
 
@@ -73932,6 +79704,9 @@ VALUES (11168, 13, True)
      , (11168, 14, True)
      , (11168, 19, True)
      , (11168, 22, True);
+
+/* Weenie - MiscObjects - Dual Wield Tessera (11177) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11177;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11177, 'skilltokenmace-xp');
@@ -73968,6 +79743,9 @@ VALUES (11177, 13, True)
      , (11177, 19, True)
      , (11177, 22, True);
 
+/* Weenie - MiscObjects - Recklessness Tessera (11188) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11188;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11188, 'skilltokenthrownweapons-xp');
 
@@ -74002,6 +79780,9 @@ VALUES (11188, 13, True)
      , (11188, 14, True)
      , (11188, 19, True)
      , (11188, 22, True);
+
+/* Weenie - MiscObjects - Loyalty Tessera (11176) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11176;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11176, 'skilltokenloyalty-xp');
@@ -74038,6 +79819,9 @@ VALUES (11176, 13, True)
      , (11176, 19, True)
      , (11176, 22, True);
 
+/* Weenie - MiscObjects - Magic Item Tinkering Tessera (11178) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11178;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11178, 'skilltokenmagicitemappraisal-xp');
 
@@ -74072,6 +79856,9 @@ VALUES (11178, 13, True)
      , (11178, 14, True)
      , (11178, 19, True)
      , (11178, 22, True);
+
+/* Weenie - MiscObjects - Leadership Tessera (11173) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11173;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11173, 'skilltokenleadership-xp');
@@ -74108,6 +79895,9 @@ VALUES (11173, 13, True)
      , (11173, 19, True)
      , (11173, 22, True);
 
+/* Weenie - MiscObjects - Magic Defense Tessera (11179) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11179;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11179, 'skilltokenmagicresistance-xp');
 
@@ -74142,6 +79932,9 @@ VALUES (11179, 13, True)
      , (11179, 14, True)
      , (11179, 19, True)
      , (11179, 22, True);
+
+/* Weenie - MiscObjects - Reinforced Gromnie Banner (11772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11772;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11772, 'bannerreinforcedgromnie');
@@ -74179,6 +79972,9 @@ VALUES (11772, 0, 83893727, 83893726)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11772, 0, 16787131);
+
+/* Weenie - MiscObjects - Rabid Carenzi Pelt (11341) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11341;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11341, 'carenzipeltrabid-xp');
@@ -74224,6 +80020,9 @@ VALUES (11341, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11341, 0, 16777882);
 
+/* Weenie - MiscObjects - Healing Tessera (11169) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11169;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11169, 'skilltokenhealing-xp');
 
@@ -74258,6 +80057,9 @@ VALUES (11169, 13, True)
      , (11169, 14, True)
      , (11169, 19, True)
      , (11169, 22, True);
+
+/* Weenie - MiscObjects - Gem of Lowering Quickness (22940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22940;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22940, 'attributegemdownquickness');
@@ -74295,6 +80097,9 @@ VALUES (22940, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22940, 67111924, 0, 0);
 
+/* Weenie - MiscObjects - Black Ball in a Stein (32803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32803;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32803, 'ace32803-blackballinastein');
 
@@ -74328,6 +80133,9 @@ VALUES (32803, 13, True)
      , (32803, 14, True)
      , (32803, 19, True)
      , (32803, 22, True);
+
+/* Weenie - MiscObjects - Axe Glyph (6322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6322;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6322, 'glyphaxe');
@@ -74366,6 +80174,9 @@ VALUES (6322, 13, True)
      , (6322, 19, True)
      , (6322, 22, True);
 
+/* Weenie - MiscObjects - The Master Token (35871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35871;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35871, 'ace35871-themastertoken');
 
@@ -74396,6 +80207,9 @@ VALUES (35871, 13, True)
      , (35871, 19, True)
      , (35871, 22, True);
 
+/* Weenie - MiscObjects - Very Mad Cow Token (34458) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34458;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34458, 'ace34458-verymadcowtoken');
 
@@ -74425,6 +80239,9 @@ VALUES (34458, 13, True)
      , (34458, 14, True)
      , (34458, 19, True)
      , (34458, 22, True);
+
+/* Weenie - MiscObjects - Advanced Life Magic Skill Puzzle Piece (11642) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11642;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11642, 'skillpuzzlelifeadvanced');
@@ -74466,6 +80283,9 @@ VALUES (11642, 0, 83888861, 83890936);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11642, 0, 16778862);
 
+/* Weenie - MiscObjects - Completed Advanced Life Magic Skill Puzzle (11664) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11664;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11664, 'skillpuzzlecompletedlifeadvanced');
 
@@ -74500,6 +80320,9 @@ VALUES (11664, 13, True)
      , (11664, 19, True)
      , (11664, 22, True);
 
+/* Weenie - MiscObjects - Hive Warrior Pincer (51214) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51214;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51214, 'ace51214-hivewarriorpincer');
 
@@ -74532,6 +80355,9 @@ VALUES (51214, 13, True)
      , (51214, 14, True)
      , (51214, 19, True)
      , (51214, 22, True);
+
+/* Weenie - MiscObjects - Blue Glow Mushroom (34833) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34833;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34833, 'ace34833-blueglowmushroom');
@@ -74569,6 +80395,9 @@ VALUES (34833, 13, True)
      , (34833, 14, True)
      , (34833, 19, True);
 
+/* Weenie - MiscObjects - Green Glow Mushroom (34835) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34835;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34835, 'ace34835-greenglowmushroom');
 
@@ -74604,6 +80433,9 @@ VALUES (34835, 13, True)
      , (34835, 11, True)
      , (34835, 14, True)
      , (34835, 19, True);
+
+/* Weenie - MiscObjects - Red Glow Mushroom (34836) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34836;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34836, 'ace34836-redglowmushroom');
@@ -74641,6 +80473,9 @@ VALUES (34836, 13, True)
      , (34836, 14, True)
      , (34836, 19, True);
 
+/* Weenie - MiscObjects - Ancient Falatacot Symbol (47152) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47152;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47152, 'ace47152-ancientfalatacotsymbol');
 
@@ -74671,6 +80506,9 @@ VALUES (47152, 13, True)
      , (47152, 14, True)
      , (47152, 19, True)
      , (47152, 22, True);
+
+/* Weenie - MiscObjects - Refined Chorizite Chunk (27660) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27660;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27660, 'orechoriziterenegade');
@@ -74712,6 +80550,9 @@ VALUES (27660, 0, 83890064, 83890069);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27660, 0, 16777882);
+
+/* Weenie - MiscObjects - Olthoi Chitin (25498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25498;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25498, 'olthoichitin');
@@ -74757,6 +80598,9 @@ VALUES (25498, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25498, 0, 16777882);
 
+/* Weenie - MiscObjects - Blazing Shard (48714) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48714;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48714, 'ace48714-blazingshard');
 
@@ -74796,6 +80640,9 @@ VALUES (48714, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48714, 0, 16779181);
 
+/* Weenie - MiscObjects - Attunement Device Spring (44825) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44825;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44825, 'ace44825-attunementdevicespring');
 
@@ -74828,6 +80675,9 @@ VALUES (44825, 13, True)
      , (44825, 14, True)
      , (44825, 19, True)
      , (44825, 22, True);
+
+/* Weenie - MiscObjects - Torn Journal Page - Page 1 (31720) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31720;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31720, 'ace31720-tornjournalpagepage1');
@@ -74864,6 +80714,9 @@ VALUES (31720, 13, True)
      , (31720, 14, True)
      , (31720, 19, True);
 
+/* Weenie - MiscObjects - Deposit of High-Grade Chorizite Ore (7533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7533;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7533, 'chorizitedepositc');
 
@@ -74897,6 +80750,9 @@ VALUES (7533, 12, True)
      , (7533, 14, True)
      , (7533, 19, True)
      , (7533, 1, True);
+
+/* Weenie - MiscObjects - Refined High-Grade Chorizite (7597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7597;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7597, 'choriziterefinedc');
@@ -74938,6 +80794,9 @@ VALUES (7597, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7597, 0, 16777882);
 
+/* Weenie - MiscObjects - Olthoi Long Claw (24236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24236;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24236, 'olthoilongclaw');
 
@@ -74967,6 +80826,9 @@ VALUES (24236, 13, True)
      , (24236, 14, True)
      , (24236, 19, True)
      , (24236, 22, True);
+
+/* Weenie - MiscObjects - Hand of Vagurat (27901) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27901;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27901, 'macevaguratnull');
@@ -74998,6 +80860,9 @@ VALUES (27901, 13, True)
      , (27901, 14, True)
      , (27901, 19, True)
      , (27901, 22, True);
+
+/* Weenie - MiscObjects - Green Phyntos Wasp Wing (3701) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3701;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3701, 'waspwinggreen');
@@ -75038,6 +80903,9 @@ VALUES (3701, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3701, 67111336, 0, 0);
 
+/* Weenie - MiscObjects - Mirror Shard (48876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48876;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48876, 'ace48876-mirrorshard');
 
@@ -75070,6 +80938,9 @@ VALUES (48876, 13, True)
      , (48876, 19, True)
      , (48876, 22, True);
 
+/* Weenie - MiscObjects - Wheel Cart (28526) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28526;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28526, 'wheelcartkrank');
 
@@ -75098,6 +80969,9 @@ VALUES (28526, 13, True)
      , (28526, 14, True)
      , (28526, 19, True)
      , (28526, 22, True);
+
+/* Weenie - MiscObjects - Arcane Pyramid (37126) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37126;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37126, 'ace37126-arcanepyramid');
@@ -75133,6 +81007,9 @@ VALUES (37126, 13, True)
      , (37126, 14, True)
      , (37126, 19, True)
      , (37126, 22, True);
+
+/* Weenie - MiscObjects - Present (36897) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36897;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36897, 'ace36897-present');
@@ -75170,6 +81047,9 @@ VALUES (36897, 13, True)
      , (36897, 14, True)
      , (36897, 19, True)
      , (36897, 22, True);
+
+/* Weenie - MiscObjects - Strong Benevolence (9476) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9476;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9476, 'infusionarmheart');
@@ -75215,6 +81095,9 @@ VALUES (9476, 67111918, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9476, 0, 16785708);
 
+/* Weenie - MiscObjects - Inert Skeletonbane Infusion (40516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40516;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40516, 'ace40516-inertskeletonbaneinfusion');
 
@@ -75257,6 +81140,9 @@ VALUES (40516, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40516, 0, 16783325);
 
+/* Weenie - MiscObjects - Attunement Device Gear (44826) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44826;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44826, 'ace44826-attunementdevicegear');
 
@@ -75289,6 +81175,9 @@ VALUES (44826, 13, True)
      , (44826, 14, True)
      , (44826, 19, True)
      , (44826, 22, True);
+
+/* Weenie - MiscObjects - Imprinted Mote (34886) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34886;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34886, 'ace34886-imprintedmote');
@@ -75338,6 +81227,9 @@ VALUES (34886, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34886, 0, 16784015);
 
+/* Weenie - MiscObjects - Sclavus (44764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44764;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44764, 'ace44764-sclavus');
 
@@ -75369,6 +81261,9 @@ VALUES (44764, 13, True)
      , (44764, 11, True)
      , (44764, 19, True);
 
+/* Weenie - MiscObjects - Ciandra's Fortune (29266) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29266;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29266, 'gemaugmentationbonussalvage');
 
@@ -75398,6 +81293,9 @@ VALUES (29266, 13, True)
      , (29266, 14, True)
      , (29266, 19, True)
      , (29266, 22, True);
+
+/* Weenie - MiscObjects - Coordination To Quickness Gem (23047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23047;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23047, 'attributegemcoordinationtoquickness');
@@ -75431,6 +81329,9 @@ VALUES (23047, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23047, 67111924, 0, 0);
 
+/* Weenie - MiscObjects - Might of the Seventh Mule (29268) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29268;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29268, 'gemaugmentationcarryingcapacityi');
 
@@ -75460,6 +81361,9 @@ VALUES (29268, 13, True)
      , (29268, 14, True)
      , (29268, 19, True)
      , (29268, 22, True);
+
+/* Weenie - MiscObjects - Four Cards from the Deck of Eyes (37265) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37265;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37265, 'ace37265-fourcardsfromthedeckofeyes');
@@ -75493,6 +81397,9 @@ VALUES (37265, 13, True)
      , (37265, 14, True)
      , (37265, 19, True);
 
+/* Weenie - MiscObjects - Three Cards from the Deck of Eyes (37264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37264;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37264, 'ace37264-threecardsfromthedeckofeyes');
 
@@ -75525,6 +81432,9 @@ VALUES (37264, 13, True)
      , (37264, 14, True)
      , (37264, 19, True);
 
+/* Weenie - MiscObjects - Quick Learner (29267) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29267;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29267, 'gemaugmentationbonusxp');
 
@@ -75554,6 +81464,9 @@ VALUES (29267, 13, True)
      , (29267, 14, True)
      , (29267, 19, True)
      , (29267, 22, True);
+
+/* Weenie - MiscObjects - Skith'Kirit's Severed Head (38374) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38374;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38374, 'ace38374-skithkiritsseveredhead');
@@ -75588,6 +81501,9 @@ VALUES (38374, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38374, 0, 16787383);
 
+/* Weenie - MiscObjects - Rubble (11154) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11154;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11154, 'menhirrubbled-xp');
 
@@ -75616,6 +81532,9 @@ VALUES (11154, 13, True)
      , (11154, 14, True)
      , (11154, 19, True)
      , (11154, 22, True);
+
+/* Weenie - MiscObjects - Coordination To Endurance Gem (23045) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23045;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23045, 'attributegemcoordinationtoendurance');
@@ -75649,6 +81568,9 @@ VALUES (23045, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23045, 67111924, 0, 0);
 
+/* Weenie - MiscObjects - Burun (44725) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44725;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44725, 'ace44725-burun');
 
@@ -75680,6 +81602,9 @@ VALUES (44725, 13, True)
      , (44725, 11, True)
      , (44725, 19, True);
 
+/* Weenie - MiscObjects - Storm's Enhancement (29276) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29276;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29276, 'gemaugmentationnaturalresistanceelectric');
 
@@ -75709,6 +81634,9 @@ VALUES (29276, 13, True)
      , (29276, 14, True)
      , (29276, 19, True)
      , (29276, 22, True);
+
+/* Weenie - MiscObjects - First Half of a Worn Axe (31470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31470;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31470, 'ace31470-firsthalfofawornaxe');
@@ -75742,6 +81670,9 @@ VALUES (31470, 13, True)
      , (31470, 14, True)
      , (31470, 19, True)
      , (31470, 22, True);
+
+/* Weenie - MiscObjects - Sleeves of the Arm (9472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9472;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9472, 'clothhumanarm');
@@ -75787,6 +81718,9 @@ VALUES (9472, 0, 83886796, 83893258)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9472, 0, 16778363);
 
+/* Weenie - MiscObjects - Assailer Tusk (22420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22420;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22420, 'tuskassailer');
 
@@ -75816,6 +81750,9 @@ VALUES (22420, 13, True)
      , (22420, 14, True)
      , (22420, 19, True)
      , (22420, 22, True);
+
+/* Weenie - MiscObjects - Blue Shadow Dye (14870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14870;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14870, 'dyeshadowarmorcolor3');
@@ -75861,6 +81798,9 @@ VALUES (14870, 0, 83886712, 83889088);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14870, 0, 16784730);
+
+/* Weenie - MiscObjects - Ruined Amulet of Finesse Weapons (15765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15765;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15765, 'amuletruineddagger');
@@ -75908,6 +81848,9 @@ VALUES (15765, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15765, 0, 16778348);
 
+/* Weenie - MiscObjects - Claw Glyph (6323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6323;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6323, 'glyphclaw');
 
@@ -75944,6 +81887,9 @@ VALUES (6323, 13, True)
      , (6323, 14, True)
      , (6323, 19, True)
      , (6323, 22, True);
+
+/* Weenie - MiscObjects - Benevolent Calm (9475) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9475;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9475, 'infusionheartmind');
@@ -75989,6 +81935,9 @@ VALUES (9475, 67111921, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9475, 0, 16785708);
 
+/* Weenie - MiscObjects - Calm Strength (9474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9474;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9474, 'infusionmindarm');
 
@@ -76033,6 +81982,9 @@ VALUES (9474, 67111920, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9474, 0, 16785708);
 
+/* Weenie - MiscObjects - Sliver of Singular Pyreal (12258) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12258;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12258, 'sliverpyreal');
 
@@ -76068,6 +82020,9 @@ VALUES (12258, 0, 83893819, 83893820);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12258, 0, 16787401);
+
+/* Weenie - MiscObjects - Vial of Black Blood (27797) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27797;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27797, 'vialblackblood');
@@ -76117,6 +82072,9 @@ VALUES (27797, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27797, 0, 16778729);
 
+/* Weenie - MiscObjects - Sliver of Singular Chorizite (12256) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12256;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12256, 'sliverchorizite');
 
@@ -76156,6 +82114,9 @@ VALUES (12256, 0, 83893820, 83893819);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12256, 0, 16787401);
 
+/* Weenie - MiscObjects - Gem of Raising Focus (22945) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22945;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22945, 'attributegemupfocus');
 
@@ -76191,6 +82152,9 @@ VALUES (22945, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22945, 67111923, 0, 0);
+
+/* Weenie - MiscObjects - Gem of Raising Self (22947) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22947;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22947, 'attributegemupself');
@@ -76228,6 +82192,9 @@ VALUES (22947, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22947, 67111923, 0, 0);
 
+/* Weenie - MiscObjects - Crystal Vase with Sunflowers (15720) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15720;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15720, 'vasesunflower4');
 
@@ -76262,6 +82229,9 @@ VALUES (15720, 13, True)
      , (15720, 14, True)
      , (15720, 19, True)
      , (15720, 22, True);
+
+/* Weenie - MiscObjects - Skeletal Body with one Leg (22043) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22043;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22043, 'torsolegskeletal');
@@ -76298,6 +82268,9 @@ VALUES (22043, 13, True)
      , (22043, 19, True)
      , (22043, 22, True);
 
+/* Weenie - MiscObjects - Volkama's Totem of the Rivers (11462) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11462;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11462, 'totemtriplevolkamapure-xp');
 
@@ -76332,6 +82305,9 @@ VALUES (11462, 13, True)
      , (11462, 19, True)
      , (11462, 22, True);
 
+/* Weenie - MiscObjects - Crossbow Stock (7078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7078;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7078, 'stockcrossbow');
 
@@ -76364,6 +82340,9 @@ VALUES (7078, 13, True)
      , (7078, 14, True)
      , (7078, 19, True)
      , (7078, 22, True);
+
+/* Weenie - MiscObjects - Two Headed Snowman (13226) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13226;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13226, 'snowmanfinished2heads');
@@ -76400,6 +82379,9 @@ VALUES (13226, 13, True)
      , (13226, 19, True)
      , (13226, 22, True);
 
+/* Weenie - MiscObjects - Second Half of a Worn Atlatl (31485) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31485;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31485, 'ace31485-secondhalfofawornatlatl');
 
@@ -76430,6 +82412,9 @@ VALUES (31485, 13, True)
      , (31485, 19, True)
      , (31485, 22, True);
 
+/* Weenie - MiscObjects - Pedestal with a Floral Arrangement (22832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22832;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22832, 'pedestalvasesnowflower1');
 
@@ -76459,6 +82444,9 @@ VALUES (22832, 13, True)
      , (22832, 14, True)
      , (22832, 19, True)
      , (22832, 22, True);
+
+/* Weenie - MiscObjects - White Bunny Slipper (12137) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12137;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12137, 'slipperbunnywhite');
@@ -76497,6 +82485,9 @@ VALUES (12137, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12137, 0, 16793227)
      , (12137, 1, 16793229);
+
+/* Weenie - MiscObjects - Treated Herbs (28521) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28521;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28521, 'herbskrank');
@@ -76541,6 +82532,9 @@ VALUES (28521, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28521, 0, 16777882);
 
+/* Weenie - MiscObjects - Sliver of Singular Obsidian (12257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12257;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12257, 'sliverobsidian');
 
@@ -76581,6 +82575,9 @@ VALUES (12257, 0, 83893820, 83893818)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12257, 0, 16787401);
 
+/* Weenie - MiscObjects - Sclavus Arm (22026) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22026;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22026, 'armsclavus');
 
@@ -76614,6 +82611,9 @@ VALUES (22026, 13, True)
      , (22026, 14, True)
      , (22026, 19, True)
      , (22026, 22, True);
+
+/* Weenie - MiscObjects - Silk (20016) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20016;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20016, 'silk-noquestflag');
@@ -76655,6 +82655,9 @@ VALUES (20016, 0, 83888861, 83894095);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20016, 0, 16778862);
 
+/* Weenie - MiscObjects - Headless Snowman (13206) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13206;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13206, 'snowmanunfinished');
 
@@ -76690,6 +82693,9 @@ VALUES (13206, 13, True)
      , (13206, 19, True)
      , (13206, 22, True);
 
+/* Weenie - MiscObjects - Palenqual's Totem of the Heights (11460) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11460;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11460, 'totemtripletva-xp');
 
@@ -76724,6 +82730,9 @@ VALUES (11460, 13, True)
      , (11460, 19, True)
      , (11460, 22, True);
 
+/* Weenie - MiscObjects - Alloy Utensil (25321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25321;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25321, 'undeadmechanism7');
 
@@ -76752,6 +82761,9 @@ VALUES (25321, 13, True)
      , (25321, 14, True)
      , (25321, 19, True)
      , (25321, 22, True);
+
+/* Weenie - MiscObjects - Piece of K'nath Core (38013) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38013;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38013, 'ace38013-pieceofknathcore');
@@ -76787,6 +82799,9 @@ VALUES (38013, 13, True)
      , (38013, 15, True)
      , (38013, 19, True)
      , (38013, 22, True);
+
+/* Weenie - MiscObjects - Splintered Staff (8529) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8529;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8529, 'staffanadilpiece2');
@@ -76830,6 +82845,9 @@ VALUES (8529, 0, 83886737, 83886737)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8529, 0, 16784358);
 
+/* Weenie - MiscObjects - Sodden Ruschk Arm (33681) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33681;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33681, 'ace33681-soddenruschkarm');
 
@@ -76861,6 +82879,9 @@ VALUES (33681, 13, True)
      , (33681, 19, True)
      , (33681, 22, True);
 
+/* Weenie - MiscObjects - Cooking Table (25772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25772;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25772, 'tablecooking');
 
@@ -76890,6 +82911,9 @@ VALUES (25772, 13, True)
      , (25772, 14, True)
      , (25772, 19, True)
      , (25772, 22, True);
+
+/* Weenie - MiscObjects - Second Half of a Battered Atlatl (31465) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31465;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31465, 'ace31465-secondhalfofabatteredatlatl');
@@ -76921,6 +82945,9 @@ VALUES (31465, 13, True)
      , (31465, 19, True)
      , (31465, 22, True);
 
+/* Weenie - MiscObjects - Shattered Mana Forge Key (41979) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41979;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41979, 'ace41979-shatteredmanaforgekey');
 
@@ -76951,6 +82978,9 @@ VALUES (41979, 13, True)
      , (41979, 14, True)
      , (41979, 19, True)
      , (41979, 22, True);
+
+/* Weenie - MiscObjects - Corrupted Amber Shard (52969) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52969;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52969, 'ace52969-corruptedambershard');
@@ -76996,6 +83026,9 @@ VALUES (52969, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52969, 0, 16779181);
 
+/* Weenie - MiscObjects - The Sword of Bellenesse (32832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32832;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32832, 'ace32832-theswordofbellenesse');
 
@@ -77028,6 +83061,9 @@ VALUES (32832, 13, True)
      , (32832, 14, True)
      , (32832, 19, True)
      , (32832, 22, True);
+
+/* Weenie - MiscObjects - Brood Matron Pincer (24357) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24357;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24357, 'broodmatronpincer');
@@ -77062,6 +83098,9 @@ VALUES (24357, 13, True)
      , (24357, 19, True)
      , (24357, 22, True);
 
+/* Weenie - MiscObjects - Alloy Instrument (25317) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25317;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25317, 'undeadmechanism3');
 
@@ -77091,6 +83130,9 @@ VALUES (25317, 13, True)
      , (25317, 19, True)
      , (25317, 22, True);
 
+/* Weenie - MiscObjects - Alloy Contraption (25319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25319;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25319, 'undeadmechanism5');
 
@@ -77119,6 +83161,9 @@ VALUES (25319, 13, True)
      , (25319, 14, True)
      , (25319, 19, True)
      , (25319, 22, True);
+
+/* Weenie - MiscObjects - Deposit of Low-Grade Chorizite Ore (7531) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7531;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7531, 'chorizitedeposita');
@@ -77153,6 +83198,9 @@ VALUES (7531, 12, True)
      , (7531, 14, True)
      , (7531, 19, True)
      , (7531, 1, True);
+
+/* Weenie - MiscObjects - Small Sclavus Hide (9260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9260;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9260, 'sclavushidesmall');
@@ -77197,6 +83245,9 @@ VALUES (9260, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9260, 0, 16777882);
 
+/* Weenie - MiscObjects - Enhancement of the Mace Turner (29275) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29275;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29275, 'gemaugmentationnaturalresistancebludg');
 
@@ -77226,6 +83277,9 @@ VALUES (29275, 13, True)
      , (29275, 14, True)
      , (29275, 19, True)
      , (29275, 22, True);
+
+/* Weenie - MiscObjects - Attunement Device Bolt (44824) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44824;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44824, 'ace44824-attunementdevicebolt');
@@ -77260,6 +83314,9 @@ VALUES (44824, 13, True)
      , (44824, 19, True)
      , (44824, 22, True);
 
+/* Weenie - MiscObjects - Enhancement of the Arrow Turner (29279) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29279;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29279, 'gemaugmentationnaturalresistancepierc');
 
@@ -77289,6 +83346,9 @@ VALUES (29279, 13, True)
      , (29279, 14, True)
      , (29279, 19, True)
      , (29279, 22, True);
+
+/* Weenie - MiscObjects - Colosseum Medallion of Honor (38886) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38886;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38886, 'ace38886-colosseummedallionofhonor');
@@ -77326,6 +83386,9 @@ VALUES (38886, 13, True)
      , (38886, 14, True)
      , (38886, 19, True);
 
+/* Weenie - MiscObjects - Fouled Remoran Fin (33679) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33679;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33679, 'ace33679-fouledremoranfin');
 
@@ -77356,6 +83419,9 @@ VALUES (33679, 13, True)
      , (33679, 14, True)
      , (33679, 19, True)
      , (33679, 22, True);
+
+/* Weenie - MiscObjects - Colosseum Ticket Stub (35055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35055;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35055, 'ace35055-colosseumticketstub');
@@ -77390,6 +83456,9 @@ VALUES (35055, 13, True)
      , (35055, 19, True)
      , (35055, 22, True);
 
+/* Weenie - MiscObjects - Anniversary Effect (8359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8359;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8359, 'anniversaryeffect');
 
@@ -77416,6 +83485,9 @@ VALUES (8359, 13, True)
      , (8359, 19, True)
      , (8359, 1, True)
      , (8359, 24, True);
+
+/* Weenie - MiscObjects - Kirit Zefir Wing (31359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31359;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31359, 'ace31359-kiritzefirwing');
@@ -77448,6 +83520,9 @@ VALUES (31359, 13, True)
      , (31359, 11, True)
      , (31359, 14, True)
      , (31359, 19, True);
+
+/* Weenie - MiscObjects - Amethyst Gromnie Eye (28191) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28191;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28191, 'eyegromnieamethyst');
@@ -77488,6 +83563,9 @@ VALUES (28191, 0, 83890064, 83889696);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28191, 0, 16777882);
+
+/* Weenie - MiscObjects - Sapphire Gromnie Eye (28198) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28198;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28198, 'eyegromniesapphire');
@@ -77533,6 +83611,9 @@ VALUES (28198, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28198, 0, 16777882);
 
+/* Weenie - MiscObjects - Little Green Seeds (27093) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27093;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27093, 'seedextreme');
 
@@ -77565,6 +83646,9 @@ VALUES (27093, 13, True)
      , (27093, 14, True)
      , (27093, 19, True)
      , (27093, 22, True);
+
+/* Weenie - MiscObjects - Wrapped Dark Sliver (36517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36517;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36517, 'ace36517-wrappeddarksliver');
@@ -77601,6 +83685,9 @@ VALUES (36517, 13, True)
      , (36517, 19, True)
      , (36517, 22, True);
 
+/* Weenie - MiscObjects - Wrapped Cracked Shard (36516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36516;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36516, 'ace36516-wrappedcrackedshard');
 
@@ -77635,6 +83722,9 @@ VALUES (36516, 13, True)
      , (36516, 14, True)
      , (36516, 19, True)
      , (36516, 22, True);
+
+/* Weenie - MiscObjects - Staff Stamped Spectral Ingot (37474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37474;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37474, 'ace37474-staffstampedspectralingot');
@@ -77682,6 +83772,9 @@ VALUES (37474, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37474, 0, 16779181);
 
+/* Weenie - MiscObjects - Viamontian Pennant (32671) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32671;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32671, 'ace32671-viamontianpennant');
 
@@ -77711,6 +83804,9 @@ VALUES (32671, 13, True)
      , (32671, 11, True)
      , (32671, 14, True)
      , (32671, 19, True);
+
+/* Weenie - MiscObjects - Second Half of a Worn Cestus (31475) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31475;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31475, 'ace31475-secondhalfofaworncestus');
@@ -77742,6 +83838,9 @@ VALUES (31475, 13, True)
      , (31475, 19, True)
      , (31475, 22, True);
 
+/* Weenie - MiscObjects - Second Half of a Worn Staff (31477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31477;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31477, 'ace31477-secondhalfofawornstaff');
 
@@ -77771,6 +83870,9 @@ VALUES (31477, 13, True)
      , (31477, 14, True)
      , (31477, 19, True)
      , (31477, 22, True);
+
+/* Weenie - MiscObjects - Tethana Manifesto (32849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32849;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32849, 'ace32849-tethanamanifesto');
@@ -77806,6 +83908,9 @@ VALUES (32849, 13, True)
      , (32849, 14, True)
      , (32849, 19, True);
 
+/* Weenie - MiscObjects - Ursuin Arm (32170) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32170;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32170, 'ace32170-ursuinarm');
 
@@ -77838,6 +83943,9 @@ VALUES (32170, 13, True)
      , (32170, 14, True)
      , (32170, 19, True)
      , (32170, 22, True);
+
+/* Weenie - MiscObjects - Big Wreath (36922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36922;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36922, 'ace36922-bigwreath');
@@ -77873,6 +83981,9 @@ VALUES (36922, 13, True)
      , (36922, 19, True)
      , (36922, 22, True);
 
+/* Weenie - MiscObjects - Double Totem of Tanae and Volkama (11451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11451;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11451, 'totemdoubletv-xp');
 
@@ -77906,6 +84017,9 @@ VALUES (11451, 13, True)
      , (11451, 14, True)
      , (11451, 19, True)
      , (11451, 22, True);
+
+/* Weenie - MiscObjects - Reflective Shard (32967) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32967;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32967, 'ace32967-reflectiveshard');
@@ -77956,6 +84070,9 @@ VALUES (32967, 0, 16784246)
      , (32967, 1, 16784196)
      , (32967, 2, 16784180);
 
+/* Weenie - MiscObjects - Boxed Colosseum Coin (43904) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43904;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43904, 'ace43904-boxedcolosseumcoin');
 
@@ -77990,6 +84107,9 @@ VALUES (43904, 13, True)
      , (43904, 11, True)
      , (43904, 14, True)
      , (43904, 19, True);
+
+/* Weenie - MiscObjects - Boxed Mana Forge Key (39513) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39513;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39513, 'ace39513-boxedmanaforgekey');
@@ -78029,6 +84149,9 @@ VALUES (39513, 13, True)
      , (39513, 14, True)
      , (39513, 19, True);
 
+/* Weenie - MiscObjects - Brood Matron Nymph Tibia (24924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24924;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24924, 'broodmatrontibialow');
 
@@ -78059,6 +84182,9 @@ VALUES (24924, 13, True)
      , (24924, 19, True)
      , (24924, 22, True);
 
+/* Weenie - MiscObjects - Hardened Bone (33989) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33989;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33989, 'ace33989-hardenedbone');
 
@@ -78087,6 +84213,9 @@ VALUES (33989, 13, True)
      , (33989, 14, True)
      , (33989, 19, True)
      , (33989, 22, True);
+
+/* Weenie - MiscObjects - Deteriorated Aegis (23365) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23365;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23365, 'shielddeterioratedred');
@@ -78129,6 +84258,9 @@ VALUES (23365, 0, 83890137, 83890137)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23365, 0, 16782688);
 
+/* Weenie - MiscObjects - Deteriorated Aegis (23366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23366;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23366, 'shielddeterioratedwhite');
 
@@ -78169,6 +84301,9 @@ VALUES (23366, 0, 83890137, 83890137)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23366, 0, 16782688);
+
+/* Weenie - MiscObjects - Deteriorated Aegis (23363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23363;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23363, 'shielddeterioratedgreen');
@@ -78211,6 +84346,9 @@ VALUES (23363, 0, 83890137, 83890137)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23363, 0, 16782688);
 
+/* Weenie - MiscObjects - Deteriorated Aegis (23364) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23364;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23364, 'shielddeterioratedpink');
 
@@ -78251,6 +84389,9 @@ VALUES (23364, 0, 83890137, 83890137)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23364, 0, 16782688);
+
+/* Weenie - MiscObjects - Deteriorated Aegis (23362) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23362;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23362, 'shielddeterioratedblue');
@@ -78293,6 +84434,9 @@ VALUES (23362, 0, 83890137, 83890137)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23362, 0, 16782688);
 
+/* Weenie - MiscObjects - Viamontian Pennant (32670) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32670;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32670, 'ace32670-viamontianpennant');
 
@@ -78323,6 +84467,9 @@ VALUES (32670, 13, True)
      , (32670, 14, True)
      , (32670, 19, True);
 
+/* Weenie - MiscObjects - Tusker Title Token (22621) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22621;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22621, 'tokentuskerarmored');
 
@@ -78352,6 +84499,9 @@ VALUES (22621, 13, True)
      , (22621, 14, True)
      , (22621, 19, True)
      , (22621, 22, True);
+
+/* Weenie - MiscObjects - Wax Mould (15818) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15818;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15818, 'waxthorstenarmor');
@@ -78391,6 +84541,9 @@ VALUES (15818, 0, 83888861, 83893208);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15818, 0, 16778862);
+
+/* Weenie - MiscObjects - Invoking Stone (39129) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39129;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39129, 'ace39129-invokingstone');
@@ -78435,6 +84588,9 @@ VALUES (39129, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39129, 0, 16778862);
 
+/* Weenie - MiscObjects - Invoking Stone (39094) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39094;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39094, 'ace39094-invokingstone');
 
@@ -78477,6 +84633,9 @@ VALUES (39094, 0, 83888861, 83889680);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39094, 0, 16778862);
+
+/* Weenie - MiscObjects - Invoking Stone (39127) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39127;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39127, 'ace39127-invokingstone');
@@ -78521,6 +84680,9 @@ VALUES (39127, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39127, 0, 16778862);
 
+/* Weenie - MiscObjects - Alloy Implement (25320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25320;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25320, 'undeadmechanism6');
 
@@ -78549,6 +84711,9 @@ VALUES (25320, 13, True)
      , (25320, 14, True)
      , (25320, 19, True)
      , (25320, 22, True);
+
+/* Weenie - MiscObjects - Message from Ler Rhan to Black Ferah (43859) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43859;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43859, 'ace43859-messagefromlerrhantoblackferah');
@@ -78589,6 +84754,9 @@ VALUES (43859, 0, 83888868, 83892604);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43859, 0, 16783934);
 
+/* Weenie - MiscObjects - Summoning Rituals (40252) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40252;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40252, 'ace40252-summoningrituals');
 
@@ -78622,6 +84790,9 @@ VALUES (40252, 13, True)
      , (40252, 19, True)
      , (40252, 22, True);
 
+/* Weenie - MiscObjects - Lightning Energy (52234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52234;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52234, 'ace52234-lightningenergy');
 
@@ -78648,6 +84819,9 @@ VALUES (52234, 13, True)
      , (52234, 19, True)
      , (52234, 1, True)
      , (52234, 24, True);
+
+/* Weenie - MiscObjects - Signet Fragment (49579) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49579;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49579, 'ace49579-signetfragment');
@@ -78682,6 +84856,9 @@ VALUES (49579, 13, True)
      , (49579, 19, True)
      , (49579, 22, True);
 
+/* Weenie - MiscObjects - Fire Energy (52225) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52225;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52225, 'ace52225-fireenergy');
 
@@ -78708,6 +84885,9 @@ VALUES (52225, 13, True)
      , (52225, 19, True)
      , (52225, 1, True)
      , (52225, 24, True);
+
+/* Weenie - MiscObjects - Signet Fragment (49577) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49577;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49577, 'ace49577-signetfragment');
@@ -78742,6 +84922,9 @@ VALUES (49577, 13, True)
      , (49577, 19, True)
      , (49577, 22, True);
 
+/* Weenie - MiscObjects - Frost Energy (52232) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52232;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52232, 'ace52232-frostenergy');
 
@@ -78768,6 +84951,9 @@ VALUES (52232, 13, True)
      , (52232, 19, True)
      , (52232, 1, True)
      , (52232, 24, True);
+
+/* Weenie - MiscObjects - Signet Fragment (49578) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49578;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49578, 'ace49578-signetfragment');
@@ -78802,6 +84988,9 @@ VALUES (49578, 13, True)
      , (49578, 19, True)
      , (49578, 22, True);
 
+/* Weenie - MiscObjects - Combined Signet Fragment (49581) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49581;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49581, 'ace49581-combinedsignetfragment');
 
@@ -78835,6 +85024,9 @@ VALUES (49581, 13, True)
      , (49581, 19, True)
      , (49581, 22, True);
 
+/* Weenie - MiscObjects - Acid Energy (52236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52236;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52236, 'ace52236-acidenergy');
 
@@ -78861,6 +85053,9 @@ VALUES (52236, 13, True)
      , (52236, 19, True)
      , (52236, 1, True)
      , (52236, 24, True);
+
+/* Weenie - MiscObjects - Combined Signet Fragment (49582) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49582;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49582, 'ace49582-combinedsignetfragment');
@@ -78895,6 +85090,9 @@ VALUES (49582, 13, True)
      , (49582, 19, True)
      , (49582, 22, True);
 
+/* Weenie - MiscObjects - Completed Signet (49583) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49583;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49583, 'ace49583-completedsignet');
 
@@ -78927,6 +85125,9 @@ VALUES (49583, 13, True)
      , (49583, 19, True)
      , (49583, 22, True);
 
+/* Weenie - MiscObjects - Idol of the Recluse (52264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52264;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52264, 'ace52264-idoloftherecluse');
 
@@ -78956,6 +85157,9 @@ VALUES (52264, 13, True)
      , (52264, 14, True)
      , (52264, 19, True)
      , (52264, 22, True);
+
+/* Weenie - MiscObjects - Foolproof Black Garnet Gem (45503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45503;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45503, 'ace45503-foolproofblackgarnetgem');
@@ -79002,6 +85206,9 @@ VALUES (45503, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45503, 0, 16779181);
 
+/* Weenie - MiscObjects - Brood Matron Crest (24356) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24356;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24356, 'broodmatroncrest');
 
@@ -79035,6 +85242,9 @@ VALUES (24356, 13, True)
      , (24356, 19, True)
      , (24356, 22, True);
 
+/* Weenie - MiscObjects - Master of the Steel Circle (41477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41477;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41477, 'ace41477-masterofthesteelcircle');
 
@@ -79064,6 +85274,9 @@ VALUES (41477, 13, True)
      , (41477, 14, True)
      , (41477, 19, True)
      , (41477, 22, True);
+
+/* Weenie - MiscObjects - Box Of Ten Small Olthoi Venom Sacs (43908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43908;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43908, 'ace43908-boxoftensmallolthoivenomsacs');
@@ -79101,6 +85314,9 @@ VALUES (43908, 13, True)
      , (43908, 14, True)
      , (43908, 19, True);
 
+/* Weenie - MiscObjects - Spectral Chill Arrow Bundle (35500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35500;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35500, 'ace35500-spectralchillarrowbundle');
 
@@ -79137,6 +85353,9 @@ VALUES (35500, 13, True)
      , (35500, 14, True)
      , (35500, 19, True);
 
+/* Weenie - MiscObjects - Focus To Quickness Gem (23057) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23057;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23057, 'attributegemfocustoquickness');
 
@@ -79168,6 +85387,9 @@ VALUES (23057, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23057, 67111924, 0, 0);
+
+/* Weenie - MiscObjects - Quickness To Focus Gem (23062) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23062;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23062, 'attributegemquicknesstofocus');
@@ -79201,6 +85423,9 @@ VALUES (23062, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23062, 67111924, 0, 0);
 
+/* Weenie - MiscObjects - Geraine's Still Beating Heart (45784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45784;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45784, 'ace45784-gerainesstillbeatingheart');
 
@@ -79231,6 +85456,9 @@ VALUES (45784, 13, True)
      , (45784, 19, True)
      , (45784, 22, True);
 
+/* Weenie - MiscObjects - Message from Isin Dule to Asheron (43894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43894;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43894, 'ace43894-messagefromisinduletoasheron');
 
@@ -79260,6 +85488,9 @@ VALUES (43894, 13, True)
      , (43894, 14, True)
      , (43894, 19, True)
      , (43894, 22, True);
+
+/* Weenie - MiscObjects - Viridian Key of the Second Portal (53480) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53480;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53480, 'ace53480-viridiankeyofthesecondportal');
@@ -79295,6 +85526,9 @@ VALUES (53480, 13, True)
      , (53480, 14, True)
      , (53480, 19, True);
 
+/* Weenie - MiscObjects - Viridian Key of the Third Portal (53481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53481;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53481, 'ace53481-viridiankeyofthethirdportal');
 
@@ -79328,6 +85562,9 @@ VALUES (53481, 13, True)
      , (53481, 11, True)
      , (53481, 14, True)
      , (53481, 19, True);
+
+/* Weenie - MiscObjects - Viridian Key of the Fourth Portal (53482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53482;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53482, 'ace53482-viridiankeyofthefourthportal');
@@ -79363,6 +85600,9 @@ VALUES (53482, 13, True)
      , (53482, 14, True)
      , (53482, 19, True);
 
+/* Weenie - MiscObjects - Viridian Key of the Fifth Portal (53483) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53483;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53483, 'ace53483-viridiankeyofthefifthportal');
 
@@ -79396,6 +85636,9 @@ VALUES (53483, 13, True)
      , (53483, 11, True)
      , (53483, 14, True)
      , (53483, 19, True);
+
+/* Weenie - MiscObjects - Viridian Key of the Sixth Portal (53484) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53484;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53484, 'ace53484-viridiankeyofthesixthportal');
@@ -79431,6 +85674,9 @@ VALUES (53484, 13, True)
      , (53484, 14, True)
      , (53484, 19, True);
 
+/* Weenie - MiscObjects - Inactive Fletcher's Golem. (34919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34919;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34919, 'ace34919-inactivefletchersgolem');
 
@@ -79464,6 +85710,9 @@ VALUES (34919, 13, True)
      , (34919, 19, True)
      , (34919, 22, True);
 
+/* Weenie - MiscObjects - Yellow Destabilizing Crystal (44135) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44135;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44135, 'ace44135-yellowdestabilizingcrystal');
 
@@ -79494,6 +85743,9 @@ VALUES (44135, 13, True)
      , (44135, 19, True)
      , (44135, 22, True);
 
+/* Weenie - MiscObjects - Red Destabilizing Crystal (44134) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44134;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44134, 'ace44134-reddestabilizingcrystal');
 
@@ -79523,6 +85775,9 @@ VALUES (44134, 13, True)
      , (44134, 14, True)
      , (44134, 19, True)
      , (44134, 22, True);
+
+/* Weenie - MiscObjects - Shroud of Bloodlust (51706) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51706;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51706, 'ace51706-shroudofbloodlust');
@@ -79573,6 +85828,9 @@ VALUES (51706, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51706, 0, 16778367);
 
+/* Weenie - MiscObjects - Shroud of Apathy (51707) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51707;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51707, 'ace51707-shroudofapathy');
 
@@ -79621,6 +85879,9 @@ VALUES (51707, 0, 83887061, 83886687)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51707, 0, 16778367);
+
+/* Weenie - MiscObjects - Shroud of Envy (51704) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51704;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51704, 'ace51704-shroudofenvy');
@@ -79671,6 +85932,9 @@ VALUES (51704, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51704, 0, 16778367);
 
+/* Weenie - MiscObjects - Shroud of Spite (51705) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51705;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51705, 'ace51705-shroudofspite');
 
@@ -79719,6 +85983,9 @@ VALUES (51705, 0, 83887061, 83886687)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51705, 0, 16778367);
+
+/* Weenie - MiscObjects - Spirit Crystal (51784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51784;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51784, 'ace51784-spiritcrystal');
@@ -79769,6 +86036,9 @@ VALUES (51784, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51784, 0, 16778367);
 
+/* Weenie - MiscObjects - Radiant Blood Sollerets (42326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42326, 'ace42326-radiantbloodsollerets');
 
@@ -79807,6 +86077,9 @@ VALUES (42326, 0, 83889344, 83897937)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42326, 0, 16778416);
 
+/* Weenie - MiscObjects - Radiant Blood Helm (42329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42329, 'ace42329-radiantbloodhelm');
 
@@ -79842,6 +86115,9 @@ VALUES (42329, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42329, 0, 16794149);
 
+/* Weenie - MiscObjects - Unfinished Fetish of the Dark Idols (28044) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28044;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28044, 'idoldarkhermit');
 
@@ -79874,6 +86150,9 @@ VALUES (28044, 13, True)
      , (28044, 14, True)
      , (28044, 19, True)
      , (28044, 22, True);
+
+/* Weenie - MiscObjects - Orange Monster Sprout (31674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31674;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31674, 'ace31674-orangemonstersprout');
@@ -79916,6 +86195,9 @@ VALUES (31674, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31674, 67116675, 0, 192);
+
+/* Weenie - MiscObjects - Dagger Stamped Spectral Ingot (37471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37471;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37471, 'ace37471-daggerstampedspectralingot');
@@ -79963,6 +86245,9 @@ VALUES (37471, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37471, 0, 16779181);
 
+/* Weenie - MiscObjects - Reinforced Serpent Banner (11775) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11775;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11775, 'bannerreinforcedserpent');
 
@@ -80000,6 +86285,9 @@ VALUES (11775, 0, 83893725, 83893724)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11775, 0, 16787138);
 
+/* Weenie - MiscObjects - Corrupted Spectral Page (45200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45200;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45200, 'ace45200-corruptedspectralpage');
 
@@ -80033,6 +86321,9 @@ VALUES (45200, 13, True)
      , (45200, 14, True)
      , (45200, 19, True);
 
+/* Weenie - MiscObjects - Five Cards from the Deck of Hands (37282) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37282;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37282, 'ace37282-fivecardsfromthedeckofhands');
 
@@ -80064,6 +86355,9 @@ VALUES (37282, 13, True)
      , (37282, 11, True)
      , (37282, 14, True)
      , (37282, 19, True);
+
+/* Weenie - MiscObjects - Chimeric Bow of the Quiddity Summoning Gem (36366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36366;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36366, 'ace36366-chimericbowofthequidditysummoninggem');
@@ -80111,6 +86405,9 @@ VALUES (36366, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36366, 0, 16779181);
 
+/* Weenie - MiscObjects - Olthoi (44756) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44756;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44756, 'ace44756-olthoi');
 
@@ -80141,6 +86438,9 @@ VALUES (44756, 13, True)
      , (44756, 12, True)
      , (44756, 11, True)
      , (44756, 19, True);
+
+/* Weenie - MiscObjects - Statue (44774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44774;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44774, 'ace44774-statue');
@@ -80173,6 +86473,9 @@ VALUES (44774, 13, True)
      , (44774, 11, True)
      , (44774, 19, True);
 
+/* Weenie - MiscObjects - Carenzi (44726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44726;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44726, 'ace44726-carenzi');
 
@@ -80203,6 +86506,9 @@ VALUES (44726, 13, True)
      , (44726, 12, True)
      , (44726, 11, True)
      , (44726, 19, True);
+
+/* Weenie - MiscObjects - Bronze Coil from a Statue (19210) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19210;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19210, 'coilbenten');
@@ -80235,6 +86541,9 @@ VALUES (19210, 13, True)
      , (19210, 19, True)
      , (19210, 22, True);
 
+/* Weenie - MiscObjects - Devastator Tusk (22422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22422;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22422, 'tuskdevastator');
 
@@ -80264,6 +86573,9 @@ VALUES (22422, 13, True)
      , (22422, 14, True)
      , (22422, 19, True)
      , (22422, 22, True);
+
+/* Weenie - MiscObjects - Wicked Skeleton Walloper Plaque (31619) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31619;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31619, 'ace31619-wickedskeletonwalloperplaque');
@@ -80301,6 +86613,9 @@ VALUES (31619, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31619, 67112924, 0, 0);
 
+/* Weenie - MiscObjects - Mosswart (44753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44753;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44753, 'ace44753-mosswart');
 
@@ -80332,6 +86647,9 @@ VALUES (44753, 13, True)
      , (44753, 11, True)
      , (44753, 19, True);
 
+/* Weenie - MiscObjects - Bronze Coil from a Statue (19213) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19213;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19213, 'coilthorsten');
 
@@ -80362,6 +86680,9 @@ VALUES (19213, 13, True)
      , (19213, 14, True)
      , (19213, 19, True)
      , (19213, 22, True);
+
+/* Weenie - MiscObjects - Life Magic Tessera (11174) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11174;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11174, 'skilltokenlifemagic-xp');
@@ -80398,6 +86719,9 @@ VALUES (11174, 13, True)
      , (11174, 19, True)
      , (11174, 22, True);
 
+/* Weenie - MiscObjects - Weeping Mace Cast (46271) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46271;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46271, 'ace46271-weepingmacecast');
 
@@ -80428,6 +86752,9 @@ VALUES (46271, 13, True)
      , (46271, 14, True)
      , (46271, 19, True)
      , (46271, 22, True);
+
+/* Weenie - MiscObjects - "Lord's Sword" Summoning Gem (35543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35543;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35543, 'ace35543-"lordssword"summoninggem');
@@ -80475,6 +86802,9 @@ VALUES (35543, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35543, 0, 16779181);
 
+/* Weenie - MiscObjects - Alloy Engine (25331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25331;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25331, 'undeadmechanism17');
 
@@ -80503,6 +86833,9 @@ VALUES (25331, 13, True)
      , (25331, 14, True)
      , (25331, 19, True)
      , (25331, 22, True);
+
+/* Weenie - MiscObjects - Extra Large Tainted Egg (37451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37451;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37451, 'ace37451-extralargetaintedegg');
@@ -80533,6 +86866,9 @@ VALUES (37451, 13, True)
      , (37451, 11, True)
      , (37451, 14, True)
      , (37451, 19, True);
+
+/* Weenie - MiscObjects - Superb Bone Handle (33983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33983;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33983, 'ace33983-superbbonehandle');
@@ -80565,6 +86901,9 @@ VALUES (33983, 13, True)
      , (33983, 11, True)
      , (33983, 14, True)
      , (33983, 19, True);
+
+/* Weenie - MiscObjects - Upper Pipe Two (19423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19423;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19423, 'upperpipe2');
@@ -80599,6 +86938,9 @@ VALUES (19423, 13, True)
      , (19423, 19, True)
      , (19423, 22, True);
 
+/* Weenie - MiscObjects - Upper Pipe One (19422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19422;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19422, 'upperpipe1');
 
@@ -80631,6 +86973,9 @@ VALUES (19422, 13, True)
      , (19422, 14, True)
      , (19422, 19, True)
      , (19422, 22, True);
+
+/* Weenie - MiscObjects - Upper Pipe Three (19424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19424;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19424, 'upperpipe3');
@@ -80665,6 +87010,9 @@ VALUES (19424, 13, True)
      , (19424, 19, True)
      , (19424, 22, True);
 
+/* Weenie - MiscObjects - Tusker Title Token (22631) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22631;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22631, 'tokentuskerrampager');
 
@@ -80694,6 +87042,9 @@ VALUES (22631, 13, True)
      , (22631, 14, True)
      , (22631, 19, True)
      , (22631, 22, True);
+
+/* Weenie - MiscObjects - First Half of a Battered Crossbow (31462) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31462;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31462, 'ace31462-firsthalfofabatteredcrossbow');
@@ -80728,6 +87079,9 @@ VALUES (31462, 13, True)
      , (31462, 19, True)
      , (31462, 22, True);
 
+/* Weenie - MiscObjects - Second Half of a Battered Mace (31449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31449;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31449, 'ace31449-secondhalfofabatteredmace');
 
@@ -80757,6 +87111,9 @@ VALUES (31449, 13, True)
      , (31449, 14, True)
      , (31449, 19, True)
      , (31449, 22, True);
+
+/* Weenie - MiscObjects - Enchanted Bone Fragment (36401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36401;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36401, 'ace36401-enchantedbonefragment');
@@ -80792,6 +87149,9 @@ VALUES (36401, 13, True)
      , (36401, 19, True)
      , (36401, 22, True);
 
+/* Weenie - MiscObjects - Yanshi Swarm Matron's Claw (32554) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32554;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32554, 'ace32554-yanshiswarmmatronsclaw');
 
@@ -80824,6 +87184,9 @@ VALUES (32554, 13, True)
      , (32554, 14, True)
      , (32554, 19, True)
      , (32554, 22, True);
+
+/* Weenie - MiscObjects - Mutilator Pincer (27589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27589;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27589, 'pincermutilator');
@@ -80858,6 +87221,9 @@ VALUES (27589, 13, True)
      , (27589, 19, True)
      , (27589, 22, True);
 
+/* Weenie - MiscObjects - Warrior Pincer (27590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27590;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27590, 'pincerwarrior');
 
@@ -80891,6 +87257,9 @@ VALUES (27590, 13, True)
      , (27590, 19, True)
      , (27590, 22, True);
 
+/* Weenie - MiscObjects - Bottle A (41094) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41094;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41094, 'ace41094-bottlea');
 
@@ -80919,6 +87288,9 @@ VALUES (41094, 13, True)
      , (41094, 11, True)
      , (41094, 19, True)
      , (41094, 22, True);
+
+/* Weenie - MiscObjects - Bottle C (41101) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41101;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41101, 'ace41101-bottlec');
@@ -80949,6 +87321,9 @@ VALUES (41101, 13, True)
      , (41101, 19, True)
      , (41101, 22, True);
 
+/* Weenie - MiscObjects - Bottle D (41103) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41103;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41103, 'ace41103-bottled');
 
@@ -80977,6 +87352,9 @@ VALUES (41103, 13, True)
      , (41103, 11, True)
      , (41103, 19, True)
      , (41103, 22, True);
+
+/* Weenie - MiscObjects - Pile of random parts (41207) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41207;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41207, 'ace41207-pileofrandomparts');
@@ -81007,6 +87385,9 @@ VALUES (41207, 13, True)
      , (41207, 14, True)
      , (41207, 19, True)
      , (41207, 22, True);
+
+/* Weenie - MiscObjects - Inactive Alchemist's Golem (34921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34921;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34921, 'ace34921-inactivealchemistsgolem');
@@ -81041,6 +87422,9 @@ VALUES (34921, 13, True)
      , (34921, 19, True)
      , (34921, 22, True);
 
+/* Weenie - MiscObjects - Cove Apple Baking Pan (30543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30543;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30543, 'bakingpancoveapple');
 
@@ -81074,6 +87458,9 @@ VALUES (30543, 13, True)
      , (30543, 19, True)
      , (30543, 22, True);
 
+/* Weenie - MiscObjects - Perfect Cove Apple (30504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30504;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30504, 'applecoveperfect');
 
@@ -81106,6 +87493,9 @@ VALUES (30504, 13, True)
      , (30504, 14, True)
      , (30504, 19, True)
      , (30504, 22, True);
+
+/* Weenie - MiscObjects - Aged Cove Apple Cider (30502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30502;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30502, 'cidercoveappleaged');
@@ -81150,6 +87540,9 @@ VALUES (30502, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30502, 0, 16778729);
 
+/* Weenie - MiscObjects - Cove Apple Paring Knife (30544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30544;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30544, 'knifecoveapple');
 
@@ -81182,6 +87575,9 @@ VALUES (30544, 13, True)
      , (30544, 14, True)
      , (30544, 19, True)
      , (30544, 22, True);
+
+/* Weenie - MiscObjects - Cove Apple Wine (30505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30505;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30505, 'winecoveapple');
@@ -81216,6 +87612,9 @@ VALUES (30505, 13, True)
      , (30505, 19, True)
      , (30505, 22, True);
 
+/* Weenie - MiscObjects - Hot Apple Pie (30537) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30537;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30537, 'applepiehot');
 
@@ -81248,6 +87647,9 @@ VALUES (30537, 13, True)
      , (30537, 14, True)
      , (30537, 19, True)
      , (30537, 22, True);
+
+/* Weenie - MiscObjects - Hard Cove Apple Cider (30503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30503;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30503, 'cidercoveapplehard');
@@ -81292,6 +87694,9 @@ VALUES (30503, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30503, 0, 16778729);
 
+/* Weenie - MiscObjects - Perfectly Aged Cider (5175) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5175;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5175, 'perfectlyagedcovecider');
 
@@ -81335,6 +87740,9 @@ VALUES (5175, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5175, 0, 16778729);
 
+/* Weenie - MiscObjects - Mad Star Marionette's Head (30506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30506;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30506, 'headmarionattemadstar');
 
@@ -81367,6 +87775,9 @@ VALUES (30506, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30506, 0, 16787385);
+
+/* Weenie - MiscObjects - Box Of Ten Ancient Mhoire Coins (43903) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43903;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43903, 'ace43903-boxoftenancientmhoirecoins');
@@ -81403,6 +87814,9 @@ VALUES (43903, 13, True)
      , (43903, 11, True)
      , (43903, 14, True)
      , (43903, 19, True);
+
+/* Weenie - MiscObjects - Violet Ball (29647) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29647;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29647, 'colorpuzzleballviolet');
@@ -81445,6 +87859,9 @@ VALUES (29647, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29647, 0, 16778862);
 
+/* Weenie - MiscObjects - Shadow of the Seventh Mule (29282) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29282;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29282, 'gemaugmentationpackslot');
 
@@ -81474,6 +87891,9 @@ VALUES (29282, 13, True)
      , (29282, 14, True)
      , (29282, 19, True)
      , (29282, 22, True);
+
+/* Weenie - MiscObjects - Painbringer's Head (27514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27514;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27514, 'headpainbringer');
@@ -81515,6 +87935,9 @@ VALUES (27514, 0, 83892787, 83892785)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27514, 0, 16785088);
+
+/* Weenie - MiscObjects - Weapon Upgrade Kit Containment Gem (41919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41919;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41919, 'ace41919-weaponupgradekitcontainmentgem');
@@ -81560,6 +87983,9 @@ VALUES (41919, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41919, 0, 16779181);
 
+/* Weenie - MiscObjects - Writ of Authorization (38721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38721;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38721, 'ace38721-writofauthorization');
 
@@ -81592,6 +88018,9 @@ VALUES (38721, 13, True)
      , (38721, 11, True)
      , (38721, 14, True)
      , (38721, 19, True);
+
+/* Weenie - MiscObjects - Glyph of Alteration (32944) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32944;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32944, 'ace32944-glyphofalteration');
@@ -81628,6 +88057,9 @@ VALUES (32944, 13, True)
      , (32944, 14, True)
      , (32944, 19, True)
      , (32944, 22, True);
+
+/* Weenie - MiscObjects - Superb Imprinting Mote (34879) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34879;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34879, 'ace34879-superbimprintingmote');
@@ -81673,6 +88105,9 @@ VALUES (34879, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34879, 0, 16784015);
 
+/* Weenie - MiscObjects - Bronze Nuts and Bolts from a Statue (19249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19249;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19249, 'nutboltgrievver');
 
@@ -81703,6 +88138,9 @@ VALUES (19249, 13, True)
      , (19249, 14, True)
      , (19249, 19, True)
      , (19249, 22, True);
+
+/* Weenie - MiscObjects - Lugian Sentinel's Insignia (31348) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31348;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31348, 'ace31348-lugiansentinelsinsignia');
@@ -81735,6 +88173,9 @@ VALUES (31348, 13, True)
      , (31348, 11, True)
      , (31348, 14, True)
      , (31348, 19, True);
+
+/* Weenie - MiscObjects - Gem of Raising Quickness (22946) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22946;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22946, 'attributegemupquickness');
@@ -81772,6 +88213,9 @@ VALUES (22946, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22946, 67111923, 0, 0);
 
+/* Weenie - MiscObjects - Wisp of Corrupted Shard of Torments (51889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51889;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51889, 'ace51889-wispofcorruptedshardoftorments');
 
@@ -81804,6 +88248,9 @@ VALUES (51889, 13, True)
      , (51889, 14, True)
      , (51889, 19, True)
      , (51889, 22, True);
+
+/* Weenie - MiscObjects - Wisp of Corrupted Shard of Rage (51890) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51890;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51890, 'ace51890-wispofcorruptedshardofrage');
@@ -81838,6 +88285,9 @@ VALUES (51890, 13, True)
      , (51890, 19, True)
      , (51890, 22, True);
 
+/* Weenie - MiscObjects - Strength To Focus Gem (23072) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23072;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23072, 'attributegemstrengthtofocus');
 
@@ -81870,6 +88320,9 @@ VALUES (23072, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23072, 67111924, 0, 0);
 
+/* Weenie - MiscObjects - Strength To Endurance Gem (23071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23071;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23071, 'attributegemstrengthtoendurance');
 
@@ -81901,6 +88354,9 @@ VALUES (23071, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23071, 67111924, 0, 0);
+
+/* Weenie - MiscObjects - Creature Enchantment Tessera (11164) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11164;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11164, 'skilltokencreatureenchantment-xp');
@@ -81936,6 +88392,9 @@ VALUES (11164, 13, True)
      , (11164, 14, True)
      , (11164, 19, True)
      , (11164, 22, True);
+
+/* Weenie - MiscObjects - Gromnus Eye (52876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52876;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52876, 'ace52876-gromnuseye');
@@ -81981,6 +88440,9 @@ VALUES (52876, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52876, 0, 16777882);
 
+/* Weenie - MiscObjects - Mukkir Hellion Eye (33677) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33677;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33677, 'ace33677-mukkirhellioneye');
 
@@ -82011,6 +88473,9 @@ VALUES (33677, 13, True)
      , (33677, 14, True)
      , (33677, 19, True)
      , (33677, 22, True);
+
+/* Weenie - MiscObjects - Gem of Lowering Endurance (22938) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22938;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22938, 'attributegemdownendurance');
@@ -82047,6 +88512,9 @@ VALUES (22938, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22938, 67111924, 0, 0);
+
+/* Weenie - MiscObjects - Axe Stamped Spectral Ingot (37465) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37465;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37465, 'ace37465-axestampedspectralingot');
@@ -82094,6 +88562,9 @@ VALUES (37465, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37465, 0, 16779181);
 
+/* Weenie - MiscObjects - Atlatl Stamped Spectral Ingot (37464) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37464;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37464, 'ace37464-atlatlstampedspectralingot');
 
@@ -82139,6 +88610,9 @@ VALUES (37464, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37464, 0, 16779181);
+
+/* Weenie - MiscObjects - Crossbow Stamped Spectral Ingot (37470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37470;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37470, 'ace37470-crossbowstampedspectralingot');
@@ -82186,6 +88660,9 @@ VALUES (37470, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37470, 0, 16779181);
 
+/* Weenie - MiscObjects - Greatsword Stamped Spectral Ingot (41925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41925;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41925, 'ace41925-greatswordstampedspectralingot');
 
@@ -82232,6 +88709,9 @@ VALUES (41925, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41925, 0, 16779181);
 
+/* Weenie - MiscObjects - Endurance To Quickness Gem (23052) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23052;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23052, 'attributegemendurancetoquickness');
 
@@ -82263,6 +88743,9 @@ VALUES (23052, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23052, 67111924, 0, 0);
+
+/* Weenie - MiscObjects - Gem of Raising Coordination (22943) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22943;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22943, 'attributegemupcoordination');
@@ -82300,6 +88783,9 @@ VALUES (22943, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22943, 67111923, 0, 0);
 
+/* Weenie - MiscObjects - Lugian Lieutenant's Insignia (31347) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31347;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31347, 'ace31347-lugianlieutenantsinsignia');
 
@@ -82332,6 +88818,9 @@ VALUES (31347, 13, True)
      , (31347, 14, True)
      , (31347, 19, True);
 
+/* Weenie - MiscObjects - Quickness To Self Gem (23063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23063;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23063, 'attributegemquicknesstoself');
 
@@ -82363,6 +88852,9 @@ VALUES (23063, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23063, 67111924, 0, 0);
+
+/* Weenie - MiscObjects - Gauntlet Ticket Stub (52795) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52795;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52795, 'ace52795-gauntletticketstub');
@@ -82397,6 +88889,9 @@ VALUES (52795, 13, True)
      , (52795, 19, True)
      , (52795, 22, True);
 
+/* Weenie - MiscObjects - Cave Penguin Egg (28840) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28840;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28840, 'eggpenguincave');
 
@@ -82428,6 +88923,9 @@ VALUES (28840, 13, True)
      , (28840, 14, True)
      , (28840, 19, True)
      , (28840, 22, True);
+
+/* Weenie - MiscObjects - Water of Stasis (32850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32850;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32850, 'ace32850-waterofstasis');
@@ -82464,6 +88962,9 @@ VALUES (32850, 13, True)
      , (32850, 14, True)
      , (32850, 19, True);
 
+/* Weenie - MiscObjects - Broken Shield (44014) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44014;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44014, 'ace44014-brokenshield');
 
@@ -82492,6 +88993,9 @@ VALUES (44014, 13, True)
      , (44014, 11, True)
      , (44014, 14, True)
      , (44014, 19, True);
+
+/* Weenie - MiscObjects - Tanada Neophyte's Mask (46729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46729;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46729, 'ace46729-tanadaneophytesmask');
@@ -82528,6 +89032,9 @@ VALUES (46729, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46729, 0, 16793224);
+
+/* Weenie - MiscObjects - Helm of Tremb'Orh (52817) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52817;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52817, 'ace52817-helmoftremborh');
@@ -82572,6 +89079,9 @@ VALUES (52817, 0, 83887049, 83887049)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52817, 0, 16778350);
 
+/* Weenie - MiscObjects - Small Shreth Hide (8658) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8658;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8658, 'shrethhidesmall');
 
@@ -82615,6 +89125,9 @@ VALUES (8658, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8658, 0, 16777882);
 
+/* Weenie - MiscObjects - Refined Low-Grade Chorizite (7595) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7595;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7595, 'choriziterefineda');
 
@@ -82655,6 +89168,9 @@ VALUES (7595, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7595, 0, 16777882);
 
+/* Weenie - MiscObjects - Crest of the Shagar Zharala (25977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25977;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25977, 'emblemzharalim');
 
@@ -82688,6 +89204,9 @@ VALUES (25977, 13, True)
      , (25977, 19, True)
      , (25977, 22, True);
 
+/* Weenie - MiscObjects - Alloy Sprocket (25325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25325;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25325, 'undeadmechanism11');
 
@@ -82716,6 +89235,9 @@ VALUES (25325, 13, True)
      , (25325, 14, True)
      , (25325, 19, True)
      , (25325, 22, True);
+
+/* Weenie - MiscObjects - Completed Sword Skill Puzzle (9576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9576;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9576, 'skillpuzzlecompletedsword');
@@ -82751,6 +89273,9 @@ VALUES (9576, 13, True)
      , (9576, 19, True)
      , (9576, 22, True);
 
+/* Weenie - MiscObjects - Virindi (44780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44780;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44780, 'ace44780-virindi');
 
@@ -82781,6 +89306,9 @@ VALUES (44780, 13, True)
      , (44780, 12, True)
      , (44780, 11, True)
      , (44780, 19, True);
+
+/* Weenie - MiscObjects - First Half of a Worn Spear (31472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31472;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31472, 'ace31472-firsthalfofawornspear');
@@ -82814,6 +89342,9 @@ VALUES (31472, 13, True)
      , (31472, 14, True)
      , (31472, 19, True)
      , (31472, 22, True);
+
+/* Weenie - MiscObjects - Fine Oiled String (7063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7063;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7063, 'bowcompositestring2');
@@ -82857,6 +89388,9 @@ VALUES (7063, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7063, 0, 16777882);
 
+/* Weenie - MiscObjects - Experience Orders (37536) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37536;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37536, 'ace37536-experienceorders');
 
@@ -82887,6 +89421,9 @@ VALUES (37536, 13, True)
      , (37536, 11, True)
      , (37536, 14, True)
      , (37536, 19, True);
+
+/* Weenie - MiscObjects - Left-hand Tether Remover (45684) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45684;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45684, 'ace45684-lefthandtetherremover');
@@ -82932,6 +89469,9 @@ VALUES (45684, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45684, 0, 16777882);
 
+/* Weenie - MiscObjects - Bronze Spring from a Statue (19254) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19254;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19254, 'springskeleton');
 
@@ -82962,6 +89502,9 @@ VALUES (19254, 13, True)
      , (19254, 14, True)
      , (19254, 19, True)
      , (19254, 22, True);
+
+/* Weenie - MiscObjects - Bronze Spring from a Statue (19253) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19253;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19253, 'springsclavus');
@@ -82994,6 +89537,9 @@ VALUES (19253, 13, True)
      , (19253, 19, True)
      , (19253, 22, True);
 
+/* Weenie - MiscObjects - Small Tainted Egg (37448) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37448;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37448, 'ace37448-smalltaintedegg');
 
@@ -83023,6 +89569,9 @@ VALUES (37448, 13, True)
      , (37448, 11, True)
      , (37448, 14, True)
      , (37448, 19, True);
+
+/* Weenie - MiscObjects - Platinum Knight Medallion (43027) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43027;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43027, 'ace43027-platinumknightmedallion');
@@ -83054,6 +89603,9 @@ VALUES (43027, 13, True)
      , (43027, 19, True)
      , (43027, 22, True);
 
+/* Weenie - MiscObjects - Burnja Token (35408) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35408;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35408, 'ace35408-burnjatoken');
 
@@ -83084,6 +89636,9 @@ VALUES (35408, 13, True)
      , (35408, 14, True)
      , (35408, 19, True)
      , (35408, 22, True);
+
+/* Weenie - MiscObjects - Shadow Gem (42108) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42108;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42108, 'ace42108-shadowgem');
@@ -83118,6 +89673,9 @@ VALUES (42108, 13, True)
      , (42108, 14, True)
      , (42108, 19, True)
      , (42108, 22, True);
+
+/* Weenie - MiscObjects - Box Of Ten Ornate Gear Markers (43902) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43902;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43902, 'ace43902-boxoftenornategearmarkers');
@@ -83154,6 +89712,9 @@ VALUES (43902, 13, True)
      , (43902, 11, True)
      , (43902, 14, True)
      , (43902, 19, True);
+
+/* Weenie - MiscObjects - Durable Gromnie Hide (28202) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28202;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28202, 'gromniehidejade');
@@ -83199,6 +89760,9 @@ VALUES (28202, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28202, 0, 16777882);
 
+/* Weenie - MiscObjects - Armored Tusker Tusk (22419) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22419;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22419, 'tuskarmored');
 
@@ -83228,6 +89792,9 @@ VALUES (22419, 13, True)
      , (22419, 14, True)
      , (22419, 19, True)
      , (22419, 22, True);
+
+/* Weenie - MiscObjects - Broken Virindi Profatrix Mask (22061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22061;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22061, 'maskvirindiprofanebroken');
@@ -83269,6 +89836,9 @@ VALUES (22061, 0, 83893780, 83894315);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22061, 0, 16787332);
 
+/* Weenie - MiscObjects - Farelaith's Untranslated Journal (32500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32500;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32500, 'ace32500-farelaithsuntranslatedjournal');
 
@@ -83302,6 +89872,9 @@ VALUES (32500, 13, True)
      , (32500, 19, True)
      , (32500, 22, True);
 
+/* Weenie - MiscObjects - Good Diamond Infused Pyreal Ingot (19514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19514;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19514, 'ingotpyrealinfusedgood');
 
@@ -83334,6 +89907,9 @@ VALUES (19514, 13, True)
      , (19514, 19, True)
      , (19514, 22, True);
 
+/* Weenie - MiscObjects - Black Spear of Ruschk Protection (33717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33717;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33717, 'ace33717-blackspearofruschkprotection');
 
@@ -83365,6 +89941,9 @@ VALUES (33717, 13, True)
      , (33717, 14, True)
      , (33717, 19, True)
      , (33717, 22, True);
+
+/* Weenie - MiscObjects - First Half of a Battered Axe (31450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31450;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31450, 'ace31450-firsthalfofabatteredaxe');
@@ -83399,6 +89978,9 @@ VALUES (31450, 13, True)
      , (31450, 19, True)
      , (31450, 22, True);
 
+/* Weenie - MiscObjects - Inactive Alchemist's Golem (34925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34925;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34925, 'ace34925-inactivealchemistsgolem');
 
@@ -83432,6 +90014,9 @@ VALUES (34925, 13, True)
      , (34925, 19, True)
      , (34925, 22, True);
 
+/* Weenie - MiscObjects - Olthoi Ripper Reducer Token (31633) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31633;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31633, 'ace31633-olthoiripperreducertoken');
 
@@ -83462,6 +90047,9 @@ VALUES (31633, 13, True)
      , (31633, 14, True)
      , (31633, 19, True)
      , (31633, 22, True);
+
+/* Weenie - MiscObjects - Inactive Fletcher's Golem (34927) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34927;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34927, 'ace34927-inactivefletchersgolem');
@@ -83496,6 +90084,9 @@ VALUES (34927, 13, True)
      , (34927, 19, True)
      , (34927, 22, True);
 
+/* Weenie - MiscObjects - Weeping Bow Cast (46267) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46267;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46267, 'ace46267-weepingbowcast');
 
@@ -83526,6 +90117,9 @@ VALUES (46267, 13, True)
      , (46267, 14, True)
      , (46267, 19, True)
      , (46267, 22, True);
+
+/* Weenie - MiscObjects - Pack Max (52397) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52397;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52397, 'ace52397-packmax');
@@ -83562,6 +90156,9 @@ VALUES (52397, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (52397, 67111659, 0, 0);
 
+/* Weenie - MiscObjects - Harbinger Arm Token (33228) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33228;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33228, 'ace33228-harbingerarmtoken');
 
@@ -83595,6 +90192,9 @@ VALUES (33228, 13, True)
      , (33228, 19, True)
      , (33228, 22, True);
 
+/* Weenie - MiscObjects - Tuning Fork (51157) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51157;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51157, 'ace51157-tuningfork');
 
@@ -83625,6 +90225,9 @@ VALUES (51157, 13, True)
      , (51157, 14, True)
      , (51157, 19, True)
      , (51157, 22, True);
+
+/* Weenie - MiscObjects - Splinter of Anger (51578) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51578;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51578, 'ace51578-splinterofanger');
@@ -83670,6 +90273,9 @@ VALUES (51578, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51578, 0, 16779181);
 
+/* Weenie - MiscObjects - Splinter of Hatred (51566) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51566;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51566, 'ace51566-splinterofhatred');
 
@@ -83713,6 +90319,9 @@ VALUES (51566, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51566, 0, 16779181);
+
+/* Weenie - MiscObjects - Focused Splinter of Hatred (51600) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51600;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51600, 'ace51600-focusedsplinterofhatred');
@@ -83759,6 +90368,9 @@ VALUES (51600, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51600, 0, 16779181);
 
+/* Weenie - MiscObjects - Focused Splinter of Anger (51602) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51602;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51602, 'ace51602-focusedsplinterofanger');
 
@@ -83804,6 +90416,9 @@ VALUES (51602, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51602, 0, 16779181);
 
+/* Weenie - MiscObjects - Second Half of a Battered Crossbow (31463) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31463;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31463, 'ace31463-secondhalfofabatteredcrossbow');
 
@@ -83833,6 +90448,9 @@ VALUES (31463, 13, True)
      , (31463, 14, True)
      , (31463, 19, True)
      , (31463, 22, True);
+
+/* Weenie - MiscObjects - Hoory Mattekar Over-robe Crate (45033) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45033;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45033, 'ace45033-hoorymattekaroverrobecrate');
@@ -83870,6 +90488,9 @@ VALUES (45033, 13, True)
      , (45033, 14, True)
      , (45033, 19, True);
 
+/* Weenie - MiscObjects - Tusker Title Token (22624) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22624;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22624, 'tokentuskerdevastator');
 
@@ -83899,6 +90520,9 @@ VALUES (22624, 13, True)
      , (22624, 14, True)
      , (22624, 19, True)
      , (22624, 22, True);
+
+/* Weenie - MiscObjects - Self To Coordination Gem (23065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23065;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23065, 'attributegemselftocoordination');
@@ -83931,6 +90555,9 @@ VALUES (23065, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23065, 67111924, 0, 0);
+
+/* Weenie - MiscObjects - Stave of Palenqual (11238) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11238;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11238, 'staffmagicmenhir-xp');
@@ -83965,6 +90592,9 @@ VALUES (11238, 13, True)
      , (11238, 19, True)
      , (11238, 22, True);
 
+/* Weenie - MiscObjects - Filled Sacrificial Goblet (34309) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34309;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34309, 'ace34309-filledsacrificialgoblet');
 
@@ -83992,6 +90622,9 @@ VALUES (34309, 13, True)
      , (34309, 14, True)
      , (34309, 19, True)
      , (34309, 22, True);
+
+/* Weenie - MiscObjects - Soul Hunter's Untranslated Orders (34310) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34310;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34310, 'ace34310-soulhuntersuntranslatedorders');
@@ -84026,6 +90659,9 @@ VALUES (34310, 13, True)
      , (34310, 19, True)
      , (34310, 22, True);
 
+/* Weenie - MiscObjects - Sceptre of the Mind (9470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9470;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9470, 'stafflugianmind');
 
@@ -84059,6 +90695,9 @@ VALUES (9470, 13, True)
      , (9470, 19, True)
      , (9470, 22, True);
 
+/* Weenie - MiscObjects - Strength To Coordination Gem (23070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23070;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23070, 'attributegemstrengthtocoordination');
 
@@ -84090,6 +90729,9 @@ VALUES (23070, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23070, 67111924, 0, 0);
+
+/* Weenie - MiscObjects - Self To Strength Gem (23069) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23069;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23069, 'attributegemselftostrength');
@@ -84123,6 +90765,9 @@ VALUES (23069, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23069, 67111924, 0, 0);
 
+/* Weenie - MiscObjects - Coordination To Strength Gem (23049) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23049;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23049, 'attributegemcoordinationtostrength');
 
@@ -84154,6 +90799,9 @@ VALUES (23049, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23049, 67111924, 0, 0);
+
+/* Weenie - MiscObjects - Adolescent Azure Gromnie Eye (28193) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28193;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28193, 'eyegromnieazure');
@@ -84195,6 +90843,9 @@ VALUES (28193, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28193, 0, 16777882);
 
+/* Weenie - MiscObjects - Endurance To Focus Gem (23051) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23051;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23051, 'attributegemendurancetofocus');
 
@@ -84227,6 +90878,9 @@ VALUES (23051, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23051, 67111924, 0, 0);
 
+/* Weenie - MiscObjects - Ravenous Killer Token (28723) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28723;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28723, 'tokenravenous');
 
@@ -84256,6 +90910,9 @@ VALUES (28723, 13, True)
      , (28723, 14, True)
      , (28723, 19, True)
      , (28723, 22, True);
+
+/* Weenie - MiscObjects - Greenmire Cider (30499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30499;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30499, 'cidergreenmirenenai');
@@ -84299,6 +90956,9 @@ VALUES (30499, 0, 83890080, 83890080);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30499, 0, 16778729);
+
+/* Weenie - MiscObjects - Focusing Stone (8903) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8903;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8903, 'focusingstone');
@@ -84347,6 +91007,9 @@ VALUES (8903, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8903, 0, 16778862);
 
+/* Weenie - MiscObjects - Brazier of Power (25813) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25813;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25813, 'brazieremptysoul');
 
@@ -84379,6 +91042,9 @@ VALUES (25813, 13, True)
      , (25813, 19, True)
      , (25813, 22, True);
 
+/* Weenie - MiscObjects - Pure Water (25822) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25822;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25822, 'wateremptysoul');
 
@@ -84410,6 +91076,9 @@ VALUES (25822, 13, True)
      , (25822, 14, True)
      , (25822, 19, True)
      , (25822, 22, True);
+
+/* Weenie - MiscObjects - Grace and Power (25819) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25819;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25819, 'gracepoweremptysoul');
@@ -84444,6 +91113,9 @@ VALUES (25819, 13, True)
      , (25819, 19, True)
      , (25819, 22, True);
 
+/* Weenie - MiscObjects - Power, Grace and Splendor (25820) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25820;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25820, 'gracepowersplendoremptysoul');
 
@@ -84476,6 +91148,9 @@ VALUES (25820, 13, True)
      , (25820, 14, True)
      , (25820, 19, True)
      , (25820, 22, True);
+
+/* Weenie - MiscObjects - Chimeric Balister of the Quiddity Summoning Gem (36367) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36367;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36367, 'ace36367-chimericbalisterofthequidditysummoninggem');
@@ -84523,6 +91198,9 @@ VALUES (36367, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36367, 0, 16779181);
 
+/* Weenie - MiscObjects - Crate of Gear Blade Slashing Arrowheads (43149) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43149;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43149, 'ace43149-crateofgearbladeslashingarrowheads');
 
@@ -84558,6 +91236,9 @@ VALUES (43149, 13, True)
      , (43149, 11, True)
      , (43149, 14, True)
      , (43149, 19, True);
+
+/* Weenie - MiscObjects - Gem of Lowering Focus (22939) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22939;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22939, 'attributegemdownfocus');
@@ -84595,6 +91276,9 @@ VALUES (22939, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22939, 67111924, 0, 0);
 
+/* Weenie - MiscObjects - Bag of Gumdrops (45078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45078;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45078, 'ace45078-bagofgumdrops');
 
@@ -84628,6 +91312,9 @@ VALUES (45078, 13, True)
      , (45078, 14, True)
      , (45078, 19, True)
      , (45078, 22, True);
+
+/* Weenie - MiscObjects - Crystal Vase with Snowflowers (22841) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22841;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22841, 'vasesnowflower3');
@@ -84663,6 +91350,9 @@ VALUES (22841, 13, True)
      , (22841, 14, True)
      , (22841, 19, True)
      , (22841, 22, True);
+
+/* Weenie - MiscObjects - Missile Weapons Glyph (19402) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19402;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19402, 'glyphnewbow');
@@ -84707,6 +91397,9 @@ VALUES (19402, 0, 83890737, 83886518);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19402, 0, 16780688);
 
+/* Weenie - MiscObjects - Stolen Ring (29086) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29086;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29086, 'ringthrungusnoob');
 
@@ -84736,6 +91429,9 @@ VALUES (29086, 13, True)
      , (29086, 14, True)
      , (29086, 19, True)
      , (29086, 22, True);
+
+/* Weenie - MiscObjects - Stolen Brew Kettle (29087) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29087;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29087, 'brewkettlethrungusnoob');
@@ -84767,6 +91463,9 @@ VALUES (29087, 13, True)
      , (29087, 19, True)
      , (29087, 22, True);
 
+/* Weenie - MiscObjects - Gear Knight Core Fragment (41563) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41563;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41563, 'ace41563-gearknightcorefragment');
 
@@ -84796,6 +91495,9 @@ VALUES (41563, 13, True)
      , (41563, 11, True)
      , (41563, 14, True)
      , (41563, 19, True);
+
+/* Weenie - MiscObjects - Broken Taper (5124) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5124;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5124, 'brokentaper');
@@ -84830,6 +91532,9 @@ VALUES (5124, 13, True)
      , (5124, 19, True)
      , (5124, 22, True);
 
+/* Weenie - MiscObjects - Amethyst Cradle (27765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27765;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27765, 'toolsunkenmerecradle');
 
@@ -84863,6 +91568,9 @@ VALUES (27765, 13, True)
      , (27765, 14, True)
      , (27765, 19, True)
      , (27765, 22, True);
+
+/* Weenie - MiscObjects - Emerald Clasp (27764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27764;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27764, 'toolsunkenmereclasp');
@@ -84901,6 +91609,9 @@ VALUES (27764, 13, True)
      , (27764, 19, True)
      , (27764, 22, True);
 
+/* Weenie - MiscObjects - Stolen Bracelet (29092) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29092;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29092, 'braceletthrungusnoob');
 
@@ -84930,6 +91641,9 @@ VALUES (29092, 13, True)
      , (29092, 14, True)
      , (29092, 19, True)
      , (29092, 22, True);
+
+/* Weenie - MiscObjects - Stolen Frying Pan (29085) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29085;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29085, 'fryingpanthrungusnoob');
@@ -84961,6 +91675,9 @@ VALUES (29085, 13, True)
      , (29085, 19, True)
      , (29085, 22, True);
 
+/* Weenie - MiscObjects - Brood Matron Nymph Tail (24920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24920;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24920, 'broodmatrontaillow');
 
@@ -84990,6 +91707,9 @@ VALUES (24920, 13, True)
      , (24920, 14, True)
      , (24920, 19, True)
      , (24920, 22, True);
+
+/* Weenie - MiscObjects - Brood Queen Nymph Metathorax (24936) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24936;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24936, 'broodqueenmetathoraxlow');
@@ -85021,6 +91741,9 @@ VALUES (24936, 13, True)
      , (24936, 19, True)
      , (24936, 22, True);
 
+/* Weenie - MiscObjects - Brood Queen Nymph Head (24934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24934;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24934, 'broodqueenheadlow');
 
@@ -85050,6 +91773,9 @@ VALUES (24934, 13, True)
      , (24934, 14, True)
      , (24934, 19, True)
      , (24934, 22, True);
+
+/* Weenie - MiscObjects - Brood Queen Nymph Crest (24930) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24930;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24930, 'broodqueencrestlow');
@@ -85081,6 +91807,9 @@ VALUES (24930, 13, True)
      , (24930, 19, True)
      , (24930, 22, True);
 
+/* Weenie - MiscObjects - Young Brood Matron Tibia (24647) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24647;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24647, 'broodmatrontibiamid');
 
@@ -85110,6 +91839,9 @@ VALUES (24647, 13, True)
      , (24647, 14, True)
      , (24647, 19, True)
      , (24647, 22, True);
+
+/* Weenie - MiscObjects - Young Brood Matron Tail (24643) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24643;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24643, 'broodmatrontailmid');
@@ -85141,6 +91873,9 @@ VALUES (24643, 13, True)
      , (24643, 19, True)
      , (24643, 22, True);
 
+/* Weenie - MiscObjects - Young Brood Queen Femur (24655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24655;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24655, 'broodqueenfemurmid');
 
@@ -85170,6 +91905,9 @@ VALUES (24655, 13, True)
      , (24655, 14, True)
      , (24655, 19, True)
      , (24655, 22, True);
+
+/* Weenie - MiscObjects - Young Brood Queen Metathorax (24659) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24659;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24659, 'broodqueenmetathoraxmid');
@@ -85201,6 +91939,9 @@ VALUES (24659, 13, True)
      , (24659, 19, True)
      , (24659, 22, True);
 
+/* Weenie - MiscObjects - Young Brood Queen Head (24657) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24657;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24657, 'broodqueenheadmid');
 
@@ -85230,6 +91971,9 @@ VALUES (24657, 13, True)
      , (24657, 14, True)
      , (24657, 19, True)
      , (24657, 22, True);
+
+/* Weenie - MiscObjects - Young Brood Matron Tarsus (24645) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24645;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24645, 'broodmatrontarsusmid');
@@ -85261,6 +92005,9 @@ VALUES (24645, 13, True)
      , (24645, 19, True)
      , (24645, 22, True);
 
+/* Weenie - MiscObjects - Young Brood Queen Claw (24651) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24651;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24651, 'broodqueenclawmid');
 
@@ -85290,6 +92037,9 @@ VALUES (24651, 13, True)
      , (24651, 14, True)
      , (24651, 19, True)
      , (24651, 22, True);
+
+/* Weenie - MiscObjects - Adolescent Brood Matron Tibia (24646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24646;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24646, 'broodmatrontibiahigh');
@@ -85321,6 +92071,9 @@ VALUES (24646, 13, True)
      , (24646, 19, True)
      , (24646, 22, True);
 
+/* Weenie - MiscObjects - Adolescent Brood Queen Claw (24650) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24650;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24650, 'broodqueenclawhigh');
 
@@ -85350,6 +92103,9 @@ VALUES (24650, 13, True)
      , (24650, 14, True)
      , (24650, 19, True)
      , (24650, 22, True);
+
+/* Weenie - MiscObjects - Adolescent Brood Queen Carapace (24648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24648;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24648, 'broodqueencarapacehigh');
@@ -85381,6 +92137,9 @@ VALUES (24648, 13, True)
      , (24648, 19, True)
      , (24648, 22, True);
 
+/* Weenie - MiscObjects - Adolescent Brood Queen Femur (24654) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24654;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24654, 'broodqueenfemurhigh');
 
@@ -85410,6 +92169,9 @@ VALUES (24654, 13, True)
      , (24654, 14, True)
      , (24654, 19, True)
      , (24654, 22, True);
+
+/* Weenie - MiscObjects - Adolescent Brood Queen Metathorax (24658) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24658;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24658, 'broodqueenmetathoraxhigh');
@@ -85441,6 +92203,9 @@ VALUES (24658, 13, True)
      , (24658, 19, True)
      , (24658, 22, True);
 
+/* Weenie - MiscObjects - Adolescent Brood Matron Tarsus (24644) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24644;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24644, 'broodmatrontarsushigh');
 
@@ -85470,6 +92235,9 @@ VALUES (24644, 13, True)
      , (24644, 14, True)
      , (24644, 19, True)
      , (24644, 22, True);
+
+/* Weenie - MiscObjects - Adolescent Brood Queen Crest (24652) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24652;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24652, 'broodqueencresthigh');
@@ -85501,6 +92269,9 @@ VALUES (24652, 13, True)
      , (24652, 19, True)
      , (24652, 22, True);
 
+/* Weenie - MiscObjects - Adolescent Brood Queen Head (24656) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24656;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24656, 'broodqueenheadhigh');
 
@@ -85530,6 +92301,9 @@ VALUES (24656, 13, True)
      , (24656, 14, True)
      , (24656, 19, True)
      , (24656, 22, True);
+
+/* Weenie - MiscObjects - Brood Queen Elder Femur (24931) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24931;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24931, 'broodqueenfemurextreme');
@@ -85561,6 +92335,9 @@ VALUES (24931, 13, True)
      , (24931, 19, True)
      , (24931, 22, True);
 
+/* Weenie - MiscObjects - Brood Queen Elder Crest (24929) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24929;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24929, 'broodqueencrestextreme');
 
@@ -85590,6 +92367,9 @@ VALUES (24929, 13, True)
      , (24929, 14, True)
      , (24929, 19, True)
      , (24929, 22, True);
+
+/* Weenie - MiscObjects - Brood Matron Elder Tibia (24923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24923;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24923, 'broodmatrontibiaextreme');
@@ -85621,6 +92401,9 @@ VALUES (24923, 13, True)
      , (24923, 19, True)
      , (24923, 22, True);
 
+/* Weenie - MiscObjects - Brood Queen Elder Metathorax (24935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24935;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24935, 'broodqueenmetathoraxextreme');
 
@@ -85650,6 +92433,9 @@ VALUES (24935, 13, True)
      , (24935, 14, True)
      , (24935, 19, True)
      , (24935, 22, True);
+
+/* Weenie - MiscObjects - Brood Queen Elder Claw (24927) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24927;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24927, 'broodqueenclawextreme');
@@ -85681,6 +92467,9 @@ VALUES (24927, 13, True)
      , (24927, 19, True)
      , (24927, 22, True);
 
+/* Weenie - MiscObjects - Brood Queen Elder Carapace (24925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24925;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24925, 'broodqueencarapaceextreme');
 
@@ -85711,6 +92500,9 @@ VALUES (24925, 13, True)
      , (24925, 19, True)
      , (24925, 22, True);
 
+/* Weenie - MiscObjects - Alloy Pinion (25330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25330;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25330, 'undeadmechanism16');
 
@@ -85739,6 +92531,9 @@ VALUES (25330, 13, True)
      , (25330, 14, True)
      , (25330, 19, True)
      , (25330, 22, True);
+
+/* Weenie - MiscObjects - Stolen Platter (29091) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29091;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29091, 'platterthrungusnoob');
@@ -85770,6 +92565,9 @@ VALUES (29091, 13, True)
      , (29091, 19, True)
      , (29091, 22, True);
 
+/* Weenie - MiscObjects - Stolen Necklace (29090) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29090;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29090, 'necklacethrungusnoob');
 
@@ -85799,6 +92597,9 @@ VALUES (29090, 13, True)
      , (29090, 14, True)
      , (29090, 19, True)
      , (29090, 22, True);
+
+/* Weenie - MiscObjects - Stolen Amulet (29088) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29088;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29088, 'amuletthrungusnoob');
@@ -85830,6 +92631,9 @@ VALUES (29088, 13, True)
      , (29088, 19, True)
      , (29088, 22, True);
 
+/* Weenie - MiscObjects - Stolen Ewer (29089) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29089;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29089, 'ewerthrungusnoob');
 
@@ -85859,6 +92663,9 @@ VALUES (29089, 13, True)
      , (29089, 14, True)
      , (29089, 19, True)
      , (29089, 22, True);
+
+/* Weenie - MiscObjects - Mosswart War Paint (27905) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27905;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27905, 'tattooswamplordnull');
@@ -85890,6 +92697,9 @@ VALUES (27905, 13, True)
      , (27905, 14, True)
      , (27905, 19, True)
      , (27905, 22, True);
+
+/* Weenie - MiscObjects - Superb Infused Pyreal Ingot (46140) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46140;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46140, 'ace46140-superbinfusedpyrealingot');
@@ -85923,6 +92733,9 @@ VALUES (46140, 13, True)
      , (46140, 14, True)
      , (46140, 19, True)
      , (46140, 22, True);
+
+/* Weenie - MiscObjects - Cave-In Rock (11734) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11734;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11734, 'rocktrapcavein');
@@ -85958,6 +92771,9 @@ VALUES (11734, 13, True)
      , (11734, 1, True)
      , (11734, 24, True);
 
+/* Weenie - MiscObjects - Big Cave-In Rock (11733) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11733;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11733, 'rockbigtrapcavein');
 
@@ -85991,6 +92807,9 @@ VALUES (11733, 13, True)
      , (11733, 19, True)
      , (11733, 1, True)
      , (11733, 24, True);
+
+/* Weenie - MiscObjects - Piece of Curved Metal (11017) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11017;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11017, 'menhirbell2-xp');
@@ -86033,6 +92852,9 @@ VALUES (11017, 0, 83889680, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11017, 0, 16782860);
 
+/* Weenie - MiscObjects - Ciandra's Essence (29287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29287;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29287, 'gemaugmentationtinkeringspecsalv');
 
@@ -86062,6 +92884,9 @@ VALUES (29287, 13, True)
      , (29287, 14, True)
      , (29287, 19, True)
      , (29287, 22, True);
+
+/* Weenie - MiscObjects - Superb Infused Pyreal Ingot (6345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6345;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6345, 'pyrealingotgreatinfusedsword');
@@ -86096,6 +92921,9 @@ VALUES (6345, 13, True)
      , (6345, 19, True)
      , (6345, 22, True);
 
+/* Weenie - MiscObjects - Large Tainted Egg (37450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37450;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37450, 'ace37450-largetaintedegg');
 
@@ -86126,6 +92954,9 @@ VALUES (37450, 13, True)
      , (37450, 14, True)
      , (37450, 19, True);
 
+/* Weenie - MiscObjects - Medium Tainted Egg (37449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37449;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37449, 'ace37449-mediumtaintedegg');
 
@@ -86155,6 +92986,9 @@ VALUES (37449, 13, True)
      , (37449, 11, True)
      , (37449, 14, True)
      , (37449, 19, True);
+
+/* Weenie - MiscObjects - Gold Aetherium Core Fragment (41564) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41564;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41564, 'ace41564-goldaetheriumcorefragment');
@@ -86188,6 +93022,9 @@ VALUES (41564, 13, True)
      , (41564, 19, True)
      , (41564, 22, True);
 
+/* Weenie - MiscObjects - Large Gold Aetherium Core Fragment (41565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41565;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41565, 'ace41565-largegoldaetheriumcorefragment');
 
@@ -86220,6 +93057,9 @@ VALUES (41565, 13, True)
      , (41565, 19, True)
      , (41565, 22, True);
 
+/* Weenie - MiscObjects - Tattered Desolation Moarsman Ritual (38163) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38163;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38163, 'ace38163-tattereddesolationmoarsmanritual');
 
@@ -86249,6 +93089,9 @@ VALUES (38163, 13, True)
      , (38163, 14, True)
      , (38163, 19, True)
      , (38163, 22, True);
+
+/* Weenie - MiscObjects - Tattered Grimy Moarsman Ritual (38158) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38158;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38158, 'ace38158-tatteredgrimymoarsmanritual');
@@ -86280,6 +93123,9 @@ VALUES (38158, 13, True)
      , (38158, 19, True)
      , (38158, 22, True);
 
+/* Weenie - MiscObjects - Tattered Putrid Moarsman Ritual (38162) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38162;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38162, 'ace38162-tatteredputridmoarsmanritual');
 
@@ -86309,6 +93155,9 @@ VALUES (38162, 13, True)
      , (38162, 14, True)
      , (38162, 19, True)
      , (38162, 22, True);
+
+/* Weenie - MiscObjects - Tattered Rank Moarsman Ritual (38160) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38160;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38160, 'ace38160-tatteredrankmoarsmanritual');
@@ -86340,6 +93189,9 @@ VALUES (38160, 13, True)
      , (38160, 19, True)
      , (38160, 22, True);
 
+/* Weenie - MiscObjects - Tattered Verdant Moarsman Ritual (38159) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38159;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38159, 'ace38159-tatteredverdantmoarsmanritual');
 
@@ -86369,6 +93221,9 @@ VALUES (38159, 13, True)
      , (38159, 14, True)
      , (38159, 19, True)
      , (38159, 22, True);
+
+/* Weenie - MiscObjects - Tiny Tainted Egg (37446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37446;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37446, 'ace37446-tinytaintedegg');
@@ -86400,6 +93255,9 @@ VALUES (37446, 13, True)
      , (37446, 14, True)
      , (37446, 19, True);
 
+/* Weenie - MiscObjects - Bronze Gear from a Statue (19215) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19215;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19215, 'geardrudge');
 
@@ -86430,6 +93288,9 @@ VALUES (19215, 13, True)
      , (19215, 14, True)
      , (19215, 19, True)
      , (19215, 22, True);
+
+/* Weenie - MiscObjects - Sundew (31683) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31683;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31683, 'ace31683-sundew');
@@ -86465,6 +93326,9 @@ VALUES (31683, 13, True)
      , (31683, 14, True)
      , (31683, 19, True)
      , (31683, 22, True);
+
+/* Weenie - MiscObjects - Magic Glyph (19410) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19410;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19410, 'glyphnewwand');
@@ -86509,6 +93373,9 @@ VALUES (19410, 0, 83890737, 83886518);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19410, 0, 16780688);
 
+/* Weenie - MiscObjects - Superb Infused Pyreal Ingot (46141) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46141;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46141, 'ace46141-superbinfusedpyrealingot');
 
@@ -86542,6 +93409,9 @@ VALUES (46141, 13, True)
      , (46141, 19, True)
      , (46141, 22, True);
 
+/* Weenie - MiscObjects - Perfect Isparian Magic Ingot (19530) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19530;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19530, 'ingotwandisparianperfect');
 
@@ -86573,6 +93443,9 @@ VALUES (19530, 13, True)
      , (19530, 14, True)
      , (19530, 19, True)
      , (19530, 22, True);
+
+/* Weenie - MiscObjects - Broken Virindi Inquisitor Mask (11999) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11999;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11999, 'maskvirindiinquisitorbroken');
@@ -86614,6 +93487,9 @@ VALUES (11999, 0, 83890028, 83893781);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11999, 0, 16787332);
 
+/* Weenie - MiscObjects - Endurance To Self Gem (23053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23053;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23053, 'attributegemendurancetoself');
 
@@ -86645,6 +93521,9 @@ VALUES (23053, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23053, 67111924, 0, 0);
+
+/* Weenie - MiscObjects - Bow Glyph (21973) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21973;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21973, 'glyphbow');
@@ -86683,6 +93562,9 @@ VALUES (21973, 13, True)
      , (21973, 19, True)
      , (21973, 22, True);
 
+/* Weenie - MiscObjects - Infused Low-Grade Chorizite Ore (21970) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21970;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21970, 'chorizitelowstampedbow');
 
@@ -86715,6 +93597,9 @@ VALUES (21970, 13, True)
      , (21970, 14, True)
      , (21970, 19, True)
      , (21970, 22, True);
+
+/* Weenie - MiscObjects - Advanced War Magic Skill Puzzle Piece (11651) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11651;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11651, 'skillpuzzlewaradvanced');
@@ -86756,6 +93641,9 @@ VALUES (11651, 0, 83888861, 83890936);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11651, 0, 16778862);
 
+/* Weenie - MiscObjects - Completed Advanced War Magic Skill Puzzle (11657) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11657;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11657, 'skillpuzzlecompletedwaradvanced');
 
@@ -86789,6 +93677,9 @@ VALUES (11657, 13, True)
      , (11657, 14, True)
      , (11657, 19, True)
      , (11657, 22, True);
+
+/* Weenie - MiscObjects - Bow Skill Puzzle Piece (9564) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9564;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9564, 'skillpuzzlebow');
@@ -86830,6 +93721,9 @@ VALUES (9564, 0, 83888861, 83890936);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9564, 0, 16778862);
 
+/* Weenie - MiscObjects - War Magic Skill Puzzle Piece (9592) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9592;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9592, 'skillpuzzlewar');
 
@@ -86869,6 +93763,9 @@ VALUES (9592, 0, 83888861, 83890936);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9592, 0, 16778862);
+
+/* Weenie - MiscObjects - Advanced Bow Skill Puzzle Piece (11648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11648;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11648, 'skillpuzzlebowadvanced');
@@ -86910,6 +93807,9 @@ VALUES (11648, 0, 83888861, 83890936);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11648, 0, 16778862);
 
+/* Weenie - MiscObjects - Advanced Item Enchantment Skill Puzzle Piece (11643) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11643;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11643, 'skillpuzzleitemadvanced');
 
@@ -86949,6 +93849,9 @@ VALUES (11643, 0, 83888861, 83890936);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11643, 0, 16778862);
+
+/* Weenie - MiscObjects - Advanced Creature Enchantment Skill Puzzle Piece (11646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11646;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11646, 'skillpuzzlecreatureadvanced');
@@ -86990,6 +93893,9 @@ VALUES (11646, 0, 83888861, 83890936);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11646, 0, 16778862);
 
+/* Weenie - MiscObjects - Life Magic Skill Puzzle Piece (9585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9585;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9585, 'skillpuzzlelife');
 
@@ -87029,6 +93935,9 @@ VALUES (9585, 0, 83888861, 83890936);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9585, 0, 16778862);
+
+/* Weenie - MiscObjects - Item Enchantment Skill Puzzle Piece (9584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9584;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9584, 'skillpuzzleitem');
@@ -87070,6 +93979,9 @@ VALUES (9584, 0, 83888861, 83890936);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9584, 0, 16778862);
 
+/* Weenie - MiscObjects - Creature Enchantment Skill Puzzle Piece (9582) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9582;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9582, 'skillpuzzlecreature');
 
@@ -87110,6 +94022,9 @@ VALUES (9582, 0, 83888861, 83890936);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9582, 0, 16778862);
 
+/* Weenie - MiscObjects - Fletching Tool Glyph (21346) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21346;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21346, 'glyphtoolfletching');
 
@@ -87147,6 +94062,9 @@ VALUES (21346, 13, True)
      , (21346, 19, True)
      , (21346, 22, True);
 
+/* Weenie - MiscObjects - Infused Mid-Grade Chorizite Ore (21342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21342;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21342, 'chorizitemidstampedtoolfletching');
 
@@ -87179,6 +94097,9 @@ VALUES (21342, 13, True)
      , (21342, 14, True)
      , (21342, 19, True)
      , (21342, 22, True);
+
+/* Weenie - MiscObjects - Infused High-Grade Chorizite Ore (21967) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21967;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21967, 'chorizitehighstampedbow');
@@ -87213,6 +94134,9 @@ VALUES (21967, 13, True)
      , (21967, 19, True)
      , (21967, 22, True);
 
+/* Weenie - MiscObjects - May'ad ibn Ibsar's Reply (33931) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33931;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33931, 'ace33931-mayadibnibsarsreply');
 
@@ -87245,6 +94169,9 @@ VALUES (33931, 13, True)
      , (33931, 14, True)
      , (33931, 19, True)
      , (33931, 22, True);
+
+/* Weenie - MiscObjects - Nen Ai's Reply (33932) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33932;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33932, 'ace33932-nenaisreply');
@@ -87279,6 +94206,9 @@ VALUES (33932, 13, True)
      , (33932, 19, True)
      , (33932, 22, True);
 
+/* Weenie - MiscObjects - Turien Di Furza's Reply (33934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33934;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33934, 'ace33934-turiendifurzasreply');
 
@@ -87311,6 +94241,9 @@ VALUES (33934, 13, True)
      , (33934, 14, True)
      , (33934, 19, True)
      , (33934, 22, True);
+
+/* Weenie - MiscObjects - Crossbow Skill Puzzle Piece (9593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9593;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9593, 'skillpuzzlexbow');
@@ -87356,6 +94289,9 @@ VALUES (9593, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9593, 0, 16778862);
 
+/* Weenie - MiscObjects - Thrown Weapons Skill Puzzle Piece (9590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9590;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9590, 'skillpuzzlethrownweapons');
 
@@ -87399,6 +94335,9 @@ VALUES (9590, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9590, 0, 16778862);
+
+/* Weenie - MiscObjects - Dagger Skill Puzzle Piece (9619) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9619;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9619, 'skillpuzzledagger');
@@ -87444,6 +94383,9 @@ VALUES (9619, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9619, 0, 16778862);
 
+/* Weenie - MiscObjects - Mace Skill Puzzle Piece (9586) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9586;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9586, 'skillpuzzlemace');
 
@@ -87487,6 +94429,9 @@ VALUES (9586, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9586, 0, 16778862);
+
+/* Weenie - MiscObjects - Spear Skill Puzzle Piece (9587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9587;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9587, 'skillpuzzlespear');
@@ -87532,6 +94477,9 @@ VALUES (9587, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9587, 0, 16778862);
 
+/* Weenie - MiscObjects - Staff Skill Puzzle Piece (9588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9588;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9588, 'skillpuzzlestaff');
 
@@ -87575,6 +94523,9 @@ VALUES (9588, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9588, 0, 16778862);
+
+/* Weenie - MiscObjects - Sword Skill Puzzle Piece (9589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9589;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9589, 'skillpuzzlesword');
@@ -87620,6 +94571,9 @@ VALUES (9589, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9589, 0, 16778862);
 
+/* Weenie - MiscObjects - Unarmed Combat Skill Puzzle Piece (9591) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9591;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9591, 'skillpuzzleunarmed');
 
@@ -87663,6 +94617,9 @@ VALUES (9591, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9591, 0, 16778862);
+
+/* Weenie - MiscObjects - Alchemy Skill Puzzle Piece (9562) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9562;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9562, 'skillpuzzlealchemy');
@@ -87708,6 +94665,9 @@ VALUES (9562, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9562, 0, 16778862);
 
+/* Weenie - MiscObjects - Cooking Skill Puzzle Piece (9581) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9581;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9581, 'skillpuzzlecooking');
 
@@ -87751,6 +94711,9 @@ VALUES (9581, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9581, 0, 16778862);
+
+/* Weenie - MiscObjects - Fletching Skill Puzzle Piece (9583) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9583;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9583, 'skillpuzzlefletching');
@@ -87796,6 +94759,9 @@ VALUES (9583, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9583, 0, 16778862);
 
+/* Weenie - MiscObjects - Advanced Crossbow Skill Puzzle Piece (11650) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11650;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11650, 'skillpuzzlexbowadvanced');
 
@@ -87839,6 +94805,9 @@ VALUES (11650, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11650, 0, 16778862);
+
+/* Weenie - MiscObjects - Advanced Thrown Weapons Skill Puzzle Piece (11653) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11653;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11653, 'skillpuzzlethrownweaponsadvanced');
@@ -87884,6 +94853,9 @@ VALUES (11653, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11653, 0, 16778862);
 
+/* Weenie - MiscObjects - Advanced Axe Skill Puzzle Piece (11649) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11649;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11649, 'skillpuzzleaxeadvanced');
 
@@ -87927,6 +94899,9 @@ VALUES (11649, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11649, 0, 16778862);
+
+/* Weenie - MiscObjects - Advanced Dagger Skill Puzzle Piece (11645) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11645;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11645, 'skillpuzzledaggeradvanced');
@@ -87972,6 +94947,9 @@ VALUES (11645, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11645, 0, 16778862);
 
+/* Weenie - MiscObjects - Advanced Mace Skill Puzzle Piece (11641) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11641;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11641, 'skillpuzzlemaceadvanced');
 
@@ -88015,6 +94993,9 @@ VALUES (11641, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11641, 0, 16778862);
+
+/* Weenie - MiscObjects - Advanced Spear Skill Puzzle Piece (11640) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11640;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11640, 'skillpuzzlespearadvanced');
@@ -88060,6 +95041,9 @@ VALUES (11640, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11640, 0, 16778862);
 
+/* Weenie - MiscObjects - Advanced Staff Skill Puzzle Piece (11655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11655;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11655, 'skillpuzzlestaffadvanced');
 
@@ -88103,6 +95087,9 @@ VALUES (11655, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11655, 0, 16778862);
+
+/* Weenie - MiscObjects - Advanced Sword Skill Puzzle Piece (11654) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11654;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11654, 'skillpuzzleswordadvanced');
@@ -88148,6 +95135,9 @@ VALUES (11654, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11654, 0, 16778862);
 
+/* Weenie - MiscObjects - Advanced Unarmed Combat Skill Puzzle Piece (11652) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11652;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11652, 'skillpuzzleunarmedadvanced');
 
@@ -88191,6 +95181,9 @@ VALUES (11652, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11652, 0, 16778862);
+
+/* Weenie - MiscObjects - Advanced Alchemy Skill Puzzle Piece (11675) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11675;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11675, 'skillpuzzlealchemyadvanced');
@@ -88236,6 +95229,9 @@ VALUES (11675, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11675, 0, 16778862);
 
+/* Weenie - MiscObjects - Advanced Cooking Skill Puzzle Piece (11647) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11647;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11647, 'skillpuzzlecookingadvanced');
 
@@ -88279,6 +95275,9 @@ VALUES (11647, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11647, 0, 16778862);
+
+/* Weenie - MiscObjects - Advanced Fletching Skill Puzzle Piece (11644) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11644;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11644, 'skillpuzzlefletchingadvanced');
@@ -88324,6 +95323,9 @@ VALUES (11644, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11644, 0, 16778862);
 
+/* Weenie - MiscObjects - Mastery Reset Certificate (46422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46422;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46422, 'ace46422-masteryresetcertificate');
 
@@ -88366,6 +95368,9 @@ VALUES (46422, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46422, 0, 16778862);
+
+/* Weenie - MiscObjects - Wrapped Pyreal Sliver (36515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36515;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36515, 'ace36515-wrappedpyrealsliver');
@@ -88415,6 +95420,9 @@ VALUES (36515, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36515, 0, 16778862);
 
+/* Weenie - MiscObjects - The Master Pass (36544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36544;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36544, 'ace36544-themasterpass');
 
@@ -88460,6 +95468,9 @@ VALUES (36544, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36544, 0, 16778862);
 
+/* Weenie - MiscObjects - Gladiator Diemos Pass (36543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36543;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36543, 'ace36543-gladiatordiemospass');
 
@@ -88504,6 +95515,9 @@ VALUES (36543, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36543, 0, 16778862);
+
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Green Garnet (36565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36565;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36565, 'ace36565-sealedbagofsalvagedgreengarnet');
@@ -88553,6 +95567,9 @@ VALUES (36565, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36565, 0, 16778862);
 
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Opal (36575) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36575;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36575, 'ace36575-sealedbagofsalvagedopal');
 
@@ -88600,6 +95617,9 @@ VALUES (36575, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36575, 0, 16778862);
+
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Granite (36564) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36564;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36564, 'ace36564-sealedbagofsalvagedgranite');
@@ -88649,6 +95669,9 @@ VALUES (36564, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36564, 0, 16778862);
 
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Velvet (36569) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36569;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36569, 'ace36569-sealedbagofsalvagedvelvet');
 
@@ -88696,6 +95719,9 @@ VALUES (36569, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36569, 0, 16778862);
+
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Mahogany (36567) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36567;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36567, 'ace36567-sealedbagofsalvagedmahogany');
@@ -88745,6 +95771,9 @@ VALUES (36567, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36567, 0, 16778862);
 
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Brass (36563) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36563;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36563, 'ace36563-sealedbagofsalvagedbrass');
 
@@ -88792,6 +95821,9 @@ VALUES (36563, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36563, 0, 16778862);
+
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Iron (36566) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36566;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36566, 'ace36566-sealedbagofsalvagediron');
@@ -88841,6 +95873,9 @@ VALUES (36566, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36566, 0, 16778862);
 
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Steel (36568) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36568;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36568, 'ace36568-sealedbagofsalvagedsteel');
 
@@ -88889,6 +95924,9 @@ VALUES (36568, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36568, 0, 16778862);
 
+/* Weenie - MiscObjects - Crate of Greater Deadly Blunt Arrowheads (42399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42399;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42399, 'ace42399-crateofgreaterdeadlybluntarrowheads');
 
@@ -88935,6 +95973,9 @@ VALUES (42399, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42399, 0, 16778862);
+
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Sapphire (41875) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41875;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41875, 'ace41875-sealedbagofsalvagedsapphire');
@@ -88984,6 +96025,9 @@ VALUES (41875, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41875, 0, 16778862);
 
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Amber (41860) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41860;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41860, 'ace41860-sealedbagofsalvagedamber');
 
@@ -89031,6 +96075,9 @@ VALUES (41860, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41860, 0, 16778862);
+
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Diamond (41863) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41863;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41863, 'ace41863-sealedbagofsalvageddiamond');
@@ -89080,6 +96127,9 @@ VALUES (41863, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41863, 0, 16778862);
 
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Gromnie Hide (41866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41866;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41866, 'ace41866-sealedbagofsalvagedgromniehide');
 
@@ -89127,6 +96177,9 @@ VALUES (41866, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41866, 0, 16778862);
+
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Pyreal (41869) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41869;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41869, 'ace41869-sealedbagofsalvagedpyreal');
@@ -89176,6 +96229,9 @@ VALUES (41869, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41869, 0, 16778862);
 
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Ruby (41872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41872;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41872, 'ace41872-sealedbagofsalvagedruby');
 
@@ -89224,6 +96280,9 @@ VALUES (41872, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41872, 0, 16778862);
 
+/* Weenie - MiscObjects - Boxed A'nekshay Token (46802) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46802;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46802, 'ace46802-boxedanekshaytoken');
 
@@ -89269,6 +96328,9 @@ VALUES (46802, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46802, 0, 16778862);
+
+/* Weenie - MiscObjects - Boxed Ancient Mhoire Coin (43906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43906;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43906, 'ace43906-boxedancientmhoirecoin');
@@ -89316,6 +96378,9 @@ VALUES (43906, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43906, 0, 16778862);
 
+/* Weenie - MiscObjects - Boxed Small Olthoi Venom Sac (43907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43907;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43907, 'ace43907-boxedsmallolthoivenomsac');
 
@@ -89361,6 +96426,9 @@ VALUES (43907, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43907, 0, 16778862);
+
+/* Weenie - MiscObjects - Sealed crate of Salvaged Black Garnet (43947) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43947;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43947, 'ace43947-sealedcrateofsalvagedblackgarnet');
@@ -89410,6 +96478,9 @@ VALUES (43947, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43947, 0, 16778862);
 
+/* Weenie - MiscObjects - Sealed crate of Salvaged Jet (43948) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43948;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43948, 'ace43948-sealedcrateofsalvagedjet');
 
@@ -89457,6 +96528,9 @@ VALUES (43948, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43948, 0, 16778862);
+
+/* Weenie - MiscObjects - Sealed crate of Salvaged Red Garnet (43949) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43949;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43949, 'ace43949-sealedcrateofsalvagedredgarnet');
@@ -89506,6 +96580,9 @@ VALUES (43949, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43949, 0, 16778862);
 
+/* Weenie - MiscObjects - Sealed crate of Salvaged Sandstone (43950) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43950;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43950, 'ace43950-sealedcrateofsalvagedsandstone');
 
@@ -89553,6 +96630,9 @@ VALUES (43950, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43950, 0, 16778862);
+
+/* Weenie - MiscObjects - Light Weapons Glyph (19401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19401;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19401, 'glyphnewaxe');
@@ -89602,6 +96682,9 @@ VALUES (19401, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19401, 0, 16778862);
 
+/* Weenie - MiscObjects - Atlatl Glyph (21972) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21972;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21972, 'glyphatlatl');
 
@@ -89649,6 +96732,9 @@ VALUES (21972, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21972, 0, 16778862);
+
+/* Weenie - MiscObjects - Mace Glyph (6325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6325;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6325, 'glyphmace');
@@ -89698,6 +96784,9 @@ VALUES (6325, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6325, 0, 16778862);
 
+/* Weenie - MiscObjects - Spear Glyph (6326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6326, 'glyphspear');
 
@@ -89745,6 +96834,9 @@ VALUES (6326, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6326, 0, 16778862);
+
+/* Weenie - MiscObjects - Two Handed Spear Glyph (41618) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41618;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41618, 'ace41618-twohandedspearglyph');
@@ -89794,6 +96886,9 @@ VALUES (41618, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41618, 0, 16778862);
 
+/* Weenie - MiscObjects - Weeping Atlatl Cast (46265) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46265;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46265, 'ace46265-weepingatlatlcast');
 
@@ -89837,6 +96932,9 @@ VALUES (46265, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46265, 0, 16778862);
+
+/* Weenie - MiscObjects - Weeping Crossbow Cast (46268) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46268;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46268, 'ace46268-weepingcrossbowcast');
@@ -89882,6 +96980,9 @@ VALUES (46268, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46268, 0, 16778862);
 
+/* Weenie - MiscObjects - Weeping Axe Cast (46266) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46266;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46266, 'ace46266-weepingaxecast');
 
@@ -89925,6 +97026,9 @@ VALUES (46266, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46266, 0, 16778862);
+
+/* Weenie - MiscObjects - Weeping Dagger Cast (46269) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46269;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46269, 'ace46269-weepingdaggercast');
@@ -89970,6 +97074,9 @@ VALUES (46269, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46269, 0, 16778862);
 
+/* Weenie - MiscObjects - Weeping Claw Cast (46270) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46270;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46270, 'ace46270-weepingclawcast');
 
@@ -90013,6 +97120,9 @@ VALUES (46270, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46270, 0, 16778862);
+
+/* Weenie - MiscObjects - Weeping Spear Cast (46272) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46272;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46272, 'ace46272-weepingspearcast');
@@ -90058,6 +97168,9 @@ VALUES (46272, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46272, 0, 16778862);
 
+/* Weenie - MiscObjects - Weeping Staff Cast (46273) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46273;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46273, 'ace46273-weepingstaffcast');
 
@@ -90101,6 +97214,9 @@ VALUES (46273, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46273, 0, 16778862);
+
+/* Weenie - MiscObjects - Weeping Sword Cast (46274) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46274;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46274, 'ace46274-weepingswordcast');
@@ -90146,6 +97262,9 @@ VALUES (46274, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46274, 0, 16778862);
 
+/* Weenie - MiscObjects - Weeping Two Handed Spear Cast (46275) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46275;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46275, 'ace46275-weepingtwohandedspearcast');
 
@@ -90190,6 +97309,9 @@ VALUES (46275, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46275, 0, 16778862);
 
+/* Weenie - MiscObjects - Weeping Wand Cast (46276) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46276;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46276, 'ace46276-weepingwandcast');
 
@@ -90233,6 +97355,9 @@ VALUES (46276, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46276, 0, 16778862);
+
+/* Weenie - MiscObjects - Left-hand Tether (45683) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45683;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45683, 'ace45683-lefthandtether');
@@ -90280,6 +97405,9 @@ VALUES (45683, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45683, 0, 16778862);
+
+/* Weenie - MiscObjects - Atlatl Stamped Silveran Ingot (41718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41718;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41718, 'ace41718-atlatlstampedsilveraningot');
@@ -90330,6 +97458,9 @@ VALUES (41718, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41718, 0, 16778862);
 
+/* Weenie - MiscObjects - Axe Stamped Silveran Ingot (41719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41719;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41719, 'ace41719-axestampedsilveraningot');
 
@@ -90378,6 +97509,9 @@ VALUES (41719, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41719, 0, 16778862);
+
+/* Weenie - MiscObjects - Casting Staff Stamped Silveran Ingot (41721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41721;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41721, 'ace41721-castingstaffstampedsilveraningot');
@@ -90428,6 +97562,9 @@ VALUES (41721, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41721, 0, 16778862);
 
+/* Weenie - MiscObjects - Claw Stamped Silveran Ingot (41722) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41722;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41722, 'ace41722-clawstampedsilveraningot');
 
@@ -90476,6 +97613,9 @@ VALUES (41722, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41722, 0, 16778862);
+
+/* Weenie - MiscObjects - Crossbow Stamped Silveran Ingot (41723) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41723;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41723, 'ace41723-crossbowstampedsilveraningot');
@@ -90526,6 +97666,9 @@ VALUES (41723, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41723, 0, 16778862);
 
+/* Weenie - MiscObjects - Dagger Stamped Silveran Ingot (41724) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41724;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41724, 'ace41724-daggerstampedsilveraningot');
 
@@ -90574,6 +97717,9 @@ VALUES (41724, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41724, 0, 16778862);
+
+/* Weenie - MiscObjects - Mace Stamped Silveran Ingot (41725) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41725;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41725, 'ace41725-macestampedsilveraningot');
@@ -90624,6 +97770,9 @@ VALUES (41725, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41725, 0, 16778862);
 
+/* Weenie - MiscObjects - Spear Stamped Silveran Ingot (41726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41726;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41726, 'ace41726-spearstampedsilveraningot');
 
@@ -90672,6 +97821,9 @@ VALUES (41726, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41726, 0, 16778862);
+
+/* Weenie - MiscObjects - Staff Stamped Silveran Ingot (41727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41727;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41727, 'ace41727-staffstampedsilveraningot');
@@ -90722,6 +97874,9 @@ VALUES (41727, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41727, 0, 16778862);
 
+/* Weenie - MiscObjects - Sword Stamped Silveran Ingot (41728) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41728;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41728, 'ace41728-swordstampedsilveraningot');
 
@@ -90770,6 +97925,9 @@ VALUES (41728, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41728, 0, 16778862);
+
+/* Weenie - MiscObjects - Two Handed Sword Stamped Silveran Ingot (41729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41729;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41729, 'ace41729-twohandedswordstampedsilveraningot');
@@ -90820,6 +97978,9 @@ VALUES (41729, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41729, 0, 16778862);
 
+/* Weenie - MiscObjects - Eldrytch Web Banner (38718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38718;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38718, 'ace38718-eldrytchwebbanner');
 
@@ -90864,6 +98025,9 @@ VALUES (38718, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38718, 0, 16778862);
+
+/* Weenie - MiscObjects - Chess Stamp (22098) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22098;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22098, 'stampsymbolchess');
@@ -90914,6 +98078,9 @@ VALUES (22098, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22098, 0, 16778862);
 
+/* Weenie - MiscObjects - "Doom Hammer" Summoning Gem (35535) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35535;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35535, 'ace35535-"doomhammer"summoninggem');
 
@@ -90962,6 +98129,9 @@ VALUES (35535, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35535, 0, 16778862);
+
+/* Weenie - MiscObjects - "Burning Bow" Summoning Gem (35536) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35536;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35536, 'ace35536-"burningbow"summoninggem');
@@ -91012,6 +98182,9 @@ VALUES (35536, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35536, 0, 16778862);
 
+/* Weenie - MiscObjects - "Assassin's Dagger" Summoning Gem (35538) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35538;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35538, 'ace35538-"assassinsdagger"summoninggem');
 
@@ -91060,6 +98233,9 @@ VALUES (35538, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35538, 0, 16778862);
+
+/* Weenie - MiscObjects - "Club of Undead Bashing" Summoning Gem (35539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35539;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35539, 'ace35539-"clubofundeadbashing"summoninggem');
@@ -91110,6 +98286,9 @@ VALUES (35539, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35539, 0, 16778862);
 
+/* Weenie - MiscObjects - "Chorizite Staff" Summoning Gem (35541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35541;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35541, 'ace35541-"chorizitestaff"summoninggem');
 
@@ -91158,6 +98337,9 @@ VALUES (35541, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35541, 0, 16778862);
+
+/* Weenie - MiscObjects - "Commoner's Two Handed Sword" Summoning Gem (41856) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41856;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41856, 'ace41856-"commonerstwohandedsword"summoninggem');
@@ -91208,6 +98390,9 @@ VALUES (41856, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41856, 0, 16778862);
 
+/* Weenie - MiscObjects - "Throwing Daggers of Ice" Summoning Gem (35544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35544;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35544, 'ace35544-"throwingdaggersofice"summoninggem');
 
@@ -91256,6 +98441,9 @@ VALUES (35544, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35544, 0, 16778862);
+
+/* Weenie - MiscObjects - "Vampire's Kiss" Summoning Gem (35545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35545;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35545, 'ace35545-"vampireskiss"summoninggem');
@@ -91306,6 +98494,9 @@ VALUES (35545, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35545, 0, 16778862);
 
+/* Weenie - MiscObjects - "Ice Wand" Summoning Gem (35546) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35546;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35546, 'ace35546-"icewand"summoninggem');
 
@@ -91355,6 +98546,9 @@ VALUES (35546, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35546, 0, 16778862);
 
+/* Weenie - MiscObjects - Radiant Blood Gauntlet Writ (53410) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53410;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53410, 'ace53410-radiantbloodgauntletwrit');
 
@@ -91400,6 +98594,9 @@ VALUES (53410, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53410, 0, 16778862);
+
+/* Weenie - MiscObjects - Crate of Burning Sands Arrowheads (44211) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44211;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44211, 'ace44211-crateofburningsandsarrowheads');
@@ -91448,6 +98645,9 @@ VALUES (44211, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44211, 0, 16778862);
 
+/* Weenie - MiscObjects - A'nekshay Luminance Certificate (47158) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47158;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47158, 'ace47158-anekshayluminancecertificate');
 
@@ -91492,6 +98692,9 @@ VALUES (47158, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47158, 0, 16778862);
+
+/* Weenie - MiscObjects - Chimeric Atlatl of the Quiddity Summoning Gem (36364) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36364;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36364, 'ace36364-chimericatlatlofthequidditysummoninggem');
@@ -91542,6 +98745,9 @@ VALUES (36364, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36364, 0, 16778862);
 
+/* Weenie - MiscObjects - Chimeric Axe of the Quiddity Summoning Gem (36365) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36365;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36365, 'ace36365-chimericaxeofthequidditysummoninggem');
 
@@ -91590,6 +98796,9 @@ VALUES (36365, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36365, 0, 16778862);
+
+/* Weenie - MiscObjects - Chimeric Dagger of the Quiddity Summoning Gem (36368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36368;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36368, 'ace36368-chimericdaggerofthequidditysummoninggem');
@@ -91640,6 +98849,9 @@ VALUES (36368, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36368, 0, 16778862);
 
+/* Weenie - MiscObjects - Chimeric Mace of the Quiddity Summoning Gem (36369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36369;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36369, 'ace36369-chimericmaceofthequidditysummoninggem');
 
@@ -91688,6 +98900,9 @@ VALUES (36369, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36369, 0, 16778862);
+
+/* Weenie - MiscObjects - Chimeric Eye of the Quiddity Summoning Gem (36370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36370;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36370, 'ace36370-chimericeyeofthequidditysummoninggem');
@@ -91738,6 +98953,9 @@ VALUES (36370, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36370, 0, 16778862);
 
+/* Weenie - MiscObjects - Chimeric Lance of the Quiddity Summoning Gem (36371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36371;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36371, 'ace36371-chimericlanceofthequidditysummoninggem');
 
@@ -91786,6 +99004,9 @@ VALUES (36371, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36371, 0, 16778862);
+
+/* Weenie - MiscObjects - Chimeric Stave of the Quiddity Summoning Gem (36372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36372;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36372, 'ace36372-chimericstaveofthequidditysummoninggem');
@@ -91836,6 +99057,9 @@ VALUES (36372, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36372, 0, 16778862);
 
+/* Weenie - MiscObjects - Chimeric Blade of the Quiddity Summoning Gem (36373) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36373;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36373, 'ace36373-chimericbladeofthequidditysummoninggem');
 
@@ -91884,6 +99108,9 @@ VALUES (36373, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36373, 0, 16778862);
+
+/* Weenie - MiscObjects - Chimeric Two Handed Blade of the Quiddity Summoning Gem (41855) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41855;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41855, 'ace41855-chimerictwohandedbladeofthequidditysummoninggem');
@@ -91934,6 +99161,9 @@ VALUES (41855, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41855, 0, 16778862);
 
+/* Weenie - MiscObjects - Chimeric Fist of the Quiddity Summoning Gem (36374) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36374;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36374, 'ace36374-chimericfistofthequidditysummoninggem');
 
@@ -91983,6 +99213,9 @@ VALUES (36374, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36374, 0, 16778862);
 
+/* Weenie - MiscObjects - Crate of Olthoi Acid Arrowheads (36375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36375;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36375, 'ace36375-crateofolthoiacidarrowheads');
 
@@ -92029,6 +99262,9 @@ VALUES (36375, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36375, 0, 16778862);
+
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Sapphire (41876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41876;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41876, 'ace41876-sealedbagofsalvagedsapphire');
@@ -92078,6 +99314,9 @@ VALUES (41876, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41876, 0, 16778862);
 
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Amber (41861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41861;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41861, 'ace41861-sealedbagofsalvagedamber');
 
@@ -92125,6 +99364,9 @@ VALUES (41861, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41861, 0, 16778862);
+
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Diamond (41864) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41864;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41864, 'ace41864-sealedbagofsalvageddiamond');
@@ -92174,6 +99416,9 @@ VALUES (41864, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41864, 0, 16778862);
 
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Gromnie Hide (41867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41867;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41867, 'ace41867-sealedbagofsalvagedgromniehide');
 
@@ -92221,6 +99466,9 @@ VALUES (41867, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41867, 0, 16778862);
+
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Pyreal (41870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41870;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41870, 'ace41870-sealedbagofsalvagedpyreal');
@@ -92270,6 +99518,9 @@ VALUES (41870, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41870, 0, 16778862);
 
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Ruby (41873) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41873;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41873, 'ace41873-sealedbagofsalvagedruby');
 
@@ -92318,6 +99569,9 @@ VALUES (41873, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41873, 0, 16778862);
 
+/* Weenie - MiscObjects - Inert Olthoibane Infusion (40514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40514;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40514, 'ace40514-inertolthoibaneinfusion');
 
@@ -92362,6 +99616,9 @@ VALUES (40514, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40514, 0, 16778862);
 
+/* Weenie - MiscObjects - Aerbax Pack Doll Orders (37532) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37532;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37532, 'ace37532-aerbaxpackdollorders');
 
@@ -92402,6 +99659,9 @@ VALUES (37532, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37532, 0, 16778862);
+
+/* Weenie - MiscObjects - Aluvian Casino Key Orders (37533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37533;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37533, 'ace37533-aluviancasinokeyorders');
@@ -92444,6 +99704,9 @@ VALUES (37533, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37533, 0, 16778862);
 
+/* Weenie - MiscObjects - Gharu'ndim Casino Key Orders (37534) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37534;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37534, 'ace37534-gharundimcasinokeyorders');
 
@@ -92484,6 +99747,9 @@ VALUES (37534, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37534, 0, 16778862);
+
+/* Weenie - MiscObjects - Sho Casino Key Orders (37535) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37535;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37535, 'ace37535-shocasinokeyorders');
@@ -92526,6 +99792,9 @@ VALUES (37535, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37535, 0, 16778862);
 
+/* Weenie - MiscObjects - Foolproof Aquamarine Orders (37520) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37520;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37520, 'ace37520-foolproofaquamarineorders');
 
@@ -92566,6 +99835,9 @@ VALUES (37520, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37520, 0, 16778862);
+
+/* Weenie - MiscObjects - Foolproof Black Garnet Orders (37521) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37521;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37521, 'ace37521-foolproofblackgarnetorders');
@@ -92608,6 +99880,9 @@ VALUES (37521, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37521, 0, 16778862);
 
+/* Weenie - MiscObjects - Foolproof Black Opal Orders (37522) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37522;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37522, 'ace37522-foolproofblackopalorders');
 
@@ -92648,6 +99923,9 @@ VALUES (37522, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37522, 0, 16778862);
+
+/* Weenie - MiscObjects - Foolproof Emerald Orders (37523) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37523;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37523, 'ace37523-foolproofemeraldorders');
@@ -92690,6 +99968,9 @@ VALUES (37523, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37523, 0, 16778862);
 
+/* Weenie - MiscObjects - Foolproof Fire Opal Orders (37524) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37524;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37524, 'ace37524-foolprooffireopalorders');
 
@@ -92730,6 +100011,9 @@ VALUES (37524, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37524, 0, 16778862);
+
+/* Weenie - MiscObjects - Foolproof Imperial Topaz Orders (37525) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37525;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37525, 'ace37525-foolproofimperialtopazorders');
@@ -92772,6 +100056,9 @@ VALUES (37525, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37525, 0, 16778862);
 
+/* Weenie - MiscObjects - Foolproof Jet Orders (37526) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37526;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37526, 'ace37526-foolproofjetorders');
 
@@ -92812,6 +100099,9 @@ VALUES (37526, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37526, 0, 16778862);
+
+/* Weenie - MiscObjects - Foolproof Red Garnet Orders (37528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37528;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37528, 'ace37528-foolproofredgarnetorders');
@@ -92854,6 +100144,9 @@ VALUES (37528, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37528, 0, 16778862);
 
+/* Weenie - MiscObjects - Foolproof Sunstone Orders (37529) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37529;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37529, 'ace37529-foolproofsunstoneorders');
 
@@ -92894,6 +100187,9 @@ VALUES (37529, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37529, 0, 16778862);
+
+/* Weenie - MiscObjects - Foolproof White Sapphire Orders (37560) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37560;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37560, 'ace37560-foolproofwhitesapphireorders');
@@ -92936,6 +100232,9 @@ VALUES (37560, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37560, 0, 16778862);
 
+/* Weenie - MiscObjects - Foolproof Peridot Orders (37527) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37527;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37527, 'ace37527-foolproofperidotorders');
 
@@ -92976,6 +100275,9 @@ VALUES (37527, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37527, 0, 16778862);
+
+/* Weenie - MiscObjects - Foolproof Yellow Topaz Orders (37530) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37530;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37530, 'ace37530-foolproofyellowtopazorders');
@@ -93018,6 +100320,9 @@ VALUES (37530, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37530, 0, 16778862);
 
+/* Weenie - MiscObjects - Foolproof Zircon Orders (37531) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37531;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37531, 'ace37531-foolproofzirconorders');
 
@@ -93059,6 +100364,9 @@ VALUES (37531, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37531, 0, 16778862);
 
+/* Weenie - MiscObjects - Enhanced Mana Elixir Orders (37519) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37519;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37519, 'ace37519-enhancedmanaelixirorders');
 
@@ -93099,6 +100407,9 @@ VALUES (37519, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37519, 0, 16778862);
+
+/* Weenie - MiscObjects - Celestial Hand Gauntlet Writ (53408) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53408;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53408, 'ace53408-celestialhandgauntletwrit');
@@ -93145,6 +100456,9 @@ VALUES (53408, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53408, 0, 16778862);
+
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Amber (41766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41766;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41766, 'ace41766-sealedbagofsalvagedamber');
@@ -93194,6 +100508,9 @@ VALUES (41766, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41766, 0, 16778862);
 
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Diamond (41767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41767;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41767, 'ace41767-sealedbagofsalvageddiamond');
 
@@ -93241,6 +100558,9 @@ VALUES (41767, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41767, 0, 16778862);
+
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Gromnie Hide (41768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41768;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41768, 'ace41768-sealedbagofsalvagedgromniehide');
@@ -93290,6 +100610,9 @@ VALUES (41768, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41768, 0, 16778862);
 
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Pyreal (41769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41769;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41769, 'ace41769-sealedbagofsalvagedpyreal');
 
@@ -93337,6 +100660,9 @@ VALUES (41769, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41769, 0, 16778862);
+
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Ruby (41770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41770;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41770, 'ace41770-sealedbagofsalvagedruby');
@@ -93386,6 +100712,9 @@ VALUES (41770, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41770, 0, 16778862);
 
+/* Weenie - MiscObjects - Sealed Bag of Salvaged Sapphire (41771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41771;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41771, 'ace41771-sealedbagofsalvagedsapphire');
 
@@ -93433,6 +100762,9 @@ VALUES (41771, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41771, 0, 16778862);
+
+/* Weenie - MiscObjects - Mace Stamped Spectral Ingot (37472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37472;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37472, 'ace37472-macestampedspectralingot');
@@ -93483,6 +100815,9 @@ VALUES (37472, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37472, 0, 16778862);
 
+/* Weenie - MiscObjects - Archer Tower Token (39736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39736;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39736, 'ace39736-archertowertoken');
 
@@ -93527,6 +100862,9 @@ VALUES (39736, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39736, 0, 16778862);
+
+/* Weenie - MiscObjects - Flame Bolt Tower Token (39737) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39737;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39737, 'ace39737-flamebolttowertoken');
@@ -93573,6 +100911,9 @@ VALUES (39737, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39737, 0, 16778862);
 
+/* Weenie - MiscObjects - Trap Tower Token (39740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39740;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39740, 'ace39740-traptowertoken');
 
@@ -93617,6 +100958,9 @@ VALUES (39740, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39740, 0, 16778862);
+
+/* Weenie - MiscObjects - Uber Tower Token (39741) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39741;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39741, 'ace39741-ubertowertoken');
@@ -93663,6 +101007,9 @@ VALUES (39741, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39741, 0, 16778862);
 
+/* Weenie - MiscObjects - First Upgrade Token (39742) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39742;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39742, 'ace39742-firstupgradetoken');
 
@@ -93707,6 +101054,9 @@ VALUES (39742, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39742, 0, 16778862);
+
+/* Weenie - MiscObjects - Second Upgrade Token (39743) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39743;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39743, 'ace39743-secondupgradetoken');
@@ -93753,6 +101103,9 @@ VALUES (39743, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39743, 0, 16778862);
 
+/* Weenie - MiscObjects - Third Upgrade Token (39744) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39744;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39744, 'ace39744-thirdupgradetoken');
 
@@ -93797,6 +101150,9 @@ VALUES (39744, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39744, 0, 16778862);
+
+/* Weenie - MiscObjects - Eldrytch Web Gauntlet Writ (53409) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53409;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53409, 'ace53409-eldrytchwebgauntletwrit');
@@ -93844,6 +101200,9 @@ VALUES (53409, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53409, 0, 16778862);
 
+/* Weenie - MiscObjects - Acid Natural Resistance (43912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43912;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43912, 'ace43912-acidnaturalresistance');
 
@@ -93888,6 +101247,9 @@ VALUES (43912, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43912, 0, 16778862);
+
+/* Weenie - MiscObjects - Fire Natural Resistance (43913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43913;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43913, 'ace43913-firenaturalresistance');
@@ -93934,6 +101296,9 @@ VALUES (43913, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43913, 0, 16778862);
 
+/* Weenie - MiscObjects - Cold Natural Resistance (43920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43920;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43920, 'ace43920-coldnaturalresistance');
 
@@ -93978,6 +101343,9 @@ VALUES (43920, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43920, 0, 16778862);
+
+/* Weenie - MiscObjects - Electrical Natural Resistance (43914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43914;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43914, 'ace43914-electricalnaturalresistance');
@@ -94024,6 +101392,9 @@ VALUES (43914, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43914, 0, 16778862);
 
+/* Weenie - MiscObjects - Bludgeon Natural Resistance (43923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43923;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43923, 'ace43923-bludgeonnaturalresistance');
 
@@ -94068,6 +101439,9 @@ VALUES (43923, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43923, 0, 16778862);
+
+/* Weenie - MiscObjects - Piercing Natural Resistance (43922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43922;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43922, 'ace43922-piercingnaturalresistance');
@@ -94114,6 +101488,9 @@ VALUES (43922, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43922, 0, 16778862);
 
+/* Weenie - MiscObjects - Slashing Natural Resistance (43921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43921;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43921, 'ace43921-slashingnaturalresistance');
 
@@ -94158,6 +101535,9 @@ VALUES (43921, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43921, 0, 16778862);
+
+/* Weenie - MiscObjects - Alchemy Sigil (34894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34894;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34894, 'ace34894-alchemysigil');
@@ -94207,6 +101587,9 @@ VALUES (34894, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34894, 0, 16778862);
 
+/* Weenie - MiscObjects - Cooking Sigil (34895) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34895;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34895, 'ace34895-cookingsigil');
 
@@ -94255,6 +101638,9 @@ VALUES (34895, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34895, 0, 16778862);
 
+/* Weenie - MiscObjects - Fletching Sigil (34896) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34896;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34896, 'ace34896-fletchingsigil');
 
@@ -94302,6 +101688,9 @@ VALUES (34896, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34896, 0, 16778862);
+
+/* Weenie - MiscObjects - Torn Journal Page - Page 2 (31721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31721;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31721, 'ace31721-tornjournalpagepage2');

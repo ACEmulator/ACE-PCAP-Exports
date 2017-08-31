@@ -1,3 +1,6 @@
+/* Weenie - GameBoards - Chess Board (14341) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14341;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14341, 'chessboard');
 

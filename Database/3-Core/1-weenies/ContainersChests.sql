@@ -1,3 +1,6 @@
+/* Weenie - ContainersChests - Runed Chest (26620) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26620;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26620, 'chestquestunlockedlowpoig');
 
@@ -33,6 +36,9 @@ VALUES (26620, 12, True)
      , (26620, 14, True)
      , (26620, 19, True)
      , (26620, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (22571) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22571;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22571, 'chestquestunlockedhigh');
@@ -70,6 +76,9 @@ VALUES (22571, 12, True)
      , (22571, 19, True)
      , (22571, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (22570) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22570;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22570, 'chestquestlockedmid');
 
@@ -105,6 +114,9 @@ VALUES (22570, 12, True)
      , (22570, 14, True)
      , (22570, 19, True)
      , (22570, 1, True);
+
+/* Weenie - ContainersChests - Directive's Cache (9286) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9286;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9286, 'chestvirindidirective');
@@ -149,6 +161,9 @@ VALUES (9286, 67113155, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9286, 9, 16785621);
 
+/* Weenie - ContainersChests - Runed Chest (22576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22576;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22576, 'chestquestunlockedmid');
 
@@ -184,6 +199,9 @@ VALUES (22576, 12, True)
      , (22576, 14, True)
      , (22576, 19, True)
      , (22576, 1, True);
+
+/* Weenie - ContainersChests - Coffer (145) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 145;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (145, 'coffer');
@@ -221,6 +239,9 @@ VALUES (145, 12, True)
      , (145, 14, True)
      , (145, 19, True)
      , (145, 1, True);
+
+/* Weenie - ContainersChests - Chest (1930) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1930;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1930, 'chestmoneylow');
@@ -260,6 +281,9 @@ VALUES (1930, 12, True)
      , (1930, 19, True)
      , (1930, 1, True);
 
+/* Weenie - ContainersChests - Chest (1943) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1943;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1943, 'chestwarriorghalow');
 
@@ -295,6 +319,9 @@ VALUES (1943, 12, True)
      , (1943, 14, True)
      , (1943, 19, True)
      , (1943, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (22568) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22568;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22568, 'chestquestlockedlow');
@@ -332,6 +359,9 @@ VALUES (22568, 12, True)
      , (22568, 19, True)
      , (22568, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (22572) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22572;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22572, 'chestquestunlockedlow');
 
@@ -367,6 +397,9 @@ VALUES (22572, 12, True)
      , (22572, 14, True)
      , (22572, 19, True)
      , (22572, 1, True);
+
+/* Weenie - ContainersChests - Dirty Old Crate (31443) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31443;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31443, 'ace31443-dirtyoldcrate');
@@ -404,6 +437,9 @@ VALUES (31443, 12, True)
      , (31443, 19, True)
      , (31443, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (22567) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22567;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22567, 'chestquestlockedhigh');
 
@@ -439,6 +475,9 @@ VALUES (22567, 12, True)
      , (22567, 14, True)
      , (22567, 19, True)
      , (22567, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (22566) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22566;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22566, 'chestquestlockedextreme');
@@ -476,6 +515,9 @@ VALUES (22566, 12, True)
      , (22566, 19, True)
      , (22566, 1, True);
 
+/* Weenie - ContainersChests - Chest (143) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 143;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (143, 'chest');
 
@@ -511,6 +553,9 @@ VALUES (143, 12, True)
      , (143, 14, True)
      , (143, 19, True)
      , (143, 1, True);
+
+/* Weenie - ContainersChests - Old Footlocker (33828) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33828;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33828, 'ace33828-oldfootlocker');
@@ -548,6 +593,9 @@ VALUES (33828, 12, True)
      , (33828, 19, True)
      , (33828, 1, True);
 
+/* Weenie - ContainersChests - History Shelf (8864) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8864;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8864, 'shelfhistory');
 
@@ -579,6 +627,9 @@ VALUES (8864, 11, True)
      , (8864, 14, True)
      , (8864, 19, True)
      , (8864, 1, True);
+
+/* Weenie - ContainersChests - Mana Forge Magic Chest (38445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38445;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38445, 'ace38445-manaforgemagicchest');
@@ -616,6 +667,9 @@ VALUES (38445, 12, True)
      , (38445, 19, True)
      , (38445, 1, True);
 
+/* Weenie - ContainersChests - Mana Forge Advanced Equipment Chest (38447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38447;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38447, 'ace38447-manaforgeadvancedequipmentchest');
 
@@ -651,6 +705,9 @@ VALUES (38447, 12, True)
      , (38447, 14, True)
      , (38447, 19, True)
      , (38447, 1, True);
+
+/* Weenie - ContainersChests - Mana Forge Weapon Chest (38457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38457;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38457, 'ace38457-manaforgeweaponchest');
@@ -688,6 +745,9 @@ VALUES (38457, 12, True)
      , (38457, 19, True)
      , (38457, 1, True);
 
+/* Weenie - ContainersChests - Mana Forge Armor Chest (38444) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38444;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38444, 'ace38444-manaforgearmorchest');
 
@@ -723,6 +783,9 @@ VALUES (38444, 12, True)
      , (38444, 14, True)
      , (38444, 19, True)
      , (38444, 1, True);
+
+/* Weenie - ContainersChests - Mana Forge Mixed Equipment Chest (38443) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38443;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38443, 'ace38443-manaforgemixedequipmentchest');
@@ -760,6 +823,9 @@ VALUES (38443, 12, True)
      , (38443, 19, True)
      , (38443, 1, True);
 
+/* Weenie - ContainersChests - Mana Forge Weapon Chest (38446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38446;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38446, 'ace38446-manaforgeweaponchest');
 
@@ -796,6 +862,9 @@ VALUES (38446, 12, True)
      , (38446, 19, True)
      , (38446, 1, True);
 
+/* Weenie - ContainersChests - Sho Pathwarden Chest (33611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33611;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33611, 'ace33611-shopathwardenchest');
 
@@ -831,6 +900,9 @@ VALUES (33611, 12, True)
      , (33611, 14, True)
      , (33611, 19, True)
      , (33611, 1, True);
+
+/* Weenie - ContainersChests - Gan-Zo's Golden Chest (9462) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9462;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9462, 'chestgamblersho');
@@ -881,6 +953,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (9462, 0, 16778639)
      , (9462, 1, 16778642);
 
+/* Weenie - ContainersChests - Grand Casino Chest (38942) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38942;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38942, 'ace38942-grandcasinochest');
 
@@ -929,6 +1004,9 @@ VALUES (38942, 0, 83888750, 83893246)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38942, 0, 16778639)
      , (38942, 1, 16778642);
+
+/* Weenie - ContainersChests - Exquisite Casino Chest (52032) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52032;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52032, 'ace52032-exquisitecasinochest');
@@ -979,6 +1057,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (52032, 0, 16778639)
      , (52032, 1, 16778642);
 
+/* Weenie - ContainersChests - Storage (22207) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22207;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22207, 'storagechestfake');
 
@@ -1014,6 +1095,9 @@ VALUES (22207, 12, True)
      , (22207, 14, True)
      , (22207, 19, True)
      , (22207, 1, True);
+
+/* Weenie - ContainersChests - Legendary Chest (48743) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48743;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48743, 'ace48743-legendarychest');
@@ -1052,6 +1136,9 @@ VALUES (48743, 12, True)
      , (48743, 19, True)
      , (48743, 1, True);
 
+/* Weenie - ContainersChests - Black Marrow Reliquary (30795) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30795;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30795, 'chestblackmarrowreliquaryoasis');
 
@@ -1088,6 +1175,9 @@ VALUES (30795, 12, True)
      , (30795, 19, True)
      , (30795, 1, True);
 
+/* Weenie - ContainersChests - Black Marrow Reliquary (30793) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30793;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30793, 'chestblackmarrowreliquaryfloatingbridge');
 
@@ -1123,6 +1213,9 @@ VALUES (30793, 12, True)
      , (30793, 14, True)
      , (30793, 19, True)
      , (30793, 1, True);
+
+/* Weenie - ContainersChests - Sanatorium Chest (22907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22907;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22907, 'chestaerbax2');
@@ -1166,6 +1259,9 @@ VALUES (22907, 67113796, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22907, 9, 16785621);
 
+/* Weenie - ContainersChests - Black Marrow Reliquary (30797) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30797;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30797, 'chestblackmarrowreliquaryburningtower');
 
@@ -1202,6 +1298,9 @@ VALUES (30797, 12, True)
      , (30797, 19, True)
      , (30797, 1, True);
 
+/* Weenie - ContainersChests - Book Shelf (1115) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1115;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1115, 'bookshelf');
 
@@ -1234,6 +1333,9 @@ VALUES (1115, 11, True)
      , (1115, 14, True)
      , (1115, 19, True)
      , (1115, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (24675) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24675;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24675, 'chestquestunlockedhighpoid');
@@ -1271,6 +1373,9 @@ VALUES (24675, 12, True)
      , (24675, 19, True)
      , (24675, 1, True);
 
+/* Weenie - ContainersChests - Chest (1929) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1929;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1929, 'chestmoneyhigh');
 
@@ -1306,6 +1411,9 @@ VALUES (1929, 12, True)
      , (1929, 14, True)
      , (1929, 19, True)
      , (1929, 1, True);
+
+/* Weenie - ContainersChests - Sturdy Steel Chest (24476) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24476;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24476, 'chestgeneralextremelocked');
@@ -1343,6 +1451,9 @@ VALUES (24476, 12, True)
      , (24476, 19, True)
      , (24476, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (26618) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26618;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26618, 'chestquestunlockedhighpoig');
 
@@ -1378,6 +1489,9 @@ VALUES (26618, 12, True)
      , (26618, 14, True)
      , (26618, 19, True)
      , (26618, 1, True);
+
+/* Weenie - ContainersChests - Chest (1914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1914;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1914, 'chestgeneralhigh');
@@ -1415,6 +1529,9 @@ VALUES (1914, 12, True)
      , (1914, 19, True)
      , (1914, 1, True);
 
+/* Weenie - ContainersChests - Chest (1926) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1926;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1926, 'chestminerhigh');
 
@@ -1450,6 +1567,9 @@ VALUES (1926, 12, True)
      , (1926, 14, True)
      , (1926, 19, True)
      , (1926, 1, True);
+
+/* Weenie - ContainersChests - Chest (3971) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3971;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3971, 'chestmagicmedlocked');
@@ -1487,6 +1607,9 @@ VALUES (3971, 12, True)
      , (3971, 19, True)
      , (3971, 1, True);
 
+/* Weenie - ContainersChests - Black Marrow Reliquary (30796) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30796;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30796, 'chestblackmarrowreliquary');
 
@@ -1522,6 +1645,9 @@ VALUES (30796, 12, True)
      , (30796, 14, True)
      , (30796, 19, True)
      , (30796, 1, True);
+
+/* Weenie - ContainersChests - Black Marrow Reliquary (30794) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30794;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30794, 'chestblackmarrowreliquaryfloatingtower');
@@ -1559,6 +1685,9 @@ VALUES (30794, 12, True)
      , (30794, 19, True)
      , (30794, 1, True);
 
+/* Weenie - ContainersChests - Chest (1922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1922;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1922, 'chesthealermed');
 
@@ -1594,6 +1723,9 @@ VALUES (1922, 12, True)
      , (1922, 14, True)
      , (1922, 19, True)
      , (1922, 1, True);
+
+/* Weenie - ContainersChests - Viamontian Pathwarden Chest (33612) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33612;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33612, 'ace33612-viamontianpathwardenchest');
@@ -1631,6 +1763,9 @@ VALUES (33612, 12, True)
      , (33612, 19, True)
      , (33612, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (24677) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24677;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24677, 'chestquestunlockedlowpoic');
 
@@ -1666,6 +1801,9 @@ VALUES (24677, 12, True)
      , (24677, 14, True)
      , (24677, 19, True)
      , (24677, 1, True);
+
+/* Weenie - ContainersChests - Coral Encrusted Chest (37413) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37413;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37413, 'ace37413-coralencrustedchest');
@@ -1703,6 +1841,9 @@ VALUES (37413, 12, True)
      , (37413, 19, True)
      , (37413, 1, True);
 
+/* Weenie - ContainersChests - Chest (3970) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3970;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3970, 'chestmagiclowlocked');
 
@@ -1738,6 +1879,9 @@ VALUES (3970, 12, True)
      , (3970, 14, True)
      , (3970, 19, True)
      , (3970, 1, True);
+
+/* Weenie - ContainersChests - Chest (27244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27244;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27244, 'chestglitternewbie');
@@ -1775,6 +1919,9 @@ VALUES (27244, 12, True)
      , (27244, 19, True)
      , (27244, 1, True);
 
+/* Weenie - ContainersChests - Chest (1925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1925;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1925, 'chestmagicmed');
 
@@ -1810,6 +1957,9 @@ VALUES (1925, 12, True)
      , (1925, 14, True)
      , (1925, 19, True)
      , (1925, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (24678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24678;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24678, 'chestquestunlockedlowpoid');
@@ -1847,6 +1997,9 @@ VALUES (24678, 12, True)
      , (24678, 19, True)
      , (24678, 1, True);
 
+/* Weenie - ContainersChests - Chest (1947) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1947;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1947, 'chestwarriormed');
 
@@ -1883,6 +2036,9 @@ VALUES (1947, 12, True)
      , (1947, 19, True)
      , (1947, 1, True);
 
+/* Weenie - ContainersChests - Aluvian Pathwarden Chest (33609) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33609;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33609, 'ace33609-aluvianpathwardenchest');
 
@@ -1918,6 +2074,9 @@ VALUES (33609, 12, True)
      , (33609, 14, True)
      , (33609, 19, True)
      , (33609, 1, True);
+
+/* Weenie - ContainersChests - Monty's Golden Chest (9460) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9460;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9460, 'chestgambleralu');
@@ -1968,6 +2127,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (9460, 0, 16778639)
      , (9460, 1, 16778642);
 
+/* Weenie - ContainersChests - Book Shelf (31753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31753;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31753, 'ace31753-bookshelf');
 
@@ -2000,6 +2162,9 @@ VALUES (31753, 11, True)
      , (31753, 14, True)
      , (31753, 19, True)
      , (31753, 1, True);
+
+/* Weenie - ContainersChests - Chest (24552) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24552;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24552, 'chestrenegaderaids');
@@ -2037,6 +2202,9 @@ VALUES (24552, 12, True)
      , (24552, 19, True)
      , (24552, 1, True);
 
+/* Weenie - ContainersChests - Dirty Old Crate (31445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31445;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31445, 'ace31445-dirtyoldcrate');
 
@@ -2073,6 +2241,9 @@ VALUES (31445, 12, True)
      , (31445, 19, True)
      , (31445, 1, True);
 
+/* Weenie - ContainersChests - Gharu'ndim Pathwarden Chest (33610) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33610;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33610, 'ace33610-gharundimpathwardenchest');
 
@@ -2108,6 +2279,9 @@ VALUES (33610, 12, True)
      , (33610, 14, True)
      , (33610, 19, True)
      , (33610, 1, True);
+
+/* Weenie - ContainersChests - Arshid's Golden Chest (9461) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9461;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9461, 'chestgamblergha');
@@ -2158,6 +2332,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (9461, 0, 16778639)
      , (9461, 1, 16778642);
 
+/* Weenie - ContainersChests - Master's Holding (9287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9287;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9287, 'chestvirindimaster');
 
@@ -2201,6 +2378,9 @@ VALUES (9287, 67113157, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9287, 9, 16785621);
 
+/* Weenie - ContainersChests - Runed Chest (23601) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23601;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23601, 'chestquestlockedlowpoia');
 
@@ -2236,6 +2416,9 @@ VALUES (23601, 12, True)
      , (23601, 14, True)
      , (23601, 19, True)
      , (23601, 1, True);
+
+/* Weenie - ContainersChests - Chest (1946) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1946;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1946, 'chestwarriorlow');
@@ -2273,6 +2456,9 @@ VALUES (1946, 12, True)
      , (1946, 19, True)
      , (1946, 1, True);
 
+/* Weenie - ContainersChests - Chest (1919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1919;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1919, 'chestglittermed');
 
@@ -2308,6 +2494,9 @@ VALUES (1919, 12, True)
      , (1919, 14, True)
      , (1919, 19, True)
      , (1919, 1, True);
+
+/* Weenie - ContainersChests - Chest (3990) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3990;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3990, 'chestwarriorghamedlocked');
@@ -2345,6 +2534,9 @@ VALUES (3990, 12, True)
      , (3990, 19, True)
      , (3990, 1, True);
 
+/* Weenie - ContainersChests - Chest (3993) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3993;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3993, 'chestwarriormedlocked');
 
@@ -2380,6 +2572,9 @@ VALUES (3993, 12, True)
      , (3993, 14, True)
      , (3993, 19, True)
      , (3993, 1, True);
+
+/* Weenie - ContainersChests - Mistress' Chest (8514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8514;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8514, 'chestadja');
@@ -2418,6 +2613,9 @@ VALUES (8514, 12, True)
      , (8514, 19, True)
      , (8514, 1, True);
 
+/* Weenie - ContainersChests - Prison Warden's Chest (29470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29470;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29470, 'chestoswaldprison');
 
@@ -2453,6 +2651,9 @@ VALUES (29470, 12, True)
      , (29470, 14, True)
      , (29470, 19, True)
      , (29470, 1, True);
+
+/* Weenie - ContainersChests - Coral Encrusted Chest (37412) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37412;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37412, 'ace37412-coralencrustedchest');
@@ -2490,6 +2691,9 @@ VALUES (37412, 12, True)
      , (37412, 19, True)
      , (37412, 1, True);
 
+/* Weenie - ContainersChests - Treasure Chest (30989) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30989;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30989, 'chesttutorial');
 
@@ -2525,6 +2729,9 @@ VALUES (30989, 12, True)
      , (30989, 14, True)
      , (30989, 19, True)
      , (30989, 1, True);
+
+/* Weenie - ContainersChests - Chest (1931) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1931;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1931, 'chestmoneymed');
@@ -2562,6 +2769,9 @@ VALUES (1931, 12, True)
      , (1931, 19, True)
      , (1931, 1, True);
 
+/* Weenie - ContainersChests - Chest (1912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1912;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1912, 'chestfoodhigh');
 
@@ -2597,6 +2807,9 @@ VALUES (1912, 12, True)
      , (1912, 14, True)
      , (1912, 19, True)
      , (1912, 1, True);
+
+/* Weenie - ContainersChests - Chest (611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 611;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (611, 'chest1poor');
@@ -2634,6 +2847,9 @@ VALUES (611, 12, True)
      , (611, 19, True)
      , (611, 1, True);
 
+/* Weenie - ContainersChests - Chest (613) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 613;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (613, 'chest3good');
 
@@ -2669,6 +2885,9 @@ VALUES (613, 12, True)
      , (613, 14, True)
      , (613, 19, True)
      , (613, 1, True);
+
+/* Weenie - ContainersChests - Steel Chest (8999) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8999;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8999, 'chestvirindicamplootlocked');
@@ -2706,6 +2925,9 @@ VALUES (8999, 12, True)
      , (8999, 19, True)
      , (8999, 1, True);
 
+/* Weenie - ContainersChests - Colosseum Vault (34608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34608;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34608, 'ace34608-colosseumvault');
 
@@ -2741,6 +2963,9 @@ VALUES (34608, 12, True)
      , (34608, 14, True)
      , (34608, 19, True)
      , (34608, 1, True);
+
+/* Weenie - ContainersChests - Chest (5053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5053;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5053, 'chestbraceletlouei');
@@ -2778,6 +3003,9 @@ VALUES (5053, 12, True)
      , (5053, 19, True)
      , (5053, 1, True);
 
+/* Weenie - ContainersChests - Chest (1918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1918;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1918, 'chestglitterlow');
 
@@ -2813,6 +3041,9 @@ VALUES (1918, 12, True)
      , (1918, 14, True)
      , (1918, 19, True)
      , (1918, 1, True);
+
+/* Weenie - ContainersChests - Reinforced Mahogany Chest (23085) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23085;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23085, 'chestvalleydeathhigh');
@@ -2850,6 +3081,9 @@ VALUES (23085, 12, True)
      , (23085, 19, True)
      , (23085, 1, True);
 
+/* Weenie - ContainersChests - Chest (1945) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1945;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1945, 'chestwarriorhigh');
 
@@ -2885,6 +3119,9 @@ VALUES (1945, 12, True)
      , (1945, 14, True)
      , (1945, 19, True)
      , (1945, 1, True);
+
+/* Weenie - ContainersChests - Anadil's Tomb (8865) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8865;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8865, 'tombanadil');
@@ -2922,6 +3159,9 @@ VALUES (8865, 12, True)
      , (8865, 19, True)
      , (8865, 1, True);
 
+/* Weenie - ContainersChests - Chest (1937) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1937;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1937, 'chestutilitylow');
 
@@ -2958,6 +3198,9 @@ VALUES (1937, 12, True)
      , (1937, 19, True)
      , (1937, 1, True);
 
+/* Weenie - ContainersChests - Chest (1921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1921;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1921, 'chesthealerlow');
 
@@ -2993,6 +3236,9 @@ VALUES (1921, 12, True)
      , (1921, 14, True)
      , (1921, 19, True)
      , (1921, 1, True);
+
+/* Weenie - ContainersChests - Singularity Trove (9288) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9288;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9288, 'chestvirindisingularity');
@@ -3037,6 +3283,9 @@ VALUES (9288, 67113156, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9288, 9, 16785621);
 
+/* Weenie - ContainersChests - Chest (3965) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3965;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3965, 'chestglittermedlocked');
 
@@ -3072,6 +3321,9 @@ VALUES (3965, 12, True)
      , (3965, 14, True)
      , (3965, 19, True)
      , (3965, 1, True);
+
+/* Weenie - ContainersChests - Chest (1304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1304;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1304, 'chestbanditkey2');
@@ -3110,6 +3362,9 @@ VALUES (1304, 12, True)
      , (1304, 19, True)
      , (1304, 1, True);
 
+/* Weenie - ContainersChests - Chest (1305) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1305;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1305, 'chestbanditkey3');
 
@@ -3146,6 +3401,9 @@ VALUES (1305, 12, True)
      , (1305, 14, True)
      , (1305, 19, True)
      , (1305, 1, True);
+
+/* Weenie - ContainersChests - Large Chest (1271) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1271;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1271, 'chestbanditarmor');
@@ -3184,6 +3442,9 @@ VALUES (1271, 12, True)
      , (1271, 19, True)
      , (1271, 1, True);
 
+/* Weenie - ContainersChests - Chest (7500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7500;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7500, 'chestclothingmed');
 
@@ -3219,6 +3480,9 @@ VALUES (7500, 12, True)
      , (7500, 14, True)
      , (7500, 19, True)
      , (7500, 1, True);
+
+/* Weenie - ContainersChests - Chest (1272) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1272;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1272, 'chestbandittreasure');
@@ -3257,6 +3521,9 @@ VALUES (1272, 12, True)
      , (1272, 19, True)
      , (1272, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4874) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4874;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4874, 'coffinwarriorlowlocked');
 
@@ -3292,6 +3559,9 @@ VALUES (4874, 12, True)
      , (4874, 14, True)
      , (4874, 19, True)
      , (4874, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4842) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4842;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4842, 'coffinmoneylowlocked');
@@ -3331,6 +3601,9 @@ VALUES (4842, 12, True)
      , (4842, 19, True)
      , (4842, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4830) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4830;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4830, 'coffinmagiclowlocked');
 
@@ -3366,6 +3639,9 @@ VALUES (4830, 12, True)
      , (4830, 14, True)
      , (4830, 19, True)
      , (4830, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4855) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4855;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4855, 'coffinutilitylow');
@@ -3403,6 +3679,9 @@ VALUES (4855, 12, True)
      , (4855, 19, True)
      , (4855, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4849;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4849, 'coffinthieflow');
 
@@ -3438,6 +3717,9 @@ VALUES (4849, 12, True)
      , (4849, 14, True)
      , (4849, 19, True)
      , (4849, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (7498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7498;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7498, 'coffinclothinglow');
@@ -3475,6 +3757,9 @@ VALUES (7498, 12, True)
      , (7498, 19, True)
      , (7498, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4823) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4823;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4823, 'coffinhealerlow');
 
@@ -3510,6 +3795,9 @@ VALUES (4823, 12, True)
      , (4823, 14, True)
      , (4823, 19, True)
      , (4823, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4807;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4807, 'coffinfoodlow');
@@ -3547,6 +3835,9 @@ VALUES (4807, 12, True)
      , (4807, 19, True)
      , (4807, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4811) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4811;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4811, 'coffingenerallow');
 
@@ -3582,6 +3873,9 @@ VALUES (4811, 12, True)
      , (4811, 14, True)
      , (4811, 19, True)
      , (4811, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (22577) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22577;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22577, 'coffinquestlockedlowholtburgdungeon');
@@ -3619,6 +3913,9 @@ VALUES (22577, 12, True)
      , (22577, 19, True)
      , (22577, 1, True);
 
+/* Weenie - ContainersChests - Chest (5055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5055;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5055, 'chestjhongmib');
 
@@ -3654,6 +3951,9 @@ VALUES (5055, 12, True)
      , (5055, 14, True)
      , (5055, 19, True)
      , (5055, 1, True);
+
+/* Weenie - ContainersChests - Chest (1915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1915;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1915, 'chestgenerallow');
@@ -3691,6 +3991,9 @@ VALUES (1915, 12, True)
      , (1915, 19, True)
      , (1915, 1, True);
 
+/* Weenie - ContainersChests - Chest (1924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1924;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1924, 'chestmagiclow');
 
@@ -3726,6 +4029,9 @@ VALUES (1924, 12, True)
      , (1924, 14, True)
      , (1924, 19, True)
      , (1924, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4826) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4826;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4826, 'coffinhealermedlocked');
@@ -3763,6 +4069,9 @@ VALUES (4826, 12, True)
      , (4826, 19, True)
      , (4826, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4805) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4805;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4805, 'coffinfoodhigh');
 
@@ -3798,6 +4107,9 @@ VALUES (4805, 12, True)
      , (4805, 14, True)
      , (4805, 19, True)
      , (4805, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4832;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4832, 'coffinmagicmedlocked');
@@ -3835,6 +4147,9 @@ VALUES (4832, 12, True)
      , (4832, 19, True)
      , (4832, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4858;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4858, 'coffinutilitymedlocked');
 
@@ -3870,6 +4185,9 @@ VALUES (4858, 12, True)
      , (4858, 14, True)
      , (4858, 19, True)
      , (4858, 1, True);
+
+/* Weenie - ContainersChests - Chest (1933) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1933;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1933, 'chestthiefhigh');
@@ -3907,6 +4225,9 @@ VALUES (1933, 12, True)
      , (1933, 19, True)
      , (1933, 1, True);
 
+/* Weenie - ContainersChests - Chest (2613) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2613;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2613, 'chestcarvedcave');
 
@@ -3942,6 +4263,9 @@ VALUES (2613, 12, True)
      , (2613, 14, True)
      , (2613, 19, True)
      , (2613, 1, True);
+
+/* Weenie - ContainersChests - Chest (2544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2544;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2544, 'chestscholarhigh');
@@ -3979,6 +4303,9 @@ VALUES (2544, 12, True)
      , (2544, 19, True)
      , (2544, 1, True);
 
+/* Weenie - ContainersChests - Chest (2614) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2614;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2614, 'chestcarvedroom');
 
@@ -4014,6 +4341,9 @@ VALUES (2614, 12, True)
      , (2614, 14, True)
      , (2614, 19, True)
      , (2614, 1, True);
+
+/* Weenie - ContainersChests - Worn Chest (3647) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3647;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3647, 'chestcarvedcavearrows');
@@ -4051,6 +4381,9 @@ VALUES (3647, 12, True)
      , (3647, 19, True)
      , (3647, 1, True);
 
+/* Weenie - ContainersChests - Oak Chest (3609) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3609;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3609, 'chestlostlight');
 
@@ -4086,6 +4419,9 @@ VALUES (3609, 12, True)
      , (3609, 14, True)
      , (3609, 19, True)
      , (3609, 1, True);
+
+/* Weenie - ContainersChests - Chest (1920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1920;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1920, 'chesthealerhigh');
@@ -4123,6 +4459,9 @@ VALUES (1920, 12, True)
      , (1920, 19, True)
      , (1920, 1, True);
 
+/* Weenie - ContainersChests - Chest (1936) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1936;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1936, 'chestutilityhigh');
 
@@ -4158,6 +4497,9 @@ VALUES (1936, 12, True)
      , (1936, 14, True)
      , (1936, 19, True)
      , (1936, 1, True);
+
+/* Weenie - ContainersChests - Chest (3964) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3964;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3964, 'chestglitterlowlocked');
@@ -4195,6 +4537,9 @@ VALUES (3964, 12, True)
      , (3964, 19, True)
      , (3964, 1, True);
 
+/* Weenie - ContainersChests - Black Marrow Reliquary (30792) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30792;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30792, 'chestblackmarrowreliquarycaulcano');
 
@@ -4230,6 +4575,9 @@ VALUES (30792, 12, True)
      , (30792, 14, True)
      , (30792, 19, True)
      , (30792, 1, True);
+
+/* Weenie - ContainersChests - Chest (21529) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21529;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21529, 'chestrollingdeath');
@@ -4267,6 +4615,9 @@ VALUES (21529, 12, True)
      , (21529, 19, True)
      , (21529, 1, True);
 
+/* Weenie - ContainersChests - Floor Walk Reward Chest (21528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21528;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21528, 'chestfloorwalk');
 
@@ -4303,6 +4654,9 @@ VALUES (21528, 12, True)
      , (21528, 19, True)
      , (21528, 1, True);
 
+/* Weenie - ContainersChests - Chest (21530) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21530;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21530, 'chestsilencegolden');
 
@@ -4338,6 +4692,9 @@ VALUES (21530, 12, True)
      , (21530, 14, True)
      , (21530, 19, True)
      , (21530, 1, True);
+
+/* Weenie - ContainersChests - Singularity Chest (20907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20907;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20907, 'chestsingularitygaerlan');
@@ -4381,6 +4738,9 @@ VALUES (20907, 67113868, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20907, 9, 16785621);
 
+/* Weenie - ContainersChests - Legendary Armor Chest (48741) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48741;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48741, 'ace48741-legendaryarmorchest');
 
@@ -4417,6 +4777,9 @@ VALUES (48741, 12, True)
      , (48741, 14, True)
      , (48741, 19, True)
      , (48741, 1, True);
+
+/* Weenie - ContainersChests - Legendary Weapon Chest (48744) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48744;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48744, 'ace48744-legendaryweaponchest');
@@ -4455,6 +4818,9 @@ VALUES (48744, 12, True)
      , (48744, 19, True)
      , (48744, 1, True);
 
+/* Weenie - ContainersChests - Legendary Magic Chest (48742) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48742;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48742, 'ace48742-legendarymagicchest');
 
@@ -4492,6 +4858,9 @@ VALUES (48742, 12, True)
      , (48742, 19, True)
      , (48742, 1, True);
 
+/* Weenie - ContainersChests - Lady of Aerlinthe's Chest (7408) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7408;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7408, 'chestaerfalle');
 
@@ -4527,6 +4896,9 @@ VALUES (7408, 12, True)
      , (7408, 14, True)
      , (7408, 19, True)
      , (7408, 1, True);
+
+/* Weenie - ContainersChests - Lady of Aerlinthe's Ornate Chest (28047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28047;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28047, 'chestaerfalleuber');
@@ -4573,6 +4945,9 @@ VALUES (28047, 0, 83894629, 83894629)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28047, 0, 16789208)
      , (28047, 1, 16789209);
+
+/* Weenie - ContainersChests - Storage Chest (14435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14435;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14435, 'chestregicide3');
@@ -4623,6 +4998,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14435, 0, 16778639)
      , (14435, 1, 16778642);
 
+/* Weenie - ContainersChests - Hea Raiders' Cache (10934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10934;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10934, 'chesthearaider-xp');
 
@@ -4668,6 +5046,9 @@ VALUES (10934, 67113157, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10934, 9, 16785621);
 
+/* Weenie - ContainersChests - Runed Chest (24680) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24680;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24680, 'chestquestunlockedmidpoic');
 
@@ -4703,6 +5084,9 @@ VALUES (24680, 12, True)
      , (24680, 14, True)
      , (24680, 19, True)
      , (24680, 1, True);
+
+/* Weenie - ContainersChests - Chest (3969) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3969;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3969, 'chestmagichighlocked');
@@ -4740,6 +5124,9 @@ VALUES (3969, 12, True)
      , (3969, 19, True)
      , (3969, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (22801) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22801;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22801, 'chestquestlockedlowlichhut');
 
@@ -4775,6 +5162,9 @@ VALUES (22801, 12, True)
      , (22801, 14, True)
      , (22801, 19, True)
      , (22801, 1, True);
+
+/* Weenie - ContainersChests - Chest (1215) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1215;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1215, 'chestthievesden');
@@ -4812,6 +5202,9 @@ VALUES (1215, 12, True)
      , (1215, 19, True)
      , (1215, 1, True);
 
+/* Weenie - ContainersChests - Chest (3984) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3984;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3984, 'chestutilitymedlocked');
 
@@ -4847,6 +5240,9 @@ VALUES (3984, 12, True)
      , (3984, 14, True)
      , (3984, 19, True)
      , (3984, 1, True);
+
+/* Weenie - ContainersChests - Chest (4887) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4887;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4887, 'chestdistillerydew');
@@ -4884,6 +5280,9 @@ VALUES (4887, 12, True)
      , (4887, 19, True)
      , (4887, 1, True);
 
+/* Weenie - ContainersChests - Chest (3981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3981;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3981, 'chestthiefmedlocked');
 
@@ -4919,6 +5318,9 @@ VALUES (3981, 12, True)
      , (3981, 14, True)
      , (3981, 19, True)
      , (3981, 1, True);
+
+/* Weenie - ContainersChests - Chest (1927) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1927;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1927, 'chestminerlow');
@@ -4956,6 +5358,9 @@ VALUES (1927, 12, True)
      , (1927, 19, True)
      , (1927, 1, True);
 
+/* Weenie - ContainersChests - Brontynn Marshad's Chest (15815) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15815;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15815, 'chestthorstennote2');
 
@@ -4991,6 +5396,9 @@ VALUES (15815, 12, True)
      , (15815, 14, True)
      , (15815, 19, True)
      , (15815, 1, True);
+
+/* Weenie - ContainersChests - Storage (23921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23921;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23921, 'cheststorageulgrimitems');
@@ -5028,6 +5436,9 @@ VALUES (23921, 12, True)
      , (23921, 19, True)
      , (23921, 1, True);
 
+/* Weenie - ContainersChests - Storage (23920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23920;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23920, 'cheststorageulgrimdrinks');
 
@@ -5063,6 +5474,9 @@ VALUES (23920, 12, True)
      , (23920, 14, True)
      , (23920, 19, True)
      , (23920, 1, True);
+
+/* Weenie - ContainersChests - Chest (3959) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3959;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3959, 'chestfoodlowlocked');
@@ -5100,6 +5514,9 @@ VALUES (3959, 12, True)
      , (3959, 19, True)
      , (3959, 1, True);
 
+/* Weenie - ContainersChests - Chest (3978) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3978;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3978, 'chestpoorlocked');
 
@@ -5136,6 +5553,9 @@ VALUES (3978, 12, True)
      , (3978, 19, True)
      , (3978, 1, True);
 
+/* Weenie - ContainersChests - Chest (1932) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1932;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1932, 'chestpoor');
 
@@ -5171,6 +5591,9 @@ VALUES (1932, 12, True)
      , (1932, 14, True)
      , (1932, 19, True)
      , (1932, 1, True);
+
+/* Weenie - ContainersChests - Chest (3976) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3976;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3976, 'chestmoneylowlocked');
@@ -5210,6 +5633,9 @@ VALUES (3976, 12, True)
      , (3976, 19, True)
      , (3976, 1, True);
 
+/* Weenie - ContainersChests - Chest (1917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1917;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1917, 'chestglitterhigh');
 
@@ -5245,6 +5671,9 @@ VALUES (1917, 12, True)
      , (1917, 14, True)
      , (1917, 19, True)
      , (1917, 1, True);
+
+/* Weenie - ContainersChests - Chest (3991) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3991;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3991, 'chestwarriorhighlocked');
@@ -5282,6 +5711,9 @@ VALUES (3991, 12, True)
      , (3991, 19, True)
      , (3991, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4806) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4806;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4806, 'coffinfoodhighlocked');
 
@@ -5317,6 +5749,9 @@ VALUES (4806, 12, True)
      , (4806, 14, True)
      , (4806, 19, True)
      , (4806, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (23597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23597;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23597, 'chestquestlockedextremepoia');
@@ -5354,6 +5789,9 @@ VALUES (23597, 12, True)
      , (23597, 19, True)
      , (23597, 1, True);
 
+/* Weenie - ContainersChests - Chest (1923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1923;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1923, 'chestmagichigh');
 
@@ -5389,6 +5827,9 @@ VALUES (1923, 12, True)
      , (1923, 14, True)
      , (1923, 19, True)
      , (1923, 1, True);
+
+/* Weenie - ContainersChests - Chest (14537) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14537;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14537, 'chesthammerlightning');
@@ -5438,6 +5879,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14537, 0, 16778639)
      , (14537, 1, 16778642);
 
+/* Weenie - ContainersChests - Chest (3982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3982;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3982, 'chestutilityhighlocked');
 
@@ -5473,6 +5917,9 @@ VALUES (3982, 12, True)
      , (3982, 14, True)
      , (3982, 19, True)
      , (3982, 1, True);
+
+/* Weenie - ContainersChests - Chest (3967) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3967;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3967, 'chesthealerlowlocked');
@@ -5510,6 +5957,9 @@ VALUES (3967, 12, True)
      , (3967, 19, True)
      , (3967, 1, True);
 
+/* Weenie - ContainersChests - Chest (5902) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5902;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5902, 'chestfrore');
 
@@ -5545,6 +5995,9 @@ VALUES (5902, 12, True)
      , (5902, 14, True)
      , (5902, 19, True)
      , (5902, 1, True);
+
+/* Weenie - ContainersChests - Chest (1938) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1938;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1938, 'chestutilitymed');
@@ -5582,6 +6035,9 @@ VALUES (1938, 12, True)
      , (1938, 19, True)
      , (1938, 1, True);
 
+/* Weenie - ContainersChests - Reinforced Oaken Chest (23086) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23086;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23086, 'chestvalleydeathlow');
 
@@ -5618,6 +6074,9 @@ VALUES (23086, 12, True)
      , (23086, 19, True)
      , (23086, 1, True);
 
+/* Weenie - ContainersChests - Chest (3988) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3988;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3988, 'chestwarriorghahighlocked');
 
@@ -5653,6 +6112,9 @@ VALUES (3988, 12, True)
      , (3988, 14, True)
      , (3988, 19, True)
      , (3988, 1, True);
+
+/* Weenie - ContainersChests - Chorizite Chest (51427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51427;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51427, 'ace51427-chorizitechest');
@@ -5702,6 +6164,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (51427, 0, 16778639)
      , (51427, 1, 16778642);
 
+/* Weenie - ContainersChests - Rusty Chest (11015) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11015;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11015, 'chestmenhirhammer-xp');
 
@@ -5737,6 +6202,9 @@ VALUES (11015, 12, True)
      , (11015, 14, True)
      , (11015, 19, True)
      , (11015, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (24671) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24671;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24671, 'chestquestlockedmidpoic');
@@ -5774,6 +6242,9 @@ VALUES (24671, 12, True)
      , (24671, 19, True)
      , (24671, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (23605) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23605;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23605, 'chestquestunlockedhighpoia');
 
@@ -5809,6 +6280,9 @@ VALUES (23605, 12, True)
      , (23605, 14, True)
      , (23605, 19, True)
      , (23605, 1, True);
+
+/* Weenie - ContainersChests - Sealed Vault (35467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35467;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35467, 'ace35467-sealedvault');
@@ -5846,6 +6320,9 @@ VALUES (35467, 12, True)
      , (35467, 19, True)
      , (35467, 1, True);
 
+/* Weenie - ContainersChests - Ancient Chest (37176) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37176;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37176, 'ace37176-ancientchest');
 
@@ -5881,6 +6358,9 @@ VALUES (37176, 12, True)
      , (37176, 14, True)
      , (37176, 19, True)
      , (37176, 1, True);
+
+/* Weenie - ContainersChests - Burnt and Twisted Stump (38881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38881;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38881, 'ace38881-burntandtwistedstump');
@@ -5918,6 +6398,9 @@ VALUES (38881, 12, True)
      , (38881, 19, True)
      , (38881, 1, True);
 
+/* Weenie - ContainersChests - Blight Rat Chest (37605) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37605;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37605, 'ace37605-blightratchest');
 
@@ -5953,6 +6436,9 @@ VALUES (37605, 12, True)
      , (37605, 14, True)
      , (37605, 19, True)
      , (37605, 1, True);
+
+/* Weenie - ContainersChests - Chest (3992) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3992;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3992, 'chestwarriorlowlocked');
@@ -5990,6 +6476,9 @@ VALUES (3992, 12, True)
      , (3992, 19, True)
      , (3992, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (22804) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22804;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22804, 'chestquestlockedmidholtburgruin');
 
@@ -6025,6 +6514,9 @@ VALUES (22804, 12, True)
      , (22804, 14, True)
      , (22804, 19, True)
      , (22804, 1, True);
+
+/* Weenie - ContainersChests - Ancient Reliquary (33818) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33818;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33818, 'ace33818-ancientreliquary');
@@ -6062,6 +6554,9 @@ VALUES (33818, 12, True)
      , (33818, 19, True)
      , (33818, 1, True);
 
+/* Weenie - ContainersChests - Celestial Hand Sollerets Chest (38508) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38508;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38508, 'ace38508-celestialhandsolleretschest');
 
@@ -6096,6 +6591,9 @@ VALUES (38508, 12, True)
      , (38508, 14, True)
      , (38508, 19, True)
      , (38508, 1, True);
+
+/* Weenie - ContainersChests - Celestial Hand Pauldrons Chest (38505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38505;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38505, 'ace38505-celestialhandpauldronschest');
@@ -6132,6 +6630,9 @@ VALUES (38505, 12, True)
      , (38505, 19, True)
      , (38505, 1, True);
 
+/* Weenie - ContainersChests - Celestial Hand Gauntlets Chest (38493) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38493;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38493, 'ace38493-celestialhandgauntletschest');
 
@@ -6166,6 +6667,9 @@ VALUES (38493, 12, True)
      , (38493, 14, True)
      , (38493, 19, True)
      , (38493, 1, True);
+
+/* Weenie - ContainersChests - Celestial Hand Greaves Chest (38499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38499;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38499, 'ace38499-celestialhandgreaveschest');
@@ -6202,6 +6706,9 @@ VALUES (38499, 12, True)
      , (38499, 19, True)
      , (38499, 1, True);
 
+/* Weenie - ContainersChests - Celestial Hand Tassets Chest (38511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38511;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38511, 'ace38511-celestialhandtassetschest');
 
@@ -6236,6 +6743,9 @@ VALUES (38511, 12, True)
      , (38511, 14, True)
      , (38511, 19, True)
      , (38511, 1, True);
+
+/* Weenie - ContainersChests - Celestial Hand Vambraces Chest (38514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38514;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38514, 'ace38514-celestialhandvambraceschest');
@@ -6272,6 +6782,9 @@ VALUES (38514, 12, True)
      , (38514, 19, True)
      , (38514, 1, True);
 
+/* Weenie - ContainersChests - Celestial Hand Girth Chest (38496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38496;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38496, 'ace38496-celestialhandgirthchest');
 
@@ -6306,6 +6819,9 @@ VALUES (38496, 12, True)
      , (38496, 14, True)
      , (38496, 19, True)
      , (38496, 1, True);
+
+/* Weenie - ContainersChests - Celestial Hand Breastplate Chest (38490) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38490;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38490, 'ace38490-celestialhandbreastplatechest');
@@ -6342,6 +6858,9 @@ VALUES (38490, 12, True)
      , (38490, 19, True)
      , (38490, 1, True);
 
+/* Weenie - ContainersChests - Celestial Hand Helm Chest (38502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38502;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38502, 'ace38502-celestialhandhelmchest');
 
@@ -6376,6 +6895,9 @@ VALUES (38502, 12, True)
      , (38502, 14, True)
      , (38502, 19, True)
      , (38502, 1, True);
+
+/* Weenie - ContainersChests - Researcher's Chest (38312) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38312;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38312, 'ace38312-researcherschest');
@@ -6412,6 +6934,9 @@ VALUES (38312, 12, True)
      , (38312, 19, True)
      , (38312, 1, True);
 
+/* Weenie - ContainersChests - Weapon Quartermaster's Chest (38313) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38313;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38313, 'ace38313-weaponquartermasterschest');
 
@@ -6446,6 +6971,9 @@ VALUES (38313, 12, True)
      , (38313, 14, True)
      , (38313, 19, True)
      , (38313, 1, True);
+
+/* Weenie - ContainersChests - Equipment Quartermaster's Chest (38311) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38311;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38311, 'ace38311-equipmentquartermasterschest');
@@ -6482,6 +7010,9 @@ VALUES (38311, 12, True)
      , (38311, 19, True)
      , (38311, 1, True);
 
+/* Weenie - ContainersChests - Armor Quartermaster's Chest (38310) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38310;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38310, 'ace38310-armorquartermasterschest');
 
@@ -6517,6 +7048,9 @@ VALUES (38310, 12, True)
      , (38310, 19, True)
      , (38310, 1, True);
 
+/* Weenie - ContainersChests - Thorsten Cragstone's Tomb (2143) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2143;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2143, 'gravecragstone');
 
@@ -6550,6 +7084,9 @@ VALUES (2143, 12, True)
      , (2143, 14, True)
      , (2143, 19, True)
      , (2143, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4846;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4846, 'coffinpoorlocked');
@@ -6587,6 +7124,9 @@ VALUES (4846, 12, True)
      , (4846, 19, True)
      , (4846, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (26614) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26614;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26614, 'chestquestlockednewbiepoie');
 
@@ -6622,6 +7162,9 @@ VALUES (26614, 12, True)
      , (26614, 14, True)
      , (26614, 19, True)
      , (26614, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4818) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4818;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4818, 'coffinglitterlowlocked');
@@ -6659,6 +7202,9 @@ VALUES (4818, 12, True)
      , (4818, 19, True)
      , (4818, 1, True);
 
+/* Weenie - ContainersChests - Chest (27245) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27245;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27245, 'chestmagicnewbie');
 
@@ -6694,6 +7240,9 @@ VALUES (27245, 12, True)
      , (27245, 14, True)
      , (27245, 19, True)
      , (27245, 1, True);
+
+/* Weenie - ContainersChests - Chest (27243) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27243;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27243, 'chestgeneralnewbie');
@@ -6731,6 +7280,9 @@ VALUES (27243, 12, True)
      , (27243, 19, True)
      , (27243, 1, True);
 
+/* Weenie - ContainersChests - Chest (1253) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1253;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1253, 'chestgreenmiregems');
 
@@ -6766,6 +7318,9 @@ VALUES (1253, 12, True)
      , (1253, 14, True)
      , (1253, 19, True)
      , (1253, 1, True);
+
+/* Weenie - ContainersChests - Chest (1254) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1254;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1254, 'chestgreenmirekey');
@@ -6803,6 +7358,9 @@ VALUES (1254, 12, True)
      , (1254, 19, True)
      , (1254, 1, True);
 
+/* Weenie - ContainersChests - Chest (27242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27242;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27242, 'chestclothingnewbie');
 
@@ -6839,6 +7397,9 @@ VALUES (27242, 12, True)
      , (27242, 19, True)
      , (27242, 1, True);
 
+/* Weenie - ContainersChests - Chest (1251) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1251;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1251, 'chestgreenmirearmor');
 
@@ -6874,6 +7435,9 @@ VALUES (1251, 12, True)
      , (1251, 14, True)
      , (1251, 19, True)
      , (1251, 1, True);
+
+/* Weenie - ContainersChests - Chest (1252) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1252;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1252, 'chestgreenmirecrown');
@@ -6912,6 +7476,9 @@ VALUES (1252, 12, True)
      , (1252, 19, True)
      , (1252, 1, True);
 
+/* Weenie - ContainersChests - Coral Encrusted Chest (37414) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37414;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37414, 'ace37414-coralencrustedchest');
 
@@ -6947,6 +7514,9 @@ VALUES (37414, 12, True)
      , (37414, 14, True)
      , (37414, 19, True)
      , (37414, 1, True);
+
+/* Weenie - ContainersChests - Chest (1941) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1941;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1941, 'chestwarrioralumed');
@@ -6984,6 +7554,9 @@ VALUES (1941, 12, True)
      , (1941, 19, True)
      , (1941, 1, True);
 
+/* Weenie - ContainersChests - Coral Encrusted Chest (37415) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37415;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37415, 'ace37415-coralencrustedchest');
 
@@ -7020,6 +7593,9 @@ VALUES (37415, 12, True)
      , (37415, 19, True)
      , (37415, 1, True);
 
+/* Weenie - ContainersChests - Eldrytch Web Sollerets Chest (38509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38509;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38509, 'ace38509-eldrytchwebsolleretschest');
 
@@ -7054,6 +7630,9 @@ VALUES (38509, 12, True)
      , (38509, 14, True)
      , (38509, 19, True)
      , (38509, 1, True);
+
+/* Weenie - ContainersChests - Eldrytch Web Vambraces Chest (38515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38515;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38515, 'ace38515-eldrytchwebvambraceschest');
@@ -7090,6 +7669,9 @@ VALUES (38515, 12, True)
      , (38515, 19, True)
      , (38515, 1, True);
 
+/* Weenie - ContainersChests - Eldrytch Web Tassets Chest (38512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38512;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38512, 'ace38512-eldrytchwebtassetschest');
 
@@ -7124,6 +7706,9 @@ VALUES (38512, 12, True)
      , (38512, 14, True)
      , (38512, 19, True)
      , (38512, 1, True);
+
+/* Weenie - ContainersChests - Eldrytch Web Greaves Chest (38500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38500;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38500, 'ace38500-eldrytchwebgreaveschest');
@@ -7160,6 +7745,9 @@ VALUES (38500, 12, True)
      , (38500, 19, True)
      , (38500, 1, True);
 
+/* Weenie - ContainersChests - Eldrytch Web Gauntlets Chest (38494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38494;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38494, 'ace38494-eldrytchwebgauntletschest');
 
@@ -7194,6 +7782,9 @@ VALUES (38494, 12, True)
      , (38494, 14, True)
      , (38494, 19, True)
      , (38494, 1, True);
+
+/* Weenie - ContainersChests - Eldrytch Web Helm Chest (38503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38503;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38503, 'ace38503-eldrytchwebhelmchest');
@@ -7230,6 +7821,9 @@ VALUES (38503, 12, True)
      , (38503, 19, True)
      , (38503, 1, True);
 
+/* Weenie - ContainersChests - Eldrytch Web Breastplate Chest (38491) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38491;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38491, 'ace38491-eldrytchwebbreastplatechest');
 
@@ -7264,6 +7858,9 @@ VALUES (38491, 12, True)
      , (38491, 14, True)
      , (38491, 19, True)
      , (38491, 1, True);
+
+/* Weenie - ContainersChests - Eldrytch Web Girth Chest (38497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38497;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38497, 'ace38497-eldrytchwebgirthchest');
@@ -7300,6 +7897,9 @@ VALUES (38497, 12, True)
      , (38497, 19, True)
      , (38497, 1, True);
 
+/* Weenie - ContainersChests - Eldrytch Web Pauldrons Chest (38506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38506;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38506, 'ace38506-eldrytchwebpauldronschest');
 
@@ -7334,6 +7934,9 @@ VALUES (38506, 12, True)
      , (38506, 14, True)
      , (38506, 19, True)
      , (38506, 1, True);
+
+/* Weenie - ContainersChests - Coral Encrusted Chest (37411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37411;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37411, 'ace37411-coralencrustedchest');
@@ -7370,6 +7973,9 @@ VALUES (37411, 12, True)
      , (37411, 14, True)
      , (37411, 19, True)
      , (37411, 1, True);
+
+/* Weenie - ContainersChests - Lord of Menilesh's Engraved Chest (43031) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43031;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43031, 'ace43031-lordofmenileshsengravedchest');
@@ -7417,6 +8023,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43031, 0, 16789208)
      , (43031, 1, 16789209);
 
+/* Weenie - ContainersChests - Chest (1913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1913;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1913, 'chestfoodlow');
 
@@ -7452,6 +8061,9 @@ VALUES (1913, 12, True)
      , (1913, 14, True)
      , (1913, 19, True)
      , (1913, 1, True);
+
+/* Weenie - ContainersChests - Chest (1238) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1238;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1238, 'chestglendenpicks');
@@ -7489,6 +8101,9 @@ VALUES (1238, 12, True)
      , (1238, 19, True)
      , (1238, 1, True);
 
+/* Weenie - ContainersChests - Chest (1237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1237;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1237, 'chestglendencheese');
 
@@ -7524,6 +8139,9 @@ VALUES (1237, 12, True)
      , (1237, 14, True)
      , (1237, 19, True)
      , (1237, 1, True);
+
+/* Weenie - ContainersChests - Chest (1940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1940;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1940, 'chestwarrioralulow');
@@ -7561,6 +8179,9 @@ VALUES (1940, 12, True)
      , (1940, 19, True)
      , (1940, 1, True);
 
+/* Weenie - ContainersChests - Gauntlet Vault (52794) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52794;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52794, 'ace52794-gauntletvault');
 
@@ -7596,6 +8217,9 @@ VALUES (52794, 12, True)
      , (52794, 14, True)
      , (52794, 19, True)
      , (52794, 1, True);
+
+/* Weenie - ContainersChests - Gauntlet Magic Chest (52793) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52793;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52793, 'ace52793-gauntletmagicchest');
@@ -7634,6 +8258,9 @@ VALUES (52793, 12, True)
      , (52793, 19, True)
      , (52793, 1, True);
 
+/* Weenie - ContainersChests - Gauntlet Armor Chest (52791) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52791;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52791, 'ace52791-gauntletarmorchest');
 
@@ -7670,6 +8297,9 @@ VALUES (52791, 12, True)
      , (52791, 14, True)
      , (52791, 19, True)
      , (52791, 1, True);
+
+/* Weenie - ContainersChests - Gauntlet Weapon Chest (52792) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52792;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52792, 'ace52792-gauntletweaponchest');
@@ -7708,6 +8338,9 @@ VALUES (52792, 12, True)
      , (52792, 19, True)
      , (52792, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (26606) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26606;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26606, 'chestquestlockedlowpoif');
 
@@ -7743,6 +8376,9 @@ VALUES (26606, 12, True)
      , (26606, 14, True)
      , (26606, 19, True)
      , (26606, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (26605) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26605;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26605, 'chestquestlockedhighpoig');
@@ -7780,6 +8416,9 @@ VALUES (26605, 12, True)
      , (26605, 19, True)
      , (26605, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (26604) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26604;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26604, 'chestquestlockedhighpoif');
 
@@ -7815,6 +8454,9 @@ VALUES (26604, 12, True)
      , (26604, 14, True)
      , (26604, 19, True)
      , (26604, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (27375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27375;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27375, 'chestquestcoinattachment');
@@ -7852,6 +8494,9 @@ VALUES (27375, 12, True)
      , (27375, 19, True)
      , (27375, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (27379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27379;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27379, 'chestquestdrudgefight');
 
@@ -7887,6 +8532,9 @@ VALUES (27379, 12, True)
      , (27379, 14, True)
      , (27379, 19, True)
      , (27379, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (27383) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27383;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27383, 'chestquestrestingplace');
@@ -7924,6 +8572,9 @@ VALUES (27383, 12, True)
      , (27383, 19, True)
      , (27383, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (27380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27380;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27380, 'chestquestlairhomunculus');
 
@@ -7959,6 +8610,9 @@ VALUES (27380, 12, True)
      , (27380, 14, True)
      , (27380, 19, True)
      , (27380, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (30392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30392;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30392, 'chestquestlittlestniffis');
@@ -7996,6 +8650,9 @@ VALUES (30392, 12, True)
      , (30392, 19, True)
      , (30392, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (27381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27381;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27381, 'chestquestgibbering');
 
@@ -8031,6 +8688,9 @@ VALUES (27381, 12, True)
      , (27381, 14, True)
      , (27381, 19, True)
      , (27381, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (27377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27377;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27377, 'chestquestdarktowers');
@@ -8068,6 +8728,9 @@ VALUES (27377, 12, True)
      , (27377, 19, True)
      , (27377, 1, True);
 
+/* Weenie - ContainersChests - Sealed Vault (35405) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35405;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35405, 'ace35405-sealedvault');
 
@@ -8103,6 +8766,9 @@ VALUES (35405, 12, True)
      , (35405, 14, True)
      , (35405, 19, True)
      , (35405, 1, True);
+
+/* Weenie - ContainersChests - Chorizite Chest (48766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48766;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48766, 'ace48766-chorizitechest');
@@ -8152,6 +8818,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (48766, 0, 16778639)
      , (48766, 1, 16778642);
 
+/* Weenie - ContainersChests - Black Marrow Reliquary (32028) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32028;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32028, 'ace32028-blackmarrowreliquary');
 
@@ -8187,6 +8856,9 @@ VALUES (32028, 12, True)
      , (32028, 14, True)
      , (32028, 19, True)
      , (32028, 1, True);
+
+/* Weenie - ContainersChests - Black Marrow Reliquary (32026) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32026;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32026, 'ace32026-blackmarrowreliquary');
@@ -8224,6 +8896,9 @@ VALUES (32026, 12, True)
      , (32026, 19, True)
      , (32026, 1, True);
 
+/* Weenie - ContainersChests - Black Marrow Reliquary (32027) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32027;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32027, 'ace32027-blackmarrowreliquary');
 
@@ -8259,6 +8934,9 @@ VALUES (32027, 12, True)
      , (32027, 14, True)
      , (32027, 19, True)
      , (32027, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (26617) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26617;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26617, 'chestquestunlockedhighpoif');
@@ -8296,6 +8974,9 @@ VALUES (26617, 12, True)
      , (26617, 19, True)
      , (26617, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (22573) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22573;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22573, 'chestquestunlockedlowdrudgehideout');
 
@@ -8332,6 +9013,9 @@ VALUES (22573, 12, True)
      , (22573, 19, True)
      , (22573, 1, True);
 
+/* Weenie - ContainersChests - Chest (3961) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3961;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3961, 'chestgenerallowlocked');
 
@@ -8367,6 +9051,9 @@ VALUES (3961, 12, True)
      , (3961, 14, True)
      , (3961, 19, True)
      , (3961, 1, True);
+
+/* Weenie - ContainersChests - Large Chest (5014) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5014;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5014, 'chestfolthidcellar');
@@ -8405,6 +9092,9 @@ VALUES (5014, 12, True)
      , (5014, 19, True)
      , (5014, 1, True);
 
+/* Weenie - ContainersChests - Mi Krau-Li's Sarcophagus (7779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7779;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7779, 'coffinkrauli');
 
@@ -8440,6 +9130,9 @@ VALUES (7779, 12, True)
      , (7779, 14, True)
      , (7779, 19, True)
      , (7779, 1, True);
+
+/* Weenie - ContainersChests - Frest Greelving's Chest (22085) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22085;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22085, 'chesthauntedmansion3');
@@ -8477,6 +9170,9 @@ VALUES (22085, 12, True)
      , (22085, 19, True)
      , (22085, 1, True);
 
+/* Weenie - ContainersChests - Frest Greelving's Chest (22084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22084;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22084, 'chesthauntedmansion2');
 
@@ -8512,6 +9208,9 @@ VALUES (22084, 12, True)
      , (22084, 14, True)
      , (22084, 19, True)
      , (22084, 1, True);
+
+/* Weenie - ContainersChests - Frest Greelving's Chest (22083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22083;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22083, 'chesthauntedmansion1');
@@ -8549,6 +9248,9 @@ VALUES (22083, 12, True)
      , (22083, 19, True)
      , (22083, 1, True);
 
+/* Weenie - ContainersChests - Radiant Blood Pauldrons Chest (38507) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38507;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38507, 'ace38507-radiantbloodpauldronschest');
 
@@ -8583,6 +9285,9 @@ VALUES (38507, 12, True)
      , (38507, 14, True)
      , (38507, 19, True)
      , (38507, 1, True);
+
+/* Weenie - ContainersChests - Radiant Blood Girth Chest (38498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38498;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38498, 'ace38498-radiantbloodgirthchest');
@@ -8619,6 +9324,9 @@ VALUES (38498, 12, True)
      , (38498, 19, True)
      , (38498, 1, True);
 
+/* Weenie - ContainersChests - Radiant Blood Breastplate Chest (38492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38492;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38492, 'ace38492-radiantbloodbreastplatechest');
 
@@ -8653,6 +9361,9 @@ VALUES (38492, 12, True)
      , (38492, 14, True)
      , (38492, 19, True)
      , (38492, 1, True);
+
+/* Weenie - ContainersChests - Radiant Blood Helm Chest (38504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38504;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38504, 'ace38504-radiantbloodhelmchest');
@@ -8689,6 +9400,9 @@ VALUES (38504, 12, True)
      , (38504, 19, True)
      , (38504, 1, True);
 
+/* Weenie - ContainersChests - Radiant Blood Gauntlets Chest (38495) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38495;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38495, 'ace38495-radiantbloodgauntletschest');
 
@@ -8723,6 +9437,9 @@ VALUES (38495, 12, True)
      , (38495, 14, True)
      , (38495, 19, True)
      , (38495, 1, True);
+
+/* Weenie - ContainersChests - Radiant Blood Greaves Chest (38501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38501;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38501, 'ace38501-radiantbloodgreaveschest');
@@ -8759,6 +9476,9 @@ VALUES (38501, 12, True)
      , (38501, 19, True)
      , (38501, 1, True);
 
+/* Weenie - ContainersChests - Radiant Blood Tassets Chest (38513) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38513;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38513, 'ace38513-radiantbloodtassetschest');
 
@@ -8793,6 +9513,9 @@ VALUES (38513, 12, True)
      , (38513, 14, True)
      , (38513, 19, True)
      , (38513, 1, True);
+
+/* Weenie - ContainersChests - Radiant Blood Vambraces Chest (38516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38516;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38516, 'ace38516-radiantbloodvambraceschest');
@@ -8829,6 +9552,9 @@ VALUES (38516, 12, True)
      , (38516, 19, True)
      , (38516, 1, True);
 
+/* Weenie - ContainersChests - Radiant Blood Sollerets Chest (38510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38510;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38510, 'ace38510-radiantbloodsolleretschest');
 
@@ -8863,6 +9589,9 @@ VALUES (38510, 12, True)
      , (38510, 14, True)
      , (38510, 19, True)
      , (38510, 1, True);
+
+/* Weenie - ContainersChests - Black Marrow Reliquary (31660) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31660;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31660, 'ace31660-blackmarrowreliquary');
@@ -8900,6 +9629,9 @@ VALUES (31660, 12, True)
      , (31660, 19, True)
      , (31660, 1, True);
 
+/* Weenie - ContainersChests - Iron Chest (31512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31512;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31512, 'ace31512-ironchest');
 
@@ -8935,6 +9667,9 @@ VALUES (31512, 12, True)
      , (31512, 14, True)
      , (31512, 19, True)
      , (31512, 1, True);
+
+/* Weenie - ContainersChests - Chest (23595) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23595;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23595, 'cheststaffanadilmumiyah');
@@ -8972,6 +9707,9 @@ VALUES (23595, 12, True)
      , (23595, 19, True)
      , (23595, 1, True);
 
+/* Weenie - ContainersChests - Chest (3960) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3960;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3960, 'chestgeneralhighlocked');
 
@@ -9008,6 +9746,9 @@ VALUES (3960, 12, True)
      , (3960, 19, True)
      , (3960, 1, True);
 
+/* Weenie - ContainersChests - Book Shelf (1314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1314;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1314, 'bookshelfsewer');
 
@@ -9040,6 +9781,9 @@ VALUES (1314, 11, True)
      , (1314, 14, True)
      , (1314, 19, True)
      , (1314, 1, True);
+
+/* Weenie - ContainersChests - Chest (1928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1928;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1928, 'chestminermed');
@@ -9077,6 +9821,9 @@ VALUES (1928, 12, True)
      , (1928, 19, True)
      , (1928, 1, True);
 
+/* Weenie - ContainersChests - Chest (1935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1935;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1935, 'chestthiefmed');
 
@@ -9112,6 +9859,9 @@ VALUES (1935, 12, True)
      , (1935, 14, True)
      , (1935, 19, True)
      , (1935, 1, True);
+
+/* Weenie - ContainersChests - Treasure Chest (1540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1540;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1540, 'chestcolierminegold');
@@ -9149,6 +9899,9 @@ VALUES (1540, 12, True)
      , (1540, 19, True)
      , (1540, 1, True);
 
+/* Weenie - ContainersChests - Chest (1539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1539;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1539, 'chestcoliermine');
 
@@ -9185,6 +9938,9 @@ VALUES (1539, 12, True)
      , (1539, 19, True)
      , (1539, 1, True);
 
+/* Weenie - ContainersChests - Wheelbarrow (6024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6024;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6024, 'wheelbarrowironore');
 
@@ -9217,6 +9973,9 @@ VALUES (6024, 11, True)
      , (6024, 14, True)
      , (6024, 19, True)
      , (6024, 1, True);
+
+/* Weenie - ContainersChests - Chest (1916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1916;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1916, 'chestgeneralmed');
@@ -9254,6 +10013,9 @@ VALUES (1916, 12, True)
      , (1916, 19, True)
      , (1916, 1, True);
 
+/* Weenie - ContainersChests - Storage (22244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22244;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22244, 'cheststoragehauntedmansion');
 
@@ -9288,6 +10050,9 @@ VALUES (22244, 12, True)
      , (22244, 14, True)
      , (22244, 19, True)
      , (22244, 1, True);
+
+/* Weenie - ContainersChests - Mining Storage Chest (23033) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23033;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23033, 'chestdarktreecrystal');
@@ -9325,6 +10090,9 @@ VALUES (23033, 12, True)
      , (23033, 19, True)
      , (23033, 1, True);
 
+/* Weenie - ContainersChests - Ancient Chest (23034) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23034;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23034, 'chestsoulshattercrystal');
 
@@ -9360,6 +10128,9 @@ VALUES (23034, 12, True)
      , (23034, 14, True)
      , (23034, 19, True)
      , (23034, 1, True);
+
+/* Weenie - ContainersChests - Chest (4791) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4791;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4791, 'chestbrentsellanote');
@@ -9398,6 +10169,9 @@ VALUES (4791, 12, True)
      , (4791, 19, True)
      , (4791, 1, True);
 
+/* Weenie - ContainersChests - Large Chest (5015) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5015;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5015, 'chestfolthiddagger');
 
@@ -9435,6 +10209,9 @@ VALUES (5015, 12, True)
      , (5015, 19, True)
      , (5015, 1, True);
 
+/* Weenie - ContainersChests - Chest (5192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5192;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5192, 'chestshrethhive');
 
@@ -9470,6 +10247,9 @@ VALUES (5192, 12, True)
      , (5192, 14, True)
      , (5192, 19, True)
      , (5192, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (22803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22803;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22803, 'chestquestlockedmidhilltopdrudgetower');
@@ -9507,6 +10287,9 @@ VALUES (22803, 12, True)
      , (22803, 19, True)
      , (22803, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4825) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4825;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4825, 'coffinhealermed');
 
@@ -9542,6 +10325,9 @@ VALUES (4825, 12, True)
      , (4825, 14, True)
      , (4825, 19, True)
      , (4825, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (7808) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7808;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7808, 'coffinzombiegen');
@@ -9579,6 +10365,9 @@ VALUES (7808, 12, True)
      , (7808, 19, True)
      , (7808, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (7809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7809;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7809, 'coffinlichgen');
 
@@ -9614,6 +10403,9 @@ VALUES (7809, 12, True)
      , (7809, 14, True)
      , (7809, 19, True)
      , (7809, 1, True);
+
+/* Weenie - ContainersChests - Small Chest (7811) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7811;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7811, 'chestsoulfearingvestry');
@@ -9652,6 +10444,9 @@ VALUES (7811, 12, True)
      , (7811, 19, True)
      , (7811, 1, True);
 
+/* Weenie - ContainersChests - Small Chest (7887) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7887;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7887, 'chestsoulfearingvestrylow');
 
@@ -9688,6 +10483,9 @@ VALUES (7887, 12, True)
      , (7887, 14, True)
      , (7887, 19, True)
      , (7887, 1, True);
+
+/* Weenie - ContainersChests - Small Chest (7888) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7888;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7888, 'chestsoulfearingvestrymed');
@@ -9726,6 +10524,9 @@ VALUES (7888, 12, True)
      , (7888, 19, True)
      , (7888, 1, True);
 
+/* Weenie - ContainersChests - Small Chest (7889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7889;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7889, 'chestsoulfearingvestryhigh');
 
@@ -9763,6 +10564,9 @@ VALUES (7889, 12, True)
      , (7889, 19, True)
      , (7889, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (23610) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23610;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23610, 'chestquestunlockedmidpoib');
 
@@ -9798,6 +10602,9 @@ VALUES (23610, 12, True)
      , (23610, 14, True)
      , (23610, 19, True)
      , (23610, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (24665) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24665;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24665, 'chestquestlockedhighpoic');
@@ -9835,6 +10642,9 @@ VALUES (24665, 12, True)
      , (24665, 19, True)
      , (24665, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (24674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24674;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24674, 'chestquestunlockedhighpoic');
 
@@ -9871,6 +10681,9 @@ VALUES (24674, 12, True)
      , (24674, 19, True)
      , (24674, 1, True);
 
+/* Weenie - ContainersChests - Rusty Chest (11013) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11013;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11013, 'chestmenhirbell1-xp');
 
@@ -9906,6 +10719,9 @@ VALUES (11013, 12, True)
      , (11013, 14, True)
      , (11013, 19, True)
      , (11013, 1, True);
+
+/* Weenie - ContainersChests - Storage Chest (14434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14434;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14434, 'chestregicide2');
@@ -9956,6 +10772,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14434, 0, 16778639)
      , (14434, 1, 16778642);
 
+/* Weenie - ContainersChests - Storage Chest (14433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14433;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14433, 'chestregicide1');
 
@@ -10005,6 +10824,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14433, 0, 16778639)
      , (14433, 1, 16778642);
 
+/* Weenie - ContainersChests - Knight's Stash (31360) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31360;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31360, 'ace31360-knightsstash');
 
@@ -10040,6 +10862,9 @@ VALUES (31360, 12, True)
      , (31360, 14, True)
      , (31360, 19, True)
      , (31360, 1, True);
+
+/* Weenie - ContainersChests - Chest (7784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7784;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7784, 'chestmagicmedmastery');
@@ -10078,6 +10903,9 @@ VALUES (7784, 12, True)
      , (7784, 19, True)
      , (7784, 1, True);
 
+/* Weenie - ContainersChests - Chest (3994) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3994;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3994, 'chestwarriorshohighlocked');
 
@@ -10113,6 +10941,9 @@ VALUES (3994, 12, True)
      , (3994, 14, True)
      , (3994, 19, True)
      , (3994, 1, True);
+
+/* Weenie - ContainersChests - Chest (3985) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3985;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3985, 'chestwarrioraluhighlocked');
@@ -10150,6 +10981,9 @@ VALUES (3985, 12, True)
      , (3985, 19, True)
      , (3985, 1, True);
 
+/* Weenie - ContainersChests - Chest (9103) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9103;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9103, 'chestmarioboots');
 
@@ -10186,6 +11020,9 @@ VALUES (9103, 12, True)
      , (9103, 19, True)
      , (9103, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (24672) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24672;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24672, 'chestquestlockedmidpoid');
 
@@ -10221,6 +11058,9 @@ VALUES (24672, 12, True)
      , (24672, 14, True)
      , (24672, 19, True)
      , (24672, 1, True);
+
+/* Weenie - ContainersChests - Chorizite Chest (48773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48773;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48773, 'ace48773-chorizitechest');
@@ -10270,6 +11110,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (48773, 0, 16778639)
      , (48773, 1, 16778642);
 
+/* Weenie - ContainersChests - Chest (1939) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1939;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1939, 'chestwarrioraluhigh');
 
@@ -10305,6 +11148,9 @@ VALUES (1939, 12, True)
      , (1939, 14, True)
      , (1939, 19, True)
      , (1939, 1, True);
+
+/* Weenie - ContainersChests - Chest (1948) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1948;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1948, 'chestwarriorshohigh');
@@ -10342,6 +11188,9 @@ VALUES (1948, 12, True)
      , (1948, 19, True)
      , (1948, 1, True);
 
+/* Weenie - ContainersChests - Chest (3963) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3963;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3963, 'chestglitterhighlocked');
 
@@ -10377,6 +11226,9 @@ VALUES (3963, 12, True)
      , (3963, 14, True)
      , (3963, 19, True)
      , (3963, 1, True);
+
+/* Weenie - ContainersChests - Chest (3972) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3972;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3972, 'chestminerhighlocked');
@@ -10414,6 +11266,9 @@ VALUES (3972, 12, True)
      , (3972, 19, True)
      , (3972, 1, True);
 
+/* Weenie - ContainersChests - Chest (3979) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3979;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3979, 'chestthiefhighlocked');
 
@@ -10449,6 +11304,9 @@ VALUES (3979, 12, True)
      , (3979, 14, True)
      , (3979, 19, True)
      , (3979, 1, True);
+
+/* Weenie - ContainersChests - Chest (1942) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1942;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1942, 'chestwarriorghahigh');
@@ -10486,6 +11344,9 @@ VALUES (1942, 12, True)
      , (1942, 19, True)
      , (1942, 1, True);
 
+/* Weenie - ContainersChests - Chest (3977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3977;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3977, 'chestmoneymedlocked');
 
@@ -10521,6 +11382,9 @@ VALUES (3977, 12, True)
      , (3977, 14, True)
      , (3977, 19, True)
      , (3977, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (27384) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27384;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27384, 'chestquestwizardsblade');
@@ -10558,6 +11422,9 @@ VALUES (27384, 12, True)
      , (27384, 19, True)
      , (27384, 1, True);
 
+/* Weenie - ContainersChests - Chest (9168) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9168;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9168, 'chestmartinelocked');
 
@@ -10594,6 +11461,9 @@ VALUES (9168, 12, True)
      , (9168, 19, True)
      , (9168, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4844) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4844;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4844, 'coffinmoneymedlocked');
 
@@ -10629,6 +11499,9 @@ VALUES (4844, 12, True)
      , (4844, 14, True)
      , (4844, 19, True)
      , (4844, 1, True);
+
+/* Weenie - ContainersChests - Chorizite Chest (48757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48757;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48757, 'ace48757-chorizitechest');
@@ -10678,6 +11551,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (48757, 0, 16778639)
      , (48757, 1, 16778642);
 
+/* Weenie - ContainersChests - Chorizite Chest (48759) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48759;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48759, 'ace48759-chorizitechest');
 
@@ -10726,6 +11602,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (48759, 0, 16778639)
      , (48759, 1, 16778642);
 
+/* Weenie - ContainersChests - Field Supplies (32078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32078;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32078, 'ace32078-fieldsupplies');
 
@@ -10761,6 +11640,9 @@ VALUES (32078, 12, True)
      , (32078, 14, True)
      , (32078, 19, True)
      , (32078, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4829) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4829;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4829, 'coffinmagiclow');
@@ -10798,6 +11680,9 @@ VALUES (4829, 12, True)
      , (4829, 19, True)
      , (4829, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4868;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4868, 'coffinwarriorghalowlocked');
 
@@ -10833,6 +11718,9 @@ VALUES (4868, 12, True)
      , (4868, 14, True)
      , (4868, 19, True)
      , (4868, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4880;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4880, 'coffinwarriorsholowlocked');
@@ -10870,6 +11758,9 @@ VALUES (4880, 12, True)
      , (4880, 19, True)
      , (4880, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4867;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4867, 'coffinwarriorghalow');
 
@@ -10905,6 +11796,9 @@ VALUES (4867, 12, True)
      , (4867, 14, True)
      , (4867, 19, True)
      , (4867, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4841) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4841;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4841, 'coffinmoneylow');
@@ -10944,6 +11838,9 @@ VALUES (4841, 12, True)
      , (4841, 19, True)
      , (4841, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4869) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4869;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4869, 'coffinwarriorghamed');
 
@@ -10979,6 +11876,9 @@ VALUES (4869, 12, True)
      , (4869, 14, True)
      , (4869, 19, True)
      , (4869, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4820) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4820;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4820, 'coffinglittermedlocked');
@@ -11016,6 +11916,9 @@ VALUES (4820, 12, True)
      , (4820, 19, True)
      , (4820, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4835) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4835;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4835, 'coffinminerlow');
 
@@ -11051,6 +11954,9 @@ VALUES (4835, 12, True)
      , (4835, 14, True)
      , (4835, 19, True)
      , (4835, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (26612) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26612;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26612, 'chestquestlockednewbiepoic');
@@ -11088,6 +11994,9 @@ VALUES (26612, 12, True)
      , (26612, 19, True)
      , (26612, 1, True);
 
+/* Weenie - ContainersChests - Noble Treasure Chest (28436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28436;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28436, 'chestmorgluukgeneric');
 
@@ -11122,6 +12031,9 @@ VALUES (28436, 12, True)
      , (28436, 14, True)
      , (28436, 19, True)
      , (28436, 1, True);
+
+/* Weenie - ContainersChests - Noble Katar Chest (28437) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28437;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28437, 'chestmorgluukkatar');
@@ -11158,6 +12070,9 @@ VALUES (28437, 12, True)
      , (28437, 19, True)
      , (28437, 1, True);
 
+/* Weenie - ContainersChests - Noble Quarterstaff Chest (28441) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28441;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28441, 'chestmorgluukstaff');
 
@@ -11192,6 +12107,9 @@ VALUES (28441, 12, True)
      , (28441, 14, True)
      , (28441, 19, True)
      , (28441, 1, True);
+
+/* Weenie - ContainersChests - Noble Stiletto Chest (28435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28435;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28435, 'chestmorgluukdirk');
@@ -11228,6 +12146,9 @@ VALUES (28435, 12, True)
      , (28435, 19, True)
      , (28435, 1, True);
 
+/* Weenie - ContainersChests - Noble Swordstaff Chest (28440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28440;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28440, 'chestmorgluukspear');
 
@@ -11262,6 +12183,9 @@ VALUES (28440, 12, True)
      , (28440, 14, True)
      , (28440, 19, True)
      , (28440, 1, True);
+
+/* Weenie - ContainersChests - Noble Brace Chest (28431) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28431;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28431, 'chestmorgluukatlatl');
@@ -11298,6 +12222,9 @@ VALUES (28431, 12, True)
      , (28431, 19, True)
      , (28431, 1, True);
 
+/* Weenie - ContainersChests - Noble War Maul Chest (28432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28432;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28432, 'chestmorgluukaxe');
 
@@ -11332,6 +12259,9 @@ VALUES (28432, 12, True)
      , (28432, 14, True)
      , (28432, 19, True)
      , (28432, 1, True);
+
+/* Weenie - ContainersChests - Noble Crossbow Chest (28434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28434;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28434, 'chestmorgluukcrossbow');
@@ -11368,6 +12298,9 @@ VALUES (28434, 12, True)
      , (28434, 19, True)
      , (28434, 1, True);
 
+/* Weenie - ContainersChests - Noble Morning Star Chest (28438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28438;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28438, 'chestmorgluukmace');
 
@@ -11402,6 +12335,9 @@ VALUES (28438, 12, True)
      , (28438, 14, True)
      , (28438, 19, True)
      , (28438, 1, True);
+
+/* Weenie - ContainersChests - Noble Longbow Chest (28433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28433;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28433, 'chestmorgluukbow');
@@ -11438,6 +12374,9 @@ VALUES (28433, 12, True)
      , (28433, 19, True)
      , (28433, 1, True);
 
+/* Weenie - ContainersChests - Noble Rapier Chest (28442) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28442;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28442, 'chestmorgluuksword');
 
@@ -11472,6 +12411,9 @@ VALUES (28442, 12, True)
      , (28442, 14, True)
      , (28442, 19, True)
      , (28442, 1, True);
+
+/* Weenie - ContainersChests - Noble Scepter Chest (28439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28439;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28439, 'chestmorgluukscepter');
@@ -11508,6 +12450,9 @@ VALUES (28439, 12, True)
      , (28439, 19, True)
      , (28439, 1, True);
 
+/* Weenie - ContainersChests - Chest (1944) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1944;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1944, 'chestwarriorghamed');
 
@@ -11543,6 +12488,9 @@ VALUES (1944, 12, True)
      , (1944, 14, True)
      , (1944, 19, True)
      , (1944, 1, True);
+
+/* Weenie - ContainersChests - Small Skeletal Falatacot Reliquary (35047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35047;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35047, 'ace35047-smallskeletalfalatacotreliquary');
@@ -11581,6 +12529,9 @@ VALUES (35047, 13, True)
      , (35047, 19, True)
      , (35047, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (23598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23598;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23598, 'chestquestlockedextremepoib');
 
@@ -11616,6 +12567,9 @@ VALUES (23598, 12, True)
      , (23598, 14, True)
      , (23598, 19, True)
      , (23598, 1, True);
+
+/* Weenie - ContainersChests - Chest (7785) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7785;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7785, 'chestmagiclowineptitude');
@@ -11654,6 +12608,9 @@ VALUES (7785, 12, True)
      , (7785, 19, True)
      , (7785, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (24681) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24681;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24681, 'chestquestunlockedmidpoid');
 
@@ -11689,6 +12646,9 @@ VALUES (24681, 12, True)
      , (24681, 14, True)
      , (24681, 19, True)
      , (24681, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (23600) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23600;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23600, 'chestquestlockedhighpoib');
@@ -11726,6 +12686,9 @@ VALUES (23600, 12, True)
      , (23600, 19, True)
      , (23600, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (22808) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22808;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22808, 'chestquestlockedmidbanderlingbandittower');
 
@@ -11761,6 +12724,9 @@ VALUES (22808, 12, True)
      , (22808, 14, True)
      , (22808, 19, True)
      , (22808, 1, True);
+
+/* Weenie - ContainersChests - Chest (1949) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1949;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1949, 'chestwarriorsholow');
@@ -11798,6 +12764,9 @@ VALUES (1949, 12, True)
      , (1949, 19, True)
      , (1949, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4810;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4810, 'coffingeneralhighlocked');
 
@@ -11833,6 +12802,9 @@ VALUES (4810, 12, True)
      , (4810, 14, True)
      , (4810, 19, True)
      , (4810, 1, True);
+
+/* Weenie - ContainersChests - Field Supplies (32079) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32079;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32079, 'ace32079-fieldsupplies');
@@ -11870,6 +12842,9 @@ VALUES (32079, 12, True)
      , (32079, 19, True)
      , (32079, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (26628) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26628;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26628, 'chestquestunlockednewbiepoif');
 
@@ -11905,6 +12880,9 @@ VALUES (26628, 12, True)
      , (26628, 14, True)
      , (26628, 19, True)
      , (26628, 1, True);
+
+/* Weenie - ContainersChests - Chest (3962) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3962;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3962, 'chestgeneralmedlocked');
@@ -11942,6 +12920,9 @@ VALUES (3962, 12, True)
      , (3962, 19, True)
      , (3962, 1, True);
 
+/* Weenie - ContainersChests - Chest (7493) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7493;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7493, 'chestclothinglow');
 
@@ -11977,6 +12958,9 @@ VALUES (7493, 12, True)
      , (7493, 14, True)
      , (7493, 19, True)
      , (7493, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (22575) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22575;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22575, 'chestquestunlockedlowratnest');
@@ -12014,6 +12998,9 @@ VALUES (22575, 12, True)
      , (22575, 19, True)
      , (22575, 1, True);
 
+/* Weenie - ContainersChests - Chest (3968) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3968;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3968, 'chesthealermedlocked');
 
@@ -12049,6 +13036,9 @@ VALUES (3968, 12, True)
      , (3968, 14, True)
      , (3968, 19, True)
      , (3968, 1, True);
+
+/* Weenie - ContainersChests - Chest (3975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3975;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3975, 'chestmoneyhighlocked');
@@ -12086,6 +13076,9 @@ VALUES (3975, 12, True)
      , (3975, 19, True)
      , (3975, 1, True);
 
+/* Weenie - ContainersChests - Chest (3958) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3958;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3958, 'chestfoodhighlocked');
 
@@ -12121,6 +13114,9 @@ VALUES (3958, 12, True)
      , (3958, 14, True)
      , (3958, 19, True)
      , (3958, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (22802) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22802;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22802, 'chestquestlockedmiddaiklos');
@@ -12158,6 +13154,9 @@ VALUES (22802, 12, True)
      , (22802, 19, True)
      , (22802, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (22806) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22806;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22806, 'chestquestunlockedlowdaiklos');
 
@@ -12193,6 +13192,9 @@ VALUES (22806, 12, True)
      , (22806, 14, True)
      , (22806, 19, True)
      , (22806, 1, True);
+
+/* Weenie - ContainersChests - Chest (1934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1934;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1934, 'chestthieflow');
@@ -12230,6 +13232,9 @@ VALUES (1934, 12, True)
      , (1934, 19, True)
      , (1934, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (22574) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22574;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22574, 'chestquestunlockedlowdungeonfern');
 
@@ -12265,6 +13270,9 @@ VALUES (22574, 12, True)
      , (22574, 14, True)
      , (22574, 19, True)
      , (22574, 1, True);
+
+/* Weenie - ContainersChests - Chest (1316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1316;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1316, 'chestsewertreasure');
@@ -12302,6 +13310,9 @@ VALUES (1316, 12, True)
      , (1316, 19, True)
      , (1316, 1, True);
 
+/* Weenie - ContainersChests - Chest (1317) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1317;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1317, 'chestsewertreasure2');
 
@@ -12337,6 +13348,9 @@ VALUES (1317, 12, True)
      , (1317, 14, True)
      , (1317, 19, True)
      , (1317, 1, True);
+
+/* Weenie - ContainersChests - Chest (1315) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1315;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1315, 'chestsewershield');
@@ -12375,6 +13389,9 @@ VALUES (1315, 12, True)
      , (1315, 19, True)
      , (1315, 1, True);
 
+/* Weenie - ContainersChests - Hope Chest (5036) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5036;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5036, 'hopechest');
 
@@ -12410,6 +13427,9 @@ VALUES (5036, 12, True)
      , (5036, 14, True)
      , (5036, 19, True)
      , (5036, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (22800) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22800;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22800, 'chestquestlockedlowgolemmound');
@@ -12447,6 +13467,9 @@ VALUES (22800, 12, True)
      , (22800, 19, True)
      , (22800, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (22807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22807;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22807, 'chestquestunlockedlowhedgedplatform');
 
@@ -12483,6 +13506,9 @@ VALUES (22807, 12, True)
      , (22807, 19, True)
      , (22807, 1, True);
 
+/* Weenie - ContainersChests - Old Runed Chest (27376) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27376;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27376, 'chestquestdarkmonolith');
 
@@ -12518,6 +13544,9 @@ VALUES (27376, 12, True)
      , (27376, 14, True)
      , (27376, 19, True)
      , (27376, 1, True);
+
+/* Weenie - ContainersChests - Asylum Chest (22906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22906;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22906, 'chestaerbax1');
@@ -12561,6 +13590,9 @@ VALUES (22906, 67113157, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22906, 9, 16785621);
 
+/* Weenie - ContainersChests - Fleshy Trove (33161) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33161;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33161, 'ace33161-fleshytrove');
 
@@ -12599,6 +13631,9 @@ VALUES (33161, 12, True)
      , (33161, 19, True)
      , (33161, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (23599) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23599;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23599, 'chestquestlockedhighpoia');
 
@@ -12634,6 +13669,9 @@ VALUES (23599, 12, True)
      , (23599, 14, True)
      , (23599, 19, True)
      , (23599, 1, True);
+
+/* Weenie - ContainersChests - Chest (7297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7297;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7297, 'chestscholarhighlocked');
@@ -12671,6 +13709,9 @@ VALUES (7297, 12, True)
      , (7297, 19, True)
      , (7297, 1, True);
 
+/* Weenie - ContainersChests - Black Marrow Reliquary (31417) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31417;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31417, 'ace31417-blackmarrowreliquary');
 
@@ -12706,6 +13747,9 @@ VALUES (31417, 12, True)
      , (31417, 14, True)
      , (31417, 19, True)
      , (31417, 1, True);
+
+/* Weenie - ContainersChests - Diviner Pheraion's Chest (33191) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33191;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33191, 'ace33191-divinerpheraionschest');
@@ -12743,6 +13787,9 @@ VALUES (33191, 12, True)
      , (33191, 19, True)
      , (33191, 1, True);
 
+/* Weenie - ContainersChests - Chest (23594) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23594;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23594, 'chestnoteanadilshadow');
 
@@ -12778,6 +13825,9 @@ VALUES (23594, 12, True)
      , (23594, 14, True)
      , (23594, 19, True)
      , (23594, 1, True);
+
+/* Weenie - ContainersChests - Old Chest (29059) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29059;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29059, 'chesthealingorb');
@@ -12815,6 +13865,9 @@ VALUES (29059, 12, True)
      , (29059, 19, True)
      , (29059, 1, True);
 
+/* Weenie - ContainersChests - Chest (3989) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3989;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3989, 'chestwarriorghalowlocked');
 
@@ -12851,6 +13904,9 @@ VALUES (3989, 12, True)
      , (3989, 19, True)
      , (3989, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4816) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4816;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4816, 'coffinglitterhighlocked');
 
@@ -12886,6 +13942,9 @@ VALUES (4816, 12, True)
      , (4816, 14, True)
      , (4816, 19, True)
      , (4816, 1, True);
+
+/* Weenie - ContainersChests - Laboratory Supply Chest (6776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6776;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6776, 'sylsfearchestmagichighlocked');
@@ -12924,6 +13983,9 @@ VALUES (6776, 12, True)
      , (6776, 19, True)
      , (6776, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (24682) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24682;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24682, 'chestquestunlockedmidpoie');
 
@@ -12959,6 +14021,9 @@ VALUES (24682, 12, True)
      , (24682, 14, True)
      , (24682, 19, True)
      , (24682, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (24673) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24673;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24673, 'chestquestlockedmidpoie');
@@ -12996,6 +14061,9 @@ VALUES (24673, 12, True)
      , (24673, 19, True)
      , (24673, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (23602) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23602;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23602, 'chestquestlockedlowpoib');
 
@@ -13031,6 +14099,9 @@ VALUES (23602, 12, True)
      , (23602, 14, True)
      , (23602, 19, True)
      , (23602, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (23607) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23607;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23607, 'chestquestunlockedlowpoia');
@@ -13068,6 +14139,9 @@ VALUES (23607, 12, True)
      , (23607, 19, True)
      , (23607, 1, True);
 
+/* Weenie - ContainersChests - Forge Vault (37588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37588;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37588, 'ace37588-forgevault');
 
@@ -13104,6 +14178,9 @@ VALUES (37588, 12, True)
      , (37588, 19, True)
      , (37588, 1, True);
 
+/* Weenie - ContainersChests - Chest (5054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5054;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5054, 'chestjhongmia');
 
@@ -13139,6 +14216,9 @@ VALUES (5054, 12, True)
      , (5054, 14, True)
      , (5054, 19, True)
      , (5054, 1, True);
+
+/* Weenie - ContainersChests - Chest (14534) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14534;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14534, 'chesthammeracid');
@@ -13188,6 +14268,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14534, 0, 16778639)
      , (14534, 1, 16778642);
 
+/* Weenie - ContainersChests - Chest (14535) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14535;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14535, 'chesthammerfire');
 
@@ -13236,6 +14319,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14535, 0, 16778639)
      , (14535, 1, 16778642);
 
+/* Weenie - ContainersChests - Chest (14536) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14536;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14536, 'chesthammerice');
 
@@ -13283,6 +14369,9 @@ VALUES (14536, 0, 83888750, 83893890)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14536, 0, 16778639)
      , (14536, 1, 16778642);
+
+/* Weenie - ContainersChests - Prism of Acid (14538) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14538;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14538, 'chestprismfracturedacid');
@@ -13333,6 +14422,9 @@ VALUES (14538, 0, 16784246)
      , (14538, 1, 16784196)
      , (14538, 2, 16784180);
 
+/* Weenie - ContainersChests - Prism of Fire (14539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14539;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14539, 'chestprismfracturedfire');
 
@@ -13381,6 +14473,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14539, 0, 16784246)
      , (14539, 1, 16784196)
      , (14539, 2, 16784180);
+
+/* Weenie - ContainersChests - Prism of Ice (14540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14540;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14540, 'chestprismfracturedice');
@@ -13431,6 +14526,9 @@ VALUES (14540, 0, 16784246)
      , (14540, 1, 16784196)
      , (14540, 2, 16784180);
 
+/* Weenie - ContainersChests - Prism of Lightning (14541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14541;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14541, 'chestprismfracturedlightning');
 
@@ -13480,6 +14578,9 @@ VALUES (14541, 0, 16784246)
      , (14541, 1, 16784196)
      , (14541, 2, 16784180);
 
+/* Weenie - ContainersChests - Chest (14542) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14542;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14542, 'chestebuillant');
 
@@ -13527,6 +14628,9 @@ VALUES (14542, 0, 83888750, 83893888)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14542, 0, 16778639)
      , (14542, 1, 16778642);
+
+/* Weenie - ContainersChests - Chest (14545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14545;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14545, 'chestincalescent');
@@ -13576,6 +14680,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14545, 0, 16778639)
      , (14545, 1, 16778642);
 
+/* Weenie - ContainersChests - Chest (14543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14543;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14543, 'chestfrigid');
 
@@ -13623,6 +14730,9 @@ VALUES (14543, 0, 83888750, 83893890)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14543, 0, 16778639)
      , (14543, 1, 16778642);
+
+/* Weenie - ContainersChests - Chest (14544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14544;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14544, 'chestgalvanic');
@@ -13672,6 +14782,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14544, 0, 16778639)
      , (14544, 1, 16778642);
 
+/* Weenie - ContainersChests - Chest (3995) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3995;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3995, 'chestwarriorsholowlocked');
 
@@ -13707,6 +14820,9 @@ VALUES (3995, 12, True)
      , (3995, 14, True)
      , (3995, 19, True)
      , (3995, 1, True);
+
+/* Weenie - ContainersChests - Chest (3996) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3996;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3996, 'chestwarriorshomedlocked');
@@ -13744,6 +14860,9 @@ VALUES (3996, 12, True)
      , (3996, 19, True)
      , (3996, 1, True);
 
+/* Weenie - ContainersChests - Chest (1950) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1950;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1950, 'chestwarriorshomed');
 
@@ -13779,6 +14898,9 @@ VALUES (1950, 12, True)
      , (1950, 14, True)
      , (1950, 19, True)
      , (1950, 1, True);
+
+/* Weenie - ContainersChests - Chorizite Chest (51327) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51327;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51327, 'ace51327-chorizitechest');
@@ -13828,6 +14950,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (51327, 0, 16778639)
      , (51327, 1, 16778642);
 
+/* Weenie - ContainersChests - Renegade Chest (27656) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27656;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27656, 'chestrenegadechorizite');
 
@@ -13865,6 +14990,9 @@ VALUES (27656, 12, True)
      , (27656, 19, True)
      , (27656, 1, True);
 
+/* Weenie - ContainersChests - Renegade Chest (27657) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27657;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27657, 'chestrenegadehealingkits');
 
@@ -13900,6 +15028,9 @@ VALUES (27657, 12, True)
      , (27657, 14, True)
      , (27657, 19, True)
      , (27657, 1, True);
+
+/* Weenie - ContainersChests - Chorizite Chest (48824) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48824;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48824, 'ace48824-chorizitechest');
@@ -13949,6 +15080,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (48824, 0, 16778639)
      , (48824, 1, 16778642);
 
+/* Weenie - ContainersChests - Old Chest (5185) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5185;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5185, 'chestruin');
 
@@ -13984,6 +15118,9 @@ VALUES (5185, 12, True)
      , (5185, 14, True)
      , (5185, 19, True)
      , (5185, 1, True);
+
+/* Weenie - ContainersChests - Chest (5189) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5189;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5189, 'chestgrotto');
@@ -14021,6 +15158,9 @@ VALUES (5189, 12, True)
      , (5189, 19, True)
      , (5189, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (23606) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23606;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23606, 'chestquestunlockedhighpoib');
 
@@ -14057,6 +15197,9 @@ VALUES (23606, 12, True)
      , (23606, 19, True)
      , (23606, 1, True);
 
+/* Weenie - ContainersChests - Ishaq's Storage Chest (29232) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29232;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29232, 'chestishaqslostkey');
 
@@ -14092,6 +15235,9 @@ VALUES (29232, 12, True)
      , (29232, 14, True)
      , (29232, 19, True)
      , (29232, 1, True);
+
+/* Weenie - ContainersChests - Martinate Singularity Trove (14871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14871;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14871, 'chestmartinatetrove');
@@ -14135,6 +15281,9 @@ VALUES (14871, 67113796, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14871, 9, 16785621);
 
+/* Weenie - ContainersChests - Chest (3974) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3974;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3974, 'chestminermedlocked');
 
@@ -14170,6 +15319,9 @@ VALUES (3974, 12, True)
      , (3974, 14, True)
      , (3974, 19, True)
      , (3974, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4834) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4834;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4834, 'coffinminerhighlocked');
@@ -14207,6 +15359,9 @@ VALUES (4834, 12, True)
      , (4834, 19, True)
      , (4834, 1, True);
 
+/* Weenie - ContainersChests - Chest (23596) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23596;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23596, 'cheststaffanadilshadow');
 
@@ -14242,6 +15397,9 @@ VALUES (23596, 12, True)
      , (23596, 14, True)
      , (23596, 19, True)
      , (23596, 1, True);
+
+/* Weenie - ContainersChests - An Ancient Chest (22886) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22886;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22886, 'chestchrysoberyl');
@@ -14279,6 +15437,9 @@ VALUES (22886, 12, True)
      , (22886, 19, True)
      , (22886, 1, True);
 
+/* Weenie - ContainersChests - Mine Storage Chest (22819) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22819;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22819, 'chestholidays');
 
@@ -14314,6 +15475,9 @@ VALUES (22819, 12, True)
      , (22819, 14, True)
      , (22819, 19, True)
      , (22819, 1, True);
+
+/* Weenie - ContainersChests - Old Runed Chest (33829) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33829;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33829, 'ace33829-oldrunedchest');
@@ -14351,6 +15515,9 @@ VALUES (33829, 12, True)
      , (33829, 19, True)
      , (33829, 1, True);
 
+/* Weenie - ContainersChests - Chest (4790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4790;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4790, 'chestbrentsellakey');
 
@@ -14386,6 +15553,9 @@ VALUES (4790, 12, True)
      , (4790, 14, True)
      , (4790, 19, True)
      , (4790, 1, True);
+
+/* Weenie - ContainersChests - Chest (4886) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4886;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4886, 'chestdistilleryambrosia');
@@ -14423,6 +15593,9 @@ VALUES (4886, 12, True)
      , (4886, 19, True)
      , (4886, 1, True);
 
+/* Weenie - ContainersChests - Chest (5756) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5756;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5756, 'chestwatertemple');
 
@@ -14458,6 +15631,9 @@ VALUES (5756, 12, True)
      , (5756, 14, True)
      , (5756, 19, True)
      , (5756, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4857;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4857, 'coffinutilitymed');
@@ -14495,6 +15671,9 @@ VALUES (4857, 12, True)
      , (4857, 19, True)
      , (4857, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (167) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 167;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (167, 'sarcophagus');
 
@@ -14530,6 +15709,9 @@ VALUES (167, 12, True)
      , (167, 14, True)
      , (167, 19, True)
      , (167, 1, True);
+
+/* Weenie - ContainersChests - Chest (1239) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1239;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1239, 'chestglendentreasure');
@@ -14567,6 +15749,9 @@ VALUES (1239, 12, True)
      , (1239, 19, True)
      , (1239, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (26619) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26619;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26619, 'chestquestunlockedlowpoif');
 
@@ -14602,6 +15787,9 @@ VALUES (26619, 12, True)
      , (26619, 14, True)
      , (26619, 19, True)
      , (26619, 1, True);
+
+/* Weenie - ContainersChests - Armory Chest (8210) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8210;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8210, 'chestxara');
@@ -14639,6 +15827,9 @@ VALUES (8210, 12, True)
      , (8210, 19, True)
      , (8210, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (23603) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23603;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23603, 'chestquestlockedmidpoia');
 
@@ -14675,6 +15866,9 @@ VALUES (23603, 12, True)
      , (23603, 19, True)
      , (23603, 1, True);
 
+/* Weenie - ContainersChests - Old Chest (29062) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29062;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29062, 'chesthealinglavus');
 
@@ -14710,6 +15904,9 @@ VALUES (29062, 12, True)
      , (29062, 14, True)
      , (29062, 19, True)
      , (29062, 1, True);
+
+/* Weenie - ContainersChests - Chorizite Chest (48745) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48745;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48745, 'ace48745-chorizitechest');
@@ -14759,6 +15956,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (48745, 0, 16778639)
      , (48745, 1, 16778642);
 
+/* Weenie - ContainersChests - Chorizite Chest (48760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48760;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48760, 'ace48760-chorizitechest');
 
@@ -14807,6 +16007,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (48760, 0, 16778639)
      , (48760, 1, 16778642);
 
+/* Weenie - ContainersChests - Magic Chest (44082) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44082;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44082, 'ace44082-magicchest');
 
@@ -14842,6 +16045,9 @@ VALUES (44082, 12, True)
      , (44082, 14, True)
      , (44082, 19, True)
      , (44082, 1, True);
+
+/* Weenie - ContainersChests - Armor Chest (44081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44081;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44081, 'ace44081-armorchest');
@@ -14879,6 +16085,9 @@ VALUES (44081, 12, True)
      , (44081, 19, True)
      , (44081, 1, True);
 
+/* Weenie - ContainersChests - Weapon Chest (44083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44083;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44083, 'ace44083-weaponchest');
 
@@ -14914,6 +16123,9 @@ VALUES (44083, 12, True)
      , (44083, 14, True)
      , (44083, 19, True)
      , (44083, 1, True);
+
+/* Weenie - ContainersChests - Mixed Equipment Chest (44084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44084;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44084, 'ace44084-mixedequipmentchest');
@@ -14951,6 +16163,9 @@ VALUES (44084, 12, True)
      , (44084, 19, True)
      , (44084, 1, True);
 
+/* Weenie - ContainersChests - Sealed Treasury Vault (41958) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41958;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41958, 'ace41958-sealedtreasuryvault');
 
@@ -14986,6 +16201,9 @@ VALUES (41958, 12, True)
      , (41958, 14, True)
      , (41958, 19, True)
      , (41958, 1, True);
+
+/* Weenie - ContainersChests - Chorizite Chest (48767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48767;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48767, 'ace48767-chorizitechest');
@@ -15035,6 +16253,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (48767, 0, 16778639)
      , (48767, 1, 16778642);
 
+/* Weenie - ContainersChests - Chorizite Chest (51662) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51662;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51662, 'ace51662-chorizitechest');
 
@@ -15082,6 +16303,9 @@ VALUES (51662, 0, 83888750, 83893889)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51662, 0, 16778639)
      , (51662, 1, 16778642);
+
+/* Weenie - ContainersChests - Chorizite Chest (51280) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51280;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51280, 'ace51280-chorizitechest');
@@ -15131,6 +16355,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (51280, 0, 16778639)
      , (51280, 1, 16778642);
 
+/* Weenie - ContainersChests - Chorizite Chest (48913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48913;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48913, 'ace48913-chorizitechest');
 
@@ -15179,6 +16406,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (48913, 0, 16778639)
      , (48913, 1, 16778642);
 
+/* Weenie - ContainersChests - Sarcophagus (4845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4845;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4845, 'coffinpoor');
 
@@ -15214,6 +16444,9 @@ VALUES (4845, 12, True)
      , (4845, 14, True)
      , (4845, 19, True)
      , (4845, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4819) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4819;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4819, 'coffinglittermed');
@@ -15251,6 +16484,9 @@ VALUES (4819, 12, True)
      , (4819, 19, True)
      , (4819, 1, True);
 
+/* Weenie - ContainersChests - Old Chest (29060) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29060;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29060, 'chesthealingtihn');
 
@@ -15286,6 +16522,9 @@ VALUES (29060, 12, True)
      , (29060, 14, True)
      , (29060, 19, True)
      , (29060, 1, True);
+
+/* Weenie - ContainersChests - Strongbox (5162) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5162;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5162, 'chestlubziklancider');
@@ -15323,6 +16562,9 @@ VALUES (5162, 12, True)
      , (5162, 19, True)
      , (5162, 1, True);
 
+/* Weenie - ContainersChests - Lady Jaera's Tomb (6042) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6042;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6042, 'mageacademycoffinwarriorhighlocked');
 
@@ -15359,6 +16601,9 @@ VALUES (6042, 12, True)
      , (6042, 14, True)
      , (6042, 19, True)
      , (6042, 1, True);
+
+/* Weenie - ContainersChests - Lady of Aerlinthe's Embossed Chest (40930) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40930;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40930, 'ace40930-ladyofaerlinthesembossedchest');
@@ -15406,6 +16651,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (40930, 0, 16789208)
      , (40930, 1, 16789209);
 
+/* Weenie - ContainersChests - Chest (4888) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4888;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4888, 'chestdistillerynectar');
 
@@ -15441,6 +16689,9 @@ VALUES (4888, 12, True)
      , (4888, 14, True)
      , (4888, 19, True)
      , (4888, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (24662) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24662;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24662, 'chestquestlockedextremepoic');
@@ -15478,6 +16729,9 @@ VALUES (24662, 12, True)
      , (24662, 19, True)
      , (24662, 1, True);
 
+/* Weenie - ContainersChests - Sealed Lugian Chest (27455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27455;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27455, 'chestcontact');
 
@@ -15513,6 +16767,9 @@ VALUES (27455, 12, True)
      , (27455, 14, True)
      , (27455, 19, True)
      , (27455, 1, True);
+
+/* Weenie - ContainersChests - Leatherworking Supplies (31694) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31694;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31694, 'ace31694-leatherworkingsupplies');
@@ -15550,6 +16807,9 @@ VALUES (31694, 12, True)
      , (31694, 19, True)
      , (31694, 1, True);
 
+/* Weenie - ContainersChests - Blacksmithing Supplies (31695) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31695;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31695, 'ace31695-blacksmithingsupplies');
 
@@ -15585,6 +16845,9 @@ VALUES (31695, 12, True)
      , (31695, 14, True)
      , (31695, 19, True)
      , (31695, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (23608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23608;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23608, 'chestquestunlockedlowpoib');
@@ -15622,6 +16885,9 @@ VALUES (23608, 12, True)
      , (23608, 19, True)
      , (23608, 1, True);
 
+/* Weenie - ContainersChests - Chest (23519) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23519;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23519, 'chestkeyhalf1');
 
@@ -15658,6 +16924,9 @@ VALUES (23519, 12, True)
      , (23519, 19, True)
      , (23519, 1, True);
 
+/* Weenie - ContainersChests - Chest (23520) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23520;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23520, 'chestkeyhalf2');
 
@@ -15693,6 +16962,9 @@ VALUES (23520, 12, True)
      , (23520, 14, True)
      , (23520, 19, True)
      , (23520, 1, True);
+
+/* Weenie - ContainersChests - Chorizite Chest (51687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51687;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51687, 'ace51687-chorizitechest');
@@ -15742,6 +17014,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (51687, 0, 16778639)
      , (51687, 1, 16778642);
 
+/* Weenie - ContainersChests - Chorizite Chest (51643) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51643;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51643, 'ace51643-chorizitechest');
 
@@ -15790,6 +17065,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (51643, 0, 16778639)
      , (51643, 1, 16778642);
 
+/* Weenie - ContainersChests - Sarcophagus (4851) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4851;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4851, 'coffinthiefmed');
 
@@ -15825,6 +17103,9 @@ VALUES (4851, 12, True)
      , (4851, 14, True)
      , (4851, 19, True)
      , (4851, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4876;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4876, 'coffinwarriormedlocked');
@@ -15862,6 +17143,9 @@ VALUES (4876, 12, True)
      , (4876, 19, True)
      , (4876, 1, True);
 
+/* Weenie - ContainersChests - Sarcophagus (4828) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4828;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4828, 'coffinmagichighlocked');
 
@@ -15897,6 +17181,9 @@ VALUES (4828, 12, True)
      , (4828, 14, True)
      , (4828, 19, True)
      , (4828, 1, True);
+
+/* Weenie - ContainersChests - Burun Mud-packed Chest (27658) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27658;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27658, 'chestrenegadelockpicks');
@@ -15934,6 +17221,9 @@ VALUES (27658, 12, True)
      , (27658, 19, True)
      , (27658, 1, True);
 
+/* Weenie - ContainersChests - Old Chest (29061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29061;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29061, 'chesthealingpedestal');
 
@@ -15969,6 +17259,9 @@ VALUES (29061, 12, True)
      , (29061, 14, True)
      , (29061, 19, True)
      , (29061, 1, True);
+
+/* Weenie - ContainersChests - Chest (3983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3983;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3983, 'chestutilitylowlocked');
@@ -16006,6 +17299,9 @@ VALUES (3983, 12, True)
      , (3983, 19, True)
      , (3983, 1, True);
 
+/* Weenie - ContainersChests - An old Chest (27890) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27890;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27890, 'chestnecklaceleerargh');
 
@@ -16041,6 +17337,9 @@ VALUES (27890, 12, True)
      , (27890, 14, True)
      , (27890, 19, True)
      , (27890, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (24670) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24670;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24670, 'chestquestlockedlowpoie');
@@ -16078,6 +17377,9 @@ VALUES (24670, 12, True)
      , (24670, 19, True)
      , (24670, 1, True);
 
+/* Weenie - ContainersChests - Chest (5155) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5155;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5155, 'chestdah');
 
@@ -16113,6 +17415,9 @@ VALUES (5155, 12, True)
      , (5155, 14, True)
      , (5155, 19, True)
      , (5155, 1, True);
+
+/* Weenie - ContainersChests - Chest (5045) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5045;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5045, 'chestshirtbeltslora');
@@ -16150,6 +17455,9 @@ VALUES (5045, 12, True)
      , (5045, 19, True)
      , (5045, 1, True);
 
+/* Weenie - ContainersChests - Tumerok Vault (11318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11318;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11318, 'altartanuafigurine-xp');
 
@@ -16185,6 +17493,9 @@ VALUES (11318, 12, True)
      , (11318, 14, True)
      , (11318, 19, True)
      , (11318, 1, True);
+
+/* Weenie - ContainersChests - Tumerok Vault (11319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11319;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11319, 'altartanuaspear-xp');
@@ -16222,6 +17533,9 @@ VALUES (11319, 12, True)
      , (11319, 19, True)
      , (11319, 1, True);
 
+/* Weenie - ContainersChests - Chest (6892) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6892;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6892, 'chestbookmiyako');
 
@@ -16257,6 +17571,9 @@ VALUES (6892, 12, True)
      , (6892, 14, True)
      , (6892, 19, True)
      , (6892, 1, True);
+
+/* Weenie - ContainersChests - Chest (45878) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45878;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45878, 'ace45878-chest');
@@ -16294,6 +17611,9 @@ VALUES (45878, 12, True)
      , (45878, 19, True)
      , (45878, 1, True);
 
+/* Weenie - ContainersChests - Chest (5056) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5056;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5056, 'chestjhongmic');
 
@@ -16329,6 +17649,9 @@ VALUES (5056, 12, True)
      , (5056, 14, True)
      , (5056, 19, True)
      , (5056, 1, True);
+
+/* Weenie - ContainersChests - Rusty Chest (11014) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11014;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11014, 'chestmenhirbell2-xp');
@@ -16366,6 +17689,9 @@ VALUES (11014, 12, True)
      , (11014, 19, True)
      , (11014, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (24664) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24664;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24664, 'chestquestlockedextremepoie');
 
@@ -16401,6 +17727,9 @@ VALUES (24664, 12, True)
      , (24664, 14, True)
      , (24664, 19, True)
      , (24664, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (24676) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24676;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24676, 'chestquestunlockedhighpoie');
@@ -16438,6 +17767,9 @@ VALUES (24676, 12, True)
      , (24676, 19, True)
      , (24676, 1, True);
 
+/* Weenie - ContainersChests - Runed Chest (26607) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26607;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26607, 'chestquestlockedlowpoig');
 
@@ -16473,6 +17805,9 @@ VALUES (26607, 12, True)
      , (26607, 14, True)
      , (26607, 19, True)
      , (26607, 1, True);
+
+/* Weenie - ContainersChests - Renegade Chest (27655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27655;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27655, 'chestrenegadebeefjerky');
@@ -16511,6 +17846,9 @@ VALUES (27655, 12, True)
      , (27655, 19, True)
      , (27655, 1, True);
 
+/* Weenie - ContainersChests - Tahuirea's Cache (27278) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27278;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27278, 'chesttiulerea');
 
@@ -16546,6 +17884,9 @@ VALUES (27278, 12, True)
      , (27278, 14, True)
      , (27278, 19, True)
      , (27278, 1, True);
+
+/* Weenie - ContainersChests - Runed Chest (26627) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26627;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26627, 'chestquestunlockednewbiepoie');
@@ -16583,6 +17924,9 @@ VALUES (26627, 12, True)
      , (26627, 19, True)
      , (26627, 1, True);
 
+/* Weenie - ContainersChests - Coral Encrusted Chest (37410) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37410;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37410, 'ace37410-coralencrustedchest');
 
@@ -16618,6 +17962,9 @@ VALUES (37410, 12, True)
      , (37410, 14, True)
      , (37410, 19, True)
      , (37410, 1, True);
+
+/* Weenie - ContainersChests - Sarcophagus (4831) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4831;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4831, 'coffinmagicmed');

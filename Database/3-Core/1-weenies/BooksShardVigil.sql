@@ -1,3 +1,6 @@
+/* Weenie - BooksShardVigil - Shard Vigil Memorial (9002) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9002;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9002, 'monumentthistledown');
 

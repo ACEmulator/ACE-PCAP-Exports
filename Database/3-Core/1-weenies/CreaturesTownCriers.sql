@@ -1,3 +1,6 @@
+/* Weenie - CreaturesTownCriers - Town Crier (5777) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5777;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5777, 'towncriershomale');
 
@@ -96,6 +99,9 @@ VALUES (5777, 16, 16795638)
      , (5777, 13, 16783871)
      , (5777, 14, 16783855);
 
+/* Weenie - CreaturesTownCriers - Town Crier (5772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5772;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5772, 'towncrieraluvianfemale');
 
@@ -191,6 +197,9 @@ VALUES (5772, 16, 16795655)
      , (5772, 11, 16783853)
      , (5772, 13, 16783871)
      , (5772, 14, 16783855);
+
+/* Weenie - CreaturesTownCriers - Town Crier (5776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5776;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5776, 'towncriershofemale');
@@ -292,6 +301,9 @@ VALUES (5776, 16, 16795655)
      , (5776, 13, 16783871)
      , (5776, 14, 16783855);
 
+/* Weenie - CreaturesTownCriers - Town Crier (5773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5773;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5773, 'towncrieraluvianmale');
 
@@ -386,6 +398,9 @@ VALUES (5773, 16, 16795654)
      , (5773, 13, 16783871)
      , (5773, 14, 16783855);
 
+/* Weenie - CreaturesTownCriers - Town Crier (30063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30063;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30063, 'towncrierviafemale');
 
@@ -462,6 +477,9 @@ VALUES (30063, 16, 16795640)
      , (30063, 11, 16783853)
      , (30063, 13, 16791903)
      , (30063, 14, 16783855);
+
+/* Weenie - CreaturesTownCriers - Town Crier (30064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30064;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30064, 'towncrierviamale');
@@ -540,6 +558,9 @@ VALUES (30064, 16, 16795638)
      , (30064, 13, 16791903)
      , (30064, 14, 16783855);
 
+/* Weenie - CreaturesTownCriers - Town Crier (22643) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22643;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22643, 'towncrieroolutanga');
 
@@ -597,6 +618,9 @@ VALUES (22643, 1, 16785073)
      , (22643, 22, 16777708)
      , (22643, 23, 16777708)
      , (22643, 24, 16777708);
+
+/* Weenie - CreaturesTownCriers - Town Crier (5775) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5775;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5775, 'towncriergharundimmale');
@@ -698,6 +722,9 @@ VALUES (5775, 3, 16777292)
      , (5775, 13, 16783871)
      , (5775, 14, 16783855)
      , (5775, 16, 16783901);
+
+/* Weenie - CreaturesTownCriers - Town Crier (5774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5774;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5774, 'towncriergharundimfemale');
@@ -802,6 +829,9 @@ VALUES (5774, 3, 16778361)
      , (5774, 14, 16783855)
      , (5774, 16, 16783901);
 
+/* Weenie - CreaturesTownCriers - Town Crier (49605) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49605;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49605, 'ace49605-towncrier');
 
@@ -904,6 +934,9 @@ VALUES (49605, 3, 16777292)
      , (49605, 14, 16783855)
      , (49605, 16, 16783901);
 
+/* Weenie - CreaturesTownCriers - Academy Crier (13242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13242;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13242, 'academycrier');
 
@@ -1000,6 +1033,9 @@ VALUES (13242, 12, 16777304)
      , (13242, 11, 16783853)
      , (13242, 13, 16783871)
      , (13242, 14, 16783855);
+
+/* Weenie - CreaturesTownCriers - Town Crier (49642) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49642;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49642, 'ace49642-towncrier');

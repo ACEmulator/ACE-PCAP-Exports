@@ -1,3 +1,6 @@
+/* Weenie - BooksStatics - Fishing Sign (23340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23340;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23340, 'fishingsignnewbie');
 
@@ -29,6 +32,9 @@ VALUES (23340, 11, True)
      , (23340, 19, True)
      , (23340, 1, True);
 
+/* Weenie - BooksStatics - Shrine to Xao Wu (32564) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32564;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32564, 'ace32564-shrinetoxaowu');
 
@@ -59,6 +65,9 @@ VALUES (32564, 11, True)
      , (32564, 14, True)
      , (32564, 19, True)
      , (32564, 1, True);
+
+/* Weenie - BooksStatics - Jojii Zhen Gai Comments on the Teachings of Jojii (5704) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5704;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5704, 'lecternzojiizhen');
@@ -92,6 +101,9 @@ VALUES (5704, 11, True)
      , (5704, 19, True)
      , (5704, 1, True);
 
+/* Weenie - BooksStatics - The Collected Writings of Jhong Mi (5698) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5698;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5698, 'lecternjhongmi');
 
@@ -123,6 +135,9 @@ VALUES (5698, 11, True)
      , (5698, 14, True)
      , (5698, 19, True)
      , (5698, 1, True);
+
+/* Weenie - BooksStatics - The Story of Ben Ten and Yanshi (5702) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5702;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5702, 'lecternbenten');
@@ -156,6 +171,9 @@ VALUES (5702, 11, True)
      , (5702, 19, True)
      , (5702, 1, True);
 
+/* Weenie - BooksStatics - The Story of Koji and the Dragon of Power (5701) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5701;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5701, 'lecternkoji2');
 
@@ -188,6 +206,9 @@ VALUES (5701, 11, True)
      , (5701, 19, True)
      , (5701, 1, True);
 
+/* Weenie - BooksStatics - Ken-Gou and the Curse of Attachment (5703) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5703;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5703, 'lecternkengou');
 
@@ -219,6 +240,9 @@ VALUES (5703, 11, True)
      , (5703, 14, True)
      , (5703, 19, True)
      , (5703, 1, True);
+
+/* Weenie - BooksStatics - Warning Letter (4200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4200;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4200, 'warningpkswitch');
@@ -254,6 +278,9 @@ VALUES (4200, 13, True)
      , (4200, 19, True)
      , (4200, 1, True);
 
+/* Weenie - BooksStatics - Ulgrim's Island (23883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23883;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23883, 'signulgrimsisland');
 
@@ -287,6 +314,9 @@ VALUES (23883, 12, True)
      , (23883, 19, True)
      , (23883, 1, True);
 
+/* Weenie - BooksStatics - LIFESTONES SIGN (5108) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5108;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5108, 'trainlifestonesign');
 
@@ -318,6 +348,9 @@ VALUES (5108, 12, True)
      , (5108, 14, True)
      , (5108, 19, True)
      , (5108, 1, True);
+
+/* Weenie - BooksStatics - The Underground City (5691) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5691;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5691, 'lecternucity');
@@ -351,6 +384,9 @@ VALUES (5691, 11, True)
      , (5691, 19, True)
      , (5691, 1, True);
 
+/* Weenie - BooksStatics - The Full Code of Pwyll (5690) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5690;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5690, 'lecterncodepwyll');
 
@@ -382,6 +418,9 @@ VALUES (5690, 11, True)
      , (5690, 14, True)
      , (5690, 19, True)
      , (5690, 1, True);
+
+/* Weenie - BooksStatics - The Days of the Olthoi (5692) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5692;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5692, 'lecternolthoidays');
@@ -415,6 +454,9 @@ VALUES (5692, 11, True)
      , (5692, 19, True)
      , (5692, 1, True);
 
+/* Weenie - BooksStatics - To Be A Shadow (5697) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5697;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5697, 'lecternshadow');
 
@@ -446,6 +488,9 @@ VALUES (5697, 11, True)
      , (5697, 14, True)
      , (5697, 19, True)
      , (5697, 1, True);
+
+/* Weenie - BooksStatics - Scrawled Note (25940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25940;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25940, 'noteemptysoul1');
@@ -481,6 +526,9 @@ VALUES (25940, 13, True)
      , (25940, 19, True)
      , (25940, 1, True);
 
+/* Weenie - BooksStatics - VIEW CONTROLS  (5141) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5141;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5141, 'trainviewpointsign');
 
@@ -512,6 +560,9 @@ VALUES (5141, 12, True)
      , (5141, 14, True)
      , (5141, 19, True)
      , (5141, 1, True);
+
+/* Weenie - BooksStatics - WIELDING ITEMS  (5101) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5101;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5101, 'traincombat1sign');
@@ -545,6 +596,9 @@ VALUES (5101, 12, True)
      , (5101, 19, True)
      , (5101, 1, True);
 
+/* Weenie - BooksStatics - COMBAT BAR  (5102) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5102;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5102, 'traincombat2sign');
 
@@ -576,6 +630,9 @@ VALUES (5102, 12, True)
      , (5102, 14, True)
      , (5102, 19, True)
      , (5102, 1, True);
+
+/* Weenie - BooksStatics - STATUS BARS  (5103) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5103;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5103, 'traincombat3sign');
@@ -609,6 +666,9 @@ VALUES (5103, 12, True)
      , (5103, 19, True)
      , (5103, 1, True);
 
+/* Weenie - BooksStatics - BASICS OF MAGIC  (5105) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5105;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5105, 'trainmagic1sign');
 
@@ -640,6 +700,9 @@ VALUES (5105, 12, True)
      , (5105, 14, True)
      , (5105, 19, True)
      , (5105, 1, True);
+
+/* Weenie - BooksStatics - SPELLCASTING  (5106) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5106;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5106, 'trainmagic2sign');
@@ -673,6 +736,9 @@ VALUES (5106, 12, True)
      , (5106, 19, True)
      , (5106, 1, True);
 
+/* Weenie - BooksStatics - MAGIC TIPS  (5107) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5107;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5107, 'trainmagic3sign');
 
@@ -704,6 +770,9 @@ VALUES (5107, 12, True)
      , (5107, 14, True)
      , (5107, 19, True)
      , (5107, 1, True);
+
+/* Weenie - BooksStatics - Letter from Alatar (1428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1428;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1428, 'tomelostlight');
@@ -739,6 +808,9 @@ VALUES (1428, 13, True)
      , (1428, 19, True)
      , (1428, 1, True);
 
+/* Weenie - BooksStatics - Signpost (49618) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49618;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49618, 'ace49618-signpost');
 
@@ -772,6 +844,9 @@ VALUES (49618, 12, True)
      , (49618, 14, True)
      , (49618, 19, True)
      , (49618, 1, True);
+
+/* Weenie - BooksStatics - A Stained Book (8186) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8186;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8186, 'notefloatingcitya');
@@ -807,6 +882,9 @@ VALUES (8186, 13, True)
      , (8186, 19, True)
      , (8186, 1, True);
 
+/* Weenie - BooksStatics - A Stained Book (8375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8375;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8375, 'notefloatingcityf');
 
@@ -840,6 +918,9 @@ VALUES (8375, 13, True)
      , (8375, 14, True)
      , (8375, 19, True)
      , (8375, 1, True);
+
+/* Weenie - BooksStatics - A Stained Book (8187) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8187;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8187, 'notefloatingcityb');
@@ -875,6 +956,9 @@ VALUES (8187, 13, True)
      , (8187, 19, True)
      , (8187, 1, True);
 
+/* Weenie - BooksStatics - A Stained Book (8188) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8188;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8188, 'notefloatingcityc');
 
@@ -908,6 +992,9 @@ VALUES (8188, 13, True)
      , (8188, 14, True)
      , (8188, 19, True)
      , (8188, 1, True);
+
+/* Weenie - BooksStatics - A Stained Book (8376) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8376;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8376, 'notefloatingcityg');
@@ -943,6 +1030,9 @@ VALUES (8376, 13, True)
      , (8376, 19, True)
      , (8376, 1, True);
 
+/* Weenie - BooksStatics - Hasty Note (5887) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5887;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5887, 'tremblantnotebandit');
 
@@ -976,6 +1066,9 @@ VALUES (5887, 13, True)
      , (5887, 14, True)
      , (5887, 19, True)
      , (5887, 1, True);
+
+/* Weenie - BooksStatics - Brief Note (5888) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5888;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5888, 'tremblantnoteneydisa');
@@ -1011,6 +1104,9 @@ VALUES (5888, 13, True)
      , (5888, 19, True)
      , (5888, 1, True);
 
+/* Weenie - BooksStatics - Quick Note (5889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5889;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5889, 'tremblantnotestonehold');
 
@@ -1045,6 +1141,9 @@ VALUES (5889, 13, True)
      , (5889, 19, True)
      , (5889, 1, True);
 
+/* Weenie - BooksStatics - Memorial (6049) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6049;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6049, 'lecternjournalfrore');
 
@@ -1078,6 +1177,9 @@ VALUES (6049, 13, True)
      , (6049, 19, True)
      , (6049, 1, True);
 
+/* Weenie - BooksStatics - Strange Book (14892) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14892;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14892, 'dontpanic');
 
@@ -1108,6 +1210,9 @@ VALUES (14892, 13, True)
      , (14892, 14, True)
      , (14892, 19, True)
      , (14892, 1, True);
+
+/* Weenie - BooksStatics - Ardry's Rant (9139) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9139;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9139, 'noteardryrant');
@@ -1142,6 +1247,9 @@ VALUES (9139, 13, True)
      , (9139, 14, True)
      , (9139, 19, True)
      , (9139, 1, True);
+
+/* Weenie - BooksStatics - Enlightenment and Rebirth (53478) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53478;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53478, 'ace53478-enlightenmentandrebirth');
@@ -1179,6 +1287,9 @@ VALUES (53478, 13, True)
      , (53478, 19, True)
      , (53478, 1, True);
 
+/* Weenie - BooksStatics - Precepts of the Tenebrous Edge (6029) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6029;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6029, 'bookmountainfortressprecepts');
 
@@ -1214,6 +1325,9 @@ VALUES (6029, 13, True)
      , (6029, 19, True)
      , (6029, 1, True);
 
+/* Weenie - BooksStatics - A letter to Devana (6828) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6828;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6828, 'notemountainfortressletter');
 
@@ -1247,6 +1361,9 @@ VALUES (6828, 13, True)
      , (6828, 14, True)
      , (6828, 19, True)
      , (6828, 1, True);
+
+/* Weenie - BooksStatics - The Fallen Master of Shagar Zharala (6030) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6030;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6030, 'bookmountainfortressfallenmaster');
@@ -1282,6 +1399,9 @@ VALUES (6030, 13, True)
      , (6030, 14, True)
      , (6030, 19, True)
      , (6030, 1, True);
+
+/* Weenie - BooksStatics - Alaidain's Gem (8517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8517;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8517, 'gemalaidain');
@@ -1326,6 +1446,9 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (8517, 0, 16780925)
      , (8517, 1, 16779181);
 
+/* Weenie - BooksStatics - Old Lascare's Journal (29509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29509;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29509, 'bookjournalredbulllascare');
 
@@ -1360,6 +1483,9 @@ VALUES (29509, 13, True)
      , (29509, 19, True)
      , (29509, 1, True);
 
+/* Weenie - BooksStatics - Stone Plaque (23351) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23351;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23351, 'signempyreanplaque');
 
@@ -1392,6 +1518,9 @@ VALUES (23351, 12, True)
      , (23351, 19, True)
      , (23351, 1, True);
 
+/* Weenie - BooksStatics - Warning for General Arena! (7939) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7939;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7939, 'signnpkarena');
 
@@ -1423,6 +1552,9 @@ VALUES (7939, 12, True)
      , (7939, 14, True)
      , (7939, 19, True)
      , (7939, 1, True);
+
+/* Weenie - BooksStatics - Warning for PK Arena! (7938) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7938;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7938, 'signpkarena');
