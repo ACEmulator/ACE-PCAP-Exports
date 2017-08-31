@@ -1,4 +1,5 @@
 /* Spawn instances found in ace_landblock */
+/* This script will take a very long time to complete, use to force create object instances in ace_object */
 
 USE `ace_world`;
 
